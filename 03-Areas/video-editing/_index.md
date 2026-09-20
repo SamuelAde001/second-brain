@@ -23,11 +23,16 @@ What the vault holds is deep on **how the work gets done** and empty on **how th
 
 ## Map of content
 
+**Solving problems**
+- [[troubleshooting]] — the recurring-problems log: what broke, what actually fixed it, what was never verified
+- [[fusion-recipes]] — reproducible node-by-node builds, including what was ruled out and why
+
 **The craft**
 - [[routerise-house-style]] — delivery spec, ten structural rules, track layout, cut rhythm, zooms, PIP demo system, sound design, typography, animation timing constants
 - [[fusion-node-system]] — node layout conventions, build recipes, adjustment-clip system, NeoTextMotion, worked examples from 107 comps
 - [[tsb-graphics-pipeline]] — the graphics pipeline
 - [[cut-sheets]] — how a cut gets planned before it gets cut
+- [[intro-concepts]] — intro visual concepts, mostly ideas rather than decisions
 - [[toolchain]] — Resolve, Fusion, OBS, DJI gear, bespoke tooling, and the edit clock
 
 **The work**

@@ -56,4 +56,6 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 41 | The Wednesday Teaching Series — is it still running weekly? Full list of the 20 topics, platform, attendance, and where the curriculum markdown file lives. | community | 2026-09-20 | Community operations | — |
 | 42 | Which brand does the locked Gamma brand system belong to (Cobalt Blue #0540AD, Poppins, the carousel/deck/workbook templates) — @SamuelSignals, HighSignals, or client work? If client work, it is an unrecorded service line. | personal-brand | 2026-09-20 | Brand identity | — |
 | 43 | Scripnals: were any survey responses ever collected? The validation survey went out on Fillout via group chats; no response data exists in any source. | scripnals | 2026-09-20 | Validation evidence | — |
+| 44 | Which client or project is the "video intro visual concepts" work for? It matches no documented client. | video-editing | 2026-09-20 | Client list | — |
+| 45 | Two M4V diagnostic steps (software-decode toggle, HandBrake repair) were never tested — the redownload fixed it first. Keep them in the troubleshooting log as unverified, or drop them? | video-editing | 2026-09-20 | Troubleshooting log hygiene | — |
 
