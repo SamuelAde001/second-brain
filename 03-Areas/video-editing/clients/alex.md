@@ -18,8 +18,8 @@ tags: [client]
 
 | | |
 |---|---|
-| Relationship | Routerise is the agency. Routerise assigned Samuel one client: Alex. |
-| Rate | **USD 333.33 per video** — the agency's standard rate |
+| Relationship | Route Rise Media LTD is the agency and Samuel's only payer. Alex is the original end client. A second end client at USD 175/video existed in August 2026 - see [[routerise|Route Rise]]. |
+| Rate | **USD 333.33 per video.** He has tried to raise it; Route Rise will not move; he is content with it |
 | Pace | One video in five days, depending on the video assigned |
 | Payment | Invoiced monthly to the agency for that month's videos. 70% at month end, 30% mid the following month. See [[workflow]] |
 

@@ -19,9 +19,9 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 
 ## Current status — as of 2026-09-20
 
-**One agency, one client.** Samuel works through the agency **Routerise**, which assigned him a single client: **Alex**, who runs Frontal. Rate **USD 333.33 per video** — the agency standard. Pace: **one video in five days**. Paid monthly in a 70/30 split, the 30% landing mid the following month.
+**One payer.** Samuel works through **Route Rise Media LTD**, an agency that is his only source of income. It works with two end clients; he edits for both and Route Rise sends one invoice. **Alex** (Frontal) is the original end client at **USD 333.33/video**; a second end client appeared in August 2026 at **USD 175/video**. Pace: one video in five days. Paid monthly, 70/30, the 30% landing mid the following month.
 
-The craft is documented in depth. The rest of the business — pipeline beyond this one client, turnaround and revision terms, what happens if Routerise ends — is not.
+**He has ruled out taking more clients** - the workload of this one is already high. That makes the concentration total and permanent by choice: Route Rise sets the volume and both rates, and if it goes, all of the income goes. Full arithmetic in [[income]].
 
 ## Map of content
 

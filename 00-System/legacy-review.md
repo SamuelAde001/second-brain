@@ -13,7 +13,11 @@ The Accountability Engine is archived at `08-Archive/accountability-engine/` (so
 
 **Pruned 2026-09-20 at Samuel's instruction:** the generated dashboard site, the build tooling, `scorecard.html` and `PA.md` were deleted — build artifacts and duplication, not knowledge. What remains is `context/` (the real history: ledger, money, habits, patterns, decisions, people), the ritual skill files, the enforcer agent, and the repo's own docs. The full original is still in the source repo if anything is ever needed back.
 
-**Nothing in that archive is active.** Not a rule, not a ritual, not an agent, not a habit. Samuel said on 2026-09-20 that most of its rules no longer work for him, and the memory export says the same. Each item below gets **keep / change / drop** from him during the Phase 3 interview for its domain. Only keep and change items become active, rewritten into the relevant area note.
+> ### The financial system is the exception - it is ACTIVE
+>
+> Samuel, 2026-09-20: *"The Engine's financial system is the most up to date and current system, use that system."* Every finance item below - **M1-M8, G2-G5, F3, R6, R7, R8, R12** - is **kept and active**, now living in `03-Areas/finances/`. They are listed here for provenance, not for review.
+
+**Everything else in that archive is inactive.** Not a rule, not a ritual, not an agent, not a habit. Samuel said on 2026-09-20 that most of its rules no longer work for him, and the memory export says the same. Each item below gets **keep / change / drop** from him during the Phase 3 interview for its domain. Only keep and change items become active, rewritten into the relevant area note.
 
 Factual history in the archive — ledger rows, dates, amounts, what actually happened — can be cited by link from an active note. It stays in the archive.
 
@@ -23,14 +27,14 @@ Factual history in the archive — ledger rows, dates, amounts, what actually ha
 
 | # | Item | Where | Domain | Status |
 |---|------|-------|--------|--------|
-| M1 | Savings are untouchable. Permitted withdrawals only: medical emergency, building-project shortfall that would stop work, family emergency. "A girlfriend's visit is not an emergency." | `context/money.md` | finances | unreviewed |
-| M2 | Any withdrawal from savings is logged the same day, with amount and reason in his own words. No silent withdrawals. | `context/money.md` | finances | unreviewed |
-| M3 | Savings move **on a payday**, never at month end. Cowrywise on Payday A; Goal 1 and Buffer on Payday B. Exception: if Payday A leaves more than NGN 50,000 free, the excess moves the same day. | `context/money.md` | finances | unreviewed |
-| M4 | Building project paid in full (NGN 500,000) before any discretionary line. | `context/money.md` | finances | unreviewed |
-| M5 | **No new work below USD 333 per video** without logging the reason. | `context/money.md` | finances, video-editing | unreviewed |
-| M6 | The daily ledger is the truth; the spreadsheet is a plan. A budget line claiming savings that did not move is a lie. | `context/money.md` | finances | unreviewed |
-| M7 | The investment is ring-fenced: NGN 100,000/month to Cowrywise until year end, untouchable, pays out January 2027 into stocks. Never pauses, even if other goals are behind. | `context/money.md` | finances | unreviewed |
-| M8 | **The Buffer** is where urgencies come from, never savings. NGN 50,000/month to a NGN 200,000 target. Fixed cut order when a month lands short: personal/misc → creator visits → household to NGN 20,000 → buffer → only then a conversation. | `context/money.md` | finances | unreviewed |
+| M1 | Savings are untouchable. Permitted withdrawals only: medical emergency, building-project shortfall that would stop work, family emergency. "A girlfriend's visit is not an emergency." | `context/money.md` | finances | **KEPT - active 2026-09-20** |
+| M2 | Any withdrawal from savings is logged the same day, with amount and reason in his own words. No silent withdrawals. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
+| M3 | Savings move **on a payday**, never at month end. Cowrywise on Payday A; Goal 1 and Buffer on Payday B. Exception: if Payday A leaves more than NGN 50,000 free, the excess moves the same day. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
+| M4 | Building project paid in full (NGN 500,000) before any discretionary line. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
+| M5 | **No new work below USD 333 per video** without logging the reason. | `context/money.md` | finances, video-editing | **KEPT - active 2026-09-20** |
+| M6 | The daily ledger is the truth; the spreadsheet is a plan. A budget line claiming savings that did not move is a lie. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
+| M7 | The investment is ring-fenced: NGN 100,000/month to Cowrywise until year end, untouchable, pays out January 2027 into stocks. Never pauses, even if other goals are behind. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
+| M8 | **The Buffer** is where urgencies come from, never savings. NGN 50,000/month to a NGN 200,000 target. Fixed cut order when a month lands short: personal/misc → creator visits → household to NGN 20,000 → buffer → only then a conversation. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
 | P1 | One named creator, one named date, every month. "I reached out to some people" is not a row in the ledger. | `context/people.md` | relationships | unreviewed |
 | P2 | One outreach message a week; a visit is decided seven days ahead. | `context/people.md` | relationships | unreviewed |
 | P3 | Girlfriend visits are budgeted in advance as a spending line, never funded from savings after the fact. | `context/people.md` | relationships, finances | unreviewed |
@@ -50,10 +54,10 @@ Factual history in the archive — ledger rows, dates, amounts, what actually ha
 | # | Item | Where | Domain | Status |
 |---|------|-------|--------|--------|
 | G1 | **The Big 3 for the year, in his stated order (2026-08-26):** 1. video editing ("I need to make money from video editing right now") 2. course creation ("so I make more money") 3. content creation. Used as the tiebreaker when two things want the same block. Coaching is downstream of audience; **Scripnals explicitly out of scope this year.** | `context/mission.md` | me | unreviewed |
-| G2 | NGN 1,000,000 target, plus NGN 3,000,000 on top — NGN 4,000,000 total by 31 July 2027. | `context/money.md` | finances | unreviewed |
-| G3 | Emergency fund NGN 300,000, funded from January 2027 after the NGN 1M closes. | `context/money.md` | finances | unreviewed |
-| G4 | Creator visits budget NGN 25,000/month. | `context/money.md` | finances, relationships | unreviewed |
-| G5 | Wedding July 2027 — budget and who pays which part, open since 2026-08-26. | `context/money.md` | relationships, finances | unreviewed |
+| G2 | NGN 1,000,000 target, plus NGN 3,000,000 on top — NGN 4,000,000 total by 31 July 2027. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
+| G3 | Emergency fund NGN 300,000, funded from January 2027 after the NGN 1M closes. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
+| G4 | Creator visits budget NGN 25,000/month. | `context/money.md` | finances, relationships | **KEPT - active 2026-09-20** |
+| G5 | Wedding July 2027 — budget and who pays which part, open since 2026-08-26. | `context/money.md` | relationships, finances | **KEPT - active 2026-09-20** |
 | G6 | SMART goals with a "one lever", "weekly minimum" and "cost of breaking it" per domain (money, people, spirit). | `context/*.md` | me | unreviewed |
 
 ## Failure patterns
@@ -64,7 +68,7 @@ Each was written by the weekly review with ledger evidence. They are claims abou
 |---|------|-------|--------|--------|
 | F1 | **Selective dropping, not effort collapse** — effort never collapses; the audience-facing half gets cancelled while client work continues. The thing cut is always the thing with no external deadline. *Confirmed 2026-09-02.* | `context/patterns.md` | me | unreviewed |
 | F2 | **The debt gets paid with the body** — work skipped is repaid in a single death-march session. Watch any day logging more than 12h focus: "that is not a good day, it is an invoice." | `context/patterns.md` | me | unreviewed |
-| F3 | **Money booked is not money moved** (candidate) — NGN 900,250 booked to savings across three months, NGN 305,000 survived. | `context/patterns.md` | finances | unreviewed |
+| F3 | **Money booked is not money moved** (candidate) — NGN 900,250 booked to savings across three months, NGN 305,000 survived. | `context/patterns.md` | finances | **KEPT - active 2026-09-20** |
 | F4 | **The day is lost in the morning, not the evening** (candidate) — losses happen in unstructured unsupervised gaps, and the phone fills them. "A gap that opens at 6am costs a day. A gap that opens at 5pm costs a block." Intervention under test: phone charges outside the bedroom from 10pm. | `context/patterns.md` | me | unreviewed |
 | F5 | **Scope is estimated once and never re-estimated** (candidate). | `context/patterns.md` | me, video-editing | unreviewed |
 
@@ -77,13 +81,13 @@ Each was written by the weekly review with ledger evidence. They are claims abou
 | R3 | Evening reckoning — audits the day against what was committed | `.claude/skills/reckon/` | rituals | unreviewed |
 | R4 | Weekly review — finds the week's pattern, updates `patterns.md` | `.claude/skills/reckoning-week/` | rituals | unreviewed |
 | R5 | Weekly planning — lays the week into TickTick around fixed anchors | `.claude/skills/plan-week/` | rituals | unreviewed |
-| R6 | Month-end financial close | `.claude/skills/month/` | finances | unreviewed |
-| R7 | Budget — categorises a month's spending plan into the sheet and says whether the arithmetic works | `.claude/skills/budget/` | finances | unreviewed |
-| R8 | Paid — money landed; log it and move savings the same hour | `.claude/skills/paid/` | finances | unreviewed |
+| R6 | Month-end financial close | `.claude/skills/month/` | finances | **KEPT** - rebuild as a job skill in Phase 4 |
+| R7 | Budget — categorises a month's spending plan into the sheet and says whether the arithmetic works | `.claude/skills/budget/` | finances | **KEPT** - rebuild as a job skill in Phase 4 |
+| R8 | Paid — money landed; log it and move savings the same hour | `.claude/skills/paid/` | finances | **KEPT** - rebuild as a job skill in Phase 4 |
 | R9 | Capture — add/change/drop tasks from the phone without breaking the accountability rules | `.claude/skills/capture/` | rituals | unreviewed |
 | R10 | **Enforcer subagent** — challenges rescheduling, excuses and scope drift | `.claude/agents/enforcer.md` | rituals | unreviewed |
 | R11 | Telegram push notifications | repo tooling | rituals | unreviewed |
-| R12 | Google Sheets budget bridge via Apps Script (token lived in `.env`, never copied) | scripts **deleted 2026-09-20**; the decision and mechanics are described in `context/decisions.md` | finances | unreviewed |
+| R12 | Google Sheets budget bridge via Apps Script (token lived in `.env`, never copied) | scripts **deleted 2026-09-20**; the decision and mechanics are described in `context/decisions.md` | finances | **KEPT - active.** Tooling restored 2026-09-20 |
 | R13 | Static dashboard site built from the markdown, published to GitHub Pages | **deleted 2026-09-20** — generated output, not knowledge. Still in the source repo `SamuelAde001/engine` if ever needed | system | dropped |
 | R14 | Two-touch day structure and the "new day shape" set 2026-09-15 | `context/habits.md` | me | unreviewed |
 | R15 | Morning movement six days a week, replacing "gym 3×/week" as the tracked habit (2026-09-02) | `context/habits.md` | me | unreviewed |

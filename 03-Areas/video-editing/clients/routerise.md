@@ -7,7 +7,7 @@ source: claude-export
 tags: [client]
 ---
 
-# Routerise (agency)
+# Route Rise Media LTD (agency)
 
 **Status:** active — the agency Samuel currently works through
 **Contact channel:** needs-input — not stated in the source documents.
@@ -86,3 +86,21 @@ Dates are not stated in the source documents except where noted; do not infer an
 No revision requests are recorded in the source documents. needs-input if Samuel wants this tracked going forward.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]
+
+---
+
+## Corrected and expanded 2026-09-20, from the engine's money record
+
+**The legal name is Route Rise Media LTD.** "Routerise" is the spelling used in Samuel's folders and earlier notes.
+
+- **It is his only payer.** 100% of income arrives through one monthly invoice to this one company.
+- **Route Rise works with two end clients.** Samuel edits for both and sends **one invoice covering both**.
+  - Original end client — **USD 333.33/video**. He has tried to raise it; they will not move; he is content with it.
+  - Second end client — **USD 175/video**, new August 2026, 2 videos agreed, may or may not recur.
+  - **Both rates are set by Route Rise.** The USD 175 rate cost about NGN 432,241 on the August batch.
+- **Named contact: Lewis Mountstephens.** Payment timing is his to control, not Samuel's — in August he moved the date and August's 70% landed 1-3 September instead of 31 August. **The invoice still goes out on the 29th regardless.**
+- **Samuel has ruled out taking more clients** - one client's workload is already high. His call, not to be re-litigated.
+
+**The concentration is total.** The end clients are Route Rise's relationships, not his; the USD 175 client does not survive Route Rise leaving. Full arithmetic in [[income]].
+
+> In the 2026-09-20 interview Samuel described this as "one client called Alex". The engine's record (2026-08-27) says two end clients. Likeliest reading: the USD 175 client did not recur. Not resolved.

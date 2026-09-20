@@ -1,119 +1,76 @@
 ---
 type: knowledge
 area: finances
-status: needs-input
+status: active
 updated: 2026-09-20
-source: claude-export
+source: legacy-accountability-engine
 tags: [budget, spreadsheet]
 ---
 
-# Budget system — percentage-based, automated
+# The budget system — "My Claude Budget"
 
-From the chat `01-Inbox/_imports/processed/shortlist/finances/2026-07-16-percentage-based-budget-system-with-automated-calculations.md`, 2026-07-16.
+The live system, confirmed by Samuel 2026-09-20. A Google Sheet called **"My Claude Budget"**, created 2026-08-26 and last modified **2026-09-16**.
 
-## The problem Samuel was solving
+It was moved to Google Sheets so Claude Code could write it directly instead of Samuel typing updates by hand.
 
-His existing Google Sheets budget used fixed manually-typed amounts per category and, in his words, "is not good enough for my financial discipline." His income varies month to month, so he wanted a system where money entering the sheet is automatically divided into buckets by **percentage**, not typed in by hand.
+**Tabs:** Dashboard · Setup · Income · Expenses · Transfers · Budget · Details. It covers **August 2026 – July 2027**, so it reaches both goals.
 
-## The three fixed buckets — his decision
+## The ledger is the source of truth, not the sheet
 
-Stated directly by him, 2026-07-16:
+The engine's `context/money-ledger.md` is the text record. **The sheet is the budgeting layer; the ledger is the record. If the two disagree, the ledger wins** — Rule 6 in [[money-rules]].
 
-> "I want to have 20% for savings, 20% for business, 27.7% for building project."
+That is not theoretical: the sheet and the ledger currently disagree about Cowrywise by NGN 368,041. See [[pots-and-accounts]].
 
-- **Savings — 20%**
-- **Business — 20%**
-- **Building Project — 27.7%**
-- **Remaining 32.3%** — split across expense categories (rent/feeding/family/etc.)
+## The design rule that fixed the old sheet
 
-The specific categories and percentages that make up the remaining 32.3% were **never finalized by Samuel in this chat**. The categories used in the built spreadsheet (Tithe, Feeding, Family Support, and others, adding to 32.3%) were the assistant's placeholder example, explicitly flagged as such: "you'll rename/resize these to match your real life, since only you know how much ... [each] should actually get." Treat those specific sub-percentages as **not decided** — see needs-input below.
+> **Nothing is typed on the Budget or Dashboard tabs.**
 
-## What his existing sheet actually tracked (as of 2026-07-16)
+Budget's plan column reads Details. Its month columns read Expenses. Its savings block reads Transfers — all through `SUMIFS`. **A budget line cannot claim money moved when no row exists.**
 
-Read from his own screenshots, not invented. Two categories of recurring buckets already existed on his old sheet:
+That was the entire bug in the old sheets, and it is what let NGN 900,250 be booked to savings when only NGN 305,000 existed.
 
-**Personal category items:** Tithe, Savings, Dad, My Babe, Building Project, My money, Kemi, Gaming, Mom, Jos, Emergency funds, Givings. A later version of the sheet added: Feeding, TP, Wedding, Misc, Brand support, Clothing, Workers Salary.
+The Dashboard says it on its own face:
 
-**Business category items:** Capcut Pro, Canva, YouTube Premium, Editor, Google Sub, Data and recharge, HighSignals Devs.
+> *"Nothing is typed on this sheet. If a number here is wrong, the row that is wrong is on Income, Expenses or Transfers."*
 
-**Business recurring payments** (from the sheet, no date range given beyond "as of 2026-07-16"): Google Sub NGN 23,000 (30th) · Data/recharge NGN 10,000 · Capcut Pro NGN 10,000 (14th) · X Premium NGN 8,000 (5th) · Canva Pro NGN 2,800 (22nd) · YouTube Premium NGN 1,700 (14th).
+## The Details tab
 
-**Personal recurring payments:** Parents NGN 100,000 · Gym NGN 30,000.
+Answers "what is this category actually made of" — every subscription, every line, with amount, due day, tier and payday. **It is the only place a plan number is typed.**
 
-## Income structure — his own words
+**Cancelled items go Active = No. They are never deleted** — a subscription that reappears in three months is a pattern, and a deleted row hides it.
 
-> "My income comes in two batches. They don't pay me 100% income immediately, at the month end, I get paid 70% and at the middle of the next month I get paid 30% remaining."
+## How Claude writes it
 
-He also gets irregular "extra income" from other streams. His income is USD-denominated ("my income is always in Dollars") and needs converting to NGN for the budget.
+Through `tools/sheets/` in the engine repo — an **Apps Script web app bound to the sheet**. Credentials live in a gitignored `.env` that was never copied into the Brain.
 
-## What tool this runs in
+- `tools/sheets/README.md` — setup and security
+- `tools/sheets/plan.json` — the line items behind every category
+- `tools/sheets/build_budget.py` — rebuilds the Budget and Details tabs from `plan.json`
+- `tools/sheets/Code.gs` — the Apps Script itself
 
-The original ask was a **prompt for Gemini inside Google Sheets** to build the system. Partway through, Samuel switched the request: "Create for me a ready-made .XLSX file with everything you have said." The assistant built the workbook directly with `openpyxl` (Excel-compatible formulas, data validation, conditional formatting, named ranges) rather than writing a Gemini prompt, and the intended path is:
+Archived at `08-Archive/accountability-engine/tools/sheets/`. *(These files were deleted in the 2026-09-20 prune as "build tooling" and restored from git history the same day once Samuel confirmed this system is live. They are not build artifacts — they are the budget system.)*
 
-**File → Import → Upload → "Replace spreadsheet" or "Insert as new sheet"** to bring it into Google Sheets. Conditional formatting and data validation are stated to carry over on import, with the caveat that Google Sheets sometimes turns a hard-reject validation into a soft warning.
+## What the Dashboard shows
 
-One feature — auto-filling today's date when a Date cell is clicked in the Expense Log — cannot live in an xlsx file, since xlsx can't execute code. It ships separately as a short Google Apps Script (`onSelectionChange` trigger) meant to be pasted into Google Sheets under **Extensions → Apps Script** after import. It watches the Expense Log's date column and stamps the current date into any blank cell clicked.
+Read 2026-09-16, with the live figures in [[pots-and-accounts]]:
 
-**Status: not confirmed whether Samuel has actually imported this into Google Sheets or is using it day to day.** No source states that. See needs-input.
+- **Where the money is** — bank liquid, Goal 1, emergency fund, Cowrywise investment, buffer, and "SAVED TOWARD THE GOAL" which deliberately excludes the investment and the buffer.
+- **Goal 1 and Goal 2 progress** — target, saved, still to find, months remaining, and **needed per month from here**. That last one is the honest number: *"If this number keeps going up, the month is being lost."*
+- **Reality check** — obligations floor NGN 936,800, plus the NGN 100,000 investment, so **committed outflow NGN 1,036,800/month**, and the income needed to hit the goal: **NGN 1,291,313/month**.
+- **What the client mix produces** — 4 videos clears it, the August mix clears it, 2 videos is short by NGN 381,322.
+- **Month by month** — income in, spent, surplus, and what moved to each pot. September 2026: **income NGN 1,373,937, spent NGN 1,273,708, surplus NGN 100,229.**
+- **THE MONTH MUST BALANCE** — bills + one-offs + every pot = income, exactly.
 
-## How the automation works
+## The earlier percentage design — not adopted
 
-**Income Log.** Each income entry gets: source, currency (USD/NGN dropdown), original amount, an exchange rate (entered per row, not one shared global cell — so a rate change doesn't retroactively alter old entries), the calculated NGN amount, and a "Received? Yes/No" dropdown. Two totals are kept side by side: total **expected** income for the month (every row) and total **received** income so far (only rows marked Yes).
+A different budget was designed on 2026-07-16 in a Claude chat: fixed buckets of Savings 20%, Business 20%, Building Project 27.7%, with the remaining 32.3% split across expense categories, built as an `.xlsx` with `openpyxl` for import into Google Sheets.
 
-**Category / Bucket Allocation table.** One row per bucket (Savings, Business, Building Project, plus the expense categories), each with: percentage, **Allocated Budget** (= total expected income × percentage), **Budgeted** (pulled from the Budget Planner — money pre-planned for that category), **Unallocated**, **Expenses** (pulled live from the Expense Log via `SUMIF` matching on category), **Remainder** (Allocated − Expenses).
+**It was never adopted.** The 32.3% split was never finalised, and Samuel confirmed on 2026-09-20 that the engine's system is the current one. The percentage design is recorded here in one paragraph rather than kept as a second, competing budget note.
 
-**Budget Planner.** A separate table for planning ahead — e.g. "Rice & Beans — NGN 20,000 — Feeding" — distinct from the Expense Log, which only records money actually spent. Planned vs. actual are two different numbers, each with its own remainder, matching what Samuel originally asked for.
+One thing from it is worth carrying: his instruction on how the sheet should behave when allocation is wrong.
 
-**Expense Log and Budget Planner category dropdowns are self-updating** — both pull live from the Bucket Allocation table's category column, so renaming, adding, or removing a bucket updates every dropdown automatically with nothing retyped.
+> *"I don't want any pop up messages, in fact, allow the allocation to me more than 100%, let me see it in red when it is more than 100% so I can adjust."*
 
-**The 70/30 cash-timing fix.** Because only part of expected income has usually landed, the system tracks two parallel numbers:
-- **Budget Remainder** — based on the full expected month's income. Answers "is my plan on track."
-- **Cash Balance** — based only on income marked Received. Answers "what's physically in my account."
+**No blocking validation. Colour is the only signal.** Apply that to anything built for him.
 
-A **Receipt Ratio** (Received ÷ Expected) scales every bucket's "Cash Available" proportionally as more income lands, so a bucket doesn't show money as safe to spend before it has actually arrived. This is described as an approximation — "it's not a perfect cash-flow model since it assumes proportional income distribution rather than lump payments to specific buckets" — not a full date-based cash waterfall.
-
-**Percentage lock — reversed on Samuel's instruction.** The first build hard-blocked any entry that would push total allocation over 100% (a rejecting data-validation popup). Samuel rejected this:
-
-> "It's giving me an error when the allocation percentage is not correct, I don't want any pop up messages, in fact, allow the allocation to me more than 100%, let me see it in red when it is more than 100% so I can adjust."
-
-Final behavior: no blocking validation anywhere. The TOTAL % cell in the Category table turns **green at ≤100%, red at >100%** — color is the only signal.
-
-**Conditional formatting (final state):** a category's Budgeted cell turns red if it exceeds its Allocated Budget; its Expenses cell turns red if it exceeds Allocated; Remainder and Cash Remainder turn red if negative.
-
-**Dashboard — simplified on Samuel's instruction.** He said the first dashboard was "too complex and complicated," with words "hard to understand," and asked for "less complex" and "more user friendly." It was cut from 10 rows to 6, jargon removed:
-
-| Old label | Final label |
-|---|---|
-| Total Income (Expected, Full Month) | Income This Month |
-| Total Income (Received So Far) | Received So Far |
-| Receipt Ratio (% of month received) | % Received |
-| Total Expenses (Actual Spend) | Spent So Far |
-| Budget Remainder (Full-Month Plan) | Left In Plan |
-| CASH BALANCE (actual) | **CASH IN HAND** — the headline number, bold and gold-highlighted |
-
-Rows duplicating the Category table (Total % Allocated, Total Allocated Budget, Total Budgeted) were dropped from the dashboard entirely.
-
-## Worked example built into the sheet (demo data, not live figures)
-
-Exchange rate NGN 1,600/USD. Income: USD 312.5 → **NGN 500,000** expected for the month, split as the 70/30 real-world pattern (received NGN 350,000 = 70%, pending NGN 150,000 = 30%, landing mid-following month).
-
-Feeding bucket in the demo:
-- Allocated Budget: NGN 30,000
-- Budgeted (planned — "Rice & Beans"): NGN 20,000
-- Unallocated: NGN 10,000
-- Expense logged: NGN 8,000
-- Remainder (full-month plan): NGN 22,000
-- Cash Available (at 70% Receipt Ratio): NGN 21,000
-- **Cash Remainder (actually safe to spend right now): NGN 13,000**
-
-Whole-sheet reconciliation in the demo: total Cash Available NGN 350,000 (matches received income), total Cash Remainder **NGN 342,000** (= received NGN 350,000 − the one logged expense of NGN 8,000 in the demo data).
-
-## needs-input
-
-- The exact categories and percentages making up the 32.3% "remaining" bucket — never confirmed by Samuel, only proposed as an example.
-- Whether this system was actually moved into Google Sheets and is in current use as of 2026-09-20.
-- Whether the Apps Script auto-date snippet was ever pasted in.
-- Current NGN↔USD exchange rate in use (the 1,600 figure above is from the worked example only, dated 2026-07-16 — not a standing rate).
-
-
-Back to [[03-Areas/finances/finances|Finances]]
+Related: [[money-rules]] · [[obligations]] · [[income]] · [[pots-and-accounts]]. Back to [[03-Areas/finances/finances|Finances]]
