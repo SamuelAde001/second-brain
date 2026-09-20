@@ -11,11 +11,13 @@ tags: []
 
 ## What this is
 
-The mentorship branch of the HighSignals brand ([[../highsignals/_index]]). In the ascension model from the 2026-07-23 project docs, mentorship is where the teaching gets personalised — after the Academy equips and the community implements.
+**HighSignals Mentorship** — the premium tier of the HighSignals brand ([[../highsignals/_index]]): **one-on-one mentorship directly with Samuel**, applying Academy and community lessons to the individual's specific niche, audience and goals.
+
+Third stage of the ladder — after the Academy equips and the community implements, mentorship personalises.
 
 ## Why it matters
 
-It is the only branch that scales down instead of up: one person at a time, highest touch, presumably highest price.
+It is the only branch that scales down instead of up: one person at a time, highest touch, and named in the source as **the premium tier** — so presumably the highest price and the biggest claim on Samuel's own hours, which are already the bottleneck ([[../../02-Me/_index]]).
 
 ## Current status — as of 2026-09-20
 
@@ -31,7 +33,9 @@ See [[goals]]. Not set yet.
 
 ## Open questions
 
-- What the offer actually is: format, length, what a mentee gets.
+- What the offer actually is: format, length, session cadence, what a mentee gets.
+- Price, and how it compares to Academy and community.
+- How many hours a week it costs him.
 - Who it is for, and how someone qualifies or applies.
 - Current and past mentees (first name and progress only — no personal data).
 - Curriculum, pricing, outcomes so far.

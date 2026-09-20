@@ -17,7 +17,15 @@ It is not the whole of HighSignals, and it is not Samuel's personal brand — th
 
 ## Why it matters
 
-In the ascension model described in the project-setup docs, the community is where people implement what the Academy taught them, before mentorship personalises it.
+Second stage of the ladder: Academy teaches, the community is where people **implement and are held to it**, before mentorship personalises it.
+
+## How it runs — from the brand doc (2026-07-21)
+
+- **An accountability tracker monitors posting consistency.**
+- **Members who stop posting for an extended period are removed.** The source does not define "extended period" — see open questions.
+- Includes **group content reviews** and **live sessions**.
+
+That removal rule is the sharpest thing recorded about any branch: membership is conditional on actually publishing.
 
 ## Current status — as of 2026-09-20
 
@@ -29,9 +37,10 @@ An earlier conflict — whether HighSignals was the umbrella or the community �
 
 ## Open questions
 
-- Platform, size, rituals, engagement, moderation rules, monetisation.
-- Relationship to the personal brand and to the Academy.
-- Is membership paid? What do members get?
+- Platform, size, engagement, monetisation. Is membership paid?
+- How long is "an extended period" before a member is removed, and who enforces it? Is the accountability tracker a real tool or a manual check?
+- How often are the group content reviews and live sessions, and does he still run them?
+- Whether the removal rule is actually enforced, or aspirational.
 
 ## Map of content
 

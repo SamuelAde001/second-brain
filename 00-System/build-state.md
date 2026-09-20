@@ -74,3 +74,11 @@ Current Gemini CLI uses the nested key `context.fileName` in `settings.json`, no
 - 2026-09-20 — Correction from Samuel: HighSignals is his **community**; his personal brand is himself, Instagram @SamuelSignals. AGENTS.md fixed, decision recorded (`a5f4c21`).
 - 2026-09-20 — Remote added and pushed by Samuel. `git ls-remote` confirms `refs/heads/main` at `a5f4c21`.
 - 2026-09-20 — Phase 2 source 1 (project handover docs) distilled into 9 notes + 36 area scaffold files (`4815c22`). 8 new open questions logged. Awaiting calibration gate.
+
+## Known defect to fix (raised 2026-09-20)
+`[[wikilinks]]` to `_index`, `goals`, `log`, `decisions` and `ideas` are **ambiguous**: those filenames exist once per area, and Obsidian resolves a bare `[[_index]]` by filename, not by folder. Relative forms like `[[../community/_index]]` do not resolve in Obsidian at all — it has no `../` syntax for wikilinks.
+
+**Fix:** links to any filename that repeats across areas must be vault-relative with an alias, e.g. `[[03-Areas/community/_index|HighSignals Community]]`. Unique filenames (`brand-context`, `script-process`, `systems-register`) can stay short.
+
+Run a sweep over every note once the running extraction subagents finish, then update `00-System/conventions.md` and AGENTS.md §4 to state the rule.
+

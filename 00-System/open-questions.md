@@ -26,8 +26,15 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 11 | Is the ascension model (Academy equips → Community implements → Mentorship personalises → Scripnals executes) still how HighSignals actually works? | highsignals | 2026-09-20 | Phase 3 interview | — |
 | 12 | Where does the future book sit — under HighSignals, under the personal brand, or on its own? | highsignals | 2026-09-20 | Phase 3 interview | — |
 | 13 | The companion doc "HighSignals — Content & Brand Context" referenced by the 2026-07-24 instructions is missing; Samuel thinks he deleted it and has deprioritised it. Its content gets rebuilt by interview when needed. | personal-brand | 2026-09-20 | Not blocking — deferred by Samuel | — |
-| 14 | Abuja or Lagos? The build spec's starting context says Abuja; the "MY PA" project instructions (2026-08-24) say Lagos. | me | 2026-09-20 | Anything time/place sensitive | — |
-| 15 | Which military branch? Brand context says "soldier in the Nigerian military"; "MY PA" instructions say "Ex-Nigerian Air Force". The story is a content pillar, so the detail matters. | me | 2026-09-20 | The Journey pillar | — |
+| 14 | ~~Abuja or Lagos?~~ | me | 2026-09-20 | — | 2026-09-20: **Abuja**, per memory export `/profile.md` (2026-09-04). |
+| 15 | ~~Which military branch?~~ | me | 2026-09-20 | — | 2026-09-20: **Nigerian Air Force veteran**, per memory export `/profile.md`. Do not raise it unless he does. |
 | 16 | Series names for pillars 3, 4 and 5 (Storytelling / The Journey / Build With Me), a signature catchphrase, and a CTA line built around "visibility" — all still undecided as of 2026-07. | personal-brand | 2026-09-20 | Content production | — |
 | 17 | Is the posting rhythm (1× cinematic, 3× talking head, 1× BTS per week) still what he actually does? It was written around the full-time editing job in 2026-07. | personal-brand | 2026-09-20 | plan skill capacity checks | — |
+| 18 | Community: how long is "an extended period" of not posting before a member is removed, is the accountability tracker a real tool or a manual check, and is the rule actually enforced? | community | 2026-09-20 | Community operations | — |
+| 19 | Which HighSignals branch actually earns money, and how many people are in each today? | highsignals | 2026-09-20 | Finance + goal ladder | — |
+| 20 | USD retainer goal has no numbers: how many retainers, at what monthly value, by when? Also: current pipeline, outreach method, conversion rate. | video-editing | 2026-09-20 | Goal ladder, finance targets | — |
+| 21 | Who is the other video editor he asked about landing USD retainers for, and what is the arrangement? | video-editing | 2026-09-20 | Scope of his work | — |
+| 22 | Which "previously planned coaching brand and its associated app, which never launched" was he considering dropping (memory, 2026-09-04)? Contentinfluence, or something else? | personal-brand | 2026-09-20 | Past-attempts note | — |
+| 23 | The educational storytelling structures reference named hook/CTA "sections of template" (education, myth, follow, sales, engagement, authority, step-by-step) that are not in any imported file. Does that bank still exist? | personal-brand | 2026-09-20 | Script writing | — |
+| 24 | Current Instagram numbers: followers, reach, engagement, best and worst performers. | personal-brand | 2026-09-20 | brainstorm skill | — |
 
