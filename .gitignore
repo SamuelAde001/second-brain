@@ -1,0 +1,30 @@
+# Migration sources — raw, read-only, never committed
+01-Inbox/_imports/
+
+# Obsidian local state
+.obsidian/workspace*.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.trash/
+
+# Secrets — never commit, never store in this vault at all
+.env
+*.env
+*.pem
+*.key
+credentials*.json
+token*.json
+
+# OS noise
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Large media — the vault is text. Attachments are screenshots and small images only.
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.braw
+*.drp
+*.zip
