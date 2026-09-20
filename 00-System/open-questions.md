@@ -41,4 +41,8 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 26 | ~~Does postgraduate study get its own area?~~ **VOID** — see 25. No study area. | system | 2026-09-20 | — | 2026-09-20 |
 | 27 | Confirm the cut-sheet beat fields (picture / on-screen text / motion / cut-back-to-A-roll). They are reconstructed from one descriptive line, not from an actual cut sheet. | video-editing | 2026-09-20 | Cut-sheet SOP | — |
 | 28 | The four existing skills (`edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner`) are platform-provided, not files on disk, so they cannot be copied into `.claude/skills/` and Gemini cannot run them. Author vault-local equivalents, or accept they are Claude-only? | system | 2026-09-20 | Phase 7 portability | — |
+| 29 | What happened to the Notion migration? On 2026-08-28 Samuel decided plainly: "Notion becomes source of truth, repo retires." The memory export of 2026-09-04 says "Never used Notion for anything." Both recorded, neither picked. | me | 2026-09-20 | systems-history accuracy | — |
+| 30 | What triggered archiving the whole Accountability Engine on 2026-09-16 rather than revising it? No source covers the gap. | me | 2026-09-20 | Legacy review | — |
+| 31 | Was any gym/cardio routine actually adopted, or the coffee-with-milk adjustment? Both were proposed in chat and never confirmed. | me | 2026-09-20 | Health note, habit design | — |
+| 32 | Does the self-reported spiritual-discipline streak (2026-08-26) stay in an active note, or move to private/archive? It is in `02-Me/discipline.md`, and the vault syncs to GitHub and the phone. | me | 2026-09-20 | Samuel's call | — |
 
