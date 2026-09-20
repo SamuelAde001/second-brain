@@ -115,6 +115,5 @@ Whole-sheet reconciliation in the demo: total Cash Available NGN 350,000 (matche
 - Whether the Apps Script auto-date snippet was ever pasted in.
 - Current NGN↔USD exchange rate in use (the 1,600 figure above is from the worked example only, dated 2026-07-16 — not a standing rate).
 
-Not yet added to `00-System/open-questions.md` — out of scope for this pass; flag for that file.
 
 Back to [[03-Areas/finances/finances|Finances]]

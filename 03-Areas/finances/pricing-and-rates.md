@@ -69,6 +69,5 @@ Samuel's stated need: a bookable, paid 1:1 link, working from Nigeria, for a mos
 - Who the "other video editor" is and what the working arrangement is.
 - Any minimum rate Samuel personally holds to. Note: the archived legacy Accountability Engine had a rule — "no new work below USD 333 per video without logging the reason" (`00-System/legacy-review.md`, item M5) — that rule is **archived and unreviewed**, not active, and nothing in these sources confirms or replaces it. Flagged here only so it isn't lost; it is not being treated as current policy.
 
-Not yet added to `00-System/open-questions.md` — out of scope for this pass; flag for that file.
 
 Back to [[03-Areas/finances/finances|Finances]]

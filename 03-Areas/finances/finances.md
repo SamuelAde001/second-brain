@@ -45,7 +45,6 @@ See [[03-Areas/finances/finances-goals|Goals]] — not yet set (Phase 3 intervie
 - Whether a mentorship-booking payment link was ever set up, and at what price ([[pricing-and-rates]]).
 - Reconciling the archived legacy money rules against the current percentage-based system, or formally deciding the legacy rules are dropped.
 
-Not yet added to `00-System/open-questions.md` (out of scope for this pass) — should be, per AGENTS.md §4.
 
 ## Related areas
 - [[03-Areas/video-editing/video-editing|Video editing]] — the income source; retainer-client goal lives there too

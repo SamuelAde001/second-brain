@@ -50,7 +50,6 @@ He approved the full set of proposed edits ("Yes draft out all the changes you p
 - The two-persona model and the ₦15,000-25,000 pricing figure are both cited from a "master doc" not present in the vault's sources — worth locating and importing if it still exists.
 - No response data of any kind — the survey's actual results are not recorded anywhere.
 
-Not yet added to `00-System/open-questions.md` — out of scope for this pass; flag for that file.
 
 Back to [[03-Areas/scripnals/scripnals|Scripnals]]
 
