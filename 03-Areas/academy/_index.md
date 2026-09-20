@@ -19,7 +19,9 @@ Described in the source doc as the first stage of an ascension model — Academy
 
 ## Current status — as of 2026-09-20
 
-Unknown. The vault holds the course lineup and the boundary between the courses, and nothing else. No curriculum outline per course, no platform, no pricing, no launch date, no student numbers. There is a `Course/Called to Edit Academy Beginners` folder on disk (`Desktop/HighSignals/Course/`) whose contents have not been inventoried.
+**Called to Edit: Beginners is designed in full** — seven modules, module by module, with a teaching spine used on every lesson. That curriculum is now in the vault ([[called-to-edit-beginners/_index|Called to Edit Beginners]]).
+
+The other two courses — Called to Create and Called to Edit Advanced — exist as positioning only. No platform, pricing, launch date or student numbers are recorded for any of them. A `Course/Called to Edit Academy Beginners` folder on disk (`Desktop/HighSignals/Course/`) has not been inventoried.
 
 ## Goals
 
@@ -28,6 +30,9 @@ See [[goals]]. Not set yet.
 ## Map of content
 
 - [[courses]] — the three courses, the hard line between them, the brand filter
+- [[called-to-edit-beginners/_index|Called to Edit: Beginners]] — the full course: who it is for, the promise, the module map, where it stops
+  - [[called-to-edit-beginners/teaching-rules|Teaching rules]] — the lesson spine, recording rules, shot types
+  - Seven module notes: the editor's mindset · the cut · typography · visuals & motion · colour · audio & sound design · workflow & assets
 - [[ideas]] · [[decisions]] · [[log]] · [[goals]]
 
 ## Open questions

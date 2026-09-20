@@ -57,6 +57,7 @@ From the memory export, 2026-09-04, and this is genuinely all that is recorded:
 
 - [[story]] — the soldier-to-creator arc, as far as the sources tell it
 - [[how-to-work-with-me]] — tone, boundaries, what he wants from an agent
+- [[postgraduate-study]] — **an active postgraduate engineering degree the build spec did not know about.** Read this before planning his capacity.
 - `goals/` — the goal ladder (10-year → 3-year → 1-year → quarter). **Empty.** Built in Phase 3.
 
 ## Still missing entirely
