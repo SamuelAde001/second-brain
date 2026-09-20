@@ -29,7 +29,9 @@ That removal rule is the sharpest thing recorded about any branch: membership is
 
 ## Current status — as of 2026-09-20
 
-Almost entirely unknown. No platform, size, rituals, engagement level, moderation rules or monetisation recorded. There is a `Desktop/HighSignals/HighSignals COmmunity/` folder and a Notion export of a members list on disk. The members list is **not** imported — it is other people's personal data (see `00-System/security-flags.md`).
+**The Wednesday Teaching Series is the live thing here** — weekly sessions running August to year end, on a 20-topic curriculum in five blocks. See [[wednesday-teaching-series]]. It is a relaunch: Samuel had paused community teaching to focus on client editing work.
+
+Beyond that, almost entirely unknown. No platform, size, rituals, engagement level, moderation rules or monetisation recorded. There is a `Desktop/HighSignals/HighSignals COmmunity/` folder and a Notion export of a members list on disk. The members list is **not** imported — it is other people's personal data (see `00-System/security-flags.md`).
 
 ## Resolved 2026-09-20
 
@@ -44,6 +46,7 @@ An earlier conflict — whether HighSignals was the umbrella or the community �
 
 ## Map of content
 
+- [[wednesday-teaching-series]] — the weekly sessions and their curriculum
 - [[03-Areas/community/ideas|Ideas]] · [[03-Areas/community/decisions|Decisions]] · [[03-Areas/community/log|Log]] · [[03-Areas/community/goals|Goals]]
 
 ## Related areas

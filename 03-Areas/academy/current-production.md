@@ -1,0 +1,75 @@
+---
+type: knowledge
+area: academy
+status: active
+updated: 2026-09-20
+source: memory-export
+tags: [curriculum, production]
+---
+
+# Current production state
+
+From the Claude memory export for the HighSignals Academy project, 2026-09-06. **This is more current than [[courses]] and than the teaching-structure document**, and it changes the picture in one important way: the active course is a **CapCut** course, not a DaVinci one.
+
+## The active course: Called to Edit — CapCut Creator Course
+
+- Targets **complete beginners creating personal content using CapCut** (free tier, mobile and PC).
+- Samuel is a professional DaVinci Resolve editor. His craft and theory transfer to any tool; CapCut's software-specific mechanics are being closed by **re-cutting existing projects in the new tool**.
+- Excludes professional monetisation content and content-strategy territory — those belong to Advanced and to Called to Create.
+
+## The three-course roadmap, built sequentially
+
+1. **Called to Edit: CapCut Creator Course** — active focus.
+2. **Called to Edit: Advanced Academy** — future. Advanced techniques and professional tools, primarily DaVinci Resolve.
+3. **Called to Create Academy** — future. Ideation, scripting, filming, posting.
+
+**Each course is sold individually**, so Advanced must work as a standalone purchase for a true beginner. The solution recorded: **Part 1 of Advanced reuses Beginner content as-is; bundle buyers get Part 1 auto-marked complete** via platform progress tracking. That avoids rewriting content while still serving every buyer type.
+
+## Shape of the course
+
+- **31 lessons plus 5 live edit sessions, across 8 modules.**
+- The **mindset module comes before any technical instruction** — deliberate, to set the frame.
+- **Module 0 "The Editor's Mindset" is in active lesson development.**
+- Lesson 2 (the Editor's Mindset principle lesson) has been reviewed, restructured and produced as a full PPTX slide deck.
+
+### The five-beat lesson structure
+
+Every lesson: **Open → Principle → Demo → Trap → Drill.**
+
+## Production pipeline
+
+Slide decks are built **directly in PPTX via `pptxgenjs`** — adopted after **Gamma produced unsatisfactory results**. Worth knowing before anyone suggests Gamma for course slides again.
+
+## Teaching principles
+
+- **Signal vs noise is the non-negotiable filter:** teach what creates audience impact, not button tutorials.
+- **Editing principles first, software second.** Theory and craft transfer across tools.
+- **Mindset before mechanics.**
+- **Early exposure over perfect sequencing.** Samuel deliberately keeps Drill checklist items that touch later-module territory. The memory file is explicit: *"This preference should be respected and not second-guessed in future lesson reviews."*
+- Create Academy's overlap with the Edit courses is resolved **by teaching angle** — creative decision-making vs technical execution — **not by removing content**.
+
+## Curriculum decisions already made
+
+**Nine lessons merged or removed** from the original curriculum: duplicate pacing lessons combined · caption lessons combined · colour matching + preset saving combined · B-roll sourcing + asset library combined · file organisation + templates combined · cloning effect folded into the masking lesson · green screen reframed as background removal/keying.
+
+**One lesson added:** Final Review Pass — mute test, 2× speed test, phone test.
+
+## Lessons needing hands-on CapCut verification before recording
+
+Flagged because Samuel does not use CapCut daily, organised in batches aligned to module recording order:
+
+L05 shortcuts · L11 / L14 keyframe easing · L13 auto-captions · L16 speed ramping · L18 mask tracking · L21 adjustment layers · L22 preset / copy attributes · L27 noise reduction · L29 templates.
+
+## ⚠️ Reconcile with the other curriculum note
+
+[[called-to-edit-beginners/_index|Called to Edit: Beginners]] was extracted from a teaching-structure document and describes **7 modules** (editor's mindset, the cut, typography, visuals & motion, colour, audio & sound design, workflow & assets) with no mention of CapCut. This memory file says **8 modules, 31 lessons + 5 live sessions, CapCut-based**.
+
+Most likely the same course at two points in its life, but that is an inference. Both are recorded with their dates. Samuel confirms which is current in the interview — logged in `00-System/open-questions.md`.
+
+## On the horizon
+
+- Lesson-by-lesson development and slide production through the remaining modules.
+- Hands-on CapCut verification for the flagged lessons before those modules record.
+- Advanced and Called to Create come after.
+
+Back to [[03-Areas/academy/_index|Academy]]

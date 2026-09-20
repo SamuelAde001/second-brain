@@ -53,3 +53,34 @@ He approved the full set of proposed edits ("Yes draft out all the changes you p
 Not yet added to `00-System/open-questions.md` — out of scope for this pass; flag for that file.
 
 Back to [[03-Areas/scripnals/_index|Scripnals]]
+
+---
+
+## From the memory export (2026-09-06)
+
+Added by the main session after the chat-export pass, from the Scripnals project memory. More current than the survey design conversation.
+
+**Where validation actually got to:** a user-validation survey **hosted on Fillout**, with a pitch message distributed **across group chats** (WhatsApp, iMessage) targeting content-creator communities. No response data exists in any source.
+
+**Product scope, stated:**
+- **In scope:** Content Auditor.
+- **Out of scope:** Content Calendar, Content Ideation.
+
+**The key product insight:** a persona split between creators building **authority / lead generation** and creators building **audience / engagement**. This split "underpins the onboarding fork and the AI personalization logic" — it is a product-architecture decision, not just a marketing segment.
+
+**A firm brand rule, and it is absolute:**
+> HighSignals operates as a quiet background layer and **must never surface consumer-facing** — this extends to every touchpoint in the sharing flow: link previews, survey metadata, subdomains. Not just in-app UI.
+
+**The brand leak that proved it matters:** the survey's Open Graph metadata, page title and subdomain were surfacing "HighSignals" instead of Scripnals in link-preview cards. Fix lever: Fillout's custom OG/page-title settings, or a branded redirect slug.
+
+**Survey audit findings, all recorded as problems found:** naming inconsistencies leading with HighSignals · Content Auditor missing from the feature-prioritisation question · an **uncapped "Lifetime 50% Discount" offer carrying monetisation risk** · an unfilled placeholder on the thank-you screen · a screener wrongly excluding YouTube Shorts · a missing persona-segmentation question.
+
+**Survey sequencing principles, learned here:**
+1. Pain-point questions come **before** the concept pitch.
+2. The persona split belongs immediately **after** the screener.
+3. Pricing comes **before** the brand reveal.
+4. Feature-prioritisation questions only list in-scope features.
+
+**Pitch copy:** the group-chat message was judged too generic — the concrete differentiator was missing. The differentiator to lead with is **"voice note in → structured script out, fast."**
+
+**Next steps recorded:** distribute the refined pitch, collect responses, possibly add per-group-chat attribution via redirect slugs, then further app development.

@@ -29,6 +29,7 @@ See [[03-Areas/academy/goals|Goals]]. Not set yet.
 
 ## Map of content
 
+- [[current-production]] — **start here.** What is actually being built right now, the five-beat lesson structure, teaching principles, curriculum decisions
 - [[courses]] — the three courses, the hard line between them, the brand filter
 - [[called-to-edit-beginners/_index|Called to Edit: Beginners]] — the full course: who it is for, the promise, the module map, where it stops
   - [[called-to-edit-beginners/teaching-rules|Teaching rules]] — the lesson spine, recording rules, shot types

@@ -52,4 +52,8 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 37 | Was anything (Coachli or otherwise) actually set up to take paid mentorship bookings from Nigeria? | mentorship, finances | 2026-09-20 | Mentorship offer | — |
 | 38 | Scripnals survey: which waitlist-discount cap was chosen, and was the survey ever sent? No response data exists in any source. | scripnals | 2026-09-20 | Validation evidence | — |
 | 39 | The legacy fixed-NGN money rules (building project NGN 500,000 in full; NGN 100,000/month to Cowrywise) do not reconcile with the newer percentage buckets (27.7% building, 20% savings). Same initiatives, different logic, never reconciled. | finances | 2026-09-20 | money-check skill | — |
+| 40 | Academy: which curriculum is current — the CapCut Creator Course (8 modules, 31 lessons + 5 live sessions, memory 2026-09-06) or the 7-module Called to Edit Beginners structure from the teaching-structure doc? | academy | 2026-09-20 | Course build | — |
+| 41 | The Wednesday Teaching Series — is it still running weekly? Full list of the 20 topics, platform, attendance, and where the curriculum markdown file lives. | community | 2026-09-20 | Community operations | — |
+| 42 | Which brand does the locked Gamma brand system belong to (Cobalt Blue #0540AD, Poppins, the carousel/deck/workbook templates) — @SamuelSignals, HighSignals, or client work? If client work, it is an unrecorded service line. | personal-brand | 2026-09-20 | Brand identity | — |
+| 43 | Scripnals: were any survey responses ever collected? The validation survey went out on Fillout via group chats; no response data exists in any source. | scripnals | 2026-09-20 | Validation evidence | — |
 
