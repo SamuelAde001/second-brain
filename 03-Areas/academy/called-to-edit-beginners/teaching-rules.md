@@ -64,6 +64,6 @@ This document is itself a revision. Its closing section, "What Changed From the 
 
 And its closing line: *"Remaining `[CHECK]` tags are CapCut PC workflow confirmations only — worth batching into one session before you start recording, so you're not stopping mid-production."*
 
-This confirms two things recorded on [[03-Areas/academy/academy|Academy]]: the course predates this revision in an earlier form not held in this vault, and as of this document the course had not yet started recording. See [[03-Areas/academy/academy|Academy]]'s "Is it built yet?" section.
+This confirms two things recorded on [[03-Areas/academy/academy|Academy]]: the course predates this revision in an earlier form not held in this Brain, and as of this document the course had not yet started recording. See [[03-Areas/academy/academy|Academy]]'s "Is it built yet?" section.
 
 Back to [[03-Areas/academy/academy|Academy]]

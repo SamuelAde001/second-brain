@@ -9,7 +9,7 @@ tags: [security]
 
 # Security flags
 
-Files found on this machine that contain, or may contain, items on the never-store list in AGENTS.md §6, or other people's personal data. **Nothing listed here is ever copied into the vault.** The path is recorded so import scripts skip it and so Samuel knows it exists.
+Files found on this machine that contain, or may contain, items on the never-store list in AGENTS.md §6, or other people's personal data. **Nothing listed here is ever copied into the Brain.** The path is recorded so import scripts skip it and so Samuel knows it exists.
 
 | Date | Path | What it is | Action |
 |------|------|------------|--------|

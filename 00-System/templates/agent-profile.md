@@ -22,7 +22,7 @@ One paragraph. What this agent is for.
 ## Folders it may read
 - 
 
-## Folders outside the vault it may access
+## Folders outside the Brain it may access
 - (explicit list, or "none")
 
 ## Tools and MCPs

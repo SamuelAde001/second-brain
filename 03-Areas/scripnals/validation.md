@@ -47,7 +47,7 @@ He approved the full set of proposed edits ("Yes draft out all the changes you p
 - Whether the edits above were actually applied in Fillout and the survey sent.
 - The screener/skip-logic branch for "No, and I don't plan to" — flagged twice as needing verification in Fillout, never confirmed done.
 - Which waitlist-discount cap (3-months vs. first-100-members) was chosen, if either.
-- The two-persona model and the ₦15,000-25,000 pricing figure are both cited from a "master doc" not present in the vault's sources — worth locating and importing if it still exists.
+- The two-persona model and the ₦15,000-25,000 pricing figure are both cited from a "master doc" not present in the Brain's sources — worth locating and importing if it still exists.
 - No response data of any kind — the survey's actual results are not recorded anywhere.
 
 

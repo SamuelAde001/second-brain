@@ -9,11 +9,11 @@ tags: [systems]
 
 # Systems register
 
-Every SOP, skill and automation in this vault. If it is not here, it does not exist as a system.
+Every SOP, skill and automation in this Brain. If it is not here, it does not exist as a system.
 
 The ladder, lowest rung first: **SOP → checklist → skill → automation.** When a task has come up twice, propose the lowest rung that actually works, and build it only once Samuel agrees.
 
-## SOPs and checklists — in the vault
+## SOPs and checklists — in the Brain
 
 | Name | Type | Owner agent | Lives at | Trigger | Last used | Status |
 |------|------|-------------|----------|---------|-----------|--------|
@@ -21,9 +21,9 @@ The ladder, lowest rung first: **SOP → checklist → skill → automation.** W
 | Script review | checklist | content (Phase 4) | [[script-review-checklist]] | He sends a script for review | unknown | active |
 | Routerise cut workflow | SOP | video editing (Phase 4) | [[routerise-cut-workflow]] | A Routerise edit starts | unknown | active |
 
-## Skills — exist, but not in this vault
+## Skills — exist, but not in this Brain
 
-These four are **platform-provided plugin skills**, invoked by name in Claude Code. They are not files under `.claude/skills/`, and they are not on disk anywhere on this PC — so they could not be copied into the vault during migration.
+These four are **platform-provided plugin skills**, invoked by name in Claude Code. They are not files under `.claude/skills/`, and they are not on disk anywhere on this PC — so they could not be copied into the Brain during migration.
 
 | Skill | What it does | Area |
 |-------|--------------|------|
@@ -32,7 +32,7 @@ These four are **platform-provided plugin skills**, invoked by name in Claude Co
 | `subtitle-transcript-formatter` | Turns a raw SRT/VTT export into a clean, sectioned, ALL-CAPS .docx for editing from. | [[03-Areas/video-editing/video-editing\|Video editing]] |
 | `yap-session-planner` | Structures unscripted talk-to-camera content into a beat-by-beat outline to speak from. | [[03-Areas/personal-brand/personal-brand\|Personal brand]] |
 
-**Portability gap:** AGENTS.md §8 says skills are plain-markdown files any model can read. These four are not, so Gemini CLI cannot run them. Phase 7 decides whether to author vault-local equivalents. Logged as an open question.
+**Portability gap:** AGENTS.md §8 says skills are plain-markdown files any model can read. These four are not, so Gemini CLI cannot run them. Phase 7 decides whether to author Brain-local equivalents. Logged as an open question.
 
 ## Job skills — not built yet
 

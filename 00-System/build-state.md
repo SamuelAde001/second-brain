@@ -10,11 +10,11 @@ Single source of continuity for the second-brain build. Update at the end of eve
 - **14-day target for Phases 0–4:** 2026-10-04 (day 0 of 14 elapsed)
 
 ## Environment facts (verified 2026-09-20)
-- Vault path: `C:\Users\repzy\Desktop\My Second brain` (NOT `C:\SecondBrain` as the master prompt assumed).
+- Brain path: `C:\Users\repzy\Desktop\My Second brain` (NOT `C:\SecondBrain` as the master prompt assumed).
 - Not inside OneDrive or Dropbox. OneDrive syncs only `~/OneDrive/Documents` and `~/OneDrive/Pictures`.
-- Vault is **not** a git repo yet. No remote. No `.gitignore`.
-- Vault contents at Phase 0: `.obsidian/` only (app.json, appearance.json, core-plugins.json, graph.json, workspace.json). No notes.
-- `MASTER_PROMPT.md` lives at `C:\Users\repzy\Downloads\MASTER_PROMPT.md`, not in the vault.
+- Brain is **not** a git repo yet. No remote. No `.gitignore`.
+- Brain contents at Phase 0: `.obsidian/` only (app.json, appearance.json, core-plugins.json, graph.json, workspace.json). No notes.
+- `MASTER_PROMPT.md` lives at `C:\Users\repzy\Downloads\MASTER_PROMPT.md`, not in the Brain.
 - git 2.52.0.windows.1 — OK.
 - Python 3.14.7 (`python` and `py` both work) — OK.
 - GitHub CLI (`gh`) — NOT installed. Private remote must be created another way.
@@ -33,7 +33,7 @@ Single source of continuity for the second-brain build. Update at the end of eve
 | 7 | Second brand | `Desktop/Contentinfluence/` | mixed | Brand identity PDF, strategy PDF, resource library. Not in the proposed area list — needs a decision. |
 | 8 | Personal brand media | `Desktop/Samuel Adebayo/` | media | X personal brand clips, fitness, headshots |
 | 9 | Finance | `Desktop/Money-2026.xlsx`, `Downloads/Money2026.xlsx` | 48 KB each | The Google Sheets budget, exported |
-| 10 | Claude Code transcripts | `~/.claude/projects/` | 26 MB (engine), 1.1 MB (Routerise), 541 KB (this vault) | Local session history; partial substitute for the missing chat export |
+| 10 | Claude Code transcripts | `~/.claude/projects/` | 26 MB (engine), 1.1 MB (Routerise), 541 KB (this Brain) | Local session history; partial substitute for the missing chat export |
 | 11 | Loose editing artefacts | `Downloads/` | several | `Routerise_Editing_Transcript.docx`, `Taking_a_step_back_from_Claude_TRANSCRIPT.docx`, cut-sheet HTMLs, `Ecom_InventoryWidget.setting` |
 
 ## Missing sources (expected by the master prompt, not found)
@@ -41,7 +41,7 @@ Single source of continuity for the second-brain build. Update at the end of eve
 - Memory export — absent.
 - Source files for skills `edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner` — not on disk as loose files; they are live as `anthropic-skills` plugin skills. One local skill found: `Video edits/Routerise/Don't Sell Digital Products in 2026, Do This Instead.mp4/ugc-ad-script-generator/SKILL.md`.
 
-## Security flags (never copy into the vault)
+## Security flags (never copy into the Brain)
 - `Desktop/engine/.env`
 - `Desktop/HighSignals/.../HighSignals Membership form *.csv` and `HighSignals Members *.md` (member PII)
 - `Documents/parsec_backup_codes.txt`
@@ -78,14 +78,14 @@ Current Gemini CLI uses the nested key `context.fileName` in `settings.json`, no
 ## Known defect — FIXED 2026-09-20
 Links to `_index`, `goals`, `log`, `decisions` and `ideas` were **ambiguous**: those filenames existed once per area, and Obsidian resolves a bare link by filename, not by folder. Relative `../` forms do not resolve in Obsidian at all.
 
-**Fix, 2026-09-20:** every file renamed to a unique, self-describing name (`finances.md`, `finances-goals.md`, `about-samuel.md`), and every link rewritten to the full vault path with a readable alias. See the decision record.
+**Fix, 2026-09-20:** every file renamed to a unique, self-describing name (`finances.md`, `finances-goals.md`, `about-samuel.md`), and every link rewritten to the full Brain path with a readable alias. See the decision record.
 
 Swept every note: 79 files rewritten, 0 ambiguous or relative wikilinks left. Rule written into `00-System/conventions.md` and AGENTS.md §4.
 - 2026-09-20 — Sources 2 (project docs), 3 (memory export) and 5 (legacy engine) distilled. 3 extraction subagents used; 2 were killed mid-run by the Pro session limit and their remaining files were re-run. Postgraduate degree discovered. Triage produced. Wikilink defect found and fixed.
 - 2026-09-20 — CORRECTION, from Samuel: the postgraduate degree and all electrical work in the export belong to **his sister**, and the Comfort Cuts project is not his either. `02-Me/postgraduate-study.md` deleted, Comfort material stripped from the video-editing notes, open questions 25/26 voided. The earlier log line above is left in place per rule 3 — it is corrected here, not erased.
 - 2026-09-20 — Calibration and triage set: Samuel chose the tight ~20-conversation shortlist for distillation.
 - 2026-09-20 — All four distillation batches landed (finances+scripnals, me, video-editing, brand+academy). Per-project memory files distilled: academy production state, Wednesday Teaching Series, visual identity, gear, ways-of-working. Open questions now 50.
-- 2026-09-20 — Samuel: "why do I have so many index files". Renamed 52 files, rewrote links in 101, repaired 14 more. `_index.md` no longer exists in the vault.
+- 2026-09-20 — Samuel: "why do I have so many index files". Renamed 52 files, rewrote links in 101, repaired 14 more. `_index.md` no longer exists in the Brain.
 - 2026-09-20 — Prune at his instruction: 4 note groups merged or deleted, engine build artifacts removed (1.69 MB -> 0.41 MB). One piece of personal material deleted from `02-Me/discipline.md`.
 - 2026-09-20 — Phase 3 video-editing round 1 answered: Routerise is the agency, Alex is the client, USD 333.33/video, one video in five days, 70/30 monthly payment. Workflow and agent plan written.
 

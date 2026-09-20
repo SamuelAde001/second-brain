@@ -7,10 +7,10 @@ Everything that governs behaviour is in AGENTS.md above. This file holds only wh
 ## Where things are
 - Skills: `.claude/skills/<name>/SKILL.md`
 - Subagent wrappers: `.claude/agents/<name>.md` — each one says: read `07-Agents/<name>/profile.md` and `memory.md` before acting, log to `07-Agents/<name>/log.md`.
-- Permissions: `.claude/settings.json`. Least privilege. Outside-vault folders only via explicit additional-directory entries, each also listed in AGENTS.md §10.
+- Permissions: `.claude/settings.json`. Least privilege. Outside-Brain folders only via explicit additional-directory entries, each also listed in AGENTS.md §10.
 
 ## MCP servers
-- **TickTick** — tasks, schedule, focus. Used by the orchestrator and the personal-life agent. Tasks live there, not in the vault.
+- **TickTick** — tasks, schedule, focus. Used by the orchestrator and the personal-life agent. Tasks live there, not in the Brain.
 - **DaVinci Resolve Studio** — used by the video-editing agent.
 - Others are connected to this machine (Gmail, Google Calendar, Google Drive, Notion, vidIQ) but no agent uses them until Samuel says so.
 

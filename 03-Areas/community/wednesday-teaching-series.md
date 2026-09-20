@@ -8,7 +8,7 @@ tags: [community, teaching]
 
 # Wednesday Teaching Series
 
-From the Claude memory export for the HighSignals brand project, 2026-09-06. The first concrete thing the vault knows about how the community actually runs.
+From the Claude memory export for the HighSignals brand project, 2026-09-06. The first concrete thing the Brain knows about how the community actually runs.
 
 ## What it is
 
@@ -34,7 +34,7 @@ Topics recorded in the source include: balancing content creation with full-time
 
 ## The artefact
 
-A clean curriculum document exists: a markdown file titled **"HighSignals Community — Wednesday Teaching Series"**, formatted for sharing directly with the community rather than as internal notes. It is not in this vault — it lives wherever Samuel saved it.
+A clean curriculum document exists: a markdown file titled **"HighSignals Community — Wednesday Teaching Series"**, formatted for sharing directly with the community rather than as internal notes. It is not in this Brain — it lives wherever Samuel saved it.
 
 ## needs-input
 

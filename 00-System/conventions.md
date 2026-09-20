@@ -9,6 +9,8 @@ tags: [conventions]
 
 # Conventions
 
+> **It is called the Brain.** Not "the vault" — Samuel's instruction, 2026-09-20. Obsidian's own UI calls any folder it opens a "vault"; that is Obsidian's word, not ours. In every note, every agent profile and every reply, it is **the Brain**.
+
 The short version is in AGENTS.md §4. This is the full version, for when a rule needs settling.
 
 ## Filenames
@@ -39,11 +41,11 @@ Every note. No exceptions, including logs.
 ### Ambiguous filenames — the one link rule that bites
 The build originally gave every area a file called `_index.md`, plus `goals.md`, `log.md`, `decisions.md` and `ideas.md`. That produced ten identically named files, told Samuel nothing about what any of them held, and broke linking — Obsidian resolves a bare `_index`-style link by filename and silently picks the wrong one.
 
-- Link those five by **full vault path with an alias**: `[[03-Areas/video-editing/video-editing|Video editing]]`.
+- Link those five by **full Brain path with an alias**: `[[03-Areas/video-editing/video-editing|Video editing]]`.
 - Link everything else short: `[[brand-context]]`, `[[script-process]]`.
 - **There is no `../` in wikilinks.** `../community/community` does not resolve — it is a broken link that looks fine in the editor.
 
-Checked across the vault on 2026-09-20 and fixed in 79 files.
+Checked across the Brain on 2026-09-20 and fixed in 79 files.
 
 ## Size
 - Split a note past roughly 300 lines. The split children link to each other and to the index.
@@ -61,7 +63,7 @@ Checked across the vault on 2026-09-20 and fixed in 79 files.
 
 ## Decisions
 - Area-level decisions go in that area's `decisions.md`.
-- Decisions about the vault's own structure, rules or agents go in `00-System/decisions.md`.
+- Decisions about the Brain's own structure, rules or agents go in `00-System/decisions.md`.
 - Use the `decision` template. A decision without a "why" is not a decision record.
 
 ## Commit messages
@@ -69,7 +71,7 @@ Checked across the vault on 2026-09-20 and fixed in 79 files.
 - Prefix `[gemini]` when Gemini CLI made the commit.
 - Commit after every completed piece of work, not in one lump at the end.
 
-## What does not go in the vault
+## What does not go in the Brain
 - Tasks and schedules — those live in TickTick.
 - Video, audio, project files, exports — those stay on disk where they are.
 - Anything on the never-store list in AGENTS.md §6.

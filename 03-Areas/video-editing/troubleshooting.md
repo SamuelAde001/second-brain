@@ -9,7 +9,7 @@ tags: [troubleshooting, resolve]
 
 # Troubleshooting log
 
-Recurring problems in the edit and what actually fixed them. Distilled from Claude conversations, not the vault's own testing — where a fix was proposed but Samuel never confirmed it worked, it is marked **proposed — unverified**, not solved. Do not upgrade a proposed fix to solved without Samuel's own confirmation (AGENTS.md §5.7).
+Recurring problems in the edit and what actually fixed them. Distilled from Claude conversations, not the Brain's own testing — where a fix was proposed but Samuel never confirmed it worked, it is marked **proposed — unverified**, not solved. Do not upgrade a proposed fix to solved without Samuel's own confirmation (AGENTS.md §5.7).
 
 **Appending a new entry:** add it at the bottom, following this shape — Date · Status · Symptom (as it appeared) · Cause (once found) · Fix that worked (or Proposed fix — not confirmed) · What to check first next time.
 

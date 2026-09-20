@@ -64,6 +64,6 @@ Carousels, pitch decks and workbooks in production in parallel. Next step for wo
 
 - **Which brand does this locked system belong to** — @SamuelSignals, HighSignals, or client work?
 - Is this still running, and what has it produced?
-- If these are client deliverables, that is a service line the vault has no record of.
+- If these are client deliverables, that is a service line the Brain has no record of.
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

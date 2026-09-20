@@ -26,7 +26,7 @@ Positioned as the daily execution tool — the last stage of the ascension model
 
 ## Current status — as of 2026-09-20
 
-**Unknown and unverified.** The vault holds product positioning only. No build status, no stack, no validation evidence, no roadmap, no metrics. There is a `Desktop/HighSignals/HighSignals App/` folder containing an APK and `Frontend_and_Mobile_Technical_Architecture_MVP1.pdf` that has not been inventoried — that suggests a build exists, but nothing here confirms how far it got.
+**Unknown and unverified.** The Brain holds product positioning only. No build status, no stack, no validation evidence, no roadmap, no metrics. There is a `Desktop/HighSignals/HighSignals App/` folder containing an APK and `Frontend_and_Mobile_Technical_Architecture_MVP1.pdf` that has not been inventoried — that suggests a build exists, but nothing here confirms how far it got.
 
 ## Two audiences
 

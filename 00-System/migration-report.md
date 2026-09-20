@@ -140,7 +140,7 @@ Nothing from it was installed, merged or activated. `00-System/legacy-review.md`
 
 - Suggested keep: 111 conversations, ~627,000 est tokens. **Too large to distil on a Pro plan.**
 - Suggested drop: 124 conversations, ~145,000 est tokens.
-- A tighter proposal — `triage-proposal.csv` — caps the areas the vault already covers deeply (video-editing, personal-brand, academy) at their largest few and keeps everything in the thin areas: 39 conversations, ~369,000 est tokens.
+- A tighter proposal — `triage-proposal.csv` — caps the areas the Brain already covers deeply (video-editing, personal-brand, academy) at their largest few and keeps everything in the thin areas: 39 conversations, ~369,000 est tokens.
 
 Awaiting Samuel's trim at the Phase 2 pass-1 gate.
 

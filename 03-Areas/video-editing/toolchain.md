@@ -65,7 +65,7 @@ Related: [[client-acquisition]]. Back to [[03-Areas/video-editing/video-editing|
 
 ## Current state, 2026-09-06
 
-- **A new client has been taken on** — different presenter, generally a different visual style from Routerise, but the same two-phase `video-edit-pass` workflow applies. The vault has no client note for them; if this is Mshel (invoice DSG-2026-001, [[03-Areas/finances/invoicing|Invoicing]]), that needs confirming.
+- **A new client has been taken on** — different presenter, generally a different visual style from Routerise, but the same two-phase `video-edit-pass` workflow applies. The Brain has no client note for them; if this is Mshel (invoice DSG-2026-001, [[03-Areas/finances/invoicing|Invoicing]]), that needs confirming.
 - Completed a full two-phase editorial pass on a Routerise video: "The Only Claude Dropshipping Guide You'll Ever Need in 2026" — phase 1 cut-marker scripts via the Resolve Python console with diffing across timeline versions; phase 2 a chaptered ALL-CAPS docx transcript, chapter marker EDL and marker scripts.
 - Active Fusion work: a 30-day calendar hero asset, e-commerce dashboard widgets, 3D text shadow composites, icon arc animations.
 - **The "people web" build**, for the line *"WHAT HAPPENS WHEN A MILLION PEOPLE GET HANDED THE SAME SHORTCUT AT THE SAME TIME?"* — 30 illustrated figures standing in for a million. Rig: illustration → `ImagePlane3D` at varied X/Y/Z with animated opacity appearing at random → one `Merge3D` → animated `Camera3D` moving from inside the web to outside → `Renderer3D`. Figures in shades of `#35C6E8`. 97 frames, every appearance and the camera move finishing at frame 51, camera move kept smooth.

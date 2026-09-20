@@ -9,7 +9,7 @@ tags: [series, content]
 
 # Series — Guiding While Riding
 
-Series reference dated 2026-08-11. **Status unverified:** the doc says this series replaces the 3×/week talking-head slot "for now". Whether it ever launched, and how many episodes exist, is not recorded anywhere in the vault yet.
+Series reference dated 2026-08-11. **Status unverified:** the doc says this series replaces the 3×/week talking-head slot "for now". Whether it ever launched, and how many episodes exist, is not recorded anywhere in the Brain yet.
 
 ## Concept
 
@@ -96,6 +96,6 @@ Both the mantra base line and the Hook → Mantra → Tip → Steps → CTA stru
 
 ### Whether it ever launched
 
-**No evidence found that it did.** This chat is the series' founding conversation, and it ends with Claude asking whether to draft "episode 1" — Samuel never replies within this transcript, and not even a first episode script exists in this source. A vault-wide search for "Guiding While Riding" turns up only this note, the personal-brand area index, and system files (`00-System/open-questions.md`, `00-System/build-state.md`, `00-System/migration-report.md`) that already flag the launch status as unknown — no log entry, production note, or later chat confirms an episode was ever scripted, filmed, or posted. This reinforces, but does not resolve, the open question already on [[03-Areas/personal-brand/personal-brand|Personal brand]] and at the top of this note.
+**No evidence found that it did.** This chat is the series' founding conversation, and it ends with Claude asking whether to draft "episode 1" — Samuel never replies within this transcript, and not even a first episode script exists in this source. A Brain-wide search for "Guiding While Riding" turns up only this note, the personal-brand area index, and system files (`00-System/open-questions.md`, `00-System/build-state.md`, `00-System/migration-report.md`) that already flag the launch status as unknown — no log entry, production note, or later chat confirms an episode was ever scripted, filmed, or posted. This reinforces, but does not resolve, the open question already on [[03-Areas/personal-brand/personal-brand|Personal brand]] and at the top of this note.
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

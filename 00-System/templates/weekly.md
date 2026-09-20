@@ -26,7 +26,7 @@ tags: [weekly]
 ## Commitments checked
 - Commitment — kept / missed — what happened
 
-## Vault health
+## Brain health
 - Area `_index` files not updated in 30+ days:
 - `needs-input` backlog:
 - Inbox count:

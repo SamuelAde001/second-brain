@@ -21,7 +21,7 @@ Described in the source doc as the first stage of an ascension model — Academy
 
 **A course is in active production, and it is a CapCut course** for complete beginners — not the DaVinci course the older documents imply. 31 lessons plus 5 live edit sessions across 8 modules; Module 0 in active lesson development; slides built in PPTX. See [[current-production]], the most current record (2026-09-06).
 
-The full curriculum is in the vault: [[03-Areas/academy/called-to-edit-beginners/called-to-edit-beginners|Called to Edit: Beginners]] — **8 modules, 31 lessons, 5 live edit sessions**, every lesson on the same five-beat spine. It matches the production record exactly.
+The full curriculum is in the Brain: [[03-Areas/academy/called-to-edit-beginners/called-to-edit-beginners|Called to Edit: Beginners]] — **8 modules, 31 lessons, 5 live edit sessions**, every lesson on the same five-beat spine. It matches the production record exactly.
 
 Advanced and Called to Create exist as positioning only. No platform, pricing, launch date or student numbers are recorded for any course. A `Course/Called to Edit Academy Beginners` folder on disk (`Desktop/HighSignals/Course/`) has not been inventoried.
 

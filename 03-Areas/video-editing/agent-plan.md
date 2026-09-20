@@ -17,7 +17,7 @@ Samuel's own brief, 2026-09-20. **Not built yet — the agent has started nothin
 
 **Get the agent doing 60–80% of the editing work**, while Samuel fine-tunes the rest.
 
-The reason is not convenience. It is time: he needs hours back **to start his own brand and build his own business**. Client editing currently consumes them. That makes this agent the lever for everything else in the vault.
+The reason is not convenience. It is time: he needs hours back **to start his own brand and build his own business**. Client editing currently consumes them. That makes this agent the lever for everything else in the Brain.
 
 ## The pipeline he wants, step by step
 

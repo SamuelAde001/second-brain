@@ -11,7 +11,7 @@ tags: [pricing, clients, mentorship]
 
 From two chats: `01-Inbox/_imports/processed/shortlist/finances/2026-09-05-getting-high-paying-short-form-video-clients.md` and `.../2026-09-15-setting-up-paid-online-mentorship-bookings-from-nigeria.md`.
 
-**Everything below except the "What Samuel actually asked for" sections is an assistant proposal Samuel never confirmed in these chats.** Per AGENTS.md §5.7, a suggestion is not a decision until his own words confirm it — none of the prices, platforms or vendors below have that confirmation. They're recorded because they're the only pricing information in the vault, not because they're active policy.
+**Everything below except the "What Samuel actually asked for" sections is an assistant proposal Samuel never confirmed in these chats.** Per AGENTS.md §5.7, a suggestion is not a decision until his own words confirm it — none of the prices, platforms or vendors below have that confirmation. They're recorded because they're the only pricing information in the Brain, not because they're active policy.
 
 A separate planned note, `client-pipeline.md`, was considered and dropped: the source (2026-09-05) is a single four-message exchange of generic outreach advice with no follow-up or confirmed specifics from Samuel, too thin to stand alone. Folded in here instead, under "Landing short-form retainer clients."
 

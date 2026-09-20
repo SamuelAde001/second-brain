@@ -1,10 +1,10 @@
 # GEMINI.md
 
-The rules for this vault are in **AGENTS.md** at the vault root. Read it first, in full, before doing anything here. It is the constitution: who Samuel is, the vault map, how to find things, note conventions, operating rules, what must never be stored, and the agent and logging protocols.
+The rules for this Brain are in **AGENTS.md** at the Brain root. Read it first, in full, before doing anything here. It is the constitution: who Samuel is, the Brain map, how to find things, note conventions, operating rules, what must never be stored, and the agent and logging protocols.
 
 `.gemini/settings.json` sets `context.fileName` to `["AGENTS.md", "GEMINI.md"]`, so AGENTS.md should load automatically. If it did not, open it manually.
 
-## Gemini's role in this vault (overflow protocol)
+## Gemini's role in this Brain (overflow protocol)
 
 Gemini CLI is the second model and the overflow option when Claude Pro limits are hit.
 

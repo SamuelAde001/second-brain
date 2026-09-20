@@ -57,7 +57,7 @@ The craft is documented in depth. The rest of the business — pipeline beyond t
 - **`video-edit-pass`** — two-phase edit-assist pass over subtitles + timeline XML.
 - **`subtitle-transcript-formatter`** — turns a caption export into an editor-ready transcript.
 
-They are installed as plugin skills, not yet copied into this vault's `.claude/skills/`. Phase 4 decides where they live and which agent owns them.
+They are installed as plugin skills, not yet copied into this Brain's `.claude/skills/`. Phase 4 decides where they live and which agent owns them.
 
 ## Open questions
 

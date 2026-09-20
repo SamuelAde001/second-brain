@@ -9,7 +9,7 @@ tags: [preferences, agents]
 
 # How to work with Samuel
 
-From the Claude memory export, `/preferences.md` and `/profile.md`, both current as of 2026-09-04. Every agent in this vault follows these.
+From the Claude memory export, `/preferences.md` and `/profile.md`, both current as of 2026-09-04. Every agent in this Brain follows these.
 
 ## Tone
 
