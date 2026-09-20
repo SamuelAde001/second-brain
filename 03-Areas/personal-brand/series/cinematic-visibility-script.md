@@ -127,4 +127,4 @@ Unlike the general rule in [[voice-and-rules]] (camera and visual direction writ
 - Full text of the "100 Days" script — not in this source.
 - Whether either version (Robuik draft or 100-Days version) was ever filmed or published — not stated anywhere in this transcript.
 
-Back to [[03-Areas/personal-brand/_index|Personal brand]] · see also [[series/guiding-while-riding|Guiding While Riding]]
+Back to [[03-Areas/personal-brand/personal-brand|Personal brand]] · see also [[03-Areas/personal-brand/series/guiding-while-riding|Guiding While Riding]]

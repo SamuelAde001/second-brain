@@ -71,4 +71,4 @@ Samuel's stated need: a bookable, paid 1:1 link, working from Nigeria, for a mos
 
 Not yet added to `00-System/open-questions.md` — out of scope for this pass; flag for that file.
 
-Back to [[03-Areas/finances/_index|Finances]]
+Back to [[03-Areas/finances/finances|Finances]]

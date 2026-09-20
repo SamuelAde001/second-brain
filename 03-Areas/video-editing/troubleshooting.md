@@ -206,4 +206,4 @@ Also proposed: cut grain/heavy texture for the Status cut, increase text size 20
 
 **Practical pre-render checklist proposed:** restart Resolve before a long render (Fusion leaks memory across a session), close anything else on the GPU, cache/pre-render Fusion comps first, confirm the project is 16-bit float unless 32 is specifically needed, confirm Temporal NR is off unless needed, and render a 10-second test across the worst section before committing to a full export.
 
-Back to [[03-Areas/video-editing/_index|Video editing]]
+Back to [[03-Areas/video-editing/video-editing|Video editing]]

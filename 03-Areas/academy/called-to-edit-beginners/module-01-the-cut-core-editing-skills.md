@@ -261,4 +261,4 @@ Two `[CHECK]` tags in this module are unresolved CapCut PC workflow confirmation
 - **Lesson 05:** `[CHECK: current CapCut PC shortcut set]` — which keyboard shortcuts to teach as "worth learning day one" is not confirmed.
 - **Lesson 11:** `[CHECK: easing/curve controls in current CapCut PC build]` — the exact easing/curve UI to demo is not confirmed.
 
-Back to [[03-Areas/academy/_index|Academy]]
+Back to [[03-Areas/academy/academy|Academy]]

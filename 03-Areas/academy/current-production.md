@@ -62,7 +62,7 @@ L05 shortcuts · L11 / L14 keyframe easing · L13 auto-captions · L16 speed ram
 
 ## ⚠️ Reconcile with the other curriculum note
 
-[[called-to-edit-beginners/_index|Called to Edit: Beginners]] was extracted from a teaching-structure document and describes **7 modules** (editor's mindset, the cut, typography, visuals & motion, colour, audio & sound design, workflow & assets) with no mention of CapCut. This memory file says **8 modules, 31 lessons + 5 live sessions, CapCut-based**.
+[[03-Areas/academy/called-to-edit-beginners/called-to-edit-beginners|Called to Edit: Beginners]] was extracted from a teaching-structure document and describes **7 modules** (editor's mindset, the cut, typography, visuals & motion, colour, audio & sound design, workflow & assets) with no mention of CapCut. This memory file says **8 modules, 31 lessons + 5 live sessions, CapCut-based**.
 
 Most likely the same course at two points in its life, but that is an inference. Both are recorded with their dates. Samuel confirms which is current in the interview — logged in `00-System/open-questions.md`.
 
@@ -72,4 +72,4 @@ Most likely the same course at two points in its life, but that is an inference.
 - Hands-on CapCut verification for the flagged lessons before those modules record.
 - Advanced and Called to Create come after.
 
-Back to [[03-Areas/academy/_index|Academy]]
+Back to [[03-Areas/academy/academy|Academy]]

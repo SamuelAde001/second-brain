@@ -117,4 +117,4 @@ Whole-sheet reconciliation in the demo: total Cash Available NGN 350,000 (matche
 
 Not yet added to `00-System/open-questions.md` — out of scope for this pass; flag for that file.
 
-Back to [[03-Areas/finances/_index|Finances]]
+Back to [[03-Areas/finances/finances|Finances]]

@@ -94,4 +94,4 @@ The kinds of visual he uses, and the rule attached to each:
 - **Prioritise speed and credit efficiency:** reuse and copy-paste existing comps, adjustment clips and nodes rather than rebuilding.
 - **Visualise with illustrations first — "show, not tell."** He expects dense, varied visuals matching the density of his own edit. *Reusing templates with swapped text was explicitly rejected as useless.*
 
-Related: [[fusion-node-system]] · [[fusion-recipes]] · [[routerise-house-style]] · [[cut-sheets]]. Back to [[03-Areas/video-editing/_index|Video editing]]
+Related: [[fusion-node-system]] · [[fusion-recipes]] · [[routerise-house-style]] · [[cut-sheets]]. Back to [[03-Areas/video-editing/video-editing|Video editing]]

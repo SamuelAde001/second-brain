@@ -61,7 +61,7 @@ Client videos are typically **a single OBS capture combining A-roll talking head
 
 Bluetooth audio trouble was traced to a counterfeit CSR8510 adapter. A TP-Link UB500 dongle was the fix, sourced locally in Abuja.
 
-Related: [[client-acquisition]]. Back to [[03-Areas/video-editing/_index|Video editing]]
+Related: [[client-acquisition]]. Back to [[03-Areas/video-editing/video-editing|Video editing]]
 
 ## Current state, 2026-09-06
 

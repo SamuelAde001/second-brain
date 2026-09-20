@@ -17,7 +17,7 @@ Status: built 2026-09-20. Sections marked TBD are filled in later phases of the 
 - A future book, not yet placed.
 - Claude plan: Pro. Usage limits are shared across Claude chat and Claude Code. Token discipline is a constraint, not a preference.
 - Tone he wants back: direct and blunt. No flattery, no reassurance loops, no repeated moralizing.
-- More: [[02-Me/_index]] once written.
+- More: [[02-Me/about-samuel|About samuel]] once written.
 
 ## 2. Vault map
 
@@ -26,11 +26,11 @@ Status: built 2026-09-20. Sections marked TBD are filled in later phases of the 
               migration-report, systems-register, templates/, scripts/, automations/
 01-Inbox/     raw capture from phone and PC. _imports/ = migration sources (read-only,
               gitignored). processed/ = inbox items after filing, never deleted.
-02-Me/        identity, story, values, principles, patterns, routines, habits, fitness,
-              goals/ = the goal ladder (10y -> 3y -> 1y -> quarter)
+02-Me/        about-samuel.md is the entry point. Story, values, principles,
+              patterns, routines, habits, health, goals/ = the goal ladder
 03-Areas/     video-editing, finances, relationships, personal-brand,
               highsignals (umbrella) -> community, academy, mentorship, scripnals,
-              book
+              book. Each folder opens with <area>.md.
 04-Projects/  finite work with an end date. Each links to its area.
 05-Knowledge/ evergreen know-how that spans areas. Domain SOPs live in their area instead.
 06-Logs/      daily/, weekly/, automation/, commitments.md
@@ -41,7 +41,7 @@ _attachments/ screenshots and small images only. No video, audio or project file
 
 ## 3. How to find things
 
-1. Start at the area's `_index.md`. It is the map of content: what the area is, current status, goals, key people, links to every note.
+1. Start at the area's overview note — `03-Areas/<area>/<area>.md`. It is the map of content: what the area is, current status, goals, key people, links to every note.
 2. From there follow `[[wikilinks]]`. Never guess a path.
 3. For a decision, check the area's `decisions.md` first, then `00-System/decisions.md` for structural ones.
 4. For what happened, check the area's `log.md` and `06-Logs/`.
@@ -65,8 +65,9 @@ tags: []
 ---
 ```
 
-- Link with `[[wikilinks]]`. Every note links back to its area `_index`.
-- **Filenames that repeat across areas — `_index`, `goals`, `log`, `decisions`, `ideas` — must be linked by full vault path with an alias:** `[[03-Areas/community/_index|HighSignals Community]]`. A bare `[[_index]]` is ambiguous and Obsidian resolves it by filename alone. Unique filenames can be linked short. There is no `../` syntax in wikilinks.
+- **Every filename is unique and says what it is.** An area's overview note is named after the area — `03-Areas/finances/finances.md` — and its standing files are prefixed: `finances-goals.md`, `finances-log.md`, `finances-decisions.md`, `finances-ideas.md`. The "me" area opens at `02-Me/about-samuel.md`. No file is called `_index`.
+- Link with `[[wikilinks]]` using the **full vault path and a readable alias**: `[[03-Areas/community/community|HighSignals Community]]`. Topic notes have unique names, so `[[brand-context]]` is fine. There is no `../` syntax in wikilinks.
+- Every note links back to its area overview note.
 - One subject per note. Split past ~300 lines. Merge fragments under ~10 lines.
 - ISO dates. Money always carries a currency code (NGN, USD). Never a bare number.
 - Templates: `00-System/templates/`.

@@ -27,10 +27,10 @@ These four are **platform-provided plugin skills**, invoked by name in Claude Co
 
 | Skill | What it does | Area |
 |-------|--------------|------|
-| `edit-clock` | Standalone HTML pace widget kept beside Resolve: where the playhead should be now, time left, timeline needed per hour, ahead/behind. Reads WAT (UTC+1). **When Samuel asks for "a timer", this is what he means.** | [[03-Areas/video-editing/_index\|Video editing]] |
-| `video-edit-pass` | Two-phase edit-assist pass on a long-form talking-head cut: phase 1 reads subtitles + timeline XML and outputs a colour-coded marker EDL of what to cut; phase 2 builds a chaptered ALL-CAPS transcript plus chapter markers. | [[03-Areas/video-editing/_index\|Video editing]] |
-| `subtitle-transcript-formatter` | Turns a raw SRT/VTT export into a clean, sectioned, ALL-CAPS .docx for editing from. | [[03-Areas/video-editing/_index\|Video editing]] |
-| `yap-session-planner` | Structures unscripted talk-to-camera content into a beat-by-beat outline to speak from. | [[03-Areas/personal-brand/_index\|Personal brand]] |
+| `edit-clock` | Standalone HTML pace widget kept beside Resolve: where the playhead should be now, time left, timeline needed per hour, ahead/behind. Reads WAT (UTC+1). **When Samuel asks for "a timer", this is what he means.** | [[03-Areas/video-editing/video-editing\|Video editing]] |
+| `video-edit-pass` | Two-phase edit-assist pass on a long-form talking-head cut: phase 1 reads subtitles + timeline XML and outputs a colour-coded marker EDL of what to cut; phase 2 builds a chaptered ALL-CAPS transcript plus chapter markers. | [[03-Areas/video-editing/video-editing\|Video editing]] |
+| `subtitle-transcript-formatter` | Turns a raw SRT/VTT export into a clean, sectioned, ALL-CAPS .docx for editing from. | [[03-Areas/video-editing/video-editing\|Video editing]] |
+| `yap-session-planner` | Structures unscripted talk-to-camera content into a beat-by-beat outline to speak from. | [[03-Areas/personal-brand/personal-brand\|Personal brand]] |
 
 **Portability gap:** AGENTS.md §8 says skills are plain-markdown files any model can read. These four are not, so Gemini CLI cannot run them. Phase 7 decides whether to author vault-local equivalents. Logged as an open question.
 

@@ -66,4 +66,4 @@ Carousels, pitch decks and workbooks in production in parallel. Next step for wo
 - Is this still running, and what has it produced?
 - If these are client deliverables, that is a service line the vault has no record of.
 
-Back to [[03-Areas/personal-brand/_index|Personal brand]]
+Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

@@ -43,4 +43,4 @@ A clean curriculum document exists: a markdown file titled **"HighSignals Commun
 - Where the sessions happen (platform), how long they run, and how many people attend.
 - Where that curriculum markdown file lives, so it can be linked or imported.
 
-Back to [[03-Areas/community/_index|HighSignals Community]]
+Back to [[03-Areas/community/community|HighSignals Community]]

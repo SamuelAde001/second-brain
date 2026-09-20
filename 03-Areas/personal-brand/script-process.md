@@ -90,4 +90,4 @@ Two or three short questions to find direction before going deep:
 
 Samuel has a locked hook and a full script in his own voice, with visual direction in braces where it belongs, and he has not had to correct the same thing twice.
 
-Registered in [[systems-register]]. See also [[brand-context]] · [[voice-and-rules]] · [[storytelling-structures]]. Back to [[03-Areas/personal-brand/_index|Personal brand]]
+Registered in [[systems-register]]. See also [[brand-context]] · [[voice-and-rules]] · [[storytelling-structures]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

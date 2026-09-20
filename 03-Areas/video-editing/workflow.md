@@ -66,4 +66,4 @@ So the money for any month's work is only fully in hand by the middle of the nex
 
 Steps 3–7 are where the time goes, and they are exactly what [[agent-plan]] targets. The intro stays Samuel's — see that note.
 
-Related: [[ways-of-working]] · [[cut-sheets]] · [[03-Areas/video-editing/clients/alex|Alex]]. Back to [[03-Areas/video-editing/_index|Video editing]]
+Related: [[ways-of-working]] · [[cut-sheets]] · [[03-Areas/video-editing/clients/alex|Alex]]. Back to [[03-Areas/video-editing/video-editing|Video editing]]

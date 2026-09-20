@@ -9,7 +9,7 @@ tags: [fusion, routerise]
 
 # Routerise Fusion node system
 
-Node layout, adjustment-clip system, and reusable build recipes, reverse-engineered from the reference project **"$7M Founder: How I Use Claude for Cold Outreach (B2B sales)"** (client Alex / Frontal, [[clients/routerise]]) — 107 Fusion comps, 3,612 raw tool instances. Companion to [[routerise-house-style]] (pacing/sound/colour) and [[cut-sheets]] (pre-production planning). Corrected against Samuel's own screenshots of his real node trees (`node-graphs-SAMUEL/`, 14 images) — **those screenshots are the authoritative reference for arrangement, over anything reconstructed from raw comp coordinates.**
+Node layout, adjustment-clip system, and reusable build recipes, reverse-engineered from the reference project **"$7M Founder: How I Use Claude for Cold Outreach (B2B sales)"** (client Alex / Frontal, [[03-Areas/video-editing/clients/routerise|Routerise]]) — 107 Fusion comps, 3,612 raw tool instances. Companion to [[routerise-house-style]] (pacing/sound/colour) and [[cut-sheets]] (pre-production planning). Corrected against Samuel's own screenshots of his real node trees (`node-graphs-SAMUEL/`, 14 images) — **those screenshots are the authoritative reference for arrangement, over anything reconstructed from raw comp coordinates.**
 
 **Corrections note:** an earlier pass of this study misread four things, corrected here after Samuel answered directly: (1) Geist, not Open Sans, is the house font going forward; (2) clip colours *are* the chapter system, not a rotating cycle; (3) the 1080p timeline / 4K export split is deliberate, not accidental; (4) the V1/V7 duplication is a deliberate clean/PiP switch, not a workflow accident. See [[routerise-house-style]] for the style-facing side of these.
 
@@ -229,4 +229,4 @@ Samuel's own 14 screenshots of real node trees are the authoritative arrangement
 3. Which Geist weights map to which roles (titles, chips, body)?
 4. Is the PJT pack / Neo Texts library worth deliberately trialling on a future video, given it's installed but unused (§1)?
 
-Back to [[03-Areas/video-editing/_index|Video editing]]
+Back to [[03-Areas/video-editing/video-editing|Video editing]]

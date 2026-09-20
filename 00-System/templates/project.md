@@ -9,7 +9,7 @@ tags: [project]
 
 # <Project name>
 
-**Area:** [[00-System/_index|System]]
+**Area:** [[03-Areas/<area>/<area>|Area overview]]
 **Client:** [[client-name]] (if any)
 **Started:** YYYY-MM-DD
 **Deadline:** YYYY-MM-DD

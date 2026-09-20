@@ -15,7 +15,7 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 |---|----------|------|--------|----------|----------|
 | 1 | ~~What is the private GitHub repo URL for this vault?~~ | system | 2026-09-20 | — | 2026-09-20: `https://github.com/SamuelAde001/second-brain.git` |
 | 2 | Is Gemini CLI actually installed on this PC? `~/.gemini/` exists but the CLI itself was not verified. | system | 2026-09-20 | Phase 7 only | — |
-| 3 | ~~Is HighSignals an umbrella ecosystem or just the community?~~ | community | 2026-09-20 | — | 2026-09-20: umbrella brand over Community, Academy, Mentorship, Scripnals. Personal brand sits outside and funnels in. [[03-Areas/highsignals/_index]] |
+| 3 | ~~Is HighSignals an umbrella ecosystem or just the community?~~ | community | 2026-09-20 | — | 2026-09-20: umbrella brand over Community, Academy, Mentorship, Scripnals. Personal brand sits outside and funnels in. [[03-Areas/highsignals/highsignals|Highsignals]] |
 | 4 | What do the Storytelling and The Journey content pillars actually cover, and what is the posting cadence per pillar? | personal-brand | 2026-09-20 | Content planning | — |
 | 5 | Did the Guiding While Riding series ever launch, and how many episodes exist? | personal-brand | 2026-09-20 | Content planning | — |
 | 6 | Current brand numbers: followers, reach, what performed, what flopped. | personal-brand | 2026-09-20 | brainstorm skill needs this | — |
@@ -48,7 +48,7 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 33 | Budget: the final category percentages for the 32.3% remainder were never set — only 20% savings / 20% business / 27.7% building project are his. | finances | 2026-09-20 | Budget system is unusable without them | — |
 | 34 | Was the percentage-based budget system ever actually built into Google Sheets and used, or did it stop at design? | finances | 2026-09-20 | money-check skill | — |
 | 35 | Invoicing: TIN and payment terms were still missing on invoice DSG-2026-001 (2026-08-20). What are they, and what does "DSG" stand for? | finances | 2026-09-20 | Every future invoice | — |
-| 36 | Mshel — is this an active client? A real invoice exists (NGN 1,397,500, 2026-08-20) but there is no client note. | video-editing, finances | 2026-09-20 | Client list | — |
+| 36 | Mshel — is this an active client, or the agency invoice under another name? Invoice DSG-2026-001, NGN 1,397,500, 2026-08-20. Samuel named only Routerise/Alex in the interview. | video-editing, finances | 2026-09-20 | Client list | — |
 | 37 | Was anything (Coachli or otherwise) actually set up to take paid mentorship bookings from Nigeria? | mentorship, finances | 2026-09-20 | Mentorship offer | — |
 | 38 | Scripnals survey: which waitlist-discount cap was chosen, and was the survey ever sent? No response data exists in any source. | scripnals | 2026-09-20 | Validation evidence | — |
 | 39 | The legacy fixed-NGN money rules (building project NGN 500,000 in full; NGN 100,000/month to Cowrywise) do not reconcile with the newer percentage buckets (27.7% building, 20% savings). Same initiatives, different logic, never reconciled. | finances | 2026-09-20 | money-check skill | — |
@@ -58,9 +58,11 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 43 | Scripnals: were any survey responses ever collected? The validation survey went out on Fillout via group chats; no response data exists in any source. | scripnals | 2026-09-20 | Validation evidence | — |
 | 44 | Which client or project is the "video intro visual concepts" work for? It matches no documented client. | video-editing | 2026-09-20 | Client list | — |
 | 45 | Two M4V diagnostic steps (software-decode toggle, HandBrake repair) were never tested — the redownload fixed it first. Keep them in the troubleshooting log as unverified, or drop them? | video-editing | 2026-09-20 | Troubleshooting log hygiene | — |
-| 46 | Who is the new client taken on before 2026-09-06 — different presenter, different visual style from Routerise? Is it Mshel (invoice DSG-2026-001)? No client note exists. | video-editing | 2026-09-20 | Client list, capacity | — |
+| 46 | Who is the new client taken on before 2026-09-06 — different presenter, different visual style? Samuel named only Alex in the interview, so this is either a second end client under Routerise, or Mshel. | video-editing | 2026-09-20 | Client list, capacity | — |
 | 47 | Was "Creating content the Biblical way" ever filmed, posted, or given a Called to Create episode number? | personal-brand | 2026-09-20 | Content record | — |
 | 48 | The "100 Days" script Samuel called "perfect" is not recoverable from the export — likely pasted as an image. Only fragments survive in review comments. Does he still have the original? | personal-brand | 2026-09-20 | Voice reference | — |
 | 49 | One line in that script — "Month after month I kept wining myself" — was flagged and never clarified: whining, or winning himself over? | personal-brand | 2026-09-20 | Script accuracy | — |
 | 50 | Does "visual direction is Samuel's own domain" apply to all his scripts, or only the cinematic visibility one where it was observed? | personal-brand | 2026-09-20 | Content agent scope | — |
+| 51 | Which existing skill is "the ideation skill" the video-editing agent should reuse? Samuel named it but not by filename. | video-editing | 2026-09-20 | Agent build | — |
+| 52 | Concentration risk: one agency, one client, one rate, and no record of what happens if Routerise ends. Is there a pipeline behind it? | video-editing, finances | 2026-09-20 | Income planning | — |
 

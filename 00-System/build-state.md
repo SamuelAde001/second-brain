@@ -76,9 +76,9 @@ Current Gemini CLI uses the nested key `context.fileName` in `settings.json`, no
 - 2026-09-20 — Phase 2 source 1 (project handover docs) distilled into 9 notes + 36 area scaffold files (`4815c22`). 8 new open questions logged. Awaiting calibration gate.
 
 ## Known defect — FIXED 2026-09-20
-`[[wikilinks]]` to `_index`, `goals`, `log`, `decisions` and `ideas` are **ambiguous**: those filenames exist once per area, and Obsidian resolves a bare `[[00-System/_index|System]]` by filename, not by folder. Relative forms like `[[03-Areas/community/_index|HighSignals Community]]` do not resolve in Obsidian at all — it has no `../` syntax for wikilinks.
+Links to `_index`, `goals`, `log`, `decisions` and `ideas` were **ambiguous**: those filenames existed once per area, and Obsidian resolves a bare link by filename, not by folder. Relative `../` forms do not resolve in Obsidian at all.
 
-**Fix:** links to any filename that repeats across areas must be vault-relative with an alias, e.g. `[[03-Areas/community/_index|HighSignals Community]]`. Unique filenames (`brand-context`, `script-process`, `systems-register`) can stay short.
+**Fix, 2026-09-20:** every file renamed to a unique, self-describing name (`finances.md`, `finances-goals.md`, `about-samuel.md`), and every link rewritten to the full vault path with a readable alias. See the decision record.
 
 Swept every note: 79 files rewritten, 0 ambiguous or relative wikilinks left. Rule written into `00-System/conventions.md` and AGENTS.md §4.
 - 2026-09-20 — Sources 2 (project docs), 3 (memory export) and 5 (legacy engine) distilled. 3 extraction subagents used; 2 were killed mid-run by the Pro session limit and their remaining files were re-run. Postgraduate degree discovered. Triage produced. Wikilink defect found and fixed.

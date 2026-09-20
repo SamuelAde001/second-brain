@@ -105,4 +105,4 @@ Three caption/description passes followed, each one triggered by a specific corr
 
 Visibility & The Call to Create pillar — see [[brand-context]]. Standard voice rules ([[voice-and-rules]]) and the script SOP ([[script-process]]) apply; nothing in this chat conflicts with either.
 
-Back to [[03-Areas/personal-brand/_index|Personal brand]]
+Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

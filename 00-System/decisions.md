@@ -67,3 +67,15 @@ Decisions about the vault itself: its structure, rules, agents and automations. 
 **The lesson, recorded because it will happen again:** material in his Claude account is not automatically *about him*. Work done for someone else looks identical in an export. When a source implies a major life commitment that appears nowhere else, ask before writing it into his identity.
 **Who decided:** Samuel, 2026-09-20.
 
+## 2026-09-20 — Every file gets a unique, readable name. No more `_index.md`
+**Decided:** an area's overview note is named after the area (`03-Areas/finances/finances.md`), and its standing files are prefixed (`finances-goals.md`, `finances-log.md`, `finances-decisions.md`, `finances-ideas.md`). `02-Me/_index.md` became `about-samuel.md`. The template `area-index.md` became `area-overview.md`.
+**Why:** Samuel: *"Why do I have so many index files, why are there not real names of files I can understand."* He was right. The original convention came from the build spec and produced ten files called `_index.md` plus ten called `goals.md`. It failed twice over: a filename told him nothing, and Obsidian resolves links by filename, so a bare link silently picked the wrong file. I had already patched the link symptom on 2026-09-20 without fixing the cause.
+**What changed:** 52 files renamed with `git mv` (history preserved), links rewritten in 101 files, then a second pass repaired 14 files where the earlier link patch had produced wrong paths (`03-Areas/03-Areas/…`, `03-Areas/sops/…`). AGENTS.md §4, `conventions.md` and the templates now state the new scheme. Two missing area overview notes were created (`book.md`, `relationships.md`).
+**Alternatives rejected:** keeping `_index.md` because Obsidian shows the folder name in some views — it does not help when reading the file tree, which is how Samuel actually looks at the vault.
+**Who decided:** Samuel, 2026-09-20.
+
+## 2026-09-20 — Routerise is the agency, Alex is the client
+**Decided:** Routerise is the agency Samuel works through. It assigned him one client, **Alex**, who runs Frontal. Rate **USD 333.33 per video** — the agency standard. One video in five days. Invoiced monthly, **70% at month end and 30% mid the following month**.
+**Why:** Samuel stated it in the Phase 3 interview. The imported documents contradicted each other — one called Routerise "my company", another labelled the project "client: Alex / Frontal". The client note had carried that contradiction as an open question since import; it is now closed.
+**Who decided:** Samuel, 2026-09-20.
+

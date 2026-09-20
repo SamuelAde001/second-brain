@@ -9,7 +9,7 @@ tags: [house-style, routerise]
 
 # Routerise house style — pacing, cuts, sound, look
 
-Style reference for cutting long-form talking-head video for [[clients/routerise]] (Alex / Frontal). Reverse-engineered by Samuel from the actual Resolve project data of the reference cut, **"$7M Founder: How I Use Claude for Cold Outreach (B2B sales)"** (DB folder `Routerise`, Timeline 1, Resolve Studio 21.1.0.0014) — a ~7:30 video, 503 video items, 253 audio items across 10 video / 7 audio tracks. Companion doc: [[fusion-node-system]] for how the graphics themselves are built. Workflow order (sync → silence → transcribe → bad takes) is [[sops/routerise-cut-workflow]].
+Style reference for cutting long-form talking-head video for [[03-Areas/video-editing/clients/routerise|Routerise]] (Alex / Frontal). Reverse-engineered by Samuel from the actual Resolve project data of the reference cut, **"$7M Founder: How I Use Claude for Cold Outreach (B2B sales)"** (DB folder `Routerise`, Timeline 1, Resolve Studio 21.1.0.0014) — a ~7:30 video, 503 video items, 253 audio items across 10 video / 7 audio tracks. Companion doc: [[fusion-node-system]] for how the graphics themselves are built. Workflow order (sync → silence → transcribe → bad takes) is [[03-Areas/video-editing/sops/routerise-cut-workflow|Routerise cut workflow]].
 
 **Status note:** several rules below are marked "confirmed" (Samuel answered directly) vs. "proposed / open" (Claude's read of the data, not yet approved). Do not treat a proposed rule as settled — see §9.
 
@@ -231,4 +231,4 @@ These were live at the end of the study and are not confirmed one way or the oth
 4. The **PJT text-animator pack** (62 presets) and the **Neo Texts** preset library (~100 presets) are installed but completely unused in the reference project — deliberate (don't fit the look), or just not top-of-mind? This decides whether future videos should pull from them.
 5. When does Samuel reach for **NeoTextMotion** (`Fuse.NeoMotionText`, used on ~32 of 105 text elements in the reference, roughly 1 in 3) instead of plain Text+ with NeoAnim? Per-character/word control, or just the faster starting point?
 
-Back to [[03-Areas/video-editing/_index|Video editing]]
+Back to [[03-Areas/video-editing/video-editing|Video editing]]

@@ -41,4 +41,4 @@ That last line is the one to remember. A plan is not an achievement.
 - Name the weak thing in his work plainly. He has written the same instruction into three separate documents — honest feedback over validation — so treat softening as a failure, not politeness.
 - Don't restate his context back at him to prove you read it.
 
-Back to [[02-Me/_index|Me]]
+Back to [[02-Me/about-samuel|Me]]

@@ -17,7 +17,7 @@ This is a different system from [[fusion-node-system]]: that note documents Samu
 
 The document never spells out "TSB" as an acronym anywhere in its text. The strongest evidence is the document's own title: **"Taking a Step Back from Claude: how the 3:06 to end visuals were built."** Every comp, folder and carrier-clip name in the document carries a `TSB_` prefix — `TSB comps/`, `TSB_lego2`, `TSB_accounts`, `TSB_whiteboard_376`, `TSB_rule_249`, `Claude TSB/carrier_[0000-0719].png`. The initials of "Taking a Step Back" are T-S-B, matching every prefix used. That correspondence is the only evidence in the source — it is not stated outright, so treat it as a strong inference, not a confirmed fact.
 
-**Which client/project this belongs to — needs-input.** The document never names a client. The one internal clue is in "Real sources used" (below): the graphics pull from "Frontal case studies: AirOps, Design Pickle and Teikametrics" — Frontal is Alex's agency (see [[clients/routerise]]), which suggests this is Routerise/Frontal work, but the document doesn't confirm it and doesn't say whether "Timeline 2" here is the same Resolve project/timeline referenced elsewhere in [[routerise-house-style]]. Consistent with the flag already recorded in [[clients/routerise]] ("Client attribution for this document is itself unconfirmed"), this is left unresolved rather than guessed.
+**Which client/project this belongs to — needs-input.** The document never names a client. The one internal clue is in "Real sources used" (below): the graphics pull from "Frontal case studies: AirOps, Design Pickle and Teikametrics" — Frontal is Alex's agency (see [[03-Areas/video-editing/clients/routerise|Routerise]]), which suggests this is Routerise/Frontal work, but the document doesn't confirm it and doesn't say whether "Timeline 2" here is the same Resolve project/timeline referenced elsewhere in [[routerise-house-style]]. Consistent with the flag already recorded in [[03-Areas/video-editing/clients/routerise|Routerise]] ("Client attribution for this document is itself unconfirmed"), this is left unresolved rather than guessed.
 
 ## The rule that drives everything
 
@@ -154,4 +154,4 @@ Source for all of this: `Claude Files\tools\fusion_compiler.zip`.
 - Whether this "Timeline 2" is the same Resolve timeline referenced in [[routerise-house-style]] (which mentions a Timeline 2 used only for an MP3 transcription export) — not stated; could be the same project or a different one.
 - Location and contents of `engine/scenes/*.js`, the HTML scene sources themselves, are referenced but not included in this document.
 
-Back to [[03-Areas/video-editing/_index|Video editing]]
+Back to [[03-Areas/video-editing/video-editing|Video editing]]

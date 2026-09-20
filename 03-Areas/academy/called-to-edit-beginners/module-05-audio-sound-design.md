@@ -192,4 +192,4 @@ Lesson spine and shot-type definitions are in [[teaching-rules]].
 One `[CHECK]` tag in this module is an unresolved CapCut PC workflow confirmation, flagged by the source itself as an item to verify before recording:
 - **Lesson 27:** `[CHECK: noise reduction / voice enhance controls on CapCut PC]` — the exact noise reduction / voice enhance UI to demo is not confirmed.
 
-Back to [[03-Areas/academy/_index|Academy]]
+Back to [[03-Areas/academy/academy|Academy]]

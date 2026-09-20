@@ -46,4 +46,4 @@ Kept in separate notes because there is a lot of it:
 - Turnaround and revision terms specific to him.
 - Whether the AI-ecommerce / dropshipping videos are also Alex's, or other end clients under the same agency.
 
-Back to [[03-Areas/video-editing/_index|Video editing]]
+Back to [[03-Areas/video-editing/video-editing|Video editing]]

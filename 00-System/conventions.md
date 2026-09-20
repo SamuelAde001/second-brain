@@ -14,7 +14,7 @@ The short version is in AGENTS.md §4. This is the full version, for when a rule
 ## Filenames
 - kebab-case, lowercase, no spaces: `client-onboarding.md`, not `Client Onboarding.md`.
 - Dates in filenames only for logs: daily `YYYY-MM-DD.md`, weekly `YYYY-Www.md` (ISO week, e.g. `2026-W38.md`).
-- Area index files are always `_index.md`.
+- An area's overview note is named after the area: `03-Areas/finances/finances.md`. Never `_index.md`.
 - One subject per file. The filename says the subject, not the category.
 
 ## Frontmatter
@@ -33,13 +33,13 @@ Every note. No exceptions, including logs.
 
 ## Links
 - `[[wikilinks]]`, never raw paths.
-- Every note links back to its area `_index`.
+- Every note links back to its area overview note.
 - A link to a note that does not exist yet is allowed and useful — it marks a gap.
 
 ### Ambiguous filenames — the one link rule that bites
-Every area has an `_index.md`, `goals.md`, `log.md`, `decisions.md` and `ideas.md`. Obsidian resolves a bare `[[_index]]` **by filename**, so it will silently pick the wrong one.
+The build originally gave every area a file called `_index.md`, plus `goals.md`, `log.md`, `decisions.md` and `ideas.md`. That produced ten identically named files, told Samuel nothing about what any of them held, and broke linking — Obsidian resolves a bare `[[_index]]`-style link by filename and silently picks the wrong one.
 
-- Link those five by **full vault path with an alias**: `[[03-Areas/video-editing/_index|Video editing]]`.
+- Link those five by **full vault path with an alias**: `[[03-Areas/video-editing/video-editing|Video editing]]`.
 - Link everything else short: `[[brand-context]]`, `[[script-process]]`.
 - **There is no `../` in wikilinks.** `[[../community/_index]]` does not resolve — it is a broken link that looks fine in the editor.
 

@@ -17,7 +17,7 @@ Samuel corrected the record directly:
 
 > "The user doesn't only record a voice note, the user can also write down a draft of his script which then can be refined by AI to working content formats."
 
-So the core loop has **two input paths**, not one: a voice note that gets transcribed into a draft, or a script typed directly — either is then refined by AI into a working content format tailored to that creator's specific audience and content type. This matches, and slightly sharpens, what's already in [[03-Areas/scripnals/_index|Scripnals]]'s "core loop" section. Scripnals sits as the daily-execution stage after Academy (skills), Community (habit/accountability) and Mentorship (personalised direction).
+So the core loop has **two input paths**, not one: a voice note that gets transcribed into a draft, or a script typed directly — either is then refined by AI into a working content format tailored to that creator's specific audience and content type. This matches, and slightly sharpens, what's already in [[03-Areas/scripnals/scripnals|Scripnals]]'s "core loop" section. Scripnals sits as the daily-execution stage after Academy (skills), Community (habit/accountability) and Mentorship (personalised direction).
 
 ## The validation questionnaire — what it was for
 
@@ -37,7 +37,7 @@ He approved the full set of proposed edits ("Yes draft out all the changes you p
 6. **Feature prioritization** *(edited)* — originally listed Voice Studio, AI Script Formatter, Content Calendar, Content Ideation. Swapped to: **Voice Studio, AI Script Formatter, Content Auditor** (added — described elsewhere as the core differentiator, "getting a score and specific feedback on whether my script will actually land with my audience — before I record it"). Content Calendar was cut entirely as out-of-roadmap scope creep; Content Ideation was left in as Samuel's call rather than removed outright.
 7. **Magic wand — open-ended** *(unchanged)*.
 8. **Pricing** *(unchanged)* — a single-question willingness-to-pay proxy (Van Westendorp-style) with a free-tier baseline. NGN pricing tiers were referenced as "already set at ₦15,000-25,000" per that same master doc — again cited secondhand, not verified in these sources.
-9. **Reveal screen** *(edited)* — the original text ("HighSignals is the first mobile app designed exclusively for short-form content creators") led with HighSignals as the product name. This was flagged as contradicting a standing positioning rule attributed to Samuel elsewhere — HighSignals stays "a quiet layer underneath, never the headline" — which matches the rule already recorded in [[03-Areas/scripnals/_index|Scripnals]]. Rewritten to lead with **"Scripnals"** as the product, with HighSignals demoted to an optional small-print trust line ("Built by the team behind the HighSignals creator community").
+9. **Reveal screen** *(edited)* — the original text ("HighSignals is the first mobile app designed exclusively for short-form content creators") led with HighSignals as the product name. This was flagged as contradicting a standing positioning rule attributed to Samuel elsewhere — HighSignals stays "a quiet layer underneath, never the headline" — which matches the rule already recorded in [[03-Areas/scripnals/scripnals|Scripnals]]. Rewritten to lead with **"Scripnals"** as the product, with HighSignals demoted to an optional small-print trust line ("Built by the team behind the HighSignals creator community").
 10. **Waitlist email capture** *(edited)* — the original "Lifetime 50% Discount" for any email address was flagged as an uncapped permanent liability. Two capping options were drafted; **Samuel never picked between them**: (a) 50% off the first 3 months, or (b) lifetime 50% capped to the first 100 members.
 11. **Traffic-source question** *(new, optional)* — added at the end to separate warm HighSignals-community respondents from cold traffic, since warm respondents would likely rate usefulness and price higher.
 12. **Thank-you screen** *(edited)* — the live placeholder text "Subtitle (optional)" was still showing on the actual screen; replaced with real copy.
@@ -52,7 +52,7 @@ He approved the full set of proposed edits ("Yes draft out all the changes you p
 
 Not yet added to `00-System/open-questions.md` — out of scope for this pass; flag for that file.
 
-Back to [[03-Areas/scripnals/_index|Scripnals]]
+Back to [[03-Areas/scripnals/scripnals|Scripnals]]
 
 ---
 

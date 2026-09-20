@@ -9,7 +9,7 @@ tags: [health, fitness, needs-input]
 
 # Health — coffee and gym/cardio
 
-Two threads from the source transcripts. [[02-Me/_index|Me]] already records, from the 2026-09-04 memory export: fitness — "exploring gym routines, leaning toward morning sessions given the work-from-home setup. No current routine," and food — "drinks Nescafé Gold Blend." Both are consistent with what's below; this note adds the detail and the dates behind those two lines, it doesn't change them.
+Two threads from the source transcripts. [[02-Me/about-samuel|Me]] already records, from the 2026-09-04 memory export: fitness — "exploring gym routines, leaning toward morning sessions given the work-from-home setup. No current routine," and food — "drinks Nescafé Gold Blend." Both are consistent with what's below; this note adds the detail and the dates behind those two lines, it doesn't change them.
 
 ## Coffee and its diuretic effect (2026-08-23)
 
@@ -17,7 +17,7 @@ Samuel's own words: he wants coffee every time he works, to "stay alert and stay
 
 **Diagnosis offered:** instant coffee on an empty stomach is a fast-transit combination; instant coffee tends to be more acidic, and with nothing in the stomach to slow it, it hits the gut quickly.
 
-**What he switched to.** Comparing store options he photographed, he moved toward Nescafé Gold Blend (100% Arabica, ~NGN 8,650) over Nescafé Classic (Robusta-based, more acidic) — Davidoff Fine/Rich Aroma (~NGN 12,500) was offered as an alternative. This matches the Gold Blend already on record in [[02-Me/_index|Me]] from the later memory export, so the switch appears to have stuck. Reasoning given: Arabica is smoother and lower-acid than Robusta, gentler on the gut, while still containing caffeine (not decaf, so alertness is preserved). A separate flavored 3-in-1 option (Cobizco Cappuccino sachets) was assessed and set aside — weaker caffeine per sachet, acidity of the underlying coffee blend unknown.
+**What he switched to.** Comparing store options he photographed, he moved toward Nescafé Gold Blend (100% Arabica, ~NGN 8,650) over Nescafé Classic (Robusta-based, more acidic) — Davidoff Fine/Rich Aroma (~NGN 12,500) was offered as an alternative. This matches the Gold Blend already on record in [[02-Me/about-samuel|Me]] from the later memory export, so the switch appears to have stuck. Reasoning given: Arabica is smoother and lower-acid than Robusta, gentler on the gut, while still containing caffeine (not decaf, so alertness is preserved). A separate flavored 3-in-1 option (Cobizco Cappuccino sachets) was assessed and set aside — weaker caffeine per sachet, acidity of the underlying coffee blend unknown.
 
 **Last thing discussed, unconfirmed:** whether to add milk to the Gold Blend. He asked; the suggestion was to add it — warm rather than cold — to further cushion the stomach and cut acidity. **He never confirmed whether he actually added milk or whether the switch resolved the toilet-frequency issue.** Treat as open.
 
@@ -43,4 +43,4 @@ The response: structurally sound (48-hour recovery between lifting days, three g
 - Whether a gym/cardio routine was ever actually started, and if so, which version (his own 6-day plan or the phased 4-day one).
 - Whether milk was added to the coffee, and whether the diuretic issue was actually resolved by the switch to Gold Blend.
 
-Back to [[02-Me/_index|Me]]
+Back to [[02-Me/about-samuel|Me]]

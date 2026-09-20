@@ -145,4 +145,4 @@ Nearly every educational-structure CTA (and several other stages) points to a na
 
 See [[voice-and-rules]] for the separate script shape already on file (Hook → Context → Conflict → Pivot → Resolution → Mantra) — these named structures are a different, more granular framework from the same import and are not reconciled with each other here.
 
-Back to [[03-Areas/personal-brand/_index|Personal brand]]
+Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

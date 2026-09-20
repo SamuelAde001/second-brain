@@ -9,7 +9,7 @@ tags: [curriculum, called-to-edit-beginners, pedagogy]
 
 # Teaching rules — Called to Edit: Beginner Course
 
-Applies to every lesson in [[03-Areas/academy/_index|Academy]]. Quoted and reproduced in full from the source's "The positioning this outline is built on" section.
+Applies to every lesson in [[03-Areas/academy/academy|Academy]]. Quoted and reproduced in full from the source's "The positioning this outline is built on" section.
 
 ## The core positioning
 
@@ -64,6 +64,6 @@ This document is itself a revision. Its closing section, "What Changed From the 
 
 And its closing line: *"Remaining `[CHECK]` tags are CapCut PC workflow confirmations only — worth batching into one session before you start recording, so you're not stopping mid-production."*
 
-This confirms two things recorded on [[03-Areas/academy/_index|Academy]]: the course predates this revision in an earlier form not held in this vault, and as of this document the course had not yet started recording. See [[03-Areas/academy/_index|Academy]]'s "Is it built yet?" section.
+This confirms two things recorded on [[03-Areas/academy/academy|Academy]]: the course predates this revision in an earlier form not held in this vault, and as of this document the course had not yet started recording. See [[03-Areas/academy/academy|Academy]]'s "Is it built yet?" section.
 
-Back to [[03-Areas/academy/_index|Academy]]
+Back to [[03-Areas/academy/academy|Academy]]

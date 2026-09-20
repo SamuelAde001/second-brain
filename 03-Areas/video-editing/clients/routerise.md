@@ -67,15 +67,15 @@ needs-input — no source document describes how Alex/Routerise actually briefs 
 - **Footage often arrives incomplete.** Every cut sheet reviewed ends with a ranked "still needed from client" list (e.g. real UGC ad renders, Ads Manager screen capture with all columns on, community-platform screen capture, specific end-card videos) — getting a cut sheet approved does not mean the footage to execute it exists yet.
 - **Some assets are explicitly unverified and need confirming before use** — e.g. `mcp.facebook.com/ads` flagged in Alex's own script as unverified; must be confirmed before showing it "connect" on screen.
 - **Mic setup varies shoot to shoot without being a fixed rule.** Two separate lavalier files (`TX02_MIC012`, `TX02_MIC013`) turned up in one project's timeline — confirmed by Samuel to be "just whatever audio Alex supplied," not a deliberate two-mic convention.
-- **Camera audio is occasionally unusable.** On the 13 Sep shoot the camera's scratch audio was dead (flat noise floor at −62 dBFS, no speech), which breaks waveform sync entirely and forces a fallback motion-correlation sync method — see [[03-Areas/sops/routerise-cut-workflow|Routerise cut workflow]].
+- **Camera audio is occasionally unusable.** On the 13 Sep shoot the camera's scratch audio was dead (flat noise floor at −62 dBFS, no speech), which breaks waveform sync entirely and forces a fallback motion-correlation sync method — see [[03-Areas/video-editing/sops/routerise-cut-workflow|Routerise cut workflow]].
 - **Deadline pressure can override the usual Fusion-heavy approach** — the $0–10K back-half cut sheet explicitly notes "no complex Fusion work (deadline-constrained)" as a house-style adjustment for that specific cut.
 
 ## Work history
 
 Dates are not stated in the source documents except where noted; do not infer an order beyond what's given.
 
-- 2026-09-14 — house style study conducted against the reference project *"$7M Founder: How I Use Claude for Cold Outreach (B2B sales)"* (Alex/Frontal) — [[routerise-house-style|Routerise house style]], [[03-Areas/fusion-node-system|Fusion node system]]
-- date not stated — SOP for the cut workflow (sync → silence removal → transcribe → remove bad takes) established and written down, dated only as "Established 14 Sep 2026" — [[03-Areas/sops/routerise-cut-workflow|Routerise cut workflow]]
+- 2026-09-14 — house style study conducted against the reference project *"$7M Founder: How I Use Claude for Cold Outreach (B2B sales)"* (Alex/Frontal) — [[routerise-house-style|Routerise house style]], [[fusion-node-system|Fusion node system]]
+- date not stated — SOP for the cut workflow (sync → silence removal → transcribe → remove bad takes) established and written down, dated only as "Established 14 Sep 2026" — [[03-Areas/video-editing/sops/routerise-cut-workflow|Routerise cut workflow]]
 - 2026-09-19 — TSB graphics-pipeline work (Timeline 2, 3:06–10:40): native-Fusion rebuild of `lego2` and `accounts`, plus the wider raster→native-node conversion effort. **Client attribution for this document is itself unconfirmed** — see [[tsb-graphics-pipeline|TSB graphics pipeline]]
 - date not stated — cut sheet built for *Routerise "$0–10K Profit"* (back half, 21:39→33:46) — see [[cut-sheets|Cut sheets]]
 - date not stated — cut sheet built for *Routerise "How to Start an AI Ecommerce Brand in 2026"* (full video, 00:00→33:56) — see [[cut-sheets|Cut sheets]]
@@ -85,4 +85,4 @@ Dates are not stated in the source documents except where noted; do not infer an
 
 No revision requests are recorded in the source documents. needs-input if Samuel wants this tracked going forward.
 
-Back to [[03-Areas/video-editing/_index|Video editing]]
+Back to [[03-Areas/video-editing/video-editing|Video editing]]

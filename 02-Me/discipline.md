@@ -38,4 +38,4 @@ From the 2026-08-26 life-management conversation (see [[systems-history]] for th
 
 [[legacy-review]] lists several rules and failure patterns from the archived engine that sit in the same territory as this material, all still `unreviewed`: S1 ("7/7 on the prayer block, no acceptable miss rate"), S5 ("never tick a habit he has not confirmed out loud at the reckoning"), F1 ("selective dropping, not effort collapse — the audience-facing half gets cancelled while client work continues"), and F2 ("the debt gets paid with the body — work skipped is repaid in a single death-march session"). Nothing in these transcripts confirms or extends those items; they are noted here only so a future pass doesn't mistake the overlap for corroboration. None of it is active.
 
-Back to [[02-Me/_index|Me]]
+Back to [[02-Me/about-samuel|Me]]

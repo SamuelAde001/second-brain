@@ -67,7 +67,7 @@ A photo of his handwritten signature, background removed (transparent PNG), plac
 - What "DSG" stands for.
 - Whether the builder/PDF workflow above is still what he actually uses for invoices sent after 2026-08-20.
 
-Back to [[03-Areas/finances/_index|Finances]]
+Back to [[03-Areas/finances/finances|Finances]]
 
 ## Payment terms — confirmed by Samuel, 2026-09-20
 

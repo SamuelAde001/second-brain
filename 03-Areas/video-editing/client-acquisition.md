@@ -31,4 +31,4 @@ Unexplained in the source. Could be a friend, a mentee, or a small agency arrang
 
 Logged in `00-System/open-questions.md`. Feeds the goal ladder in `02-Me/goals/` and the finance targets.
 
-Back to [[03-Areas/video-editing/_index|Video editing]]
+Back to [[03-Areas/video-editing/video-editing|Video editing]]

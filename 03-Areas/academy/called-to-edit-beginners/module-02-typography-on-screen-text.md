@@ -131,4 +131,4 @@ Lesson spine and shot-type definitions are in [[teaching-rules]].
 One `[CHECK]` tag in this module is an unresolved CapCut PC workflow confirmation, flagged by the source itself as an item to verify before recording:
 - **Lesson 13:** `[CHECK: current auto-caption + edit workflow on CapCut PC]` — the exact auto-caption generation and correction workflow to demo is not confirmed.
 
-Back to [[03-Areas/academy/_index|Academy]]
+Back to [[03-Areas/academy/academy|Academy]]

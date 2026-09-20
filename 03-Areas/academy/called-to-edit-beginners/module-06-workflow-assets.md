@@ -85,4 +85,4 @@ Lesson spine and shot-type definitions are in [[teaching-rules]].
 One `[CHECK]` tag in this module is an unresolved CapCut PC workflow confirmation, flagged by the source itself as an item to verify before recording:
 - **Lesson 29:** `[CHECK: template / project duplication workflow on CapCut PC]` — the exact template/project duplication workflow is not confirmed.
 
-Back to [[03-Areas/academy/_index|Academy]]
+Back to [[03-Areas/academy/academy|Academy]]

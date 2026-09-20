@@ -66,7 +66,7 @@ Across the sheets, the shot list is organised by **physical shoot**, not by beat
 
 ## `routerise-alex-START-HERE.md` — checked, not folded in here
 
-A condensed project-briefing and house-style recap ("Read this first when starting a new video for Alex") covering delivery spec, the ten structural rules, track layout, the PIP system, the plugin list, Fusion build conventions and Resolve-stability warnings. No cut-sheet process content. Its facts are already in [[routerise-house-style]] and [[fusion-node-system]], and its project-context table is quoted in [[clients/routerise]].
+A condensed project-briefing and house-style recap ("Read this first when starting a new video for Alex") covering delivery spec, the ten structural rules, track layout, the PIP system, the plugin list, Fusion build conventions and Resolve-stability warnings. No cut-sheet process content. Its facts are already in [[routerise-house-style]] and [[fusion-node-system]], and its project-context table is quoted in [[03-Areas/video-editing/clients/routerise|Routerise]].
 
 ## needs-input
 
@@ -74,4 +74,4 @@ A condensed project-briefing and house-style recap ("Read this first when starti
 - The beat-by-beat HTML content of the three cut sheets (`$0-10K Cut Sheet - 21m39 to End.html`, `AI Ecom Brand - Cut Sheet.html`, `Cut Sheet - Visual Direction.html`) is not among the sources — only the companion notes.
 - Which ad downloader to use for the $0–10K video (§29) — listed as still needed from the client, unresolved.
 
-Back to [[03-Areas/video-editing/_index|Video editing]]
+Back to [[03-Areas/video-editing/video-editing|Video editing]]

@@ -164,4 +164,4 @@ Calibrated against Samuel's own proven value: a 928×1152 source image at `Trans
 - **Text3D's extrude/bevel** is real but limited to text glyphs (a custom-font-glyph workaround exists to extrude arbitrary shapes through it) — unnecessary once `Extrude3D` is known.
 - A raster `Rectangle` mask on a `Background` cannot feed `Extrude3D` directly — see Recipe B step 1. This was Samuel's own proposed workflow, corrected mid-conversation to the vector Shape Tools instead.
 
-Back to [[03-Areas/video-editing/_index|Video editing]]
+Back to [[03-Areas/video-editing/video-editing|Video editing]]

@@ -39,4 +39,4 @@ This is also a warning about the rest of the migration: the export contains plen
 - What has actually performed, and what flopped.
 - Whether the posting rhythm in [[brand-context]] still holds.
 
-Related: [[brand-context]] · [[script-process]] · [[03-Areas/personal-brand/ideas|Ideas]]. Back to [[03-Areas/personal-brand/_index|Personal brand]]
+Related: [[brand-context]] · [[script-process]] · [[03-Areas/personal-brand/personal-brand-ideas|Ideas]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

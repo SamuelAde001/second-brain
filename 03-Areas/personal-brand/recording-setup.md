@@ -59,4 +59,4 @@ High-pass ~80–100Hz → noise reduction → light compression → **loudness n
 
 Excel workbooks built with `openpyxl` for shoot lists, archive trackers and formula-driven checklists.
 
-Related: [[brand-context]] · [[03-Areas/video-editing/toolchain|Toolchain]] · [[03-Areas/video-editing/troubleshooting|Troubleshooting]]. Back to [[03-Areas/personal-brand/_index|Personal brand]]
+Related: [[brand-context]] · [[03-Areas/video-editing/toolchain|Toolchain]] · [[03-Areas/video-editing/troubleshooting|Troubleshooting]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

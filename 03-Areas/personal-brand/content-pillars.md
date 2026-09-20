@@ -31,6 +31,6 @@ Still unfinished as of 2026-07-24. Worth developing when it comes up naturally:
 
 The source doc lists the pillars but does not define what Storytelling and The Journey actually cover, or how often each pillar is posted. See `00-System/open-questions.md`.
 
-Series running under these pillars: [[series/guiding-while-riding]].
+Series running under these pillars: [[03-Areas/personal-brand/series/guiding-while-riding|Guiding while riding]].
 
-Back to [[03-Areas/personal-brand/_index|Personal brand]]
+Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

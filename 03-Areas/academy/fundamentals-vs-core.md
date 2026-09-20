@@ -11,7 +11,7 @@ tags: [curriculum, called-to-edit-beginners, create-vs-edit]
 
 ## What this is
 
-From the "Balancing fundamentals with core editing content" chat (2026-08-07 to 2026-08-09) — an earlier-stage working session than the teaching-structure documents already in the vault ([[teaching-rules]], [[current-production]], [[called-to-edit-beginners/_index|Called to Edit: Beginners]]). Most of what came out of this chat — the 31-lesson, 8-module curriculum, the five-beat lesson spine, the "editing not CapCut" repositioning — is already recorded there in full detail and isn't repeated here. This note holds two things that aren't recorded elsewhere: the actual tension Samuel raised and how it got resolved, and one specific create-vs-edit boundary case this chat surfaced.
+From the "Balancing fundamentals with core editing content" chat (2026-08-07 to 2026-08-09) — an earlier-stage working session than the teaching-structure documents already in the vault ([[teaching-rules]], [[current-production]], [[03-Areas/academy/called-to-edit-beginners/called-to-edit-beginners|Called to Edit: Beginners]]). Most of what came out of this chat — the 31-lesson, 8-module curriculum, the five-beat lesson spine, the "editing not CapCut" repositioning — is already recorded there in full detail and isn't repeated here. This note holds two things that aren't recorded elsewhere: the actual tension Samuel raised and how it got resolved, and one specific create-vs-edit boundary case this chat surfaced.
 
 ## The question he actually asked
 
@@ -55,4 +55,4 @@ Samuel then asked whether he should record in DaVinci Resolve instead — the to
 
 Not the stated rule — the "hard line" in [[courses]] stands as written: Create teaches why/what to film, Edit teaches how to execute. What this chat adds is the one place in the vault showing that line actually being drawn against a real piece of content, and the outcome wasn't a clean removal — it was a flagged, compressed fold-in kept inside the Edit course. Worth knowing if the same judgment call comes up again while the rest of the curriculum gets built out.
 
-Back to [[03-Areas/academy/_index|Academy]]
+Back to [[03-Areas/academy/academy|Academy]]

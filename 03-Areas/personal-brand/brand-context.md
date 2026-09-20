@@ -11,7 +11,7 @@ tags: [brand, audience, positioning]
 
 The full brand background, from `HighSignals_Content_Context.md` — the companion doc Samuel thought he had deleted. It was inside the **Content Creation** Claude project, created 2026-07-17. This is the richest single source on the brand.
 
-> Note on naming: the doc is titled "HighSignals — Content & Brand Context" and treats Samuel's content and HighSignals as one thing. Samuel's correction of 2026-09-20 separates them: the personal brand is him, @SamuelSignals, and it funnels into HighSignals ([[03-Areas/highsignals/_index|HighSignals]]). The substance below is about his own content, so it lives here.
+> Note on naming: the doc is titled "HighSignals — Content & Brand Context" and treats Samuel's content and HighSignals as one thing. Samuel's correction of 2026-09-20 separates them: the personal brand is him, @SamuelSignals, and it funnels into HighSignals ([[03-Areas/highsignals/highsignals|HighSignals]]). The substance below is about his own content, so it lives here.
 
 ## Who he is
 
@@ -122,4 +122,4 @@ Guru energy. Anyone acting like they know it all or seem perfect. Any content th
 - Series names for pillars 3, 4 and 5 (Storytelling / The Journey / Build With Me).
 - A CTA line built around "visibility".
 
-See also [[voice-and-rules]] · [[script-process]] · [[content-pillars]] · [[storytelling-structures]]. Back to [[03-Areas/personal-brand/_index|Personal brand]]
+See also [[voice-and-rules]] · [[script-process]] · [[content-pillars]] · [[storytelling-structures]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

@@ -65,4 +65,4 @@ Samuel's instruction: **not in one pass, and not tonight.** A dedicated session 
 - How the agent drives Resolve: the DaVinci Resolve MCP is connected, so the cut in step 1 and the comps in step 6 are scriptable. Needs a real test on a copy of a timeline.
 - **Rule already on file:** duplicate the timeline before any agent touches it ([[ways-of-working]]).
 
-Related: [[workflow]] · [[ways-of-working]] · [[fusion-recipes]] · [[cut-sheets]]. Back to [[03-Areas/video-editing/_index|Video editing]]
+Related: [[workflow]] · [[ways-of-working]] · [[fusion-recipes]] · [[cut-sheets]]. Back to [[03-Areas/video-editing/video-editing|Video editing]]
