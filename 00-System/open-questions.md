@@ -26,3 +26,8 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 11 | Is the ascension model (Academy equips → Community implements → Mentorship personalises → Scripnals executes) still how HighSignals actually works? | highsignals | 2026-09-20 | Phase 3 interview | — |
 | 12 | Where does the future book sit — under HighSignals, under the personal brand, or on its own? | highsignals | 2026-09-20 | Phase 3 interview | — |
 | 13 | The companion doc "HighSignals — Content & Brand Context" referenced by the 2026-07-24 instructions is missing; Samuel thinks he deleted it and has deprioritised it. Its content gets rebuilt by interview when needed. | personal-brand | 2026-09-20 | Not blocking — deferred by Samuel | — |
+| 14 | Abuja or Lagos? The build spec's starting context says Abuja; the "MY PA" project instructions (2026-08-24) say Lagos. | me | 2026-09-20 | Anything time/place sensitive | — |
+| 15 | Which military branch? Brand context says "soldier in the Nigerian military"; "MY PA" instructions say "Ex-Nigerian Air Force". The story is a content pillar, so the detail matters. | me | 2026-09-20 | The Journey pillar | — |
+| 16 | Series names for pillars 3, 4 and 5 (Storytelling / The Journey / Build With Me), a signature catchphrase, and a CTA line built around "visibility" — all still undecided as of 2026-07. | personal-brand | 2026-09-20 | Content production | — |
+| 17 | Is the posting rhythm (1× cinematic, 3× talking head, 1× BTS per week) still what he actually does? It was written around the full-time editing job in 2026-07. | personal-brand | 2026-09-20 | plan skill capacity checks | — |
+
