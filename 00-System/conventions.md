@@ -37,11 +37,11 @@ Every note. No exceptions, including logs.
 - A link to a note that does not exist yet is allowed and useful — it marks a gap.
 
 ### Ambiguous filenames — the one link rule that bites
-The build originally gave every area a file called `_index.md`, plus `goals.md`, `log.md`, `decisions.md` and `ideas.md`. That produced ten identically named files, told Samuel nothing about what any of them held, and broke linking — Obsidian resolves a bare `[[_index]]`-style link by filename and silently picks the wrong one.
+The build originally gave every area a file called `_index.md`, plus `goals.md`, `log.md`, `decisions.md` and `ideas.md`. That produced ten identically named files, told Samuel nothing about what any of them held, and broke linking — Obsidian resolves a bare `_index`-style link by filename and silently picks the wrong one.
 
 - Link those five by **full vault path with an alias**: `[[03-Areas/video-editing/video-editing|Video editing]]`.
 - Link everything else short: `[[brand-context]]`, `[[script-process]]`.
-- **There is no `../` in wikilinks.** `[[../community/_index]]` does not resolve — it is a broken link that looks fine in the editor.
+- **There is no `../` in wikilinks.** `../community/community` does not resolve — it is a broken link that looks fine in the editor.
 
 Checked across the vault on 2026-09-20 and fixed in 79 files.
 

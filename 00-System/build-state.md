@@ -4,8 +4,8 @@ Single source of continuity for the second-brain build. Update at the end of eve
 
 ## Current position
 - **Phase:** 2 — Migration
-- **Last completed step:** Phase 2 essentially complete. Sources 1, 2, 3, 5 and 6 done; the conversation shortlist (23 conversations) distilled in 4 subagent batches; per-project memory files distilled. 50 open questions logged.
-- **Next step:** Phase 3 — the interview. Domain order: video-editing first. Before starting, decide the two structural leftovers with Samuel (the discipline-streak note, question 32). Remaining migration crumbs: the video-editing `technical-learnings.md` memory file (14.6k chars) and the content-creation `story-bank.md` (8.1k) — both likely overlap what is already extracted; check before spending tokens.
+- **Last completed step:** Phase 2 complete, plus a structural pass Samuel asked for: every file renamed to a unique readable name (no `_index.md`), redundant notes merged and deleted, 1.28 MB of generated engine output removed. Phase 3 interview opened with video-editing round 1 — answered in full.
+- **Next step:** Phase 3 continues. Write up the remaining video-editing answers if any are outstanding, then finances (domain 2). Samuel has asked for a **dedicated later session on the video-editing agent** — see `03-Areas/video-editing/agent-plan.md`; do not fold that into a normal interview round.
 - **Phase 0 started:** 2026-09-20
 - **14-day target for Phases 0–4:** 2026-10-04 (day 0 of 14 elapsed)
 
@@ -85,4 +85,7 @@ Swept every note: 79 files rewritten, 0 ambiguous or relative wikilinks left. Ru
 - 2026-09-20 — CORRECTION, from Samuel: the postgraduate degree and all electrical work in the export belong to **his sister**, and the Comfort Cuts project is not his either. `02-Me/postgraduate-study.md` deleted, Comfort material stripped from the video-editing notes, open questions 25/26 voided. The earlier log line above is left in place per rule 3 — it is corrected here, not erased.
 - 2026-09-20 — Calibration and triage set: Samuel chose the tight ~20-conversation shortlist for distillation.
 - 2026-09-20 — All four distillation batches landed (finances+scripnals, me, video-editing, brand+academy). Per-project memory files distilled: academy production state, Wednesday Teaching Series, visual identity, gear, ways-of-working. Open questions now 50.
+- 2026-09-20 — Samuel: "why do I have so many index files". Renamed 52 files, rewrote links in 101, repaired 14 more. `_index.md` no longer exists in the vault.
+- 2026-09-20 — Prune at his instruction: 4 note groups merged or deleted, engine build artifacts removed (1.69 MB -> 0.41 MB). One piece of personal material deleted from `02-Me/discipline.md`.
+- 2026-09-20 — Phase 3 video-editing round 1 answered: Routerise is the agency, Alex is the client, USD 333.33/video, one video in five days, 70/30 monthly payment. Workflow and agent plan written.
 
