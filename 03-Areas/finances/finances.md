@@ -53,18 +53,19 @@ See [[03-Areas/finances/finances-goals|Goals]] — NGN 1,000,000 by 31 Dec 2026,
 ## The three things that decide everything here
 
 1. **Income has halved in two months** — NGN 2,273,189 in June, NGN 1,791,800 in July, about NGN 910,000 real in August.
-2. **One payer sets both the rates and the volume.** "Hit 4 videos a month" is not a goal he can own.
+2. **One payer sets the rate and the volume — and does not say the volume in advance.** He finds out what he earned when he counts videos at invoice time. Break-even is ~3 videos; the goal needs 4.
 3. **The course is the only income line whose existence he controls** — which is why it is a finance item, not just an Academy item.
 
 ## Open questions
 
 - **Nothing captures videos delivered.** Income is unknowable until he counts them at invoice time — see [[income]]. One line per delivered video would fix it.
 - Who is **Mshel**, and what was invoice DSG-2026-001 for (NGN 1,397,500, 2026-08-20)? **He does not remember.** It appears nowhere in the engine's income record, which names Route Rise as his only payer.
+- **What counts as a "major" spend.** The new logging rule turns on it and no threshold is set.
+- **The consequence for breaking the savings rule.** Still unenforced, open since 2026-08-26 — the one question from this interview Samuel did not answer.
 - TIN and a standard payment term for invoices.
-- Wedding July 2027 — budget and who pays which part.
-- The enforced consequence for breaking the savings rule.
-- The Rule 7 refill plan.
+- The wedding's actual cost. He pays, alone, and no figure exists yet — so Goal 2's NGN 3M is a chosen target, not a costed one.
 - Whether any of the September unassigned NGN 57,532 survived to month end.
+- Whether the sheet gets corrected to match the ledger on Cowrywise.
 
 ## Related areas
 
