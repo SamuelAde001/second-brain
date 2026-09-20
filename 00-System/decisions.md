@@ -60,3 +60,10 @@ Decisions about the vault itself: its structure, rules, agents and automations. 
 **Why:** Samuel did not want to run every push by hand. Pushing to his own private repo is the one outward action this build needs repeatedly.
 **Who decided:** Samuel, 2026-09-20.
 
+## 2026-09-20 — CORRECTION: the postgraduate engineering work is his sister's, not his
+**Decided:** nothing about the postgraduate degree, EEE 804, the term papers, or any electrical/power-systems calculation goes in this vault. Same for anything from the "comfort- cuts video edit" project — that work is not his either.
+**Why:** Samuel said so plainly. Earlier the same day I created `02-Me/postgraduate-study.md` from the memory and projects export and told him it changed his capacity picture. That was wrong: the material was in his Claude account because he was helping his sister, not because it was his own commitment.
+**What changed:** `02-Me/postgraduate-study.md` deleted. The "power systems engineering" line in `02-Me/_index.md` corrected in place with a note saying why. Butler-reel / Comfort Cuts material stripped out of `03-Areas/video-editing/cut-sheets.md` and the Comfort Cuts mention removed from the video-editing index. Open questions 25 and 26 voided. All study-tagged and Comfort-tagged conversations excluded from the distillation shortlist.
+**The lesson, recorded because it will happen again:** material in his Claude account is not automatically *about him*. Work done for someone else looks identical in an export. When a source implies a major life commitment that appears nowhere else, ask before writing it into his identity.
+**Who decided:** Samuel, 2026-09-20.
+

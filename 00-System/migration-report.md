@@ -144,3 +144,15 @@ Nothing from it was installed, merged or activated. `00-System/legacy-review.md`
 
 Awaiting Samuel's trim at the Phase 2 pass-1 gate.
 
+---
+
+## Correction — 2026-09-20
+
+Samuel: the postgraduate coursework, the term papers and every electrical/power-systems calculation in the export are **his sister's work, not his**. The "comfort- cuts video edit" project is likewise not his.
+
+Removed: `02-Me/postgraduate-study.md` (deleted), the postgrad line in `02-Me/_index.md`, the "power systems engineering" interest claim (corrected in place), all Butler-reel/Comfort Cuts content from `03-Areas/video-editing/cut-sheets.md`, and the Comfort Cuts mention in the video-editing index. Open questions 25 and 26 voided.
+
+Excluded from all further distillation: any conversation matching the `study` keyword set, the "Eight-channel data-acquisition system design" conversation, and anything from the Comfort Cuts project.
+
+The source files stay untouched in `01-Inbox/_imports/` — sources are read-only. They are simply not drawn from.
+

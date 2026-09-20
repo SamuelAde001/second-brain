@@ -37,6 +37,7 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 22 | Which "previously planned coaching brand and its associated app, which never launched" was he considering dropping (memory, 2026-09-04)? Contentinfluence, or something else? | personal-brand | 2026-09-20 | Past-attempts note | — |
 | 23 | The educational storytelling structures reference named hook/CTA "sections of template" (education, myth, follow, sales, engagement, authority, step-by-step) that are not in any imported file. Does that bank still exist? | personal-brand | 2026-09-20 | Script writing | — |
 | 24 | Current Instagram numbers: followers, reach, engagement, best and worst performers. | personal-brand | 2026-09-20 | brainstorm skill | — |
-| 25 | **Postgraduate engineering degree** — active as of 2026-09. Programme, institution, end date, weekly hours, deadlines, and why he is doing it. Planning capacity is fiction until this is answered. | me | 2026-09-20 | Job 3 (planning) and job 6 (accountability) | — |
-| 26 | Does postgraduate study get its own area (`03-Areas/study/`) or stay under `02-Me/`? It is a multi-year commitment, not a project with an end date. | system | 2026-09-20 | Area structure | — |
+| 25 | ~~Postgraduate engineering degree — scope and hours~~ **VOID.** | me | 2026-09-20 | — | 2026-09-20: not his. The postgraduate coursework and all electrical calculations were done **for his sister**. Note deleted, nothing of it is recorded. |
+| 26 | ~~Does postgraduate study get its own area?~~ **VOID** — see 25. No study area. | system | 2026-09-20 | — | 2026-09-20 |
+| 27 | Confirm the cut-sheet beat fields (picture / on-screen text / motion / cut-back-to-A-roll). They are reconstructed from one descriptive line, not from an actual cut sheet. | video-editing | 2026-09-20 | Cut-sheet SOP | — |
 

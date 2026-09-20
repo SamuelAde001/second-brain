@@ -49,7 +49,7 @@ They are installed as plugin skills, not yet copied into this vault's `.claude/s
 ## Open questions
 
 - Rates, weekly capacity, current pipeline, turnaround and revision terms — nothing recorded.
-- Which clients are active right now. Only Routerise and Comfort Cuts appear in the sources; `Desktop/Video edits/` shows Fikayo, church work, and a `Clients/` folder with more.
+- Which clients are active right now. Only Routerise appears in the sources; `Desktop/Video edits/` shows Fikayo, church work, and a `Clients/` folder with more.
 - What takes the most time, and what the editing agent should automate first.
 - The recurring jobs to hand to an agent: new-project setup, pre-edit plan, review pass, delivery checklist, revision tracking.
 

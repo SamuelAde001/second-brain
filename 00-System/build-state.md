@@ -82,4 +82,6 @@ Current Gemini CLI uses the nested key `context.fileName` in `settings.json`, no
 
 Swept every note: 79 files rewritten, 0 ambiguous or relative wikilinks left. Rule written into `00-System/conventions.md` and AGENTS.md §4.
 - 2026-09-20 — Sources 2 (project docs), 3 (memory export) and 5 (legacy engine) distilled. 3 extraction subagents used; 2 were killed mid-run by the Pro session limit and their remaining files were re-run. Postgraduate degree discovered. Triage produced. Wikilink defect found and fixed.
+- 2026-09-20 — CORRECTION, from Samuel: the postgraduate degree and all electrical work in the export belong to **his sister**, and the Comfort Cuts project is not his either. `02-Me/postgraduate-study.md` deleted, Comfort material stripped from the video-editing notes, open questions 25/26 voided. The earlier log line above is left in place per rule 3 — it is corrected here, not erased.
+- 2026-09-20 — Calibration and triage set: Samuel chose the tight ~20-conversation shortlist for distillation.
 
