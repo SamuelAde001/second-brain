@@ -11,13 +11,13 @@ tags: []
 
 ## What this is
 
-Samuel's own brand — **him**, not a company and not the community. Instagram handle **@SamuelSignals**. This area covers positioning, voice, content pillars, series, production workflow and what performs.
+Samuel's own brand — **him**, not a company. Instagram handle **@SamuelSignals**. This area covers positioning, voice, content pillars, series, production workflow and what performs.
 
-**HighSignals is the community, not this.** See [[../community/_index]].
+**This brand sits outside HighSignals.** HighSignals is a separate, umbrella brand with four branches ([[../highsignals/_index]]). The relationship is a funnel: the personal brand builds attention and trust, and feeds people into HighSignals. Content made as Samuel is not HighSignals content, even when it points at HighSignals.
 
 ## Why it matters
 
-The brand is how clients, students, community members and collaborators find him. Everything else in the ecosystem — community, academy, mentorship, app — is downstream of whether people know who he is and trust him.
+The brand is how clients, students, community members and collaborators find him. Every HighSignals branch is downstream of whether people know who he is and trust him — that is what the funnel means in practice.
 
 ## Current status — as of 2026-09-20
 
@@ -44,11 +44,12 @@ See [[goals]]. Not set yet.
 - What the Storytelling and The Journey pillars actually cover, and the posting cadence per pillar.
 - Whether Guiding While Riding launched, and how many episodes exist.
 - Current numbers: followers, reach, what performed and what flopped.
-- Where the personal brand ends and HighSignals begins — the source docs treat "HighSignals" as an umbrella ecosystem, which contradicts Samuel's correction of 2026-09-20.
+- How the funnel actually works in content terms: what a personal-brand post does differently from a HighSignals post.
 
 ## Related areas
 
-- [[../community/_index]] — HighSignals, the community
+- [[../highsignals/_index]] — the brand this funnels into
+- [[../community/_index]] — HighSignals Community
 - [[../academy/_index]] — the courses
 - [[../scripnals/_index]] — the app
 - [[../video-editing/_index]] — the craft the brand is built on

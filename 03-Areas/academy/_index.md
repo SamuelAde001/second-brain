@@ -11,7 +11,7 @@ tags: []
 
 ## What this is
 
-The teaching branch: three courses — Called to Create, Called to Edit Beginners, Called to Edit Advanced. Curriculum, platform, pricing, launch and student outcomes live here.
+**HighSignals Academy** — the teaching branch of the HighSignals brand ([[../highsignals/_index]]). Three courses — Called to Create, Called to Edit Beginners, Called to Edit Advanced. Curriculum, platform, pricing, launch and student outcomes live here.
 
 ## Why it matters
 
@@ -35,8 +35,10 @@ See [[goals]]. Not set yet.
 - Curriculum per course: lessons, order, length.
 - Platform, pricing, launch plan.
 - What assets already exist in `Desktop/HighSignals/Course/`.
-- Whether the Academy sits under HighSignals or beside it — see the naming conflict in [[../community/_index]].
+- Whether all three courses exist yet, or only Called to Edit Beginners.
 
 ## Related areas
 
-- [[../community/_index]] · [[../mentorship/_index]] · [[../scripnals/_index]] · [[../video-editing/_index]]
+- [[../highsignals/_index]] — the umbrella
+- [[../community/_index]] · [[../mentorship/_index]] · [[../scripnals/_index]] — sister branches
+- [[../video-editing/_index]] — the craft being taught

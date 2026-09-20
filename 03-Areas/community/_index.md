@@ -11,7 +11,9 @@ tags: []
 
 ## What this is
 
-HighSignals, the community Samuel runs. Confirmed by him on 2026-09-20: **HighSignals is the community. It is not his personal brand** — that is him, @SamuelSignals ([[../personal-brand/_index]]).
+**HighSignals Community** — one of the four branches of the HighSignals brand ([[../highsignals/_index]]). The place where people implement what the Academy taught them.
+
+It is not the whole of HighSignals, and it is not Samuel's personal brand — that is him, @SamuelSignals, and it sits outside HighSignals entirely ([[../personal-brand/_index]]).
 
 ## Why it matters
 
@@ -21,17 +23,9 @@ In the ascension model described in the project-setup docs, the community is whe
 
 Almost entirely unknown. No platform, size, rituals, engagement level, moderation rules or monetisation recorded. There is a `Desktop/HighSignals/HighSignals COmmunity/` folder and a Notion export of a members list on disk. The members list is **not** imported — it is other people's personal data (see `00-System/security-flags.md`).
 
-## ⚠️ Conflict to resolve
+## Resolved 2026-09-20
 
-The two project-setup docs (2026-07-23) describe **HighSignals as an umbrella ecosystem** with four branches:
-
-> Academy → Community → Mentorship → App (Scripnals)
->
-> "Academy equips; Community implements; Mentorship personalizes; Scripnals executes daily."
-
-Samuel's correction on 2026-09-20 says HighSignals **is** the community. Both are recorded; neither is being guessed at. Possibilities: the ecosystem framing was dropped, or "HighSignals" names both the umbrella and the community branch, or the docs were always loose about it. This gets settled in the Phase 3 interview — it decides where the Academy, mentorship and Scripnals actually sit.
-
-Logged in `00-System/open-questions.md`.
+An earlier conflict — whether HighSignals was the umbrella or the community — is settled. Samuel: HighSignals is the whole brand; this is its community branch. The ascension model from the 2026-07-23 docs (Academy equips → Community implements → Mentorship personalises → Scripnals executes) is recorded in [[../highsignals/_index]] and still needs confirming as how he actually works today.
 
 ## Open questions
 
@@ -45,4 +39,6 @@ Logged in `00-System/open-questions.md`.
 
 ## Related areas
 
-- [[../personal-brand/_index]] · [[../academy/_index]] · [[../mentorship/_index]] · [[../scripnals/_index]]
+- [[../highsignals/_index]] — the umbrella
+- [[../academy/_index]] · [[../mentorship/_index]] · [[../scripnals/_index]] — sister branches
+- [[../personal-brand/_index]] — outside HighSignals, funnels into it

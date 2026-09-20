@@ -41,3 +41,22 @@ Decisions about the vault itself: its structure, rules, agents and automations. 
 **Why:** Samuel said so plainly. Getting this wrong would have mislabelled every note, goal and content decision in two areas.
 **Who decided:** Samuel, 2026-09-20.
 **Follow-up:** the Phase 3 interview must settle where Called to Edit Academy, the mentorship program and the book sit relative to the brand and the community.
+
+## 2026-09-20 — CORRECTION to the entry above: HighSignals is the umbrella brand
+**Decided:** HighSignals is the whole brand. It contains four branches: HighSignals Community, HighSignals Academy, Mentorship, and the Scripnals app. Samuel's personal brand (@SamuelSignals) is a **separate brand outside HighSignals** whose job is to funnel people into it.
+**Why:** Samuel stated it directly. The entry above, recorded earlier the same day, captured only half of the correction — that HighSignals is not his personal brand — and wrongly concluded it was just the community.
+**What changed in the vault:** new area `03-Areas/highsignals/` holds brand-level strategy. Community, Academy, Mentorship and Scripnals stay as top-level areas, each linking up to it. AGENTS.md §1 and §2 updated. `03-Areas/community/_index.md` conflict section replaced with the resolution.
+**Alternatives rejected:** nesting the four branches inside `highsignals/` (deeper paths, longer cross-links); leaving the tree flat with no umbrella (brand-level strategy would have had nowhere to live).
+**Who decided:** Samuel, 2026-09-20.
+
+## 2026-09-20 — Calibration: notes keep source detail verbatim
+**Decided:** extracted notes preserve specifics — full topic banks, exact fixed lines, rejected alternatives, the reasoning behind a rule — rather than summarising them away.
+**Why:** Samuel reviewed three sample notes at the Phase 2 calibration gate and confirmed the depth. The test is whether an agent can act from a note without coming back to him.
+**Cost accepted:** longer notes, more context per read.
+**Who decided:** Samuel, 2026-09-20.
+
+## 2026-09-20 — Git permission rule added
+**Decided:** `.claude/settings.json` allows `git add`, `commit`, `push`, `status`, `log`, `diff`, `ls-remote`, and denies reads of `.env`, `*.key`, `credentials*.json`, `token*.json`.
+**Why:** Samuel did not want to run every push by hand. Pushing to his own private repo is the one outward action this build needs repeatedly.
+**Who decided:** Samuel, 2026-09-20.
+

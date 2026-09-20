@@ -12,8 +12,9 @@ Status: built 2026-09-20. Sections marked TBD are filled in later phases of the 
 - Time zone WAT (UTC+1). ISO dates everywhere.
 - Editing stack: DaVinci Resolve Studio + Fusion, OBS, DJI Osmo Pocket 4, DJI Mic Mini.
 - Income is freelance and variable, in NGN and USD. USD reaches NGN through Cleva.
-- Personal brand is Samuel himself — Instagram handle @SamuelSignals. **HighSignals is his community, not his personal brand.**
-- Other ventures: Scripnals (app), Called to Edit Academy (course), a mentorship program, a future book.
+- **HighSignals is the whole brand** — an umbrella over four branches: HighSignals Community, HighSignals Academy, Mentorship, and the Scripnals app.
+- **Samuel's personal brand is separate and sits outside HighSignals** — it is Samuel himself, Instagram @SamuelSignals. Its job is to funnel people into HighSignals. Content made as Samuel is not HighSignals content.
+- A future book, not yet placed.
 - Claude plan: Pro. Usage limits are shared across Claude chat and Claude Code. Token discipline is a constraint, not a preference.
 - Tone he wants back: direct and blunt. No flattery, no reassurance loops, no repeated moralizing.
 - More: [[02-Me/_index]] once written.
@@ -27,8 +28,9 @@ Status: built 2026-09-20. Sections marked TBD are filled in later phases of the 
               gitignored). processed/ = inbox items after filing, never deleted.
 02-Me/        identity, story, values, principles, patterns, routines, habits, fitness,
               goals/ = the goal ladder (10y -> 3y -> 1y -> quarter)
-03-Areas/     video-editing, finances, relationships, personal-brand, community,
-              mentorship, scripnals, academy, book
+03-Areas/     video-editing, finances, relationships, personal-brand,
+              highsignals (umbrella) -> community, academy, mentorship, scripnals,
+              book
 04-Projects/  finite work with an end date. Each links to its area.
 05-Knowledge/ evergreen know-how that spans areas. Domain SOPs live in their area instead.
 06-Logs/      daily/, weekly/, automation/, commitments.md

@@ -11,7 +11,7 @@ tags: []
 
 ## What this is
 
-An AI scripting and ideation app for content creators. Source: the Scripnals project-setup doc, 2026-07-23.
+An AI scripting and ideation app for content creators, and one of the four branches of the HighSignals brand ([[../highsignals/_index]]). Source: the Scripnals project-setup doc, 2026-07-23.
 
 **The core loop:**
 1. **Input** — the user records a voice note about a content idea, or types a draft directly.
@@ -64,4 +64,6 @@ Marked TBD in the source doc and still unanswered:
 
 ## Related areas
 
-- [[../personal-brand/_index]] · [[../community/_index]] · [[../academy/_index]]
+- [[../highsignals/_index]] — the umbrella
+- [[../community/_index]] · [[../academy/_index]] · [[../mentorship/_index]] — sister branches
+- [[../personal-brand/_index]] — outside HighSignals, funnels into it

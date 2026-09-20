@@ -13,9 +13,9 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 
 | # | Question | Area | Raised | Blocking | Answered |
 |---|----------|------|--------|----------|----------|
-| 1 | What is the private GitHub repo URL for this vault? | system | 2026-09-20 | Phase 1 push, phone sync | — |
+| 1 | ~~What is the private GitHub repo URL for this vault?~~ | system | 2026-09-20 | — | 2026-09-20: `https://github.com/SamuelAde001/second-brain.git` |
 | 2 | Is Gemini CLI actually installed on this PC? `~/.gemini/` exists but the CLI itself was not verified. | system | 2026-09-20 | Phase 7 only | — |
-| 3 | Is HighSignals an umbrella ecosystem (Academy → Community → Mentorship → App) or just the community? The 2026-07-23 project docs say ecosystem; Samuel said community on 2026-09-20. Decides where Academy, mentorship and Scripnals sit. | community | 2026-09-20 | Phase 3 interview, area structure | — |
+| 3 | ~~Is HighSignals an umbrella ecosystem or just the community?~~ | community | 2026-09-20 | — | 2026-09-20: umbrella brand over Community, Academy, Mentorship, Scripnals. Personal brand sits outside and funnels in. [[03-Areas/highsignals/_index]] |
 | 4 | What do the Storytelling and The Journey content pillars actually cover, and what is the posting cadence per pillar? | personal-brand | 2026-09-20 | Content planning | — |
 | 5 | Did the Guiding While Riding series ever launch, and how many episodes exist? | personal-brand | 2026-09-20 | Content planning | — |
 | 6 | Current brand numbers: followers, reach, what performed, what flopped. | personal-brand | 2026-09-20 | brainstorm skill needs this | — |
@@ -23,3 +23,6 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 8 | Scripnals: real build status, stack, validation evidence, monetisation, platform, pricing. An APK and an MVP architecture PDF exist on disk but say nothing about how far it got. | scripnals | 2026-09-20 | Phase 3 interview | — |
 | 9 | Community: platform, size, rituals, engagement, moderation, monetisation, whether membership is paid. | community | 2026-09-20 | Phase 3 interview | — |
 | 10 | Area goals are unset across all nine areas — the goal ladder in `02-Me/goals/` does not exist yet. | all | 2026-09-20 | Phase 3 interview | — |
+| 11 | Is the ascension model (Academy equips → Community implements → Mentorship personalises → Scripnals executes) still how HighSignals actually works? | highsignals | 2026-09-20 | Phase 3 interview | — |
+| 12 | Where does the future book sit — under HighSignals, under the personal brand, or on its own? | highsignals | 2026-09-20 | Phase 3 interview | — |
+| 13 | The companion doc "HighSignals — Content & Brand Context" referenced by the 2026-07-24 instructions is missing; Samuel thinks he deleted it and has deprioritised it. Its content gets rebuilt by interview when needed. | personal-brand | 2026-09-20 | Not blocking — deferred by Samuel | — |

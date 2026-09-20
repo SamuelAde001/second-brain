@@ -79,3 +79,9 @@ Also scaffolded `goals.md`, `log.md`, `decisions.md`, `ideas.md` for all nine ar
 
 The Scripnals doc's launch sequencing ("ship the core loop first, then layer in personalisation") is written in the source as a recommendation. It is recorded in the area index as a build bias from the doc, not as a decision Samuel made.
 
+### Corrections after the calibration gate (2026-09-20)
+
+- **Conflict 1 resolved by Samuel.** HighSignals is the umbrella brand over Community, Academy, Mentorship and Scripnals. The personal brand is separate and funnels into it. New area `03-Areas/highsignals/` created; the four branch indexes and `personal-brand/_index.md` rewired; AGENTS.md updated. The ascension model from the July docs is recorded in the umbrella index as unconfirmed.
+- **Missing companion doc.** Samuel believes he deleted "HighSignals — Content & Brand Context" and has deprioritised it: his priorities have shifted since it was written. It will be rebuilt by interview when needed, not hunted for. Open question 13.
+- **Calibration verdict:** depth confirmed correct. Notes keep source detail verbatim.
+
