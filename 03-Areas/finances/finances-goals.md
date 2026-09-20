@@ -63,9 +63,15 @@ That is the argument for the course, with a number attached. Every course block 
 
 > Note: the live sheet still shows the older, pre-correction figure of ~NGN 170,000/month for the course's job. The corrected arithmetic (2026-08-28) is NGN 42,530/month at the August mix. The sheet's dashboard note was never updated.
 
+## The wedding — answered 2026-09-20
+
+**He pays.** No one else is contributing — his answer to "who pays which part" was *"No one, I am just planning it."*
+
+**No budget figure has been set.** It is still at the planning stage. That matters, because Goal 2's NGN 3,000,000 is the marriage money and it was sized without a costed wedding behind it. Until there is a real number, NGN 3M is a target he chose, not a cost he calculated.
+
 ## Still open
 
-- **Wedding July 2027** — total budget, and who pays which part. Open since 2026-08-26.
+- **The wedding's actual cost.** When he has one, check it against the NGN 3,000,000.
 - **What the course has to be priced at** to carry its number from January. Depends on the beta price, still unset.
 - **The consequence for breaking the savings rule.**
 - **The Rule 7 refill plan** after September's NGN 368,041 withdrawal.

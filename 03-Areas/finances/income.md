@@ -15,8 +15,8 @@ Current system, from the Accountability Engine's money file, maintained to 2026-
 
 **Route Rise Media LTD is an agency, and it is his only payer.** Corrected in the source on 2026-08-27.
 
-- Route Rise works with **two end clients**. Samuel edits for both and sends **one invoice to Route Rise covering both**.
-- There is no second client and there never was. An earlier "second client" line in the source was wrong and was corrected.
+- Route Rise had **two end clients** during August 2026; Samuel edited for both and sent **one invoice covering both**. As of 2026-09-20 the second has ended, so there is **one end client: Alex**.
+- There is no second *payer* and there never was — the end clients are Route Rise's relationships, not his.
 - Payment timing is controlled by Route Rise — named contact **Lewis Mountstephens**. In August he told the channel payments would be "a day or so later this month", so August's 70% landed ~1–3 September instead of 31 August. **The invoice still goes out on the 29th regardless.**
 
 ## Rates
@@ -24,11 +24,11 @@ Current system, from the Accountability Engine's money file, maintained to 2026-
 | End client | Rate | Notes |
 |---|---|---|
 | Original end client | **USD 333.33/video** | He has tried to raise it. They will not move. He is content with it. |
-| Second end client | **USD 175/video** | New August 2026, 2 videos agreed, may or may not recur |
+| ~~Second end client~~ | ~~USD 175/video~~ | **ENDED.** Confirmed by Samuel 2026-09-20: it did not recur. August 2026 was the only batch. |
 
 **Both rates are set by Route Rise, not by Samuel.** The USD 175 rate cost roughly **NGN 432,241** on the August batch alone against what the same two videos would have earned at the higher rate.
 
-> Note, 2026-09-20: in the Phase 3 interview Samuel described this as "one client called Alex". The engine's record says two end clients under Route Rise. The likeliest reading is that the USD 175 client did not recur — but that is inference. See open questions.
+**So today there is one end client and one rate: USD 333.33/video.** The USD 175 line is history, and the arithmetic below that assumes an "August mix" of two rates is now out of date — a good month is 4 × USD 333.33, a bad month is 2 × USD 333.33.
 
 ## Payment shape — two stages, one batch
 
@@ -92,24 +92,41 @@ Figures updated 2026-09-02 and **net of charges** — the earlier gross figures 
 
 Committed outflow is **NGN 1,036,800/month**. Income needed to hit the goal: **NGN 1,291,313/month.**
 
-| Mix | Produces | Verdict |
+| Videos, all at USD 333.33 | Produces | Verdict |
 |---|---|---|
-| 4 videos at USD 333.33 | NGN 1,819,982 | clears it |
-| August mix (2 × 333.33 + 2 × 175) | NGN 1,387,741 | clears it |
-| 2 videos at USD 333.33 | NGN 909,991 | **short by NGN 381,322 — underwater on the bills** |
+| 4 | NGN 1,819,982 | clears the goal |
+| 3 | ~NGN 1,364,987 | clears the bills, misses the goal |
+| 2 | NGN 909,991 | **short by NGN 381,322 — underwater on the bills** |
+| *August mix (2 × 333.33 + 2 × 175)* | *NGN 1,387,741* | *historical — that rate has ended* |
 
 **July was a 2-video month.** This is not hypothetical.
+
+**Break-even is about 3 videos. The goal needs 4.** Every plan should say which of those it assumes.
 
 ## The concentration risk
 
 **One payer. Not one client — one payer.**
 
-100% of income arrives through one invoice to one company. Volume is decided entirely by Route Rise. Both rates are set by Route Rise. The USD 175 end client is Route Rise's relationship, not his — it does not survive Route Rise leaving.
+100% of income arrives through one invoice to one company. Volume is decided entirely by Route Rise — and **not disclosed in advance**. The rate is set by Route Rise. When the USD 175 end client ended, Samuel had no say and no substitute.
 
 **"Hit 4 videos a month" is not a goal he can own.** Achievement is another company's decision.
 
 **He has ruled out taking more clients**, because one client's workload is already high. That is his call and it is not to be re-litigated at every check-in. But it has a consequence the system states plainly:
 
 > The course is not the "#2 thing". **It is the only income line whose existence he controls.** Every time course work gets dropped for client work, diversification is being traded away for concentration.
+
+## Volume is not forecastable — his own words, 2026-09-20
+
+> "I don't know how many videos I would do at the end of the month till pay time when I count how many videos I have done based on how they assigned it."
+
+This is worse than "Route Rise decides the volume". **He does not find out what he earned until he counts completed videos at invoice time.** There is no assignment schedule he can read ahead, no agreed monthly minimum, and no way to know on the 1st what the 29th will invoice.
+
+**What follows from it:**
+
+- **Forecasting a month's income in advance is impossible.** Any projection is a scenario, never a plan. State the video count it assumes, every time.
+- **The two useful numbers are the floor and the break-even**, not the forecast: the obligations floor is NGN 936,800/month, and the income needed to hit the goal is NGN 1,291,313/month. At USD 333.33 and a rate near NGN 1,361, break-even on the bills alone is roughly **3 videos**; hitting the goal needs **4**.
+- A month is only knowable **in arrears**. The first honest read on any month is the day he counts videos for the invoice.
+
+**Therefore the video count is a number worth capturing as it happens** — one line per delivered video, so invoice day is a lookup rather than a recall. Nothing does that today.
 
 Related: [[money-rules]] · [[obligations]] · [[03-Areas/finances/finances-goals|Goals]] · [[03-Areas/video-editing/clients/routerise|Route Rise]]. Back to [[03-Areas/finances/finances|Finances]]

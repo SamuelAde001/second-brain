@@ -19,7 +19,13 @@ The only permitted withdrawals: **medical emergency, a building-project shortfal
 > "A girlfriend's visit is not an emergency."
 
 ### 2. Every withdrawal is logged the same day
-Amount and reason, in his own words, in the money ledger. **No silent withdrawals.**
+Amount and reason, in his own words, in the money ledger. **No silent withdrawals.** Unchanged — this rule is about savings withdrawals, and it stands as written.
+
+> **Changed 2026-09-20 — what "logged" means for ordinary spending.** The engine's weekly minimum was *"every naira in and out logged daily, zero unlogged days."* That is no longer the rule. Samuel: *"I would only log major spendings, but minor ones would just be logged in bulk."*
+>
+> **The rule now:** every **major** spend gets its own dated row. **Minor** spends are logged **in bulk** — a single periodic row covering them. What counts as major is his judgement, not a fixed threshold, until he sets one.
+>
+> The cost of this is real and worth stating once: bulk rows hide where small money goes, and small money is exactly what the NGN 10,000 personal/misc line and the NGN 40,000 household line are made of. Rule 6 still applies — a bulk row must reflect money that actually moved, not an estimate written to make the month balance.
 
 ### 3. Savings move on a payday — never at month end
 > "Money saved at the end of the month is money that was never saved."
@@ -44,7 +50,11 @@ If the two disagree, **the ledger wins.**
 
 Settled once, 2026-08-26, and not to be re-argued: **it never pauses.** If December comes up short, the house move slips rather than the contribution. His trade, made with the numbers in front of him.
 
-> ⚠️ **Rule 7 was broken in September 2026.** The Kaduna trip cost roughly NGN 430,011 against NGN 80,000 planned, and NGN 368,041 of it came out of the Cowrywise investment. There is no refill plan. See [[pots-and-accounts]].
+> ⚠️ **Rule 7 was broken in September 2026** — the Kaduna trip cost roughly NGN 430,011 against NGN 80,000 planned, and NGN 368,041 came out of the Cowrywise investment.
+>
+> **Resolved 2026-09-20, his call: it does not get refilled.** *"I won't refill it, I would just continue the normal savings."* The NGN 100,000/month contribution continues as normal from here; the withdrawal is absorbed, not repaid.
+>
+> **What that costs, stated once:** the investment ends 2026 near **NGN 336,959** instead of the NGN 705,000 the plan assumed — a **NGN 368,041** permanent hole in the pot that was never supposed to be touched. Rule 7's "it never pauses" survives; "it is never touched" did not. The rule now has a precedent, and the next urgency will find it.
 
 ### 8. The Buffer funds urgencies — never savings
 **NGN 50,000/month to a NGN 200,000 target**, plus any month-end underspend, plus the whole excess of any 4-video month.

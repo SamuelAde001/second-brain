@@ -65,12 +65,14 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 50 | Does "visual direction is Samuel's own domain" apply to all his scripts, or only the cinematic visibility one where it was observed? | personal-brand | 2026-09-20 | Content agent scope | — |
 | 51 | Which existing skill is "the ideation skill" the video-editing agent should reuse? Samuel named it but not by filename. | video-editing | 2026-09-20 | Agent build | — |
 | 52 | ~~Concentration risk~~ **Confirmed and quantified**, not open: one payer, 100% of income, volume and both rates set by Route Rise, more clients ruled out by choice. See [[income]]. | video-editing, finances | 2026-09-20 | — | 2026-09-20 |
-| 53 | Is the second Route Rise end client (USD 175/video) still active? Engine says two end clients; Samuel described one on 2026-09-20. | video-editing | 2026-09-20 | Income forecasting | — |
-| 54 | Wedding July 2027 — total budget and who pays which part. Open since 2026-08-26. | finances, relationships | 2026-09-20 | Goal 2 sizing | — |
+| 53 | ~~Is the second Route Rise end client still active?~~ | video-editing | 2026-09-20 | — | 2026-09-20: **no, it ended.** One end client, one rate: USD 333.33/video. |
+| 54 | Wedding July 2027 — **who pays is answered (he does, alone)**. The cost is not: no budget figure exists, so Goal 2's NGN 3M is a chosen target, not a costed one. | finances, relationships | 2026-09-20 | Goal 2 sizing | partly, 2026-09-20 |
 | 55 | What is the enforced consequence for breaking the savings rule? Unenforced since 2026-08-26, and September proved it. | finances | 2026-09-20 | Rule 1 has no teeth | — |
-| 56 | Rule 7 refill plan: September took NGN 368,041 out of the ring-fenced Cowrywise investment for the Kaduna trip. No plan exists. | finances | 2026-09-20 | Year-end investment balance | — |
+| 56 | ~~Rule 7 refill plan~~ | finances | 2026-09-20 | — | 2026-09-20: **no refill.** Absorbed; normal contributions continue. Investment ends 2026 near NGN 336,959. |
 | 57 | The sheet and the ledger disagree about Cowrywise by NGN 368,041 — the sheet has not been updated for the September withdrawal. Update the sheet, or accept the ledger as the only record? | finances | 2026-09-20 | Every dashboard number | — |
-| 58 | Recent spending is not logged at all — "zero unlogged days" is the stated weekly minimum and it is not being met. How does Samuel want to log it now: phone capture, screenshots, or an agent job? | finances | 2026-09-20 | Every number in the area | — |
+| 58 | ~~How does Samuel want to log spending now?~~ | finances | 2026-09-20 | — | 2026-09-20: **major spends individually, minor spends in bulk.** Threshold for "major" still his to set. |
 | 59 | What must the course be priced at to carry ~NGN 42,530/month from January 2027? Depends on the beta price, still unset. | academy, finances | 2026-09-20 | Goal 2 | — |
 | 60 | Did any of the NGN 57,532 left unassigned in September survive to month end? Whatever survives is meant to go to a pot. | finances | 2026-09-20 | Buffer | — |
+| 61 | What counts as a "major" spend? The logging rule now turns on it and no threshold is set. | finances | 2026-09-20 | Spending log | — |
+| 62 | Nothing captures videos delivered. One line per video (date, end client, rate) would make mid-month income knowable for the first time. Agree it as a standing capture? | finances, video-editing | 2026-09-20 | Income forecasting | — |
 

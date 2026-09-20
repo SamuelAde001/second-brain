@@ -109,3 +109,15 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Caveat he stated:** *"though I haven't updated my recent spendings"* — the ledger is behind reality. Numbers carry their own dates and must not be presented as current balances.
 **Who decided:** Samuel, 2026-09-20.
 
+## 2026-09-20 — Three finance rules changed, by Samuel, in the Phase 3 interview
+**1. Spending log.** The engine's *"every naira in and out logged daily, zero unlogged days"* is replaced: **major spends get their own dated row, minor spends are logged in bulk.** What counts as major is his judgement until he sets a threshold. Objection stated once and not repeated: bulk rows hide where small money goes, and small money is what the personal/misc and household lines are made of.
+**2. Rule 7 after the break.** September took NGN 368,041 out of the ring-fenced investment. **It is not refilled** — *"I won't refill it, I would just continue the normal savings."* The pot ends 2026 near NGN 336,959 instead of NGN 705,000. Rule 7's "never pauses" survives; "never touched" now has a precedent.
+**3. The second end client has ended.** One end client, one rate, USD 333.33/video. The "August mix" arithmetic across the finance notes is historical.
+**Also recorded:** the wedding is self-funded with no budget set yet; and **video volume is not disclosed in advance** — *"I don't know how many videos I would do at the end of the month till pay time."* That makes income forecasting impossible and break-even (~3 videos) the only reliable planning number.
+**Who decided:** Samuel, 2026-09-20.
+
+## 2026-09-20 — The finance agent is a financial manager, not a logger
+**Decided:** it categorises, summarises, calculates runway, flags rule breaches, writes to the ledger and the sheet, and plans budgets *with* him. His words: *"it is a professional financial manager for me."*
+**Limits not asked for but applied**, to be confirmed at the Phase 4 gate: never moves money, never writes a number without a source and a date, never presents a stale balance as current, never stores account credentials, never forecasts income as if the video count were known.
+**Who decided:** Samuel, 2026-09-20. Brief: `03-Areas/finances/finance-agent-plan.md`.
+

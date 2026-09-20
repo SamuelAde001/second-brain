@@ -28,7 +28,11 @@ Income is variable, USD-denominated, paid in two stages, and comes entirely from
 1. *"I haven't updated my recent spendings."* **The ledger is behind reality.** Every figure in this area carries its own date. None of them is a current balance.
 2. The sheet and the ledger disagree about Cowrywise by NGN 368,041 — the September Kaduna withdrawal is in the ledger and not in the sheet. Rule 6 settles it: **the ledger wins.**
 
-**Where things stood at the last reading (2026-09-16):** Goal 1 at NGN 146,041 of NGN 1,000,000, needing NGN 254,513/month for the remaining 3.4 months. Buffer NGN 50,000. Emergency fund NGN 0. Bank liquid showing negative. Rule 7 broken in September and not yet repaired.
+**Where things stood at the last reading (2026-09-16):** Goal 1 at NGN 146,041 of NGN 1,000,000, needing NGN 254,513/month for the remaining 3.4 months. Buffer NGN 50,000. Emergency fund NGN 0. Bank liquid showing negative.
+
+**Rule 7 broke in September and will not be repaired** — his call, 2026-09-20: the NGN 368,041 taken out of the investment is absorbed, not refilled, and normal contributions continue.
+
+**The second end client has ended.** One end client, one rate: USD 333.33/video. Break-even is about 3 videos a month; the goal needs 4. He does not know the count until invoice day.
 
 ## Goals
 
@@ -41,6 +45,7 @@ See [[03-Areas/finances/finances-goals|Goals]] — NGN 1,000,000 by 31 Dec 2026,
 - [[obligations]] — every monthly line item, tier and payday; what was cut and why
 - [[pots-and-accounts]] — where each pot lives, last confirmed balances, the two name collisions
 - [[budget-system]] — the live Google Sheet, its design rule, and how Claude writes it
+- [[finance-agent-plan]] — what the finance agent does, and what it must never do
 - [[invoicing]] — invoice format, numbering, VAT, the builder tool
 - [[pricing-and-rates]] — mentorship pricing and retainer tactics, all unconfirmed proposals
 - [[03-Areas/finances/finances-ideas|Ideas]] · [[03-Areas/finances/finances-decisions|Decisions]] · [[03-Areas/finances/finances-log|Log]] · [[03-Areas/finances/finances-goals|Goals]]
@@ -53,7 +58,7 @@ See [[03-Areas/finances/finances-goals|Goals]] — NGN 1,000,000 by 31 Dec 2026,
 
 ## Open questions
 
-- Is the second Route Rise end client (USD 175/video) still active? He described only one client in the 2026-09-20 interview.
+- **Nothing captures videos delivered.** Income is unknowable until he counts them at invoice time — see [[income]]. One line per delivered video would fix it.
 - Who is **Mshel**, and what was invoice DSG-2026-001 for (NGN 1,397,500, 2026-08-20)? **He does not remember.** It appears nowhere in the engine's income record, which names Route Rise as his only payer.
 - TIN and a standard payment term for invoices.
 - Wedding July 2027 — budget and who pays which part.
