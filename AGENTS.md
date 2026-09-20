@@ -12,7 +12,8 @@ Status: built 2026-09-20. Sections marked TBD are filled in later phases of the 
 - Time zone WAT (UTC+1). ISO dates everywhere.
 - Editing stack: DaVinci Resolve Studio + Fusion, OBS, DJI Osmo Pocket 4, DJI Mic Mini.
 - Income is freelance and variable, in NGN and USD. USD reaches NGN through Cleva.
-- Ventures: HighSignals (personal brand), Scripnals (app), Called to Edit Academy (course), a community, a mentorship program, a future book.
+- Personal brand is Samuel himself — Instagram handle @SamuelSignals. **HighSignals is his community, not his personal brand.**
+- Other ventures: Scripnals (app), Called to Edit Academy (course), a mentorship program, a future book.
 - Claude plan: Pro. Usage limits are shared across Claude chat and Claude Code. Token discipline is a constraint, not a preference.
 - Tone he wants back: direct and blunt. No flattery, no reassurance loops, no repeated moralizing.
 - More: [[02-Me/_index]] once written.

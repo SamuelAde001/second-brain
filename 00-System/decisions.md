@@ -35,3 +35,9 @@ Decisions about the vault itself: its structure, rules, agents and automations. 
 **Decided:** the church / AAC media work gets no area. Files stay where they are on disk.
 **Why:** there is not enough of it to manage. If church editing work ever needs tracking, it becomes a client note under video-editing.
 **Who decided:** Samuel (Phase 0 gate).
+
+## 2026-09-20 — HighSignals is the community; the personal brand is Samuel himself
+**Decided:** `03-Areas/personal-brand/` is Samuel's own brand — him, Instagram handle @SamuelSignals. `03-Areas/community/` is HighSignals. The build spec had these conflated and called HighSignals the personal brand; it is wrong and the correction stands.
+**Why:** Samuel said so plainly. Getting this wrong would have mislabelled every note, goal and content decision in two areas.
+**Who decided:** Samuel, 2026-09-20.
+**Follow-up:** the Phase 3 interview must settle where Called to Edit Academy, the mentorship program and the book sit relative to the brand and the community.
