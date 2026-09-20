@@ -19,9 +19,15 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 
 ## Current status — as of 2026-09-20
 
-What the vault holds is deep on **how the work gets done** and empty on **how the business runs**. The Routerise client is documented in real detail; rates, capacity, pipeline and turnaround are not recorded anywhere. That gap is Phase 3 interview material.
+**One agency, one client.** Samuel works through the agency **Routerise**, which assigned him a single client: **Alex**, who runs Frontal. Rate **USD 333.33 per video** — the agency standard. Pace: **one video in five days**. Paid monthly in a 70/30 split, the 30% landing mid the following month.
+
+The craft is documented in depth. The rest of the business — pipeline beyond this one client, turnaround and revision terms, what happens if Routerise ends — is not.
 
 ## Map of content
+
+**The work itself**
+- [[workflow]] — brief → script → cut → transcript → ideation → edit → SFX → render → invoice, in his own words
+- [[agent-plan]] — the editing agent he wants: 60–80% of the work, step by step. **His most important agent.**
 
 **How he works — read first**
 - [[ways-of-working]] — node naming, build conventions, the cut-sheet format, how he collaborates, what he has already corrected once. The Phase 4 editing agent is built on this note.
@@ -56,8 +62,10 @@ They are installed as plugin skills, not yet copied into this vault's `.claude/s
 
 ## Open questions
 
-- Rates, weekly capacity, current pipeline, turnaround and revision terms — nothing recorded.
-- Which clients are active right now. Only Routerise appears in the sources; `Desktop/Video edits/` shows Fikayo, church work, and a `Clients/` folder with more.
+- Turnaround and revision terms with Alex.
+- Whether the AI-ecommerce / dropshipping videos are Alex's too, or other end clients under Routerise.
+- Whether Mshel (invoice DSG-2026-001, NGN 1,397,500) is a separate client or the agency invoice under another name.
+- Concentration risk: one agency, one client, one rate. Nothing is recorded about what happens if it stops.
 - What takes the most time, and what the editing agent should automate first.
 - The recurring jobs to hand to an agent: new-project setup, pre-edit plan, review pass, delivery checklist, revision tracking.
 

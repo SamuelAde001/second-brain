@@ -68,3 +68,15 @@ A photo of his handwritten signature, background removed (transparent PNG), plac
 - Whether the builder/PDF workflow above is still what he actually uses for invoices sent after 2026-08-20.
 
 Back to [[03-Areas/finances/_index|Finances]]
+
+## Payment terms — confirmed by Samuel, 2026-09-20
+
+Invoicing the agency ([[03-Areas/video-editing/clients/routerise|Routerise]]) is **monthly, not per video**. At month end he invoices for however many videos he delivered that month.
+
+- **70% paid at the end of that month.**
+- **30% paid in the middle of the following month.**
+
+Rate: **USD 333.33 per video**, the agency's standard.
+
+This is the split the percentage-based budget system's Receipt Ratio exists to track — see [[budget-system]]. It also means a month's earnings are never fully in hand until mid the next month, which is the single most important fact for any runway or cashflow calculation.
+
