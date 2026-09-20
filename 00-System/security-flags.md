@@ -21,3 +21,10 @@ Files found on this machine that contain, or may contain, items on the never-sto
 ## Standing note
 
 The Claude export in `01-Inbox/_imports/claude-export/` is chat history. It may contain account nicknames, amounts, names of real people, and possibly credentials pasted into a chat at some point. Phase 2 distillation applies AGENTS.md §6 to everything it extracts, not only to obvious credential files.
+
+## Import scans performed
+
+| Date | Scope | Result |
+|------|-------|--------|
+| 2026-09-20 | `08-Archive/accountability-engine/` — 81 files copied from `Desktop/engine` | **Clean.** No credentials, account numbers, BVN, NIN, tokens or passwords. `SHEETS_TOKEN` appears only as a variable name and a `__SHEETS_TOKEN__` placeholder. Long digit strings are TickTick project IDs. `.env` deliberately not copied. |
+

@@ -85,3 +85,62 @@ The Scripnals doc's launch sequencing ("ship the core loop first, then layer in 
 - **Missing companion doc.** Samuel believes he deleted "HighSignals — Content & Brand Context" and has deprioritised it: his priorities have shifted since it was written. It will be rebuilt by interview when needed, not hunted for. Open question 13.
 - **Calibration verdict:** depth confirmed correct. Notes keep source detail verbatim.
 
+---
+
+## Source 2 — Claude project knowledge files (2026-09-20)
+
+Extracted from `projects-000.zip` to `01-Inbox/_imports/claude-export/extracted/docs/`. 11 projects, 7 with content, 206,197 characters of documents.
+
+| Project | Docs | Extracted to |
+|---------|------|--------------|
+| Video Editing project | 8 docs, 78,450 chars | `03-Areas/video-editing/`: `clients/routerise.md`, `routerise-house-style.md`, `fusion-node-system.md`, `sops/routerise-cut-workflow.md`, `tsb-graphics-pipeline.md`, `cut-sheets.md` |
+| HighSignals Academy | 2 docs, 54,134 chars | `03-Areas/academy/called-to-edit-beginners/` — `_index.md`, `teaching-rules.md`, 7 module notes |
+| Content Creation | 5 docs, 39,436 chars | `03-Areas/personal-brand/`: `brand-context.md`, `script-process.md`, `storytelling-structures.md`, `ideas.md` (30 story ideas) |
+| HighSignals brand | instructions only, 2,286 chars | `03-Areas/highsignals/_index.md` — name meaning, mission, four branches, community rules |
+| Scripnals | instructions only, 2,011 chars | Already covered by `03-Areas/scripnals/_index.md` — duplicate of the handover doc |
+| MY PA | instructions only, 2,508 chars | Tone rules → `02-Me/how-to-work-with-me.md`. The system it describes → `00-System/legacy-review.md` |
+| comfort- cuts video edit | 1 doc, 34,177 chars | `03-Areas/video-editing/cut-sheets.md` (Butler reel) |
+
+**Recovered:** `HighSignals_Content_Context.md` — the "HighSignals — Content & Brand Context" doc Samuel believed he had deleted. It was in the Content Creation project. Open question 13 is answered.
+
+**Skipped:** `Content-Creation/_project-instructions.md` — byte-for-byte the same material as `Claude_Instructions_HighSignals.md` plus the script process, both already distilled. Academic projects (Post graduate master project ×2, instrumentation and control) hold no documents.
+
+**TSB:** the graphics-pipeline document never spells the acronym out. Every asset uses a `TSB_` prefix and the document's title is "Taking a Step Back from Claude" — recorded as a strong inference, explicitly not as fact.
+
+## Source 3 — memory export (2026-09-20)
+
+`memories-000.zip` → 44 memory files, 89,107 characters, plus a conversations memory and 7 project memories. Written to `extracted/memory-files/`.
+
+| Memory file | Extracted to |
+|-------------|--------------|
+| `/profile.md`, `/preferences.md` | `02-Me/_index.md`, `02-Me/how-to-work-with-me.md` |
+| `/topics/video-editing-toolchain.md` | `03-Areas/video-editing/toolchain.md` |
+| `/topics/fitness.md`, `/food-and-drink.md`, `/interests.md`, `/recent-work.md` | `02-Me/_index.md` |
+| `/areas/client-acquisition.md` | `03-Areas/video-editing/client-acquisition.md` |
+| `/areas/instagram-content-strategy.md` | `03-Areas/personal-brand/instagram-strategy.md` |
+| `/areas/butler-reel.md` | `03-Areas/video-editing/cut-sheets.md` |
+| `/projects/…/areas/eee-804.md`, `dielectric-term-paper.md`, `hvdc-ac-dynamics-term-paper.md` | `02-Me/postgraduate-study.md` |
+| `/areas/second-brain.md`, `/areas/accountability-engine.md` | Confirm this build's own scope; the engine entry confirms "most of its rules no longer work for him" |
+
+**Two contradictions resolved** by `/profile.md` (2026-09-04): the city is **Abuja**, not Lagos; the branch is **Nigerian Air Force**, not army. Open questions 14 and 15 closed.
+
+**A new fact the build spec did not have:** Samuel is an **active postgraduate engineering student** — EEE 804 Advanced Instrumentation and Measurement, plus two term papers, current to 2026-09-16. Recorded in `02-Me/postgraduate-study.md`. This changes capacity planning, so it is open questions 25 and 26.
+
+**Not yet distilled:** the seven per-project memory files (~60,000 chars) covering the video-editing, content-creation, brand, academy, Scripnals, custom-brand and PA projects.
+
+## Source 5 — Accountability Engine, archived (2026-09-20)
+
+Copied whole from `Desktop/engine` to `08-Archive/accountability-engine/` — 81 files, 1.69 MB. Source repo `github.com/SamuelAde001/engine`, HEAD `e01cd60` (2026-09-16). `.env` deliberately excluded and listed in `security-flags.md`.
+
+Nothing from it was installed, merged or activated. `00-System/legacy-review.md` lists **50 items** — 23 rules, 6 goals, 5 failure patterns, 16 rituals/agents/automations — each tagged with its domain and marked `unreviewed`, for keep/change/drop during the Phase 3 interview.
+
+## Phase 2 pass 1 — conversation triage (2026-09-20)
+
+`00-System/scripts/split_conversations.py` (stdlib only) split `conversations.json` into 235 markdown files under `01-Inbox/_imports/processed/conversations/` and wrote `triage.csv`.
+
+- Suggested keep: 111 conversations, ~627,000 est tokens. **Too large to distil on a Pro plan.**
+- Suggested drop: 124 conversations, ~145,000 est tokens.
+- A tighter proposal — `triage-proposal.csv` — caps the areas the vault already covers deeply (video-editing, personal-brand, academy) at their largest few and keeps everything in the thin areas: 39 conversations, ~369,000 est tokens.
+
+Awaiting Samuel's trim at the Phase 2 pass-1 gate.
+
