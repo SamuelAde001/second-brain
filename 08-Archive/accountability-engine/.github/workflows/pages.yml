@@ -1,0 +1,81 @@
+name: Deploy Samuelsignals OS
+
+# Rebuilds the site from context/ and publishes it to GitHub Pages on every push
+# to main. That means the site is never stale for longer than a push: the phone,
+# a cloud routine and this machine all write context/, and whichever one pushes
+# last rebuilds the view.
+#
+# The build is pure stdlib Python — no npm, no lockfile, nothing to rot.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'context/**'
+      - 'site/**'
+      - 'tools/site/**'
+      - 'tools/sheets/plan.json'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race; the last push wins.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build the data layer from context/
+        run: python tools/site/build.py
+
+      - name: Fail if the build produced nothing
+        # A silently empty site is worse than a broken one — it would look like a
+        # day with no record rather than a build that did not run.
+        run: |
+          test -s site/data/os.json || { echo "os.json missing or empty"; exit 1; }
+          python - <<'PY'
+          import json, sys
+          d = json.load(open('site/data/os.json', encoding='utf-8'))
+          n = len(d.get('ledger', []))
+          print(f"ledger rows: {n}")
+          if n == 0:
+              sys.exit("no ledger rows parsed — refusing to publish an empty record")
+          for w in d.get('warnings', []):
+              print("WARNING:", w)
+          PY
+
+      # enablement:true flips the repo's Pages source to "GitHub Actions" if it is
+      # still set to "deploy from a branch". That mis-set source is why all six
+      # deploys failed silently between 26-28 Aug 2026 while every session honestly
+      # reported "pushed": the branch source served the repo root, so the live URL
+      # answered 200 with an old page and site/data/os.json was never at /data/os.json.
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

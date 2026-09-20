@@ -1,0 +1,1494 @@
+{
+ "_comment": [
+  "Curated facts for Samuelsignals OS — the numbers that live in prose in the",
+  "domain files and cannot be parsed out of a markdown table.",
+  "",
+  "EVERYTHING ELSE IS PARSED, NOT TYPED: the daily rows come from ledger.md, the",
+  "money rows from money-ledger.md, the habits from habits.md, the budget lines",
+  "from tools/sheets/plan.json, the failure modes from patterns.md.",
+  "",
+  "Keep this file small. If a number can be derived, derive it in build.py.",
+  "A number typed in two places is a number that will disagree with itself."
+ ],
+ "profile": {
+  "name": "Samuel",
+  "site_name": "Samuelsignals OS",
+  "location": "Abuja, Nigeria",
+  "timezone": "WAT (UTC+1)",
+  "tracking_start": "2026-08-24"
+ },
+ "rules": {
+  "_comment": "The rule lists the pages print. Changing a rule in CLAUDE.md or body.md means changing it HERE — never in site/assets/js.",
+  "hard": [
+   "Tick only what he confirms out loud, only at the 9pm planning session.",
+   "Never move a due date without asking. Rescheduling is the addiction.",
+   "When he says \"I’ll do it tomorrow,\" ask what changes tomorrow.",
+   "Never congratulate him for planning. Only for shipping.",
+   "Tasks are created, scheduled and closed in TickTick only.",
+   "mission.md and stakes.md are his. Never edited without his word.",
+   "The ledger, money ledger, memory and decisions are append-only. Never rewrite history.",
+   "Hard stop 9:00pm. The 7–9pm slot is content edits, or client work in a deadline week.",
+   "Never schedule work over 6:15am prayer, 1:00pm breakfast, 2:00pm rest, 5:00pm gym, 6:00pm dinner or the 9:00pm GF call.",
+   "Savings are untouchable except medical emergency, building shortfall or family emergency."
+  ],
+  "work": [
+   ["The internal send target is set BEFORE the deadline, never at it.", "A target set at the deadline is not a target. Added after the 6:20pm miss on 25 Aug, which shipped at 1:42am."],
+   ["Hard stop 9:00pm. Client work is 7:00am–1:00pm.", "Moved from 6:30pm on 15 Sep with the new day shape. In a deadline week the 7–9pm slot may go to the client; work that misses 9pm rolls to the buffer, never into the night."],
+   ["A 30-hour video no longer fits five mornings with slack.", "6 hours of client time a day × 5 days = 30 hours. Deadline weeks take the evening slot, decided at the Sunday plan, not discovered on Thursday."],
+   ["Timer on every pomo.", "Untimed work does not exist to the record. 26 Aug logged 18 minutes for a full day of work and produced a wrong diagnosis."],
+   ["All editing work is built as separate timed subtasks, one per pomo.", "50 minutes work, 10 minute break, each its own calendar block — because he works off the calendar."]
+  ],
+  "touches": {
+   "lede": "No cloud routines — deleted 15 Sep. Two sessions he starts himself, one markdown record, and a static site generated from it. ",
+   "stat_label": "Check-ins",
+   "stat_value": "2",
+   "stat_sub": "9pm planning · Sunday week plan",
+   "heading": "The two touches",
+   "rows": [
+    ["9pm planning session", "9:00–9:30pm daily", "reckon + tomorrow’s tasks", "opus"],
+    ["Week plan", "Sunday", "plan-week", "opus"]
+   ],
+   "footnote": "The cloud routines were deleted 15 Sep: “they where constantly bugging me.” A skipped evening chases nobody — the gap banner on this site is the backstop.",
+   "closes_at": "Closes at tonight’s 9:00pm planning session. Nothing is ticked until he confirms out loud.",
+   "bed_ask": "asked at the 9pm session"
+  },
+  "cost": [
+   ["Two touches, he starts both.", "9pm planning session and the Sunday week plan. No brief, no midday, no routines — set 15 Sep."],
+   ["Model routing.", "capture on Sonnet. reckon, paid, budget, month, plan-week and every design conversation on Opus."],
+   ["Never read PA.md.", "It is a generated duplicate of every file in the repo — 41k tokens of pure repetition. Generate it, commit it, never open it."],
+   ["Never hand-write generated output.", "This site is built from the markdown. Output tokens cost several times input."],
+   ["Narrow the tool calls.", "Ask TickTick for the project or date you need, not for everything."]
+  ],
+  "day": {
+   "prayer": "6:15am",
+   "prayer_minutes": 30,
+   "body_lede": "Gym at 5:00pm, prayer at 6:15am and the 9:00pm hard stop all sit on top of the bedtime. ",
+   "gym_sub": "5:00–6:00pm daily, new day shape from 16 Sep"
+  }
+ },
+ "pots": {
+  "as_of": "2026-09-15",
+  "bank": 7564,
+  "goal1_house": 0,
+  "emergency": 0,
+  "cowrywise": 36959,
+  "buffer": 0,
+  "note": "THE RING-FENCE BROKE. Kaduna (the Tehila Foundation meeting) cost more than the ₦80,000 plan and he funded it from the Cowrywise investment: ₦405,000 → ₦36,959, ₦368,041 withdrawn. His words: \"kaduna was more expensive that plan and I ended up taking out of my Inestment money to fund Kaduna.\" Not a medical, building or family emergency — outside the savings rule and Rule 7. ₦476,611 left bank + investment between 3 and 15 Sep and is not itemised. Bank ₦7,564. The August 30% (~₦408,000) is expected 16 Sep; the budget is re-checked 16 Sep 3:00pm.",
+  "bank_free": 7564,
+  "bank_sub": "₦7,564 until the August 30% lands, expected Wed 16 Sep"
+ },
+ "goals": [
+  {
+   "id": "goal1",
+   "name": "₦1,000,000 saved and still there",
+   "short": "Goal 1 — house",
+   "domain": "Money",
+   "target": 1000000,
+   "current": 0,
+   "unit": "naira",
+   "deadline": "2026-12-31",
+   "status": "at risk",
+   "account": "Cowrywise — created 2026-09-02",
+   "note": "ACCOUNT NOW EXISTS — Samuel created it on Cowrywise, 2026-09-02, closing the question that had a 14 September deadline on it. A Cowrywise plan is harder to raid than a bank account, which is exactly what Rule 1 needs. TWO THINGS STILL TO CONFIRM: that it is a SEPARATE plan from the ₦305,000 ring-fenced investment, and that its maturity date falls before 31 Dec — a lock past December protects the target and blocks the purpose. Budgeted PER MONTH, not as an average: Sep ₦146,041, then ₦286,041 × 3. THE MARGIN NARROWED on 2026-09-02: the opening balance carried into Goal 1 is ₦143, not ₦3,503, because ₦2,360 went on recharge cards in the last week of August. Goal 1 now lands at ₦1,004,307 against ₦1,000,000 — a margin of ₦4,307. Oct–Dec each run ₦2,116 lighter than planned once the payment charges and the CapCut cut are netted; that comes out of the Buffer, not out of this."
+  },
+  {
+   "id": "goal2",
+   "name": "₦4,000,000 total by the wedding",
+   "short": "Goal 2 — marriage",
+   "domain": "Money",
+   "target": 4000000,
+   "current": 0,
+   "unit": "naira",
+   "deadline": "2027-07-31",
+   "status": "behind",
+   "note": "The ₦3M is ON TOP of the ₦1M. RECALCULATED 2026-09-02 on net income and the new obligations floor. From January: income ₦1,370,725 net of the flat $10/month of charges, minus bills ₦936,800 after the CapCut cut, leaves ₦433,925 free. Goal 2 needs ₦428,571, so it clears by ₦5,354 — a 1.2% margin — and the ₦50,000 emergency fund on top does not fit, leaving ₦44,646/month to find. That is the course's number: about ₦312,500 across the seven months. NOT impossible. Knife-edge, and only while the August mix holds for seven straight months — July was 2 videos, which does not cover the bills. The margin got thinner, not wider: the CapCut saving was real but the payment charges and the measured rate took more than it gave."
+  },
+  {
+   "id": "emergency",
+   "name": "Emergency fund",
+   "short": "Emergency fund",
+   "domain": "Money",
+   "target": 300000,
+   "current": 0,
+   "unit": "naira",
+   "deadline": "2027-06-30",
+   "status": "not started",
+   "note": "Funded from January 2027, AFTER the ₦1M closes. His call: it does not compete with the December target."
+  },
+  {
+   "id": "cowrywise",
+   "name": "Cowrywise investment (ring-fenced)",
+   "short": "Cowrywise",
+   "domain": "Money",
+   "target": 705000,
+   "current": 405000,
+   "unit": "naira",
+   "deadline": "2026-12-31",
+   "status": "on track",
+   "note": "Rule 7. ₦100,000/month to year end. NEVER counts toward the ₦1M or the ₦3M and is never spent on them. Moves into actual stocks January 2027. HELD ON 2026-09-02: Samuel offered ₦40,000 out of it to build a cushion. Declined and he agreed — it is his own rule, closed in writing with 'it never pauses', and once the parents payment came off for September the cushion existed anyway. NOTE THE NAME CLASH: Cowrywise now also holds the Goal 1 account. Two pots that mean opposite things on one app."
+  },
+  {
+   "id": "buffer",
+   "name": "Buffer",
+   "short": "Buffer",
+   "domain": "Money",
+   "target": 200000,
+   "current": 0,
+   "unit": "naira",
+   "deadline": "2026-12-31",
+   "status": "not started",
+   "account": "Emergency (savings a/c)",
+   "note": "LIVES IN THE SAVINGS ACCOUNT ALREADY CALLED 'Emergency' — his answer 2026-08-28. NAME CLASH: that account holds the BUFFER Sep–Dec, not the emergency fund, which does not start until Jan 2027. ₦50,000/month, plus month-end underspend, plus the whole excess of any 4-video month. ITS FIRST REAL JOB IS ALREADY BOOKED: Oct–Dec each run ₦2,116 short of plan once the flat $10/month of payment charges and the CapCut saving are netted, and a Kaduna overrun would land here too. Both come out of the Buffer, not Goal 1 — which is the first time in this record that a shortfall has had a home other than savings."
+  },
+  {
+   "id": "course_m1",
+   "name": "Module 1 recorded",
+   "short": "Course beta",
+   "domain": "Course",
+   "target": 13,
+   "current": 2,
+   "unit": "lessons",
+   "deadline": "2026-10-16",
+   "status": "at risk",
+   "note": "Module 1 is lessons 1–13; 2 recorded, 11 remaining. Two lessons a week in the Sunday 5:00–7:30pm block. Module 1 completes Sun 11 Oct; beta launches Fri 16 Oct with 5 days of buffer. IF THE 11 OCT LIVE EDIT SLIPS, THE LAUNCH SLIPS."
+  },
+  {
+   "id": "wednesdays",
+   "name": "18 consecutive Wednesdays, no miss",
+   "short": "The 18 Wednesdays",
+   "domain": "Content",
+   "target": 18,
+   "current": 0,
+   "unit": "weeks",
+   "deadline": "2026-12-31",
+   "status": "not started",
+   "note": "THE SCORED VERSION of the 5,000-follower ambition. 460 → 5,000 in four months is ~11x and fails the R in SMART. The goal that gets scored is the input he controls: one video, Wednesday 7:00pm WAT, no miss. Missing the TIME counts as missing the week."
+  },
+  {
+   "name": "Morning movement, 6× a week",
+   "target": 6,
+   "current": 0,
+   "status": "not started",
+   "note": "Gym Mon/Wed/Fri, 30-min run Tue/Thu/Sat. Replaced the 3×/week gym habit on 2 Sep."
+  },
+  {
+   "name": "Client videos delivered inside the 5-day cap",
+   "target": 3,
+   "current": 0,
+   "status": "at risk",
+   "note": "Route Rise's standing term, confirmed 2 Sep. Client #1 late, Client #2 ran 8 days. Client #3 is the first one built to it."
+  }
+ ],
+ "income": {
+  "payer": "Route Rise Media LTD",
+  "payer_note": "An AGENCY, and his ONLY payer. It works with two end clients; he edits for both and sends ONE invoice covering both. There is no second client and there never was. 100% of income arrives through one invoice to one company.",
+  "rate_primary_usd": 333.33,
+  "rate_secondary_usd": 175.0,
+  "usd_ngn": 1361.66,
+  "split": "70% at month end, 30% mid the following month. The mid-month payment is always last month's remainder, never a new batch.",
+  "batches": [
+   {
+    "month": "2026-05",
+    "videos": 5,
+    "note": "invoiced 06/14"
+   },
+   {
+    "month": "2026-06",
+    "videos": 4,
+    "note": "invoiced 06/29 (70%) + 07/14 (30%)"
+   },
+   {
+    "month": "2026-07",
+    "videos": 2,
+    "note": "invoiced 07/29 (70%) + 08/14 (30%)"
+   },
+   {
+    "month": "2026-08",
+    "videos": 4,
+    "note": "2 × $333.33 + 2 × $175 = $1,016.66 GROSS. Paid as $706.66 net on 2 Sep (70%, after a flat $5 charge) = ₦962,228, plus ~$300 net due ~14 Sep. Batch nets ~₦1,370,725, not the ₦1,387,741 the record planned on."
+   }
+  ],
+  "cash_landed": [
+   {
+    "month": "2026-06",
+    "amount": 2273189
+   },
+   {
+    "month": "2026-07",
+    "amount": 1791800
+   },
+   {
+    "month": "2026-08",
+    "amount": 1109987,
+    "real": 910000,
+    "note": "~₦200k of this was a savings withdrawal, not income"
+   },
+   {
+    "month": "2026-09",
+    "amount": 962228,
+    "partial": true,
+    "note": "Payday A only, confirmed in the bank. Payday B (~₦408,497) is still to come on the 14th."
+   }
+  ],
+  "projection": [
+   {
+    "month": "2026-09",
+    "surplus": 58027,
+    "note": "REPLANNED 2026-09-02 against confirmed money. Parents cancelled for the month (dad agreed) and CapCut cut; Kaduna raised to ₦80,000, gym clothing added, school fee corrected to ₦100,000."
+   },
+   {
+    "month": "2026-10",
+    "surplus": 333925,
+    "note": "CapCut saving less the payment charges and the measured rate"
+   },
+   {
+    "month": "2026-11",
+    "surplus": 333925
+   },
+   {
+    "month": "2026-12",
+    "surplus": 333925
+   }
+  ],
+  "obligations_floor": 936800,
+  "committed_outflow": 1036800,
+  "scenarios": [
+   {
+    "name": "August mix (2×$333 + 2×$175), net of charges",
+    "gross": 1370725,
+    "surplus": 433925
+   },
+   {
+    "name": "4 × $333.33, net of charges",
+    "gross": 1802164,
+    "surplus": 865364
+   },
+   {
+    "name": "2 videos / month, net of charges",
+    "gross": 893774,
+    "surplus": -43026,
+    "underwater": true
+   }
+  ],
+  "usd_ngn_note": "MEASURED on the 2026-09-02 conversion: ₦962,228 for $706.66. Not the ₦1,365 June–August average the record used to assume. Use the measured figure.",
+  "charge_usd": 5,
+  "charge_note": "A FLAT $5 IS TAKEN PER PAYMENT — confirmed to the cent 2026-09-02: gross $711.66, received $706.66. Flat, not a percentage, so it costs proportionally more on the smaller 30% payment. $10/month, ~₦13,617/year. Every projection built on a gross figure was overstated by it.",
+  "floor_note": "Fell from ₦951,700 on 2026-09-02 when CapCut was cancelled — ₦14,900/month, his call, because he edits on DaVinci Resolve now. The floor has now dropped twice, and both times because he changed a decision, never because income moved."
+ },
+ "paydays": [
+  {
+   "date": "2026-09-02",
+   "label": "Payday A — September (August 70%) — LANDED",
+   "amount": 962228,
+   "confirmed": true,
+   "note": "PAID AND CONFIRMED IN THE BANK. Gross $711.66, flat $5 charge, net $706.66, converted on Cleva at ₦1,361.66/$. Landed 2 Sep, one day after Lewis returned from leave. ₦934,600 goes straight back out; ₦27,771 is the cushion to the 14th."
+  },
+  {
+   "date": "2026-09-14",
+   "label": "Payday B — September (August 30%)",
+   "amount": 408497,
+   "confirmed": true,
+   "note": "₦146,041 to Goal 1 and ₦50,000 to the Buffer move today. ₦40,000 also goes to his sister. Goal 1 finally has an account (Cowrywise). He may still be travelling back from Kaduna."
+  },
+  {
+   "date": "2026-09-30",
+   "label": "Payday A — October",
+   "amount": 962228,
+   "confirmed": true,
+   "note": "Cowrywise moves on Payday A."
+  },
+  {
+   "date": "2026-10-14",
+   "label": "Payday B — October",
+   "amount": 408497,
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-02",
+   "label": "Payday A — November — SLIPS",
+   "amount": 962228,
+   "confirmed": true,
+   "slips": true,
+   "note": "THE TIGHTEST POINT OF THE YEAR. 31 Oct 2026 is a Saturday and they do not pay at weekends, so it lands Mon 2 Nov. November's front half is funded on the 2nd — and Google bills on the 2nd, CapCut the 4th."
+  },
+  {
+   "date": "2026-11-16",
+   "label": "Payday B — November — SLIPS",
+   "amount": 408497,
+   "confirmed": true,
+   "slips": true,
+   "note": "14 Nov 2026 is a Saturday, so it lands Mon 16 Nov."
+  },
+  {
+   "date": "2026-11-30",
+   "label": "Payday A — December",
+   "amount": 962228,
+   "confirmed": true
+  },
+  {
+   "date": "2026-12-14",
+   "label": "Payday B — December",
+   "amount": 408497,
+   "confirmed": true,
+   "note": "LAST PAYDAY B BEFORE THE ₦1M DEADLINE."
+  },
+  {
+   "date": "2026-12-31",
+   "label": "Payday A — January",
+   "amount": 962228,
+   "confirmed": true,
+   "note": "Same day as the ₦1M deadline. This money arrives ON the deadline, so it cannot count toward Goal 1 — the target is saved AND STILL THERE on 31 Dec."
+  }
+ ],
+ "countdowns": [
+  {
+   "date": "2026-09-16",
+   "label": "Payday B — August 30% expected, budget re-check 3:00pm",
+   "kind": "money",
+   "note": "Invoiced 14 Sep, slipped two days. Bank is ₦7,564 and Cowrywise was drawn down to ₦36,959 for Kaduna, so this money has to cover the rest of September. The re-check decides what survives."
+  },
+  {
+   "date": "2026-09-17",
+   "label": "SEND Alex video (Sep #3) — 12:30pm",
+   "kind": "deadline",
+   "note": "Internal target. Client deadline is Fri 18 Sep."
+  },
+  {
+   "date": "2026-10-11",
+   "label": "Module 1 last lesson — LIVE EDIT 01",
+   "kind": "decision",
+   "note": "THE GATE ON THE LAUNCH. If this slips a week, 16 Oct slips a week."
+  },
+  {
+   "date": "2026-10-16",
+   "label": "Course beta launch — Called to Edit",
+   "kind": "launch",
+   "note": "₦10,000 beta, sold by link, free to the 20-person community. Its job is TESTIMONIALS, not money."
+  },
+  {
+   "date": "2026-12-31",
+   "label": "₦1M deadline — Goal 1",
+   "kind": "goal",
+   "note": "Saved AND still there on the day. Miss it and the house move slips."
+  }
+ ],
+ "content": {
+  "instagram": 460,
+  "tiktok": 550,
+  "ambition": 5000,
+  "cadence_start": "2026-09-02",
+  "publish_slot": "Wednesday 7:00pm WAT",
+  "pipeline": [
+   {
+    "day": "Thursday",
+    "phase": "Ideation",
+    "hours": 1,
+    "block": "2:00–3:00pm"
+   },
+   {
+    "day": "Friday",
+    "phase": "Scripting",
+    "hours": 2,
+    "block": "2:00–4:00pm"
+   },
+   {
+    "day": "Saturday",
+    "phase": "Filming",
+    "hours": 3,
+    "block": "2:00–5:00pm"
+   },
+   {
+    "day": "Monday",
+    "phase": "Editing",
+    "hours": 3,
+    "block": "2:00–5:00pm"
+   },
+   {
+    "day": "Tuesday",
+    "phase": "Finish + BANK IT",
+    "hours": 2,
+    "block": "2:00–4:00pm"
+   },
+   {
+    "day": "Wednesday",
+    "phase": "PUBLISH — banked, zero work",
+    "hours": 0,
+    "block": "6:45–7:00pm"
+   }
+  ],
+  "community_members": 20,
+  "mentees": 3
+ },
+ "course": {
+  "name": "Called to Edit",
+  "brand": "HighSignals Academy",
+  "total_lessons": 37,
+  "recorded": 2,
+  "block": "Sunday 5:00–7:30pm",
+  "cadence_per_week": 2,
+  "beta_price": 10000,
+  "launch": "2026-10-16",
+  "must_carry_monthly": 170000,
+  "modules": [
+   {
+    "n": 1,
+    "name": "Foundations",
+    "from": 1,
+    "to": 13,
+    "remaining": 11
+   },
+   {
+    "n": 2,
+    "name": "Text",
+    "from": 14,
+    "to": 17,
+    "remaining": 4
+   },
+   {
+    "n": 3,
+    "name": "Effects",
+    "from": 18,
+    "to": 23,
+    "remaining": 6
+   },
+   {
+    "n": 4,
+    "name": "Colour & audio",
+    "from": 24,
+    "to": 32,
+    "remaining": 9
+   },
+   {
+    "n": 5,
+    "name": "Delivery",
+    "from": 33,
+    "to": 37,
+    "remaining": 5
+   }
+  ],
+  "lessons": [
+   {
+    "n": 1,
+    "name": "Introduction",
+    "module": 1,
+    "status": "recorded"
+   },
+   {
+    "n": 2,
+    "name": "Editing Mindset Fundamentals",
+    "module": 1,
+    "status": "recorded"
+   },
+   {
+    "n": 3,
+    "name": "Anatomy",
+    "module": 1,
+    "status": "not started",
+    "due": "2026-09-06"
+   },
+   {
+    "n": 4,
+    "name": "The 3-pointer anatomy",
+    "module": 1,
+    "status": "not started",
+    "due": "2026-09-06"
+   },
+   {
+    "n": 5,
+    "name": "Planning Your Edit",
+    "module": 1,
+    "status": "not started",
+    "due": "2026-09-13"
+   },
+   {
+    "n": 6,
+    "name": "How Editing Software Works",
+    "module": 1,
+    "status": "not started",
+    "due": "2026-09-13"
+   },
+   {
+    "n": 7,
+    "name": "Cutting Talking-Head",
+    "module": 1,
+    "status": "not started",
+    "due": "2026-09-20"
+   },
+   {
+    "n": 8,
+    "name": "Pacing",
+    "module": 1,
+    "status": "not started",
+    "due": "2026-09-20"
+   },
+   {
+    "n": 9,
+    "name": "A-Roll / B-Roll",
+    "module": 1,
+    "status": "not started",
+    "due": "2026-09-27"
+   },
+   {
+    "n": 10,
+    "name": "Building From B-Roll Alone",
+    "module": 1,
+    "status": "not started",
+    "due": "2026-09-27"
+   },
+   {
+    "n": 11,
+    "name": "Transitions",
+    "module": 1,
+    "status": "not started",
+    "due": "2026-10-04"
+   },
+   {
+    "n": 12,
+    "name": "Keyframing 101",
+    "module": 1,
+    "status": "not started",
+    "due": "2026-10-04"
+   },
+   {
+    "n": 13,
+    "name": "LIVE EDIT 01",
+    "module": 1,
+    "status": "not started",
+    "due": "2026-10-11",
+    "gate": true
+   },
+   {
+    "n": 14,
+    "name": "Typography",
+    "module": 2,
+    "status": "not started"
+   },
+   {
+    "n": 15,
+    "name": "Captions",
+    "module": 2,
+    "status": "not started"
+   },
+   {
+    "n": 16,
+    "name": "Animating text",
+    "module": 2,
+    "status": "not started"
+   },
+   {
+    "n": 17,
+    "name": "LIVE EDIT 02",
+    "module": 2,
+    "status": "not started"
+   },
+   {
+    "n": 18,
+    "name": "Effects mindset",
+    "module": 3,
+    "status": "not started"
+   },
+   {
+    "n": 19,
+    "name": "Speed ramping",
+    "module": 3,
+    "status": "not started"
+   },
+   {
+    "n": 20,
+    "name": "Motion graphics",
+    "module": 3,
+    "status": "not started"
+   },
+   {
+    "n": 21,
+    "name": "Masking",
+    "module": 3,
+    "status": "not started"
+   },
+   {
+    "n": 22,
+    "name": "Compositing",
+    "module": 3,
+    "status": "not started"
+   },
+   {
+    "n": 23,
+    "name": "LIVE EDIT 03",
+    "module": 3,
+    "status": "not started"
+   },
+   {
+    "n": 24,
+    "name": "Correction",
+    "module": 4,
+    "status": "not started"
+   },
+   {
+    "n": 25,
+    "name": "Grading",
+    "module": 4,
+    "status": "not started"
+   },
+   {
+    "n": 26,
+    "name": "Consistency",
+    "module": 4,
+    "status": "not started"
+   },
+   {
+    "n": 27,
+    "name": "Sound design",
+    "module": 4,
+    "status": "not started"
+   },
+   {
+    "n": 28,
+    "name": "Mixing",
+    "module": 4,
+    "status": "not started"
+   },
+   {
+    "n": 29,
+    "name": "SFX",
+    "module": 4,
+    "status": "not started"
+   },
+   {
+    "n": 30,
+    "name": "VO",
+    "module": 4,
+    "status": "not started"
+   },
+   {
+    "n": 31,
+    "name": "Cleanup",
+    "module": 4,
+    "status": "not started"
+   },
+   {
+    "n": 32,
+    "name": "LIVE EDIT 04",
+    "module": 4,
+    "status": "not started"
+   },
+   {
+    "n": 33,
+    "name": "Assets",
+    "module": 5,
+    "status": "not started"
+   },
+   {
+    "n": 34,
+    "name": "Templates",
+    "module": 5,
+    "status": "not started"
+   },
+   {
+    "n": 35,
+    "name": "Export",
+    "module": 5,
+    "status": "not started"
+   },
+   {
+    "n": 36,
+    "name": "Review pass",
+    "module": 5,
+    "status": "not started"
+   },
+   {
+    "n": 37,
+    "name": "CAPSTONE",
+    "module": 5,
+    "status": "not started"
+   }
+  ]
+ },
+ "_habit_log_comment": [
+  "Per-habit, per-day check-ins. The ledger only carries n/5, which cannot draw",
+  "a heatmap — you cannot see WHICH habit broke from a count. Source: TickTick",
+  "check-in records, pulled 2026-08-28. The reckoning appends one entry a night.",
+  "true = hit, false = BROKEN, absent = not tracked that day."
+ ],
+ "habit_log": {
+  "2026-08-25": {
+   "No social media (detox)": true,
+   "Fasted": true,
+   "Prayed": true,
+   "Bible study (morning)": true,
+   "No masturbating": true
+  },
+  "2026-08-26": {
+   "No social media (detox)": true,
+   "Fasted": true,
+   "Prayed": true,
+   "Bible study (morning)": true,
+   "No masturbating": true
+  },
+  "2026-08-27": {
+   "No social media (detox)": false,
+   "Fasted": true,
+   "Prayed": true,
+   "Bible study (morning)": true,
+   "No masturbating": false
+  },
+  "2026-09-02": {
+   "Phone away by 10pm": true,
+   "Sleep by 10:30pm": false
+  },
+  "2026-09-03": {
+   "Morning movement (gym or run)": true,
+   "Sleep by 10:30pm": false,
+   "Phone away by 10pm": false
+  }
+ },
+ "body": {
+  "sleep_floor_hours": 7,
+  "bed_floor": "22:30",
+  "wake": "05:30",
+  "hard_stop": "18:30",
+  "anchors_default": [
+   {
+    "time": "05:30",
+    "label": "Prayer + Bible study (45 min)"
+   },
+   {
+    "time": "12:00",
+    "label": "Breakfast"
+   },
+   {
+    "time": "13:00",
+    "label": "Nap (~1h)"
+   },
+   {
+    "time": "18:00",
+    "label": "Dinner"
+   },
+   {
+    "time": "18:30",
+    "label": "HARD STOP"
+   },
+   {
+    "time": "22:30",
+    "label": "BED"
+   }
+  ],
+  "pa_sessions": [
+   {
+    "time": "07:03",
+    "label": "Morning brief",
+    "minutes": 30
+   },
+   {
+    "time": "14:57",
+    "label": "Midday checkpoint",
+    "minutes": 30
+   },
+   {
+    "time": "21:03",
+    "label": "Evening reckoning",
+    "minutes": 30
+   },
+   {
+    "time": "19:57",
+    "label": "Weekly review (Sun)",
+    "minutes": 30
+   }
+  ],
+  "pa_weekly_hours": 10.5,
+  "pomo_work_min": 50,
+  "pomo_break_min": 5,
+  "fast_status": "DROPPED 28 Aug 2026. Anchors are 12:00 / 13:00 / 18:00, permanently.",
+  "movement": [
+   {
+    "days": "Mon / Wed / Fri",
+    "what": "Gym — cycle, session, cycle, bathe",
+    "time": "07:00–08:20",
+    "then": "client block 1 at 08:30"
+   },
+   {
+    "days": "Tue / Thu / Sat",
+    "what": "Run 30 min, then bathe",
+    "time": "07:00–07:55",
+    "then": "client block 1 at 08:00"
+   },
+   {
+    "days": "Sunday",
+    "what": "Off — church",
+    "time": "—",
+    "then": "—"
+   }
+  ],
+  "movement_cost_hours_per_week": 7.5,
+  "social_media_windows": [
+   {
+    "window": "Lunch",
+    "time": "12:00–12:45"
+   },
+   {
+    "window": "Dinner",
+    "time": "18:00–18:30"
+   }
+  ]
+ },
+ "score": {
+  "weights": {
+   "verdict": 40,
+   "focus": 20,
+   "habits": 20,
+   "sleep": 20
+  },
+  "verdict_points": {
+   "SHIPPED": 40,
+   "PARTIAL": 20,
+   "MISSED": 0
+  },
+  "focus_over_12h_cap": 10,
+  "sleep_bands": [
+   {
+    "before": "22:30",
+    "points": 20
+   },
+   {
+    "before": "23:30",
+    "points": 10
+   },
+   {
+    "else": 0
+   }
+  ],
+  "penalties": {
+   "no_wednesday_video": 15,
+   "planned_money_did_not_move": 15
+  },
+  "note": "The focus cap is the point: uncapped, 25 Aug scores 180% and the system hands its highest mark to the 19-hour day body.md calls 'an invoice.'"
+ },
+ "sections": [
+  {
+   "id": "money",
+   "name": "Money",
+   "icon": "₦",
+   "lever": "Monthly surplus that survives the month. Not income — surplus that is still there on the 30th."
+  },
+  {
+   "id": "work",
+   "name": "Work & Clients",
+   "icon": "▶",
+   "lever": "Hit every stated per-project deadline. No deadline moves."
+  },
+  {
+   "id": "content",
+   "name": "Content & Audience",
+   "icon": "◆",
+   "lever": "Depth over volume. The cadence is the point, not the count."
+  },
+  {
+   "id": "course",
+   "name": "Course",
+   "icon": "▤",
+   "lever": "Protected time that client projects are not allowed to eat."
+  },
+  {
+   "id": "body",
+   "name": "Body",
+   "icon": "●",
+   "lever": "Sleep. Nothing else survives a 4-hour night."
+  },
+  {
+   "id": "spirit",
+   "name": "Spirit",
+   "icon": "✦",
+   "lever": "The bedtime. A 5:30am block does not survive a 1:00am finish."
+  },
+  {
+   "id": "people",
+   "name": "People",
+   "icon": "◈",
+   "lever": "Outreach volume. He cannot visit someone he has not messaged."
+  },
+  {
+   "id": "systems",
+   "name": "Systems",
+   "icon": "⚙",
+   "lever": "One check-in, one session. Everything loaded is re-sent every turn."
+  }
+ ],
+ "work": {
+  "cap_days": 5,
+  "cap_note": "Route Rise's standing term, confirmed 2026-09-02. Five days maximum from start — their decision, not negotiable. A Sunday inside the five is not a working day.",
+  "current_job": {
+   "name": "Alex video (Sep #3)",
+   "scope": "not given",
+   "fee_usd": 333.33,
+   "start": "2026-09-15",
+   "due": "2026-09-18",
+   "send_target": "Thu 17 Sep 12:30pm",
+   "days": [
+    {
+     "date": "2026-09-15",
+     "label": "Tue evening — edit blocks 1–2, 7:00–9:00pm",
+     "must": "evening goes to the client, his call",
+     "state": "open"
+    },
+    {
+     "date": "2026-09-16",
+     "label": "Wed — edit blocks 3–8 (7am–1pm) + 9–10 (7–9pm)",
+     "must": "most of the cut closes",
+     "state": "open"
+    },
+    {
+     "date": "2026-09-17",
+     "label": "Thu — blocks 11–14, render, SEND 12:30pm",
+     "must": "sent by 12:30pm",
+     "state": "open"
+    },
+    {
+     "date": "2026-09-18",
+     "label": "Fri — client deadline. Buffer only.",
+     "must": "nothing, if Thursday held",
+     "state": "open"
+    }
+   ]
+  },
+  "history": [
+   {
+    "name": "Client #1",
+    "delivered": "2026-08-26",
+    "verdict": "LATE",
+    "note": "Went out 1:42am after a 6:20pm target — a 19-hour day."
+   },
+   {
+    "name": "Client #2",
+    "start": "2026-08-27",
+    "due": "2026-08-30",
+    "delivered": "2026-09-02",
+    "days_taken": 8,
+    "verdict": "LATE",
+    "note": "Eight days against a five-day cap. Shipped 12:07pm, 2.5 days past the deadline."
+   },
+   {
+    "name": "Andy video (Sep #1) — was Client #3",
+    "start": "2026-09-03",
+    "due": "2026-09-07",
+    "verdict": "DELIVERED",
+    "note": "Delivered during the 4–14 Sep dark stretch; date not given. TickTick shows the render ticked 8 Sep."
+   },
+   {
+    "name": "Alex video (Sep #2)",
+    "verdict": "DELIVERED",
+    "note": "New client, same rate as Andy. Due Thu 10 Sep; delivery date not given."
+   }
+  ]
+ },
+ "spirit": {
+  "church_next": "2026-09-06",
+  "church_status": "ON",
+  "church_note": "Service 9:00am. Commute up to 1h30 each way, home ~3pm.",
+  "transport_needed": 5000,
+  "last_missed": {
+   "date": "2026-08-30",
+   "reason": "No transport money — ₦2,503 against ₦5,000 needed. Not a scheduling choice."
+  }
+ },
+ "notes": {
+  "body": {
+   "n1": {
+    "type": "callout",
+    "kind": "bad",
+    "icon": "🧱",
+    "paras": [
+     "<strong>He has not hit the 10:30pm floor once on the record.</strong> Bed times: 1:00am · 11:00pm · 12:30am · 1:42am · 1:30am · 1:30am. Against a 5:30am wake that is 4.5h, 6.5h, 5h, ~4h, 4h, ~5.5h.",
+     "10:30pm is not a tightening of what he does — it is 2.5 hours earlier than his worst night and 30 minutes earlier than his best. <strong>Treat every miss as data about the afternoon that caused it, not as a discipline failure.</strong>"
+    ]
+   },
+   "n2": {
+    "type": "note",
+    "html": "Every dot below the green line is a night under seven hours. The dashed track between them is the shape of the problem: <strong>three consecutive nights ending after 1:30am.</strong>"
+   },
+   "n3": {
+    "type": "note",
+    "html": "The floor is <strong>7 hours</strong> — his number, given 26 Aug. Every bar is short of it."
+   },
+   "n4": {
+    "type": "note",
+    "html": "<strong>Rule 5: any day whose logged focus exceeds 12h is not a good day, it is an invoice.</strong> 25 Aug logged 16.23h against a 9h commitment and shipped — and the debt came due on the 27th, when the intro died in the 5:00–6:30pm slot."
+   },
+   "n5": {
+    "type": "callout",
+    "kind": "info",
+    "icon": "⚓",
+    "paras": [
+     "<strong>Never schedule work over these, and never create a task for eating, napping, showering or sleeping.</strong> Those are not tasks. While a fast is running the meal and nap anchors move — check before planning any day."
+    ]
+   }
+  },
+  "budget": {
+   "n1": {
+    "type": "note",
+    "html": "September has not started, so every actual is ₦0 and the grey bars are the whole plan. <strong>Actuals only ever come from logged rows</strong> — a category cannot claim money moved when no row exists. That was the whole bug in the old sheets."
+   },
+   "n2": {
+    "type": "callout",
+    "kind": "warn",
+    "icon": "🗄",
+    "paras": [
+     "<strong>A cancelled subscription that reappears in three months is a pattern, and a deleted row hides it.</strong> These are marked inactive and excluded from every total, but they stay on the record."
+    ]
+   },
+   "n3": {
+    "type": "callout",
+    "kind": "info",
+    "icon": "=",
+    "paras": [
+     "<strong>Every naira has a job, and the bottom line is ₦0.</strong> Income, minus the bills, minus that month’s one-offs, minus every pot. Zero is the target — not a surplus.",
+     "A positive number is unallocated money, and <strong>money with no name on it is what evaporated June–August</strong>. A negative number means the month does not fund its own plan — that is what the lean ladder below is for."
+    ]
+   },
+   "n4": {
+    "type": "note",
+    "html": "September’s pot number is lower on purpose — its ₦140,000 of one-offs (school, Kaduna, the sister) come first. <strong>A flat monthly average asked September for money it does not have</strong>, and a plan that asks for money you do not have gets paid out of the building fund or the buffer."
+   },
+   "n5": {
+    "type": "callout",
+    "kind": "warn",
+    "icon": "📉",
+    "paras": [
+     "<strong>Decided in advance so it is not negotiated at 11pm on a short month.</strong> When a month lands short, the cut order is already fixed."
+    ]
+   }
+  },
+  "content": {
+   "n1": {
+    "type": "callout",
+    "kind": "warn",
+    "icon": "🎯",
+    "paras": [
+     "<strong>5,000 is an AMBITION, not a SMART goal.</strong> 460 → 5,000 on Instagram in four months is roughly 11x. At one post a week that fails the R in SMART. His goal stays in his file — but the version underneath it is the one that gets scored:",
+     "<strong>18 consecutive Wednesdays without a miss, between now and 31 December.</strong>",
+     "Followers are the outcome. <strong>The cadence is the input. Score the input.</strong>"
+    ]
+   },
+   "n2": {
+    "type": "note",
+    "html": "<strong>Missing the TIME counts as missing the week.</strong> A video that goes up Thursday is a missed week. The video is banked on Tuesday — publish day contains zero production, and that rule exists because of 25 Aug, when a deliverable due 6:20pm went out at 1:42am."
+   },
+   "n3": {
+    "type": "callout",
+    "kind": "bad",
+    "icon": "🚩",
+    "paras": [
+     "<strong>Week 1 was missed. P1 is confirmed, not a candidate.</strong> Nothing was ideated, scripted, filmed, edited or banked for Wed 2 Sep, and no Content #1 tasks were ever created.",
+     "<strong>That is three consecutive weeks at zero</strong> — 24 Aug (all three tasks deleted), the week of 25–31 Aug, and this one. The afternoon-block override failed its own test every week since it was written: eaten twice in a week meant it went back to mornings.",
+     "<strong>Content is being redesigned in a separate conversation (2 Sep).</strong> Nothing here pre-empts that. The one constraint the new design must meet: it has to survive a week like 11–13 Sep, because the old one could not survive an ordinary Tuesday."
+    ]
+   },
+   "n4": {
+    "type": "callout",
+    "kind": "warn",
+    "icon": "🧪",
+    "paras": [
+     "<strong>THE LIVE TEST.</strong> Blocks moved from morning to afternoon on 26 Aug at his instruction — his reason: client edits own his mornings almost every day.",
+     "The objection was stated and overruled: <strong>the afternoon is exactly where the tiebreak gets lost, which was the whole reason for the morning slot.</strong>",
+     "<strong>If the afternoon content block is eaten by client work twice in one week, the override was wrong and it goes back to mornings without further debate.</strong> That was the deal. The weekly review states the count every week."
+    ]
+   },
+   "n5": {
+    "type": "callout",
+    "kind": "info",
+    "icon": "📌",
+    "paras": [
+     "<strong>Wednesday is heavy.</strong> The video publishes at 7:00pm and the community teaching runs 8:30pm the same night. Flagged, not moved — it is his slot.",
+     "The ₦15,000 admin is <strong>the cheapest line in the whole budget and the reason the community did not die during the 25 Aug death march.</strong> Do not cut it to save money."
+    ]
+   }
+  },
+  "course": {
+   "n1": {
+    "type": "note",
+    "html": "Lesson 13 — <strong>LIVE EDIT 01, Sun 11 Oct</strong> — is the gate. Module 1 completes that Sunday and the beta launches Friday 16 Oct with five days of buffer. <strong>If the 11 Oct live edit slips a week, the launch slips a week.</strong> Never launch a module whose last lesson is not recorded."
+   },
+   "n2": {
+    "type": "callout",
+    "kind": "warn",
+    "icon": "🧾",
+    "paras": [
+     "<strong>Read this honestly, because it is not a revenue plan.</strong> At ₦10,000, given free to the 20 warmest people, fulfilled by hand, the beta will not move money. Against the ₦170,000/month the course must carry, ₦10,000 is <strong>17 sales a month</strong> — roughly 1.7% of his entire 1,010-person following buying, every month.",
+     "<strong>So the beta's job is testimonials, not money.</strong> That is a legitimate play and it is the only reading of these three choices that holds together. It only works if the testimonials are actually collected: ask every beta buyer and every community member for a written result. <strong>That is the deliverable of 16 October.</strong>",
+     "<strong>Which makes the full course price the load-bearing unknown.</strong> At ₦10,000 the target needs 17 sales/month; at ₦60,000 it needs 3. The beta price anchors whatever comes next, so the full price has to be set BEFORE 16 October, not after."
+    ]
+   },
+   "n3": {
+    "type": "callout",
+    "kind": "bad",
+    "icon": "🚩",
+    "paras": [
+     "<strong>Standing risk:</strong> manual payment and manual access is work with no external deadline. <strong>Pattern P1 says that is the first category he cuts when client edits land.</strong> If sales stall, check whether the bottleneck is demand or his own fulfilment before concluding nobody wants it."
+    ]
+   },
+   "n4": {
+    "type": "callout",
+    "kind": "warn",
+    "icon": "⏱",
+    "paras": [
+     "<strong>Two lessons a week completes the course early January 2027. Three a week lands it inside 2026.</strong>",
+     "This is no longer just a preference: the ₦3M is on top of the ₦1M, so course revenue has to start in January — <strong>which argues for 3/week.</strong> His choice, stated plainly, not decided for him.",
+     "The October full-course date is dead. 35 lessons × 70 min ≈ <strong>41 hours of recording</strong> before editing, on top of client work, content and a new gym habit. That is the same arithmetic that produced the 19-hour day on 25 Aug."
+    ]
+   }
+  },
+  "dashboard": {
+   "n1": {
+    "type": "note",
+    "html": "<strong>25 Aug shipped and still scored 70.</strong> Focus ran to 180% of commitment, which the formula caps at 100% and then halves because logged focus passed 12h. A day can ship and still cost too much."
+   },
+   "n2": {
+    "type": "note",
+    "html": "Sleep has contributed <strong>zero on every recorded night</strong>. That is the whole green band missing from every bar."
+   },
+   "n3": {
+    "type": "note",
+    "html": "body.md Rule 5: <strong>any day whose logged focus exceeds 12h is not a good day, it is an invoice.</strong> 26 Aug logged 19 minutes against 6¼ hours actually worked — the timer was off, and an untimed day is invisible to the whole system."
+   },
+   "n4": {
+    "type": "note",
+    "html": "Every dot below the line is a night under 7 hours. <strong>He has not hit the 10:30pm floor once on the record.</strong> Sleep is the wall under gym, the 5:30am prayer block and the 6:30pm hard stop — when it breaks, ask what happened that afternoon, not why he stayed up."
+   },
+   "n5": {
+    "type": "note",
+    "html": "Two broke on 27 Aug, day 3 of 7. His words on the social-media break: <em>\"I really wanted to get entertained, I was so bored.\"</em> It happened in the 5:00–6:30pm window that C9/C10 were meant to fill. <strong>That is a scheduling hole, not a discipline failure</strong> — the detox removed the input and put nothing in its place. One break each, not two, so the YouTube penalty has not triggered."
+   },
+   "n6": {
+    "type": "callout",
+    "kind": "bad",
+    "icon": "⚠",
+    "paras": [
+     "<strong>Goal 2 is the real problem.</strong> The ₦3M is on top of the ₦1M — ₦4,000,000 total. Jan–Jul 2027 needs <strong>₦428,571/month</strong> against a surplus of ₦243,000–₦277,000. Short by ₦152,000–₦186,000 every month. At the August mix it is not tight, it is arithmetically impossible.",
+     "It closes only if 4-video months become normal — which is Route Rise's decision, not his — or the course earns. <strong>From January the course has to carry roughly ₦170,000/month.</strong> Every Sunday the 5:00pm block gets skipped is a payment missed on that ₦1.2M."
+    ]
+   }
+  },
+  "mission": {
+   "n1": {
+    "type": "callout",
+    "kind": "bad",
+    "icon": "✋",
+    "paras": [
+     "<strong>context/mission.md and context/stakes.md are Samuel's.</strong> They are rendered here directly from the files — not retyped, not summarised. If the text below is wrong, the file is wrong, and only he changes it."
+    ]
+   },
+   "n2": {
+    "type": "callout",
+    "kind": "warn",
+    "icon": "🗣",
+    "paras": [
+     "<strong>\"Claude: quote this section back at me when I'm drifting. Verbatim. Don't paraphrase it into something gentler.\"</strong>"
+    ]
+   }
+  },
+  "money": {
+   "n1": {
+    "type": "callout",
+    "kind": "bad",
+    "icon": "🔒",
+    "paras": [
+     "<strong>Savings are untouchable.</strong> Three permitted withdrawals only: medical emergency, building-project shortfall that would stop work, family emergency. <strong>A girlfriend's visit is not an emergency.</strong>",
+     "June–August, <strong>₦900,250 was booked to savings. ₦305,000 survives. ₦595,250 is gone</strong> — and the August building payment dropped from ₦500,000 to ₦200,000 to cover it. A third became a real asset; two thirds evaporated because no rule existed saying what savings are for. <strong>That is the fix — not a tighter budget.</strong>"
+    ]
+   },
+   "n2": {
+    "type": "note",
+    "html": "Closes at <strong>₦1,007,667</strong> — a margin of <strong>₦7,667</strong> after ₦200,000 goes to the buffer. <strong>One ₦200,000 raid of exactly August's kind ends it.</strong> That margin is the right trade: ₦207,000 of margin with no buffer means the first urgency in October gets paid out of savings, which is exactly how ₦595,250 disappeared."
+   },
+   "n3": {
+    "type": "note",
+    "html": "<strong>Income has halved in two months.</strong> ~₦200k of August was a savings withdrawal, not income, so the real August number is ~₦910,000. This is the single most important number in the system."
+   },
+   "n4": {
+    "type": "note",
+    "html": "<strong>2 videos a month is what July was.</strong> At that mix he is ₦141,709 underwater every month, and steps 1–3 of the lean ladder only free ₦55,000 of it. Rule 1 forbids savings and Rule 7 forbids pausing Cowrywise — <strong>the buffer is the only legal answer.</strong> And the volume is Route Rise's decision, not his."
+   },
+   "n5": {
+    "type": "callout",
+    "kind": "bad",
+    "icon": "⚠",
+    "paras": [
+     "The ₦3M is <strong>on top</strong> of the ₦1M — ₦4,000,000 total. Jan–Jul 2027 is seven months. ₦3,000,000 over seven months is <strong>₦428,571/month</strong> against a surplus of ₦243,000–₦277,000. <strong>Short by ₦152,000–₦186,000, every month.</strong>",
+     "At the August mix the ₦3M is <strong>arithmetically impossible</strong>. Not tight — impossible. It closes only if 4-video months become the norm, or the course earns. And 4-video months are not his decision.",
+     "<strong>From January the course has to carry roughly ₦170,000/month — about ₦1.2M across the seven months — or the July 2027 marriage number does not happen.</strong> Every Sunday the 5:00pm course block gets skipped is a payment missed on that ₦1.2M."
+    ]
+   }
+  },
+  "people": {
+   "n1": {
+    "type": "callout",
+    "kind": "info",
+    "icon": "📇",
+    "paras": [
+     "<strong>How it is verified: a named person and a named date in the ledger.</strong> Not \"I reached out to a few people.\" A name.",
+     "Weekly minimum: <strong>one intentional outreach message a week</strong>, so the monthly visit has someone to visit. He cannot visit someone he has not messaged."
+    ]
+   },
+   "n2": {
+    "type": "callout",
+    "kind": "warn",
+    "icon": "⚠",
+    "paras": [
+     "<strong>Her visits are a real cost line.</strong> The August ₦200,000 savings withdrawal was for accommodating her visit — that single decision is why the building payment dropped from ₦500,000 to ₦200,000.",
+     "<strong>Per Rule 1: a girlfriend’s visit is not an emergency.</strong> Visits get budgeted in advance as a line, not funded from savings after the fact.",
+     "<strong>OPEN — school fees are termly, not annual.</strong> Is the ₦50,000 a one-off or the first of three? If it repeats it is a LINE, not a surprise. Ask before October."
+    ]
+   },
+   "n3": {
+    "type": "callout",
+    "kind": "warn",
+    "icon": "💸",
+    "paras": [
+     "Creator visits are budgeted at <strong>₦25,000/month</strong>, his number, confirmed 26 Aug. It is a real line now, not a good intention.",
+     "<strong>What it cost to make it real: ₦100,000 across Sep–Dec, which moved the ₦1M December target from \"just closes\" to a coin flip.</strong> That is the price of this goal existing. Do not let it be spent on anything else and then claimed as met."
+    ]
+   },
+   "n4": {
+    "type": "callout",
+    "kind": "bad",
+    "icon": "📌",
+    "paras": [
+     "<strong>He owes his sister ₦90,000.</strong> ₦40,000 goes in September on Payday B. <strong>₦50,000 remains, with no date on it</strong> — his words: <em>\"can hold for anytime I am free with more funds, no deadline.\"</em>",
+     "She is not pressing, so it is not scheduled. It is written down anyway, because an undated debt is the kind of thing that ambushes a month, and <strong>\"when I have more funds\" is the same sentence that moves due dates.</strong> Bring it up the first month that closes with the buffer full."
+    ]
+   }
+  },
+  "spirit": {
+   "n1": {
+    "type": "callout",
+    "kind": "info",
+    "icon": "🔗",
+    "paras": [
+     "<strong>Say this out loud whenever a late night is being negotiated:</strong>",
+     "<strong>5:30am prayer requires an early bedtime. Spirit is downstream of sleep, and sleep is downstream of not finishing client work at 1am.</strong>",
+     "A missed 5:30am block is almost never a spiritual failure. It is a scheduling failure from the previous afternoon. <strong>Diagnose it there.</strong>"
+    ]
+   },
+   "n2": {
+    "type": "note",
+    "html": "<strong>Masturbation and too much social media</strong> are, in his own words, the two things that break time with God. Both broke on 27 Aug, day 3 of 7. Both were also removed from tracking on the morning of 24 Aug and re-created the same night — ~14 hours between delete and restore. <strong>If either is removed again inside a running block, the weekly review treats it as a pattern, not a decision.</strong>"
+   },
+   "n3": {
+    "type": "callout",
+    "kind": "warn",
+    "icon": "⛪",
+    "paras": [
+     "<strong>Any plan that treats Sunday as a work buffer must be built around 3:00pm onward, not the whole day.</strong> The 25 Aug pattern — dumping the week’s debt into the weekend — does not have a weekend to dump into.",
+     "Church media team: Sunday only, inside the service. No extra time cost beyond the 7:30am–3:00pm block."
+    ]
+   },
+   "n4": {
+    "type": "callout",
+    "kind": "bad",
+    "icon": "💸",
+    "paras": [
+     "<strong>30 August: church is off, and it is not a scheduling choice.</strong> He needs ₦5,000 for transport, has ₦2,503, and is short ₦3,000. Liquid savings ₦0, emergency fund ₦0, Cowrywise ₦305,000 locked until Jan 2027. <strong>There is genuinely nothing to draw on.</strong>",
+     "This is the first time on the record that the money shortfall has taken something out of this file. <strong>The ₦1M is not an abstraction about a house in December — it is already deciding whether he gets to church on Sunday.</strong>"
+    ]
+   }
+  },
+  "systems": {
+   "n1": {
+    "type": "callout",
+    "kind": "info",
+    "icon": "🔧",
+    "paras": [
+     "<strong>context/*.md is the source of truth. This site is derived from it.</strong> Same rule as the nightly scorecard: generated output is never hand-written, so it cannot drift from the record.",
+     "That also means the whole site inherits git’s append-only guarantee for free. <strong>You cannot silently soften a 40% day, because the day lives in a committed markdown file and the site is only a view of it.</strong>",
+     "No database, no server, no npm, no CDN. A Python script reads the markdown and writes one JSON file; the charts are hand-rolled SVG."
+    ]
+   },
+   "n2": {
+    "type": "callout",
+    "kind": "warn",
+    "icon": "💸",
+    "paras": [
+     "<strong>Everything loaded is re-sent on every turn, so waste compounds.</strong> None of this trades quality — it removes duplication."
+    ]
+   }
+  },
+  "work": {
+   "n1": {
+    "type": "callout",
+    "kind": "bad",
+    "icon": "🚩",
+    "paras": [
+     "<strong>Two deliveries on the record. Both late.</strong> Client #2 ran eight days against a five-day cap — 60% over a term the client states, not one he sets.",
+     "With one payer and no second income line, this is the largest risk in the system, and it is bigger than the money risk. They do not renegotiate a repeat breach. They replace."
+    ]
+   },
+   "n2": {
+    "type": "note",
+    "html": "May 5 → June 4 → July 2 → August 4. <strong>July was a 2-video month, and at that mix he is ₦141,709 underwater.</strong> The volume is set by Route Rise, which is exactly why \"hit 4 videos a month\" cannot be a goal he owns."
+   }
+  }
+ },
+ "_payday_amounts_note": "All payday figures are NET — the flat $5 per payment is already deducted and the measured ₦1,361.66/$ is used. They were gross until 2026-09-02, which overstated every month by ₦17,016.",
+ "shopping": {
+  "month": "2026-09",
+  "source": "context/things-to-buy.md",
+  "note": "Opened 2026-09-02. BUYING is money already inside a budget line — the September plan written as objects instead of categories. THE WISH LIST is what gets bought when a month closes with real surplus and every pot is funded. Nothing moves off the wish list until bills, one-offs, Cowrywise, the Buffer and Goal 1 are all paid. Both lists are on TickTick, in 🛒Shopping list.",
+  "buying": [
+   {
+    "item": "Coffee milk",
+    "amount": 8000,
+    "line": "Feeding",
+    "payday": "A"
+   },
+   {
+    "item": "Oats",
+    "amount": 5000,
+    "line": "Feeding",
+    "payday": "A"
+   },
+   {
+    "item": "Carton of biscuits",
+    "amount": 5000,
+    "line": "Feeding",
+    "payday": "A"
+   },
+   {
+    "item": "Milk",
+    "amount": 4000,
+    "line": "Feeding",
+    "payday": "A"
+   },
+   {
+    "item": "Cornflakes",
+    "amount": 4000,
+    "line": "Feeding",
+    "payday": "A"
+   },
+   {
+    "item": "Garri",
+    "amount": 2000,
+    "line": "Feeding",
+    "payday": "A"
+   },
+   {
+    "item": "Groundnuts",
+    "amount": 2000,
+    "line": "Feeding",
+    "payday": "A"
+   },
+   {
+    "item": "Gym clothing",
+    "amount": 10000,
+    "line": "Health",
+    "payday": "A",
+    "new": true
+   },
+   {
+    "item": "Transport — around the house",
+    "amount": 5000,
+    "line": "Transport",
+    "payday": "A"
+   },
+   {
+    "item": "Transport — church, Sunday",
+    "amount": 5000,
+    "line": "Transport",
+    "payday": "A"
+   },
+   {
+    "item": "Haircut",
+    "amount": 3000,
+    "line": "Personal / misc",
+    "payday": "A"
+   },
+   {
+    "item": "Hypo",
+    "amount": 1500,
+    "line": "Chores / household",
+    "payday": "A"
+   },
+   {
+    "item": "Bathing soap",
+    "amount": 1000,
+    "line": "Chores / household",
+    "payday": "A"
+   },
+   {
+    "item": "Floss",
+    "amount": 1000,
+    "line": "Personal / misc",
+    "payday": "A"
+   },
+   {
+    "item": "Pen",
+    "amount": 1000,
+    "line": "Personal / misc",
+    "payday": "A"
+   },
+   {
+    "item": "Washing soap",
+    "amount": 500,
+    "line": "Chores / household",
+    "payday": "A"
+   },
+   {
+    "item": "Hangers",
+    "amount": null,
+    "line": "Personal / misc",
+    "payday": "A",
+    "note": "NO PRICE GIVEN, so nothing is budgeted. Comes out of the ₦27,771 cushion until it has a number."
+   },
+   {
+    "item": "Snacks",
+    "amount": 10000,
+    "line": "Feeding",
+    "payday": "A",
+    "held": true,
+    "note": "His words: 'not essential'. HELD, not allocated — kept inside the cushion so it can be bought as hunger actually happens, or absorb a Kaduna overrun."
+   }
+  ],
+  "buying_note": "₦68,000 of list, and only ₦20,000 of it was new money. ₦48,000 was already sitting inside Feeding, Household, Personal/misc and Transport — the food came to exactly ₦30,000, the Feeding line to the naira. THE PROBLEM WAS NEVER THE SIZE OF THE BUDGET, IT WAS THE TIMING: all four of those lines used to sit on Payday B, which is why he missed church on 30 August for want of ₦5,000. Their front-half share now moves on Payday A.",
+  "wishlist": [
+   {
+    "item": "ND lens, Osmo Pocket 4",
+    "amount": 40000,
+    "note": "The only priced item, and the only one that is a work tool rather than a want — it feeds the 18 Wednesdays and the course. Still a wish, not a line."
+   },
+   {
+    "item": "New sandals",
+    "amount": null
+   },
+   {
+    "item": "New bedsheet",
+    "amount": null
+   },
+   {
+    "item": "New shoes",
+    "amount": null
+   },
+   {
+    "item": "New shorts",
+    "amount": null
+   },
+   {
+    "item": "Mouse pad",
+    "amount": null
+   },
+   {
+    "item": "New blanket",
+    "amount": null
+   },
+   {
+    "item": "Guitar",
+    "amount": null
+   },
+   {
+    "item": "PS5",
+    "amount": null
+   },
+   {
+    "item": "GTA 6",
+    "amount": null
+   }
+  ],
+  "wishlist_note": "Ten of eleven items have no price, which makes the list unplannable — a surplus cannot be matched against unknown numbers, and 'spare cash' plus an unpriced want is how an impulse gets justified after the fact. The cheap ones are the point: sandals, bedsheet, shorts, mouse pad, blanket and hangers are probably a few thousand each, and if September really closes with ₦58,027 free, several clear at once without touching a pot. The PS5, the guitar and GTA 6 belong to a month that has not happened yet."
+ }
+}

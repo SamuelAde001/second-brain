@@ -1,0 +1,45 @@
+{
+  "date": "FRI 28 AUG 2026",
+  "sub": "Fast SUSPENDED today · detox day 4 of 7 · anchors revert 12:00pm / 1:00pm / 6:00pm from tomorrow",
+  "score": "1",
+  "score_of": "/3",
+  "verdict": "Partial",
+  "verdict_class": "open",
+  "ratios": [
+    "Two deliverables SENT · intro carried a 3rd day · body not started",
+    "Habits 0 / 5 — second detox break this week. The YouTube forfeit triggers."
+  ],
+  "committed": [
+    { "what": "Invoice to Route Rise — August 70%", "detail": "SENT 9:10am, ~$711.66. On the scheduled day, ahead of his own bound. The most consequential act available this week and it went first.", "state": "pass", "tag": "Sent" },
+    { "what": "Client #2 — INTRO (carry from Day 2)", "detail": "Worked tonight, not finished. THIRD consecutive day of carry. Full ~3h now lands on Saturday.", "state": "miss", "tag": "3rd carry" },
+    { "what": "Client #2 — Day 3 BODY cut", "detail": "Not started. Rolled to a Saturday that was already oversubscribed before tonight.", "state": "miss", "tag": "Not started" },
+    { "what": "Client #1 — revisions round 2 (UNPLANNED)", "detail": "Landed 5pm, done and SENT tonight. Render ran an hour long. Displaced the intro rather than stacking on it — the standing rule written this afternoon, honoured within four hours.", "state": "pass", "tag": "Sent" },
+    { "what": "E1 + E2 intro pomos, 7:40–9:25pm", "detail": "Marked DEAD in TickTick. Not ticked, not rescheduled — slots that did not happen.", "state": "miss", "tag": "Dead" }
+  ],
+  "habits": [
+    { "name": "No social media", "state": "miss" },
+    { "name": "Prayed", "state": "miss" },
+    { "name": "Bible study", "state": "miss" },
+    { "name": "No masturbating", "state": "miss" },
+    { "name": "Phone away by 10pm", "state": "null" }
+  ],
+  "red_title": "Red marks",
+  "red": [
+    { "what": "SECOND habit break in one week — the forfeit triggers", "detail": "stakes.md, verbatim: \"Break a habit streak twice in one week: No youtube for 2 days.\" First break 27 Aug, second today. Self-enforced, which is the standing hole in it.", "state": "miss", "tag": "Forfeit" },
+    { "what": "0 of 5 habits. His words: \"I had already broke all the habits today.\"", "detail": "Prayer, Bible, no-social-media and no-masturbating all gone. Phone-away is night 1 and still ahead of him — recorded open, not broken.", "state": "miss", "tag": "Red" },
+    { "what": "The focus number is now wrong in BOTH directions", "detail": "4h44m logged, ~1h36m verified — body-cut timers auto-started in error. 26 Aug logged 18m for ~6.25h worked. A number that can be off by ±3h makes the 3pm checkpoint blind.", "state": "miss", "tag": "Red" },
+    { "what": "Tried to reinstate the fast six hours after dropping it", "detail": "\"6am tomorrow, no breaks till 3pm.\" He suspended the fast at 4:45pm today. A 6am–3pm unbroken block is P2 verbatim — the debt gets paid with the body. Refused.", "state": "miss", "tag": "Refused" },
+    { "what": "\"Move everything to tomorrow, I promise tomorrow will be a success\"", "detail": "Refused as a bulk action. A promise is not a mechanism. What is checkable: phone out of the room 10pm, bed 10pm, feet on the floor 6am, intro FIRST.", "state": "miss", "tag": "Refused" }
+  ],
+  "cells": [
+    { "k": "Focus logged", "v": "4h 44m", "vclass": "bad", "n": "CONTAMINATED. Body-cut timers auto-started in error — those 3h07m are not counted as work." },
+    { "k": "Verified work", "v": "~1h 36m", "vclass": "bad", "n": "The two revision timers plus a 36m untagged block. This is the honest number for today." },
+    { "k": "Bed target tonight", "v": "10:00pm", "n": "HIS number, unprompted. 30 min INSIDE the 10:30pm floor — 7.5h against a 5:30am wake. First night aimed the right side of it. Night 1 of the phone out of the bedroom." },
+    { "k": "Bank balance", "v": "UNREPORTED", "vclass": "bad", "n": "Not given tonight. Last known ₦2,503 (27 Aug, verbal). Not carried forward as fact." },
+    { "k": "Spent today", "v": "₦0", "vclass": "nil", "n": "His words: \"No money spent.\"" },
+    { "k": "Savings moved", "v": "₦0", "vclass": "nil", "n": "Emergency fund ₦0 · Cowrywise ₦305,000 locked" },
+    { "k": "Saturday's load", "v": "~13h", "vclass": "bad", "n": "Full body + outro + the WHOLE intro, to picture lock. Personal best logged is 5h21m. Sunday's 4pm send sits behind it with no slack." },
+    { "k": "Days to 31 Dec", "v": "125", "n": "₦1,000,000 target · ₦0 saved · Route Rise 70% expected ~1–3 Sep" }
+  ],
+  "quote": "“Work that never gets sent did not happen.” Two things got sent today. The third has now been carried three days running."
+}
