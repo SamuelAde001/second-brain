@@ -59,4 +59,8 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 44 | Which client or project is the "video intro visual concepts" work for? It matches no documented client. | video-editing | 2026-09-20 | Client list | — |
 | 45 | Two M4V diagnostic steps (software-decode toggle, HandBrake repair) were never tested — the redownload fixed it first. Keep them in the troubleshooting log as unverified, or drop them? | video-editing | 2026-09-20 | Troubleshooting log hygiene | — |
 | 46 | Who is the new client taken on before 2026-09-06 — different presenter, different visual style from Routerise? Is it Mshel (invoice DSG-2026-001)? No client note exists. | video-editing | 2026-09-20 | Client list, capacity | — |
+| 47 | Was "Creating content the Biblical way" ever filmed, posted, or given a Called to Create episode number? | personal-brand | 2026-09-20 | Content record | — |
+| 48 | The "100 Days" script Samuel called "perfect" is not recoverable from the export — likely pasted as an image. Only fragments survive in review comments. Does he still have the original? | personal-brand | 2026-09-20 | Voice reference | — |
+| 49 | One line in that script — "Month after month I kept wining myself" — was flagged and never clarified: whining, or winning himself over? | personal-brand | 2026-09-20 | Script accuracy | — |
+| 50 | Does "visual direction is Samuel's own domain" apply to all his scripts, or only the cinematic visibility one where it was observed? | personal-brand | 2026-09-20 | Content agent scope | — |
 

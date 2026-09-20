@@ -4,8 +4,8 @@ Single source of continuity for the second-brain build. Update at the end of eve
 
 ## Current position
 - **Phase:** 2 — Migration
-- **Last completed step:** Phase 2 sources 1, 2, 3 and 5 distilled; legacy engine archived and reviewed into 50 unreviewed items; conversation triage script written and run (235 conversations split, `triage.csv` + `triage-proposal.csv` produced); wikilink defect fixed vault-wide.
-- **Next step:** ⛔ Phase 2 pass-1 GATE — Samuel trims the conversation triage. Then distil the kept conversations in batches, finish the 7 per-project memory files (~60k chars), copy the skills (source 6), and move to Phase 3 (the interview).
+- **Last completed step:** Phase 2 essentially complete. Sources 1, 2, 3, 5 and 6 done; the conversation shortlist (23 conversations) distilled in 4 subagent batches; per-project memory files distilled. 50 open questions logged.
+- **Next step:** Phase 3 — the interview. Domain order: video-editing first. Before starting, decide the two structural leftovers with Samuel (the discipline-streak note, question 32). Remaining migration crumbs: the video-editing `technical-learnings.md` memory file (14.6k chars) and the content-creation `story-bank.md` (8.1k) — both likely overlap what is already extracted; check before spending tokens.
 - **Phase 0 started:** 2026-09-20
 - **14-day target for Phases 0–4:** 2026-10-04 (day 0 of 14 elapsed)
 
@@ -84,4 +84,5 @@ Swept every note: 79 files rewritten, 0 ambiguous or relative wikilinks left. Ru
 - 2026-09-20 — Sources 2 (project docs), 3 (memory export) and 5 (legacy engine) distilled. 3 extraction subagents used; 2 were killed mid-run by the Pro session limit and their remaining files were re-run. Postgraduate degree discovered. Triage produced. Wikilink defect found and fixed.
 - 2026-09-20 — CORRECTION, from Samuel: the postgraduate degree and all electrical work in the export belong to **his sister**, and the Comfort Cuts project is not his either. `02-Me/postgraduate-study.md` deleted, Comfort material stripped from the video-editing notes, open questions 25/26 voided. The earlier log line above is left in place per rule 3 — it is corrected here, not erased.
 - 2026-09-20 — Calibration and triage set: Samuel chose the tight ~20-conversation shortlist for distillation.
+- 2026-09-20 — All four distillation batches landed (finances+scripnals, me, video-editing, brand+academy). Per-project memory files distilled: academy production state, Wednesday Teaching Series, visual identity, gear, ways-of-working. Open questions now 50.
 

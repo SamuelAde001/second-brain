@@ -23,6 +23,9 @@ What the vault holds is deep on **how the work gets done** and empty on **how th
 
 ## Map of content
 
+**How he works — read first**
+- [[ways-of-working]] — node naming, build conventions, the cut-sheet format, how he collaborates, what he has already corrected once. The Phase 4 editing agent is built on this note.
+
 **Solving problems**
 - [[troubleshooting]] — the recurring-problems log: what broke, what actually fixed it, what was never verified
 - [[fusion-recipes]] — reproducible node-by-node builds, including what was ruled out and why
