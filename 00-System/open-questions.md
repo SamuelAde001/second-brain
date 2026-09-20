@@ -45,4 +45,11 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 30 | What triggered archiving the whole Accountability Engine on 2026-09-16 rather than revising it? No source covers the gap. | me | 2026-09-20 | Legacy review | — |
 | 31 | Was any gym/cardio routine actually adopted, or the coffee-with-milk adjustment? Both were proposed in chat and never confirmed. | me | 2026-09-20 | Health note, habit design | — |
 | 32 | Does the self-reported spiritual-discipline streak (2026-08-26) stay in an active note, or move to private/archive? It is in `02-Me/discipline.md`, and the vault syncs to GitHub and the phone. | me | 2026-09-20 | Samuel's call | — |
+| 33 | Budget: the final category percentages for the 32.3% remainder were never set — only 20% savings / 20% business / 27.7% building project are his. | finances | 2026-09-20 | Budget system is unusable without them | — |
+| 34 | Was the percentage-based budget system ever actually built into Google Sheets and used, or did it stop at design? | finances | 2026-09-20 | money-check skill | — |
+| 35 | Invoicing: TIN and payment terms were still missing on invoice DSG-2026-001 (2026-08-20). What are they, and what does "DSG" stand for? | finances | 2026-09-20 | Every future invoice | — |
+| 36 | Mshel — is this an active client? A real invoice exists (NGN 1,397,500, 2026-08-20) but there is no client note. | video-editing, finances | 2026-09-20 | Client list | — |
+| 37 | Was anything (Coachli or otherwise) actually set up to take paid mentorship bookings from Nigeria? | mentorship, finances | 2026-09-20 | Mentorship offer | — |
+| 38 | Scripnals survey: which waitlist-discount cap was chosen, and was the survey ever sent? No response data exists in any source. | scripnals | 2026-09-20 | Validation evidence | — |
+| 39 | The legacy fixed-NGN money rules (building project NGN 500,000 in full; NGN 100,000/month to Cowrywise) do not reconcile with the newer percentage buckets (27.7% building, 20% savings). Same initiatives, different logic, never reconciled. | finances | 2026-09-20 | money-check skill | — |
 
