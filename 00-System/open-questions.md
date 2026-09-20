@@ -75,8 +75,9 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 60 | Did any of the NGN 57,532 left unassigned in September survive to month end? Whatever survives is meant to go to a pot. | finances | 2026-09-20 | Buffer | — |
 | 61 | What counts as a "major" spend? The logging rule now turns on it and no threshold is set. | finances | 2026-09-20 | Spending log | — |
 | 62 | Nothing captures videos delivered. One line per video (date, end client, rate) would make mid-month income knowable for the first time. Agree it as a standing capture? | finances, video-editing | 2026-09-20 | Income forecasting | — |
-| 63 | **What is the storytelling B-roll series?** Name, structure, cadence, how it is made. It is the best-performing thing he has and the Brain holds nothing about it. | personal-brand | 2026-09-20 | brainstorm and content planning | — |
-| 64 | Is the Wednesday 7:00pm publish cadence still the rule, or has the posting rhythm changed with the new series? | personal-brand | 2026-09-20 | plan skill capacity | — |
+| 63 | The series is **The Life of a Video Editor** — 2 episodes, weekly, B-roll shot per episode. **Still missing:** episode structure, length, production time, B-roll planning, view counts. | personal-brand | 2026-09-20 | brainstorm and content planning | partly, 2026-09-20 |
+| 64 | ~~Is the Wednesday 7pm cadence still the rule?~~ | personal-brand | 2026-09-20 | — | 2026-09-20: **once a week**, capacity-bound. Rises when client editing speeds up. |
 | 65 | The community: 20 free members, no scheduled activity, admin paid from end of month. What does the NGN 15,000 buy, and what would make the community worth paying for next year? | community | 2026-09-20 | Community's existence | — |
 | 66 | If the course rebuilds around DaVinci Resolve and the editing career, does the existing CapCut curriculum get reused, adapted or dropped? | academy | 2026-09-20 | Course rebuild | — |
+| 67 | View counts for the two Life of a Video Editor episodes, and whether anything flopped in the same period. | personal-brand | 2026-09-20 | brainstorm skill | — |
 

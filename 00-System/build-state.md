@@ -4,8 +4,8 @@ Single source of continuity for the second-brain build. Update at the end of eve
 
 ## Current position
 - **Phase:** 2 — Migration
-- **Last completed step:** Phase 2 complete, plus a structural pass Samuel asked for: every file renamed to a unique readable name (no `_index.md`), redundant notes merged and deleted, 1.28 MB of generated engine output removed. Phase 3 interview opened with video-editing round 1 — answered in full.
-- **Next step:** Phase 3 continues. Write up the remaining video-editing answers if any are outstanding, then finances (domain 2). Samuel has asked for a **dedicated later session on the video-editing agent** — see `03-Areas/video-editing/agent-plan.md`; do not fold that into a normal interview round.
+- **Last completed step:** Phase 3 interviews done for **video-editing**, **finances** and **personal-brand**. The engine's financial system imported as active. Renamed everything to readable filenames; "the Brain" replaces "the vault". `05-Knowledge/the-constraint-chain.md` written — the cross-area synthesis.
+- **Next step:** Phase 3 continues. Remaining domains: scripnals · academy (paused, short) · mentorship · community (mostly captured) · relationships · me · book. **`02-Me` is the biggest gap** — no values, principles, routine, planning cadence, accountability preferences or goal ladder. Samuel has also asked for a **dedicated video-editing agent session**, which the constraint chain argues should come first.
 - **Phase 0 started:** 2026-09-20
 - **14-day target for Phases 0–4:** 2026-10-04 (day 0 of 14 elapsed)
 
@@ -88,4 +88,6 @@ Swept every note: 79 files rewritten, 0 ambiguous or relative wikilinks left. Ru
 - 2026-09-20 — Samuel: "why do I have so many index files". Renamed 52 files, rewrote links in 101, repaired 14 more. `_index.md` no longer exists in the Brain.
 - 2026-09-20 — Prune at his instruction: 4 note groups merged or deleted, engine build artifacts removed (1.69 MB -> 0.41 MB). One piece of personal material deleted from `02-Me/discipline.md`.
 - 2026-09-20 — Phase 3 video-editing round 1 answered: Routerise is the agency, Alex is the client, USD 333.33/video, one video in five days, 70/30 monthly payment. Workflow and agent plan written.
+- 2026-09-20 — Finances interview: engine system imported as active (8 rules, income, obligations, pots, goals, live sheet read from Drive). Logging rule changed, Rule 7 break absorbed, second end client confirmed ended.
+- 2026-09-20 — Personal-brand interview: IG 460→671, TikTok 550→673, caused by "The Life of a Video Editor". Course paused. Wednesday teaching ended. Constraint chain written.
 

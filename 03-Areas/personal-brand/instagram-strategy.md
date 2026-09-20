@@ -48,7 +48,7 @@ Roughly 25 days apart. The August figures are from the engine's audience file; t
 
 **This is the first evidence in the Brain of what actually performs**, and it is worth more than any of the strategy material that preceded it. Two things did it, and they point the same way:
 
-1. **A storytelling B-roll series** — a format, repeated, not one-off posts.
+1. **A storytelling B-roll series** — [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]. Two episodes, both of which "got good views". A format, repeated, not one-off posts.
 2. **Narrowing to video editing content** — his own craft, the thing he is actually expert in.
 
 Note what that contradicts. The earlier strategy note (2026-09-04) recorded: *"editing-tips/typography content attracts other editors, not clients — that's an audience for a course, not for retainer acquisition."* That advice treated an editor audience as the wrong audience. **It is the audience that grew, and it is also the audience that buys a course.** Since he has ruled out more clients ([[03-Areas/finances/income|Income]]), the editor audience is the right one, not the consolation prize.
@@ -57,8 +57,12 @@ Note what that contradicts. The earlier strategy note (2026-09-04) recorded: *"e
 
 ## Open
 
-- **What exactly is the storytelling B-roll series** — does it have a name, a structure, a cadence? It is the single best-performing thing he has and the Brain holds nothing about how it is made.
-- Which individual posts drove the jump, and what the reach and engagement numbers were.
-- Whether the posting rhythm in [[brand-context]] still holds. The engine says one video a week, Wednesday 7:00pm WAT, to Instagram and TikTok; brand context says 1 cinematic + 3 talking-head + 1 BTS.
+- **How an episode of the series is actually built** — structure, length, production time, B-roll planning. See that note's needs-input.
+- **View counts.** "Good views" needs to become a number, so there is something to beat.
+- Whether any post in the same stretch flopped — the other half of what the brainstorm skill needs.
+
+## Cadence — current
+
+**Once a week**, as of 2026-09-20. The 1 cinematic + 3 talking-head + 1 BTS rhythm in [[brand-context]] (2026-07) is **not what is happening**, and the engine's Wednesday-7pm rule is unconfirmed since the series began. One a week is the real number, and it is capacity-bound, not choice-bound.
 
 Related: [[brand-context]] · [[script-process]] · [[03-Areas/personal-brand/personal-brand-ideas|Ideas]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

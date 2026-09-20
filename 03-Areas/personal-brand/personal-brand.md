@@ -25,7 +25,9 @@ The brand is how clients, students, community members and collaborators find him
 
 That makes the personal brand the one area currently moving. The Academy is paused, the community's teaching has ended, and client volume is set by someone else — this is the part of the system that responded to effort.
 
-**Still unknown:** what the storytelling B-roll series actually is — name, structure, cadence. The Brain has deep material on his voice and script process, and nothing on the format that is working.
+The series is **[[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]** — two episodes so far, B-roll shot per episode, **posting once a week**. Its structure, length and production time are still uncaptured.
+
+**What raises the cadence is not a content decision.** His words: *"that cadence would improve once I speed up my video editing for my client using Claude."* See [[05-Knowledge/the-constraint-chain|The constraint chain]].
 
 ## Goals
 
@@ -34,7 +36,8 @@ See [[03-Areas/personal-brand/personal-brand-goals|Goals]]. Not set yet.
 ## Map of content
 
 - [[script-review-checklist]] — the SOP for reviewing a script
-- [[03-Areas/personal-brand/series/guiding-while-riding|Guiding while riding]] — the bicycle series: structure, fixed lines, 31-topic bank
+- [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]] — **the series that is working.** Two episodes, once a week
+- [[03-Areas/personal-brand/series/guiding-while-riding|Guiding While Riding]] — the bicycle series: structure, fixed lines, 31-topic bank. No evidence it ever launched
 - [[03-Areas/personal-brand/personal-brand-ideas|Ideas]] · [[03-Areas/personal-brand/personal-brand-decisions|Decisions]] · [[03-Areas/personal-brand/personal-brand-log|Log]] · [[03-Areas/personal-brand/personal-brand-goals|Goals]]
 
 ## Past attempts
