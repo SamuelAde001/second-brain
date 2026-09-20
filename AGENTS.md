@@ -109,9 +109,11 @@ Roster: TBD (Phase 4).
 
 Skills are plain-markdown `SKILL.md` files in `.claude/skills/<name>/`. Any model can read and follow them — they are not Claude-only.
 
-Job skills: `brainstorm`, `plan`, `money-check`, `systemize`, `commit`, plus the editing job skills. Every skill is listed here and in `00-System/systems-register.md`.
+Job skills — `brainstorm`, `plan`, `money-check`, `systemize`, `commit`, plus the editing job skills — are built in Phase 4. Every skill is listed in `00-System/systems-register.md`.
 
-Paths: TBD (Phase 4).
+**Already available, platform-provided (not files in this vault):** `edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner`. Claude Code invokes them by name. Gemini cannot — see the portability gap in the register.
+
+Vault skill paths: TBD (Phase 4).
 
 ## 9. Logging
 

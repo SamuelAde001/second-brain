@@ -40,4 +40,5 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 25 | ~~Postgraduate engineering degree — scope and hours~~ **VOID.** | me | 2026-09-20 | — | 2026-09-20: not his. The postgraduate coursework and all electrical calculations were done **for his sister**. Note deleted, nothing of it is recorded. |
 | 26 | ~~Does postgraduate study get its own area?~~ **VOID** — see 25. No study area. | system | 2026-09-20 | — | 2026-09-20 |
 | 27 | Confirm the cut-sheet beat fields (picture / on-screen text / motion / cut-back-to-A-roll). They are reconstructed from one descriptive line, not from an actual cut sheet. | video-editing | 2026-09-20 | Cut-sheet SOP | — |
+| 28 | The four existing skills (`edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner`) are platform-provided, not files on disk, so they cannot be copied into `.claude/skills/` and Gemini cannot run them. Author vault-local equivalents, or accept they are Claude-only? | system | 2026-09-20 | Phase 7 portability | — |
 
