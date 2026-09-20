@@ -115,6 +115,8 @@ Committed outflow is **NGN 1,036,800/month**. Income needed to hit the goal: **N
 
 > The course is not the "#2 thing". **It is the only income line whose existence he controls.** Every time course work gets dropped for client work, diversification is being traded away for concentration.
 
+**As of 2026-09-20 the course is paused.** So the only line he controls is currently not running, and 100% of income remains one invoice to one company. The demand signal he reported — people asking for a DaVinci Resolve and video-editing-career course — is the cheapest lead on restarting it, because it is the same subject that grew his audience 46% in September.
+
 ## Volume is not forecastable — his own words, 2026-09-20
 
 > "I don't know how many videos I would do at the end of the month till pay time when I count how many videos I have done based on how they assigned it."

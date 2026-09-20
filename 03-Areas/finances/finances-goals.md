@@ -59,6 +59,8 @@ So the NGN 3M is not impossible. **It is arithmetically knife-edge**, and the wh
 
 The course's real job was never the NGN 42,530. It is that it is **the only income line whose existence he controls**.
 
+> **⏸ And as of 2026-09-20 it is paused** — no recording, no launch date, possibly a rebuild from scratch ([[03-Areas/academy/academy|Academy]]). So the January number currently has **no source**. Goal 2 at the current mix clears by NGN 7,470/month and the emergency fund does not fit; the course was the answer to that gap. Nothing has replaced it.
+
 That is the argument for the course, with a number attached. Every course block that gets skipped is a payment missed on it.
 
 > Note: the live sheet still shows the older, pre-correction figure of ~NGN 170,000/month for the course's job. The corrected arithmetic (2026-08-28) is NGN 42,530/month at the August mix. The sheet's dashboard note was never updated.

@@ -121,3 +121,11 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Limits not asked for but applied**, to be confirmed at the Phase 4 gate: never moves money, never writes a number without a source and a date, never presents a stale balance as current, never stores account credentials, never forecasts income as if the video count were known.
 **Who decided:** Samuel, 2026-09-20. Brief: `03-Areas/finances/finance-agent-plan.md`.
 
+## 2026-09-20 — Course paused; Wednesday teaching ended; the brand is what is working
+**Course — paused.** Samuel: *"I am pausing the course right now cause I don't have enough time… based on demand, people want a course specially on DaVinci Resolve, and video editing career in general, so I may rebuild the course from ground up."* No recording, no launch. The 16 October beta date is dead. The CapCut curriculum is kept as design, not as a plan. Full course price: still not set.
+**Wednesday teaching — ended.** *"I started the Wednesday teaching and stopped cause I didn't have time again and it was no longer relevant to my audience."* Its note is folded into `03-Areas/community/community.md` and deleted. The community now has 20 free members, an admin to be paid NGN 15,000 from end of month, and no scheduled activity.
+**The brand grew.** Instagram 460 → **671**, TikTok 550 → **673** in about 25 days. His attribution: a new **storytelling B-roll series** and **narrowing to video-editing content**.
+**The pattern across all three, stated once:** the two things that stopped were aimed at a general creator audience; the thing that grew was aimed at video editors. The audience has answered a question he was still deciding by committee.
+**The consequence, also stated once:** the finance system needs the course to carry ~NGN 42,530/month from January, and calls it the only income line he controls. Paused, that number has no source, and nothing has replaced it.
+**Who decided:** Samuel, 2026-09-20.
+

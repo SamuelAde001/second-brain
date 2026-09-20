@@ -19,7 +19,19 @@ Described in the source doc as the first stage of an ascension model — Academy
 
 ## Current status — as of 2026-09-20
 
-**A course is in active production, and it is a CapCut course** for complete beginners — not the DaVinci course the older documents imply. 31 lessons plus 5 live edit sessions across 8 modules; Module 0 in active lesson development; slides built in PPTX. See [[current-production]], the most current record (2026-09-06).
+> ## ⏸ PAUSED — 2026-09-20
+>
+> Samuel: *"I am pausing the course right now cause I don't have enough time, and based on demand, people want a course specially on DaVinci Resolve, and video editing career in general, so I may rebuild the course from ground up, but right now I am doing nothing in that section."*
+>
+> **Nothing is being recorded.** The 16 October beta launch is dead. The curriculum below may be rebuilt from scratch against a different brief.
+>
+> **The demand signal is the valuable part:** his audience is asking for **DaVinci Resolve** and **the video editing career** — not CapCut, and not general content creation. That is the same audience and the same subject that grew his following by 46% in September ([[03-Areas/personal-brand/instagram-strategy|Instagram strategy]]). Two independent signals pointing at the same course.
+>
+> **What the pause costs, stated once:** the finance system calls the course *"the only income line whose existence he controls"* and needs it to carry roughly NGN 42,530/month from January 2027 to fund the emergency fund alongside Goal 2. Paused, that number has no source. See [[03-Areas/finances/finances-goals|Goals]].
+
+### The curriculum as it stood before the pause
+
+**It was a CapCut course** for complete beginners — not the DaVinci course the older documents imply. 31 lessons plus 5 live edit sessions across 8 modules; Module 0 in active lesson development; slides built in PPTX. See [[current-production]], the most current record (2026-09-06).
 
 The full curriculum is in the Brain: [[03-Areas/academy/called-to-edit-beginners/called-to-edit-beginners|Called to Edit: Beginners]] — **8 modules, 31 lessons, 5 live edit sessions**, every lesson on the same five-beat spine. It matches the production record exactly.
 

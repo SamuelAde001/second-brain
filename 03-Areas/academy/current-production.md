@@ -7,7 +7,9 @@ source: memory-export
 tags: [curriculum, production]
 ---
 
-# Current production state
+# Course design, as it stood before the pause
+
+> **⏸ Paused 2026-09-20.** Nothing here is in production. Samuel has stopped course work for lack of time, and says demand points at a **DaVinci Resolve / video-editing-career** course instead — which may mean rebuilding from the ground up. Kept because the structure, the teaching principles and the five-beat lesson spine are reusable whatever gets built next. See [[03-Areas/academy/academy|Academy]].
 
 From the Claude memory export for the HighSignals Academy project, 2026-09-06. **This is more current than [[03-Areas/academy/academy|Academy]] and than the teaching-structure document**, and it changes the picture in one important way: the active course is a **CapCut** course, not a DaVinci one.
 

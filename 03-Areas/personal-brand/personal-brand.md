@@ -21,7 +21,11 @@ The brand is how clients, students, community members and collaborators find him
 
 ## Current status — as of 2026-09-20
 
-Only partly known. What the Brain holds so far came from two documents he wrote for his AI script reviewer (2026-07-24) and a series reference (2026-08-11). Nothing about current follower numbers, posting cadence, what has actually performed, or whether the Guiding While Riding series ever launched. All of that is Phase 3 interview material.
+**Growing, and for a known reason.** Instagram **671**, TikTok **673** — up from 460 and 550 on 2026-08-26. Samuel's attribution: a **new storytelling B-roll series** and **narrowing to video-editing content**. See [[instagram-strategy]].
+
+That makes the personal brand the one area currently moving. The Academy is paused, the community's teaching has ended, and client volume is set by someone else — this is the part of the system that responded to effort.
+
+**Still unknown:** what the storytelling B-roll series actually is — name, structure, cadence. The Brain has deep material on his voice and script process, and nothing on the format that is working.
 
 ## Goals
 

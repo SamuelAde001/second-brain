@@ -18,7 +18,7 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 3 | ~~Is HighSignals an umbrella ecosystem or just the community?~~ | community | 2026-09-20 | — | 2026-09-20: umbrella brand over Community, Academy, Mentorship, Scripnals. Personal brand sits outside and funnels in. [[03-Areas/highsignals/highsignals|Highsignals]] |
 | 4 | What do the Storytelling and The Journey content pillars actually cover, and what is the posting cadence per pillar? | personal-brand | 2026-09-20 | Content planning | — |
 | 5 | Did the Guiding While Riding series ever launch, and how many episodes exist? | personal-brand | 2026-09-20 | Content planning | — |
-| 6 | Current brand numbers: followers, reach, what performed, what flopped. | personal-brand | 2026-09-20 | brainstorm skill needs this | — |
+| 6 | ~~Current brand numbers~~ | personal-brand | 2026-09-20 | — | 2026-09-20: **Instagram 671, TikTok 673.** Growth attributed to a storytelling B-roll series + narrowing to video-editing content. |
 | 7 | Academy: curriculum per course, platform, pricing, launch plan, existing assets in `Desktop/HighSignals/Course/`. | academy | 2026-09-20 | Phase 3 interview | — |
 | 8 | Scripnals: real build status, stack, validation evidence, monetisation, platform, pricing. An APK and an MVP architecture PDF exist on disk but say nothing about how far it got. | scripnals | 2026-09-20 | Phase 3 interview | — |
 | 9 | Community: platform, size, rituals, engagement, moderation, monetisation, whether membership is paid. | community | 2026-09-20 | Phase 3 interview | — |
@@ -36,7 +36,7 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 21 | Who is the other video editor he asked about landing USD retainers for, and what is the arrangement? | video-editing | 2026-09-20 | Scope of his work | — |
 | 22 | Which "previously planned coaching brand and its associated app, which never launched" was he considering dropping (memory, 2026-09-04)? Contentinfluence, or something else? | personal-brand | 2026-09-20 | Past-attempts note | — |
 | 23 | The educational storytelling structures reference named hook/CTA "sections of template" (education, myth, follow, sales, engagement, authority, step-by-step) that are not in any imported file. Does that bank still exist? | personal-brand | 2026-09-20 | Script writing | — |
-| 24 | Current Instagram numbers: followers, reach, engagement, best and worst performers. | personal-brand | 2026-09-20 | brainstorm skill | — |
+| 24 | Reach, engagement and which individual posts drove the September jump — the follower counts are known, the post-level data is not. | personal-brand | 2026-09-20 | brainstorm skill | partly |
 | 25 | ~~Postgraduate engineering degree — scope and hours~~ **VOID.** | me | 2026-09-20 | — | 2026-09-20: not his. The postgraduate coursework and all electrical calculations were done **for his sister**. Note deleted, nothing of it is recorded. |
 | 26 | ~~Does postgraduate study get its own area?~~ **VOID** — see 25. No study area. | system | 2026-09-20 | — | 2026-09-20 |
 | 27 | Confirm the cut-sheet beat fields (picture / on-screen text / motion / cut-back-to-A-roll). They are reconstructed from one descriptive line, not from an actual cut sheet. | video-editing | 2026-09-20 | Cut-sheet SOP | — |
@@ -53,7 +53,7 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 38 | Scripnals survey: which waitlist-discount cap was chosen, and was the survey ever sent? No response data exists in any source. | scripnals | 2026-09-20 | Validation evidence | — |
 | 39 | ~~The legacy fixed-NGN rules do not reconcile with the percentage buckets~~ | finances | 2026-09-20 | — | 2026-09-20: resolved. The engine's system is the current one; the percentage design is dropped. |
 | 40 | ~~Which academy curriculum is current?~~ Resolved: they are the same course — 8 modules, 31 lessons, 5 live sessions. **Still open:** is it taught in CapCut? The structure doc names no tool; the memory export says CapCut. | academy | 2026-09-20 | Course build | 2026-09-20, partly |
-| 41 | The Wednesday Teaching Series — is it still running weekly? Full list of the 20 topics, platform, attendance, and where the curriculum markdown file lives. | community | 2026-09-20 | Community operations | — |
+| 41 | ~~Is the Wednesday Teaching Series still running?~~ | community | 2026-09-20 | — | 2026-09-20: **ended.** No time, and no longer relevant to his audience. |
 | 42 | Which brand does the locked Gamma brand system belong to (Cobalt Blue #0540AD, Poppins, the carousel/deck/workbook templates) — @SamuelSignals, HighSignals, or client work? If client work, it is an unrecorded service line. | personal-brand | 2026-09-20 | Brand identity | — |
 | 43 | Scripnals: were any survey responses ever collected? The validation survey went out on Fillout via group chats; no response data exists in any source. | scripnals | 2026-09-20 | Validation evidence | — |
 | 44 | Which client or project is the "video intro visual concepts" work for? It matches no documented client. | video-editing | 2026-09-20 | Client list | — |
@@ -71,8 +71,12 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 56 | ~~Rule 7 refill plan~~ | finances | 2026-09-20 | — | 2026-09-20: **no refill.** Absorbed; normal contributions continue. Investment ends 2026 near NGN 336,959. |
 | 57 | The sheet and the ledger disagree about Cowrywise by NGN 368,041 — the sheet has not been updated for the September withdrawal. Update the sheet, or accept the ledger as the only record? | finances | 2026-09-20 | Every dashboard number | — |
 | 58 | ~~How does Samuel want to log spending now?~~ | finances | 2026-09-20 | — | 2026-09-20: **major spends individually, minor spends in bulk.** Threshold for "major" still his to set. |
-| 59 | What must the course be priced at to carry ~NGN 42,530/month from January 2027? Depends on the beta price, still unset. | academy, finances | 2026-09-20 | Goal 2 | — |
+| 59 | Course price — still unset (*"not yet"*), and now moot while the course is paused. **The live question is what replaces the course as the January income line**, or when it restarts. | academy, finances | 2026-09-20 | Goal 2 has no funded lever | — |
 | 60 | Did any of the NGN 57,532 left unassigned in September survive to month end? Whatever survives is meant to go to a pot. | finances | 2026-09-20 | Buffer | — |
 | 61 | What counts as a "major" spend? The logging rule now turns on it and no threshold is set. | finances | 2026-09-20 | Spending log | — |
 | 62 | Nothing captures videos delivered. One line per video (date, end client, rate) would make mid-month income knowable for the first time. Agree it as a standing capture? | finances, video-editing | 2026-09-20 | Income forecasting | — |
+| 63 | **What is the storytelling B-roll series?** Name, structure, cadence, how it is made. It is the best-performing thing he has and the Brain holds nothing about it. | personal-brand | 2026-09-20 | brainstorm and content planning | — |
+| 64 | Is the Wednesday 7:00pm publish cadence still the rule, or has the posting rhythm changed with the new series? | personal-brand | 2026-09-20 | plan skill capacity | — |
+| 65 | The community: 20 free members, no scheduled activity, admin paid from end of month. What does the NGN 15,000 buy, and what would make the community worth paying for next year? | community | 2026-09-20 | Community's existence | — |
+| 66 | If the course rebuilds around DaVinci Resolve and the editing career, does the existing CapCut curriculum get reused, adapted or dropped? | academy | 2026-09-20 | Course rebuild | — |
 

@@ -29,9 +29,16 @@ That removal rule is the sharpest thing recorded about any branch: membership is
 
 ## Current status — as of 2026-09-20
 
-**The Wednesday Teaching Series is the live thing here** — weekly sessions running August to year end, on a 20-topic curriculum in five blocks. See [[wednesday-teaching-series]]. It is a relaunch: Samuel had paused community teaching to focus on client editing work.
+**Nothing is scheduled.** Confirmed by Samuel 2026-09-20.
 
-Beyond that, almost entirely unknown. No platform, size, rituals, engagement level, moderation rules or monetisation recorded. There is a `Desktop/HighSignals/HighSignals COmmunity/` folder and a Notion export of a members list on disk. The members list is **not** imported — it is other people's personal data (see `00-System/security-flags.md`).
+| | |
+|---|---|
+| Members | **20**, free |
+| Admin | paid **NGN 15,000/month** — *"I am not paying the admin yet till end of month"* |
+| Scheduled activity | **none** |
+| Paid community | *"may become paid next year, not certain yet"* |
+
+The admin keeps members accountable when Samuel is inactive. No platform, size, rituals, engagement level, moderation rules or monetisation recorded. There is a `Desktop/HighSignals/HighSignals COmmunity/` folder and a Notion export of a members list on disk. The members list is **not** imported — it is other people's personal data (see `00-System/security-flags.md`).
 
 ## Resolved 2026-09-20
 
@@ -46,7 +53,6 @@ An earlier conflict — whether HighSignals was the umbrella or the community �
 
 ## Map of content
 
-- [[wednesday-teaching-series]] — the weekly sessions and their curriculum
 - [[03-Areas/community/community-ideas|Ideas]] · [[03-Areas/community/community-decisions|Decisions]] · [[03-Areas/community/community-log|Log]] · [[03-Areas/community/community-goals|Goals]]
 
 ## Related areas
@@ -54,3 +60,17 @@ An earlier conflict — whether HighSignals was the umbrella or the community �
 - [[03-Areas/highsignals/highsignals|HighSignals]] — the umbrella
 - [[03-Areas/academy/academy|Academy]] · [[03-Areas/mentorship/mentorship|Mentorship]] · [[03-Areas/scripnals/scripnals|Scripnals]] — sister branches
 - [[03-Areas/personal-brand/personal-brand|Personal brand]] — outside HighSignals, funnels into it
+
+## The Wednesday Teaching Series — started, then stopped
+
+Weekly Wednesday sessions for the community, on a 20-topic curriculum across five blocks: Why Visibility Matters · Clarity · Mindset · Consistency · Viral Strategies. Action-oriented and workshop-style. Scripnals was deliberately left out of the curriculum because it was not available to members. A clean curriculum document exists — a markdown file titled "HighSignals Community — Wednesday Teaching Series", written for sharing with members.
+
+**It ran, and then it ended.** Samuel, 2026-09-20:
+
+> "I started the Wednesday teaching and stopped cause I didn't have time again and it was no longer relevant to my audience."
+
+Two reasons, and the second is the more interesting one: **not just capacity, but fit.** The teaching was aimed at visibility, clarity, mindset and consistency — general creator coaching. What actually grew his audience in the same period was **video-editing content** ([[03-Areas/personal-brand/instagram-strategy|Instagram strategy]]). The audience told him what it wanted and it was not this.
+
+The engine's record has it cancelled on 2026-09-02: *"Wednesday signal sessions have been canceled completly."* The memory export of 2026-09-06 described it as relaunching — that entry was stale.
+
+**The open question it leaves:** 20 members and an NGN 15,000/month admin, for a community with no scheduled activity. Either that buys something specific, or it is a subscription to an empty room. Raised in the engine on 2026-09-02, still unanswered.
