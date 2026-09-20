@@ -1,93 +1,103 @@
 # Build state
 
-Single source of continuity for the second-brain build. Update at the end of every session.
+Single source of continuity for the Brain's build. **Read this first, then AGENTS.md.** Update at the end of every session.
 
-## Current position
-- **Phase:** 2 — Migration
-- **Last completed step:** Phase 3 interviews done for **video-editing**, **finances** and **personal-brand**. The engine's financial system imported as active. Renamed everything to readable filenames; "the Brain" replaces "the vault". `05-Knowledge/the-constraint-chain.md` written — the cross-area synthesis.
-- **Next step:** Phase 3 continues. Remaining domains: scripnals · academy (paused, short) · mentorship · community (mostly captured) · relationships · me · book. **`02-Me` is the biggest gap** — no values, principles, routine, planning cadence, accountability preferences or goal ladder. Samuel has also asked for a **dedicated video-editing agent session**, which the constraint chain argues should come first.
-- **Phase 0 started:** 2026-09-20
-- **14-day target for Phases 0–4:** 2026-10-04 (day 0 of 14 elapsed)
+---
 
-## Environment facts (verified 2026-09-20)
-- Brain path: `C:\Users\repzy\Desktop\My Second brain` (NOT `C:\SecondBrain` as the master prompt assumed).
-- Not inside OneDrive or Dropbox. OneDrive syncs only `~/OneDrive/Documents` and `~/OneDrive/Pictures`.
-- Brain is **not** a git repo yet. No remote. No `.gitignore`.
-- Brain contents at Phase 0: `.obsidian/` only (app.json, appearance.json, core-plugins.json, graph.json, workspace.json). No notes.
-- `MASTER_PROMPT.md` lives at `C:\Users\repzy\Downloads\MASTER_PROMPT.md`, not in the Brain.
-- git 2.52.0.windows.1 — OK.
-- Python 3.14.7 (`python` and `py` both work) — OK.
-- GitHub CLI (`gh`) — NOT installed. Private remote must be created another way.
-- git global `user.name` / `user.email` — NOT set. Must be set before the first commit.
-- `01-Inbox/_imports/` does not exist. No migration sources have been copied in yet.
+## Start here
 
-## Source inventory (found on disk, nothing copied — Phase 0 is read-only)
-| # | Source | Path | Size / scale | Notes |
-|---|--------|------|--------------|-------|
-| 1 | Accountability Engine (legacy) | `Desktop/engine` | 86 files, 2.0 MB, 8,693 md lines | git repo, remote `github.com/SamuelAde001/engine.git`, HEAD `e01cd60` (2026-09-16). 20 md files, 9 skills, 1 agent (`enforcer.md`). ⚠️ contains `.env` — never copy. |
-| 2 | Project setup / handover docs | `Desktop/HighSignals/HighSignals Documents/` | 2 files | `academy-project-setup.md` (67 l), `scripnals-project-setup.md` |
-| 3 | More handover-grade docs | `Downloads/` | 5 files | `Claude_Instructions_HighSignals.md` (43 l), `Guiding While Riding - Series Reference.md` (79 l, dup `_1`), `BUILD-2.md` (809 l), `productivity-engine-build.md` (478 l) |
-| 4 | Local Claude editing folder | `Desktop/Video edits/Routerise/Claude Files/` | 4 md + Fusion builds, HTML mockups, style study | `Routerise Cut Workflow.md`, `Style Study - Cold Outreach/` (00-STYLE-STUDY, 01-FUSION-NODE-SYSTEM, START-HERE-New-Video-For-This-Client) |
-| 5 | Editing work evidence | `Desktop/Video edits/` | large (media) | `Clients/`, `Routerise/` (~25 video projects), `Fikayo/`, `Chruch/`, `My videos/`, `DRP/HighSignals.drp`, `Project template.drp`, `My Custom short cut Keys 2.txt`, `LUT + POWERGRADE/`, `Assets/` |
-| 6 | Brand / venture assets | `Desktop/HighSignals/` | mixed | Mission doc PDF, VSL, `HighSignals COmmunity/`, `Course/Called to Edit Academy Beginners/`, `HighSignals App/` (+ MVP architecture PDF), website brief PDF, Notion export ⚠️ members CSV = personal data |
-| 7 | Second brand | `Desktop/Contentinfluence/` | mixed | Brand identity PDF, strategy PDF, resource library. Not in the proposed area list — needs a decision. |
-| 8 | Personal brand media | `Desktop/Samuel Adebayo/` | media | X personal brand clips, fitness, headshots |
-| 9 | Finance | `Desktop/Money-2026.xlsx`, `Downloads/Money2026.xlsx` | 48 KB each | The Google Sheets budget, exported |
-| 10 | Claude Code transcripts | `~/.claude/projects/` | 26 MB (engine), 1.1 MB (Routerise), 541 KB (this Brain) | Local session history; partial substitute for the missing chat export |
-| 11 | Loose editing artefacts | `Downloads/` | several | `Routerise_Editing_Transcript.docx`, `Taking_a_step_back_from_Claude_TRANSCRIPT.docx`, cut-sheet HTMLs, `Ecom_InventoryWidget.setting` |
+- **Phase:** 3 — the interview (Phases 0, 1 and 2 complete).
+- **Last session:** 2026-09-20. A long one — Phases 0–2 in full, plus three Phase 3 domains.
+- **Next action, recommended:** the **dedicated video-editing agent session** Samuel asked for. Brief: `03-Areas/video-editing/agent-plan.md`. The reasoning is in `05-Knowledge/the-constraint-chain.md` — it is the only intervention that adds hours rather than reallocating them, and every other area is downstream of it.
+- **Otherwise:** continue Phase 3 interviews. Remaining domains: **scripnals · academy (paused, short) · mentorship · community (mostly captured) · relationships · me · book.**
+- **The biggest hole in the Brain is `02-Me`** — no values, principles, confirmed patterns, daily routine, planning cadence, accountability preferences, and **no goal ladder at all**.
 
-## Missing sources (expected by the master prompt, not found)
-- Claude account export (`conversations.json` / `projects.json` / `users.json` / `data-*.zip`) — absent. Phase 2 pass 1 cannot run without it. Size estimate impossible until it exists.
-- Memory export — absent.
-- Source files for skills `edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner` — not on disk as loose files; they are live as `anthropic-skills` plugin skills. One local skill found: `Video edits/Routerise/Don't Sell Digital Products in 2026, Do This Instead.mp4/ugc-ad-script-generator/SKILL.md`.
+**14-day target for Phases 0–4:** 2026-10-04. Day 1 of 14 elapsed.
 
-## Security flags (never copy into the Brain)
-- `Desktop/engine/.env`
-- `Desktop/HighSignals/.../HighSignals Membership form *.csv` and `HighSignals Members *.md` (member PII)
-- `Documents/parsec_backup_codes.txt`
-- `Desktop/Downloader/cookies.txt`
+---
 
-## Decisions taken at the Phase 0 gate (2026-09-20)
-1. **Phone sync:** GitHub is the sync spine. PC commits and pushes; Android uses the Obsidian **Git community plugin** to pull/push. Free, one system for sync and backup. GitHub PAT lives in the phone plugin settings only — never in a note or the repo. Syncthing is the documented fallback if the plugin proves flaky.
-2. **Claude export:** produced 2026-09-20. Manifest at `Downloads/manifest-938d858d-...-2026-09-20-13-57-00.json`, 5 single-use URLs: light_metadata, projects, memories, frames, conversations. Command-line fetch returned **403** (URLs need a logged-in claude.ai session); no file written, token almost certainly unconsumed. Samuel downloads them in-browser to `Downloads`; they then get **copied** into `01-Inbox/_imports/claude-export/`.
-3. **Contentinfluence:** not its own area. Imports into `03-Areas/personal-brand/` as a past attempt at personal-brand coaching — what it was, why it failed.
-4. **Church / AAC:** no area. Media stays in place. If church editing work ever needs tracking it becomes a client note under video-editing.
-5. **GitHub remote:** Samuel creates an empty private repo on github.com (suggested `second-brain`) and gives the URL. `gh` is not installed and will not be. git identity must be set at the same time.
+## What exists now
 
-## Still open
-- Obsidian Git plugin on Android + phone round-trip test (Phase 1 step 4, deferred).
-- Pushes need Samuel to run them: this session's permission classifier blocks `git push`. Fix is a Bash permission rule in `.claude/settings.json`.
-- Phone round-trip test: note created on Android → appears on PC → agent files it → filed note appears back on the phone.
-- Samuel's sign-off on AGENTS.md.
+- **124 notes, 32 commits**, pushed to `https://github.com/SamuelAde001/second-brain` (private, branch `main`).
+- Brain path: `C:\Users\repzy\Desktop\My Second brain`. Outside OneDrive and Dropbox. Git identity: Samuel <repzysam@gmail.com>.
+- `.claude/settings.json` allows git add/commit/push/status/log/diff/ls-remote, and denies reads of `.env`, `*.key`, `credentials*.json`, `token*.json`.
+- **Terminology: it is "the Brain", never "the vault."**
+- **Filenames are unique and readable.** No `_index.md`. An area opens at `03-Areas/<area>/<area>.md`; standing files are `<area>-goals.md`, `-log.md`, `-decisions.md`, `-ideas.md`. `02-Me` opens at `about-samuel.md`. Link with the full path and an alias: `[[03-Areas/finances/finances|Finances]]`. No `../` in wikilinks.
 
-## Phase 0 closed
-Folder tree and §1 tools list confirmed by Samuel 2026-09-20. All 5 export zips downloaded, verified intact and copied into `01-Inbox/_imports/claude-export/` (235 conversations, ~772k tokens; sizes in `migration-report.md`).
+### Areas by depth
 
-## Gemini CLI setting (verified 2026-09-20)
-Current Gemini CLI uses the nested key `context.fileName` in `settings.json`, not the legacy flat `contextFileName`. `.gemini/settings.json` is written as `{"context": {"fileName": ["AGENTS.md", "GEMINI.md"]}}`.
+| Area | State |
+|---|---|
+| **finances** | Deepest. The engine's live system, imported active: 8 money rules, income mechanics, obligations floor, pots, real goals, the live Google Sheet, an agent brief |
+| **video-editing** | Deep on craft: house style, Fusion node system, recipes, troubleshooting, cut sheets, ways-of-working, workflow, agent plan, 2 client notes |
+| **personal-brand** | Brand context, script process, storytelling structures, 30 ideas, IG strategy with real numbers, recording setup, visual identity, 2 series notes |
+| **academy** | Full 8-module curriculum + teaching rules, **but the course is paused** |
+| **community / mentorship / scripnals** | Thin but honest. Scripnals has product + validation |
+| **highsignals** | Umbrella area: brand meaning, mission, four branches |
+| **02-Me** | story, how-to-work-with-me, systems-history, discipline, health. **No goal ladder** |
+| **relationships / book** | Empty shells. Interview-only |
+
+---
+
+## Session log — 2026-09-20
+
+**Phase 0.** Environment checked, sources inventoried. Claude export downloaded by Samuel (CLI fetch got 403 — the URLs are session-bound), 5 zips verified, 235 conversations.
+
+**Phase 1.** Folder tree, `.gitignore`, `.gitattributes`, 9 templates, AGENTS.md / CLAUDE.md / GEMINI.md, conventions, git repo + private remote.
+
+**Phase 2.** All sources distilled: project handover docs · Claude project knowledge files · memory export (44 files) · the Accountability Engine, archived to `08-Archive/` · a 23-conversation shortlist from the chat export, distilled in 4 subagent batches. Migration report has the full accounting.
+
+**Phase 3 interviews completed:** video-editing, finances, personal-brand.
+
+### The decisions that changed the shape of things
+
+Full records in `00-System/decisions.md`. The ones that matter most:
+
+1. **HighSignals is the umbrella brand** over Community, Academy, Mentorship and Scripnals. The personal brand (@SamuelSignals) sits **outside** it and funnels into it.
+2. **The engine's financial system is current and active** — not legacy. Its 8 rules, pots, obligations and goals now live in `03-Areas/finances/`. Its Sheets tooling was restored from git after being wrongly pruned.
+3. **Route Rise Media LTD is the agency and the only payer.** Alex is the end client at USD 333.33/video. The second end client (USD 175) has ended. Volume is not disclosed in advance.
+4. **Course paused**, Wednesday teaching **ended**, and the brand **grew** — IG 460→671, TikTok 550→673 — from "The Life of a Video Editor" and narrowing to video-editing content.
+5. **The postgraduate engineering work is his sister's, not his.** Deleted. Same for the Comfort Cuts project.
+6. Everything renamed to readable filenames; redundant notes merged and deleted; "the Brain" replaces "the vault".
+
+---
+
+## Loose ends — genuinely not done
+
+1. **Phone sync was never set up.** Phase 1 step 4. The decision is made (GitHub as the sync spine, Obsidian Git plugin on Android, PAT in the plugin settings only) but nothing is installed and the round-trip test has not run.
+2. **The remaining engine context files are not imported**, and on the finance precedent they are probably current and rich. This is the best remaining source for `02-Me` and relationships:
+   - `context/habits.md` (299 l) · `body.md` (646 l — sleep, food, training, energy) · `spirit.md` (97 l) · `people.md` (106 l — girlfriend, network, community admin, mentees) · `patterns.md` (101 l — the five failure patterns) · `mission.md` (150 l — the Big 3) · `stakes.md` (81 l) · `things-to-buy.md` · `ticktick.md` (the project map) · `ledger-notes/` (Aug–Sep, including "the dark stretch")
+   - **Ask Samuel first whether these are current**, the way the money file was. Do not assume.
+3. **Per-project memory files not fully distilled:** `technical-learnings.md` (14.6k), `story-bank.md` (8.1k), `scripting-and-collaboration.md`, `taking-a-step-back-from-claude.md`, `cold-outreach-video.md`. Likely overlap with what is already extracted — check before spending tokens.
+4. **~200 conversations were dropped at the triage gate.** `01-Inbox/_imports/processed/triage.csv` has the full list if anything is ever needed.
+5. **The 4 platform skills** (`edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner`) are not files on disk and could not be copied in. Gemini cannot run them — open question 28.
+6. **67 open questions** in `00-System/open-questions.md`. The live ones worth raising early: what counts as a "major" spend (61), nothing captures videos delivered (62), the consequence for breaking the savings rule (55 — the one question Samuel did not answer), and who Mshel is (36).
+
+---
+
+## Operating notes for the next session
+
+- **Samuel's limits are shared between Claude chat and Claude Code.** He hit them once during this build. Checkpoint before any long batch; subagents on a cheaper model for bulk extraction.
+- **Two extraction subagents died mid-run** on a rate limit. Check what survived before re-running anything — one had written 7 of 8 files.
+- **Tone:** direct and blunt, no flattery, never congratulate him for planning. Do not raise his Air Force background unless he does. `02-Me/how-to-work-with-me.md`.
+- **Sources are read-only.** `01-Inbox/_imports/` is gitignored and holds the only copy of the Claude export.
+- **Never rewrite history.** Restoring the wrongly-pruned finance tooling from git is why that rule earned its keep today.
+
+---
 
 ## Log
-- 2026-09-20 — Phase 0 preflight run. Environment checked, sources inventoried, report delivered.
-- 2026-09-20 — Claude export manifest received. CLI download attempt returned 403 (session-bound URLs); handed back to Samuel for in-browser download. Gate decisions 1–5 recorded above.
-- 2026-09-20 — All 5 export zips downloaded by Samuel, verified, copied into `_imports/claude-export/`. Phase 0 gate closed.
-- 2026-09-20 — Phase 1 built and committed locally (`25eedf7`). Awaiting repo URL to push.
-- 2026-09-20 — Correction from Samuel: HighSignals is his **community**; his personal brand is himself, Instagram @SamuelSignals. AGENTS.md fixed, decision recorded (`a5f4c21`).
-- 2026-09-20 — Remote added and pushed by Samuel. `git ls-remote` confirms `refs/heads/main` at `a5f4c21`.
-- 2026-09-20 — Phase 2 source 1 (project handover docs) distilled into 9 notes + 36 area scaffold files (`4815c22`). 8 new open questions logged. Awaiting calibration gate.
 
-## Known defect — FIXED 2026-09-20
-Links to `_index`, `goals`, `log`, `decisions` and `ideas` were **ambiguous**: those filenames existed once per area, and Obsidian resolves a bare link by filename, not by folder. Relative `../` forms do not resolve in Obsidian at all.
-
-**Fix, 2026-09-20:** every file renamed to a unique, self-describing name (`finances.md`, `finances-goals.md`, `about-samuel.md`), and every link rewritten to the full Brain path with a readable alias. See the decision record.
-
-Swept every note: 79 files rewritten, 0 ambiguous or relative wikilinks left. Rule written into `00-System/conventions.md` and AGENTS.md §4.
-- 2026-09-20 — Sources 2 (project docs), 3 (memory export) and 5 (legacy engine) distilled. 3 extraction subagents used; 2 were killed mid-run by the Pro session limit and their remaining files were re-run. Postgraduate degree discovered. Triage produced. Wikilink defect found and fixed.
-- 2026-09-20 — CORRECTION, from Samuel: the postgraduate degree and all electrical work in the export belong to **his sister**, and the Comfort Cuts project is not his either. `02-Me/postgraduate-study.md` deleted, Comfort material stripped from the video-editing notes, open questions 25/26 voided. The earlier log line above is left in place per rule 3 — it is corrected here, not erased.
-- 2026-09-20 — Calibration and triage set: Samuel chose the tight ~20-conversation shortlist for distillation.
-- 2026-09-20 — All four distillation batches landed (finances+scripnals, me, video-editing, brand+academy). Per-project memory files distilled: academy production state, Wednesday Teaching Series, visual identity, gear, ways-of-working. Open questions now 50.
-- 2026-09-20 — Samuel: "why do I have so many index files". Renamed 52 files, rewrote links in 101, repaired 14 more. `_index.md` no longer exists in the Brain.
-- 2026-09-20 — Prune at his instruction: 4 note groups merged or deleted, engine build artifacts removed (1.69 MB -> 0.41 MB). One piece of personal material deleted from `02-Me/discipline.md`.
-- 2026-09-20 — Phase 3 video-editing round 1 answered: Routerise is the agency, Alex is the client, USD 333.33/video, one video in five days, 70/30 monthly payment. Workflow and agent plan written.
-- 2026-09-20 — Finances interview: engine system imported as active (8 rules, income, obligations, pots, goals, live sheet read from Drive). Logging rule changed, Rule 7 break absorbed, second end client confirmed ended.
-- 2026-09-20 — Personal-brand interview: IG 460→671, TikTok 550→673, caused by "The Life of a Video Editor". Course paused. Wednesday teaching ended. Constraint chain written.
-
+- 2026-09-20 — Phase 0 preflight. Environment checked, sources inventoried.
+- 2026-09-20 — Claude export downloaded and verified. Phase 0 gate closed.
+- 2026-09-20 — Phase 1: tree, templates, constitution, git repo, remote, first push.
+- 2026-09-20 — Correction: HighSignals is the community, not the personal brand. Later corrected again: it is the umbrella brand.
+- 2026-09-20 — Phase 2 sources 1, 2, 3, 5 distilled; legacy engine archived; 50 legacy items listed for review.
+- 2026-09-20 — Conversation triage: 235 split, 23 shortlisted, distilled in 4 batches.
+- 2026-09-20 — CORRECTION from Samuel: the postgraduate work and Comfort Cuts are not his. Deleted.
+- 2026-09-20 — Renamed 52 files to unique readable names; links rewritten in 101 files.
+- 2026-09-20 — Prune: redundant notes merged, 1.28 MB of engine build artifacts deleted.
+- 2026-09-20 — "The Brain" replaces "the vault" — 78 occurrences, 36 files.
+- 2026-09-20 — Phase 3 video-editing interview: Route Rise is the agency, Alex the client, USD 333.33/video, one video in five days, 70/30 monthly.
+- 2026-09-20 — Phase 3 finances interview: the engine's system imported as active; live Google Sheet read from Drive; logging rule changed; Rule 7 break absorbed.
+- 2026-09-20 — Phase 3 personal-brand interview: IG 460→671, TikTok 550→673 from "The Life of a Video Editor". Course paused. Teaching ended. `the-constraint-chain.md` written.
+- 2026-09-20 — Session ended at Samuel's request, limits nearly spent. Next session resumes from "Start here" above.
