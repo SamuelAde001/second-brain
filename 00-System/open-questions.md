@@ -58,4 +58,5 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 43 | Scripnals: were any survey responses ever collected? The validation survey went out on Fillout via group chats; no response data exists in any source. | scripnals | 2026-09-20 | Validation evidence | — |
 | 44 | Which client or project is the "video intro visual concepts" work for? It matches no documented client. | video-editing | 2026-09-20 | Client list | — |
 | 45 | Two M4V diagnostic steps (software-decode toggle, HandBrake repair) were never tested — the redownload fixed it first. Keep them in the troubleshooting log as unverified, or drop them? | video-editing | 2026-09-20 | Troubleshooting log hygiene | — |
+| 46 | Who is the new client taken on before 2026-09-06 — different presenter, different visual style from Routerise? Is it Mshel (invoice DSG-2026-001)? No client note exists. | video-editing | 2026-09-20 | Client list, capacity | — |
 
