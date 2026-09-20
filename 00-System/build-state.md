@@ -3,9 +3,9 @@
 Single source of continuity for the second-brain build. Update at the end of every session.
 
 ## Current position
-- **Phase:** 0 — Preflight
-- **Last completed step:** Phase 0 steps 1–3 (environment checks, source inventory, report to Samuel)
-- **Next step:** ⛔ Phase 0 GATE — Samuel confirms inventory, folder tree, area list, tools list, phone-sync method, then Phase 1 (skeleton + constitution)
+- **Phase:** 1 — Skeleton and constitution
+- **Last completed step:** Phase 1 steps 1–3 and the local half of step 5. Folder tree, `.gitignore`, `.gitattributes`, 9 templates, AGENTS.md / CLAUDE.md / GEMINI.md / `.gemini/settings.json`, conventions, decisions, open-questions, security-flags, migration-report, systems-register. Obsidian set to create new notes in `01-Inbox/` and attachments in `_attachments/`. git repo initialised on branch `main`, identity Samuel <repzysam@gmail.com>, first commit `25eedf7`.
+- **Next step:** Phase 1 step 4 — needs the private GitHub repo URL from Samuel. Then: add remote, push, set up Obsidian Git on Android, run the phone round-trip test, Samuel signs off AGENTS.md. Then Phase 2 migration.
 - **Phase 0 started:** 2026-09-20
 - **14-day target for Phases 0–4:** 2026-10-04 (day 0 of 14 elapsed)
 
@@ -55,10 +55,18 @@ Single source of continuity for the second-brain build. Update at the end of eve
 5. **GitHub remote:** Samuel creates an empty private repo on github.com (suggested `second-brain`) and gives the URL. `gh` is not installed and will not be. git identity must be set at the same time.
 
 ## Still open
-- Samuel's in-browser download of the 5 export zips → then copy into `_imports`, verify, inventory.
-- Private repo URL.
-- Explicit confirmation of the §4.2 folder tree and the §1 tools list.
+- Private GitHub repo URL (blocks push + phone sync).
+- Phone round-trip test: note created on Android → appears on PC → agent files it → filed note appears back on the phone.
+- Samuel's sign-off on AGENTS.md.
+
+## Phase 0 closed
+Folder tree and §1 tools list confirmed by Samuel 2026-09-20. All 5 export zips downloaded, verified intact and copied into `01-Inbox/_imports/claude-export/` (235 conversations, ~772k tokens; sizes in `migration-report.md`).
+
+## Gemini CLI setting (verified 2026-09-20)
+Current Gemini CLI uses the nested key `context.fileName` in `settings.json`, not the legacy flat `contextFileName`. `.gemini/settings.json` is written as `{"context": {"fileName": ["AGENTS.md", "GEMINI.md"]}}`.
 
 ## Log
 - 2026-09-20 — Phase 0 preflight run. Environment checked, sources inventoried, report delivered.
 - 2026-09-20 — Claude export manifest received. CLI download attempt returned 403 (session-bound URLs); handed back to Samuel for in-browser download. Gate decisions 1–5 recorded above.
+- 2026-09-20 — All 5 export zips downloaded by Samuel, verified, copied into `_imports/claude-export/`. Phase 0 gate closed.
+- 2026-09-20 — Phase 1 built and committed locally (`25eedf7`). Awaiting repo URL to push.
