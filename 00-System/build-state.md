@@ -3,9 +3,9 @@
 Single source of continuity for the second-brain build. Update at the end of every session.
 
 ## Current position
-- **Phase:** 1 — Skeleton and constitution
-- **Last completed step:** Phase 1 steps 1–3 and the local half of step 5. Folder tree, `.gitignore`, `.gitattributes`, 9 templates, AGENTS.md / CLAUDE.md / GEMINI.md / `.gemini/settings.json`, conventions, decisions, open-questions, security-flags, migration-report, systems-register. Obsidian set to create new notes in `01-Inbox/` and attachments in `_attachments/`. git repo initialised on branch `main`, identity Samuel <repzysam@gmail.com>, first commit `25eedf7`.
-- **Next step:** Phase 1 step 4 — needs the private GitHub repo URL from Samuel. Then: add remote, push, set up Obsidian Git on Android, run the phone round-trip test, Samuel signs off AGENTS.md. Then Phase 2 migration.
+- **Phase:** 2 — Migration
+- **Last completed step:** Phase 1 complete (tree, templates, constitution, git repo, remote `https://github.com/SamuelAde001/second-brain.git`, pushed — remote confirmed at `a5f4c21`). Phase 2 source 1 done: the four project handover docs distilled into personal-brand, academy, scripnals and community. Commit `4815c22` — **not yet pushed**.
+- **Next step:** ⛔ Phase 2 calibration GATE — Samuel reviews three extracted notes for depth and style. Then sources 2–6 run without stopping unless a conflict needs him. Still outstanding from Phase 1: Obsidian Git on Android + the phone round-trip test.
 - **Phase 0 started:** 2026-09-20
 - **14-day target for Phases 0–4:** 2026-10-04 (day 0 of 14 elapsed)
 
@@ -55,7 +55,8 @@ Single source of continuity for the second-brain build. Update at the end of eve
 5. **GitHub remote:** Samuel creates an empty private repo on github.com (suggested `second-brain`) and gives the URL. `gh` is not installed and will not be. git identity must be set at the same time.
 
 ## Still open
-- Private GitHub repo URL (blocks push + phone sync).
+- Obsidian Git plugin on Android + phone round-trip test (Phase 1 step 4, deferred).
+- Pushes need Samuel to run them: this session's permission classifier blocks `git push`. Fix is a Bash permission rule in `.claude/settings.json`.
 - Phone round-trip test: note created on Android → appears on PC → agent files it → filed note appears back on the phone.
 - Samuel's sign-off on AGENTS.md.
 
@@ -70,3 +71,6 @@ Current Gemini CLI uses the nested key `context.fileName` in `settings.json`, no
 - 2026-09-20 — Claude export manifest received. CLI download attempt returned 403 (session-bound URLs); handed back to Samuel for in-browser download. Gate decisions 1–5 recorded above.
 - 2026-09-20 — All 5 export zips downloaded by Samuel, verified, copied into `_imports/claude-export/`. Phase 0 gate closed.
 - 2026-09-20 — Phase 1 built and committed locally (`25eedf7`). Awaiting repo URL to push.
+- 2026-09-20 — Correction from Samuel: HighSignals is his **community**; his personal brand is himself, Instagram @SamuelSignals. AGENTS.md fixed, decision recorded (`a5f4c21`).
+- 2026-09-20 — Remote added and pushed by Samuel. `git ls-remote` confirms `refs/heads/main` at `a5f4c21`.
+- 2026-09-20 — Phase 2 source 1 (project handover docs) distilled into 9 notes + 36 area scaffold files (`4815c22`). 8 new open questions logged. Awaiting calibration gate.
