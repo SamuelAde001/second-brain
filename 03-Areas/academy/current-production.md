@@ -9,7 +9,7 @@ tags: [curriculum, production]
 
 # Current production state
 
-From the Claude memory export for the HighSignals Academy project, 2026-09-06. **This is more current than [[courses]] and than the teaching-structure document**, and it changes the picture in one important way: the active course is a **CapCut** course, not a DaVinci one.
+From the Claude memory export for the HighSignals Academy project, 2026-09-06. **This is more current than [[03-Areas/academy/academy|Academy]] and than the teaching-structure document**, and it changes the picture in one important way: the active course is a **CapCut** course, not a DaVinci one.
 
 ## The active course: Called to Edit — CapCut Creator Course
 
@@ -60,11 +60,11 @@ Flagged because Samuel does not use CapCut daily, organised in batches aligned t
 
 L05 shortcuts · L11 / L14 keyframe easing · L13 auto-captions · L16 speed ramping · L18 mask tracking · L21 adjustment layers · L22 preset / copy attributes · L27 noise reduction · L29 templates.
 
-## ⚠️ Reconcile with the other curriculum note
+## Reconciled 2026-09-20
 
-[[03-Areas/academy/called-to-edit-beginners/called-to-edit-beginners|Called to Edit: Beginners]] was extracted from a teaching-structure document and describes **7 modules** (editor's mindset, the cut, typography, visuals & motion, colour, audio & sound design, workflow & assets) with no mention of CapCut. This memory file says **8 modules, 31 lessons + 5 live sessions, CapCut-based**.
+The two curriculum records **agree**. [[03-Areas/academy/called-to-edit-beginners/called-to-edit-beginners|Called to Edit: Beginners]] lists modules 00–07 — **8 modules, 31 lessons, 5 live sessions** — exactly what this memory file states. An earlier note here claimed a 7-vs-8 module mismatch; that was wrong, caused by a missing module-07 note, now written.
 
-Most likely the same course at two points in its life, but that is an inference. Both are recorded with their dates. Samuel confirms which is current in the interview — logged in `00-System/open-questions.md`.
+**One thing still open:** the teaching-structure document is tool-agnostic, while this memory file says the course is taught in **CapCut**. Nothing contradicts it — the structure simply never names a tool. Confirm with Samuel.
 
 ## On the horizon
 

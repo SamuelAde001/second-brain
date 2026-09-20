@@ -29,8 +29,6 @@ See [[03-Areas/personal-brand/personal-brand-goals|Goals]]. Not set yet.
 
 ## Map of content
 
-- [[voice-and-rules]] — the six non-negotiables, script shape, length, visual direction, why his content flops
-- [[content-pillars]] — the five pillars, and the open naming projects
 - [[script-review-checklist]] — the SOP for reviewing a script
 - [[03-Areas/personal-brand/series/guiding-while-riding|Guiding while riding]] — the bicycle series: structure, fixed lines, 31-topic bank
 - [[03-Areas/personal-brand/personal-brand-ideas|Ideas]] · [[03-Areas/personal-brand/personal-brand-decisions|Decisions]] · [[03-Areas/personal-brand/personal-brand-log|Log]] · [[03-Areas/personal-brand/personal-brand-goals|Goals]]

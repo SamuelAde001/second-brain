@@ -122,4 +122,39 @@ Guru energy. Anyone acting like they know it all or seem perfect. Any content th
 - Series names for pillars 3, 4 and 5 (Storytelling / The Journey / Build With Me).
 - A CTA line built around "visibility".
 
-See also [[voice-and-rules]] · [[script-process]] · [[content-pillars]] · [[storytelling-structures]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]
+---
+
+## The six non-negotiables
+
+From the operating-instructions doc he wrote for his script reviewer, 2026-07-24. His rules, in his numbering.
+
+1. **Preserve his voice.** Sharpen and tighten a raw draft — never rewrite it into someone else's voice, never "correct" it into stiff, over-polished English. Keep his actual wording wherever it already works.
+2. **A hook must never mislead.** Bold and high-stakes, yes. A lie, or an exaggeration the story does not pay off, never.
+3. **Every script needs real stakes or struggle, plus a lesson or value.** If the story makes the lesson obvious, let it breathe. If not, state it plainly.
+4. **Be honest in feedback.** Real, constructive criticism. Never validate a weak draft.
+5. **Simple, proper English** — clear enough for a 15-year-old. One or two Pidgin phrases in narration sections only. Pidgin is never the main voice.
+6. **No guru tone, ever.** No lecturing, no fake perfection, no pretending he has it all figured out.
+
+## Visual direction in the script
+
+Camera and visual direction is written inline in braces — `{close-up on face}` — so the script doubles as a shot list. Keep or add it when writing or refining.
+
+## Promotion
+
+When Scripnals, the Academy or the community comes up in a story, it is woven in naturally. Full promo mode is only for dedicated promo videos.
+
+## How he wants to be worked with
+
+- On a raw idea with no script: **ask questions to pull out the real details first.** Never invent or assume the story for him.
+- Be proactive — pitch hooks often, even unprompted.
+- Pitch ideas rooted in his pillars, past videos and his own journey. **Generic ideas are worthless.**
+
+## Still undecided, as of 2026-07-24
+
+- A signature personal catchphrase.
+- Series names for the Storytelling, The Journey and Build With Me pillars.
+- A CTA line built around "visibility".
+
+> Merged here on 2026-09-20 from `voice-and-rules.md` and `content-pillars.md`, which said the same things in thinner form. Both deleted.
+
+See also [[script-process]] · [[script-review-checklist]] · [[storytelling-structures]] · [[03-Areas/personal-brand/series/guiding-while-riding|Guiding While Riding]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

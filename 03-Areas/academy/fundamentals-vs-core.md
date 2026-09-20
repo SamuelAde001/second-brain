@@ -33,11 +33,11 @@ Not "cut vs. keep" but **"standalone module vs. embedded just-in-time."** The pu
 
 ## The boundary case this chat surfaced — not recorded elsewhere
 
-While merging lessons, one fold-in was flagged directly against the create/edit line already on file in [[courses]]:
+While merging lessons, one fold-in was flagged directly against the create/edit line already on file in [[03-Areas/academy/academy|Academy]]:
 
 > "Finding real-world visuals" folded into the B-roll lesson. **Flag: this one leans toward Create Academy — it's about what to film, not how to cut.**
 
-This is a live example of the exact test [[courses]] states in the abstract — *"Create Academy teaches why and what to film or cut. The Edit courses teach how to execute in software"* — actually being applied to one real piece of content. **What happened to it is worth stating plainly: it didn't get moved to Create Academy, and it didn't get cut. It got folded into an Edit-course lesson anyway, in compressed form, flagged but kept**, because it's in direct service of executing a technique — you need visuals before you can build a B-roll sequence with them. This doesn't overturn the "hard line" in [[courses]], but it shows the line gets applied as a judgment call at individual-lesson level, not only at the course level, and that a little "what to film" content stays embedded inside an Edit lesson when the alternative is a real gap in the how-to. No other note in the vault records this specific case — confirmed by search.
+This is a live example of the exact test [[03-Areas/academy/academy|Academy]] states in the abstract — *"Create Academy teaches why and what to film or cut. The Edit courses teach how to execute in software"* — actually being applied to one real piece of content. **What happened to it is worth stating plainly: it didn't get moved to Create Academy, and it didn't get cut. It got folded into an Edit-course lesson anyway, in compressed form, flagged but kept**, because it's in direct service of executing a technique — you need visuals before you can build a B-roll sequence with them. This doesn't overturn the "hard line" in [[03-Areas/academy/academy|Academy]], but it shows the line gets applied as a judgment call at individual-lesson level, not only at the course level, and that a little "what to film" content stays embedded inside an Edit lesson when the alternative is a real gap in the how-to. No other note in the vault records this specific case — confirmed by search.
 
 ## The bigger correction, in his own words
 
@@ -53,6 +53,6 @@ Samuel then asked whether he should record in DaVinci Resolve instead — the to
 
 ## Does this change the create/edit boundary in courses.md?
 
-Not the stated rule — the "hard line" in [[courses]] stands as written: Create teaches why/what to film, Edit teaches how to execute. What this chat adds is the one place in the vault showing that line actually being drawn against a real piece of content, and the outcome wasn't a clean removal — it was a flagged, compressed fold-in kept inside the Edit course. Worth knowing if the same judgment call comes up again while the rest of the curriculum gets built out.
+Not the stated rule — the "hard line" in [[03-Areas/academy/academy|Academy]] stands as written: Create teaches why/what to film, Edit teaches how to execute. What this chat adds is the one place in the vault showing that line actually being drawn against a real piece of content, and the outcome wasn't a clean removal — it was a flagged, compressed fold-in kept inside the Edit course. Worth knowing if the same judgment call comes up again while the rest of the curriculum gets built out.
 
 Back to [[03-Areas/academy/academy|Academy]]

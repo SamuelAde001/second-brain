@@ -116,11 +116,11 @@ Immediately after locking this script, Samuel gave a standing instruction for al
 
 > "Now based on how we got this script, I want us to create scripts in the future based on how we chatted, questioned, hook, clarity, my voicing... Allow me to tell the authentic story more than you giving me cooperate [corporate] sounding words."
 
-This is the origin of the "preserve his voice" non-negotiable in [[voice-and-rules]] and the interview-first process in [[script-process]] — both already fully recorded there, so not repeated here.
+This is the origin of the "preserve his voice" non-negotiable in [[brand-context|Brand context]] and the interview-first process in [[script-process]] — both already fully recorded there, so not repeated here.
 
 ## Visual direction — an observed nuance
 
-Unlike the general rule in [[voice-and-rules]] (camera and visual direction written inline in braces, doubling the script as a shot list), Claude deliberately left visual direction out of both drafts in this session — reasoning stated directly in the chat that shot composition is "his domain" and not something to suggest into a script draft. Recording this as an observed nuance, not a contradiction to resolve: for this cinematic-storytelling piece, shot direction appears to be worked out by Samuel separately from the collaborative script draft, rather than written into it the way [[voice-and-rules]] describes generally. **status: needs-input** on whether that's true of all his scripts or specific to this one.
+Unlike the general rule in [[brand-context|Brand context]] (camera and visual direction written inline in braces, doubling the script as a shot list), Claude deliberately left visual direction out of both drafts in this session — reasoning stated directly in the chat that shot composition is "his domain" and not something to suggest into a script draft. Recording this as an observed nuance, not a contradiction to resolve: for this cinematic-storytelling piece, shot direction appears to be worked out by Samuel separately from the collaborative script draft, rather than written into it the way [[brand-context|Brand context]] describes generally. **status: needs-input** on whether that's true of all his scripts or specific to this one.
 
 ## Gaps
 

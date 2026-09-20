@@ -13,7 +13,7 @@ Source's own module description: *"Five lessons and a live edit. Effects mindset
 
 Five lessons plus Live Edit 03. Two `[CHECK]` items unresolved (Lesson 16, Lesson 18) — see **Needs input** at the bottom.
 
-This module is the one flagged on [[03-Areas/academy/academy|Academy]] as pushing past the stated Beginners/Advanced boundary — see "Where it stops" there. Lessons 17, 18 and 19 in particular (motion graphics, masking/blend modes/tracking, compositing) sit in territory [[courses|Courses]] assigns to Advanced.
+This module is the one flagged on [[03-Areas/academy/academy|Academy]] as pushing past the stated Beginners/Advanced boundary — see "Where it stops" there. Lessons 17, 18 and 19 in particular (motion graphics, masking/blend modes/tracking, compositing) sit in territory [[03-Areas/academy/academy|Courses]] assigns to Advanced.
 
 Lesson spine and shot-type definitions are in [[teaching-rules]].
 

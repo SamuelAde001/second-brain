@@ -143,6 +143,6 @@ No worked examples were given for any of the structures in this section (source 
 
 Nearly every educational-structure CTA (and several other stages) points to a named "section of template" it should be pulled from — e.g. "use hook from education section of template," "use CTA from sales section of template," "use CTA from follow section of template," plus references to engagement, myth, authority and step-by-step-system sections. That underlying hook/CTA bank, organised by these named sections, is not part of this source document and was not found elsewhere in this import. Until it surfaces, those stages can only be written from scratch rather than pulled from the referenced bank.
 
-See [[voice-and-rules]] for the separate script shape already on file (Hook → Context → Conflict → Pivot → Resolution → Mantra) — these named structures are a different, more granular framework from the same import and are not reconciled with each other here.
+See [[brand-context|Brand context]] for the separate script shape already on file (Hook → Context → Conflict → Pivot → Resolution → Mantra) — these named structures are a different, more granular framework from the same import and are not reconciled with each other here.
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

@@ -30,10 +30,6 @@ That he asked the question twice, four days apart, is itself the only confirmed 
 
 Closing the 2026-08-28 thread, the assistant offered a pointed read tied to the Accountability Engine build he was doing in parallel (see [[systems-history]]): *"the failure mode here isn't ignorance, it's that designing the system feels like progress and costs nothing... the honest read is that the missing piece isn't another mechanism, it's a human being who notices when you don't deliver. That's the one thing you can't build yourself."* Samuel did not reply to this message. It is recorded here because it is specific to him rather than generic, but it carries the same status as everything else on this page — offered, not confirmed.
 
-## The one thing in his own words
-
-From the 2026-08-26 life-management conversation (see [[systems-history]] for the full context), listing his spiritual life: *"one thing that affects my spiritual life a lot is masturbation, I have started a daily streak on not masturbating and need to keep it that way, also too much of social media can affect me spiritually."* This is the one concrete, self-reported discipline effort in these sources — a streak he said was running as of that date. Length of the streak, whether it held, and what "too much" social media means to him are not stated. **status: needs-input.**
-
 ## Overlap with the legacy Accountability Engine — not revived
 
 [[legacy-review]] lists several rules and failure patterns from the archived engine that sit in the same territory as this material, all still `unreviewed`: S1 ("7/7 on the prayer block, no acceptable miss rate"), S5 ("never tick a habit he has not confirmed out loud at the reckoning"), F1 ("selective dropping, not effort collapse — the audience-facing half gets cancelled while client work continues"), and F2 ("the debt gets paid with the body — work skipped is repaid in a single death-march session"). Nothing in these transcripts confirms or extends those items; they are noted here only so a future pass doesn't mistake the overlap for corroboration. None of it is active.

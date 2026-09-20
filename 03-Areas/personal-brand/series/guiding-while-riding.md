@@ -63,7 +63,7 @@ Landed on "Guiding While Riding" after considering: Providing While Riding, Conf
 
 ## Notes
 
-All standing content rules apply — [[voice-and-rules]].
+All standing content rules apply — [[brand-context|Brand context]].
 
 ## Addendum — the origin chat (2026-08-11), added 2026-09-20
 

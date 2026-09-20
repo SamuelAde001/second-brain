@@ -41,7 +41,6 @@ The craft is documented in depth. The rest of the business — pipeline beyond t
 - [[fusion-node-system]] — node layout conventions, build recipes, adjustment-clip system, NeoTextMotion, worked examples from 107 comps
 - [[tsb-graphics-pipeline]] — the graphics pipeline
 - [[cut-sheets]] — how a cut gets planned before it gets cut
-- [[intro-concepts]] — intro visual concepts, mostly ideas rather than decisions
 - [[toolchain]] — Resolve, Fusion, OBS, DJI gear, bespoke tooling, and the edit clock
 
 **The work**

@@ -79,3 +79,19 @@ Decisions about the vault itself: its structure, rules, agents and automations. 
 **Why:** Samuel stated it in the Phase 3 interview. The imported documents contradicted each other — one called Routerise "my company", another labelled the project "client: Alex / Frontal". The client note had carried that contradiction as an open question since import; it is now closed.
 **Who decided:** Samuel, 2026-09-20.
 
+## 2026-09-20 — Prune: delete what is not needed now
+**Decided:** Samuel: *"We need to delete knowledge that is not needed presently, any old redundant knowledge that isn't needed shouldn't just pile our texts."* Four groups removed.
+
+| Removed | Size | Why |
+|---------|------|-----|
+| Engine build artifacts — `site/`, `tools/`, `scorecard.html`, `PA.md` | 1.28 MB of 1.69 MB | Generated output and a 4,537-line duplicate of the repo. Not knowledge. `context/` history kept. |
+| `voice-and-rules.md`, `content-pillars.md` | 87 lines | Thinner restatements of `brand-context.md`. Their unique parts — the six non-negotiables, the braces convention, the promotion rule, how he wants to be worked with — were folded in first. |
+| `academy/courses.md` | 46 lines | Folded into `academy.md`. **Not deleted outright:** eight notes explicitly deferred to it rather than repeat the create-vs-edit boundary, so deleting it plainly would have lost that definition, not deduplicated it. |
+| `video-editing/intro-concepts.md` | 91 lines | Unconfirmed proposals for a video matching no known client. |
+
+**Also removed at his instruction:** one piece of personal material from `02-Me/discipline.md`. Not described here.
+
+**Standing rule this sets:** a note earns its place by being the current, best record of something. When two notes cover the same ground, the thinner one is merged into the fuller one and deleted — not left as a second version to drift out of date.
+
+**Who decided:** Samuel, 2026-09-20.
+

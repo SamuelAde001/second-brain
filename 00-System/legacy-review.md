@@ -9,7 +9,9 @@ tags: [legacy, review]
 
 # Legacy review — the Accountability Engine
 
-The Accountability Engine is archived whole at `08-Archive/accountability-engine/` (81 files, 1.69 MB, source repo `github.com/SamuelAde001/engine`, HEAD `e01cd60`, 2026-09-16). `.env` was deliberately not copied.
+The Accountability Engine is archived at `08-Archive/accountability-engine/` (source repo `github.com/SamuelAde001/engine`, HEAD `e01cd60`, 2026-09-16). `.env` was deliberately not copied.
+
+**Pruned 2026-09-20 at Samuel's instruction:** the generated dashboard site, the build tooling, `scorecard.html` and `PA.md` were deleted — build artifacts and duplication, not knowledge. What remains is `context/` (the real history: ledger, money, habits, patterns, decisions, people), the ritual skill files, the enforcer agent, and the repo's own docs. The full original is still in the source repo if anything is ever needed back.
 
 **Nothing in that archive is active.** Not a rule, not a ritual, not an agent, not a habit. Samuel said on 2026-09-20 that most of its rules no longer work for him, and the memory export says the same. Each item below gets **keep / change / drop** from him during the Phase 3 interview for its domain. Only keep and change items become active, rewritten into the relevant area note.
 
@@ -81,8 +83,8 @@ Each was written by the weekly review with ledger evidence. They are claims abou
 | R9 | Capture — add/change/drop tasks from the phone without breaking the accountability rules | `.claude/skills/capture/` | rituals | unreviewed |
 | R10 | **Enforcer subagent** — challenges rescheduling, excuses and scope drift | `.claude/agents/enforcer.md` | rituals | unreviewed |
 | R11 | Telegram push notifications | repo tooling | rituals | unreviewed |
-| R12 | Google Sheets budget bridge via Apps Script (token lived in `.env`, never copied) | `tools/sheets/` | finances | unreviewed |
-| R13 | Static dashboard site built from the markdown, published to GitHub Pages | `site/`, `tools/site/` | system | unreviewed |
+| R12 | Google Sheets budget bridge via Apps Script (token lived in `.env`, never copied) | scripts **deleted 2026-09-20**; the decision and mechanics are described in `context/decisions.md` | finances | unreviewed |
+| R13 | Static dashboard site built from the markdown, published to GitHub Pages | **deleted 2026-09-20** — generated output, not knowledge. Still in the source repo `SamuelAde001/engine` if ever needed | system | dropped |
 | R14 | Two-touch day structure and the "new day shape" set 2026-09-15 | `context/habits.md` | me | unreviewed |
 | R15 | Morning movement six days a week, replacing "gym 3×/week" as the tracked habit (2026-09-02) | `context/habits.md` | me | unreviewed |
 | R16 | Phone charges outside the bedroom from 10pm | `context/habits.md` | me | unreviewed |
@@ -101,7 +103,7 @@ Cite by link; do not copy into active notes.
 | `context/body.md` | 646 lines on sleep, food, training, energy | me |
 | `context/things-to-buy.md` | Purchase list with a rule for how something moves off it | finances |
 | `context/ticktick.md` | The TickTick project map and client task-naming convention, set 2026-09-15 | system |
-| `PA.md` | Generated 4,537-line bundle of the whole repo. The engine's own rule: never read it, it is pure duplication | system |
+| ~~`PA.md`~~ | **Deleted 2026-09-20.** A generated 4,537-line duplicate of every other file. The engine's own rule was never to read it | system |
 
 ## Verified on import
 
