@@ -36,6 +36,15 @@ Every note. No exceptions, including logs.
 - Every note links back to its area `_index`.
 - A link to a note that does not exist yet is allowed and useful — it marks a gap.
 
+### Ambiguous filenames — the one link rule that bites
+Every area has an `_index.md`, `goals.md`, `log.md`, `decisions.md` and `ideas.md`. Obsidian resolves a bare `[[_index]]` **by filename**, so it will silently pick the wrong one.
+
+- Link those five by **full vault path with an alias**: `[[03-Areas/video-editing/_index|Video editing]]`.
+- Link everything else short: `[[brand-context]]`, `[[script-process]]`.
+- **There is no `../` in wikilinks.** `[[../community/_index]]` does not resolve — it is a broken link that looks fine in the editor.
+
+Checked across the vault on 2026-09-20 and fixed in 79 files.
+
 ## Size
 - Split a note past roughly 300 lines. The split children link to each other and to the index.
 - Merge a fragment under roughly 10 lines into its parent note.

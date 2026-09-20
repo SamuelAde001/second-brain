@@ -15,4 +15,4 @@ The idea bank for this area. Every idea is dated and carries a status: **raw** /
 |------|------|--------|-----------------------|
 | — | — | — | — |
 
-Back to [[_index]]
+Back to [[03-Areas/mentorship/_index|Mentorship]]

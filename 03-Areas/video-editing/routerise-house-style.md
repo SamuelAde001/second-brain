@@ -231,4 +231,4 @@ These were live at the end of the study and are not confirmed one way or the oth
 4. The **PJT text-animator pack** (62 presets) and the **Neo Texts** preset library (~100 presets) are installed but completely unused in the reference project — deliberate (don't fit the look), or just not top-of-mind? This decides whether future videos should pull from them.
 5. When does Samuel reach for **NeoTextMotion** (`Fuse.NeoMotionText`, used on ~32 of 105 text elements in the reference, roughly 1 in 3) instead of plain Text+ with NeoAnim? Per-character/word control, or just the faster starting point?
 
-Back to [[_index]]
+Back to [[03-Areas/video-editing/_index|Video editing]]

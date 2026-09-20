@@ -41,4 +41,4 @@ How they send work, how complete the brief usually is, what they leave out.
 ## Revisions log
 - YYYY-MM-DD — what they asked to change — what it taught me
 
-Back to [[_index]]
+Back to [[00-System/_index|System]]

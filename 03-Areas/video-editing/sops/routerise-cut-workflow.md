@@ -9,7 +9,7 @@ tags: [sop, routerise]
 
 # SOP — Routerise cut workflow (order of operations)
 
-**Trigger:** starting the edit on any long-form talking-head video for [[../clients/routerise]] (Routerise / Alex / Frontal). Established 2026-09-14, on the project "1. Taking a step back from Claude."
+**Trigger:** starting the edit on any long-form talking-head video for [[03-Areas/clients/routerise|Routerise]] (Routerise / Alex / Frontal). Established 2026-09-14, on the project "1. Taking a step back from Claude."
 **Owner:** Samuel.
 **Time it takes:** needs-input — not stated in the source document.
 **Last used:** needs-input — not stated; the workflow's establishment date (2026-09-14) is the only date recorded, and it may not be the same as when it was last used.
@@ -59,7 +59,7 @@ tags: [sop, routerise]
 
 ## Done when
 
-All four steps have run across the whole timeline: audio/picture synced and linked, silence rippled out at the settings above, a transcript exists for the cleaned timeline, and repeated-take clusters have been resolved (kept/cut) or flagged where no alternate take exists. The timeline is then ready for the visual/graphics pass (see [[../routerise-house-style]] and [[../fusion-node-system]]).
+All four steps have run across the whole timeline: audio/picture synced and linked, silence rippled out at the settings above, a transcript exists for the cleaned timeline, and repeated-take clusters have been resolved (kept/cut) or flagged where no alternate take exists. The timeline is then ready for the visual/graphics pass (see [[03-Areas/routerise-house-style|Routerise house style]] and [[03-Areas/fusion-node-system|Fusion node system]]).
 
 ## Failure modes
 
@@ -70,5 +70,5 @@ All four steps have run across the whole timeline: audio/picture synced and link
 
 ## Notes
 
-Client and account-context details (mic setup, footage quirks) are in [[../clients/routerise]]. Established 2026-09-14 on project "1. Taking a step back from Claude" — note that document itself does not confirm which client/video it covers; see the open question logged in [[../tsb-graphics-pipeline]].
+Client and account-context details (mic setup, footage quirks) are in [[03-Areas/clients/routerise|Routerise]]. Established 2026-09-14 on project "1. Taking a step back from Claude" — note that document itself does not confirm which client/video it covers; see the open question logged in [[03-Areas/tsb-graphics-pipeline|Tsb graphics pipeline]].
 Registered in [[systems-register]].

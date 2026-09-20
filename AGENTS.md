@@ -66,6 +66,7 @@ tags: []
 ```
 
 - Link with `[[wikilinks]]`. Every note links back to its area `_index`.
+- **Filenames that repeat across areas — `_index`, `goals`, `log`, `decisions`, `ideas` — must be linked by full vault path with an alias:** `[[03-Areas/community/_index|HighSignals Community]]`. A bare `[[_index]]` is ambiguous and Obsidian resolves it by filename alone. Unique filenames can be linked short. There is no `../` syntax in wikilinks.
 - One subject per note. Split past ~300 lines. Merge fragments under ~10 lines.
 - ISO dates. Money always carries a currency code (NGN, USD). Never a bare number.
 - Templates: `00-System/templates/`.

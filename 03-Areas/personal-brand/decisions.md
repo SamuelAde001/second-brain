@@ -11,4 +11,4 @@ tags: []
 
 Append-only. Date, decision, why, alternatives rejected, who decided.
 
-Back to [[_index]]
+Back to [[03-Areas/personal-brand/_index|Personal brand]]

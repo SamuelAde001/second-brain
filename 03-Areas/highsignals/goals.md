@@ -15,4 +15,4 @@ Brand-level goals only. A goal that belongs to one branch lives in that branch's
 |------|---------|-------------|-------------|--------|
 | — | — | — | — | Not set. Phase 3 interview. |
 
-Back to [[_index]]
+Back to [[03-Areas/highsignals/_index|HighSignals]]

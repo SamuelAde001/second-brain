@@ -28,7 +28,7 @@ So: a **postgraduate degree in electrical / power engineering**, active as of th
 
 Job 3 of this vault is planning the future against **real capacity**, and job 6 is accountability. A degree running alongside full-time client editing, a brand, a community, a course and an app is a claim on his hours that nothing else in the vault knows about. Any plan built without it is wrong.
 
-It also reframes a line in [[_index]]: full-time editing is described as his biggest time bottleneck. That was written before this surfaced.
+It also reframes a line in [[02-Me/_index|Me]]: full-time editing is described as his biggest time bottleneck. That was written before this surfaced.
 
 ## needs-input — the questions this raises
 
@@ -40,4 +40,4 @@ It also reframes a line in [[_index]]: full-time editing is described as his big
 
 Nothing here is a judgement about whether he should be doing it. It is a fact the system did not know, recorded so that planning stops being fiction.
 
-Back to [[_index]]
+Back to [[02-Me/_index|Me]]

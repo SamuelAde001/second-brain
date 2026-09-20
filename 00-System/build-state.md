@@ -4,8 +4,8 @@ Single source of continuity for the second-brain build. Update at the end of eve
 
 ## Current position
 - **Phase:** 2 — Migration
-- **Last completed step:** Phase 1 complete (tree, templates, constitution, git repo, remote `https://github.com/SamuelAde001/second-brain.git`, pushed — remote confirmed at `a5f4c21`). Phase 2 source 1 done: the four project handover docs distilled into personal-brand, academy, scripnals and community. Commit `4815c22` — **not yet pushed**.
-- **Next step:** ⛔ Phase 2 calibration GATE — Samuel reviews three extracted notes for depth and style. Then sources 2–6 run without stopping unless a conflict needs him. Still outstanding from Phase 1: Obsidian Git on Android + the phone round-trip test.
+- **Last completed step:** Phase 2 sources 1, 2, 3 and 5 distilled; legacy engine archived and reviewed into 50 unreviewed items; conversation triage script written and run (235 conversations split, `triage.csv` + `triage-proposal.csv` produced); wikilink defect fixed vault-wide.
+- **Next step:** ⛔ Phase 2 pass-1 GATE — Samuel trims the conversation triage. Then distil the kept conversations in batches, finish the 7 per-project memory files (~60k chars), copy the skills (source 6), and move to Phase 3 (the interview).
 - **Phase 0 started:** 2026-09-20
 - **14-day target for Phases 0–4:** 2026-10-04 (day 0 of 14 elapsed)
 
@@ -75,10 +75,11 @@ Current Gemini CLI uses the nested key `context.fileName` in `settings.json`, no
 - 2026-09-20 — Remote added and pushed by Samuel. `git ls-remote` confirms `refs/heads/main` at `a5f4c21`.
 - 2026-09-20 — Phase 2 source 1 (project handover docs) distilled into 9 notes + 36 area scaffold files (`4815c22`). 8 new open questions logged. Awaiting calibration gate.
 
-## Known defect to fix (raised 2026-09-20)
-`[[wikilinks]]` to `_index`, `goals`, `log`, `decisions` and `ideas` are **ambiguous**: those filenames exist once per area, and Obsidian resolves a bare `[[_index]]` by filename, not by folder. Relative forms like `[[../community/_index]]` do not resolve in Obsidian at all — it has no `../` syntax for wikilinks.
+## Known defect — FIXED 2026-09-20
+`[[wikilinks]]` to `_index`, `goals`, `log`, `decisions` and `ideas` are **ambiguous**: those filenames exist once per area, and Obsidian resolves a bare `[[00-System/_index|System]]` by filename, not by folder. Relative forms like `[[03-Areas/community/_index|HighSignals Community]]` do not resolve in Obsidian at all — it has no `../` syntax for wikilinks.
 
 **Fix:** links to any filename that repeats across areas must be vault-relative with an alias, e.g. `[[03-Areas/community/_index|HighSignals Community]]`. Unique filenames (`brand-context`, `script-process`, `systems-register`) can stay short.
 
-Run a sweep over every note once the running extraction subagents finish, then update `00-System/conventions.md` and AGENTS.md §4 to state the rule.
+Swept every note: 79 files rewritten, 0 ambiguous or relative wikilinks left. Rule written into `00-System/conventions.md` and AGENTS.md §4.
+- 2026-09-20 — Sources 2 (project docs), 3 (memory export) and 5 (legacy engine) distilled. 3 extraction subagents used; 2 were killed mid-run by the Pro session limit and their remaining files were re-run. Postgraduate degree discovered. Triage produced. Wikilink defect found and fixed.
 

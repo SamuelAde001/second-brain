@@ -21,7 +21,7 @@ Almost all of this is Phase 3 interview material. What is here now came out of i
 - **Nigerian Air Force veteran.** Now video editor, content creator, content coach, founder of the HighSignals community and the Scripnals app.
 - Works primarily with clients on video editing projects.
 - Works from home on a Windows 11 PC. Android phone.
-- His stated priority order for creating: inspire first, let that lead people into his offers naturally, build reputation, let money follow value ([[../03-Areas/personal-brand/brand-context]]).
+- His stated priority order for creating: inspire first, let that lead people into his offers naturally, build reputation, let money follow value ([[03-Areas/03-Areas/personal-brand/brand-context|Brand context]]).
 - His own words about the central tension: full-time editing **"solves income, but it's my biggest time bottleneck."**
 - Wants to be talked to directly and bluntly. No flattery, no cushioning, no congratulating him for planning.
 
@@ -66,6 +66,6 @@ Values · mission · principles · confirmed patterns · daily routine · sleep 
 
 ## Related
 
-- [[../03-Areas/personal-brand/_index]] — the brand built on this story
-- [[../03-Areas/video-editing/_index]] — the work that pays
-- [[../03-Areas/highsignals/_index]] — what he is building
+- [[03-Areas/03-Areas/personal-brand/_index|Personal brand]] — the brand built on this story
+- [[03-Areas/03-Areas/video-editing/_index|Video editing]] — the work that pays
+- [[03-Areas/03-Areas/highsignals/_index|HighSignals]] — what he is building

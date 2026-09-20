@@ -65,4 +65,4 @@ Landed on "Guiding While Riding" after considering: Providing While Riding, Conf
 
 All standing content rules apply — [[voice-and-rules]].
 
-Back to [[_index]]
+Back to [[03-Areas/personal-brand/_index|Personal brand]]

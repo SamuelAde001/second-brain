@@ -118,4 +118,4 @@ Two `[CHECK]` tags in this module are unresolved CapCut PC workflow confirmation
 - **Lesson 21:** `[CHECK: adjustment layer workflow on CapCut PC]` — the exact adjustment-layer workflow to demo is not confirmed.
 - **Lesson 22:** `[CHECK: preset save / copy-attributes workflow]` — the exact preset-save/copy-attributes workflow is not confirmed.
 
-Back to [[_index]]
+Back to [[03-Areas/academy/_index|Academy]]

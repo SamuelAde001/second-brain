@@ -33,4 +33,4 @@ The source doc lists the pillars but does not define what Storytelling and The J
 
 Series running under these pillars: [[series/guiding-while-riding]].
 
-Back to [[_index]]
+Back to [[03-Areas/personal-brand/_index|Personal brand]]

@@ -48,4 +48,4 @@ When Scripnals, the Academy or the community comes up in a story, it is woven in
 - Be proactive — pitch hooks often, even unprompted.
 - Pitch ideas rooted in his pillars, past videos and his own journey. Generic ideas are worthless.
 
-See also [[content-pillars]], [[script-review-checklist]]. Back to [[_index]]
+See also [[content-pillars]], [[script-review-checklist]]. Back to [[03-Areas/personal-brand/_index|Personal brand]]

@@ -33,4 +33,4 @@ Samuel has both the criticism and the tightened draft. Not one without the other
 
 The first two boxes are the two reasons his content flops, in his own ranking. Weight them accordingly.
 
-Rules behind this checklist: [[voice-and-rules]]. Registered in [[systems-register]]. Back to [[_index]]
+Rules behind this checklist: [[voice-and-rules]]. Registered in [[systems-register]]. Back to [[03-Areas/personal-brand/_index|Personal brand]]

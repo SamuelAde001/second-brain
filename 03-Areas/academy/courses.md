@@ -43,4 +43,4 @@ From the Academy project-setup doc, 2026-07-23. The build spec called this "Call
 
 Skill-building always ties back to audience impact, not technical correctness for its own sake.
 
-Back to [[_index]]
+Back to [[03-Areas/academy/_index|Academy]]

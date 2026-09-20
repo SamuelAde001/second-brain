@@ -28,4 +28,4 @@ How often Samuel wants to reach out, and how he wants to be reminded.
 ## History
 - YYYY-MM-DD — what happened
 
-Back to [[_index]]
+Back to [[00-System/_index|System]]

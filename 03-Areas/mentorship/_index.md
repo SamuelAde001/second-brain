@@ -11,13 +11,13 @@ tags: []
 
 ## What this is
 
-**HighSignals Mentorship** — the premium tier of the HighSignals brand ([[../highsignals/_index]]): **one-on-one mentorship directly with Samuel**, applying Academy and community lessons to the individual's specific niche, audience and goals.
+**HighSignals Mentorship** — the premium tier of the HighSignals brand ([[03-Areas/highsignals/_index|HighSignals]]): **one-on-one mentorship directly with Samuel**, applying Academy and community lessons to the individual's specific niche, audience and goals.
 
 Third stage of the ladder — after the Academy equips and the community implements, mentorship personalises.
 
 ## Why it matters
 
-It is the only branch that scales down instead of up: one person at a time, highest touch, and named in the source as **the premium tier** — so presumably the highest price and the biggest claim on Samuel's own hours, which are already the bottleneck ([[../../02-Me/_index]]).
+It is the only branch that scales down instead of up: one person at a time, highest touch, and named in the source as **the premium tier** — so presumably the highest price and the biggest claim on Samuel's own hours, which are already the bottleneck ([[02-Me/_index|Me]]).
 
 ## Current status — as of 2026-09-20
 
@@ -25,11 +25,11 @@ Nothing is known beyond the name and its position in the model. No offer, no for
 
 ## Goals
 
-See [[goals]]. Not set yet.
+See [[03-Areas/mentorship/goals|Goals]]. Not set yet.
 
 ## Map of content
 
-- [[ideas]] · [[decisions]] · [[log]] · [[goals]]
+- [[03-Areas/mentorship/ideas|Ideas]] · [[03-Areas/mentorship/decisions|Decisions]] · [[03-Areas/mentorship/log|Log]] · [[03-Areas/mentorship/goals|Goals]]
 
 ## Open questions
 
@@ -42,6 +42,6 @@ See [[goals]]. Not set yet.
 
 ## Related areas
 
-- [[../highsignals/_index]] — the umbrella
-- [[../community/_index]] · [[../academy/_index]] · [[../scripnals/_index]] — sister branches
-- [[../personal-brand/_index]] — outside HighSignals, funnels into it
+- [[03-Areas/highsignals/_index|HighSignals]] — the umbrella
+- [[03-Areas/community/_index|HighSignals Community]] · [[03-Areas/academy/_index|Academy]] · [[03-Areas/scripnals/_index|Scripnals]] — sister branches
+- [[03-Areas/personal-brand/_index|Personal brand]] — outside HighSignals, funnels into it

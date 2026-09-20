@@ -19,7 +19,7 @@ What the imported documents say about Samuel's own arc. **None of this came from
 
 > "my journey from soldier in the Nigerian military to self-employed video editor, content creator, content coach, and founder of the HighSignals community and the Scripnals app"
 
-Positioned as content pillar 4, **The Journey** — "my personal story, the soldier-to-creator arc, struggles and wins" ([[../03-Areas/personal-brand/brand-context]]).
+Positioned as content pillar 4, **The Journey** — "my personal story, the soldier-to-creator arc, struggles and wins" ([[03-Areas/03-Areas/personal-brand/brand-context|Brand context]]).
 
 ## Faith
 
@@ -29,7 +29,7 @@ There is also an unprocessed source on this: a conversation titled "Creating con
 
 ## A cancelled telling of this story
 
-An Instagram Reels docuseries called **"From Soldier to Self-Employed"** was built and then cancelled — scripts, structural reviews and rewrite workflows exist in the export. Samuel's instruction in the memory export is that it "should not be referenced going forward". The story is still his; that particular vehicle for it is dead. See [[../03-Areas/personal-brand/instagram-strategy]].
+An Instagram Reels docuseries called **"From Soldier to Self-Employed"** was built and then cancelled — scripts, structural reviews and rewrite workflows exist in the export. Samuel's instruction in the memory export is that it "should not be referenced going forward". The story is still his; that particular vehicle for it is dead. See [[03-Areas/03-Areas/personal-brand/instagram-strategy|Instagram strategy]].
 
 ## What is not known
 
@@ -40,4 +40,4 @@ An Instagram Reels docuseries called **"From Soldier to Self-Employed"** was bui
 
 This is deliberately thin. **Do not fill it in from inference.** It gets filled by Samuel in the Phase 3 interview, and only as much as he chooses to record.
 
-Back to [[_index]]
+Back to [[02-Me/_index|Me]]

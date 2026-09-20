@@ -19,7 +19,7 @@ What it is for in Samuel's life. What happens if it is neglected.
 Where things actually stand right now. Numbers where numbers exist.
 
 ## Goals
-See [[goals]]. Top-level summary only:
+See [[00-System/goals|Goals]]. Top-level summary only:
 - Goal — measure — target date
 
 ## Key people

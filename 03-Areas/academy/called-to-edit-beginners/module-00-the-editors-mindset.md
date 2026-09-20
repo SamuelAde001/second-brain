@@ -131,4 +131,4 @@ Lesson spine (Open / Principle / Demo / Trap / Drill) and shot-type definitions 
 
 ---
 
-Back to [[_index]]
+Back to [[03-Areas/academy/_index|Academy]]

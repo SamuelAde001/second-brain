@@ -11,9 +11,9 @@ tags: []
 
 ## What this is
 
-**HighSignals Community** — one of the four branches of the HighSignals brand ([[../highsignals/_index]]). The place where people implement what the Academy taught them.
+**HighSignals Community** — one of the four branches of the HighSignals brand ([[03-Areas/highsignals/_index|HighSignals]]). The place where people implement what the Academy taught them.
 
-It is not the whole of HighSignals, and it is not Samuel's personal brand — that is him, @SamuelSignals, and it sits outside HighSignals entirely ([[../personal-brand/_index]]).
+It is not the whole of HighSignals, and it is not Samuel's personal brand — that is him, @SamuelSignals, and it sits outside HighSignals entirely ([[03-Areas/personal-brand/_index|Personal brand]]).
 
 ## Why it matters
 
@@ -33,7 +33,7 @@ Almost entirely unknown. No platform, size, rituals, engagement level, moderatio
 
 ## Resolved 2026-09-20
 
-An earlier conflict — whether HighSignals was the umbrella or the community — is settled. Samuel: HighSignals is the whole brand; this is its community branch. The ascension model from the 2026-07-23 docs (Academy equips → Community implements → Mentorship personalises → Scripnals executes) is recorded in [[../highsignals/_index]] and still needs confirming as how he actually works today.
+An earlier conflict — whether HighSignals was the umbrella or the community — is settled. Samuel: HighSignals is the whole brand; this is its community branch. The ascension model from the 2026-07-23 docs (Academy equips → Community implements → Mentorship personalises → Scripnals executes) is recorded in [[03-Areas/highsignals/_index|HighSignals]] and still needs confirming as how he actually works today.
 
 ## Open questions
 
@@ -44,10 +44,10 @@ An earlier conflict — whether HighSignals was the umbrella or the community �
 
 ## Map of content
 
-- [[ideas]] · [[decisions]] · [[log]] · [[goals]]
+- [[03-Areas/community/ideas|Ideas]] · [[03-Areas/community/decisions|Decisions]] · [[03-Areas/community/log|Log]] · [[03-Areas/community/goals|Goals]]
 
 ## Related areas
 
-- [[../highsignals/_index]] — the umbrella
-- [[../academy/_index]] · [[../mentorship/_index]] · [[../scripnals/_index]] — sister branches
-- [[../personal-brand/_index]] — outside HighSignals, funnels into it
+- [[03-Areas/highsignals/_index|HighSignals]] — the umbrella
+- [[03-Areas/academy/_index|Academy]] · [[03-Areas/mentorship/_index|Mentorship]] · [[03-Areas/scripnals/_index|Scripnals]] — sister branches
+- [[03-Areas/personal-brand/_index|Personal brand]] — outside HighSignals, funnels into it

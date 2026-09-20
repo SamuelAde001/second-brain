@@ -9,7 +9,7 @@ tags: [curriculum, called-to-edit-beginners]
 
 # Called to Edit: Beginner Course
 
-The source document's own title is **"Called to Edit: Beginner Course — Full Course Outline + Per-Lesson Teaching Structure."** This is the same course [[../courses]] calls "Called to Edit: Beginners Academy" — see **Naming variance** below for the discrepancy.
+The source document's own title is **"Called to Edit: Beginner Course — Full Course Outline + Per-Lesson Teaching Structure."** This is the same course [[03-Areas/courses|Courses]] calls "Called to Edit: Beginners Academy" — see **Naming variance** below for the discrepancy.
 
 **Structure stated in the source:** 31 lessons + 5 live edit sessions across 8 modules. Demonstrated in CapCut on PC.
 
@@ -20,7 +20,7 @@ Not stated explicitly as an audience line anywhere in the source. What the sourc
 - Lesson 01's drill assumes the student does not yet have a project open or footage of their own edited: "Come to Lesson 2 with one video of your own you wish was better."
 - The positioning section (below) assumes zero prior editing craft, teaching from "what an edit actually is" upward.
 
-For the audience description already on file ("personal content creators," "talking-head cuts, storytelling edits," "a student can edit their own simple content without outsourcing it"), see [[../courses]] — not duplicated here.
+For the audience description already on file ("personal content creators," "talking-head cuts, storytelling edits," "a student can edit their own simple content without outsourcing it"), see [[03-Areas/courses|Courses]] — not duplicated here.
 
 ## The promise (source's own positioning section, verbatim)
 
@@ -64,7 +64,7 @@ Whether a **practice footage pack** referenced repeatedly across lessons (01, 05
 
 ## Where it stops — boundary with Called to Edit Advanced
 
-[[../courses]] already records the established boundary: Beginners covers "basic editing good enough for simple short-form video," Advanced covers "VFX, motion graphics, animation, professional tools" and is positioned around monetisation. That boundary is not repeated in full here.
+[[03-Areas/courses|Courses]] already records the established boundary: Beginners covers "basic editing good enough for simple short-form video," Advanced covers "VFX, motion graphics, animation, professional tools" and is positioned around monetisation. That boundary is not repeated in full here.
 
 **What this document actually contains pushes past that stated boundary.** Flagging as a contradiction rather than silently reconciling it:
 - Lesson 11, **Keyframing 101** — "One mechanic. Learn it here and typography, motion graphics and effects all become the same skill."
@@ -74,16 +74,16 @@ Whether a **practice footage pack** referenced repeatedly across lessons (01, 05
 - Lesson 19, **Removing Backgrounds and Compositing** — chroma key, auto cutout, compositing.
 - Lesson 21, **Color Grading for a Look** — curves, color wheels, adjustment layers.
 
-All six are explicitly inside this Beginners course, not Advanced. The word "Basic" in Lesson 17's title is the source's own hedge, and Module 03's header line — *"Five lessons and a live edit. Effects mindset opens the module deliberately — teach restraint before handing over the toys, not after"* — signals these are meant to be taught with restraint rather than depth, but the underlying skill (masking, keyframed motion graphics, compositing, curve-based color) is the same skill domain [[../courses]] assigns to Advanced ("VFX, motion graphics, animation"). This is a genuine scope contradiction between this teaching-structure document and the course boundary already on file, not a rewording of the same thing. Reporting it rather than resolving it — resolving the boundary is Samuel's call.
+All six are explicitly inside this Beginners course, not Advanced. The word "Basic" in Lesson 17's title is the source's own hedge, and Module 03's header line — *"Five lessons and a live edit. Effects mindset opens the module deliberately — teach restraint before handing over the toys, not after"* — signals these are meant to be taught with restraint rather than depth, but the underlying skill (masking, keyframed motion graphics, compositing, curve-based color) is the same skill domain [[03-Areas/courses|Courses]] assigns to Advanced ("VFX, motion graphics, animation"). This is a genuine scope contradiction between this teaching-structure document and the course boundary already on file, not a rewording of the same thing. Reporting it rather than resolving it — resolving the boundary is Samuel's call.
 
-The one confirmed hard exclusion: **monetisation content (portfolio, pricing, clients) does not appear anywhere in this document.** That matches [[../courses]]'s boundary — Advanced is "positioned around monetisation," Beginners is not. No lesson here mentions offering editing as a paid service.
+The one confirmed hard exclusion: **monetisation content (portfolio, pricing, clients) does not appear anywhere in this document.** That matches [[03-Areas/courses|Courses]]'s boundary — Advanced is "positioned around monetisation," Beginners is not. No lesson here mentions offering editing as a paid service.
 
 ## Naming variance across the source documents
 
 Three different names appear for what is presumably the same course:
 1. This document's own title: **"Called to Edit: Beginner Course."**
 2. `_project-instructions.md` (a source file for this same extraction): **"Called to Edit: CapCut Creator Course"** — described there as "using only CapCut Mobile/PC free tier," and as "the current active focus."
-3. [[../courses]] (already on file, from `academy-project-setup.md`, dated 2026-07-23): **"Called to Edit: Beginners Academy."**
+3. [[03-Areas/courses|Courses]] (already on file, from `academy-project-setup.md`, dated 2026-07-23): **"Called to Edit: Beginners Academy."**
 
 The free-tier-only, mobile-plus-PC framing from `_project-instructions.md` directly conflicts with this document's own "What Changed" table, which states platform was narrowed to **PC only** and the **free-vs-Pro distinction was removed entirely**. Neither source file carries a date that would settle which is more recent. Not resolved here — flagged for Samuel.
 
@@ -102,4 +102,4 @@ No lesson has been marked recorded, filmed, or delivered anywhere in the source.
 
 See [[teaching-rules]] — the five-beat lesson spine, the two recording discipline rules, and shot-type definitions used on every lesson.
 
-Back to [[../_index]]
+Back to [[03-Areas/_index|03 areas]]

@@ -229,4 +229,4 @@ Samuel's own 14 screenshots of real node trees are the authoritative arrangement
 3. Which Geist weights map to which roles (titles, chips, body)?
 4. Is the PJT pack / Neo Texts library worth deliberately trialling on a future video, given it's installed but unused (§1)?
 
-Back to [[_index]]
+Back to [[03-Areas/video-editing/_index|Video editing]]

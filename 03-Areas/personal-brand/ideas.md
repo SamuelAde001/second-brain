@@ -82,4 +82,4 @@ Kept from the source document because they govern how these ideas should be used
 - **Pairs from the same event:** #2/#3/#4/#29 all come from the near-quit. #6/#7 from the London client. #17/#18 from the corruption. #19/#20/#21 from Resolve. Shoot them apart in the calendar, not back to back.
 - **Thin on wins.** 22 of these are struggles. Before the next batch, answer the "Still to mine" questions in the story bank — especially the mentor, the first international client, and the week after you left the military.
 
-Back to [[_index]]
+Back to [[03-Areas/personal-brand/_index|Personal brand]]

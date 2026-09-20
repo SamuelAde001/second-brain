@@ -13,7 +13,7 @@ tags: []
 
 Samuel's own brand — **him**, not a company. Instagram handle **@SamuelSignals**. This area covers positioning, voice, content pillars, series, production workflow and what performs.
 
-**This brand sits outside HighSignals.** HighSignals is a separate, umbrella brand with four branches ([[../highsignals/_index]]). The relationship is a funnel: the personal brand builds attention and trust, and feeds people into HighSignals. Content made as Samuel is not HighSignals content, even when it points at HighSignals.
+**This brand sits outside HighSignals.** HighSignals is a separate, umbrella brand with four branches ([[03-Areas/highsignals/_index|HighSignals]]). The relationship is a funnel: the personal brand builds attention and trust, and feeds people into HighSignals. Content made as Samuel is not HighSignals content, even when it points at HighSignals.
 
 ## Why it matters
 
@@ -25,7 +25,7 @@ Only partly known. What the vault holds so far came from two documents he wrote 
 
 ## Goals
 
-See [[goals]]. Not set yet.
+See [[03-Areas/personal-brand/goals|Goals]]. Not set yet.
 
 ## Map of content
 
@@ -33,7 +33,7 @@ See [[goals]]. Not set yet.
 - [[content-pillars]] — the five pillars, and the open naming projects
 - [[script-review-checklist]] — the SOP for reviewing a script
 - [[series/guiding-while-riding]] — the bicycle series: structure, fixed lines, 31-topic bank
-- [[ideas]] · [[decisions]] · [[log]] · [[goals]]
+- [[03-Areas/personal-brand/ideas|Ideas]] · [[03-Areas/personal-brand/decisions|Decisions]] · [[03-Areas/personal-brand/log|Log]] · [[03-Areas/personal-brand/goals|Goals]]
 
 ## Past attempts
 
@@ -48,8 +48,8 @@ See [[goals]]. Not set yet.
 
 ## Related areas
 
-- [[../highsignals/_index]] — the brand this funnels into
-- [[../community/_index]] — HighSignals Community
-- [[../academy/_index]] — the courses
-- [[../scripnals/_index]] — the app
-- [[../video-editing/_index]] — the craft the brand is built on
+- [[03-Areas/highsignals/_index|HighSignals]] — the brand this funnels into
+- [[03-Areas/community/_index|HighSignals Community]] — HighSignals Community
+- [[03-Areas/academy/_index|Academy]] — the courses
+- [[03-Areas/scripnals/_index|Scripnals]] — the app
+- [[03-Areas/video-editing/_index|Video editing]] — the craft the brand is built on

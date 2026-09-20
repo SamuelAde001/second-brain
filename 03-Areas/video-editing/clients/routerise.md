@@ -20,19 +20,19 @@ tags: [client]
 - Long-form talking-head YouTube tutorials with a live screen-recorded demo section. The reference project (Alex/Frontal, B2B cold outreach) runs **~7–8 minutes**.
 - Longer-form content also produced under the Routerise name: *"How to Start an AI Ecommerce Brand in 2026"* (33:56 total) and a dropshipping video referred to as *"$0–10K Profit"* (33:46 total, cut sheet covers 21:39→end) and *"Claude Dropshipping Guide 2026"* (27:46).
 - So the account spans at least two content lines: B2B lead-generation/cold-outreach tutorials (Alex/Frontal) and AI-ecommerce/dropshipping tutorials — both built around screen-recorded demos of AI tools plus talking-head A-roll.
-- Full pipeline work: editing, Fusion graphics builds, and cut-sheet pre-production planning (shot-by-shot visual plans built before/alongside the cut). See [[../cut-sheets]].
+- Full pipeline work: editing, Fusion graphics builds, and cut-sheet pre-production planning (shot-by-shot visual plans built before/alongside the cut). See [[03-Areas/cut-sheets|Cut sheets]].
 
 ## Brief style
 
-needs-input — no source document describes how Alex/Routerise actually briefs Samuel for a new video (what arrives, how complete it is, what's missing). The closest material is the **cut sheets** Samuel himself builds against "the client's actual asset folder" (see [[../cut-sheets]]), which imply the client hands over raw footage/screen recordings plus a written script, and Samuel has to reconcile it — see "Quirks" below.
+needs-input — no source document describes how Alex/Routerise actually briefs Samuel for a new video (what arrives, how complete it is, what's missing). The closest material is the **cut sheets** Samuel himself builds against "the client's actual asset folder" (see [[03-Areas/cut-sheets|Cut sheets]]), which imply the client hands over raw footage/screen recordings plus a written script, and Samuel has to reconcile it — see "Quirks" below.
 
 ## Preferences
 
-- **Pacing / style:** cuts only, no transitions ever (confirmed zero dissolves/wipes across 503 clips in the reference project). A-roll cut to a ~2.4 s median, holding up to 11 s when a point earns it, machine-gunning sub-second cuts for emphasis. Full detail in [[../routerise-house-style]].
+- **Pacing / style:** cuts only, no transitions ever (confirmed zero dissolves/wipes across 503 clips in the reference project). A-roll cut to a ~2.4 s median, holding up to 11 s when a point earns it, machine-gunning sub-second cuts for emphasis. Full detail in [[03-Areas/routerise-house-style|Routerise house style]].
 - **Zooms:** **MagicZoom V3, never Dynamic Zoom.** Samuel's own words on this account: *"I prefer MagicZoom V3 instead of Dynamic Zoom, I use it for slow zooms, and quick punch ins and the speed and depth of the zoom differs in different contexts."*
-- **Captions/typography:** word-by-word animated text (NeoTextMotion / NeoAnim), ALL CAPS bold for chips and titles. Brand font is **Geist** (Alex's brand font — confirmed by Samuel, replacing the ad-hoc Open Sans seen in the first reference cut). Full detail in [[../routerise-house-style]].
+- **Captions/typography:** word-by-word animated text (NeoTextMotion / NeoAnim), ALL CAPS bold for chips and titles. Brand font is **Geist** (Alex's brand font — confirmed by Samuel, replacing the ad-hoc Open Sans seen in the first reference cut). Full detail in [[03-Areas/routerise-house-style|Routerise house style]].
 - **Music:** Epidemic Sound tracks, one track per script section/chapter, changing on the exact section boundary; level set once per track (−25 to −42 dB), never automated per clip.
-- **Graphics must be built as native Fusion nodes, not raster.** Dated rule from the TSB project: *"graphics are always nodes… No PNG sequences or rasterised graphics standing in for a visual"* — raster/PNG-sequence fallbacks from Samuel's compiler tooling were explicitly rejected as unacceptable output and had to be rebuilt as real node trees. (See [[../tsb-graphics-pipeline]] — note that document does not itself confirm it is Routerise work; flagged there.)
+- **Graphics must be built as native Fusion nodes, not raster.** Dated rule from the TSB project: *"graphics are always nodes… No PNG sequences or rasterised graphics standing in for a visual"* — raster/PNG-sequence fallbacks from Samuel's compiler tooling were explicitly rejected as unacceptable output and had to be rebuilt as real node trees. (See [[03-Areas/tsb-graphics-pipeline|Tsb graphics pipeline]] — note that document does not itself confirm it is Routerise work; flagged there.)
 - **B-roll sourcing:** real-world B-roll from **YouTube and TikTok only — no stock libraries** (stated house style on two separate cut sheets).
 - **Show over tell**, with explicit calls for when to cut back to A-roll (recurring instruction across cut sheets).
 - **Accent colour is per-client/per-brand**, not fixed: `#FF5A1F` for Frontal specifically; fill = accent × ~0.10, border = the accent itself.
@@ -65,22 +65,22 @@ needs-input — no source document describes how Alex/Routerise actually briefs 
 - **Footage often arrives incomplete.** Every cut sheet reviewed ends with a ranked "still needed from client" list (e.g. real UGC ad renders, Ads Manager screen capture with all columns on, community-platform screen capture, specific end-card videos) — getting a cut sheet approved does not mean the footage to execute it exists yet.
 - **Some assets are explicitly unverified and need confirming before use** — e.g. `mcp.facebook.com/ads` flagged in Alex's own script as unverified; must be confirmed before showing it "connect" on screen.
 - **Mic setup varies shoot to shoot without being a fixed rule.** Two separate lavalier files (`TX02_MIC012`, `TX02_MIC013`) turned up in one project's timeline — confirmed by Samuel to be "just whatever audio Alex supplied," not a deliberate two-mic convention.
-- **Camera audio is occasionally unusable.** On the 13 Sep shoot the camera's scratch audio was dead (flat noise floor at −62 dBFS, no speech), which breaks waveform sync entirely and forces a fallback motion-correlation sync method — see [[../sops/routerise-cut-workflow]].
+- **Camera audio is occasionally unusable.** On the 13 Sep shoot the camera's scratch audio was dead (flat noise floor at −62 dBFS, no speech), which breaks waveform sync entirely and forces a fallback motion-correlation sync method — see [[03-Areas/sops/routerise-cut-workflow|Routerise cut workflow]].
 - **Deadline pressure can override the usual Fusion-heavy approach** — the $0–10K back-half cut sheet explicitly notes "no complex Fusion work (deadline-constrained)" as a house-style adjustment for that specific cut.
 
 ## Work history
 
 Dates are not stated in the source documents except where noted; do not infer an order beyond what's given.
 
-- 2026-09-14 — house style study conducted against the reference project *"$7M Founder: How I Use Claude for Cold Outreach (B2B sales)"* (Alex/Frontal) — [[../routerise-house-style]], [[../fusion-node-system]]
-- date not stated — SOP for the cut workflow (sync → silence removal → transcribe → remove bad takes) established and written down, dated only as "Established 14 Sep 2026" — [[../sops/routerise-cut-workflow]]
-- 2026-09-19 — TSB graphics-pipeline work (Timeline 2, 3:06–10:40): native-Fusion rebuild of `lego2` and `accounts`, plus the wider raster→native-node conversion effort. **Client attribution for this document is itself unconfirmed** — see [[../tsb-graphics-pipeline]]
-- date not stated — cut sheet built for *Routerise "$0–10K Profit"* (back half, 21:39→33:46) — see [[../cut-sheets]]
-- date not stated — cut sheet built for *Routerise "How to Start an AI Ecommerce Brand in 2026"* (full video, 00:00→33:56) — see [[../cut-sheets]]
-- date not stated — visual-direction/gap-analysis pass on *"Claude Dropshipping Guide 2026"* against an approved reference cut of the same creator/style — see [[../cut-sheets]]
+- 2026-09-14 — house style study conducted against the reference project *"$7M Founder: How I Use Claude for Cold Outreach (B2B sales)"* (Alex/Frontal) — [[03-Areas/routerise-house-style|Routerise house style]], [[03-Areas/fusion-node-system|Fusion node system]]
+- date not stated — SOP for the cut workflow (sync → silence removal → transcribe → remove bad takes) established and written down, dated only as "Established 14 Sep 2026" — [[03-Areas/sops/routerise-cut-workflow|Routerise cut workflow]]
+- 2026-09-19 — TSB graphics-pipeline work (Timeline 2, 3:06–10:40): native-Fusion rebuild of `lego2` and `accounts`, plus the wider raster→native-node conversion effort. **Client attribution for this document is itself unconfirmed** — see [[03-Areas/tsb-graphics-pipeline|Tsb graphics pipeline]]
+- date not stated — cut sheet built for *Routerise "$0–10K Profit"* (back half, 21:39→33:46) — see [[03-Areas/cut-sheets|Cut sheets]]
+- date not stated — cut sheet built for *Routerise "How to Start an AI Ecommerce Brand in 2026"* (full video, 00:00→33:56) — see [[03-Areas/cut-sheets|Cut sheets]]
+- date not stated — visual-direction/gap-analysis pass on *"Claude Dropshipping Guide 2026"* against an approved reference cut of the same creator/style — see [[03-Areas/cut-sheets|Cut sheets]]
 
 ## Revisions log
 
 No revision requests are recorded in the source documents. needs-input if Samuel wants this tracked going forward.
 
-Back to [[_index]]
+Back to [[03-Areas/video-editing/_index|Video editing]]

@@ -25,16 +25,16 @@ Source: the HighSignals brand project instructions, Claude project created 2026-
 
 | Branch | Role | Area |
 |--------|------|------|
-| **HighSignals Academy** | Knowledge — teaches the skills | [[../academy/_index]] |
-| **HighSignals Community** | Accountability & relationships — where people implement | [[../community/_index]] |
-| **HighSignals Mentorship** | Personalised guidance — the premium tier, one-on-one with Samuel | [[../mentorship/_index]] |
-| **Scripnals** | Execution tool — the app (originally "HighSignals App") | [[../scripnals/_index]] |
+| **HighSignals Academy** | Knowledge — teaches the skills | [[03-Areas/academy/_index|Academy]] |
+| **HighSignals Community** | Accountability & relationships — where people implement | [[03-Areas/community/_index|HighSignals Community]] |
+| **HighSignals Mentorship** | Personalised guidance — the premium tier, one-on-one with Samuel | [[03-Areas/mentorship/_index|Mentorship]] |
+| **Scripnals** | Execution tool — the app (originally "HighSignals App") | [[03-Areas/scripnals/_index|Scripnals]] |
 
 **How they work together:** Academy (knowledge) → Community (implementation + accountability) → Mentorship (personalised direction) → App (daily execution). Every branch reinforces the same promise.
 
 ## Samuel's personal brand is NOT under HighSignals
 
-Confirmed by Samuel on 2026-09-20. [[../personal-brand/_index]] — Samuel himself, Instagram @SamuelSignals — sits **outside** HighSignals as a separate brand. The relationship is a funnel: the personal brand builds attention and trust and feeds people into HighSignals. Content made as Samuel is not HighSignals content, even when it points at HighSignals.
+Confirmed by Samuel on 2026-09-20. [[03-Areas/personal-brand/_index|Personal brand]] — Samuel himself, Instagram @SamuelSignals — sits **outside** HighSignals as a separate brand. The relationship is a funnel: the personal brand builds attention and trust and feeds people into HighSignals. Content made as Samuel is not HighSignals content, even when it points at HighSignals.
 
 ```
   @SamuelSignals (personal brand)
@@ -59,13 +59,13 @@ Structure, name meaning, mission and the relationship between branches are known
 
 ## Goals
 
-See [[goals]]. Not set yet.
+See [[03-Areas/highsignals/goals|Goals]]. Not set yet.
 
 ## Map of content
 
-- [[goals]] · [[decisions]] · [[log]] · [[ideas]]
-- Branches: [[../academy/_index]] · [[../community/_index]] · [[../mentorship/_index]] · [[../scripnals/_index]]
-- Outside the umbrella, feeding it: [[../personal-brand/_index]]
+- [[03-Areas/highsignals/goals|Goals]] · [[03-Areas/highsignals/decisions|Decisions]] · [[03-Areas/highsignals/log|Log]] · [[03-Areas/highsignals/ideas|Ideas]]
+- Branches: [[03-Areas/academy/_index|Academy]] · [[03-Areas/community/_index|HighSignals Community]] · [[03-Areas/mentorship/_index|Mentorship]] · [[03-Areas/scripnals/_index|Scripnals]]
+- Outside the umbrella, feeding it: [[03-Areas/personal-brand/_index|Personal brand]]
 
 ## Open questions
 

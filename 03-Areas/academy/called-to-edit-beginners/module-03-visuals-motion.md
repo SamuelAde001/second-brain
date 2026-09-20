@@ -13,7 +13,7 @@ Source's own module description: *"Five lessons and a live edit. Effects mindset
 
 Five lessons plus Live Edit 03. Two `[CHECK]` items unresolved (Lesson 16, Lesson 18) — see **Needs input** at the bottom.
 
-This module is the one flagged on [[_index]] as pushing past the stated Beginners/Advanced boundary — see "Where it stops" there. Lessons 17, 18 and 19 in particular (motion graphics, masking/blend modes/tracking, compositing) sit in territory [[../courses]] assigns to Advanced.
+This module is the one flagged on [[03-Areas/academy/_index|Academy]] as pushing past the stated Beginners/Advanced boundary — see "Where it stops" there. Lessons 17, 18 and 19 in particular (motion graphics, masking/blend modes/tracking, compositing) sit in territory [[03-Areas/courses|Courses]] assigns to Advanced.
 
 Lesson spine and shot-type definitions are in [[teaching-rules]].
 
@@ -196,4 +196,4 @@ Two `[CHECK]` tags in this module are unresolved CapCut PC workflow confirmation
 - **Lesson 16:** `[CHECK: curve speed panel on CapCut PC]` — the exact curve-based speed ramp UI to demo is not confirmed.
 - **Lesson 18:** `[CHECK: tracking behavior in current CapCut PC build]` — how mask tracking currently behaves on CapCut PC is not confirmed.
 
-Back to [[_index]]
+Back to [[03-Areas/academy/_index|Academy]]

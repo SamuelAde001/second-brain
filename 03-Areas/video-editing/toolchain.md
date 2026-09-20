@@ -47,4 +47,4 @@ A recurring habit worth knowing, because it changes how to answer him:
 
 Bluetooth audio trouble was traced to a counterfeit CSR8510 adapter. A TP-Link UB500 dongle was the fix, sourced locally in Abuja.
 
-Related: [[client-acquisition]]. Back to [[_index]]
+Related: [[client-acquisition]]. Back to [[03-Areas/video-editing/_index|Video editing]]

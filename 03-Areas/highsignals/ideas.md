@@ -15,4 +15,4 @@ Brand-level ideas. Status: **raw** / **shortlisted** / **used** / **dropped**.
 |------|------|--------|-----------------------|
 | — | — | — | — |
 
-Back to [[_index]]
+Back to [[03-Areas/highsignals/_index|HighSignals]]

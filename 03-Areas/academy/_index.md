@@ -11,7 +11,7 @@ tags: []
 
 ## What this is
 
-**HighSignals Academy** — the teaching branch of the HighSignals brand ([[../highsignals/_index]]). Three courses — Called to Create, Called to Edit Beginners, Called to Edit Advanced. Curriculum, platform, pricing, launch and student outcomes live here.
+**HighSignals Academy** — the teaching branch of the HighSignals brand ([[03-Areas/highsignals/_index|HighSignals]]). Three courses — Called to Create, Called to Edit Beginners, Called to Edit Advanced. Curriculum, platform, pricing, launch and student outcomes live here.
 
 ## Why it matters
 
@@ -25,7 +25,7 @@ The other two courses — Called to Create and Called to Edit Advanced — exist
 
 ## Goals
 
-See [[goals]]. Not set yet.
+See [[03-Areas/academy/goals|Goals]]. Not set yet.
 
 ## Map of content
 
@@ -33,7 +33,7 @@ See [[goals]]. Not set yet.
 - [[called-to-edit-beginners/_index|Called to Edit: Beginners]] — the full course: who it is for, the promise, the module map, where it stops
   - [[called-to-edit-beginners/teaching-rules|Teaching rules]] — the lesson spine, recording rules, shot types
   - Seven module notes: the editor's mindset · the cut · typography · visuals & motion · colour · audio & sound design · workflow & assets
-- [[ideas]] · [[decisions]] · [[log]] · [[goals]]
+- [[03-Areas/academy/ideas|Ideas]] · [[03-Areas/academy/decisions|Decisions]] · [[03-Areas/academy/log|Log]] · [[03-Areas/academy/goals|Goals]]
 
 ## Open questions
 
@@ -44,6 +44,6 @@ See [[goals]]. Not set yet.
 
 ## Related areas
 
-- [[../highsignals/_index]] — the umbrella
-- [[../community/_index]] · [[../mentorship/_index]] · [[../scripnals/_index]] — sister branches
-- [[../video-editing/_index]] — the craft being taught
+- [[03-Areas/highsignals/_index|HighSignals]] — the umbrella
+- [[03-Areas/community/_index|HighSignals Community]] · [[03-Areas/mentorship/_index|Mentorship]] · [[03-Areas/scripnals/_index|Scripnals]] — sister branches
+- [[03-Areas/video-editing/_index|Video editing]] — the craft being taught

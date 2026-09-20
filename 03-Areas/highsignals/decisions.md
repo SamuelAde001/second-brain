@@ -16,4 +16,4 @@ Append-only.
 **Why:** Samuel stated it directly on 2026-09-20, correcting both the build spec and his own earlier shorthand.
 **Who decided:** Samuel.
 
-Back to [[_index]]
+Back to [[03-Areas/highsignals/_index|HighSignals]]
