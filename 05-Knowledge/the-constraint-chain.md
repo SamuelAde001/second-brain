@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-20
+updated: 2026-09-21
 source: interview
 tags: [strategy, capacity]
 ---
@@ -49,8 +49,8 @@ His target for it is **60–80% of the editing work**. He also called it *"my mo
 - **The order matters.** Editing agent → hours → cadence → audience → course. Starting at the course end, with no hours freed, is what produced the 16 October beta that never happened.
 - **The failure mode is documented and recurring:** the thing with no external deadline is always the thing that gets cut. The client edit has a deadline; the course does not.
 
-## The honest caveat
+## The honest caveat — updated 2026-09-21
 
-This chain assumes the editing agent actually works. It does not exist yet, and step 6 of its plan — turning approved HTML visuals into Fusion comps on a real timeline — is unproven. **Until it is proven on one real video, the chain is a hypothesis with good evidence, not a plan.**
+This chain assumes the editing agent actually works. **Step 6 — turning visuals into editable Fusion comps on a real timeline — is no longer pure hypothesis:** on 2026-09-21 a house-style card was built programmatically as Fusion nodes on a duplicated timeline via the Resolve MCP and rendered over the footage ([[07-Agents/video-editor/profile|the agent]], [[07-Agents/video-editor/memory|its memory]]). That proves the *bridge*, not the *product* — one hand-specced card is not an approved storyboard rebuilt at the density of his own edit, and the shine layer (Fusion Instances + Neo* macros) is still unproven over the bridge. **Until the full pipeline runs on one real video end to end, the chain is a hypothesis with good evidence and one proven link, not yet a plan.**
 
 Related: [[03-Areas/video-editing/agent-plan|Agent plan]] · [[03-Areas/finances/income|Income]] · [[03-Areas/personal-brand/instagram-strategy|Instagram strategy]] · [[03-Areas/academy/academy|Academy]]

@@ -6,19 +6,19 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 ## Start here
 
-- **Phase:** 3 — the interview (Phases 0, 1 and 2 complete).
-- **Last session:** 2026-09-20. A long one — Phases 0–2 in full, plus three Phase 3 domains.
-- **Next action, recommended:** the **dedicated video-editing agent session** Samuel asked for. Brief: `03-Areas/video-editing/agent-plan.md`. The reasoning is in `05-Knowledge/the-constraint-chain.md` — it is the only intervention that adds hours rather than reallocating them, and every other area is downstream of it.
+- **Phase:** 3 (interviews) still open, and **Phase 4 has begun** — the first agent is built.
+- **Last session:** 2026-09-21. The dedicated video-editing agent session: built the **video-editor** agent skeleton and **proved step 6** (HTML→Fusion) live in Resolve.
+- **Next action, recommended:** continue the video-editor build — the **four job skills**, `routerise-cut` first (it encodes an existing SOP, so it is the most concrete), then the ideation/cut-sheet skill, `storyboard-preview`, `html-to-fusion`. Or run the next Resolve test (Instance nodes + Neo* macros, and `ImportFusionComp` with a generated `.setting`) — see [[07-Agents/video-editor/memory|the agent's memory]]. The honest goal is one real video through the whole pipeline.
 - **Otherwise:** continue Phase 3 interviews. Remaining domains: **scripnals · academy (paused, short) · mentorship · community (mostly captured) · relationships · me · book.**
 - **The biggest hole in the Brain is `02-Me`** — no values, principles, confirmed patterns, daily routine, planning cadence, accountability preferences, and **no goal ladder at all**.
 
-**14-day target for Phases 0–4:** 2026-10-04. Day 1 of 14 elapsed.
+**14-day target for Phases 0–4:** 2026-10-04. Day 2 of 14 elapsed.
 
 ---
 
 ## What exists now
 
-- **124 notes, 32 commits**, pushed to `https://github.com/SamuelAde001/second-brain` (private, branch `main`).
+- **~130 notes, 33 commits**, pushed to `https://github.com/SamuelAde001/second-brain` (private, branch `main`). (2026-09-21 added the first agent: `07-Agents/` roster, handoffs, and the `video-editor/` folder, plus the `.claude/agents/video-editor.md` wrapper.)
 - Brain path: `C:\Users\repzy\Desktop\My Second brain`. Outside OneDrive and Dropbox. Git identity: Samuel <repzysam@gmail.com>.
 - `.claude/settings.json` allows git add/commit/push/status/log/diff/ls-remote, and denies reads of `.env`, `*.key`, `credentials*.json`, `token*.json`.
 - **Terminology: it is "the Brain", never "the vault."**
@@ -101,3 +101,4 @@ Full records in `00-System/decisions.md`. The ones that matter most:
 - 2026-09-20 — Phase 3 finances interview: the engine's system imported as active; live Google Sheet read from Drive; logging rule changed; Rule 7 break absorbed.
 - 2026-09-20 — Phase 3 personal-brand interview: IG 460→671, TikTok 550→673 from "The Life of a Video Editor". Course paused. Teaching ended. `the-constraint-chain.md` written.
 - 2026-09-20 — Session ended at Samuel's request, limits nearly spent. Next session resumes from "Start here" above.
+- 2026-09-21 — Phase 4 opened: **video-editor agent** skeleton built (roster, handoffs, profile/memory/log, wrapper) — the first agent in the Brain. **Step 6 proven** in Resolve 21.1 via the MCP: an 8-node house-style card built on a duplicated timeline and rendered over the footage. Decided: the "ideation skill" doesn't exist yet (build it); OGraf HTML is a preview aid, not step-6 output. Left `Timeline 2 - CLAUDE AGENT TEST` in the reference project for Samuel to inspect. Next: the four job skills, `routerise-cut` first.

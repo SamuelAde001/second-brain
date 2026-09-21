@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-20
+updated: 2026-09-21
 source: manual
 tags: [systems]
 ---
@@ -12,6 +12,14 @@ tags: [systems]
 Every SOP, skill and automation in this Brain. If it is not here, it does not exist as a system.
 
 The ladder, lowest rung first: **SOP → checklist → skill → automation.** When a task has come up twice, propose the lowest rung that actually works, and build it only once Samuel agrees.
+
+## Agents
+
+| Agent | Owns | Wrapper | Status |
+|-------|------|---------|--------|
+| **video-editor** | The DaVinci Resolve editing pipeline + standing Resolve expertise | `.claude/agents/video-editor.md` → [[07-Agents/video-editor/profile\|profile]] | **skeleton built 2026-09-21**; step 6 proven; skills pending |
+
+Roster and planned agents: [[07-Agents/roster|roster]].
 
 ## SOPs and checklists — in the Brain
 
@@ -36,7 +44,18 @@ These four are **platform-provided plugin skills**, invoked by name in Claude Co
 
 ## Job skills — not built yet
 
-`brainstorm`, `plan`, `money-check`, `systemize`, `commit`, plus the editing job skills defined in the Phase 3 video-editing interview. Built in Phase 4.
+`brainstorm`, `plan`, `money-check`, `systemize`, `commit`. Built in Phase 4.
+
+**The video-editor's job skills**, one per pipeline step ([[07-Agents/video-editor/profile|profile]]):
+
+| Skill | Job | Plan |
+|-------|-----|------|
+| `routerise-cut` | Step 1 — cut from footage: sync → ripple silence → transcribe → remove bad takes. Encodes [[routerise-cut-workflow]]. | build |
+| ideation / cut-sheet | Step 4 — a visual per sentence as a full HTML cut sheet. **The "existing ideation skill" from the brief does not exist** (decided 2026-09-21); build it. | build |
+| `storyboard-preview` | Step 5 — approved storyboard as animated HTML/CSS for sign-off. | build |
+| `html-to-fusion` | Step 6 — approved visuals → editable Fusion comps on the timeline. **Bridge proven 2026-09-21.** | build |
+
+Reused as-is by the agent, not rebuilt: `subtitle-transcript-formatter` (step 3), `video-edit-pass` (step 2 / editorial), `edit-clock`.
 
 ## Automations — none
 

@@ -2,7 +2,7 @@
 type: decision
 area: system
 status: active
-updated: 2026-09-20
+updated: 2026-09-21
 source: manual
 tags: [decisions, system]
 ---
@@ -128,4 +128,12 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **The pattern across all three, stated once:** the two things that stopped were aimed at a general creator audience; the thing that grew was aimed at video editors. The audience has answered a question he was still deciding by committee.
 **The consequence, also stated once:** the finance system needs the course to carry ~NGN 42,530/month from January, and calls it the only income line he controls. Paused, that number has no source, and nothing has replaced it.
 **Who decided:** Samuel, 2026-09-20.
+
+## 2026-09-21 — The video-editor is the first agent; its skeleton is built and step 6 is proven
+**Decided:** the dedicated video-editing agent session (recommended next action from the 2026-09-20 build-state) runs first. Scope for this session, confirmed by Samuel: **skeleton + prove step 6** — build the agent's files and prove the risky HTML→Fusion bridge on a duplicated timeline, not the whole thing in one pass (his brief: *"not in one pass, and not tonight"*).
+**What was built:** `07-Agents/roster.md`, `handoffs.md`, and `07-Agents/video-editor/{profile,memory,log}.md`, plus the `.claude/agents/video-editor.md` wrapper. This is the **first agent in the Brain** and the pattern the others follow (AGENTS.md §7).
+**What was proven:** on a duplicate of `Timeline 2` in the reference project, an 8-node house-style card was built programmatically as **editable Fusion nodes** via the Resolve MCP (Resolve 21.1) and rendered over the footage. The step-6 bridge works. No live timeline was touched; Samuel's context was restored.
+**Decided along the way:** the "existing ideation skill" the brief refers to **does not exist yet** — the cut-sheet HTML process is it, to be built as a Brain skill. And OGraf HTML (new in Resolve 21) is a step-5 preview aid only, never step-6 output, because Samuel's rule is that visuals are always editable Fusion nodes.
+**Still unproven, logged for the next Resolve session:** Fusion **Instance** nodes and the Neo* third-party macros over the bridge (the shine layer), and `ImportFusionComp` with a generated `.setting`. Details in [[07-Agents/video-editor/memory|the agent's memory]].
+**Who decided:** Samuel, 2026-09-21.
 

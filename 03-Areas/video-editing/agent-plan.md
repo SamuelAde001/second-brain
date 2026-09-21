@@ -2,14 +2,16 @@
 type: knowledge
 area: video-editing
 status: active
-updated: 2026-09-20
+updated: 2026-09-21
 source: interview
 tags: [agents, automation]
 ---
 
 # The video editing agent — target design
 
-Samuel's own brief, 2026-09-20. **Not built yet — the agent has started nothing.** This note exists so the Phase 4 build has his actual intent in front of it, in his own terms.
+Samuel's own brief, 2026-09-20. This note exists so the build has his actual intent in front of it, in his own terms.
+
+**Build status — 2026-09-21:** the agent's skeleton exists — [[07-Agents/video-editor/profile|profile]], [[07-Agents/video-editor/memory|memory]], [[07-Agents/video-editor/log|log]], and the `.claude/agents/video-editor.md` wrapper. **Step 6 (HTML→Fusion) is proven** on a duplicated timeline (see below). The four job skills are not built yet.
 
 > **"The video editing agent is my most important agent in this whole second brain."**
 
@@ -59,10 +61,12 @@ The agent carries a skill per part of the work: cutting, transcription, ideation
 
 Samuel's instruction: **not in one pass, and not tonight.** A dedicated session on the video-editing agent, fine-tuning the process heavily. This note is the starting brief for that session, not the finished design.
 
-## Open before building
+## Open before building — updated 2026-09-21
 
-- Which existing skill is "the ideation skill" — confirm by name.
-- How the agent drives Resolve: the DaVinci Resolve MCP is connected, so the cut in step 1 and the comps in step 6 are scriptable. Needs a real test on a copy of a timeline.
-- **Rule already on file:** duplicate the timeline before any agent touches it ([[ways-of-working]]).
+- ~~Which existing skill is "the ideation skill"~~ — **resolved 2026-09-21: it doesn't exist yet.** The cut-sheet HTML process ([[ways-of-working]], [[cut-sheets]]) is it, to be built as a Brain skill this phase.
+- ~~How the agent drives Resolve — needs a real test on a copy of a timeline.~~ **Proven 2026-09-21.** Resolve **21.1** via the MCP; `resolve` is the entry point. On a duplicate of `Timeline 2`, an 8-node house-style card (RectangleMask fill + border, ALL-CAPS Text+, single merge spine, type-inclusive names) was built programmatically and rendered over the footage. Mechanics: [[07-Agents/video-editor/memory|the agent's memory]]. The graph is on `Timeline 2 - CLAUDE AGENT TEST` to inspect.
+- **Rule confirmed in practice:** duplicate the timeline before any write ([[ways-of-working]]). The reference project already keeps a "BACKUP before Claude" — same instinct.
+- **Still unproven:** true Fusion **Instance** nodes and the third-party macros (NeoLightSweep Pro, NeoBevel, etc.) over the bridge — the card's shine layer. And `ImportFusionComp` with a generated `.setting`/`.comp` (his paste method, automated). These are the next Resolve tests.
+- **New since the brief:** Resolve 21 added **native OGraf HTML graphics** — a possible fast path for step 5's preview, but it renders HTML, not editable nodes, so it can't be step 6's output.
 
 Related: [[workflow]] · [[ways-of-working]] · [[fusion-recipes]] · [[cut-sheets]]. Back to [[03-Areas/video-editing/video-editing|Video editing]]
