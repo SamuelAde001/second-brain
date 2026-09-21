@@ -36,6 +36,15 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
 ## 2026-09-21 — Resolve 21 changed the HTML→Fusion picture
 `get_whats_new since=20.0`: Resolve 21 (2026-06-03) added **native OGraf HTML graphics** and **native Lottie** on the Edit and Fusion pages, a **new Macro Editor** (publish Fusion macros to edit effects), **Krokodove + 100+ motion-graphics tools**, and new scripting APIs (timeline clip selection, get-timeline-from-mediapool-entry in 21.0.4, Speech Generator, IntelliSearch, speaker detection, disable-all-background-tasks). OGraf is a **preview** path only — it renders HTML, not editable nodes — so it does not replace step 6, but it may accelerate step 5. Test before relying on it.
 
+## 2026-09-21 — Sync (SOP step 1) proven on real footage; ffmpeg installed
+
+Test project **"Claude tests"** (Samuel's dedicated test project), footage at `C:\Users\repzy\Desktop\Video edits\Routerise\1. Taking a step back from Claude (and why you should too)\`.
+
+- **`MediaPool.AutoSyncAudio(...AUDIO_SYNC_WAVEFORM)` returns `False` when the camera scratch audio is dead.** Verified: camera track −77.8 dB mean / no speech; mic −29.8 / −4.9. Both clip orders returned False. Treat `False` as "camera audio unusable → go to motion sync", not as a bug. Settings keys: `resolve.AUDIO_SYNC_MODE`, `AUDIO_SYNC_RETAIN_EMBEDDED_AUDIO`, `AUDIO_SYNC_CHANNEL_NUMBER`, `AUDIO_SYNC_RETAIN_VIDEO_METADATA`; modes `AUDIO_SYNC_WAVEFORM/TIMECODE/IN/OUT/MARKER`.
+- **Motion-correlation fallback works:** video motion (ffmpeg `tblend=all_mode=difference`+`signalstats` YAVG @20Hz, `-hwaccel cuda`) × mic RMS envelope (@20Hz from `-ar 2000 -f s16le`), plain-Python FFT cross-correlation. Result **+4.000 s ≈ 120 frames @ 29.97, z = 7.6** — matches the SOP's prior ~4.17 s / 125 frames for this shoot. Script: `motion_sync2.py` in this session's scratchpad (fold into the `routerise-cut` skill). **Only the first 6 min needed** — the offset is one constant; align a section, the whole clip follows (Samuel's rule).
+- **ffmpeg installed** 2026-09-21: Gyan build **9.0.1** via winget (`Gyan.FFmpeg`), at `C:\Users\repzy\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_..._8wekyb3d8bbwe\ffmpeg-9.0.1-full_build\bin\`. Not on the default shell PATH. **No ffmpeg/numpy/scipy before this**; stock Python 3.14 only. When the agent runs as a subagent, this media folder needs a grant in `.claude/settings.json` (AGENTS.md §10) — not granted yet.
+- **Not yet done:** ear-check the +4.0 s on a timeline; decide how to *apply* the offset (media-pool linked audio vs. mic on A1 at the offset, per the SOP target: A-roll V1, mic A1 at +6 dB).
+
 ## Open, to verify next
 - `ImportFusionComp(path)` with a Python-generated `.comp`/`.setting` file — his actual "paste `.setting`" method, automated. Not yet tested; would sidestep per-input datatype fiddliness.
 - Whether NeoLightSweep Pro / the Neo* macros can be instantiated via `AddTool` or only via paste-from-`.setting`.

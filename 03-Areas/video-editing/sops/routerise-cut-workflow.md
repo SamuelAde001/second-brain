@@ -3,7 +3,7 @@ type: sop
 area: video-editing
 status: active
 source: claude-export
-updated: 2026-09-20
+updated: 2026-09-21
 tags: [sop, routerise]
 ---
 
@@ -29,6 +29,15 @@ tags: [sop, routerise]
      `MediaPool.AutoSyncAudio([video, audio], {"syncMode": resolve.AUDIO_SYNC_WAVEFORM})`.
    - If the camera audio is dead (happened on the 13 Sep shoot — flat noise floor at −62 dBFS, no speech at all): waveform sync is impossible. Measure the offset from picture instead: decode the A-roll to a small grayscale crop of the head, take the mean absolute inter-frame difference as a motion signal, and cross-correlate it against the mic's speech envelope. On that take this gave a single clean correlation peak at z = 14.8, landing on exactly 125 frames @ 29.97 (4.1708 s).
    - **Never derive the offset from file clock times.** The DJI mic clock and the Sony camera clock run ~143 s apart — on the 2 Sep shoot the filenames predicted the mic starting 108 s *after* the camera, when the real synced timeline had it starting 34.9 s *before*.
+
+   ### Verified in practice — 2026-09-21 (project "Claude tests")
+   The decision tree, run end to end and confirmed on the 13 Sep shoot (`C0785-001.MP4` + `TX02_MIC015…184035.wav`):
+   1. **Try DaVinci's scriptable waveform sync first** — `MediaPool.AutoSyncAudio([video, mic], {resolve.AUDIO_SYNC_MODE: resolve.AUDIO_SYNC_WAVEFORM})`. It **returned `False`** here (both clip orders). A `False` return is itself the dead-camera-audio signal — treat it as "fall through to motion sync", not as an error.
+   2. **Confirm why (optional):** `ffmpeg volumedetect` on the camera track read **mean −77.8 dB / max −60.8 dB** — no speech — vs the mic at −29.8 / −4.9. Dead scratch audio, exactly as this SOP anticipated.
+   3. **Motion-correlation fallback (the one that worked):** offset = **+4.000 s ≈ 120 frames @ 29.97**, peak **z = 7.6** — consistent with the prior measurement for this shoot (~4.17 s / 125 frames). Positive = the mic started *before* the video by that much.
+   - **You do not need the whole clip.** Analysing the **first ~6 minutes** of each stream was enough; the sync offset is a single constant, so aligning one good section aligns the entire clip. (Samuel's rule, 2026-09-21.)
+   - **Reproducible implementation** (no numpy): `ffmpeg` extracts a 20 Hz motion signal — `fps=20,scale=32x18,format=gray,tblend=all_mode=difference,signalstats,metadata=print` (YAVG per frame = mean abs inter-frame diff), GPU-decoded with `-hwaccel cuda` (~1 min for 6 min of 4K). The mic envelope is 20 Hz RMS from `-ar 2000 -f s16le`. Cross-correlate with a plain-Python FFT; the peak lag is the offset. Script kept at the agent's build scratch; fold into the `routerise-cut` skill. `ffmpeg` is Gyan build 9.0.1, installed 2026-09-21.
+   - **Still open:** apply the +4.0 s offset on a timeline and ear-check it; and decide how the skill *applies* the offset (media-pool linked audio vs. placing the mic on A1 at the computed offset). Next session.
 
 2. **Ripple Delete Silence** — a waveform pass, before anything else.
    - Menu path: `Clip > Audio Operations > Ripple Delete Silence…` — **not** under Timeline > Audio, **not** under Timeline > AI Tools, and **not** in the timeline clip right-click menu. The dialog that opens is titled **Remove Silence**.
