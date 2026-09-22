@@ -61,6 +61,7 @@ The 2026-08-26 order was editing · course · content. **The course is not in th
 ### Outside the Big 3
 - **The course** — paused ([[03-Areas/academy/academy|Academy]]). It is still in the 12-month picture ("courses making money").
 - **Scripnals** — the developers are still building it for free. *"The app is starting to actually take good shape"* and may be tested by people this year. [[03-Areas/scripnals/scripnals|Scripnals]].
+- **The book** — a book about visibility, to be *"finished by this time next year"* (said 2026-09-22, so about 2027-09). Nothing written yet. [[03-Areas/book/book|Book]].
 
 ## Not set yet
 
