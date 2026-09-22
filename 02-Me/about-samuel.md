@@ -58,14 +58,25 @@ Now in [[health]] and [[daily-routine]] (confirmed 2026-09-22). From the memory 
 - [[story]] — the soldier-to-creator arc, as far as the sources tell it
 - [[how-to-work-with-me]] — tone, boundaries, what he wants from an agent
 - [[patterns]] — the five failure patterns, confirmed by Samuel 2026-09-22
-- [[daily-routine]] — the day's anchors and his habits, confirmed 2026-09-22
+- [[daily-routine]] — the day's anchors and his habits, energy (mornings best), and what a good week looks like. Confirmed 2026-09-22
 - [[spirit]] — time with God daily, 7/7; the prayer block as an anchor; the Sunday rule
 - [[stakes-and-accountability]] — the risk, the fear, what agents do (remind him of goals and stakes), and what accountability mechanisms failed
-- [[02-Me/goals/goal-ladder|Goal ladder]] — the 12-month picture, the Big 3 and per-domain targets, confirmed 2026-09-22. Starts at 12 months by his choice; no quarter goals yet.
+- [[02-Me/goals/goal-ladder|Goal ladder]] — the 12-month picture, the Big 3 and per-domain targets, confirmed 2026-09-22. Starts at 12 months by his choice. The Q4 2026 goals are the two December targets.
 
-## Still missing entirely
+## Values
 
-Values · principles · energy peaks · what a good week looks like. Quarter goals do not exist yet. (Sleep, routine, planning times, patterns, goals, stakes and faith were filled 2026-09-22 from the engine's context files, checked with Samuel.)
+Samuel, 2026-09-22:
+
+- **He refuses to be mediocre.** His words: *"I don't like to be mediocre."*
+
+That's the only value he has named so far. It fits what he already asks of agents: only shipping counts ([[how-to-work-with-me]]).
+
+## Still missing
+
+- **Principles.** Asked 2026-09-22 and skipped (open question 73).
+- More values, if he names them.
+
+Filled 2026-09-22: energy peaks and what a good week looks like are in [[daily-routine]]. Quarter goals are in the [[02-Me/goals/goal-ladder|Goal ladder]]. Sleep, routine, planning times, patterns, goals, stakes and faith were filled earlier the same day from the engine's context files, checked with Samuel.
 
 ## Related
 

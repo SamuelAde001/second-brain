@@ -85,4 +85,5 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 70 | Mentorship is now the January 2027 income line (~NGN 42,530/month). When does it start charging, at what price, and what's the offer? It has 3 unpaid mentees and a webinar that isn't planned yet. | mentorship, finances | 2026-09-22 | Emergency fund from January | — |
 | 71 | HighSignals "new system" from 2027: what is it, does it replace the ascension model, and where do the new video-editing community, the rebuilt DaVinci course, paid mentorship and Scripnals sit in it? | highsignals | 2026-09-22 | HighSignals goals | — |
 | 72 | The book: does "finished by this time next year" mean the manuscript is complete, or the book is published? And where do the writing hours come from? | book | 2026-09-22 | Book plan | — |
+| 73 | Samuel's principles, his own "I always… / I never…" rules. Asked 2026-09-22 and skipped. Only one value is named so far (refuses to be mediocre). | me | 2026-09-22 | Not blocking | — |
 

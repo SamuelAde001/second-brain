@@ -42,6 +42,26 @@ The day's tasks live in TickTick, not here.
 
 11:00pm to 6:00am is 7 hours — exactly his sleep floor ([[health]]), with no buffer: the phone cut-off and bedtime are now the same time, and both hold only some nights. Late nights are the upstream cause of P4 in [[patterns]].
 
+## Energy
+
+Samuel, 2026-09-22:
+
+- **Morning is his best work time.**
+- **Afternoons and evenings are low energy.**
+- **Energy is higher when no client task is pending.** In his words: *"more energy is usually when I don't have a client task pending holding my neck."*
+
+**How that maps onto the day, stated once:** client work takes the whole peak (7:00am–1:00pm). Content gets the two low-energy slots (3:00–4:30pm and 7:00–9:00pm). And an unfinished client task drains whatever energy is left. So content always runs on his weakest hours. See [[05-Knowledge/the-constraint-chain|The constraint chain]].
+
+## A good week
+
+Samuel, 2026-09-22: *"A good week has client work all done, with free days to do my content and other stuffs in my life."*
+
+- **The bar:** all client work delivered.
+- **The reward:** whole free days for content and the rest of his life, not just leftover evening hours.
+- He named no bare minimum below that.
+
+Both answers point at the same lever: getting client work done faster frees the mornings and the days. That's what [[03-Areas/video-editing/agent-plan|the video-editing agent]] is for.
+
 ## Related
 
 - [[patterns]] — P4, the day is lost in the morning

@@ -63,9 +63,19 @@ The 2026-08-26 order was editing · course · content. **The course is not in th
 - **Scripnals** — the developers are still building it for free. *"The app is starting to actually take good shape"* and may be tested by people this year. [[03-Areas/scripnals/scripnals|Scripnals]].
 - **The book** — a book about visibility, to be *"finished by this time next year"* (said 2026-09-22, so about 2027-09). Nothing written yet. [[03-Areas/book/book|Book]].
 
+## This quarter — Q4 2026, to 2026-12-31
+
+Only two targets land this quarter, both set earlier:
+
+| Target | By | Where |
+|---|---|---|
+| NGN 1,000,000 for the house | 2026-12-31 | [[03-Areas/finances/finances-goals\|Finances goals]] |
+| 5,000 followers | December 2026 | Content creation, above |
+
+Asked on 2026-09-22 whether anything else has to be true by year-end, Samuel said: *"If there is any thing new I would let you know."* So nothing else is set.
+
 ## Not set yet
 
-- **Quarter goals.** Nothing between the 12-month picture and the week.
 - 3-year and 10-year horizons — deliberately skipped (above).
 
 ## Related
