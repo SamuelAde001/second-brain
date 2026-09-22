@@ -46,7 +46,7 @@ He chose what it holds him to, how hard, and the cost. All three are in [[06-Log
 |---|---|---|
 | **Daily must-dos** | every must-do agreed at the night plan (at most three) is completed that day | TickTick completions |
 | **Client deadlines & hours** | the client hours planned for the day are done, and no client deadline passes undelivered | a focus record, or his answer at the night plan; TickTick 📹 Video editing and [[03-Areas/video-editing/delivered-projects\|delivered projects]] |
-| **Start by 7:00am** | client work started by 7:00am | a TickTick focus session started by 7:00am, or his answer at the night plan. No answer means unknown, not a miss |
+| **Start by 7:00am** | client work started by 7:00am; on a content day (no client work), the first work block started by 7:00am (*"7am for content days too"*, 2026-09-22) | a TickTick focus session started by 7:00am, or his answer at the night plan. No answer means unknown, not a miss |
 
 **The check runs every night in `night-plan`.** He chose no extra check-ins during the day.
 
