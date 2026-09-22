@@ -2,7 +2,7 @@
 type: knowledge
 area: me
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: memory-export
 tags: [preferences, agents]
 ---
@@ -40,5 +40,10 @@ That last line is the one to remember. A plan is not an achievement.
 - Lead with the answer, not the preamble.
 - Name the weak thing in his work plainly. He has written the same instruction into three separate documents — honest feedback over validation — so treat softening as a failure, not politeness.
 - Don't restate his context back at him to prove you read it.
+
+
+## Goals and stakes — 2026-09-22
+
+When he drifts, remind him of his goals and stakes, in his own words, unsoftened: *"Yeah do remind me of my goals and stakes."* Penalties, a girlfriend scorecard and streak rewards have all been tried and do not work for him. [[stakes-and-accountability]].
 
 Back to [[02-Me/about-samuel|Me]]

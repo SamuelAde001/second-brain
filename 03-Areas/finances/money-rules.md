@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: legacy-accountability-engine
 tags: [rules, money]
 ---
@@ -83,6 +83,6 @@ The August building payment dropped from NGN 500,000 to NGN 200,000 as a direct 
 
 ## Still unenforced
 
-There is **no consequence for breaking the savings rule.** Open since 2026-08-26. Rule 1 has no teeth, and September proved it when Rule 7 broke with nothing following.
+There is **no consequence for breaking the savings rule.** Open since 2026-08-26. Rule 1 has no teeth, and September proved it when Rule 7 broke with nothing following. **Answered 2026-09-22:** asked what breaking it costs, Samuel: *"It cost me financial stability and security."* A natural cost, not an enforced penalty. Self-enforced penalties *"don't work"*; a better consequence may come later ([[stakes-and-accountability]]).
 
 Related: [[pots-and-accounts]] · [[income]] · [[obligations]] · [[budget-system]]. Back to [[03-Areas/finances/finances|Finances]]

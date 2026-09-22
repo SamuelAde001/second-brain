@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: legacy-accountability-engine
 tags: []
 ---
@@ -35,7 +35,7 @@ Every naira in and out logged daily. **Zero unlogged days** — seven rows in th
 
 ## Cost of breaking it
 
-**No enforced consequence exists.** Open since 2026-08-26. Rule 1 has no teeth, and September proved it: Rule 7 broke and nothing followed.
+**No enforced consequence exists.** Open since 2026-08-26. Rule 1 has no teeth, and September proved it: Rule 7 broke and nothing followed. **Answered 2026-09-22:** asked what breaking it costs, Samuel: *"It cost me financial stability and security."* A natural cost, not an enforced penalty. Self-enforced penalties *"don't work"*; a better consequence may come later ([[stakes-and-accountability]]).
 
 ## Goal 2 is knife-edge, and here is why
 

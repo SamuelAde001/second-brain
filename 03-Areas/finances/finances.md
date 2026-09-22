@@ -2,7 +2,7 @@
 type: area
 area: finances
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: legacy-accountability-engine
 tags: []
 ---
@@ -61,7 +61,7 @@ See [[03-Areas/finances/finances-goals|Goals]] — NGN 1,000,000 by 31 Dec 2026,
 - **Nothing captures videos delivered.** Income is unknowable until he counts them at invoice time — see [[income]]. One line per delivered video would fix it.
 - Who is **Mshel**, and what was invoice DSG-2026-001 for (NGN 1,397,500, 2026-08-20)? **He does not remember.** It appears nowhere in the engine's income record, which names Route Rise as his only payer.
 - **What counts as a "major" spend.** The new logging rule turns on it and no threshold is set.
-- **The consequence for breaking the savings rule.** Still unenforced, open since 2026-08-26 — the one question from this interview Samuel did not answer.
+- **The consequence for breaking the savings rule.** Still unenforced, open since 2026-08-26 — the one question from this interview Samuel did not answer. **Answered 2026-09-22:** asked what breaking it costs, Samuel: *"It cost me financial stability and security."* A natural cost, not an enforced penalty. Self-enforced penalties *"don't work"*; a better consequence may come later ([[stakes-and-accountability]]).
 - TIN and a standard payment term for invoices.
 - The wedding's actual cost. He pays, alone, and no figure exists yet — so Goal 2's NGN 3M is a chosen target, not a costed one.
 - Whether any of the September unassigned NGN 57,532 survived to month end.
