@@ -209,9 +209,16 @@ def skill_files(skill_dir):
     return out
 
 
+def runs_as_main_session(profile):
+    """True for a profile the main session plays (the orchestrator). Subagents cannot launch subagents,
+    so such a profile gets no native subagent file. It is still validated."""
+    b, *_ = read_profile(profile)
+    return "runs-as" in b and fm_value(b["runs-as"]) == "main-session"
+
+
 def expected():
     out = {}
-    profiles = sorted(AGENTS_DIR.glob("*/profile.md"))
+    profiles = sorted(p for p in AGENTS_DIR.glob("*/profile.md") if not runs_as_main_session(p))
     skills = sorted(p for p in SKILLS_DIR.iterdir() if p.is_dir())
     for tname, t in TARGETS.items():
         for profile in profiles:

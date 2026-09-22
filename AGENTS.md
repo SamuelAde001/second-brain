@@ -105,7 +105,7 @@ An agent reads its own `profile.md` and `memory.md` before acting, and logs ever
 - Subagents report to the orchestrator; they do not message each other.
 - Cross-domain work goes through `07-Agents/handoffs.md`: date · from · to · request · status · link to result.
 
-Built so far: **video-editor** (2026-09-21). The rest are Phase 4 — see the roster.
+Built so far: **video-editor** (2026-09-21) and **orchestrator** (2026-09-22). The orchestrator is the main session's role, not a subagent (`runs-as: main-session`), because subagents can't launch subagents. The rest are Phase 4 — see the roster.
 
 ## 8. Skills
 
@@ -138,5 +138,5 @@ The Brain is model-agnostic: any AI Samuel links can use it. The contract, the t
 
 ## 12. Session protocol (any AI)
 
-Start: read `00-System/build-state.md`, then this file. State the current phase, the last completed step, the next step. Continue.
+Start: read `00-System/build-state.md`, then this file. **The main session is the orchestrator:** follow `07-Agents/orchestrator/profile.md` and its `memory.md`. State the current phase, the last completed step, the next step. Continue.
 End: update build-state, commit, push (primary only), and one line on what happens next session.

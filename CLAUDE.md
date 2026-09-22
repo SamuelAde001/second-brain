@@ -7,7 +7,7 @@ Everything that governs behaviour is in AGENTS.md above, and the Brain is model-
 Claude Code is the **primary** AI in this Brain (portability.md → write tiers).
 
 ## Generated files — do not edit by hand
-- `.claude/agents/<name>.md` — generated from `07-Agents/<name>/profile.md`.
+- `.claude/agents/<name>.md` — generated from `07-Agents/<name>/profile.md`. Except the orchestrator (`runs-as: main-session`): it is this session's own role, so it has no adapter.
 - `.claude/skills/<name>/SKILL.md` (+ its files) — generated from `00-System/skills/<name>/`.
 - Regenerate after any profile or skill change: `python 00-System/scripts/build_adapters.py`. Check with `--check` before committing.
 - Profiles use neutral names; the script maps them. Tiers: `light` → haiku, `standard` → sonnet, `strong` → opus. Tools: `read`, `write`, `shell`, `send-file`, `web`, `mcp:<server>:<tool>` → Claude Code tool names. Maps live at the top of the script.

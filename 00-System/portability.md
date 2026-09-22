@@ -85,7 +85,7 @@ A tool without a capability falls back in plain terms: no `send-file` → give t
 
 ## Running agents and skills on any AI
 
-- **Agent:** read `07-Agents/<name>/profile.md`, then `memory.md`, and act within the profile. Log to `log.md`. That is the whole protocol. A tool's native subagent is a convenience generated from the profile.
+- **Agent:** read `07-Agents/<name>/profile.md`, then `memory.md`, and act within the profile. Log to `log.md`. That is the whole protocol. A tool's native subagent is a convenience generated from the profile. **Exception: the orchestrator** (`runs-as: main-session`) is the role the main session plays, so it never gets a subagent file.
 - **Skill:** read `00-System/skills/<name>/<name>.md` and follow it. Its scripts and assets sit beside it. Claude Code and Gemini CLI get generated copies (`.claude/skills/`, `.agents/skills/`) so they can auto-trigger.
 - **Tool scoping is enforced only through a native subagent** — Claude Code and Gemini CLI give a generated subagent exactly its `tools:` list. An AI running an agent straight from the profile is on honour-system: it must obey the limits as written.
 

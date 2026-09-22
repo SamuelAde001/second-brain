@@ -17,6 +17,7 @@ The ladder, lowest rung first: **SOP → checklist → skill → automation.** W
 
 | Agent | Owns | Profile → generated adapter | Status |
 |-------|------|---------|--------|
+| **orchestrator** | Routing, merging, the session protocol. The default entry point | none — runs as the main session → [[07-Agents/orchestrator/profile\|profile]] | **built 2026-09-22** |
 | **video-editor** | The DaVinci Resolve editing pipeline + standing Resolve expertise | `.claude/agents/video-editor.md` → [[07-Agents/video-editor/profile\|profile]] | **skeleton built 2026-09-21**; step 6 proven; skills pending |
 
 Roster and planned agents: [[07-Agents/roster|roster]].

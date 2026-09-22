@@ -150,3 +150,11 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Alternatives rejected:** symlinks from `.claude/` to canonical files (unreliable on Windows and in git without Developer Mode); thin pointer adapters (every Claude invocation pays an extra file read); adapters written now for tools not yet linked (their formats unverified — added per tool at link time).
 **Suggestion, not Samuel's decision:** a newly linked AI is a *guest* (inbox + logs, `[<tool>]` commit prefix) until he says otherwise. This extends the existing Gemini overflow rule; he can change any AI's tier.
 **Who decided:** Samuel set the goal, 2026-09-22. The mechanism is the build's.
+
+## 2026-09-22 — The orchestrator is the main session, not a subagent
+
+**What:** `07-Agents/orchestrator/` built: profile, memory and log. The profile carries `runs-as: main-session`. `build_adapters.py` still validates it but generates **no** subagent file for it. AGENTS.md §12 now tells every AI's main session to follow the orchestrator profile. `06-Logs/commitments.md` created, since AGENTS.md §9 names it and it didn't exist.
+**Why:** in Claude Code, a subagent can't launch another subagent. An orchestrator subagent could never route to `video-editor`, so the role has to be played by the session Samuel is talking to. That is also how any AI without native subagents runs it, so the design is the same everywhere.
+**Alternatives rejected:** a generated `.claude/agents/orchestrator.md`. It would show up as a choosable subagent that can't do its one job.
+**Routing until the other agents exist:** the orchestrator works the finance, personal-life and content domains itself, from the area notes. Table in the [[07-Agents/orchestrator/profile|profile]].
+**Who decided:** the build (Phase 4, "orchestrator next" in build state). Mechanism only. No change to anything Samuel decided.
