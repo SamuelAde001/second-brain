@@ -256,3 +256,19 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Limit, stated once:** it runs only while the app is open. If the app is closed, it runs at the next launch.
 
 **Who decided:** Samuel asked for the routine. The time comes from his own rule. The mechanism is the build's.
+
+## 2026-09-22 — Personal-life agent built, with three routines
+
+**Samuel:** *"I want to plan things a night before the next day, and all the other things you mensioned"* · *"It can do everything on ticktick and even google calender"* · *"Yes a morning brief routine"* · weekly review *"Yes"* · focus and habits *"Yes"* · *"Tick tick is my main schedule but sometimes some things are needed to be on calender also like meetings"*. Times he picked: night plan 8:45pm, morning brief 6:30am, weekly review "Sunday 3:00pm, merged" into the money check session.
+
+**What:** `07-Agents/personal-life/` (profile, memory, log). Skills `night-plan`, `morning-brief`, `weekly-review`. Scheduled tasks `night-plan` and `morning-brief` in the Claude desktop app, plus `sunday-money-check` extended to run the review after the money check. Canonical notes are in `00-System/automations/`.
+
+**Runs in the main session (`runs-as: main-session`), not as a subagent:** every job needs his answer in the moment, and a subagent can't ask. `build_adapters.py` generates no adapter for it.
+
+**Permissions:** full write to TickTick and Google Calendar without asking each time. Three things still need his word each time: deleting (AGENTS.md rule 1), inviting anyone to an event (it sends email on his behalf), and writing on the joint calendar (it's shared with another person). Routines propose, and write only after he answers. That line is the build's reading of his words: a plan he hasn't seen shouldn't overwrite his TickTick.
+
+**Build defaults he can change:** at most three must-dos a day, and at most three outcomes a week. A short daily note (`06-Logs/daily/`) records what was planned and done, so the weekly review can compare them without a copy of the task list in the Brain. Meetings go in both TickTick and his primary calendar.
+
+**Cron offsets:** the app adds a fixed delay per task (10m48s for night-plan, 9m32s for morning-brief). The crons are set at 8:35pm and 6:21am so the runs land at 8:45pm and 6:30am.
+
+**Who decided:** Samuel for the jobs, the access and the times. The build for the mechanism and the defaults.

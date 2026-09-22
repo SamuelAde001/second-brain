@@ -36,7 +36,7 @@ Start at the area's overview note (AGENTS.md §3). Then:
 |---|---|---|
 | Client editing, DaVinci Resolve, Fusion, a Routerise/Alex video | **video-editor** — built ([[07-Agents/video-editor/profile\|profile]]) | — |
 | Money: spending, income, pots, rules, the sheet | **finance** — built ([[07-Agents/finance/profile\|profile]]). Conversations (`payday`, `budget`, "can I afford") run here in the main session with its profile loaded. Totals, reconciling and scenarios go to the subagent | — |
-| Tasks, schedule, focus | personal-life — planned | The orchestrator uses TickTick via [[00-System/ticktick-map\|the TickTick map]] |
+| Tasks, schedule, focus, Google Calendar, planning a day or a week | **personal-life** — built ([[07-Agents/personal-life/profile\|profile]]). Runs in the main session with its profile loaded (`runs-as: main-session`), like finance's conversations | — |
 | Scripts, @SamuelSignals content, the brand | content — planned | The orchestrator works it from [[03-Areas/personal-brand/personal-brand\|Personal brand]] |
 | HighSignals and its branches, the book, relationships, `02-Me`, the Brain's own build and structure | **orchestrator** | — |
 
@@ -83,7 +83,7 @@ Read, write, shell, send-file, web. TickTick through its MCP server. The tool's 
 ## Must ask Samuel before
 
 - Deleting anything, overwriting existing content, or rewriting history (AGENTS.md rule 1).
-- Writing to TickTick when he hasn't asked for it in this session. No automation writes there yet.
+- Writing to TickTick or Google Calendar outside the personal-life agent's rules. As personal-life it writes freely, except deleting, inviting anyone, or the joint calendar ([[07-Agents/personal-life/profile|profile]] → permissions, Samuel 2026-09-22).
 - Sending anything on his behalf, or sending Brain content to a service it hasn't gone to before (for example, the first Gemini test).
 - Turning a suggestion into a decision (AGENTS.md rule 7).
 

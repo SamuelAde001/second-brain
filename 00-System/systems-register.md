@@ -20,6 +20,7 @@ The ladder, lowest rung first: **SOP → checklist → skill → automation.** W
 | **orchestrator** | Routing, merging, the session protocol. The default entry point | none — runs as the main session → [[07-Agents/orchestrator/profile\|profile]] | **built 2026-09-22** |
 | **video-editor** | The DaVinci Resolve editing pipeline + standing Resolve expertise | `.claude/agents/video-editor.md` → [[07-Agents/video-editor/profile\|profile]] | **skeleton built 2026-09-21**; step 6 proven; skills pending |
 | **finance** | Money: ledger, budget sheet, rules, pots, runway, month close. Never moves money | `.claude/agents/finance.md` → [[07-Agents/finance/profile\|profile]] | **built 2026-09-22**; sheet credentials pending |
+| **personal-life** | His day and week: night plan, morning brief, weekly review; TickTick and Google Calendar (full write) | none — runs in the main session → [[07-Agents/personal-life/profile\|profile]] | **built 2026-09-22** |
 
 Roster and planned agents: [[07-Agents/roster|roster]].
 
@@ -55,6 +56,14 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | [[money-check]] | Before an off-plan spend: which line pays, what's left after, the verdict in three lines | He asks "can I spend X?" (commitment, 2026-09-22) | never | active |
 | [[sunday-check]] | Weekly: his balance → log the gap → name every line over plan, and what's left to payday | Every Sunday (commitment, 2026-09-22) | never | active |
 
+**Personal-life skills**, built 2026-09-22 from Samuel's answers. Owner: the [[07-Agents/personal-life/profile|personal-life agent]]. All three are conversations and run in the main session.
+
+| Skill | What it does | Trigger | Last used | Status |
+|-------|--------------|---------|-----------|--------|
+| [[night-plan]] | Close out today, lay tomorrow onto his day in timed chunks (at most three must-dos), write it to TickTick and the calendar once he agrees, and keep a short daily note | 8:45pm routine, or "plan tomorrow" | never | active |
+| [[morning-brief]] | Fixed times, must-dos, the client job and its deadline, anything overdue, in ten lines or fewer | 6:30am routine, or "what's on today" | never | active |
+| [[weekly-review]] | Good week by his own bar, the numbers (must-dos, focus, habits, money line), what slipped and which pattern it matches, then next week planned with him | Sunday 3:00pm session, after [[sunday-check]] | never | active |
+
 ## Scripts
 
 | Script | Job | Run |
@@ -86,7 +95,9 @@ Reused as-is by the agent, not rebuilt: [[subtitle-transcript-formatter]] (step 
 
 | Automation | What it does | Schedule | Runs in | Canonical note | Status |
 |---|---|---|---|---|---|
-| Sunday money check | Opens a session that runs [[sunday-check]]: asks for his balance, logs the gap, rebuilds the sheet, names every line over plan | Sundays 3:00pm WAT (`0 15 * * 0`) | Claude desktop app scheduled task `sunday-money-check`; needs the app open | [[00-System/automations/sunday-money-check\|sunday-money-check]] | active from 2026-09-27 |
+| Sunday money check + weekly review | Opens a session that runs [[sunday-check]] (his balance, the gap logged, the sheet rebuilt, every line over plan), then [[weekly-review]] in the same session (merged, Samuel 2026-09-22) | Sundays 3:00pm WAT (`0 15 * * 0`) | Claude desktop app scheduled task `sunday-money-check`; needs the app open | [[00-System/automations/sunday-money-check\|sunday-money-check]] | active from 2026-09-27 |
+| Night plan | Opens a session that runs [[night-plan]]: today closed out, tomorrow planned with him and written to TickTick | Daily 8:45pm WAT (cron `35 20 * * *` + the app's fixed 10m48s delay) | scheduled task `night-plan`; needs the app open | [[00-System/automations/night-plan\|night-plan]] | active from 2026-09-22 |
+| Morning brief | Opens a session that runs [[morning-brief]]: today in ten lines | Daily 6:30am WAT (cron `21 6 * * *` + the app's fixed 9m32s delay) | scheduled task `morning-brief`; needs the app open | [[00-System/automations/morning-brief\|morning-brief]] | active from 2026-09-23 |
 
 The rest of the automations are Phase 6.
 

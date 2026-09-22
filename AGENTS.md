@@ -105,7 +105,7 @@ An agent reads its own `profile.md` and `memory.md` before acting, and logs ever
 - Subagents report to the orchestrator; they do not message each other.
 - Cross-domain work goes through `07-Agents/handoffs.md`: date · from · to · request · status · link to result.
 
-Built so far: **video-editor** (2026-09-21), **orchestrator** (2026-09-22) and **finance** (2026-09-22). The orchestrator is the main session's role, not a subagent (`runs-as: main-session`), because subagents can't launch subagents. The rest are Phase 4 — see the roster.
+Built so far: **video-editor** (2026-09-21), **orchestrator**, **finance** and **personal-life** (2026-09-22). The orchestrator is the main session's role, not a subagent (`runs-as: main-session`), because subagents can't launch subagents. personal-life also runs in the main session, because every job needs Samuel's answer. Content is still to come in Phase 4 — see the roster.
 
 ## 8. Skills
 
@@ -113,7 +113,7 @@ A skill is a plain-markdown file in the open Agent Skills shape: frontmatter `na
 
 In the Brain now: `edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner` — Samuel's own claude.ai skills, copied in 2026-09-22. The Brain copy is canonical.
 
-Finance skills, built 2026-09-22: `payday`, `budget`, `month-close`, `money-check`, `sunday-check`.
+Finance skills, built 2026-09-22: `payday`, `budget`, `month-close`, `money-check`, `sunday-check`. Personal-life skills, built 2026-09-22: `night-plan`, `morning-brief`, `weekly-review`.
 
 Job skills — `brainstorm`, `plan`, `systemize`, `commit`, plus the editing job skills — are built in Phase 4. (`money-check` is built, as a finance skill.) Every skill is listed in `00-System/systems-register.md`.
 

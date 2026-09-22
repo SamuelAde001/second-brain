@@ -44,6 +44,10 @@ Numbered by month plus the client's name, never "Client #N": *"Alex video (Sep #
 
 ## Who uses it
 
-The orchestrator and the personal-life agent (both planned — [[07-Agents/roster|roster]]). No automation writes to TickTick yet; future automations get planned later (Samuel, 2026-09-22).
+The [[07-Agents/personal-life/profile|personal-life agent]] (built 2026-09-22), and the orchestrator for anything outside it. **Full write access**, Samuel 2026-09-22: *"It can do everything on ticktick and even google calender"*. It still needs his word to delete anything. Its routines, the night plan (8:45pm), the morning brief (6:30am) and the Sunday weekly review, write only after he answers ([[00-System/systems-register|systems register]] → automations).
+
+## How he writes a day (read live 2026-09-22)
+
+All-day tasks with a priority (5 high, 3 medium) and a 9:00am reminder, for the day's work. Timed tasks, with reminders at the time and 5 minutes before, for anything at a fixed time. Habits: "Start work 6am", "Gym 5pm", "Post content", all daily, created 2026-09-13. Whether they still match his routine is an open question. User time zone `Africa/Lagos`.
 
 Back to [[00-System/portability|Portability]] · [[00-System/systems-register|Systems register]]

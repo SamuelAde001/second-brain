@@ -7,11 +7,12 @@ source: manual
 tags: [automation, finances, weekly]
 ---
 
-# Sunday money check (automation)
+# Sunday money check + weekly review (automation)
 
-**Every Sunday at 3:00pm WAT** a session opens and runs the [[sunday-check]] skill: it asks Samuel for his bank balance, logs the gap, rebuilds the Money sheet and names every line over plan.
+**Every Sunday at 3:00pm WAT** a session opens and runs the [[sunday-check]] skill: it asks Samuel for his bank balance, logs the gap, rebuilds the Money sheet and names every line over plan. **Then, in the same session, the [[weekly-review]] skill** runs as the personal-life agent: the week reviewed, and next week planned with him.
 
 - **Asked for by Samuel, 2026-09-22:** *"Add a routine that activates the Sundays feedback session with the Agent"*. It serves his commitment in [[06-Logs/commitments|commitments]].
+- **Weekly review merged in, 2026-09-22:** Samuel chose "Sunday 3:00pm, merged" over a separate review at 4:00pm. Money first, because the review takes its money line from the check. The task id stays `sunday-money-check`.
 - **Why 3:00pm:** his rule is *"Sunday is not a work buffer. Plan Sunday from 3:00pm."* ([[02-Me/spirit|Spirit]]). It never lands on the prayer block or the morning.
 - **Where it runs:** a scheduled task in the Claude desktop app (Code tab), `sunday-money-check`, cron `0 15 * * 0`, PC time zone W. Central Africa (UTC+1). Tool copy: `C:\Users\repzy\.claude\scheduled-tasks\sunday-money-check\SKILL.md`. **This note is the canonical copy.** If the two differ, this one wins, and the task is updated to match.
 - **It needs the app open.** If the app is closed at 3:00pm, the check runs the next time the app opens.
@@ -28,5 +29,6 @@ tags: [automation, finances, weekly]
 > 3. When he answers: log the gap in `03-Areas/finances/money-ledger.md` as the skill says, rebuild the sheet (`python 00-System/scripts/budget_sheet.py build`), then run `python 00-System/scripts/budget_sheet.py left`. Tell him, short: the week in one line, every line over plan by name and NGN amount, what's left and how many days it has to last until the next payday. Check `06-Logs/commitments.md` and name any commitment that slipped, once, in his own words.
 > 4. Tone: direct and blunt. No praise, no reassurance, no moralizing. Money always has a currency code (NGN).
 > 5. Close: append one line to `07-Agents/finance/log.md`, then commit with message `finance: sunday check <YYYY-MM-DD>` ending with a Co-Authored-By trailer, and push.
+> 6. Then, in the same session, the weekly review (Samuel chose to merge it here on 2026-09-22). Act as the personal-life agent: read `07-Agents/personal-life/profile.md` and `07-Agents/personal-life/memory.md`, then run the skill `weekly-review` (canonical copy: `00-System/skills/weekly-review/weekly-review.md`) and follow it exactly. Take the money line from step 3; don't recompute it. Use TickTick and Google Calendar through their connectors, time zone Africa/Lagos. Plan next week with him; write to TickTick and the calendar only after he answers. Close as the skill says: `06-Logs/weekly/<YYYY-Www>.md`, one line in `07-Agents/personal-life/log.md`, commit `personal-life: weekly review <YYYY-Www>` ending with a Co-Authored-By trailer, then push. If he never answered the money check, still run the review from what TickTick and the Brain hold, and say the money line is missing.
 
 Back to [[03-Areas/finances/finances|Finances]] · [[00-System/systems-register|Systems register]]

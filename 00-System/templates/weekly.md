@@ -27,7 +27,7 @@ tags: [weekly]
 - Commitment — kept / missed — what happened
 
 ## Brain health
-- Area `_index` files not updated in 30+ days:
+- Area overview notes not updated in 30+ days:
 - `needs-input` backlog:
 - Inbox count:
 - Orphan notes:
