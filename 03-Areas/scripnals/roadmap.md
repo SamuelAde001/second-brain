@@ -15,7 +15,7 @@ Samuel's own list, as he posted it in the dev chat on 2026-09-22 (08:20). The ta
 
 | # | Item (Samuel's words) | Status 2026-09-22 | Notes |
 |---|---|---|---|
-| 1 | I would work on documentation for the AI and send to dev | **Spec v1 approved; v1.1 proposed** 2026-09-22. **Guide library v1 drafted** 2026-09-22, to review and test before 2026-09-27 | [[03-Areas/scripnals/ai-workflow\|AI workflow]] · [[03-Areas/scripnals/guides/guide-library\|Guide library]]. Guides are due 2026-09-27 |
+| 1 | I would work on documentation for the AI and send to dev | **Spec v1.1 approved** 2026-09-22. **Guide library v1 drafted** 2026-09-22, to review and test before 2026-09-27 | [[03-Areas/scripnals/ai-workflow\|AI workflow]] · [[03-Areas/scripnals/guides/guide-library\|Guide library]]. Guides are due 2026-09-27 |
 | 2 | Work on Pitch deck for the App, to pitch to people | Not started | |
 | 3 | Work on brief for a motion designer so we can have a video showcasing our app | Not started | The 11 screenshots in `_attachments/scripnals/` and the mock-ups can feed it |
 | 4 | Record a video showcasing the app, or giving updates on the app | Not started | |

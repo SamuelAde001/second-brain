@@ -7,10 +7,8 @@ actions: [review_full, rewrite, draft_from_idea]
 content_types: [any]
 tones: [any]
 audiences: [business, creator]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,6 +18,4 @@ refs: [I3, I6]
 tags: [scripnals-guide]
 ---
 
-FORMULA: Send this to the [specific person] who [specific situation].
-FITS: tips, lists, relatable videos, strong opinions. Sends are the strongest signal for reaching new people.
-RULE: only when the video truly helps or describes that person. Never tie it to a prize or "if you agree".
+Send this to the [specific person] who [situation]. Sends reach new people. Name a specific person.

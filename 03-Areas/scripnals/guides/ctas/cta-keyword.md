@@ -6,11 +6,9 @@ summary: Ask for a one-word comment in return for a real resource sent by DM.
 actions: [review_full, rewrite, draft_from_idea]
 content_types: [any]
 tones: [any]
-audiences: [business]
-niches: [any]
-formats: [any]
+audiences: [business, creator]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,6 +18,4 @@ refs: [R7, I6]
 tags: [scripnals-guide]
 ---
 
-FORMULA: Comment [WORD] and I'll send you [the resource].
-FITS: business videos where the user has a real guide, template, checklist or link to send.
-RULE: use only if the user's text or notes name the resource. If they don't, don't use this. The viewer must get what was promised.
+Comment [WORD] and I'll send you [the resource]. Resource not named? Write a gap, like [your free guide].

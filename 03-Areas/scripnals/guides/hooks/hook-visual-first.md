@@ -7,10 +7,8 @@ actions: [improve_hook, rewrite, draft_from_idea, review_full, review_idea]
 content_types: [storytelling, listicle, quick_tip, before_after, pov]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,7 +18,4 @@ refs: [R2, R3]
 tags: [scripnals-guide]
 ---
 
-FORMULA: VISUAL: [the most striking real shot or action]. Then the spoken line.
-USE WHEN: the user can film something that stops the scroll by itself: the result, the mess, the moment.
-NEEDS: a shot they can really get. Write it as a VISUAL line.
-AVOID: a visual that doesn't match the spoken line and the on-screen text.
+Open on the most striking real shot, then speak. USE: they can film something that stops the scroll alone; suggest it as a VISUAL line. AVOID: a visual that doesn't match the words.

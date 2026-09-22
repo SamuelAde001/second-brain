@@ -7,10 +7,8 @@ actions: [review_full, rewrite, draft_from_idea]
 content_types: [storytelling, contrarian, listicle, pov]
 tones: [any]
 audiences: [business, creator]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,6 +18,4 @@ refs: [I6, G]
 tags: [scripnals-guide]
 ---
 
-FORMULA: [A specific question about their own experience or opinion]?
-FITS: stories, opinions, lists ("which one do you do?").
-RULE: a question people have a real answer to. Never "comment YES", "type 1 if" or anything asking for a set word to boost the post.
+[A specific question about their own experience or opinion]? Fits stories, opinions and lists. Avoid "comment YES"-style asks.

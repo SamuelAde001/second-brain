@@ -32,5 +32,8 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - **Instagram can't be browsed logged out, and no model here can watch a Reel.** Say so plainly. The real fix is transcripts of strong Reels from Samuel (open question 75).
 - **Guides built from formulas with placeholders, not worked examples.** A model copies examples word for word, and every user's hook starts to sound the same. That is the "generic AI script" problem Samuel wants to avoid.
 - **Tag entries, then filter with one rule.** It kept 66 entries under a 3,200-word budget per call, with no search engine. A script that simulates a request (`--select`) proves the budget before the devs build anything.
+- **In chat, never cite an open-question number on its own.** Samuel asked *"what questions are those"*. Name the question in plain words; the number belongs in `open-questions.md` only.
+- **Don't add inputs the user has to fill.** He cut the niche question and the format picker to keep the app simple. Infer from what the app already has (the ICP answers, the draft) before proposing a new field.
+- **AI reference text is paid for on every call.** Write it terse from the start: no repeats of rules the system prompt already holds, one-line patterns, word caps in the build script.
 
 Back to [[07-Agents/orchestrator/profile|Profile]]

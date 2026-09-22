@@ -7,10 +7,8 @@ actions: [improve_hook, rewrite, draft_from_idea, review_full, review_idea]
 content_types: [listicle, quick_tip, contrarian, before_after]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,7 +18,4 @@ refs: [R6, G]
 tags: [scripnals-guide]
 ---
 
-FORMULA: [the strongest true statement about the topic, said flat].
-USE WHEN: the user has a clear, confident point.
-NEEDS: a claim the script backs up.
-AVOID: claims the body doesn't prove, and words like "best ever" or "guaranteed".
+[The strongest true statement, said flat]. USE: a confident point the script backs up. AVOID: "best ever", "guaranteed", claims the body doesn't prove.

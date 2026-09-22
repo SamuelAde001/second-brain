@@ -7,10 +7,8 @@ actions: [improve_hook]
 content_types: [any]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 1
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,21 +18,11 @@ refs: [S2, I5, R2, R3, R6]
 tags: [scripnals-guide]
 ---
 
-WHAT TO DO
-Write 3 new first lines. Each uses a different pattern from the hook guides, and the "pattern" field uses that guide's title exactly.
-
-RULES FOR EVERY OPTION
-- Built only from what is in the text: their facts, their stakes, their words. If a pattern needs a fact the text does not have, like a result or a number, do not use that pattern.
-- Clear topic plus a reason to keep watching, within about 3 seconds. Aim for 6 to 14 spoken words.
-- Specific beats clever. Name the thing, the person or the number.
-- Honest. The rest of the script must deliver what the hook promises. If it does not, say so in the summary.
-- Sounds like the user. Reuse their phrasing and rhythm. One option may stay close to their original line, just tightened.
-- No greetings, no "in this video", no "did you know" openers, no questions answered with a plain yes or no.
-
-CHECK EACH OPTION
-- Would the target viewer stop for it?
-- Does it still fit the script's second line?
-- Can the first frame show it? If one option needs a specific visual or on-screen text to work, say so in the summary in one line.
-
-DO NOT TOUCH
-The rest of the script.
+- 3 new first lines, each a different hook pattern. "pattern" = the hook guide's title, exactly.
+- Built from the text only. Skip patterns that need facts it lacks, like a result or a number.
+- 6-14 spoken words. Topic plus a reason to stay in about 3 s. Specific beats clever.
+- The script must deliver the promise. If it doesn't, say so in the summary.
+- In their voice. One option may be their own line, tightened.
+- No greetings, "in this video", "did you know", or yes/no questions.
+- If an option works best with a certain visual or on-screen text, suggest it in one line in the summary.
+- Don't touch the rest.

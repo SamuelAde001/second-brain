@@ -1,5 +1,5 @@
 {
-  "budget_words": 3200,
+  "budget_words": 2400,
   "vocab": {
     "actions": {
       "review_full": "Review my whole script",
@@ -28,28 +28,6 @@
     "audiences": {
       "business": "Business owner/entrepreneur",
       "creator": "Content creator"
-    },
-    "niches": {
-      "business_marketing": "Business, marketing and coaching",
-      "money_finance": "Money and personal finance",
-      "fitness_health": "Fitness, health and wellness",
-      "beauty_fashion": "Beauty and fashion",
-      "food": "Food and cooking",
-      "tech_ai": "Tech, software and AI",
-      "career_education": "Career, study and skills",
-      "creative_skills": "Creative skills (video, design, photo, music, writing)",
-      "lifestyle": "Lifestyle, travel and relationships",
-      "faith_growth": "Faith and personal growth",
-      "other": "Other"
-    },
-    "formats": {
-      "talking_head": "Talking to camera",
-      "voiceover_broll": "Voiceover with B-roll",
-      "text_on_screen": "Text on screen",
-      "skit": "Skit or acting",
-      "screen_tutorial": "Screen recording",
-      "green_screen": "Green screen",
-      "vlog": "Vlog or day in the life"
     }
   }
 }

@@ -7,10 +7,8 @@ actions: [improve_hook, rewrite, draft_from_idea, review_full, review_idea]
 content_types: [before_after, storytelling]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,7 +18,4 @@ refs: [S1, G]
 tags: [scripnals-guide]
 ---
 
-FORMULA: I went from [real before] to [real after]. / [Then], [now].
-USE WHEN: the user has a real change to show.
-NEEDS: both sides, from the user, ideally shown on screen.
-AVOID: vague sides like "struggling" to "thriving".
+I went from [real before] to [real after]. USE: a real change, ideally shown. AVOID: vague sides like "struggling" to "thriving".

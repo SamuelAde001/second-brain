@@ -7,10 +7,8 @@ actions: [rewrite]
 content_types: [any]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 1
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,25 +18,8 @@ refs: [S1, S2, G]
 tags: [scripnals-guide]
 ---
 
-WHAT TO DO
-Rewrite the whole script in HOOK, BODY, VISUAL and CTA sections, using the beats of the content type guide.
-
-KEEP
-- Every point the user made. Add no new points, facts, stories or steps.
-- Their best lines, word for word.
-- Their dialect, slang and rhythm.
-- Roughly their length, no more than about 10% longer, unless the notes say otherwise.
-
-CHANGE
-- Order: put the beats in the order of the content type structure that fits best.
-- Hook: lead with the strongest true thing in their text. Use a hook pattern from the guides.
-- Cut warm-ups, repeats and lines that go nowhere.
-- Join beats with "but", "so" and "because".
-- Add VISUAL lines where the picture should change, fitted to the filming format.
-- CTA: one ask that fits the audience guide, or a strong last line.
-
-LIST IN added_by_ai
-The new hook, if it is not the user's line. A new CTA. Any bridge line you wrote.
-
-IF SOMETHING IS MISSING
-If the structure needs a beat the user did not give, like the result of a story, do not invent it. Keep the beat short and put the question in the summary.
+Rewrite in HOOK, BODY, VISUAL and CTA, using the best-fit structure from the content type guide.
+KEEP: every point (add none), their strongest lines word for word, their expressions and rhythm, roughly their length (at most about 10% longer unless the notes say otherwise).
+CHANGE: beat order. Hook: the strongest true thing in the text, as a hook pattern. Cut warm-ups and repeats. Link beats with "but", "so", "because". Optional VISUAL suggestions. One CTA or a strong last line.
+added_by_ai: a new hook, the CTA, any bridge line.
+A beat is missing, like a story's result? Keep it short and ask in the summary.

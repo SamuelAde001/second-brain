@@ -7,7 +7,7 @@ Output: 03-Areas/scripnals/guides/_export/guides.json (one object per entry) and
   python 00-System/scripts/build_scripnals_guides.py            validate + export
   python 00-System/scripts/build_scripnals_guides.py --check    validate, and fail if the export is stale
   python 00-System/scripts/build_scripnals_guides.py --select action=rewrite content_type=storytelling \
-      tone=friendly audience=creator niche=creative_skills format=voiceover_broll [--prompt out.txt]
+      tone=friendly audience=creator [--prompt out.txt]
         show which entries one request loads, their word total, and optionally write the {{guides}} text
 """
 import argparse, json, pathlib, re, sys
@@ -30,28 +30,14 @@ VOCAB = {
     },
     "tones": {"professional": "Professional", "friendly": "Friendly", "funny": "Funny", "other": "Other"},
     "audiences": {"business": "Business owner/entrepreneur", "creator": "Content creator"},
-    "niches": {
-        "business_marketing": "Business, marketing and coaching", "money_finance": "Money and personal finance",
-        "fitness_health": "Fitness, health and wellness", "beauty_fashion": "Beauty and fashion",
-        "food": "Food and cooking", "tech_ai": "Tech, software and AI", "career_education": "Career, study and skills",
-        "creative_skills": "Creative skills (video, design, photo, music, writing)",
-        "lifestyle": "Lifestyle, travel and relationships", "faith_growth": "Faith and personal growth",
-        "other": "Other",
-    },
-    "formats": {
-        "talking_head": "Talking to camera", "voiceover_broll": "Voiceover with B-roll", "text_on_screen": "Text on screen",
-        "skit": "Skit or acting", "screen_tutorial": "Screen recording", "green_screen": "Green screen",
-        "vlog": "Vlog or day in the life",
-    },
 }
 # The request field that each tag field is matched against.
-REQUEST_FIELD = {"actions": "action", "content_types": "content_type", "tones": "tone",
-                 "audiences": "audience", "niches": "niche", "formats": "format"}
+REQUEST_FIELD = {"actions": "action", "content_types": "content_type", "tones": "tone", "audiences": "audience"}
 # Kind -> folder, in the order the entries are placed in the prompt.
 KINDS = {"core": "core", "audience": "audience", "niche": "niches", "action": "actions",
          "content-type": "content-types", "format": "formats", "tone": "tones", "hook": "hooks", "cta": "ctas"}
-MAX_WORDS = {"hook": 80, "cta": 80, "niche": 150, "format": 150, "tone": 250}   # body words; others 400
-BUDGET = 3200          # words of guide text per call, across all loaded entries
+MAX_WORDS = {"hook": 35, "cta": 30, "tone": 90}   # body words; others 250. Keep entries terse: every word is sent on every call
+BUDGET = 2400          # words of guide text per call, across all loaded entries
 REQUIRED = ["id", "kind", "title", "summary", *VOCAB, "priority", "version", "status", "updated", "refs"]
 EXPORTED = ["id", "kind", "title", "summary", *VOCAB, "priority", "version", "status", "updated", "refs"]
 
@@ -100,8 +86,8 @@ def load():
             if str(meta.get("priority")) not in {"1", "2", "3"}:
                 errors.append(f"{where}: priority must be 1, 2 or 3")
             words = len(body.split())
-            if words > MAX_WORDS.get(kind, 400):
-                errors.append(f"{where}: body is {words} words, limit {MAX_WORDS.get(kind, 400)}")
+            if words > MAX_WORDS.get(kind, 250):
+                errors.append(f"{where}: body is {words} words, limit {MAX_WORDS.get(kind, 250)}")
             if re.search(r"^#{1,6} |\*\*|`", body, re.M):
                 errors.append(f"{where}: body uses Markdown headings, bold or code. Use CAPS labels and '-' lists")
             meta["priority"] = int(meta.get("priority", 3))

@@ -7,10 +7,8 @@ actions: [review_full, improve_hook, rewrite, draft_from_idea, review_idea, shor
 content_types: [any]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 1
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,23 +18,20 @@ refs: [I1, I2, I3, I4, I5, I6]
 tags: [scripnals-guide]
 ---
 
-WHAT INSTAGRAM SAYS IT MEASURES
-TikTok and YouTube Shorts work the same way.
-- Watch time: how many seconds people watch and how much they finish. The biggest signal.
-- Sends: people sending the video to a friend in a DM. The strongest signal for reaching people who do not follow the user.
-- Likes: count more with people who already follow.
-- Skip rate: how many people swipe away in the first 3 seconds. A weak opening kills everything after it.
-- A new video is shown to a small group first. If that group watches and sends, it goes wider.
+WHAT INSTAGRAM MEASURES (TikTok and Shorts are similar)
+- Watch time (seconds and completion): the biggest signal.
+- Sends by DM: strongest for reaching non-followers.
+- Likes: matter more with followers.
+- Skip rate: swipes in the first 3 s.
+- New videos go to a small group first, then wider if watched and sent.
 
-WHAT THIS MEANS FOR A SCRIPT
-- The first line decides the reach. Judge it hardest.
-- Write so people want to finish: tension, a promise, a payoff.
-- Write things worth sending: useful to a specific person, true to their life, or funny in a way they want to share.
-- A stranger must understand it.
+SO
+- The first line decides reach. Judge it hardest.
+- Aim for finishable (tension, promise, payoff), sendable (useful to or about someone specific), and clear to strangers.
 
-WHAT GETS PUSHED DOWN OR NOT RECOMMENDED
-- Clickbait: a hook the video does not deliver.
-- Engagement bait: asking for likes, comments, shares or tags as a trick, like "comment YES", "tag 3 friends" or "share if you agree". A call to action must give the viewer a real reason.
-- Reposted or copied content, and watermarks from other apps.
-- Exaggerated health or money claims, like fast weight loss or guaranteed income. Never make a claim stronger. If the user's claim sounds exaggerated, say so in feedback and suggest an honest version.
-- Videos over 3 minutes are not recommended to non-followers.
+PUSHED DOWN
+- Clickbait: hooks the video doesn't deliver.
+- Bait like "comment YES", "tag 3 friends", "share if you agree". Keyword comments for a resource and "send this to a friend" are fine.
+- Reposts and other apps' watermarks.
+- Exaggerated health or money claims. Never strengthen a claim. Flag exaggerated ones in feedback, with an honest version.
+- Videos over 3 minutes aren't recommended to non-followers.

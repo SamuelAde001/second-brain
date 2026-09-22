@@ -21,14 +21,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -39,8 +33,8 @@
       "I5",
       "I6"
     ],
-    "words": 263,
-    "body": "WHAT INSTAGRAM SAYS IT MEASURES\nTikTok and YouTube Shorts work the same way.\n- Watch time: how many seconds people watch and how much they finish. The biggest signal.\n- Sends: people sending the video to a friend in a DM. The strongest signal for reaching people who do not follow the user.\n- Likes: count more with people who already follow.\n- Skip rate: how many people swipe away in the first 3 seconds. A weak opening kills everything after it.\n- A new video is shown to a small group first. If that group watches and sends, it goes wider.\n\nWHAT THIS MEANS FOR A SCRIPT\n- The first line decides the reach. Judge it hardest.\n- Write so people want to finish: tension, a promise, a payoff.\n- Write things worth sending: useful to a specific person, true to their life, or funny in a way they want to share.\n- A stranger must understand it.\n\nWHAT GETS PUSHED DOWN OR NOT RECOMMENDED\n- Clickbait: a hook the video does not deliver.\n- Engagement bait: asking for likes, comments, shares or tags as a trick, like \"comment YES\", \"tag 3 friends\" or \"share if you agree\". A call to action must give the viewer a real reason.\n- Reposted or copied content, and watermarks from other apps.\n- Exaggerated health or money claims, like fast weight loss or guaranteed income. Never make a claim stronger. If the user's claim sounds exaggerated, say so in feedback and suggest an honest version.\n- Videos over 3 minutes are not recommended to non-followers."
+    "words": 151,
+    "body": "WHAT INSTAGRAM MEASURES (TikTok and Shorts are similar)\n- Watch time (seconds and completion): the biggest signal.\n- Sends by DM: strongest for reaching non-followers.\n- Likes: matter more with followers.\n- Skip rate: swipes in the first 3 s.\n- New videos go to a small group first, then wider if watched and sent.\n\nSO\n- The first line decides reach. Judge it hardest.\n- Aim for finishable (tension, promise, payoff), sendable (useful to or about someone specific), and clear to strangers.\n\nPUSHED DOWN\n- Clickbait: hooks the video doesn't deliver.\n- Bait like \"comment YES\", \"tag 3 friends\", \"share if you agree\". Keyword comments for a resource and \"send this to a friend\" are fine.\n- Reposts and other apps' watermarks.\n- Exaggerated health or money claims. Never strengthen a claim. Flag exaggerated ones in feedback, with an honest version.\n- Videos over 3 minutes aren't recommended to non-followers."
   },
   {
     "id": "core-scripting-standards",
@@ -59,14 +53,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -77,14 +65,14 @@
       "R5",
       "G"
     ],
-    "words": 341,
-    "body": "ONE IDEA\nOne video, one idea. If the main point takes more than one sentence to say, it is probably two videos. Say so in feedback. Do not split it yourself unless asked.\n\nTHE SHAPE\n- HOOK: the first line. The topic and the reason to keep watching are clear within about 3 seconds, roughly the first 8 to 12 spoken words.\n- BODY: the beats of the content type. Each beat moves the viewer forward.\n- VISUAL: what the viewer sees and any on-screen text, as short directions. Add VISUAL where it changes what is shown. The first frame's picture and text say the same thing as the spoken hook.\n- CTA: one ask, or a strong last line.\n\nWRITE FOR THE EAR\n- Short sentences, most under 12 words. One thought per line.\n- Everyday words. Contractions. Talk to one person: \"you\".\n- Concrete beats vague: the user's own numbers, names, places and times.\n- Join beats with \"but\", \"so\" or \"because\", not \"and then\". Each line should cause or complicate the next.\n- Cut warm-ups: \"hey guys\", \"so basically\", \"in this video I will\", \"before we start\". Start where it gets interesting.\n\nKEEP THEM WATCHING\n- Open a question early and answer it near the end. Pay off exactly what the hook promised.\n- In anything over about 30 seconds, add one mid-point pull, a line that raises the stakes or turns the story, before attention drops.\n- Put the strongest point first or last, never buried in the middle.\n- End clean. No \"that's it guys\", no recap of everything.\n\nLENGTH\nSpoken pace is about 150 words a minute, 2.5 words a second. Fast talkers run 170 to 200. Roughly: 40 words is 15 seconds, 75 is 30, 150 is 60. Match the length to the idea: a quick tip needs less than a story. Never pad to reach a length.\n\nWORKS FOR STRANGERS\nMost viewers do not follow the user. The script must make sense with no context: no earlier video, no inside joke left unexplained."
+    "words": 222,
+    "body": "SHAPE\n- One idea per video. Main point needs more than one sentence? Probably two videos: say so, don't split unless asked.\n- HOOK: first line. Topic and reason to stay clear in about 3 s (first 8-12 words).\n- BODY: the content type's beats. Each moves forward.\n- VISUAL: optional suggested shots or on-screen text. A first frame and text that match the spoken hook make it stronger.\n- CTA: one ask, or a strong last line.\n\nWRITE FOR THE EAR\n- Short sentences, mostly under 12 words. One thought per line.\n- Everyday words, contractions, talk to one \"you\".\n- Concrete over vague: their numbers, names, places, times.\n- Link beats with \"but\", \"so\", \"because\", not \"and then\".\n- Cut warm-ups (\"hey guys\", \"so basically\", \"in this video\"). Start where it gets interesting.\n\nRETENTION\n- Open a question early, answer it late. Deliver what the hook promised.\n- Over about 30 s: one mid-point turn or raised stake.\n- Strongest point first or last, never buried.\n- End clean. No \"that's it\", no full recap.\n\nLENGTH\nAbout 150 spoken words a minute (2.5 a second); fast talkers 170-200. 40 words = 15 s, 75 = 30 s, 150 = 60 s. Fit the idea, never pad.\n\nSTRANGERS\nMost viewers don't follow the user. It should make sense with no context."
   },
   {
     "id": "core-voice",
     "kind": "core",
     "title": "Keep their voice",
-    "summary": "The rule above every other guide. The script must still sound like the user.",
+    "summary": "How to use the guides, and the rule above all of them: the script must still sound like the user.",
     "actions": [
       "any"
     ],
@@ -97,22 +85,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "S2",
       "S3"
     ],
-    "words": 376,
-    "body": "THE MOST IMPORTANT RULE\nThe script must still sound like the user after you touch it. If they read it and think \"I would never say that\", you failed, even if the script is \"better\".\n\nHOW TO MATCH THEIR VOICE\n- Before you change anything, study their text and their past posts: sentence length, how formal they are, slang, dialect, pet phrases, how they open and close, \"I\" or \"we\", how they joke.\n- Edit their lines. Do not replace them. Their best lines stay word for word.\n- Write in the language and dialect they write in. Pidgin stays Pidgin. Nigerian, British, American or any other English stays as it is. Never \"correct\" dialect into standard English. Fix only clear typos.\n- If a line is unclear or could be a typo with two meanings, do not guess. Keep it and ask about it in feedback.\n- Keep the words that carry their personality: a catchphrase, \"bro\", a line repeated for rhythm. Cut only filler that slows the listener.\n- Any new line (a hook, a bridge, a call to action) is built from words already in their text.\n- Change a line only if a listener would stumble, get lost or get bored. If it works, leave it.\n\nWORDS THAT MAKE A SCRIPT SOUND LIKE AI\nNever add these unless the user already uses them: game-changer, unlock, dive in, let's dive in, delve, elevate, level up, harness, supercharge, seamless, navigate, landscape, journey, empower, secret sauce, buckle up, in today's fast-paced world, at the end of the day, here's the kicker, \"it's not just X, it's Y\", \"whether you're X or Y\". Also avoid: three adjectives in a row, a question answered straight away by the speaker, emoji, hashtags, an exclamation mark on every line.\n\nFEEDBACK THAT HELPS\n- Quote the exact line. Say what goes wrong for the listener. Give the fix, written in their voice.\n- One problem per item. The biggest problem first.\n- Never give advice that fits any script, like \"make it more engaging\", \"add value\" or \"be more specific\". Show the actual change.\n- No praise padding. If a line works, name it and say keep it.\n- Talk like a sharp friend who edits: short, plain, honest, kind."
+    "words": 247,
+    "body": "GUIDES ARE ADVICE\nUse them to suggest improvements. The user decides. Structures, hooks, CTAs, visuals and on-screen text are suggestions. If the user's way works, keep it.\n\nKEEP THEIR VOICE\n- The result must still sound like them. \"I'd never say that\" = failure.\n- Match their text and past posts: sentence length, formality, slang, pet phrases, how they open, close and joke.\n- Edit their lines, don't replace them. Keep strong lines word for word.\n- Same language as the user. Keep their expressions. Never make it more formal. Fix only clear typos.\n- Unclear line or possible typo: keep it, ask in feedback.\n- Keep personality words: catchphrases, deliberate repeats. Cut only filler that slows the listener.\n- New lines (hook, bridge, CTA): build from their words.\n- Change a line only if a listener would stumble, get lost or get bored.\n\nAVOID AI-SOUNDING WORDS\nUnless the user uses them: game-changer, unlock, dive in, delve, elevate, level up, harness, supercharge, seamless, navigate, landscape, journey, empower, secret sauce, buckle up, fast-paced world, at the end of the day, here's the kicker, \"not just X, it's Y\", \"whether you're X or Y\". No emoji, hashtags or constant exclamation marks.\n\nFEEDBACK\n- Quote the exact line, say what goes wrong for the viewer, give the fix in their voice.\n- One problem per item, biggest first.\n- No advice that fits any script (\"make it engaging\", \"add value\"). Show the change.\n- No praise padding. Plain, honest, kind."
   },
   {
     "id": "audience-business",
@@ -131,14 +113,8 @@
     "audiences": [
       "business"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -148,8 +124,8 @@
       "R7",
       "G"
     ],
-    "words": 246,
-    "body": "WHAT THIS USER WANTS\nLeads and trust. Every video should make their dream client think \"this person understands my problem and knows how to fix it\".\n\nWHAT EVERY SCRIPT MUST DO\n- Speak to the dream client's main problem or dream outcome, using the words that client would use. The user's profile answers name both.\n- Show expertise through specifics: how they do it, why it works, what they have seen. Only what the user gave. Never invent results, clients or numbers.\n- Give real value in the video itself. The viewer should learn something even if they never buy.\n- Keep it about the client's problem, not the user's life story, unless the story proves they understand it.\n- Mention the offer lightly, in one line, at most once, unless the user says it is a promo video.\n\nCALLS TO ACTION THAT FIT\nPick one. Match it to how warm the viewer is.\n- A cold viewer who just learned something: save it, or follow for more on the topic.\n- A viewer with the problem right now: comment a word or DM a word to get a resource or help, but only if the user named a resource or offer.\n- A promo video: the offer, where to find it, one step.\n\nAVOID\n- A hard sell in every video.\n- Jargon the dream client would not use.\n- Claims the user cannot back up.\n- Talking to \"everyone\". Name who it is for."
+    "words": 116,
+    "body": "GOAL: leads and trust. The dream client should think \"they get my problem and can fix it\".\n- Speak to the client's main problem or dream outcome from the profile, in the client's words.\n- Show expertise through specifics: how, why, what they've seen.\n- Give real value in the video itself.\n- Keep the focus on the client's problem. Use the user's story only if it proves they understand it.\n- The offer: one light line at most, unless it's a promo.\nCTA FIT: cold viewer: save or follow. Viewer with the problem now: keyword comment or DM. Promo: the offer, one step.\nAVOID: a hard sell every video, jargon, unbacked claims, talking to \"everyone\"."
   },
   {
     "id": "audience-creator",
@@ -168,14 +144,8 @@
     "audiences": [
       "creator"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -184,14 +154,14 @@
       "I3",
       "G"
     ],
-    "words": 204,
-    "body": "WHAT THIS USER WANTS\nViews, a community that comes back, and brand deals. People follow them for who they are, not only for what they know.\n\nWHAT EVERY SCRIPT MUST DO\n- Make the viewer feel something: laugh, relate, be surprised, be moved. The profile says how the user wants people to feel. Aim for that.\n- Tell it like a story where possible: a moment, tension, a turn, a payoff.\n- Let the user's personality lead: their opinions, their humour, their reactions.\n- Keep the pace up. Cut explaining. Show, don't tell.\n- Give people a reason to send it: \"this is so you\", \"this is us\", \"you need to hear this\".\n\nCALLS TO ACTION THAT FIT\nPick one, or none if an ask would break the mood.\n- Follow for the series or for the next part.\n- Send it to the friend it is about.\n- A real question the viewer wants to answer in the comments.\n- No ask: end on the strongest line, or loop back to the first line.\n\nAVOID\n- Lecturing or teacher voice, unless that is the user's style.\n- Selling.\n- Long setups before anything happens.\n- Copying a trend without the user's own angle."
+    "words": 89,
+    "body": "GOAL: views, a returning community, brand deals. People follow the person.\n- Make them feel something: laugh, relate, be surprised. The profile says which feeling.\n- Story shape where possible: moment, tension, turn, payoff.\n- Personality leads: opinions, humour, reactions.\n- Fast pace. Show, don't explain.\n- Give a reason to send: \"this is so you\".\nCTA FIT: follow for the next part, send to a friend, a real question, or no ask.\nAVOID: lecturing (unless it's their style), selling, long setups, trends with no angle of their own."
   },
   {
-    "id": "niche-beauty-fashion",
+    "id": "niche-notes",
     "kind": "niche",
-    "title": "Beauty and fashion",
-    "summary": "Makeup, skincare, hair, style, outfits.",
+    "title": "Niche notes",
+    "summary": "What each common niche rewards and where to take care. The AI picks the one that fits the user's profile.",
     "actions": [
       "review_full",
       "rewrite",
@@ -208,358 +178,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "beauty_fashion"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 3,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "G"
-    ],
-    "words": 82,
-    "body": "THIS AUDIENCE WANTS\nTo look and feel good, save money on what works, and skip what doesn't.\nWHAT TENDS TO WORK\nBefore and after, quick tips, honest reviews, get ready with me, dupes and comparisons, POV.\nDETAILS THAT LAND\nProduct names the user gave, shades, prices, skin or hair type, the occasion.\nCARE\nVisual first: the result must be on screen early. Skincare claims about treating conditions need care. Say when something was gifted or paid for, if the user mentions it."
-  },
-  {
-    "id": "niche-business-marketing",
-    "kind": "niche",
-    "title": "Business, marketing and coaching",
-    "summary": "Coaches, consultants, agencies, marketers and small business owners.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "review_idea",
-      "improve_hook"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "business_marketing"
-    ],
-    "formats": [
-      "any"
-    ],
-    "priority": 3,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "I2",
       "G"
     ],
-    "words": 78,
-    "body": "THIS AUDIENCE WANTS\nMore clients, more money, less wasted time. Proof that a method works before they try it.\nWHAT TENDS TO WORK\nClient stories, common mistakes, step-by-step systems, contrarian takes on popular advice, before and after.\nDETAILS THAT LAND\nThe user's real numbers, client situations (without names unless given), exact tools and the words clients use for their problem.\nCARE\nNo income or results claims the user didn't give. No \"guaranteed\" anything. Too much selling loses trust."
-  },
-  {
-    "id": "niche-career-education",
-    "kind": "niche",
-    "title": "Career, study and skills",
-    "summary": "Jobs, CVs, interviews, studying, exams, learning a skill.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "review_idea",
-      "improve_hook"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "career_education"
-    ],
-    "formats": [
-      "any"
-    ],
-    "priority": 3,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "G"
-    ],
-    "words": 70,
-    "body": "THIS AUDIENCE WANTS\nA way in, a way up, and to avoid wasting years on the wrong path.\nWHAT TENDS TO WORK\nCommon mistakes, step-by-step guides, the user's story of how they got in, things I wish I knew, myth busting.\nDETAILS THAT LAND\nThe user's real path, exact steps, timeframes, the questions they were asked.\nCARE\nNo promises of jobs, admission or salaries. Say what worked for the user."
-  },
-  {
-    "id": "niche-creative-skills",
-    "kind": "niche",
-    "title": "Creative skills",
-    "summary": "Video editing, design, photography, music, writing and other creative crafts.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "review_idea",
-      "improve_hook"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "creative_skills"
-    ],
-    "formats": [
-      "any"
-    ],
-    "priority": 3,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "S6",
-      "G"
-    ],
-    "words": 85,
-    "body": "THIS AUDIENCE WANTS\nTo get better at the craft, get paid for it, and see how others really work.\nWHAT TENDS TO WORK\nBefore and after of the work, quick tips inside the tool, behind the scenes, the life of a creative, storytelling with B-roll, common mistakes.\nDETAILS THAT LAND\nThe exact tool, setting or technique, the real project, the real client situation, time spent.\nCARE\nShow the work: the result belongs in the first frame. Don't invent tool features, menu paths or client names."
-  },
-  {
-    "id": "niche-faith-growth",
-    "kind": "niche",
-    "title": "Faith and personal growth",
-    "summary": "Faith, purpose, mindset, discipline, self-improvement.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "review_idea",
-      "improve_hook"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "faith_growth"
-    ],
-    "formats": [
-      "any"
-    ],
-    "priority": 3,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "G"
-    ],
-    "words": 68,
-    "body": "THIS AUDIENCE WANTS\nHope, direction and a push to act, from someone who has walked it.\nWHAT TENDS TO WORK\nPersonal stories, the lesson, challenge to victory, honest confessions, short reflections.\nDETAILS THAT LAND\nThe user's real moment, the verse or quote they chose, the exact words they told themselves.\nCARE\nNever add scripture, quotes or teachings the user didn't give. Encourage, don't preach. Stories beat general advice."
-  },
-  {
-    "id": "niche-fitness-health",
-    "kind": "niche",
-    "title": "Fitness, health and wellness",
-    "summary": "Training, nutrition, weight, sleep, mental health, wellness.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "review_idea",
-      "improve_hook"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "fitness_health"
-    ],
-    "formats": [
-      "any"
-    ],
-    "priority": 3,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "I2",
-      "G"
-    ],
-    "words": 93,
-    "body": "THIS AUDIENCE WANTS\nResults they can see, a plan they can stick to, and permission to start where they are.\nWHAT TENDS TO WORK\nQuick tips, myth busting, before and after, what I eat or do in a day, common mistakes.\nDETAILS THAT LAND\nReal routines, amounts and timeframes from the user, and the honest struggle.\nCARE\nExaggerated health claims get pushed down and can hurt people. No promises of fast weight loss, cures or guaranteed results. Say what the user did, never what the viewer will get. Flag medical claims in feedback."
-  },
-  {
-    "id": "niche-food",
-    "kind": "niche",
-    "title": "Food and cooking",
-    "summary": "Recipes, restaurants, food reviews, cooking tips.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "review_idea",
-      "improve_hook"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "food"
-    ],
-    "formats": [
-      "any"
-    ],
-    "priority": 3,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "G"
-    ],
-    "words": 62,
-    "body": "THIS AUDIENCE WANTS\nFood that looks good, is doable, and is worth the money or time.\nWHAT TENDS TO WORK\nVisual-first recipes, quick tips, honest reviews, cheap versus expensive, POV.\nDETAILS THAT LAND\nThe finished dish in the first frame. Real amounts, times, prices and places the user gave.\nCARE\nMostly VISUAL. Keep spoken lines short. Don't invent ingredients, quantities or prices."
-  },
-  {
-    "id": "niche-lifestyle",
-    "kind": "niche",
-    "title": "Lifestyle, travel and relationships",
-    "summary": "Daily life, travel, family, dating, relationships, home.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "review_idea",
-      "improve_hook"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "lifestyle"
-    ],
-    "formats": [
-      "any"
-    ],
-    "priority": 3,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "G"
-    ],
-    "words": 62,
-    "body": "THIS AUDIENCE WANTS\nTo relate, to be entertained, and to get ideas for their own life.\nWHAT TENDS TO WORK\nPOV, day in the life, storytelling, relatable lists, honest opinions.\nDETAILS THAT LAND\nSpecific moments, places, dialogue and feelings from the user.\nCARE\nOther people in the story: keep what the user said about them, and don't add private details. Personality leads."
-  },
-  {
-    "id": "niche-money-finance",
-    "kind": "niche",
-    "title": "Money and personal finance",
-    "summary": "Budgeting, saving, investing, side income, debt, money habits.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "review_idea",
-      "improve_hook"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "money_finance"
-    ],
-    "formats": [
-      "any"
-    ],
-    "priority": 3,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "I2",
-      "G"
-    ],
-    "words": 94,
-    "body": "THIS AUDIENCE WANTS\nTo feel in control of money, avoid mistakes, and see what is realistic for someone like them.\nWHAT TENDS TO WORK\nCommon mistakes, myth busting, the user's own money story, simple systems, before and after of a habit.\nDETAILS THAT LAND\nReal amounts with the currency, real timeframes, the user's local context, like their country's banks, apps and prices.\nCARE\nExaggerated money claims get pushed down. Never promise returns or quick wealth. Keep the user's claims as they said them, and flag any that sound like financial advice or a guarantee."
-  },
-  {
-    "id": "niche-tech-ai",
-    "kind": "niche",
-    "title": "Tech, software and AI",
-    "summary": "Apps, gadgets, AI tools, coding, productivity software.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "review_idea",
-      "improve_hook"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "tech_ai"
-    ],
-    "formats": [
-      "any"
-    ],
-    "priority": 3,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "G"
-    ],
-    "words": 68,
-    "body": "THIS AUDIENCE WANTS\nTo save time, find tools that actually work, and not fall behind.\nWHAT TENDS TO WORK\nScreen tutorials, tool lists, this versus that, hidden features, predictions with reasons, honest reviews.\nDETAILS THAT LAND\nExact tool names, versions, settings and results the user gave. Show the result first.\nCARE\nFeatures change fast. Never add a feature, price or setting the user didn't mention. Avoid hype words."
+    "words": 250,
+    "body": "Use the niche that matches the profile answers. None fits? Skip this.\n- Business, marketing, coaching: wants clients and proof. Client stories, mistakes, systems work. Care: no unbacked income claims.\n- Money and finance: wants control and realistic examples. Mistakes, myths, their own money story. Care: no promised returns or quick wealth; flag guarantees.\n- Fitness and health: wants results and a plan. Tips, myths, before and after, routines. Care: no fast weight loss or cures; say what they did.\n- Beauty and fashion: wants to look good for less. Before and after, reviews, get ready with me, comparisons. Care: show the result early; careful with skin-condition claims.\n- Food: wants tasty and doable. The finished dish early, quick recipes, reviews. Care: no invented amounts or prices.\n- Tech and AI: wants time saved and the right tools. Screen tutorials, tool lists, comparisons, hidden features. Care: no invented features, prices or settings.\n- Career and study: wants a way in and up. Mistakes, steps, how I got in. Care: no promised jobs or salaries.\n- Creative skills (video, design, photo, music, writing): wants skill and paid work. Before and after of the work, tool tips, behind the scenes. Care: show the work early; no invented tool features.\n- Lifestyle, travel, relationships: wants to relate and be entertained. POV, day in the life, stories, opinions. Care: no private details about others.\n- Faith and growth: wants hope and direction. Stories, lessons, confessions. Care: no added scripture or quotes; encourage, don't preach."
   },
   {
     "id": "action-draft-from-idea",
@@ -578,14 +206,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -594,8 +216,8 @@
       "S4",
       "G"
     ],
-    "words": 236,
-    "body": "WHAT TO DO\nTurn the idea into a first script in HOOK, BODY, VISUAL and CTA sections. Follow the content type guide: pick the structure that fits what the user actually has.\n\nUSE ONLY THEIR IDEA\n- Their facts, their story, their opinion, their steps. Scripnals structures the user's own thoughts. It does not write for them.\n- Keep their phrases. A rough idea is often voice-typed: keep how they talk, fix only what a listener would not follow.\n- Where the structure needs something the idea does not have, like a number, a result, the turning point or a step, write a short gap in square brackets, like [your result after 30 days]. Never fill it with an invented fact. Say in the summary which gaps they need to fill.\n\nBUILD IT\n- Hook: the strongest true thing in the idea, in a pattern from the hook guides.\n- Body: the beats of the chosen structure, one short line or two per beat.\n- VISUAL: one direction per beat where the picture changes, fitted to the filming format.\n- CTA: one ask from the audience guide, or a strong last line.\n- Length: fit the idea. A tip is often 20 to 40 seconds, a story 45 to 90. Under 150 words unless the notes say otherwise.\n\nLIST IN added_by_ai\nThe hook, if it is not their line. The CTA. Any bridge line you wrote."
+    "words": 145,
+    "body": "Turn the idea into HOOK, BODY, VISUAL and CTA, using the content type structure that fits what the user has.\n- Only their facts, story, opinion and steps. Scripnals structures their thoughts; it doesn't write for them.\n- Keep their phrasing. A voice-typed idea stays in their voice.\n- A detail the structure needs is missing (number, result, turning point, step)? Write a gap in brackets, like [your result after 30 days]. Never invent it. List the gaps in the summary.\n- Hook: the strongest true thing, as a hook pattern. Body: a line or two per beat. VISUAL: optional suggestions. CTA: one from the audience guide, or a strong last line.\n- Length fits the idea: a tip about 20-40 s, a story 45-90 s. Under 150 words unless the notes say otherwise.\nadded_by_ai: the hook if it isn't theirs, the CTA, bridge lines."
   },
   {
     "id": "action-improve-hook",
@@ -614,14 +236,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -631,8 +247,8 @@
       "R3",
       "R6"
     ],
-    "words": 218,
-    "body": "WHAT TO DO\nWrite 3 new first lines. Each uses a different pattern from the hook guides, and the \"pattern\" field uses that guide's title exactly.\n\nRULES FOR EVERY OPTION\n- Built only from what is in the text: their facts, their stakes, their words. If a pattern needs a fact the text does not have, like a result or a number, do not use that pattern.\n- Clear topic plus a reason to keep watching, within about 3 seconds. Aim for 6 to 14 spoken words.\n- Specific beats clever. Name the thing, the person or the number.\n- Honest. The rest of the script must deliver what the hook promises. If it does not, say so in the summary.\n- Sounds like the user. Reuse their phrasing and rhythm. One option may stay close to their original line, just tightened.\n- No greetings, no \"in this video\", no \"did you know\" openers, no questions answered with a plain yes or no.\n\nCHECK EACH OPTION\n- Would the target viewer stop for it?\n- Does it still fit the script's second line?\n- Can the first frame show it? If one option needs a specific visual or on-screen text to work, say so in the summary in one line.\n\nDO NOT TOUCH\nThe rest of the script."
+    "words": 118,
+    "body": "- 3 new first lines, each a different hook pattern. \"pattern\" = the hook guide's title, exactly.\n- Built from the text only. Skip patterns that need facts it lacks, like a result or a number.\n- 6-14 spoken words. Topic plus a reason to stay in about 3 s. Specific beats clever.\n- The script must deliver the promise. If it doesn't, say so in the summary.\n- In their voice. One option may be their own line, tightened.\n- No greetings, \"in this video\", \"did you know\", or yes/no questions.\n- If an option works best with a certain visual or on-screen text, suggest it in one line in the summary.\n- Don't touch the rest."
   },
   {
     "id": "action-remove-fluff",
@@ -651,22 +267,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "S2",
       "G"
     ],
-    "words": 183,
-    "body": "WHAT TO DO\nRemove filler, repeats and weak lines. Change nothing else: not the order, not the hook, not the tone.\n\nFLUFF TO REMOVE\n- Warm-ups: \"so basically\", \"hey guys\", \"in this video\", \"I just wanted to say\", \"before we start\".\n- Empty fillers: \"like\", \"you know\", \"literally\", \"actually\", \"just\", \"really\", \"very\", when they add nothing.\n- Hedges that weaken a point the user clearly believes: \"kind of\", \"sort of\", \"I guess\", \"maybe\".\n- A line that says the same thing as the line before it.\n- Lines that promise something the script never delivers.\n\nKEEP, EVEN IF IT LOOKS LIKE FILLER\n- Catchphrases and words that carry their personality or dialect.\n- A repeat used on purpose for rhythm or emphasis.\n- \"I think\" in an opinion, where it is honest.\n- Pauses and asides that are the joke.\n\nHOW\n- Delete. Do not reword. If a line only works reworded, leave it and mention it.\n- Return the script with the same sections it came in.\n- Add a text block, \"What I removed\", listing each removal in a few words."
+    "words": 101,
+    "body": "Remove filler, repeats and weak lines. Change nothing else: order, hook and tone stay.\nREMOVE: warm-ups (\"so basically\", \"hey guys\", \"in this video\"). Empty fillers (\"like\", \"you know\", \"literally\", \"actually\", \"just\", \"really\") where they add nothing. Hedges on points they clearly believe (\"kind of\", \"I guess\"). Lines that repeat the one before. Promises never delivered.\nKEEP: catchphrases and personality words, deliberate repeats, an honest \"I think\" in an opinion, asides that are the joke.\nDelete, don't reword. If a line only works reworded, leave it and mention it.\nSame sections as the input. Text block \"What I removed\": a short list."
   },
   {
     "id": "action-review-full",
@@ -685,14 +295,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -702,8 +306,8 @@
       "I5",
       "G"
     ],
-    "words": 360,
-    "body": "HOW TO SCORE\nFive areas, 0 to 20 each. Score what is on the page, not what it could become. Be honest: a high score the script has not earned helps nobody.\n\nHOOK\n17-20: the first line makes the topic and the reason to stay clear within about 3 seconds, is specific, is true, and sounds like the user.\n11-16: the topic is clear but the line is slow, vague or gives no reason to stay.\n6-10: the hook comes after a warm-up, or is generic.\n0-5: no hook. It opens with a greeting, a name or \"in this video\".\n\nCLARITY\n17-20: one main idea. A stranger follows it first time. Every line is easy to say out loud.\n11-16: clear overall, with one confusing or overloaded part.\n6-10: two ideas compete, or steps are missing.\n0-5: the point is hard to find.\n\nAUDIENCE FIT\n17-20: speaks straight to the profile's dream client or follower, in their words, about what they care about.\n11-16: right topic, but the benefit to the viewer is not obvious.\n6-10: about the user more than the viewer, or aimed at \"everyone\".\n0-5: wrong audience.\n\nPACING\n17-20: the length suits the idea, every line moves forward, the payoff lands on time.\n11-16: one slow patch or repeat.\n6-10: long setup, repeats, or the payoff comes too late.\n0-5: drags from start to end.\n\nCALL TO ACTION\n17-20: one clear ask that fits the goal and the video, or a deliberate strong ending.\n11-16: an ask that works but is generic or bolted on.\n6-10: several asks, or a vague one.\n0-5: missing, or engagement bait.\n\nTHE FIXES\n- 3 to 5 fixes, biggest first. The hook comes first if it scored under 15.\n- Each fix quotes the exact line, says what goes wrong for the viewer, and gives the fix in the user's voice.\n- Also check: would someone send this to a friend? Is any claim exaggerated? Did anything unclear need a question instead of a guess?\n- You may add one short text block, \"Keep these\", quoting 1 or 2 lines that already work, so the user knows what not to change."
+    "words": 248,
+    "body": "SCORING\n5 areas, 0-20 each. Score what's on the page. Be honest. Judge what works for the viewer, not whether it follows a guide. Never mark down for skipping a structure or having no VISUAL lines.\n\nHOOK: 17-20 topic and reason to stay clear in about 3 s, specific, true, in their voice. 11-16 clear but slow or vague. 6-10 after a warm-up, or generic. 0-5 none, or opens with a greeting or \"in this video\".\nCLARITY: 17-20 one idea, a stranger follows it first time, easy to say. 11-16 one confusing part. 6-10 competing ideas or missing steps. 0-5 the point is hard to find.\nAUDIENCE FIT: 17-20 speaks to the profile's dream client or follower, in their words. 11-16 right topic, unclear benefit. 6-10 about the user more than the viewer, or aimed at everyone. 0-5 wrong audience.\nPACING: 17-20 length fits, every line moves, payoff on time. 11-16 one slow patch or repeat. 6-10 long setup or late payoff. 0-5 drags throughout.\nCALL TO ACTION: 17-20 one clear ask that fits, or a deliberate strong ending. 11-16 works but generic or bolted on. 6-10 several or vague asks. 0-5 missing, or bait.\n\nFIXES\n- 3-5, biggest first. The hook first if it scored under 15.\n- Each: the exact quote, the viewer's problem, the fix in their voice.\n- Also check: would someone send it? Any exaggerated claim? Any unclear line to ask about?\n- Optional text block \"Keep these\": 1-2 lines that already work."
   },
   {
     "id": "action-review-idea",
@@ -722,14 +326,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -740,8 +338,8 @@
       "R2",
       "G"
     ],
-    "words": 256,
-    "body": "WHAT TO DO\nSay whether the idea fits the audience and how strong the angle is. Then give 3 better angles and 3 hooks. No score.\n\nJUDGE THE IDEA ON\n- Fit: does it touch the dream client's problem or goal, or the follower's reason for following? Quote the profile answer it matches, or say it matches none.\n- One idea: can it be said in one sentence?\n- Tension: is there a problem, a surprise, a stake or a strong opinion? No tension, no reason to watch.\n- Specific: is it about a real moment, number or method, or is it general advice anyone could give?\n- Theirs: does it use something only this user has, like their story, their method, their result or their take?\n- Sendable: would a viewer send it to a specific friend? Who?\n- Strangers: would it make sense to someone who has never seen the user?\n\nTHE 3 ANGLES\n- Each angle is the same idea seen a different way, not a new topic.\n- Each names the content type it fits and one line on why it is stronger.\n- Use only what the user gave. If an angle needs something they did not mention, like a story or a result, say it needs it.\n\nTHE 3 HOOKS\nUse patterns from the hook guides, one per angle where possible, with the pattern named.\n\nBLOCKS\nA text block for the verdict in 2 or 3 short lines. A bullets block for the angles. An options block for the hooks."
+    "words": 105,
+    "body": "A verdict on fit and angle, then 3 better angles and 3 hooks. No score.\nJUDGE: fit (quote the profile answer it matches, or say none). One idea, sayable in one sentence. Tension: a problem, surprise, stake or opinion. Specific, not generic. Theirs: their story, method, result or take. Sendable: to whom? Clear to strangers.\nANGLES: the same idea seen differently, not new topics. Each names its content type and why it's stronger. Flag anything it needs that the user didn't give.\nHOOKS: from the hook patterns, named, one per angle where possible.\nBLOCKS: text (the verdict, 2-3 lines), bullets (the angles), options (the hooks)."
   },
   {
     "id": "action-rewrite",
@@ -760,14 +358,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -775,8 +367,8 @@
       "S2",
       "G"
     ],
-    "words": 202,
-    "body": "WHAT TO DO\nRewrite the whole script in HOOK, BODY, VISUAL and CTA sections, using the beats of the content type guide.\n\nKEEP\n- Every point the user made. Add no new points, facts, stories or steps.\n- Their best lines, word for word.\n- Their dialect, slang and rhythm.\n- Roughly their length, no more than about 10% longer, unless the notes say otherwise.\n\nCHANGE\n- Order: put the beats in the order of the content type structure that fits best.\n- Hook: lead with the strongest true thing in their text. Use a hook pattern from the guides.\n- Cut warm-ups, repeats and lines that go nowhere.\n- Join beats with \"but\", \"so\" and \"because\".\n- Add VISUAL lines where the picture should change, fitted to the filming format.\n- CTA: one ask that fits the audience guide, or a strong last line.\n\nLIST IN added_by_ai\nThe new hook, if it is not the user's line. A new CTA. Any bridge line you wrote.\n\nIF SOMETHING IS MISSING\nIf the structure needs a beat the user did not give, like the result of a story, do not invent it. Keep the beat short and put the question in the summary."
+    "words": 104,
+    "body": "Rewrite in HOOK, BODY, VISUAL and CTA, using the best-fit structure from the content type guide.\nKEEP: every point (add none), their strongest lines word for word, their expressions and rhythm, roughly their length (at most about 10% longer unless the notes say otherwise).\nCHANGE: beat order. Hook: the strongest true thing in the text, as a hook pattern. Cut warm-ups and repeats. Link beats with \"but\", \"so\", \"because\". Optional VISUAL suggestions. One CTA or a strong last line.\nadded_by_ai: a new hook, the CTA, any bridge line.\nA beat is missing, like a story's result? Keep it short and ask in the summary."
   },
   {
     "id": "action-shorten",
@@ -795,14 +387,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -810,8 +396,8 @@
       "R5",
       "S2"
     ],
-    "words": 177,
-    "body": "WHAT TO DO\nCut the script to under 60 seconds spoken, about 150 words, unless the notes give another length. If it is already under the target, cut only what is weak and say it was already short enough.\n\nCUT IN THIS ORDER\n1. Warm-ups and throat-clearing before the point.\n2. Lines that repeat an earlier line.\n3. Side stories and extra examples when one example already does the job.\n4. Over-explained steps. Keep the action, drop the padding.\n5. A recap at the end that repeats the body.\n\nNEVER CUT\n- The hook, unless it is a greeting.\n- The main point and the payoff the hook promised.\n- The one detail that makes it theirs: the number, the moment, the line only they would say.\n- The CTA. Shorten it instead.\n\nHOW\n- Cut whole lines before rewording lines. Keep their exact words in what stays.\n- Keep the sections the script already has.\n- Add a text block, \"What I cut\", listing the cuts in a few words each, and the new word count."
+    "words": 88,
+    "body": "Target: under 60 s spoken, about 150 words, unless the notes say otherwise. Already under? Cut only weak lines and say so.\nCUT IN ORDER: warm-ups, repeats, side stories and extra examples, over-explained steps, an end recap.\nNEVER CUT: the hook (unless it's a greeting), the main point and the promised payoff, the detail that makes it theirs, the CTA (shorten it instead).\nCut whole lines before rewording. Keep their words and the existing sections.\nText block \"What I cut\": a short list and the new word count."
   },
   {
     "id": "action-to-bullets",
@@ -830,21 +416,15 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "S4"
     ],
-    "words": 237,
-    "body": "WHAT TO DO\nTurn the idea into talking points to glance at before recording. The user talks freely in their own words. This is the shape, not a script.\n\nWHY\nA full script makes people stumble chasing exact words. No plan makes them ramble. Short beats sit in between.\n\nPICK THE FRAMEWORK\nMatch what the idea is:\n- A story: Hook, Orient, Obstacle, Key moment, Effect, Directive.\n- Explaining an idea: Hook, What, Why, How (up to 3 points), Directive.\n- An opinion: Hook, The take, Reasons, Counterpoint, Directive.\n- Teaching steps: Hook, What you'll learn, Step 1, Step 2, Step 3, Recap.\n- A review or experience: Hook, Context, Expected vs real, Verdict, Directive.\nIf it is a blend, use the main one and borrow one beat from the other.\n\nWRITE THE BEATS\n- One bullet per beat, starting with the beat name, like \"Hook: ...\".\n- 3 to 6 words each, taken from their own words. Not full sentences.\n- The hook may be a full short line if the user already wrote one.\n- If a beat is missing from the idea, write the beat name and a short question, like \"Key moment: what flipped it?\". Do not invent the answer.\n\nBLOCKS\nOne bullets block. The label is a one-line title for the video and the framework used. Then a text block with one line: glance at it once, put it away, then talk."
+    "words": 128,
+    "body": "Talking points to glance at before recording unscripted. The shape, not a script.\nFRAMEWORKS, picked by the idea:\n- Story: Hook, Orient, Obstacle, Key moment, Effect, Directive.\n- Explaining: Hook, What, Why, How (up to 3), Directive.\n- Opinion: Hook, Take, Reasons, Counterpoint, Directive.\n- Teaching: Hook, What you'll learn, Steps 1-3, Recap.\n- Review or experience: Hook, Context, Expected vs real, Verdict, Directive.\nA blend? Use the main one and borrow one beat.\nBEATS: one bullet each, \"Beat: 3-6 words\", from their words. The hook may be a full short line if they wrote one. A missing beat gets its name and a short question, like \"Key moment: what flipped it?\". Never invent.\nBLOCKS: bullets (label: title and framework), then text: \"Glance once, put it away, talk.\""
   },
   {
     "id": "content-type-before-after",
@@ -869,14 +449,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -884,8 +458,8 @@
       "S4",
       "G"
     ],
-    "words": 287,
-    "body": "WHAT IT IS\nA real change: the before, the thing that made the difference, the after. It works for a person, a client, a body, a room, a business, a skill or a piece of work.\n\nWHEN IT WORKS\nProof and desire. The viewer sees the result is possible and wants the how.\n\nDEFAULT BEATS\nHOOK: the contrast in one line, or the after first.\nBODY: The before, specific: what it looked like, what it cost → The turning point or the change made → The after, specific → How: the 2 or 3 things that made the difference.\nCTA: business, a way to get the same result with the user's help. Creator, follow the journey, or a question.\n\nSTRUCTURES TO CHOOSE FROM\n- Transformation: Before → Turning point → After → How.\n- Client case study (business): The client's before → What we did → Their after → Who else this is for.\n- Expected vs real: What I expected → What actually happened → My verdict → Who it's for.\n- Then and now: My first attempt → My latest → What I learned in between.\n\nRULES\n- Both sides must be specific, and only what the user gave: their numbers, their timeframe, their pictures. Never invent or round up a result.\n- Show it. Before and after is visual: plan a VISUAL line for each side.\n- The how is the value. Without it, it's only a flex.\n- Health, body and money results need care: say what they did, not what the viewer is guaranteed.\n\nLENGTH\n15 to 60 seconds.\n\nCOMMON MISTAKES\nA vague before (\"I was struggling\"). A result with no how. Skipping the turning point. Promising the viewer the same result."
+    "words": 146,
+    "body": "A real change: the before, what made the difference, the after. Proof and desire.\nDEFAULT: HOOK the contrast in one line, or the after first. Before: specific, what it cost. The turning point. After: specific. How: the 2-3 things that did it. CTA: business, getting the same result with their help; creator, follow the journey or a question.\nSTRUCTURES: Transformation. Client case study (before, what we did, after, who it's for). Expected vs real (the verdict, who it's for). Then and now (first attempt, latest, what changed).\nTIPS: both sides specific, and only what the user gave; never round up. Suggest a VISUAL for each side. The how is the value. Health, body or money: say what they did, not what the viewer will get.\nLENGTH: 15-60 s.\nMISTAKES: a vague before, a result with no how, a skipped turning point, promising the viewer the result."
   },
   {
     "id": "content-type-contrarian",
@@ -910,14 +484,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -927,8 +495,8 @@
       "I2",
       "G"
     ],
-    "words": 287,
-    "body": "WHAT IT IS\nThe user disagrees with common advice or a common belief, says so plainly, and backs it up.\n\nWHEN IT WORKS\nComments, sends and standing out. The user truly holds the view and has a reason.\n\nDEFAULT BEATS\nHOOK: the take, stated plainly in the first line. No warm-up.\nBODY: What most people believe or say → Why it's wrong or incomplete: 1 or 2 real reasons → What to do or believe instead → The fair counterpoint in one line, and why the take still stands.\nCTA: a real question (\"agree, or am I wrong?\") or a follow. For a business, one line on how they help.\n\nSTRUCTURES TO CHOOSE FROM\n- Myth buster: The myth → Why it's wrong → What to do instead → Light promotion → CTA.\n- Hot take: The take → Reasons → The counterpoint → What to do with this.\n- Reaction: A short clip or quote from someone else → The user's verdict, true or false → Why → What to do instead. Name what is being reacted to. Don't reuse the whole clip.\n- Stop doing this: The common habit → What it costs → The better way.\n\nRULES\n- The take must be the user's real opinion. Never make it more extreme than they said it.\n- Attack the idea, never a person or a group.\n- The reasons carry it. A take with no reason is just bait, and bait gets pushed down.\n- \"Instead\" is the value. Always give the better way.\n\nLENGTH\n20 to 60 seconds.\n\nCOMMON MISTAKES\nHedging the take (\"some people might say...\"). Only complaining with no alternative. A take so mild nobody disagrees. A strawman of the other side."
+    "words": 146,
+    "body": "The user disagrees with common advice, says it plainly and backs it up. Comments, sends, standing out.\nDEFAULT: HOOK the take, in the first line. What most people believe. Why it's wrong: 1-2 real reasons. What to do instead. The fair counterpoint in one line, and why the take still stands. CTA: a real question or a follow.\nSTRUCTURES: Myth buster (the myth, why it's wrong, what instead, a light promo). Hot take (take, reasons, counterpoint, what to do). Reaction (a short clip or quote, the verdict, why, what instead; name the source, don't reuse the whole clip). Stop doing this (the habit, its cost, the better way).\nTIPS: their real opinion, never more extreme than they said. Attack ideas, not people. The reasons carry it. Always give the better way.\nLENGTH: 20-60 s.\nMISTAKES: hedging, complaining with no alternative, a take nobody disputes, a strawman."
   },
   {
     "id": "content-type-listicle",
@@ -953,22 +521,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "S1",
       "G"
     ],
-    "words": 295,
-    "body": "WHAT IT IS\nA numbered set: tips, mistakes, tools, signs, lessons. The number is the promise and the viewer counts along.\n\nWHEN IT WORKS\nEasy saves and sends. Good when the user has several small points on one topic, each useful alone.\n\nDEFAULT BEATS\nHOOK: the number, the topic and why it matters to the viewer.\nBODY: Item 1 → Item 2 → Item 3 (→ 4, 5). Each item: its name in one short line, then one or two lines on why or how.\nCTA: a save or a follow fits best. A real question also works: \"which one do you do?\"\n\nSTRUCTURES TO CHOOSE FROM\n- Tips: N ways to get a result.\n- Mistakes: N mistakes costing the viewer something. Each is the mistake, why it hurts, the fix.\n- Tools or resources: N things the user actually uses, and what each does for them.\n- Lessons: N things the user wishes they knew earlier.\n- Signs: N signs you are, or need, something.\n\nRULES\n- 3 to 5 items for under 60 seconds. If the user has more, keep the strongest and say which were cut.\n- Every item is on the same topic and phrased the same way, so the list is easy to follow.\n- A strong first item earns trust. Keep one of the best for last and tease it early (\"the last one is the one nobody does\"), but only if it is true.\n- The number in the hook must match the list.\n- Items must come from the user. Never add an item to reach a round number.\n\nLENGTH\n20 to 60 seconds.\n\nCOMMON MISTAKES\nToo many items. Items that overlap. Long explanations that break the rhythm. A number hook with no reason to care."
+    "words": 127,
+    "body": "A numbered set: tips, mistakes, tools, signs, lessons. Easy saves and sends.\nDEFAULT: HOOK the number, the topic and why it matters. Items: the name in one line, then 1-2 lines on why or how. CTA: save, follow, or \"which one do you do?\".\nSTRUCTURES: N ways to a result. N mistakes (mistake, cost, fix). N tools the user uses. N things I wish I knew. N signs.\nTIPS: 3-5 items for under 60 s; keep the strongest and say what was cut. Same topic, parallel phrasing. A strong first item; a best-for-last teased early, if true. The hook's number matches the list. Never add items to round a number.\nLENGTH: 20-60 s.\nMISTAKES: too many items, overlap, long explanations, a number with no reason to care."
   },
   {
     "id": "content-type-pov",
@@ -993,21 +555,15 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "G"
     ],
-    "words": 278,
-    "body": "WHAT IT IS\nA short scene the viewer steps into: \"POV: you're...\" or \"When you...\". It is built on one relatable truth, usually shown more than said.\n\nWHEN IT WORKS\nSends and relatability. People send it because \"this is so you\". It works for businesses too: the client's daily pain, or the moment the user solves it.\n\nDEFAULT BEATS\nHOOK: the on-screen text setting the scene: \"POV: [a specific situation the audience lives]\".\nBODY: The moment played out: action, reaction, a few lines of dialogue or none → The twist or punch: the relatable truth landing at the end.\nCTA: usually none, or one short line. Let the ending carry it.\n\nSTRUCTURES TO CHOOSE FROM\n- Relatable POV: the situation → the reaction → the truth everyone recognises.\n- Role POV: \"POV: you're my client / my editor / my mum\" → what that person sees → the punch.\n- Two sides: expectation → reality.\n- Day in the life POV: 3 to 5 quick moments on one theme → the ending moment.\n\nRULES\n- Mostly VISUAL and on-screen text. Keep spoken lines few and short.\n- The situation must be specific to the niche. \"POV: you're tired\" is weak. A detail only this audience knows makes it land.\n- One truth per video.\n- The punch goes last. Put the strongest word at the end of the last line.\n- Built from the user's own experience and humour. Don't invent a joke unless the tone is Funny, and then list it in added_by_ai.\n\nLENGTH\n7 to 30 seconds.\n\nCOMMON MISTAKES\nA situation too general. Explaining the joke. Too many lines of talk. No payoff at the end."
+    "words": 139,
+    "body": "A short scene the viewer steps into (\"POV: you're...\", \"When you...\"), built on one relatable truth. People send it: \"this is so you\".\nDEFAULT: HOOK on-screen text setting the scene: \"POV: [specific situation]\". The moment: action, reaction, few or no lines. The punch: the truth lands last. CTA: usually none.\nSTRUCTURES: Relatable (situation, reaction, truth). Role (\"POV: you're my client\", what they see, the punch). Expectation vs reality. Day in the life (3-5 quick moments, then the ending moment).\nTIPS: usually carried by visuals and on-screen text, so suggest them. Few, short spoken lines. A niche-specific detail makes it land; \"you're tired\" is weak. One truth. The strongest word last. Built from their own experience; new jokes only with the Funny tone, listed in added_by_ai.\nLENGTH: 7-30 s.\nMISTAKES: too general, explaining the joke, too much talk, no payoff."
   },
   {
     "id": "content-type-quick-tip",
@@ -1032,14 +588,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -1047,8 +597,8 @@
       "S4",
       "G"
     ],
-    "words": 315,
-    "body": "WHAT IT IS\nOne useful thing the viewer can do today: a tip, a hack, a fix, or a short step-by-step.\n\nWHEN IT WORKS\nSaves, follows and authority. The user knows how to do something the viewer struggles with.\n\nDEFAULT BEATS\nHOOK: the result or the problem, plus a hint that the fix is quick.\nBODY: The tip in one sentence, if the hook didn't say it → How to do it: the steps, in order, each one line → Why it works, in one line, optional.\nCTA: save it, follow for more tips like this, or, for a business, one line on how they help.\n\nSTRUCTURES TO CHOOSE FROM\n- Tip or hack: Hook → The tip → How to do it → CTA.\n- Step-by-step system: Hook → \"Here are the N steps\" → Step 1 → Step 2 → Step 3 → optional one line of promotion → CTA.\n- Common mistake: Hook → The mistake → Why it's a mistake → What to do instead → CTA.\n- Proof first (authority): Hook → The real result the user got, or got a client → How the viewer can do it → CTA. Only if the user gave the result.\n- Explain it: Hook → What it is → Why it matters → How it works, up to 3 points → What to do.\n\nRULES\n- One tip. If there are three, it is a listicle.\n- Steps are actions, in the order you do them, with the exact names of tools or settings the user gave.\n- Show, don't only tell: add VISUAL lines for each step when it can be shown.\n- Get to the tip fast. A quick tip with a slow start fails.\n\nLENGTH\n15 to 45 seconds.\n\nCOMMON MISTAKES\nExplaining why before showing how. Vague steps. A tip too general to use. Promising \"quick\" and running long."
+    "words": 143,
+    "body": "One thing the viewer can use today: a tip, hack, fix or short steps. Saves, follows, authority.\nDEFAULT: HOOK the result or problem, plus a hint the fix is quick. The tip, if the hook didn't say it. How: steps in order, one line each. Why it works, optional. CTA: save, follow, or for a business, how they help.\nSTRUCTURES: Tip or hack. Step-by-step system (N steps, optional one-line promo). Common mistake (the mistake, why, what instead). Proof first (a real result they gave, then how). Explain it (what, why, how, what to do).\nTIPS: one tip; three is a listicle. Steps are actions, in order, with the exact tool or setting names they gave. Suggest a VISUAL for steps that can be shown. Get to the tip fast.\nLENGTH: 15-45 s.\nMISTAKES: why before how, vague steps, too general, \"quick\" but long."
   },
   {
     "id": "content-type-storytelling",
@@ -1073,14 +623,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -1089,14 +633,14 @@
       "S4",
       "R4"
     ],
-    "words": 344,
-    "body": "WHAT IT IS\nA real moment told so the viewer feels it: a problem, what it cost, what turned it, what changed. The lesson comes out of the story.\n\nWHEN IT WORKS\nBuilding trust and connection. The user has lived it, or watched a client live it.\n\nDEFAULT BEATS\nHOOK: the most intense or surprising moment, dropped in without setup.\nBODY: Context (one line: when, where, who) → Struggle (what went wrong, what it cost, with real details) → Turn (the exact moment or realisation that flipped it) → Result or lesson (what changed, what they learned).\nCTA: soft. A follow, a question, or end on the lesson. A named series may close on its catchphrase.\n\nSTRUCTURES TO CHOOSE FROM\n- The lesson: Setback → What I tried → What worked → What it taught me.\n- The breakthrough: Doing everything and still failing → The realisation → The fix, step by step.\n- Challenge to victory: Someone said I couldn't → The struggle → The turning point → The method → The before and after → The myth it busts.\n- Client story (business): Their problem → The pain → What failed → What worked → Their result → How I help people like them.\n- About me: Normal life → The event → The realisation → The change → My mission now.\n- Big goal: The dream → Starting for real → Progress so far → Help me get there.\n\nRULES\n- Join beats with \"but\" and \"so\". \"And then\" means the story has no tension.\n- Real details only: numbers, times, feelings, exact words said. Never invent one. Ask with a bracketed gap.\n- The turn must be specific, a thing seen, heard or done, not \"I realised I had to change\".\n- Vulnerable details are usually the best lines. Keep them.\n\nLENGTH\n45 to 90 seconds. Tight versions 30 to 45.\n\nCOMMON MISTAKES\nStarting at the beginning of the day instead of the moment. Too much setup. A lesson that doesn't follow from the story. Ending on a vague moral."
+    "words": 198,
+    "body": "A real moment, the user's or a client's, told with tension, a turn and a lesson. Builds trust and connection.\nDEFAULT: HOOK the most intense moment, no setup. Then Context (one line), Struggle (real details, what it cost), Turn (the exact moment or realisation), Result or lesson. CTA: soft, like a follow, a question, or ending on the lesson. A series may close on its catchphrase.\nSTRUCTURES:\n- Lesson: Setback, What I tried, What worked, The lesson.\n- Breakthrough: Doing everything and still failing, The realisation, The fix.\n- Challenge to victory: Told I couldn't, The struggle, Turning point, The method, Before and after, The myth it busts.\n- Client story (business): Their problem, The pain, What failed, What worked, Their result, Who I help.\n- About me: Normal life, The event, The realisation, The change, My mission.\n- Big goal: The dream, Starting, Progress so far, Help me get there.\nTIPS: \"but\" and \"so\", never \"and then\". Real details only. The turn is specific: seen, heard or done. Vulnerable details are often the best lines.\nLENGTH: 45-90 s, tight 30-45 s.\nMISTAKES: starting before the moment, long setup, a lesson the story didn't earn, a vague moral."
   },
   {
-    "id": "format-green-screen",
+    "id": "format-notes",
     "kind": "format",
-    "title": "Green screen",
-    "summary": "The user talks in front of an image, post, article or clip they are reacting to.",
+    "title": "Format notes",
+    "summary": "How the script changes with the way it will be filmed. VISUAL lines are suggestions only.",
     "actions": [
       "review_full",
       "rewrite",
@@ -1113,250 +657,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "green_screen"
-    ],
-    "priority": 2,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "S1",
-      "I2"
-    ],
-    "words": 85,
-    "body": "HOW THE SCRIPT CHANGES\n- VISUAL says what is behind the user at each point: the post, the headline, the screenshot, the chart.\n- Start with the thing being reacted to, so the viewer knows at once what this is about.\n- The user's take is the content. The background only sets it up.\n- Add something real: an opinion, a correction, a lesson. Reposting others' content without adding value gets pushed down.\nAVOID\nReading the whole background out loud. Using someone else's full video."
-  },
-  {
-    "id": "format-screen-tutorial",
-    "kind": "format",
-    "title": "Screen recording",
-    "summary": "A walkthrough of an app, tool or process shown on a screen.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "improve_hook",
-      "to_bullets"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "screen_tutorial"
-    ],
-    "priority": 2,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "S4",
-      "G"
-    ],
-    "words": 75,
-    "body": "HOW THE SCRIPT CHANGES\n- Every step pairs a spoken line with a VISUAL line saying what is shown: the menu, the button, the setting.\n- Use the exact names of buttons and settings the user gave. Never guess a menu path.\n- First frame: the finished result, then \"here's how\".\n- Suggest zooming in on small parts of the screen.\nAVOID\nNarrating every click. Long waits while something loads. Steps shown out of order."
-  },
-  {
-    "id": "format-skit",
-    "kind": "format",
-    "title": "Skit or acting",
-    "summary": "The user acts out a scene, often playing more than one character.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "improve_hook",
-      "to_bullets"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "skit"
-    ],
-    "priority": 2,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "G"
-    ],
-    "words": 77,
-    "body": "HOW THE SCRIPT CHANGES\n- Write it as short dialogue lines, each starting with the character's name, like \"CLIENT:\" or \"ME:\".\n- VISUAL lines say who is on screen, costume or position changes, and any props.\n- Get into the scene in the first second. No setup line explaining the skit.\n- Keep the punch for the last line or last reaction.\nAVOID\nMore than 2 or 3 characters. Long speeches. Explaining the joke after it lands."
-  },
-  {
-    "id": "format-talking-head",
-    "kind": "format",
-    "title": "Talking to camera",
-    "summary": "The user speaks straight to the lens.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "improve_hook",
-      "to_bullets"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "talking_head"
-    ],
-    "priority": 2,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "S2",
-      "S4",
-      "R3"
-    ],
-    "words": 116,
-    "body": "HOW THE SCRIPT CHANGES\n- It is all spoken, so it must sound like talking, not reading. Short lines the user can say in one breath.\n- First frame: the user already mid-sentence or mid-action, face close, with on-screen text that says the hook in 3 to 7 words.\n- VISUAL lines: cut-ins, a change of angle or distance, on-screen text for key words, B-roll or a screen grab when they mention something the viewer should see. Plan a visual change every few lines so the picture never sits still for long.\n- For unscripted talkers, keep the script as beats they can glance at.\nAVOID\nLong paragraphs to memorise. Opening on a wide, static shot."
-  },
-  {
-    "id": "format-text-on-screen",
-    "kind": "format",
-    "title": "Text on screen",
-    "summary": "No talking. The message is carried by on-screen text over a clip, usually with music.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "improve_hook",
-      "to_bullets"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "text_on_screen"
-    ],
-    "priority": 2,
-    "version": 1,
+    "priority": 3,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "R3",
       "G"
     ],
-    "words": 97,
-    "body": "HOW THE SCRIPT CHANGES\n- The script is the text on screen. Each line of text is one screen, readable in about 2 seconds: aim for 3 to 10 words.\n- HOOK is the first text line, over a clip that matches it.\n- BODY is 2 to 6 text lines, one idea each. VISUAL says what clip sits under each.\n- Put the longer detail in the caption, not on screen. Say so in the summary.\nAVOID\nLong sentences on screen. Text that covers the key part of the picture. More than one idea per screen."
-  },
-  {
-    "id": "format-vlog",
-    "kind": "format",
-    "title": "Vlog or day in the life",
-    "summary": "A sequence of real moments from the user's day, with voice or text over them.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "improve_hook",
-      "to_bullets"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "vlog"
-    ],
-    "priority": 2,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "S6",
-      "G"
-    ],
-    "words": 79,
-    "body": "HOW THE SCRIPT CHANGES\n- Pick one theme or question for the day, and set it up in the hook.\n- VISUAL lines list the moments in order. Each gets one short line of voice or text.\n- Build to one moment that pays off the hook: the result, the lesson, the twist.\n- Leave out moments that don't serve the theme.\nAVOID\nA list of things that happened with no point. A slow morning routine before anything interesting."
-  },
-  {
-    "id": "format-voiceover-broll",
-    "kind": "format",
-    "title": "Voiceover with B-roll",
-    "summary": "The user's voice plays over footage of what they describe, often cinematic.",
-    "actions": [
-      "review_full",
-      "rewrite",
-      "draft_from_idea",
-      "improve_hook",
-      "to_bullets"
-    ],
-    "content_types": [
-      "any"
-    ],
-    "tones": [
-      "any"
-    ],
-    "audiences": [
-      "any"
-    ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "voiceover_broll"
-    ],
-    "priority": 2,
-    "version": 1,
-    "status": "active",
-    "updated": "2026-09-22",
-    "refs": [
-      "S6",
-      "R3"
-    ],
-    "words": 116,
-    "body": "HOW THE SCRIPT CHANGES\n- Write the voiceover and the shots together. Every one or two lines of voice gets a VISUAL line saying what is on screen.\n- The picture should show what the words say, or add to it. Never contradict it.\n- Voiceover can be calmer and more written than talking to camera, but still short lines, easy to say.\n- First frame: the strongest shot, matching the first spoken line and the on-screen text.\n- Leave room: a line of silence over a strong shot can land harder than words.\nAVOID\nDescribing what the viewer can already see. Shots the user can't film. Suggest simple shots from their own life and work."
+    "words": 194,
+    "body": "Work out how it will be filmed from the draft and notes; if unclear, talking to camera. VISUAL lines and on-screen text are optional suggestions. Never mark a script down for having none.\n- Talking to camera: lines sayable in one breath. Start mid-sentence; short on-screen text can echo the hook. Suggest a cut, a closer shot or text every few lines.\n- Voiceover with B-roll: suggest a shot every line or two that shows what's said. Silence over a strong shot can land. Simple shots they can actually film.\n- Text on screen: the text is the script. One idea per screen, 3-10 words. Detail goes in the caption.\n- Skit: short lines starting with the character (\"CLIENT:\", \"ME:\"). Start inside the scene. Punch last. 2-3 characters at most.\n- Screen recording: pair each step with what's shown, using the exact button names they gave. Showing the result first works well.\n- Green screen: say what's behind them at the start. Their take is the content: add an opinion or a lesson, not a repost.\n- Vlog: one theme, set in the hook. Moments in order, one line each, building to the payoff."
   },
   {
     "id": "tone-friendly",
@@ -1381,21 +691,15 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "G"
     ],
-    "words": 78,
-    "body": "SOUNDS LIKE\nTalking to one friend over food. Warm, relaxed, on the viewer's side.\n\nWORDS\n- Everyday words. \"You\" and \"I\". Contractions.\n- The user's slang, dialect and pet phrases are welcome.\n- Encouraging, never preachy. Share, don't lecture.\n\nSENTENCES\nShort. Some fragments are fine. A question now and then, when it sounds natural.\n\nENERGY\nUpbeat but real. Light humour if the user's text has it.\n\nAVOID\nTeacher voice, forced excitement, talking down, a string of exclamation marks."
+    "words": 53,
+    "body": "Talking to one friend. Warm, relaxed, on the viewer's side. Everyday words, \"you\" and \"I\", contractions, their slang and pet phrases. Short sentences; fragments and the odd natural question are fine. Upbeat but real, light humour if it's theirs. Encourage, don't preach.\nAVOID: teacher voice, forced hype, talking down, strings of exclamation marks."
   },
   {
     "id": "tone-funny",
@@ -1420,22 +724,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "S2",
       "G"
     ],
-    "words": 171,
-    "body": "WHERE THE HUMOUR COMES FROM\nThe user's own material: their real situation, their reactions, their way of saying things. The best comedy is usually already in the draft. Your job is to find it and sharpen it.\n\nHOW TO MAKE IT FUNNIER WITHOUT INVENTING\n- Timing: set-up line, then a short punch line. Put the funny word last.\n- Exaggerate what really happened, clearly as exaggeration (\"I've watched that tutorial 400 times\").\n- Self-mockery from their own story.\n- Specific beats general. A precise, niche detail is funnier than a broad one.\n- Contrast: what they expected against what happened.\n- Callbacks: bring back an earlier line at the end.\n- Rule of three: two normal items, the third one off.\n\nLIMITS\n- Never invent events, people or facts to make a joke.\n- You may suggest at most one new joke line. List it in added_by_ai.\n- Never punch down: no jokes about identity, looks, religion or the viewer.\n- The point must still land. The joke serves the message."
+    "words": 90,
+    "body": "The humour comes from the user's material: their situation, reactions and phrasing. Find it and sharpen it.\nHOW: a set-up, then a short punch with the funny word last. Exaggerate what really happened, clearly as exaggeration. Self-mockery from their story. A niche-specific detail. What they expected against what happened. A callback at the end. Rule of three with an odd third.\nLIMITS: never invent events, people or facts. At most one new joke line, listed in added_by_ai. No jokes about identity, looks, religion or the viewer. The point still lands."
   },
   {
     "id": "tone-professional",
@@ -1460,21 +758,15 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 1,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "G"
     ],
-    "words": 99,
-    "body": "SOUNDS LIKE\nA calm expert explaining something to a client they respect. Confident, clear, never stiff.\n\nWORDS\n- Precise, plain words. Name the exact thing. Contractions are fine.\n- Authority comes from specifics, like the step, the reason or the number the user gave, not from jargon or big words.\n- The user's slang can stay if it is how they talk. Tone it down, don't delete their personality.\n\nSENTENCES\nShort and complete. Statements more than questions. One idea each.\n\nENERGY\nSteady. Few exclamation marks. No hype words.\n\nAVOID\nCorporate phrases (\"leverage\", \"solutions\", \"stakeholders\"), stiff formality, long lead-ins, hedging."
+    "words": 52,
+    "body": "A calm expert talking to a client they respect. Plain, precise words; contractions are fine. Authority from specifics, not jargon. Short, complete sentences, mostly statements. Steady energy, few exclamation marks, no hype. Keep their slang if it's how they talk, toned down.\nAVOID: corporate words (leverage, solutions, stakeholders), stiffness, long lead-ins, hedging."
   },
   {
     "id": "hook-against-the-grain",
@@ -1497,22 +789,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "R2",
       "S1"
     ],
-    "words": 40,
-    "body": "FORMULA: [common advice] is wrong. / Stop [common habit].\nUSE WHEN: the user truly disagrees with something their audience hears often.\nNEEDS: the user's reason, later in the script.\nAVOID: disagreeing just for attention, or naming a person to attack."
+    "words": 25,
+    "body": "[Common advice] is wrong. / Stop [common habit]. USE: the user truly disagrees and gives a reason later. AVOID: disagreeing for attention, attacking a person."
   },
   {
     "id": "hook-bold-claim",
@@ -1538,22 +824,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "R6",
       "G"
     ],
-    "words": 39,
-    "body": "FORMULA: [the strongest true statement about the topic, said flat].\nUSE WHEN: the user has a clear, confident point.\nNEEDS: a claim the script backs up.\nAVOID: claims the body doesn't prove, and words like \"best ever\" or \"guaranteed\"."
+    "words": 23,
+    "body": "[The strongest true statement, said flat]. USE: a confident point the script backs up. AVOID: \"best ever\", \"guaranteed\", claims the body doesn't prove."
   },
   {
     "id": "hook-call-out",
@@ -1578,22 +858,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "R6",
       "G"
     ],
-    "words": 43,
-    "body": "FORMULA: If you're a [specific audience] who [specific situation], [promise or warning].\nUSE WHEN: the video is useful to one clear group. The profile's dream client works well here.\nNEEDS: a specific group, not \"everyone\".\nAVOID: a group so wide it means nothing."
+    "words": 29,
+    "body": "If you're a [specific person] who [situation], [promise or warning]. USE: the video helps one clear group; the dream client fits. AVOID: a group so wide it means nothing."
   },
   {
     "id": "hook-common-mistake",
@@ -1618,22 +892,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "S1",
       "G"
     ],
-    "words": 45,
-    "body": "FORMULA: If you [do this], you're [losing this]. / The mistake most [audience] make with [topic].\nUSE WHEN: the user can name a specific mistake and the fix.\nNEEDS: the fix, in the body.\nAVOID: shaming the viewer, and mistakes so general they fit anyone."
+    "words": 28,
+    "body": "If you [do this], you're [losing this]. / The mistake most [audience] make with [topic]. USE: a specific mistake with a fix. AVOID: shaming, mistakes that fit anyone."
   },
   {
     "id": "hook-confession",
@@ -1657,21 +925,15 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "S2"
     ],
-    "words": 37,
-    "body": "FORMULA: I've never said this publicly: [truth]. / I [did something embarrassing or honest].\nUSE WHEN: the user shares a real vulnerable moment.\nNEEDS: the truth, from the user.\nAVOID: fake vulnerability, and confessions that go nowhere."
+    "words": 21,
+    "body": "I've never said this publicly: [truth]. USE: a real vulnerable moment from the user. AVOID: fake vulnerability, confessions that go nowhere."
   },
   {
     "id": "hook-hidden-truth",
@@ -1695,22 +957,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "R2",
       "R6"
     ],
-    "words": 45,
-    "body": "FORMULA: Nobody tells [audience] this about [topic]. / What [experts] don't say about [topic].\nUSE WHEN: the user has insider knowledge from their work.\nNEEDS: a real reveal in the body, delivered fast.\nAVOID: fake secrets. If the reveal is common knowledge, this becomes clickbait."
+    "words": 20,
+    "body": "Nobody tells [audience] this about [topic]. USE: real insider knowledge, revealed fast. AVOID: fake secrets; common knowledge makes it clickbait."
   },
   {
     "id": "hook-i-tried-it",
@@ -1734,21 +990,15 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "R2"
     ],
-    "words": 44,
-    "body": "FORMULA: I [did this] for [time]. Here's what happened.\nUSE WHEN: the script is about something the user actually tried.\nNEEDS: the real test and the real outcome.\nAVOID: pretending an experiment happened, and hiding the outcome until the very end with no hints."
+    "words": 23,
+    "body": "I [did this] for [time]. Here's what happened. USE: something they really tried. AVOID: a made-up test, hiding the outcome with no hints."
   },
   {
     "id": "hook-myth-buster",
@@ -1772,22 +1022,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "S1",
       "R2"
     ],
-    "words": 45,
-    "body": "FORMULA: You don't need [thing people think they need] to [result]. / [Belief] is a myth.\nUSE WHEN: the audience is held back by a false belief the user can correct.\nNEEDS: the truth and what to do instead.\nAVOID: a myth nobody actually believes."
+    "words": 24,
+    "body": "You don't need [thing] to [result]. / [Belief] is a myth. USE: a false belief holds the audience back. AVOID: a myth nobody believes."
   },
   {
     "id": "hook-number-list",
@@ -1810,21 +1054,15 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "G"
     ],
-    "words": 35,
-    "body": "FORMULA: [N] [things] that [outcome]. / [N] signs you [situation].\nUSE WHEN: the script is a list.\nNEEDS: exactly N items in the body.\nAVOID: a number with no reason to care. Add the outcome."
+    "words": 24,
+    "body": "[N] [things] that [outcome]. / [N] signs you [situation]. USE: a list with exactly N items. AVOID: a number with no reason to care."
   },
   {
     "id": "hook-prediction",
@@ -1847,21 +1085,15 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "R2"
     ],
-    "words": 42,
-    "body": "FORMULA: [Thing] is about to change how [audience] [do something]. / In [time], [prediction].\nUSE WHEN: the user has a real, reasoned view on where their field is going.\nNEEDS: the reasons, in the body.\nAVOID: fear-mongering, and predictions stated as facts."
+    "words": 24,
+    "body": "[Thing] is about to change how [audience] [act]. USE: a reasoned view of where the field is going. AVOID: fear-mongering, predictions stated as facts."
   },
   {
     "id": "hook-result-first",
@@ -1886,22 +1118,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "R2",
       "S1"
     ],
-    "words": 53,
-    "body": "FORMULA: [Real result] in [real timeframe]. Here's what did it.\nUSE WHEN: the user gave a real result: a number, an outcome, a client win.\nNEEDS: the result, stated in the user's text. If there isn't one, do not use this pattern.\nAVOID: rounding up, or implying the viewer will get the same."
+    "words": 26,
+    "body": "[Real result] in [real time]. Here's what did it. USE: only if the text has the result. AVOID: rounding up, implying the viewer gets the same."
   },
   {
     "id": "hook-sharp-question",
@@ -1926,22 +1152,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "R6",
       "G"
     ],
-    "words": 40,
-    "body": "FORMULA: Why do [audience] keep [specific frustrating thing]? / Ever [specific moment]?\nUSE WHEN: the question names a real, specific frustration.\nNEEDS: the answer, later in the video.\nAVOID: yes-or-no questions with an obvious answer, and \"did you know\" openers."
+    "words": 26,
+    "body": "Why do [audience] keep [specific frustration]? / Ever [specific moment]? USE: it names a real frustration the video answers. AVOID: obvious yes/no questions, \"did you know\"."
   },
   {
     "id": "hook-story-drop",
@@ -1966,14 +1186,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -1981,8 +1195,8 @@
       "S4",
       "R6"
     ],
-    "words": 44,
-    "body": "FORMULA: [When], I [the most dramatic real moment]. / [The exact words someone said to them].\nUSE WHEN: the script is a story with a strong moment.\nNEEDS: that moment, from the user.\nAVOID: starting at the beginning of the day, and inventing drama."
+    "words": 30,
+    "body": "[When], I [the most dramatic real moment]. / [The exact words someone said]. USE: a story with a strong moment. AVOID: starting at the start of the day, invented drama."
   },
   {
     "id": "hook-straight-promise",
@@ -2006,14 +1220,8 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
@@ -2021,8 +1229,8 @@
       "R6",
       "S4"
     ],
-    "words": 35,
-    "body": "FORMULA: How to [result] without [pain]. / Here's how to [result] in [N] steps.\nUSE WHEN: the video teaches a clear method.\nNEEDS: the method, delivered in full.\nAVOID: promising more than the video gives."
+    "words": 23,
+    "body": "How to [result] without [pain]. / [Result] in [N] steps. USE: the video teaches the full method. AVOID: promising more than it gives."
   },
   {
     "id": "hook-thats-me",
@@ -2046,21 +1254,15 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "G"
     ],
-    "words": 40,
-    "body": "FORMULA: POV: [specific situation]. / When you [specific relatable moment].\nUSE WHEN: the video is built on a shared experience of the audience.\nNEEDS: a niche-specific detail that makes it feel real.\nAVOID: situations everyone has, like \"when you're tired\"."
+    "words": 19,
+    "body": "POV: [specific situation]. / When you [relatable moment]. USE: a shared experience of the audience. AVOID: situations everyone has."
   },
   {
     "id": "hook-then-vs-now",
@@ -2084,22 +1286,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "S1",
       "G"
     ],
-    "words": 39,
-    "body": "FORMULA: I went from [real before] to [real after]. / [Then], [now].\nUSE WHEN: the user has a real change to show.\nNEEDS: both sides, from the user, ideally shown on screen.\nAVOID: vague sides like \"struggling\" to \"thriving\"."
+    "words": 21,
+    "body": "I went from [real before] to [real after]. USE: a real change, ideally shown. AVOID: vague sides like \"struggling\" to \"thriving\"."
   },
   {
     "id": "hook-this-vs-that",
@@ -2124,21 +1320,15 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "G"
     ],
-    "words": 30,
-    "body": "FORMULA: [A] vs [B]: which one actually [outcome]?\nUSE WHEN: the audience is torn between two real options.\nNEEDS: the user's verdict.\nAVOID: comparisons with no clear winner or reason."
+    "words": 19,
+    "body": "[A] vs [B]: which one actually [outcome]? USE: two real options and the user's verdict. AVOID: no clear winner."
   },
   {
     "id": "hook-visual-first",
@@ -2165,22 +1355,16 @@
     "audiences": [
       "any"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "R2",
       "R3"
     ],
-    "words": 58,
-    "body": "FORMULA: VISUAL: [the most striking real shot or action]. Then the spoken line.\nUSE WHEN: the user can film something that stops the scroll by itself: the result, the mess, the moment.\nNEEDS: a shot they can really get. Write it as a VISUAL line.\nAVOID: a visual that doesn't match the spoken line and the on-screen text."
+    "words": 33,
+    "body": "Open on the most striking real shot, then speak. USE: they can film something that stops the scroll alone; suggest it as a VISUAL line. AVOID: a visual that doesn't match the words."
   },
   {
     "id": "cta-dm",
@@ -2201,22 +1385,16 @@
     "audiences": [
       "business"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "S5",
       "G"
     ],
-    "words": 36,
-    "body": "FORMULA: DM me [word or topic] if you want help with [specific problem].\nFITS: service businesses and coaches whose dream client has this problem now.\nRULE: name the problem they help with, in the client's words."
+    "words": 19,
+    "body": "DM me [word] if you want help with [the problem, in the client's words]. Fits service businesses and coaches."
   },
   {
     "id": "cta-follow",
@@ -2238,22 +1416,16 @@
       "business",
       "creator"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "I3",
       "G"
     ],
-    "words": 39,
-    "body": "FORMULA: Follow for more [specific topic or series]. / Follow if you want [specific next thing].\nFITS: any video, best when the user posts on this topic often.\nRULE: name what they get. \"Follow for more\" alone is weak."
+    "words": 17,
+    "body": "Follow for more [specific topic or series]. Name what they get; \"follow for more\" alone is weak."
   },
   {
     "id": "cta-keyword",
@@ -2272,24 +1444,19 @@
       "any"
     ],
     "audiences": [
-      "business"
-    ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
+      "business",
+      "creator"
     ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "R7",
       "I6"
     ],
-    "words": 50,
-    "body": "FORMULA: Comment [WORD] and I'll send you [the resource].\nFITS: business videos where the user has a real guide, template, checklist or link to send.\nRULE: use only if the user's text or notes name the resource. If they don't, don't use this. The viewer must get what was promised."
+    "words": 18,
+    "body": "Comment [WORD] and I'll send you [the resource]. Resource not named? Write a gap, like [your free guide]."
   },
   {
     "id": "cta-next-part",
@@ -2311,22 +1478,15 @@
     "audiences": [
       "creator"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
-      "S6",
       "I6"
     ],
-    "words": 38,
-    "body": "FORMULA: Part [N] is [where or when]. / Follow so you don't miss what happens next.\nFITS: series, stories cut into parts, a journey in progress.\nRULE: never \"part 2 if this gets X likes\". That is bait."
+    "words": 25,
+    "body": "Part [N] is [where or when]. / Follow to see what happens next. Fits series and stories in parts. Not \"part 2 at X likes\"."
   },
   {
     "id": "cta-offer",
@@ -2347,22 +1507,16 @@
     "audiences": [
       "business"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "S1",
       "S5"
     ],
-    "words": 42,
-    "body": "FORMULA: [Offer name] helps [who] [get result]. [Where to find it].\nFITS: promo videos, or the end of a value video in one soft line.\nRULE: only the offer the user named. One step, one place. No invented prices, bonuses or deadlines."
+    "words": 22,
+    "body": "[Offer] helps [who] [get result]. [Where to find it]. Only the offer the user named. One step. No invented prices or deadlines."
   },
   {
     "id": "cta-real-question",
@@ -2387,22 +1541,16 @@
       "business",
       "creator"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "I6",
       "G"
     ],
-    "words": 45,
-    "body": "FORMULA: [A specific question about their own experience or opinion]?\nFITS: stories, opinions, lists (\"which one do you do?\").\nRULE: a question people have a real answer to. Never \"comment YES\", \"type 1 if\" or anything asking for a set word to boost the post."
+    "words": 18,
+    "body": "[A specific question about their own experience or opinion]? Fits stories, opinions and lists. Avoid \"comment YES\"-style asks."
   },
   {
     "id": "cta-save",
@@ -2426,22 +1574,16 @@
       "business",
       "creator"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "I3",
       "G"
     ],
-    "words": 28,
-    "body": "FORMULA: Save this for [the moment they'll need it].\nFITS: steps, lists, tools, anything useful to come back to.\nRULE: name the moment. It tells the viewer why."
+    "words": 13,
+    "body": "Save this for [the moment they'll need it]. Fits steps, lists and tools."
   },
   {
     "id": "cta-send",
@@ -2463,22 +1605,16 @@
       "business",
       "creator"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "I3",
       "I6"
     ],
-    "words": 47,
-    "body": "FORMULA: Send this to the [specific person] who [specific situation].\nFITS: tips, lists, relatable videos, strong opinions. Sends are the strongest signal for reaching new people.\nRULE: only when the video truly helps or describes that person. Never tie it to a prize or \"if you agree\"."
+    "words": 16,
+    "body": "Send this to the [specific person] who [situation]. Sends reach new people. Name a specific person."
   },
   {
     "id": "cta-strong-ending",
@@ -2502,20 +1638,14 @@
       "business",
       "creator"
     ],
-    "niches": [
-      "any"
-    ],
-    "formats": [
-      "any"
-    ],
     "priority": 2,
-    "version": 1,
+    "version": 2,
     "status": "active",
     "updated": "2026-09-22",
     "refs": [
       "G"
     ],
-    "words": 38,
-    "body": "FORMULA: The lesson, the punchline or the line that loops into the opening.\nFITS: stories, POVs and emotional videos where an ask would break the mood.\nRULE: the last line must be strong. Put the key word last."
+    "words": 26,
+    "body": "No ask. End on the lesson, the punchline, or a line that loops back to the opening. Fits stories, POVs and emotional videos. Key word last."
   }
 ]

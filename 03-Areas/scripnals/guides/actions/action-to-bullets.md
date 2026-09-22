@@ -7,10 +7,8 @@ actions: [to_bullets]
 content_types: [any]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 1
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,26 +18,13 @@ refs: [S4]
 tags: [scripnals-guide]
 ---
 
-WHAT TO DO
-Turn the idea into talking points to glance at before recording. The user talks freely in their own words. This is the shape, not a script.
-
-WHY
-A full script makes people stumble chasing exact words. No plan makes them ramble. Short beats sit in between.
-
-PICK THE FRAMEWORK
-Match what the idea is:
-- A story: Hook, Orient, Obstacle, Key moment, Effect, Directive.
-- Explaining an idea: Hook, What, Why, How (up to 3 points), Directive.
-- An opinion: Hook, The take, Reasons, Counterpoint, Directive.
-- Teaching steps: Hook, What you'll learn, Step 1, Step 2, Step 3, Recap.
-- A review or experience: Hook, Context, Expected vs real, Verdict, Directive.
-If it is a blend, use the main one and borrow one beat from the other.
-
-WRITE THE BEATS
-- One bullet per beat, starting with the beat name, like "Hook: ...".
-- 3 to 6 words each, taken from their own words. Not full sentences.
-- The hook may be a full short line if the user already wrote one.
-- If a beat is missing from the idea, write the beat name and a short question, like "Key moment: what flipped it?". Do not invent the answer.
-
-BLOCKS
-One bullets block. The label is a one-line title for the video and the framework used. Then a text block with one line: glance at it once, put it away, then talk.
+Talking points to glance at before recording unscripted. The shape, not a script.
+FRAMEWORKS, picked by the idea:
+- Story: Hook, Orient, Obstacle, Key moment, Effect, Directive.
+- Explaining: Hook, What, Why, How (up to 3), Directive.
+- Opinion: Hook, Take, Reasons, Counterpoint, Directive.
+- Teaching: Hook, What you'll learn, Steps 1-3, Recap.
+- Review or experience: Hook, Context, Expected vs real, Verdict, Directive.
+A blend? Use the main one and borrow one beat.
+BEATS: one bullet each, "Beat: 3-6 words", from their words. The hook may be a full short line if they wrote one. A missing beat gets its name and a short question, like "Key moment: what flipped it?". Never invent.
+BLOCKS: bullets (label: title and framework), then text: "Glance once, put it away, talk."

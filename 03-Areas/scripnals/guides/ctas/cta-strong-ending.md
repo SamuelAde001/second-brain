@@ -7,10 +7,8 @@ actions: [review_full, rewrite, draft_from_idea]
 content_types: [storytelling, pov, contrarian]
 tones: [any]
 audiences: [business, creator]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,6 +18,4 @@ refs: [G]
 tags: [scripnals-guide]
 ---
 
-FORMULA: The lesson, the punchline or the line that loops into the opening.
-FITS: stories, POVs and emotional videos where an ask would break the mood.
-RULE: the last line must be strong. Put the key word last.
+No ask. End on the lesson, the punchline, or a line that loops back to the opening. Fits stories, POVs and emotional videos. Key word last.

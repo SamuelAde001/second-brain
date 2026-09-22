@@ -7,10 +7,8 @@ actions: [improve_hook, rewrite, draft_from_idea, review_full, review_idea]
 content_types: [storytelling, before_after, pov]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,7 +18,4 @@ refs: [S2, S4, R6]
 tags: [scripnals-guide]
 ---
 
-FORMULA: [When], I [the most dramatic real moment]. / [The exact words someone said to them].
-USE WHEN: the script is a story with a strong moment.
-NEEDS: that moment, from the user.
-AVOID: starting at the beginning of the day, and inventing drama.
+[When], I [the most dramatic real moment]. / [The exact words someone said]. USE: a story with a strong moment. AVOID: starting at the start of the day, invented drama.

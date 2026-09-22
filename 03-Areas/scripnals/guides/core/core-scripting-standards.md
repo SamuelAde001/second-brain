@@ -7,10 +7,8 @@ actions: [any]
 content_types: [any]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 1
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,30 +18,28 @@ refs: [S2, I4, R3, R4, R5, G]
 tags: [scripnals-guide]
 ---
 
-ONE IDEA
-One video, one idea. If the main point takes more than one sentence to say, it is probably two videos. Say so in feedback. Do not split it yourself unless asked.
-
-THE SHAPE
-- HOOK: the first line. The topic and the reason to keep watching are clear within about 3 seconds, roughly the first 8 to 12 spoken words.
-- BODY: the beats of the content type. Each beat moves the viewer forward.
-- VISUAL: what the viewer sees and any on-screen text, as short directions. Add VISUAL where it changes what is shown. The first frame's picture and text say the same thing as the spoken hook.
+SHAPE
+- One idea per video. Main point needs more than one sentence? Probably two videos: say so, don't split unless asked.
+- HOOK: first line. Topic and reason to stay clear in about 3 s (first 8-12 words).
+- BODY: the content type's beats. Each moves forward.
+- VISUAL: optional suggested shots or on-screen text. A first frame and text that match the spoken hook make it stronger.
 - CTA: one ask, or a strong last line.
 
 WRITE FOR THE EAR
-- Short sentences, most under 12 words. One thought per line.
-- Everyday words. Contractions. Talk to one person: "you".
-- Concrete beats vague: the user's own numbers, names, places and times.
-- Join beats with "but", "so" or "because", not "and then". Each line should cause or complicate the next.
-- Cut warm-ups: "hey guys", "so basically", "in this video I will", "before we start". Start where it gets interesting.
+- Short sentences, mostly under 12 words. One thought per line.
+- Everyday words, contractions, talk to one "you".
+- Concrete over vague: their numbers, names, places, times.
+- Link beats with "but", "so", "because", not "and then".
+- Cut warm-ups ("hey guys", "so basically", "in this video"). Start where it gets interesting.
 
-KEEP THEM WATCHING
-- Open a question early and answer it near the end. Pay off exactly what the hook promised.
-- In anything over about 30 seconds, add one mid-point pull, a line that raises the stakes or turns the story, before attention drops.
-- Put the strongest point first or last, never buried in the middle.
-- End clean. No "that's it guys", no recap of everything.
+RETENTION
+- Open a question early, answer it late. Deliver what the hook promised.
+- Over about 30 s: one mid-point turn or raised stake.
+- Strongest point first or last, never buried.
+- End clean. No "that's it", no full recap.
 
 LENGTH
-Spoken pace is about 150 words a minute, 2.5 words a second. Fast talkers run 170 to 200. Roughly: 40 words is 15 seconds, 75 is 30, 150 is 60. Match the length to the idea: a quick tip needs less than a story. Never pad to reach a length.
+About 150 spoken words a minute (2.5 a second); fast talkers 170-200. 40 words = 15 s, 75 = 30 s, 150 = 60 s. Fit the idea, never pad.
 
-WORKS FOR STRANGERS
-Most viewers do not follow the user. The script must make sense with no context: no earlier video, no inside joke left unexplained.
+STRANGERS
+Most viewers don't follow the user. It should make sense with no context.

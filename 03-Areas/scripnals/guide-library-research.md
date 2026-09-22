@@ -13,7 +13,7 @@ The research behind the [[03-Areas/scripnals/guides/guide-library|guide library]
 
 **Rank of sources** (AGENTS.md rule 7): Samuel's own method (S codes) outranks everything. Instagram's own words (I codes) come next. Studies and creator frameworks (R codes) are suggestions. Craft rules with no single source are marked **G** and are the main session's suggestion until Samuel confirms them.
 
-**What this research could not do:** watch Reels. Instagram blocks logged-out browsing and no model can watch video here. So "what works" comes from what Instagram says it measures, one large study, and creators who study hooks for a living, not from viewing top posts. The best next input is transcripts of 10–20 Reels Samuel rates as strong in each target niche (open question 75).
+**What this research could not do:** watch Reels. Instagram blocks logged-out browsing and no model can watch video here. So "what works" comes from what Instagram says it measures, one large study, and creators who study hooks for a living, not from viewing top posts. **Samuel, 2026-09-22:** he has no transcript examples, and his own content is not to be used. The guides stay general.
 
 ## Samuel's own method (outranks everything)
 
@@ -24,7 +24,6 @@ The research behind the [[03-Areas/scripnals/guides/guide-library|guide library]
 | S3 | [[03-Areas/personal-brand/script-review-checklist\|Script review checklist]] | The review rubric |
 | S4 | `00-System/skills/yap-session-planner/`: 5 unscripted frameworks | `to_bullets`, structures |
 | S5 | [[03-Areas/scripnals/validation\|Validation]] and the product master doc: the two audience paths, "not a done-for-you writer" | Audience entries |
-| S6 | [[03-Areas/personal-brand/instagram-strategy\|Instagram strategy]]: his growth came from a storytelling B-roll series | The format entries (voiceover + B-roll) |
 
 ## Instagram's own words
 
@@ -37,7 +36,7 @@ The research behind the [[03-Areas/scripnals/guides/guide-library|guide library]
 | I5 | [Skip rate](https://metricool.com/instagram-reel-analytics/), Metricool on Instagram's Insights, 2025 | Instagram now shows **skip rate**: the share of viewers who swipe away in the first 3 seconds. Mosseri: the first three seconds are "super important". There is no official benchmark. |
 | I6 | [Engagement bait](https://transparency.meta.com/features/approach-to-ranking/content-distribution-guidelines/engagement-bait/), Meta Transparency Center | Meta demotes posts that ask for reactions, comments with set words, shares, votes or tags as a trick. Asking for real help or advice isn't bait. |
 
-**One tension for Samuel:** Meta's list includes "comment with specific words" and "share with your friends". Two very common Instagram CTAs sit close to that line: *"Comment GUIDE and I'll send it"* and *"Send this to a friend who…"*. The guides allow both only when the viewer gets something real (a resource that exists, or content that truly helps the friend named), never as a trick. Open question 76.
+**A tension, settled:** Meta's list includes "comment with specific words" and "share with your friends". Two common Instagram CTAs sit close to that line: *"Comment GUIDE and I'll send it"* and *"Send this to a friend who…"*. **Samuel, 2026-09-22: "Allow the user freely."** The guides suggest both freely.
 
 ## Studies and creator frameworks (suggestions)
 
@@ -57,7 +56,7 @@ The research behind the [[03-Areas/scripnals/guides/guide-library|guide library]
 2. **"Would someone send this?"** is a test in reviews, because sends are the top signal for reaching non-followers (I3).
 3. **Self-contained** is a standing rule (I4).
 4. **No clickbait, no engagement bait, no exaggerated health or money claims**, because Instagram stops recommending them (I2, I6). The AI never strengthens a claim.
-5. **Visual, on-screen text and spoken hook must agree** (R3). This is why the library adds a **format** input.
+5. **Matching visual, on-screen text and spoken hook make a hook stronger** (R3). Suggested only: Samuel, 2026-09-22, *"The picture on screen text is a suggestion also, not a force."* The format is read from the draft. No new input.
 6. **Default length stays 60 s / 150 words** for `shorten`. R1 supports 45–60 s and R5 the word count.
 
 Back to [[03-Areas/scripnals/scripnals|Scripnals]]

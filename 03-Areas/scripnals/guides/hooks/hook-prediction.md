@@ -7,10 +7,8 @@ actions: [improve_hook, rewrite, draft_from_idea, review_full, review_idea]
 content_types: [contrarian]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,7 +18,4 @@ refs: [R2]
 tags: [scripnals-guide]
 ---
 
-FORMULA: [Thing] is about to change how [audience] [do something]. / In [time], [prediction].
-USE WHEN: the user has a real, reasoned view on where their field is going.
-NEEDS: the reasons, in the body.
-AVOID: fear-mongering, and predictions stated as facts.
+[Thing] is about to change how [audience] [act]. USE: a reasoned view of where the field is going. AVOID: fear-mongering, predictions stated as facts.

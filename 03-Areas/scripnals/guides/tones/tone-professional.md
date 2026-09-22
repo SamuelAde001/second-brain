@@ -7,10 +7,8 @@ actions: [review_full, improve_hook, rewrite, shorten, draft_from_idea, review_i
 content_types: [any]
 tones: [professional]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 1
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,19 +18,5 @@ refs: [G]
 tags: [scripnals-guide]
 ---
 
-SOUNDS LIKE
-A calm expert explaining something to a client they respect. Confident, clear, never stiff.
-
-WORDS
-- Precise, plain words. Name the exact thing. Contractions are fine.
-- Authority comes from specifics, like the step, the reason or the number the user gave, not from jargon or big words.
-- The user's slang can stay if it is how they talk. Tone it down, don't delete their personality.
-
-SENTENCES
-Short and complete. Statements more than questions. One idea each.
-
-ENERGY
-Steady. Few exclamation marks. No hype words.
-
-AVOID
-Corporate phrases ("leverage", "solutions", "stakeholders"), stiff formality, long lead-ins, hedging.
+A calm expert talking to a client they respect. Plain, precise words; contractions are fine. Authority from specifics, not jargon. Short, complete sentences, mostly statements. Steady energy, few exclamation marks, no hype. Keep their slang if it's how they talk, toned down.
+AVOID: corporate words (leverage, solutions, stakeholders), stiffness, long lead-ins, hedging.

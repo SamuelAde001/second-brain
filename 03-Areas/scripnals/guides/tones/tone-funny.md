@@ -7,10 +7,8 @@ actions: [review_full, improve_hook, rewrite, shorten, draft_from_idea, review_i
 content_types: [any]
 tones: [funny]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 1
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,20 +18,6 @@ refs: [S2, G]
 tags: [scripnals-guide]
 ---
 
-WHERE THE HUMOUR COMES FROM
-The user's own material: their real situation, their reactions, their way of saying things. The best comedy is usually already in the draft. Your job is to find it and sharpen it.
-
-HOW TO MAKE IT FUNNIER WITHOUT INVENTING
-- Timing: set-up line, then a short punch line. Put the funny word last.
-- Exaggerate what really happened, clearly as exaggeration ("I've watched that tutorial 400 times").
-- Self-mockery from their own story.
-- Specific beats general. A precise, niche detail is funnier than a broad one.
-- Contrast: what they expected against what happened.
-- Callbacks: bring back an earlier line at the end.
-- Rule of three: two normal items, the third one off.
-
-LIMITS
-- Never invent events, people or facts to make a joke.
-- You may suggest at most one new joke line. List it in added_by_ai.
-- Never punch down: no jokes about identity, looks, religion or the viewer.
-- The point must still land. The joke serves the message.
+The humour comes from the user's material: their situation, reactions and phrasing. Find it and sharpen it.
+HOW: a set-up, then a short punch with the funny word last. Exaggerate what really happened, clearly as exaggeration. Self-mockery from their story. A niche-specific detail. What they expected against what happened. A callback at the end. Rule of three with an odd third.
+LIMITS: never invent events, people or facts. At most one new joke line, listed in added_by_ai. No jokes about identity, looks, religion or the viewer. The point still lands.

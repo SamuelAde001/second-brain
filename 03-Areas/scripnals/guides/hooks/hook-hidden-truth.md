@@ -7,10 +7,8 @@ actions: [improve_hook, rewrite, draft_from_idea, review_full, review_idea]
 content_types: [quick_tip, listicle]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,7 +18,4 @@ refs: [R2, R6]
 tags: [scripnals-guide]
 ---
 
-FORMULA: Nobody tells [audience] this about [topic]. / What [experts] don't say about [topic].
-USE WHEN: the user has insider knowledge from their work.
-NEEDS: a real reveal in the body, delivered fast.
-AVOID: fake secrets. If the reveal is common knowledge, this becomes clickbait.
+Nobody tells [audience] this about [topic]. USE: real insider knowledge, revealed fast. AVOID: fake secrets; common knowledge makes it clickbait.

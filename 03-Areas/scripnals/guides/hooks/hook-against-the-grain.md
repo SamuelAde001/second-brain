@@ -7,10 +7,8 @@ actions: [improve_hook, rewrite, draft_from_idea, review_full, review_idea]
 content_types: [contrarian]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,7 +18,4 @@ refs: [R2, S1]
 tags: [scripnals-guide]
 ---
 
-FORMULA: [common advice] is wrong. / Stop [common habit].
-USE WHEN: the user truly disagrees with something their audience hears often.
-NEEDS: the user's reason, later in the script.
-AVOID: disagreeing just for attention, or naming a person to attack.
+[Common advice] is wrong. / Stop [common habit]. USE: the user truly disagrees and gives a reason later. AVOID: disagreeing for attention, attacking a person.

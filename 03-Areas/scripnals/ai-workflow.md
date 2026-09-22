@@ -11,7 +11,7 @@ tags: [ai, spec, script-buddy, dev-handover, master-prompt]
 
 **Spec v1.1 · 2026-09-22 · from Samuel**
 
-Status: v1 **approved by Samuel 2026-09-22** (*"All approved"*). **v1.1, same day, Proposed, waiting for his yes:** the guide library research added two inputs (the user's **niche** and the **filming format**) and replaced "one file per folder" with tagged entries. Changed: sections 4, 5, 6, 7 and 8.
+Status: v1 **approved by Samuel 2026-09-22** (*"All approved"*). **v1.1 approved the same day:** tagged guide entries replace "one file per folder" (section 7), and the master prompt says the guides are advice, not rules for the user (section 8). A proposed niche question and format picker were **dropped** by Samuel: *"I don't want to make it complicated for the user, let's work with what we have, the aim is to finetune the script."*
 
 Everything here is agreed. If something won't work, tell me in the group before you build it.
 
@@ -41,9 +41,8 @@ Everything here is agreed. If something won't work, tell me in the group before 
 | Anything else for Script buddy? | Free text | Optional |
 
 - Set the draft type from the post's stage: Idea → Rough idea, Scripting → Script draft. The user can change it.
-- Show the content type and the **format** in the panel. The user can change both there.
-- Format options: Talking to camera · Voiceover with B-roll · Text on screen · Skit or acting · Screen recording · Green screen · Vlog or day in the life.
-- Remember the last tone and the last format the user picked. The first format is Talking to camera.
+- Show the content type in the panel. The user can change it there.
+- Remember the last tone the user picked.
 - Notes: 300 characters at most. Text: about 1,500 words at most.
 
 ## 5. What the app sends
@@ -59,30 +58,29 @@ One endpoint: **`POST /api/ai/run`**. It replaces `analyze` and `revamp`.
 | `tone_other` | The typed tone, when `tone` is `other` |
 | `extra_instructions` | The notes, or empty |
 | `content_type` | `storytelling` · `listicle` · `quick_tip` · `contrarian` · `before_after` · `pov` |
-| `format` | `talking_head` · `voiceover_broll` · `text_on_screen` · `skit` · `screen_tutorial` · `green_screen` · `vlog` |
 | `title`, `text` | Plain text, no HTML |
 
 The app sends nothing else. The server loads the rest itself.
 
 ## 6. What the server loads
 
-- The user's **ICP profile**, its path (business or creator) and its **niche**.
+- The user's **ICP profile** and its path (business or creator).
 - The user's **last 5 posts marked Posted**: title and the first ~50 words.
 - The **guides** that match the user's choices (section 7).
 
-**New onboarding question, both paths, first after the fork:** *What's your niche?* Pick one: Business, marketing and coaching · Money and personal finance · Fitness, health and wellness · Beauty and fashion · Food and cooking · Tech, software and AI · Career, study and skills · Creative skills · Lifestyle, travel and relationships · Faith and personal growth · Other. Saved on the ICP profile and editable there. The values are in `vocab.json`.
 
 ## 7. The guide library
 
-I send it by **2026-09-27** as two files: `guides.json` (the entries) and `vocab.json` (every allowed value, with the labels the app shows).
+I send it by **2026-09-27** as two files: `guides.json` (the entries) and `vocab.json` (the allowed tag values).
 
-- **66 short entries**, one job each: 3 core rules · 2 audiences · 10 niches · 8 tasks · 6 content types · 7 formats · 3 tones · 18 hooks · 9 calls to action.
-- Each entry has **tags**: `actions`, `content_types`, `tones`, `audiences`, `niches`, `formats`. A tag holds the values it applies to, or `any`.
+- **51 short entries**, one job each: 3 core rules · 2 audiences · 8 tasks · 6 content types · 3 tones · 18 hooks · 9 calls to action · 1 niche note · 1 format note.
+- Each entry has **tags**: `actions`, `content_types`, `tones`, `audiences`. A tag holds the values it applies to, or `any`.
 - **The rule: load every active entry where each tag is `any` or holds the request's value.** No search engine is needed.
-- Order in the prompt: core → audience → niche → task → content type → format → tone → hooks → calls to action.
-- **Budget: 3,200 words.** Over it, drop `priority` 3, then 2, from the end. Today's largest request is about 2,950 words.
+- Order in the prompt: core → audience → niche note → task → content type → format note → tone → hooks → calls to action.
+- **Budget: 2,400 words.** Over it, drop `priority` 3, then 2, from the end. Today's largest request is about 2,050 words, about 2,700 tokens. The entries are written short on purpose.
 - Load `guides.json` when the server starts and filter in memory. A database table is optional. The file is built to drop straight into one.
 - Hook titles are the names users see in `improve_hook`'s `pattern` field.
+- Nothing new is asked of the user. The AI reads the niche from the ICP answers and the filming style from the draft.
 
 ## 8. The master prompt
 
@@ -119,14 +117,15 @@ Match their voice. Do not repeat their hooks or angles.
 {{past_posts}}
 
 THE GUIDES
+These are advice to help you suggest better things. They are not rules the user has to follow.
+Suggest, don't force. Structures, hooks, calls to action, visuals and on-screen text are all suggestions.
+If the user's script works a different way, keep their way.
 {{guides}}
 
 THE TASK
 Draft type: {{draft_type}}
 Task: {{task_name}}. {{task_instructions}}
 Content type: {{content_type}}
-Format: {{format}}
-Niche: {{niche}}
 Tone: {{tone}}
 User's notes: {{extra_instructions}}
 If the notes ask for something extra, do it and add it as its own block.
@@ -174,8 +173,7 @@ TEXT:
 | `past_posts` | The last 5 Posted: title and first ~50 words each. If none: `None yet` |
 | `guides` | Each matching entry's body, under a line `GUIDE: <title> (<id>)` |
 | `task_name`, `task_instructions` | From the table in section 9 |
-| `draft_type`, `content_type`, `format`, `tone` | The user's choices. For "Other", the tone they typed |
-| `niche` | The niche label from the ICP. If none: `Not set` |
+| `draft_type`, `content_type`, `tone` | The user's choices. For "Other", the tone they typed |
 | `extra_instructions` | The user's notes. If empty: `None` |
 
 ## 9. The tasks

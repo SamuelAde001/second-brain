@@ -7,10 +7,8 @@ actions: [review_full, rewrite, draft_from_idea]
 content_types: [any]
 tones: [any]
 audiences: [business]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,6 +18,4 @@ refs: [S1, S5]
 tags: [scripnals-guide]
 ---
 
-FORMULA: [Offer name] helps [who] [get result]. [Where to find it].
-FITS: promo videos, or the end of a value video in one soft line.
-RULE: only the offer the user named. One step, one place. No invented prices, bonuses or deadlines.
+[Offer] helps [who] [get result]. [Where to find it]. Only the offer the user named. One step. No invented prices or deadlines.

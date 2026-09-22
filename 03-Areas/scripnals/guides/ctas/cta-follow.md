@@ -7,10 +7,8 @@ actions: [review_full, rewrite, draft_from_idea]
 content_types: [any]
 tones: [any]
 audiences: [business, creator]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,6 +18,4 @@ refs: [I3, G]
 tags: [scripnals-guide]
 ---
 
-FORMULA: Follow for more [specific topic or series]. / Follow if you want [specific next thing].
-FITS: any video, best when the user posts on this topic often.
-RULE: name what they get. "Follow for more" alone is weak.
+Follow for more [specific topic or series]. Name what they get; "follow for more" alone is weak.

@@ -7,10 +7,8 @@ actions: [improve_hook, rewrite, draft_from_idea, review_full, review_idea]
 content_types: [storytelling, contrarian]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,7 +18,4 @@ refs: [S2]
 tags: [scripnals-guide]
 ---
 
-FORMULA: I've never said this publicly: [truth]. / I [did something embarrassing or honest].
-USE WHEN: the user shares a real vulnerable moment.
-NEEDS: the truth, from the user.
-AVOID: fake vulnerability, and confessions that go nowhere.
+I've never said this publicly: [truth]. USE: a real vulnerable moment from the user. AVOID: fake vulnerability, confessions that go nowhere.

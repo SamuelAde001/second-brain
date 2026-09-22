@@ -7,10 +7,8 @@ actions: [improve_hook, rewrite, draft_from_idea, review_full, review_idea]
 content_types: [storytelling, contrarian, pov]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,7 +18,4 @@ refs: [R6, G]
 tags: [scripnals-guide]
 ---
 
-FORMULA: Why do [audience] keep [specific frustrating thing]? / Ever [specific moment]?
-USE WHEN: the question names a real, specific frustration.
-NEEDS: the answer, later in the video.
-AVOID: yes-or-no questions with an obvious answer, and "did you know" openers.
+Why do [audience] keep [specific frustration]? / Ever [specific moment]? USE: it names a real frustration the video answers. AVOID: obvious yes/no questions, "did you know".

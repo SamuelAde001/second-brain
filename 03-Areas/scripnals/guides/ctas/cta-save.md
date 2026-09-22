@@ -7,10 +7,8 @@ actions: [review_full, rewrite, draft_from_idea]
 content_types: [listicle, quick_tip, before_after]
 tones: [any]
 audiences: [business, creator]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,6 +18,4 @@ refs: [I3, G]
 tags: [scripnals-guide]
 ---
 
-FORMULA: Save this for [the moment they'll need it].
-FITS: steps, lists, tools, anything useful to come back to.
-RULE: name the moment. It tells the viewer why.
+Save this for [the moment they'll need it]. Fits steps, lists and tools.

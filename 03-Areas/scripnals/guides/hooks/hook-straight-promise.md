@@ -7,10 +7,8 @@ actions: [improve_hook, rewrite, draft_from_idea, review_full, review_idea]
 content_types: [quick_tip, listicle]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,7 +18,4 @@ refs: [R2, R6, S4]
 tags: [scripnals-guide]
 ---
 
-FORMULA: How to [result] without [pain]. / Here's how to [result] in [N] steps.
-USE WHEN: the video teaches a clear method.
-NEEDS: the method, delivered in full.
-AVOID: promising more than the video gives.
+How to [result] without [pain]. / [Result] in [N] steps. USE: the video teaches the full method. AVOID: promising more than it gives.

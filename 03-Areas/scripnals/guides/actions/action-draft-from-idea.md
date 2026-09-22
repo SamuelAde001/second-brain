@@ -7,10 +7,8 @@ actions: [draft_from_idea]
 content_types: [any]
 tones: [any]
 audiences: [any]
-niches: [any]
-formats: [any]
 priority: 1
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,20 +18,10 @@ refs: [S1, S2, S4, G]
 tags: [scripnals-guide]
 ---
 
-WHAT TO DO
-Turn the idea into a first script in HOOK, BODY, VISUAL and CTA sections. Follow the content type guide: pick the structure that fits what the user actually has.
-
-USE ONLY THEIR IDEA
-- Their facts, their story, their opinion, their steps. Scripnals structures the user's own thoughts. It does not write for them.
-- Keep their phrases. A rough idea is often voice-typed: keep how they talk, fix only what a listener would not follow.
-- Where the structure needs something the idea does not have, like a number, a result, the turning point or a step, write a short gap in square brackets, like [your result after 30 days]. Never fill it with an invented fact. Say in the summary which gaps they need to fill.
-
-BUILD IT
-- Hook: the strongest true thing in the idea, in a pattern from the hook guides.
-- Body: the beats of the chosen structure, one short line or two per beat.
-- VISUAL: one direction per beat where the picture changes, fitted to the filming format.
-- CTA: one ask from the audience guide, or a strong last line.
-- Length: fit the idea. A tip is often 20 to 40 seconds, a story 45 to 90. Under 150 words unless the notes say otherwise.
-
-LIST IN added_by_ai
-The hook, if it is not their line. The CTA. Any bridge line you wrote.
+Turn the idea into HOOK, BODY, VISUAL and CTA, using the content type structure that fits what the user has.
+- Only their facts, story, opinion and steps. Scripnals structures their thoughts; it doesn't write for them.
+- Keep their phrasing. A voice-typed idea stays in their voice.
+- A detail the structure needs is missing (number, result, turning point, step)? Write a gap in brackets, like [your result after 30 days]. Never invent it. List the gaps in the summary.
+- Hook: the strongest true thing, as a hook pattern. Body: a line or two per beat. VISUAL: optional suggestions. CTA: one from the audience guide, or a strong last line.
+- Length fits the idea: a tip about 20-40 s, a story 45-90 s. Under 150 words unless the notes say otherwise.
+added_by_ai: the hook if it isn't theirs, the CTA, bridge lines.

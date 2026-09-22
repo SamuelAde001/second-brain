@@ -7,10 +7,8 @@ actions: [review_full, rewrite, draft_from_idea]
 content_types: [any]
 tones: [any]
 audiences: [business]
-niches: [any]
-formats: [any]
 priority: 2
-version: 1
+version: 2
 type: knowledge
 area: scripnals
 status: active
@@ -20,6 +18,4 @@ refs: [S5, G]
 tags: [scripnals-guide]
 ---
 
-FORMULA: DM me [word or topic] if you want help with [specific problem].
-FITS: service businesses and coaches whose dream client has this problem now.
-RULE: name the problem they help with, in the client's words.
+DM me [word] if you want help with [the problem, in the client's words]. Fits service businesses and coaches.
