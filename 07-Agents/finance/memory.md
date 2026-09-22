@@ -31,4 +31,9 @@ From the archived [[08-Archive/accountability-engine/context/money-ledger|engine
 - `python 00-System/scripts/sheets.py doctor` names the broken link. Always `flush` before a new batch, and send with `--queue "<label>"` so an unreachable sheet parks the batch instead of losing it.
 - **Never run anything that prints the token.** The `env` command is gone and `script` copies to the clipboard.
 
+## 2026-09-22 — Setting user variables, and the first reconcile
+
+- `[Environment]::SetEnvironmentVariable(..., 'User')` froze PowerShell for minutes. It announces the change to every open window. The values were still written. Use `Set-ItemProperty HKCU:\Environment` instead: `sheets.py` reads the registry, so no announcement is needed.
+- The sheet's bank figure (−NGN 193,309) and its Cowrywise figure (NGN 405,000) were wrong for one reason: a withdrawal missing from Transfers. Check the pots and bank arithmetic against the ledger before assuming there are several errors.
+
 Back to [[07-Agents/finance/profile|Profile]]
