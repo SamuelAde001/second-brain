@@ -43,4 +43,8 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - **`[Environment]::SetEnvironmentVariable(..., 'User')` looks like a freeze** (it notifies every window). Use `Set-ItemProperty HKCU:\Environment`.
 - Moving a file outside the Brain needs his yes each time (AGENTS.md rule 5). He gave it for the key move.
 
+## 2026-09-22 — git push is blocked in auto mode
+
+- Claude Code's auto mode classifier blocked `git push` twice (once bundled with cd and pipes, once as a bare `git push`), even though `.claude/settings.json` allows `Bash(git push:*)`. The project rule is not enough on its own. Samuel asked how to make pushing automatic; the permission change is his to make. Until it's fixed: commit, then tell him to run `git push`. Don't retry a blocked push.
+
 Back to [[07-Agents/orchestrator/profile|Profile]]
