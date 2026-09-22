@@ -1,0 +1,95 @@
+<!doctype html>
+<!-- Source for the Script buddy flow chart in ai-workflow.md. Left to right, three lanes. Screenshot at 1400 wide, scale 2. Arrows are drawn by the script at the bottom. -->
+<html lang="en"><head><meta charset="utf-8"><title>Script buddy flow</title>
+<style>
+  :root { --app:#1E4A7B; --srv:#8A5A00; --ink:#0B1F38; --red:#B42318; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:#fff; font-family:"Segoe UI", Roboto, Arial, sans-serif; color:var(--ink); width:1400px; }
+  #wrap { position:relative; padding:20px 24px 26px; }
+  .head { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:16px; }
+  h1 { font-size:26px; }
+  .key { display:flex; gap:24px; font-size:14px; font-weight:600; color:#1F2937; }
+  .key span::before { content:""; display:inline-block; width:15px; height:15px; border-radius:4px; vertical-align:-2px; margin-right:7px; }
+  .key .ka::before { border:2.5px solid var(--app); background:#fff; } .key .ks::before { border:2.5px solid var(--srv); background:#FFF6E0; } .key .kr::before { background:#FDE3E3; border:2px solid var(--red); }
+  .lane { display:flex; border-radius:14px; margin-bottom:46px; position:relative; }
+  .lane.last { margin-bottom:0; } .lane.last .items { gap:92px; }
+  .band { width:44px; flex:none; border-radius:14px 0 0 14px; color:#fff; font-size:14px; font-weight:800; letter-spacing:.14em; display:flex; align-items:center; justify-content:center; }
+  .band span { transform:rotate(-90deg); white-space:nowrap; }
+  .la { background:#F1F5FA; border:2px solid #B9CBE0; } .la .band { background:var(--app); }
+  .ls { background:#FFF9EA; border:2px solid #E2C27A; } .ls .band { background:var(--srv); }
+  .items { display:flex; align-items:center; gap:52px; padding:22px 26px; }
+  .ls .items { gap:40px; padding-bottom:86px; }
+  .box { width:175px; text-align:center; border-radius:12px; padding:12px 12px; background:#fff; position:relative; z-index:2; }
+  .a { border:2.5px solid var(--app); }
+  .s { border:2.5px solid var(--srv); background:#FFF3D6; }
+  .t { font-size:16.5px; font-weight:700; color:var(--ink); line-height:1.28; }
+  .sub { font-size:14px; color:#1F2937; margin-top:4px; line-height:1.4; }
+  .list { font-size:14px; line-height:1.5; color:#111827; margin-top:4px; }
+  .pill { width:190px; text-align:center; border-radius:999px; padding:14px 16px; background:var(--app); color:#fff; font-size:16.5px; font-weight:700; position:relative; z-index:2; }
+  .ask { width:220px; position:relative; z-index:2; }
+  .ask div { background:var(--ink); color:#fff; font-size:16px; font-weight:700; text-align:center; padding:16px 26px; clip-path:polygon(9% 0, 91% 0, 100% 50%, 91% 100%, 9% 100%, 0 50%); line-height:1.3; }
+  .stack { display:flex; flex-direction:column; gap:18px; }
+  .stack .box { width:245px; }
+  .note { position:absolute; left:-2px; right:-2px; top:calc(100% + 14px); background:#FDE3E3; border:2px solid var(--red); color:#7A1111; font-size:13px; font-weight:600; line-height:1.35; border-radius:8px; padding:6px 8px; text-align:left; }
+  .note::before { content:""; position:absolute; left:50%; top:-16px; height:14px; border-left:2px dashed var(--red); }
+  svg#arrows { position:absolute; left:0; top:0; z-index:1; overflow:visible; pointer-events:none; }
+  .lbl { font-size:14px; font-weight:800; fill:var(--ink); }
+</style></head><body><div id="wrap">
+<div class="head"><h1>How Script buddy works</h1>
+  <div class="key"><span class="ka">in the app</span><span class="ks">on the server</span><span class="kr">if it fails</span></div></div>
+
+<div class="lane la"><div class="band"><span>APP</span></div><div class="items">
+  <div class="pill" id="start">User taps the AI button</div>
+  <div class="ask" id="q1"><div>What type of draft is this?</div></div>
+  <div class="stack">
+    <div class="box a" id="sd"><div class="t">Script draft</div><div class="list">Review my whole script · Improve my hook · Rewrite my script · Shorten my script · Remove fluffs</div></div>
+    <div class="box a" id="ri"><div class="t">Rough idea</div><div class="list">Draft a script from my idea · Review my content idea · Turn my idea to bullet points</div></div>
+  </div>
+  <div class="box a" id="tone"><div class="t">Pick the tone</div><div class="sub">Professional · Friendly · Funny · Other</div></div>
+  <div class="box a" id="go"><div class="t">Add notes, tap Ask</div><div class="sub">Notes are optional</div></div>
+</div></div>
+
+<div class="lane ls"><div class="band"><span>SERVER</span></div><div class="items">
+  <div class="box s" id="lim"><div class="t">Check the daily limit</div><div class="sub">10 runs a day</div>
+    <div class="note">Limit reached → stop, tell the user when it resets</div></div>
+  <div class="box s" id="ctx"><div class="t">Load the user's context</div><div class="sub">ICP + last 5 posted</div></div>
+  <div class="box s" id="gd"><div class="t">Pick the guides</div><div class="sub">Files that match the choices</div></div>
+  <div class="box s" id="mp"><div class="t">Fill in the master prompt</div><div class="sub">Context + guides + choices</div></div>
+  <div class="box s" id="ai"><div class="t">AI thinks, then answers</div><div class="sub">Answer in JSON</div>
+    <div class="note">Fails → try once more → show an error. Not counted.</div></div>
+  <div class="box s" id="sv"><div class="t">Save it, send it back</div></div>
+</div></div>
+
+<div class="lane la last"><div class="band"><span>APP</span></div><div class="items">
+  <div class="ask" id="q2" style="width:250px"><div>Was it "Review my whole script"?</div></div>
+  <div class="stack">
+    <div class="box a" id="yes"><div class="t">Show the score</div><div class="sub">Score out of 100 + fixes</div></div>
+    <div class="box a" id="no"><div class="t">Show the result</div><div class="sub">No score</div></div>
+  </div>
+  <div class="pill" id="end" style="width:270px">Replace · Insert · Copy · 👍 👎</div>
+</div></div>
+
+<svg id="arrows"><defs><marker id="h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F2A3A"/></marker></defs></svg>
+</div>
+
+<script>
+const wrap = document.getElementById('wrap'), svg = document.getElementById('arrows');
+const R = id => { const w = wrap.getBoundingClientRect(), r = document.getElementById(id).getBoundingClientRect();
+  return { l:r.left-w.left, r:r.right-w.left, t:r.top-w.top, b:r.bottom-w.top, cx:(r.left+r.right)/2-w.left, cy:(r.top+r.bottom)/2-w.top }; };
+svg.setAttribute('width', wrap.offsetWidth); svg.setAttribute('height', wrap.offsetHeight);
+const line = (d, label, lx, ly) => { const p = document.createElementNS('http://www.w3.org/2000/svg','path');
+  p.setAttribute('d', d); p.setAttribute('fill','none'); p.setAttribute('stroke','#1F2A3A'); p.setAttribute('stroke-width', 2.8); p.setAttribute('marker-end','url(#h)'); svg.appendChild(p);
+  if (label) { const t = document.createElementNS('http://www.w3.org/2000/svg','text'); t.setAttribute('x', lx); t.setAttribute('y', ly); t.setAttribute('class','lbl'); t.setAttribute('text-anchor','middle'); t.textContent = label; svg.appendChild(t); } };
+const right = (a, b) => { const A = R(a), B = R(b); line(`M${A.r},${A.cy} L${B.l-2},${A.cy}`); };
+const split = (a, b, label) => { const A = R(a), B = R(b), m = (A.r + B.l) / 2; line(`M${A.r},${A.cy} L${m},${A.cy} L${m},${B.cy} L${B.l-2},${B.cy}`, label, (m + B.l) / 2 - 3, B.cy - 9); };
+const join = (a, b) => { const A = R(a), B = R(b), m = (A.r + B.l) / 2; line(`M${A.r},${A.cy} L${m},${A.cy} L${m},${B.cy} L${B.l-2},${B.cy}`); };
+const wrapTo = (a, b) => { const A = R(a), B = R(b); const laneA = document.getElementById(a).closest('.lane').getBoundingClientRect(), w = wrap.getBoundingClientRect();
+  const y = laneA.bottom - w.top + 23; line(`M${A.cx},${A.b} L${A.cx},${y} L${B.cx},${y} L${B.cx},${B.t-2}`); };
+right('start','q1'); split('q1','sd'); split('q1','ri'); join('sd','tone'); join('ri','tone'); right('tone','go');
+wrapTo('go','lim');
+right('lim','ctx'); right('ctx','gd'); right('gd','mp'); right('mp','ai'); right('ai','sv');
+wrapTo('sv','q2');
+split('q2','yes','Yes'); split('q2','no','No'); join('yes','end'); join('no','end');
+document.body.setAttribute('data-h', wrap.offsetHeight);
+</script>
+</body></html>

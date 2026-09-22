@@ -1,0 +1,217 @@
+<!doctype html>
+<!-- Source for the Script buddy UI mock-ups in ai-workflow.md. Render: ?row=1 or ?row=2, screenshot at 1000x720. -->
+<html lang="en"><head><meta charset="utf-8"><title>Script buddy mock-ups</title>
+<style>
+  :root { --bg:#FAF8F4; --card:#F5EEE3; --line:#E6DAC6; --navy:#1E4A7B; --ink:#0F2A4A; --muted:#6B7280; --gold:#D4A017; --green:#1F9D6B; --orange:#E8890C; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:#fff; font-family:"Segoe UI", Roboto, Arial, sans-serif; color:var(--ink); }
+  .row { display:none; gap:30px; padding:20px 22px 10px; justify-content:center; }
+  .row.show { display:flex; }
+  .cell { width:300px; }
+  .cap { font-size:13px; color:#1d2433; margin-top:10px; text-align:center; line-height:1.35; }
+  .cap b { color:var(--navy); }
+  .phone { width:300px; height:620px; border-radius:34px; background:#15171c; padding:8px; box-shadow:0 6px 18px rgba(0,0,0,.18); }
+  .screen { width:100%; height:100%; border-radius:27px; background:var(--bg); overflow:hidden; position:relative; }
+  .status { height:24px; font-size:10px; padding:6px 18px; color:#333; font-weight:600; }
+  .ed { padding:4px 16px; }
+  .edh { display:flex; justify-content:space-between; font-size:11px; color:var(--ink); font-weight:600; padding:4px 0 10px; }
+  .edt { font-size:14px; font-weight:700; margin-bottom:6px; }
+  .edb { font-size:10px; color:#374151; line-height:1.5; }
+  .dim { position:absolute; inset:0; background:rgba(12,18,28,.42); }
+  .sheet { position:absolute; left:0; right:0; bottom:0; background:var(--bg); border-radius:20px 20px 0 0; padding:8px 14px 12px; }
+  .full { top:24px; border-radius:0; }
+  .grab { width:36px; height:4px; background:#DCCFB9; border-radius:2px; margin:0 auto 8px; }
+  .sh { display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; }
+  .sh .t { font-size:14px; font-weight:700; color:var(--ink); }
+  .sh .t i { color:var(--gold); font-style:normal; }
+  .sh .x { color:#9CA3AF; font-size:13px; }
+  .ct { display:inline-block; font-size:10px; padding:3px 9px; border-radius:999px; background:var(--card); border:1px solid var(--line); color:var(--ink); }
+  .q { font-size:11px; font-weight:700; margin:10px 0 5px; color:var(--ink); }
+  .hint { font-size:9px; color:var(--muted); margin-top:3px; }
+  .seg { display:flex; gap:6px; }
+  .seg div { flex:1; text-align:center; padding:7px 4px; border:1px solid var(--line); border-radius:10px; font-size:10.5px; background:#fff; }
+  .on { background:var(--navy) !important; color:#fff !important; border-color:var(--navy) !important; }
+  .sel { border:1px solid var(--line); background:#fff; border-radius:10px; padding:8px 10px; font-size:10.5px; display:flex; justify-content:space-between; }
+  .dd { border:1px solid var(--line); border-top:0; border-radius:0 0 10px 10px; background:#fff; box-shadow:0 4px 10px rgba(0,0,0,.08); }
+  .dd div { padding:7px 10px; font-size:10.5px; border-top:1px solid #f1ebe0; }
+  .dd .hl { background:#EEF3F9; color:var(--navy); font-weight:600; }
+  .chips { display:flex; flex-wrap:wrap; gap:5px; }
+  .chip { padding:5px 10px; border-radius:999px; border:1px solid var(--line); font-size:10px; background:#fff; }
+  .inp { border:1px solid var(--line); border-radius:10px; background:#fff; padding:7px 9px; font-size:10px; color:#9AA3AF; }
+  .inp.f { color:var(--ink); }
+  .ta { height:46px; }
+  .btn { background:var(--navy); color:#fff; border-radius:12px; text-align:center; padding:10px; font-size:11.5px; font-weight:600; margin-top:12px; }
+  .btn2 { background:var(--card); color:var(--navy); border:1px solid var(--line); border-radius:12px; text-align:center; padding:9px 4px; font-size:10.5px; font-weight:600; }
+  .btns { display:flex; gap:6px; margin-top:10px; } .btns > div { flex:1; margin-top:0; }
+  .runs { font-size:9px; color:var(--muted); text-align:center; margin-top:6px; }
+  .steps { margin:18px 4px 0; }
+  .step { display:flex; gap:9px; align-items:center; font-size:11px; padding:7px 0; color:var(--ink); }
+  .step.todo { color:#9CA3AF; }
+  .dot { width:16px; height:16px; border-radius:50%; flex:none; display:flex; align-items:center; justify-content:center; font-size:9px; color:#fff; }
+  .ok { background:var(--green); } .spin { border:2.5px solid #F1E3B8; border-top-color:var(--gold); } .wait { border:1.5px solid #D1D5DB; }
+  .big { text-align:center; margin-top:26px; } .big .s { font-size:30px; color:var(--gold); } .big .l { font-size:13px; font-weight:700; margin-top:4px; }
+  .ring { width:92px; height:92px; border-radius:50%; border:7px solid var(--orange); margin:4px auto 2px; display:flex; align-items:center; justify-content:center; }
+  .ring b { font-size:28px; color:var(--orange); } .ring span { font-size:10px; color:var(--muted); margin-left:2px; }
+  .note { font-size:9px; color:var(--muted); text-align:center; }
+  .bar { display:flex; align-items:center; gap:6px; font-size:9.5px; margin:4px 0; }
+  .bar .n { width:62px; } .bar .tr { flex:1; height:6px; background:#EDE4D5; border-radius:3px; overflow:hidden; } .bar .tr i { display:block; height:100%; background:var(--navy); }
+  .bar .v { width:30px; text-align:right; color:var(--muted); }
+  .fb { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:7px 9px; margin-top:7px; font-size:9.5px; line-height:1.4; }
+  .fb .qt { border-left:3px solid var(--gold); padding-left:6px; font-style:italic; color:#4B5563; margin-bottom:4px; }
+  .fb b { color:var(--navy); }
+  .sum { font-size:10px; color:#374151; background:#EEF3F9; border-radius:8px; padding:6px 8px; margin:4px 0 6px; }
+  .blk { background:#fff; border:1px solid var(--line); border-radius:10px; padding:6px 8px; margin-top:6px; }
+  .blk .lb { font-size:9px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; margin-bottom:3px; }
+  .sec { display:flex; gap:6px; font-size:9.5px; line-height:1.4; margin:4px 0; }
+  .tag { flex:none; width:44px; text-align:center; font-size:8px; font-weight:700; border-radius:5px; padding:2px 0; height:15px; color:#fff; }
+  .HOOK { background:var(--gold); } .BODY { background:var(--navy); } .VISUAL { background:#7C5CBF; } .CTA { background:var(--green); }
+  .added { font-size:9px; background:#FDF1DD; color:#8A5A00; border-radius:6px; padding:4px 7px; margin-top:6px; }
+  .thumbs { display:flex; justify-content:space-between; align-items:center; font-size:9.5px; color:var(--muted); margin-top:8px; }
+  .thumbs span { font-size:13px; margin-left:8px; }
+  .opt { display:flex; gap:8px; background:#fff; border:1px solid var(--line); border-radius:10px; padding:8px 9px; margin-top:7px; }
+  .opt.pick { border:1.5px solid var(--navy); background:#F4F7FB; }
+  .rad { width:14px; height:14px; border-radius:50%; border:1.5px solid #9CA3AF; flex:none; margin-top:1px; }
+  .pick .rad { border:4.5px solid var(--navy); }
+  .opt .pt { font-size:8px; font-weight:700; color:var(--gold); letter-spacing:.05em; }
+  .opt .tx { font-size:10.5px; color:var(--ink); line-height:1.35; margin-top:2px; }
+</style></head><body>
+
+<!-- ROW 1: the panel -->
+<div class="row" id="r1">
+  <div class="cell"><div class="phone"><div class="screen">
+    <div class="status">9:41</div>
+    <div class="ed"><div class="edh"><span>✕</span><span>New script</span><span>✎</span></div>
+      <div class="edt">Stop editing on your phone</div>
+      <div class="edb">so if you are a coach and you edit your reels on your phone you are wasting time. like you spend two hours on one video…</div></div>
+    <div class="dim"></div>
+    <div class="sheet" style="top:118px">
+      <div class="grab"></div>
+      <div class="sh"><div class="t"><i>✦</i> Script buddy</div><div class="x">✕</div></div>
+      <span class="ct">Content type · Quick Tip ▾</span>
+      <div class="q">What type of draft is this?</div>
+      <div class="seg"><div class="on">Script draft</div><div>Rough idea</div></div>
+      <div class="hint">Picked from the post's stage (Scripting). Tap to change.</div>
+      <div class="q">What would you like Script buddy to do?</div>
+      <div class="sel"><span>Review my whole script</span><span>▾</span></div>
+      <div class="q">How do you want your script to feel?</div>
+      <div class="chips"><div class="chip">Professional</div><div class="chip on">Friendly</div><div class="chip">Funny</div><div class="chip">Other</div></div>
+      <div class="q">Anything else for Script buddy? <span style="font-weight:400;color:#6B7280">(optional)</span></div>
+      <div class="inp ta">e.g. keep it under 45 seconds</div>
+      <div class="btn">Ask Script buddy</div>
+      <div class="runs">9 of 10 runs left today</div>
+    </div>
+  </div></div>
+  <div class="cap"><b>A · Script draft</b><br>The draft type is set from the post's stage.</div></div>
+
+  <div class="cell"><div class="phone"><div class="screen">
+    <div class="status">9:41</div>
+    <div class="ed"><div class="edh"><span>✕</span><span>New script</span><span>✎</span></div>
+      <div class="edt">Batch day idea</div>
+      <div class="edb">coaches should record everything on sunday and never edit on their phone…</div></div>
+    <div class="dim"></div>
+    <div class="sheet" style="top:90px">
+      <div class="grab"></div>
+      <div class="sh"><div class="t"><i>✦</i> Script buddy</div><div class="x">✕</div></div>
+      <span class="ct">Content type · Quick Tip ▾</span>
+      <div class="q">What type of draft is this?</div>
+      <div class="seg"><div>Script draft</div><div class="on">Rough idea</div></div>
+      <div class="q">What would you like Script buddy to do?</div>
+      <div class="sel" style="border-radius:10px 10px 0 0"><span>Draft a script from my idea</span><span>▴</span></div>
+      <div class="dd"><div class="hl">Draft a script from my idea ✓</div><div>Review my content idea</div><div>Turn my idea to bullet points</div></div>
+      <div class="q">How do you want your script to feel?</div>
+      <div class="chips"><div class="chip">Professional</div><div class="chip">Friendly</div><div class="chip">Funny</div><div class="chip on">Other</div></div>
+      <div class="inp f" style="margin-top:6px">calm, like a big brother</div>
+      <div class="q">Anything else for Script buddy? <span style="font-weight:400;color:#6B7280">(optional)</span></div>
+      <div class="inp f ta">keep it under 45 seconds, and give me a caption too</div>
+      <div class="btn">Ask Script buddy</div>
+      <div class="runs">9 of 10 runs left today</div>
+    </div>
+  </div></div>
+  <div class="cap"><b>B · Rough idea</b><br>The task list changes. "Other" opens a text box.</div></div>
+
+  <div class="cell"><div class="phone"><div class="screen">
+    <div class="status">9:41</div>
+    <div class="ed"><div class="edh"><span>✕</span><span>New script</span><span>✎</span></div>
+      <div class="edt">Batch day idea</div>
+      <div class="edb">coaches should record everything on sunday…</div></div>
+    <div class="dim"></div>
+    <div class="sheet" style="top:170px">
+      <div class="grab"></div>
+      <div class="sh"><div class="t"><i>✦</i> Script buddy</div><div class="x">✕</div></div>
+      <div class="big"><div class="s">✦</div><div class="l">Script buddy is on it…</div></div>
+      <div class="steps">
+        <div class="step"><div class="dot ok">✓</div>Reading your audience (fitness coaches)</div>
+        <div class="step"><div class="dot ok">✓</div>Checking the Quick Tip guide</div>
+        <div class="step"><div class="dot spin"></div>Writing your script</div>
+        <div class="step todo"><div class="dot wait"></div>Checking nothing was made up</div>
+      </div>
+      <div class="note" style="margin-top:22px">If this fails, it won't count against your 10 runs.</div>
+    </div>
+  </div></div>
+  <div class="cap"><b>C · While it thinks</b><br>A failed run is not counted.</div></div>
+</div>
+
+<!-- ROW 2: results -->
+<div class="row" id="r2">
+  <div class="cell"><div class="phone"><div class="screen">
+    <div class="status">9:41</div>
+    <div class="sheet full">
+      <div class="sh"><div class="t">Full review</div><div class="x">✕</div></div>
+      <div class="ring"><b>74</b><span>/100</span></div>
+      <div class="note">Only a full review gets a score.</div>
+      <div style="margin-top:8px">
+        <div class="bar"><span class="n">Hook</span><span class="tr"><i style="width:60%"></i></span><span class="v">12/20</span></div>
+        <div class="bar"><span class="n">Clarity</span><span class="tr"><i style="width:85%"></i></span><span class="v">17/20</span></div>
+        <div class="bar"><span class="n">Audience fit</span><span class="tr"><i style="width:80%"></i></span><span class="v">16/20</span></div>
+        <div class="bar"><span class="n">Pacing</span><span class="tr"><i style="width:75%"></i></span><span class="v">15/20</span></div>
+        <div class="bar"><span class="n">Call to action</span><span class="tr"><i style="width:70%"></i></span><span class="v">14/20</span></div>
+      </div>
+      <div class="fb"><div class="qt">"so if you are a coach and you edit your reels…"</div><b>Problem:</b> the point lands at word 12, so fitness coaches scroll past first.<br><b>Fix:</b> open with the cost, e.g. "Coaches, every reel you edit on your phone costs you two hours."</div>
+      <div class="fb"><div class="qt">"that is basically it"</div><b>Problem:</b> the video ends flat, with no next step for a coach looking for help.<br><b>Fix:</b> end on one clear action you'd want them to take.</div>
+      <div class="thumbs">Was this helpful?<div><span>👍</span><span>👎</span></div></div>
+      <div class="btn" style="margin-top:8px">Done</div>
+    </div>
+  </div></div>
+  <div class="cap"><b>D · Full review</b><br>The only result with a score.</div></div>
+
+  <div class="cell"><div class="phone"><div class="screen">
+    <div class="status">9:41</div>
+    <div class="sheet full">
+      <div class="sh"><div class="t">Draft · Other: calm</div><div class="x">✕</div></div>
+      <div class="sum">Built from your idea. Kept to your points, about 40 seconds.</div>
+      <div class="blk"><div class="lb">Your script</div>
+        <div class="sec"><span class="tag HOOK">HOOK</span><span>Coaches, editing reels on your phone costs you two hours a video.</span></div>
+        <div class="sec"><span class="tag BODY">BODY</span><span>Here's the fix. Record everything on Sunday. Send the footage to an editor. Post every day without opening an edit app.</span></div>
+        <div class="sec"><span class="tag VISUAL">VISUAL</span><span>You on your phone, frustrated → a calendar with 7 posts ticked.</span></div>
+        <div class="sec"><span class="tag CTA">CTA</span><span>Follow for more ways to get your time back.</span></div>
+      </div>
+      <div class="added">⚠ Added by Script buddy: the CTA line. Your idea didn't have one. Edit or delete it.</div>
+      <div class="blk"><div class="lb">Caption · you asked for this</div>
+        <div style="font-size:9.5px;line-height:1.4">Two hours per reel is two hours you're not coaching. Batch it, hand it off, post daily.</div></div>
+      <div class="btns"><div class="btn">Replace</div><div class="btn2">Insert below</div><div class="btn2">Copy</div></div>
+      <div class="thumbs">Was this helpful?<div><span>👍</span><span>👎</span></div></div>
+    </div>
+  </div></div>
+  <div class="cap"><b>E · Draft from idea</b><br>AI additions are flagged. Extra asks get their own block.</div></div>
+
+  <div class="cell"><div class="phone"><div class="screen">
+    <div class="status">9:41</div>
+    <div class="sheet full">
+      <div class="sh"><div class="t">Improve my hook · Friendly</div><div class="x">✕</div></div>
+      <div class="sum">Pick one. It replaces your first line.</div>
+      <div class="opt pick"><div class="rad"></div><div><div class="pt">PAIN POINT</div><div class="tx">Coaches, every reel you edit on your phone costs you two hours.</div></div></div>
+      <div class="opt"><div class="rad"></div><div><div class="pt">CONTRARIAN</div><div class="tx">Stop editing your own reels. Seriously.</div></div></div>
+      <div class="opt"><div class="rad"></div><div><div class="pt">NUMBER</div><div class="tx">Two hours per reel. Here's how to get them back.</div></div></div>
+      <div class="note" style="margin-top:10px">Every hook uses only what's already in your draft.</div>
+      <div class="btn">Use this hook</div>
+      <div class="thumbs">Was this helpful?<div><span>👍</span><span>👎</span></div></div>
+    </div>
+  </div></div>
+  <div class="cap"><b>F · Improve hook</b><br>Pick one. It replaces the first line.</div></div>
+</div>
+
+<script>
+  const r = new URLSearchParams(location.search).get('row') || '1';
+  document.getElementById('r' + r).classList.add('show');
+</script>
+</body></html>

@@ -21,4 +21,6 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 
 - 2026-09-22 — AI spec v1 approved (→ [[03-Areas/scripnals/ai-workflow|AI workflow]]). Samuel is sending the walkthrough bugs to the devs as a direct message: problems 1–12 in [[03-Areas/scripnals/current-build|Current build]], plus the AI output issues.
 
+- 2026-09-22 — The AI spec was reworked at Samuel's request: a left-to-right flow chart (App → Server → App lanes, chosen over a vertical chart and a three-column swimlane), UI mock-ups of the panel and the results, **the master prompt added** (the system prompt that uses all the context), no examples, fewer and simpler words. Sources are in `03-Areas/scripnals/assets/`, images in `_attachments/scripnals/`.
+
 Back to [[03-Areas/scripnals/scripnals|Scripnals]]
