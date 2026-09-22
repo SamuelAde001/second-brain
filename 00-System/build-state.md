@@ -28,7 +28,7 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 - **179 markdown files, 54 commits** (2026-09-22, session 3; generated adapter folders and imports not counted), pushed to `https://github.com/SamuelAde001/second-brain` (private, branch `main`).
 - Brain path: `C:\Users\repzy\Desktop\My Second brain`. Outside OneDrive and Dropbox. Git identity: Samuel <repzysam@gmail.com>.
-- `.claude/settings.json` allows git add/commit/push/status/log/diff/ls-remote, and denies reads of `.env`, `*.key`, `credentials*.json`, `token*.json`.
+- `.claude/settings.json` allows git add/commit/push/status/log/diff/ls-remote and **all PowerShell** (2026-09-22; deleting, process/system, scheduled-task, install and history-rewriting commands still ask), and denies reads of `.env`, `*.key`, `credentials*.json`, `token*.json` and anything touching `brain-secrets`.
 - **Terminology: it is "the Brain", never "the vault."**
 - **Filenames are unique and readable.** No `_index.md`. An area opens at `03-Areas/<area>/<area>.md`; standing files are `<area>-goals.md`, `-log.md`, `-decisions.md`, `-ideas.md`. `02-Me` opens at `about-samuel.md`. Link with the full path and an alias: `[[03-Areas/finances/finances|Finances]]`. No `../` in wikilinks.
 

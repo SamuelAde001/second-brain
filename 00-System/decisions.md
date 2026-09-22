@@ -298,3 +298,13 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Left for later:** ideas and hooks are pitched from the story bank by hand until the general `brainstorm` job skill exists. Automating his numbers is an open question.
 
 **Who decided:** Samuel for scope, what counts, the reporting and the audience. The build for the report's shape and the log.
+
+## 2026-09-22 — Claude Code runs PowerShell without asking
+
+**Samuel:** *"I want you to be able to run powershell tasks on your own when needed"*
+
+**What:** `.claude/settings.json` allows the PowerShell tool outright. Destructive or system-level commands still ask first: deleting (`Remove-Item`, `rm`, `del`, `rd`, `rmdir`, `Clear-Content`), stopping processes or services, restart and shutdown, execution policy, `Format-Volume`, the registry (`reg`), scheduled tasks (`schtasks`, `Register-`/`Unregister-ScheduledTask`), installs (`winget`), and history-rewriting git (`reset`, `clean`, `rebase`, force-push). Denied outright: any command touching `brain-secrets` or `ANTHROPIC_API_KEY`.
+
+**Why the ask list:** AGENTS.md §5 rule 1 already requires asking before deleting or rewriting history, and CLAUDE.md asks for least privilege. The ask list keeps those gates while everything routine (scripts, listing, copying, git reads) runs unprompted. Prefix rules are a guard rail, not a sandbox: a command can reach the same effect another way. The operating rules still bind.
+
+**Who decided:** Samuel for the grant. The build for the ask and deny lists.
