@@ -24,3 +24,4 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - 2026-09-22 — Samuel answered the habits, gym-days and HighSignals-calendar questions. Habit fixed in TickTick; routine, health, profile, memory, night-plan, weekly-review, TickTick map updated; open questions 83–84 closed.
 
 Back to [[07-Agents/orchestrator/profile|Profile]]
+- 2026-09-22 — At Samuel's request: created cloud routines for the morning brief and night plan, paused the desktop tasks, and allowed the routines' tools in `.claude/settings.json` (deletes still ask). Automation notes, register, decisions and build-state updated.

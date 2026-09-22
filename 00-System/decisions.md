@@ -330,3 +330,17 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Objection (logged once, per the objection protocol):** with two writers on `main`, a PC session that ends with unpushed commits while the phone pushes splits `main`, and the PC hook will stop and ask instead of fast-forwarding. Mitigation: every session pushes at the end, which the rules already require. Executed as instructed.
 
 **Who decided:** Samuel.
+
+## 2026-09-22 — Daily routines move to the cloud; routine tools allowed
+
+**Samuel:** *"Why does the routines ask me for a lot of permissions, and also I can't see the routine notifications on my phone, or the routines themsleves on my phone"*, then *"Set up option 2 and also, I give you permission to edit your permissions, for the routines"*.
+
+**What:**
+1. The morning brief and night plan now run as **claude.ai cloud routines** (`trig_01UN9y23v1UwoBtBq3qmoJiH`, `trig_01Pet8jENJ1CEguycgH9suEf`) on the GitHub repo, with the TickTick and Google Calendar connectors. They run with the PC off, show in the Claude app on his phone, and push to `main` like any cloud session. The desktop-app tasks `morning-brief` and `night-plan` are **paused, not deleted**. Canonical prompts stay in `00-System/automations/`.
+2. `.claude/settings.json` now allows, without asking: file edits inside the Brain (`Edit(./**)`), the TickTick read, create, update, move and complete tools, and the Calendar list, get, search, create and update tools. **Deleting a task or an event still asks.** Deny rules for secrets are unchanged.
+
+**Why:** each desktop run is a fresh session that asked before every tool not on the allow list. The first night-plan run hit about a dozen connector tools and eight file edits. Desktop tasks exist only on the PC, so the phone never saw them.
+
+**Left on the PC:** the Sunday session (`sunday-money-check`) stays a desktop task because the money check rebuilds the Money sheet, whose key is only on the PC.
+
+**Who decided:** Samuel.

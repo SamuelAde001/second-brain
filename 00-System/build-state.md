@@ -136,3 +136,4 @@ Full records in `00-System/decisions.md`. The ones that matter most:
 - 2026-09-22 — Session 10 (cloud, from the phone): cloud environment runs but cannot push (GitHub App missing). Next: fix access, then the four job skills.
 - 2026-09-22 — Session 10: correction — Samuel fixed GitHub access; the cloud session's branch pushed. Next: the four job skills.
 - 2026-09-22 — Session 10: cloud sessions now push to `main` (Samuel's instruction; objection logged). portability, AGENTS.md §12, decisions updated.
+- 2026-09-22 — Session 11: morning brief and night plan moved to claude.ai cloud routines (phone-visible, run with the PC off); desktop tasks paused. Routine tools (TickTick, Calendar, Brain file edits) allowed in `.claude/settings.json`; deletes still ask. Sunday session stays on the PC. Next: check tomorrow's 6:34am brief ran and reached the phone.
