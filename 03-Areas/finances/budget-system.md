@@ -57,8 +57,10 @@ The web app URL and its token work together like a password. **They never live i
 **Samuel runs this once, himself,** in PowerShell. It copies the three values from the old engine's `.env` into his user variables and prints only their names:
 
 ```powershell
-Get-Content "$env:USERPROFILE\Desktop\engine\.env" | ForEach-Object { if ($_ -match '^\s*(SHEETS_WEBAPP_URL|SHEETS_TOKEN|SHEETS_ID)\s*=\s*["'']?([^"'']+?)["'']?\s*$') { [Environment]::SetEnvironmentVariable($Matches[1], $Matches[2], 'User'); "saved $($Matches[1])" } }
+Get-Content "$env:USERPROFILE\Desktop\engine\.env" | ForEach-Object { if ($_ -match '^\s*(?:export\s+)?(SHEETS_WEBAPP_URL|SHEETS_TOKEN|SHEETS_ID)\s*[=:]\s*["'']?(.+?)["'']?\s*$') { Set-ItemProperty -Path HKCU:\Environment -Name $Matches[1] -Value $Matches[2]; "saved $($Matches[1])" } }
 ```
+
+It writes the registry directly. The first version used `[Environment]::SetEnvironmentVariable`, which tells every open window about the change and froze PowerShell for minutes on 2026-09-22 (the values were saved anyway). Connected and verified the same day: `doctor` reached "My Claude Budget", 7 tabs.
 
 Then check: `python 00-System/scripts/sheets.py doctor`. No restart needed.
 
