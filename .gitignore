@@ -28,3 +28,6 @@ Thumbs.db
 *.braw
 *.drp
 *.zip
+
+# Python bytecode
+__pycache__/
