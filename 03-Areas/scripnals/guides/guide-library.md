@@ -1,7 +1,7 @@
 ---
 type: knowledge
 area: scripnals
-status: needs-input
+status: active
 updated: 2026-09-22
 source: manual
 tags: [ai, guide-library, script-buddy, dev-handover]
@@ -9,7 +9,7 @@ tags: [ai, guide-library, script-buddy, dev-handover]
 
 # Script buddy guide library
 
-**v1 draft · 2026-09-22 · Samuel is reading it.** Due to the devs 2026-09-27.
+**v2 · 2026-09-22 · approved by Samuel.** Due to the devs 2026-09-27. **A living library:** it will be improved as better conventions and rules come up (Samuel, 2026-09-22).
 
 The reference text Script buddy reads on every call: how to keep the user's voice, how a short script is built, what each task, content type, tone and audience needs, notes on niches and filming formats, and named hooks and calls to action.
 
@@ -75,10 +75,19 @@ WHERE status = 'active'
 3. See what one request loads: add `--select action=rewrite content_type=storytelling tone=friendly audience=creator`. Add `--prompt out.txt` to get the exact guide text for a test in Claude chat.
 4. `--check` before committing.
 
+## How it grows
+
+- **Change an entry:** edit it and raise its `version` by 1.
+- **Add an entry:** a new file in the right folder, tags from `vocab.json`, inside the word cap.
+- **Retire an entry:** set `status: paused`. It stops loading but stays on record.
+- Run the script, `--check`, commit with a line on what changed and why. Then send the devs the new `guides.json`.
+- **Server side:** swapping `guides.json` and restarting is all an update needs. No app release, no code change.
+- A new rule from outside research stays a suggestion until Samuel confirms it. Add its source to [[03-Areas/scripnals/guide-library-research|the research note]].
+
 ## Before sending (2026-09-27)
 
 - [ ] Samuel reads the core, action and content-type entries (17 files). Those carry the product.
-- [ ] Samuel confirms the review score bands in `actions/action-review-full.md`, and the 18 hook names users will see.
+- [x] Samuel confirmed the review score bands and the 18 hook names (2026-09-22).
 - [ ] Test: the master prompt plus `--prompt` output on 3–4 real drafts in Claude chat. Check nothing is invented, the score only appears on a full review, the JSON is valid, and **the result still sounds like the person who wrote the draft.**
 - [ ] Send `_export/guides.json`, `_export/vocab.json` and this note. Line in [[03-Areas/scripnals/scripnals-log|Log]].
 

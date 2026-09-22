@@ -81,6 +81,7 @@ I send it by **2026-09-27** as two files: `guides.json` (the entries) and `vocab
 - Load `guides.json` when the server starts and filter in memory. A database table is optional. The file is built to drop straight into one.
 - Hook titles are the names users see in `improve_hook`'s `pattern` field.
 - Nothing new is asked of the user. The AI reads the niche from the ICP answers and the filming style from the draft.
+- **The library will keep growing.** I'll send new versions of `guides.json`. Swapping the file and restarting the server must be enough, with no app release and no code change.
 
 ## 8. The master prompt
 

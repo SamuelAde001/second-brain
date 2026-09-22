@@ -30,5 +30,7 @@ Append-only. Date, decision, why, alternatives rejected, who decided.
 - **2026-09-22 — "Funny" may add at most one new joke line, flagged in `added_by_ai`.** Samuel: *"Fine."* Decided by Samuel.
 - **2026-09-22 — No examples from Samuel's own content in the guides.** Samuel: *"I don't have transcript examples, don't use any of mine."* Decided by Samuel.
 - **2026-09-22 — The guides are written to be token-light.** Samuel: *"make sure the guide docs are not too wordy so it doesn't consume much tokens … I want the guide docs to be token efficient as possible."* All 51 entries rewritten terse, with word caps enforced by the build script. The largest request went from about 3,500 to about 2,050 words. Decided by Samuel.
+- **2026-09-22 — Score bands and hook names confirmed.** The review score bands in `action-review-full` and the 18 hook names users see: *"That's fine"* to both. Decided by Samuel.
+- **2026-09-22 — The guide library is a living document.** Samuel: *"The Guide will be improved and updated over time as better conventions and rules come up."* Updating it must never need an app release or a code change. Decided by Samuel.
 
 Back to [[03-Areas/scripnals/scripnals|Scripnals]]
