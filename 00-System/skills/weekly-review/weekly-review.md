@@ -23,7 +23,7 @@ Samuel, 2026-09-22: yes to a weekly review, and to have it **merged into the Sun
 - **Client work.** `python 00-System/scripts/money_ledger.py videos YYYY-MM` for delivered videos. TickTick 📹 Video editing for what's still open and its deadline.
 - **Focus.** TickTick focus records for the week, both types (pomodoro `0`, timing `1`), summed per day in hours.
 - **Habits.** TickTick check-ins for the week (stamps `yyyyMMdd`), per habit, as x/7.
-- **Commitments.** `06-Logs/commitments.md`.
+- **Commitments.** `06-Logs/commitments.md`. For the three daily ones (must-dos, client deadlines and hours, start by 7:00am), count `- KEPT:` and `- MISS:` lines per commitment across the week's daily notes with grep, and read the `why:` reasons.
 - **Money.** Take the one-line result from the money check that just ran in this session. Don't recompute it.
 - **Next week.** Google Calendar events on every calendar, plus TickTick tasks dated next week.
 
@@ -32,7 +32,7 @@ Samuel, 2026-09-22: yes to a weekly review, and to have it **merged into the Sun
 1. **Good week?** His bar: *"client work all done, with free days to do my content and other stuffs in my life."* Yes or no, and why, in one line.
 2. **Numbers:** must-dos done / planned · tasks done by project · client videos delivered · focus hours (flag any day over 12h: *"it is an invoice"*, P2) · habits x/7 each · the money line.
 3. **Slipped,** by name. If it matches one of his [[02-Me/patterns|patterns]], name that pattern once, quoting his words. Most often it's P1: content dropped while client work ran.
-4. **Commitments:** kept or missed, each in his words, once. No penalty ([[02-Me/stakes-and-accountability|stakes and accountability]]).
+4. **Commitments:** for each of the three daily ones, kept x/7 and missed y/7, with the reasons he gave. If one reason repeats, name it once as the thing to fix next week. The highest escalation level the week reached. Any other commitment: kept or missed, in his words, once. No penalty beyond the make-up rule he chose ([[07-Agents/personal-life/profile|profile]] → discipline).
 
 Until he confirms the TickTick habits are current, report check-ins as numbers only, not as slips (memory, 2026-09-22).
 

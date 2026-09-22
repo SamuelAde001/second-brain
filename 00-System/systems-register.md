@@ -20,7 +20,7 @@ The ladder, lowest rung first: **SOP → checklist → skill → automation.** W
 | **orchestrator** | Routing, merging, the session protocol. The default entry point | none — runs as the main session → [[07-Agents/orchestrator/profile\|profile]] | **built 2026-09-22** |
 | **video-editor** | The DaVinci Resolve editing pipeline + standing Resolve expertise | `.claude/agents/video-editor.md` → [[07-Agents/video-editor/profile\|profile]] | **skeleton built 2026-09-21**; step 6 proven; skills pending |
 | **finance** | Money: ledger, budget sheet, rules, pots, runway, month close. Never moves money | `.claude/agents/finance.md` → [[07-Agents/finance/profile\|profile]] | **built 2026-09-22**; sheet credentials pending |
-| **personal-life** | His day and week: night plan, morning brief, weekly review; TickTick and Google Calendar (full write) | none — runs in the main session → [[07-Agents/personal-life/profile\|profile]] | **built 2026-09-22** |
+| **personal-life** | His day and week, and his disciplinarian: night plan with a nightly accountability check, morning brief, weekly review; TickTick and Google Calendar (full write) | none — runs in the main session → [[07-Agents/personal-life/profile\|profile]] | **built 2026-09-22** |
 
 Roster and planned agents: [[07-Agents/roster|roster]].
 
@@ -60,7 +60,7 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 
 | Skill | What it does | Trigger | Last used | Status |
 |-------|--------------|---------|-----------|--------|
-| [[night-plan]] | Close out today, lay tomorrow onto his day in timed chunks (at most three must-dos), write it to TickTick and the calendar once he agrees, and keep a short daily note | 8:45pm routine, or "plan tomorrow" | never | active |
+| [[night-plan]] | The nightly accountability check on his three commitments (must-dos, client deadlines and hours, 7:00am start), with escalation and the make-up rule. Then close out today, lay tomorrow onto his day in timed chunks (at most three must-dos), write it to TickTick and the calendar once he agrees, and keep a short daily note | 8:45pm routine, or "plan tomorrow" | never | active |
 | [[morning-brief]] | Fixed times, must-dos, the client job and its deadline, anything overdue, in ten lines or fewer | 6:30am routine, or "what's on today" | never | active |
 | [[weekly-review]] | Good week by his own bar, the numbers (must-dos, focus, habits, money line), what slipped and which pattern it matches, then next week planned with him | Sunday 3:00pm session, after [[sunday-check]] | never | active |
 

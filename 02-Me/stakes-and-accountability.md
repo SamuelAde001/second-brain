@@ -36,6 +36,14 @@ Set against the [[02-Me/goals/goal-ladder|goal ladder]], it is the 12-month pict
 
 **So, as of 2026-09-22: no penalty, no outside checker, no reward mechanism.** A better consequence may be found later, by him. Nothing goes into `06-Logs/commitments.md` from this review.
 
+## Later on 2026-09-22: a disciplinarian for the day
+
+*"It should also be a disciplinarian and and accoutability checker"*, said of the [[07-Agents/personal-life/profile|personal-life agent]]. He chose:
+
+- **What he's held to:** the daily must-dos, client deadlines and hours, and starting client work by 7:00am. All three are in [[06-Logs/commitments|commitments]].
+- **Escalating pressure:** a first miss in a week is named, with the question why. A second brings his risk and his fear (above) quoted back. A third re-cuts the next day around the misses.
+- **One consequence: the make-up rule.** A missed must-do becomes the next day's first must-do, and nothing optional gets planned until it's done. It's a structural cost, not a punishment, so it doesn't contradict the table above: the penalty, the scorecard and the streak stay dropped.
+
 ## The savings rule
 
 The rule is in [[money-rules]]. Asked what breaking it costs him, 2026-09-22: *"It cost me financial stability and security."* That is the natural cost, not an enforced penalty — consistent with the above: no enforced consequence exists.

@@ -1,6 +1,6 @@
 ---
 name: night-plan
-description: "Plan Samuel's tomorrow with him the night before: close out today (what got done, what didn't), lay tomorrow onto his real day in timed chunks, agree it with him, then write it into TickTick (and meetings onto Google Calendar) and a short daily note. Use when a routine opens it at 8:45pm WAT, or when he says 'plan tomorrow', 'plan my day', 'what am I doing tomorrow', 'set up tomorrow', or it's evening and tomorrow isn't planned. Not for the morning read-out (use morning-brief) or the Sunday week plan (use weekly-review)."
+description: "Plan Samuel's tomorrow with him the night before, and hold him to account: check today against his three commitments (must-dos, client deadlines and hours, a 7:00am start), escalate misses, apply the make-up rule, lay tomorrow onto his real day in timed chunks, agree it with him, then write it into TickTick (and meetings onto Google Calendar) and a short daily note. Use when a routine opens it at 8:45pm WAT, or when he says 'plan tomorrow', 'plan my day', 'what am I doing tomorrow', 'set up tomorrow', or it's evening and tomorrow isn't planned. Not for the morning read-out (use morning-brief) or the Sunday week plan (use weekly-review)."
 type: skill
 area: me
 status: active
@@ -25,19 +25,42 @@ Why timed chunks: in [[02-Me/patterns|patterns]] (P5), the day that closed a cli
 - **Deadlines coming.** TickTick: undone tasks due in the next 7 days in 📹 Video editing, plus anything priority 5.
 - **Commitments** due tomorrow: `06-Logs/commitments.md` (small file).
 - **Carried items.** Grep the last three daily notes for anything already carried twice: `grep -l "<task title>" 06-Logs/daily/*.md`.
+- **Accountability evidence.** TickTick focus records for today, both types: the earliest start (was it by 7:00am?) and hours on the client job. The week's miss count so far: `cat 06-Logs/daily/<Monday..today>.md | grep -c "^- MISS:"`. The client line in today's plan (`- Client: <job> — <h>h planned — due <date>`).
+
+## 1b. The accountability check (Samuel, 2026-09-22)
+
+His words: *"It should also be a disciplinarian and and accoutability checker"*. He chose the three commitments, escalation and the make-up rule ([[07-Agents/personal-life/profile|profile]] → discipline). Check each one for today:
+
+| Commitment | Kept | Missed |
+|---|---|---|
+| Daily must-dos | every must-do in today's `## Plan` completed in TickTick | any one not completed (one miss per must-do) |
+| Client deadlines & hours | planned client hours done; no client deadline passed undelivered | hours short of plan, or a deadline passed |
+| Start by 7:00am | a focus session started by 7:00am, or he says yes | he says no. **No evidence and no answer = unknown, never a miss** |
+
+If there was no plan for today, the must-dos are today's priority-5 tasks. When the focus records can't answer the start or the hours, ask him in the same message: *"Client work started by 7:00? Hours on <job> today?"*
+
+**Escalation.** The week's count (Monday to Sunday) is the misses already recorded plus today's.
+1. **First miss of the week:** name it by name, ask why once, and set its new date.
+2. **Second:** the same, plus his risk and his fear quoted back unsoftened from [[02-Me/stakes-and-accountability|stakes and accountability]]. Once per session, not once per miss.
+3. **Third and after:** the same, and tomorrow is re-cut around the misses first. The misses take the earliest blocks, and the rest is built from what's left.
+
+**Make-up rule.** Every missed must-do becomes tomorrow's must-do #1 (or #2, #3 when there are several), in the earliest block that can hold it. No optional task goes ahead of it or gets added until it's done. Optional means not a must-do, not client work, not a fixed-time item, and not a routine block. Content blocks are routine blocks, never optional (P1). The cap of three must-dos still holds. If the make-ups fill it, nothing new becomes a must-do tomorrow.
+
+A kept day gets one line of fact. No praise.
 
 ## 2. Propose, in one message
 
-Keep it short. Times first.
+Keep it short. Misses first, then times.
 
-1. **Today, one line.** Must-dos done out of planned, by name. What didn't get done, by name.
-2. **Every unfinished item gets a place:** tomorrow, a named later date, or dropped. He chooses. A task carried a third time gets named once, as P5: *"the estimate never moves once the job starts."*
-3. **Tomorrow, laid onto his day** ([[07-Agents/personal-life/profile|profile]] → his day):
+1. **Accountability first.** Kept, or each miss by name with its escalation (step 1b). The why question goes here, if one is due.
+2. **Today, one line.** Must-dos done out of planned, by name.
+3. **Every unfinished item gets a place:** tomorrow, a named later date, or dropped. He chooses. A task carried a third time gets named once, as P5: *"the estimate never moves once the job starts."*
+4. **Tomorrow, laid onto his day** ([[07-Agents/personal-life/profile|profile]] → his day):
    - Fixed times first (meetings, calls, the gym if it's a gym day).
    - **Client work 7:00am–1:00pm.** Name the job and its deadline, and say how many hours are left against that deadline. If the hours don't fit the days left, say so once, with the arithmetic.
    - Content 3:00–4:30pm and 7:00–9:00pm (client work instead in a deadline week).
    - **At most three must-dos,** marked priority 5. This cap is a build default, and he can change it.
-4. **One question:** *"Change anything, or go?"* Then wait.
+5. **One question:** *"Change anything, or go?"* (plus the why and the start/hours questions, if due). Then wait.
 
 Never schedule over 6:00–6:30am, after 10:00pm, or Sunday before 3:00pm. Never invent a task or deadline.
 
@@ -49,13 +72,16 @@ Never schedule over 6:00–6:30am, after 10:00pm, or Sunday before 3:00pm. Never
 
 ## 4. Record
 
-- **Today's note** `06-Logs/daily/<today>.md` (create it from `00-System/templates/daily.md` if it's missing): append `## Done`, listing must-dos done / not done and anything carried, one line each.
-- **Tomorrow's note** `06-Logs/daily/<tomorrow>.md` from the template, with only `## Plan` filled in: the fixed times, the must-dos and the client job with its hours. Leave out the template's empty sections. The task list stays in TickTick; this note is the record of what was planned.
+- **Today's note** `06-Logs/daily/<today>.md` (create it from `00-System/templates/daily.md` if it's missing): append `## Done`, one line each:
+  - `- KEPT: <commitment> — <what>` for each kept commitment
+  - `- MISS: <commitment> — <what> — why: "<his words>"` for each miss (why: `no answer` if he gave none). The weekly count is read from these lines, so the prefix is exact.
+  - carried items: `- CARRIED: <task> → <new date>`
+- **Tomorrow's note** `06-Logs/daily/<tomorrow>.md` from the template, with only `## Plan` filled in: the fixed times, the must-dos (make-ups marked `(make-up)`), and the client line in exactly this form: `- Client: <job> — <h>h planned — due <date>`. Leave out the template's empty sections. The task list stays in TickTick; this note is the record of what was planned.
 - Append one line to `07-Agents/personal-life/log.md`.
 - Commit `personal-life: plan for <tomorrow>` with the Co-Authored-By trailer, then push.
 
 ## Tone
 
-Direct and blunt. No praise for planning. A slip gets named once, in his words, then leave it.
+Direct and blunt. No praise for planning. A miss on the three commitments follows the escalation. Any other slip gets named once, in his words, then leave it.
 
 Back to [[07-Agents/personal-life/profile|personal-life]] · [[00-System/systems-register|Systems register]]

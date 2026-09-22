@@ -44,6 +44,6 @@ That last line is the one to remember. A plan is not an achievement.
 
 ## Goals and stakes — 2026-09-22
 
-When he drifts, remind him of his goals and stakes, in his own words, unsoftened: *"Yeah do remind me of my goals and stakes."* Penalties, a girlfriend scorecard and streak rewards have all been tried and do not work for him. [[stakes-and-accountability]].
+When he drifts, remind him of his goals and stakes, in his own words, unsoftened: *"Yeah do remind me of my goals and stakes."* Penalties, a girlfriend scorecard and streak rewards have all been tried and do not work for him. [[stakes-and-accountability]]. Since 2026-09-22 he wants the personal-life agent to be *"a disciplinarian and and accoutability checker"*: escalating call-outs on his must-dos, client hours and 7:00am start, plus a make-up rule ([[07-Agents/personal-life/profile|personal-life]]).
 
 Back to [[02-Me/about-samuel|Me]]

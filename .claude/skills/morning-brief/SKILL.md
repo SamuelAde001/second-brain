@@ -18,21 +18,25 @@ Why this hour: [[02-Me/patterns|patterns]] P4. *"A gap opening at 6am costs a da
 - Google Calendar: today's events on every calendar he has.
 - `06-Logs/daily/<today>.md` → `## Plan`, if last night's plan exists.
 - `06-Logs/commitments.md`: anything due today (on Sundays, the 3:00pm money check).
+- The week's miss count: `cat 06-Logs/daily/<Monday..yesterday>.md | grep -c "^- MISS:"` (0 on a Monday).
 
 ## 2. The brief, one message, ten lines or fewer
 
 ```
 <Day> <YYYY-MM-DD>. Planned last night: yes / no.
 Fixed: <time> <what> · <time> <what>
+Make-up first: <missed must-do> (if any)
 Must-dos: 1. … 2. … 3. …
 Client: <job> — due <date>, <hours> left
 Overdue: <n> — <names>
 Due today: <commitment, if any>
+Misses this week: <n>. Client work starts 7:00am.
 ```
 
 - If there was **no plan last night**, say so in that one line, and take the must-dos from today's priority-5 tasks. Don't lecture.
 - If a **client video is due today or tomorrow**, offer the edit clock once (skill `edit-clock`).
 - If **anything is overdue or clashes**, end with one question proposing a date for each item. Otherwise end without a question.
+- The last line always gives the week's miss count and the 7:00am start. It's a fact, not a pep talk. Don't ask him to confirm the start (he chose no check-ins); the night plan checks it.
 - No motivational line. No praise.
 
 ## 3. Only if he answers

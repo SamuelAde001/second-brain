@@ -272,3 +272,15 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Cron offsets:** the app adds a fixed delay per task (10m48s for night-plan, 9m32s for morning-brief). The crons are set at 8:35pm and 6:21am so the runs land at 8:45pm and 6:30am.
 
 **Who decided:** Samuel for the jobs, the access and the times. The build for the mechanism and the defaults.
+
+## 2026-09-22 — personal-life is also the disciplinarian
+
+**Samuel:** *"It should also be a disciplinarian and and accoutability checker"*. Then he picked: held to "Daily must-dos, Client deadlines & hours, Start by 7:00am"; pressure "Escalating"; cost "Make-up rule"; check-ins during the day "None".
+
+**What:** three new entries in `06-Logs/commitments.md`, checked every night in `night-plan`. Misses are written as `- MISS:` lines with his reason in the daily note, and counted Monday to Sunday. Escalation: first miss named, with why; second, his risk and fear quoted back (once per session); third, the next day re-cut around the misses. Make-up rule: a missed must-do becomes the next day's must-do #1, and nothing optional is planned ahead of it. Content blocks count as routine, not optional (P1). The morning brief shows make-ups first and the week's miss count. The weekly review reports kept and missed per commitment, with his reasons.
+
+**Why no penalty:** his own 2026-09-22 verdict. The penalty, the scorecard and the streak don't work. The make-up rule is the only cost, and he chose it.
+
+**Build calls:** the 7:00am start counts as kept on a focus session started by 7:00am, or his yes at the night plan. No evidence and no answer counts as unknown, never a miss. Misses are counted across all three commitments together.
+
+**Who decided:** Samuel for what, how hard and the cost. The build for how it's measured.
