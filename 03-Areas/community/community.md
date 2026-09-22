@@ -1,8 +1,8 @@
 ---
 type: area
 area: community
-status: needs-input
-updated: 2026-09-20
+status: active
+updated: 2026-09-22
 source: project-handover
 tags: []
 ---
@@ -27,7 +27,25 @@ Second stage of the ladder: Academy teaches, the community is where people **imp
 
 That removal rule is the sharpest thing recorded about any branch: membership is conditional on actually publishing.
 
-## Current status — as of 2026-09-20
+> **Update 2026-09-22:** the removal rule has been dropped. Samuel: *"We have stopped removing people since this month."* That is September 2026.
+
+## Current status — as of 2026-09-22
+
+From Samuel, 2026-09-22:
+
+| | |
+|---|---|
+| Platform | **WhatsApp**, *"for now"* |
+| Members | 20, free (as of 2026-09-20) |
+| What happens there | *"Just posting, accountability of there posting schedules, checkings and sometimes random reviews."* Members post, their posting schedules are held to account, there are check-ins, and there are occasional reviews |
+| Admin | Paid **NGN 15,000/month** by Samuel. *"the person helps me do the accountability of the community."* That is the admin's job ([[03-Areas/finances/obligations|Obligations]]) |
+| Removal rule | **Stopped** since September 2026 |
+| Earning | **Nothing.** No HighSignals branch earns yet ([[03-Areas/highsignals/highsignals|HighSignals]]) |
+| Next year | *"A new community would start more on video editing though."* Whether it will be paid isn't stated |
+
+The next community follows the same pull as everything else he runs: toward video editing. See [[03-Areas/personal-brand/instagram-strategy|Instagram strategy]] and [[03-Areas/academy/academy|Academy]].
+
+### As of 2026-09-20
 
 **Nothing is scheduled.** Confirmed by Samuel 2026-09-20.
 
@@ -46,10 +64,10 @@ An earlier conflict — whether HighSignals was the umbrella or the community �
 
 ## Open questions
 
-- Platform, size, engagement, monetisation. Is membership paid?
-- How long is "an extended period" before a member is removed, and who enforces it? Is the accountability tracker a real tool or a manual check?
-- How often are the group content reviews and live sessions, and does he still run them?
-- Whether the removal rule is actually enforced, or aspirational.
+- ~~Platform, size, engagement, monetisation. Is membership paid?~~ WhatsApp, 20 free members, earns nothing (2026-09-22).
+- ~~How long is "an extended period" before a member is removed?~~ Moot: removal stopped in September 2026.
+- Is the accountability tracker a tool, or the admin checking by hand?
+- The new video-editing community next year: paid or free, and what does it offer? Does it replace this one or run alongside it?
 
 ## Map of content
 
@@ -74,3 +92,5 @@ Two reasons, and the second is the more interesting one: **not just capacity, bu
 The engine's record has it cancelled on 2026-09-02: *"Wednesday signal sessions have been canceled completly."* The memory export of 2026-09-06 described it as relaunching — that entry was stale.
 
 **The open question it leaves:** 20 members and an NGN 15,000/month admin, for a community with no scheduled activity. Either that buys something specific, or it is a subscription to an empty room. Raised in the engine on 2026-09-02, still unanswered.
+
+> **Answered 2026-09-22:** it buys accountability. The admin keeps members to their posting schedules and runs check-ins. Samuel: *"the person helps me do the accountability of the community."*

@@ -2,7 +2,7 @@
 type: knowledge
 area: highsignals
 status: needs-input
-updated: 2026-09-20
+updated: 2026-09-22
 source: interview
 tags: []
 ---
