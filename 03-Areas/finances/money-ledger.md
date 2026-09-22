@@ -96,5 +96,12 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-09-22 | bulk | 5,000 | Girlfriend's hair | Girlfriend — extra | his words; day not given |
 | 2026-09-22 | bulk | 915 | Unaccounted (probably transfer charges) | Other | derived: NGN 61,567 (his words, live) against the rows; not confirmed |
 | 2026-09-22 | balance | 61,567 | Bank | — | his words: "What is in my bank account now live is 61,567" |
+| 2026-09-22 | correction | — | 2026-09-21 from-pot Buffer 50,000: reason now given | — | his words: "Well, I had only 6k or so left in my account, and I know I still need money for some things that may come up before Spetember ends, so we can plan on them" |
+| 2026-09-22 | correction | — | 2026-09-22 bulk Chicken 3,500: eating out, not feeding | — | his words: "The chicken is just part of me eating out once a while". Fixed by the two rows below |
+| 2026-09-22 | bulk | -3,500 | Chicken (moved to Eating out) | Feeding | reverses the 2026-09-22 Chicken row |
+| 2026-09-22 | bulk | 3,500 | Chicken | Eating out | his words: "The chicken is just part of me eating out once a while" |
+| 2026-09-22 | correction | — | 2026-09-22 bulk Unaccounted 915: transfer charges | — | his words: "Yes all tranfer charges". Fixed by the two rows below |
+| 2026-09-22 | bulk | -915 | Unaccounted (moved to charges) | Other | reverses the 2026-09-22 Unaccounted row |
+| 2026-09-22 | charges | 915 | Transfer charges, 16–22 Sep | Other | his words: "Yes all tranfer charges" |
 
 Back to [[03-Areas/finances/finances|Finances]]

@@ -59,4 +59,6 @@ From the archived [[08-Archive/accountability-engine/context/money-ledger|engine
 - **He asked to be kept in check** (*"You can see I spend out of hand, I need the Financial agent to keep me in check"*). The agent can't see his bank, so a check only works if he tells it before or soon after. Propose a mechanism, and record it in `06-Logs/commitments.md` only once he confirms it.
 - Girlfriend support recurs. A real line for it in the next plan beats a surprise every month.
 
+- **One view of the month, not two.** He found the totals box and the money flow confusing side by side: *"Money flow makes more sense"*. Show a month as start → in → from pots → spent → into pots → end, and nothing else that repeats it.
+
 Back to [[07-Agents/finance/profile|Profile]]
