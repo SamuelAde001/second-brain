@@ -36,4 +36,11 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - **Don't add inputs the user has to fill.** He cut the niche question and the format picker to keep the app simple. Infer from what the app already has (the ICP answers, the draft) before proposing a new field.
 - **AI reference text is paid for on every call.** Write it terse from the start: no repeats of rules the system prompt already holds, one-line patterns, word caps in the build script.
 
+## 2026-09-22 — Commands on Samuel's PC
+
+- **Run local steps myself.** Twice a PowerShell command I gave him failed or looked broken, and he asked *"why am I always having issues running the code you tell me to run in powershell?"* Both were my faults. A command that moves or stores a secret without printing it is just as safe when I run it with my own PowerShell tool. Leave him only what needs his hands: clicks in a website, downloads, sign-ins.
+- **Don't assume where a download landed.** Chrome saves to the last folder used. The Google key went to `Documents\Personal`, not Downloads. Search by name first.
+- **`[Environment]::SetEnvironmentVariable(..., 'User')` looks like a freeze** (it notifies every window). Use `Set-ItemProperty HKCU:\Environment`.
+- Moving a file outside the Brain needs his yes each time (AGENTS.md rule 5). He gave it for the key move.
+
 Back to [[07-Agents/orchestrator/profile|Profile]]
