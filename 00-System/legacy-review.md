@@ -66,11 +66,11 @@ Each was written by the weekly review with ledger evidence. They are claims abou
 
 | # | Item | Where | Domain | Status |
 |---|------|-------|--------|--------|
-| F1 | **Selective dropping, not effort collapse** — effort never collapses; the audience-facing half gets cancelled while client work continues. The thing cut is always the thing with no external deadline. *Confirmed 2026-09-02.* | `context/patterns.md` | me | unreviewed |
-| F2 | **The debt gets paid with the body** — work skipped is repaid in a single death-march session. Watch any day logging more than 12h focus: "that is not a good day, it is an invoice." | `context/patterns.md` | me | unreviewed |
-| F3 | **Money booked is not money moved** (candidate) — NGN 900,250 booked to savings across three months, NGN 305,000 survived. | `context/patterns.md` | finances | **KEPT - active 2026-09-20** |
-| F4 | **The day is lost in the morning, not the evening** (candidate) — losses happen in unstructured unsupervised gaps, and the phone fills them. "A gap that opens at 6am costs a day. A gap that opens at 5pm costs a block." Intervention under test: phone charges outside the bedroom from 10pm. | `context/patterns.md` | me | unreviewed |
-| F5 | **Scope is estimated once and never re-estimated** (candidate). | `context/patterns.md` | me, video-editing | unreviewed |
+| F1 | **Selective dropping, not effort collapse** — effort never collapses; the audience-facing half gets cancelled while client work continues. The thing cut is always the thing with no external deadline. *Confirmed 2026-09-02.* | `context/patterns.md` | me | **KEPT** - confirmed by Samuel 2026-09-22 → [[patterns]] |
+| F2 | **The debt gets paid with the body** — work skipped is repaid in a single death-march session. Watch any day logging more than 12h focus: "that is not a good day, it is an invoice." | `context/patterns.md` | me | **KEPT** - confirmed by Samuel 2026-09-22 → [[patterns]] |
+| F3 | **Money booked is not money moved** (candidate) — NGN 900,250 booked to savings across three months, NGN 305,000 survived. | `context/patterns.md` | finances | **KEPT - active 2026-09-20**; confirmed by Samuel 2026-09-22 → [[patterns]] |
+| F4 | **The day is lost in the morning, not the evening** (candidate) — losses happen in unstructured unsupervised gaps, and the phone fills them. "A gap that opens at 6am costs a day. A gap that opens at 5pm costs a block." Intervention under test: phone charges outside the bedroom from 10pm. | `context/patterns.md` | me | **KEPT** - confirmed by Samuel 2026-09-22 → [[patterns]] |
+| F5 | **Scope is estimated once and never re-estimated** (candidate). | `context/patterns.md` | me, video-editing | **KEPT** - confirmed by Samuel 2026-09-22 → [[patterns]] |
 
 ## Rituals, agents and automation
 
