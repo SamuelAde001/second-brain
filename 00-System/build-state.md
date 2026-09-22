@@ -17,6 +17,8 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 ---
 
+> **Checkpoint 2026-09-22 (session 3, mid-session):** the Phase 3 **domain** interviews are done: scripnals · academy · community (+ highsignals) · book, all committed. Now asking about the `02-Me` gaps. Samuel has a dedicated **Scripnals session later today**, where he walks through the build and drafts in the survey responses.
+
 ## What exists now
 
 - **167 markdown files, 36 commits** (2026-09-22; generated adapter folders not counted), pushed to `https://github.com/SamuelAde001/second-brain` (private, branch `main`).
