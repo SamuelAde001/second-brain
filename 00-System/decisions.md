@@ -198,7 +198,7 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **What changed:**
 - The sheet is now a **view**. `00-System/scripts/budget_sheet.py` rebuilds a new Google Sheet, "Money", from the ledger, the plan table in `obligations.md` and the goals. Two tabs, Overview and Ledger. Headers and numbers only; negatives in red.
 - **The plan lives in the Brain.** The table in `obligations.md` is the only place a plan number lives. The old sheet's Details tab no longer counts. The `budget` skill changes that table, with his yes, and keeps a trace of the old figure.
-- **The connection is Google's official Sheets API** with a service account. Its key sits outside the Brain at `%USERPROFILE%\.brain-secretsudget-sheet-key.json`. It's read by the script only, listed in AGENTS.md §10, and denied to Claude Code's Read tool.
+- **The connection is Google's official Sheets API** with a service account. Its key sits outside the Brain at `%USERPROFILE%\.brain-secrets\budget-sheet-key.json`. It's read by the script only, listed in AGENTS.md §10, and denied to Claude Code's Read tool.
 - "My Claude Budget" is frozen as history. `sheets.py` stays for reading it only.
 - The plan-vs-actual table starts at 2026-10. September is split across two ledgers and is handled in the September close.
 
