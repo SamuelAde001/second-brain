@@ -31,7 +31,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import money_ledger as ml  # noqa: E402
 
 # The "Money" sheet. Its ID is not secret; only the key file is.
-SHEET_ID = os.environ.get("BUDGET_SHEET_ID", "")
+SHEET_ID = os.environ.get("BUDGET_SHEET_ID") or "1fqdIK2ty48eMJ2-6fH4ovPg0QY-MMhqTDWrnpyiKG5U"
 KEY = os.environ.get("BUDGET_SHEET_KEY") or os.path.join(
     os.path.expanduser("~"), ".brain-secrets", "budget-sheet-key.json")
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]

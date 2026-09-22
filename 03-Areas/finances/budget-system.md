@@ -11,6 +11,8 @@ tags: [budget, spreadsheet]
 
 **Since 2026-09-22 the budget sheet is a view of the Brain.** The ledger and the plan live in the Brain. The Google Sheet **"Money"** is rebuilt from them by the finance agent, and Samuel only reads it. His words: *"I look at the sheet, If I want to imput anything, I would do it through the Agent here."*
 
+**The sheet:** [Money](https://docs.google.com/spreadsheets/d/1fqdIK2ty48eMJ2-6fH4ovPg0QY-MMhqTDWrnpyiKG5U/edit), created 2026-09-22. It's shared with the robot `brain-budget@brain-budget-509414.iam.gserviceaccount.com` (Editor). First built 2026-09-22 in about 4 seconds, with no failed calls.
+
 ## Where each number comes from
 
 | On the sheet | Comes from |
