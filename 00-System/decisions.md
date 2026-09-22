@@ -158,3 +158,13 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Alternatives rejected:** a generated `.claude/agents/orchestrator.md`. It would show up as a choosable subagent that can't do its one job.
 **Routing until the other agents exist:** the orchestrator works the finance, personal-life and content domains itself, from the area notes. Table in the [[07-Agents/orchestrator/profile|profile]].
 **Who decided:** the build (Phase 4, "orchestrator next" in build state). Mechanism only. No change to anything Samuel decided.
+
+## 2026-09-22 — The Scripnals guide library is tagged entries with a generated JSON export
+**Samuel:** *"The guide library should be robust, but well sorted to content types, niches and content formats etc. so that the AI can easy search through and find what he wants. The content library should be in a format that AI's can read easily and can be sorted in a database easily."*
+**What changed:**
+- `03-Areas/scripnals/guides/` holds one Markdown file per entry (66), in nine kind folders. A flat frontmatter carries six tag fields. The body is the text the AI reads.
+- `00-System/scripts/build_scripnals_guides.py` validates every entry against one controlled vocabulary, exports `guides/_export/guides.json` and `vocab.json` (generated, never hand-edited), and simulates the matching rule.
+- **Guide entries carry no backlink** to the area, because their body goes straight into the prompt. `guides/guide-library.md` is their link to the area. Exception to AGENTS.md §4 "every note links back", for these files only.
+- The approved spec's "one file per folder, no search" becomes "every entry whose tags match", with a word budget. Plus two new inputs, niche and format. That part is a product change, so it is **Proposed** in spec v1.1 until Samuel says yes (open question 80).
+**Why:** one file per folder can't sort by niche or format, and one hook file loaded whole wastes words on patterns that don't fit the content type. Markdown stays easy for Samuel to edit. JSON drops into a database or a server's memory with no parsing.
+**Who decided:** Samuel asked for the shape (quote above). The mechanism is the main session's. The spec change waits for his yes.

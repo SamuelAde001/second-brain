@@ -26,4 +26,11 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - **The style Samuel wants in dev documents:** few, easy words, no worked examples, simple left-to-right diagrams with strong contrast, mock-ups of screens. He rejected a dense three-column swimlane (*"this looks complex"*) and preferred the simple boxes-and-arrows version.
 - **Name the "Proposed" items separately and ask for one yes or no.** He approved all 8 at once. It kept the spec moving without re-litigating.
 
+## 2026-09-22 — Researching for an AI product's reference library
+
+- **Rank sources before reading them:** Samuel's own method, then the platform's own words (Instagram's creator and ranking pages), then studies, then creator frameworks. Most "algorithm 2026" blogs repeat each other with unsourced numbers. Trace a claim to the platform page or the original study before using it.
+- **Instagram can't be browsed logged out, and no model here can watch a Reel.** Say so plainly. The real fix is transcripts of strong Reels from Samuel (open question 75).
+- **Guides built from formulas with placeholders, not worked examples.** A model copies examples word for word, and every user's hook starts to sound the same. That is the "generic AI script" problem Samuel wants to avoid.
+- **Tag entries, then filter with one rule.** It kept 66 entries under a 3,200-word budget per call, with no search engine. A script that simulates a request (`--select`) proves the budget before the devs build anything.
+
 Back to [[07-Agents/orchestrator/profile|Profile]]

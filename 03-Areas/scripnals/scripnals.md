@@ -30,7 +30,7 @@ Samuel, 2026-09-22: the developers are **still building it for free**; *"the app
 
 **The build was walked screen by screen on 2026-09-22 → [[03-Areas/scripnals/current-build|Current build]].** In short: onboarding fork, rich-text editor, voice recorder, 6 content types, an AI auditor (score + 3 tips) and an AI rewrite, and a content pipeline. **No Script Formatter**, no streaks, no notifications. The AI output is generic and caption-shaped, not a video script.
 
-**Same day:** the AI spec was written and approved → [[03-Areas/scripnals/ai-workflow|AI workflow]] (PDF built for the devs). The bug list is drafted for a DM → [[03-Areas/scripnals/dev-bug-list|Bug list]]. **Next:** the guide library, due 2026-09-27 → [[03-Areas/scripnals/guide-library-brief|Guide library brief]]. Samuel's 11-item plan → [[03-Areas/scripnals/roadmap|Roadmap]].
+**Same day:** the AI spec was written and approved → [[03-Areas/scripnals/ai-workflow|AI workflow]] (PDF built for the devs). The bug list is drafted for a DM → [[03-Areas/scripnals/dev-bug-list|Bug list]]. **Guide library v1 drafted the same day** → [[03-Areas/scripnals/guides/guide-library|Guide library]] ([[03-Areas/scripnals/guide-library-research|research]]). Spec now v1.1, Proposed. **Next:** Samuel reviews, a test on 3–4 real drafts, then send by 2026-09-27. Samuel's 11-item plan → [[03-Areas/scripnals/roadmap|Roadmap]].
 
 ### Team
 
@@ -93,7 +93,7 @@ Marked TBD in the source doc:
 
 ## Map of content
 
-- **Start here for AI work:** [[03-Areas/scripnals/guide-library-brief|Guide library brief]] · [[03-Areas/scripnals/ai-workflow|AI workflow (spec v1, approved)]]
+- **Start here for AI work:** [[03-Areas/scripnals/guides/guide-library|Guide library]] · [[03-Areas/scripnals/guide-library-research|Guide library research]] · [[03-Areas/scripnals/ai-workflow|AI workflow (spec v1 approved, v1.1 proposed)]] · [[03-Areas/scripnals/guide-library-brief|Guide library brief (done)]]
 - [[03-Areas/scripnals/current-build|Current build]] · [[03-Areas/scripnals/dev-bug-list|Bug list for the devs]] · [[03-Areas/scripnals/roadmap|Roadmap]] · [[03-Areas/scripnals/sops/test-an-apk|SOP: test an APK]]
 - [[03-Areas/scripnals/technical-architecture|Technical architecture]] · [[03-Areas/scripnals/validation|Validation]]
 - Files: `assets/` holds the flow chart and screen sources plus the PDF sent to the devs. `_attachments/scripnals/` holds the screenshots and figures. The PDF is rebuilt with `python 00-System/scripts/build_scripnals_spec.py`

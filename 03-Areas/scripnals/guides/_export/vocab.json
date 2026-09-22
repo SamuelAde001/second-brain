@@ -1,0 +1,55 @@
+{
+  "budget_words": 3200,
+  "vocab": {
+    "actions": {
+      "review_full": "Review my whole script",
+      "improve_hook": "Improve my hook",
+      "rewrite": "Rewrite my script",
+      "shorten": "Shorten my script",
+      "remove_fluff": "Remove fluffs",
+      "draft_from_idea": "Draft a script from my idea",
+      "review_idea": "Review my content idea",
+      "to_bullets": "Turn my idea to bullet points"
+    },
+    "content_types": {
+      "storytelling": "Storytelling",
+      "listicle": "Listicles",
+      "quick_tip": "Quick Tip",
+      "contrarian": "Contrarian",
+      "before_after": "Before and After",
+      "pov": "POV"
+    },
+    "tones": {
+      "professional": "Professional",
+      "friendly": "Friendly",
+      "funny": "Funny",
+      "other": "Other"
+    },
+    "audiences": {
+      "business": "Business owner/entrepreneur",
+      "creator": "Content creator"
+    },
+    "niches": {
+      "business_marketing": "Business, marketing and coaching",
+      "money_finance": "Money and personal finance",
+      "fitness_health": "Fitness, health and wellness",
+      "beauty_fashion": "Beauty and fashion",
+      "food": "Food and cooking",
+      "tech_ai": "Tech, software and AI",
+      "career_education": "Career, study and skills",
+      "creative_skills": "Creative skills (video, design, photo, music, writing)",
+      "lifestyle": "Lifestyle, travel and relationships",
+      "faith_growth": "Faith and personal growth",
+      "other": "Other"
+    },
+    "formats": {
+      "talking_head": "Talking to camera",
+      "voiceover_broll": "Voiceover with B-roll",
+      "text_on_screen": "Text on screen",
+      "skit": "Skit or acting",
+      "screen_tutorial": "Screen recording",
+      "green_screen": "Green screen",
+      "vlog": "Vlog or day in the life"
+    }
+  }
+}

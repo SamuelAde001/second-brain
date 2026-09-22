@@ -9,9 +9,9 @@ tags: [ai, spec, script-buddy, dev-handover, master-prompt]
 
 # Scripnals: how Script buddy (the AI) works
 
-**Spec v1 · 2026-09-22 · from Samuel**
+**Spec v1.1 · 2026-09-22 · from Samuel**
 
-Status: **approved by Samuel 2026-09-22** (*"All approved"*). Rewritten the same day on his request: fewer words, no examples, master prompt added.
+Status: v1 **approved by Samuel 2026-09-22** (*"All approved"*). **v1.1, same day, Proposed, waiting for his yes:** the guide library research added two inputs (the user's **niche** and the **filming format**) and replaced "one file per folder" with tagged entries. Changed: sections 4, 5, 6, 7 and 8.
 
 Everything here is agreed. If something won't work, tell me in the group before you build it.
 
@@ -41,8 +41,9 @@ Everything here is agreed. If something won't work, tell me in the group before 
 | Anything else for Script buddy? | Free text | Optional |
 
 - Set the draft type from the post's stage: Idea → Rough idea, Scripting → Script draft. The user can change it.
-- Show the content type in the panel. The user can change it there.
-- Remember the last tone the user picked.
+- Show the content type and the **format** in the panel. The user can change both there.
+- Format options: Talking to camera · Voiceover with B-roll · Text on screen · Skit or acting · Screen recording · Green screen · Vlog or day in the life.
+- Remember the last tone and the last format the user picked. The first format is Talking to camera.
 - Notes: 300 characters at most. Text: about 1,500 words at most.
 
 ## 5. What the app sends
@@ -58,31 +59,30 @@ One endpoint: **`POST /api/ai/run`**. It replaces `analyze` and `revamp`.
 | `tone_other` | The typed tone, when `tone` is `other` |
 | `extra_instructions` | The notes, or empty |
 | `content_type` | `storytelling` · `listicle` · `quick_tip` · `contrarian` · `before_after` · `pov` |
+| `format` | `talking_head` · `voiceover_broll` · `text_on_screen` · `skit` · `screen_tutorial` · `green_screen` · `vlog` |
 | `title`, `text` | Plain text, no HTML |
 
 The app sends nothing else. The server loads the rest itself.
 
 ## 6. What the server loads
 
-- The user's **ICP profile** and its path (business or creator).
+- The user's **ICP profile**, its path (business or creator) and its **niche**.
 - The user's **last 5 posts marked Posted**: title and the first ~50 words.
 - The **guides** that match the user's choices (section 7).
 
+**New onboarding question, both paths, first after the fork:** *What's your niche?* Pick one: Business, marketing and coaching · Money and personal finance · Fitness, health and wellness · Beauty and fashion · Food and cooking · Tech, software and AI · Career, study and skills · Creative skills · Lifestyle, travel and relationships · Faith and personal growth · Other. Saved on the ICP profile and editable there. The values are in `vocab.json`.
+
 ## 7. The guide library
 
-Short Markdown files kept in the backend repo. I write them and send the first set **by 2026-09-27**. Each file stays under ~400 words.
+I send it by **2026-09-27** as two files: `guides.json` (the entries) and `vocab.json` (every allowed value, with the labels the app shows).
 
-```
-guides/
-  master-prompt.md        always used (section 8)
-  audience/               business.md · creator.md
-  content-types/          one file per content type
-  actions/                one file per task
-  tone/                   professional.md · friendly.md · funny.md
-  hooks/hook-library.md   for improve_hook, rewrite, draft_from_idea, review_full
-```
-
-Pick one file from each folder that matches the choices. No search engine is needed.
+- **66 short entries**, one job each: 3 core rules · 2 audiences · 10 niches · 8 tasks · 6 content types · 7 formats · 3 tones · 18 hooks · 9 calls to action.
+- Each entry has **tags**: `actions`, `content_types`, `tones`, `audiences`, `niches`, `formats`. A tag holds the values it applies to, or `any`.
+- **The rule: load every active entry where each tag is `any` or holds the request's value.** No search engine is needed.
+- Order in the prompt: core → audience → niche → task → content type → format → tone → hooks → calls to action.
+- **Budget: 3,200 words.** Over it, drop `priority` 3, then 2, from the end. Today's largest request is about 2,950 words.
+- Load `guides.json` when the server starts and filter in memory. A database table is optional. The file is built to drop straight into one.
+- Hook titles are the names users see in `improve_hook`'s `pattern` field.
 
 ## 8. The master prompt
 
@@ -125,6 +125,8 @@ THE TASK
 Draft type: {{draft_type}}
 Task: {{task_name}}. {{task_instructions}}
 Content type: {{content_type}}
+Format: {{format}}
+Niche: {{niche}}
 Tone: {{tone}}
 User's notes: {{extra_instructions}}
 If the notes ask for something extra, do it and add it as its own block.
@@ -170,9 +172,10 @@ TEXT:
 | `icp_goal` | Business path: `Business owner: wants leads and trust.` Creator path: `Content creator: wants views and community.` |
 | `icp_answers` | Each onboarding question and its answer, one per line |
 | `past_posts` | The last 5 Posted: title and first ~50 words each. If none: `None yet` |
-| `guides` | The text of each picked guide file, under its file name |
+| `guides` | Each matching entry's body, under a line `GUIDE: <title> (<id>)` |
 | `task_name`, `task_instructions` | From the table in section 9 |
-| `draft_type`, `content_type`, `tone` | The user's choices. For "Other", the tone they typed |
+| `draft_type`, `content_type`, `format`, `tone` | The user's choices. For "Other", the tone they typed |
+| `niche` | The niche label from the ICP. If none: `Not set` |
 | `extra_instructions` | The user's notes. If empty: `None` |
 
 ## 9. The tasks
@@ -228,4 +231,4 @@ The app draws whatever blocks arrive, so a new kind of request needs no new scre
 
 ---
 
-*Brain only, not sent:* built from Samuel's dev chat of 2026-09-22 ([[03-Areas/scripnals/scripnals-decisions|Decisions]]) and the build walkthrough ([[03-Areas/scripnals/current-build|Current build]]). The master prompt was added at Samuel's request the same day. Chart and screen sources: `03-Areas/scripnals/assets/`. Seed material for the guide library: [[03-Areas/personal-brand/script-process|Script process]], [[03-Areas/personal-brand/storytelling-structures|Storytelling structures]], [[03-Areas/personal-brand/script-review-checklist|Script review checklist]]. Back to [[03-Areas/scripnals/scripnals|Scripnals]].
+*Brain only, not sent:* built from Samuel's dev chat of 2026-09-22 ([[03-Areas/scripnals/scripnals-decisions|Decisions]]) and the build walkthrough ([[03-Areas/scripnals/current-build|Current build]]). The master prompt was added at Samuel's request the same day. Chart and screen sources: `03-Areas/scripnals/assets/`. The guide library: [[03-Areas/scripnals/guides/guide-library|Guide library]], sources in [[03-Areas/scripnals/guide-library-research|Guide library research]]. Seed material for it: [[03-Areas/personal-brand/script-process|Script process]], [[03-Areas/personal-brand/storytelling-structures|Storytelling structures]], [[03-Areas/personal-brand/script-review-checklist|Script review checklist]]. Back to [[03-Areas/scripnals/scripnals|Scripnals]].

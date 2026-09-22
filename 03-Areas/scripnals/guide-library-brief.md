@@ -1,13 +1,15 @@
 ---
 type: project
 area: scripnals
-status: active
+status: done
 updated: 2026-09-22
 source: manual
 tags: [ai, guide-library, brief, research]
 ---
 
 # Guide library: brief for the research session
+
+**Done 2026-09-22 → [[03-Areas/scripnals/guides/guide-library|Guide library]].** The research changed one fixed input: "one file per folder, no search" became tagged entries with one matching rule, plus niche and format inputs (spec v1.1, Proposed). Kept as the record of the brief.
 
 **Read this first in a new chat.** It holds everything needed to research and write the guide library for Script buddy, the Scripnals AI, without re-reading the whole 2026-09-22 session.
 
