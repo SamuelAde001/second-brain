@@ -2,7 +2,7 @@
 type: knowledge
 area: personal-brand
 status: needs-input
-updated: 2026-09-20
+updated: 2026-09-22
 source: claude-export
 tags: [scripts, storytelling, templates]
 ---
@@ -138,6 +138,16 @@ No worked examples were given for any of the structures in this section (source 
 - **Value** — Give them an actionable step by step solution to help solve said problem
 - **Promote** — Subtly let them know your product/service helps people do exactly this to achieve dream result
 - **CTA** — Use CTA from sales section of template
+
+## Five named techniques, from an analysis of viral scripts
+
+From the memory export (`scripting-and-collaboration.md`, Content Creation project, 2026). Samuel stated them "for future use". They are ways of running a story, not structures, so they layer on top of any structure above.
+
+1. **Pronoun-as-plot.** The narration's pronoun carries the story: *they* (a borrowed grievance) → *I* (the bridge) → *I* alone (the isolated struggle) → *we* (collaborators, resolution) → *you* (the audience) → *you* again, reassigned to the product or CTA with no seam.
+2. **Pacing-as-emotion.** Fast and list-like for grievance and grind. A hard slowdown at the wound or pivot, where one sentence gets room to breathe. Speed back up into the close. Delivering it all at one speed flattens a script even when every beat is there.
+3. **Reframe pivot.** The pivot re-reads a fact already stated instead of bringing in new information: isolation named as the wound in Conflict comes back as fuel in the Pivot. Different from his usual discovery pivot.
+4. **Bridge line.** A borrowed public grievance only becomes his stake after one explicit line that puts *I* into it. Jumping from observation to personal struggle without it feels disconnected.
+5. **Payoff-as-product close.** The resolution hard-cuts into the thing being launched or sold, and the last line of narration bridges into the product's first line. It replaces the stated lesson or the Mantra.
 
 ## needs-input
 

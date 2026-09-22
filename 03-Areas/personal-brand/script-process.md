@@ -2,7 +2,7 @@
 type: sop
 area: personal-brand
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: claude-export
 tags: [sop, scripts, storytelling]
 ---
@@ -85,6 +85,10 @@ Two or three short questions to find direction before going deep:
 5. Give honest, specific feedback. Name real weaknesses; don't just validate.
 6. Match hook options to his literal speaking cadence, especially after a correction like "that's not how I talk".
 7. Keep the six-stage formula — or his own labels (Event hook / Context / Struggle / Discovery-Pivot / Value-Lesson) — as the working structure, dropping Mantra for standalone pieces.
+
+8. **Draft first, then iterate.** Some intake questions are fine, but when he wants to see output, move with him and write the draft. Don't insist on finishing the intake first.
+9. **Carousels keep his exact phrasing**, condensed to fit the slides. Don't paraphrase or lift the language.
+10. **Pitch hooks unprompted**, and ask clarifying questions when he brings an idea with no script.
 
 ## Done when
 

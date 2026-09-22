@@ -2,7 +2,7 @@
 type: knowledge
 area: personal-brand
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: claude-export
 tags: [brand, audience, positioning]
 ---
@@ -122,6 +122,16 @@ Guru energy. Anyone acting like they know it all or seem perfect. Any content th
 - Series names for pillars 3, 4 and 5 (Storytelling / The Journey / Build With Me).
 - A CTA line built around "visibility".
 
+## Positioning notes and boundaries
+
+From the memory export (`scripting-and-collaboration.md` and `story-bank.md`, Content Creation project, 2026). His statements, kept as rules until he changes them.
+
+- **Proof-based credibility is underused.** Real career moves and documented community results should surface earlier in a script.
+- **Make videos broad and borrowable** where possible. Don't lean on his own story as the proof unless the story is the point.
+- **Brand after proof.** In Guiding While Riding, opening with the hook and then the series branding was the main retention leak. A series introduction belongs after the viewer has had value, not before.
+- **Build With Me stays story-framed**, never promotional, so it doesn't burn the audience's trust early.
+- **Boundaries.** He is open about almost everything. Family details stay out. Money can appear as motivation and possibility, never as flaunting.
+
 ---
 
 ## The six non-negotiables
@@ -138,6 +148,8 @@ From the operating-instructions doc he wrote for his script reviewer, 2026-07-24
 ## Visual direction in the script
 
 Camera and visual direction is written inline in braces — `{close-up on face}` — so the script doubles as a shot list. Keep or add it when writing or refining.
+
+**B-roll never illustrates the narration literally.** It is him going about ordinary work-from-home life, shot from varied angles and framings, and matched to the emotional beat, not the event being described. (Memory export, `scripting-and-collaboration.md`.)
 
 ## Promotion
 
