@@ -19,5 +19,11 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - **Record his exact words** for anything that becomes a decision. Paraphrase only the surrounding context.
 - **A consequence gets stated once, then recorded.** Examples: mentorship with no price now carries the January income line, and the book has no time slot. Don't argue it.
 - Commit after each domain, not at the end. That way a usage-limit cutoff mid-session loses nothing.
+## 2026-09-22 — Testing an app, and writing documents for Samuel's devs
+
+- **An Android build can be walked end to end on this PC** with BlueStacks + its bundled `HD-Adb.exe`. It's scriptable (screenshot, UI dump, tap, type), so no computer-use is needed. Samuel has to switch ADB on himself, and he signs in himself. Steps: [[03-Areas/scripnals/sops/test-an-apk|Test an APK]].
+- **Read the JS bundle's strings before clicking.** They showed the endpoints, both onboarding question sets and the speech library in seconds, and cost far less than screenshots.
+- **The style Samuel wants in dev documents:** few, easy words, no worked examples, simple left-to-right diagrams with strong contrast, mock-ups of screens. He rejected a dense three-column swimlane (*"this looks complex"*) and preferred the simple boxes-and-arrows version.
+- **Name the "Proposed" items separately and ask for one yes or no.** He approved all 8 at once. It kept the spec moving without re-litigating.
 
 Back to [[07-Agents/orchestrator/profile|Profile]]

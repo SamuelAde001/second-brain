@@ -86,4 +86,5 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 71 | HighSignals "new system" from 2027: what is it, does it replace the ascension model, and where do the new video-editing community, the rebuilt DaVinci course, paid mentorship and Scripnals sit in it? | highsignals | 2026-09-22 | HighSignals goals | — |
 | 72 | The book: does "finished by this time next year" mean the manuscript is complete, or the book is published? And where do the writing hours come from? | book | 2026-09-22 | Book plan | — |
 | 73 | Samuel's principles, his own "I always… / I never…" rules. Asked 2026-09-22 and skipped. Only one value is named so far (refuses to be mediocre). | me | 2026-09-22 | Not blocking | — |
+| 74 | Scripnals dates: when do beta testing, launch and iOS happen? None are set ([[03-Areas/scripnals/roadmap\|Roadmap]]). The devs also owe answers to the spec's 5 questions and the 4 must-fix items (app ID, versions, voice hang, Render plan). | scripnals | 2026-09-22 | Beta planning | — |
 

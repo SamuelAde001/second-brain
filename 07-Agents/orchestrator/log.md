@@ -15,5 +15,6 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 
 - 2026-09-22 — Profile, memory and log created (Phase 4). Runs as the main session: `runs-as: main-session`, so no subagent adapter is generated.
 - 2026-09-22 — Before the profile existed, ran the last Phase 3 interviews as the main session: scripnals, academy, community + highsignals, book, and the `02-Me` gaps. Read three Scripnals architecture PDFs outside the Brain, a one-off read Samuel approved in chat. A credential-named file in the same folder was flagged, not opened.
+- 2026-09-22 — Scripnals session run as the orchestrator (the Scripnals area is its own domain). Installed and walked the APK on BlueStacks over ADB. Read the PRD and master doc with Samuel's go-ahead. Wrote current-build, ai-workflow (spec v1), dev-bug-list, guide-library-brief, roadmap and sops/test-an-apk. Added `00-System/scripts/build_scripnals_spec.py`. Commits d44bcd8..HEAD.
 
 Back to [[07-Agents/orchestrator/profile|Profile]]

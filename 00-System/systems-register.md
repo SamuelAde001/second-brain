@@ -28,6 +28,7 @@ Roster and planned agents: [[07-Agents/roster|roster]].
 |------|------|-------------|----------|---------|-----------|--------|
 | Script creation, raw idea → script | SOP | content (Phase 4) | [[script-process]] | Samuel brings a raw story idea | unknown | active |
 | Script review | checklist | content (Phase 4) | [[script-review-checklist]] | He sends a script for review | unknown | active |
+| Test a Scripnals APK | SOP | orchestrator | [[03-Areas/scripnals/sops/test-an-apk\|test-an-apk]] | The devs send a new APK | 2026-09-22 | active |
 | Routerise cut workflow | SOP | video editing (Phase 4) | [[routerise-cut-workflow]] | A Routerise edit starts | unknown | active |
 
 ## Skills — in the Brain
@@ -48,6 +49,7 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | Script | Job | Run |
 |--------|-----|-----|
 | `00-System/scripts/build_adapters.py` | Generates every AI tool's adapter files (Claude Code, Gemini CLI) from the canonical profiles and skills; `--check` detects drift; `--package` zips a skill for claude.ai | after any profile or skill edit |
+| `00-System/scripts/build_scripnals_spec.py` | Builds the Scripnals AI spec PDF for the devs from `03-Areas/scripnals/ai-workflow.md`. `--figures` first re-draws the flow chart and screen mock-ups from `03-Areas/scripnals/assets/*.html`. Needs Chrome | after any change to the AI spec |
 | `00-System/scripts/split_conversations.py` | Split the Claude chat export into one file per conversation (Phase 2 migration) | one-off, done |
 
 ## Job skills — not built yet
