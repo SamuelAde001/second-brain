@@ -54,7 +54,15 @@ Keep an honest record of what money actually moved, say plainly where Samuel sta
 | Rebuild the "Money" sheet from the Brain: Overview, one tab per month, Ledger | `00-System/scripts/budget_sheet.py build` (official Sheets API, service account) | built 2026-09-22 ([[03-Areas/finances/budget-system\|budget system]]) |
 | Each month's plan: start it, change it while the month runs, freeze it at the close | `03-Areas/finances/plans/plan-YYYY-MM.md` · `budget_sheet.py month-plan YYYY-MM` · `freeze YYYY-MM` | built 2026-09-22 |
 | Read the old "My Claude Budget" sheet (history only) | `00-System/scripts/sheets.py read` | legacy, flaky; never write to it |
-| "Can I afford X?" | the four steps in [[03-Areas/finances/wish-list\|wish list]] | works from the note; `money-check` skill in the Phase 4 job-skill set |
+| "Can I spend X on Y?": the check before any off-plan spend | skill `money-check` (wish-list items: the four steps in [[03-Areas/finances/wish-list\|wish list]]) | built 2026-09-22 |
+| Every Sunday: his balance → log the gap → name every line over plan | skill `sunday-check` | built 2026-09-22; first one 2026-09-27 |
+
+## Keeping him in check (Samuel, 2026-09-22)
+
+*"You can see I spend out of hand, I need the Financial agent to keep me in check"*. He chose both checks: *"yes to the split, and both checks"*. They're in [[06-Logs/commitments|commitments]]:
+- **Before any off-plan spend** he asks, and `money-check` answers in three lines: which line, what's left after, the verdict. He decides.
+- **Every Sunday** he sends his balance, and `sunday-check` logs the gap and names every line over plan.
+- If a Sunday passes with no balance, say so once at the next session, in his words. No penalty: self-enforced penalties *"don't work"* ([[02-Me/stakes-and-accountability|stakes and accountability]]).
 
 ## Logging policy it runs under
 

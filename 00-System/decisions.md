@@ -230,3 +230,15 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 - Checkpoint rows and correction notes stay in the Brain but don't show on the sheet.
 
 **Who decided:** Samuel for seeing September and budgeting it. The build for the mechanism.
+
+## 2026-09-22 — Two checks to keep Samuel's spending in check
+
+**Samuel:** *"You can see I spend out of hand, I need the Financial agent to keep me in check"* Then: *"yes to the split, and both checks"*.
+
+**What:** skill `money-check` (before any off-plan spend: which line pays, what's left after, a verdict in three lines, and he decides) and skill `sunday-check` (every Sunday: his balance, the gap logged, every line over plan named). Both are in `06-Logs/commitments.md`, the first entries there. `budget_sheet.py left` gives the numbers for both without reading the ledger. `money-check` is the Phase 4 job skill of that name, built early for finance.
+
+**Also agreed:** the rest of September. Church / transport NGN 10,000 · eating out NGN 10,000 · extra cash NGN 15,000. What's left on 30 Sep (NGN 26,567) goes back into the Buffer, and the NGN 10,000 loan follows when repaid.
+
+**No penalty.** Self-enforced penalties *"don't work"* ([[02-Me/stakes-and-accountability|stakes and accountability]]). A missed check is named once, in his words.
+
+**Who decided:** Samuel for the checks and the split. The build for the skills.

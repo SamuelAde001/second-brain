@@ -113,9 +113,9 @@ A skill is a plain-markdown file in the open Agent Skills shape: frontmatter `na
 
 In the Brain now: `edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner` — Samuel's own claude.ai skills, copied in 2026-09-22. The Brain copy is canonical.
 
-Finance skills, built 2026-09-22: `payday`, `budget`, `month-close`.
+Finance skills, built 2026-09-22: `payday`, `budget`, `month-close`, `money-check`, `sunday-check`.
 
-Job skills — `brainstorm`, `plan`, `money-check`, `systemize`, `commit`, plus the editing job skills — are built in Phase 4. Every skill is listed in `00-System/systems-register.md`.
+Job skills — `brainstorm`, `plan`, `systemize`, `commit`, plus the editing job skills — are built in Phase 4. (`money-check` is built, as a finance skill.) Every skill is listed in `00-System/systems-register.md`.
 
 ## 9. Logging
 

@@ -51,7 +51,9 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 |-------|--------------|---------|-----------|--------|
 | [[payday]] | Money landed: log it, mirror it to the sheet, then get the week-of-pay transfers and pots moved the same day (Rule 3) | He says he got paid | never | active |
 | [[budget]] | Set or change a month's plan, one named line per item on Details, and say whether the arithmetic works | He wants to budget or change a line | never | active |
-| [[month-close]] | What came in, went out, survived; Goal 1 pace; reconcile ledger vs sheet | Last day of the month, or he asks | never | active |
+| [[month-close]] | What came in, went out, survived; Goal 1 pace; freeze the month's plan | Last day of the month, or he asks | never | active |
+| [[money-check]] | Before an off-plan spend: which line pays, what's left after, the verdict in three lines | He asks "can I spend X?" (commitment, 2026-09-22) | never | active |
+| [[sunday-check]] | Weekly: his balance → log the gap → name every line over plan, and what's left to payday | Every Sunday (commitment, 2026-09-22) | never | active |
 
 ## Scripts
 
@@ -60,14 +62,14 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | `00-System/scripts/build_adapters.py` | Generates every AI tool's adapter files (Claude Code, Gemini CLI) from the canonical profiles and skills; `--check` detects drift; `--package` zips a skill for claude.ai | after any profile or skill edit |
 | `00-System/scripts/build_scripnals_guides.py` | Validates the Scripnals guide library (`03-Areas/scripnals/guides/`), exports `_export/guides.json` + `vocab.json` for the devs, and shows what one request loads (`--select`, `--prompt`). `--check` fails if the export is stale | after any change to a guide entry |
 | `00-System/scripts/build_scripnals_spec.py` | Builds the Scripnals AI spec PDF for the devs from `03-Areas/scripnals/ai-workflow.md`. `--figures` first re-draws the flow chart and screen mock-ups from `03-Areas/scripnals/assets/*.html`. Needs Chrome | after any change to the AI spec |
-| `00-System/scripts/budget_sheet.py` | Rebuilds the "Money" Google Sheet (Overview, one tab per month, Ledger) from the money ledger, each month's plan and the goals, over Google's official Sheets API as a service account. `preview` prints it without touching the sheet, `doctor` checks the connection, `month-plan YYYY-MM` starts a month's plan from the standing plan, `freeze YYYY-MM` locks it at the close | after any ledger or plan change; `freeze` at every month close |
+| `00-System/scripts/budget_sheet.py` | Rebuilds the "Money" Google Sheet (Overview, one tab per month, Ledger) from the money ledger, each month's plan and the goals, over Google's official Sheets API as a service account. `preview` prints it without touching the sheet, `doctor` checks the connection, `left` prints what's left per line this month (for `money-check`), `month-plan YYYY-MM` starts a month's plan from the standing plan, `freeze YYYY-MM` locks it at the close | after any ledger or plan change; `freeze` at every month close |
 | `00-System/scripts/sheets.py` | **Legacy since 2026-09-22; read the old sheet only.** Client for the Apps Script bridge to the "My Claude Budget" sheet: `ping`, `read`, `ops`, `doctor`, `flush`/`pending` for queued batches. Credentials from Windows user variables only ([[03-Areas/finances/budget-system\|budget system]]) | any sheet read or write |
 | `00-System/scripts/money_ledger.py` | Read-only totals from the money ledger (`totals`, `pots`, `last`) and the delivered-projects record (`videos`) | instead of reading either file |
 | `00-System/scripts/split_conversations.py` | Split the Claude chat export into one file per conversation (Phase 2 migration) | one-off, done |
 
 ## Job skills — not built yet
 
-`brainstorm`, `plan`, `money-check`, `systemize`, `commit`. Built in Phase 4. (The finance rituals are built. See above.)
+`brainstorm`, `plan`, `systemize`, `commit`. Built in Phase 4. (`money-check` and the finance rituals are built. See above.)
 
 **The video-editor's job skills**, one per pipeline step ([[07-Agents/video-editor/profile|profile]]):
 

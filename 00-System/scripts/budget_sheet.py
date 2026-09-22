@@ -21,6 +21,7 @@ tables, colour-coded numbers. Headers, rows and numbers only; no sentences.
     python 00-System/scripts/budget_sheet.py preview            # print the tables; touches nothing
     python 00-System/scripts/budget_sheet.py doctor             # key file, robot email, can it open the sheet
     python 00-System/scripts/budget_sheet.py build              # rewrite the sheet from the Brain
+    python 00-System/scripts/budget_sheet.py left               # what's left per line this month (spend checks)
     python 00-System/scripts/budget_sheet.py month-plan 2026-10 # start a month's plan from the standing plan
     python 00-System/scripts/budget_sheet.py freeze 2026-09     # at the close: the month's plan never changes again
 
@@ -667,6 +668,24 @@ def build():
     print("built: %s" % ", ".join(order))
 
 
+def left(today=None):
+    """What's left in the running month, line by line, plus the bank. For a spend check."""
+    pm = plan_month(today)
+    as_of, bank, bal = balances()
+    print("%s — as of %s. Bank NGN {:,.0f} (derived from the ledger)".format(bank) % (month_label(pm), as_of))
+    open_lines = []
+    for line, payday, planned, actual, rest in plan_vs_actual(pm)[:-1]:
+        if line == "Other" or planned in ("", 0) and payday != "unplanned":
+            continue
+        if payday == "unplanned":
+            print("  UNPLANNED  %-26s spent NGN {:,.0f}".format(actual) % line)
+        elif isinstance(rest, (int, float)) and rest != 0:
+            open_lines.append(rest)
+            flag = "  OVER     " if rest < 0 else "           "
+            print("%s%-26s left NGN {:,.0f} of {:,.0f}".format(rest, planned) % (flag, line))
+    print("  Buffer NGN {:,.0f}. When it's empty, an urgency is negotiated, not funded (Rule 8).".format(bal.get("Buffer", 0)))
+
+
 def main(argv):
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -675,6 +694,8 @@ def main(argv):
     cmd = argv[0] if argv else ""
     if cmd == "preview":
         preview()
+    elif cmd == "left":
+        left()
     elif cmd == "doctor":
         doctor()
     elif cmd == "build":
