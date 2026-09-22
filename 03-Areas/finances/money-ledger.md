@@ -36,6 +36,8 @@ History up to 2026-09-16 stays in the old ledger: [[08-Archive/accountability-en
 
 Pot names, exactly: `Goal 1`, `Buffer`, `Cowrywise investment`, `Emergency fund`, `Goal 2`.
 
+**Category** for a spend row is a line from the table in [[obligations]], exactly as written there (`Building project`, `Feeding`, `Data / airtime`…), or `Other` if none fits. That is how the sheet matches spending to the plan.
+
 Totals by script, never by reading the whole file: `python 00-System/scripts/money_ledger.py totals 2026-10` · `pots` · `last 10`.
 
 ## Ledger

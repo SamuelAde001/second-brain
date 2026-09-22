@@ -190,3 +190,20 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Objection, stated once:** under the major-spend definition, a big unplanned spend paid from the leftover (a Kaduna-sized trip) goes in the bulk row with no line of its own. Only pot withdrawals are guaranteed their own row. Recorded; executed as he defined it.
 
 **Who decided:** Samuel for the limits, the definition, the delivered-videos owner and the credentials route. The build for the mechanism.
+
+## 2026-09-22 — A new "Money" sheet, built from the Brain; the old sheet is frozen
+
+**Samuel:** *"I think I need to build a better sheets, this one looks confusing, and for the fact that there is connection issues, what can we do?"* Then: *"I wish to see most things on fewer tabs"* · *"I don't want random text on the sheets, let's see Simple headers, culums, rows and the numbers"* · *"I look at the sheet, If I want to imput anything, I would do it through the Agent here"* · *"Yes, let's get an official setup"*.
+
+**What changed:**
+- The sheet is now a **view**. `00-System/scripts/budget_sheet.py` rebuilds a new Google Sheet, "Money", from the ledger, the plan table in `obligations.md` and the goals. Two tabs, Overview and Ledger. Headers and numbers only; negatives in red.
+- **The plan lives in the Brain.** The table in `obligations.md` is the only place a plan number lives. The old sheet's Details tab no longer counts. The `budget` skill changes that table, with his yes, and keeps a trace of the old figure.
+- **The connection is Google's official Sheets API** with a service account. Its key sits outside the Brain at `%USERPROFILE%\.brain-secretsudget-sheet-key.json`. It's read by the script only, listed in AGENTS.md §10, and denied to Claude Code's Read tool.
+- "My Claude Budget" is frozen as history. `sheets.py` stays for reading it only.
+- The plan-vs-actual table starts at 2026-10. September is split across two ledgers and is handled in the September close.
+
+**Why:** the Apps Script web app failed about half its calls. Seven tabs and sentences in cells were confusing. A sheet he never types into doesn't need a mirror that can drift: a rebuild can't disagree with the ledger.
+
+**Alternatives rejected:** keeping the web app with retries (hides the failures, doesn't fix them). Signing in as Samuel through OAuth (unverified apps get tokens that expire after 7 days). Reusing the HighSignals project key on the Desktop (another project's credential, already flagged).
+
+**Who decided:** Samuel for the shape and the official API. The build for the mechanism.

@@ -1,6 +1,6 @@
 ---
 name: payday
-description: "Money landed. Log it in Samuel's money ledger, mirror it to the 'My Claude Budget' sheet, then get the week-of-pay transfers and the savings moved the same day, before it gets spent (money Rule 3). Use whenever Samuel says he got paid, money landed or came in, Cleva converted, the 70% or the 30% arrived, Route Rise paid, or it's Payday A or Payday B, even if he only mentions an amount. Not for planning a month that hasn't been paid yet (use budget) or for the month-end close (use month-close)."
+description: "Money landed. Log it in Samuel's money ledger, rebuild his 'Money' sheet, then get the week-of-pay transfers and the savings moved the same day, before it gets spent (money Rule 3). Use whenever Samuel says he got paid, money landed or came in, Cleva converted, the 70% or the 30% arrived, Route Rise paid, or it's Payday A or Payday B, even if he only mentions an amount. Not for planning a month that hasn't been paid yet (use budget) or for the month-end close (use month-close)."
 type: skill
 area: finances
 status: active
@@ -48,7 +48,7 @@ Append the `in` row to `03-Areas/finances/money-ledger.md`. The Note carries USD
 
 ## 4. Now the part that matters: move it
 
-With the numbers in front of him, list this payday's lines, with amounts, from `obligations.md`: the table's Payday column and the split section under it. The pots move by Rule 3: Cowrywise on Payday A; Goal 1 and the Buffer on Payday B. If the sheet's Details tab disagrees with the note, show both and ask which is current. Don't pick one silently.
+With the numbers in front of him, list this payday's lines, with amounts, from `obligations.md`: the table's Payday column and the split section under it. The pots move by Rule 3: Cowrywise on Payday A; Goal 1 and the Buffer on Payday B.
 
 - **Rule 4:** the building project, NGN 500,000, is paid in full before any discretionary line.
 - **Rule 7:** Cowrywise NGN 100,000 never pauses and never counts toward a goal.
@@ -56,27 +56,20 @@ With the numbers in front of him, list this payday's lines, with amounts, from `
 - From January 2027: Goal 2 (marriage) and the NGN 300,000 emergency fund join the list.
 
 Ask what is **actually going out today**, in naira. Then write:
-- each payment sent → a `major` row, category from the sheet's Setup tab
+- each payment sent → a `major` row, category = the plan line in `obligations.md`, exactly
 - each pot funded → a `to-pot` row, pot name exact
 - bank charges he can't attribute → one `charges` row
 - **only for money that actually moved.** A row for Friday's transfer is Rule 6 broken. If he says "I'll move it later", say it once: **later is how NGN 595,250 disappeared.** Ask what changes later. Don't write the row.
 
 The first main shopping of the pay cycle is **major**. When it happens, it gets its own row.
 
-## 5. Mirror to the sheet
+## 5. Rebuild the sheet
 
 ```
-python 00-System/scripts/sheets.py flush
-python 00-System/scripts/sheets.py read Income A1:J2
+python 00-System/scripts/budget_sheet.py build
 ```
 
-Read each tab's header row before writing, then append one row per ledger row: `in` → Income, `major`/`charges` → Expenses, `to-pot` → Transfers. Put them in one `ops` file in the session scratchpad and send it:
-
-```
-python 00-System/scripts/sheets.py ops <file> --queue "payday <date> <stage>"
-```
-
-Append only. Never overwrite a row. If it queued, say so plainly. **Don't report the sheet as written when it wasn't.**
+The "Money" sheet is rebuilt from the ledger, so it can't disagree with it. If the build fails, say so. The ledger is already written, so nothing is lost. Run the build again next session.
 
 ## 6. What it did to the runway: two lines, no more
 

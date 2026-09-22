@@ -37,4 +37,10 @@ From the archived [[08-Archive/accountability-engine/context/money-ledger|engine
 - The sheet's bank figure (−NGN 193,309) and its Cowrywise figure (NGN 405,000) were wrong for one reason: a withdrawal missing from Transfers. Check the pots and bank arithmetic against the ledger before assuming there are several errors.
 - **The web app is flaky.** On 2026-09-22 about half of all calls got an HTTP 404 page from Google, and calls took 5 to 20 seconds each. `sheets.py` now retries three times, but only batches that are safe to repeat (reads, writes, anchored appends). Inserts and deletes never retry. Give sheet commands a long timeout.
 
+## 2026-09-22 — The sheet is a view now
+
+- Samuel: *"I look at the sheet, If I want to imput anything, I would do it through the Agent here."* So the "Money" sheet is rebuilt whole from the ledger, the plan table in `obligations.md` and the goals. Nothing is typed into it and nothing mirrors into it. After any ledger or plan change: `python 00-System/scripts/budget_sheet.py build`.
+- He wants headers, columns, rows and numbers. No sentences in cells, no notes. The explanations stay in the Brain.
+- A ledger `Category` must match a plan line exactly, or the spend lands in `Other` on the sheet.
+
 Back to [[07-Agents/finance/profile|Profile]]

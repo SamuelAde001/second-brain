@@ -14,7 +14,9 @@
       "Read(./**/.env)",
       "Read(./**/*.key)",
       "Read(./**/credentials*.json)",
-      "Read(./**/token*.json)"
+      "Read(./**/token*.json)",
+      "Read(//c/Users/repzy/.brain-secrets/**)",
+      "Read(~/.brain-secrets/**)"
     ]
   }
 }

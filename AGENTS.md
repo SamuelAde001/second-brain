@@ -127,7 +127,7 @@ Job skills — `brainstorm`, `plan`, `money-check`, `systemize`, `commit`, plus 
 
 ## 10. Outside-Brain access
 
-Agents may only reach folders outside this Brain when the folder is listed in the agent's `profile.md` and granted in the running AI tool's permission config (Claude Code: `.claude/settings.json`). Current list: none granted.
+Agents may only reach folders outside this Brain when the folder is listed in the agent's `profile.md` and granted in the running AI tool's permission config (Claude Code: `.claude/settings.json`). Current list: **one file, read by a script only**: `%USERPROFILE%\.brain-secrets\budget-sheet-key.json`, the finance agent's Google key, read by `00-System/scripts/budget_sheet.py`. No agent opens it; `.claude/settings.json` denies reading it.
 
 ## 11. Any AI, same Brain
 
