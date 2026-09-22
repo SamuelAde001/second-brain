@@ -28,7 +28,7 @@ Positioned as the daily execution tool — the last stage of the ascension model
 
 Samuel, 2026-09-22: the developers are **still building it for free**; *"the app is starting to actually take good shape"* and **may be tested by people this year.** Outside his Big 3 ([[02-Me/goals/goal-ladder|Goal ladder]]).
 
-**A dedicated Scripnals session is planned for later on 2026-09-22.** Samuel will go through exactly where the build stands and what comes next. Build status, what works today and the roadmap are all left for that session.
+**The build was walked screen by screen on 2026-09-22 → [[03-Areas/scripnals/current-build|Current build]].** In short: onboarding fork, rich-text editor, voice recorder, 6 content types, an AI auditor (score + 3 tips) and an AI rewrite, and a content pipeline. **No Script Formatter**, no streaks, no notifications. The AI output is generic and caption-shaped, not a video script.
 
 ### Team
 
@@ -43,7 +43,7 @@ Samuel, 2026-09-22: the developers are **still building it for free**; *"the app
 ### Build, as far as the Brain knows
 
 - **Spec:** the February 2026 MVP architecture — React Native (Expo) mobile, Node.js + Express, PostgreSQL, GPT-4o-mini via LangChain. Samuel says it needs updating. It describes an auditor and streak tracker, **not** the voice-to-script loop → [[03-Areas/scripnals/technical-architecture|Technical architecture]].
-- **APKs:** two on disk, `HighSignals (1).apk` (2026-08-10) and `HighSignals.apk` (2026-08-26). Samuel can't say whether either is current. So Android is built. iOS is unknown.
+- **APKs:** the latest is `LATEST/HighSignals.apk` (2026-09-22), tested in [[03-Areas/scripnals/current-build|Current build]]. Every build carries the same version stamp. The build is Expo SDK 54, and **iOS is already configured** in the app config (mic and speech permissions, tablet support). Nothing shows an iOS build has been made yet.
 
 ### As of 2026-09-20
 
@@ -77,11 +77,11 @@ Marked TBD in the source doc:
 - Monetisation model: subscription, freemium, one-time, or bundled with ecosystem membership? **Samuel, 2026-09-22: not decided yet.**
 - Platform: iOS, Android, or both? Partly answered: the spec is React Native (Expo), which can target both, and Android APKs exist.
 - Pricing relative to Academy / Community / Mentorship. **Not decided** (2026-09-22). The NGN 15,000–25,000 tiers in the survey were a draft, not a decision.
-- Actual build status, and whether anyone outside the team has used it. Saved for the Scripnals session.
+- Actual build status: **answered 2026-09-22** → [[03-Areas/scripnals/current-build|Current build]]. Whether anyone outside the team has used it is still unknown.
 
 ## Source material on disk (not imported)
 
-`Desktop/HighSignals/HighSignals App/`, listed 2026-09-22 by filename only. Only the three architecture PDFs have been read.
+`Desktop/HighSignals/HighSignals App/`, listed 2026-09-22 by filename. Read so far: the three architecture PDFs, the PRD (`HighSignals_PRD.md.docx`, the same text as `HighSignals app document for dev.pdf` plus a note on payments and AI cost) and the Product Master Document. Both were read 2026-09-22 with Samuel's go-ahead, and their gaps against the build are in [[03-Areas/scripnals/current-build|Current build]].
 
 - `HighSignals_PRD.md.docx` and `HighSignals app document for dev.pdf` (2026-02-02)
 - `Scripnals Product Master Document.pdf` (2026-07-25). Probably the "master doc" that the survey cites for the persona split and the NGN pricing tiers ([[03-Areas/scripnals/validation|Validation]])
@@ -91,7 +91,7 @@ Marked TBD in the source doc:
 
 ## Map of content
 
-- [[03-Areas/scripnals/technical-architecture|Technical architecture]] · [[03-Areas/scripnals/validation|Validation]]
+- [[03-Areas/scripnals/current-build|Current build]] · [[03-Areas/scripnals/technical-architecture|Technical architecture]] · [[03-Areas/scripnals/validation|Validation]]
 - [[03-Areas/scripnals/scripnals-ideas|Ideas]] · [[03-Areas/scripnals/scripnals-decisions|Decisions]] · [[03-Areas/scripnals/scripnals-log|Log]] · [[03-Areas/scripnals/scripnals-goals|Goals]]
 
 ## Related areas

@@ -17,7 +17,7 @@ What the devs were given to build. Read 2026-09-22, with Samuel's go-ahead, from
 
 The docs were written while the app was still called **HighSignals**. The Scripnals name came in July 2026.
 
-**Samuel, 2026-09-22:** *"the MVP architecture might need some changes, I haven't updated it since a while."* So this is the plan as written in February. It is **not** a description of what the current build does. Whether the APK follows it is unknown.
+**Samuel, 2026-09-22:** *"the MVP architecture might need some changes, I haven't updated it since a while."* So this is the plan as written in February. It is **not** a description of what the current build does. **2026-09-22:** the build was walked and diverges from this spec: no streaks, and it adds voice, content types and an onboarding fork → [[03-Areas/scripnals/current-build|Current build]].
 
 ## Stack, as specified
 
