@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: legacy-accountability-engine
 tags: [budget, obligations]
 ---
@@ -56,6 +56,8 @@ YouTube and Spotify are kept — his words: they help his work, and they are his
 **The gym is not a line to raid.** It is the one item on the list that pays him back.
 
 **Creator visits** were added at NGN 25,000/month, his number. A real line now, not a good intention — and it costs the December target NGN 100,000 across four months. That trade is stated, not hidden.
+
+**2026-09-22:** Samuel dropped the creator-network goal behind this line — *"Realised may not be possible"* ([[03-Areas/relationships/relationships|Relationships]]). The line itself is his call at the next budget.
 
 A warning from the same rework: the estimate was NGN 1,044,500, the truth NGN 1,038,560. **Nothing got cheaper.** Feeding's NGN 150,000 did not become savings — it moved house, into transport, data, household, gym and a misc line that did not exist before. Worth remembering the next time a category looks like it has slack in it.
 

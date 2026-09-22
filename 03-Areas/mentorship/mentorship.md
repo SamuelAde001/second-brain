@@ -23,6 +23,8 @@ It is the only branch that scales down instead of up: one person at a time, high
 
 **Planned, not started, not finalized** (Samuel, 2026-09-22). Mentorship and coaching programs are **third in his Big 3**, after editing and content. His words: *"I need demand."* **First step: a webinar for video editors**, then one-on-one coaching. 12-month target: *"a coach for video editors"* with *"my own agency for video editors"* ([[02-Me/goals/goal-ladder|Goal ladder]]).
 
+**Mentees now: 3** — unpaid, ad hoc, mostly on WhatsApp, with an occasional hour-long call scheduled as it comes; about 1h a week, unpredictable. From the engine's `people.md` (2026-08-26), confirmed by Samuel 2026-09-22.
+
 ### As of 2026-09-20
 
 Nothing is known beyond the name and its position in the model. No offer, no format, no mentees, no curriculum, no pricing, no outcomes. Everything here is Phase 3 interview material.
@@ -41,7 +43,7 @@ See [[03-Areas/mentorship/mentorship-goals|Goals]]. Not set yet.
 - Price, and how it compares to Academy and community.
 - How many hours a week it costs him.
 - Who it is for, and how someone qualifies or applies.
-- Current and past mentees (first name and progress only — no personal data).
+- ~~Current and past mentees~~ — 3 current, unpaid, ad hoc (2026-09-22). First names and progress still not recorded.
 - Curriculum, pricing, outcomes so far.
 
 ## Related areas

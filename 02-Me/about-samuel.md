@@ -72,3 +72,4 @@ Values · principles · sleep · energy peaks · planning cadence · what a good
 - [[03-Areas/personal-brand/personal-brand|Personal brand]] — the brand built on this story
 - [[03-Areas/video-editing/video-editing|Video editing]] — the work that pays
 - [[03-Areas/highsignals/highsignals|HighSignals]] — what he is building
+- [[03-Areas/relationships/relationships|Relationships]] — his girlfriend and son
