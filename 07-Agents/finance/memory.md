@@ -35,5 +35,6 @@ From the archived [[08-Archive/accountability-engine/context/money-ledger|engine
 
 - `[Environment]::SetEnvironmentVariable(..., 'User')` froze PowerShell for minutes. It announces the change to every open window. The values were still written. Use `Set-ItemProperty HKCU:\Environment` instead: `sheets.py` reads the registry, so no announcement is needed.
 - The sheet's bank figure (−NGN 193,309) and its Cowrywise figure (NGN 405,000) were wrong for one reason: a withdrawal missing from Transfers. Check the pots and bank arithmetic against the ledger before assuming there are several errors.
+- **The web app is flaky.** On 2026-09-22 about half of all calls got an HTTP 404 page from Google, and calls took 5 to 20 seconds each. `sheets.py` now retries three times, but only batches that are safe to repeat (reads, writes, anchored appends). Inserts and deletes never retry. Give sheet commands a long timeout.
 
 Back to [[07-Agents/finance/profile|Profile]]

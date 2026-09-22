@@ -189,9 +189,52 @@ def send(ops):
     return results
 
 
+# Ops that give the same result when sent twice. `append` counts only once
+# send() has anchored it to a fixed row (`after`), because then it is a plain
+# setValues on known cells.
+SAFE_TO_RETRY = {
+    "ping", "read", "readRaw", "readFormulas", "find", "write", "setFormulas",
+    "clear", "ensureSheet", "setColumnWidth", "setRowHeight", "freeze",
+    "format", "note", "validation", "clearValidation",
+}
+RETRY_WAITS = (3, 6, 12)
+
+
+def _retryable(ops):
+    for o in ops:
+        a = o.get("action")
+        if a == "append" and "after" in (o.get("args") or {}):
+            continue
+        if a not in SAFE_TO_RETRY:
+            return False
+    return True
+
+
 def _send_raw(ops):
-    """The bare POST. Never call this directly — go through send()."""
+    """The POST, retried when it is safe to.
+
+    Found 2026-09-22: the web app answers about half of all calls with an HTTP
+    404 page from Google, then works on the next try with nothing changed. So
+    an HTTP or network failure is retried up to three times, but only when every
+    op in the batch gives the same result if it runs twice. A batch with an
+    insert, a delete or an unanchored append fails at once instead, because a
+    retry could apply it twice.
+    """
+    import time
     ops = list(ops)
+    waits = RETRY_WAITS if _retryable(ops) else ()
+    for wait in waits:
+        try:
+            return _send_once(ops)
+        except BridgeError as e:
+            if e.kind not in ("http", "network"):
+                raise
+            time.sleep(wait)
+    return _send_once(ops)
+
+
+def _send_once(ops):
+    """The bare POST. Never call this directly — go through send()."""
     cfg = load_env()
     url = cfg.get("SHEETS_WEBAPP_URL")
     token = cfg.get("SHEETS_TOKEN")

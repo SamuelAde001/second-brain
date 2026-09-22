@@ -62,6 +62,7 @@ Neither is wrong. Both read fine today and are unreadable in December.
 ## ⚠️ Two things the sheet and the ledger disagree about
 
 1. **Cowrywise.** The sheet says NGN 405,000 (NGN 305,000 + September's NGN 100,000). The engine's 2026-09-16 entry says the Kaduna trip took **NGN 368,041 out of the investment, leaving NGN 36,959.** The sheet has not been updated for that withdrawal. **Rule 6 settles which one wins: the ledger is the truth, the spreadsheet is a plan.**
+   **Resolved 2026-09-22:** the Transfers row added 2026-09-22 with his yes (a From-pot withdrawal of NGN 368,041, dated 2026-09-15). The Dashboard now reads bank NGN 174,732 and Cowrywise NGN 36,959, matching the ledger.
 2. **Bank liquid reads −NGN 193,309.** A negative liquid balance is either unlogged income or logged spending that outran it. Samuel has said his recent spending is not entered, so this number cannot be trusted either way — but it is the number his own dashboard currently shows.
 
 ## September 2026 — what actually happened

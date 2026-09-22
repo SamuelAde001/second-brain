@@ -26,7 +26,7 @@ Income is variable, USD-denominated, paid in two stages, and comes entirely from
 **Two caveats, both his:**
 
 1. *"I haven't updated my recent spendings."* **The ledger is behind reality.** Every figure in this area carries its own date. None of them is a current balance.
-2. The sheet and the ledger disagree about Cowrywise by NGN 368,041 — the September Kaduna withdrawal is in the ledger and not in the sheet. Rule 6 settles it: **the ledger wins.**
+2. The sheet and the ledger disagree about Cowrywise by NGN 368,041 — the September Kaduna withdrawal is in the ledger and not in the sheet. Rule 6 settles it: **the ledger wins.** **Resolved 2026-09-22:** the Transfers row added 2026-09-22 with his yes (a From-pot withdrawal of NGN 368,041, dated 2026-09-15). The Dashboard now reads bank NGN 174,732 and Cowrywise NGN 36,959, matching the ledger.
 
 **Where things stood at the last reading (2026-09-16):** Goal 1 at NGN 146,041 of NGN 1,000,000, needing NGN 254,513/month for the remaining 3.4 months. Buffer NGN 50,000. Emergency fund NGN 0. Bank liquid showing negative.
 
@@ -67,7 +67,7 @@ See [[03-Areas/finances/finances-goals|Goals]] — NGN 1,000,000 by 31 Dec 2026,
 - TIN and a standard payment term for invoices.
 - The wedding's actual cost. He pays, alone, and no figure exists yet — so Goal 2's NGN 3M is a chosen target, not a costed one.
 - Whether any of the September unassigned NGN 57,532 survived to month end.
-- Whether the sheet gets corrected to match the ledger on Cowrywise.
+- ~~Whether the sheet gets corrected to match the ledger on Cowrywise.~~ Corrected 2026-09-22, with his yes.
 
 ## Related areas
 
