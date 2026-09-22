@@ -21,4 +21,10 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - **Focus:** pomodoro sessions of 55 minutes. 2026-09-08 to 2026-09-22 had 4 sessions, all on 2026-09-17 (about 3h45m). Focus is barely used, so report it as a number and don't read meaning into it.
 - **Google Calendar:** four calendars. His primary, a joint calendar, "HighSignals Event calendar" (described as holding all HighSignals events) and "HighSignals Events" (no description). Which HighSignals one is live is unknown.
 
+## 2026-09-22 — Habits aligned, gym rule, HighSignals calendars unused
+
+- **Habits now match his routine.** On his word (*"The ticktick habits should match, adjust them all"*): "Start work 6am" was renamed to **"Start work 7am"**, reminder 07:00, and verified by reading it back. "Gym 5pm" stays daily and "Post content" stays at 21:00. Both already fit. Habit check-ins are now real data. The earlier note about not reporting habit slips is superseded.
+- **Gym:** *"the plan is minimum of 3X a week, not just 3X a week"* · *"The 3 days depend on the load of work for that day"*. No fixed gym days. The night plan picks them by load.
+- **HighSignals calendars:** *"I currently use non of them and may delete them later to start a new one next year"*. Never write to them. HighSignals events go on his primary calendar.
+
 Back to [[07-Agents/personal-life/profile|Profile]]

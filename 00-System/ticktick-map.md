@@ -48,6 +48,6 @@ The [[07-Agents/personal-life/profile|personal-life agent]] (built 2026-09-22), 
 
 ## How he writes a day (read live 2026-09-22)
 
-All-day tasks with a priority (5 high, 3 medium) and a 9:00am reminder, for the day's work. Timed tasks, with reminders at the time and 5 minutes before, for anything at a fixed time. Habits: "Start work 6am", "Gym 5pm", "Post content", all daily, created 2026-09-13. Whether they still match his routine is an open question. User time zone `Africa/Lagos`.
+All-day tasks with a priority (5 high, 3 medium) and a 9:00am reminder, for the day's work. Timed tasks, with reminders at the time and 5 minutes before, for anything at a fixed time. Habits, all daily, made to match his routine 2026-09-22: "Start work 7am" (reminder 07:00, renamed from "Start work 6am"), "Gym 5pm" (reminder 17:00; daily on purpose, since the floor is 3 a week and the days depend on the load), "Post content" (reminder 21:00, the end of the 7:00–9:00pm content block). User time zone `Africa/Lagos`.
 
 Back to [[00-System/portability|Portability]] · [[00-System/systems-register|Systems register]]

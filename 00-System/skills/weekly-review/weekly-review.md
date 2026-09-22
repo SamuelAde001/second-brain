@@ -34,7 +34,7 @@ Samuel, 2026-09-22: yes to a weekly review, and to have it **merged into the Sun
 3. **Slipped,** by name. If it matches one of his [[02-Me/patterns|patterns]], name that pattern once, quoting his words. Most often it's P1: content dropped while client work ran.
 4. **Commitments:** for each of the three daily ones, kept x/7 and missed y/7, with the reasons he gave. If one reason repeats, name it once as the thing to fix next week. The highest escalation level the week reached. Any other commitment: kept or missed, in his words, once. No penalty beyond the make-up rule he chose ([[07-Agents/personal-life/profile|profile]] → discipline).
 
-Until he confirms the TickTick habits are current, report check-ins as numbers only, not as slips (memory, 2026-09-22).
+The habits were made to match his routine on 2026-09-22 (memory). Report each as x/7. Gym is measured against his minimum of 3 a week, and a week under 3 is named once. None of the habits is a marked commitment, so there's no escalation.
 
 ## 3. Next week, with him
 

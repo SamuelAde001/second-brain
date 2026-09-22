@@ -21,7 +21,7 @@ Samuel's day as he confirmed it on 2026-09-22, correcting the Accountability Eng
 | 1:00pm | First meal. Social media allowed while eating |
 | 2:00pm | Nap, about an hour |
 | 3:00–4:30pm | Content |
-| 5:00pm | Gym — 3 days a week |
+| 5:00pm | Gym — a minimum of 3 days a week, the days chosen by the day's work load |
 | ~6:30pm | Dinner, social media allowed while eating. **No hard stop** — he sometimes works past 6:30pm |
 | 7:00–9:00pm | Content edits; client work instead in a deadline week |
 | 9:00–10:00pm | Call with his girlfriend. Tomorrow planned by 9:30pm |
@@ -34,7 +34,7 @@ The day's tasks live in TickTick, not here.
 
 ## Habits
 
-- **Movement:** gym at 5:00pm, **3 times a week**. No morning exercise any more. Which three days: not stated. Goal and target in [[health]].
+- **Movement:** gym at 5:00pm, **a minimum of 3 times a week**. No morning exercise any more. The days depend on each day's work load, so there are no fixed gym days. Samuel, 2026-09-22: *"the Gym should read daily, cause the plan is minimum of 3X a week, not just 3X a week"* · *"The 3 days depend on the load of work for that day"*. Goal and target in [[health]].
 - **Sleep:** by about 11:00pm — *"mostly."*
 - **Phone away:** by 11:00pm — *"not always."*
 - **Prayer and Bible study:** 6:00–6:30am. A practice, not a tracked habit.

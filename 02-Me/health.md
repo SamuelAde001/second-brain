@@ -13,7 +13,8 @@ Two threads from the source transcripts. [[02-Me/about-samuel|Me]] already recor
 
 ## Current — confirmed 2026-09-22
 
-- **Fitness goal:** gym **3 times a week, never fewer than 2**, every week through 2026-12-31. All sessions at **5:00pm** ([[daily-routine]]).
+- **Fitness goal:** gym **a minimum of 3 times a week**, every week through 2026-12-31. All sessions at **5:00pm** ([[daily-routine]]). Which days depends on the day's work load.
+  - **Correction, 2026-09-22 (later the same day):** first written as "3 times a week, never fewer than 2". Samuel: *"the Gym should read daily, cause the plan is minimum of 3X a week, not just 3X a week"* · *"The 3 days depend on the load of work for that day"*. The floor is 3, not 2. The TickTick habit "Gym 5pm" stays daily.
 - **Target, his words (2026-08-26):** *"fit, muscle density, endurance, 6 packs instead of pot belly."*
 - **Health:** fit and healthy — no conditions, no medication, no injuries. Self-reported 2026-08-26, confirmed 2026-09-22.
 - **Sleep floor: 7 hours.** Against his 6:00am wake, that is bed by 11:00pm. The engine called sleep *"the one lever — nothing else survives a 4-hour night"*; late nights are upstream of [[patterns|P4]].

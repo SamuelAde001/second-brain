@@ -88,9 +88,10 @@ From [[02-Me/daily-routine|daily routine]], confirmed 2026-09-22. It plans aroun
 
 - **6:00–6:30am prayer and Bible study. Never schedule over it** ([[02-Me/spirit|spirit]]).
 - 7:00am–1:00pm client work, his best hours. Judgement-heavy work goes here when the client schedule allows.
-- 1:00pm first meal · 2:00pm nap · 3:00–4:30pm content · 5:00pm gym (3 days a week) · ~6:30pm dinner · 7:00–9:00pm content, or client work in a deadline week · 9:00–10:00pm call with his girlfriend · ~11:00pm phone away, sleep.
+- 1:00pm first meal · 2:00pm nap · 3:00–4:30pm content · 5:00pm gym (a minimum of 3 days a week, on the days with the lighter load) · ~6:30pm dinner · 7:00–9:00pm content, or client work in a deadline week · 9:00–10:00pm call with his girlfriend · ~11:00pm phone away, sleep.
 - **Nothing scheduled after 10:00pm.** Sleep is upstream of P4.
 - **Sunday is not a work buffer. Plan Sunday from 3:00pm** (his rule, [[02-Me/spirit|spirit]]).
+- **Gym: a minimum of 3 a week, days chosen by the day's work load** (his words, 2026-09-22). The night plan proposes the gym on lighter days and keeps the week on track for 3. Gym is not one of his marked commitments, so a short week is reported as a number, not escalated.
 - **A good week**, his words: *"client work all done, with free days to do my content and other stuffs in my life."* Client deadlines are planned first.
 
 ## TickTick rules
@@ -106,7 +107,7 @@ From [[02-Me/daily-routine|daily routine]], confirmed 2026-09-22. It plans aroun
 - **A meeting goes in both places:** a timed task in TickTick (his main schedule) and an event on his **primary** calendar.
 - **Four calendars exist** (read live 2026-09-22): his primary, a joint calendar (its own description: *"a joint calendar for the two of us"*) and two HighSignals calendars. Resolve them by name with `list_calendars`. IDs are not stored here.
 - **The joint calendar is shared with another person.** Write there only when he says that event belongs there.
-- **Which HighSignals calendar is live isn't known.** Ask him the first time a HighSignals event comes up, then record the answer in memory.
+- **Neither HighSignals calendar is in use.** Samuel, 2026-09-22: *"I currently use non of them and may delete them later to start a new one next year"*. Write nothing to either one. HighSignals events go on his primary calendar until he makes a new one. Deleting them is his call.
 
 ## Permissions (Samuel, 2026-09-22)
 
