@@ -30,6 +30,8 @@ Samuel's day as he confirmed it on 2026-09-22, correcting the Accountability Eng
 
 **Correction, 2026-09-22:** first written with the first meal at 12:00pm and the nap at 1:00pm. Samuel corrected it the same day: **first meal 1:00pm, nap 2:00pm.** The 7:00am–1:00pm client block, the 3:00–4:30pm content block, the 7:00–9:00pm block and the planning times are the engine's 2026-09-16 day shape, confirmed by Samuel 2026-09-22.
 
+**The content block, Samuel 2026-09-22:** *"Content gets made in the afternoon from 3pm, only overidden when I didn't work in the morning, when an emergency comes or when I am too tired."* Daily posting is the goal, reported on Sundays, not a commitment ([[07-Agents/content/profile|content agent]]).
+
 The day's tasks live in TickTick, not here.
 
 ## Habits

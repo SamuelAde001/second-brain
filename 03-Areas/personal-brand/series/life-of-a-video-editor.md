@@ -2,7 +2,7 @@
 type: knowledge
 area: personal-brand
 status: needs-input
-updated: 2026-09-20
+updated: 2026-09-22
 source: interview
 tags: [series, content, what-works]
 ---
@@ -32,6 +32,8 @@ Everything else audience-facing that was running in the same period stopped: the
 
 ## Production, as it stands
 
+- **Where ideas come from (Samuel, 2026-09-22):** *"It is ideated from ideas I get on my own or from my content bank of my stories"* ([[03-Areas/personal-brand/personal-brand-ideas|the story bank]]).
+- **Time per episode (Samuel, 2026-09-22):** about **1h scripting, 2h filming, 1h30 editing**, so about 4h30. His content time is about 3h30 a day ([[02-Me/daily-routine|daily routine]]), so an episode spans at least two days.
 - **B-roll is shot per episode.** Nothing is reused yet.
 - **He intends to reuse B-roll from it in future** — which means the shot library is an asset that compounds, and episode 3 should cost less to make than episode 2 if it is organised for reuse.
 - Recording setup, LUT workflow and audio chain: [[recording-setup]].
@@ -50,7 +52,7 @@ The Brain has deep material on his voice, his script process and his storytellin
 
 - **The structure of an episode** — does it follow Hook → Context → Conflict → Pivot → Resolution → Mantra ([[brand-context]]), or something of its own?
 - **Length**, and whether it differs from the 60s / 90s+ rule.
-- **How long one episode takes him**, start to finish.
+- ~~**How long one episode takes him**, start to finish.~~ About 4h30 (Samuel, 2026-09-22), above.
 - **How the B-roll is planned and sourced** — shot list, or shot as it comes.
 - **Whether it has a mantra or fixed lines**, like the Guiding While Riding series had.
 - **View counts** on the two episodes, so "good views" becomes a number to beat.

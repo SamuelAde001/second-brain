@@ -56,9 +56,13 @@ Cinematic storytelling · seated talking head · raw behind-the-scenes · voiceo
 
 Built around the full-time editing job — described in the source as "realistic, not aspirational".
 
+**Superseded 2026-09-22:** daily posting is the goal, reported on Sundays. See [[instagram-strategy]].
+
 ## Audience
 
 Ages **16–40**, mostly 20s–30s, both genders. Mostly Nigerians at home right now (the most relatable base), building toward a broad international audience of aspiring creators. They are aspiring creators, freelancers and entrepreneurs.
+
+**Samuel, 2026-09-22:** *"Both remote workers, creatives and video editors."*
 
 **What they are feeling** — this list is hook and idea fuel, kept whole:
 

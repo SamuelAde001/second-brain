@@ -27,14 +27,21 @@ That makes the personal brand the one area currently moving. The Academy is paus
 
 The series is **[[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]** — two episodes so far, B-roll shot per episode, **posting once a week** (as of 2026-09-20; from 2026-09-22 Samuel's plan is **some content every day**, as time allows — [[02-Me/goals/goal-ladder|Goal ladder]]). Its structure, length and production time are still uncaptured.
 
+**How daily content works (Samuel, 2026-09-22).** A post is a Reel, a TikTok or a carousel; Stories don't count. The same video goes on Instagram and TikTok. Content is made from 3:00pm, and that block gives way only when he didn't do client work in the morning, when an emergency comes, or when he's too tired. Daily is the goal, **not a commitment**: *"Reported on Sundays, I may miss days when I am overloaded with Client work."* The [[07-Agents/content/profile|content agent]] reports it every Sunday from the [[03-Areas/personal-brand/content-log|content log]].
+
+**Audience, 2026-09-22:** *"Both remote workers, creatives and video editors."* **HighSignals has no content yet.** Everything he posts is @SamuelSignals.
+
 **What raises the cadence is not a content decision.** His words: *"that cadence would improve once I speed up my video editing for my client using Claude."* See [[05-Knowledge/the-constraint-chain|The constraint chain]].
 
 ## Goals
 
-See [[03-Areas/personal-brand/personal-brand-goals|Goals]]. Not set yet.
+See [[03-Areas/personal-brand/personal-brand-goals|Goals]]: 5,000 followers by December 2026, and posting daily.
 
 ## Map of content
 
+- [[07-Agents/content/profile|Content agent]] — owns this area. Skills [[write-script]] and [[content-report]]
+- [[03-Areas/personal-brand/content-log|Content log]] — posts, views and followers, append-only
+- [[brand-context]] — voice, pillars, audience, the six non-negotiables · [[script-process]] — raw idea to script · [[storytelling-structures]] · [[instagram-strategy]]
 - [[script-review-checklist]] — the SOP for reviewing a script
 - [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]] — **the series that is working.** Two episodes, once a week
 - [[03-Areas/personal-brand/series/guiding-while-riding|Guiding While Riding]] — the bicycle series: structure, fixed lines, 31-topic bank. No evidence it ever launched
@@ -48,8 +55,8 @@ See [[03-Areas/personal-brand/personal-brand-goals|Goals]]. Not set yet.
 
 - What the Storytelling and The Journey pillars actually cover, and the posting cadence per pillar.
 - Whether Guiding While Riding launched, and how many episodes exist.
-- Current numbers: followers, reach, what performed and what flopped.
-- How the funnel actually works in content terms: what a personal-brand post does differently from a HighSignals post.
+- Current numbers: followers, reach, what performed and what flopped. **From 2026-09-22:** he types them in when he can, into the [[03-Areas/personal-brand/content-log|content log]]; automating it is open.
+- How the funnel actually works in content terms: what a personal-brand post does differently from a HighSignals post. **2026-09-22:** moot for now. HighSignals has no content.
 
 ## Related areas
 

@@ -284,3 +284,17 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Build calls:** the 7:00am start counts as kept on a focus session started by 7:00am, or his yes at the night plan. No evidence and no answer counts as unknown, never a miss. Misses are counted across all three commitments together.
 
 **Who decided:** Samuel for what, how hard and the cost. The build for how it's measured.
+
+## 2026-09-22 — content agent built
+
+**Samuel:** *"HighSignals does not have content yet, all is my brand Samuelsignals"* · what counts: *"All Except story, and yes same video goes on both"* · *"Reported on Sundays, I may miss days when I am overloaded with Client work"* · *"Both remote workers, creatives and video editors"* · *"Old system is gone, dailiy posting is the goal, Content gets made in the afternoon from 3pm"*
+
+**What:** `07-Agents/content/` (profile, memory, log). Skills `write-script` (runs the existing script SOP and review checklist) and `content-report` (Sunday). `03-Areas/personal-brand/content-log.md`, append-only, for posts, views and followers. The Sunday 3:00pm session now runs money check → content report → weekly review.
+
+**Runs in the main session (`runs-as: main-session`):** every job needs his answer in the moment. No adapter.
+
+**Not a commitment:** daily posting is reported once a week, with no nightly check, no escalation and no make-up rule. His choice.
+
+**Left for later:** ideas and hooks are pitched from the story bank by hand until the general `brainstorm` job skill exists. Automating his numbers is an open question.
+
+**Who decided:** Samuel for scope, what counts, the reporting and the audience. The build for the report's shape and the log.

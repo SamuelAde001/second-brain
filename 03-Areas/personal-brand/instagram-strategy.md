@@ -65,6 +65,12 @@ Note what that contradicts. The earlier strategy note (2026-09-04) recorded: *"e
 
 **Daily, from 2026-09-22.** Samuel: *"Some kind of content is going out everyday from now on"* — *"as long as I have time."* Target: 5,000 followers by December 2026 ([[02-Me/goals/goal-ladder|Goal ladder]]).
 
+**What counts, from 2026-09-22:** a Reel, a TikTok or a carousel, not a Story; the same video goes on Instagram and TikTok. Daily is the goal and is **reported on Sundays**, not checked nightly: *"I may miss days when I am overloaded with Client work."* The engine's weekly pipeline (ideas Thursday → post Wednesday 7:00pm) is gone: *"Old system is gone."*
+
+**Audience, 2026-09-22:** *"Both remote workers, creatives and video editors."* The editor audience that grew in September stays, and it sits beside the broader one.
+
+**Numbers:** he types them in *"sometimes"*, into the [[03-Areas/personal-brand/content-log|content log]]. He wants them automated: *"We need to find a way to get the data automated here."* Candidates are in the [[07-Agents/content/memory|content agent's memory]].
+
 **Before that — once a week**, as of 2026-09-20. The 1 cinematic + 3 talking-head + 1 BTS rhythm in [[brand-context]] (2026-07) is **not what is happening**, and the engine's Wednesday-7pm rule is unconfirmed since the series began. One a week is the real number, and it is capacity-bound, not choice-bound.
 
 Related: [[brand-context]] · [[script-process]] · [[03-Areas/personal-brand/personal-brand-ideas|Ideas]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

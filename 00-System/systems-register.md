@@ -21,6 +21,7 @@ The ladder, lowest rung first: **SOP → checklist → skill → automation.** W
 | **video-editor** | The DaVinci Resolve editing pipeline + standing Resolve expertise | `.claude/agents/video-editor.md` → [[07-Agents/video-editor/profile\|profile]] | **skeleton built 2026-09-21**; step 6 proven; skills pending |
 | **finance** | Money: ledger, budget sheet, rules, pots, runway, month close. Never moves money | `.claude/agents/finance.md` → [[07-Agents/finance/profile\|profile]] | **built 2026-09-22**; sheet credentials pending |
 | **personal-life** | His day and week, and his disciplinarian: night plan with a nightly accountability check, morning brief, weekly review; TickTick and Google Calendar (full write) | none — runs in the main session → [[07-Agents/personal-life/profile\|profile]] | **built 2026-09-22** |
+| **content** | His own brand, @SamuelSignals: ideas, scripts in his voice, draft reviews, the content log, the Sunday content report | none — runs in the main session → [[07-Agents/content/profile\|profile]] | **built 2026-09-22** |
 
 Roster and planned agents: [[07-Agents/roster|roster]].
 
@@ -28,8 +29,8 @@ Roster and planned agents: [[07-Agents/roster|roster]].
 
 | Name | Type | Owner agent | Lives at | Trigger | Last used | Status |
 |------|------|-------------|----------|---------|-----------|--------|
-| Script creation, raw idea → script | SOP | content (Phase 4) | [[script-process]] | Samuel brings a raw story idea | unknown | active |
-| Script review | checklist | content (Phase 4) | [[script-review-checklist]] | He sends a script for review | unknown | active |
+| Script creation, raw idea → script | SOP | content | [[script-process]] | Samuel brings a raw story idea | unknown | active |
+| Script review | checklist | content | [[script-review-checklist]] | He sends a script for review | unknown | active |
 | Test a Scripnals APK | SOP | orchestrator | [[03-Areas/scripnals/sops/test-an-apk\|test-an-apk]] | The devs send a new APK | 2026-09-22 | active |
 | Routerise cut workflow | SOP | video editing (Phase 4) | [[routerise-cut-workflow]] | A Routerise edit starts | unknown | active |
 
@@ -64,6 +65,13 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | [[morning-brief]] | Fixed times, must-dos, the client job and its deadline, anything overdue, in ten lines or fewer | 6:30am routine, or "what's on today" | never | active |
 | [[weekly-review]] | Good week by his own bar, the numbers (must-dos, focus, habits, money line), what slipped and which pattern it matches, then next week planned with him | Sunday 3:00pm session, after [[sunday-check]] | never | active |
 
+**Content skills**, built 2026-09-22 from Samuel's answers. Owner: the [[07-Agents/content/profile|content agent]]. Both run in the main session.
+
+| Skill | What it does | Trigger | Last used | Status |
+|-------|--------------|---------|-----------|--------|
+| [[write-script]] | Raw idea → interview → hooks → script in his voice, or a review of his draft. Runs [[script-process]] and [[script-review-checklist]] | He brings an idea, a story or a draft | never | active |
+| [[content-report]] | Days with a post out of 7, followers and pace to 5,000 by December, best and worst post. Logs his numbers; never estimates one | Sunday 3:00pm session, after the money check | never | active |
+
 ## Scripts
 
 | Script | Job | Run |
@@ -95,7 +103,7 @@ Reused as-is by the agent, not rebuilt: [[subtitle-transcript-formatter]] (step 
 
 | Automation | What it does | Schedule | Runs in | Canonical note | Status |
 |---|---|---|---|---|---|
-| Sunday money check + weekly review | Opens a session that runs [[sunday-check]] (his balance, the gap logged, the sheet rebuilt, every line over plan), then [[weekly-review]] in the same session (merged, Samuel 2026-09-22) | Sundays 3:00pm WAT (`0 15 * * 0`) | Claude desktop app scheduled task `sunday-money-check`; needs the app open | [[00-System/automations/sunday-money-check\|sunday-money-check]] | active from 2026-09-27 |
+| Sunday money check + content report + weekly review | Opens a session that runs [[sunday-check]] (his balance, the gap logged, the sheet rebuilt, every line over plan), then [[content-report]], then [[weekly-review]] in the same session (merged, Samuel 2026-09-22) | Sundays 3:00pm WAT (`0 15 * * 0`) | Claude desktop app scheduled task `sunday-money-check`; needs the app open | [[00-System/automations/sunday-money-check\|sunday-money-check]] | active from 2026-09-27 |
 | Night plan | Opens a session that runs [[night-plan]]: today closed out, tomorrow planned with him and written to TickTick | Daily 8:45pm WAT (cron `35 20 * * *` + the app's fixed 10m48s delay) | scheduled task `night-plan`; needs the app open | [[00-System/automations/night-plan\|night-plan]] | active from 2026-09-22 |
 | Morning brief | Opens a session that runs [[morning-brief]]: today in ten lines | Daily 6:30am WAT (cron `21 6 * * *` + the app's fixed 9m32s delay) | scheduled task `morning-brief`; needs the app open | [[00-System/automations/morning-brief\|morning-brief]] | active from 2026-09-23 |
 

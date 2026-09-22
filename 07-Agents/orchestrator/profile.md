@@ -37,7 +37,7 @@ Start at the area's overview note (AGENTS.md §3). Then:
 | Client editing, DaVinci Resolve, Fusion, a Routerise/Alex video | **video-editor** — built ([[07-Agents/video-editor/profile\|profile]]) | — |
 | Money: spending, income, pots, rules, the sheet | **finance** — built ([[07-Agents/finance/profile\|profile]]). Conversations (`payday`, `budget`, "can I afford") run here in the main session with its profile loaded. Totals, reconciling and scenarios go to the subagent | — |
 | Tasks, schedule, focus, Google Calendar, planning a day or a week | **personal-life** — built ([[07-Agents/personal-life/profile\|profile]]). Runs in the main session with its profile loaded (`runs-as: main-session`), like finance's conversations | — |
-| Scripts, @SamuelSignals content, the brand | content — planned | The orchestrator works it from [[03-Areas/personal-brand/personal-brand\|Personal brand]] |
+| Scripts, @SamuelSignals content, the brand | content | Main session, with [[07-Agents/content/profile\|its profile]] loaded. Skills [[write-script]], [[content-report]] |
 | HighSignals and its branches, the book, relationships, `02-Me`, the Brain's own build and structure | **orchestrator** | — |
 
 **How to route:**
