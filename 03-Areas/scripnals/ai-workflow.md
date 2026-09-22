@@ -11,7 +11,7 @@ tags: [ai, spec, script-buddy, dev-handover]
 
 **Spec v1 for the dev team · 2026-09-22 · from Samuel**
 
-Status: **draft for Samuel's review**, then sent to the devs.
+Status: **approved by Samuel 2026-09-22** (*"All approved"*). Sent to the devs as a PDF.
 
 How to read this: each point is marked **Decided** (Samuel has ruled on it) or **Proposed** (open to your input; reply in the group before building).
 
