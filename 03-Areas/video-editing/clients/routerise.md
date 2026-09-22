@@ -2,7 +2,7 @@
 type: client
 area: video-editing
 status: needs-input
-updated: 2026-09-20
+updated: 2026-09-22
 source: claude-export
 tags: [client]
 ---
@@ -55,7 +55,7 @@ needs-input — no source document describes how Alex/Routerise actually briefs 
 ## Rates and terms
 
 - Rate: needs-input — not stated anywhere in the source documents.
-- Turnaround: needs-input — not stated.
+- Turnaround: **5 days maximum from start** — Route Rise's contractual cap (confirmed by Samuel 2026-09-02, recorded by the engine; checked 2026-09-22). The clock starts the day he opens the project. Route Rise counts Sunday; he does not work it, so a Sunday inside the window leaves him 4 working days. Rules: [[ways-of-working]].
 - Revision rules: needs-input — not stated.
 - Invoicing and payment: needs-input — not stated.
 

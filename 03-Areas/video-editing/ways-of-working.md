@@ -2,7 +2,7 @@
 type: knowledge
 area: video-editing
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: memory-export
 tags: [conventions, agents, fusion]
 ---
@@ -93,5 +93,18 @@ The kinds of visual he uses, and the rule attached to each:
 - **Duplicate the timeline before any agent starts editing it.**
 - **Prioritise speed and credit efficiency:** reuse and copy-paste existing comps, adjustment clips and nodes rather than rebuilding.
 - **Visualise with illustrations first — "show, not tell."** He expects dense, varied visuals matching the density of his own edit. *Reusing templates with swapped text was explicitly rejected as useless.*
+
+## Time and delivery rules — confirmed 2026-09-22
+
+From the Accountability Engine's `body.md` (2026-08-26 to 2026-09-02), checked one by one with Samuel on 2026-09-22. Only what he confirmed is here.
+
+- **Edit in 55-minute chunks with 5-minute breaks.** His numbers — the engine's were 50 and 10.
+- **Plan the day the night before.** Tomorrow is planned by 9:30pm ([[daily-routine]]).
+- **Every client day has a MUST-CLOSE and a STRETCH.** MUST-CLOSE: the day fails if it does not close. STRETCH: tomorrow's first item, pulled forward if today runs ahead.
+- **Route Rise's 5-day cap.** The clock starts the day he opens the project. **Route Rise counts Sunday inside the five days; Samuel does not work Sunday, so when a Sunday falls inside, he has 4 working days.**
+- **Revisions become top priority.** *"Revisions happen and can't be controlled, but they become top priority."*
+- **Ship day starts like any other day** — no early start. The engine's 5:00am ship-day start is dropped.
+
+The engine's evidence behind these: the job is about 30 hours of work, and the day that closed Client #2 in about eight hours was the one built into timed chunks the night before ([[patterns|P5]]).
 
 Related: [[fusion-node-system]] · [[fusion-recipes]] · [[routerise-house-style]] · [[cut-sheets]]. Back to [[03-Areas/video-editing/video-editing|Video editing]]

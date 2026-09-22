@@ -11,6 +11,14 @@ tags: [health, fitness, needs-input]
 
 Two threads from the source transcripts. [[02-Me/about-samuel|Me]] already records, from the 2026-09-04 memory export: fitness — "exploring gym routines, leaning toward morning sessions given the work-from-home setup. No current routine," and food — "drinks Nescafé Gold Blend." Both are consistent with what's below; this note adds the detail and the dates behind those two lines, it doesn't change them.
 
+## Current — confirmed 2026-09-22
+
+- **Fitness goal:** gym **3 times a week, never fewer than 2**, every week through 2026-12-31. All sessions at **5:00pm** ([[daily-routine]]).
+- **Target, his words (2026-08-26):** *"fit, muscle density, endurance, 6 packs instead of pot belly."*
+- **Health:** fit and healthy — no conditions, no medication, no injuries. Self-reported 2026-08-26, confirmed 2026-09-22.
+- **Sleep floor: 7 hours.** Against his 6:00am wake, that is bed by 11:00pm. The engine called sleep *"the one lever — nothing else survives a 4-hour night"*; late nights are upstream of [[patterns|P4]].
+- Source: the Accountability Engine's `body.md`, checked with Samuel.
+
 ## Coffee and its diuretic effect (2026-08-23)
 
 Samuel's own words: he wants coffee every time he works, to "stay alert and stay more focused," but it makes him "want to use the toilets often," which was making him hesitant to keep it as a daily habit. What he was drinking: instant sachet Nescafé, taken first thing in the morning before starting work, on an empty stomach.
