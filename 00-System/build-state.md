@@ -20,7 +20,7 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 - **Content agent built (2026-09-22, session 8, run in parallel with the personal-life chat).** `07-Agents/content/`, runs in the main session (no adapter). Skills `write-script` (runs the script SOP and review checklist) and `content-report` (Sunday). `03-Areas/personal-brand/content-log.md` opened, append-only. Samuel: all content is @SamuelSignals (HighSignals has none); a Reel, TikTok or carousel counts, not a Story; same video on both; **daily posting is reported on Sundays, not a commitment**; audience is remote workers, creatives and video editors; content from 3:00pm. The Sunday task now runs money check → content report → weekly review. Open: automating his numbers (Metricool or vidIQ, his yes needed), and which platform the 5,000 counts on. Also distilled: `scripting-and-collaboration.md` and `story-bank.md` (loose end 3, personal-brand half).
 
-- **Phone with the PC off (2026-09-22, session 9).** Cloud sessions (Claude app → Code) on the GitHub repo. Each one works on its own `claude/…` branch; **every PC session now starts with `git pull` and merges them** (AGENTS.md §12). Waiting on Samuel: install the Claude GitHub App on the repo and make the cloud environment. Also: PowerShell runs unprompted now (decisions, same day).
+- **Phone with the PC off (2026-09-22, session 9).** Cloud sessions (Claude app → Code) on the GitHub repo. Each one works on its own `claude/…` branch; **every PC session now starts with `git pull` and merges them** (AGENTS.md §12). ~~Waiting on Samuel: install the Claude GitHub App on the repo and make the cloud environment.~~ **Done: the first cloud session ran from his phone on 2026-09-22 (session 10), on branch `claude/mobile-build-continuation-aplhsa`.** Also: PowerShell runs unprompted now (decisions, same day).
 
 **14-day target for Phases 0–4:** 2026-10-04. Day 3 of 14.
 
@@ -133,3 +133,4 @@ Full records in `00-System/decisions.md`. The ones that matter most:
 - 2026-09-22 — Content agent built (session 8): profile, memory, log; skills `write-script`, `content-report`; content log; Sunday task extended with the content report. Two personal-brand memory files distilled. Open questions 85–86.
 - 2026-09-22 — Session 9: PowerShell allowed unprompted (destructive/system commands still ask). Cloud sessions defined for phone use with the PC off: own branch, PC merges at start.
 - 2026-09-22 — Session 9: SessionStart hook pulls GitHub at every PC session and lists unmerged cloud branches (`session_start_sync.py`).
+- 2026-09-22 — Session 10 (cloud, from the phone): cloud sessions confirmed working. Next: the four job skills.
