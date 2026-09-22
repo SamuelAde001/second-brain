@@ -6,13 +6,13 @@ Brain. The finance agent owns the sheet's layout and look too (Samuel,
 2026-09-22). Each build rewrites every tab from:
 
     03-Areas/finances/money-ledger.md          what actually moved (row types defined there)
-    03-Areas/finances/obligations.md           the live plan: one line per monthly item, and its payday
-    03-Areas/finances/plans/plan-YYYY-MM.md    a closed month's plan, frozen at its close
+    03-Areas/finances/plans/plan-YYYY-MM.md    each month's plan; frozen (status: done) at its close
+    03-Areas/finances/obligations.md           the standing plan, for a month with no plan file yet
     GOALS below                                copied from 03-Areas/finances/finances-goals.md
 
 Tabs, in order:
     Overview     where the money is · goals · this month · plan vs actual · every month
-    <Mon YYYY>   one per month from 2026-10, newest first: totals, plan vs actual, entries
+    <Mon YYYY>   one per month from 2026-09, newest first: totals, plan vs actual, entries
     Ledger       every ledger row
 
 Styling (Samuel, 2026-09-22): a big title, a coloured band per section, boxed
@@ -21,7 +21,8 @@ tables, colour-coded numbers. Headers, rows and numbers only; no sentences.
     python 00-System/scripts/budget_sheet.py preview            # print the tables; touches nothing
     python 00-System/scripts/budget_sheet.py doctor             # key file, robot email, can it open the sheet
     python 00-System/scripts/budget_sheet.py build              # rewrite the sheet from the Brain
-    python 00-System/scripts/budget_sheet.py snapshot 2026-10   # freeze a month's plan (at its close)
+    python 00-System/scripts/budget_sheet.py month-plan 2026-10 # start a month's plan from the standing plan
+    python 00-System/scripts/budget_sheet.py freeze 2026-09     # at the close: the month's plan never changes again
 
 Talks to Google's official Sheets API as a service account. The key file lives
 OUTSIDE the Brain, at %USERPROFILE%\\.brain-secrets\\budget-sheet-key.json (or the
@@ -48,9 +49,9 @@ FIN = os.path.join(ml.BRAIN, "03-Areas", "finances")
 OBLIGATIONS = os.path.join(FIN, "obligations.md")
 PLANS = os.path.join(FIN, "plans")
 
-# The live ledger's first full month. September 2026 is split with the archived
-# engine ledger, so its plan-vs-actual lives in the September close, not here.
-LIVE_FROM = "2026-10"
+# The first month with its own tab. September 2026 came into the live ledger
+# from the archived one on 2026-09-22, at Samuel's request.
+LIVE_FROM = "2026-09"
 
 # From finances-goals.md (Samuel, confirmed 2026-09-20). Change there first.
 GOALS = [
@@ -86,7 +87,7 @@ def next_month(m):
 
 
 def live_plan():
-    """[(line, payday, amount)] from the obligations table, bold total rows skipped."""
+    """The standing plan: [(line, payday, amount)] from the obligations table, total rows skipped."""
     out = []
     for r in ml.table_rows(OBLIGATIONS, "Item"):
         item = r.get("Item", "")
@@ -96,48 +97,34 @@ def live_plan():
     return out + list(POT_PLAN)
 
 
-def snapshot_path(month):
+def plan_path(month):
     return os.path.join(PLANS, "plan-%s.md" % month)
 
 
 def plan_for(month):
-    """A closed month reads its frozen plan; the running month reads the live one."""
-    p = snapshot_path(month)
+    """The month's own plan file if it has one; otherwise the standing plan."""
+    p = plan_path(month)
     if os.path.exists(p):
         return [(r["Line"], r["Payday"], ml.ngn(r["Planned NGN"])) for r in ml.table_rows(p, "Line")]
     return live_plan()
 
 
 def balances():
-    """Pot balances and the derived bank, as of the last ledger row (same maths as money_ledger.pots)."""
-    rows = ml.ledger()
-    bal = {p: 0.0 for p in ml.POTS}
-    bank = 0.0
-    for r in rows:
-        t, amt, what, cat = r["Type"], ml.ngn(r["NGN"]), r["What"], r["Category"]
-        if amt is None:
-            continue
-        if t in ("opening", "balance"):
-            if what in ml.POTS:
-                bal[what] = amt
-            else:
-                bank = amt
-        elif t == "in":
-            bank += amt
-        elif t in ml.OUT_TYPES:
-            bank -= amt
-        elif t == "to-pot":
-            bal[cat] = bal.get(cat, 0) + amt
-            bank -= amt
-        elif t == "from-pot":
-            bal[cat] = bal.get(cat, 0) - amt
-            bank += amt
-    as_of = rows[-1]["Date"][:10] if rows else ""
-    return as_of, bank, bal
+    as_of, bank, bal, mismatches = ml.position()
+    for m in mismatches:
+        print("CHECKPOINT MISMATCH: " + m)
+    return as_of, bank or 0.0, {p: (v or 0.0) for p, v in bal.items()}
+
+
+def shown(rows):
+    """Rows a person reads: money only. Checkpoint openings and correction notes stay in the Brain."""
+    opens = [r["Date"][:10] for r in rows if r["Type"] == "opening"]
+    start = min(opens) if opens else None
+    return [r for r in rows if r["Type"] != "correction" and not (r["Type"] == "opening" and r["Date"][:10] != start)]
 
 
 def entries(month):
-    return [r for r in ml.ledger() if month_of(r["Date"]) == month]
+    return [r for r in shown(ml.ledger()) if month_of(r["Date"]) == month]
 
 
 def totals(month):
@@ -183,8 +170,10 @@ def plan_month(today=None):
 
 
 def months(today=None):
-    """Every month that gets a tab: LIVE_FROM up to the plan month, plus any later ledger month."""
-    last = max([plan_month(today)] + [month_of(r["Date"]) for r in ml.ledger()])
+    """Every month that gets a tab: LIVE_FROM up to the plan month, plus any later month
+    that already has ledger rows or a plan file."""
+    planned = [f[5:12] for f in os.listdir(PLANS)] if os.path.isdir(PLANS) else []
+    last = max([plan_month(today)] + [month_of(r["Date"]) for r in ml.ledger() if r["Type"] != "correction"] + planned)
     out, m = [], LIVE_FROM
     while m <= last:
         out.append(m)
@@ -232,26 +221,45 @@ def entry_rows(rows):
              r["What"], r["Category"] if r["Category"] not in ("—", "-") else ""] for r in rows]
 
 
-# ================================================================ snapshot
+# ================================================================ month plans
 
-def snapshot(month):
-    p = snapshot_path(month)
+def month_plan(month, quiet=False):
+    """Start a month's plan file from the standing plan. Never overwrites."""
+    p = plan_path(month)
     if os.path.exists(p):
-        sys.exit("%s already exists. A frozen plan is never rewritten; correct it with a dated note under its table."
-                 % os.path.relpath(p, ml.BRAIN))
+        if not quiet:
+            print("%s already exists." % os.path.relpath(p, ml.BRAIN))
+        return p
     os.makedirs(PLANS, exist_ok=True)
     today = dt.date.today().isoformat()
-    lines = ["---", "type: log", "area: finances", "status: done", "updated: " + today, "source: manual",
+    lines = ["---", "type: log", "area: finances", "status: active", "updated: " + today, "source: manual",
              "tags: [plan, budget]", "---", "", "# Plan — " + month_label(month), "",
-             "The plan for %s as it stood on %s, frozen by `budget_sheet.py snapshot`. Never rewritten. "
-             "The live plan is [[obligations]]." % (month_label(month), today), "",
+             "%s's budget, started %s from the standing plan in [[obligations]]. The `budget` skill changes it "
+             "while the month runs and records each change below. Frozen at the month close (`status: done`)."
+             % (month_label(month), today), "",
              "| Line | Payday | Planned NGN |", "|---|---|---|"]
     for line, payday, amount in live_plan():
         lines.append("| %s | %s | %s |" % (line, payday, "—" if amount is None else "{:,.0f}".format(amount)))
-    lines += ["", "Back to [[03-Areas/finances/finances|Finances]]", ""]
+    lines += ["", "## Changes", "", "| Date | Line | From | To | Whose call |", "|---|---|---|---|---|", "",
+              "Back to [[03-Areas/finances/finances|Finances]]", ""]
     with open(p, "w", encoding="utf-8", newline="\n") as fh:
         fh.write("\n".join(lines))
-    print("froze the plan for %s -> %s" % (month, os.path.relpath(p, ml.BRAIN)))
+    print("started the plan for %s -> %s" % (month, os.path.relpath(p, ml.BRAIN)))
+    return p
+
+
+def freeze(month):
+    """At the month close: mark the plan done. From then on it is never edited."""
+    p = month_plan(month, quiet=True)
+    s = open(p, encoding="utf-8").read()
+    if "\nstatus: done\n" in s:
+        print("%s is already frozen." % month)
+        return
+    s = s.replace("\nstatus: active\n", "\nstatus: done\n", 1)
+    s = s.replace("\nupdated: ", "\nupdated: %s\nfrozen: " % dt.date.today().isoformat(), 1)
+    with open(p, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(s)
+    print("froze the plan for %s" % month)
 
 
 # ================================================================ preview
@@ -439,7 +447,7 @@ def style_kpi(i, j, v, row):
 
 def style_plan(i, j, v, row):
     if j == 1 and v:
-        return {"fg": BLUE if v == "A" else (VIOLET if v == "B" else MUTED), "bold": True}
+        return {"fg": BLUE if v == "A" else (VIOLET if v == "B" else ("#4338CA" if v == "A+B" else MUTED)), "bold": True}
     if j == 3 and isinstance(v, (int, float)) and v:
         return {"fg": BLUE, "bold": True}
     if j == 4 and isinstance(v, (int, float)) and v < 0:
@@ -503,7 +511,7 @@ def paint_month(page, m):
 
 
 def paint_ledger(page):
-    rows = ml.ledger()
+    rows = shown(ml.ledger())
     page.title("LEDGER", "%d entries   ·   oldest first" % len(rows), 5)
     page.box("Every entry", LEDGER_C, H_ENTRY, entry_rows(rows), style_entry, ENTRY_NUMS)
 
@@ -582,7 +590,7 @@ def build():
     paint_overview(ov, today, have)
     paint += ov.requests()
     for m in ms:
-        pg = Page(have[month_label(m, short=True)], [230, 110, 130, 200, 200])
+        pg = Page(have[month_label(m, short=True)], [230, 110, 130, 260, 200])
         paint_month(pg, m)
         paint += pg.requests()
     lg = Page(have["Ledger"], [110, 110, 130, 260, 200])
@@ -604,8 +612,10 @@ def main(argv):
         doctor()
     elif cmd == "build":
         build()
-    elif cmd == "snapshot" and len(argv) == 2:
-        snapshot(argv[1])
+    elif cmd == "month-plan" and len(argv) == 2:
+        month_plan(argv[1])
+    elif cmd == "freeze" and len(argv) == 2:
+        freeze(argv[1])
     else:
         print(__doc__)
         return 1

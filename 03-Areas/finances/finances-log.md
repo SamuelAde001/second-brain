@@ -17,5 +17,6 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 - 2026-09-22 — **New "Money" sheet decided:** two tabs, headers and numbers, rebuilt from the Brain over Google's official API. "My Claude Budget" frozen as history. Waiting on Samuel's Google Cloud setup.
 - 2026-09-22 — **"Money" sheet live**, built from the Brain over the official Sheets API. The old "My Claude Budget" is history from today.
 - 2026-09-22 — Money sheet restyled, with coloured boxed sections and one tab per month from October 2026. Each month's plan gets frozen at its close.
+- 2026-09-22 — **September added to the sheet.** 1–16 Sep brought into the live ledger; September's plan written from the 2 Sep replan and the 16 Sep cuts. Month in numbers: NGN 1,373,937 in · NGN 1,273,708 spent · NGN 296,041 to pots · NGN 368,041 from pots.
 
 Back to [[03-Areas/finances/finances|Finances]]

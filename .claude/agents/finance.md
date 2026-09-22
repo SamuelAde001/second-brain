@@ -52,7 +52,7 @@ Keep an honest record of what money actually moved, say plainly where Samuel sta
 | Month-end close: what came in, what went out, what survived | skill `month-close` | built 2026-09-22 |
 | Totals, pots and derived bank from the ledger | `00-System/scripts/money_ledger.py` | built |
 | Rebuild the "Money" sheet from the Brain: Overview, one tab per month, Ledger | `00-System/scripts/budget_sheet.py build` (official Sheets API, service account) | built 2026-09-22 ([[03-Areas/finances/budget-system\|budget system]]) |
-| Freeze a month's plan at its close, so its tab never changes later | `budget_sheet.py snapshot YYYY-MM` → `03-Areas/finances/plans/plan-YYYY-MM.md` | built 2026-09-22 |
+| Each month's plan: start it, change it while the month runs, freeze it at the close | `03-Areas/finances/plans/plan-YYYY-MM.md` · `budget_sheet.py month-plan YYYY-MM` · `freeze YYYY-MM` | built 2026-09-22 |
 | Read the old "My Claude Budget" sheet (history only) | `00-System/scripts/sheets.py read` | legacy, flaky; never write to it |
 | "Can I afford X?" | the four steps in [[03-Areas/finances/wish-list\|wish list]] | works from the note; `money-check` skill in the Phase 4 job-skill set |
 

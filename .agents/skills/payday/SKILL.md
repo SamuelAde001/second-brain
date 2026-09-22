@@ -16,7 +16,7 @@ Rebuilt 2026-09-22 from the engine's `paid` ritual (legacy review R8, kept).
 
 - `03-Areas/finances/money-rules.md`: the eight rules
 - `03-Areas/finances/income.md`: the payment shape. The mid-month payment is **always the previous month's 30%**, never new money
-- `03-Areas/finances/obligations.md`: the obligations table, and which lines are Payday A or B
+- The month's plan, `03-Areas/finances/plans/plan-YYYY-MM.md` (or `obligations.md` if the month has no plan file yet): its lines and which are Payday A or B
 - `python 00-System/scripts/money_ledger.py pots` and `last 8`: where the record stands, as of when
 - `python 00-System/scripts/money_ledger.py videos <batch YYYY-MM>`: what the video-editor recorded as delivered for this batch
 
@@ -43,7 +43,7 @@ Append the `in` row to `03-Areas/finances/money-ledger.md`. The Note carries USD
 
 ## 4. Now the part that matters: move it
 
-With the numbers in front of him, list this payday's lines, with amounts, from `obligations.md`: the table's Payday column and the split section under it. The pots move by Rule 3: Cowrywise on Payday A; Goal 1 and the Buffer on Payday B.
+With the numbers in front of him, list this payday's lines, with amounts, from the month's plan file (its Payday column). The pots move by Rule 3: Cowrywise on Payday A; Goal 1 and the Buffer on Payday B.
 
 - **Rule 4:** the building project, NGN 500,000, is paid in full before any discretionary line.
 - **Rule 7:** Cowrywise NGN 100,000 never pauses and never counts toward a goal.
@@ -51,7 +51,7 @@ With the numbers in front of him, list this payday's lines, with amounts, from `
 - From January 2027: Goal 2 (marriage) and the NGN 300,000 emergency fund join the list.
 
 Ask what is **actually going out today**, in naira. Then write:
-- each payment sent → a `major` row, category = the plan line in `obligations.md`, exactly
+- each payment sent → a `major` row, category = the line in the month's plan, exactly
 - each pot funded → a `to-pot` row, pot name exact
 - bank charges he can't attribute → one `charges` row
 - **only for money that actually moved.** A row for Friday's transfer is Rule 6 broken. If he says "I'll move it later", say it once: **later is how NGN 595,250 disappeared.** Ask what changes later. Don't write the row.

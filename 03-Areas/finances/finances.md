@@ -41,7 +41,8 @@ See [[03-Areas/finances/finances-goals|Goals]] — NGN 1,000,000 by 31 Dec 2026,
 ## Map of content
 
 - [[money-rules]] — **the eight rules, active.** Read before advising on anything money-shaped
-- [[03-Areas/finances/money-ledger|Money ledger]] — **the record of what actually moved**, live from 2026-09-16. Written by the [[07-Agents/finance/profile|finance agent]]
+- [[03-Areas/finances/money-ledger|Money ledger]] — **the record of what actually moved**, from 2026-08-31 (September brought in from the old ledger). Written by the [[07-Agents/finance/profile|finance agent]]
+- Month plans, one per month in `plans/`: [[03-Areas/finances/plans/plan-2026-09|Plan — September 2026]]
 - [[income]] — one payer, the rates, the USD 5 charge, the two paydays, the concentration risk
 - [[obligations]] — every monthly line item, tier and payday; what was cut and why
 - [[pots-and-accounts]] — where each pot lives, last confirmed balances, the two name collisions

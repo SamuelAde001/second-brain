@@ -65,11 +65,58 @@ def ngn(cell):
 
 
 def ledger():
+    """Every counted row, in date order (file order within a date)."""
     rows = table_rows(LEDGER, "Date")
     bad = [r for r in rows if r.get("Type") not in TYPES]
     for r in bad:
         print("WARNING: unknown row type %r on %s — not counted" % (r.get("Type"), r.get("Date")))
-    return [r for r in rows if r.get("Type") in TYPES]
+    rows = [r for r in rows if r.get("Type") in TYPES]
+    return sorted(rows, key=lambda r: r["Date"][:10])
+
+
+def position(rows=None):
+    """Pot balances and the derived bank, as of the last money row.
+
+    The starting position is the set of `opening` rows with the EARLIEST date.
+    A later `opening` row is a checkpoint: it is compared with the running
+    figure at the end of its day and never applied (ledger note, 2026-09-22).
+    Returns (as_of, bank, balances, checkpoint_mismatches).
+    """
+    rows = ledger() if rows is None else rows
+    opens = [r["Date"][:10] for r in rows if r["Type"] == "opening"]
+    start = min(opens) if opens else None
+    is_check = lambda r: r["Type"] == "opening" and r["Date"][:10] != start
+    rows = sorted(rows, key=lambda r: (r["Date"][:10], is_check(r)))
+    bal = OrderedDict((p, None) for p in POTS)
+    bank, mismatches = None, []
+    for r in rows:
+        t, amt, what, cat = r["Type"], ngn(r["NGN"]), r["What"], r["Category"]
+        if amt is None:
+            continue
+        if is_check(r):
+            have = bal.get(what) if what in POTS else bank
+            if have is None or abs(have - amt) > 0.5:
+                mismatches.append("%s checkpoint %s: ledger says %s, rows add up to %s"
+                                  % (r["Date"][:10], what, fmt(amt), "nothing" if have is None else fmt(have)))
+            continue
+        if t in ("opening", "balance"):
+            if what in POTS:
+                bal[what] = amt
+            else:
+                bank = amt
+        elif t == "in":
+            bank = (bank or 0) + amt
+        elif t in OUT_TYPES:
+            bank = (bank or 0) - amt
+        elif t == "to-pot":
+            bal[cat] = (bal.get(cat) or 0) + amt
+            bank = (bank or 0) - amt
+        elif t == "from-pot":
+            bal[cat] = (bal.get(cat) or 0) - amt
+            bank = (bank or 0) + amt
+    money = [r for r in rows if r["Type"] != "correction"]
+    as_of = money[-1]["Date"][:10] if money else ""
+    return as_of, bank, bal, mismatches
 
 
 def fmt(x):
@@ -117,40 +164,20 @@ def totals(month):
         for c, a in sorted(by_cat.items(), key=lambda kv: -kv[1]):
             print("      %-22s %s" % (c, fmt(a)))
     if corrections:
-        print("  %d correction note(s) this month — check the matching minus rows exist:" % len(corrections))
+        print("  %d correction note(s) this month (a money fix is a minus row of the same type):" % len(corrections))
         for r in corrections:
             print("      %s  %s" % (r["Date"], r["What"]))
 
 
 def pots():
-    rows = ledger()
-    bal = OrderedDict((p, None) for p in POTS)
-    bank = None
-    for r in rows:
-        t, amt, what, cat = r["Type"], ngn(r["NGN"]), r["What"], r["Category"]
-        if amt is None:
-            continue
-        if t == "opening" or t == "balance":
-            if what in POTS:
-                bal[what] = amt
-            else:
-                bank = amt
-        elif t == "in":
-            bank = (bank or 0) + amt
-        elif t in OUT_TYPES:
-            bank = (bank or 0) - amt
-        elif t == "to-pot":
-            bal[cat] = (bal.get(cat) or 0) + amt
-            bank = (bank or 0) - amt
-        elif t == "from-pot":
-            bal[cat] = (bal.get(cat) or 0) - amt
-            bank = (bank or 0) + amt
-    last = rows[-1]["Date"] if rows else "—"
-    print("As of the last ledger row, %s. Derived from rows — not a current balance." % last)
+    as_of, bank, bal, mismatches = position()
+    print("As of the last ledger row, %s. Derived from rows — not a current balance." % as_of)
     for p, a in bal.items():
         print("  %-22s %s" % (p, "not started" if a is None else fmt(a)))
     print("  %-22s %s" % ("Bank (derived)", "unknown" if bank is None else fmt(bank)))
     print("  Saved toward Goal 1 counts Goal 1 + Emergency fund only. The investment and the Buffer never count (Rule 7).")
+    for m in mismatches:
+        print("  CHECKPOINT MISMATCH: " + m)
 
 
 def last(n):

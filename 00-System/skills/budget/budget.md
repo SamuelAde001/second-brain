@@ -1,6 +1,6 @@
 ---
 name: budget
-description: "Set or change Samuel's money plan: take his spending plans in his own words, match each to a plan line in obligations.md, then say out loud whether the arithmetic works against the money that actually exists, and rebuild his 'Money' sheet. Use whenever he wants to budget, plan a month, replan after a short month, change what a category gets, or add, cancel or change a subscription or recurring line. Not for logging money that landed (use payday) or closing a finished month (use month-close)."
+description: "Set or change Samuel's money plan: take his spending plans in his own words, match each to a line in that month's plan (03-Areas/finances/plans/plan-YYYY-MM.md), then say out loud whether the arithmetic works against the money that actually exists, and rebuild his 'Money' sheet. Use whenever he wants to budget, plan a month, replan after a short month, change what a category gets, or add, cancel or change a subscription or recurring line. Not for logging money that landed (use payday) or closing a finished month (use month-close)."
 type: skill
 area: finances
 status: active
@@ -22,7 +22,8 @@ A budget is not a wish list. **It's a claim that the money exists.** This skill 
 - `03-Areas/finances/money-rules.md`, `obligations.md`, `finances-goals.md`: the rules, the floor, the goal arithmetic
 - `python 00-System/scripts/money_ledger.py pots`: the pots, as of the last row
 - `python 00-System/scripts/money_ledger.py videos <month>`: videos already delivered for the batch
-- The plan is the table in `obligations.md`, one line per item with its amount and payday. The subscriptions are itemised under it. That table is the only place a plan number lives.
+- **The month's plan:** `03-Areas/finances/plans/plan-YYYY-MM.md`. If it doesn't exist yet, start it from the standing plan: `python 00-System/scripts/budget_sheet.py month-plan <YYYY-MM>`. A plan with `status: done` is frozen. Never change it.
+- **The standing plan** is the table in `obligations.md`. Every new month starts from it, and it changes only when a change is meant to recur. Subscriptions are itemised under it.
 
 ## 2. Ask
 
@@ -33,7 +34,7 @@ A budget is not a wish list. **It's a claim that the money exists.** This skill 
 
 ## 3. Match each item to a plan line
 
-Every item he names goes to a line in the `obligations.md` table. Savings are not plan lines: pots move as `to-pot` rows.
+Every item he names goes to a line in the month's plan file. A one-off (a trip, a debt repayment) gets its own line in that month only. Pots are plan lines too, but money into them is logged as `to-pot` rows.
 
 - If an item doesn't fit a line, **ask** where it belongs. Don't invent a line, and don't quietly drop it into Other. If "Other" grows every month, it's a line he's hiding something in. Say so.
 - Read each item back to him with the line you put it on. One line each.
@@ -42,10 +43,10 @@ Every item he names goes to a line in the `obligations.md` table. Savings are no
 
 **A plan total is never a mystery number.** Subscriptions are itemised in `obligations.md` → "Subscriptions, exactly".
 
-- Changing an amount → **with his yes** (profile: must ask), change the table cell and record the old figure, the new figure, the date and why in the note's change table. Nothing is overwritten without a trace.
+- Changing an amount → **with his yes** (profile: must ask), change the line in the month's plan file and add a row to its Changes table: date, line, from, to, whose call. Nothing is overwritten without a trace. If the change should recur, also change `obligations.md` and record it in that note's change table.
 - Cancelling → move it to "Cut and gone" with the date. Never delete it silently. A cancelled line that comes back in three months is a pattern.
 - Adding → a new row, and say what it displaces. A new line doesn't make new money.
-- **Planning a later month while one is still running?** First freeze the running month's plan: `python 00-System/scripts/budget_sheet.py snapshot <running YYYY-MM>`. Otherwise its tab would show the new plan as if it had been the old one.
+- **Planning a later month while one is still running?** Start that month's own file (`month-plan <later YYYY-MM>`) and change it there. The running month keeps its own plan.
 
 ## 5. The arithmetic, out loud
 

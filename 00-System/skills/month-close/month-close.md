@@ -15,7 +15,6 @@ Rebuilt 2026-09-22 from the engine's `month` ritual (legacy review R6, kept).
 
 Can run as the finance subagent up to step 6. Steps 7 and 8 need Samuel, so they run in the main session. Either way, act as the finance agent: read `07-Agents/finance/profile.md` and `memory.md` first.
 
-**September 2026 only:** the old sheet "My Claude Budget" is history, and the new sheet's plan table starts at 2026-10. September's plan-vs-actual comes from the two ledgers, in this close.
 
 ## 1. Totals by script, never by reading the ledger
 
@@ -25,7 +24,6 @@ python 00-System/scripts/money_ledger.py pots
 python 00-System/scripts/money_ledger.py videos <YYYY-MM>
 ```
 
-**September 2026 only:** 1–16 Sep lives in the archived ledger (`08-Archive/accountability-engine/context/money-ledger.md`). Grep its September rows. Never read it whole. Add them to the live totals and say which figures came from which ledger.
 
 ## 2. Four numbers first, nothing else
 
@@ -62,7 +60,7 @@ The sheet is built from the ledger, so there is nothing to reconcile. Check its 
 
 ## 8. Record
 
-- **Freeze the month's plan:** `python 00-System/scripts/budget_sheet.py snapshot <YYYY-MM>`, then `build` again. From now on that month's tab reads the frozen plan and never changes.
+- **Freeze the month's plan:** `python 00-System/scripts/budget_sheet.py freeze <YYYY-MM>`, then `build` again. The plan file becomes `status: done` and is never edited again, so that month's tab never changes.
 - The close goes in `03-Areas/finances/finances-log.md`: a dated entry with the four numbers, Goal 1 pace, the batch, and his answer to step 7.
 - One line in `07-Agents/finance/log.md`. Anything learned → its `memory.md`.
 - Commit: `finance: close <YYYY-MM>`.

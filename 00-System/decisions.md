@@ -220,3 +220,13 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 
 **Who decided:** Samuel for the look, the monthly tabs and the ownership. The build for the snapshot mechanism.
 
+## 2026-09-22 — Correction: September gets its own tab; each month has its own plan file
+
+**Samuel:** *"Wait, I need to see September too, where are still in september and some budgetting may still be needed in september, you are showing me only october when that is not our current month"*
+
+**Corrects** the two entries above that started the sheet at 2026-10 and froze plans with `snapshot`.
+- **September came into the live ledger.** A 2026-08-31 opening plus the 1–16 Sep rows were transcribed from the old ledger. The ledger's starting position is now its earliest `opening` rows. The 2026-09-16 opening rows became checkpoints: the scripts verify them and don't apply them. The rows add up to every checkpoint exactly, and to the old Dashboard's September totals (NGN 1,373,937 in, NGN 1,273,708 spent). No row was edited.
+- **Each month has its own plan file,** `03-Areas/finances/plans/plan-YYYY-MM.md`. September's is the 2 Sep replan plus his 16 Sep cuts, with each change and whose call it was. `obligations.md` is the standing plan a month starts from. The running month's plan can change, with a trace. At the close it is frozen (`freeze`) and never edited again. `snapshot` is gone.
+- Checkpoint rows and correction notes stay in the Brain but don't show on the sheet.
+
+**Who decided:** Samuel for seeing September and budgeting it. The build for the mechanism.

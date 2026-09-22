@@ -45,4 +45,10 @@ From the archived [[08-Archive/accountability-engine/context/money-ledger|engine
 - **Check the look before saying it's done:** export each tab as a PDF with the robot's session (`docs.google.com/spreadsheets/d/<id>/export?format=pdf&gid=<gid>`, drive.readonly scope) and read it. The first styled build had a clipped header that only showed up this way.
 - Styling is written cell by cell in one `updateCells` per tab (value + format together). Every build first unmerges, clears and resets row heights, so nothing from an old layout survives.
 
+## 2026-09-22 — Correction: September is in the live ledger
+
+- **Supersedes the "September 2026 is split across two ledgers" line above.** The 1–16 Sep rows were brought in with a 2026-08-31 opening, and the 2026-09-16 openings are now checkpoints. A September close reads the live ledger only.
+- **Show him the running month, always.** He asked where September was the moment the sheet jumped to October. The month on screen must be the month he's living in.
+- Month plans have their own lines. September has one-offs (Son's school, Kaduna trip, Gym clothing, Sister's debt) that the standing plan doesn't. The ledger category must match the month's plan line.
+
 Back to [[07-Agents/finance/profile|Profile]]
