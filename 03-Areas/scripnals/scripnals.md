@@ -2,7 +2,7 @@
 type: area
 area: scripnals
 status: needs-input
-updated: 2026-09-20
+updated: 2026-09-22
 source: project-handover
 tags: []
 ---
@@ -24,7 +24,11 @@ An AI scripting and ideation app for content creators, and one of the four branc
 
 Positioned as the daily execution tool — the last stage of the ascension model (Academy → Community → Mentorship → App). The other branches teach, support and personalise; this is where the day-to-day doing happens.
 
-## Current status — as of 2026-09-20
+## Current status — as of 2026-09-22
+
+Samuel, 2026-09-22: the developers are **still building it for free**; *"the app is starting to actually take good shape"* and **may be tested by people this year.** Outside his Big 3 ([[02-Me/goals/goal-ladder|Goal ladder]]).
+
+### As of 2026-09-20
 
 **Unknown and unverified.** The Brain holds product positioning only. No build status, no stack, no validation evidence, no roadmap, no metrics. There is a `Desktop/HighSignals/HighSignals App/` folder containing an APK and `Frontend_and_Mobile_Technical_Architecture_MVP1.pdf` that has not been inventoried — that suggests a build exists, but nothing here confirms how far it got.
 

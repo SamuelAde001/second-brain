@@ -2,7 +2,7 @@
 type: area
 area: personal-brand
 status: needs-input
-updated: 2026-09-20
+updated: 2026-09-22
 source: project-handover
 tags: []
 ---
@@ -25,7 +25,7 @@ The brand is how clients, students, community members and collaborators find him
 
 That makes the personal brand the one area currently moving. The Academy is paused, the community's teaching has ended, and client volume is set by someone else — this is the part of the system that responded to effort.
 
-The series is **[[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]** — two episodes so far, B-roll shot per episode, **posting once a week**. Its structure, length and production time are still uncaptured.
+The series is **[[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]** — two episodes so far, B-roll shot per episode, **posting once a week** (as of 2026-09-20; from 2026-09-22 Samuel's plan is **some content every day**, as time allows — [[02-Me/goals/goal-ladder|Goal ladder]]). Its structure, length and production time are still uncaptured.
 
 **What raises the cadence is not a content decision.** His words: *"that cadence would improve once I speed up my video editing for my client using Claude."* See [[05-Knowledge/the-constraint-chain|The constraint chain]].
 

@@ -59,11 +59,11 @@ From the memory export, 2026-09-04, and this is genuinely all that is recorded:
 - [[how-to-work-with-me]] — tone, boundaries, what he wants from an agent
 - [[patterns]] — the five failure patterns, confirmed by Samuel 2026-09-22
 - [[daily-routine]] — the day's anchors and his habits, confirmed 2026-09-22
-- `goals/` — the goal ladder (10-year → 3-year → 1-year → quarter). **Empty.** Built in Phase 3.
+- [[02-Me/goals/goal-ladder|Goal ladder]] — the 12-month picture, the Big 3 and per-domain targets, confirmed 2026-09-22. Starts at 12 months by his choice; no quarter goals yet.
 
 ## Still missing entirely
 
-Values · mission · principles · sleep · energy peaks · planning cadence · what accountability he actually wants · what a good week looks like. The goal ladder does not exist.
+Values · principles · sleep · energy peaks · planning cadence · what accountability he actually wants · what a good week looks like. Quarter goals do not exist yet.
 
 ## Related
 

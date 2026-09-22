@@ -2,7 +2,7 @@
 type: knowledge
 area: personal-brand
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: memory-export
 tags: [instagram, strategy]
 ---
@@ -63,6 +63,8 @@ Note what that contradicts. The earlier strategy note (2026-09-04) recorded: *"e
 
 ## Cadence — current
 
-**Once a week**, as of 2026-09-20. The 1 cinematic + 3 talking-head + 1 BTS rhythm in [[brand-context]] (2026-07) is **not what is happening**, and the engine's Wednesday-7pm rule is unconfirmed since the series began. One a week is the real number, and it is capacity-bound, not choice-bound.
+**Daily, from 2026-09-22.** Samuel: *"Some kind of content is going out everyday from now on"* — *"as long as I have time."* Target: 5,000 followers by December 2026 ([[02-Me/goals/goal-ladder|Goal ladder]]).
+
+**Before that — once a week**, as of 2026-09-20. The 1 cinematic + 3 talking-head + 1 BTS rhythm in [[brand-context]] (2026-07) is **not what is happening**, and the engine's Wednesday-7pm rule is unconfirmed since the series began. One a week is the real number, and it is capacity-bound, not choice-bound.
 
 Related: [[brand-context]] · [[script-process]] · [[03-Areas/personal-brand/personal-brand-ideas|Ideas]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

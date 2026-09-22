@@ -2,7 +2,7 @@
 type: area
 area: mentorship
 status: needs-input
-updated: 2026-09-20
+updated: 2026-09-22
 source: project-handover
 tags: []
 ---
@@ -19,7 +19,11 @@ Third stage of the ladder — after the Academy equips and the community impleme
 
 It is the only branch that scales down instead of up: one person at a time, highest touch, and named in the source as **the premium tier** — so presumably the highest price and the biggest claim on Samuel's own hours, which are already the bottleneck ([[02-Me/about-samuel|Me]]).
 
-## Current status — as of 2026-09-20
+## Current status — as of 2026-09-22
+
+**Planned, not started, not finalized** (Samuel, 2026-09-22). Mentorship and coaching programs are **third in his Big 3**, after editing and content. His words: *"I need demand."* **First step: a webinar for video editors**, then one-on-one coaching. 12-month target: *"a coach for video editors"* with *"my own agency for video editors"* ([[02-Me/goals/goal-ladder|Goal ladder]]).
+
+### As of 2026-09-20
 
 Nothing is known beyond the name and its position in the model. No offer, no format, no mentees, no curriculum, no pricing, no outcomes. Everything here is Phase 3 interview material.
 
