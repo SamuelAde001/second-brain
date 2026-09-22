@@ -2,7 +2,7 @@
 type: knowledge
 area: scripnals
 status: needs-input
-updated: 2026-09-20
+updated: 2026-09-22
 source: claude-export
 tags: [validation, survey]
 ---
@@ -10,6 +10,8 @@ tags: [validation, survey]
 # Validation — user feedback questionnaire
 
 From two chats: `01-Inbox/_imports/processed/shortlist/scripnals/2026-07-22-understanding-scripnals.md` and `.../2026-07-25-scripnals-app-user-feedback-questionnaire.md`.
+
+> **Update 2026-09-22, Samuel:** the survey **was sent** and *"we had loads of responses"*. He will draft them into the Brain. Where this note says there is no evidence the survey went out, that is now superseded. The results themselves aren't in the Brain yet. The discount cap question is still open.
 
 ## What Scripnals is — confirmed correction, 2026-07-22
 

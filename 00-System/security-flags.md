@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: manual
 tags: [security]
 ---
@@ -17,6 +17,7 @@ Files found on this machine that contain, or may contain, items on the never-sto
 | 2026-09-20 | `Desktop/HighSignals/…ExportBlock…/HighSignals Membership form *.csv` and `HighSignals Members *.md` | Notion export of community member records — other people's personal data. | Not imported. Community notes describe the community, not its members. |
 | 2026-09-20 | `Documents/parsec_backup_codes.txt` | Backup / recovery codes. | Not imported. Worth moving into a password manager and deleting the file. |
 | 2026-09-20 | `Desktop/Downloader/cookies.txt` | Browser session cookies used by a downloader tool — session credentials. | Not imported. |
+| 2026-09-22 | `Desktop/HighSignals/HighSignals App/highsignals-project-c81536a46f16.json` (2026-07-18) | Named like a Google Cloud service-account key (`<project>-<key-id>.json`), which is a live credential. It sits beside the app docs. | Never opened. Not imported. If it's a live key, it belongs in a password manager or the devs' secret store, not loose on the Desktop. If it's unused, revoke it in Google Cloud. |
 
 ## Standing note
 
