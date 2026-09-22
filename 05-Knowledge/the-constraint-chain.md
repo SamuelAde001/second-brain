@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-21
+updated: 2026-09-22
 source: interview
 tags: [strategy, capacity]
 ---
@@ -34,6 +34,7 @@ Every link is documented, and none of it is inference:
 3. **Cadence drives the audience.** The one series he shipped twice — [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]] — moved Instagram 460 → 671 in about 25 days.
 4. **The audience is the course's market**, and the course is *"the only income line whose existence he controls"* ([[03-Areas/finances/income|Income]]). Route Rise sets his volume and his rate and does not tell him the volume in advance.
 5. **Which loops back:** the course is meant to carry roughly NGN 42,530/month from January 2027. It is paused for lack of time — time taken by client editing.
+   - *Update 2026-09-22:* Samuel has handed that job to **mentorship** ([[03-Areas/mentorship/mentorship|Mentorship]]). The chain doesn't change: mentorship is also Samuel's own hours, and also waits on demand.
 
 ## What that makes the editing agent
 

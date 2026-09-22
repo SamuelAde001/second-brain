@@ -1,8 +1,8 @@
 ---
 type: area
 area: academy
-status: needs-input
-updated: 2026-09-20
+status: paused
+updated: 2026-09-22
 source: project-handover
 tags: []
 ---
@@ -17,7 +17,16 @@ tags: []
 
 Described in the source doc as the first stage of an ascension model — Academy equips, community implements, mentorship personalises, Scripnals executes daily. It is the entry point people meet first.
 
-## Current status — as of 2026-09-20
+## Current status — as of 2026-09-22
+
+**Still paused.** Samuel, 2026-09-22: *"It's paused until I have time, right now so much is on hand."* There is no restart date and no restart condition. It comes back when time frees up.
+
+- **When it's rebuilt, the course is most likely about video editing and DaVinci Resolve.** Samuel: *"Yeah, mostlikely video editing and Davinci resolve."* Likely, not final.
+- **The CapCut curriculum is kept, not dropped.** Samuel: *"Keep it, I may do another course later in future for it, so it may come in handy, but not top on the list of courses."* So [[03-Areas/academy/called-to-edit-beginners/called-to-edit-beginners|Called to Edit: Beginners]] stays in the Brain as a possible later, lower-priority course.
+- **Mentorship now carries the January income line.** Samuel: *"Mentorship would replace it."* This is the roughly NGN 42,530/month from January 2027 that the course was meant to earn ([[03-Areas/finances/finances-goals|Finance goals]]). Mentorship doesn't have a price, a start date or a paying mentee yet, so the line has a name but no money behind it (open question 70) → [[03-Areas/mentorship/mentorship|Mentorship]].
+- `Desktop/HighSignals/Course/`: still not inventoried.
+
+### As of 2026-09-20
 
 > ## ⏸ PAUSED — 2026-09-20
 >
@@ -39,7 +48,7 @@ Advanced and Called to Create exist as positioning only. No platform, pricing, l
 
 ## Goals
 
-See [[03-Areas/academy/academy-goals|Goals]]. Not set yet.
+See [[03-Areas/academy/academy-goals|Goals]]. None while paused.
 
 ## Map of content
 
@@ -51,7 +60,9 @@ See [[03-Areas/academy/academy-goals|Goals]]. Not set yet.
 
 ## Open questions
 
-- Curriculum per course: lessons, order, length.
+All of these wait until the course restarts:
+
+- The curriculum of the rebuilt DaVinci Resolve / editing-career course.
 - Platform, pricing, launch plan.
 - What assets already exist in `Desktop/HighSignals/Course/`.
 - Whether all three courses exist yet, or only Called to Edit Beginners.

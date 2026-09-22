@@ -23,6 +23,8 @@ It is the only branch that scales down instead of up: one person at a time, high
 
 **Planned, not started, not finalized** (Samuel, 2026-09-22). Mentorship and coaching programs are **third in his Big 3**, after editing and content. His words: *"I need demand."* **First step: a webinar for video editors**, then one-on-one coaching. 12-month target: *"a coach for video editors"* with *"my own agency for video editors"* ([[02-Me/goals/goal-ladder|Goal ladder]]).
 
+**The income line from January 2027 is now mentorship's** (Samuel, 2026-09-22: *"Mentorship would replace it"*, meaning the paused course). That's roughly NGN 42,530/month ([[03-Areas/finances/finances-goals|Finance goals]]). With no price, no start date and no paying mentee, it isn't funded yet (open question 70).
+
 **Mentees now: 3** — unpaid, ad hoc, mostly on WhatsApp, with an occasional hour-long call scheduled as it comes; about 1h a week, unpredictable. From the engine's `people.md` (2026-08-26), confirmed by Samuel 2026-09-22.
 
 ### As of 2026-09-20

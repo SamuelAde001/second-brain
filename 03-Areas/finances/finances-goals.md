@@ -60,6 +60,8 @@ So the NGN 3M is not impossible. **It is arithmetically knife-edge**, and the wh
 The course's real job was never the NGN 42,530. It is that it is **the only income line whose existence he controls**.
 
 > **⏸ And as of 2026-09-20 it is paused** — no recording, no launch date, possibly a rebuild from scratch ([[03-Areas/academy/academy|Academy]]). So the January number currently has **no source**. Goal 2 at the current mix clears by NGN 7,470/month and the emergency fund does not fit; the course was the answer to that gap. Nothing has replaced it.
+>
+> **Update 2026-09-22:** Samuel has named the replacement: *"Mentorship would replace it."* Mentorship has no price, no start date and no paying mentee yet ([[03-Areas/mentorship/mentorship|Mentorship]]), so the January number has a name but still no money behind it (open question 70).
 
 That is the argument for the course, with a number attached. Every course block that gets skipped is a payment missed on it.
 
