@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-21
+updated: 2026-09-22
 source: manual
 tags: [systems]
 ---
@@ -15,7 +15,7 @@ The ladder, lowest rung first: **SOP → checklist → skill → automation.** W
 
 ## Agents
 
-| Agent | Owns | Wrapper | Status |
+| Agent | Owns | Profile → generated adapter | Status |
 |-------|------|---------|--------|
 | **video-editor** | The DaVinci Resolve editing pipeline + standing Resolve expertise | `.claude/agents/video-editor.md` → [[07-Agents/video-editor/profile\|profile]] | **skeleton built 2026-09-21**; step 6 proven; skills pending |
 
@@ -29,18 +29,25 @@ Roster and planned agents: [[07-Agents/roster|roster]].
 | Script review | checklist | content (Phase 4) | [[script-review-checklist]] | He sends a script for review | unknown | active |
 | Routerise cut workflow | SOP | video editing (Phase 4) | [[routerise-cut-workflow]] | A Routerise edit starts | unknown | active |
 
-## Skills — exist, but not in this Brain
+## Skills — in the Brain
 
-These four are **platform-provided plugin skills**, invoked by name in Claude Code. They are not files under `.claude/skills/`, and they are not on disk anywhere on this PC — so they could not be copied into the Brain during migration.
+Canonical copies live in `00-System/skills/<name>/<name>.md`, with scripts and assets beside them. Any AI can run them ([[00-System/portability|portability]]); Claude Code and Gemini CLI get generated copies in `.claude/skills/` and `.agents/skills/`. These four are **Samuel's own claude.ai skills** (`creatorType: user`), copied in 2026-09-22. The Brain copy is canonical; the claude.ai copies are adapters for chat on the phone and web — edit here, re-upload with `build_adapters.py --package`.
 
-| Skill | What it does | Area |
-|-------|--------------|------|
-| `edit-clock` | Standalone HTML pace widget kept beside Resolve: where the playhead should be now, time left, timeline needed per hour, ahead/behind. Reads WAT (UTC+1). **When Samuel asks for "a timer", this is what he means.** | [[03-Areas/video-editing/video-editing\|Video editing]] |
-| `video-edit-pass` | Two-phase edit-assist pass on a long-form talking-head cut: phase 1 reads subtitles + timeline XML and outputs a colour-coded marker EDL of what to cut; phase 2 builds a chaptered ALL-CAPS transcript plus chapter markers. | [[03-Areas/video-editing/video-editing\|Video editing]] |
-| `subtitle-transcript-formatter` | Turns a raw SRT/VTT export into a clean, sectioned, ALL-CAPS .docx for editing from. | [[03-Areas/video-editing/video-editing\|Video editing]] |
-| `yap-session-planner` | Structures unscripted talk-to-camera content into a beat-by-beat outline to speak from. | [[03-Areas/personal-brand/personal-brand\|Personal brand]] |
+| Skill | What it does | Area | Files beside it |
+|-------|--------------|------|-----------------|
+| [[edit-clock]] | Standalone HTML pace widget kept beside Resolve: where the playhead should be now, time left, timeline needed per hour, ahead/behind. Reads WAT (UTC+1). **When Samuel asks for "a timer", this is what he means.** | [[03-Areas/video-editing/video-editing\|Video editing]] | `assets/edit-clock.html`, `scripts/pace.py`, `scripts/test_clock.js` |
+| [[video-edit-pass]] | Two-phase edit-assist pass on a long-form talking-head cut: phase 1 reads subtitles + timeline XML and outputs a colour-coded marker EDL of what to cut; phase 2 builds a chaptered ALL-CAPS transcript plus chapter markers. | [[03-Areas/video-editing/video-editing\|Video editing]] | — |
+| [[subtitle-transcript-formatter]] | Turns a raw SRT/VTT export into a clean, sectioned, ALL-CAPS .docx for editing from. | [[03-Areas/video-editing/video-editing\|Video editing]] | `scripts/build_docx.js` |
+| [[yap-session-planner]] | Structures unscripted talk-to-camera content into a beat-by-beat outline to speak from. | [[03-Areas/personal-brand/personal-brand\|Personal brand]] | `references/frameworks.md` |
 
-**Portability gap:** AGENTS.md §8 says skills are plain-markdown files any model can read. These four are not, so Gemini CLI cannot run them. Phase 7 decides whether to author Brain-local equivalents. Logged as an open question.
+Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Brain path, outside claude.ai.
+
+## Scripts
+
+| Script | Job | Run |
+|--------|-----|-----|
+| `00-System/scripts/build_adapters.py` | Generates every AI tool's adapter files (Claude Code, Gemini CLI) from the canonical profiles and skills; `--check` detects drift; `--package` zips a skill for claude.ai | after any profile or skill edit |
+| `00-System/scripts/split_conversations.py` | Split the Claude chat export into one file per conversation (Phase 2 migration) | one-off, done |
 
 ## Job skills — not built yet
 
@@ -55,7 +62,7 @@ These four are **platform-provided plugin skills**, invoked by name in Claude Co
 | `storyboard-preview` | Step 5 — approved storyboard as animated HTML/CSS for sign-off. | build |
 | `html-to-fusion` | Step 6 — approved visuals → editable Fusion comps on the timeline. **Bridge proven 2026-09-21.** | build |
 
-Reused as-is by the agent, not rebuilt: `subtitle-transcript-formatter` (step 3), `video-edit-pass` (step 2 / editorial), `edit-clock`.
+Reused as-is by the agent, not rebuilt: [[subtitle-transcript-formatter]] (step 3), [[video-edit-pass]] (step 2 / editorial), [[edit-clock]].
 
 ## Automations — none
 

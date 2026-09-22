@@ -7,8 +7,8 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 ## Start here
 
 - **Phase:** 3 (interviews) still open, and **Phase 4 has begun** — the first agent is built.
-- **Last session:** 2026-09-21. Built the **video-editor** agent skeleton, **proved step 6** (HTML→Fusion), then began **step 1 (sync)** in the new **"Claude tests"** project: DaVinci waveform sync fails on dead camera audio; the **motion-correlation fallback works** (+4.0 s / ~120 frames, z 7.6). ffmpeg installed. Full detail in the SOP and [[07-Agents/video-editor/memory|the agent's memory]].
-- **Next action — Samuel's instruction (2026-09-21):** **skip the video-editing tests next chat; start the other parts.** So: continue **Phase 3 interviews** or fill **`02-Me`** (the biggest hole). The video-editor pipeline resumes in a later, dedicated Resolve session.
+- **Last session:** 2026-09-22. **Made the Brain AI-agnostic** (Samuel's instruction). Canonical files hold everything; tool files are generated adapters. `00-System/portability.md` is the contract. `00-System/scripts/build_adapters.py` generates Claude Code and Gemini CLI agents and skills from `07-Agents/*/profile.md` and `00-System/skills/`. The 4 claude.ai skills were **found on disk** (packaged-app path) and copied in. Previous session (2026-09-21): video-editor skeleton, step 6 proven, step 1 sync tested — detail in the SOP and [[07-Agents/video-editor/memory|the agent's memory]].
+- **Next action — Samuel's instruction (2026-09-21), still standing:** skip the video-editing tests; do the other parts. So: **Phase 3 interviews** and **`02-Me`** (the biggest hole). First question for Samuel: are the engine context files (loose end 2) current? They are the best source for `02-Me` and relationships.
 - **When video editing resumes:** ear-check the +4.0 s offset on a timeline, decide how the `routerise-cut` skill *applies* the offset, then build the four job skills (`routerise-cut` first). Goal: one real video end to end.
 - **Remaining Phase 3 domains:** **scripnals · academy (paused, short) · mentorship · community (mostly captured) · relationships · me · book.**
 - **The biggest hole in the Brain is `02-Me`** — no values, principles, confirmed patterns, daily routine, planning cadence, accountability preferences, and **no goal ladder at all**.
@@ -19,7 +19,7 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 ## What exists now
 
-- **~130 notes, 33 commits**, pushed to `https://github.com/SamuelAde001/second-brain` (private, branch `main`). (2026-09-21 added the first agent: `07-Agents/` roster, handoffs, and the `video-editor/` folder, plus the `.claude/agents/video-editor.md` wrapper.)
+- **167 markdown files, 36 commits** (2026-09-22; generated adapter folders not counted), pushed to `https://github.com/SamuelAde001/second-brain` (private, branch `main`).
 - Brain path: `C:\Users\repzy\Desktop\My Second brain`. Outside OneDrive and Dropbox. Git identity: Samuel <repzysam@gmail.com>.
 - `.claude/settings.json` allows git add/commit/push/status/log/diff/ls-remote, and denies reads of `.env`, `*.key`, `credentials*.json`, `token*.json`.
 - **Terminology: it is "the Brain", never "the vault."**
@@ -71,8 +71,10 @@ Full records in `00-System/decisions.md`. The ones that matter most:
    - **Ask Samuel first whether these are current**, the way the money file was. Do not assume.
 3. **Per-project memory files not fully distilled:** `technical-learnings.md` (14.6k), `story-bank.md` (8.1k), `scripting-and-collaboration.md`, `taking-a-step-back-from-claude.md`, `cold-outreach-video.md`. Likely overlap with what is already extracted — check before spending tokens.
 4. **~200 conversations were dropped at the triage gate.** `01-Inbox/_imports/processed/triage.csv` has the full list if anything is ever needed.
-5. **The 4 platform skills** (`edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner`) are not files on disk and could not be copied in. Gemini cannot run them — open question 28.
+5. ~~The 4 platform skills could not be copied in.~~ **Resolved 2026-09-22:** they were on disk under the Claude app's packaged-app path, all `creatorType: user`. Now canonical in `00-System/skills/`. Open question 28 answered.
 6. **67 open questions** in `00-System/open-questions.md`. The live ones worth raising early: what counts as a "major" spend (61), nothing captures videos delivered (62), the consequence for breaking the savings rule (55 — the one question Samuel did not answer), and who Mshel is (36).
+7. **Gemini CLI 0.60.0 is installed, but inside the Claude app's private storage** (`AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\npm`). It may not run from a normal terminal. Samuel to check `gemini --version` there (open question 2). No MCP servers are connected in Gemini.
+8. **No end-to-end test with a second AI has run.** The adapters are generated and verified against Gemini's own docs, but Gemini has not yet read the Brain. That test sends Brain content to Google, so it needs Samuel's go-ahead.
 
 ---
 
@@ -104,3 +106,4 @@ Full records in `00-System/decisions.md`. The ones that matter most:
 - 2026-09-20 — Session ended at Samuel's request, limits nearly spent. Next session resumes from "Start here" above.
 - 2026-09-21 — Phase 4 opened: **video-editor agent** skeleton built (roster, handoffs, profile/memory/log, wrapper) — the first agent in the Brain. **Step 6 proven** in Resolve 21.1 via the MCP: an 8-node house-style card built on a duplicated timeline and rendered over the footage. Decided: the "ideation skill" doesn't exist yet (build it); OGraf HTML is a preview aid, not step-6 output. Left `Timeline 2 - CLAUDE AGENT TEST` in the reference project for Samuel to inspect.
 - 2026-09-21 — **Step 1 (sync) tested** in the new "Claude tests" project. DaVinci `AutoSyncAudio` waveform returns False (camera audio dead, −77.8 dB); **motion-correlation fallback works** (+4.0 s ≈ 120 frames @ 29.97, z 7.6, consistent with the SOP's prior ~4.17 s). ffmpeg (Gyan 9.0.1) installed via winget. SOP step 1 updated with the verified decision tree and a reproducible ffmpeg+Python method. **Samuel stopped here (gym); next chat skips video tests and does other parts.**
+- 2026-09-22 — **The Brain is AI-agnostic.** `00-System/portability.md` written (layers, rules, tiers, neutral tool names, linked-AI registry, write tiers, linking checklist, integrations). Agent profiles and `00-System/skills/` are canonical; `build_adapters.py` generates `.claude/` and `.gemini/` + `.agents/` adapters (Gemini formats verified against its installed docs). The 4 claude.ai skills found on disk and copied in; `edit-clock` verified running from the Brain. AGENTS.md gains §11 (any AI) and §12 (session protocol, moved from CLAUDE.md). CLAUDE.md and GEMINI.md are adapters only. Open question 28 answered, 2 partly.

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#14171a" />
+<title>Edit clock</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#14171a;
+    --panel:#1c2126;
+    --panel-2:#232a30;
+    --rule:#2c333a;
+    --ink:#e6eaed;
+    --muted:#7c8892;
+    --ahead:#4ed8a0;
+    --behind:#ff6b4a;
+    --plan:#f0b429;
+    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;min-height:100%}
+  body{
+    background:var(--bg);color:var(--ink);
+    font-family:var(--sans);font-size:14px;line-height:1.5;
+    padding:18px;padding-bottom:calc(18px + env(safe-area-inset-bottom));
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{display:flex;flex-direction:column;gap:14px;max-width:640px;margin:0 auto}
+  .lbl{font-size:12px;color:var(--muted);letter-spacing:.01em}
+  .num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  button{
+    font-family:var(--sans);font-size:13px;color:var(--ink);
+    background:var(--panel-2);border:1px solid var(--rule);border-radius:7px;
+    padding:8px 13px;cursor:pointer;min-height:38px;
+  }
+  button:hover{background:#2b333a}
+  button:focus-visible,input:focus-visible{outline:2px solid var(--plan);outline-offset:2px}
+  button.primary{background:var(--plan);border-color:var(--plan);color:#1a1508;font-weight:500}
+  button.primary:hover{background:#f7c342}
+  input{
+    font-family:var(--mono);font-size:16px;color:var(--ink);
+    background:var(--bg);border:1px solid var(--rule);border-radius:7px;
+    padding:9px 11px;min-height:38px;width:100%;
+  }
+  input::placeholder{color:#5a656e}
+
+  /* ruler */
+  .ruler{position:relative;height:56px;flex:none}
+  .track{position:absolute;top:24px;left:0;right:0;height:12px;background:var(--panel);border-radius:6px;overflow:hidden}
+  .done{position:absolute;inset:0 auto 0 0;width:0;background:var(--rule)}
+  .mark{position:absolute;top:16px;width:2px;height:28px;margin-left:-1px;border-radius:1px}
+  .mark.plan{background:var(--plan)}
+  .mark.you{background:var(--ahead)}
+  .mark .cap{
+    position:absolute;top:-15px;left:50%;transform:translateX(-50%);
+    font-family:var(--mono);font-size:10px;white-space:nowrap;
+  }
+  .mark.plan .cap{color:var(--plan)}
+  .mark.you .cap{color:inherit}
+  .ends{position:absolute;top:41px;left:0;right:0;display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;color:var(--muted)}
+
+  /* target block */
+  .hero{background:var(--panel);border-radius:12px;padding:16px 18px}
+  .hero .big{font-family:var(--mono);font-size:clamp(38px,13vw,54px);font-weight:700;line-height:1.05;letter-spacing:-.02em}
+  .row{display:flex;gap:10px;flex-wrap:wrap}
+  .cell{flex:1 1 130px;background:var(--panel);border-radius:10px;padding:12px 14px}
+  .cell .v{font-family:var(--mono);font-size:19px;font-weight:500;margin-top:3px}
+
+  .check{background:var(--panel);border-radius:10px;padding:12px 14px}
+  .checkrow{display:flex;gap:8px;align-items:center;margin-top:8px}
+  .checkrow input{flex:1 1 auto;max-width:130px}
+  #verdict{font-family:var(--mono);font-size:15px;font-weight:500}
+  #since{font-size:12px;color:var(--muted);margin-top:8px;min-height:18px}
+
+  .foot{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  .foot .spacer{flex:1 1 auto}
+  .quiet{background:none;border-color:transparent;color:var(--muted);padding:8px 6px}
+  .quiet:hover{background:var(--panel);color:var(--ink)}
+
+  .fields{display:flex;flex-direction:column;gap:12px;margin-top:12px}
+  .field .lbl{display:block;margin-bottom:5px}
+  .hint{font-size:12px;color:var(--muted);margin-top:4px}
+  .err{font-size:13px;color:var(--behind);min-height:19px;margin-top:4px}
+  .hidden{display:none !important}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ===== setup ===== -->
+  <section id="setup" class="hidden">
+    <div class="hero">
+      <div style="font-size:17px;font-weight:500">Set the pace line</div>
+      <div class="hint">Three numbers, then it runs itself.</div>
+      <div class="fields">
+        <div class="field">
+          <label class="lbl" for="f-len">Full length of the video</label>
+          <input id="f-len" type="text" inputmode="numeric" placeholder="33:46" />
+        </div>
+        <div class="field">
+          <label class="lbl" for="f-pos">Where the playhead is right now</label>
+          <input id="f-pos" type="text" inputmode="numeric" placeholder="10:53" />
+        </div>
+        <div class="field">
+          <label class="lbl" for="f-end">Finish by (WAT, 24-hour)</label>
+          <input id="f-end" type="text" inputmode="numeric" placeholder="19:00" />
+        </div>
+      </div>
+      <div class="err" id="setup-err"></div>
+      <div class="row" style="margin-top:4px">
+        <button class="primary" id="go">Start the clock</button>
+        <button class="quiet hidden" id="cancel-setup">Cancel</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== running ===== -->
+  <section id="live" class="hidden">
+    <div class="ruler">
+      <div class="track"><div class="done" id="done"></div></div>
+      <div class="mark plan" id="m-plan"><span class="cap" id="cap-plan">plan</span></div>
+      <div class="mark you hidden" id="m-you"><span class="cap" id="cap-you">you</span></div>
+      <div class="ends"><span>00:00</span><span id="end-lbl">—</span></div>
+    </div>
+
+    <div class="hero">
+      <div class="lbl">Playhead should be at</div>
+      <div class="big num" id="target">—</div>
+    </div>
+
+    <div class="row">
+      <div class="cell">
+        <div class="lbl">Time left</div>
+        <div class="v" id="left">—</div>
+      </div>
+      <div class="cell">
+        <div class="lbl" id="rate-lbl">Needed per hour</div>
+        <div class="v" id="rate">—</div>
+      </div>
+      <div class="cell">
+        <div class="lbl">Now (WAT)</div>
+        <div class="v" id="clock">—</div>
+      </div>
+    </div>
+
+    <div class="check">
+      <label class="lbl" for="actual">Where are you actually?</label>
+      <div class="checkrow">
+        <input id="actual" type="text" inputmode="numeric" placeholder="14:20" />
+        <button id="check-btn">Check</button>
+        <span id="verdict"></span>
+      </div>
+      <div id="since"></div>
+    </div>
+
+    <div class="foot">
+      <button id="reanchor">Re-anchor to now</button>
+      <span class="spacer"></span>
+      <button class="quiet" id="edit">Edit plan</button>
+      <button class="quiet" id="reset">Clear</button>
+    </div>
+  </section>
+
+</div>
+
+<script>
+(function(){
+  var KEY='edit-clock-v2', OLD_KEY='edit-clock-v1',
+      WAT=3600000, STALE=6*3600000, S=null;
+
+  /* ---------- time helpers (reads UTC+1 directly, ignores device timezone) ---------- */
+  function watParts(){
+    var t=Date.now()+WAT, d=t%86400000;
+    return {h:Math.floor(d/3600000), m:Math.floor(d/60000)%60, s:Math.floor(d/1000)%60};
+  }
+  function watEpochToday(h,m){
+    var now=Date.now(), msOfDay=(now+WAT)%86400000;
+    return now-msOfDay+(h*3600+m*60)*1000;
+  }
+  // next occurrence of HH:MM WAT from now; rolls past midnight if needed
+  function nextWatEpoch(h,m){
+    var e=watEpochToday(h,m);
+    if(e<=Date.now()) e+=86400000;
+    return e;
+  }
+
+  /* ---------- formatting ---------- */
+  function fmt(sec){
+    sec=Math.max(0,Math.round(sec));
+    var h=Math.floor(sec/3600), m=Math.floor(sec/60)%60, s=sec%60;
+    var mm=String(m).padStart(2,'0'), ss=String(s).padStart(2,'0');
+    return h?h+':'+mm+':'+ss:mm+':'+ss;
+  }
+  function fmtLeft(ms){
+    var sec=Math.max(0,Math.round(ms/1000));
+    return String(Math.floor(sec/3600)).padStart(2,'0')+':'+
+           String(Math.floor(sec/60)%60).padStart(2,'0')+':'+
+           String(sec%60).padStart(2,'0');
+  }
+  function ago(ms){
+    var m=Math.round(ms/60000);
+    if(m<1)return 'just now';
+    if(m<60)return m+' min ago';
+    var h=Math.floor(m/60);
+    return h+'h '+(m%60)+'m ago';
+  }
+
+  /* ---------- parsing ---------- */
+  function parseDur(v){
+    v=(v||'').trim();
+    var m=v.match(/^(\d{1,2}):(\d{1,2})(?::(\d{1,2}))?$/);
+    if(!m)return null;
+    var a=+m[1], b=+m[2], c=m[3]===undefined?null:+m[3];
+    if(c===null){ if(b>59)return null; return a*60+b; }
+    if(b>59||c>59)return null;
+    return a*3600+b*60+c;
+  }
+  function parseClock(v){
+    v=(v||'').trim();
+    var m=v.match(/^(\d{1,2}):(\d{2})$/);
+    if(!m)return null;
+    var h=+m[1], mi=+m[2];
+    if(h>23||mi>59)return null;
+    return {h:h,m:mi};
+  }
+
+  /* ---------- state ---------- */
+  function save(){ try{ localStorage.setItem(KEY,JSON.stringify(S)); }catch(e){} }
+  function load(){
+    try{ localStorage.removeItem(OLD_KEY); }catch(e){}
+    try{ var raw=localStorage.getItem(KEY); if(raw) S=JSON.parse(raw); }catch(e){ S=null; }
+  }
+  function wipe(){ try{ localStorage.removeItem(KEY); }catch(e){} S=null; }
+  function deadlineEpoch(){ return S.endEpoch; }   // locked in at setup
+  function planPos(at){
+    var end=deadlineEpoch();
+    if(end<=S.anchorEpoch) return S.endPos;
+    var f=(at-S.anchorEpoch)/(end-S.anchorEpoch);
+    f=Math.min(1,Math.max(0,f));
+    return S.anchorPos+f*(S.endPos-S.anchorPos);
+  }
+
+  /* ---------- view switching ---------- */
+  var $=function(id){return document.getElementById(id);};
+  function show(which){
+    $('setup').classList.toggle('hidden',which!=='setup');
+    $('live').classList.toggle('hidden',which!=='live');
+  }
+
+  /* ---------- setup ---------- */
+  function openSetup(prefill){
+    $('setup-err').textContent='';
+    $('cancel-setup').classList.toggle('hidden',!S);
+    if(prefill&&S){
+      $('f-len').value=fmt(S.endPos);
+      $('f-pos').value=fmt(S.anchorPos);
+      $('f-end').value=String(S.dh).padStart(2,'0')+':'+String(S.dm).padStart(2,'0');
+    }
+    show('setup');
+    $('f-len').focus();
+  }
+  $('go').addEventListener('click',function(){
+    var len=parseDur($('f-len').value),
+        pos=parseDur($('f-pos').value),
+        dl=parseClock($('f-end').value),
+        e=$('setup-err');
+    if(len===null){ e.textContent='Length needs to look like 33:46 or 1:12:00.'; return; }
+    if(pos===null){ e.textContent='Position needs to look like 10:53.'; return; }
+    if(dl===null){ e.textContent='Deadline needs to look like 19:00.'; return; }
+    if(pos>=len){ e.textContent='The playhead is already at or past the end.'; return; }
+    var now=Date.now(), end=nextWatEpoch(dl.h,dl.m);
+    if(end-now<60000){ e.textContent='That deadline is less than a minute away.'; return; }
+    S={endPos:len, anchorPos:pos, anchorEpoch:now, endEpoch:end, dh:dl.h, dm:dl.m, last:null};
+    save();
+    $('actual').value=''; $('verdict').textContent='';
+    show('live'); tick();
+  });
+  $('cancel-setup').addEventListener('click',function(){ show('live'); });
+
+  /* ---------- live ---------- */
+  function tick(){
+    if(!S) return;
+    var now=Date.now(), end=deadlineEpoch(), span=S.endPos-S.anchorPos;
+    var p=watParts();
+    $('clock').textContent=String(p.h).padStart(2,'0')+':'+String(p.m).padStart(2,'0')+':'+String(p.s).padStart(2,'0');
+    $('left').textContent=now>=end?'00:00:00':fmtLeft(end-now);
+
+    var t=planPos(now);
+    $('target').textContent=fmt(t);
+    $('target').style.color=now>=end?'var(--behind)':'var(--ink)';
+
+    // rate: from the check-in if there is one, otherwise from the plan line
+    var hrsLeft=Math.max((end-now)/3600000,1/3600);
+    if(S.last){
+      $('rate-lbl').textContent='Needed per hour from '+fmt(S.last.pos);
+      $('rate').textContent=now>=end?'—':fmt(Math.max(0,(S.endPos-S.last.pos)/hrsLeft));
+    }else{
+      $('rate-lbl').textContent='Needed per hour';
+      $('rate').textContent=fmt(span/Math.max((end-S.anchorEpoch)/3600000,1/3600));
+    }
+
+    // ruler
+    var pct=function(pos){ return Math.min(100,Math.max(0,pos/S.endPos*100)); };
+    $('done').style.width=pct(t)+'%';
+    $('m-plan').style.left=pct(t)+'%';
+    $('cap-plan').textContent=fmt(t);
+    $('end-lbl').textContent=fmt(S.endPos);
+
+    if(S.last){
+      var you=$('m-you'), drift=S.last.pos-planPos(S.last.epoch);
+      you.classList.remove('hidden');
+      you.style.left=pct(S.last.pos)+'%';
+      you.style.background=drift<0?'var(--behind)':'var(--ahead)';
+      you.style.color=drift<0?'var(--behind)':'var(--ahead)';
+      $('cap-you').textContent=fmt(S.last.pos);
+      $('since').textContent='Last check-in '+ago(now-S.last.epoch)+' at '+fmt(S.last.pos)+'.';
+    }else{
+      $('m-you').classList.add('hidden');
+      $('since').textContent='';
+    }
+  }
+
+  $('check-btn').addEventListener('click',function(){
+    var pos=parseDur($('actual').value), out=$('verdict');
+    if(pos===null||pos>S.endPos){
+      out.style.color='var(--behind)';
+      out.textContent='enter 14:20';
+      return;
+    }
+    S.last={pos:pos, epoch:Date.now()};
+    save();
+    var d=pos-planPos(S.last.epoch);
+    if(Math.abs(d)<15){ out.style.color='var(--muted)'; out.textContent='on pace'; }
+    else if(d>0){ out.style.color='var(--ahead)'; out.textContent=fmt(d)+' ahead'; }
+    else{ out.style.color='var(--behind)'; out.textContent=fmt(-d)+' behind'; }
+    tick();
+  });
+  $('actual').addEventListener('keydown',function(e){ if(e.key==='Enter') $('check-btn').click(); });
+
+  $('reanchor').addEventListener('click',function(){
+    var pos=parseDur($('actual').value);
+    if(pos===null||pos>=S.endPos){
+      $('verdict').style.color='var(--behind)';
+      $('verdict').textContent='position first';
+      $('actual').focus();
+      return;
+    }
+    if(deadlineEpoch()-Date.now()<60000){
+      $('verdict').style.color='var(--behind)';
+      $('verdict').textContent='deadline passed — edit plan';
+      return;
+    }
+    S.anchorPos=pos; S.anchorEpoch=Date.now(); S.last=null;
+    save();
+    $('actual').value=''; $('verdict').textContent='';
+    tick();
+  });
+
+  $('edit').addEventListener('click',function(){ openSetup(true); });
+  $('reset').addEventListener('click',function(){
+    wipe();
+    $('f-len').value=''; $('f-pos').value=''; $('f-end').value='';
+    $('actual').value=''; $('verdict').textContent='';
+    openSetup(false);
+  });
+
+  /* ---------- keep the screen awake ---------- */
+  var lock=null;
+  function wake(){
+    if(!('wakeLock' in navigator))return;
+    navigator.wakeLock.request('screen').then(function(l){lock=l;}).catch(function(){});
+  }
+  document.addEventListener('visibilitychange',function(){ if(document.visibilityState==='visible') wake(); });
+  wake();
+
+  /* ---------- boot ---------- */
+  load();
+  var usable=S&&typeof S.endPos==='number'&&typeof S.anchorPos==='number'&&
+             typeof S.endEpoch==='number'&&(Date.now()-S.endEpoch)<STALE;
+  if(usable){ show('live'); }
+  else{ wipe(); openSetup(false); }
+  tick();
+  setInterval(tick,1000);
+})();
+</script>
+</body>
+</html>

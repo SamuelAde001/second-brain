@@ -2,7 +2,7 @@
 type: agent
 area: system
 status: active
-updated: 2026-09-21
+updated: 2026-09-22
 source: interview
 tags: [agents, roster]
 ---
@@ -15,9 +15,9 @@ Each agent has a folder under `07-Agents/<name>/` with `profile.md` (mission, sc
 
 ## Active
 
-| Agent | Owns | Wrapper | Model | Status |
+| Agent | Owns | Claude Code adapter | Tier | Status |
 |-------|------|---------|-------|--------|
-| **video-editor** | The client editing work in DaVinci Resolve — the brief-to-delivery pipeline, and standing Resolve expertise. Samuel's most important agent. | `.claude/agents/video-editor.md` | cheapest that does the job; strongest for editorial judgement | **skeleton built 2026-09-21** — step 6 (HTML→Fusion) proven; skills not yet built |
+| **video-editor** | The client editing work in DaVinci Resolve — the brief-to-delivery pipeline, and standing Resolve expertise. Samuel's most important agent. | generated → `.claude/agents/video-editor.md` | `standard`; `strong` for editorial judgement | **skeleton built 2026-09-21** — step 6 (HTML→Fusion) proven; skills not yet built |
 
 ## Planned — not built
 
@@ -31,6 +31,7 @@ Each agent has a folder under `07-Agents/<name>/` with `profile.md` (mission, sc
 ## Notes
 
 - The **video-editor is the first agent built.** Its folder is the pattern the others follow.
-- Model choice per CLAUDE.md: cheapest model that does the job well; reserve the strongest model for judgement-heavy work (editorial review, weekly synthesis).
+- **Profiles are canonical and model-neutral.** Any AI can run an agent by reading its profile and memory; a tool's native agent file is generated from the profile by `00-System/scripts/build_adapters.py` ([[00-System/portability|portability]]).
+- Tier per profile: cheapest that does the job well (`light` / `standard`); `strong` only for judgement-heavy work (editorial review, weekly synthesis).
 
 Back to [[00-System/build-state|Build state]] · Constitution: [[AGENTS]] §7.

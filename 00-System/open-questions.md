@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: manual
 tags: [open-questions]
 ---
@@ -14,7 +14,7 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | # | Question | Area | Raised | Blocking | Answered |
 |---|----------|------|--------|----------|----------|
 | 1 | ~~What is the private GitHub repo URL for this Brain?~~ | system | 2026-09-20 | — | 2026-09-20: `https://github.com/SamuelAde001/second-brain.git` |
-| 2 | Is Gemini CLI actually installed on this PC? `~/.gemini/` exists but the CLI itself was not verified. | system | 2026-09-20 | Phase 7 only | — |
+| 2 | Is Gemini CLI actually installed on this PC? `~/.gemini/` exists but the CLI itself was not verified. | system | 2026-09-20 | Gemini as the overflow model | partly, 2026-09-22: **installed** — `@google/gemini-cli` 0.60.0, npm global, 2026-09-21 16:30. But the install landed inside the Claude desktop app's packaged storage (`AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\npm`), so it may not be on PATH in a normal terminal. Samuel to run `gemini --version` in his own terminal. [[00-System/portability|Portability]] |
 | 3 | ~~Is HighSignals an umbrella ecosystem or just the community?~~ | community | 2026-09-20 | — | 2026-09-20: umbrella brand over Community, Academy, Mentorship, Scripnals. Personal brand sits outside and funnels in. [[03-Areas/highsignals/highsignals|Highsignals]] |
 | 4 | What do the Storytelling and The Journey content pillars actually cover, and what is the posting cadence per pillar? | personal-brand | 2026-09-20 | Content planning | — |
 | 5 | Did the Guiding While Riding series ever launch, and how many episodes exist? | personal-brand | 2026-09-20 | Content planning | — |
@@ -40,7 +40,7 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 25 | ~~Postgraduate engineering degree — scope and hours~~ **VOID.** | me | 2026-09-20 | — | 2026-09-20: not his. The postgraduate coursework and all electrical calculations were done **for his sister**. Note deleted, nothing of it is recorded. |
 | 26 | ~~Does postgraduate study get its own area?~~ **VOID** — see 25. No study area. | system | 2026-09-20 | — | 2026-09-20 |
 | 27 | Confirm the cut-sheet beat fields (picture / on-screen text / motion / cut-back-to-A-roll). They are reconstructed from one descriptive line, not from an actual cut sheet. | video-editing | 2026-09-20 | Cut-sheet SOP | — |
-| 28 | The four existing skills (`edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner`) are platform-provided, not files on disk, so they cannot be copied into `.claude/skills/` and Gemini cannot run them. Author Brain-local equivalents, or accept they are Claude-only? | system | 2026-09-20 | Phase 7 portability | — |
+| 28 | ~~The four existing skills (`edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner`) are platform-provided, not files on disk, so they cannot be copied into `.claude/skills/` and Gemini cannot run them. Author Brain-local equivalents, or accept they are Claude-only?~~ | system | 2026-09-20 | — | 2026-09-22: Brain-local copies. Samuel wants the Brain usable by any AI. The skills were on disk after all, under the packaged-app path; copied to `00-System/skills/`. [[00-System/portability|Portability]] |
 | 29 | What happened to the Notion migration? On 2026-08-28 Samuel decided plainly: "Notion becomes source of truth, repo retires." The memory export of 2026-09-04 says "Never used Notion for anything." Both recorded, neither picked. | me | 2026-09-20 | systems-history accuracy | — |
 | 30 | What triggered archiving the whole Accountability Engine on 2026-09-16 rather than revising it? No source covers the gap. | me | 2026-09-20 | Legacy review | — |
 | 31 | Was any gym/cardio routine actually adopted, or the coffee-with-milk adjustment? Both were proposed in chat and never confirmed. | me | 2026-09-20 | Health note, habit design | — |

@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: manual
 tags: [conventions]
 ---
@@ -24,12 +24,17 @@ Every note. No exceptions, including logs.
 
 | Field | Rule |
 |---|---|
-| `type` | area, project, knowledge, sop, log, person, client, decision, agent |
+| `type` | area, project, knowledge, sop, log, person, client, decision, agent, skill |
 | `area` | the folder under `03-Areas/` it belongs to, or `me` / `system` |
 | `status` | active, paused, done, needs-input |
 | `updated` | ISO date of the last real change to the content |
 | `source` | interview, project-handover, claude-export, memory-export, local-folder, legacy-accountability-engine, manual |
 | `tags` | list, lowercase, sparse. Tags are for cross-cutting retrieval only; the folder already says the area. |
+
+### Extra fields for agents and skills
+- **Agent profiles** (`07-Agents/<name>/profile.md`) also carry `name`, `description`, `tier` and `tools`, in neutral terms. `00-System/scripts/build_adapters.py` reads them to generate each AI tool's native agent file.
+- **Skills** (`00-System/skills/<name>/<name>.md`) also carry `name` and `description` — the open Agent Skills fields. The main file is named after the skill, not `SKILL.md`, so the unique-filename rule holds; the script renames it for tools that need `SKILL.md`.
+- Full vocabulary: [[00-System/portability|portability]].
 
 `status: needs-input` means a human answer is missing. Every one of those also gets a line in `open-questions.md`.
 
@@ -68,7 +73,7 @@ Checked across the Brain on 2026-09-20 and fixed in 79 files.
 
 ## Commit messages
 - One line, imperative, says what changed and where: `video-editing: add client note for Routerise`.
-- Prefix `[gemini]` when Gemini CLI made the commit.
+- Prefix `[<tool>]` when a guest AI made the commit, e.g. `[gemini]` ([[00-System/portability|portability]] → write tiers).
 - Commit after every completed piece of work, not in one lump at the end.
 
 ## What does not go in the Brain

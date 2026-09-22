@@ -1,0 +1,148 @@
+---
+name: subtitle-transcript-formatter
+description: "Turns a raw subtitle/caption file (.srt, .vtt, or similar auto-captioned export) from a talking-head video into a clean, all-caps, sectioned Word document for a video editor to work from. Use this any time the user uploads or references an SRT/VTT/subtitle file and asks to format it, turn it into a transcript, clean it up, or make it 'editor-friendly' — even if they don't use the word 'skill' or 'transcript' explicitly. Also trigger when the user says things like 'format this subtitle file', 'make this readable for my editor', 'turn my captions into a script doc', or uploads a video script/caption export and asks for a document version. This handles fragmented word-by-word or line-by-line caption text by reconstructing full sentences, adding section titles that reflect the video's narrative beats, converting any spoken lists (first/second/third, things like X Y Z, etc.) into bulleted or numbered lists, and outputting everything in ALL CAPS as a downloadable .docx."
+type: skill
+area: video-editing
+status: active
+updated: 2026-09-22
+source: local-folder
+tags: [skill]
+---
+
+# Subtitle-to-Transcript Formatter
+
+> **Portable skill — any AI can run this.** Copied on 2026-09-22 from Samuel's own claude.ai skill (`creatorType: user`, last edited there 2026-07-21). **This file is now the canonical copy**; the claude.ai version is an adapter. Paths are relative to the Brain root: the skill's scripts and assets live in `00-System/skills/subtitle-transcript-formatter/`.
+>
+> Written for the claude.ai sandbox. Translate as you go:
+> - `/mnt/user-data/uploads/` — wherever Samuel put the input file. Ask if it is not clear.
+> - `/mnt/user-data/outputs/` — the folder Samuel wants the finished file in (ask once if he has not said). Then show it to him with your file-sending tool, or give him the full path.
+> - `/home/claude/` — a scratch working folder outside the Brain. Never build inside the Brain.
+> - `present_files` — your tool for showing Samuel a file. If you have none, give the full path.
+> - Node and the `docx` npm package were preinstalled in the claude.ai sandbox. Elsewhere, check `node --version` and install `docx` in a scratch folder if it is missing — never inside the Brain.
+
+Converts a raw, fragmented subtitle export (from a talking-head YouTube/business video) into a polished,
+skimmable, ALL-CAPS Word document that a video editor can use as their working transcript — with section
+titles and lists pulled out wherever the speaker enumerates things.
+
+This mirrors the exact workflow used for formatting a client's video transcript for editing: read the raw
+SRT, reconstruct it into full sentences, break it into titled narrative sections, extract every spoken list
+into bullets/numbers, and produce a clean all-caps .docx.
+
+## When to use this
+
+Trigger this skill whenever the user:
+- Uploads or references a `.srt`, `.vtt`, or other subtitle/caption file and wants it turned into a document
+- Asks to "format", "clean up", or "make readable" a transcript/subtitle file for editing purposes
+- Says something like "format this for my editor" / "turn this into a script doc" / "make this skimmable"
+- Is clearly working on video post-production and has a raw caption export that needs to become a reference doc
+
+Do NOT use this for: general document formatting unrelated to video subtitles, or for writing a NEW script
+from scratch (this skill formats an *existing* transcript, it doesn't generate original video scripts).
+
+## Default output
+
+Unless the user says otherwise, **always produce a .docx** (Word document) as the final deliverable, saved
+to `/mnt/user-data/outputs/` and shared with `present_files`. Don't ask whether they want docx vs. plain text
+— docx is the default for this skill.
+
+## Workflow
+
+### Step 1: Read the raw file
+
+Locate the subtitle file (check `/mnt/user-data/uploads/` if not already in context) and read its full raw
+content — every cue, every fragment, in order. Do not skim or summarize at this stage. If the file is large,
+read it in full anyway; every word must survive into the final transcript, so nothing can be skipped here.
+
+### Step 2: Reconstruct full sentences
+
+Subtitle exports (auto-captioned) split the speaker's actual sentences across many short timed cues —
+sometimes only 2-4 words per cue, mid-sentence. Before anything else, mentally (or in scratch notes) stitch
+these fragments back into the complete sentences the speaker actually said, in their original order.
+
+Rules:
+- **No word may be omitted, paraphrased, or summarized.** Every word the speaker said must appear in the
+  final document — this is a reformatting task, not a summarization task.
+- Fix only what the fragmentation broke: rejoin split sentences, restore normal punctuation and capitalization
+  logic (before the all-caps step), and correct obvious auto-caption transcription errors only when the
+  intended word is unambiguous from context (e.g., a mis-transcribed product/tool name that's clearly meant
+  to be something else based on repetition or context — but never invent content that wasn't said).
+- Keep the speaker's exact phrasing, filler included where it carries meaning (e.g., "here's the thing",
+  "and here's the best part") — this is their voice and cadence, not to be smoothed over.
+- Preserve chronological order exactly as spoken. Do not reorder ideas even if a different order would read
+  more logically — the editor needs this to match the actual footage timeline.
+
+### Step 3: Identify section breaks and titles
+
+Read through the reconstructed transcript and identify the natural narrative beats — the points where the
+speaker pivots to a new idea, example, or phase of the video (e.g., hook/intro, explaining a concept, walking
+through examples, a how-to/tutorial segment, a recap, a closing call-to-action). Add a clear, descriptive
+section title above each beat, written in the video's own terms (not generic labels like "Part 1").
+
+Guidelines:
+- Titles should describe what happens narratively/visually in that chunk, so an editor can jump straight to
+  the section they're cutting (e.g., "Section 3: Three Real Examples", "Section 7: App Walkthrough — Setting
+  Up Packaging"), not just "Section 3".
+- Number sections sequentially through the whole document.
+- A new section usually starts where the editor would want a new sequence, b-roll change, or graphic — screen
+  recordings/demos, listed examples, a transition line like "now let me show you," etc. are strong section-break
+  signals.
+
+### Step 4: Extract every spoken list
+
+Whenever the speaker lists things out — even conversationally, without saying "list" — pull that list out of
+the paragraph flow into its own bulleted or numbered list directly under the sentence that introduces it.
+
+Decide bullets vs. numbers with this rule:
+- **Numbered list** — when the items are sequential steps, named/ordinal ("first... second... third..."),
+  or represent an ordered process, a set of named examples being walked through one at a time, or ranked/step
+  items (e.g., "the three types of communities to avoid," "the core pieces of the model," named case-study
+  examples introduced one after another).
+- **Bulleted list** — when the items are a flat, unordered set mentioned together (e.g., "vet bills, grooming,
+  clothing, birthday parties" or "your click-through rate, your cost per click, your CPMs").
+
+Keep the list items in the speaker's own words (title-cased or as spoken), and keep the connecting sentence
+that introduces the list as a normal transcript line right before it.
+
+### Step 5: Format everything in ALL CAPS
+
+Every line of body text and every list item must be in ALL CAPS. Section titles are also all caps (they'll
+already render bold/colored via heading styles, which is fine). Do not leave any word in lowercase or mixed
+case — this includes proper nouns, brand names, and short interjections ("Peace." becomes "PEACE.").
+
+### Step 6: Build the document, line by line
+
+Structure the whole document so it's skimmable:
+- Break the transcript into **one short paragraph per sentence or tight group of 1-2 sentences** — not big
+  blocks of text. Each "line" in the output should be roughly one spoken thought, so an editor scanning down
+  the page can quickly match text to footage.
+- Insert the section titles as real heading-styled paragraphs (see script below), not just bolded text.
+- Insert extracted lists as real bullet/numbered list paragraphs (see script below), not manually typed
+  dashes or numbers.
+
+Use `scripts/build_docx.js` (Node + the `docx` package, already preinstalled — do not run `npm install`
+first) as the template for generating the actual file. Read it, then write a task-specific copy with the
+real reconstructed content (section titles, lines, bullets/numbers) filled in — don't try to template-ize
+the content itself, just reuse the styling/structure code (heading style, all-caps helper, bullet/number
+list config, US Letter page setup).
+
+Save the working script to `/home/claude/`, run it there, then verify by rendering to PDF and viewing 2-3
+pages (first page, a page with a list, a later page) before sharing — see verification command in the script
+file's header comment.
+
+### Step 7: Deliver
+
+Copy the final `.docx` to `/mnt/user-data/outputs/` and share it with `present_files`. Keep the closing
+message short — no need to re-summarize the whole transcript back to the user, just confirm the section
+breakdown briefly (section titles as a quick list) since that's useful for them to sanity-check at a glance.
+
+## Notes on fidelity vs. cleanup
+
+The core tension in this task is: **format aggressively, but never rewrite content.** It's tempting to smooth
+out repeated words, "here's the thing"-style filler, or casual phrasing — don't. The client/editor needs the
+exact words spoken, just made physically easier to read (full sentences instead of fragments, capitalized,
+sectioned, listed). If the user ever asks you to also *clean up* the language itself (remove filler, fix
+grammar), treat that as a separate, explicit ask — don't do it by default.
+
+---
+
+Back to [[03-Areas/video-editing/video-editing|Video editing]] · [[00-System/systems-register|Systems register]] · [[00-System/portability|Portability]]

@@ -2,7 +2,7 @@
 type: area
 area: video-editing
 status: needs-input
-updated: 2026-09-20
+updated: 2026-09-22
 source: claude-export
 tags: []
 ---
@@ -53,11 +53,11 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 
 ## Existing skills that belong to this area
 
-- **`edit-clock`** — the HTML pace widget he keeps beside Resolve. When he asks for "a timer", this is what he means.
-- **`video-edit-pass`** — two-phase edit-assist pass over subtitles + timeline XML.
-- **`subtitle-transcript-formatter`** — turns a caption export into an editor-ready transcript.
+- **[[edit-clock]]** — the HTML pace widget he keeps beside Resolve. When he asks for "a timer", this is what he means.
+- **[[video-edit-pass]]** — two-phase edit-assist pass over subtitles + timeline XML.
+- **[[subtitle-transcript-formatter]]** — turns a caption export into an editor-ready transcript.
 
-They are installed as plugin skills, not yet copied into this Brain's `.claude/skills/`. Phase 4 decides where they live and which agent owns them.
+In the Brain since 2026-09-22, at `00-System/skills/<name>/`, runnable by any AI ([[00-System/portability|portability]]). Owner: the [[07-Agents/video-editor/profile|video-editor]] agent, which reuses them as-is.
 
 ## Open questions
 

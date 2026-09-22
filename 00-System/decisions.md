@@ -2,7 +2,7 @@
 type: decision
 area: system
 status: active
-updated: 2026-09-21
+updated: 2026-09-22
 source: manual
 tags: [decisions, system]
 ---
@@ -137,3 +137,16 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Still unproven, logged for the next Resolve session:** Fusion **Instance** nodes and the Neo* third-party macros over the bridge (the shine layer), and `ImportFusionComp` with a generated `.setting`. Details in [[07-Agents/video-editor/memory|the agent's memory]].
 **Who decided:** Samuel, 2026-09-21.
 
+## 2026-09-22 — The Brain is AI-agnostic: canonical files, generated adapters
+**Samuel:** *"I want to ensure that this Second brain I am building is AI agnostic which means it should be able to be used by any AI model or agent that I link to access it."*
+**What changed:**
+- [[00-System/portability|Portability]] written: three layers (canonical · adapters · tool-private state), the rules, tiers instead of model names, neutral tool names, the linked-AI registry, write tiers, access modes, a boot prompt, and the checklist for linking a new AI.
+- **Agent profiles are canonical** and carry `name` / `description` / `tier` / `tools` in neutral terms. `.claude/agents/video-editor.md` is now generated from the profile; everything in the hand-written version was already in the profile.
+- **Skills are canonical in `00-System/skills/<name>/<name>.md`** — visible in Obsidian, unique filenames — instead of `.claude/skills/`, which Obsidian hides and only Claude reads.
+- `00-System/scripts/build_adapters.py` generates the adapters for **Claude Code** (`.claude/agents/`, `.claude/skills/`) and **Gemini CLI** (`.gemini/agents/`, `.agents/skills/`); `--check` detects drift; `--package` zips a skill for claude.ai. The Gemini formats and tool names were verified against the installed Gemini CLI 0.60.0 docs. Generated Gemini agents are told they are guests and which tools they lack (no MCP servers are connected in Gemini).
+- **The four "platform" skills were on disk all along**, in the Claude desktop app's plugin cache behind Windows' packaged-app redirect (`AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\...`). The 2026-09-20 search looked at the un-redirected path. The manifest marks all four `creatorType: user`. Copied in, source untouched, claude.ai sandbox paths translated. `edit-clock` verified running from the Brain. Open question 28 answered.
+- The MCP list and the session protocol moved out of CLAUDE.md into canonical files (portability, AGENTS.md §12). CLAUDE.md and GEMINI.md are adapters only. AGENTS.md gains §11.
+**Why:** before this, the agent wrapper held content, the skill location was Claude-only, four skills existed only inside claude.ai, and the MCP list and session protocol lived in CLAUDE.md — another AI would have missed all of it.
+**Alternatives rejected:** symlinks from `.claude/` to canonical files (unreliable on Windows and in git without Developer Mode); thin pointer adapters (every Claude invocation pays an extra file read); adapters written now for tools not yet linked (their formats unverified — added per tool at link time).
+**Suggestion, not Samuel's decision:** a newly linked AI is a *guest* (inbox + logs, `[<tool>]` commit prefix) until he says otherwise. This extends the existing Gemini overflow rule; he can change any AI's tier.
+**Who decided:** Samuel set the goal, 2026-09-22. The mechanism is the build's.

@@ -2,28 +2,28 @@
 
 # Claude-specific notes
 
-Everything that governs behaviour is in AGENTS.md above. This file holds only what is specific to Claude Code.
+Everything that governs behaviour is in AGENTS.md above, and the Brain is model-agnostic (AGENTS.md §11, `00-System/portability.md`). This file is an adapter: it holds only what is specific to Claude Code. Nothing here may be the only copy of anything.
 
-## Where things are
-- Skills: `.claude/skills/<name>/SKILL.md`
-- Subagent wrappers: `.claude/agents/<name>.md` — each one says: read `07-Agents/<name>/profile.md` and `memory.md` before acting, log to `07-Agents/<name>/log.md`.
-- Permissions: `.claude/settings.json`. Least privilege. Outside-Brain folders only via explicit additional-directory entries, each also listed in AGENTS.md §10.
+Claude Code is the **primary** AI in this Brain (portability.md → write tiers).
+
+## Generated files — do not edit by hand
+- `.claude/agents/<name>.md` — generated from `07-Agents/<name>/profile.md`.
+- `.claude/skills/<name>/SKILL.md` (+ its files) — generated from `00-System/skills/<name>/`.
+- Regenerate after any profile or skill change: `python 00-System/scripts/build_adapters.py`. Check with `--check` before committing.
+- Profiles use neutral names; the script maps them. Tiers: `light` → haiku, `standard` → sonnet, `strong` → opus. Tools: `read`, `write`, `shell`, `send-file`, `web`, `mcp:<server>:<tool>` → Claude Code tool names. Maps live at the top of the script.
+- The four skills also exist as claude.ai plugin copies (`anthropic-skills:*`). The Brain copy is canonical.
+
+## Permissions
+`.claude/settings.json`. Least privilege. Outside-Brain folders only via explicit additional-directory entries, each also listed in AGENTS.md §10 and the agent's profile.
 
 ## MCP servers
-- **TickTick** — tasks, schedule, focus. Used by the orchestrator and the personal-life agent. Tasks live there, not in the Brain.
-- **DaVinci Resolve Studio** — used by the video-editing agent.
-- Others are connected to this machine (Gmail, Google Calendar, Google Drive, Notion, vidIQ) but no agent uses them until Samuel says so.
-
-## Model choice
-Cheapest model that does the job well. Reserve the strongest model for judgment-heavy work: editorial review, finance rule enforcement, weekly synthesis, the interview.
+Listed neutrally in `00-System/portability.md` → Integrations. In Claude Code they appear as `mcp__<Server>__<tool>`.
 
 ## Token discipline (Pro plan)
 - Usage limits are shared with Claude chat, on a rolling 5-hour window, with weekly caps.
-- Script first. Never read a large file into context to count, filter, split or search it.
-- Bulk extraction runs in a subagent on a cheaper model. Judgment work runs on the main model.
+- Bulk extraction runs in a subagent on the `light` tier. Judgement work runs on the main model.
 - Before a large batch, write a checkpoint to `00-System/build-state.md` so a cutoff mid-batch loses nothing.
 - **Never set `ANTHROPIC_API_KEY` system-wide.** If it is set, Claude Code silently bills the API instead of the Pro subscription.
 
-## Session protocol during the build
-Start: read `00-System/build-state.md`, then AGENTS.md. State current phase, last completed step, next step. Continue.
-End: update build-state, commit, push, one line on what happens next session.
+## Claude Code's private memory
+Not used for Brain facts (AGENTS.md §11 rule 2). If anything lands there, move it into the Brain.
