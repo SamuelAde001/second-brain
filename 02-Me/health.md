@@ -2,7 +2,7 @@
 type: knowledge
 area: me
 status: needs-input
-updated: 2026-09-20
+updated: 2026-09-22
 source: claude-export
 tags: [health, fitness, needs-input]
 ---
@@ -40,7 +40,7 @@ The response: structurally sound (48-hour recovery between lifting days, three g
 
 ## Needs-input
 
-- Whether a gym/cardio routine was ever actually started, and if so, which version (his own 6-day plan or the phased 4-day one).
+- ~~Whether a gym/cardio routine was ever actually started, and if so, which version (his own 6-day plan or the phased 4-day one).~~ **Answered 2026-09-22:** he trains at the gym at 5:00pm; no morning exercise. Days of the week not stated. [[daily-routine]].
 - Whether milk was added to the coffee, and whether the diuretic issue was actually resolved by the switch to Gold Blend.
 
 Back to [[02-Me/about-samuel|Me]]

@@ -42,7 +42,7 @@ See [[how-to-work-with-me]]. Direct, blunt, no flattery, no repeated moralizing,
 
 From the memory export, 2026-09-04, and this is genuinely all that is recorded:
 
-- **Fitness:** exploring gym routines, leaning toward morning sessions given the work-from-home setup. No current routine.
+- **Fitness:** ~~exploring gym routines, leaning toward morning sessions given the work-from-home setup. No current routine.~~ **Now (2026-09-22): gym at 5:00pm, no morning exercise** — [[daily-routine]].
 - **Food:** drinks Nescafé Gold Blend.
 - **Interests beyond editing:** Google Sheets automation, broad intellectual curiosity. (The memory export also recorded "power systems engineering problems" as an interest of his — **it is not.** That work was done for his sister. Corrected by Samuel, 2026-09-20.)
 
@@ -58,11 +58,12 @@ From the memory export, 2026-09-04, and this is genuinely all that is recorded:
 - [[story]] — the soldier-to-creator arc, as far as the sources tell it
 - [[how-to-work-with-me]] — tone, boundaries, what he wants from an agent
 - [[patterns]] — the five failure patterns, confirmed by Samuel 2026-09-22
+- [[daily-routine]] — the day's anchors and his habits, confirmed 2026-09-22
 - `goals/` — the goal ladder (10-year → 3-year → 1-year → quarter). **Empty.** Built in Phase 3.
 
 ## Still missing entirely
 
-Values · mission · principles · daily routine · sleep · energy peaks · planning cadence · what accountability he actually wants · what a good week looks like. The goal ladder does not exist.
+Values · mission · principles · sleep · energy peaks · planning cadence · what accountability he actually wants · what a good week looks like. The goal ladder does not exist.
 
 ## Related
 
