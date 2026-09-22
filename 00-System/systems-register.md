@@ -19,6 +19,7 @@ The ladder, lowest rung first: **SOP → checklist → skill → automation.** W
 |-------|------|---------|--------|
 | **orchestrator** | Routing, merging, the session protocol. The default entry point | none — runs as the main session → [[07-Agents/orchestrator/profile\|profile]] | **built 2026-09-22** |
 | **video-editor** | The DaVinci Resolve editing pipeline + standing Resolve expertise | `.claude/agents/video-editor.md` → [[07-Agents/video-editor/profile\|profile]] | **skeleton built 2026-09-21**; step 6 proven; skills pending |
+| **finance** | Money: ledger, budget sheet, rules, pots, runway, month close. Never moves money | `.claude/agents/finance.md` → [[07-Agents/finance/profile\|profile]] | **built 2026-09-22**; sheet credentials pending |
 
 Roster and planned agents: [[07-Agents/roster|roster]].
 
@@ -44,6 +45,14 @@ Canonical copies live in `00-System/skills/<name>/<name>.md`, with scripts and a
 
 Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Brain path, outside claude.ai.
 
+**Finance skills**, rebuilt 2026-09-22 from the engine's rituals (legacy review R6–R8). Owner: the [[07-Agents/finance/profile|finance agent]]. `payday` and `budget` are conversations and run in the main session.
+
+| Skill | What it does | Trigger | Last used | Status |
+|-------|--------------|---------|-----------|--------|
+| [[payday]] | Money landed: log it, mirror it to the sheet, then get the week-of-pay transfers and pots moved the same day (Rule 3) | He says he got paid | never | active |
+| [[budget]] | Set or change a month's plan, one named line per item on Details, and say whether the arithmetic works | He wants to budget or change a line | never | active |
+| [[month-close]] | What came in, went out, survived; Goal 1 pace; reconcile ledger vs sheet | Last day of the month, or he asks | never | active |
+
 ## Scripts
 
 | Script | Job | Run |
@@ -51,11 +60,13 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | `00-System/scripts/build_adapters.py` | Generates every AI tool's adapter files (Claude Code, Gemini CLI) from the canonical profiles and skills; `--check` detects drift; `--package` zips a skill for claude.ai | after any profile or skill edit |
 | `00-System/scripts/build_scripnals_guides.py` | Validates the Scripnals guide library (`03-Areas/scripnals/guides/`), exports `_export/guides.json` + `vocab.json` for the devs, and shows what one request loads (`--select`, `--prompt`). `--check` fails if the export is stale | after any change to a guide entry |
 | `00-System/scripts/build_scripnals_spec.py` | Builds the Scripnals AI spec PDF for the devs from `03-Areas/scripnals/ai-workflow.md`. `--figures` first re-draws the flow chart and screen mock-ups from `03-Areas/scripnals/assets/*.html`. Needs Chrome | after any change to the AI spec |
+| `00-System/scripts/sheets.py` | Client for the Apps Script bridge to the "My Claude Budget" sheet: `ping`, `read`, `ops`, `doctor`, `flush`/`pending` for queued batches. Credentials from Windows user variables only ([[03-Areas/finances/budget-system\|budget system]]) | any sheet read or write |
+| `00-System/scripts/money_ledger.py` | Read-only totals from the money ledger (`totals`, `pots`, `last`) and the delivered-projects record (`videos`) | instead of reading either file |
 | `00-System/scripts/split_conversations.py` | Split the Claude chat export into one file per conversation (Phase 2 migration) | one-off, done |
 
 ## Job skills — not built yet
 
-`brainstorm`, `plan`, `money-check`, `systemize`, `commit`. Built in Phase 4.
+`brainstorm`, `plan`, `money-check`, `systemize`, `commit`. Built in Phase 4. (The finance rituals are built. See above.)
 
 **The video-editor's job skills**, one per pipeline step ([[07-Agents/video-editor/profile|profile]]):
 

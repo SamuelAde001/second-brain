@@ -25,6 +25,12 @@ Amount and reason, in his own words, in the money ledger. **No silent withdrawal
 >
 > **The rule now:** every **major** spend gets its own dated row. **Minor** spends are logged **in bulk** — a single periodic row covering them. What counts as major is his judgement, not a fixed threshold, until he sets one.
 >
+> **Set 2026-09-22: what "major" means.** Samuel: *"Major spends are mostly the ones that get sent or transferred to accounts the week of pay, Minors are just after the main big budgets go out, whats left for me, are minor spends, except, first main shopping."*
+>
+> **Major** = every transfer or payment sent in the week of pay, plus the first main shopping of the pay cycle. **Minor** = everything spent from what is left after that, logged in bulk. A withdrawal from a pot is never minor: this rule's first line still applies. Rows: [[03-Areas/finances/money-ledger|money ledger]].
+>
+> Stated once: under this definition, a big unplanned spend paid from the leftover, like a trip, lands in the bulk row with no line of its own. Only a pot withdrawal is sure to get its own row.
+>
 > The cost of this is real and worth stating once: bulk rows hide where small money goes, and small money is exactly what the NGN 10,000 personal/misc line and the NGN 40,000 household line are made of. Rule 6 still applies — a bulk row must reflect money that actually moved, not an estimate written to make the month balance.
 
 ### 3. Savings move on a payday — never at month end

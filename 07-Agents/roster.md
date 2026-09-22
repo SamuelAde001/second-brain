@@ -17,14 +17,14 @@ Each agent has a folder under `07-Agents/<name>/` with `profile.md` (mission, sc
 
 | Agent | Owns | Claude Code adapter | Tier | Status |
 |-------|------|---------|-------|--------|
-| **orchestrator** | Routing and merging. The default entry point, and the session protocol. Works the finance, personal-life and content domains itself until those agents exist. | none — it is the main session (`runs-as: main-session`) | `strong` | **built 2026-09-22** → [[07-Agents/orchestrator/profile\|profile]] |
-| **video-editor** | The client editing work in DaVinci Resolve — the brief-to-delivery pipeline, and standing Resolve expertise. Samuel's most important agent. | generated → `.claude/agents/video-editor.md` | `standard`; `strong` for editorial judgement | **skeleton built 2026-09-21** — step 6 (HTML→Fusion) proven; skills not yet built |
+| **orchestrator** | Routing and merging. The default entry point, and the session protocol. Works the personal-life and content domains itself until those agents exist. | none — it is the main session (`runs-as: main-session`) | `strong` | **built 2026-09-22** → [[07-Agents/orchestrator/profile\|profile]] |
+| **video-editor** | The client editing work in DaVinci Resolve — the brief-to-delivery pipeline, and standing Resolve expertise. Samuel's most important agent. Keeps the [[03-Areas/video-editing/delivered-projects\|delivered projects]] record. | generated → `.claude/agents/video-editor.md` | `standard`; `strong` for editorial judgement | **skeleton built 2026-09-21** — step 6 (HTML→Fusion) proven; skills not yet built |
+| **finance** | His financial manager: the money ledger, the budget sheet, the eight rules, pots, runway, budgets and the month close. Never moves money. | generated → `.claude/agents/finance.md`; conversations run in the main session | `standard` | **built 2026-09-22** → [[07-Agents/finance/profile\|profile]] — skills `payday`, `budget`, `month-close`; sheet credentials pending |
 
 ## Planned — not built
 
 | Agent | Owns | Brief |
 |-------|------|-------|
-| finance | Categorise, summarise, runway, rule breaches, ledger + sheet writes, budget planning. A financial manager, not a logger. | [[03-Areas/finances/finance-agent-plan|Finance agent plan]] |
 | personal-life | Tasks, schedule, focus — via TickTick. | Phase 4 |
 | content | Script creation and review, brand content. | Phase 4 |
 

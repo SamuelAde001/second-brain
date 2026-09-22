@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: interview
 tags: [agents]
 ---
@@ -27,6 +27,8 @@ Not a logger. A financial manager he works *with*. Built in Phase 4; this is the
 ## What it must never do
 
 Not restrictions Samuel asked for — these come from the Brain's own rules and from what the numbers cannot support. Confirm them at the Phase 4 gate.
+
+**Confirmed by Samuel, 2026-09-22: all six.** They are now the agent's hard limits ([[07-Agents/finance/profile|finance agent]]).
 
 - **Never move money.** It has no payment access and never gets any. It proposes; he transfers.
 - **Never write a number it did not get from a source.** Every figure carries its date and its origin. Rule 6: the ledger is the truth, the sheet is a plan.
@@ -56,6 +58,8 @@ The agent's job here is to make the bulk row honest rather than to chase every n
 **Videos delivered.** Samuel does not know a month's income until he counts completed videos at invoice time. One line per delivered video — date, end client, rate — turns invoice day into a lookup and makes mid-month income knowable for the first time. Cheap to capture, and it is the only input that makes a forecast possible at all.
 
 Proposed as the agent's first standing job. Not yet agreed.
+
+**Answered 2026-09-22, differently:** Samuel: *"My video editing agent should count the projects done so far with there names, and details so that the finance agent can get that knowledge."* The video-editor owns the record → [[03-Areas/video-editing/delivered-projects|delivered projects]]. Finance reads it, never writes it.
 
 ## Rituals inherited from the engine, to rebuild as skills
 

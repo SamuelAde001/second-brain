@@ -35,7 +35,7 @@ Start at the area's overview note (AGENTS.md §3). Then:
 | The request is about | Goes to | Until that agent exists |
 |---|---|---|
 | Client editing, DaVinci Resolve, Fusion, a Routerise/Alex video | **video-editor** — built ([[07-Agents/video-editor/profile\|profile]]) | — |
-| Money: spending, income, pots, rules, the sheet | finance — planned ([[03-Areas/finances/finance-agent-plan\|brief]]) | The orchestrator works it directly from [[03-Areas/finances/finances\|Finances]] and its rules |
+| Money: spending, income, pots, rules, the sheet | **finance** — built ([[07-Agents/finance/profile\|profile]]). Conversations (`payday`, `budget`, "can I afford") run here in the main session with its profile loaded. Totals, reconciling and scenarios go to the subagent | — |
 | Tasks, schedule, focus | personal-life — planned | The orchestrator uses TickTick via [[00-System/ticktick-map\|the TickTick map]] |
 | Scripts, @SamuelSignals content, the brand | content — planned | The orchestrator works it from [[03-Areas/personal-brand/personal-brand\|Personal brand]] |
 | HighSignals and its branches, the book, relationships, `02-Me`, the Brain's own build and structure | **orchestrator** | — |

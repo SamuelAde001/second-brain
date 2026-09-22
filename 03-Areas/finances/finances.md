@@ -41,6 +41,7 @@ See [[03-Areas/finances/finances-goals|Goals]] — NGN 1,000,000 by 31 Dec 2026,
 ## Map of content
 
 - [[money-rules]] — **the eight rules, active.** Read before advising on anything money-shaped
+- [[03-Areas/finances/money-ledger|Money ledger]] — **the record of what actually moved**, live from 2026-09-16. Written by the [[07-Agents/finance/profile|finance agent]]
 - [[income]] — one payer, the rates, the USD 5 charge, the two paydays, the concentration risk
 - [[obligations]] — every monthly line item, tier and payday; what was cut and why
 - [[pots-and-accounts]] — where each pot lives, last confirmed balances, the two name collisions
@@ -59,9 +60,9 @@ See [[03-Areas/finances/finances-goals|Goals]] — NGN 1,000,000 by 31 Dec 2026,
 
 ## Open questions
 
-- **Nothing captures videos delivered.** Income is unknowable until he counts them at invoice time — see [[income]]. One line per delivered video would fix it.
+- ~~**Nothing captures videos delivered.**~~ **Answered 2026-09-22:** the video-editor keeps [[03-Areas/video-editing/delivered-projects|delivered projects]]; finance reads it.
 - Who is **Mshel**, and what was invoice DSG-2026-001 for (NGN 1,397,500, 2026-08-20)? **He does not remember.** It appears nowhere in the engine's income record, which names Route Rise as his only payer.
-- **What counts as a "major" spend.** The new logging rule turns on it and no threshold is set.
+- ~~**What counts as a "major" spend.**~~ **Answered 2026-09-22:** the week-of-pay transfers plus the first main shopping. See [[money-rules]] Rule 2.
 - **The consequence for breaking the savings rule.** Still unenforced, open since 2026-08-26 — the one question from this interview Samuel did not answer. **Answered 2026-09-22:** asked what breaking it costs, Samuel: *"It cost me financial stability and security."* A natural cost, not an enforced penalty. Self-enforced penalties *"don't work"*; a better consequence may come later ([[stakes-and-accountability]]).
 - TIN and a standard payment term for invoices.
 - The wedding's actual cost. He pays, alone, and no figure exists yet — so Goal 2's NGN 3M is a chosen target, not a costed one.

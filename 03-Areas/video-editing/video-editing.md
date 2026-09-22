@@ -47,6 +47,7 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 - `clients/` — [[alex|Alex]] (the client) · [[routerise|Routerise]] (the agency)
 - `sops/` — [[routerise-cut-workflow]]
 - [[client-acquisition]] — the USD retainer goal
+- [[delivered-projects]] — every client video delivered so far, one row per video. Owned by the video-editor agent; the finance agent reads it to know a month's income before invoice day.
 
 **Standing files**
 - [[03-Areas/video-editing/video-editing-ideas|Ideas]] · [[03-Areas/video-editing/video-editing-decisions|Decisions]] · [[03-Areas/video-editing/video-editing-log|Log]] · [[03-Areas/video-editing/video-editing-goals|Goals]]
@@ -67,6 +68,7 @@ In the Brain since 2026-09-22, at `00-System/skills/<name>/`, runnable by any AI
 - Concentration risk: one agency, one client, one rate. Nothing is recorded about what happens if it stops.
 - What takes the most time, and what the editing agent should automate first.
 - The recurring jobs to hand to an agent: new-project setup, pre-edit plan, review pass, delivery checklist, revision tracking.
+- Who "Andy" is, from the archived Accountability Engine (an end client at the same USD 333.33 rate as Alex) — doesn't match either of the two end clients [[03-Areas/finances/income|Income]] describes. See [[delivered-projects]].
 
 ## Related areas
 

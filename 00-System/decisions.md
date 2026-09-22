@@ -169,3 +169,24 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Why:** one file per folder can't sort by niche or format, and one hook file loaded whole wastes words on patterns that don't fit the content type. Markdown stays easy for Samuel to edit. JSON drops into a database or a server's memory with no parsing.
 **Who decided:** Samuel asked for the shape (quote above). The mechanism is the main session's. The spec change waits for his yes.
 **Correction, 2026-09-22 (same day):** Samuel dropped the niche and format inputs. There are now four tag fields, not six, and 51 entries, not 66: the 10 niches and 7 formats became one note each. The entries were rewritten token-light (budget 2,400 words). His words: [[03-Areas/scripnals/scripnals-decisions|Scripnals decisions]].
+
+## 2026-09-22 — The finance agent is built; its conversations run in the main session
+
+**What:** `07-Agents/finance/`: profile, memory and log, plus a generated `.claude/agents/finance.md`. Skills `payday`, `budget` and `month-close` in `00-System/skills/`, rebuilt from the engine's `paid`, `budget` and `month` (legacy review R6–R8). A live ledger at `03-Areas/finances/money-ledger.md`, opened with the 2026-09-16 position; the engine's ledger stays archived as history. `00-System/scripts/money_ledger.py` totals the ledger so no agent reads it whole. The sheet client moved to `00-System/scripts/sheets.py`, and its queue to `06-Logs/automation/`.
+
+**Samuel's calls, 2026-09-22:**
+- **The six hard limits are confirmed**: never moves money · never writes a number without a source and a date · never shows an old balance as current · never stores account details · never forecasts income as if the video count were known · never quietly re-plans around a broken rule.
+- **Major spend:** *"Major spends are mostly the ones that get sent or transferred to accounts the week of pay, Minors are just after the main big budgets go out, whats left for me, are minor spends, except, first main shopping."* Rule 2 amended by a dated addition. Open question 61 closed.
+- **Delivered videos:** *"My video editing agent should count the projects done so far with there names, and details so that the finance agent can get that knowledge."* The video-editor owns `03-Areas/video-editing/delivered-projects.md` (standing job 8). Finance reads it, never writes it. Open question 62 closed. Gaps: open question 81.
+- **Sheet credentials:** he runs a one-line command that copies them from the old engine `.env` into Windows user variables. `sheets.py` reads them from the registry. No secret in the Brain, a file the agent reads, or a chat.
+
+**The build's calls (mechanism only):**
+- **Conversations run in the main session.** A subagent can't ask Samuel anything mid-run, so `payday` and `budget` run with the finance profile loaded into the orchestrator (AGENTS.md §7). The subagent does work where every input is in hand: totals, reconciling, scenarios.
+- **The bulk-row rhythm:** at each payday, and at the month close. The agent asks for the balance, then derives the minor spends, marked `derived`. Samuel can change the rhythm.
+- **A new ledger format:** typed rows (`in`, `major`, `bulk`, `to-pot`, `from-pot`, `charges`, `balance`, `correction`), one line per cell. The engine's paragraph-long cells made the file too expensive to read. A mistake is fixed with a correction note and a minus row.
+- **No `spend.jsonl` twin.** The engine kept one for its website, which is gone. The typed table is machine-readable on its own.
+- `sheets.py` has no `env` command, and `script` goes to the clipboard, so the token can't land in a transcript.
+
+**Objection, stated once:** under the major-spend definition, a big unplanned spend paid from the leftover (a Kaduna-sized trip) goes in the bulk row with no line of its own. Only pot withdrawals are guaranteed their own row. Recorded; executed as he defined it.
+
+**Who decided:** Samuel for the limits, the definition, the delivered-videos owner and the credentials route. The build for the mechanism.

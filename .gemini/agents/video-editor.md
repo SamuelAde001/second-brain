@@ -61,6 +61,7 @@ Steps map to [[03-Areas/video-editing/workflow|the brief-to-payment workflow]] a
 | 5 | Visualise the approved storyboard as animated HTML/CSS so Samuel sees and approves the visual before it is built for real. | `storyboard-preview` | **to build** |
 | 6 | Convert approved visuals into **editable Fusion comps on the timeline**. | `html-to-fusion` | **bridge proven 2026-09-21**; skill to build |
 | 7 | Standing job: professional DaVinci Resolve expert — bugs and anything Resolve-related, continuously, not only in this pipeline. | the agent itself | active |
+| 8 | Standing job: **keep [[03-Areas/video-editing/delivered-projects\|delivered projects]]**, one row per video, appended the day it's delivered. The finance agent reads it to know a month's income before invoice day. Samuel, 2026-09-22: *"My video editing agent should count the projects done so far with there names, and details so that the finance agent can get that knowledge."* | the agent itself | active; backfilled 2026-09-22 |
 
 ## Folders it may write
 - `03-Areas/video-editing/` and everything under it
@@ -88,6 +89,7 @@ Built and reused as the table above. Every skill is registered in [[00-System/sy
 ## Rituals and triggers
 - **On a new Routerise/Alex edit:** run the pipeline from step 1, gating at sectionalising (step 2) and at storyboard approval (step 5).
 - **On "there's a Resolve bug" / "help me with Resolve":** act as the standing expert (step 7). Check `get_whats_new` — Resolve ships features faster than the model's training.
+- **On "delivered" / "sent the video" / "the client has it":** append a row to delivered projects the same day (job 8).
 - **On "give me visual ideas":** the deliverable is always a full cut-sheet HTML page, a beat per sentence (ways-of-working).
 
 ## Hard limits
@@ -106,7 +108,7 @@ Built and reused as the table above. Every skill is registered in [[00-System/sy
 - Which take is the keeper when a bad-take cluster is genuinely a judgement call.
 
 ## Handoff rules
-Reports to the orchestrator. Cross-domain requests go through [[07-Agents/handoffs|handoffs]]. Money questions → finance agent. Content/script questions that are brand, not client → content agent.
+Reports to the orchestrator. Cross-domain requests go through [[07-Agents/handoffs|handoffs]]. Money questions → finance agent, which reads your delivered-projects record and never writes it. Content/script questions that are brand, not client → content agent.
 
 ## Output format
 - Cut sheets and storyboards: full HTML page, one beat per sentence, specific picture + on-screen text strings + screenshots/screen refs + motion. Never a chapter-level summary.

@@ -2,7 +2,7 @@
 type: agent
 area: video-editing
 status: active
-updated: 2026-09-21
+updated: 2026-09-22
 source: interview
 tags: [agent, memory]
 ---
@@ -49,3 +49,12 @@ Test project **"Claude tests"** (Samuel's dedicated test project), footage at `C
 - `ImportFusionComp(path)` with a Python-generated `.comp`/`.setting` file — his actual "paste `.setting`" method, automated. Not yet tested; would sidestep per-input datatype fiddliness.
 - Whether NeoLightSweep Pro / the Neo* macros can be instantiated via `AddTool` or only via paste-from-`.setting`.
 - A clean, un-graded render of a card (grab from a clip with no heavy grade, or render the Fusion output directly).
+
+## 2026-09-22 — Delivered-projects record built; the archive holds client-history detail the current Brain doesn't
+
+Built [[03-Areas/video-editing/delivered-projects|delivered-projects]] on Samuel's request, no Resolve touched.
+
+- **`03-Areas/finances/income.md`'s batch table (May 5 / June 4 / July 2 / August 4) is a count, not a record** — no video names or per-video dates exist anywhere for that period. Rows had to go in as `name unknown`. If Samuel wants this filled in retroactively, it isn't recoverable from the Brain as it stands — it would need his memory or the client folder names.
+- **The archived Accountability Engine (`08-Archive/accountability-engine/context/`) has real per-video detail income.md doesn't**: named jobs, delivery dates (some, e.g. from TickTick), and a whole second client-naming scheme ("Andy", "Alex", "Client #1/2/3") that doesn't cleanly map onto income.md's "Alex + one unnamed second end client" story. `ledger.md` + `ledger-notes/*.md` are prose (grep only, per this agent's profile); **`site.json` in the same folder is structured** (`history` array with `name`/`delivered`/`verdict`/`fee_usd` fields) — worth grepping first next time money-history questions come up, it's denser and cheaper than the prose ledger.
+- **Don't force a reconciliation across sources that disagree.** Income.md (Samuel-confirmed 2026-09-20) says one end client (Alex) plus one ended second end client (USD 175, unnamed). The archive independently names "Andy" at USD 333.33 (Alex's rate, not 175) as a distinct "old client." Rather than pick one, both are recorded and the conflict is flagged as open — this is the same tension [[03-Areas/video-editing/clients/routerise|Routerise]] already carried unresolved from 2026-09-20. Guessing which is right would have put a wrong number in a file finance treats as ground truth.
+- **Don't add a named row just because a name exists.** Two more names surfaced ("Client #1" delivered 2026-08-26, "Client #2" delivered 2026-09-02) that could plausibly be 2 of the August batch's 4 — but nothing says which, and adding them as new rows risked double-counting against income.md's confirmed count of 4. Left out, flagged instead.

@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: legacy-accountability-engine
 tags: [budget, spreadsheet]
 ---
@@ -39,16 +39,30 @@ Answers "what is this category actually made of" — every subscription, every l
 
 **Cancelled items go Active = No. They are never deleted** — a subscription that reappears in three months is a pattern, and a deleted row hides it.
 
-## How Claude writes it
+## How the finance agent writes it
 
-Through `tools/sheets/` in the engine repo — an **Apps Script web app bound to the sheet**. Credentials live in a gitignored `.env` that was never copied into the Brain.
+Through an **Apps Script web app bound to the sheet.** It's still deployed in the sheet; only the client moved. Since 2026-09-22 the client lives in the Brain:
 
-- `tools/sheets/README.md` — setup and security
-- `tools/sheets/plan.json` — the line items behind every category
-- `tools/sheets/build_budget.py` — rebuilds the Budget and Details tabs from `plan.json`
-- `tools/sheets/Code.gs` — the Apps Script itself
+- `00-System/scripts/sheets.py`: the client. `ping`, `read`, `ops`, `doctor`, and `flush`/`pending` for batches that couldn't be delivered. Ported from the engine; only the paths and the credential handling changed.
+- `00-System/scripts/sheets-apps-script.gs`: the script inside the sheet, with a placeholder instead of the token. Needed only to redeploy.
+- A batch that can't reach the sheet parks in `06-Logs/automation/sheet-queue.jsonl`. The next session that can reach the sheet sends it. Nothing is dropped.
+- The engine's originals, including `build_budget.py` and `plan.json`, stay at `08-Archive/accountability-engine/tools/sheets/`. *(They were deleted in the 2026-09-20 prune as "build tooling" and restored from git history the same day once Samuel confirmed this system is live.)*
 
-Archived at `08-Archive/accountability-engine/tools/sheets/`. *(These files were deleted in the 2026-09-20 prune as "build tooling" and restored from git history the same day once Samuel confirmed this system is live. They are not build artifacts — they are the budget system.)*
+The ledger is written first, then the sheet mirrors it. Row by row: [[03-Areas/finances/money-ledger|money ledger]] and the [[07-Agents/finance/profile|finance agent]].
+
+## Credentials
+
+The web app URL and its token work together like a password. **They never live in the Brain, a file the agent reads, or a chat.** They are Windows user variables on this PC, which `sheets.py` reads from the registry. Decided 2026-09-22 ([[00-System/decisions|decisions]]).
+
+**Samuel runs this once, himself,** in PowerShell. It copies the three values from the old engine's `.env` into his user variables and prints only their names:
+
+```powershell
+Get-Content "$env:USERPROFILE\Desktop\engine\.env" | ForEach-Object { if ($_ -match '^\s*(SHEETS_WEBAPP_URL|SHEETS_TOKEN|SHEETS_ID)\s*=\s*["'']?([^"'']+?)["'']?\s*$') { [Environment]::SetEnvironmentVariable($Matches[1], $Matches[2], 'User'); "saved $($Matches[1])" } }
+```
+
+Then check: `python 00-System/scripts/sheets.py doctor`. No restart needed.
+
+**If the token ever leaks:** change `TOKEN` in the Apps Script editor, Deploy → Manage deployments → edit → New version, then set `SHEETS_TOKEN` again with the same command pattern. `python 00-System/scripts/sheets.py script` puts the script, token filled in, on the clipboard. It never prints it.
 
 ## What the Dashboard shows
 

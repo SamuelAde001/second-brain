@@ -1,0 +1,34 @@
+---
+type: agent
+area: finances
+status: active
+updated: 2026-09-22
+source: legacy-accountability-engine
+tags: [agent, memory]
+---
+
+# finance — memory
+
+Append-only. What this agent has learned by doing. Newest at the bottom. Facts here were verified in action, not assumed (AGENTS.md rule 6).
+
+---
+
+## 2026-09-22 — Carried in from the engine's money record
+
+From the archived [[08-Archive/accountability-engine/context/money-ledger|engine money ledger]], 2026-08-26 to 2026-09-16. Facts that change how the next payday is handled:
+
+- **Use the Cleva rate on the day, never an assumed one.** The implied rate was NGN 1,361.66/USD on 2026-09-02 and NGN 1,357.83/USD on 2026-09-16. The old assumed NGN 1,365 was already wrong.
+- **The 70% payment on 2026-09-02 carried a flat USD 5 charge** (USD 711.66 gross, USD 706.66 net). The 30% on 2026-09-16 looked like a USD 1.79 charge. Its gross was never confirmed. Ask the gross and the net, don't assume the charge.
+- **Payments slip.** The August 70% was expected around 31 Aug and landed 2 Sep. The 30% was due 14 Sep and landed 16 Sep. A plan that needs the money on the due date is short.
+- **Bank charges add up on payday.** NGN 584 across the Payday A transfers on 2026-09-02, and NGN 1,003 more the next day. Log them as `charges`, never folded into a pot. A pot has to show its true figure.
+- **Most balances were given verbally, with no screenshot.** Mark them `his words`. A screenshot is stronger.
+- **What breaks a month:** the first shopping blew its line by 55% (2026-09-03), and the Kaduna trip came in at NGN 430,011 against NGN 80,000 planned. NGN 368,041 of it came out of the ring-fenced investment. Big unplanned costs arrive as trips and shopping, not as bills.
+- **September 2026 is split across two ledgers.** 1–16 Sep is in the archived one, 17 Sep onward in [[03-Areas/finances/money-ledger|the live one]]. The September close has to read both. Use grep on the old one, never a whole read.
+
+## 2026-09-22 — The sheet bridge
+
+- The Apps Script web app is still deployed in the sheet. Only the credentials moved: they are Windows user variables now, read live from the registry by `00-System/scripts/sheets.py`, so no restart is needed after Samuel sets them.
+- `python 00-System/scripts/sheets.py doctor` names the broken link. Always `flush` before a new batch, and send with `--queue "<label>"` so an unreachable sheet parks the batch instead of losing it.
+- **Never run anything that prints the token.** The `env` command is gone and `script` copies to the clipboard.
+
+Back to [[07-Agents/finance/profile|Profile]]
