@@ -6,22 +6,20 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 ## Start here
 
-- **Phase:** 3 (interviews) still open, and **Phase 4 has begun** — the first agent is built.
-- **Last session:** 2026-09-22 — two jobs. (1) **The Brain is AI-agnostic**: `00-System/portability.md` is the contract; `build_adapters.py` generates Claude Code and Gemini CLI agents/skills from canonical profiles and `00-System/skills/`; the 4 claude.ai skills were found on disk and copied in. (2) **`02-Me` filled from the engine's context files**, checked claim by claim with Samuel: [[patterns]], [[daily-routine]], [[02-Me/goals/goal-ladder|goal ladder]], [[stakes-and-accountability]], [[spirit]], [[health]]; plus relationships (girlfriend, son), mentees, the wish list, the TickTick map (verified live), and confirmed time/delivery rules in video-editing ways-of-working.
-- **Next action:** Samuel's standing instruction (2026-09-21) still holds — no video-editing tests until a dedicated Resolve session. Continue **Phase 3 interviews: scripnals · academy (paused, short) · community · book**, and the last `02-Me` gaps: **values, principles, energy peaks, what a good week looks like, quarter goals**. Then Phase 4 agents (orchestrator next). Automations are deferred — Samuel: *"we would plan future automations, but not now."*
-- **When video editing resumes:** ear-check the +4.0 s offset on a timeline, decide how the `routerise-cut` skill *applies* the offset, then build the four job skills (`routerise-cut` first). Goal: one real video end to end.
-- **Remaining Phase 3 domains:** **scripnals · academy (paused, short) · community (mostly captured) · book.** Relationships and me are now substantially filled (2026-09-22).
-- **`02-Me` is no longer the biggest hole** (2026-09-22). Still missing: values, principles, energy peaks, what a good week looks like, quarter goals. The goal ladder starts at 12 months by Samuel's choice.
+- **Phase:** **Phase 3 closed 2026-09-22.** The only gap left is Samuel's principles (open question 73), which he skipped. **Phase 4 underway:** `video-editor` (skeleton) and `orchestrator` are built.
+- **Last session:** 2026-09-22, session 3. (1) **Phase 3 finished:** scripnals, academy, community + highsignals, book, and the `02-Me` gaps. All confirmed by Samuel, one commit per domain. (2) **The orchestrator is built as the main session's role**, not a subagent, because subagents can't launch subagents. `runs-as: main-session` means `build_adapters.py` generates no adapter for it. AGENTS.md §12 now tells every AI's main session to follow it.
+- **Next action:** Phase 4. **finance agent next** (brief: [[03-Areas/finances/finance-agent-plan|finance agent plan]]), then personal-life (TickTick), then content.
+- **Samuel's Scripnals session (planned later on 2026-09-22):** he walks through where the build is and what's next, and drafts the survey responses into [[03-Areas/scripnals/validation|Validation]]. Bring: open questions 68 (spec vs product gap) and 69 (unsigned dev contracts / equity / code ownership), plus [[03-Areas/scripnals/technical-architecture|Technical architecture]]. The product master doc and PRD in `Desktop/HighSignals/HighSignals App/` haven't been read. They need his go-ahead.
+- **When video editing resumes** (a dedicated Resolve session only, standing instruction 2026-09-21): ear-check the +4.0 s offset, decide how `routerise-cut` applies it, then build the four job skills. Goal: one real video end to end.
+- **What changed shape this session:** no HighSignals branch earns. A "new system" arrives in 2027 (open question 71), with a new community built around video editing. **Mentorship now carries the January 2027 income line** (~NGN 42,530/month) but has no price or start date (open question 70). The book targets about 2027-09 with nothing written.
 
-**14-day target for Phases 0–4:** 2026-10-04. Day 2 of 14 elapsed.
+**14-day target for Phases 0–4:** 2026-10-04. Day 3 of 14.
 
 ---
 
-> **Checkpoint 2026-09-22 (session 3, mid-session):** the Phase 3 **domain** interviews are done: scripnals · academy · community (+ highsignals) · book, all committed. Now asking about the `02-Me` gaps. Samuel has a dedicated **Scripnals session later today**, where he walks through the build and drafts in the survey responses.
-
 ## What exists now
 
-- **167 markdown files, 36 commits** (2026-09-22; generated adapter folders not counted), pushed to `https://github.com/SamuelAde001/second-brain` (private, branch `main`).
+- **179 markdown files, 54 commits** (2026-09-22, session 3; generated adapter folders and imports not counted), pushed to `https://github.com/SamuelAde001/second-brain` (private, branch `main`).
 - Brain path: `C:\Users\repzy\Desktop\My Second brain`. Outside OneDrive and Dropbox. Git identity: Samuel <repzysam@gmail.com>.
 - `.claude/settings.json` allows git add/commit/push/status/log/diff/ls-remote, and denies reads of `.env`, `*.key`, `credentials*.json`, `token*.json`.
 - **Terminology: it is "the Brain", never "the vault."**
@@ -34,12 +32,12 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 | **finances** | Deepest. The engine's live system, imported active: 8 money rules, income mechanics, obligations floor, pots, real goals, the live Google Sheet, an agent brief |
 | **video-editing** | Deep on craft: house style, Fusion node system, recipes, troubleshooting, cut sheets, ways-of-working, workflow, agent plan, 2 client notes |
 | **personal-brand** | Brand context, script process, storytelling structures, 30 ideas, IG strategy with real numbers, recording setup, visual identity, 2 series notes |
-| **academy** | Full 8-module curriculum + teaching rules, **but the course is paused** |
-| **community / mentorship / scripnals** | Thin but honest. Scripnals has product + validation |
-| **highsignals** | Umbrella area: brand meaning, mission, four branches |
-| **02-Me** | Filled 2026-09-22: patterns (5, confirmed), daily routine and habits, goal ladder (12-month picture, Big 3: editing · content · mentorship), stakes and accountability, spirit, health. Still missing: values, principles, quarter goals |
+| **academy** | **Paused until he has time** (2026-09-22). Rebuild most likely video editing + DaVinci Resolve; the CapCut curriculum (8 modules, 31 lessons) is kept for a possible later course |
+| **community / mentorship / scripnals** | Community: WhatsApp, 20 free, admin paid for accountability, removal stopped, new video-editing community in 2027. Mentorship: 3 unpaid mentees, now the January income line. Scripnals: founder + 2 unpaid devs (equity intended), Feb 2026 spec read, survey sent with many responses |
+| **highsignals** | Umbrella area. **No branch earns** (2026-09-22). A new system from 2027, undescribed |
+| **02-Me** | Filled 2026-09-22: patterns, routine, energy (mornings best), a good week, goal ladder with Q4 2026 goals, stakes, spirit, health, one value (refuses mediocrity). Missing: principles |
 | **relationships** | Girlfriend (daily call, marriage July 2027) and his son; others to be added as the Brain grows |
-| **book** | Empty shell. Interview-only |
+| **book** | A book about visibility, standing alone and used in both brands. Finished by ~2027-09. Nothing written |
 
 ---
 
@@ -79,6 +77,9 @@ Full records in `00-System/decisions.md`. The ones that matter most:
 
 ---
 
+9. **A credential-named file sits on the Desktop:** `Desktop/HighSignals/HighSignals App/highsignals-project-c81536a46f16.json`, looks like a Google Cloud service-account key. Flagged 2026-09-22 in `security-flags.md` and never opened. Samuel to move it to a secret store, or revoke it.
+10. **Stray empty `03-Areas/community/log.md`** beside `community-log.md`. Asked Samuel twice whether to delete it, no answer. Left in place.
+
 ## Operating notes for the next session
 
 - **Samuel's limits are shared between Claude chat and Claude Code.** He hit them once during this build. Checkpoint before any long batch; subagents on a cheaper model for bulk extraction.
@@ -109,3 +110,5 @@ Full records in `00-System/decisions.md`. The ones that matter most:
 - 2026-09-21 — **Step 1 (sync) tested** in the new "Claude tests" project. DaVinci `AutoSyncAudio` waveform returns False (camera audio dead, −77.8 dB); **motion-correlation fallback works** (+4.0 s ≈ 120 frames @ 29.97, z 7.6, consistent with the SOP's prior ~4.17 s). ffmpeg (Gyan 9.0.1) installed via winget. SOP step 1 updated with the verified decision tree and a reproducible ffmpeg+Python method. **Samuel stopped here (gym); next chat skips video tests and does other parts.**
 - 2026-09-22 — **The Brain is AI-agnostic.** `00-System/portability.md` written (layers, rules, tiers, neutral tool names, linked-AI registry, write tiers, linking checklist, integrations). Agent profiles and `00-System/skills/` are canonical; `build_adapters.py` generates `.claude/` and `.gemini/` + `.agents/` adapters (Gemini formats verified against its installed docs). The 4 claude.ai skills found on disk and copied in; `edit-clock` verified running from the Brain. AGENTS.md gains §11 (any AI) and §12 (session protocol, moved from CLAUDE.md). CLAUDE.md and GEMINI.md are adapters only. Open question 28 answered, 2 partly.
 - 2026-09-22 — **Engine context-file review done.** Samuel: the files were partly current — "question me based on what you see in the files". Written, all confirmed by him: `02-Me/patterns.md`, `daily-routine.md`, `goals/goal-ladder.md`, `stakes-and-accountability.md`, `spirit.md`, health (current section); relationships filled; mentorship (3 mentees, webinar first); Scripnals (taking shape, may be tested this year); content cadence now daily, 5,000 followers by December; video-editing time/delivery rules; Route Rise turnaround; finances wish list; `00-System/ticktick-map.md`. Open questions 55 partly answered. Legacy-review: 20 rows resolved.
+- 2026-09-22 — **Phase 3 closed** (session 3). Scripnals: founder + 2 unpaid devs, equity intended; test with mentees then waitlist; survey sent with many responses; no goal until testers report; Feb 2026 architecture PDFs read (one-off read Samuel approved) → `technical-architecture.md`, which describes an auditor + streak tracker, not the voice-to-script loop. Academy: paused until he has time; mentorship takes the January income line. Community: WhatsApp, admin buys accountability, removal stopped. HighSignals: nothing earns; new system in 2027. Book: visibility, ~2027-09. 02-Me: value, energy, good week, Q4 goals. Open questions 68–73 added.
+- 2026-09-22 — **Phase 4: orchestrator built** as the main session's role (`runs-as: main-session`, no adapter). `06-Logs/commitments.md` created. Decision recorded.
