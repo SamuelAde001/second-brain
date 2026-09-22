@@ -132,3 +132,4 @@ Full records in `00-System/decisions.md`. The ones that matter most:
 - 2026-09-22 — personal-life made the disciplinarian at Samuel's request: three daily commitments (must-dos, client deadlines and hours, start by 7:00am), escalation, make-up rule, checked in `night-plan`. Stakes note, how-to-work-with-me, decisions updated.
 - 2026-09-22 — Content agent built (session 8): profile, memory, log; skills `write-script`, `content-report`; content log; Sunday task extended with the content report. Two personal-brand memory files distilled. Open questions 85–86.
 - 2026-09-22 — Session 9: PowerShell allowed unprompted (destructive/system commands still ask). Cloud sessions defined for phone use with the PC off: own branch, PC merges at start.
+- 2026-09-22 — Session 9: SessionStart hook pulls GitHub at every PC session and lists unmerged cloud branches (`session_start_sync.py`).

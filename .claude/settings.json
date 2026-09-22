@@ -45,5 +45,19 @@
       "PowerShell(*brain-secrets*)",
       "PowerShell(*ANTHROPIC_API_KEY*)"
     ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$CLAUDE_PROJECT_DIR/00-System/scripts/session_start_sync.py\"",
+            "timeout": 40,
+            "statusMessage": "Syncing the Brain with GitHub"
+          }
+        ]
+      }
+    ]
   }
 }

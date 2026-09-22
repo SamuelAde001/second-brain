@@ -140,5 +140,5 @@ The Brain is model-agnostic: any AI Samuel links can use it. The contract, the t
 
 ## 12. Session protocol (any AI)
 
-Start: on the PC, `git pull` and merge any unmerged `claude/*` branches from cloud sessions (`00-System/portability.md` → Cloud sessions and the PC). Then read `00-System/build-state.md`, then this file. **The main session is the orchestrator:** follow `07-Agents/orchestrator/profile.md` and its `memory.md`. State the current phase, the last completed step, the next step. Continue.
+Start: on the PC, a hook pulls GitHub automatically and names any unmerged `claude/*` branch from a cloud session; merge those after review (`00-System/portability.md` → Cloud sessions and the PC). Then read `00-System/build-state.md`, then this file. **The main session is the orchestrator:** follow `07-Agents/orchestrator/profile.md` and its `memory.md`. State the current phase, the last completed step, the next step. Continue.
 End: update build-state, commit, push (primary only; a cloud session pushes its own branch, never `main`), and one line on what happens next session.

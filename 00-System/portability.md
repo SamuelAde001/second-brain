@@ -89,7 +89,7 @@ A tool without a capability falls back in plain terms: no `send-file` → give t
 A cloud session works on a clone, so it and the PC can both change the Brain. To keep them from colliding:
 
 1. **Cloud session:** full write, but only on its own `claude/…` branch. Commit and push that branch at the end. Never push to `main`, never force-push. Anything that needs the PC (the Money sheet, Resolve, `_imports/`) is written as a line in `01-Inbox/` for the PC to do, not attempted.
-2. **PC session, at start:** `git pull`, then `git fetch` and list remote `claude/*` branches not yet merged into `main` (`git branch -r --no-merged main`). Review each one and merge it. It's primary work, so it gets the same checks as the PC's own. Say what was merged. Delete a merged remote branch only with Samuel's yes.
+2. **PC session, at start:** automatic. A SessionStart hook (`.claude/settings.json` → `00-System/scripts/session_start_sync.py`) fetches GitHub, fast-forwards `main`, and names any `claude/*` branch not yet merged. If the fast-forward fails (local changes in the way, or `main` has split), it says so, and the session shows Samuel rather than forcing it. Review each one and merge it. It's primary work, so it gets the same checks as the PC's own. Say what was merged. Delete a merged remote branch only with Samuel's yes.
 3. A merge conflict is shown to Samuel, never auto-resolved (the same as AGENTS.md rule 8 for sync conflicts).
 
 ## Running agents and skills on any AI

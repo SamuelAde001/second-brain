@@ -322,3 +322,5 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Samuel's part:** install the Claude GitHub App on `SamuelAde001/second-brain` and create the cloud environment once.
 
 **Who decided:** Samuel for the need. The build for branch-then-merge.
+
+**Addendum, same day — the pull is automatic.** Samuel: *"let it pull from the repo anytime I am on PC just in case some things where done on the phone while pc was off"*. A SessionStart hook runs `00-System/scripts/session_start_sync.py` at every session on the PC, scheduled ones included. It only fast-forwards `main`, and only when on `main`. It never merges, rebases, deletes or resets. Cloud branches are listed for the session to review and merge. It always exits 0, so a failed sync never blocks a session.
