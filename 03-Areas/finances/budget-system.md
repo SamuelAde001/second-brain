@@ -25,12 +25,19 @@ Rule 6 still holds: the ledger is the truth. Because the sheet is built from it,
 
 ## What the sheet looks like
 
-What Samuel asked for, 2026-09-22: fewer tabs, *"Simple headers, culums, rows and the numbers"*, no text in cells.
+What Samuel asked for, 2026-09-22: fewer tabs, *"Simple headers, culums, rows and the numbers"*, no text in cells. Then: *"make it more aesthetics with colors, better bugger heading, each section has it's own coloring, color coding text, boxes, and sections"*. And: *"I want everymonth as we go forward to have its's own sheet inside this sheet so I can once in a while check past month and see what I did that month"*.
 
-- **Overview:** as-of date and plan month · where the money is (bank and each pot) · goals (target, saved, still to find, months left, needed per month) · the month's plan against what actually went out · one row per month.
-- **Ledger:** every ledger row: date, type, amount, what, category.
-- A negative number shows red. Nothing blocks or pops up. His rule from July: *"let me see it in red when it is more than 100% so I can adjust."*
-- The plan-vs-actual table starts at **2026-10**, the live ledger's first full month. September 2026 is split with the old ledger, so its numbers live in the September close.
+**Tabs:** **Overview** · one tab per month from October 2026, newest first (`Oct 2026`, `Nov 2026`…) · **Ledger**.
+
+- **Overview:** a big title with the as-of date and plan month. Boxed sections, each in its own colour: where the money is (teal) · goals with a progress bar (violet) · this month in numbers (indigo) · plan vs actual (blue) · every month (amber, and each month name links to its tab).
+- **Each month's tab:** the month in numbers · plan vs actual · every entry that month. It's the record of what he did that month.
+- **Ledger:** every entry, oldest first.
+- **Colour code:** money in green · spent red · moved to pots blue · taken from pots orange. Anything overspent shows red on a light red background. Payday A lines are blue, B lines violet. Nothing blocks or pops up. His rule from July: *"let me see it in red when it is more than 100% so I can adjust."*
+- The plan-vs-actual starts at **2026-10**, the live ledger's first full month. September 2026 is split with the old ledger, so its numbers live in the September close.
+
+**A past month never changes.** At each month's close its plan is frozen to `03-Areas/finances/plans/plan-YYYY-MM.md`, and that month's tab reads the frozen plan from then on. Only the running month reads the live plan in [[obligations]].
+
+**Who changes the sheet:** the finance agent, and only it. That covers numbers and the layout. Samuel: *"If I want to make any adjustment to the sheets in a way, even in the way things are arranged, the financial agent would be the one in charge of all that"*.
 
 ## How it is built
 

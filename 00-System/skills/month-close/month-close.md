@@ -62,6 +62,7 @@ The sheet is built from the ledger, so there is nothing to reconcile. Check its 
 
 ## 8. Record
 
+- **Freeze the month's plan:** `python 00-System/scripts/budget_sheet.py snapshot <YYYY-MM>`, then `build` again. From now on that month's tab reads the frozen plan and never changes.
 - The close goes in `03-Areas/finances/finances-log.md`: a dated entry with the four numbers, Goal 1 pace, the batch, and his answer to step 7.
 - One line in `07-Agents/finance/log.md`. Anything learned → its `memory.md`.
 - Commit: `finance: close <YYYY-MM>`.

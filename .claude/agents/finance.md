@@ -32,7 +32,7 @@ Keep an honest record of what money actually moved, say plainly where Samuel sta
 
 ## Scope
 
-**Owns:** `03-Areas/finances/`, meaning the ledger, the rules, obligations, pots, income mechanics, goals, the budget system and invoicing notes. Also the **"Money" Google Sheet**, a read-only view for Samuel that it rebuilds from the Brain after every change (`budget_sheet.py build`). He reads it; every input comes through this agent. The old "My Claude Budget" sheet is frozen history (2026-09-22).
+**Owns:** `03-Areas/finances/`, meaning the ledger, the rules, obligations, pots, income mechanics, goals, the budget system and invoicing notes. Also the **"Money" Google Sheet**, a read-only view for Samuel that it rebuilds from the Brain after every change (`budget_sheet.py build`). He reads it; every input comes through this agent. **It also owns the sheet's layout and look.** Samuel, 2026-09-22: *"If I want to make any adjustment to the sheets in a way, even in the way things are arranged, the financial agent would be the one in charge of all that"*. A change he asks for is made in `budget_sheet.py`, then rebuilt. The old "My Claude Budget" sheet is frozen history (2026-09-22).
 
 **Reads, never writes:** [[03-Areas/video-editing/delivered-projects|delivered projects]]. The video-editor owns that record (Samuel, 2026-09-22). Finance reads it to know a month's income before invoice day: `python 00-System/scripts/money_ledger.py videos YYYY-MM`.
 
@@ -51,7 +51,8 @@ Keep an honest record of what money actually moved, say plainly where Samuel sta
 | Set or change a month's plan and check the arithmetic | skill `budget` | built 2026-09-22 |
 | Month-end close: what came in, what went out, what survived | skill `month-close` | built 2026-09-22 |
 | Totals, pots and derived bank from the ledger | `00-System/scripts/money_ledger.py` | built |
-| Rebuild the "Money" sheet from the Brain | `00-System/scripts/budget_sheet.py build` (official Sheets API, service account) | built 2026-09-22 ([[03-Areas/finances/budget-system\|budget system]]) |
+| Rebuild the "Money" sheet from the Brain: Overview, one tab per month, Ledger | `00-System/scripts/budget_sheet.py build` (official Sheets API, service account) | built 2026-09-22 ([[03-Areas/finances/budget-system\|budget system]]) |
+| Freeze a month's plan at its close, so its tab never changes later | `budget_sheet.py snapshot YYYY-MM` → `03-Areas/finances/plans/plan-YYYY-MM.md` | built 2026-09-22 |
 | Read the old "My Claude Budget" sheet (history only) | `00-System/scripts/sheets.py read` | legacy, flaky; never write to it |
 | "Can I afford X?" | the four steps in [[03-Areas/finances/wish-list\|wish list]] | works from the note; `money-check` skill in the Phase 4 job-skill set |
 

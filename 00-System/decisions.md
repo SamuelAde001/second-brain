@@ -207,3 +207,16 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Alternatives rejected:** keeping the web app with retries (hides the failures, doesn't fix them). Signing in as Samuel through OAuth (unverified apps get tokens that expire after 7 days). Reusing the HighSignals project key on the Desktop (another project's credential, already flagged).
 
 **Who decided:** Samuel for the shape and the official API. The build for the mechanism.
+
+## 2026-09-22 — The Money sheet gets a look, a tab per month, and one owner
+
+**Samuel:** *"make it more aesthetics with colors, better bugger heading, each section has it's own coloring, color coding text, boxes, and sections"* · *"I want everymonth as we go forward to have its's own sheet inside this sheet so I can once in a while check past month and see what I did that month"* · *"If I want to make any adjustment to the sheets in a way, even in the way things are arranged, the financial agent would be the one in charge of all that"*.
+
+**What changed:** `budget_sheet.py` paints every tab. Big title, a coloured band per section, boxed tables, colour-coded numbers, no gridlines. Headers and numbers still only, no sentences. One tab per month from October 2026, newest first. The Overview's month names link to them.
+
+**How past months stay true:** at each close, `budget_sheet.py snapshot YYYY-MM` freezes that month's plan to `03-Areas/finances/plans/plan-YYYY-MM.md`, and its tab reads the frozen copy from then on. Without that, a later plan change would quietly rewrite what an old month had planned. The snapshot is written once and never rewritten. The ledger was already append-only.
+
+**Owner:** the finance agent owns the sheet, numbers and layout. A layout change is a change to `budget_sheet.py`, then a rebuild. Nobody edits the sheet by hand.
+
+**Who decided:** Samuel for the look, the monthly tabs and the ownership. The build for the snapshot mechanism.
+

@@ -40,6 +40,7 @@ Every item he names goes to a line in the `obligations.md` table. Savings are no
 - Changing an amount → **with his yes** (profile: must ask), change the table cell and record the old figure, the new figure, the date and why in the note's change table. Nothing is overwritten without a trace.
 - Cancelling → move it to "Cut and gone" with the date. Never delete it silently. A cancelled line that comes back in three months is a pattern.
 - Adding → a new row, and say what it displaces. A new line doesn't make new money.
+- **Planning a later month while one is still running?** First freeze the running month's plan: `python 00-System/scripts/budget_sheet.py snapshot <running YYYY-MM>`. Otherwise its tab would show the new plan as if it had been the old one.
 
 ## 5. The arithmetic, out loud
 

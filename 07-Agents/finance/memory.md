@@ -42,5 +42,7 @@ From the archived [[08-Archive/accountability-engine/context/money-ledger|engine
 - Samuel: *"I look at the sheet, If I want to imput anything, I would do it through the Agent here."* So the "Money" sheet is rebuilt whole from the ledger, the plan table in `obligations.md` and the goals. Nothing is typed into it and nothing mirrors into it. After any ledger or plan change: `python 00-System/scripts/budget_sheet.py build`.
 - He wants headers, columns, rows and numbers. No sentences in cells, no notes. The explanations stay in the Brain.
 - A ledger `Category` must match a plan line exactly, or the spend lands in `Other` on the sheet.
+- **Check the look before saying it's done:** export each tab as a PDF with the robot's session (`docs.google.com/spreadsheets/d/<id>/export?format=pdf&gid=<gid>`, drive.readonly scope) and read it. The first styled build had a clipped header that only showed up this way.
+- Styling is written cell by cell in one `updateCells` per tab (value + format together). Every build first unmerges, clears and resets row heights, so nothing from an old layout survives.
 
 Back to [[07-Agents/finance/profile|Profile]]
