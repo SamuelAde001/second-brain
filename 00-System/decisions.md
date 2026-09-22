@@ -324,3 +324,9 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Who decided:** Samuel for the need. The build for branch-then-merge.
 
 **Addendum, same day — the pull is automatic.** Samuel: *"let it pull from the repo anytime I am on PC just in case some things where done on the phone while pc was off"*. A SessionStart hook runs `00-System/scripts/session_start_sync.py` at every session on the PC, scheduled ones included. It only fast-forwards `main`, and only when on `main`. It never merges, rebases, deletes or resets. Cloud branches are listed for the session to review and merge. It always exits 0, so a failed sync never blocks a session.
+
+**Correction, same day — cloud sessions push to `main`.** Samuel, in the first cloud session from his phone: *"I want it to write to main always"*. This replaces branch-then-merge. A cloud session works on whatever branch its harness assigns, then fetches `origin/main`, merges it (never rebases) and pushes to `main`. Never force. A conflict goes to Samuel. The PC hook's fast-forward now brings the phone's work in on its own. It still lists stray `claude/*` branches as a fallback. Rules in `00-System/portability.md` → Cloud sessions and the PC, and AGENTS.md §12.
+
+**Objection (logged once, per the objection protocol):** with two writers on `main`, a PC session that ends with unpushed commits while the phone pushes splits `main`, and the PC hook will stop and ask instead of fast-forwarding. Mitigation: every session pushes at the end, which the rules already require. Executed as instructed.
+
+**Who decided:** Samuel.
