@@ -53,4 +53,10 @@ From the archived [[08-Archive/accountability-engine/context/money-ledger|engine
 
 - **Over plan is not minus.** A red over-plan total with no source shown reads as a deficit. Always show what paid for an overspend: the Money flow box names each pot it came out of.
 
+## 2026-09-22 — Where the leftover goes
+
+- **In the six days after Payday B, NGN 78,200 went to lines no plan had:** girlfriend extras (data, food, hair), gifts, a loan to a friend, eating out. Then the Buffer (NGN 50,000) came out to cover it. It's the same shape as Kaduna: unplanned spending first, then a pot pays for it.
+- **He asked to be kept in check** (*"You can see I spend out of hand, I need the Financial agent to keep me in check"*). The agent can't see his bank, so a check only works if he tells it before or soon after. Propose a mechanism, and record it in `06-Logs/commitments.md` only once he confirms it.
+- Girlfriend support recurs. A real line for it in the next plan beats a surprise every month.
+
 Back to [[07-Agents/finance/profile|Profile]]

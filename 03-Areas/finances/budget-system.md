@@ -30,6 +30,8 @@ What Samuel asked for, 2026-09-22: fewer tabs, *"Simple headers, culums, rows an
 **Tabs:** **Overview** · one tab per month from September 2026, newest first (`Sep 2026`, `Oct 2026`…) · **Ledger**.
 
 - **Overview:** a big title with the as-of date and plan month. Boxed sections, each in its own colour: where the money is (teal) · goals with a progress bar (violet) · this month in numbers (indigo) · plan vs actual (blue) · every month (amber, and each month name links to its tab).
+- **Subscriptions** (pink box on the Overview): each subscription, its amount, the day it bills, what was paid this month and whether it's paid or due. Read from the subscriptions table in [[obligations]]. Samuel, 2026-09-22: *"on the google sheets, there should be an area in the overview for subscriptions and there dates of payments"*.
+- **Unplanned spending** shows as its own row in plan vs actual, marked `unplanned`, planned 0, in orange with a red Left. It never hides inside Other.
 - **Each month's tab:** the month in numbers · money flow · plan vs actual · every entry that month. It's the record of what he did that month.
 - **Money flow** (green box, on each month's tab and in the Overview's month section): bank at the start + money in + taken from each pot − spent − into pots = bank at the end. Added 2026-09-22 because the red over-plan total read as a deficit. Samuel: *"Now even though I ate overspent in some areas, those extra cash was taking from my Cowrywise investment account so I am not really in a Minus, just that I spent more that this moths budget and compensated with my investment money"*. **Over plan is not the same as minus.** This box shows what paid for the overspend.
 - **Ledger:** every entry, oldest first.

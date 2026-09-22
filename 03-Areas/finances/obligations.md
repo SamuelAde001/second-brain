@@ -16,7 +16,7 @@ Exact line items, given by Samuel on 2026-08-26 and maintained since. **Payday**
 | Building project | NGN 500,000 | Fixed | A |
 | Parents | NGN 100,000 | Committed | A |
 | Girlfriend allowance | NGN 100,000 | Committed | A |
-| Subscriptions | NGN 51,800 | mixed | split |
+| Subscriptions | NGN 65,300 | mixed | split |
 | Chores / household | NGN 40,000 | Discretionary | B |
 | Health — gym | NGN 30,000 | Committed | A |
 | Feeding | NGN 30,000 | Committed | B |
@@ -26,13 +26,20 @@ Exact line items, given by Samuel on 2026-08-26 and maintained since. **Payday**
 | Giving | NGN 10,000 | Committed | B |
 | Personal / misc | NGN 10,000 | Discretionary | B |
 | Data / airtime | NGN 5,000 | Committed | B |
-| **Obligations floor** | **NGN 936,800** | | |
+| **Obligations floor** | **NGN 950,300** | | |
 | Investment contribution | NGN 100,000 | Fixed | A |
-| **Total committed outflow** | **NGN 1,036,800 / month** | | |
+| **Total committed outflow** | **NGN 1,050,300 / month** | | |
 
 ## Subscriptions, exactly
 
-Claude NGN 33,500 (16th) · Google NGN 15,000 (2nd) · YouTube Premium NGN 1,700 (17th) · Spotify NGN 1,600 (5th) = **NGN 51,800**.
+| Subscription | NGN | Bills on |
+|---|---|---|
+| Claude | 33,500 | 16th |
+| Google | 28,500 | 18th |
+| YouTube Premium | 1,700 | 17th |
+| Spotify | 1,600 | 5th |
+
+**NGN 65,300 a month** from 2026-09-18. Until then it was NGN 51,800: Claude NGN 33,500 (16th) · Google NGN 15,000 (2nd) · YouTube Premium NGN 1,700 (17th) · Spotify NGN 1,600 (5th).
 
 YouTube and Spotify are kept — his words: they help his work, and they are his only entertainment.
 
@@ -60,6 +67,14 @@ YouTube and Spotify are kept — his words: they help his work, and they are his
 **2026-09-22:** Samuel dropped the creator-network goal behind this line — *"Realised may not be possible"* ([[03-Areas/relationships/relationships|Relationships]]). The line itself is his call at the next budget.
 
 A warning from the same rework: the estimate was NGN 1,044,500, the truth NGN 1,038,560. **Nothing got cheaper.** Feeding's NGN 150,000 did not become savings — it moved house, into transport, data, household, gym and a misc line that did not exist before. Worth remembering the next time a category looks like it has slack in it.
+
+## Changed 2026-09-22, at his instruction
+
+| Line | From | To | Why |
+|---|---|---|---|
+| Subscriptions (Google) | NGN 15,000 on the 2nd | NGN 28,500 on the 18th | His words: "I had to increase my google subscription because of the work I was doing needed me to use Flow, and my google plan wasn't enough" |
+
+The floor rises from NGN 936,800 to **NGN 950,300**, and committed outflow from NGN 1,036,800 to **NGN 1,050,300**. A work tool, and it recurs.
 
 ## Removed and no longer owed
 

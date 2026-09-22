@@ -81,5 +81,20 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-09-16 | to-pot | 50,000 | Buffer | Buffer | Rule 3 kept: Payday B; old ledger 2026-09-16 |
 | 2026-09-16 | major | 40,000 | Kemi, repayment 1 of 2 | Sister's debt | his words; NGN 50,000 still owed, no date; old ledger 2026-09-16 |
 | 2026-09-16 | major | 5,000 | Clothes wash | Chores / household | his words; old ledger 2026-09-16 |
+| 2026-09-18 | major | 28,500 | Google (upgrade for Flow) | Subscriptions | his words: "I had to increase my google subscription because of the work I was doing needed me to use Flow, and my google plan wasn't enough"; dated 18 Sep by him. The old NGN 15,000 plan was already paid 2026-09-03 |
+| 2026-09-21 | from-pot | 50,000 | Buffer withdrawal | Buffer | his words: "So I withdrew the 50k, I had in buffer yesterday, it is now in my account"; reason not given, asked 2026-09-22 |
+| 2026-09-22 | major | 16,850 | Household shopping | Chores / household | his words; day not given (16–22 Sep); first main shopping of the Payday B cycle |
+| 2026-09-22 | bulk | 3,500 | Chicken | Feeding | his words; day not given; asked whether this is the 2026-09-15 chicken meal again |
+| 2026-09-22 | major | 1,700 | YouTube Premium | Subscriptions | his words; bills on the 17th; debit day not given |
+| 2026-09-22 | major | 33,500 | Claude | Subscriptions | his words; bills on the 16th; was not in the 2026-09-16 derived balance |
+| 2026-09-22 | bulk | 30,000 | Girlfriend's data subscription | Girlfriend — extra | his words: she ran out of data; may recur next month if she gets no gig |
+| 2026-09-22 | bulk | 5,000 | Food at home, for girlfriend | Girlfriend — extra | his words; day not given |
+| 2026-09-22 | bulk | 10,000 | Loan to a friend | Loan to a friend | his words: to be paid back at the end of the month. When repaid, log a minus row in this category |
+| 2026-09-22 | bulk | 3,500 | Sister, for her child's birthday | Gifts | his words; day not given |
+| 2026-09-22 | bulk | 17,000 | Friend's birthday gift | Gifts | his words; day not given |
+| 2026-09-22 | bulk | 7,700 | Restaurant food | Eating out | his words; day not given |
+| 2026-09-22 | bulk | 5,000 | Girlfriend's hair | Girlfriend — extra | his words; day not given |
+| 2026-09-22 | bulk | 915 | Unaccounted (probably transfer charges) | Other | derived: NGN 61,567 (his words, live) against the rows; not confirmed |
+| 2026-09-22 | balance | 61,567 | Bank | — | his words: "What is in my bank account now live is 61,567" |
 
 Back to [[03-Areas/finances/finances|Finances]]

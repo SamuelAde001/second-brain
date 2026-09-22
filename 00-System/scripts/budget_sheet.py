@@ -159,7 +159,10 @@ def plan_vs_actual(month):
         known.add(line)
         a = act.get(line, 0)
         rows.append([line, payday, "" if amount is None else amount, a, "" if amount is None else amount - a])
-    rows.append(["Other", "", "", sum(v for k, v in act.items() if k not in known), ""])
+    # Spending on a line the plan never had shows as its own row, planned 0, so it can't hide in Other.
+    for k in sorted(k for k in act if k not in known and k != "Other"):
+        rows.append([k, "unplanned", 0, act[k], -act[k]])
+    rows.append(["Other", "", "", act.get("Other", 0), ""])
     rows.append(["Total", "", sum(r[2] for r in rows if r[2] != ""), sum(r[3] for r in rows),
                  sum(r[4] for r in rows if r[4] != "")])
     return rows
@@ -177,10 +180,32 @@ def flow_rows(month):
         if r["Type"] == "from-pot" and ml.ngn(r["NGN"]):
             by_pot[r["Category"]] = by_pot.get(r["Category"], 0) + ml.ngn(r["NGN"])
     for pot, amt in by_pot.items():
-        rows.append(["+ Taken from " + pot, amt])
+        rows.append(["+ From " + pot, amt])
     rows.append(["− Spent", t["spent"]])
     rows.append(["− Into pots", t["to"]])
     rows.append(["= Bank at the end", start + t["left"]])
+    return rows
+
+
+def subscription_rows(month):
+    """The subscriptions table in obligations.md, with what was paid for each this month."""
+    paid = {}
+    for r in entries(month):
+        if r["Category"] == "Subscriptions" and ml.ngn(r["NGN"]):
+            key = r["What"].split()[0].lower()
+            paid.setdefault(key, [0, ""])
+            paid[key][0] += ml.ngn(r["NGN"])
+            paid[key][1] = r["Date"][:10]
+    rows = []
+    for r in ml.table_rows(OBLIGATIONS, "Subscription"):
+        name = r["Subscription"]
+        if name.startswith("**"):
+            continue
+        amount = ml.ngn(r["NGN"]) or 0
+        got, when = paid.get(name.split()[0].lower(), [0, ""])
+        status = ("Paid " + when[5:]) if got >= amount and got else "Due " + r["Bills on"]
+        rows.append([name, amount, r["Bills on"], got, status])
+    rows.append(["Total", sum(x[1] for x in rows), "", sum(x[3] for x in rows), ""])
     return rows
 
 
@@ -307,6 +332,7 @@ def preview():
     t = totals(pm)
     show("This month", H_KPI, [[t["in"], t["spent"], t["to"], t["from"], t["left"]]])
     show("Money flow " + pm, H_FLOW, flow_rows(pm))
+    show("Subscriptions " + pm, H_SUBS, subscription_rows(pm))
     show("Plan vs actual " + pm, H_PLAN, plan_vs_actual(pm))
     for m in reversed(months(today)):
         t = totals(m)
@@ -327,6 +353,7 @@ H_KPI = ["In (NGN)", "Spent (NGN)", "To pots (NGN)", "From pots (NGN)", "Left ov
 H_PLAN = ["Line", "Payday", "Planned (NGN)", "Actual (NGN)", "Left (NGN)"]
 H_MONTHS = ["Month", "In (NGN)", "Spent (NGN)", "To pots (NGN)", "From pots (NGN)", "Left over (NGN)"]
 H_ENTRY = ["Date", "Type", "Amount (NGN)", "What", "Category"]
+H_SUBS = ["Subscription", "Amount (NGN)", "Bills on", "Paid (NGN)", "Status"]
 H_FLOW = ["Where it came from, where it went", "NGN"]
 
 INK, MUTED, WHITE, ZEBRA, LINE = "#0F172A", "#64748B", "#FFFFFF", "#F8FAFC", "#E2E8F0"
@@ -338,6 +365,7 @@ MONEY = ("#0F766E", "#CCFBF1")
 GOALS_C = ("#6D28D9", "#EDE9FE")
 KPI_C = ("#4338CA", "#E0E7FF")
 FLOW_C = ("#15803D", "#DCFCE7")
+SUBS_C = ("#BE185D", "#FCE7F3")
 PLAN_C = ("#1D4ED8", "#DBEAFE")
 MONTHS_C = ("#B45309", "#FEF3C7")
 LEDGER_C = ("#334155", "#E2E8F0")
@@ -412,7 +440,7 @@ class Page:
         span, nums = len(header), nums or {}
         r0 = len(self.grid)
         self.banner(title.upper(), main, span, size=12, height=32)
-        aligns = ["RIGHT" if j in nums else ("CENTER" if j and not nums.get(j) and header[j] in ("Payday", "Type", "Counts toward Goal 1", "Starts", "Deadline") else "LEFT")
+        aligns = ["RIGHT" if j in nums else ("CENTER" if j and not nums.get(j) and header[j] in ("Payday", "Type", "Counts toward Goal 1", "Starts", "Deadline", "Bills on", "Status") else "LEFT")
                   for j in range(span)]
         if big:
             aligns = ["CENTER"] * span
@@ -471,7 +499,7 @@ def style_flow(i, j, v, row):
     label = row[0]
     if label.startswith("+ Money"):
         return {"fg": GREEN}
-    if label.startswith("+ Taken"):
+    if label.startswith("+ From"):
         return {"fg": ORANGE, "bold": True}
     if label.startswith("− Spent"):
         return {"fg": RED}
@@ -481,7 +509,18 @@ def style_flow(i, j, v, row):
         return {"fg": GREEN if isinstance(row[1], (int, float)) and row[1] >= 0 else RED}
 
 
+def style_subs(i, j, v, row):
+    if j == 4 and v:
+        return {"fg": GREEN if v.startswith("Paid") else ORANGE, "bold": True, "align": "CENTER"}
+    if j == 2:
+        return {"align": "CENTER"}
+    if j == 3 and isinstance(v, (int, float)) and v:
+        return {"fg": GREEN if v >= row[1] else ORANGE}
+
+
 def style_plan(i, j, v, row):
+    if row[1] == "unplanned" and j in (0, 1):
+        return {"fg": ORANGE, "bold": j == 1}
     if j == 1 and v:
         return {"fg": BLUE if v == "A" else (VIOLET if v == "B" else ("#4338CA" if v == "A+B" else MUTED)), "bold": True}
     if j == 3 and isinstance(v, (int, float)) and v:
@@ -523,6 +562,8 @@ def paint_overview(page, today, gids):
     page.box("Money flow — " + month_label(pm), FLOW_C, H_FLOW, flow_rows(pm), style_flow, {1: NGN_FMT}, total=True)
     page.box("Plan vs actual — " + month_label(pm), PLAN_C, H_PLAN, plan_vs_actual(pm), style_plan,
              PLAN_NUMS, total=True)
+    page.box("Subscriptions — " + month_label(pm), SUBS_C, H_SUBS, subscription_rows(pm), style_subs,
+             {1: NGN_FMT, 3: NGN_FMT}, total=True)
     rows = []
     for m in reversed(months(today)):
         t = totals(m)
