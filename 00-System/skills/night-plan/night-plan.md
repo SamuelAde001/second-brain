@@ -37,7 +37,7 @@ His words: *"It should also be a disciplinarian and and accoutability checker"*.
 | Client deadlines & hours | planned client hours done; no client deadline passed undelivered | hours short of plan, or a deadline passed |
 | Start by 7:00am | a focus session started by 7:00am, or he says yes | he says no. **No evidence and no answer = unknown, never a miss** |
 
-If there was no plan for today, the must-dos are today's priority-5 tasks. When the focus records can't answer the start or the hours, ask him in the same message: *"Client work started by 7:00? Hours on <job> today?"*
+A commitment is checked only from the start date in `06-Logs/commitments.md`. All three start 2026-09-23, so the first real check is the night of 2026-09-23. If there was no plan for today, the must-dos are today's priority-5 tasks. When the focus records can't answer the start or the hours, ask him in the same message: *"Client work started by 7:00? Hours on <job> today?"*
 
 **Escalation.** The week's count (Monday to Sunday) is the misses already recorded plus today's.
 1. **First miss of the week:** name it by name, ask why once, and set its new date.
