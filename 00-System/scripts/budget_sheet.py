@@ -165,6 +165,25 @@ def plan_vs_actual(month):
     return rows
 
 
+def flow_rows(month):
+    """Bank at the start + money in + taken from each pot − spent − into pots = bank at the end.
+    Shows where an overspend was paid from, so over-plan never reads as a deficit (Samuel, 2026-09-22)."""
+    start = ml.position([r for r in ml.ledger() if r["Date"][:10] < month + "-01"])[1] or 0
+    rows = [["Bank at the start", start]]
+    t = totals(month)
+    rows.append(["+ Money in", t["in"]])
+    by_pot = {}
+    for r in entries(month):
+        if r["Type"] == "from-pot" and ml.ngn(r["NGN"]):
+            by_pot[r["Category"]] = by_pot.get(r["Category"], 0) + ml.ngn(r["NGN"])
+    for pot, amt in by_pot.items():
+        rows.append(["+ Taken from " + pot, amt])
+    rows.append(["− Spent", t["spent"]])
+    rows.append(["− Into pots", t["to"]])
+    rows.append(["= Bank at the end", start + t["left"]])
+    return rows
+
+
 def plan_month(today=None):
     return max((today or dt.date.today()).strftime("%Y-%m"), LIVE_FROM)
 
@@ -287,6 +306,7 @@ def preview():
     show("Goals", H_GOALS, goal_rows(bal, today))
     t = totals(pm)
     show("This month", H_KPI, [[t["in"], t["spent"], t["to"], t["from"], t["left"]]])
+    show("Money flow " + pm, H_FLOW, flow_rows(pm))
     show("Plan vs actual " + pm, H_PLAN, plan_vs_actual(pm))
     for m in reversed(months(today)):
         t = totals(m)
@@ -307,6 +327,7 @@ H_KPI = ["In (NGN)", "Spent (NGN)", "To pots (NGN)", "From pots (NGN)", "Left ov
 H_PLAN = ["Line", "Payday", "Planned (NGN)", "Actual (NGN)", "Left (NGN)"]
 H_MONTHS = ["Month", "In (NGN)", "Spent (NGN)", "To pots (NGN)", "From pots (NGN)", "Left over (NGN)"]
 H_ENTRY = ["Date", "Type", "Amount (NGN)", "What", "Category"]
+H_FLOW = ["Where it came from, where it went", "NGN"]
 
 INK, MUTED, WHITE, ZEBRA, LINE = "#0F172A", "#64748B", "#FFFFFF", "#F8FAFC", "#E2E8F0"
 TITLE, SUBTITLE = "#1E293B", "#334155"
@@ -316,6 +337,7 @@ RED_BG = "#FEE2E2"
 MONEY = ("#0F766E", "#CCFBF1")
 GOALS_C = ("#6D28D9", "#EDE9FE")
 KPI_C = ("#4338CA", "#E0E7FF")
+FLOW_C = ("#15803D", "#DCFCE7")
 PLAN_C = ("#1D4ED8", "#DBEAFE")
 MONTHS_C = ("#B45309", "#FEF3C7")
 LEDGER_C = ("#334155", "#E2E8F0")
@@ -445,6 +467,20 @@ def style_kpi(i, j, v, row):
     return {"fg": colour, "align": "CENTER"}
 
 
+def style_flow(i, j, v, row):
+    label = row[0]
+    if label.startswith("+ Money"):
+        return {"fg": GREEN}
+    if label.startswith("+ Taken"):
+        return {"fg": ORANGE, "bold": True}
+    if label.startswith("− Spent"):
+        return {"fg": RED}
+    if label.startswith("− Into"):
+        return {"fg": BLUE}
+    if label.startswith("="):
+        return {"fg": GREEN if isinstance(row[1], (int, float)) and row[1] >= 0 else RED}
+
+
 def style_plan(i, j, v, row):
     if j == 1 and v:
         return {"fg": BLUE if v == "A" else (VIOLET if v == "B" else ("#4338CA" if v == "A+B" else MUTED)), "bold": True}
@@ -484,6 +520,7 @@ def paint_overview(page, today, gids):
     t = totals(pm)
     page.box("This month — " + month_label(pm), KPI_C, H_KPI,
              [[t["in"], t["spent"], t["to"], t["from"], t["left"]]], style_kpi, KPI_NUMS, big=True)
+    page.box("Money flow — " + month_label(pm), FLOW_C, H_FLOW, flow_rows(pm), style_flow, {1: NGN_FMT}, total=True)
     page.box("Plan vs actual — " + month_label(pm), PLAN_C, H_PLAN, plan_vs_actual(pm), style_plan,
              PLAN_NUMS, total=True)
     rows = []
@@ -506,6 +543,7 @@ def paint_month(page, m):
     t = totals(m)
     page.box("The month in numbers", KPI_C, H_KPI, [[t["in"], t["spent"], t["to"], t["from"], t["left"]]],
              style_kpi, KPI_NUMS, big=True)
+    page.box("Money flow", FLOW_C, H_FLOW, flow_rows(m), style_flow, {1: NGN_FMT}, total=True)
     page.box("Plan vs actual", PLAN_C, H_PLAN, plan_vs_actual(m), style_plan, PLAN_NUMS, total=True)
     page.box("Every entry", LEDGER_C, H_ENTRY, entry_rows(rows), style_entry, ENTRY_NUMS)
 

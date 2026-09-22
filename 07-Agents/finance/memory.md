@@ -51,4 +51,6 @@ From the archived [[08-Archive/accountability-engine/context/money-ledger|engine
 - **Show him the running month, always.** He asked where September was the moment the sheet jumped to October. The month on screen must be the month he's living in.
 - Month plans have their own lines. September has one-offs (Son's school, Kaduna trip, Gym clothing, Sister's debt) that the standing plan doesn't. The ledger category must match the month's plan line.
 
+- **Over plan is not minus.** A red over-plan total with no source shown reads as a deficit. Always show what paid for an overspend: the Money flow box names each pot it came out of.
+
 Back to [[07-Agents/finance/profile|Profile]]
