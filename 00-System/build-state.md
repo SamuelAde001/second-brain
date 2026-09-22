@@ -20,6 +20,8 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 - **Content agent built (2026-09-22, session 8, run in parallel with the personal-life chat).** `07-Agents/content/`, runs in the main session (no adapter). Skills `write-script` (runs the script SOP and review checklist) and `content-report` (Sunday). `03-Areas/personal-brand/content-log.md` opened, append-only. Samuel: all content is @SamuelSignals (HighSignals has none); a Reel, TikTok or carousel counts, not a Story; same video on both; **daily posting is reported on Sundays, not a commitment**; audience is remote workers, creatives and video editors; content from 3:00pm. The Sunday task now runs money check → content report → weekly review. Open: automating his numbers (Metricool or vidIQ, his yes needed), and which platform the 5,000 counts on. Also distilled: `scripting-and-collaboration.md` and `story-bank.md` (loose end 3, personal-brand half).
 
+- **Phone with the PC off (2026-09-22, session 9).** Cloud sessions (Claude app → Code) on the GitHub repo. Each one works on its own `claude/…` branch; **every PC session now starts with `git pull` and merges them** (AGENTS.md §12). Waiting on Samuel: install the Claude GitHub App on the repo and make the cloud environment. Also: PowerShell runs unprompted now (decisions, same day).
+
 **14-day target for Phases 0–4:** 2026-10-04. Day 3 of 14.
 
 ---
@@ -129,3 +131,4 @@ Full records in `00-System/decisions.md`. The ones that matter most:
 - 2026-09-22 — Personal-life agent built (session 7): profile, memory, log; skills `night-plan`, `morning-brief`, `weekly-review`; scheduled tasks `night-plan` (8:45pm) and `morning-brief` (6:30am); `sunday-money-check` extended with the weekly review. TickTick and Calendar read live to ground it. Open questions 83–84.
 - 2026-09-22 — personal-life made the disciplinarian at Samuel's request: three daily commitments (must-dos, client deadlines and hours, start by 7:00am), escalation, make-up rule, checked in `night-plan`. Stakes note, how-to-work-with-me, decisions updated.
 - 2026-09-22 — Content agent built (session 8): profile, memory, log; skills `write-script`, `content-report`; content log; Sunday task extended with the content report. Two personal-brand memory files distilled. Open questions 85–86.
+- 2026-09-22 — Session 9: PowerShell allowed unprompted (destructive/system commands still ask). Cloud sessions defined for phone use with the PC off: own branch, PC merges at start.

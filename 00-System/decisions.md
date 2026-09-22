@@ -308,3 +308,17 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Why the ask list:** AGENTS.md §5 rule 1 already requires asking before deleting or rewriting history, and CLAUDE.md asks for least privilege. The ask list keeps those gates while everything routine (scripts, listing, copying, git reads) runs unprompted. Prefix rules are a guard rail, not a sandbox: a command can reach the same effect another way. The operating rules still bind.
 
 **Who decided:** Samuel for the grant. The build for the ask and deny lists.
+
+## 2026-09-22 — Cloud sessions for when the PC is off
+
+**Samuel:** *"for the instance my PC is off, and I want to brain storm things with a new session that connects with the brain on my phone"*
+
+**What:** a Claude Code cloud session (Claude app → Code, or claude.ai/code), opened on the GitHub repo, is the way in when the PC is off. It's Claude Code, so it's **primary**, but it writes only to its own `claude/…` branch and never pushes `main`. Every PC session starts with `git pull` and merges any unmerged `claude/*` branches (AGENTS.md §12; `00-System/portability.md` → Cloud sessions and the PC). Conflicts go to Samuel.
+
+**Why a branch, not main:** the PC and the cloud can both change the Brain. A branch means nothing collides and nothing lands unseen. The PC is the only place where the whole Brain lives, including the sheet key, Resolve and `_imports/`.
+
+**Limits of a cloud session:** no Resolve MCP, no Money sheet (the key and the Windows variables are on the PC), no `_imports/`. Jobs that need them go into `01-Inbox/` as a line for the PC.
+
+**Samuel's part:** install the Claude GitHub App on `SamuelAde001/second-brain` and create the cloud environment once.
+
+**Who decided:** Samuel for the need. The build for branch-then-merge.

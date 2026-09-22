@@ -65,6 +65,7 @@ A tool without a capability falls back in plain terms: no `send-file` → give t
 | AI | Tier | How it loads AGENTS.md | Adapter files | Agents | Skills | Status |
 |---|---|---|---|---|---|---|
 | **Claude Code** (desktop + CLI) | primary | CLAUDE.md imports it (`@AGENTS.md`) | CLAUDE.md · `.claude/settings.json` · `.claude/agents/` and `.claude/skills/` (generated) | native subagents, generated | native, generated | active |
+| **Claude Code — cloud session** (Claude app → Code, or claude.ai/code; for when the PC is off) | primary, **on its own branch** | CLAUDE.md imports it, from the GitHub clone | same files as above, from the repo | native, generated | native, generated | needs the Claude GitHub App on `SamuelAde001/second-brain` (Samuel installs it). **Has no:** local MCP servers (DaVinci Resolve), the Money sheet key or Windows variables, `01-Inbox/_imports/`. Good for brainstorming, planning, writing notes. Commits and pushes to its `claude/…` branch, never `main`. The PC session merges it (Session protocol below) |
 | **Gemini CLI** | guest | `.gemini/settings.json` → `context.fileName` | GEMINI.md · `.gemini/settings.json` · `.gemini/agents/` and `.agents/skills/` (generated) | native subagents, generated — told they are guests | native, generated | 0.60.0 installed, **but inside the Claude app's private storage** — may not run from a normal terminal (open question 2). No MCP servers connected |
 | **claude.ai chat** (web, phone) | none — no Brain access | — | copies of the 4 skills, uploaded there | — | copies; re-upload after editing (below) | skills only |
 | **Any other AI** | guest until Samuel says otherwise | natively if it reads AGENTS.md, else a pointer file or the boot prompt | — | reads the profile | reads the skill file | — |
@@ -82,6 +83,14 @@ A tool without a capability falls back in plain terms: no `send-file` → give t
 | From the GitHub repo | a cloud agent working on a clone | everything committed — **not** `_imports/`, which is gitignored | per tier, as commits |
 | Chat app with a connector or uploads | a chat assistant given the repo or files | what the connector exposes | none — Samuel pastes output into `01-Inbox/` |
 | Phone | Obsidian on Android | the Brain | `01-Inbox/` only (AGENTS.md rule 8). Sync not set up yet |
+
+## Cloud sessions and the PC
+
+A cloud session works on a clone, so it and the PC can both change the Brain. To keep them from colliding:
+
+1. **Cloud session:** full write, but only on its own `claude/…` branch. Commit and push that branch at the end. Never push to `main`, never force-push. Anything that needs the PC (the Money sheet, Resolve, `_imports/`) is written as a line in `01-Inbox/` for the PC to do, not attempted.
+2. **PC session, at start:** `git pull`, then `git fetch` and list remote `claude/*` branches not yet merged into `main` (`git branch -r --no-merged main`). Review each one and merge it. It's primary work, so it gets the same checks as the PC's own. Say what was merged. Delete a merged remote branch only with Samuel's yes.
+3. A merge conflict is shown to Samuel, never auto-resolved (the same as AGENTS.md rule 8 for sync conflicts).
 
 ## Running agents and skills on any AI
 
