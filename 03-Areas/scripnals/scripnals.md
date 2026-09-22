@@ -33,7 +33,7 @@ Samuel, 2026-09-22: the developers are **still building it for free**; *"the app
 ### Team
 
 - **Samuel is the founder.**
-- **Two developers:** one backend, one frontend. Neither is paid now. Samuel: *"I would surely pay them in equity"*. No split has been set.
+- **Two developers:** one backend, one frontend. Neither is paid now. In the dev chat (2026-09-22): **Ayomide** is the backend dev, and Samuel tagged **Alisha Prescious** on a UI fix. The package namespace `ayomiplenty` probably belongs to Ayomide (unconfirmed). Samuel: *"I would surely pay them in equity"*. No split has been set.
 - Two contract files from 2026-02-08 are on disk, both unsigned: a developer agreement "awaiting developer signature" and a development contract. Whether anything was signed later is unknown (open question 69).
 
 ### Testing plan
