@@ -82,9 +82,13 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 
 Reused as-is by the agent, not rebuilt: [[subtitle-transcript-formatter]] (step 3), [[video-edit-pass]] (step 2 / editorial), [[edit-clock]].
 
-## Automations — none
+## Automations
 
-Nothing is scheduled. Phase 6.
+| Automation | What it does | Schedule | Runs in | Canonical note | Status |
+|---|---|---|---|---|---|
+| Sunday money check | Opens a session that runs [[sunday-check]]: asks for his balance, logs the gap, rebuilds the sheet, names every line over plan | Sundays 3:00pm WAT (`0 15 * * 0`) | Claude desktop app scheduled task `sunday-money-check`; needs the app open | [[00-System/automations/sunday-money-check\|sunday-money-check]] | active from 2026-09-27 |
+
+The rest of the automations are Phase 6.
 
 ## Archived, not active
 

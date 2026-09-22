@@ -242,3 +242,17 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **No penalty.** Self-enforced penalties *"don't work"* ([[02-Me/stakes-and-accountability|stakes and accountability]]). A missed check is named once, in his words.
 
 **Who decided:** Samuel for the checks and the split. The build for the skills.
+
+## 2026-09-22 — First automation: the Sunday money check
+
+**Samuel:** *"Add a routine that activates the Sundays feedback session with the Agent"*
+
+**What:** a scheduled task in the Claude desktop app, `sunday-money-check`, every Sunday at 3:00pm WAT. It opens a session that runs `sunday-check`. The canonical copy of its prompt and schedule is `00-System/automations/sunday-money-check.md`; the app's task file is a tool copy (AGENTS.md §11 rule 1).
+
+**Why this and not a cloud routine:** the check needs his answer (his balance), the sheet key outside the Brain, and his PC's Python. A cloud routine has none of those. A TickTick reminder would only remind; this opens the conversation.
+
+**Why 3:00pm:** his Sunday rule, *"Plan Sunday from 3:00pm"* ([[02-Me/spirit|Spirit]]).
+
+**Limit, stated once:** it runs only while the app is open. If the app is closed, it runs at the next launch.
+
+**Who decided:** Samuel asked for the routine. The time comes from his own rule. The mechanism is the build's.

@@ -6,7 +6,7 @@ description: "Samuel's weekly money check-in, every Sunday: he sends his bank ba
 
 # Sunday check
 
-Samuel chose it on 2026-09-22 (*"both checks"*) to keep his spending in check ([[06-Logs/commitments|commitments]]). The agent can't see his bank, so this weekly balance is what keeps the record honest between paydays.
+Samuel chose it on 2026-09-22 (*"both checks"*) to keep his spending in check ([[06-Logs/commitments|commitments]]). The agent can't see his bank, so this weekly balance is what keeps the record honest between paydays. **A routine opens this check every Sunday at 3:00pm WAT:** [[00-System/automations/sunday-money-check|Sunday money check]].
 
 **Runs in the main session.** Act as the finance agent: read `07-Agents/finance/profile.md` and `memory.md` first.
 
