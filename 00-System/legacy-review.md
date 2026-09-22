@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-20
+updated: 2026-09-22
 source: legacy-accountability-engine
 tags: [legacy, review]
 ---
@@ -35,16 +35,16 @@ Factual history in the archive — ledger rows, dates, amounts, what actually ha
 | M6 | The daily ledger is the truth; the spreadsheet is a plan. A budget line claiming savings that did not move is a lie. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
 | M7 | The investment is ring-fenced: NGN 100,000/month to Cowrywise until year end, untouchable, pays out January 2027 into stocks. Never pauses, even if other goals are behind. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
 | M8 | **The Buffer** is where urgencies come from, never savings. NGN 50,000/month to a NGN 200,000 target. Fixed cut order when a month lands short: personal/misc → creator visits → household to NGN 20,000 → buffer → only then a conversation. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
-| P1 | One named creator, one named date, every month. "I reached out to some people" is not a row in the ledger. | `context/people.md` | relationships | unreviewed |
-| P2 | One outreach message a week; a visit is decided seven days ahead. | `context/people.md` | relationships | unreviewed |
-| P3 | Girlfriend visits are budgeted in advance as a spending line, never funded from savings after the fact. | `context/people.md` | relationships, finances | unreviewed |
-| P4 | The NGN 15,000 community admin is not a cost-cutting target. | `context/people.md` | community | unreviewed |
-| P5 | Mentorship stays ad hoc this year. Do not build structure for 3 unpaid people while the course has 35 lessons unrecorded. | `context/people.md` | mentorship | unreviewed |
-| S1 | 7/7 on the prayer block. No acceptable miss rate. | `context/spirit.md` | me | unreviewed |
-| S2 | The 5:30–6:15am block is an anchor, not a task. Never schedule work over it. | `context/spirit.md` | me | unreviewed |
-| S3 | When the 5:30am block is missed, ask what time he went to bed — not why he didn't pray. The cause is upstream. | `context/spirit.md` | me | unreviewed |
-| S4 | Sunday 7:30am–3:00pm is church and commute, not a work buffer. Plan Sunday from 3:00pm. | `context/spirit.md` | me | unreviewed |
-| S5 | Never tick a habit he has not confirmed out loud at the reckoning. | `context/spirit.md` | me, rituals | unreviewed |
+| P1 | One named creator, one named date, every month. "I reached out to some people" is not a row in the ledger. | `context/people.md` | relationships | **DROPPED** 2026-09-22 — creator-network goal dropped ([[03-Areas/relationships/relationships|Relationships]]) |
+| P2 | One outreach message a week; a visit is decided seven days ahead. | `context/people.md` | relationships | **DROPPED** 2026-09-22 — creator-network goal dropped |
+| P3 | Girlfriend visits are budgeted in advance as a spending line, never funded from savings after the fact. | `context/people.md` | relationships, finances | **KEPT** - confirmed 2026-09-22 → [[money-rules]], [[03-Areas/relationships/relationships|Relationships]] |
+| P4 | The NGN 15,000 community admin is not a cost-cutting target. | `context/people.md` | community | partly - the admin and NGN 15,000 confirmed current 2026-09-22; the rule itself not asked |
+| P5 | Mentorship stays ad hoc this year. Do not build structure for 3 unpaid people while the course has 35 lessons unrecorded. | `context/people.md` | mentorship | **SUPERSEDED** 2026-09-22 — mentorship is #3 in the Big 3; webinar first ([[03-Areas/mentorship/mentorship|Mentorship]]) |
+| S1 | 7/7 on the prayer block. No acceptable miss rate. | `context/spirit.md` | me | **KEPT** - confirmed 2026-09-22 → [[spirit]] |
+| S2 | The 5:30–6:15am block is an anchor, not a task. Never schedule work over it. | `context/spirit.md` | me | **KEPT** - confirmed 2026-09-22; block now 6:00–6:30am → [[spirit]] |
+| S3 | When the 5:30am block is missed, ask what time he went to bed — not why he didn't pray. The cause is upstream. | `context/spirit.md` | me | **DROPPED** 2026-09-22 — Samuel: don't ask what time he went to bed |
+| S4 | Sunday 7:30am–3:00pm is church and commute, not a work buffer. Plan Sunday from 3:00pm. | `context/spirit.md` | me | **KEPT** - confirmed 2026-09-22 → [[spirit]] |
+| S5 | Never tick a habit he has not confirmed out loud at the reckoning. | `context/spirit.md` | me, rituals | **DROPPED** 2026-09-22 — no habit ticks, no reckoning |
 | C1 | Never tick a task on his behalf — tasks close at the evening reckoning, out of his mouth only. | `CLAUDE.md`, `PA.md` | rituals | unreviewed |
 | C2 | Never move a due date. "Rescheduling is the addiction — when he floats one, ask what changes tomorrow." | `CLAUDE.md`, `PA.md` | rituals | unreviewed |
 | C3 | `mission.md` and `stakes.md` are his. Argue with them, never rewrite them. | `PA.md` | system | unreviewed |
@@ -53,12 +53,12 @@ Factual history in the archive — ledger rows, dates, amounts, what actually ha
 
 | # | Item | Where | Domain | Status |
 |---|------|-------|--------|--------|
-| G1 | **The Big 3 for the year, in his stated order (2026-08-26):** 1. video editing ("I need to make money from video editing right now") 2. course creation ("so I make more money") 3. content creation. Used as the tiebreaker when two things want the same block. Coaching is downstream of audience; **Scripnals explicitly out of scope this year.** | `context/mission.md` | me | unreviewed |
+| G1 | **The Big 3 for the year, in his stated order (2026-08-26):** 1. video editing ("I need to make money from video editing right now") 2. course creation ("so I make more money") 3. content creation. Used as the tiebreaker when two things want the same block. Coaching is downstream of audience; **Scripnals explicitly out of scope this year.** | `context/mission.md` | me | **SUPERSEDED** 2026-09-22 — Big 3 now editing · content · mentorship → [[02-Me/goals/goal-ladder|Goal ladder]] |
 | G2 | NGN 1,000,000 target, plus NGN 3,000,000 on top — NGN 4,000,000 total by 31 July 2027. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
 | G3 | Emergency fund NGN 300,000, funded from January 2027 after the NGN 1M closes. | `context/money.md` | finances | **KEPT - active 2026-09-20** |
 | G4 | Creator visits budget NGN 25,000/month. | `context/money.md` | finances, relationships | **KEPT - active 2026-09-20** |
 | G5 | Wedding July 2027 — budget and who pays which part, open since 2026-08-26. | `context/money.md` | relationships, finances | **KEPT - active 2026-09-20** |
-| G6 | SMART goals with a "one lever", "weekly minimum" and "cost of breaking it" per domain (money, people, spirit). | `context/*.md` | me | unreviewed |
+| G6 | SMART goals with a "one lever", "weekly minimum" and "cost of breaking it" per domain (money, people, spirit). | `context/*.md` | me | **SUPERSEDED** 2026-09-22 → [[02-Me/goals/goal-ladder|Goal ladder]]; penalties dropped ([[stakes-and-accountability]]) |
 
 ## Failure patterns
 
@@ -89,9 +89,9 @@ Each was written by the weekly review with ledger evidence. They are claims abou
 | R11 | Telegram push notifications | repo tooling | rituals | unreviewed |
 | R12 | Google Sheets budget bridge via Apps Script (token lived in `.env`, never copied) | scripts **deleted 2026-09-20**; the decision and mechanics are described in `context/decisions.md` | finances | **KEPT - active.** Tooling restored 2026-09-20 |
 | R13 | Static dashboard site built from the markdown, published to GitHub Pages | **deleted 2026-09-20** — generated output, not knowledge. Still in the source repo `SamuelAde001/engine` if ever needed | system | dropped |
-| R14 | Two-touch day structure and the "new day shape" set 2026-09-15 | `context/habits.md` | me | unreviewed |
-| R15 | Morning movement six days a week, replacing "gym 3×/week" as the tracked habit (2026-09-02) | `context/habits.md` | me | unreviewed |
-| R16 | Phone charges outside the bedroom from 10pm | `context/habits.md` | me | unreviewed |
+| R14 | Two-touch day structure and the "new day shape" set 2026-09-15 | `context/habits.md` | me | **SUPERSEDED** 2026-09-22 → [[daily-routine]] |
+| R15 | Morning movement six days a week, replacing "gym 3×/week" as the tracked habit (2026-09-02) | `context/habits.md` | me | **DROPPED** 2026-09-22 — gym 3×/week at 5:00pm, no morning movement → [[daily-routine]] |
+| R16 | Phone charges outside the bedroom from 10pm | `context/habits.md` | me | **KEPT** - confirmed 2026-09-22, now 11:00pm and not consistent → [[daily-routine]] |
 
 ## Context files — history, not rules
 

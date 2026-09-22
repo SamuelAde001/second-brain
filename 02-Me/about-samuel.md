@@ -38,9 +38,9 @@ Both were settled by the Claude memory export (`/profile.md`, 2026-09-04), which
 
 See [[how-to-work-with-me]]. Direct, blunt, no flattery, no repeated moralizing, and **never congratulated for planning — only for shipping.** One standing boundary: do not raise his Air Force background unless he raises it first.
 
-## Health and habits — thin
+## Health and habits
 
-From the memory export, 2026-09-04, and this is genuinely all that is recorded:
+Now in [[health]] and [[daily-routine]] (confirmed 2026-09-22). From the memory export, 2026-09-04:
 
 - **Fitness:** ~~exploring gym routines, leaning toward morning sessions given the work-from-home setup. No current routine.~~ **Now (2026-09-22): gym at 5:00pm, no morning exercise** — [[daily-routine]].
 - **Food:** drinks Nescafé Gold Blend.
@@ -65,7 +65,7 @@ From the memory export, 2026-09-04, and this is genuinely all that is recorded:
 
 ## Still missing entirely
 
-Values · principles · sleep · energy peaks · planning cadence · what a good week looks like. Quarter goals do not exist yet.
+Values · principles · energy peaks · what a good week looks like. Quarter goals do not exist yet. (Sleep, routine, planning times, patterns, goals, stakes and faith were filled 2026-09-22 from the engine's context files, checked with Samuel.)
 
 ## Related
 

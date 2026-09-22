@@ -117,7 +117,7 @@ MCP is an open protocol, so the same servers work with any MCP-capable AI — bu
 
 | Server | Used for | Agent | State (per CLAUDE.md, 2026-09-20) |
 |---|---|---|---|
-| TickTick | tasks, schedule, focus — tasks live there, not in the Brain | orchestrator, personal-life | connected in Claude |
+| TickTick | tasks, schedule, focus — tasks live there, not in the Brain. Project map: [[00-System/ticktick-map\|TickTick map]] | orchestrator, personal-life | connected in Claude |
 | DaVinci Resolve Studio | drives Resolve 21.1 | video-editor | connected in Claude |
 | Gmail · Google Calendar · Google Drive · Notion · vidIQ | — | none until Samuel says so | connected in Claude, unused |
 

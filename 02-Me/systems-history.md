@@ -2,7 +2,7 @@
 type: knowledge
 area: me
 status: needs-input
-updated: 2026-09-20
+updated: 2026-09-22
 source: claude-export
 tags: [systems, accountability, needs-input]
 ---
@@ -60,6 +60,15 @@ Both statements are recorded here as given — 2026-08-28 decision to migrate, 2
 Per [[legacy-review]]: the entire Accountability Engine repo (`github.com/SamuelAde001/engine`, 81 files, HEAD `e01cd60`) was archived to `08-Archive/accountability-engine/` on 2026-09-16. Samuel said on 2026-09-20 that most of its rules no longer work for him; the memory export says the same. Nothing in it is active — not a rule, not a ritual, not the enforcer agent. All 50 items (23 rules, 6 goals, 5 failure patterns, 16 rituals/agents/automations) sit `unreviewed`, pending his keep/change/drop during the Phase 3 interview.
 
 These eight source transcripts stop on 2026-09-03. Nothing in them documents the period between the last conversation and the 2026-09-16 archive decision — **status: needs-input** on what specifically triggered archiving the whole system rather than revising it.
+
+## How the engine ended — from its own ledger
+
+- **2026-09-01:** a gap day — no brief, no check-in, nothing on record.
+- **2026-09-04 to 2026-09-14 — "the dark stretch":** eleven days with no brief and no evening reckoning. The scheduled cloud routines were deleted as *"constantly bugging."* Reconstructed afterwards from TickTick: both September client videos (Sep #1 Andy, Sep #2 Alex) were delivered and three content videos shipped.
+- **2026-09-15/16:** a new day shape was written; the engine was archived 2026-09-16.
+- **Samuel, 2026-09-22:** *"don't worry about the bugging, I am fine now, we would plan future automations, but not now."* No automations run; they get planned later, with him.
+
+What survived the engine is now in `02-Me`, checked line by line with Samuel on 2026-09-22: [[patterns]], [[daily-routine]], [[02-Me/goals/goal-ladder|Goal ladder]], [[stakes-and-accountability]], [[spirit]], [[health]].
 
 ## What this note deliberately leaves out
 

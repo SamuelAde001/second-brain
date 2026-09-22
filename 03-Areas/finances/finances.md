@@ -47,6 +47,7 @@ See [[03-Areas/finances/finances-goals|Goals]] — NGN 1,000,000 by 31 Dec 2026,
 - [[budget-system]] — the live Google Sheet, its design rule, and how Claude writes it
 - [[finance-agent-plan]] — what the finance agent does, and what it must never do
 - [[invoicing]] — invoice format, numbering, VAT, the builder tool
+- [[wish-list]] — unbudgeted wants, and the four steps before one gets bought
 - [[pricing-and-rates]] — mentorship pricing and retainer tactics, all unconfirmed proposals
 - [[03-Areas/finances/finances-ideas|Ideas]] · [[03-Areas/finances/finances-decisions|Decisions]] · [[03-Areas/finances/finances-log|Log]] · [[03-Areas/finances/finances-goals|Goals]]
 
