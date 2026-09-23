@@ -379,3 +379,11 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **What:** each profile has a `called:` field and says its name under its title. A message that opens with a name goes to that agent. Every reply opens with the working agent's name in bold brackets (**[PA]**), and each switch mid-task gets a new name line. It's written in AGENTS.md §7, the roster, the orchestrator's routing and a CLAUDE.md pointer. Folder and file names stay the same so no link breaks.
 
 **Who decided:** Samuel.
+
+## 2026-09-23 — Everything planned is a timed TickTick task; nothing goes on Google Calendar
+
+**Samuel:** *"Always put what ever is planned in a schedule so I can see it on my tiktik calender, don't schedule on google cal"*.
+
+**What:** every block of a plan (work, must-dos, meetings, and the routine blocks: nap, gym, dinner, the call) is a TickTick timed task with a start and an end, reminders at the start and 5 minutes before, so it shows on the TickTick calendar. This replaces the all-day-task shape. Google Calendar becomes read only. That replaces the 2026-09-22 rule that a meeting went in both places, and drops the inviting and joint-calendar permissions, since nothing is written there now. Updated: the personal-life profile, `night-plan`, `morning-brief`, `weekly-review`, the TickTick map, the orchestrator's limits, the roster, portability. Adapters regenerated.
+
+**Who decided:** Samuel.

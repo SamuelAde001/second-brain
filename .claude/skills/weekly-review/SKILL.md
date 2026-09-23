@@ -37,7 +37,7 @@ The habits were made to match his routine on 2026-09-22 (memory). Report each as
 - **Client work sized in hours, not days** (P5). If the hours don't fit the mornings, say so with the arithmetic.
 - **Content gets its blocks named**, because it's the block that gets dropped (P1).
 - Ask: *"What has to be true by next Sunday?"* At most three outcomes, in his words. The cap is a build default, and he can change it.
-- On his yes, write it into TickTick and the calendar (profile → permissions). Nothing is written without his answer.
+- On his yes, write it into TickTick, every block a timed task (profile → TickTick rules). Nothing goes on Google Calendar. Nothing is written without his answer.
 
 ## 4. Record
 

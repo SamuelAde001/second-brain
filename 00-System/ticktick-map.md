@@ -48,6 +48,6 @@ The [[07-Agents/personal-life/profile|personal-life agent]] (built 2026-09-22), 
 
 ## How he writes a day (read live 2026-09-22)
 
-All-day tasks with a priority (5 high, 3 medium) and a 9:00am reminder, for the day's work. Timed tasks, with reminders at the time and 5 minutes before, for anything at a fixed time. Habits, all daily, made to match his routine 2026-09-22: "Start work 7am" (reminder 07:00, renamed from "Start work 6am"), "Gym 5pm" (reminder 17:00; daily on purpose, since the floor is 3 a week and the days depend on the load), "Post content" (reminder 21:00, the end of the 7:00–9:00pm content block). User time zone `Africa/Lagos`.
+**Since 2026-09-23, everything planned is a timed task** with a start and an end, reminders at the start and 5 minutes before, so it shows on his TickTick calendar (his words: *"Always put what ever is planned in a schedule so I can see it on my tiktik calender, don't schedule on google cal"*). Before that he used all-day tasks with a priority and a 9:00am reminder for the day's work. Habits, all daily, made to match his routine 2026-09-22: "Start work 7am" (reminder 07:00, renamed from "Start work 6am"), "Gym 5pm" (reminder 17:00; daily on purpose, since the floor is 3 a week and the days depend on the load), "Post content" (reminder 21:00, the end of the 7:00–9:00pm content block). User time zone `Africa/Lagos`.
 
 Back to [[00-System/portability|Portability]] · [[00-System/systems-register|Systems register]]

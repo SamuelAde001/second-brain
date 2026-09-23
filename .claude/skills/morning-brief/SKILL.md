@@ -41,7 +41,7 @@ Misses this week: <n>. Client work starts 7:00am.
 
 ## 3. Only if he answers
 
-Apply what he says in TickTick and the calendar (profile → permissions). Then append one line to `07-Agents/personal-life/log.md`, commit `personal-life: morning changes <YYYY-MM-DD>` with the Co-Authored-By trailer, and push.
+Apply what he says in TickTick, every block a timed task (profile → TickTick rules). Nothing goes on Google Calendar. Then append one line to `07-Agents/personal-life/log.md`, commit `personal-life: morning changes <YYYY-MM-DD>` with the Co-Authored-By trailer, and push.
 
 **If he doesn't answer, or nothing changed:** write nothing, log nothing, commit nothing. A read-out is not an action worth a commit.
 

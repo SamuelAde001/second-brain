@@ -1,6 +1,6 @@
 ---
 name: night-plan
-description: "Plan Samuel's tomorrow with him the night before, and hold him to account: check today against his three commitments (must-dos, client deadlines and hours, a 7:00am start), escalate misses, apply the make-up rule, lay tomorrow onto his real day in timed chunks, agree it with him, then write it into TickTick (and meetings onto Google Calendar) and a short daily note. Use when a routine opens it at 8:45pm WAT, or when he says 'plan tomorrow', 'plan my day', 'what am I doing tomorrow', 'set up tomorrow', or it's evening and tomorrow isn't planned. Not for the morning read-out (use morning-brief) or the Sunday week plan (use weekly-review)."
+description: "Plan Samuel's tomorrow with him the night before, and hold him to account: check today against his three commitments (must-dos, client deadlines and hours, a 7:00am start), escalate misses, apply the make-up rule, lay tomorrow onto his real day in timed chunks, agree it with him, then write every block into TickTick as a timed task so it shows on his TickTick calendar (never Google Calendar), and a short daily note. Use when a routine opens it at 8:45pm WAT, or when he says 'plan tomorrow', 'plan my day', 'what am I doing tomorrow', 'set up tomorrow', or it's evening and tomorrow isn't planned. Not for the morning read-out (use morning-brief) or the Sunday week plan (use weekly-review)."
 type: skill
 area: me
 status: active
@@ -67,9 +67,9 @@ Never schedule over 6:00–6:30am, after 10:00pm, or Sunday before 3:00pm. Never
 
 ## 3. On his answer, write it
 
-- **TickTick.** Create or move each task to its date, in the project the [[00-System/ticktick-map|TickTick map]] gives it. Must-dos priority 5, the rest 3. Anything at a fixed time is a timed task with reminders at the time and 5 minutes before. Client video tasks follow the naming rule (*"Alex video (Sep #3) — edit block 4"*). Complete what he says is done. Delete only on his word.
-- **Google Calendar.** Any meeting also goes on his primary calendar. No invitees unless he says so. Nothing on the joint calendar without his word.
-- **If he doesn't answer,** write nothing to TickTick or the calendar. Log the line in step 4 and stop.
+- **TickTick, every block timed.** Samuel, 2026-09-23: *"Always put what ever is planned in a schedule so I can see it on my tiktik calender, don't schedule on google cal"*. Each chunk of the agreed plan is a timed task with a start and an end, in the project the [[00-System/ticktick-map|TickTick map]] gives it, with reminders at the start and 5 minutes before. That includes the routine blocks (nap, gym, dinner, the call). Must-dos priority 5, other work 3, routine blocks 0. Client video tasks follow the naming rule (*"Alex video (Sep #3) — edit block 4"*). Complete what he says is done. Delete only on his word.
+- **Never Google Calendar.** Meetings go in TickTick only. The calendar is read, never written.
+- **If he doesn't answer,** write nothing to TickTick. Log the line in step 4 and stop.
 
 ## 4. Record
 

@@ -28,3 +28,8 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - **HighSignals calendars:** *"I currently use non of them and may delete them later to start a new one next year"*. Never write to them. HighSignals events go on his primary calendar.
 
 Back to [[07-Agents/personal-life/profile|Profile]]
+
+## 2026-09-23 — Every planned block is a timed task; Google Calendar is read only
+
+- *"Always put what ever is planned in a schedule so I can see it on my tiktik calender, don't schedule on google cal"*. He reads his day from the TickTick calendar view, so an all-day task is invisible there as a block. Every chunk gets a start and an end, including nap, gym, dinner and the call. Meetings go in TickTick only.
+- First applied the same day: the 13:30 replan went in as nine timed blocks, 13:35–22:00. The two must-dos from the night plan ("Script 3…", "Record 3…") stayed all-day because they're the agreed items for tonight's check, not blocks. Their work sits in the timed Ep 3 blocks.

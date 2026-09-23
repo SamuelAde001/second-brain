@@ -131,7 +131,7 @@ MCP is an open protocol, so the same servers work with any MCP-capable AI — bu
 |---|---|---|---|
 | TickTick | tasks, schedule, focus — tasks live there, not in the Brain. Project map: [[00-System/ticktick-map\|TickTick map]] | orchestrator, personal-life | connected in Claude |
 | DaVinci Resolve Studio | drives Resolve 21.1 | video-editor | connected in Claude |
-| Google Calendar | meetings (also a timed task in TickTick); four calendars, resolved by name | personal-life (full write except deleting, inviting, the joint calendar; Samuel 2026-09-22) | connected in Claude |
+| Google Calendar | read only: nothing is scheduled on it, meetings go in TickTick (Samuel 2026-09-23); four calendars, resolved by name | personal-life (read only) | connected in Claude |
 | Gmail · Google Drive · Notion · vidIQ | — | none until Samuel says so | connected in Claude, unused |
 
 ## Skills and claude.ai
