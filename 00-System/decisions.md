@@ -371,3 +371,11 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Not changed:** the Sunday session (`sunday-money-check`) is a desktop scheduled task. Those take no model setting, so it runs on the project default, now Opus 5.5.
 
 **Who decided:** Samuel.
+
+## 2026-09-23 — Agents have names, and every reply says which one is working
+
+**Samuel:** the names are *"1. General Manager 2. Editor 3. Money man 4. PA 5. Brand manager"* (orchestrator, video-editor, finance, personal-life, content, in that order). Then: *"When a particular agent handles tasks, or is called opon, I want to always know which Agent is working on a task, even if we switch agent midtasks, always tell me the agent working now"*.
+
+**What:** each profile has a `called:` field and says its name under its title. A message that opens with a name goes to that agent. Every reply opens with the working agent's name in bold brackets (**[PA]**), and each switch mid-task gets a new name line. It's written in AGENTS.md §7, the roster, the orchestrator's routing and a CLAUDE.md pointer. Folder and file names stay the same so no link breaks.
+
+**Who decided:** Samuel.

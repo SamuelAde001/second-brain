@@ -22,7 +22,7 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 - **Phone with the PC off (2026-09-22, session 9).** Cloud sessions (Claude app → Code) on the GitHub repo. Each one works on its own `claude/…` branch; **every PC session now starts with `git pull` and merges them** (AGENTS.md §12). ~~Waiting on Samuel: install the Claude GitHub App on the repo and make the cloud environment.~~ **Half done (session 10, 2026-09-22):** the cloud environment works and clones the repo, but **push is refused (403): the Claude GitHub App is not installed on the repo, or GitHub is not linked in claude.ai.** Samuel installs it at github.com/apps/claude/installations/select_target, or reconnects GitHub in claude.ai → Settings → Connectors. Until then a cloud session's commits stay in its container and are lost when it ends. **Fixed the same session: push works.** Then Samuel: cloud sessions **push straight to `main`** (decisions, same day). The PC hook's fast-forward brings phone work in; every session must push at the end so `main` doesn't split. Also: PowerShell runs unprompted now (decisions, same day).
 
-- **All agents on the main session, Opus 5.5 (2026-09-23).** No subagent adapters remain. Routines stay on Sonnet and hand off to an agent when needed. Next: Samuel is naming each agent so he can call them by name.
+- **All agents on the main session, Opus 5.5 (2026-09-23).** No subagent adapters remain. Routines stay on Sonnet and hand off to an agent when needed. Names set the same day: General Manager, Editor, Money man, PA, Brand manager. Every reply names the working agent (AGENTS.md §7).
 
 **14-day target for Phases 0–4:** 2026-10-04. Day 3 of 14.
 

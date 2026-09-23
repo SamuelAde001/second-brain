@@ -15,13 +15,13 @@ Each agent has a folder under `07-Agents/<name>/` with `profile.md` (mission, sc
 
 ## Active
 
-| Agent | Owns | Claude Code adapter | Tier | Status |
+| Agent (Samuel calls it) | Owns | Claude Code adapter | Tier | Status |
 |-------|------|---------|-------|--------|
-| **orchestrator** | Routing and merging. The default entry point, and the session protocol. Routes content work to the content agent. | none — it is the main session (`runs-as: main-session`) | `strong` | **built 2026-09-22** → [[07-Agents/orchestrator/profile\|profile]] |
-| **video-editor** | The client editing work in DaVinci Resolve — the brief-to-delivery pipeline, and standing Resolve expertise. Samuel's most important agent. Keeps the [[03-Areas/video-editing/delivered-projects\|delivered projects]] record. | none — runs in the main session (`runs-as: main-session`) | `strong` | **skeleton built 2026-09-21** — step 6 (HTML→Fusion) proven; skills not yet built |
-| **finance** | His financial manager: the money ledger, the budget sheet, the eight rules, pots, runway, budgets and the month close. Never moves money. | none — runs in the main session (`runs-as: main-session`) | `strong` | **built 2026-09-22** → [[07-Agents/finance/profile\|profile]] — skills `payday`, `budget`, `month-close`; sheet credentials pending |
-| **personal-life** | His day and week, and his disciplinarian: holds him to his must-dos, client hours and deadlines and a 7:00am start, with escalation and a make-up rule. Plans tomorrow the night before, the 6:30am brief, the Sunday weekly review, TickTick and Google Calendar (full write), focus and habits. | none — runs in the main session (`runs-as: main-session`) | `strong` | **built 2026-09-22** → [[07-Agents/personal-life/profile\|profile]] — skills `night-plan`, `morning-brief`, `weekly-review`; three routines |
-| **content** | His own brand, @SamuelSignals: ideas and hooks from his story bank, scripts in his voice, draft reviews, the content log, and the Sunday content report against 5,000 followers by December. Daily posting is reported, not enforced. Never posts. | none — runs in the main session (`runs-as: main-session`) | `strong` | **built 2026-09-22** → [[07-Agents/content/profile\|profile]] — skills `write-script`, `content-report` |
+| **General Manager** (`orchestrator`) | Routing and merging. The default entry point, and the session protocol. Routes content work to the content agent. | none — it is the main session (`runs-as: main-session`) | `strong` | **built 2026-09-22** → [[07-Agents/orchestrator/profile\|profile]] |
+| **Editor** (`video-editor`) | The client editing work in DaVinci Resolve — the brief-to-delivery pipeline, and standing Resolve expertise. Samuel's most important agent. Keeps the [[03-Areas/video-editing/delivered-projects\|delivered projects]] record. | none — runs in the main session (`runs-as: main-session`) | `strong` | **skeleton built 2026-09-21** — step 6 (HTML→Fusion) proven; skills not yet built |
+| **Money man** (`finance`) | His financial manager: the money ledger, the budget sheet, the eight rules, pots, runway, budgets and the month close. Never moves money. | none — runs in the main session (`runs-as: main-session`) | `strong` | **built 2026-09-22** → [[07-Agents/finance/profile\|profile]] — skills `payday`, `budget`, `month-close`; sheet credentials pending |
+| **PA** (`personal-life`) | His day and week, and his disciplinarian: holds him to his must-dos, client hours and deadlines and a 7:00am start, with escalation and a make-up rule. Plans tomorrow the night before, the 6:30am brief, the Sunday weekly review, TickTick and Google Calendar (full write), focus and habits. | none — runs in the main session (`runs-as: main-session`) | `strong` | **built 2026-09-22** → [[07-Agents/personal-life/profile\|profile]] — skills `night-plan`, `morning-brief`, `weekly-review`; three routines |
+| **Brand manager** (`content`) | His own brand, @SamuelSignals: ideas and hooks from his story bank, scripts in his voice, draft reviews, the content log, and the Sunday content report against 5,000 followers by December. Daily posting is reported, not enforced. Never posts. | none — runs in the main session (`runs-as: main-session`) | `strong` | **built 2026-09-22** → [[07-Agents/content/profile\|profile]] — skills `write-script`, `content-report` |
 
 ## Planned — not built
 
@@ -30,6 +30,8 @@ Each agent has a folder under `07-Agents/<name>/` with `profile.md` (mission, sc
 | — | Every planned agent is built. | — |
 
 ## Notes
+
+- **Names** (Samuel, 2026-09-23). He calls each agent by the name in bold above. Every reply opens with the working agent's name, e.g. **[Editor]**, and a new name marks every switch mid-task (AGENTS.md §7).
 
 - The **video-editor is the first agent built.** Its folder is the pattern the others follow.
 - The **orchestrator is not a subagent.** It's the main session's role, because subagents can't launch subagents. Its profile has no generated adapter.

@@ -13,6 +13,9 @@ Claude Code is the **primary** AI in this Brain (portability.md → write tiers)
 - Profiles use neutral names; the script maps them. Tiers: `light` → haiku, `standard` → sonnet, `strong` → opus. Tools: `read`, `write`, `shell`, `send-file`, `web`, `mcp:<server>:<tool>` → Claude Code tool names. Maps live at the top of the script.
 - The four skills also exist as claude.ai plugin copies (`anthropic-skills:*`). The Brain copy is canonical.
 
+## Agent names
+Every reply starts with the working agent's name, e.g. **[PA]**, and marks every switch mid-task. Names and the rule: AGENTS.md §7.
+
 ## Permissions
 `.claude/settings.json`. Least privilege. Outside-Brain folders only via explicit additional-directory entries, each also listed in AGENTS.md §10 and the agent's profile.
 
