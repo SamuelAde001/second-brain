@@ -107,5 +107,9 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-09-22 | bulk | 5,000 | Girlfriend's light bill (part 2 of 20,000 sent) | Eating out | same transfer; Extra cash only had 15,000, rest from Eating out (Rule 8 cut order) |
 | 2026-09-22 | in | 7,000 | Gift from someone | — | his words: "I recieved a 7k money from someone yesterday as a gift"; told 2026-09-23; NGN taken from "7k"; giver not named |
 | 2026-09-23 | bulk | 5,000 | Sent to someone who needed it | Extra cash | his words: "I sent 5k to someone that really needed it just now"; NGN taken from "5k"; recipient not named; told after, not asked first; covered by the 2026-09-22 NGN 7,000 gift |
+| 2026-09-23 | correction | — | 2026-09-22 bulk Loan to a friend 10,000: not a loan, given | — | his words: "It is not coming back, also the 10k is not coming back too, I decided to give them completly". Fixed by the two rows below |
+| 2026-09-23 | bulk | -10,000 | Loan to a friend (moved to Giving) | Loan to a friend | reverses the 2026-09-22 loan row |
+| 2026-09-23 | bulk | 10,000 | Given to a friend (was a loan, not coming back) | Giving | his words: "It is not coming back, also the 10k is not coming back too, I decided to give them completly" |
+| 2026-09-23 | correction | — | 2026-09-23 bulk Sent to someone who needed it 5,000: given, not a loan | — | his words: "It is not coming back, also the 10k is not coming back too, I decided to give them completly". No change to the row |
 
 Back to [[03-Areas/finances/finances|Finances]]

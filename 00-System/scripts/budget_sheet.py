@@ -675,7 +675,7 @@ def left(today=None):
     print("%s — as of %s. Bank NGN {:,.0f} (derived from the ledger)".format(bank) % (month_label(pm), as_of))
     open_lines = []
     for line, payday, planned, actual, rest in plan_vs_actual(pm)[:-1]:
-        if line == "Other" or planned in ("", 0) and payday != "unplanned":
+        if line == "Other" or planned in ("", 0) and payday != "unplanned" and not actual:
             continue
         if payday == "unplanned":
             print("  UNPLANNED  %-26s spent NGN {:,.0f}".format(actual) % line)

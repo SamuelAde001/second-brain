@@ -2,7 +2,7 @@
 type: log
 area: system
 status: active
-updated: 2026-09-22
+updated: 2026-09-23
 source: manual
 tags: [commitments, accountability]
 ---
@@ -29,3 +29,4 @@ Context, his words, 2026-09-22: *"It should also be a disciplinarian and and acc
 - 2026-09-22 — **Client deadlines & hours:** the client hours planned for the day get done, and no client deadline passes undelivered — daily from 2026-09-23 — active
 - 2026-09-22 — **Start by 7:00am:** client work starts by 7:00am — daily from 2026-09-23 — active
 - 2026-09-22 — **Start by 7:00am, widened:** *"7am for content days too"*. On a day with no client work, the day's first work block starts by 7:00am. Extends the line above; same check, same escalation — daily from 2026-09-23 — active
+- 2026-09-23 — **Rest of September, changed:** the NGN 10,000 loan is given, not coming back, so nothing follows into the Buffer. His words: "It is not coming back, also the 10k is not coming back too, I decided to give them completly". The rest of the 2026-09-22 line stands — 2026-09-30 — active
