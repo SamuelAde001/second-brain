@@ -20,3 +20,4 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 Back to [[07-Agents/personal-life/profile|Profile]]
 - 2026-09-23 13:30 — Mid-day replan on his request (mentee call, Routerise revision due today, footage to a friend, one video, gym). Added 2 TickTick tasks. Proposed afternoon in chat; asked the revision size and due time. Appended to [[06-Logs/daily/2026-09-23|2026-09-23]].
 - 2026-09-23 13:35 — His rule: everything planned is a timed TickTick task, nothing on Google Calendar. Converted today's afternoon into 9 timed blocks (3 updated, 6 created). Rule written into the profile, night-plan, morning-brief, weekly-review, the TickTick map, orchestrator, roster and portability, plus a decision record. Adapters rebuilt.
+- 2026-09-23 13:42 — Added timed task "Routerise — send teaser of last edit" 16:15–16:30 (📹 Video editing). Script Ep 3 shortened to 16:30–17:00.
