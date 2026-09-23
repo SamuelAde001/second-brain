@@ -1,6 +1,6 @@
 ---
 name: weekly-review
-description: "Samuel's Sunday weekly review and next week's plan: what shipped, must-dos planned vs done, what slipped and which of his patterns it matches, focus hours and habit check-ins, commitments kept or missed, whether it was a 'good week' by his own bar, then next week laid out and written into TickTick and the calendar. Runs in the Sunday 3:00pm session straight after the money check (sunday-check). Use when that session reaches it, or when he says 'weekly review', 'review my week', 'plan next week', 'how did the week go'. Not for money (sunday-check covers that) or a single day (night-plan)."
+description: "Samuel's Sunday weekly review and next week's plan: what shipped, must-dos planned vs done, what slipped and which of his patterns it matches, focus hours and habit check-ins, commitments kept or missed, whether it was a 'good week' by his own bar, then next week laid out and written into TickTick as timed tasks (never Google Calendar). Runs in the Sunday 3:00pm session straight after the money check (sunday-check). Use when that session reaches it, or when he says 'weekly review', 'review my week', 'plan next week', 'how did the week go'. Not for money (sunday-check covers that) or a single day (night-plan)."
 type: skill
 area: me
 status: active
