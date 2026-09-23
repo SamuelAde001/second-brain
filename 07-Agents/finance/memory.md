@@ -61,4 +61,8 @@ From the archived [[08-Archive/accountability-engine/context/money-ledger|engine
 
 - **One view of the month, not two.** He found the totals box and the money flow confusing side by side: *"Money flow makes more sense"*. Show a month as start → in → from pots → spent → into pots → end, and nothing else that repeats it.
 
+## 2026-09-23 — Earmarked money doesn't stay earmarked
+
+- The NGN 7,000 gift was set aside on 2026-09-23 to offset the girlfriend's light bill. NGN 5,000 of it went to someone else the same day, and he said so after, not before. A verbal earmark is not a pot: until money moves somewhere, treat it as spendable and say what it was meant for when it goes.
+
 Back to [[07-Agents/finance/profile|Profile]]

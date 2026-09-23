@@ -2,7 +2,7 @@
 type: log
 area: finances
 status: active
-updated: 2026-09-22
+updated: 2026-09-23
 source: legacy-accountability-engine
 tags: [ledger, money]
 ---
@@ -106,5 +106,6 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-09-22 | bulk | 15,000 | Girlfriend's light bill (part 1 of 20,000 sent) | Extra cash | his words: "I just sent her 20k now"; she asked for 30,000; money-check said doesn't fit |
 | 2026-09-22 | bulk | 5,000 | Girlfriend's light bill (part 2 of 20,000 sent) | Eating out | same transfer; Extra cash only had 15,000, rest from Eating out (Rule 8 cut order) |
 | 2026-09-22 | in | 7,000 | Gift from someone | — | his words: "I recieved a 7k money from someone yesterday as a gift"; told 2026-09-23; NGN taken from "7k"; giver not named |
+| 2026-09-23 | bulk | 5,000 | Sent to someone who needed it | Extra cash | his words: "I sent 5k to someone that really needed it just now"; NGN taken from "5k"; recipient not named; told after, not asked first; covered by the 2026-09-22 NGN 7,000 gift |
 
 Back to [[03-Areas/finances/finances|Finances]]
