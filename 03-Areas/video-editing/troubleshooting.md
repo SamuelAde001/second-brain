@@ -218,6 +218,8 @@ Also proposed: cut grain/heavy texture for the Status cut, increase text size 20
 
 **Proposed fix, in order:** (1) open the project, set Playback → Render Cache → None at once, then Playback → Delete Render Cache → All; (2) open the adjustment clip's Fusion comp and fix any node with an empty input, and the Dropshipping comp's `MosaicBlur1` and `MediaIn1`; (3) Render Cache → User and cache Fusion output clip by clip, with GPU-heavy apps closed; (4) check for a newer 21.1.x. To get moving before (2), disable the adjustment clip (select, `D`), cache, re-enable.
 
+**Raising Resolve's or Fusion's RAM limit won't fix this** (asked 2026-09-23). System RAM is ruled out, and the limits were already Resolve 51% / Fusion 42% of 32 GB. A bigger Fusion cache adds memory pressure and does nothing about a null read or VRAM. If anything, bring Fusion down toward section 6's 30–40%.
+
 **Reading a new crash:** `davinci_resolve.log` for what happened before it; the Windows Application log (`Application Error`, ID 1000) for the module; Resolve's own `.dmp` in `Support\logs\` for exception, address and stack — parse with `03-Areas/video-editing/scripts/resolve_crash_dump.py`. Some crashes leave no Windows event and an empty `crash_archive.txt` entry; the dump is still there.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]
