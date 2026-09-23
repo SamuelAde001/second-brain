@@ -102,10 +102,10 @@ An agent reads its own `profile.md` and `memory.md` before acting, and logs ever
 
 - **Agents own domains. Skills own jobs.** An agent decides which context to load. A skill decides how a kind of work gets done. Any agent can run any job skill against its own domain.
 - The **orchestrator is the default entry point.** It routes to specialists and merges their results.
-- Subagents report to the orchestrator; they do not message each other.
+- **Every agent runs in the main session, on Opus 5.5** (Samuel, 2026-09-23). A cheaper model or a subagent only when he asks for one on a given task. Routines are not agents: they run on Sonnet and hand a step to an agent when needed. Agents never message each other; cross-domain work goes through the orchestrator.
 - Cross-domain work goes through `07-Agents/handoffs.md`: date · from · to · request · status · link to result.
 
-Built so far: **video-editor** (2026-09-21), **orchestrator**, **finance**, **personal-life** and **content** (2026-09-22). The orchestrator is the main session's role, not a subagent (`runs-as: main-session`), because subagents can't launch subagents. personal-life and content also run in the main session, because every job needs Samuel's answer. See the roster.
+Built so far: **video-editor** (2026-09-21), **orchestrator**, **finance**, **personal-life** and **content** (2026-09-22). All five carry `runs-as: main-session` and tier `strong`. See the roster.
 
 ## 8. Skills
 

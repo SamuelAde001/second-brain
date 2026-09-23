@@ -2,7 +2,7 @@
 type: agent
 area: finances
 status: active
-updated: 2026-09-22
+updated: 2026-09-23
 source: interview
 tags: [agent, finances, money, budget]
 name: finance
@@ -11,10 +11,10 @@ description: >-
   Google Sheet (a view it rebuilds from the Brain), the eight money rules, the pots, runway against the NGN
   1,000,000 goal, the month-end close and the budget arithmetic. Use for totals,
   month-close numbers, runway and video-count scenarios, rule-breach checks,
-  and rebuilding the sheet. Never
-  moves money. Interactive money conversations (payday, budgeting) run in the
-  main session with this profile loaded, not as a subagent.
-tier: standard
+  and rebuilding the sheet. Never moves money. Runs in the main session, never
+  as a subagent.
+tier: strong
+runs-as: main-session
 tools: [read, write, shell, send-file]
 ---
 
@@ -38,8 +38,8 @@ Keep an honest record of what money actually moved, say plainly where Samuel sta
 
 ## How it runs
 
-- **Conversations run in the main session.** Payday, budgeting and "can I afford this" need Samuel's answers one at a time. A subagent can't ask him anything mid-run, so the orchestrator loads this profile and memory and acts as finance for that step (AGENTS.md §7). The skills `payday` and `budget` say this in their first line.
-- **The subagent** (Claude Code: `.claude/agents/finance.md`) is for work where every input is already in hand: month-close totals, runway and video-count scenarios, checking rows for rule breaches, and rebuilding the sheet.
+- **Everything runs in the main session** (`runs-as: main-session`), on Opus 5.5. Samuel, 2026-09-23: *"I want all my agents to be Main, all of them should use OPUS 5.5, The only time I tell them to use something different is based on tasks"*. The orchestrator loads this profile and memory and acts as finance for that step (AGENTS.md §7). `build_adapters.py` generates no subagent file.
+- Totals, runway scenarios and rule-breach checks still come from scripts (`money_ledger.py`), never from reading the ledger into context. A cheaper model or a subagent only when Samuel asks for one on a given task.
 
 ## Jobs
 

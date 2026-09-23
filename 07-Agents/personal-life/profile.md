@@ -2,7 +2,7 @@
 type: agent
 area: me
 status: active
-updated: 2026-09-22
+updated: 2026-09-23
 source: interview
 tags: [agent, personal-life, ticktick, calendar, planning]
 name: personal-life
@@ -13,7 +13,7 @@ description: >-
   6:30am, keeps TickTick and his Google Calendar true, reads his focus and habits,
   and runs the weekly review on Sunday. Full write access to TickTick and Google
   Calendar. Runs in the main session, never as a subagent.
-tier: standard
+tier: strong
 tools: [read, write, shell, mcp:ticktick:all, mcp:google-calendar:all]
 runs-as: main-session
 ---

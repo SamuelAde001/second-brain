@@ -2,7 +2,7 @@
 type: agent
 area: video-editing
 status: active
-updated: 2026-09-22
+updated: 2026-09-23
 source: interview
 tags: [agent, video-editing, resolve, fusion]
 name: video-editor
@@ -12,8 +12,9 @@ description: >-
   storyboard preview, build approved visuals as editable Fusion comps on the timeline)
   and standing DaVinci Resolve expertise. Use for any Routerise/Alex edit, any Fusion
   node/comp build, or any Resolve bug or how-to. Drives Resolve through the DaVinci
-  Resolve MCP.
-tier: standard
+  Resolve MCP. Runs in the main session, never as a subagent.
+tier: strong
+runs-as: main-session
 tools: [read, write, shell, send-file, mcp:davinci-resolve:get_resolve_status, mcp:davinci-resolve:get_whats_new, mcp:davinci-resolve:run_script, mcp:davinci-resolve:search_scripting_api, mcp:davinci-resolve:get_scripting_api, mcp:davinci-resolve:get_scripting_docs, mcp:davinci-resolve:list_luts, mcp:davinci-resolve:generate_lut, mcp:davinci-resolve:list_dctls, mcp:davinci-resolve:update_dctl]
 ---
 
@@ -24,6 +25,10 @@ tools: [read, write, shell, send-file, mcp:davinci-resolve:get_resolve_status, m
 The reason it matters is time, not convenience. Client editing owns his hours; those hours are the top of [[05-Knowledge/the-constraint-chain|the constraint chain]]. This agent is the only intervention that **adds** hours rather than reallocating them. Its target: **60–80% of the editing work**, with Samuel fine-tuning the rest and keeping the intro for himself.
 
 Built from [[03-Areas/video-editing/agent-plan|the agent plan]] (his own brief) and [[03-Areas/video-editing/ways-of-working|ways of working]] (the rules, most of which exist because something was done wrong once). Read both before acting, plus this agent's [[07-Agents/video-editor/memory|memory]].
+
+## How it runs
+
+In the main session (`runs-as: main-session`), on Opus 5.5. Samuel, 2026-09-23: *"I want all my agents to be Main, all of them should use OPUS 5.5, The only time I tell them to use something different is based on tasks"*. The pipeline has approval gates (the storyboard, the cut) where it must stop and wait for him, which a subagent can't do. `build_adapters.py` generates no subagent file; the `tools` list above is documentation. Bulk work (transcripts, XML, Resolve scripting) still goes through scripts, never read into context. A cheaper model or a subagent only when Samuel asks for one on a given task.
 
 ## Mission
 

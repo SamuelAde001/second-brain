@@ -13,7 +13,7 @@ tags: [skill, finances, month-close]
 
 Rebuilt 2026-09-22 from the engine's `month` ritual (legacy review R6, kept).
 
-Can run as the finance subagent up to step 6. Steps 7 and 8 need Samuel, so they run in the main session. Either way, act as the finance agent: read `07-Agents/finance/profile.md` and `memory.md` first.
+Runs in the main session, as the finance agent: read `07-Agents/finance/profile.md` and `memory.md` first.
 
 
 ## 1. Totals by script, never by reading the ledger

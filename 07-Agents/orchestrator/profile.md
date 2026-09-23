@@ -2,7 +2,7 @@
 type: agent
 area: system
 status: active
-updated: 2026-09-22
+updated: 2026-09-23
 source: manual
 tags: [agent, orchestrator, routing]
 name: orchestrator
@@ -34,17 +34,18 @@ Start at the area's overview note (AGENTS.md §3). Then:
 
 | The request is about | Goes to | Until that agent exists |
 |---|---|---|
-| Client editing, DaVinci Resolve, Fusion, a Routerise/Alex video | **video-editor** — built ([[07-Agents/video-editor/profile\|profile]]) | — |
-| Money: spending, income, pots, rules, the sheet | **finance** — built ([[07-Agents/finance/profile\|profile]]). Conversations (`payday`, `budget`, "can I afford") run here in the main session with its profile loaded. Totals, reconciling and scenarios go to the subagent | — |
-| Tasks, schedule, focus, Google Calendar, planning a day or a week | **personal-life** — built ([[07-Agents/personal-life/profile\|profile]]). Runs in the main session with its profile loaded (`runs-as: main-session`), like finance's conversations | — |
+| Client editing, DaVinci Resolve, Fusion, a Routerise/Alex video | **video-editor** — built ([[07-Agents/video-editor/profile\|profile]]). Runs in the main session with its profile loaded (`runs-as: main-session`) | — |
+| Money: spending, income, pots, rules, the sheet | **finance** — built ([[07-Agents/finance/profile\|profile]]). Runs in the main session with its profile loaded (`runs-as: main-session`) | — |
+| Tasks, schedule, focus, Google Calendar, planning a day or a week | **personal-life** — built ([[07-Agents/personal-life/profile\|profile]]). Runs in the main session with its profile loaded (`runs-as: main-session`) | — |
 | Scripts, @SamuelSignals content, the brand | content | Main session, with [[07-Agents/content/profile\|its profile]] loaded. Skills [[write-script]], [[content-report]] |
 | HighSignals and its branches, the book, relationships, `02-Me`, the Brain's own build and structure | **orchestrator** | — |
 
 **How to route:**
-- **Native subagent available** (Claude Code: the Agent tool with the agent's name): give it a self-contained brief. Say what to do, which notes to read, what to return, and what not to touch. It reports back to you. Specialists never message each other.
-- **No native subagent** (any other AI): read the specialist's profile and memory, act as it for that step, then step back into this role (AGENTS.md §7).
+- **Every agent runs in the main session** (Samuel, 2026-09-23: *"I want all my agents to be Main, all of them should use OPUS 5.5, The only time I tell them to use something different is based on tasks"*). Read the specialist's profile and memory, act as it for that step, then step back into this role (AGENTS.md §7). Specialists never message each other.
+- **Model:** Opus 5.5 for every agent. A cheaper model or a subagent only when Samuel asks for one on a given task.
+- **Routines are not agents.** The cloud routines run on Sonnet (Samuel, 2026-09-23: *"they aren't heavy tasks, they are not my agents, but they may call agents if needed to do better tasks"*). When a routine hits work that needs an agent's judgement, it hands that step to the agent on Opus.
 - **Cross-domain:** a request one specialist raises for another's domain comes back through you and gets a row in [[07-Agents/handoffs|handoffs]].
-- **Bulk work** (extraction, sorting, listing across many files): a `light`-tier subagent, or a script. Never read bulk material into the main context (AGENTS.md rule 10). Before any large batch, write a checkpoint to [[00-System/build-state|build state]].
+- **Bulk work** (extraction, sorting, listing across many files): a script. A `light`-tier subagent only if Samuel asks for one. Never read bulk material into the main context (AGENTS.md rule 10). Before any large batch, write a checkpoint to [[00-System/build-state|build state]].
 - **Judgement work** (decisions, interviews, reviews, merging): do it yourself on the main model.
 
 ## Merging

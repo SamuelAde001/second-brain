@@ -21,7 +21,7 @@ Listed neutrally in `00-System/portability.md` → Integrations. In Claude Code 
 
 ## Token discipline (Pro plan)
 - Usage limits are shared with Claude chat, on a rolling 5-hour window, with weekly caps.
-- Bulk extraction runs in a subagent on the `light` tier. Judgement work runs on the main model.
+- Every agent runs in the main session on Opus 5.5, the project default model in `.claude/settings.json` (Samuel, 2026-09-23). Bulk extraction is done by scripts, not read into context. A subagent or a cheaper model only when Samuel asks for one on a given task. Cloud routines run on Sonnet.
 - Before a large batch, write a checkpoint to `00-System/build-state.md` so a cutoff mid-batch loses nothing.
 - **Never set `ANTHROPIC_API_KEY` system-wide.** If it is set, Claude Code silently bills the API instead of the Pro subscription.
 

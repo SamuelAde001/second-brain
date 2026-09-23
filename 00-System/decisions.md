@@ -354,3 +354,20 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **What:** both cloud routines (morning brief, night plan) now end their first message with a `PushNotification` call, one line under 200 characters. The tool is on each routine's allowed list. Canonical prompts updated in `00-System/automations/`. A manual test run of the morning brief at 7:01am WAT got "Mobile push requested"; whether it reached the phone is for Samuel to confirm.
 
 **Who decided:** fix applied by the orchestrator on Samuel's report.
+
+## 2026-09-23 — Every agent runs in the main session on Opus 5.5; routines stay on Sonnet
+
+**Samuel:** *"I want all my agents to be Main, all of them should use OPUS 5.5, The only time I tell them to use something different is based on tasks"*. Then, on the routines: *"We can have the routines run on Sonnet since they aren't heavy tasks, they are not my agents, but they may call agents if needed to do better tasks"*.
+
+**What:**
+1. `video-editor` and `finance` now carry `runs-as: main-session`, like the other three. Their generated subagent files (`.claude/agents/`, `.gemini/agents/`) are pruned. No agent is a subagent.
+2. Every profile is tier `strong`. `.claude/settings.json` sets the project default model to `claude-opus-5-5`.
+3. A cheaper model or a subagent is used only when Samuel asks for one on a given task. Bulk work stays in scripts (AGENTS.md rule 10).
+4. The morning brief and night plan cloud routines stay on `claude-sonnet-5`. They are not agents. Each gained step 8 and the `Agent` tool: a step that needs an agent's judgement goes to a subagent on Opus that reads that agent's profile and memory.
+5. Updated: AGENTS.md §7, CLAUDE.md token discipline, portability tiers, the orchestrator's routing, the roster, `month-close`, the two routine notes.
+
+**Objection (logged once, per the objection protocol):** Opus on every agent uses up the Pro plan's shared 5-hour and weekly limits faster than Sonnet did, and the video-editor pipeline was the heaviest consumer. The mitigation is the existing one: scripts do the bulk work, and nothing big is read into context.
+
+**Not changed:** the Sunday session (`sunday-money-check`) is a desktop scheduled task. Those take no model setting, so it runs on the project default, now Opus 5.5.
+
+**Who decided:** Samuel.
