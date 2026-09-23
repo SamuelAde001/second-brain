@@ -2,7 +2,7 @@
 type: sop
 area: me
 status: active
-updated: 2026-09-22
+updated: 2026-09-23
 source: interview
 tags: [automation, planning, daily]
 ---
@@ -28,5 +28,6 @@ tags: [automation, planning, daily]
 > 4. Tone: direct and blunt. No motivational line, no praise.
 > 5. If something changed: one line in `07-Agents/personal-life/log.md`, commit `personal-life: morning changes <YYYY-MM-DD>` ending with the trailer `Co-Authored-By: Claude <noreply@anthropic.com>`. Then follow `00-System/portability.md` -> Cloud sessions and the PC: `git fetch origin main`, `git merge origin/main` (never rebase), `git push origin HEAD:main`. Never force-push. On a merge conflict, stop and tell him.
 > 6. Anything that needs the PC (Money sheet, DaVinci Resolve, `01-Inbox/_imports/`) goes as one line in `01-Inbox/` for the PC. Do not attempt it.
+> 7. Straight after sending the brief, call the PushNotification tool (load it with ToolSearch if deferred) with one line under 200 characters: the must-dos, plus anything overdue. A finished routine does not notify his phone on its own. Do this every run, whether or not he answers.
 
 Back to [[07-Agents/personal-life/profile|personal-life]] · [[00-System/systems-register|Systems register]]

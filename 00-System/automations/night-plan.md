@@ -2,7 +2,7 @@
 type: sop
 area: me
 status: active
-updated: 2026-09-22
+updated: 2026-09-23
 source: interview
 tags: [automation, planning, daily]
 ---
@@ -28,5 +28,6 @@ tags: [automation, planning, daily]
 > 4. Tone: direct and blunt. No praise for planning. Never schedule over 6:00–6:30am, after 10:00pm, or Sunday before 3:00pm.
 > 5. Close as the skill says: daily notes in `06-Logs/daily/`, one line in `07-Agents/personal-life/log.md`, commit `personal-life: plan for <YYYY-MM-DD>` ending with the trailer `Co-Authored-By: Claude <noreply@anthropic.com>`. Then follow `00-System/portability.md` -> Cloud sessions and the PC: `git fetch origin main`, `git merge origin/main` (never rebase), `git push origin HEAD:main`. Never force-push. On a merge conflict, stop and tell him.
 > 6. Anything that needs the PC (Money sheet, DaVinci Resolve, `01-Inbox/_imports/`) goes as one line in `01-Inbox/` for the PC. Do not attempt it.
+> 7. Straight after the opening message, call the PushNotification tool (load it with ToolSearch if deferred) with one line under 200 characters: any miss from the check, then "Tomorrow's plan is ready — change anything, or go?". A routine does not notify his phone on its own.
 
 Back to [[07-Agents/personal-life/profile|personal-life]] · [[00-System/systems-register|Systems register]]

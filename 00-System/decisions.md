@@ -344,3 +344,13 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Left on the PC:** the Sunday session (`sunday-money-check`) stays a desktop task because the money check rebuilds the Money sheet, whose key is only on the PC.
 
 **Who decided:** Samuel.
+
+## 2026-09-23 — Routines send a phone push
+
+**Samuel:** *"I didn't see my routine send me notification on my phone this morning, I turned on my phone after the routine but I didn't see the notification on my phone"*.
+
+**Found:** the 2026-09-23 morning brief ran on time (fired 6:34am WAT, finished in 48s, brief correct). It sent no push: a finished cloud routine does not notify the phone by itself, and neither prompt told it to.
+
+**What:** both cloud routines (morning brief, night plan) now end their first message with a `PushNotification` call, one line under 200 characters. The tool is on each routine's allowed list. Canonical prompts updated in `00-System/automations/`. A manual test run of the morning brief at 7:01am WAT got "Mobile push requested"; whether it reached the phone is for Samuel to confirm.
+
+**Who decided:** fix applied by the orchestrator on Samuel's report.

@@ -25,3 +25,4 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 
 Back to [[07-Agents/orchestrator/profile|Profile]]
 - 2026-09-22 — At Samuel's request: created cloud routines for the morning brief and night plan, paused the desktop tasks, and allowed the routines' tools in `.claude/settings.json` (deletes still ask). Automation notes, register, decisions and build-state updated.
+- 2026-09-23 — Samuel got no phone notification from the morning brief. Run had succeeded; no push was ever sent. Added a PushNotification step to both cloud routines (prompt + allowed tools) and their canonical notes; test run requested the push.
