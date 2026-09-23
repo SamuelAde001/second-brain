@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-22
+updated: 2026-09-23
 source: manual
 tags: [open-questions]
 ---
@@ -97,5 +97,8 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 82 | Standing plan (`obligations.md`): son's school isn't a line in it, but September's replan moved it from NGN 50,000 to NGN 100,000, and Girlfriend allowance shows NGN 100,000 where September says the two lines total NGN 150,000. What are the standing amounts for Parents, Girlfriend allowance and Son's school from October? | finances | 2026-09-22 | The October plan | — |
 | 83 | ~~TickTick habits vs his confirmed routine: "Start work 6am" has a 6:00am reminder, which lands on the prayer block, while client work starts at 7:00am. "Gym 5pm" repeats daily, but gym is 3 days a week (which three days is also not stated). Check-ins since 2026-09-13: 1, 0, 0 ("Post content" 0). Keep, change or drop each habit?~~ | me | 2026-09-22 | Habit reporting in the brief and the weekly review | 2026-09-22: *"The ticktick habits should match, adjust them all, but the Gym should read daily, cause the plan is minimum of 3X a week"*; days *"depend on the load of work for that day"*. "Start work 6am" → "Start work 7am" (07:00) → [[02-Me/daily-routine\|Daily routine]], [[00-System/ticktick-map\|TickTick map]] |
 | 84 | ~~Google Calendar has two HighSignals calendars, "HighSignals Event calendar" (described as holding all HighSignals events) and "HighSignals Events" (no description). Which one takes HighSignals events?~~ | highsignals | 2026-09-22 | Putting a HighSignals event on the calendar | 2026-09-22: *"I currently use non of them and may delete them later to start a new one next year"*. HighSignals events go on his primary calendar → [[07-Agents/personal-life/profile\|personal-life]] |
-| 85 | How should his Instagram and TikTok numbers reach the Brain automatically? He wants it: *"We need to find a way to get the data automated here."* Candidates: Metricool (connects his own accounts) or vidIQ (already on his claude.ai account). Connecting either needs his yes. | personal-brand | 2026-09-22 | [[content-report]] runs on typed-in numbers until then | — |
+| 85 | How should his Instagram and TikTok numbers reach the Brain automatically? He wants it: *"We need to find a way to get the data automated here."* Candidates: Metricool (connects his own accounts) or vidIQ (already on his claude.ai account). Connecting either needs his yes. | personal-brand | 2026-09-22 | [[content-report]] runs on typed-in numbers until then | partly, 2026-09-23: he wants live performance feedback on IG and TikTok and asked for the options *"later on"*. Still to present. |
 | 86 | The 5,000-followers goal: Instagram only, TikTok too, or both combined? The goal ladder's arithmetic used Instagram. | personal-brand | 2026-09-22 | [[content-report]] pace line | — |
+| 87 | Life of a Video Editor facts: the PC cost "1.5". Is that NGN 1,500,000? And did his mentor buy the power station for him, or help him buy it? | personal-brand | 2026-09-23 | Ep 3 and Ep 5 scripts | — |
+| 88 | The military in his content: he said to leave it out of Ep 3. Out of the whole series? (Ep 4's NGN 20,000 data and Ep 5's first laptop were paid from his soldier's salary.) And the story bank's #24 says he learned before he had a computer, while on 2026-09-23 he said his first edit was on the HP laptop. Which is right? | personal-brand | 2026-09-23 | Ep 4 and Ep 5 scripts | — |
+| 89 | The b-roll archive / video folder: its path, so the Brand manager can get read-only access (settings.json, AGENTS.md §10, content profile). He asked to be reminded. | personal-brand | 2026-09-23 | Storyboarding from archived b-roll; the video catalogue | — |

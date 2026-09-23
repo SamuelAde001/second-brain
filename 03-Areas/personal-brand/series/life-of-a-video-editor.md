@@ -2,7 +2,7 @@
 type: knowledge
 area: personal-brand
 status: needs-input
-updated: 2026-09-22
+updated: 2026-09-23
 source: interview
 tags: [series, content, what-works]
 ---
@@ -50,11 +50,21 @@ That is the whole system in one sentence — see [[05-Knowledge/the-constraint-c
 
 The Brain has deep material on his voice, his script process and his storytelling structures, and almost nothing on how this specific series is actually built. Worth capturing before episode 3:
 
-- **The structure of an episode** — does it follow Hook → Context → Conflict → Pivot → Resolution → Mantra ([[brand-context]]), or something of its own?
-- **Length**, and whether it differs from the 60s / 90s+ rule.
+- ~~**The structure of an episode**~~ Hook → Context → Conflict → Pivot → Resolution. **No spoken closing line.** The series name is bold on-screen text at the start: *The Life of a Video Editor, Episode N* (Samuel, 2026-09-23).
+- ~~**Length**~~ Episodes 1–2 ran about 1:30–2:00. Ideal is 1:30; 2:00 is fine; up to 3:00 if the story is very strong (Samuel, 2026-09-23).
 - ~~**How long one episode takes him**, start to finish.~~ About 4h30 (Samuel, 2026-09-22), above.
-- **How the B-roll is planned and sourced** — shot list, or shot as it comes.
-- **Whether it has a mantra or fixed lines**, like the Guiding While Riding series had.
-- **View counts** on the two episodes, so "good views" becomes a number to beat.
+- ~~**How the B-roll is planned**~~ Planned after scripting: he notes beside each line which b-roll fits, shoots to that, then remixes in the edit by feel (Samuel, 2026-09-23). From Ep 3: mostly mood, some literal shots.
+- ~~**Whether it has a mantra**~~ No. See structure.
+- **View counts** on the two episodes, so "good views" becomes a number to beat. Samuel, 2026-09-23: none to hand; he wants his accounts connected for live numbers ([[00-System/open-questions|open questions]] #85).
+
+## Episodes
+
+| Ep | Title | Note | Posted |
+|---|---|---|---|
+| 1–2 | not recorded | — | before 2026-09-20 |
+| 3 | No light | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep3-no-light|Ep 3]] | — |
+| 4 | Bad network | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep4-bad-network|Ep 4]] | — |
+| 5 | Bad laptop | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep5-bad-laptop|Ep 5]] | — |
+| 6 | How I stay productive | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep6-how-i-stay-productive|Ep 6]] | — |
 
 Related: [[instagram-strategy]] · [[brand-context]] · [[script-process]] · [[03-Areas/personal-brand/series/guiding-while-riding|Guiding While Riding]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

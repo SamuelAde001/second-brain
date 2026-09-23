@@ -2,7 +2,7 @@
 type: knowledge
 area: personal-brand
 status: active
-updated: 2026-09-20
+updated: 2026-09-23
 source: claude-export
 tags: [ideas, story-bank]
 ---
@@ -73,6 +73,29 @@ The source groups the 30 ideas into five themed sets. That grouping is preserved
 | 2026-07 | **28. Why a heavy workload makes me freeze instead of focus**<br>**Hook:** "When work gets heavy, I'm supposed to lock in. I do the opposite."<br>**Conflict:** Volume should trigger focus. For him it triggers avoidance.<br>**Resolution:** Naming it honestly is the value here — most people think they're the only one who freezes.<br>**Relates to:** anyone who has confused laziness with being overwhelmed. | raw | — |
 | 2026-07 | **29. I almost quit because I was impatient, not because of the job**<br>**Hook:** "Looking back, nothing was wrong with the job. Something was wrong with my patience."<br>**Conflict:** He nearly threw away his dream client because the pressure had him emotional.<br>**Resolution:** His own verdict: he was impatient and let his emotions take control. Same event as #2, told as self-criticism instead of drama.<br>**Relates to:** anyone one bad week away from a decision they'd regret. | raw | — |
 | 2026-07 | **30. Video editing cost me my social life**<br>**Hook:** "I have almost no friends, and video editing is the reason."<br>**Conflict:** He rarely goes out, rarely meets people, wants to be in places and isn't. The work keeps him in the room.<br>**Resolution:** No tidy fix — this is the honest cost of the life he chose, and building a community is part of how he's answering it.<br>**Relates to:** every remote worker who realised their calendar has no people in it. | raw | — |
+
+### From the 2026-09-23 interview
+
+Samuel, 2026-09-23: *"everything I'm telling you, if it doesn't make it into the script today, make sure that you document it somewhere"*. Raw story pieces from the Episodes 3–6 interview. Each one can stand on its own later, or be retold from another angle. Full context in the episode notes under `scripts/`.
+
+| Date | Idea | Status | Outcome / why dropped |
+|------|------|--------|-----------------------|
+| 2026-09-23 | **31. Working from restaurants just to get light**<br>Bought food at restaurants so he could sit and work where there was power. Beat in Ep 3. | raw | — |
+| 2026-09-23 | **32. The Aboki corner**<br>Carried his laptop to the roadside phone-charging spot to get it charged. Beat in Ep 3. | raw | — |
+| 2026-09-23 | **33. The loud generator**<br>Bought a small, noisy generator out of pure frustration with no light. Beat in Ep 3. | raw | — |
+| 2026-09-23 | **34. The trials I couldn't do**<br>International clients sent trial tasks; no light, so he couldn't execute them and lost the gigs. *"They just expect that you always have light."* Beat in Ep 3. | raw | — |
+| 2026-09-23 | **35. My mentor and the power station**<br>His mentor, also one of his major clients then, helped him get a NGN 300,000–400,000 power station. *"My first escape."* Answers part of the bank's "still to mine: the mentor". Beat in Ep 3. | raw | — |
+| 2026-09-23 | **36. Two weeks without grid light**<br>Rain brings a line down, or the national grid collapses; he has gone a week, sometimes two, without light. Beat in Ep 3. | raw | — |
+| 2026-09-23 | **37. Turning down work because the files were too big**<br>On mobile data he turned down client gigs over file size. Beat in Ep 4. | raw | — |
+| 2026-09-23 | **38. I pity editors without fast internet, and it isn't even my Starlink**<br>He works on his mentor's Starlink; when he moves out he'll need his own. Beat in Ep 4. | raw | — |
+| 2026-09-23 | **39. The laptop ladder**<br>NGN 150,000 HP → NGN 300,000 gaming laptop → NGN 900,000 laptop → a PC. Carousel candidate. Beat in Ep 5. | raw | — |
+| 2026-09-23 | **40. Hardware so bad it made me hate editing**<br>Crashing and hanging over and over; *"it has made me hate video editing because of that frustration."* Beat in Ep 5. | raw | — |
+| 2026-09-23 | **41. My client's first payment went entirely on a PC**<br>Built in 2025; his laptop kept crashing on that client's work. Beat in Ep 5. | raw | — |
+| 2026-09-23 | **42. What a PC lets me do that no laptop could**<br>AI work, 3D animation, heavy VFX. Tutorial or show-and-tell angle. | raw | — |
+| 2026-09-23 | **43. I don't eat until 1pm**<br>Coffee, maybe a snack; eating makes him bloated and sluggish. *"My major productivity hack."* Beat in Ep 6. | raw | — |
+| 2026-09-23 | **44. My phone leaves the room in the morning**<br>Silent, out of the room; hardest work first while the mind is clear. Beat in Ep 6. | raw | — |
+| 2026-09-23 | **45. "It has to be done"**<br>The line he says to himself when avoiding work. Beat in Ep 6. | raw | — |
+| 2026-09-23 | **46. "How are you so productive?"**<br>His day-in-the-life videos draw that comment; the honest answer is he isn't. Beat in Ep 6. | raw | — |
 
 ### Notes on the set
 
