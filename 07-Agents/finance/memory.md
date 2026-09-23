@@ -65,4 +65,9 @@ From the archived [[08-Archive/accountability-engine/context/money-ledger|engine
 
 - The NGN 7,000 gift was set aside on 2026-09-23 to offset the girlfriend's light bill. NGN 5,000 of it went to someone else the same day, and he said so after, not before. A verbal earmark is not a pot: until money moves somewhere, treat it as spendable and say what it was meant for when it goes.
 
+## 2026-09-23 — No loans
+
+- Samuel: "No, anything I give I won't collect back anymore". Money to a person is logged as given (Giving, or Extra cash for 22–30 Sep), never as a loan, and no plan counts on it coming back. Don't ask "is it coming back" again.
+- Word questions so they can't be misread. "Do you want that NGN 10,000 back?" meant the October Giving line; he heard the loan.
+
 Back to [[07-Agents/finance/profile|Profile]]
