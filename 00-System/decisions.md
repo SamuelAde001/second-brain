@@ -387,3 +387,13 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **What:** every block of a plan (work, must-dos, meetings, and the routine blocks: nap, gym, dinner, the call) is a TickTick timed task with a start and an end, reminders at the start and 5 minutes before, so it shows on the TickTick calendar. This replaces the all-day-task shape. Google Calendar becomes read only. That replaces the 2026-09-22 rule that a meeting went in both places, and drops the inviting and joint-calendar permissions, since nothing is written there now. Updated: the personal-life profile, `night-plan`, `morning-brief`, `weekly-review`, the TickTick map, the orchestrator's limits, the roster, portability. Adapters regenerated.
 
 **Who decided:** Samuel.
+
+## 2026-09-23 — TDR timeout goes back to the Windows default after tonight's render
+
+**Samuel:** *"set TdrDelay to how it was after this render"*.
+
+**What:** after the current Resolve render finishes, Samuel deletes `TdrDelay` and `TdrDdiDelay` (set to 60 earlier today to stop the render-cache crash) and reboots. The GPU watchdog goes back to 2 s. He runs it himself: it's a system setting, which agents don't change.
+
+**Objection (Editor), logged once:** the 60 s timeout is what stopped Resolve crashing on heavy Fusion comps ([[03-Areas/video-editing/troubleshooting|Troubleshooting]] §7). At 2 s the crash comes back, and the $7M Founder caching isn't finished (the rest of batch 2, batch 3, the Magic Mask clips). The cost of keeping 60 s is the desktop lagging during renders. 10 s would be a middle ground.
+
+**Who decided:** Samuel.
