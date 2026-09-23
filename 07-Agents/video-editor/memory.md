@@ -76,3 +76,9 @@ Built [[03-Areas/video-editing/delivered-projects|delivered-projects]] on Samuel
 - **A cache flag set by script needs a wake-up:** `SetFusionOutputCache(resolve.CACHE_ENABLED)` (strings like "On"/"enabled" return False). The background cacher ignores it until Render Cache goes None → page switch → User. `perfRenderCacheMode` values: `none`/`smart`/`user`.
 - **Only adjustment clips take the layers below as input.** Fusion Composition generators and Fusion clips render standalone. When deferring a heavy clip, also defer the adjustment clips stacked above it.
 - **Closing Chrome etc. frees ~0.5 GB at most.** The VRAM is Resolve's own. Don't lead with "close your browser".
+
+## 2026-09-23 (night) — PC lag while rendering is GPU contention, not CPU/RAM
+
+- **Measured during a Deliver render:** GPU 100% (Resolve alone on the 3D engine), VRAM 8.6/12 GB, CPU 15%, RAM 6.7 GB free, disk idle. The desktop (3840×2160) is composited on the same RTX 3060, so when Resolve holds the card, the whole PC stutters.
+- **With `TdrDelay` = 60, Windows lets a long GPU job run up to 60 s before resetting.** A GPU job that used to crash Resolve after 2 s now freezes the desktop until it finishes. That's the cost of the crash fix. Lowering it brings the crashes back.
+- **Raising Resolve's CPU priority, or lowering it, does nothing for this.** CPU isn't the bottleneck. Check `nvidia-smi` and the `\GPU Engine(*)\Utilization Percentage` counter first.
