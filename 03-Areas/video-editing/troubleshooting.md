@@ -3,7 +3,7 @@ type: knowledge
 area: video-editing
 status: needs-input
 source: claude-export
-updated: 2026-09-20
+updated: 2026-09-23
 tags: [troubleshooting, resolve]
 ---
 
@@ -205,5 +205,19 @@ Also proposed: cut grain/heavy texture for the Status cut, increase text size 20
 **Other flagged causes:** NVIDIA **Studio** drivers, not Game Ready (Studio drivers are validated against Resolve; a crash that started right after a driver update is often the driver — roll back); scratch disk full or on a slow drive; Auto Save/Live Save during a long render (turn Live Save off first); Fusion expressions referencing frames outside the render range (causes hangs that look like infinite loops).
 
 **Practical pre-render checklist proposed:** restart Resolve before a long render (Fusion leaks memory across a session), close anything else on the GPU, cache/pre-render Fusion comps first, confirm the project is 16-bit float unless 32 is specifically needed, confirm Temporal NR is off unless needed, and render a 10-second test across the worst section before committing to a full export.
+
+## 7. Resolve crashes while render-caching (Fusion null read) — diagnosed 2026-09-23, fix proposed — unverified
+
+**Symptom:** Resolve 21.1.0.14 closes with no dialog while render cache runs, in *$7M Founder How I Use Claude for Cold Outreach* and *3. The Only Claude Dropshipping Guide… (Copy)*. 7 crashes on 2026-09-23. The one at 16:36 happened while caching a specific adjustment clip.
+
+**What the evidence says** (logs, Windows event log, Resolve's two dumps from that day):
+- Every recorded crash since 2026-09-14 is in `fusionsystem.dll` (`0xc0000005`). The 16:36 dump shows a **read of address 0x0** (null pointer); the 16:15 dump a read of `0xc47` (a field of a null object). The whole stack is Fusion's own code: no OFX plugin and no NVIDIA driver on it. Fusion is rendering a node that has no image and dereferences it.
+- Where the empty image comes from, per the log: **the project's render cache is corrupt** (1,398 failed reads of `CacheClip\9e0c3aa8…` on 2026-09-23 between 14:37 and 16:09, 80 more at 16:34:59, one minute before the 16:36 crash); **Fusion nodes with nothing feeding them** (`MediaIn1 cannot get frame` 540×, `MosaicBlur1 cannot get Parameter for Source` 33×, Dropshipping project); **VRAM exhaustion** (16:15: Fusion used 9.5 of 11.6 GB, allowance −2.3 GB).
+- In $7M Founder, Timeline 1 carries an **adjustment clip (frames 1505–1631) and a Fusion composition**, and the log invalidates their cache on every project open. An adjustment clip with Fusion on it renders from the composite of everything beneath it, so a bad cached frame underneath reaches Fusion as nothing.
+- Ruled out: system RAM (32 GB, 62 GB pagefile, no low-memory event since 2026-09-07), disk space, MCP scripting.
+
+**Proposed fix, in order:** (1) open the project, set Playback → Render Cache → None at once, then Playback → Delete Render Cache → All; (2) open the adjustment clip's Fusion comp and fix any node with an empty input, and the Dropshipping comp's `MosaicBlur1` and `MediaIn1`; (3) Render Cache → User and cache Fusion output clip by clip, with GPU-heavy apps closed; (4) check for a newer 21.1.x. To get moving before (2), disable the adjustment clip (select, `D`), cache, re-enable.
+
+**Reading a new crash:** `davinci_resolve.log` for what happened before it; the Windows Application log (`Application Error`, ID 1000) for the module; Resolve's own `.dmp` in `Support\logs\` for exception, address and stack — parse with `03-Areas/video-editing/scripts/resolve_crash_dump.py`. Some crashes leave no Windows event and an empty `crash_archive.txt` entry; the dump is still there.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]
