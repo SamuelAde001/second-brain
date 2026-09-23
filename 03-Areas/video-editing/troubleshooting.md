@@ -206,7 +206,7 @@ Also proposed: cut grain/heavy texture for the Status cut, increase text size 20
 
 **Practical pre-render checklist proposed:** restart Resolve before a long render (Fusion leaks memory across a session), close anything else on the GPU, cache/pre-render Fusion comps first, confirm the project is 16-bit float unless 32 is specifically needed, confirm Temporal NR is off unless needed, and render a 10-second test across the worst section before committing to a full export.
 
-## 7. Resolve crashes while render-caching (Fusion null read) — diagnosed 2026-09-23, fix proposed — unverified
+## 7. Resolve crashes while render-caching (Fusion null read) — root cause: GPU timeout (TDR), found 2026-09-23; fix pending Samuel's reboot
 
 **Symptom:** Resolve 21.1.0.14 closes with no dialog while render cache runs, in *$7M Founder How I Use Claude for Cold Outreach* and *3. The Only Claude Dropshipping Guide… (Copy)*. 7 crashes on 2026-09-23. The one at 16:36 happened while caching a specific adjustment clip.
 
@@ -219,6 +219,19 @@ Also proposed: cut grain/heavy texture for the Status cut, increase text size 20
 **Proposed fix, in order:** (1) open the project, set Playback → Render Cache → None at once, then Playback → Delete Render Cache → All; (2) open the adjustment clip's Fusion comp and fix any node with an empty input, and the Dropshipping comp's `MosaicBlur1` and `MediaIn1`; (3) Render Cache → User and cache Fusion output clip by clip, with GPU-heavy apps closed; (4) check for a newer 21.1.x. To get moving before (2), disable the adjustment clip (select, `D`), cache, re-enable.
 
 **Raising Resolve's or Fusion's RAM limit won't fix this** (asked 2026-09-23). System RAM is ruled out, and the limits were already Resolve 51% / Fusion 42% of 32 GB. A bigger Fusion cache adds memory pressure and does nothing about a null read or VRAM. If anything, bring Fusion down toward section 6's 30–40%.
+
+**Update 2026-09-23 20:15. Root cause found: a Windows GPU timeout, not the cache.** Controlled test: the render cache fully deleted, Render Cache → User, and only a few clips flagged at a time. Batch 1 (32 clips, 0:00–1:02, 1,715 frames) cached cleanly in 4 min. Batch 2 crashed 11 frames into the **V4 Fusion Composition at 1621–1708** (378 nodes: 4 NeoLightSweep Pro, 4 NeoAnim, ResolveFX Grid + GaussianBlur, SoftGlows, no Magic Mask). The cache was clean, so a corrupt cache is a consequence, not the cause. The sequence in the log:
+1. `Fusion | WARN | Low GPU memory … allowed -2381 MB, used 9657 MB`. Resolve alone holds ~8 GB of the RTX 3060's 12 GB while idle, and other apps together hold ~0.5 GB.
+2. `DVIP | ERROR | CUDA error cudaErrorLaunchTimeout (702)`. A GPU job ran longer than Windows' **TDR watchdog (default 2 s; `TdrDelay` is not set on this PC)**.
+3. The System log shows `nvlddmkm` event **153**, a driver reset, at 20:15:51. Same at 18:27:07, before the 18:26 crash, and 8× on 2026-09-20.
+4. Resolve loses its GPU context, Fusion reads a null (dump: read of `0x587`), and the crash lands at `fusionsystem.dll+0x30c290`. The 18:31 crash in `nvoglv64.dll` (0xc0000409) is the same event hitting the OpenGL side.
+
+Magic Mask (in 4 comps: V2 283–415, Fusion Clip 2 546–585, V3 1505–1631, V2 9360–9637) adds GPU load but is not required for the crash.
+
+**Fix:** raise the TDR timeout. Samuel runs these as admin, then reboots (a system setting; agents don't change it):
+`reg add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers" /v TdrDelay /t REG_DWORD /d 60 /f` and the same with `/v TdrDdiDelay`. A heavy frame then gets up to 60 s instead of 2 s. The cost: a genuinely hung GPU freezes the screen for up to 60 s before recovering. Also turn off the Parsec virtual display when not streaming, since every extra display costs VRAM. Cache clip by clip with `scripts/resolve_cache_watch.py` (per-clip progress, stops on a crash) and the queue in `scripts/cache-queue-7m-founder.json`.
+
+**Scripting note:** a cache flag set by script (`TimelineItem.SetFusionOutputCache(resolve.CACHE_ENABLED)`; takes the constant, not a word) does nothing until the background cacher is woken. Set Render Cache to None, switch page and back, then set it to User again.
 
 **Reading a new crash:** `davinci_resolve.log` for what happened before it; the Windows Application log (`Application Error`, ID 1000) for the module; Resolve's own `.dmp` in `Support\logs\` for exception, address and stack — parse with `03-Areas/video-editing/scripts/resolve_crash_dump.py`. Some crashes leave no Windows event and an empty `crash_archive.txt` entry; the dump is still there.
 
