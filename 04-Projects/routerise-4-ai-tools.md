@@ -57,6 +57,7 @@ Route Rise's 5-day cap starts today (2026-09-24), so Monday is day 5. Sunday is 
 - **Local folder:** `C:\Users\repzy\Desktop\Video edits\Routerise\3. I Tried 100+ AI Tools. These 4 Are Best for Businesses\`. Offline brief: `Docs\Idea doc and script.docx` (+ `.md`).
 - **Resolve project:** same name, in the `Routerise` project folder, **created fresh on 2026-09-24** with the 13 bins from the "Folder structure template" power bin. Samuel rejected copying the template because a copy keeps the template's created date. A leftover "(template copy - to delete)" project sits in the same folder; Resolve refused to delete it by script.
 - **Timeline "A-roll synced (raw)":** C0786 picture on V1 from frame 0; mic on A1 from frame 237, linked, at +6 dB. The mic started **9.88 s after** the camera (motion sync; the camera's scratch audio is dead at −61 dB). Two blue "Lip-sync check" markers at 1:00 and 25:30. There's no speech on the mic from about 11:00 to 18:30.
+- **Tella screen recording synced:** V2 from frame 6727 (camera time 280.58 s), its audio on A2, disabled, as a reference. Tella time t = mic time t + 270.700 s, checked at two points with no drift and no cuts (audio xcorr, z 14–29). Tella 8:00–15:00 is silent on both sources: a pause in the recording. A green "Screen sync check" marker sits a minute in.
 - Set up by the [[03-Areas/video-editing/sops/routerise-job-setup|Routerise job setup]] SOP, written on this job.
 
 ## Open

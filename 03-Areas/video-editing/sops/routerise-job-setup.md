@@ -35,7 +35,7 @@ tags: [sop, routerise, setup]
    - Mic (`mediaType 2`) on A1 at `recordFrame = start + round(seconds_mic_started_after_camera × 23.976)`.
    - Link them with `SetClipsLinked([v, a], True)`, then `SetProperty("AudioVolume", 6.0)` on the mic ([[03-Areas/video-editing/sops/routerise-cut-workflow|cut workflow]] inputs).
    - Add two blue "Lip-sync check" markers, one near the start and one near the end, for Samuel to eyeball.
-   - The screen recording stays in its bin; it goes on V2 during the cut.
+   - **Sync the screen recording too** (Samuel, 2026-09-24: *"you haven't synced the screen recording to the video also"*). Tella's export has clean audio from his laptop, so cross-correlate the Tella audio envelope against the mic (`av_sync.envelope` + `xcorr`, 20 Hz for the whole length, then 100 Hz on a 90 s stretch). Sweep 120 s windows along Tella first to catch cuts in the story; high-z windows must all give the same offset. Place Tella at `camera time = mic offset in Tella + mic offset after camera`: picture on V2 ("Screen rec (Tella)"), its audio on A2 ("Tella audio (ref)"), linked, **A2 disabled**. Add a green "Screen sync check" marker.
 9. **Log it.** Project note, [[07-Agents/video-editor/log|Editor log]], area log. Commit.
 
 ## Failure modes seen
