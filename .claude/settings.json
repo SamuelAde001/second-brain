@@ -33,7 +33,8 @@
       "mcp__a5641035-0f40-4dde-9da3-d31977042c78__get_event",
       "mcp__a5641035-0f40-4dde-9da3-d31977042c78__search_events",
       "mcp__a5641035-0f40-4dde-9da3-d31977042c78__create_event",
-      "mcp__a5641035-0f40-4dde-9da3-d31977042c78__update_event"
+      "mcp__a5641035-0f40-4dde-9da3-d31977042c78__update_event",
+      "Read(//c/Users/repzy/Desktop/Video edits/My videos/Instagram Samuel Signals/**)"
     ],
     "ask": [
       "PowerShell(Remove-Item *)",
@@ -69,6 +70,9 @@
       "Read(~/.brain-secrets/**)",
       "PowerShell(*brain-secrets*)",
       "PowerShell(*ANTHROPIC_API_KEY*)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\repzy\\Desktop\\Video edits\\My videos\\Instagram Samuel Signals"
     ]
   },
   "hooks": {

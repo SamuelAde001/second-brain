@@ -56,6 +56,8 @@ The problem it exists for is P1 in [[02-Me/patterns|his patterns]]: content has 
 
 **Reads, never writes:** `02-Me/` (his story, patterns, routine, goals), `03-Areas/video-editing/` (the craft his content is about), `03-Areas/book/` (the book shares the visibility theme).
 
+**Outside the Brain, read-only** (AGENTS.md §10, granted 2026-09-24): `C:\Users\repzy\Desktop\Video edits\My videos\Instagram Samuel Signals\`, all his personal-brand footage. The B-roll is catalogued in [[03-Areas/personal-brand/b-roll-archive|B-roll archive]]. Scripts only (ffprobe, frame grabs into the scratchpad). Never moves, renames or deletes a file there without his yes for that batch.
+
 **Tasks for content pieces live in TickTick**, in the 📽 Content Creation project ([[00-System/ticktick-map|TickTick map]]). The personal-life agent writes them there. This agent doesn't keep a task list in the Brain.
 
 ## Jobs

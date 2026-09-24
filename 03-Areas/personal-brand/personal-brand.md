@@ -43,6 +43,7 @@ See [[03-Areas/personal-brand/personal-brand-goals|Goals]]: 5,000 followers by D
 - [[03-Areas/personal-brand/content-log|Content log]] — posts, views and followers, append-only
 - [[brand-context]] — voice, pillars, audience, the six non-negotiables · [[script-process]] — raw idea to script · [[storytelling-structures]] · [[instagram-strategy]]
 - [[script-review-checklist]] — the SOP for reviewing a script
+- [[03-Areas/personal-brand/b-roll-archive|B-roll archive]] — every B-roll clip by shot code and folder, plus the gaps
 - [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]] — **the series that is working.** Two episodes, once a week
 - [[03-Areas/personal-brand/series/guiding-while-riding|Guiding While Riding]] — the bicycle series: structure, fixed lines, 31-topic bank. No evidence it ever launched
 - [[03-Areas/personal-brand/personal-brand-ideas|Ideas]] · [[03-Areas/personal-brand/personal-brand-decisions|Decisions]] · [[03-Areas/personal-brand/personal-brand-log|Log]] · [[03-Areas/personal-brand/personal-brand-goals|Goals]]

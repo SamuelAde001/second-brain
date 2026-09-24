@@ -30,4 +30,10 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - Samuel: *"Every B-roll should differentiate itself from the script by being colored in Blue"*. In Notion, every `{b-roll}` note sits at the end of its line, wrapped in blue text (`<span color="blue">…</span>`). Script text stays default colour.
 - His scripts live in Notion under Samuel Signals → My personal brand → Samuel Signals Instagram → Content Calendar. Ep 3 is the page "My Story". Pages carry a long template above `## Script`; fetch output is ~70k characters, so extract the script part with a script, don't read it whole.
 
+## 2026-09-24 — His footage folder and how to read it
+
+- All personal-brand footage: `C:\Users\repzy\Desktop\Video edits\My videos\Instagram Samuel Signals\` (~111 GB). B-roll lives in `B-roll archive\`, sorted by his Master Shot Library codes (`Document\HighSignals_Broll_Shot_List.xlsx`). New Osmo dumps land loose in the archive root.
+- Identify clips by script: ffprobe plus 3 frames each (15/50/85 %), tiled with ffmpeg (`hstack` + `tile`) into 20-clip contact sheets, about 9 images for 164 clips. Pillow isn't installed. Colour-flat footage reads fine.
+- Moving clips can break media links in Resolve projects that use them. Warn before any move.
+
 Back to [[07-Agents/content/profile|Profile]]

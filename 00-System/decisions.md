@@ -413,3 +413,12 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **What:** on the PC, Obsidian is open on the Brain folder itself, so what he types lands straight in the Brain. Nothing has to be merged. He may write in any folder; `01-Inbox/` is for anything he isn't sure where to put. At session start, every agent session runs `git status`, takes any change no agent made as his, adds missing frontmatter (`source: manual`) and a link back to the area, files it only if it's clearly misplaced, never rewrites his words, and commits it as `Samuel (Obsidian): …`. Rule 8 (the phone writes to the inbox only) stands: phone sync isn't set up. Updated: AGENTS.md rule 8 and §12, portability access modes.
 
 **Who decided:** Samuel (writing in Obsidian). The pick-up steps are the General Manager's.
+
+## 2026-09-24 — Brand manager gets read-only access to the personal-brand footage folder
+
+**Samuel:** *"C:\Users\repzy\Desktop\Video edits\My videos\Instagram Samuel Signals — This path is where every footage concerning My personal brand lives"*, in answer to the request to go to his B-roll archive and identify and arrange the B-roll.
+
+**What:** the content agent can read that folder (`.claude/settings.json` additionalDirectories plus a Read allow, AGENTS.md §10, content profile). Scripts only: listing, ffprobe, frame grabs into the session scratchpad. Nothing there is moved, renamed or deleted without his yes for that batch (rule 5). The catalogue lives in the Brain at [[03-Areas/personal-brand/b-roll-archive|B-roll archive]]. Closes open question 89.
+
+**Who decided:** Samuel (the path and the job). Read-only by default is the Brand manager's call, from rule 5.
+
