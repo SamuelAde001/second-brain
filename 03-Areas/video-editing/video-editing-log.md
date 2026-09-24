@@ -20,4 +20,6 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 
 - 2026-09-24 — **New Route Rise job: "3. I Tried 100+ AI Tools. These 4 Are Best for Businesses"**, due Monday 2026-09-28. Documented in [[04-Projects/routerise-4-ai-tools|Route Rise #3 — 4 AI Tools]] and scheduled in TickTick (9 blocks, Thu kickoff → Mon deliver).
 
+- 2026-09-24 — **Route Rise #3 cut by the Editor:** waveform gap pass, retakes removed, 9:34 cut with A-roll, Tella and mic frame-locked, 8 colour-coded chapters, transcript .docx. New in the [[03-Areas/video-editing/sops/routerise-cut-workflow|cut SOP]]: the frame-grid rule (conform the mic to 23.976), clock drift, per-clip transcription, teleprompter detection. Detail in [[04-Projects/routerise-4-ai-tools|the project note]].
+
 Back to [[03-Areas/video-editing/video-editing|Video editing]]

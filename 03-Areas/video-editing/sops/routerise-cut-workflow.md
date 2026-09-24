@@ -3,7 +3,7 @@ type: sop
 area: video-editing
 status: active
 source: claude-export
-updated: 2026-09-21
+updated: 2026-09-24
 tags: [sop, routerise]
 ---
 
@@ -55,6 +55,16 @@ tags: [sop, routerise]
    - Doing this step programmatically instead of through the dialog is fine, as long as the detection reads the actual waveform at this same threshold and minimum duration.
    - **This order applies to every voice-over, not just Route Rise** (Samuel, 2026-09-24: *"use the waveform to cut out the gaps, never cut with the transcription, and then after that, remove the mistakes"*). Samuel's own VO at home needs a higher threshold because the room is noisier: see [[07-Agents/content/memory|Brand manager memory]], 2026-09-24.
 
+   ### Frame grid — the audio cut must sit on the video cut (Samuel's correction, 2026-09-24)
+   Samuel: *"Why do we have places where the video cut is not aligned with the audio cut … it must be the exact same place"*.
+   - **Cause:** the DJI mic WAV carries metadata that makes Resolve read it at **29.97 fps**, and Resolve won't let you change it (`SetClipProperty("FPS")` returns False). On a **23.976** timeline most 29.97 source frames fall between timeline frames. Resolve places audio to the sample, so each audio edge sat 0–0.8 of a frame after its video edge, different on every clip. The giveaway by script: audio clips come out 1 frame shorter than their video when the next clip already sits on the track.
+   - **Fix:** make a lossless copy of the mic with the metadata stripped: `ffmpeg -i mic.wav -map_metadata -1 -c:a pcm_s24le -write_bext 0 -rf64 never "<job>\Conformed audio\<name> (23.976 grid, lossless copy).wav"`. Check the audio MD5s match (`-f md5`). Resolve reads the copy at the project rate (23.976), so source frames and timeline frames are the same grid. The client raw is untouched.
+   - Build the cut with that copy: mic start frame = floor(start × 23.976), same length D on every track. Check afterwards that every A1 clip has the same start and duration as its V1 clip.
+   - The Tella audio (44.1 kHz, 30 fps) has the same problem. Leave it off the cut timeline; it stays on the raw sync timeline as a reference.
+
+   ### A camera–mic clock drift exists on long takes
+   On Route Rise #3 the mic ran about 129 ppm slow against the camera (offset −9.775 s at 2:30, −9.952 s at 25:00, linear within 7 ms). One constant offset puts the ends 2 frames out of sync. Measure the offset in three windows (motion correlation at 30 Hz, 240 s each) and fit a line; place each clip's camera source from that line.
+
 3. **Transcribe** — only after the silence pass, not before.
    - `MediaPoolItem.TranscribeAudio(False, False)` returns `True` immediately; the actual result arrives asynchronously — poll `GetTranscription()` for 20–40 s. Set `transcriptionLanguage = "en"` first.
    - Word-level timecodes come back in the **clip's own frame rate** (29.97 NDF): `seconds = (((h*60+m)*60+s)*30+f) / (30000/1001)`.
@@ -66,6 +76,10 @@ tags: [sop, routerise]
    - Detection that works: normalise each run's first ~10 words and compare against the next 3–4 runs with `difflib.SequenceMatcher`, threshold **0.6**, chained into clusters.
    - **Picking the keeper is a judgement call, not a rule.** Usually the last complete take, but not always — sometimes the last attempt splits across a long pause and an earlier single clean delivery is better. Read the cluster.
    - Leave alone: misspeaks that were only said once with no alternate take. Cutting them costs the sentence — flag them instead of removing them.
+   - **Per-clip transcription (2026-09-24):** one WAV per waveform clip in a bin, then `Folder.TranscribeAudio()` does all of them (295 in about 2 minutes). Don't sleep inside a `run_script` call while waiting: it blocks Resolve, and nothing transcribes. Poll in separate calls.
+   - **An empty transcript is not silence.** Resolve returns nothing for short lead-in clips ("The tools that", "And at the end,", "Let's get into it."). Transcribe each empty clip joined to the next clip, and read what it adds. On Route Rise #3 all 32 empty clips were real words, and one of them changed a keeper choice.
+   - **A retake inside one clip** (no pause long enough for the silence pass): use the word times only to find where it is, then cut at the lowest waveform point between the two takes. The cut still lands on the waveform.
+   - **Tella recordings are a split layout** (camera left, screen right), and during talking parts the screen often shows Alex's teleprompter, not a demo. Classify the screen second by second (2 fps 32×20 thumbnails of the screen region, distance to a teleprompter frame) to know where the real demos are, and to spot promised demos that were never recorded.
 
 ## Done when
 

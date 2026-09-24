@@ -60,6 +60,19 @@ Route Rise's 5-day cap starts today (2026-09-24), so Monday is day 5. Sunday is 
 - **Tella screen recording synced:** V2 from frame 6727 (camera time 280.58 s), its audio on A2, disabled, as a reference. Tella time t = mic time t + 270.700 s, checked at two points with no drift and no cuts (audio xcorr, z 14–29). Tella 8:00–15:00 is silent on both sources: a pause in the recording. A green "Screen sync check" marker sits a minute in.
 - Set up by the [[03-Areas/video-editing/sops/routerise-job-setup|Routerise job setup]] SOP, written on this job.
 
+## The cut (2026-09-24, Editor)
+
+- **Timeline "Cut v2 (Editor) - frame-locked": 201 clips, 9:34.** V1 A-roll, V2 Tella screen, A1 mic at +6 dB. Each clip is linked across all three tracks and cut on the same frame. Gaps were cut from the waveform (−38 dB). Mistakes and retakes were cut as whole clips, keeping the last clean take. From 27:56 of mic.
+- The mic on this timeline is `Conformed audio\TX02_MIC017 mic (23.976 grid, lossless copy).wav`, the same samples as the raw (MD5 checked). The raw's metadata made Resolve read it at 29.97 fps, which put the audio cuts off the video cuts on v1. v1 is kept as *OLD Cut v1 (audio off the frame grid)*.
+- **8 chapters, colour-coded** (duration markers + clip colours): 1 Hook and intro (yellow) · 2 Clay (blue) · 3 Railway (purple) · 4 Mid-video CTA (pink) · 5 Claude (teal/cyan) · 6 Wispr Flow (green) · 7 Bringing the 4 tools together (tan/sand) · 8 Outro (violet/lavender).
+- **28 check markers** on the mic clips: joins, keeper choices, two in-clip retake cuts, the 4-frame "work." clip, and every screen jump where silent screen action was removed (the biggest: 8 minutes of Claude running, at 4:39).
+- **Transcript:** `Docs\Transcript - Cut v2 (2026-09-24).docx`. ALL CAPS, one section per chapter in its colour, red notes at every A-roll ↔ screen switch, purple boxes on the two prompts.
+- **Found while cutting (needs Samuel or Alex):**
+  - The Railway dashboard ("here is the project… our small database") is not on the screen recording. The screen shows the teleprompter there.
+  - The scripted 4-tool system build demo was never screen-recorded. Chapter 7 is talk only and needs built visuals.
+  - Most talking parts of the Tella file show Alex's teleprompter, not a demo. Real demo stretches: Clay 1:22–2:04, playbook page 2:34–2:40, Claude 4:05–6:02, Wispr Flow + frontal.so 6:33–7:55.
+  - Check by ear: "one provider can find the email" (probably "can't"), "ICP and time estimates" (probably TAM), "inside of BloD".
+
 ## Open
 
 - Monday delivery time — needs-input.
@@ -68,3 +81,4 @@ Route Rise's 5-day cap starts today (2026-09-24), so Monday is day 5. Sunday is 
 
 - 2026-09-24 — Job received. Documented and scheduled by Editor.
 - 2026-09-24 — Footage downloaded and sorted, brief saved offline, fresh Resolve project built from the power-bin folder structure, A-roll and mic synced on a timeline. Next: Samuel's lip-sync check, then the cut (ripple silence).
+- 2026-09-24 — Cut built (Cut v2, frame-locked, 9:34), chapters colour-coded, transcript written. Samuel caught audio cuts off the video cuts on v1; fixed with a 23.976-grid mic copy. Next: Samuel reviews the cut and the check markers, then the Claude pass / cut sheet.
