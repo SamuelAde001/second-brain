@@ -93,6 +93,10 @@ And gradually, you'll find your way out too.
 
 **Open on this draft:** is "one gig" true for a beginner, given his power station cost about NGN 300,000–400,000? And if the mentor paid for it (open questions #87), the advice isn't the path he took.
 
+### Draft 2 (Samuel, Notion, 2026-09-24)
+
+He took v1 and changed the hook and the international-client beat. New facts, his words: *"For 5 days, there have been no light, and I have a client video to finish tomorrow"*; *"an International client that was willing to pay $200 per video sent me trial project, but I lost that client all because I couldn't finish the work on time. Why? No light"*. So USD 200 per video, one client, one trial project. Mentor and "one gig" questions still open.
+
 
 ## hook
 Nigerian Light situation is the worse nightmare for any video editor
