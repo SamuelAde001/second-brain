@@ -6,17 +6,109 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"01-Inbox\"",
+      "color": {
+        "a": 1,
+        "rgb": 54015
+      }
+    },
+    {
+      "query": "path:\"02-Me\"",
+      "color": {
+        "a": 1,
+        "rgb": 15844367
+      }
+    },
+    {
+      "query": "path:\"03-Areas/finances\"",
+      "color": {
+        "a": 1,
+        "rgb": 3066993
+      }
+    },
+    {
+      "query": "path:\"03-Areas/video-editing\"",
+      "color": {
+        "a": 1,
+        "rgb": 15158332
+      }
+    },
+    {
+      "query": "path:\"03-Areas/personal-brand\"",
+      "color": {
+        "a": 1,
+        "rgb": 10181046
+      }
+    },
+    {
+      "query": "path:\"03-Areas/highsignals\" OR path:\"03-Areas/community\" OR path:\"03-Areas/academy\" OR path:\"03-Areas/mentorship\" OR path:\"03-Areas/scripnals\"",
+      "color": {
+        "a": 1,
+        "rgb": 3447003
+      }
+    },
+    {
+      "query": "path:\"03-Areas/relationships\"",
+      "color": {
+        "a": 1,
+        "rgb": 15221651
+      }
+    },
+    {
+      "query": "path:\"03-Areas/book\"",
+      "color": {
+        "a": 1,
+        "rgb": 15965202
+      }
+    },
+    {
+      "query": "path:\"04-Projects\"",
+      "color": {
+        "a": 1,
+        "rgb": 10734392
+      }
+    },
+    {
+      "query": "path:\"05-Knowledge\"",
+      "color": {
+        "a": 1,
+        "rgb": 5724347
+      }
+    },
+    {
+      "query": "path:\"07-Agents\"",
+      "color": {
+        "a": 1,
+        "rgb": 1752220
+      }
+    },
+    {
+      "query": "path:\"00-System\"",
+      "color": {
+        "a": 1,
+        "rgb": 9807270
+      }
+    },
+    {
+      "query": "path:\"06-Logs\" OR path:\"08-Archive\"",
+      "color": {
+        "a": 1,
+        "rgb": 6122878
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.5,
-  "nodeSizeMultiplier": 1.06958999935229,
-  "lineSizeMultiplier": 4.0554828680614,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.558520629574454,
-  "repelStrength": 19.6099146688338,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 11.894893674658,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.11660891579457308,
+  "linkDistance": 453,
+  "scale": 0.45050811767578125,
   "close": false
 }

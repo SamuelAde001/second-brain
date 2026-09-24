@@ -29,3 +29,4 @@ Back to [[07-Agents/orchestrator/profile|Profile]]
 - 2026-09-23 — At Samuel's request: all five agents set to main session and tier `strong` (Opus 5.5); video-editor and finance adapters pruned; project default model set; routines kept on Sonnet with a hand-off-to-agent step. Decision logged.
 - 2026-09-23 — Agent names added (General Manager, Editor, Money man, PA, Brand manager) and the always-name-the-working-agent rule written into AGENTS.md §7, roster, routing, CLAUDE.md. Decision logged.
 - 2026-09-24 — Samuel asked to write in the Brain himself through Obsidian. Pick-up of his edits written into AGENTS.md rule 8 and §12 and portability; decision logged.
+- 2026-09-24 — At Samuel's question about colours: added 13 graph colour groups (one per area/folder) to `.obsidian/graph.json`.
