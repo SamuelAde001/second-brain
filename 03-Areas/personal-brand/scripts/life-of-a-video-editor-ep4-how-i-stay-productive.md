@@ -42,6 +42,6 @@ tags: [script, life-of-a-video-editor, outline]
 
 ## Script
 
-*(Samuel's draft goes here.)*
+Drafting in Notion: page *How I stay productive* in the Instagram Content Calendar (My Story template, Status: Script), https://app.notion.com/p/3e58d1c17bb781a2ae58d6a3849d9416. The outline above sits under the template's Hook / Context / Struggle / Pivot / Resolution headings (2026-09-24).
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]
