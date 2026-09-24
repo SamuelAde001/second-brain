@@ -20,5 +20,6 @@ Append-only. Every action this agent takes. Newest at the bottom. Format: `- YYY
 - 2026-09-24 — Ep 3 script final. Corrections written into his Notion page "My Story" via the Notion connector (first use). Mentor paid for the power station; line "I had my mentor. You might not." added.
 - 2026-09-24 — Ep 3 b-roll: 26 shot notes in braces added beside each line in his Notion "My Story" page. Mostly mood; literal only for the power station, bag, restaurant table, solar. Bookend: light switch fails in the hook, works at the end.
 - 2026-09-24 — B-roll archive: path received, read-only access granted. 164 loose Osmo clips (2026-08-20 to 2026-09-14) identified from three frames each against his Master Shot Library: 142 B-roll, 12 personal, 5 junk, 5 to check. Catalogue → [[03-Areas/personal-brand/b-roll-archive|B-roll archive]]. Nothing moved; the file move waits for his yes.
+- 2026-09-24 — Samuel said "move them". 164 clips moved and renamed into their folders, bytes matched (33.67 GB), 0 loose left. New folders: Gym and Fitness, Girlfriend (his girlfriend, on his word). Voice-over clips #21/#22/#33/#39 went to Voice over videos. Undo list: 06-Logs/automation/2026-09-24-broll-sort-undo.csv. Catalogue updated.
 
 Back to [[07-Agents/content/profile|Profile]]

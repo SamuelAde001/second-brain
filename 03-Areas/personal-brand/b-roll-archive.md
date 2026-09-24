@@ -1,7 +1,7 @@
 ---
 type: knowledge
 area: personal-brand
-status: needs-input
+status: active
 updated: 2026-09-24
 source: local-folder
 tags: [b-roll, archive, footage, catalogue]
@@ -12,75 +12,69 @@ tags: [b-roll, archive, footage, catalogue]
 The catalogue of Samuel's B-roll for @SamuelSignals. Use it to storyboard an episode from footage he already has, and to see which shots are still missing before a shoot.
 
 - **Where the footage lives:** `C:\Users\repzy\Desktop\Video edits\My videos\Instagram Samuel Signals\` (Samuel, 2026-09-24: *"This path is where every footage concerning My personal brand lives"*). The archive is its `B-roll archive\` folder.
-- **Taxonomy:** his Master Shot Library (`Document\HighSignals_Broll_Shot_List.xlsx`, tab *Master Shot Library*). 16 activities, 3-letter codes (`BED`, `PRY`, `BIB`, `HYG`, `DSK`, `KEY`, `EDT`, `RES`, `FCE`, `BIK`, `JRN`, `PHN`, `EAT`, `WTR`, `CLN`, `ROM`) plus `BAL`, `MIL`, `WHB` added in the 2026-08-19 sort. Each shot is tagged with one of four emotional buckets: **Grind, Reflection, Routine, Win**.
+- **Taxonomy:** his Master Shot Library (`Document\HighSignals_Broll_Shot_List.xlsx`, tab *Master Shot Library*). 16 activities with 3-letter codes (`BED`, `PRY`, `BIB`, `HYG`, `DSK`, `KEY`, `EDT`, `RES`, `FCE`, `BIK`, `JRN`, `PHN`, `EAT`, `WTR`, `CLN`, `ROM`), plus `BAL`, `MIL` and `WHB` from the 2026-08-19 sort and `GYM` from 2026-09-24. Each shot carries one of four emotional buckets: **Grind, Reflection, Routine, Win**.
 - **Filenames:** `<shot ID> <what it shows> <original name>`. `XXX-00` means "clearly this activity, but no matching shot in the library".
 - **Camera:** DJI Osmo Pocket, vertical 1728x3072, 29.97 fps, unless noted.
+- **New footage:** Osmo dumps land loose in the archive root. The Brand manager identifies them and files them the same way.
+- **Voice-overs on camera:** when Samuel is talking into his mic on camera, he is recording a voice-over (Samuel, 2026-09-24). Those clips go to `Voice over videos`, not a B-roll folder.
 
 ## Folders
 
-Counts as of 2026-09-24. "Sorted" = already in the folder. "Waiting" = loose in the archive root, identified 2026-09-24, not moved yet.
+Clip counts on disk after the 2026-09-24 sort.
 
-| Folder | Sorted | Waiting | Total |
-|---|---|---|---|
-| Balcony and Outdoors | 3 | 0 | 3 |
-| Bathroom | 2 | 2 | 4 |
-| Bed | 2 | 5 | 7 |
-| Bible study | 2 | 0 | 2 |
-| Bicycle | 0 | 3 | 3 |
-| Cleaning and reset | 0 | 0 | 0 |
-| Desk and Setup | 17 | 31 | 48 |
-| Eating | 0 | 7 | 7 |
-| Editing | 2 | 12 | 14 |
-| Face and Reaction | 10 | 14 | 24 |
-| Journal | 5 | 5 | 10 |
-| Keyboard and hands | 10 | 8 | 18 |
-| Military picture frame | 4 | 0 | 4 |
-| Phone and Chat | 9 | 9 | 18 |
-| Prayer | 1 | 0 | 1 |
-| Research | 4 | 12 | 16 |
-| Room and atmosphere | 9 | 5 | 14 |
-| Unsorted | 4 | 0 | 4 |
-| Voice over videos | 2 | 0 | 2 |
-| Water | 1 | 1 | 2 |
-| Whiteboard and Planning | 1 | 1 | 2 |
-| Gym and Fitness (new) | 0 | 27 | 27 |
-| **All B-roll** | **88** | **142** | **230** |
+| Folder | Clips | Added 2026-09-24 |
+|---|---|---|
+| Balcony and Outdoors | 3 | 0 |
+| Bathroom | 4 | 2 |
+| Bed | 7 | 5 |
+| Bible study | 2 | 0 |
+| Bicycle | 3 | 3 |
+| Cleaning and reset | 0 | 0 |
+| Desk and Setup | 48 | 31 |
+| Eating | 7 | 7 |
+| Editing | 14 | 12 |
+| Face and Reaction | 24 | 14 |
+| Gym and Fitness | 27 | 27 |
+| Journal | 10 | 5 |
+| Keyboard and hands | 18 | 8 |
+| Military picture frame | 4 | 0 |
+| Phone and Chat | 18 | 9 |
+| Prayer | 1 | 0 |
+| Research | 16 | 12 |
+| Room and atmosphere | 14 | 5 |
+| Water | 2 | 1 |
+| Whiteboard and Planning | 2 | 1 |
+| **All B-roll** | **224** | **142** |
 
-`Unsorted` holds the four "Random footage" clips from the 2026-08-19 sort.
+**Not B-roll:**
+- `Voice over videos`: 6 clips of voice-overs recorded on camera.
+- `Girlfriend`: 11 personal clips of Samuel's girlfriend. Kept out of content; not indexed here.
+- `Unsorted`: 6 clips (the four "Random footage" clips from August, plus #16 and #163 below).
+- `_to_delete`: 5 empty or accidental clips of 0–2 s. **Samuel deletes these himself.**
 
 ## Gaps
 
 - **Cleaning and reset** is still empty. None of its 6 library shots has been captured.
-- **Bicycle** has only 3 selfie clips of the ride to the gym (2026-09-04). None of the 8 library shots has been captured, including BIK-08 golden hour ride, which his shot list calls the best shot in the bank. His Win-bucket resolution shots are still thin.
-- **Eating** has only coffee and one rice clip. There's still no EAT-04 (cooking) and no EAT-05 (empty plate).
-- **Thin:** Prayer (1), Water (1 of 4 library shots), Bathroom (2 of 5), Bible study (2), Whiteboard (1 sorted, 1 waiting).
-- **Strong now:** Desk and Setup, Face and Reaction, Editing, Research (the 2026-09-14 session: googling editing software, Adobe pricing, CapCut, Resolve launch). That session fits an episode about choosing editing software.
-- **Gym and Fitness is new.** 27 clips, about 33 minutes, from 2026-09-04 and 2026-09-08. The library has no gym category. Other gym users are in frame in #53, #108 and #113.
+- **Bicycle** has only 3 selfie clips of the ride to the gym (2026-09-04). None of the 8 library shots has been captured, including BIK-08 golden hour ride, which his shot list calls the best shot in the bank. Win-bucket resolution shots are still thin.
+- **Eating** is coffee plus one rice clip. There's still no EAT-04 (cooking) and no EAT-05 (empty plate).
+- **Thin:** Prayer (1), Water (2), Bathroom (4), Bible study (2), Whiteboard (2).
+- **Strong now:** Desk and Setup, Face and Reaction, Editing and Research. The 2026-09-14 session (googling editing software, Adobe pricing, CapCut, opening Resolve) fits an episode about choosing editing software.
+- **Gym and Fitness is new:** 27 clips, about 33 minutes, from 2026-09-04 and 2026-09-08. Other gym users are in frame in #53, #108 and #113.
 
-## Waiting to be filed — 164 clips identified 2026-09-24
+## Filed 2026-09-24 — 164 clips
 
-Clips shot between 2026-08-20 and 2026-09-14 are sitting loose in `B-roll archive\`. They were identified from three frames each, not by watching them in full. `#` is the order they were shot in.
-
-**Not B-roll:**
-- `_Personal`: 12 clips from an outing on 2026-08-20/21 with another person in frame. They don't belong in a content archive, so they're listed by number only.
-- `_to_delete`: 5 empty or accidental clips of 0–2 s. Samuel deletes these himself.
-- `_Check`: 5 clips where he seems to be talking to camera (possibly talking heads, not B-roll), plus #163 (holding something at the desk, unclear what).
-
-### Balcony and Outdoors
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
+Shot between 2026-08-20 and 2026-09-14. Identified from three frames each, not by watching them in full. `#` is the order they were shot in. Each clip was renamed to `<Shot> <What it shows> <original file>`. The undo list is `06-Logs/automation/2026-09-24-broll-sort-undo.csv`.
 
 ### Bathroom
 
-| # | Shot | What it shows | Shot on | Length | File |
+| # | Shot | What it shows | Shot on | Length | Original file |
 |---|---|---|---|---|---|
 | 36 | HYG-01 | Brushing teeth at mirror | 2026-09-03 08:16 | 6s | `DJI_20260903081624_0967_D.MP4` |
 | 37 | HYG-01 | Brushing teeth side | 2026-09-03 08:16 | 10s | `DJI_20260903081643_0968_D.MP4` |
 
 ### Bed
 
-| # | Shot | What it shows | Shot on | Length | File |
+| # | Shot | What it shows | Shot on | Length | Original file |
 |---|---|---|---|---|---|
 | 85 | BED-06 | Lying on bed thinking | 2026-09-08 16:51 | 14s | `DJI_20260908165120_0027_D.MP4` |
 | 86 | BED-06 | Lying on bed, close | 2026-09-08 16:52 | 14s | `DJI_20260908165218_0028_D.MP4` |
@@ -88,27 +82,17 @@ Clips shot between 2026-08-20 and 2026-09-14 are sitting loose in `B-roll archiv
 | 145 | BED-06 | Lying down, close | 2026-09-14 20:19 | 6s | `DJI_20260914201920_0178_D.MP4` |
 | 146 | BED-06 | Lying down, setup behind | 2026-09-14 20:20 | 10s | `DJI_20260914202017_0179_D.MP4` |
 
-### Bible study
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-
 ### Bicycle
 
-| # | Shot | What it shows | Shot on | Length | File |
+| # | Shot | What it shows | Shot on | Length | Original file |
 |---|---|---|---|---|---|
 | 41 | BIK-00 | Riding selfie | 2026-09-04 07:17 | 9s | `DJI_20260904071730_0973_D.MP4` |
 | 42 | BIK-00 | Riding selfie, looking up | 2026-09-04 07:19 | 8s | `DJI_20260904071930_0974_D.MP4` |
 | 43 | BIK-00 | Riding selfie 2 | 2026-09-04 07:20 | 5s | `DJI_20260904072034_0975_D.MP4` |
 
-### Cleaning and reset
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-
 ### Desk and Setup
 
-| # | Shot | What it shows | Shot on | Length | File |
+| # | Shot | What it shows | Shot on | Length | Original file |
 |---|---|---|---|---|---|
 | 17 | DSK-00 | Wide shot working, clock and frame in view | 2026-08-23 09:45 | 28s | `DJI_20260823094509_0911_D.MP4` |
 | 18 | DSK-03 | Over-the-shoulder at desk | 2026-08-29 08:16 | 15s | `DJI_20260829081659_0912_D.MP4` |
@@ -144,7 +128,7 @@ Clips shot between 2026-08-20 and 2026-09-14 are sitting loose in `B-roll archiv
 
 ### Eating
 
-| # | Shot | What it shows | Shot on | Length | File |
+| # | Shot | What it shows | Shot on | Length | Original file |
 |---|---|---|---|---|---|
 | 26 | EAT-01 | Eating rice | 2026-08-31 12:54 | 49s | `DJI_20260831125452_0921_D.MP4` |
 | 27 | EAT-00 | Making coffee, jar and mug | 2026-08-31 14:26 | 77s | `DJI_20260831142644_0922_D.MP4` |
@@ -156,7 +140,7 @@ Clips shot between 2026-08-20 and 2026-09-14 are sitting loose in `B-roll archiv
 
 ### Editing
 
-| # | Shot | What it shows | Shot on | Length | File |
+| # | Shot | What it shows | Shot on | Length | Original file |
 |---|---|---|---|---|---|
 | 60 | EDT-01 | Timeline with hand on mouse | 2026-09-08 16:20 | 28s | `DJI_20260908162030_0999_D.MP4` |
 | 69 | EDT-05 | Render queue | 2026-09-08 16:30 | 18s | `DJI_20260908163049_0010_D.MP4` |
@@ -173,7 +157,7 @@ Clips shot between 2026-08-20 and 2026-09-14 are sitting loose in `B-roll archiv
 
 ### Face and Reaction
 
-| # | Shot | What it shows | Shot on | Length | File |
+| # | Shot | What it shows | Shot on | Length | Original file |
 |---|---|---|---|---|---|
 | 64 | FCE-01 | Staring at the screen | 2026-09-08 16:24 | 30s | `DJI_20260908162426_0004_D.MP4` |
 | 65 | FCE-01 | Looking over the monitor | 2026-09-08 16:26 | 19s | `DJI_20260908162634_0005_D.MP4` |
@@ -190,105 +174,9 @@ Clips shot between 2026-08-20 and 2026-09-14 are sitting loose in `B-roll archiv
 | 149 | FCE-01 | Close up face | 2026-09-14 20:23 | 11s | `DJI_20260914202336_0182_D.MP4` |
 | 161 | FCE-03 | Leaning back in chair | 2026-09-14 20:47 | 20s | `DJI_20260914204731_0194_D.MP4` |
 
-### Journal
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-| 93 | JRN-01 | Opening the journal | 2026-09-08 16:59 | 12s | `DJI_20260908165938_0035_D.MP4` |
-| 94 | JRN-02 | Writing in the journal | 2026-09-08 17:00 | 26s | `DJI_20260908170014_0036_D.MP4` |
-| 95 | JRN-02 | Writing close | 2026-09-08 17:00 | 20s | `DJI_20260908170051_0037_D.MP4` |
-| 154 | JRN-04 | Writing at desk, high angle | 2026-09-14 20:33 | 25s | `DJI_20260914203347_0187_D.MP4` |
-| 164 | JRN-02 | Writing in notebook close | 2026-09-14 20:51 | 15s | `DJI_20260914205124_0197_D.MP4` |
-
-### Keyboard and hands
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-| 54 | KEY-04 | Mouse hand | 2026-09-08 16:16 | 17s | `DJI_20260908161600_0997_D.MP4` |
-| 62 | KEY-03 | Keyboard low side, typing | 2026-09-08 16:22 | 25s | `DJI_20260908162240_0002_D.MP4` |
-| 63 | KEY-03 | Keyboard low side, typing 2 | 2026-09-08 16:23 | 18s | `DJI_20260908162318_0003_D.MP4` |
-| 68 | KEY-01 | Typing top-down | 2026-09-08 16:28 | 24s | `DJI_20260908162841_0009_D.MP4` |
-| 77 | KEY-10 | Hand grabs the mouse | 2026-09-08 16:41 | 18s | `DJI_20260908164100_0018_D.MP4` |
-| 90 | KEY-09 | Stretch before starting | 2026-09-08 16:57 | 16s | `DJI_20260908165752_0032_D.MP4` |
-| 125 | KEY-03 | Keyboard low side 3 | 2026-09-14 19:46 | 49s | `DJI_20260914194654_0158_D.MP4` |
-| 126 | KEY-01 | Typing close | 2026-09-14 19:48 | 25s | `DJI_20260914194808_0159_D.MP4` |
-
-### Military picture frame
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-
-### Phone and Chat
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-| 81 | PHN-06 | On phone at desk, wide | 2026-09-08 16:44 | 18s | `DJI_20260908164423_0022_D.MP4` |
-| 82 | PHN-01 | Phone on desk beside journal | 2026-09-08 16:45 | 9s | `DJI_20260908164553_0024_D.MP4` |
-| 83 | PHN-06 | Phone screen close | 2026-09-08 16:46 | 6s | `DJI_20260908164609_0025_D.MP4` |
-| 91 | PHN-05 | Phone in hands, front | 2026-09-08 16:58 | 13s | `DJI_20260908165832_0033_D.MP4` |
-| 92 | PHN-06 | Phone close, hand over mouth | 2026-09-08 16:58 | 8s | `DJI_20260908165856_0034_D.MP4` |
-| 97 | PHN-03 | Pacing with phone | 2026-09-08 17:02 | 17s | `DJI_20260908170212_0039_D.MP4` |
-| 142 | PHN-06 | Reclined in chair on phone | 2026-09-14 20:15 | 17s | `DJI_20260914201520_0175_D.MP4` |
-| 156 | PHN-09 | Hitting post | 2026-09-14 20:43 | 11s | `DJI_20260914204305_0189_D.MP4` |
-| 157 | PHN-07 | Smiling at the phone | 2026-09-14 20:43 | 19s | `DJI_20260914204339_0190_D.MP4` |
-
-### Prayer
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-
-### Research
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-| 38 | RES-02 | Watching a tutorial on the monitor | 2026-09-03 08:26 | 97s | `DJI_20260903082650_0969_D.MP4` |
-| 129 | RES-00 | Google search | 2026-09-14 19:54 | 12s | `DJI_20260914195400_0162_D.MP4` |
-| 130 | RES-00 | Searching best video editing software | 2026-09-14 19:54 | 12s | `DJI_20260914195446_0163_D.MP4` |
-| 131 | RES-00 | Adobe Premiere page | 2026-09-14 19:56 | 18s | `DJI_20260914195603_0164_D.MP4` |
-| 132 | RES-00 | Adobe pricing | 2026-09-14 19:58 | 12s | `DJI_20260914195821_0165_D.MP4` |
-| 133 | RES-00 | Adobe pricing 2 | 2026-09-14 19:59 | 14s | `DJI_20260914195956_0166_D.MP4` |
-| 136 | RES-04 | Over-the-shoulder, CapCut on screen | 2026-09-14 20:05 | 34s | `DJI_20260914200530_0169_D.MP4` |
-| 137 | RES-00 | Editing software website | 2026-09-14 20:07 | 34s | `DJI_20260914200712_0170_D.MP4` |
-| 138 | RES-00 | All in one solution page | 2026-09-14 20:08 | 17s | `DJI_20260914200821_0171_D.MP4` |
-| 140 | RES-04 | Browsing, over-the-shoulder | 2026-09-14 20:12 | 34s | `DJI_20260914201230_0173_D.MP4` |
-| 152 | RES-02 | Reading Ingest and Organize Media | 2026-09-14 20:30 | 28s | `DJI_20260914203044_0185_D.MP4` |
-| 155 | RES-04 | Scrolling a feed on the monitor | 2026-09-14 20:41 | 33s | `DJI_20260914204127_0188_D.MP4` |
-
-### Room and atmosphere
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-| 84 | ROM-09 | Standing at the window | 2026-09-08 16:47 | 15s | `DJI_20260908164728_0026_D.MP4` |
-| 88 | ROM-08 | Sitting on the floor by the wall | 2026-09-08 16:55 | 13s | `DJI_20260908165510_0030_D.MP4` |
-| 147 | ROM-01 | Dark wide room | 2026-09-14 20:21 | 20s | `DJI_20260914202103_0180_D.MP4` |
-| 159 | ROM-01 | Wide room with ring light, on phone | 2026-09-14 20:45 | 15s | `DJI_20260914204544_0192_D.MP4` |
-| 160 | ROM-08 | Lying on the floor by the guitar | 2026-09-14 20:46 | 13s | `DJI_20260914204653_0193_D.MP4` |
-
-### Unsorted
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-
-### Voice over videos
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-
-### Water
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-| 78 | WTR-02 | Drinking at the desk | 2026-09-08 16:41 | 10s | `DJI_20260908164154_0019_D.MP4` |
-
-### Whiteboard and Planning
-
-| # | Shot | What it shows | Shot on | Length | File |
-|---|---|---|---|---|---|
-| 139 | WHB-00 | At the whiteboard | 2026-09-14 20:09 | 34s | `DJI_20260914200922_0172_D.MP4` |
-
 ### Gym and Fitness
 
-| # | Shot | What it shows | Shot on | Length | File |
+| # | Shot | What it shows | Shot on | Length | Original file |
 |---|---|---|---|---|---|
 | 40 | GYM-00 | Gym mirror selfie | 2026-09-04 07:08 | 8s | `DJI_20260904070815_0972_D.MP4` |
 | 44 | GYM-00 | Gym mirror selfie 2 | 2026-09-04 07:35 | 4s | `DJI_20260904073525_0976_D.MP4` |
@@ -318,22 +206,98 @@ Clips shot between 2026-08-20 and 2026-09-14 are sitting loose in `B-roll archiv
 | 113 | GYM-00 | Gym floor, others in frame 2 | 2026-09-08 18:05 | 4s | `DJI_20260908180548_0055_D.MP4` |
 | 114 | GYM-00 | Gym selfie, talking | 2026-09-08 18:06 | 8s | `DJI_20260908180616_0056_D.MP4` |
 
-### _Check
+### Journal
 
-| # | Shot | What it shows | Shot on | Length | File |
+| # | Shot | What it shows | Shot on | Length | Original file |
 |---|---|---|---|---|---|
-| 21 | TLK | Top-down, talking with phone in hand | 2026-08-31 06:24 | 56s | `DJI_20260831062413_0915_D.MP4` |
-| 22 | TLK | Top-down, talking with phone in hand 2 | 2026-08-31 06:25 | 59s | `DJI_20260831062518_0916_D.MP4` |
-| 33 | TLK | At desk with red mug, talking | 2026-08-31 14:33 | 56s | `DJI_20260831143352_0928_D.MP4` |
-| 39 | TLK | Red shirt at desk, talking | 2026-09-03 08:53 | 130s | `DJI_20260903085343_0971_D.MP4` |
-| 163 | EAT-01 | At desk holding something small | 2026-09-14 20:50 | 15s | `DJI_20260914205014_0196_D.MP4` |
+| 93 | JRN-01 | Opening the journal | 2026-09-08 16:59 | 12s | `DJI_20260908165938_0035_D.MP4` |
+| 94 | JRN-02 | Writing in the journal | 2026-09-08 17:00 | 26s | `DJI_20260908170014_0036_D.MP4` |
+| 95 | JRN-02 | Writing close | 2026-09-08 17:00 | 20s | `DJI_20260908170051_0037_D.MP4` |
+| 154 | JRN-04 | Writing at desk, high angle | 2026-09-14 20:33 | 25s | `DJI_20260914203347_0187_D.MP4` |
+| 164 | JRN-02 | Writing in notebook close | 2026-09-14 20:51 | 15s | `DJI_20260914205124_0197_D.MP4` |
 
-### _Personal
+### Keyboard and hands
 
-#1, #3, #4, #5, #6, #8, #10, #11, #13, #14, #15, #16. Clips 13–16 are 3840x2160 horizontal; everything else is vertical.
+| # | Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|---|
+| 54 | KEY-04 | Mouse hand | 2026-09-08 16:16 | 17s | `DJI_20260908161600_0997_D.MP4` |
+| 62 | KEY-03 | Keyboard low side, typing | 2026-09-08 16:22 | 25s | `DJI_20260908162240_0002_D.MP4` |
+| 63 | KEY-03 | Keyboard low side, typing 2 | 2026-09-08 16:23 | 18s | `DJI_20260908162318_0003_D.MP4` |
+| 68 | KEY-01 | Typing top-down | 2026-09-08 16:28 | 24s | `DJI_20260908162841_0009_D.MP4` |
+| 77 | KEY-10 | Hand grabs the mouse | 2026-09-08 16:41 | 18s | `DJI_20260908164100_0018_D.MP4` |
+| 90 | KEY-09 | Stretch before starting | 2026-09-08 16:57 | 16s | `DJI_20260908165752_0032_D.MP4` |
+| 125 | KEY-03 | Keyboard low side 3 | 2026-09-14 19:46 | 49s | `DJI_20260914194654_0158_D.MP4` |
+| 126 | KEY-01 | Typing close | 2026-09-14 19:48 | 25s | `DJI_20260914194808_0159_D.MP4` |
 
-### _to_delete
+### Phone and Chat
 
-#2 (DJI_20260820184630_0869_D.MP4), #7 (DJI_20260820184714_0874_D.MP4), #9 (DJI_20260820184743_0876_D.MP4), #12 (DJI_20260820190935_0879_D.MP4), #104 (DJI_20260908174325_0046_D.MP4)
+| # | Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|---|
+| 81 | PHN-06 | On phone at desk, wide | 2026-09-08 16:44 | 18s | `DJI_20260908164423_0022_D.MP4` |
+| 82 | PHN-01 | Phone on desk beside journal | 2026-09-08 16:45 | 9s | `DJI_20260908164553_0024_D.MP4` |
+| 83 | PHN-06 | Phone screen close | 2026-09-08 16:46 | 6s | `DJI_20260908164609_0025_D.MP4` |
+| 91 | PHN-05 | Phone in hands, front | 2026-09-08 16:58 | 13s | `DJI_20260908165832_0033_D.MP4` |
+| 92 | PHN-06 | Phone close, hand over mouth | 2026-09-08 16:58 | 8s | `DJI_20260908165856_0034_D.MP4` |
+| 97 | PHN-03 | Pacing with phone | 2026-09-08 17:02 | 17s | `DJI_20260908170212_0039_D.MP4` |
+| 142 | PHN-06 | Reclined in chair on phone | 2026-09-14 20:15 | 17s | `DJI_20260914201520_0175_D.MP4` |
+| 156 | PHN-09 | Hitting post | 2026-09-14 20:43 | 11s | `DJI_20260914204305_0189_D.MP4` |
+| 157 | PHN-07 | Smiling at the phone | 2026-09-14 20:43 | 19s | `DJI_20260914204339_0190_D.MP4` |
+
+### Research
+
+| # | Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|---|
+| 38 | RES-02 | Watching a tutorial on the monitor | 2026-09-03 08:26 | 97s | `DJI_20260903082650_0969_D.MP4` |
+| 129 | RES-00 | Google search | 2026-09-14 19:54 | 12s | `DJI_20260914195400_0162_D.MP4` |
+| 130 | RES-00 | Searching best video editing software | 2026-09-14 19:54 | 12s | `DJI_20260914195446_0163_D.MP4` |
+| 131 | RES-00 | Adobe Premiere page | 2026-09-14 19:56 | 18s | `DJI_20260914195603_0164_D.MP4` |
+| 132 | RES-00 | Adobe pricing | 2026-09-14 19:58 | 12s | `DJI_20260914195821_0165_D.MP4` |
+| 133 | RES-00 | Adobe pricing 2 | 2026-09-14 19:59 | 14s | `DJI_20260914195956_0166_D.MP4` |
+| 136 | RES-04 | Over-the-shoulder, CapCut on screen | 2026-09-14 20:05 | 34s | `DJI_20260914200530_0169_D.MP4` |
+| 137 | RES-00 | Editing software website | 2026-09-14 20:07 | 34s | `DJI_20260914200712_0170_D.MP4` |
+| 138 | RES-00 | All in one solution page | 2026-09-14 20:08 | 17s | `DJI_20260914200821_0171_D.MP4` |
+| 140 | RES-04 | Browsing, over-the-shoulder | 2026-09-14 20:12 | 34s | `DJI_20260914201230_0173_D.MP4` |
+| 152 | RES-02 | Reading Ingest and Organize Media | 2026-09-14 20:30 | 28s | `DJI_20260914203044_0185_D.MP4` |
+| 155 | RES-04 | Scrolling a feed on the monitor | 2026-09-14 20:41 | 33s | `DJI_20260914204127_0188_D.MP4` |
+
+### Room and atmosphere
+
+| # | Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|---|
+| 84 | ROM-09 | Standing at the window | 2026-09-08 16:47 | 15s | `DJI_20260908164728_0026_D.MP4` |
+| 88 | ROM-08 | Sitting on the floor by the wall | 2026-09-08 16:55 | 13s | `DJI_20260908165510_0030_D.MP4` |
+| 147 | ROM-01 | Dark wide room | 2026-09-14 20:21 | 20s | `DJI_20260914202103_0180_D.MP4` |
+| 159 | ROM-01 | Wide room with ring light, on phone | 2026-09-14 20:45 | 15s | `DJI_20260914204544_0192_D.MP4` |
+| 160 | ROM-08 | Lying on the floor by the guitar | 2026-09-14 20:46 | 13s | `DJI_20260914204653_0193_D.MP4` |
+
+### Water
+
+| # | Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|---|
+| 78 | WTR-02 | Drinking at the desk | 2026-09-08 16:41 | 10s | `DJI_20260908164154_0019_D.MP4` |
+
+### Whiteboard and Planning
+
+| # | Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|---|
+| 139 | WHB-00 | At the whiteboard | 2026-09-14 20:09 | 34s | `DJI_20260914200922_0172_D.MP4` |
+
+### Voice over videos
+
+| # | Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|---|
+| 21 | VO | Top-down, talking with phone in hand | 2026-08-31 06:24 | 56s | `DJI_20260831062413_0915_D.MP4` |
+| 22 | VO | Top-down, talking with phone in hand 2 | 2026-08-31 06:25 | 59s | `DJI_20260831062518_0916_D.MP4` |
+| 33 | VO | At desk with red mug, talking | 2026-08-31 14:33 | 56s | `DJI_20260831143352_0928_D.MP4` |
+| 39 | VO | Red shirt at desk, talking | 2026-09-03 08:53 | 130s | `DJI_20260903085343_0971_D.MP4` |
+
+### Unsorted
+
+| # | Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|---|
+| 16 | UNS | Selfie in the room with someone | 2026-08-21 10:10 | 12s | `DJI_20260821101022_0883_D.MP4` |
+| 163 | UNS | At desk holding something small | 2026-09-14 20:50 | 15s | `DJI_20260914205014_0196_D.MP4` |
+
+Girlfriend: #1, #3, #4, #5, #6, #8, #10, #11, #13, #14, #15. To delete: #2, #7, #9, #12, #104.
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]] · [[03-Areas/personal-brand/recording-setup|Recording setup]]

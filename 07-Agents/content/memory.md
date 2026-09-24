@@ -34,6 +34,7 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 
 - All personal-brand footage: `C:\Users\repzy\Desktop\Video edits\My videos\Instagram Samuel Signals\` (~111 GB). B-roll lives in `B-roll archive\`, sorted by his Master Shot Library codes (`Document\HighSignals_Broll_Shot_List.xlsx`). New Osmo dumps land loose in the archive root.
 - Identify clips by script: ffprobe plus 3 frames each (15/50/85 %), tiled with ffmpeg (`hstack` + `tile`) into 20-clip contact sheets, about 9 images for 164 clips. Pillow isn't installed. Colour-flat footage reads fine.
+- When he's talking into his mic on camera, it's a voice-over recording (Samuel, 2026-09-24). File it under `Voice over videos`. Clips of his girlfriend go to `Girlfriend` and are never used in content or indexed.
 - Moving clips can break media links in Resolve projects that use them. Warn before any move.
 
 Back to [[07-Agents/content/profile|Profile]]
