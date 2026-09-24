@@ -40,6 +40,6 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 ## 2026-09-24 — Starting a new script page in Notion
 
 - Database: Instagram Content Calendar, data source `collection://30d8d1c1-7bb7-8030-8a7a-000bcb336370`. Story template **My Story** (id `38e8d1c1-7bb7-80ea-aa99-d6e7eed56c3b`, the default). Its script section ends the page: `## Script`, then red `## Hook / Context / Struggle / Pivot / Resolution / CTA`, each with empty blocks. Replace that tail with `update_content`; don't read the ~70k-char guide above it. Set Status `Script`, Content pillar `My stories`, Post Type `Series` for this series.
-- The Ep 3 page is titled "Nigerian light". "My Story" is the template's name, not the Ep 3 page (correcting the entry above).
+- On 2026-09-24 the database holds both a page "Nigerian light" (its text is the Ep 3 script with b-roll notes) and a page "My Story", which shares its name with the template. Check which one is Ep 3 before editing either.
 
 Back to [[07-Agents/content/profile|Profile]]
