@@ -53,6 +53,7 @@ tags: [sop, routerise]
      | Cross fade audio | **off** |
 
    - Doing this step programmatically instead of through the dialog is fine, as long as the detection reads the actual waveform at this same threshold and minimum duration.
+   - **This order applies to every voice-over, not just Route Rise** (Samuel, 2026-09-24: *"use the waveform to cut out the gaps, never cut with the transcription, and then after that, remove the mistakes"*). Samuel's own VO at home needs a higher threshold because the room is noisier: see [[07-Agents/content/memory|Brand manager memory]], 2026-09-24.
 
 3. **Transcribe** — only after the silence pass, not before.
    - `MediaPoolItem.TranscribeAudio(False, False)` returns `True` immediately; the actual result arrives asynchronously — poll `GetTranscription()` for 20–40 s. Set `transcriptionLanguage = "en"` first.

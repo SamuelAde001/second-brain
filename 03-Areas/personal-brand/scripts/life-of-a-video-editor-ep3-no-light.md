@@ -114,5 +114,9 @@ Nigerian Light situation is the worse nightmare for any video editor
 - **Missing, red markers:** no photo of the Aboki charging spot; no solar or inverter footage for "bigger solar setup". The bike ride, night street and solar shots on the checklist were not in today's footage.
 - **Not done:** grade (the D-Log footage is ungraded; purple marker), audio chain (EQ, noise reduction, −16 LUFS), music, SFX, captions. Overlays and title are ffmpeg-made alpha clips in `Edits\Life of a Video Editor Ep 3 - Nigerian light\`; swap in his own Text+ style if he wants.
 
+## Edit v2: voice-over redone (Editor, 2026-09-24)
+
+Samuel rejected the v1 voice-over: bad cuts, gasps left in, cut from transcript timings. Redone to his process ([[03-Areas/video-editing/sops/routerise-cut-workflow|cut workflow]]): a waveform gap-and-breath pass (146 clips), each clip transcribed on its own, whole clips kept, then tight starts and ends with mouth smacks left out. Checked against the subtitle track and XML edit points. **Timeline *Ep 3 - VO cut v3*: 32 clips, 1:41, voice-over only, with an auto subtitle track.** He is adding the B-roll himself. The old timeline is renamed *OLD Ep 3 v1 (bad VO cut, my B-roll)*. Its markers about the missing Aboki photo and solar shot still apply.
+
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

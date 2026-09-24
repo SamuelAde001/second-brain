@@ -50,5 +50,18 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - **`InsertFusionTitleIntoTimeline` ripple-inserts** at the playhead on the current track and shifts every track. With the tracks locked it returns None. Undo it with `DeleteClips([item], True)`.
 - `AppendToTimeline` from 29.97 source into a 23.976 timeline can come out 1 frame short. Check the length and lengthen `endFrame` until there are no gaps, or the track underneath flashes through.
 
+## 2026-09-24 — Voice-over cuts: waveform first, then mistakes (correction from Samuel)
+
+- Samuel: *"Your voice over cuts where bad, I told you to use the waveform to cut out the gaps, never cut with the transcription, and then after that, remove the mistakes. That is the process"*. The v1 Ep 3 cut used transcript timings and left gasps and bad cuts.
+- **The process for every voice-over, his own or a client's:** follow [[03-Areas/video-editing/sops/routerise-cut-workflow|the cut workflow SOP]], steps 2-4. (1) Strip gaps from the waveform only. (2) Transcribe after that. (3) Remove mistakes and repeated takes as **whole clips**, so every cut still lands on a waveform gap. The transcript only says which clip holds what; it never sets a cut point.
+- **His own VO (Osmo + Mic Mini at home):** the room noise moves between about −41 and −28 dB peak (a generator or fan), so the client setting of −38 dB strips almost nothing. Breaths and gasps sit at −35 to −20. A −22 dB peak threshold per frame works: 3-frame minimum gap, 1 frame pre head, 2 frames post tail. Short runs that never reach −12 dB are breaths or clicks and get dropped.
+- He adds the B-roll himself when he says so. On 2026-09-24 he asked for the VO cut only.
+- **What worked on Ep 3 v3 (2026-09-24):**
+  1. Per-frame peak levels (`astats`, one window per timeline frame). Strip gaps at −22 dB. Drop short runs under −12 dB as breaths.
+  2. Transcribe **each waveform clip on its own** (one WAV per clip, `TranscribeAudio` on each). A single transcript of the whole file drifts when you map words back to clips.
+  3. Keep whole clips: usually the last complete take, or a take said in one clip.
+  4. Check with a subtitle track on the cut timeline plus its FCP7 XML export: every subtitle should read clean, with no edits inside a line except intended joins (Samuel: *"Make use more of the subtitle track and XML timing, with the waveform parts"*).
+- **Tight starts, no mouth smacks** (Samuel: *"The cuts must be tight, at the beginnings and avoid my mouth smackings"*). At 5 ms resolution, a smack is a spike of 5-15 ms with at least 30 ms of quiet (below −40 dB) before the word. Start the clip 5 ms before the first sustained sound (6 windows averaging above −28 dB), always after the last smack. End it about 60 ms after the last sustained sound, before any isolated click. Nasal starts ("N…") sit at about −38 dB: check that they stay inside.
+
 
 Back to [[07-Agents/content/profile|Profile]]
