@@ -18,5 +18,6 @@ Append-only. Every action this agent takes. Newest at the bottom. Format: `- YYY
 - 2026-09-24 — Reviewed Samuel's Notion draft 1 of *Life of a Video Editor, Ep 3: No light* (bank #16/#23). Hook rebuilt from his own lines, the lost-international-trials beat put back from the interview, fluff cut, ~400 → ~330 words. Tightened v1 saved in [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep3-no-light|the Ep 3 note]]. Not locked.
 - 2026-09-24 — Reviewed Ep 3 draft 2 (new hook, USD 200/video trial client). Facts recorded in the Ep 3 note.
 - 2026-09-24 — Ep 3 script final. Corrections written into his Notion page "My Story" via the Notion connector (first use). Mentor paid for the power station; line "I had my mentor. You might not." added.
+- 2026-09-24 — Ep 3 b-roll: 26 shot notes in braces added beside each line in his Notion "My Story" page. Mostly mood; literal only for the power station, bag, restaurant table, solar. Bookend: light switch fails in the hook, works at the end.
 
 Back to [[07-Agents/content/profile|Profile]]
