@@ -68,7 +68,8 @@ Steps map to [[03-Areas/video-editing/workflow|the brief-to-payment workflow]] a
 - The whole Brain (read to act; read only what the step needs — token discipline)
 
 ## Folders outside the Brain it may access
-- **The client project media and Resolve project files**, when a specific edit requires it — path granted per job in the running AI tool's permission config (Claude Code: `.claude/settings.json`) and listed in AGENTS.md §10. **None granted yet.** Sources are read-only: copy, never move (AGENTS.md rule 5).
+- **The client project media and Resolve project files**, when a specific edit requires it — path granted per job in the running AI tool's permission config (Claude Code: `.claude/settings.json`) and listed in AGENTS.md §10. Sources are read-only: copy, never move (AGENTS.md rule 5).
+- **Granted 2026-09-24: `C:\Users\repzy\Desktop\Video edits\Routerise\`**, read and write. One folder per job, named exactly like the ClickUp card (e.g. `3. I Tried 100+ AI Tools…`), with `Client raws/`, `Screen recordings/`, `Docs/`, `Screenshots/`, `B-roll/`, `Music/`, `SFX/`, `Graphics/`. Downloaded client raws are never modified or renamed. How a job gets set up: [[03-Areas/video-editing/sops/routerise-job-setup|Routerise job setup]].
 
 ## Tools and MCPs
 - **DaVinci Resolve MCP** — `run_script` (the `resolve` global is the entry point), `search_scripting_api`, `get_scripting_api`, `get_scripting_docs`, `get_whats_new`, LUT/DCTL tools. Resolve **21.1**. Scripts run in a **sandbox: no `import os`/filesystem imports, ~10s per call** — first Fusion call spins Fusion up and can exceed it, so warm Fusion with a lone `AddFusionComp` before building.

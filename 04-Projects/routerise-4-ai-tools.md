@@ -47,11 +47,20 @@ Route Rise's 5-day cap starts today (2026-09-24), so Monday is day 5. Sunday is 
 - Blur PII: emails, phone numbers, cards, addresses, store URLs.
 - House style: cuts only, MagicZoom V3, Geist, native Fusion nodes, B-roll from YouTube/TikTok only.
 
+## What arrived (2026-09-24)
+
+- **End client: Alex Vacca** (Drive folder owner `alex@frontal.so`; Notion "Client: Alex Vacca").
+- **Drive folder "3 - 4 AI Tools":** `C0786.MP4` (A-roll, 12.56 GB), `TX02_MIC017_20260924_111422_orig.wav` (mic, 27:54, mono 48 kHz), and a "Screenshare" doc linking to Tella.
+- **Tella screen recording** "Top 4 Tools for B2B GTM Workflows", 23:55, exported 4K (3840×1912, 30 fps). Chapters: 00:00 Wedge Agent Feeder · 01:57 Railway Hosting · 05:22 Claude and GTM OS · 17:32 Whisper Flow · 20:23 Bringing Tools Together.
+- **The 4 tools:** Clay, Railway, Claude, Wispr Flow. Title is the backup framing; the first-choice title was "I Tried 100+ Claude Skills. These 6 Are Best for Businesses".
+- **Script structure:** Hook → Clay (+demo) → Railway (+demo) → Mid-CTA (Frontal free call) → Claude (+demo in "Frontal OS") → Wispr Flow (+Notetaker demo) → 4-tool system build (daily signal automation) → CTA (end-screen video). Writer: Alan Perce.
+- **Local folder:** `C:\Users\repzy\Desktop\Video edits\Routerise\3. I Tried 100+ AI Tools. These 4 Are Best for Businesses\`. Offline brief: `Docs\Idea doc and script.docx` (+ `.md`).
+- **Resolve project:** same name, in the `Routerise` project folder, made from `Project Template`.
+- Set up by the [[03-Areas/video-editing/sops/routerise-job-setup|Routerise job setup]] SOP, written on this job.
+
 ## Open
 
-- Which end client this is for (Alex?) — needs-input.
 - Monday delivery time — needs-input.
-- The 4 tools and the video length — known after kickoff.
 
 ## Log
 

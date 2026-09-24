@@ -130,6 +130,7 @@ Job skills — `brainstorm`, `plan`, `systemize`, `commit`, plus the editing job
 ## 10. Outside-Brain access
 
 Agents may only reach folders outside this Brain when the folder is listed in the agent's `profile.md` and granted in the running AI tool's permission config (Claude Code: `.claude/settings.json`). Current list: **one file, read by a script only**: `%USERPROFILE%\.brain-secrets\budget-sheet-key.json`, the finance agent's Google key, read by `00-System/scripts/budget_sheet.py`. No agent opens it; `.claude/settings.json` denies reading it.
+- **Read and write, video-editor agent (Editor):** `C:\Users\repzy\Desktop\Video edits\Routerise\`, the Route Rise client folder. Granted by Samuel 2026-09-24 (*"create a new folder on routerise and sort it there"*). The Editor makes one folder per job, downloads the client's footage into it and writes docs there. Downloaded client raws are never modified, moved or renamed. Nothing outside the job's own folder is touched without his yes.
 - **Read-only, content agent (Brand manager):** `C:\Users\repzy\Desktop\Video edits\My videos\Instagram Samuel Signals\`, where all his personal-brand footage lives. Scripts list files, read metadata and pull frames into the scratchpad. Moving or renaming anything there needs Samuel's yes each time (rule 5). Granted 2026-09-24.
 
 ## 11. Any AI, same Brain
