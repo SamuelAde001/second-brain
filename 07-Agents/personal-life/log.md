@@ -26,3 +26,9 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 - 2026-09-23 23:10 — On his answer (Routerise rendering tonight, MrBeast done, footage tomorrow, content not touched): completed the 3 MrBeast TickTick tasks; moved Script 3 / Record 3 cinematic storytelling videos to 2026-09-24 07:00–13:00 as make-up must-do #1 and #2; folded the stale Ep 3 script/shoot tasks into those same blocks and renamed the evening edit task "Edit + upload 3 videos" (19:00–20:30); moved camera footage to 2026-09-24 14:00; gave "Edit my KD video" a timed slot (14:15–15:30, not a must-do — cap already filled by the two make-ups); added Nap, Dinner and Call with girlfriend as timed tasks for 2026-09-24. Gym pushed to Friday. No calendar writes. Daily notes 2026-09-23 (Done) and 2026-09-24 (Plan) written.
 - 2026-09-24 — Logged day 1 free from porn and masturbation, in his words, in the 2026-09-24 daily note; start date added to memory. Not added to commitments (he asked to log, not track).
 - 2026-09-24 — On his word, freedom from porn and masturbation added to commitments and to the nightly check in night-plan (profile, skill, memory updated; adapters rebuilt). Empty stray 2026-W39.md at the Brain root deleted on his word.
+
+## 2026-09-24 10:17 — Replan: Ep 3 only today
+- Completed in TickTick: "Script Ep 3 — No light", "Send camera footage to friend".
+- Created "Read book (1hr)" 10:18–11:18, reminder at end as a timer. TickTick's API can only log a finished focus session, not start a live one.
+- Moved Ep 3 shoot + "Record 3…" to 11:30–13:00 (renamed shoot to B-roll), KD edit to 14:00–15:30, renamed evening edit to "Edit + upload Ep 3 — No light".
+- Left must-do "Script 3 cinematic storytelling videos" open for the night check.
