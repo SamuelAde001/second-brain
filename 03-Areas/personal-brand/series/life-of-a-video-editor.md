@@ -63,8 +63,10 @@ The Brain has deep material on his voice, his script process and his storytellin
 |---|---|---|---|
 | 1–2 | not recorded | — | before 2026-09-20 |
 | 3 | No light | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep3-no-light|Ep 3]] | — |
-| 4 | Bad network | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep4-bad-network|Ep 4]] | — |
-| 5 | Bad laptop | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep5-bad-laptop|Ep 5]] | — |
-| 6 | How I stay productive | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep6-how-i-stay-productive|Ep 6]] | — |
+| 4 | How I stay productive | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep4-how-i-stay-productive|Ep 4]] | — |
+| later | Bad network | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-bad-network|Bad network]] | — |
+| later | Bad laptop | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-bad-laptop|Bad laptop]] | — |
+
+Order changed 2026-09-24: productivity moved up to Ep 4 so it doesn't follow Ep 3 with another hardship story. Network and laptop stay for later (Samuel).
 
 Related: [[instagram-strategy]] · [[brand-context]] · [[script-process]] · [[03-Areas/personal-brand/series/guiding-while-riding|Guiding While Riding]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

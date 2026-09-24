@@ -2,15 +2,15 @@
 type: knowledge
 area: personal-brand
 status: active
-updated: 2026-09-23
+updated: 2026-09-24
 source: interview
 tags: [script, life-of-a-video-editor, outline]
 ---
 
-# The Life of a Video Editor, Ep 6: How I stay productive
+# The Life of a Video Editor, Ep 4: How I stay productive
 
-**Stage:** outline, 2026-09-23. Samuel writes the script from this.
-**Series:** [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]. On screen at the start, in bold: *The Life of a Video Editor, Episode 6*. Target 1:30, up to 2:00.
+**Stage:** outline, 2026-09-23. Samuel writes the script from this. (Samuel, 2026-09-24: moved up from Ep 6 — *"I don't feel like doing another video similar to the last, let's mix things up"*.)
+**Series:** [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]. On screen at the start, in bold: *The Life of a Video Editor, Episode 4*. Target 1:30, up to 2:00.
 **Bank:** #26, #28, #22 ([[03-Areas/personal-brand/personal-brand-ideas|ideas]]). Told as the struggle, not as tips. No guru tone.
 
 ## Hooks (he picks one)
