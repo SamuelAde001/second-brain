@@ -55,7 +55,8 @@ Route Rise's 5-day cap starts today (2026-09-24), so Monday is day 5. Sunday is 
 - **The 4 tools:** Clay, Railway, Claude, Wispr Flow. Title is the backup framing; the first-choice title was "I Tried 100+ Claude Skills. These 6 Are Best for Businesses".
 - **Script structure:** Hook → Clay (+demo) → Railway (+demo) → Mid-CTA (Frontal free call) → Claude (+demo in "Frontal OS") → Wispr Flow (+Notetaker demo) → 4-tool system build (daily signal automation) → CTA (end-screen video). Writer: Alan Perce.
 - **Local folder:** `C:\Users\repzy\Desktop\Video edits\Routerise\3. I Tried 100+ AI Tools. These 4 Are Best for Businesses\`. Offline brief: `Docs\Idea doc and script.docx` (+ `.md`).
-- **Resolve project:** same name, in the `Routerise` project folder, made from `Project Template`.
+- **Resolve project:** same name, in the `Routerise` project folder, **created fresh on 2026-09-24** with the 13 bins from the "Folder structure template" power bin. Samuel rejected copying the template because a copy keeps the template's created date. A leftover "(template copy - to delete)" project sits in the same folder; Resolve refused to delete it by script.
+- **Timeline "A-roll synced (raw)":** C0786 picture on V1 from frame 0; mic on A1 from frame 237, linked, at +6 dB. The mic started **9.88 s after** the camera (motion sync; the camera's scratch audio is dead at −61 dB). Two blue "Lip-sync check" markers at 1:00 and 25:30. There's no speech on the mic from about 11:00 to 18:30.
 - Set up by the [[03-Areas/video-editing/sops/routerise-job-setup|Routerise job setup]] SOP, written on this job.
 
 ## Open
@@ -65,3 +66,4 @@ Route Rise's 5-day cap starts today (2026-09-24), so Monday is day 5. Sunday is 
 ## Log
 
 - 2026-09-24 — Job received. Documented and scheduled by Editor.
+- 2026-09-24 — Footage downloaded and sorted, brief saved offline, fresh Resolve project built from the power-bin folder structure, A-roll and mic synced on a timeline. Next: Samuel's lip-sync check, then the cut (ripple silence).
