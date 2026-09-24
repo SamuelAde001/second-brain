@@ -24,7 +24,9 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 - **All agents on the main session, Opus 5.5 (2026-09-23).** No subagent adapters remain. Routines stay on Sonnet and hand off to an agent when needed. Names set the same day: General Manager, Editor, Money man, PA, Brand manager. Every reply names the working agent (AGENTS.md §7).
 
-**14-day target for Phases 0–4:** 2026-10-04. Day 3 of 14.
+- **2026-09-23 was run work, not build work.** Editor: Resolve render-cache crashes traced to a GPU timeout (TDR); $7M Founder Timeline 1 partly cached, resume queue in `03-Areas/video-editing/scripts/cache-queue-7m-founder.json`. TDR is now 10 s (Samuel's choice, live after the 2026-09-24 07:05 reboot). Money man: NGN 5,000 given, the NGN 10,000 loan is now a gift. PA: first night check, two misses, make-up day 2026-09-24. Brand manager: Ep 3–6 outlines.
+
+**14-day target for Phases 0–4:** 2026-10-04. Day 5 of 14. Still to build: job skills `brainstorm`, `plan`, `systemize`, `commit`, and the editing job skills.
 
 ---
 
@@ -139,3 +141,4 @@ Full records in `00-System/decisions.md`. The ones that matter most:
 - 2026-09-22 — Session 10: correction — Samuel fixed GitHub access; the cloud session's branch pushed. Next: the four job skills.
 - 2026-09-22 — Session 10: cloud sessions now push to `main` (Samuel's instruction; objection logged). portability, AGENTS.md §12, decisions updated.
 - 2026-09-22 — Session 11: morning brief and night plan moved to claude.ai cloud routines (phone-visible, run with the PC off); desktop tasks paused. Routine tools (TickTick, Calendar, Brain file edits) allowed in `.claude/settings.json`; deletes still ask. Sunday session stays on the PC. Next: check tomorrow's 6:34am brief ran and reached the phone.
+- 2026-09-24 — Session start: main had split from GitHub (3 local Editor commits vs the PA's night-plan commit); merged, no conflicts. Build-state caught up on 2026-09-23.
