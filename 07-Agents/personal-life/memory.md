@@ -39,3 +39,7 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 - His words: *"today is my day 1 of being free from porn and masturbation, I am forever free and christ has freed me, no more would II every relapse by his grace"*. Count days from 2026-09-24 as day 1. Recorded in [[06-Logs/daily/2026-09-24|the daily note]].
 - *"I am the one that wants to document my Journey, so I need it logged in the brain"* (2026-09-24). Log what he shares about it in the daily note, in his words.
 - He asked for it to be logged, not tracked. It is not in [[06-Logs/commitments|commitments]] and is not checked or escalated unless he asks. Speak of it in his frame (freed by Christ, by grace).
+
+## 2026-09-24 — Correction: freedom is now tracked
+
+- Supersedes "logged, not tracked" above. His words: *"Track it please, it is part of my commitments"*. It is in [[06-Logs/commitments|commitments]] and checked every night in `night-plan` (he answers; no answer is unknown). Misses count toward the weekly escalation. Day number goes in each daily note.
