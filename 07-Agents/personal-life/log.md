@@ -32,3 +32,6 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 - Created "Read book (1hr)" 10:18–11:18, reminder at end as a timer. TickTick's API can only log a finished focus session, not start a live one.
 - Moved Ep 3 shoot + "Record 3…" to 11:30–13:00 (renamed shoot to B-roll), KD edit to 14:00–15:30, renamed evening edit to "Edit + upload Ep 3 — No light".
 - Left must-do "Script 3 cinematic storytelling videos" open for the night check.
+
+## 2026-09-24 — Asked what to do for fun
+- Samuel: *"I am looking for a way to entertain myself so I don't work all day and get bored"*. The Brain records no hobbies. Recommendations built only from what is recorded (bicycle, gym, reading, girlfriend and son, faith, curiosity, filming) and his patterns P2/P4. Nothing written to TickTick. Open question 90 added.
