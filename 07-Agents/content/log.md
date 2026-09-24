@@ -25,5 +25,6 @@ Append-only. Every action this agent takes. Newest at the bottom. Format: `- YYY
 - 2026-09-24 — Ep 4 Notion page *How I stay productive* created from his My Story template (Status Script, My stories, Series), outline filled under the template's section headings for him to draft in → [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep4-how-i-stay-productive|Ep 4 note]].
 - 2026-09-24 — Read the *Nigerian light* script on Notion (Status Idea) and gave Samuel its shot list grouped by lighting: power-off shots together, lights-on shots together, plus the shots that go from light to dark. Nothing written to Notion.
 - 2026-09-24 — Samuel said "put it on notion". Added a ticking *Shot checklist* section to the end of the *Nigerian light* Notion page: 26 shots grouped by lighting, plus 3 photos to gather. The script text was left as it was.
+- 2026-09-24 — Samuel: "your formating in Notion is bad". Numbered to-dos ("- [ ] 11. …") had split into an empty checkbox with a numbered list under it. Rebuilt the *Shot checklist* on the Nigerian light page as single-line to-dos, with the shoot order in a callout and a grey tag giving each shot's script section. Lesson: in Notion, never start a to-do's text with a number and a full stop.
 
 Back to [[07-Agents/content/profile|Profile]]
