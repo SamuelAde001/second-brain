@@ -56,4 +56,8 @@ tags: [script, life-of-a-video-editor, outline]
 
 *(Samuel's draft goes here.)*
 
+## hook
+Nigerian Light situation is the worse nightmare for any video editor
+
+
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

@@ -4,8 +4,8 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"01-Inbox\"",
@@ -101,14 +101,14 @@
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": 3,
+  "nodeSizeMultiplier": 0.805531446337198,
+  "lineSizeMultiplier": 1.78051687285446,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 11.894893674658,
+  "centerStrength": 0,
+  "repelStrength": 10.5079236082893,
   "linkStrength": 1,
-  "linkDistance": 453,
-  "scale": 0.11660891579457305,
-  "close": false
+  "linkDistance": 179,
+  "scale": 0.45050811767578114,
+  "close": true
 }
