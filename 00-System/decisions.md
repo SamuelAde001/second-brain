@@ -405,3 +405,11 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **What:** this replaces the 2026-09-23 entry above. `TdrDelay` and `TdrDdiDelay` go from 60 to 10, not deleted. That means shorter desktop freezes during renders and some protection against the render-cache crash. Samuel runs it himself (a system setting) and reboots after the current render.
 
 **Who decided:** Samuel.
+
+## 2026-09-24 — Samuel writes in the Brain himself, through Obsidian on the PC
+
+**Samuel:** *"I want to sometimes put notes and inputs in the brain myself via Obsidian"*.
+
+**What:** on the PC, Obsidian is open on the Brain folder itself, so what he types lands straight in the Brain. Nothing has to be merged. He may write in any folder; `01-Inbox/` is for anything he isn't sure where to put. At session start, every agent session runs `git status`, takes any change no agent made as his, adds missing frontmatter (`source: manual`) and a link back to the area, files it only if it's clearly misplaced, never rewrites his words, and commits it as `Samuel (Obsidian): …`. Rule 8 (the phone writes to the inbox only) stands: phone sync isn't set up. Updated: AGENTS.md rule 8 and §12, portability access modes.
+
+**Who decided:** Samuel (writing in Obsidian). The pick-up steps are the General Manager's.

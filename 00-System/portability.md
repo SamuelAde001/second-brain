@@ -85,6 +85,7 @@ A tool without a capability falls back in plain terms: no `send-file` → give t
 | From the GitHub repo | a cloud agent working on a clone | everything committed — **not** `_imports/`, which is gitignored | per tier, as commits |
 | Chat app with a connector or uploads | a chat assistant given the repo or files | what the connector exposes | none — Samuel pastes output into `01-Inbox/` |
 | Phone | Obsidian on Android | the Brain | `01-Inbox/` only (AGENTS.md rule 8). Sync not set up yet |
+| Samuel by hand, on the PC | Obsidian open on the Brain folder | everything | anywhere. Same files on disk, so nothing needs merging. The next agent session files and commits his edits (AGENTS.md §12) |
 
 ## Cloud sessions and the PC
 
