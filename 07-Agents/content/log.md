@@ -24,5 +24,6 @@ Append-only. Every action this agent takes. Newest at the bottom. Format: `- YYY
 - 2026-09-24 — Series reordered at Samuel's request: *How I stay productive* is now Ep 4 (was Ep 6). Bad network and Bad laptop kept for later, unnumbered. Notes renamed, series table updated → [[03-Areas/personal-brand/series/life-of-a-video-editor|series note]].
 - 2026-09-24 — Ep 4 Notion page *How I stay productive* created from his My Story template (Status Script, My stories, Series), outline filled under the template's section headings for him to draft in → [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep4-how-i-stay-productive|Ep 4 note]].
 - 2026-09-24 — Read the *Nigerian light* script on Notion (Status Idea) and gave Samuel its shot list grouped by lighting: power-off shots together, lights-on shots together, plus the shots that go from light to dark. Nothing written to Notion.
+- 2026-09-24 — Samuel said "put it on notion". Added a ticking *Shot checklist* section to the end of the *Nigerian light* Notion page: 26 shots grouped by lighting, plus 3 photos to gather. The script text was left as it was.
 
 Back to [[07-Agents/content/profile|Profile]]
