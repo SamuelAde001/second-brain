@@ -25,4 +25,9 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - Samuel: *"I did it in Notion because Notion formats better and is easier to use"*, and he will connect his Notion page to the Brain later. Until then drafts arrive as screenshots. The Notion connector is installed but not yet authorised.
 - His draft 1 of Ep 3 dropped the strongest stake from his own interview (lost international trial tasks). Check drafts against the outline for beats that went missing, not just for wording.
 
+## 2026-09-24 — B-roll notes are blue
+
+- Samuel: *"Every B-roll should differentiate itself from the script by being colored in Blue"*. In Notion, every `{b-roll}` note sits at the end of its line, wrapped in blue text (`<span color="blue">…</span>`). Script text stays default colour.
+- His scripts live in Notion under Samuel Signals → My personal brand → Samuel Signals Instagram → Content Calendar. Ep 3 is the page "My Story". Pages carry a long template above `## Script`; fetch output is ~70k characters, so extract the script part with a script, don't read it whole.
+
 Back to [[07-Agents/content/profile|Profile]]
