@@ -18,4 +18,6 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 - 2026-09-23 — **Render-cache crash root cause found: Windows GPU timeout (TDR, 2 s default)** during heavy Fusion comps on the 12 GB RTX 3060, not the cache itself. 0:00–1:02 of *$7M Founder* cached clean; fix (TdrDelay 60 + reboot) is Samuel's. See [[03-Areas/video-editing/troubleshooting|Troubleshooting]] §7.
 - 2026-09-23 — **Routerise revision delivered** that night. Samuel, 2026-09-24: *"yes it went out last night, it's a revision"*. A revision, not a new video, so no row in [[delivered-projects]] and no change to September's income. Which video it revised is not confirmed.
 
+- 2026-09-24 — **New Route Rise job: "3. I Tried 100+ AI Tools. These 4 Are Best for Businesses"**, due Monday 2026-09-28. Documented in [[04-Projects/routerise-4-ai-tools|Route Rise #3 — 4 AI Tools]] and scheduled in TickTick (9 blocks, Thu kickoff → Mon deliver).
+
 Back to [[03-Areas/video-editing/video-editing|Video editing]]
