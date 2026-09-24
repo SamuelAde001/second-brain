@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-path:\"01-Inbox/_imports\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -109,6 +109,6 @@
   "repelStrength": 11.894893674658,
   "linkStrength": 1,
   "linkDistance": 453,
-  "scale": 0.45050811767578125,
+  "scale": 0.11660891579457305,
   "close": false
 }

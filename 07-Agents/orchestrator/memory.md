@@ -48,4 +48,9 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - Claude Code's auto mode classifier blocked `git push` twice (once bundled with cd and pipes, once as a bare `git push`), even though `.claude/settings.json` allows `Bash(git push:*)`. The project rule is not enough on its own. Samuel asked how to make pushing automatic; the permission change is his to make. Until it's fixed: commit, then tell him to run `git push`. Don't retry a blocked push.
 - **Fixed the same day:** Samuel added `Bash(git push:*)` to his user-level Claude Code settings (`~/.claude/settings.json`), and a bare `git push` then went through. Push as a bare command, not bundled with cd or pipes, right after each commit.
 
+## 2026-09-24 — Obsidian settings files
+
+- **Obsidian overwrites `.obsidian/*.json` from memory while it's open.** I wrote graph colour groups into `graph.json`, Samuel zoomed the graph, and Obsidian saved its old blank settings over mine. Change Obsidian settings only while it's closed. What worked: a background PowerShell loop that waits for the `Obsidian` process to exit, then writes the file. Samuel only has to close it and reopen it.
+- `graph.json` is tracked and changes every time he zooms, so it will often show as modified. That's his Obsidian use: commit it with his edits (AGENTS.md §12).
+
 Back to [[07-Agents/orchestrator/profile|Profile]]
