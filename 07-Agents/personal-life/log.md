@@ -36,3 +36,4 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 ## 2026-09-24 — Asked what to do for fun
 - Samuel: *"I am looking for a way to entertain myself so I don't work all day and get bored"*. The Brain records no hobbies. Recommendations built only from what is recorded (bicycle, gym, reading, girlfriend and son, faith, curiosity, filming) and his patterns P2/P4. Nothing written to TickTick. Open question 90 added.
 - Follow-up, same day: Samuel asked *"What about Gaming"*. Answered with the conditions below (hard stop before 11pm, finite games, PC not phone, Studio driver kept, bought through money-check). Whether he games already is unknown; folded into open question 90.
+- Follow-up, same day: asked for free adventure games on PC. Gave a list split into finite games (fit the rules) and free open-world gacha games (flagged as spending and time risks). From general knowledge, not the Brain; he was told to check prices on the store.
