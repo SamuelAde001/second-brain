@@ -2,14 +2,14 @@
 type: knowledge
 area: personal-brand
 status: active
-updated: 2026-09-23
+updated: 2026-09-24
 source: interview
-tags: [script, life-of-a-video-editor, outline]
+tags: [script, life-of-a-video-editor, outline, draft]
 ---
 
 # The Life of a Video Editor, Ep 3: No light
 
-**Stage:** outline, 2026-09-23. Samuel writes the script from this. Goes live 2026-09-23, before 8:00pm WAT.
+**Stage:** draft 1 reviewed, 2026-09-24. Not locked. Not posted as of 2026-09-24 (he calls it his next episode). Samuel drafts in Notion; tightened v1 below.
 **Series:** [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]. On screen at the start, in bold: *The Life of a Video Editor, Episode 3*. Nothing spoken. Target 1:30, up to 2:00.
 **Bank:** #16, #23 ([[03-Areas/personal-brand/personal-brand-ideas|ideas]]). **Leave out:** the military, the city.
 
@@ -54,7 +54,45 @@ tags: [script, life-of-a-video-editor, outline]
 
 ## Script
 
-*(Samuel's draft goes here.)*
+### Tightened v1 (Brand manager review of Samuel's Notion draft 1, 2026-09-24)
+
+About 330 words, roughly 2:00 spoken. His draft 1 was about 400 words, roughly 2:20–2:40. Lines marked *(interview)* come from his 2026-09-23 answers, not the draft.
+
+**Hook**
+Some days, I only had two hours of light. And my client needed the video the next day.
+Nigerian light is the worst nightmare for any video editor. But I found a way out of it.
+
+**Context**
+4 years ago, I bought my first laptop with my salary.
+I was ready to make video editing my career.
+
+**Struggle**
+But you see, Nigerian electricity is so bad.
+Right in the middle of the work, they would seize the light.
+And I would just sit there for hours, hoping it would come back.
+Sometimes I carried my laptop to those Aboki corners where they charge phones, and paid them just to work a bit.
+Some nights I couldn't even sleep, knowing I had a deadline and there was nothing I could do about it.
+International clients would send me trial tasks, and I couldn't do them. I lost those gigs. *(interview)*
+They just expect that you always have light. *(interview, verbatim)*
+
+**Pivot**
+But I chose not to give up.
+And luckily, my mentor, who I was working for at the time, understood, and helped me get my first power station.
+That was the turning point. That power station saved my career. Literally.
+I carried it everywhere in my bag, just to keep working.
+Sometimes I'd charge it in a restaurant, so I could use it later at night.
+With it, I could take on more work. Even international clients. *(interview)*
+
+**Resolution**
+Now I've upgraded to a bigger solar setup. I've gone two weeks without light and kept working.
+But whenever I see a new video editor starting out, it pains my heart, because I know this situation is crippling a lot of them.
+Nigerian electricity is just bad… frustratingly bad. And it is costing a lot of Nigerians a lot of proper opportunities.
+So if you're starting out, in any career, don't give up.
+All it takes is one gig. Just one gig that pays enough for your own small power station.
+And gradually, you'll find your way out too.
+
+**Open on this draft:** is "one gig" true for a beginner, given his power station cost about NGN 300,000–400,000? And if the mentor paid for it (open questions #87), the advice isn't the path he took.
+
 
 ## hook
 Nigerian Light situation is the worse nightmare for any video editor

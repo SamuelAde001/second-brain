@@ -20,4 +20,9 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - **Numbers are sparse.** Followers: 460 IG / 550 TikTok on 2026-08-26, 671 / 673 on 2026-09-20. No post-level data. Nothing connects to Instagram or TikTok.
 - **Two connectors could automate the numbers** (MCP registry, checked 2026-09-22): **Metricool** (connects his own IG and TikTok accounts; analytics, best time to post, scheduling) and **vidIQ** (research for YouTube, Instagram and TikTok; already connected to his claude.ai account, not to Claude Code). Neither is tested. Connecting either needs his yes.
 
+## 2026-09-24 — He drafts scripts in Notion
+
+- Samuel: *"I did it in Notion because Notion formats better and is easier to use"*, and he will connect his Notion page to the Brain later. Until then drafts arrive as screenshots. The Notion connector is installed but not yet authorised.
+- His draft 1 of Ep 3 dropped the strongest stake from his own interview (lost international trial tasks). Check drafts against the outline for beats that went missing, not just for wording.
+
 Back to [[07-Agents/content/profile|Profile]]
