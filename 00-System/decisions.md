@@ -397,3 +397,11 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Objection (Editor), logged once:** the 60 s timeout is what stopped Resolve crashing on heavy Fusion comps ([[03-Areas/video-editing/troubleshooting|Troubleshooting]] §7). At 2 s the crash comes back, and the $7M Founder caching isn't finished (the rest of batch 2, batch 3, the Magic Mask clips). The cost of keeping 60 s is the desktop lagging during renders. 10 s would be a middle ground.
 
 **Who decided:** Samuel.
+
+## 2026-09-24 — Update: TDR timeout goes to 10 s, not back to the default
+
+**Samuel:** *"okay set it to 10 then"*.
+
+**What:** this replaces the 2026-09-23 entry above. `TdrDelay` and `TdrDdiDelay` go from 60 to 10, not deleted. That means shorter desktop freezes during renders and some protection against the render-cache crash. Samuel runs it himself (a system setting) and reboots after the current render.
+
+**Who decided:** Samuel.
