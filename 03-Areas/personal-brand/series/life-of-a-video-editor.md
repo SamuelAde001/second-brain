@@ -62,7 +62,7 @@ The Brain has deep material on his voice, his script process and his storytellin
 | Ep | Title | Note | Posted |
 |---|---|---|---|
 | 1–2 | not recorded | — | before 2026-09-20 |
-| 3 | No light | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep3-no-light|Ep 3]] | — |
+| 3 | No light | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep3-no-light|Ep 3]] | — (first cut in Resolve 2026-09-24) |
 | 4 | How I stay productive | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep4-how-i-stay-productive|Ep 4]] | — |
 | later | Bad network | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-bad-network|Bad network]] | — |
 | later | Bad laptop | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-bad-laptop|Bad laptop]] | — |

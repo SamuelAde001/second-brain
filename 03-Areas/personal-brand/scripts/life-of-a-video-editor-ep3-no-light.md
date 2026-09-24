@@ -9,7 +9,7 @@ tags: [script, life-of-a-video-editor, outline, draft]
 
 # The Life of a Video Editor, Ep 3: No light
 
-**Stage:** final, 2026-09-24. Lives in Notion ("My Story" page, Instagram Content Calendar); corrections applied there by Brand manager. Not posted as of 2026-09-24 (he calls it his next episode). Samuel drafts in Notion; tightened v1 below.
+**Stage:** recorded and first cut 2026-09-24 (Edit v1 below). Script final 2026-09-24. Lives in Notion ("My Story" page, Instagram Content Calendar); corrections applied there by Brand manager. Not posted as of 2026-09-24 (he calls it his next episode). Samuel drafts in Notion; tightened v1 below.
 **Series:** [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]. On screen at the start, in bold: *The Life of a Video Editor, Episode 3*. Nothing spoken. Target 1:30, up to 2:00.
 **Bank:** #16, #23 ([[03-Areas/personal-brand/personal-brand-ideas|ideas]]). **Leave out:** the military, the city.
 
@@ -103,6 +103,16 @@ He took v1 and changed the hook and the international-client beat. New facts, hi
 
 ## hook
 Nigerian Light situation is the worse nightmare for any video editor
+
+## Edit v1 (Brand manager, 2026-09-24)
+
+- **Shot and voiced 2026-09-24**, 15:00-16:17. Voice-over: `B-roll archive\Voice over videos\VO Ep 3 Nigerian light voice-over DJI_20260924161032_0249_D.MP4` (6 min 33 s, several takes per line). The 38 B-roll clips are filed and catalogued in [[03-Areas/personal-brand/b-roll-archive|B-roll archive]].
+- **Resolve:** project *Life of a Video Editor Ep 3 - Nigerian light* in the *Samuel Signals* project folder, timeline *Ep 3 - Nigerian light v1*. 1080x1920, 23.976, the same as his Storytelling projects. V1 voice-over camera (always covered), V2 B-roll, V3 photo overlays, V4 title, A1 voice-over.
+- **Voice-over cut:** 1:51. The last clean take of each line; repeats, false starts and long pauses removed. Checked by re-transcribing the cut three times. Lines he said differently from the script: "On one occasion", "a lot of Nigerians… proper opportunities", "pays enough for you to own small power station". The last two, and "in my bag", are spliced across a restart. **Yellow markers: listen once.**
+- **B-roll:** 61 cuts, about one every 1.8 s, faster in the "take on more work" montage. It follows the blue notes in Notion and mixes today's angles with older archive clips: the bike ride, head on keyboard, window, render queue, monitor glow. The light-cut shot is timed so the room goes dark on "seize the light", and a hard cut to the dark half of the same angle lands on "No light".
+- **Photos** (overlays, from `Talking heads and  B-rolls`): selfie with the first laptop (Context), laptop in the dark (Struggle, twice), laptop on the power station outdoors (Pivot), laptop at a desk (Pivot). No military photos.
+- **Missing, red markers:** no photo of the Aboki charging spot; no solar or inverter footage for "bigger solar setup". The bike ride, night street and solar shots on the checklist were not in today's footage.
+- **Not done:** grade (the D-Log footage is ungraded; purple marker), audio chain (EQ, noise reduction, −16 LUFS), music, SFX, captions. Overlays and title are ffmpeg-made alpha clips in `Edits\Life of a Video Editor Ep 3 - Nigerian light\`; swap in his own Text+ style if he wants.
 
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

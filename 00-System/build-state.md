@@ -26,6 +26,8 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 - **2026-09-23 was run work, not build work.** Editor: Resolve render-cache crashes traced to a GPU timeout (TDR); $7M Founder Timeline 1 partly cached, resume queue in `03-Areas/video-editing/scripts/cache-queue-7m-founder.json`. TDR is now 10 s (Samuel's choice, live after the 2026-09-24 07:05 reboot). Money man: NGN 5,000 given, the NGN 10,000 loan is now a gift. PA: first night check, two misses, make-up day 2026-09-24. Brand manager: Ep 3–6 outlines.
 
+- **2026-09-24, Ep 3 first cut (Brand manager).** 39 Ep 3 clips filed into the B-roll archive. Resolve project *Life of a Video Editor Ep 3 - Nigerian light* (Samuel Signals folder): VO cut to 1:51, 61 B-roll cuts, photo overlays, title, −16 LUFS. Next: Samuel reviews the yellow and red markers, then grade, music, captions. Open: moving the `Talking heads and  B-rolls` folder into the archive (57 videos, mostly July 29 talking heads); waiting on his yes because old Resolve projects may link to those files.
+
 **14-day target for Phases 0–4:** 2026-10-04. Day 5 of 14. Still to build: job skills `brainstorm`, `plan`, `systemize`, `commit`, and the editing job skills.
 
 ---

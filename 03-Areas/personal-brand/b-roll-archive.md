@@ -20,34 +20,34 @@ The catalogue of Samuel's B-roll for @SamuelSignals. Use it to storyboard an epi
 
 ## Folders
 
-Clip counts on disk after the 2026-09-24 sort.
+Clip counts on disk after the 2026-09-24 sorts (the morning archive sort plus the Ep 3 shoot, filed the same afternoon).
 
 | Folder | Clips | Added 2026-09-24 |
 |---|---|---|
 | Balcony and Outdoors | 3 | 0 |
 | Bathroom | 4 | 2 |
-| Bed | 7 | 5 |
+| Bed | 11 | 9 |
 | Bible study | 2 | 0 |
 | Bicycle | 3 | 3 |
 | Cleaning and reset | 0 | 0 |
-| Desk and Setup | 48 | 31 |
+| Desk and Setup | 64 | 47 |
 | Eating | 7 | 7 |
-| Editing | 14 | 12 |
-| Face and Reaction | 24 | 14 |
+| Editing | 20 | 18 |
+| Face and Reaction | 30 | 20 |
 | Gym and Fitness | 27 | 27 |
 | Journal | 10 | 5 |
-| Keyboard and hands | 18 | 8 |
+| Keyboard and hands | 20 | 10 |
 | Military picture frame | 4 | 0 |
-| Phone and Chat | 18 | 9 |
+| Phone and Chat | 19 | 10 |
 | Prayer | 1 | 0 |
 | Research | 16 | 12 |
-| Room and atmosphere | 14 | 5 |
+| Room and atmosphere | 17 | 8 |
 | Water | 2 | 1 |
 | Whiteboard and Planning | 2 | 1 |
-| **All B-roll** | **224** | **142** |
+| **All B-roll** | **262** | **180** |
 
 **Not B-roll:**
-- `Voice over videos`: 6 clips of voice-overs recorded on camera.
+- `Voice over videos`: 7 clips of voice-overs recorded on camera, including the Ep 3 voice-over (6 min 33 s, 2026-09-24).
 - `Girlfriend`: 11 personal clips of Samuel's girlfriend. Kept out of content; not indexed here.
 - `Unsorted`: 6 clips (the four "Random footage" clips from August, plus #16 and #163 below).
 - `_to_delete`: 5 empty or accidental clips of 0–2 s. **Samuel deletes these himself.**
@@ -297,6 +297,90 @@ Shot between 2026-08-20 and 2026-09-14. Identified from three frames each, not b
 |---|---|---|---|---|---|
 | 16 | UNS | Selfie in the room with someone | 2026-08-21 10:10 | 12s | `DJI_20260821101022_0883_D.MP4` |
 | 163 | UNS | At desk holding something small | 2026-09-14 20:50 | 15s | `DJI_20260914205014_0196_D.MP4` |
+
+## Filed 2026-09-24 (afternoon): Ep 3 shoot, 39 clips
+
+Shot 2026-09-24 15:00-16:17 for [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep3-no-light|Ep 3, No light]], to the Notion shot checklist. Identified from 3-6 frames each. Samuel asked for them to be filed (*"arrange the footage in the right folder"*). Undo list: `06-Logs/automation/2026-09-24-ep3-footage-sort-undo.csv`. `DSK-00 Power station` clips are the first footage of his power station. Useful moments: `Behind, light cuts to dark` goes dark at 17.25 s; `Dark, screen wakes` has the desk light come on at about 25.5 s and the monitor wake at about 40 s. Not shot: the bicycle ride, solar panels or inverter, the night street shot.
+
+### Bed
+
+| Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|
+| BED-06 | In bed, hand over face | 2026-09-24 15:55 | 35s | `DJI_20260924155536_0241_D.MP4` |
+| BED-06 | In bed, eyes closed, close | 2026-09-24 15:56 | 10s | `DJI_20260924155633_0242_D.MP4` |
+| BED-06 | In bed, very dark | 2026-09-24 16:00 | 22s | `DJI_20260924160001_0243_D.MP4` |
+| BED-06 | In bed, dark, phone glow | 2026-09-24 16:00 | 22s | `DJI_20260924160042_0244_D.MP4` |
+
+### Desk and Setup
+
+| Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|
+| DSK-03 | Over-the-shoulder wide, portrait behind | 2026-09-24 15:00 | 53s | `DJI_20260924150036_0209_D.MP4` |
+| DSK-04 | Front low angle working, smiling | 2026-09-24 15:04 | 38s | `DJI_20260924150419_0211_D.MP4` |
+| DSK-04 | Right side high angle, keyboard | 2026-09-24 15:06 | 54s | `DJI_20260924150602_0212_D.MP4` |
+| DSK-03 | Over-the-shoulder right side, timeline | 2026-09-24 15:13 | 64s | `DJI_20260924151311_0213_D.MP4` |
+| DSK-03 | Behind the chair, wide | 2026-09-24 15:15 | 45s | `DJI_20260924151532_0214_D.MP4` |
+| DSK-00 | Behind-screen view, working | 2026-09-24 15:17 | 52s | `DJI_20260924151724_0215_D.MP4` |
+| DSK-04 | Side wide working, full body | 2026-09-24 15:29 | 32s | `DJI_20260924152926_0226_D.MP4` |
+| DSK-02 | Walks in and sits, wide | 2026-09-24 15:32 | 45s | `DJI_20260924153222_0230_D.MP4` |
+| DSK-02 | Walks in and sits, behind | 2026-09-24 15:33 | 27s | `DJI_20260924153316_0231_D.MP4` |
+| DSK-00 | Power station, pan to desk | 2026-09-24 15:34 | 9s | `DJI_20260924153456_0232_D.MP4` |
+| DSK-00 | Power station, pan to desk 2 | 2026-09-24 15:35 | 9s | `DJI_20260924153511_0233_D.MP4` |
+| DSK-00 | Power station plugged in, static | 2026-09-24 15:35 | 11s | `DJI_20260924153525_0234_D.MP4` |
+| DSK-07 | High angle working, over-the-shoulder | 2026-09-24 15:37 | 29s | `DJI_20260924153725_0235_D.MP4` |
+| DSK-03 | Behind, light cuts to dark | 2026-09-24 15:39 | 30s | `DJI_20260924153926_0236_D.MP4` |
+| DSK-02 | Dark, sits down in chair | 2026-09-24 16:02 | 13s | `DJI_20260924160223_0245_D.MP4` |
+| DSK-00 | Dark, screen wakes | 2026-09-24 16:02 | 54s | `DJI_20260924160244_0246_D.MP4` |
+
+### Editing
+
+| Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|
+| EDT-01 | Over-the-shoulder, timeline, focused | 2026-09-24 15:01 | 61s | `DJI_20260924150146_0210_D.MP4` |
+| EDT-01 | Hands scrubbing the timeline | 2026-09-24 15:23 | 35s | `DJI_20260924152341_0221_D.MP4` |
+| EDT-01 | Screen close, timeline | 2026-09-24 15:24 | 45s | `DJI_20260924152447_0222_D.MP4` |
+| EDT-04 | Fusion nodes on screen | 2026-09-24 15:26 | 34s | `DJI_20260924152611_0223_D.MP4` |
+| EDT-01 | Screen close, timeline 2 | 2026-09-24 15:27 | 33s | `DJI_20260924152703_0224_D.MP4` |
+| EDT-00 | Colour page on screen | 2026-09-24 15:28 | 12s | `DJI_20260924152812_0225_D.MP4` |
+
+### Face and Reaction
+
+| Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|
+| FCE-01 | Behind-screen, hand on chin | 2026-09-24 15:20 | 35s | `DJI_20260924152051_0218_D.MP4` |
+| FCE-01 | Behind-screen close, hand on chin | 2026-09-24 15:21 | 29s | `DJI_20260924152152_0219_D.MP4` |
+| FCE-01 | Behind-screen close, working | 2026-09-24 15:22 | 14s | `DJI_20260924152234_0220_D.MP4` |
+| FCE-01 | Close-up to camera, eyes closed | 2026-09-24 15:31 | 11s | `DJI_20260924153103_0228_D.MP4` |
+| FCE-01 | Dark room at desk, hand on head | 2026-09-24 15:43 | 39s | `DJI_20260924154337_0237_D.MP4` |
+| FCE-03 | Dark room, slumped in chair | 2026-09-24 15:44 | 21s | `DJI_20260924154434_0238_D.MP4` |
+
+### Keyboard and hands
+
+| Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|
+| KEY-01 | Typing close | 2026-09-24 15:18 | 36s | `DJI_20260924151838_0216_D.MP4` |
+| KEY-04 | Mouse hand close | 2026-09-24 15:19 | 37s | `DJI_20260924151930_0217_D.MP4` |
+
+### Phone and Chat
+
+| Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|
+| PHN-06 | On phone at desk, lights on | 2026-09-24 15:30 | 18s | `DJI_20260924153039_0227_D.MP4` |
+
+### Room and atmosphere
+
+| Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|
+| ROM-01 | Wide room, empty chair | 2026-09-24 15:32 | 10s | `DJI_20260924153210_0229_D.MP4` |
+| ROM-00 | Light switch flick, dark | 2026-09-24 15:48 | 6s | `DJI_20260924154847_0239_D.MP4` |
+| ROM-08 | Dark room, pacing, sitting on floor | 2026-09-24 15:51 | 103s | `DJI_20260924155107_0240_D.MP4` |
+
+### Voice over videos
+
+| Shot | What it shows | Shot on | Length | Original file |
+|---|---|---|---|---|
+| VO | Ep 3 Nigerian light voice-over | 2026-09-24 16:10 | 393s | `DJI_20260924161032_0249_D.MP4` |
+
 
 Girlfriend: #1, #3, #4, #5, #6, #8, #10, #11, #13, #14, #15. To delete: #2, #7, #9, #12, #104.
 

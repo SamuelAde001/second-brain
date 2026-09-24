@@ -42,4 +42,13 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - Database: Instagram Content Calendar, data source `collection://30d8d1c1-7bb7-8030-8a7a-000bcb336370`. Story template **My Story** (id `38e8d1c1-7bb7-80ea-aa99-d6e7eed56c3b`, the default). Its script section ends the page: `## Script`, then red `## Hook / Context / Struggle / Pivot / Resolution / CTA`, each with empty blocks. Replace that tail with `update_content`; don't read the ~70k-char guide above it. Set Status `Script`, Content pillar `My stories`, Post Type `Series` for this series.
 - On 2026-09-24 the database holds both a page "Nigerian light" (its text is the Ep 3 script with b-roll notes) and a page "My Story", which shares its name with the template. Check which one is Ep 3 before editing either.
 
+## 2026-09-24 — Cutting a voice-over and B-roll in Resolve by script
+
+- **Transcribe with Resolve itself:** `MediaPoolItem.TranscribeAudio()` (open the Media page first; the first call returned False), then `GetTranscription()` gives words with timecodes. On a multi-take voice-over the word timings are loose, and some repeats get merged into one.
+- **What worked:** pick takes, render the cut to a WAV with ffmpeg (`aselect`), import it and transcribe *that*. The second transcript showed duplicate takes and dead pauses the first one hid. Three passes got the cut clean.
+- **Stills are held for 5 s** on `AppendToTimeline`, whatever `endFrame` says. For photos and titles, render exact-length ProRes 4444 alpha clips with ffmpeg instead.
+- **`InsertFusionTitleIntoTimeline` ripple-inserts** at the playhead on the current track and shifts every track. With the tracks locked it returns None. Undo it with `DeleteClips([item], True)`.
+- `AppendToTimeline` from 29.97 source into a 23.976 timeline can come out 1 frame short. Check the length and lengthen `endFrame` until there are no gaps, or the track underneath flashes through.
+
+
 Back to [[07-Agents/content/profile|Profile]]
