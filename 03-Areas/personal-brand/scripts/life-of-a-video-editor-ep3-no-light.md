@@ -97,6 +97,9 @@ And gradually, you'll find your way out too.
 
 He took v1 and changed the hook and the international-client beat. New facts, his words: *"For 5 days, there have been no light, and I have a client video to finish tomorrow"*; *"an International client that was willing to pay $200 per video sent me trial project, but I lost that client all because I couldn't finish the work on time. Why? No light"*. So USD 200 per video, one client, one trial project. Mentor and "one gig" questions still open.
 
+**Hook locked (Samuel, 2026-09-24):** *"For 5 days, there has been no light, and I have a client video to finish tomorrow, this was my situation a while back"*, then *"Nigerian light is the worst nightmare for any video editor. But I found a way out of it."* Brand manager advised dropping the past-tense clause once; his call, kept.
+**"One gig" (Samuel, 2026-09-24):** "Yes": one gig can cover a small power station. Mentor question: answered "yes" to an either/or, so not settled; asked again.
+
 
 ## hook
 Nigerian Light situation is the worse nightmare for any video editor
