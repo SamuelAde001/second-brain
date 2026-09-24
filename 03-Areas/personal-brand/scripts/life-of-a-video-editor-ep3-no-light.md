@@ -9,7 +9,7 @@ tags: [script, life-of-a-video-editor, outline, draft]
 
 # The Life of a Video Editor, Ep 3: No light
 
-**Stage:** draft 1 reviewed, 2026-09-24. Not locked. Not posted as of 2026-09-24 (he calls it his next episode). Samuel drafts in Notion; tightened v1 below.
+**Stage:** final, 2026-09-24. Lives in Notion ("My Story" page, Instagram Content Calendar); corrections applied there by Brand manager. Not posted as of 2026-09-24 (he calls it his next episode). Samuel drafts in Notion; tightened v1 below.
 **Series:** [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]. On screen at the start, in bold: *The Life of a Video Editor, Episode 3*. Nothing spoken. Target 1:30, up to 2:00.
 **Bank:** #16, #23 ([[03-Areas/personal-brand/personal-brand-ideas|ideas]]). **Leave out:** the military, the city.
 
@@ -98,7 +98,7 @@ And gradually, you'll find your way out too.
 He took v1 and changed the hook and the international-client beat. New facts, his words: *"For 5 days, there have been no light, and I have a client video to finish tomorrow"*; *"an International client that was willing to pay $200 per video sent me trial project, but I lost that client all because I couldn't finish the work on time. Why? No light"*. So USD 200 per video, one client, one trial project. Mentor and "one gig" questions still open.
 
 **Hook locked (Samuel, 2026-09-24):** *"For 5 days, there has been no light, and I have a client video to finish tomorrow, this was my situation a while back"*, then *"Nigerian light is the worst nightmare for any video editor. But I found a way out of it."* Brand manager advised dropping the past-tense clause once; his call, kept.
-**"One gig" (Samuel, 2026-09-24):** "Yes": one gig can cover a small power station. Mentor question: answered "yes" to an either/or, so not settled; asked again.
+**"One gig" (Samuel, 2026-09-24):** "Yes": one gig can cover a small power station. **Mentor (Samuel, 2026-09-24):** *"MY MENTOR PAID FOR IT, MY money is not it it"*. Line added: "I had my mentor. You might not." Closes the mentor half of open questions #87.
 
 
 ## hook
