@@ -43,3 +43,9 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 ## 2026-09-24 — Correction: freedom is now tracked
 
 - Supersedes "logged, not tracked" above. His words: *"Track it please, it is part of my commitments"*. It is in [[06-Logs/commitments|commitments]] and checked every night in `night-plan` (he answers; no answer is unknown). Misses count toward the weekly escalation. Day number goes in each daily note.
+
+## 2026-09-24 — One video at a time; client work owns the mornings
+
+- *"I can only do one video at a time, and we agreed to change it to just one video"* · *"we would do the next one another day after my clients edit is done"*. A content must-do is one video. Don't plan or check "3 videos" again. The next episode waits until the client edit is delivered.
+- *"KD video is in the Afternoon, when there is client video, it takes top priority of mornings, no content in the morning"*. On a client day, 7:00am–1:00pm is client work only. Content, including make-ups, goes after the nap. The make-up rule's "earliest block" means the earliest non-client block on those days.
+- Gym check-ins can come from his word at the night plan; the agent marks the habit.
