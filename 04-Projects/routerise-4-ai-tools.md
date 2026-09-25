@@ -2,7 +2,7 @@
 type: project
 area: video-editing
 status: active
-updated: 2026-09-24
+updated: 2026-09-25
 source: manual
 tags: [client, routerise, long-form]
 ---
@@ -73,6 +73,16 @@ Route Rise's 5-day cap starts today (2026-09-24), so Monday is day 5. Sunday is 
   - Most talking parts of the Tella file show Alex's teleprompter, not a demo. Real demo stretches: Clay 1:22–2:04, playbook page 2:34–2:40, Claude 4:05–6:02, Wispr Flow + frontal.so 6:33–7:55.
   - Check by ear: "one provider can find the email" (probably "can't"), "ICP and time estimates" (probably TAM), "inside of BloD".
 
+## The cut, redone from the synced raw (2026-09-25, Samuel's method)
+
+Cut v2/v3 were rebuilt clip by clip with a drift model and went out of sync. Samuel restarted the cut from the synced raw. The method is in [[03-Areas/video-editing/sops/routerise-cut-workflow|the cut SOP]], steps 2 and 2b.
+- **Cut v4 (Editor) - ripple silence:** duplicate of *A-roll synced (raw)*, Tella audio deleted, Ripple Delete Silence run by Samuel at −33.4 dB / pre 0 / post 3 / min 2. 331 clips, 19,426 frames.
+- **Cut v5 (Editor) - noise clips removed:** 73 leftover noise clips (310 frames) ripple-deleted after a level check on every clip. 6 short clips with speech-level sound kept for Samuel. 258 clips. XML: `Docs\Cut v4 ripple silence (2026-09-25).xml`, `Docs\Cut v5 noise removed (2026-09-25).xml`. Subtitles: `Docs\Cut v5 subtitles (2026-09-25).srt`.
+- **Cut v6 (Editor) - retakes removed: 11:02, 204 clips. The current cut.** 54 retake/false-start clips cut (3,237 frames), always keeping the last clean complete take; judged from the v5 subtitles per clip against the script. Every kept clip's source position on V1, A1 and V2 was verified identical to v4/v5 after each delete.
+- **20 Orange clips + Yellow/Pink markers for Samuel:** in-clip retakes that need a razor (1:42 "figure out what and", 0:32 "if you've ever built… if", 7:20 "putting all that context by writing" ×2, 9:08 "bring these four tools together" ×2, 10:29 "whether the resource" ×2, 10:42 "Claude helps us research" ×2), the 1:13 "improve your chances" tangle, "Kenny is absolute Kenny", a possible repeat at 5:32, the first clip (sound before take 1), a 1.7 s unlabelled clip at 9:15, and the 6 short-sound clips (the two at 4:21 are the word "Claude", a false start before "So the third tool is Claude").
+- **Transcript crosscheck (fresh subtitles on v6):** reads as one piece, every script section present in order, no other repeats.
+- **8 sections colour-coded** as before (clip colours + duration markers): Hook 0:00 · Clay 0:30 · Railway 2:33 · Mid-CTA 3:54 · Claude 4:23 · Wispr Flow 7:01 · Bringing the 4 together 9:10 · Outro 10:51.
+
 ## Open
 
 - Monday delivery time — needs-input.
@@ -84,3 +94,4 @@ Route Rise's 5-day cap starts today (2026-09-24), so Monday is day 5. Sunday is 
 - 2026-09-24 — Cut built (Cut v2, frame-locked, 9:34), chapters colour-coded, transcript written. Samuel caught audio cuts off the video cuts on v1; fixed with a 23.976-grid mic copy. Next: Samuel reviews the cut and the check markers, then the Claude pass / cut sheet.
 - 2026-09-25 — Samuel found the scripted hook missing. Crosscheck of every raw mic line vs Cut v2: 4 places wrongly cut (opener "I've tested a lot of AI tools… I realized something", 4 takes at mic 0:20–0:47; Clay "look for a lot of different data points… useful signal" mic 4:43; "running ads on LinkedIn" mic 5:01; "to actually make it real" mic 25:23). Everything else cut is a true retake or a slip. Correction: the Railway dashboard IS on the Tella recording (~Tella 3:25–4:00), and the sync line above reads the wrong way round: mic t = Tella t + 270.7 s. Next: restore the four into a Cut v3 once Samuel picks the hook take.
 - 2026-09-25 — **Cut v3 (Editor) - 4 restores** built (9:52, 209 clips; v2 kept as is). Opener: take 1 + take 4 (orange) on the timeline for Samuel to pick one. Clay lines and "make it real" restored. Blue "Restored" markers on every new clip. Transcript: `Docs\Transcript - Cut v3 (2026-09-25).docx`. Next: Samuel listens to the restores, picks the hook take, then visuals.
+- 2026-09-25 — Cut restarted from the synced raw on Samuel's instructions: Ripple Delete Silence (Cut v4), noise clips removed (Cut v5), retakes removed and sections colour-coded (**Cut v6, 11:02**). 20 Orange clips left for Samuel. Next: Samuel resolves the Orange clips, then the transcript doc and the Claude pass / cut sheet.

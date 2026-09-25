@@ -125,3 +125,7 @@ Built [[03-Areas/video-editing/delivered-projects|delivered-projects]] on Samuel
 - **Never press Ctrl+Z to fix a small stray edit right after a script action.** Resolve's undo stack includes script operations, and it undid the whole timeline duplicate. Fix stray edits by script, or tell Samuel.
 - **Samuel is fine with screen control of Resolve when he asks for a GUI step** (2026-09-25, overriding the 2026-09-24 "declined" for that task). He watches and corrects live, so narrate each step.
 - Noise vs word in a short clip: level alone decides only the clear cases. Anything short with speech-level sound gets coloured for Samuel, never cut.
+- **Marker colours ≠ clip colours.** `AddMarker(..., "Orange", ...)` returns False: there's no Orange marker. Marker colours: Blue, Cyan, Green, Yellow, Red, Pink, Purple, Fuchsia, Rose, Lavender, Sky, Mint, Lemon, Sand, Cocoa, Cream. AddMarker also fails on a frame that already has a marker.
+- **Before ripple-deleting on a timeline with a subtitle track, delete the subtitle items first** (no ripple). Regenerate afterwards for the transcript check.
+- **Flag colour on a colour-coded cut:** Orange, because it's outside the 8-section palette. Pink belongs to the Mid-CTA section.
+- Subtitle export has no API route: File > Export > Subtitle… (GUI). Subtitle text can be read with `GetItemListInTrack("subtitle",1)` + `GetName()` when the GUI is blocked.
