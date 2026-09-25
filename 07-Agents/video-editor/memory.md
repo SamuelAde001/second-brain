@@ -139,3 +139,9 @@ Samuel: *"you made some stupid mistakes still, left in parts that where obvously
 - **He trims uhms and pauses inside clips** (2–65 frames, 30 places on #3). Resolve's transcripts can't see them. I need a filler-aware word-timed pass before I can do this.
 - **The job isn't done until the uhms are out.** Silence → noise → retakes → uhms → transcript check.
 - **Diffing his final against mine:** compare A1 source ranges (`GetLeftOffset(True)` + duration) of every clip against the reference cut. Covered / trimmed / removed per clip shows exactly what he changed. Worth doing on every job he finishes himself.
+
+## 2026-09-25 — Why the TSB visuals were called mediocre (Samuel's own diagnosis)
+
+- The TSB final (`v2.1.mp4`) includes **Samuel's corrections to Claude's 3:06–end**. It isn't Claude's work as delivered. To see what he fixed, diff Claude's original `.comp` files (`Claude Files\TSB comps\fx\`) against the comps now on the timeline.
+- Claude faked effects: home-made glows instead of **NeoGlow**, "shadow boxes" instead of the **DropShadow** node. He builds depth with real nodes (NeoLightSweep, NeoGlow, DropShadow, NeoBevel, reflection). Rule in [[03-Areas/video-editing/ways-of-working|ways of working]].
+- The intro is his. Ideate it on the sheet, never place visuals before it ends.

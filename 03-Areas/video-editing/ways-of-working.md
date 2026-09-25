@@ -2,7 +2,7 @@
 type: knowledge
 area: video-editing
 status: active
-updated: 2026-09-22
+updated: 2026-09-25
 source: memory-export
 tags: [conventions, agents, fusion]
 ---
@@ -68,6 +68,20 @@ Phase-gated. Phases are defined upfront — **intake → cut analysis → transc
 - The effects chain runs **inline on the spine in order** — NeoBevel, NeoLightSweep, DropShadow, NeoAnim — never hung off to the side.
 - Source footage (Adjustment Clip / MediaIn) enters at the **bottom right** and merges into the final Merge before `MediaOut1`, which sits far right.
 - Third-party macros in use: **NeoLightSweep Pro, NeoBevel, NeoAnim, NeoTextMotion, MosaicBlur.**
+
+## Effects are real nodes, never faked — Samuel, 2026-09-25
+
+On *Taking a Step Back from Claude*, Claude built its own glows and "shadow boxes" instead of using the effect nodes, and Samuel had to correct it. His words: *"I have a plugin called Neo Glow, which is well what I use for glows. It didn't use that… instead of it to use shadows, the actual drop shadow node, it was creating a shadow box."* And: *"I always use actual nodes that can help me create those visuals so light sweep glow node actual drop shadow um reflection."*
+
+- **Glow = NeoGlow.** Never a blurred copy or a soft coloured box standing in for a glow.
+- **Shadow = the DropShadow node.** Never a dark offset rectangle behind a card.
+- **Shine = NeoLightSweep Pro. Bevel = NeoBevel. Reflection = a real reflection** (the Renderer3D/Opacity/GaussianBlur rig in [[fusion-node-system]] §3, or a flipped, faded copy only where that is his method).
+- An HTML preview may imitate these looks, but every effect in it must map one-to-one to the node that will make it in Fusion. The cut sheet names that node.
+- **Not sure which node makes a look? Ask him.** Don't invent a workaround.
+
+## The intro is Samuel's — 2026-09-25
+
+*"Every intro is Samuel."* Visual ideas for the intro still go on the cut sheet, as inspiration for him. **Nothing is placed on the timeline before the intro ends.** Visuals start on the first sentence after it.
 
 ## Animation and tidiness
 
