@@ -37,6 +37,7 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 - [[fusion-recipes]] — reproducible node-by-node builds, including what was ruled out and why
 
 **The craft**
+- [[visual-vocabulary]] — what makes a visual Samuel's, his list styles, why Claude's TSB visuals were called mediocre, the agency's best editor, the Route Rise editing guide
 - [[routerise-house-style]] — delivery spec, ten structural rules, track layout, cut rhythm, zooms, PIP demo system, sound design, typography, animation timing constants
 - [[fusion-node-system]] — node layout conventions, build recipes, adjustment-clip system, NeoTextMotion, worked examples from 107 comps
 - [[tsb-graphics-pipeline]] — the graphics pipeline
