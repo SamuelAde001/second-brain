@@ -46,7 +46,7 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 
 **The work**
 - `clients/` — [[alex|Alex]] (the client) · [[routerise|Routerise]] (the agency)
-- `sops/` — [[routerise-job-setup]] (card → synced timeline) · [[routerise-cut-workflow]]
+- `sops/` — [[routerise-job-setup]] (card → synced timeline) · [[routerise-cut-workflow]] · [[visual-sheet-pipeline]] (a rendered visual per sentence, placed for review)
 - [[client-acquisition]] — the USD retainer goal
 - [[delivered-projects]] — every client video delivered so far, one row per video. Owned by the video-editor agent; the finance agent reads it to know a month's income before invoice day.
 

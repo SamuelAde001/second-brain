@@ -145,3 +145,15 @@ Samuel: *"you made some stupid mistakes still, left in parts that where obvously
 - The TSB final (`v2.1.mp4`) includes **Samuel's corrections to Claude's 3:06–end**. It isn't Claude's work as delivered. To see what he fixed, diff Claude's original `.comp` files (`Claude Files\TSB comps\fx\`) against the comps now on the timeline.
 - Claude faked effects: home-made glows instead of **NeoGlow**, "shadow boxes" instead of the **DropShadow** node. He builds depth with real nodes (NeoLightSweep, NeoGlow, DropShadow, NeoBevel, reflection). Rule in [[03-Areas/video-editing/ways-of-working|ways of working]].
 - The intro is his. Ideate it on the sheet, never place visuals before it ends.
+
+## 2026-09-25 — First visual-sheet run (Route Rise #3): what worked, what bit
+
+- **HTML → frame-exact video works** with stdlib Python + headless Chrome over CDP (`scripts/visual-engine/`): about 6 fps per tab, 3 tabs in parallel, 59 visuals (≈ 5.5 min of screen) rendered in about 12 minutes total. The method is in [[03-Areas/video-editing/sops/visual-sheet-pipeline|the visual sheet pipeline]].
+- **`AppendToTimeline` `endFrame` is exclusive.** I lost a frame on every clip the first time.
+- **A scene that declares `const R` at top level silently empties the render**, because it shadows the engine's `R()`. The renderer now raises on `exceptionDetails`.
+- **A re-rendered file with a new length keeps its old duration in Resolve's media pool.** Delete the item, re-import, re-place.
+- **Small gaps between beats (1–8 frames) flash the A-roll** between full-frame visuals, and at the joins with the screen recording. Close them in `beats.py`.
+- **ffmpeg overlay of one selected frame needs `setpts=PTS-STARTPTS`**, or it composites nothing. The `.mov` alpha was fine all along.
+- **Reading the agency's Notion:** the Notion connector 404s on Route Rise pages, but "copy link" pages resolve to a public `*.notion.site` the in-app browser can read. The module pages hold their content in sub-pages (Visual stimulus / Sound design / Music) and in images (open the image URL directly).
+- **YouTube in the in-app browser** plays ads, and the embed URL fails (error 153). Samuel's Chrome has no ads. Canvas `drawImage` of the YouTube `<video>` is not tainted, so frames can be exported.
+- The Tella recording's screen side sits at x 1200–3683, y 154–1757 of the 3840×1912 frame. Crop it before using frames as UI.

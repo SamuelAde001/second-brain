@@ -32,6 +32,8 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 - **2026-09-25, PA routines rebuilt (General Manager + PA).** Samuel: the brief and night plan read *"like it's talking to itself"*, forgot rules settled in other chats, and didn't work from TickTick or his habits. New `07-Agents/personal-life/standing-rules.md` (read first by every routine; any session that settles a rule updates it and pushes). Night plan checks planned vs ticked vs moved by TickTick ID, all three habits, the whole daily note. Brief lists the main tasks first. Both have a fixed headed layout. Live routines updated. First real test: tonight's 8:45pm night check.
 
+- **2026-09-25 (afternoon), Route Rise #3 visuals v1 (Editor).** Studied the 7M and TSB finals, TSB's node trees (Claude's comps had no real effect nodes; Samuel's rule is now in ways-of-working), the agency's best editor and the Route Rise editing guide → `03-Areas/video-editing/visual-vocabulary.md`. Built an HTML→video engine (`03-Areas/video-editing/scripts/visual-engine/`, SOP `sops/visual-sheet-pipeline.md`). 59 visuals placed on V7 of *Visuals v1 (Editor)*; the intro is left for Samuel. Sheet: https://claude.ai/artifact/J9DBqn2K3ib7NomPWbxLzM. Next: Samuel reviews per beat, approved ones become Fusion comps. Delivery due Monday 2026-09-28.
+
 **14-day target for Phases 0–4:** 2026-10-04. Day 5 of 14. Still to build: job skills `brainstorm`, `plan`, `systemize`, `commit`, and the editing job skills.
 
 ---

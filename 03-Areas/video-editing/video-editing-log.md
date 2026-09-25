@@ -23,3 +23,4 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 - 2026-09-24 — **Route Rise #3 cut by the Editor:** waveform gap pass, retakes removed, 9:34 cut with A-roll, Tella and mic frame-locked, 8 colour-coded chapters, transcript .docx. New in the [[03-Areas/video-editing/sops/routerise-cut-workflow|cut SOP]]: the frame-grid rule (conform the mic to 23.976), clock drift, per-clip transcription, teleprompter detection. Detail in [[04-Projects/routerise-4-ai-tools|the project note]].
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]
+- 2026-09-25 — **Route Rise #3 visuals v1:** style study (7M, TSB, the agency's best editor, the Route Rise guide) → [[visual-vocabulary]]. 59 rendered visuals, one per sentence after the intro, placed on *Visuals v1 (Editor)* V7 for Samuel's review. New SOP [[visual-sheet-pipeline]].

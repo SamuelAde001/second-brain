@@ -107,7 +107,9 @@ Steps: (1) study both finals and timelines, read-only → a visual-vocabulary no
 - Timeline *Visuals v1 (Editor)* = duplicate of Cut v6 (Samuel's final cut with Tella V4 + PIP V6). Visuals on **V7 "Claude visuals v1"**, one video per sentence, Apricot. Subtitle track (for timings) disabled.
 - Source of truth: `Graphics\Visuals v1\beats.py`. Scenes in `scenes\src\`, renders in `renders\`, stills in `stills\`. Re-render one beat: `python render.py B07`, then re-place it.
 - AppendToTimeline `endFrame` is **exclusive** (pass the full frame count).
-- Done: Clay B01–B12. Next: Railway B13–B25, mid-CTA B26–B32, Claude B33–B36, Wispr B37–B41, together B42–B63, outro B64.
+- **Done 2026-09-25: 59 visuals placed on V7** (Clay, Railway, mid-CTA, Claude, Wispr Flow, the four tools together, recap, outro). Intro left empty (Samuel's); 6 intro ideas on the sheet only. Screen-recording stretches untouched. Every clip verified frame-exact.
+- **Visual sheet:** https://claude.ai/artifact/J9DBqn2K3ib7NomPWbxLzM (private) and `Docs\Visual sheet - Visuals v1 (2026-09-25).html`.
+- **Next:** Samuel reviews each beat (keep / reject / rebuild in Fusion). Approved ones become Fusion comps (step 6). Music, SFX and MagicZoom not placed.
 
 ## Open
 

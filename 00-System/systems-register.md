@@ -33,6 +33,7 @@ Roster and planned agents: [[07-Agents/roster|roster]].
 | Script review | checklist | content | [[script-review-checklist]] | He sends a script for review | unknown | active |
 | Test a Scripnals APK | SOP | orchestrator | [[03-Areas/scripnals/sops/test-an-apk\|test-an-apk]] | The devs send a new APK | 2026-09-22 | active |
 | Routerise cut workflow | SOP | video editing (Phase 4) | [[routerise-cut-workflow]] | A Routerise edit starts | unknown | active |
+| Visual sheet pipeline | SOP + scripts (`scripts/visual-engine/`) | video editing | [[visual-sheet-pipeline]] | A cut is final and needs visuals | 2026-09-25 | active |
 
 ## Skills — in the Brain
 

@@ -1,0 +1,120 @@
+/* Route Rise #3 visual kit. Every look here maps to a Fusion node Samuel uses:
+   .bevel = NeoBevel, .sweep = NeoLightSweep Pro, .glow-* = NeoGlow, .shadow = DropShadow,
+   .reflect = NeoReflection, .glass = GaussianBlur frosted panel, 3D = Transform3D / ImagePlane3D. */
+@font-face { font-family: "Geist"; src: url("../_assets/fonts/Geist-VariableFont_wght.ttf"); font-weight: 100 900; }
+
+:root {
+  --acc: #FF5A1F;        /* Frontal accent */
+  --acc2: #FD9457;       /* lighter orange */
+  --deep: #1B0903;       /* accent x 0.10 */
+  --ink: #0B0605;
+  --good: #3ED07E;
+  --bad: #F0453A;
+  --warn: #F5B53D;
+  --violet: #8B6CFF;     /* Railway world */
+  --navy: #110F1B;
+  --terra: #D97757;      /* Claude */
+  --cream: #F5F1EA;
+  --pink: #F08CC0;       /* Wispr Flow */
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; background: transparent; }
+body { font-family: "Geist", "Segoe UI", Arial, sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+#stage { position: absolute; inset: 0; overflow: hidden; }
+.abs { position: absolute; }
+.center { left: 50%; top: 50%; transform: translate(-50%, -50%); }
+.fx { will-change: transform, opacity, filter; }
+
+/* ---------- grounds ---------- */
+.ground { position: absolute; inset: -40px; }
+.ground.warm { background:
+  radial-gradient(ellipse 70% 55% at 50% 108%, rgba(255,90,31,.42), rgba(255,90,31,0) 70%),
+  radial-gradient(ellipse 60% 50% at 50% 40%, #1d0c07 0%, #0d0706 60%, #070403 100%); }
+.ground.violet { background:
+  radial-gradient(ellipse 70% 55% at 50% 108%, rgba(139,108,255,.40), rgba(139,108,255,0) 70%),
+  radial-gradient(ellipse 60% 50% at 50% 40%, #191530 0%, #0f0d1a 60%, #08070e 100%); }
+.ground.red { background:
+  radial-gradient(ellipse 70% 55% at 50% 108%, rgba(240,69,58,.45), rgba(240,69,58,0) 70%),
+  radial-gradient(ellipse 60% 50% at 50% 40%, #220a09 0%, #110605 60%, #080303 100%); }
+.ground.cream { background:
+  radial-gradient(ellipse 70% 60% at 50% 45%, #fbf8f3 0%, #f1ebe2 60%, #e3dace 100%); }
+.ground.light { background:
+  radial-gradient(ellipse 70% 60% at 50% 40%, #ffffff 0%, #f1efec 60%, #dedad4 100%); }
+.grid { position: absolute; inset: -40px; opacity: .55;
+  background-image: linear-gradient(rgba(255,255,255,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.055) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(ellipse 65% 60% at 50% 55%, #000 30%, transparent 85%); }
+.grid.dark { background-image: linear-gradient(rgba(0,0,0,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,.06) 1px, transparent 1px); }
+.vignette { position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(ellipse 85% 80% at 50% 50%, transparent 55%, rgba(0,0,0,.55) 100%); }
+.vignette.soft { background: radial-gradient(ellipse 85% 80% at 50% 50%, transparent 60%, rgba(60,40,20,.22) 100%); }
+.floor { position: absolute; left: -10%; right: -10%; height: 40%; bottom: -8%;
+  background: radial-gradient(ellipse 50% 40% at 50% 0%, rgba(255,255,255,.07), transparent 70%); }
+
+/* ---------- cards ---------- */
+.card { position: absolute; border-radius: 30px; overflow: hidden; }
+.glass { background: linear-gradient(165deg, rgba(255,255,255,.13) 0%, rgba(255,255,255,.04) 45%, rgba(255,255,255,.02) 100%);
+  border: 1.5px solid rgba(255,255,255,.16); backdrop-filter: blur(22px) saturate(140%); }
+.glass.dark { background: linear-gradient(165deg, rgba(30,22,20,.86), rgba(12,9,8,.9)); }
+.orange { background: linear-gradient(165deg, #2d1109 0%, #1B0903 55%, #140602 100%); border: 2.5px solid var(--acc); }
+.orangefill { background: linear-gradient(160deg, #FF7A3D 0%, #FF5A1F 45%, #E2410C 100%); border: 1.5px solid rgba(255,210,180,.55); }
+.lightcard { background: linear-gradient(170deg, #ffffff 0%, #f6f4f1 100%); border: 1px solid rgba(0,0,0,.07); color: #1a1512; }
+.creamcard { background: linear-gradient(170deg, #fffdf9 0%, #f7f2ea 100%); border: 1px solid rgba(80,50,20,.10); color: #2b2420; }
+.navycard { background: linear-gradient(170deg, #1d1a2c 0%, #14121f 100%); border: 1.5px solid rgba(160,140,255,.28); }
+.redfill { background: linear-gradient(160deg, #5a1512, #2a0907); border: 2px solid var(--bad); }
+.greenfill { background: linear-gradient(160deg, #0f3a24, #07190f); border: 2px solid var(--good); }
+
+/* NeoBevel: light on the top edge, shade on the bottom */
+.bevel { box-shadow: inset 0 2px 0 rgba(255,255,255,.38), inset 0 -3px 8px rgba(0,0,0,.35), inset 0 0 0 1px rgba(255,255,255,.04); }
+.bevel.soft { box-shadow: inset 0 1.5px 0 rgba(255,255,255,.9), inset 0 -2px 6px rgba(0,0,0,.06); }
+/* DropShadow node */
+.shadow { filter: drop-shadow(0 28px 36px rgba(0,0,0,.55)) drop-shadow(0 6px 10px rgba(0,0,0,.35)); }
+.shadow.light { filter: drop-shadow(0 26px 34px rgba(70,45,20,.22)) drop-shadow(0 4px 8px rgba(70,45,20,.14)); }
+/* NeoGlow */
+.glow-acc { filter: drop-shadow(0 0 14px rgba(255,90,31,.85)) drop-shadow(0 0 36px rgba(255,90,31,.45)); }
+.glow-good { filter: drop-shadow(0 0 12px rgba(62,208,126,.9)) drop-shadow(0 0 30px rgba(62,208,126,.45)); }
+.glow-bad { filter: drop-shadow(0 0 12px rgba(240,69,58,.9)) drop-shadow(0 0 30px rgba(240,69,58,.45)); }
+.glow-violet { filter: drop-shadow(0 0 12px rgba(139,108,255,.9)) drop-shadow(0 0 32px rgba(139,108,255,.5)); }
+.glow-white { filter: drop-shadow(0 0 10px rgba(255,255,255,.7)); }
+.tglow { text-shadow: 0 0 18px rgba(255,90,31,.75), 0 0 42px rgba(255,90,31,.35); }
+/* NeoReflection */
+.reflect { -webkit-box-reflect: below 14px linear-gradient(transparent 72%, rgba(255,255,255,.10)); }
+/* NeoLightSweep Pro: a band that crosses the element (position driven from JS) */
+.sweep { position: absolute; inset: -20%; pointer-events: none; mix-blend-mode: screen;
+  background: linear-gradient(105deg, transparent 38%, rgba(255,255,255,.08) 44%, rgba(255,255,255,.55) 50%, rgba(255,255,255,.08) 56%, transparent 62%);
+  transform: translateX(-120%); }
+.lightcard .sweep, .creamcard .sweep { mix-blend-mode: soft-light; }
+
+/* ---------- type ---------- */
+.caps { text-transform: uppercase; letter-spacing: .02em; font-weight: 800; }
+.title { font-weight: 850; font-size: 92px; line-height: .98; letter-spacing: -.01em; text-transform: uppercase; }
+.acc { color: var(--acc); }
+.two .w { display: inline-block; margin-right: .22em; }
+.label { font-weight: 700; font-size: 26px; letter-spacing: .06em; text-transform: uppercase; }
+.mono { font-family: Consolas, "Cascadia Mono", monospace; }
+.serif { font-family: Georgia, "Times New Roman", serif; }
+
+/* ---------- pills / chips ---------- */
+.pill { position: absolute; height: 92px; border-radius: 22px; display: flex; align-items: center; padding: 0 40px 0 30px; gap: 22px; overflow: hidden; }
+.pill .num { font-weight: 900; font-size: 120px; line-height: 1; color: rgba(255,255,255,.28); margin: 0 6px 0 -6px; letter-spacing: -.04em; }
+.pill .txt { font-weight: 800; font-size: 38px; text-transform: uppercase; letter-spacing: .01em; }
+.chip { position: absolute; display: flex; align-items: center; gap: 14px; padding: 14px 24px 14px 16px; border-radius: 18px; font-weight: 750; font-size: 26px; text-transform: uppercase; letter-spacing: .02em; white-space: nowrap; }
+.dot { width: 14px; height: 14px; border-radius: 50%; display: inline-block; }
+
+/* icons from Samuel's Assets folder, tinted through a mask */
+.ico { display: inline-block; flex: none; background: currentColor;
+  -webkit-mask-size: contain; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; }
+.ibox { display: flex; align-items: center; justify-content: center; flex: none; border-radius: 16px; }
+
+/* ---------- UI mock bits ---------- */
+.win { position: absolute; border-radius: 16px; overflow: hidden; background: #fff; color: #1d1d1f; }
+.win .bar { height: 44px; background: linear-gradient(#f4f3f1, #e9e7e3); display: flex; align-items: center; gap: 9px; padding: 0 16px; border-bottom: 1px solid rgba(0,0,0,.08); }
+.win .bar i { width: 13px; height: 13px; border-radius: 50%; display: block; }
+.win .bar i:nth-child(1) { background: #ff5f57; } .win .bar i:nth-child(2) { background: #febc2e; } .win .bar i:nth-child(3) { background: #28c840; }
+.win .bar .url { margin-left: 18px; flex: 1; height: 26px; border-radius: 8px; background: #fff; font-size: 14px; color: #666; display: flex; align-items: center; padding-left: 12px; }
+.shot { position: absolute; background-size: cover; background-position: center; }
+.line { height: 12px; border-radius: 6px; background: rgba(0,0,0,.09); }
+.dline { height: 12px; border-radius: 6px; background: rgba(255,255,255,.12); }
+.cursor { position: absolute; width: 34px; height: 46px; z-index: 50;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 32'><path d='M2 2 L2 26 L8 20 L12 30 L16 28 L12 18 L20 18 Z' fill='white' stroke='black' stroke-width='1.6' stroke-linejoin='round'/></svg>") no-repeat;
+  background-size: contain; filter: drop-shadow(0 3px 4px rgba(0,0,0,.4)); }

@@ -2,7 +2,7 @@
 type: agent
 area: video-editing
 status: active
-updated: 2026-09-23
+updated: 2026-09-25
 source: interview
 tags: [agent, video-editing, resolve, fusion]
 name: video-editor
@@ -52,8 +52,8 @@ Steps map to [[03-Areas/video-editing/workflow|the brief-to-payment workflow]] a
 | 1 | Cut from the script in Resolve — sync → ripple silence → transcribe → remove bad takes. The client freestyles off-script, so work from the footage, not the assumption that it follows the script. | `routerise-cut` (encodes [[03-Areas/video-editing/sops/routerise-cut-workflow\|the SOP]]) | **to build** |
 | 2 | Sectionalise the cut into major sections — must be right before anything proceeds. | folded into the edit pass | reuse `video-edit-pass` |
 | 3 | Transcribe the cut to a per-section document to refer to throughout. | `subtitle-transcript-formatter` | reuse (platform) |
-| 4 | Ideate the visual for **every sentence** — a cut-sheet storyboard as a full HTML page (never a chapter summary). Includes ideating the intro **for Samuel to edit himself.** | ideation / cut-sheet skill | **to build** — [decided 2026-09-21: does not exist yet](../../00-System/decisions.md) |
-| 5 | Visualise the approved storyboard as animated HTML/CSS so Samuel sees and approves the visual before it is built for real. | `storyboard-preview` | **to build** |
+| 4 | Ideate the visual for **every sentence** — a cut-sheet storyboard as a full HTML page (never a chapter summary). Includes ideating the intro **for Samuel to edit himself.** | ideation / cut-sheet skill | **SOP + engine working, skill to build** — first run Route Rise #3 (2026-09-25): [[03-Areas/video-editing/sops/visual-sheet-pipeline\|visual sheet pipeline]] |
+| 5 | Visualise the approved storyboard as animated HTML/CSS so Samuel sees and approves the visual before it is built for real. | `storyboard-preview` | **working** as rendered videos placed on a duplicate timeline (Samuel's call, 2026-09-25), `scripts/visual-engine/` |
 | 6 | Convert approved visuals into **editable Fusion comps on the timeline**. | `html-to-fusion` | **bridge proven 2026-09-21**; skill to build |
 | 7 | Standing job: professional DaVinci Resolve expert — bugs and anything Resolve-related, continuously, not only in this pipeline. | the agent itself | active |
 | 8 | Standing job: **keep [[03-Areas/video-editing/delivered-projects\|delivered projects]]**, one row per video, appended the day it's delivered. The finance agent reads it to know a month's income before invoice day. Samuel, 2026-09-22: *"My video editing agent should count the projects done so far with there names, and details so that the finance agent can get that knowledge."* | the agent itself | active; backfilled 2026-09-22 |
