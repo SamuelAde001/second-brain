@@ -90,6 +90,18 @@ Cut v2/v3 were rebuilt clip by clip with a drift model and went out of sync. Sam
 - **Transcript:** `Docs\Transcript - Final cut (2026-09-25).docx`, one chapter per colour run, prompts boxed, 5 check-by-ear notes: "one provider can find" (can't?), "ICP and time estimates" (TAM?), "all the odd one play", "B2B about campaign" (outbound?), and whether the "I" in "how would I actually bring" survived the trim at 8:15.
 - What the Editor missed and why: [[03-Areas/video-editing/sops/routerise-cut-workflow|cut SOP]], "What Samuel still had to fix on Route Rise #3".
 
+## Visuals plan (proposed 2026-09-25, waiting for Samuel's go)
+
+Samuel's brief (2026-09-25): a visual for every main sentence, *"show and not tell"*, built as rendered HTML videos placed on the timeline (not Fusion nodes yet). He approves per beat, then approved ones get rebuilt as Fusion comps. The TSB visuals Claude made were called *"very mediocre… shallow… didn't have depth"* by his creative director. Study his own edits first: the finals of *$7M Founder* and *Taking a step back from Claude*, and their main timelines.
+
+Found before planning:
+- Samuel's working timeline is *Cut v6 (Editor) - retakes removed* (9:55). He added Tella on V4 and the mirrored A-roll PIP on V6, 161 pieces each, 71 disabled. Screen rec on: 1:29–2:14, 2:49–3:06, 3:09–3:15, 4:26–6:24, 6:55–8:15. The rest (~5.5 min) is A-roll, where visuals can go.
+- Finals: `$7M…2.mp4` (7:30) and `1. Taking a step back…2.1.mp4` (10:41). TSB `v2.mp4` is a broken render (no moov atom).
+- Reusable study material: `Claude Files\Style Study - Cold Outreach\` (frames, 13 node screenshots, `timeline1_full.json`), `Claude Files\TSB frames\`, `TSB comps\`. On TSB, Claude built 3:06–end and Samuel built 0:00–3:06 ([[03-Areas/video-editing/tsb-graphics-pipeline|TSB pipeline]]).
+- Render tooling: Chrome + `Claude Files	ools\cdp_shot.py` (stdlib CDP), ffmpeg 9.0.1, node. No PIL/numpy.
+
+Steps: (1) study both finals and timelines, read-only → a visual-vocabulary note; (2) visual sheet, one row per sentence; (3) style check: the hook's visuals rendered and placed first; (4) build and render the rest; (5) place on a duplicate *Visuals v1 (Editor)*, V7; (6) Samuel reviews per beat; (7) Brain notes and commit.
+
 ## Open
 
 - Monday delivery time — needs-input.
