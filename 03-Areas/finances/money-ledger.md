@@ -111,5 +111,6 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-09-23 | bulk | -10,000 | Loan to a friend (moved to Giving) | Loan to a friend | reverses the 2026-09-22 loan row |
 | 2026-09-23 | bulk | 10,000 | Given to a friend (was a loan, not coming back) | Giving | his words: "It is not coming back, also the 10k is not coming back too, I decided to give them completly" |
 | 2026-09-23 | correction | — | 2026-09-23 bulk Sent to someone who needed it 5,000: given, not a loan | — | his words: "It is not coming back, also the 10k is not coming back too, I decided to give them completly". No change to the row |
+| 2026-09-25 | bulk | 30,000 | Ticket, creatives networking event (2026-09-26, 2:00pm) | Networking event | his words: "I just paid for the event ticket now, 30k"; NGN taken from "30k"; money-check said doesn't fit, paid from the Buffer refill + Eating out (plan changed 2026-09-25) |
 
 Back to [[03-Areas/finances/finances|Finances]]

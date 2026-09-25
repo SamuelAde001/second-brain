@@ -33,8 +33,9 @@ Route Rise's 5-day cap starts today (2026-09-24), so Monday is day 5. Sunday is 
 | Fri 09-25 7:00–10:30am | Cut: duplicate timeline, sync, ripple silence, remove fluff |
 | Fri 09-25 10:30am–1:00pm | Claude pass: SRT + XML → what's still uncut, sections locked, transcript |
 | Fri 09-25 7:00–9:00pm | Visual ideation: full HTML cut sheet, every sentence, approved tonight |
-| Sat 09-26 7:00am–1:00pm | Visuals: intro + first half |
-| Sat 09-26 7:00–9:00pm | Visuals: to ~75% |
+| Sat 09-26 7:00am–1:00pm | Review Visuals v1 beat by beat + intro, hard stop 1:00pm (changed 2026-09-25: v1 was already placed) |
+| Sat 09-26 1:30–5:00pm | Samuel at a networking event (not client work) |
+| Sat 09-26 7:00–9:00pm | Rebuild approved beats in Fusion |
 | Sun 09-27 | Off |
 | Mon 09-28 7:00am–1:00pm | Visuals: finish |
 | Mon 09-28 2:30–5:00pm | SFX, music, PII blur check, watch-down |
