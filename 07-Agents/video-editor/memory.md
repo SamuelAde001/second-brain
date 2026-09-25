@@ -117,3 +117,11 @@ Built [[03-Areas/video-editing/delivered-projects|delivered-projects]] on Samuel
 - The project note's Tella formula was written backwards: **mic t = Tella t + 270.7 s** (Tella starts 4:30 into the mic). The Railway dashboard *is* on the Tella recording. Look at frames before writing "not on screen".
 - **Reading source positions back from a timeline:** `TimelineItem.GetSourceStartFrame()` floors a float (1553.9999 → 1553), so rebuilding from it moves clips a frame early. Use `round(GetLeftOffset(True))` in timeline frames; for a 29.97 camera on 23.976 that's × 1.25, for a 30 fps Tella × 30000/23976. There is no API to move or ripple-insert clips. To add clips into a cut: duplicate the timeline, clear its tracks and markers, and re-append the whole list with `recordFrame` (594 pieces in one `AppendToTimeline` call, frame-exact).
 - **Rebuilding the transcript doc:** parse the previous .docx back into a `transcript_docx.py` spec (Heading1 fill = chapter hex, `F3ECFA` = prompt box, "NOTE: " = note, numId 1/2 = bullet/num), edit the lines, and shift note times by the inserted frames.
+
+## 2026-09-25 — Cut from the synced raw with Resolve's own silence tool; don't rebuild cuts clip by clip
+
+- **Samuel's method replaces my rebuilds:** duplicate the synced raw timeline, delete the Tella audio, select all, `Clip > Audio Operations > Ripple Delete Silence…`, then clean the leftover noise clips. Every track is cut at the same frame, so sync can't drift. My Cut v2/v3 rebuilds (placing each clip from a drift model) are what broke sync. Samuel: *"you are over complicating things"*.
+- **The silence dialog's threshold isn't an ffmpeg RMS number.** Set it from the red preview on the clips. Samuel's #3 values: −33.4 dB / pre 0 / post 3 / min 2.
+- **Never press Ctrl+Z to fix a small stray edit right after a script action.** Resolve's undo stack includes script operations, and it undid the whole timeline duplicate. Fix stray edits by script, or tell Samuel.
+- **Samuel is fine with screen control of Resolve when he asks for a GUI step** (2026-09-25, overriding the 2026-09-24 "declined" for that task). He watches and corrects live, so narrate each step.
+- Noise vs word in a short clip: level alone decides only the clear cases. Anything short with speech-level sound gets coloured for Samuel, never cut.

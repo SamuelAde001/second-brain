@@ -3,7 +3,7 @@ type: sop
 area: video-editing
 status: active
 source: claude-export
-updated: 2026-09-24
+updated: 2026-09-25
 tags: [sop, routerise]
 ---
 
@@ -53,6 +53,24 @@ tags: [sop, routerise]
      | Cross fade audio | **off** |
 
    - Doing this step programmatically instead of through the dialog is fine, as long as the detection reads the actual waveform at this same threshold and minimum duration.
+
+   ### Route Rise #3 run (2026-09-25): Samuel's method, the one to follow
+   Samuel, after two scripted cuts dropped lines and drifted out of sync: *"We are working with the origingal synced video raw now. Use the ripple delete silence tool in Davinici resolve"*.
+   - **Work on a duplicate of the synced raw timeline** (`A-roll synced (raw)` → `Cut v4 (Editor) - ripple silence`). V1 camera, V2 Tella, A1 mic. **Delete the Tella audio track first**: only one audio drives the cut.
+   - Select every clip (click the timeline, Ctrl+A; check off-screen tracks are included), then `Clip > Audio Operations > Ripple Delete Silence…`. The dialog previews the silence to be removed in red on the clips. Move the threshold and watch the red: it must sit only in gaps, never on a waveform.
+   - **The settings change per video.** Samuel's settings for #3: Threshold **−33.4 dB**, Pre head **0**, Post tail **3**, Minimum to strip **2**, Cross fade **off**. The dialog's defaults (−28.4 / 0 / 2 / 6) are not safe.
+   - **Resolve's threshold isn't the same scale as an ffmpeg RMS reading.** The raw mic measured −60 dB room tone and −36 to −27 dB speech in 50 ms RMS windows. But −48 in the dialog marked nothing as silence, while −40 and −36 caught the same gaps. Pick the value from the red preview, not from the RMS numbers.
+   - **Result on #3:** 41,137 → 19,426 frames, 331 clips, V1/A1 clip-for-clip aligned. Sync kept, because the tool cuts every selected track at the same frame.
+   - Driving the dialog by screen control: typed values in *Post tail* were sometimes not accepted (typed 1, stayed 0). **Ctrl+Z after a timeline duplicate can undo the duplicate itself.** Check by script which timeline is current after any undo.
+
+   ### 2b. Remove the leftover noise clips (after the silence pass)
+   Ripple Delete Silence leaves small clips of room noise, breaths and clicks. Samuel: *"there is going to be some noise, left in the timeline as small clips, ensure those are gone"*.
+   1. Duplicate the silence timeline (`Cut v5 (Editor) - noise clips removed`), export its FCP7 XML to the job's `Docs\`.
+   2. `python 03-Areas/video-editing/scripts/noise_clips.py <xml> <raw mic wav>` measures every A1 clip: **noise** = no 50 ms window above −40 dB; **ambiguous** = 12 frames or shorter with sound at speech level; the rest is speech.
+   3. Ripple-delete the noise clips with `Timeline.DeleteClips([V1, A1 and V2 items at each span], True)`. Check first that no V2 clip straddles a span. Don't match V2 clips with a nested loop over API calls: 331 × 263 calls timed out at 60 s. Grab each track once into tuples.
+   4. Colour ambiguous clips **Pink** with a Pink marker for Samuel. Never cut them.
+   5. Verify: every kept clip's `GetLeftOffset(True)` on V1, A1 and V2 equals the silence timeline's, V1/A1 aligned, no gaps, and the duration dropped by exactly the noise total.
+   - #3: 73 noise clips (310 frames) removed, 6 ambiguous left Pink, 258 clips, 19,116 frames. One 7-minute recording break (mic 12:03–19:00) was nothing but noise clips.
    - **This order applies to every voice-over, not just Route Rise** (Samuel, 2026-09-24: *"use the waveform to cut out the gaps, never cut with the transcription, and then after that, remove the mistakes"*). Samuel's own VO at home needs a higher threshold because the room is noisier: see [[07-Agents/content/memory|Brand manager memory]], 2026-09-24.
 
    ### Frame grid — the audio cut must sit on the video cut (Samuel's correction, 2026-09-24)
@@ -64,6 +82,8 @@ tags: [sop, routerise]
 
    ### A camera–mic clock drift exists on long takes
    On Route Rise #3 the mic ran about 129 ppm slow against the camera (offset −9.775 s at 2:30, −9.952 s at 25:00, linear within 7 ms). One constant offset puts the ends 2 frames out of sync. Measure the offset in three windows (motion correlation at 30 Hz, 240 s each) and fit a line; place each clip's camera source from that line.
+
+   **Correction, 2026-09-25:** the drift model above is suspect. Clips placed with it in Cut v2/v3 felt out of sync to Samuel, and a camera-vs-Tella picture check found no trend. The raw timeline's single constant offset is the one Samuel checked as perfect. Don't rebuild cuts clip by clip from a drift line. Cut a duplicate of the synced raw with Ripple Delete Silence, so every track is cut at the same frame (see the #3 run above).
 
 3. **Transcribe** — only after the silence pass, not before.
    - `MediaPoolItem.TranscribeAudio(False, False)` returns `True` immediately; the actual result arrives asynchronously — poll `GetTranscription()` for 20–40 s. Set `transcriptionLanguage = "en"` first.
