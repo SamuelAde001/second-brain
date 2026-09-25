@@ -83,6 +83,13 @@ Cut v2/v3 were rebuilt clip by clip with a drift model and went out of sync. Sam
 - **Transcript crosscheck (fresh subtitles on v6):** reads as one piece, every script section present in order, no other repeats.
 - **8 sections colour-coded** as before (clip colours + duration markers): Hook 0:00 · Clay 0:30 · Railway 2:33 · Mid-CTA 3:54 · Claude 4:23 · Wispr Flow 7:01 · Bringing the 4 together 9:10 · Outro 10:51.
 
+## Final cut (Samuel, 2026-09-25)
+
+- **Samuel finished the cut on the timeline "Cut v6 (Editor) - retakes removed": 9:55, 191 clips. This is the final cut.** Sync checked (V1/A1 aligned, camera–mic offset unchanged on every piece), no noise clips, no flash frames, no gaps, nothing from outside v5. All markers removed. XML: `Docs\Final cut by Samuel (2026-09-25).xml`.
+- 11 sections by clip colour: Hook 0:00 · Clay 0:30 · Clay demo 1:29 · Railway 2:14 · Railway demo 2:29 · Mid-CTA 3:34 · Claude + GTM OS demo 4:03 · Wispr Flow 6:24 · Wispr Flow demo 6:55 · Together 8:15 · Outro 9:43.
+- **Transcript:** `Docs\Transcript - Final cut (2026-09-25).docx`, one chapter per colour run, prompts boxed, 5 check-by-ear notes: "one provider can find" (can't?), "ICP and time estimates" (TAM?), "all the odd one play", "B2B about campaign" (outbound?), and whether the "I" in "how would I actually bring" survived the trim at 8:15.
+- What the Editor missed and why: [[03-Areas/video-editing/sops/routerise-cut-workflow|cut SOP]], "What Samuel still had to fix on Route Rise #3".
+
 ## Open
 
 - Monday delivery time — needs-input.
@@ -95,3 +102,4 @@ Cut v2/v3 were rebuilt clip by clip with a drift model and went out of sync. Sam
 - 2026-09-25 — Samuel found the scripted hook missing. Crosscheck of every raw mic line vs Cut v2: 4 places wrongly cut (opener "I've tested a lot of AI tools… I realized something", 4 takes at mic 0:20–0:47; Clay "look for a lot of different data points… useful signal" mic 4:43; "running ads on LinkedIn" mic 5:01; "to actually make it real" mic 25:23). Everything else cut is a true retake or a slip. Correction: the Railway dashboard IS on the Tella recording (~Tella 3:25–4:00), and the sync line above reads the wrong way round: mic t = Tella t + 270.7 s. Next: restore the four into a Cut v3 once Samuel picks the hook take.
 - 2026-09-25 — **Cut v3 (Editor) - 4 restores** built (9:52, 209 clips; v2 kept as is). Opener: take 1 + take 4 (orange) on the timeline for Samuel to pick one. Clay lines and "make it real" restored. Blue "Restored" markers on every new clip. Transcript: `Docs\Transcript - Cut v3 (2026-09-25).docx`. Next: Samuel listens to the restores, picks the hook take, then visuals.
 - 2026-09-25 — Cut restarted from the synced raw on Samuel's instructions: Ripple Delete Silence (Cut v4), noise clips removed (Cut v5), retakes removed and sections colour-coded (**Cut v6, 11:02**). 20 Orange clips left for Samuel. Next: Samuel resolves the Orange clips, then the transcript doc and the Claude pass / cut sheet.
+- 2026-09-25 — Samuel finished the cut himself (9:55, final). Editor diffed it against Cut v6 for lessons, checked it (clean), and wrote the final transcript. Next: the Claude pass / cut sheet for visuals.

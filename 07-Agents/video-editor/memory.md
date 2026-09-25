@@ -129,3 +129,13 @@ Built [[03-Areas/video-editing/delivered-projects|delivered-projects]] on Samuel
 - **Before ripple-deleting on a timeline with a subtitle track, delete the subtitle items first** (no ripple). Regenerate afterwards for the transcript check.
 - **Flag colour on a colour-coded cut:** Orange, because it's outside the 8-section palette. Pink belongs to the Mid-CTA section.
 - Subtitle export has no API route: File > Export > Subtitle… (GUI). Subtitle text can be read with `GetItemListInTrack("subtitle",1)` + `GetName()` when the GUI is blocked.
+
+## 2026-09-25 — Samuel's verdict on Cut v6: what I got wrong, and the rules that follow
+
+Samuel: *"you made some stupid mistakes still, left in parts that where obvously noise, you left in parts that was obviously retakes, left in some uhms"* and *"I removed most of your clutter"*. His final is 1:07 shorter than my Cut v6. Details in the cut SOP ("What Samuel still had to fix on Route Rise #3").
+- **Never map a timeline-wide subtitle track onto clips by midpoint to judge retakes.** Subtitle lines span clip boundaries, so the text lands on the wrong clip. Transcribe per clip.
+- **Decide, don't flag.** Last clean complete take, inside clips as well as across them. He cut every one of my "unsure" flags the way that rule says. Flags and markers are clutter to him. Keep them for content that exists nowhere else.
+- **Short wordless clips between complete sentences are noise.** Cut them. My −40 dB rule was too strict.
+- **He trims uhms and pauses inside clips** (2–65 frames, 30 places on #3). Resolve's transcripts can't see them. I need a filler-aware word-timed pass before I can do this.
+- **The job isn't done until the uhms are out.** Silence → noise → retakes → uhms → transcript check.
+- **Diffing his final against mine:** compare A1 source ranges (`GetLeftOffset(True)` + duration) of every clip against the reference cut. Covered / trimmed / removed per clip shows exactly what he changed. Worth doing on every job he finishes himself.
