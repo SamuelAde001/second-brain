@@ -9,7 +9,7 @@ tags: [resolve, performance, hardware, cache]
 
 # Resolve performance: why the PC crawls while Resolve caches
 
-Samuel, 2026-09-25: *"My computer gets painfully slow nowadays when Davinci resolve is Caching."* He wants Resolve smooth and the rest of the PC usable at the same time. Everything below was measured on his PC that day by script. Nothing has been changed yet: it's a checklist for him.
+Samuel, 2026-09-25: *"My computer gets painfully slow nowadays when Davinci resolve is Caching."* He wants Resolve smooth and the rest of the PC usable at the same time. Everything below was measured on his PC that day by script. It's a checklist for him; what he applied and the result are under **Results**.
 
 ## The PC (measured 2026-09-25)
 
@@ -67,6 +67,10 @@ Windows can't share one GPU fairly. Resolve's background cache fills the RTX 306
 17. **A second NVMe SSD (1–2 TB)** for cache, proxies and active client footage. This is the biggest upgrade for the "whole PC chokes" symptom: Resolve's disk traffic moves off the drive Windows runs from. Check the motherboard for a free M.2 slot first.
 18. The GPU is the real ceiling. With proxies and sensible caching, a 3060 12 GB is enough for 1080p Routerise deliveries. Upgrade only if Fusion-heavy jobs keep freezing it.
 19. 64 GB RAM only matters for very heavy Fusion. Not now.
+
+## Results
+
+- 2026-09-25 — **Checklist item 1 (proxies) applied by Samuel.** His words: *"Making the video a proxy solved a lot of the cap"*. Proxies are the first fix to try on any job with 4K H.264 sources.
 
 ## Side note
 Client raws are 29.97, the timeline is 23.976. Resolve drops frames to convert, which can make motion judder. Confirm the Routerise delivery spec is 23.976 before the next job.

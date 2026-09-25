@@ -45,3 +45,4 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - **2026-09-25 — October personal-client job booked.** Samuel: NGN 100,000, last week of October. Created [[04-Projects/personal-client-project-2026-10|the project note]] (status needs-input: client, deliverable, due date unknown; open question 91) and a TickTick kickoff block on 2026-10-26. Route Rise #3 Saturday schedule changed around his 2:00pm networking event.
 
 - 2026-09-25 — Diagnosed the PC slowdown during Resolve caching by script (hardware, Resolve prefs and Route Rise #3 project settings, GPU load, startup apps). Nothing changed on the PC or in Resolve. Wrote [[03-Areas/video-editing/resolve-performance|Resolve performance]].
+- 2026-09-25 — Recorded Samuel's result: proxies solved most of the slowdown. Updated [[03-Areas/video-editing/resolve-performance|Resolve performance]] (Results section) and the area log.
