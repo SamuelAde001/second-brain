@@ -1,10 +1,10 @@
 {
   "collapse-filter": false,
   "search": "-path:\"01-Inbox/_imports\"",
-  "showTags": false,
-  "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": false,
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
     {
@@ -109,6 +109,6 @@
   "repelStrength": 10.5079236082893,
   "linkStrength": 1,
   "linkDistance": 179,
-  "scale": 0.45050811767578114,
-  "close": true
+  "scale": 0.11660891579457298,
+  "close": false
 }
