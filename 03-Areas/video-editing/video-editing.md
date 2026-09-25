@@ -34,6 +34,7 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 
 **Solving problems**
 - [[troubleshooting]] — the recurring-problems log: what broke, what actually fixed it, what was never verified
+- [[resolve-performance]] — why the PC crawls while Resolve caches: measured specs and settings, and the fix checklist (2026-09-25)
 - [[fusion-recipes]] — reproducible node-by-node builds, including what was ruled out and why
 
 **The craft**
