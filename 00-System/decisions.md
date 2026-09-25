@@ -432,3 +432,11 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Why:** the run logs showed the 2026-09-24 night run missed a same-day replan (the "3 videos" error), checked two habits of three, and the 2026-09-25 brief collapsed into one paragraph and listed one task out of four.
 
 **Who decided:** Samuel (what's wrong and what he wants). The file, the ID tracking and the message shapes are the General Manager's build.
+
+## 2026-09-25 — The night plan routine runs on Opus
+
+**Samuel:** *"Yes move night plan to Opus"*, on the General Manager's recommendation after the Sonnet run of 2026-09-24 called "Record 3" a miss against a replan made that morning.
+
+**What:** routine `trig_01Pet8jENJ1CEguycgH9suEf` model `claude-sonnet-5` → `claude-opus-5-5`. The morning brief and the Sunday session stay on Sonnet. Updated: the automation note, AGENTS.md §7, the orchestrator profile, the roster. This narrows the 2026-09-23 rule that routines run on Sonnet.
+
+**Cost:** Opus uses more of the shared Pro limit on every night run.

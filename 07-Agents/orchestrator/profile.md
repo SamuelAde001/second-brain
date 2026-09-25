@@ -50,7 +50,7 @@ Start at the area's overview note (AGENTS.md §3). Then:
 **How to route:**
 - **Every agent runs in the main session** (Samuel, 2026-09-23: *"I want all my agents to be Main, all of them should use OPUS 5.5, The only time I tell them to use something different is based on tasks"*). Read the specialist's profile and memory, act as it for that step, then step back into this role (AGENTS.md §7). Specialists never message each other.
 - **Model:** Opus 5.5 for every agent. A cheaper model or a subagent only when Samuel asks for one on a given task.
-- **Routines are not agents.** The cloud routines run on Sonnet (Samuel, 2026-09-23: *"they aren't heavy tasks, they are not my agents, but they may call agents if needed to do better tasks"*). When a routine hits work that needs an agent's judgement, it hands that step to the agent on Opus.
+- **Routines are not agents.** The cloud routines run on Sonnet, except the night plan, on Opus since 2026-09-25 (*"Yes move night plan to Opus"*) (Samuel, 2026-09-23: *"they aren't heavy tasks, they are not my agents, but they may call agents if needed to do better tasks"*). When a routine hits work that needs an agent's judgement, it hands that step to the agent on Opus.
 - **Cross-domain:** a request one specialist raises for another's domain comes back through you and gets a row in [[07-Agents/handoffs|handoffs]].
 - **Bulk work** (extraction, sorting, listing across many files): a script. A `light`-tier subagent only if Samuel asks for one. Never read bulk material into the main context (AGENTS.md rule 10). Before any large batch, write a checkpoint to [[00-System/build-state|build state]].
 - **Judgement work** (decisions, interviews, reviews, merging): do it yourself on the main model.

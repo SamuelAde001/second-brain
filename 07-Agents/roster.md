@@ -36,7 +36,7 @@ Each agent has a folder under `07-Agents/<name>/` with `profile.md` (mission, sc
 - The **video-editor is the first agent built.** Its folder is the pattern the others follow.
 - The **orchestrator is not a subagent.** It's the main session's role, because subagents can't launch subagents. Its profile has no generated adapter.
 - **No agent is a subagent.** Samuel, 2026-09-23: *"I want all my agents to be Main, all of them should use OPUS 5.5, The only time I tell them to use something different is based on tasks"*. Every agent runs in the main session with its profile loaded, on Opus 5.5. A cheaper model or a subagent only when he asks for one on a given task.
-- **Routines are not agents.** The morning brief and night plan run on Sonnet and hand a step to an agent when it needs one.
+- **Routines are not agents.** The morning brief runs on Sonnet and the night plan on Opus (Samuel, 2026-09-25); both and hand a step to an agent when it needs one.
 - **Profiles are canonical and model-neutral.** Any AI can run an agent by reading its profile and memory; a tool's native agent file is generated from the profile by `00-System/scripts/build_adapters.py` ([[00-System/portability|portability]]).
 - Tier: every profile is `strong` (Opus 5.5), by Samuel's instruction of 2026-09-23. Cost is held down by scripts doing the bulk work, not by cheaper models.
 
