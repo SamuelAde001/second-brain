@@ -30,6 +30,8 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 - **2026-09-24 (evening), Route Rise #3 cut (Editor).** Timeline *Cut v2 (Editor) - frame-locked*: 201 clips, 9:34, A-roll + Tella + mic cut on the same frames, 8 colour-coded chapters, 28 check markers, transcript in the job's `Docs`. Samuel caught v1's audio sitting off the video cuts (a 29.97 mic on a 23.976 timeline). Fixed, and the SOP now carries the frame-grid rule. Next: Samuel reviews the cut. Then the Claude pass and cut sheet (Fri). Open for Alex: Railway dashboard footage, and the 4-tool build demo that was never recorded.
 
+- **2026-09-25, PA routines rebuilt (General Manager + PA).** Samuel: the brief and night plan read *"like it's talking to itself"*, forgot rules settled in other chats, and didn't work from TickTick or his habits. New `07-Agents/personal-life/standing-rules.md` (read first by every routine; any session that settles a rule updates it and pushes). Night plan checks planned vs ticked vs moved by TickTick ID, all three habits, the whole daily note. Brief lists the main tasks first. Both have a fixed headed layout. Live routines updated. First real test: tonight's 8:45pm night check.
+
 **14-day target for Phases 0–4:** 2026-10-04. Day 5 of 14. Still to build: job skills `brainstorm`, `plan`, `systemize`, `commit`, and the editing job skills.
 
 ---
