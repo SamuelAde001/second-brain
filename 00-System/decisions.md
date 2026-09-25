@@ -422,3 +422,13 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 
 **Who decided:** Samuel (the path and the job). Read-only by default is the Brand manager's call, from rule 5.
 
+
+## 2026-09-25 — PA standing rules; the brief and night plan rebuilt around TickTick
+
+**Samuel:** *"I don't like the way the The morning Brief and Night plan send there reports"* · *"they forget things that I have settled before on another chat"* · *"majorly work with the ticktick app, they should work well with that to see what has been planned, what has been ticked, what has been adjusted"* · *"Habits I said I would keep"* · *"it sends report not well formatted for me to understand like it's talking to itself"* · *"it should list the tasks for the day, not just the calender, but the main task for the day"* · *"crosscheck the routines to see how they can be better"*.
+
+**What:** (1) New `07-Agents/personal-life/standing-rules.md`: the current settled rules for his day, habits, content and commitments, plus how reports must read. Read first by the brief, the night plan and the weekly review; it wins over older lines. Any session that settles such a rule updates it and pushes (AGENTS.md §9, orchestrator standing duties, PA profile). It is a current-state file, edited in place; history stays in PA memory and log. (2) `night-plan`: reads the whole daily note (replans included); checks each planned task by its TickTick ID (a hidden `%% ticktick: … %%` line written at plan time) as done, not done, moved or removed; reads all three habits; asks only what TickTick can't answer; one fixed message shape with numbered questions. (3) `morning-brief`: main tasks from TickTick first, then the schedule, habits, client, overdue, yesterday; Google Calendar events others created are listed apart from his plan. (4) Both routine prompts shortened to point at the skills, with a git sync first.
+
+**Why:** the run logs showed the 2026-09-24 night run missed a same-day replan (the "3 videos" error), checked two habits of three, and the 2026-09-25 brief collapsed into one paragraph and listed one task out of four.
+
+**Who decided:** Samuel (what's wrong and what he wants). The file, the ID tracking and the message shapes are the General Manager's build.

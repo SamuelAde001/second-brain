@@ -49,3 +49,9 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 - *"I can only do one video at a time, and we agreed to change it to just one video"* · *"we would do the next one another day after my clients edit is done"*. A content must-do is one video. Don't plan or check "3 videos" again. The next episode waits until the client edit is delivered.
 - *"KD video is in the Afternoon, when there is client video, it takes top priority of mornings, no content in the morning"*. On a client day, 7:00am–1:00pm is client work only. Content, including make-ups, goes after the nap. The make-up rule's "earliest block" means the earliest non-client block on those days.
 - Gym check-ins can come from his word at the night plan; the agent marks the habit.
+
+## 2026-09-25 — Why the routines "forgot", and what changed
+
+- His words: *"they forget things that I have settled before on another chat"* · *"it sends report not well formatted for me to understand like it's talking to itself"* · *"it should list the tasks for the day, not just the calender, but the main task for the day"* · *"majorly work with the ticktick app … what has been planned, what has been ticked, what has been adjusted. Habits I said I would keep"*.
+- Read from the run logs: on 2026-09-24 the night routine read only `## Plan`, not the 10:17 replan that cut the day to one video, so it called "Record 3" a miss. It checked two habits of three. On 2026-09-25 the brief listed one must-do and the calendar, not the three Route Rise blocks, and its lines ran into one paragraph on his phone (single line breaks collapse in markdown).
+- Fix: [[07-Agents/personal-life/standing-rules|standing rules]] holds everything settled, read first by every routine. The night check reads the whole daily note and tracks each planned task by its TickTick ID (hidden `%% ticktick: … %%` line at the end of the plan). Both skills now have a fixed, headed message shape.

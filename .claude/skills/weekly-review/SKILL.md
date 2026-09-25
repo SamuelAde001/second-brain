@@ -8,7 +8,7 @@ description: "Samuel's Sunday weekly review and next week's plan: what shipped, 
 
 Samuel, 2026-09-22: yes to a weekly review, and to have it **merged into the Sunday 3:00pm session**: money check first, then this. His rule: *"Sunday is not a work buffer. Plan Sunday from 3:00pm."* Routine: [[00-System/automations/sunday-money-check|Sunday money check + weekly review]].
 
-**Runs in the main session.** Act as the personal-life agent: read `07-Agents/personal-life/profile.md` and `memory.md` first. Time zone `Africa/Lagos`. The week runs Monday to Sunday; the note is the ISO week, `YYYY-Www`.
+**Runs in the main session.** Act as the personal-life agent: read `07-Agents/personal-life/standing-rules.md` first (what he has settled, in any chat; it wins over anything older), then `profile.md` and `memory.md`. The message follows standing rules → how the reports must read: headed sections, one item per line, plain words, questions numbered at the end. Time zone `Africa/Lagos`. The week runs Monday to Sunday; the note is the ISO week, `YYYY-Www`.
 
 ## 1. Gather (tool calls and scripts, not whole files)
 

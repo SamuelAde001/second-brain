@@ -125,6 +125,7 @@ Job skills — `brainstorm`, `plan`, `systemize`, `commit`, plus the editing job
 - Agent actions: append to `07-Agents/<name>/log.md`.
 - Automated jobs: append to `06-Logs/automation/`.
 - Commitments Samuel has asked to be held to: `06-Logs/commitments.md`. Nothing is tracked for accountability unless he marked it.
+- Anything he settles about his day, habits, must-dos or commitments, in any chat: `07-Agents/personal-life/standing-rules.md`, in the same session, then push. The morning brief and night plan read it first.
 - Every structural change to the Brain gets a decision record.
 
 ## 10. Outside-Brain access

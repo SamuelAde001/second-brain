@@ -71,6 +71,7 @@ These come from Samuel's own notes. They apply in every session, whatever the re
 - **Energy:** mornings are his best hours. Afternoons and evenings are low. When planning, put judgement-heavy work in the morning where the client schedule allows ([[02-Me/daily-routine|Daily routine]]).
 - **Accountability:** only for what he has marked ([[06-Logs/commitments|Commitments]], AGENTS.md §9).
 - **Tasks live in TickTick, not the Brain.** Follow the naming rules in the TickTick map.
+- **Anything Samuel settles about his day, habits, must-dos or commitments, in any session and as any agent, goes into [[07-Agents/personal-life/standing-rules|PA standing rules]] in that session, then commit and push.** The routines read only what is pushed (Samuel, 2026-09-25: *"they forget things that I have settled before on another chat"*).
 
 ## Session protocol
 
