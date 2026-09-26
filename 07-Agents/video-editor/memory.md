@@ -166,3 +166,9 @@ Samuel: *"you made some stupid mistakes still, left in parts that where obvously
 - **Correction (same day):** in Transform3D the pivot offset is scaled by the tool's own Scale, so Pivot.Z = -R with Scale 0.075 gives a ring 0.02 wide. Place icons directly (Translate X = R·sin θ, Z = R·cos θ, Rotate Y = θ). Camera3D here (Fit=Height, URSA 4K gate) framed a width-1 plane at 57% from the AoV maths. Measure the render and scale camera Z instead of trusting the AoV formula. The final values that worked are in log.md, 2026-09-26.
 - **Glow on one 3D object only:** give it a unique Material ID and set every other material to 0, because Fusion defaults ImagePlane3D to 1 or 2. Turn on the renderer's MaterialID channel, then use ChannelBooleans (RGBA ← `Material ID FG`, combo value 21) → ColorGain → Glow → additive Merge. Icons and cutouts occlude it correctly. `Glow.Glow` is steeply non-linear: 0.6 is barely visible, 0.9 is a good neon, 1.0 blows out.
 - **Linear keyframes by script:** `AddModifier(id,"BezierSpline")`, `SetInput(id,v,frame)`, then `spline.SetKeyFrames({t0:{1:v0,"RH":{1:..,2:..}}, t1:{1:v1,"LH":{..}}}, True)` with handles at thirds. `comp.CurrentTime = n` works over the bridge.
+
+## 2026-09-26 — Standing rule: "glow" means Neo Glow
+
+- Samuel: *"always use Neo glow next time I ask for Glow"*. Any glow request uses the **Neo Glow** macro, not Fusion's stock `Glow`.
+- Installed at `%APPDATA%\Blackmagic Design\DaVinci Resolve\Support\Fusion\Macros\Neo folder\Neo Glow.setting` (plus `Neo Inner Glow.setting`). It's a macro, so it can't be added with `AddTool("Glow")`. Try `comp.Paste()` of the `.setting` contents or `AddTool` with its macro ID. Adding it by script is still unproven, so test it on the first use. If it can't be added by script, ask Samuel to drop it in and wire around it.
+- Line thickness on a Shape3D torus = `SurfaceTorusInputs.Section`. The glow adds apparent width on top.
