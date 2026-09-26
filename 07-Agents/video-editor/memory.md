@@ -157,3 +157,9 @@ Samuel: *"you made some stupid mistakes still, left in parts that where obvously
 - **Reading the agency's Notion:** the Notion connector 404s on Route Rise pages, but "copy link" pages resolve to a public `*.notion.site` the in-app browser can read. The module pages hold their content in sub-pages (Visual stimulus / Sound design / Music) and in images (open the image URL directly).
 - **YouTube in the in-app browser** plays ads, and the embed URL fails (error 153). Samuel's Chrome has no ads. Canvas `drawImage` of the YouTube `<video>` is not tainted, so frames can be exported.
 - The Tella recording's screen side sits at x 1200–3683, y 154–1757 of the 3840×1912 frame. Crop it before using frames as UI.
+
+## 2026-09-26 — Scripting a heavy 3D comp hangs Resolve: pass-through the renderer first
+
+- Setting ~80 Transform3D inputs in one `run_script` call on a live comp (Software `Renderer3D` fed by a `MagicMask` cutout, 20 image planes) blew the 30 s limit, then Resolve went **Not Responding** and closed. There was no dump, no `nvlddmkm` 153 and no Application Error. Each `SetInput` re-renders the viewed comp.
+- **Before bulk edits on a 3D comp:** set `Renderer3D` and `MagicMask` to pass-through (`TOOLB_PassThrough`), write in small calls (one ring per call), then turn them back on. Never leave `comp.Lock()` / `StartUndo` open across a call that could time out.
+- Icon-ring method (Samuel's): each icon `Transform3D` gets Scale, Translate.Z = R, Pivot.Z = −R, Rotate.Y = i·360/n, which puts the ring centre at the origin. The ring's own Transform3D spins it about its default pivot.
