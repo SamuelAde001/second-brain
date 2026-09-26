@@ -92,6 +92,20 @@ From his review of the first Claude box on Route Rise #3 (he liked the design; t
 - **Hiding a reveal** (logo, name, anything to be revealed later): MosaicBlur (ResolveFX) on that content's own layer only.
 - Keep only the text he asks for. No invented sub-lines ("BY ANTHROPIC" was cut).
 
+### How he finished the four-box visual (Route Rise #3, Composition2) — study, 2026-09-26
+
+Read from his final comp (parsed from a saved copy) and frames. Build this way next time:
+
+- **Each family of elements merges onto its own transparent Background canvas**, then that canvas joins the main line. The four boxes chain onto one canvas (Merge7 → 8 → 9 → 10), the two pills onto another, his card onto a third. This makes it easy to see which is which, and each group can be moved or shined as one.
+- **The background (grid/glow) stays separate from the content.** All the content (card + lines + boxes) goes through one Transform on a PolyPath (a slow move over frames 0–33), and only then merges onto the static background. It works like a camera move.
+- **One shine across the whole row:** a single BrightnessContrast + inclined RectangleMask (width 0.022, height 0.81, angle −18) on the boxes' canvas, moved by a PolyPath across the full frame over frames 36–60. Not one shine per box.
+- **NeoLightSweep Pro width is narrow, about 0.07** (the default 0.2 washes the box).
+- **Connector lines have two points and are curved.** They all start from one point on the top of his card and fan out to each box. They're drawn on fast (about 6.5 frames). There are no right-angle paths.
+- **Timing is quick:** each box moves in about 8 frames and the boxes are about 3.75 frames apart, so the whole row is in within about 20 frames.
+- **The box drop shadows were removed**, since the box glow is enough. The drop shadow on his pills is small and tight (distance 0.008, blur 0.31).
+- **Pills (chips):** RectangleMask (CornerRadius 0.34) → accent Background → GaussianBlur 0.4 → Merge masked by the fill, plus an Instance border in the lighter tint #FD9457, then NeoBevel → NeoLightSweep → DropShadow → **NeoAnim** (slide + blur in). The text is **NeoTextMotion** (Geist SemiBold). The title is NeoTextMotion Geist ExtraBold, with the number in the accent colour.
+- **The layout tells the story of the segment:** title ("4 TOOLS") → the two questions the section answers → the four tools → Alex at the bottom, with every line coming out of him.
+
 ## The intro is Samuel's — 2026-09-25
 
 *"Every intro is Samuel."* Visual ideas for the intro still go on the cut sheet, as inspiration for him. **Nothing is placed on the timeline before the intro ends.** Visuals start on the first sentence after it.

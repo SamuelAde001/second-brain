@@ -195,3 +195,12 @@ Samuel: *"you made some stupid mistakes still, left in parts that where obvously
 - **Animating a macro's control from a generated file:** put a BezierSpline inside the macro's `Tools` and point the inner tool's input at it (Opacity: `Op.Gain`; Light Sweep: `Rectangle1.Center`). It shows as animated on the macro's control.
 - A 454 KB paste (183 nodes, 13 macros) into his heavy comp inside `comp.Lock()` took under 60 s with no hang.
 - `ImportFusionComp` on a scratch Fusion Composition replaced its comp (count stayed 1), so re-importing to iterate is fine there.
+
+## 2026-09-26 — What Samuel changed in my four-box build (the gap to close)
+- I built each element as a separate over-comp merge. He groups each family onto its own transparent canvas and moves the whole content layer over a static background. **Design the group structure first, then the elements.**
+- My timing was about twice as slow (18-frame moves, 8-frame stagger). His: 8-frame moves, a stagger of about 4 frames, lines in about 6 frames.
+- I drew right-angle lines with 4 points. His lines have 2 points, are curved, and all come from one point on the speaker's card.
+- One shine for the set, not one per item. The sweep is narrow (about 0.07). No box drop shadows.
+- He added a title and question pills, so the visual previews the segment. **A visual should say what the section is about, not only show the items.**
+- He set MosaicBlur back to 200 (his value) from my 100.
+- Reading a comp he edited: `comp.Save()` to the scratchpad, then parse top-level tools (`\n\t\t(\w+) = ([\w.]+) {`) and their 4-tab `Input { SourceOp }` links. It's cheap, and it shows exactly what he restructured.
