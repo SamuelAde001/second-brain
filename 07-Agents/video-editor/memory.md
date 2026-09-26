@@ -188,3 +188,10 @@ Samuel: *"you made some stupid mistakes still, left in parts that where obvously
 - **A pasted Loader may render nothing until its `Clip` is re-set** (`SetInput("Clip","")`, then the path again).
 - **`comp.Save(path)` relabels the comp's `COMPS_Name` to that file name.** Check the comp by its signature nodes, not its name, afterwards.
 - **Read his comp's animation before timing an overlay.** His A-roll card animated 0→33, so the box keys start at 30. Read positions from a `comp.Save` copy (the FlowView is nil over the bridge) and place new groups clear of his tree.
+
+## 2026-09-26 — Four-box build: what worked
+- **Fusion polyline points** (PolylineMask / PolylineStroke) are centre-origin, x in width units, y in height units: X = px/1920 − 0.5, Y = 0.5 − py/1080. Verified by render.
+- **PolylineStroke** inputs: `WriteOnStart/WriteOnEnd` (draw-on), colour `PaintApplyColor.Red/Green/Blue`, `CircleBrush.Size`, `Spacing`. PolylineMask write-on is `WritePosition/WriteLength`. ResolveFX MosaicBlur is `ofx.com.blackmagicdesign.resolvefx.MosaicBlur`, and `PixelFrequency` lower = bigger blocks (100 hides a 128 px logo; 200 doesn't).
+- **Animating a macro's control from a generated file:** put a BezierSpline inside the macro's `Tools` and point the inner tool's input at it (Opacity: `Op.Gain`; Light Sweep: `Rectangle1.Center`). It shows as animated on the macro's control.
+- A 454 KB paste (183 nodes, 13 macros) into his heavy comp inside `comp.Lock()` took under 60 s with no hang.
+- `ImportFusionComp` on a scratch Fusion Composition replaced its comp (count stayed 1), so re-importing to iterate is fine there.

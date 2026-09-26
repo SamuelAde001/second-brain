@@ -2,7 +2,7 @@
 type: knowledge
 area: video-editing
 status: active
-updated: 2026-09-25
+updated: 2026-09-26
 source: memory-export
 tags: [conventions, agents, fusion]
 ---
@@ -78,6 +78,19 @@ On *Taking a Step Back from Claude*, Claude built its own glows and "shadow boxe
 - **Shine = NeoLightSweep Pro. Bevel = NeoBevel. Reflection = a real reflection** (the Renderer3D/Opacity/GaussianBlur rig in [[fusion-node-system]] §3, or a flipped, faded copy only where that is his method).
 - An HTML preview may imitate these looks, but every effect in it must map one-to-one to the node that will make it in Fusion. The cut sheet names that node.
 - **Not sure which node makes a look? Ask him.** Don't invent a workaround.
+
+## Box builds — Samuel's corrections, 2026-09-26
+
+From his review of the first Claude box on Route Rise #3 (he liked the design; these are how he builds it):
+
+- **NeoLightSweep Pro is a static shine**, placed so the box looks shiny at its centre. It never animates. *"I don't use lightsweep to actually sweep shine, I just add it in the box to make the box have a shiny look at the center."*
+- **A moving shine = a BrightnessContrast node masked by a slightly inclined RectangleMask**, swiped across the box as it finishes animating in, on top of the static light sweep.
+- **Opacity animation uses his Opacity macro** (`My macros\Opacity.setting`, a BrightnessContrast called `Op` with a Gain control). *"I don't want you to ever do any opacity animation on the merge."* Never key Merge Blend.
+- **No Underlay** on generated builds. Instead, **each box's node structure sits far from every other node group** (its own area of the flow).
+- **Boxes are squares** when he says "box".
+- **Dashed/dotted lines use his "Moving dashed line" setup** (`My macros\Moving dashed line.setting`): transparent Background → Paint with a PolylineStroke (CircleBrush 0.0111, Spacing driven by a Shake 1–2, Smoothness 25) along a polyline, masked by the same polyline as a PolylineMask border (0.0019, Solid off). Animate it on with the stroke's `WriteOnEnd`.
+- **Hiding a reveal** (logo, name, anything to be revealed later): MosaicBlur (ResolveFX) on that content's own layer only.
+- Keep only the text he asks for. No invented sub-lines ("BY ANTHROPIC" was cut).
 
 ## The intro is Samuel's — 2026-09-25
 
