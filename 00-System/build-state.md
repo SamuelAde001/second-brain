@@ -34,6 +34,8 @@ Single source of continuity for the Brain's build. **Read this first, then AGENT
 
 - **2026-09-25 (afternoon), Route Rise #3 visuals v1 (Editor).** Studied the 7M and TSB finals, TSB's node trees (Claude's comps had no real effect nodes; Samuel's rule is now in ways-of-working), the agency's best editor and the Route Rise editing guide → `03-Areas/video-editing/visual-vocabulary.md`. Built an HTML→video engine (`03-Areas/video-editing/scripts/visual-engine/`, SOP `sops/visual-sheet-pipeline.md`). 59 visuals placed on V7 of *Visuals v1 (Editor)*; the intro is left for Samuel. Sheet: https://claude.ai/artifact/J9DBqn2K3ib7NomPWbxLzM. Next: Samuel reviews per beat, approved ones become Fusion comps. Delivery due Monday 2026-09-28.
 
+- **2026-09-27 (night), Route Rise #3 Visuals v2 overnight build (Editor).** Samuel approved v2 stills and went to sleep; the Editor builds all remaining visuals directly on *Cut v6* (UI videos V2, Fusion comps V3). Live checkpoint: job folder `Graphics\Visuals v2\BUILD-STATUS.md`. Delivery target: ready to render 2026-09-28 9:00am; Samuel does the screen-recording zooms in the morning.
+
 **14-day target for Phases 0–4:** 2026-10-04. Day 5 of 14. Still to build: job skills `brainstorm`, `plan`, `systemize`, `commit`, and the editing job skills.
 
 ---
