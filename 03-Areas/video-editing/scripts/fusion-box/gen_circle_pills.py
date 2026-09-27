@@ -382,11 +382,23 @@ merge("Merge_PillsOverComp", "Merge_ArrowsOverComp", prev, (550, MAIN_Y))
 LAST = "Merge_PillsOverComp"
 PASTE = [nm for nm, _ in tools]
 
+# optional name tag (argv[2], e.g. "_B"): every pasted tool, macro-inner tools included, gets it,
+# so a second paste can't collide with an earlier one still sitting in the comp
+TAG = sys.argv[2] if len(sys.argv) > 2 else ""
+if TAG:
+    allnames = set(PASTE)
+    for _, t in tools:
+        allnames |= inner_tools(t)
+    tools = [(nm + TAG, rename_all("\n" + t, allnames, TAG)[1:]) for nm, t in tools]
+    PASTE = [nm + TAG for nm in PASTE]
+    LAST += TAG
+    WIRING = [(a + TAG, k, b + TAG) for a, k, b in WIRING]
+
 # test-only plate + output
 loader("Plate_Test", PLATE, (220, MAIN_Y))
 tools.append(("MediaOut1", '\t\tMediaOut1 = MediaOut {\n\t\t\tInputs = {\n\t\t\t\tIndex = Input { Value = "0", },\n\t\t\t\tInput = Input { SourceOp = "%s", Source = "Output", },\n\t\t\t},\n\t\t\tViewInfo = OperatorInfo { Pos = { 770, %d } },\n\t\t},' % (LAST, MAIN_Y)))
-TEST_WIRING = WIRING + [("Merge_HeadingOverCircle", "Background", "Plate_Test")]
-LIVE_WIRING = WIRING + [("Merge_HeadingOverCircle", "Background", "Merge1"), ("MediaOut1", "Input", LAST)]
+TEST_WIRING = WIRING + [("Merge_HeadingOverCircle" + TAG, "Background", "Plate_Test")]
+LIVE_WIRING = WIRING + [("Merge_HeadingOverCircle" + TAG, "Background", "Merge1"), ("MediaOut1", "Input", LAST)]
 
 body = "\n".join(t for _, t in tools)
 open(os.path.join(OUT, "circle_pills_test.comp"), "w", encoding="utf-8").write(

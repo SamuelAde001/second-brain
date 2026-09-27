@@ -16,7 +16,8 @@ param(
     [string]$Out = "$env:TEMP\fusion_view.png",
     [string]$Crop = "",
     [double]$Scale = 0.5,
-    [string]$SetViewer = ""
+    [string]$SetViewer = "",
+    [switch]$Restore                 # if Resolve is minimised: show it (no focus), capture, minimise again
 )
 $ErrorActionPreference = "Stop"
 $cfg = Join-Path $PSScriptRoot "fusion_view.viewer.txt"
@@ -31,6 +32,7 @@ public static class Win {
   [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr h, out RECT r);
   [DllImport("user32.dll")] public static extern bool PrintWindow(IntPtr h, IntPtr hdc, uint flags);
   [DllImport("user32.dll")] public static extern bool IsIconic(IntPtr h);
+  [DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr h, int cmd);
 }
 "@
 [Win]::SetProcessDPIAware() | Out-Null
@@ -38,7 +40,9 @@ public static class Win {
 $p = Get-Process Resolve -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowHandle -ne 0 } | Select-Object -First 1
 if (-not $p) { throw "Resolve window not found" }
 $h = $p.MainWindowHandle
-if ([Win]::IsIconic($h)) { throw "Resolve is minimised - restore it to capture" }
+$wasMin = [Win]::IsIconic($h)
+if ($wasMin -and -not $Restore) { throw "Resolve is minimised - restore it, or pass -Restore" }
+if ($wasMin) { [Win]::ShowWindow($h, 4) | Out-Null; Start-Sleep -Milliseconds 1500 }   # 4 = show without taking focus
 $r = New-Object Win+RECT
 [Win]::GetWindowRect($h, [ref]$r) | Out-Null
 $w = $r.R - $r.L; $hh = $r.B - $r.T
@@ -48,6 +52,7 @@ $g = [System.Drawing.Graphics]::FromImage($bmp)
 $hdc = $g.GetHdc()
 $ok = [Win]::PrintWindow($h, $hdc, 2)          # 2 = PW_RENDERFULLCONTENT (GPU-drawn viewers)
 $g.ReleaseHdc($hdc); $g.Dispose()
+if ($wasMin) { [Win]::ShowWindow($h, 7) | Out-Null }                                 # 7 = minimise again, no focus
 if (-not $ok) { throw "PrintWindow failed" }
 
 if ($Crop -eq "viewer") {
