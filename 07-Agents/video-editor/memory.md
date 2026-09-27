@@ -251,3 +251,8 @@ Samuel: *"you made some stupid mistakes still, left in parts that where obvously
 - An adjustment clip's comp sees the composited 1920×1080 frame, 1 comp frame = 1 timeline frame, so focus boxes are frame fractions measured on the framed picture.
 - Screen-recording framing on #3: Tella clips at Zoom 1.65, Pan -372, Tilt 60, which shows source px x 1207–3534, y 374–1683. Copy that onto any inserted Tella clip.
 - `AppendToTimeline` with `mediaType: 1` places video only (no Tella audio).
+
+## 2026-09-27 — HTML UI mockups are full-screen UI too
+- I built the prospect-list mockup as a floating window on the desk with a counter chip, though the full-screen/no-MG rule was already in ways of working. **Before any UI mockup, read the "UI demos" section of ways of working.** A mockup is the software filling the frame, edge to edge, static camera, nothing that isn't part of the UI. The Visuals v1 kit (`deskWallpaper`, `macWin`, `chip`, `neo`, `vignette`) is for motion-graphic beats, not for UI.
+- `AppendToTimeline` clipInfo `endFrame` is exclusive: frames 0–74 give a 74-frame clip. `endFrame: 73` left the clip one frame short.
+- Placing a rendered visual into a marker: read the marker (`GetMarkers`, frame + duration), render exactly that many frames with `render.render_beat({"id","scene","start","end","layer":"full"})`, then `AppendToTimeline` with `trackIndex`, `recordFrame`, `mediaType: 1`.

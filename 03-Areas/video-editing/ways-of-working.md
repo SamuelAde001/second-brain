@@ -79,6 +79,7 @@ Phase-gated. Phases are defined upfront — **intake → cut analysis → transc
 - Accurate visuals: zoom and focus on exactly what's being said. Darken what isn't the focus and highlight the thing spoken about. **No motion graphics and no text that isn't part of the UI.** Any motion graphic needs his approval one by one.
 - *"The visuals focus and all that must be on an adjustment clip not on the clip itself so I can always adjust things."* Zoom, darken and highlight go in a Fusion comp on an **adjustment clip above** the recording, never in the recording clip's own comp.
 - **On his screen recordings: highlight only, no zoom** (Samuel, 2026-09-27: *"For his screen recording, don't zoom in, just highlight"*). Darken everything but the thing being spoken about; the frame stays at its normal framing.
+- **HTML UI mockups follow the same rule** (Samuel, 2026-09-27, on the prospect-list mockup: *"It must be a fullscreen visual, not with any background. Stop adding Motion graphic text to screen UI mockups like this"*). A mocked app or spreadsheet fills the 1920×1080 frame edge to edge, exactly as the software looks in use: no wallpaper, no floating window, no tilt, no drop-in, no camera push, no counter chips or labels. Any focus goes on an adjustment clip afterwards.
 - The Editor does this unasked on A-roll stretches that talk about a UI (real footage of that UI, full frame) as well as on the screen-recording stretches. Things that need creative choice stay his.
 
 ## Effects are real nodes, never faked — Samuel, 2026-09-25
