@@ -114,6 +114,8 @@ Read from his final comp (parsed from a saved copy) and frames. Build this way n
 
 - **Always use splines to smooth keyframes.** Timing must feel smooth, never linear.
 - Each segment of a node tree must be **well separated and spaced**, and **labelled with an Underlay**.
+- **Always keep the nodes tidy, well organised and grouped together** (Samuel, 2026-09-27, after the circle-comp pills: *"Nice arrangement, keep always doing this"*). The layout he approved: the new merges sit on his main line in one straight row between his last merge and `MediaOut1`. Each repeated element (each arrow, each pill) is one left-to-right row, with each merge's inputs stacked above it. The rows feed a single vertical collector column that runs straight up into its merge on the main line. After pasting, read his anchor nodes' positions (FlowView) and shift the whole new group so it lines up.
+- **Never leave stray or dead nodes far from the tree.** Remove them, or gather them in one group next to the tree so he can delete them in one go.
 
 ## The visual toolkit for finishing an edit — stated 2026-09-18
 
