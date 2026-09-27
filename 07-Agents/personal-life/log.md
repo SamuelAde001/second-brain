@@ -16,6 +16,7 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - 2026-09-22 — On Samuel's word, renamed TickTick habit "Start work 6am" to "Start work 7am" with a 07:00 reminder (verified by reading it back). Gym stays daily. Recorded: gym minimum 3 a week, days by load; HighSignals calendars unused.
 - 2026-09-22 — Night plan for 2026-09-23, agreed with Samuel. TickTick: Dev meeting completed; Financial coach meeting deleted on his word ("remove it from tick tick"); "Record next video" renamed "Record 3 cinematic storytelling videos", moved to 2026-09-23 at p5; created "Script 3 cinematic storytelling videos" (p5) and "Go to gym" (p3) for 2026-09-23; Edit my KD video → 2026-09-24; Get AI ready for Editing and Finish setting up second brain → 2026-09-25 at p3. No calendar writes. Daily notes 2026-09-22 and 2026-09-23 written.
 - 2026-09-22 — On his word ("7am for content days too"), the 7:00am start now also covers content days: commitments, profile and `night-plan` updated, adapters rebuilt.
+- 2026-09-27 — Weekly review 2026-W39 sent; note written at 06-Logs/weekly/2026-W39.md. Next week not planned yet: waiting for his answer, nothing written to TickTick.
 
 Back to [[07-Agents/personal-life/profile|Profile]]
 - 2026-09-23 13:30 — Mid-day replan on his request (mentee call, Routerise revision due today, footage to a friend, one video, gym). Added 2 TickTick tasks. Proposed afternoon in chat; asked the revision size and due time. Appended to [[06-Logs/daily/2026-09-23|2026-09-23]].
