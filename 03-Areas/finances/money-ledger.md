@@ -112,5 +112,8 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-09-23 | bulk | 10,000 | Given to a friend (was a loan, not coming back) | Giving | his words: "It is not coming back, also the 10k is not coming back too, I decided to give them completly" |
 | 2026-09-23 | correction | — | 2026-09-23 bulk Sent to someone who needed it 5,000: given, not a loan | — | his words: "It is not coming back, also the 10k is not coming back too, I decided to give them completly". No change to the row |
 | 2026-09-25 | bulk | 30,000 | Ticket, creatives networking event (2026-09-26, 2:00pm) | Networking event | his words: "I just paid for the event ticket now, 30k"; NGN taken from "30k"; money-check said doesn't fit, paid from the Buffer refill + Eating out (plan changed 2026-09-25) |
+| 2026-09-26 | bulk | 12,302 | Transportation | Transport | derived: NGN 13,567 (ledger) − NGN 1,265 (his words); his words: "I spent the out of the money that was in my account on transportation yesterday"; told 2026-09-27 at the Sunday check |
+| 2026-09-27 | balance | 1,265 | Bank | — | his words: "Right now, just 1,265 in my account right now"; no screenshot |
+| 2026-09-27 | from-pot | 30,000 | Cowrywise withdrawal, not yet in the bank | Cowrywise investment | his words: "I just withdrew 30,000 from cowrywise investment cause I don't like having nothing much in my account, the money would arrive tomorrow as it takes 24hrs to process"; in transit, due 2026-09-28; not in the 1,265 balance above; not asked first |
 
 Back to [[03-Areas/finances/finances|Finances]]
