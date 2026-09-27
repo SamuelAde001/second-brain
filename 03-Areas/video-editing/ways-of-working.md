@@ -110,6 +110,10 @@ Read from his final comp (parsed from a saved copy) and frames. Build this way n
 
 *"Every intro is Samuel."* Visual ideas for the intro still go on the cut sheet, as inspiration for him. **Nothing is placed on the timeline before the intro ends.** Visuals start on the first sentence after it.
 
+## When Resolve stops responding
+
+- **Tell Samuel immediately** (Samuel, 2026-09-27: *"Whenever Davinci is unresponsive, tell me immediately"*). The moment a Resolve script call times out, run one quick check (`Get-Process Resolve` → `Responding`). If it's `False`, stop and tell him in that same reply, with what the last call was doing and when the project was last saved. Don't sit through minutes of monitoring first.
+
 ## Animation and tidiness
 
 - **Always use splines to smooth keyframes.** Timing must feel smooth, never linear.
