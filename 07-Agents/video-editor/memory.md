@@ -226,3 +226,12 @@ Samuel: *"you made some stupid mistakes still, left in parts that where obvously
 - The Off buttons only do `TOOLB_PassThrough = true` on the inner `NASize` / `NAAngle` / `NABlur` and set `ToggleControls.<X>Box = 0`. Doing the same by script is the macro's own off state, so his buttons still switch them back on.
 - Slide direction is the `Vector1` Angle (published `Angle`): 0 = comes from the right, -90 = from below (default), -180 = from the left. Distance is `StartOffset` (frame widths).
 - **Its fade is a Stencil merge against a 1920×1080 Background, so pixels outside the frame are never hidden.** Anything that sticks out of the group frame (badges above the top edge) shows before the start. Fix inside the macro: `PreXF` Center y 0.25 and `FinalXF` y 0.75 (both unpublished), which keeps his published Global controls at their defaults.
+
+## 2026-09-27 — Card design A build notes
+- **Samuel works in the comp while I build.** A node I read an hour earlier can be gone (he deleted `Transform4` mid-task). Re-read the chain before any step that depends on it, and never "fix" a layout change that could be his.
+- A Background with alpha 0 but white RGB still **adds** white (Fusion colours aren't premultiplied there). To hide a fill, zero the RGB as well.
+- Background `Type` takes the strings "Solid", "Horizontal", "Vertical", "Corner", "Gradient". Vertical runs across the whole frame, so a card in the top 42% only gets part of the ramp; a negative bottom colour pushes the ramp harder inside the card (the card's own pixels stay positive).
+- **Neo Bevel's inner tools are written at column 0** in its `.setting` (`\nDisplace1 = …`, no tabs). Match tool names with `\n\t*`, not `\n\t+`, or they paste unsuffixed. Its controls: `Intensity` (default 25, turns an orange border nearly white; 10 keeps it orange), `LightAngle`, `Spread`, `Blend`.
+- Text+ outline-only number: `Enabled1` 0, `Enabled2` 1, `Red2/Green2/Blue2`, `Thickness2` (0.03 reads bold at Size 0.125).
+- A mask clipped to another mask's shape: plug the second mask into the first's `EffectMask` and set the first's `PaintMode` to "Multiply".
+- **Design previews:** the Browser pane only snapshots local files and its screenshots time out. Serve the folder with `python -m http.server` and grab stills with headless Edge (`msedge --headless=new --screenshot=… --window-size=… --virtual-time-budget=4000 URL#f=80`); a `#f=N` hash freezes the preview on frame N.

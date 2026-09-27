@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Tool Cards Options</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d0b0a;--ink:#f3eee9;--mute:#9a8f86;--acc:#ff5a1f;--acc2:#fd9457;--line:#2a2522}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Geist,system-ui,sans-serif;padding:24px 16px 60px}
+.wrap{max-width:1180px;margin:0 auto}
+h1{font-size:20px;margin:0 0 4px;font-weight:800;letter-spacing:.02em}
+.sub{color:var(--mute);font-size:14px;margin:0 0 20px}
+.opt{margin:0 0 36px}
+.head{display:flex;align-items:baseline;gap:12px;margin:0 0 8px;flex-wrap:wrap}
+.head b{font-size:16px;letter-spacing:.04em}
+.head span{color:var(--mute);font-size:13px}
+.frame{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border:1px solid var(--line);border-radius:6px;background:#000}
+.stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0}
+.nodes{font-size:12.5px;color:var(--mute);margin:8px 0 0;line-height:1.55}
+.nodes code{color:var(--acc2);font-family:ui-monospace,Consolas,monospace;font-size:12px}
+button{background:#1c1714;color:var(--ink);border:1px solid #3a302a;border-radius:4px;padding:6px 12px;font:600 13px Geist,sans-serif;cursor:pointer}
+button:hover{border-color:var(--acc)}
+.bar{display:flex;gap:8px;align-items:center;margin:0 0 18px;flex-wrap:wrap}
+.bar .t{color:var(--mute);font-size:13px;font-variant-numeric:tabular-nums}
+/* shared stage look: his dark accent glow + faint grid */
+.bgd{position:absolute;inset:0;background:
+ radial-gradient(60% 45% at 50% 0%,rgba(255,90,31,.28),transparent 70%),
+ radial-gradient(50% 40% at 50% 105%,rgba(255,90,31,.22),transparent 70%),#0f0806}
+.grid{position:absolute;inset:0;opacity:.07;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:96px 96px}
+.card{position:absolute;will-change:transform,opacity,filter}
+canvas.mz{image-rendering:pixelated;display:block}
+.shine{position:absolute;inset:0;pointer-events:none;mix-blend-mode:screen}
+</style></head>
+<body><div class="wrap">
+<h1>Tool cards: three directions</h1>
+<p class="sub">Route Rise #3, four-tools beat. Logos and names stay mosaic-blurred. All four come in from the right with Neo Anim, 8 frames each, 4 frames apart. Pick one (or mix parts) and I'll build it as nodes.</p>
+<div class="bar"><button id="replay">Replay all</button><button id="pause">Pause</button><span class="t" id="fr">frame 0</span></div>
+
+<div class="opt"><div class="head"><b>A · TALL GLASS CARDS</b><span>portrait cards, big outlined number, logo in a ring, accent strip at the base</span></div>
+<div class="frame"><div class="stage" id="sA"></div></div>
+<p class="nodes">Card: <code>RectangleMask</code> (corner 0.12) → <code>Background</code> gradient (accent×0.16 top → ×0.06 bottom) + <code>Instance</code> border → <code>Neo Glow</code>. Number: <code>Text+</code> Geist Black, outline only, accent. Logo ring: <code>EllipseMask</code> + <code>Instance</code> border. Base strip: <code>RectangleMask</code> → accent <code>Background</code>. Logo + name on their own layer → <code>MosaicBlur</code> 200. <code>Neo Bevel</code> → <code>Neo Light Sweep Pro</code> (width 0.07) → <code>Neo Anim</code>. One <code>BrightnessContrast</code> + inclined <code>RectangleMask</code> shine across the row.</p></div>
+
+<div class="opt"><div class="head"><b>B · DEALT HAND</b><span>four playing cards fanned in an arc, dealt from the right, rotating as they land</span></div>
+<div class="frame"><div class="stage" id="sB"></div></div>
+<p class="nodes">Same card build as A, but cards overlap, so a tight <code>DropShadow</code> (0.008 / 0.31) is earned here. Corner numbers top-left and bottom-right (<code>Text+</code>, second one rotated 180°). Fan: each card's <code>Neo Anim</code> Global Angle −9 / −3 / 3 / 9 and Global Center on an arc; Angle controls on (start +20°) so each card turns as it lands. <code>MosaicBlur</code> on the face layer.</p></div>
+
+<div class="opt"><div class="head"><b>C · ON A REFLECTIVE FLOOR</b><span>square tiles standing on a lit floor line, mirrored below, a numbered chip on top of each</span></div>
+<div class="frame"><div class="stage" id="sC"></div></div>
+<p class="nodes">Tiles: <code>RectangleMask</code> square → dark <code>Background</code> + <code>Instance</code> border → <code>Neo Glow</code>. Chip: pill <code>RectangleMask</code> (corner 0.5) → accent <code>Background</code> + <code>Text+</code> "01". Floor: <code>Polygon</code> line on a <code>Background</code> → <code>Neo Glow</code>. Reflection: <code>Neo Reflection</code> on the row canvas. <code>MosaicBlur</code> on logo + name layer, <code>Neo Anim</code> per tile.</p></div>
+</div>
+
+<script>
+const LOGOS=__LOGOS__;
+const NAMES=["CLAUDE","CLAY","RAILWAY","WISPR FLOW"];
+const ACC="#ff5a1f",ACC2="#fd9457";
+const FPS=29.97, LOOP=110, IN=[12,16,20,24], LEN=8, SHINE=[36,60];
+
+// ---- mosaic helpers (stand-in for ResolveFX MosaicBlur)
+const imgs=LOGOS.map(s=>{const i=new Image();i.src=s;return i;});
+function mosaicLogo(size,block){const c=document.createElement('canvas');c.className='mz';c.width=c.height=size;c.style.width=c.style.height=size+'px';
+  c._draw=(img)=>{const n=Math.max(2,Math.round(size/block));const t=document.createElement('canvas');t.width=t.height=n;const x=t.getContext('2d');x.drawImage(img,0,0,n,n);
+    const g=c.getContext('2d');g.imageSmoothingEnabled=false;g.clearRect(0,0,size,size);g.drawImage(t,0,0,size,size);};return c;}
+function mosaicText(txt,w,h,font,block){const c=document.createElement('canvas');c.className='mz';c.width=w;c.height=h;c.style.width=w+'px';c.style.height=h+'px';
+  const nx=Math.round(w/block),ny=Math.max(2,Math.round(h/block));const t=document.createElement('canvas');t.width=w;t.height=h;const x=t.getContext('2d');
+  x.fillStyle='#fff';x.font=font;x.textAlign='center';x.textBaseline='middle';x.fillText(txt,w/2,h/2);
+  const s=document.createElement('canvas');s.width=nx;s.height=ny;s.getContext('2d').drawImage(t,0,0,nx,ny);
+  const g=c.getContext('2d');g.imageSmoothingEnabled=false;g.drawImage(s,0,0,w,h);return c;}
+function el(tag,css,parent,html){const e=document.createElement(tag);e.style.cssText=css;if(html)e.innerHTML=html;parent&&parent.appendChild(e);return e;}
+function base(stage){el('div','',stage).className='bgd';el('div','',stage).className='grid';}
+const logoCanvases=[];
+function addLogo(parent,i,size,block,css){const c=mosaicLogo(size,block);c.style.cssText+=css;parent.appendChild(c);logoCanvases.push([c,i]);return c;}
+
+// ---- easing: leaves fast, lands soft (spline-smoothed like his keys)
+const ease=t=>1-Math.pow(1-Math.min(Math.max(t,0),1),3);
+
+// ================= A
+const A=document.getElementById('sA');base(A);const cardsA=[];
+const AW=330,AH=440,AGAP=56,AX0=(1920-(4*AW+3*AGAP))/2,AY=260;
+for(let i=0;i<4;i++){
+  const c=el('div',`left:${AX0+i*(AW+AGAP)}px;top:${AY}px;width:${AW}px;height:${AH}px;border-radius:34px;
+   background:linear-gradient(180deg,rgba(255,90,31,.17),rgba(255,90,31,.05) 55%,rgba(20,8,4,.9));
+   border:2px solid ${ACC};box-shadow:0 0 22px rgba(255,90,31,.45),inset 0 1px 0 rgba(255,210,180,.35);overflow:hidden`,A);c.className='card';
+  el('div',`position:absolute;left:26px;top:6px;font:900 150px/1 Geist;color:transparent;-webkit-text-stroke:2.5px ${ACC};opacity:.9`,c,'0'+(i+1));
+  el('div',`position:absolute;left:50%;top:190px;width:150px;height:150px;margin-left:-75px;border-radius:50%;border:2px solid rgba(253,148,87,.55);background:rgba(0,0,0,.35)`,c);
+  addLogo(c,i,112,14,`position:absolute;left:${AW/2-56}px;top:209px;border-radius:24px`);
+  const t=mosaicText(NAMES[i],250,44,'700 34px Geist',9);t.style.cssText+=`position:absolute;left:${AW/2-125}px;top:360px`;c.appendChild(t);
+  el('div',`position:absolute;left:0;right:0;bottom:0;height:10px;background:${ACC}`,c);
+  el('div',`position:absolute;left:45%;top:-10%;width:9%;height:120%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.10),transparent);transform:rotate(12deg)`,c);
+  cardsA.push(c);}
+const shA=el('div','',A);shA.className='shine';
+
+// ================= B
+const B=document.getElementById('sB');base(B);const cardsB=[];
+const BW=300,BH=420,angB=[-9,-3,3,9],cxB=[660,860,1060,1260],cyB=[560,528,528,560];
+for(let i=0;i<4;i++){
+  const c=el('div',`left:${cxB[i]-BW/2}px;top:${cyB[i]-BH/2}px;width:${BW}px;height:${BH}px;border-radius:26px;
+   background:linear-gradient(160deg,#2a120a,#140805 60%,#0d0503);border:2px solid ${ACC};
+   box-shadow:0 10px 26px rgba(0,0,0,.55),0 0 18px rgba(255,90,31,.35),inset 0 1px 0 rgba(255,210,180,.3);overflow:hidden;transform-origin:50% 120%`,B);c.className='card';
+  el('div',`position:absolute;left:22px;top:16px;font:900 56px/1 Geist;color:${ACC};text-align:center`,c,(i+1)+'<div style="width:26px;height:4px;background:'+ACC2+';margin:8px auto 0;border-radius:2px"></div>');
+  el('div',`position:absolute;right:22px;bottom:16px;font:900 56px/1 Geist;color:${ACC};transform:rotate(180deg);text-align:center`,c,(i+1)+'<div style="width:26px;height:4px;background:'+ACC2+';margin:8px auto 0;border-radius:2px"></div>');
+  el('div',`position:absolute;inset:78px 36px;border:1.5px solid rgba(253,148,87,.35);border-radius:16px`,c);
+  addLogo(c,i,120,15,`position:absolute;left:${BW/2-60}px;top:128px;border-radius:26px`);
+  const t=mosaicText(NAMES[i],220,40,'700 30px Geist',8);t.style.cssText+=`position:absolute;left:${BW/2-110}px;top:268px`;c.appendChild(t);
+  cardsB.push(c);}
+const shB=el('div','',B);shB.className='shine';
+
+// ================= C
+const C=document.getElementById('sC');base(C);const cardsC=[];
+const CW=300,CG=70,CX0=(1920-(4*CW+3*CG))/2,CY=300,FLOOR=CY+CW;
+const floor=el('div',`position:absolute;left:240px;right:240px;top:${FLOOR+14}px;height:2px;background:linear-gradient(90deg,transparent,${ACC} 20%,${ACC2} 50%,${ACC} 80%,transparent);box-shadow:0 0 18px 3px rgba(255,90,31,.55)`,C);
+function tileC(i,parent,mirror){
+  const c=el('div',`left:${CX0+i*(CW+CG)}px;top:${mirror?FLOOR+28:CY}px;width:${CW}px;height:${CW}px;border-radius:30px;
+   background:linear-gradient(180deg,#221008,#120604);border:2px solid ${ACC};box-shadow:0 0 20px rgba(255,90,31,.4),inset 0 1px 0 rgba(255,210,180,.3)`,parent);c.className='card';
+  el('div',`position:absolute;left:50%;top:-22px;margin-left:-52px;width:104px;height:44px;border-radius:22px;background:${ACC};box-shadow:0 0 16px rgba(255,90,31,.6),inset 0 1px 0 rgba(255,220,200,.6);font:800 26px/44px Geist;color:#fff;text-align:center;letter-spacing:.06em`,c,'0'+(i+1));
+  addLogo(c,i,130,16,`position:absolute;left:${CW/2-65}px;top:58px;border-radius:28px`);
+  const t=mosaicText(NAMES[i],240,40,'700 30px Geist',8);t.style.cssText+=`position:absolute;left:${CW/2-120}px;top:212px`;c.appendChild(t);
+  el('div',`position:absolute;left:45%;top:-10%;width:9%;height:120%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.09),transparent);transform:rotate(12deg)`,c);
+  return c;}
+const refl=el('div',`position:absolute;left:0;right:0;top:0;height:1080px;transform:scaleY(-1);transform-origin:0 ${FLOOR+14}px;opacity:.28;
+  -webkit-mask-image:linear-gradient(0deg,transparent ${1080-FLOOR-14-230}px,#000 ${1080-FLOOR-14}px);mask-image:linear-gradient(0deg,transparent ${1080-FLOOR-14-230}px,#000 ${1080-FLOOR-14}px);filter:blur(2px)`,C);
+const reflCards=[];
+for(let i=0;i<4;i++){cardsC.push(tileC(i,C,false));const r=tileC(i,refl,false);reflCards.push(r);}
+const shC=el('div','',C);shC.className='shine';
+
+imgs.forEach((im,i)=>im.onload=()=>logoCanvases.filter(([c,k])=>k===i).forEach(([c])=>c._draw(im)));
+
+// ---- scale stages
+function fit(){document.querySelectorAll('.stage').forEach(s=>{const w=s.parentElement.clientWidth;s.style.transform=`scale(${w/1920})`;});}
+addEventListener('resize',fit);fit();
+
+// ---- animate (frame-based, like the comp)
+function slide(i,f,off){const p=ease((f-IN[i])/LEN);return {x:(1-p)*off,o:f<IN[i]?0:Math.min(1,p*1.6),blur:(1-p)*18,p};}
+function shine(sh,f){const p=(f-SHINE[0])/(SHINE[1]-SHINE[0]);if(p<0||p>1){sh.style.background='none';return;}
+  const x=-200+p*2320;sh.style.background=`linear-gradient(108deg,transparent ${x-40}px,rgba(255,255,255,.16) ${x}px,transparent ${x+40}px)`;}
+function draw(f){
+  cardsA.forEach((c,i)=>{const s=slide(i,f,576);c.style.transform=`translateX(${s.x}px)`;c.style.opacity=s.o;c.style.filter=`blur(${s.blur*0.35}px)`;});
+  cardsB.forEach((c,i)=>{const s=slide(i,f,760);c.style.transform=`translateX(${s.x}px) rotate(${angB[i]+(1-s.p)*20}deg)`;c.style.opacity=s.o;c.style.filter=`blur(${s.blur*0.35}px)`;});
+  cardsC.forEach((c,i)=>{const s=slide(i,f,576);[c,reflCards[i]].forEach(k=>{k.style.transform=`translateX(${s.x}px)`;k.style.opacity=s.o;k.style.filter=`blur(${s.blur*0.35}px)`;});});
+  shine(shA,f);shine(shB,f);shine(shC,f);
+  document.getElementById('fr').textContent='frame '+Math.floor(f);}
+let f=0,last=performance.now(),run=true;
+const q=location.hash.match(/f=(\d+)/);if(q){f=+q[1];run=false;}
+function tick(now){if(run){f+=(now-last)/1000*FPS;if(f>LOOP)f=0;}last=now;draw(f);requestAnimationFrame(tick);}
+requestAnimationFrame(tick);
+document.getElementById('replay').onclick=()=>{f=0;run=true;document.getElementById('pause').textContent='Pause';};
+document.getElementById('pause').onclick=e=>{run=!run;e.target.textContent=run?'Pause':'Play';};
+</script></body></html>
