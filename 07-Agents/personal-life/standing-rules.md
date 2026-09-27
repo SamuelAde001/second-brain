@@ -47,7 +47,7 @@ Why it exists. Samuel, 2026-09-25: *"they forget things that I have settled befo
 | Habit | What counts | How it's checked |
 |---|---|---|
 | **Start work 7am** | client work (or on a content day, the first work block) started by 7:00am | habit check-in, a focus session by 7:00am, or his word. It is also a commitment. |
-| **Gym 5pm** | **at least 3 times a week**, days picked by how heavy the day's work is | habit check-in or his word; the agent checks in the habit when he says he went. *"minimum of 3X a week"* (2026-09-22) |
+| **Gym 5pm** | **at least 3 times a week**, days picked by how heavy the day's work is | habit check-in or his word; the agent checks in the habit when he says he went. *"minimum of 3X a week"* (2026-09-22) **The gym is closed on Sundays:** *"Gym doesn't open on Sunday"* (2026-09-27), so the 3 go Mon–Sat. |
 | **Post content** | a Reel, TikTok or carousel went out that day (a Story doesn't count) | habit check-in or his word. Reported, not escalated. (2026-09-22) |
 
 Other habits, from [[02-Me/daily-routine|daily routine]], aren't tracked in TickTick: sleep and phone away by about 11:00pm, social media only while eating.
