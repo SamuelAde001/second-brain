@@ -238,7 +238,7 @@ def neo_text(new, sfx, pos, text, style, size, center, t_in, length, justify=Non
 
 
 # ---------------------------------------------------------------- heading in the circle
-MAIN_Y = 150
+MAIN_Y = -16                      # his main line: Merge1 (110, -16) ... MediaOut1 (770, -16)
 neo_text("NeoTextMotion_Heading", "_HD", (330, MAIN_Y - 99), HEADING, "ExtraBold", 0.075,
          (fx(CIRCLE[0]), fy(CIRCLE[1])), 2, 22)
 merge("Merge_HeadingOverCircle", None, "NeoTextMotion_Heading", (330, MAIN_Y))
@@ -258,50 +258,67 @@ def arrow_polyline(end):
             "\t\t\t\t\t\t}\n\t\t\t\t\t}" % (lua(X(sx)), lua(Y(sy)), lua(dx * 0.55), lua(X(ex)), lua(Y(ey)), lua(-dx * 0.55)))
 
 
-background("Background_ArrowsCanvas", (0, 0, 0), (AX, AY), a=0.0)
+ACOL = 440                         # arrows collector column (under Merge_ArrowsOverComp)
+background("Background_ArrowsCanvas", (0, 0, 0), (ACOL, 700), a=0.0)
 prev = "Background_ArrowsCanvas"
-for i in range(4):
+for i in (3, 2, 1, 0):             # chain bottom-up so the column reads straight into the main line
     n, t0 = i + 1, ARROW_T0[i]
-    x = AX + 440 * i
-    y = AY + 250
+    R = 150 + 150 * i              # row y: head branch on R-66, line branch on R
     end = (PX0 - 38 - 22, PYS[i])
-    loader("Loader_ArrowHead%d" % n, os.path.join(ASSETS, "arrow-right.png"), (x, y - 132))
-    background("Background_ArrowHead%d" % n, WHITE, (x + 110, y - 132), mask="Loader_ArrowHead%d" % n, mask_out="Output")
+    loader("Loader_ArrowHead%d" % n, os.path.join(ASSETS, "arrow-right.png"), (0, R - 66))
+    background("Background_ArrowHead%d" % n, WHITE, (110, R - 66), mask="Loader_ArrowHead%d" % n, mask_out="Output")
     size = spline("Transform_ArrowHead%dSize" % n, [(t0, 0, None, (t0 + 1, 0.0206667), True),
                                                     (t0 + 3, 0.062, (t0 + 2, 0.0413333), None, True)])
-    tool("Transform_ArrowHeadSize%d" % n, "Transform", {"Size": size, "Input": link("Background_ArrowHead%d" % n)}, (x + 220, y - 132))
-    tools.append(("Publish_ArrowPath%d" % n, '\t\tPublish_ArrowPath%d = PublishPolyLine {\n\t\t\tInputs = {\n\t\t\t\tValue = Input {\n\t\t\t\t\tValue = %s,\n\t\t\t\t},\n\t\t\t},\n\t\t},'
+    tool("Transform_ArrowHeadSize%d" % n, "Transform", {"Size": size, "Input": link("Background_ArrowHead%d" % n)}, (220, R - 66))
+    tools.append(("Publish_ArrowPath%d" % n, '''		Publish_ArrowPath%d = PublishPolyLine {
+			Inputs = {
+				Value = Input {
+					Value = %s,
+				},
+			},
+		},'''
                   % (n, arrow_polyline(end))))
     wl = spline("Polyline_Arrow%dLength" % n, [(t0, 0, None, (t0 + 7.6666667, 0), False),
                                               (t0 + 11, 1, (t0 + 3.2222222, 1), None, False)])
     tool("Polyline_Arrow%d" % n, "PolylineMask", {**MASKF, "BorderWidth": 0.0032, "CapStyle": 0, "WriteLength": wl,
-         "Polyline": link("Publish_ArrowPath%d" % n, "Value")}, (x + 110, y - 66),
-         extra='\t\t\tDrawMode = "InsertAndModify",\n\t\t\tDrawMode2 = "InsertAndModify",\n')
-    background("Background_ArrowLine%d" % n, WHITE, (x + 220, y - 66), mask="Polyline_Arrow%d" % n)
-    tools.append(("Path_ArrowHead%d" % n, '\t\tPath_ArrowHead%d = PolyPath {\n\t\t\tDrawMode = "InsertAndModify",\n\t\t\tInputs = {\n\t\t\t\tDisplacement = Input { Value = 1, Expression = "Polyline_Arrow%d.WriteLength", },\n\t\t\t\tPolyLine = Input { SourceOp = "Publish_ArrowPath%d", Source = "Value", },\n\t\t\t},\n\t\t},' % (n, n, n)))
+         "Polyline": link("Publish_ArrowPath%d" % n, "Value")}, (110, R),
+         extra='''			DrawMode = "InsertAndModify",
+			DrawMode2 = "InsertAndModify",
+''')
+    background("Background_ArrowLine%d" % n, WHITE, (220, R), mask="Polyline_Arrow%d" % n)
+    tools.append(("Path_ArrowHead%d" % n, '''		Path_ArrowHead%d = PolyPath {
+			DrawMode = "InsertAndModify",
+			Inputs = {
+				Displacement = Input { Value = 1, Expression = "Polyline_Arrow%d.WriteLength", },
+				PolyLine = Input { SourceOp = "Publish_ArrowPath%d", Source = "Value", },
+			},
+		},''' % (n, n, n)))
     tool("Transform_ArrowHead%d" % n, "Transform", {"Center": link("Path_ArrowHead%d" % n, "Position"),
-         "Angle": link("Path_ArrowHead%d" % n, "Heading"), "Input": link("Transform_ArrowHeadSize%d" % n)}, (x + 330, y - 132))
-    merge("Merge_Arrow%d" % n, "Transform_ArrowHead%d" % n, "Background_ArrowLine%d" % n, (x + 330, y - 66))
-    merge("Merge_Arrow%dOnCanvas" % n, prev, "Merge_Arrow%d" % n, (AX + 110 + 440 * i, AY))
+         "Angle": link("Path_ArrowHead%d" % n, "Heading"), "Input": link("Transform_ArrowHeadSize%d" % n)}, (330, R - 66))
+    merge("Merge_Arrow%d" % n, "Transform_ArrowHead%d" % n, "Background_ArrowLine%d" % n, (330, R))
+    merge("Merge_Arrow%dOnCanvas" % n, prev, "Merge_Arrow%d" % n, (ACOL, R))
     prev = "Merge_Arrow%dOnCanvas" % n
-merge("Merge_ArrowsOverComp", "Merge_HeadingOverCircle", prev, (440, MAIN_Y))
+merge("Merge_ArrowsOverComp", "Merge_HeadingOverCircle", prev, (ACOL, MAIN_Y))
 
 # ---------------------------------------------------------------- the four pills (built at frame centre)
 CX, CY = 960, 540
 PCX = PX0 + PW / 2
-background("Background_PillsCanvas", (0, 0, 0), (-1265, 1000), a=0.0)
+PCOL = 550                         # pills collector column (under Merge_PillsOverComp)
+ROWS = [1150 + 550 * i for i in range(4)]
+background("Background_PillsCanvas", (0, 0, 0), (PCOL, ROWS[-1] + 200), a=0.0)
 prev = "Background_PillsCanvas"
 WIRING = []
-for i, (label, icon) in enumerate(PILLS):
+for i in (3, 2, 1, 0):            # chain bottom-up into the main line
+    label, icon = PILLS[i]
     n, t0 = i + 1, ARROW_T0[i]
     land, txt, shine = t0 + 6, t0 + 9, t0 + 20
-    GX, GY = -1265, 1300 + i * 600
+    GX, GY = PCOL - 110 - 1320, ROWS[i]       # spine left to right, inputs stacked above each merge
     P = lambda dx, dy: (GX + dx, GY + dy)
     left = CX - PW / 2
 
     tool("Rectangle_Pill%d" % n, "RectangleMask", {**MASKF, "Width": PW / W, "Height": PH / H, "CornerRadius": 0.3}, P(0, -66))
     background("Background_PillFill%d" % n, FILL, P(0, 0), mask="Rectangle_Pill%d" % n, a=0.94)
-    tools.append(("Instance_Rectangle_Pill%d" % n, '\t\tInstance_Rectangle_Pill%d = RectangleMask {\n\t\t\tSourceOp = "Rectangle_Pill%d",\n\t\t\tInputs = {\n\t\t\t\tSolid = Input { Value = 0, },\n\t\t\t\tBorderWidth = Input { Value = 0.00184, },\n\t\t\t\tEffectMask = Input { },\n\t\t\t},\n\t\t\tViewInfo = OperatorInfo { Pos = { %d, %d } },\n\t\t},' % ((n, n) + P(110, -165))))
+    tools.append(("Instance_Rectangle_Pill%d" % n, '\t\tInstance_Rectangle_Pill%d = RectangleMask {\n\t\t\tSourceOp = "Rectangle_Pill%d",\n\t\t\tInputs = {\n\t\t\t\tSolid = Input { Value = 0, },\n\t\t\t\tBorderWidth = Input { Value = 0.00184, },\n\t\t\t\tEffectMask = Input { },\n\t\t\t},\n\t\t\tViewInfo = OperatorInfo { Pos = { %d, %d } },\n\t\t},' % ((n, n) + P(110, -198))))
     background("Background_PillBorder%d" % n, ACC, P(110, -132), mask="Instance_Rectangle_Pill%d" % n)
     macro(NEO, "Neo Glow.setting", "NeoGlow", "NeoGlow_PillBorder%d" % n, P(110, -66), "_PB%d" % n)
     merge("Merge_PillBorder%d" % n, "Background_PillFill%d" % n, None, P(110, 0))
@@ -327,11 +344,11 @@ for i, (label, icon) in enumerate(PILLS):
     bx = left
     tool("Ellipse_Badge%d" % n, "EllipseMask", {**MASKF, "Center": (fx(bx), fy(CY)), "Width": 76 / W, "Height": 76 / W}, P(770, -264))
     background("Background_BadgeFill%d" % n, WHITE, P(770, -198), mask="Ellipse_Badge%d" % n)
-    tools.append(("Instance_Ellipse_Badge%d" % n, '\t\tInstance_Ellipse_Badge%d = EllipseMask {\n\t\t\tSourceOp = "Ellipse_Badge%d",\n\t\t\tInputs = {\n\t\t\t\tSolid = Input { Value = 0, },\n\t\t\t\tBorderWidth = Input { Value = 0.0022, },\n\t\t\t\tEffectMask = Input { },\n\t\t\t},\n\t\t\tViewInfo = OperatorInfo { Pos = { %d, %d } },\n\t\t},' % ((n, n) + P(880, -330))))
-    background("Background_BadgeBorder%d" % n, ACC, P(880, -297), mask="Instance_Ellipse_Badge%d" % n)
+    tools.append(("Instance_Ellipse_Badge%d" % n, '\t\tInstance_Ellipse_Badge%d = EllipseMask {\n\t\t\tSourceOp = "Ellipse_Badge%d",\n\t\t\tInputs = {\n\t\t\t\tSolid = Input { Value = 0, },\n\t\t\t\tBorderWidth = Input { Value = 0.0022, },\n\t\t\t\tEffectMask = Input { },\n\t\t\t},\n\t\t\tViewInfo = OperatorInfo { Pos = { %d, %d } },\n\t\t},' % ((n, n) + P(880, -396))))
+    background("Background_BadgeBorder%d" % n, ACC, P(880, -330), mask="Instance_Ellipse_Badge%d" % n)
     macro(NEO, "Neo Glow.setting", "NeoGlow", "NeoGlow_Badge%d" % n, P(880, -264), "_BG%d" % n)
     merge("Merge_BadgeBorder%d" % n, "Background_BadgeFill%d" % n, None, P(880, -198))
-    textplus("Text_Number%d" % n, str(n), "Black", 0.048, ACC, (fx(bx), fy(CY)), P(990, -231))
+    textplus("Text_Number%d" % n, str(n), "Black", 0.048, ACC, (fx(bx), fy(CY)), P(990, -264))
     merge("Merge_Number%d" % n, "Merge_BadgeBorder%d" % n, "Text_Number%d" % n, P(990, -198))
     merge("Merge_Badge%d" % n, None, "Merge_Number%d" % n, P(990, 0))
 
@@ -349,7 +366,7 @@ for i, (label, icon) in enumerate(PILLS):
         (r"InLength = Input \{ Value = 25, \}", "InLength = Input { Value = 14, }"),
         (r"StartOffset = Input \{ Value = 0\.44, \}", "StartOffset = Input { Value = 0.12, }"),
         (r"Center = Input \{ Value = \{ 0\.3, 0\.696 \}, \}", "Center = Input { Value = %s, }" % lua((0.5 + (PCX - CX) / W, 0.5 + (CY - PYS[i]) / H)))])
-    merge("Merge_Pill%dOnCanvas" % n, prev, None, (-1265 + 110 * n, 1000))
+    merge("Merge_Pill%dOnCanvas" % n, prev, None, (PCOL, GY))
     prev = "Merge_Pill%dOnCanvas" % n
 
     WIRING += [("NeoGlow_PillBorder%d" % n, "MainInput1", "Background_PillBorder%d" % n),
