@@ -69,6 +69,10 @@ Phase-gated. Phases are defined upfront — **intake → cut analysis → transc
 - Source footage (Adjustment Clip / MediaIn) enters at the **bottom right** and merges into the final Merge before `MediaOut1`, which sits far right.
 - Third-party macros in use: **NeoLightSweep Pro, NeoBevel, NeoAnim, NeoTextMotion, MosaicBlur.**
 
+## Never position with a Merge — Samuel, 2026-09-27
+
+*"NEVER EVER Reposition anything with a Merge node."* Every Merge keeps Center 0.5/0.5, Size 1 and Angle 0. Position, scale and rotation go on a **Transform** (or the element's own Center: mask, Text+, Background) before it enters the merge. A logo is Loader → Transform (Size, Center) → Merge. When the foreground is smaller than the frame, its Transform Center is in the foreground's own units: offset = 0.5 + dx_px / fg_width_px.
+
 ## Effects are real nodes, never faked — Samuel, 2026-09-25
 
 On *Taking a Step Back from Claude*, Claude built its own glows and "shadow boxes" instead of using the effect nodes, and Samuel had to correct it. His words: *"I have a plugin called Neo Glow, which is well what I use for glows. It didn't use that… instead of it to use shadows, the actual drop shadow node, it was creating a shadow box."* And: *"I always use actual nodes that can help me create those visuals so light sweep glow node actual drop shadow um reflection."*
