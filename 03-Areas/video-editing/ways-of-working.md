@@ -73,6 +73,13 @@ Phase-gated. Phases are defined upfront — **intake → cut analysis → transc
 
 *"NEVER EVER Reposition anything with a Merge node."* Every Merge keeps Center 0.5/0.5, Size 1 and Angle 0. Position, scale and rotation go on a **Transform** (or the element's own Center: mask, Text+, Background) before it enters the merge. A logo is Loader → Transform (Size, Center) → Merge. When the foreground is smaller than the frame, its Transform Center is in the foreground's own units: offset = 0.5 + dx_px / fg_width_px.
 
+## UI demos and screen recordings — Samuel, 2026-09-27
+
+- *"All Demos, screen recording, screenshot UI type of visuals must be full screen, like how it will actually look when I am browsing through the app or software."* Never a windowed UI tilted on a background.
+- Accurate visuals: zoom and focus on exactly what's being said. Darken what isn't the focus and highlight the thing spoken about. **No motion graphics and no text that isn't part of the UI.** Any motion graphic needs his approval one by one.
+- *"The visuals focus and all that must be on an adjustment clip not on the clip itself so I can always adjust things."* Zoom, darken and highlight go in a Fusion comp on an **adjustment clip above** the recording, never in the recording clip's own comp.
+- The Editor does this unasked on A-roll stretches that talk about a UI (real footage of that UI, full frame) as well as on the screen-recording stretches. Things that need creative choice stay his.
+
 ## Effects are real nodes, never faked — Samuel, 2026-09-25
 
 On *Taking a Step Back from Claude*, Claude built its own glows and "shadow boxes" instead of using the effect nodes, and Samuel had to correct it. His words: *"I have a plugin called Neo Glow, which is well what I use for glows. It didn't use that… instead of it to use shadows, the actual drop shadow node, it was creating a shadow box."* And: *"I always use actual nodes that can help me create those visuals so light sweep glow node actual drop shadow um reflection."*

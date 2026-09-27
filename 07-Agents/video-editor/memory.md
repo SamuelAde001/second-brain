@@ -241,3 +241,13 @@ Samuel: *"you made some stupid mistakes still, left in parts that where obvously
 ## 2026-09-27 — Never position with a Merge
 - **Samuel: "NEVER EVER Reposition anything with a Merge node."** Merges stay at Center 0.5/0.5, Size 1, Angle 0. Position and scale live on a Transform before the merge (Loader → Transform → Merge), or on the element's own Center. My generators used `Merge_Logo` Center/Size; fix that in `gen_tool_boxes.py`-style builds before reusing them.
 - A small Loader (1024² tile) merged over a 1920×1080 canvas doesn't land 1:1 here: measured ~1.41–1.44× in both size and Transform offset, plus a constant vertical lift. Before the ResolveFX DropShadow was removed it mapped differently (the OFX output changes the image the Merge sees). Don't compute tile offsets from pixel maths alone. Set them, look in his viewer against a reference (the ring) and correct.
+
+## 2026-09-27 — UI demos: focus on adjustment clips, built by API
+- Samuel's rules (full screen UI, no motion graphics, focus on an adjustment clip) are in [[03-Areas/video-editing/ways-of-working|ways of working]]. Tools: `scripts/ui-focus/` (README there).
+- **`ImportFusionComp` returns None on an adjustment clip** (works on a video clip). Build the nodes by API instead: `AddTool`, `AddModifier(inp, "BezierSpline")` + `SetKeyFrames({t:{1:v}})`, `AddModifier("Center","XYPath")` for points.
+- **Connect `MediaOut1` after `comp.Unlock()`.** Wired inside the Lock, the Edit page kept showing the untouched frame although every input read back correct.
+- The sandbox can't read files and `fusion.GetClipboard()` gives no text. Data route that works: write a `.comp` holding one Note with the JSON in `Comments`, `ImportFusionComp` it onto a scratch video clip, read `FindTool("DataNote").GetInput("Comments")`.
+- `InsertGeneratorIntoTimeline("Adjustment Clip")` uses the timeline In/Out (`SetMarkInOut(a, b-1)` → exact a–b) and the **patched destination track**; the patch has no API. Move it in the GUI with mouse down / small moves / mouse up (a plain drag didn't take). Lock every other track (video and audio) while inserting, then compare all tracks before/after.
+- An adjustment clip's comp sees the composited 1920×1080 frame, 1 comp frame = 1 timeline frame, so focus boxes are frame fractions measured on the framed picture.
+- Screen-recording framing on #3: Tella clips at Zoom 1.65, Pan -372, Tilt 60, which shows source px x 1207–3534, y 374–1683. Copy that onto any inserted Tella clip.
+- `AppendToTimeline` with `mediaType: 1` places video only (no Tella audio).
