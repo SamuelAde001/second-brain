@@ -73,6 +73,22 @@ Phase-gated. Phases are defined upfront — **intake → cut analysis → transc
 
 *"NEVER EVER Reposition anything with a Merge node."* Every Merge keeps Center 0.5/0.5, Size 1 and Angle 0. Position, scale and rotation go on a **Transform** (or the element's own Center: mask, Text+, Background) before it enters the merge. A logo is Loader → Transform (Size, Center) → Merge. When the foreground is smaller than the frame, its Transform Center is in the foreground's own units: offset = 0.5 + dx_px / fg_width_px.
 
+## Two kinds of visual only — Samuel, 2026-09-27 (Route Rise #3 v2 review)
+
+From his answers on all 63 remaining beats, checked against his finished hook (0:00–0:41).
+
+- **Motion graphics are Fusion nodes, always.** *"When my client sends in changes, I don't want to always have to have Claude re-render everything… I can change the nodes, change the text, change the animation by myself."* Rendered video is only for **real-UI demos**.
+- **UI demos:** full screen, no background, real UI (his Chrome, Google Images, or an HTML rebuild that looks like the real app), with smooth, unhurried cursor movement: *"nothing should be too fast and everything must be very smooth"*. **Never a motion graphic on a UI visual**: no timer chips, no labels, no shine. Where a line describes what a tool does ("Clay is a data orchestration tool", "research the account"), show the tool doing it as a demo, not a diagram.
+- **Background for every motion graphic: his `BGORANGE` macro** (`My macros\BGORANGE.setting`). Stay on brand orange. Never a tool's brand colour (Railway was not to be purple) or a blue/purple ground.
+- **Lines:** `Moving dashed line`. **Arrows:** his arrow macro (`Arrowline`). **Icons:** real ones from flaticon, or the tool's real logo. Never a screenshot thumbnail standing in for a logo.
+- **"Premium" means the hook's look:** two-tone Geist ExtraBold titles (white + orange) with glow, glass pills with an orange border, orange numbered circles, ghost numerals, orange icons, curved white arrows, a circular A-roll with an orange ring.
+- **Hub = a circle** with the tool's logo and name, not a screen.
+- **Tool reveals copy his Clay reveal exactly** (V3 adjustment clip, Cut v6 0:30.16): *"The 4 tools"* cards, the named tool's card lit and zoomed in, the others desaturated, with their opacity down and MosaicBlurred. Same logos, same layout, orange for every tool.
+- **Pills beside him** sit on an adjustment clip over the A-roll and come in with Neo Anim, joined by an arrow line. No extra lines.
+- **Text-only beats:** NeoTextMotion over a dark gradient at the bottom (`Down fade`), in an adjustment clip. Nothing else.
+- **People beats** ("business owner confused"): an AI video generated in **Flow, in his browser**. Beats about Alex himself: B-roll of Alex from earlier Route Rise projects, plus a node element (such as a thought bubble).
+- Many sentences get **no visual** (his NONE rows): let the A-roll breathe. He handles punch-ins himself.
+
 ## UI demos and screen recordings — Samuel, 2026-09-27
 
 - *"All Demos, screen recording, screenshot UI type of visuals must be full screen, like how it will actually look when I am browsing through the app or software."* Never a windowed UI tilted on a background.
