@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-22
+updated: 2026-09-28
 source: manual
 tags: [systems]
 ---
@@ -17,13 +17,13 @@ The ladder, lowest rung first: **SOP → checklist → skill → automation.** W
 
 | Agent | Owns | Profile → generated adapter | Status |
 |-------|------|---------|--------|
-| **orchestrator** | Routing, merging, the session protocol. The default entry point | none — runs as the main session → [[07-Agents/orchestrator/profile\|profile]] | **built 2026-09-22** |
-| **video-editor** | The DaVinci Resolve editing pipeline + standing Resolve expertise | `.claude/agents/video-editor.md` → [[07-Agents/video-editor/profile\|profile]] | **skeleton built 2026-09-21**; step 6 proven; skills pending |
-| **finance** | Money: ledger, budget sheet, rules, pots, runway, month close. Never moves money | `.claude/agents/finance.md` → [[07-Agents/finance/profile\|profile]] | **built 2026-09-22**; sheet credentials pending |
-| **personal-life** | His day and week, and his disciplinarian: night plan with a nightly accountability check, morning brief, weekly review; TickTick and Google Calendar (full write) | none — runs in the main session → [[07-Agents/personal-life/profile\|profile]] | **built 2026-09-22** |
-| **content** | His own brand, @SamuelSignals: ideas, scripts in his voice, draft reviews, the content log, the Sunday content report | none — runs in the main session → [[07-Agents/content/profile\|profile]] | **built 2026-09-22** |
+| **orchestrator** (General Manager) | Routing, merging, the session protocol. The default entry point | none — runs as the main session → [[07-Agents/orchestrator/profile\|profile]] | **built 2026-09-22** |
+| **video-editor** (Editor) | The DaVinci Resolve editing pipeline + standing Resolve expertise | none — runs in the main session → [[07-Agents/video-editor/profile\|profile]] | **built 2026-09-21**, in daily use on Route Rise jobs; pipeline skills not built |
+| **finance** (Money man) | Money: ledger, budget sheet, rules, pots, runway, month close. Never moves money | none — runs in the main session → [[07-Agents/finance/profile\|profile]] | **built 2026-09-22**; Money sheet connected 2026-09-22 |
+| **personal-life** (PA) | His day and week, and his disciplinarian: night plan with a nightly accountability check, morning brief, weekly review; TickTick and Google Calendar (full write) | none — runs in the main session → [[07-Agents/personal-life/profile\|profile]] | **built 2026-09-22** |
+| **content** (Brand manager) | His own brand, @SamuelSignals: ideas, scripts in his voice, draft reviews, the content log, the Sunday content report | none — runs in the main session → [[07-Agents/content/profile\|profile]] | **built 2026-09-22** |
 
-Roster and planned agents: [[07-Agents/roster|roster]].
+No agent has a generated subagent adapter since 2026-09-23: all five run in the main session on Opus 5.5. Roster and planned agents: [[07-Agents/roster|roster]].
 
 ## SOPs and checklists — in the Brain
 
@@ -32,8 +32,8 @@ Roster and planned agents: [[07-Agents/roster|roster]].
 | Script creation, raw idea → script | SOP | content | [[script-process]] | Samuel brings a raw story idea | unknown | active |
 | Script review | checklist | content | [[script-review-checklist]] | He sends a script for review | unknown | active |
 | Test a Scripnals APK | SOP | orchestrator | [[03-Areas/scripnals/sops/test-an-apk\|test-an-apk]] | The devs send a new APK | 2026-09-22 | active |
-| Routerise cut workflow | SOP | video editing (Phase 4) | [[routerise-cut-workflow]] | A Routerise edit starts | unknown | active |
-| Visual sheet pipeline | SOP + scripts (`scripts/visual-engine/`) | video editing | [[visual-sheet-pipeline]] | A cut is final and needs visuals | 2026-09-25 | active |
+| Routerise cut workflow | SOP | video-editor | [[routerise-cut-workflow]] | A Routerise edit starts | 2026-09-24 | active |
+| Visual sheet pipeline | SOP + scripts (`scripts/visual-engine/`) | video-editor | [[visual-sheet-pipeline]] | A cut is final and needs visuals | 2026-09-25 | active |
 
 ## Skills — in the Brain
 
@@ -52,26 +52,26 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 
 | Skill | What it does | Trigger | Last used | Status |
 |-------|--------------|---------|-----------|--------|
-| [[payday]] | Money landed: log it, mirror it to the sheet, then get the week-of-pay transfers and pots moved the same day (Rule 3) | He says he got paid | never | active |
-| [[budget]] | Set or change a month's plan, one named line per item on Details, and say whether the arithmetic works | He wants to budget or change a line | never | active |
-| [[month-close]] | What came in, went out, survived; Goal 1 pace; freeze the month's plan | Last day of the month, or he asks | never | active |
-| [[money-check]] | Before an off-plan spend: which line pays, what's left after, the verdict in three lines | He asks "can I spend X?" (commitment, 2026-09-22) | never | active |
-| [[sunday-check]] | Weekly: his balance → log the gap → name every line over plan, and what's left to payday | Every Sunday (commitment, 2026-09-22) | never | active |
+| [[payday]] | Money landed: log it, mirror it to the sheet, then get the week-of-pay transfers and pots moved the same day (Rule 3) | He says he got paid | never (first: the September 70%) | active |
+| [[budget]] | Set or change a month's plan, one named line per item on Details, and say whether the arithmetic works | He wants to budget or change a line | 2026-09-25 | active |
+| [[month-close]] | What came in, went out, survived; Goal 1 pace; freeze the month's plan | Last day of the month, or he asks | never (first: 2026-09-30) | active |
+| [[money-check]] | Before an off-plan spend: which line pays, what's left after, the verdict in three lines | He asks "can I spend X?" (commitment, 2026-09-22) | 2026-09-25 | active |
+| [[sunday-check]] | Weekly: his balance → log the gap → name every line over plan, and what's left to payday | Every Sunday (commitment, 2026-09-22) | 2026-09-27 | active |
 
 **Personal-life skills**, built 2026-09-22 from Samuel's answers. Owner: the [[07-Agents/personal-life/profile|personal-life agent]]. All three are conversations and run in the main session.
 
 | Skill | What it does | Trigger | Last used | Status |
 |-------|--------------|---------|-----------|--------|
-| [[night-plan]] | The nightly accountability check on his three commitments (must-dos, client deadlines and hours, 7:00am start), with escalation and the make-up rule. Then close out today, lay tomorrow onto his day in timed chunks (at most three must-dos), write it to TickTick and the calendar once he agrees, and keep a short daily note | 8:45pm routine, or "plan tomorrow" | never | active |
-| [[morning-brief]] | Fixed times, must-dos, the client job and its deadline, anything overdue, in ten lines or fewer | 6:30am routine, or "what's on today" | never | active |
-| [[weekly-review]] | Good week by his own bar, the numbers (must-dos, focus, habits, money line), what slipped and which pattern it matches, then next week planned with him | Sunday 3:00pm session, after [[sunday-check]] | never | active |
+| [[night-plan]] | The nightly accountability check on his three commitments (must-dos, client deadlines and hours, 7:00am start), with escalation and the make-up rule. Then close out today, lay tomorrow onto his day in timed chunks (at most three must-dos), write it to TickTick and the calendar once he agrees, and keep a short daily note | 8:45pm routine, or "plan tomorrow" | 2026-09-27 | active |
+| [[morning-brief]] | Fixed times, must-dos, the client job and its deadline, anything overdue, in ten lines or fewer | 6:30am routine, or "what's on today" | 2026-09-27 | active |
+| [[weekly-review]] | Good week by his own bar, the numbers (must-dos, focus, habits, money line), what slipped and which pattern it matches, then next week planned with him | Sunday 3:00pm session, after [[sunday-check]] | 2026-09-27 | active |
 
 **Content skills**, built 2026-09-22 from Samuel's answers. Owner: the [[07-Agents/content/profile|content agent]]. Both run in the main session.
 
 | Skill | What it does | Trigger | Last used | Status |
 |-------|--------------|---------|-----------|--------|
-| [[write-script]] | Raw idea → interview → hooks → script in his voice, or a review of his draft. Runs [[script-process]] and [[script-review-checklist]] | He brings an idea, a story or a draft | never | active |
-| [[content-report]] | Days with a post out of 7, followers and pace to 5,000 by December, best and worst post. Logs his numbers; never estimates one | Sunday 3:00pm session, after the money check | never | active |
+| [[write-script]] | Raw idea → interview → hooks → script in his voice, or a review of his draft. Runs [[script-process]] and [[script-review-checklist]] | He brings an idea, a story or a draft | no log entry yet | active |
+| [[content-report]] | Days with a post out of 7, followers and pace to 5,000 by December, best and worst post. Logs his numbers; never estimates one | Sunday 3:00pm session, after the money check | 2026-09-27 | active |
 
 ## Scripts
 
@@ -83,12 +83,18 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | `00-System/scripts/budget_sheet.py` | Rebuilds the "Money" Google Sheet (Overview, one tab per month, Ledger) from the money ledger, each month's plan and the goals, over Google's official Sheets API as a service account. `preview` prints it without touching the sheet, `doctor` checks the connection, `left` prints what's left per line this month (for `money-check`), `month-plan YYYY-MM` starts a month's plan from the standing plan, `freeze YYYY-MM` locks it at the close | after any ledger or plan change; `freeze` at every month close |
 | `03-Areas/video-editing/scripts/drive_download.py` | Fast, resumable parallel-range download of a link-shared Drive file or any signed URL (Tella exports) | a new Routerise job's footage |
 | `03-Areas/video-editing/scripts/md_to_docx.py` | Stock-Python Markdown → Word .docx for offline client briefs | saving a Notion idea doc offline |
+| `03-Areas/video-editing/scripts/transcript_docx.py` | Timecoded ALL-CAPS editing transcript .docx from a JSON spec (video-edit-pass phase 2 format) | building a cut's transcript |
+| `03-Areas/video-editing/scripts/waveform_segments.py` · `noise_clips.py` | Speech segments from the mic's 5 ms peaks; finds leftover room-noise clips after Ripple Delete Silence | cutting A-roll by waveform |
+| `03-Areas/video-editing/scripts/resolve_cache_watch.py` · `resolve_crash_dump.py` | Watch render-cache progress per clip; read Resolve crash dumps (exception, module) | a heavy cache or a crash |
+| `03-Areas/video-editing/scripts/chrome_grab.ps1` · `chrome_seq.ps1` · `fusion_view.ps1` | Full-resolution shots of Samuel's Chrome (still or a scroll as frames); a picture of Resolve's current viewer without touching the comp | real UI shots; checking a comp |
+| `03-Areas/video-editing/scripts/fusion-box/` | Generators for Fusion comps by script (tool boxes, circle pills, window stack, Neo Anim, bevel card) | building motion graphics in Fusion |
+| `03-Areas/video-editing/scripts/ui-focus/` | Zoom, darken and highlight on adjustment clips for UI demos, built through the Resolve API (README beside it) | a UI demo or screen recording |
 | `03-Areas/video-editing/scripts/av_sync.py` | Sync offset between camera clip and DJI mic: camera-audio cross-correlation, motion fallback when the scratch audio is dead | when Resolve's waveform auto-sync fails |
-| `00-System/scripts/sheets.py` | **Legacy since 2026-09-22; read the old sheet only.** Client for the Apps Script bridge to the "My Claude Budget" sheet: `ping`, `read`, `ops`, `doctor`, `flush`/`pending` for queued batches. Credentials from Windows user variables only ([[03-Areas/finances/budget-system\|budget system]]) | any sheet read or write |
+| `08-Archive/retired-scripts/sheets.py` | **Retired; archived 2026-09-28. Reads the old sheet only.** Client for the Apps Script bridge to the "My Claude Budget" sheet: `ping`, `read`, `ops`, `doctor`, `flush`/`pending` for queued batches. Credentials from Windows user variables only ([[03-Areas/finances/budget-system\|budget system]]) | any sheet read or write |
 | `00-System/scripts/screen_time.py` | Reads StayFree's local data (PC apps, plus phone and Chrome sessions synced into its cache) from a temp copy and writes `06-Logs/screen-time/<date>.md`: social media by app and hour, 11pm–7am, and each session's times (background Chrome tabs excluded). `--check "HH:MM-HH:MM,…"` gives minutes inside work blocks. No flags prints today | 8:30pm by Task Scheduler ([[00-System/automations/screen-time\|screen time]]); by hand any time |
 | `00-System/scripts/money_ledger.py` | Read-only totals from the money ledger (`totals`, `pots`, `last`) and the delivered-projects record (`videos`) | instead of reading either file |
 | `00-System/scripts/session_start_sync.py` | Fetches GitHub, fast-forwards `main` (only on `main`, only fast-forward), and lists any unmerged `claude/*` branches (a fallback: cloud sessions push to `main` since 2026-09-22). Never merges, deletes or resets; always exits 0 | automatically, by the SessionStart hook |
-| `00-System/scripts/split_conversations.py` | Split the Claude chat export into one file per conversation (Phase 2 migration) | one-off, done |
+| `08-Archive/retired-scripts/split_conversations.py` | Split the Claude chat export into one file per conversation (Phase 2 migration). Archived 2026-09-28 | one-off, done |
 
 ## Job skills — not built yet
 
