@@ -88,3 +88,5 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - 2026-09-28 — Answered "why does Resolve take so long to cache?" from [[03-Areas/video-editing/resolve-performance|Resolve performance]] (read-only; no settings checked or changed).
 
 - 2026-09-28 — Checked Resolve + Windows after Samuel said the checklist was done (read-only). Project settings unchanged; C: at 44 GB free. Recorded under Results in [[03-Areas/video-editing/resolve-performance|Resolve performance]].
+
+- 2026-09-28 — Saved the Route Rise #3 project (`SaveProject`) and copied its render cache (`CacheClipb3169d0-…`, 31,397 files, 8.85 GB) to `C:\Usersepzy\Videos\CacheClip-backup\` before Samuel restarted Resolve. Copy verified by file count and size. The original was left in place.
