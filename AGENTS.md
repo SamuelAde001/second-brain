@@ -34,7 +34,7 @@ Status: built 2026-09-20. Sections marked TBD are filled in later phases of the 
               book. Each folder opens with <area>.md.
 04-Projects/  finite work with an end date. Each links to its area.
 05-Knowledge/ evergreen know-how that spans areas. Domain SOPs live in their area instead.
-06-Logs/      daily/, weekly/, automation/, commitments.md
+06-Logs/      daily/, weekly/, automation/, screen-time/, commitments.md
 07-Agents/    roster.md, handoffs.md, <agent-name>/{profile,memory,log}.md
 08-Archive/   finished work. accountability-engine/ = legacy system, read-only.
 _attachments/ screenshots and small images only. No video, audio or project files.
