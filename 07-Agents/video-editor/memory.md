@@ -158,3 +158,4 @@ The Resolve and Fusion scripting and crash lessons (MCP bridge, Fusion API, TDR 
 - **G: is Google Drive (GoogleDriveFS), not a local disk.** Never put cache, proxies or footage there. The only local disk is C:.
 - Route Rise #3 project UUID = `3b3169d0-b3d3-4b98-af1c-48cd4e27c73e` (its CacheClip folder). A backup copy of that cache is in `C:\Usersepzy\Videos\CacheClip-backup\`. Delete it once the job is delivered: it takes 8.85 GB on a nearly full C:.
 - Resolve keeps its render cache across restarts. Nothing has to be re-cached as long as the cache folder, the cache location setting and the cached clips stay the same.
+- Correction (2026-09-28): the backup path above is mangled. It is `C:\Users\repzy\Videos\CacheClip-backup\`.

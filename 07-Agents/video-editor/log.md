@@ -90,3 +90,4 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - 2026-09-28 — Checked Resolve + Windows after Samuel said the checklist was done (read-only). Project settings unchanged; C: at 44 GB free. Recorded under Results in [[03-Areas/video-editing/resolve-performance|Resolve performance]].
 
 - 2026-09-28 — Saved the Route Rise #3 project (`SaveProject`) and copied its render cache (`CacheClipb3169d0-…`, 31,397 files, 8.85 GB) to `C:\Usersepzy\Videos\CacheClip-backup\` before Samuel restarted Resolve. Copy verified by file count and size. The original was left in place.
+- 2026-09-28 — Correction to the entry above: a shell escape mangled the paths. The cache folder is `CacheClip\3b3169d0-b3d3-4b98-af1c-48cd4e27c73e` and the backup is `C:\Users\repzy\Videos\CacheClip-backup\3b3169d0-b3d3-4b98-af1c-48cd4e27c73e`.
