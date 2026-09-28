@@ -56,6 +56,7 @@ See [[03-Areas/academy/academy-goals|Goals]]. None while paused.
 - [[03-Areas/academy/called-to-edit-beginners/called-to-edit-beginners|Called to Edit: Beginners]] — the full course: who it is for, the promise, the module map, where it stops
   - [[03-Areas/academy/called-to-edit-beginners/teaching-rules|Teaching rules]] — the lesson spine, recording rules, shot types
   - Seven module notes: the editor's mindset · the cut · typography · visuals & motion · colour · audio & sound design · workflow & assets
+- [[03-Areas/academy/fundamentals-vs-core|Fundamentals vs core editing content]] — an early (2026-08) working session on how much fundamentals to teach
 - [[03-Areas/academy/academy-ideas|Ideas]] · [[03-Areas/academy/academy-decisions|Decisions]] · [[03-Areas/academy/academy-log|Log]] · [[03-Areas/academy/academy-goals|Goals]]
 
 ## Open questions
