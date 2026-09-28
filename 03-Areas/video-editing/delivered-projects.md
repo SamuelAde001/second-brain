@@ -2,7 +2,7 @@
 type: knowledge
 area: video-editing
 status: needs-input
-updated: 2026-09-22
+updated: 2026-09-28
 source: manual
 tags: [clients, delivered, income]
 ---
@@ -32,6 +32,7 @@ Every client video delivered so far, one row per video. The **video-editor agent
 | 15 | name unknown | second end client (unnamed) | Route Rise | — | 175 | 2026-08 | [[03-Areas/finances/income|Income]] |
 | 16 | Andy video (Sep #1) — logged earlier as "Client #3" | Andy | Route Rise | 2026-09-08 | 333.33 | 2026-09 | [[08-Archive/accountability-engine/context/ledger-notes/2026-09|Accountability Engine — Sep 2026 ledger notes (archived)]] |
 | 17 | Alex video (Sep #2) | Alex | Route Rise | — | 333.33 | 2026-09 | [[08-Archive/accountability-engine/context/ledger-notes/2026-09|Accountability Engine — Sep 2026 ledger notes (archived)]] |
+| 18 | Alex video (Sep #3) — started 2026-09-15, due 2026-09-18 per the archive | Alex | Route Rise | — | 333.33 | 2026-09 | Samuel, 2026-09-28: *"Yes I did 4 vids, 3 Alex videos which I am to submit the third one today and one Andy's video"*; job from [[08-Archive/accountability-engine/context/ledger-notes/2026-09\|the archived ledger notes]]. Delivery date never logged |
 
 Rows 1–15 come from the batch-count table in [[03-Areas/finances/income|Income]] (May 5 / June 4 / July 2 / August 4 videos), confirmed by Samuel 2026-09-20 as the live record. No video names, individual delivery dates or per-video splits exist anywhere in the Brain for May–July, so those rows carry `name unknown` and `—`. The single-rate assumption for May–July (all USD 333.33, one end client) follows directly from the source: the second end client is stated as "new August 2026" — before that there was one client at one rate. August's 2+2 split and both rates are stated explicitly in [[03-Areas/finances/income|Income]].
 

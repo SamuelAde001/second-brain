@@ -149,3 +149,7 @@ Samuel: *"you made some stupid mistakes still, left in parts that where obvously
 
 The Resolve and Fusion scripting and crash lessons (MCP bridge, Fusion API, TDR and cache crashes, comp builds by script) moved verbatim to [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]], to keep this memory short. Read that note before scripting Resolve or Fusion. New technical lessons go there; lessons about how Samuel works and what he wants stay here.
 
+
+## 2026-09-28 — A flagged job is a question, not a footnote
+
+- The 2026-09-22 backfill of delivered-projects noted "Alex video (Sep #3)" as in progress and left it out. Nobody asked Samuel, so on invoice eve the record said 2 videos when he had done 4. An open flag in delivered-projects gets asked at the next session. Before the invoice on the 29th, confirm the month's count with him.
