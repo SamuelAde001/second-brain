@@ -86,3 +86,5 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - 2026-09-28 — Appended delivered-projects row 18 (Alex video, Sep #3) on Samuel's word. Lesson: the backfill flagged an in-progress job and nobody asked about it; unresolved flags in delivered-projects get asked at the next session, not left.
 
 - 2026-09-28 — Answered "why does Resolve take so long to cache?" from [[03-Areas/video-editing/resolve-performance|Resolve performance]] (read-only; no settings checked or changed).
+
+- 2026-09-28 — Checked Resolve + Windows after Samuel said the checklist was done (read-only). Project settings unchanged; C: at 44 GB free. Recorded under Results in [[03-Areas/video-editing/resolve-performance|Resolve performance]].

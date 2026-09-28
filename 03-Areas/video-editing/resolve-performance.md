@@ -2,7 +2,7 @@
 type: knowledge
 area: video-editing
 status: active
-updated: 2026-09-25
+updated: 2026-09-28
 source: manual
 tags: [resolve, performance, hardware, cache]
 ---
@@ -71,6 +71,7 @@ Windows can't share one GPU fairly. Resolve's background cache fills the RTX 306
 ## Results
 
 - 2026-09-25 — **Checklist item 1 (proxies) applied by Samuel.** His words: *"Making the video a proxy solved a lot of the cap"*. Proxies are the first fix to try on any job with 4K H.264 sources.
+- 2026-09-28 — Samuel said he'd applied the whole checklist. Read by script, Route Rise #3 project open (timeline `Cut v6 (Editor) - retakes removed`): **the project settings hadn't changed**. Render cache `smart`, background caching after `1` s, Optimized Media on at `original`, proxy resolution `original`, working luminance `HDR 1000`. Proxies exist for 2 of 5 4K sources (main raw 1920×1080, Tella 1920×956); 3 4K clips have none. 72 Fusion items on the timeline. Windows: C: **44 GB free of 931 (under 5%)**, down from 163 GB on 09-25; CacheClip 27.6 GB; Resolve at Normal priority; `TdrDelay` and `HwSchMode` not found under `HKLM\…\GraphicsDrivers`; Defender exclusions need admin to read.
 
 ## Side note
 Client raws are 29.97, the timeline is 23.976. Resolve drops frames to convert, which can make motion judder. Confirm the Routerise delivery spec is 23.976 before the next job.
