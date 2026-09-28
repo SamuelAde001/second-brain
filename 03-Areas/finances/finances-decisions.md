@@ -26,3 +26,9 @@ Append-only. Date, decision, why, alternatives rejected, who decided.
 - **Who:** Samuel.
 
 Back to [[03-Areas/finances/finances|Finances]]
+
+## 2026-09-28 — October 2026 budget
+
+- Samuel set October's lines himself: Parents NGN 150,000 (*"They need extra for some maintainance"*), Son's drum NGN 40,000, Ex-Jam get-together NGN 100,000, SMFest NGN 30,000, Household NGN 60,000, Transport NGN 40,000, Misc NGN 20,000, Data NGN 7,000, Goal 1 NGN 284,653. Plan assumes 4 videos.
+- Cowrywise is now two parts: *"1 is a Savings 40k The other is an investment fund 60k, Last month I divided it without record, I have an existing 60k investment already locked"*. Total NGN 100,000 unchanged (Rule 7). What each part holds, and whether Rule 7 covers the savings part, is open.
+- The remainder (NGN 154,891) he handed over: *"add it to where you think I may end up spending more than planned"*. Put on Feeding, Transport, Eating out, Girlfriend extras and Extra cash, with NGN 44,891 kept as a rate cushion that goes to the Buffer on 31 Oct.
