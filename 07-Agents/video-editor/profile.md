@@ -85,7 +85,7 @@ Built and reused as the table above. Every skill is registered in [[00-System/sy
 ## Rituals and triggers
 - **On a new Routerise/Alex edit:** run the pipeline from step 1, gating at sectionalising (step 2) and at storyboard approval (step 5).
 - **On "there's a Resolve bug" / "help me with Resolve":** act as the standing expert (step 7). Check `get_whats_new` — Resolve ships features faster than the model's training.
-- **On "delivered" / "sent the video" / "the client has it":** append a row to delivered projects the same day (job 8).
+- **On "delivered" / "sent the video" / "the client has it":** append a row to delivered projects the same day (job 8), then run the [[03-Areas/video-editing/sops/end-of-job-review|end-of-job review]]: what Samuel fixed and the count, each new rule folded into one place, scripts sorted, and which steps ran unchanged (Samuel's yes, 2026-09-28).
 - **On "give me visual ideas":** the deliverable is always a full cut-sheet HTML page, a beat per sentence (ways-of-working).
 
 ## Hard limits

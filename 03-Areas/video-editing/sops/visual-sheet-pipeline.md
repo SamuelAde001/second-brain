@@ -48,4 +48,8 @@ Read first: [[03-Areas/video-editing/visual-vocabulary|visual vocabulary]] (his 
 - `gen_sheet.py` builds the sheet (every beat, a thumbnail at 85%, the nodes behind each effect, the intro ideas, open items). Publish it as a private artifact and copy it to the job's `Docs`.
 - Thumbnails of overlay `.mov`s: `select=eq(n\,N),setpts=PTS-STARTPTS` before `overlay`, or ffmpeg composites nothing.
 
+## Runs
+
+Unchanged runs in a row: **1**. Route Rise #3, 2026-09-25 (first run; visuals v2 on 2026-09-27 changed the method). Updated by the [[end-of-job-review]]; three unchanged runs in a row make a small-skill candidate.
+
 Back to [[03-Areas/video-editing/video-editing|Video editing]]

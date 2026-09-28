@@ -147,3 +147,8 @@ Entries from 2026-09-20 to 2026-09-22, the build (Brain location, sync, naming, 
 **So:** the Editor works from its SOPs, its scripts and [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]]. A small skill is built only for a specific task that repeats the same way (the systems register's ladder: SOP → checklist → skill → automation, lowest rung first). With nothing left to build, **Phase 4 is closed** (2026-09-28).
 **Why:** the General Manager's audit found no note describing what the four job skills would do, and each overlapped something already running (agents think ideas through, night-plan/weekly-review/budget plan, the PA holds commitments, git commits are a rule). The pipeline still changes every job, so a skill would freeze it too early.
 
+## 2026-09-28 — The Editor closes every job with a review
+
+**What:** a standing step the day a job is delivered: record what Samuel fixed (with a count), fold each new rule into one place, sort the job's scripts into tested and one-off, and track which steps ran unchanged. [[03-Areas/video-editing/sops/end-of-job-review|End-of-job review]]. Samuel: *"yes"*, to the General Manager's proposal.
+**Why:** with the pipeline kept as SOPs and scripts, the risks are rules scattered across six notes, one-off scripts mixed with tested ones, and no measure of whether the Editor is doing more of the work. Three unchanged runs of a step make it a small-skill candidate.
+

@@ -36,7 +36,7 @@ tags: [sop, routerise, setup]
    - Link them with `SetClipsLinked([v, a], True)`, then `SetProperty("AudioVolume", 6.0)` on the mic ([[03-Areas/video-editing/sops/routerise-cut-workflow|cut workflow]] inputs).
    - Add two blue "Lip-sync check" markers, one near the start and one near the end, for Samuel to eyeball.
    - **Sync the screen recording too** (Samuel, 2026-09-24: *"you haven't synced the screen recording to the video also"*). Tella's export has clean audio from his laptop, so cross-correlate the Tella audio envelope against the mic (`av_sync.envelope` + `xcorr`, 20 Hz for the whole length, then 100 Hz on a 90 s stretch). Sweep 120 s windows along Tella first to catch cuts in the story; high-z windows must all give the same offset. Place Tella at `camera time = mic offset in Tella + mic offset after camera`: picture on V2 ("Screen rec (Tella)"), its audio on A2 ("Tella audio (ref)"), linked, **A2 disabled**. Add a green "Screen sync check" marker.
-9. **Log it.** Project note, [[07-Agents/video-editor/log|Editor log]], area log. Commit.
+9. **Log it.** (When the job is delivered, it closes with the [[end-of-job-review]].) Project note, [[07-Agents/video-editor/log|Editor log]], area log. Commit.
 
 ## Failure modes seen
 
@@ -46,5 +46,9 @@ tags: [sop, routerise, setup]
 - **Motion sync is only as good as the stretch you measure.** On the 4 AI Tools shoot, 150-second windows at 0–8 min and 20–28 min all read −9.80 to −9.95 s (z 7–15). Windows at 10–18 min gave garbage (z 3–5, offsets from −20 to +46 s) because he isn't talking there. Measure where he talks to camera and ignore low-z windows.
 - `ProjectManager.DeleteProject` returned False on a project that wasn't loaded. Leave a clearly named leftover for Samuel to delete by hand.
 - Right after `AppendToTimeline`, a screenshot of the timeline can lag behind the API. Trust `GetStart`/`GetEnd`, or press Shift+Z and look again.
+
+## Runs
+
+Unchanged runs in a row: **1**. Route Rise #3, 2026-09-24 (the first run of this SOP). Updated by the [[end-of-job-review]]; three unchanged runs in a row make a small-skill candidate.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]

@@ -34,6 +34,7 @@ No agent has a generated subagent adapter since 2026-09-23: all five run in the 
 | Test a Scripnals APK | SOP | orchestrator | [[03-Areas/scripnals/sops/test-an-apk\|test-an-apk]] | The devs send a new APK | 2026-09-22 | active |
 | Routerise cut workflow | SOP | video-editor | [[routerise-cut-workflow]] | A Routerise edit starts | 2026-09-24 | active |
 | Visual sheet pipeline | SOP + scripts (`scripts/visual-engine/`) | video-editor | [[visual-sheet-pipeline]] | A cut is final and needs visuals | 2026-09-25 | active |
+| End-of-job review | SOP | video-editor | [[end-of-job-review]] | A job is delivered | never (first: Route Rise #3) | active |
 
 ## Skills — in the Brain
 

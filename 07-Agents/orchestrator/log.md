@@ -24,6 +24,7 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - 2026-09-22 — Samuel answered the habits, gym-days and HighSignals-calendar questions. Habit fixed in TickTick; routine, health, profile, memory, night-plan, weekly-review, TickTick map updated; open questions 83–84 closed.
 - 2026-09-28 — Tidy at Samuel's word ("Tidy"), 7 commits: build-state cut to 51 lines (history → `build-history.md`); retired scripts → `08-Archive/retired-scripts/`; systems register corrected from the logs; decisions 2026-09-20..22 and the Editor's technical lessons moved verbatim to their own notes; two open questions closed on evidence; orphans linked; inbox note filed. Three deletions and the two remote-branch deletions were refused by the auto-mode classifier and are left for Samuel. `ui-focus/` kept: it's a live tool, not trash.
 - 2026-09-28 — Samuel dropped the four job skills and the Editor's pipeline skills ("Drop them"; the pipeline still changes). Decision recorded; AGENTS.md §8, systems register, Editor profile and build-state updated. Phase 4 closed.
+- 2026-09-28 — End-of-job review for the Editor, on Samuel's yes: SOP, profile trigger, Runs counts on the SOPs, register row, decision.
 
 Back to [[07-Agents/orchestrator/profile|Profile]]
 - 2026-09-22 — At Samuel's request: created cloud routines for the morning brief and night plan, paused the desktop tasks, and allowed the routines' tools in `.claude/settings.json` (deletes still ask). Automation notes, register, decisions and build-state updated.

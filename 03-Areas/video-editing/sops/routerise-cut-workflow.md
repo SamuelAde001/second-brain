@@ -125,3 +125,7 @@ All four steps have run across the whole timeline: audio/picture synced and link
 
 Client and account-context details (mic setup, footage quirks) are in [[03-Areas/video-editing/clients/routerise|Routerise]]. Established 2026-09-14 on project "1. Taking a step back from Claude" — note that document itself does not confirm which client/video it covers; see the open question logged in [[tsb-graphics-pipeline|Tsb graphics pipeline]].
 Registered in [[systems-register]].
+
+## Runs
+
+Unchanged runs in a row: **1**. Route Rise #3: the cut was redone from the synced raw on 2026-09-25 (Samuel's method); that method has run once. Updated by the [[end-of-job-review]]; three unchanged runs in a row make a small-skill candidate.
