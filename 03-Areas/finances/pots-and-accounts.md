@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-20
+updated: 2026-09-28
 source: legacy-accountability-engine
 tags: [savings, pots, accounts]
 ---
@@ -19,8 +19,9 @@ A pot with no account is a pot that cannot be funded on payday.
 
 | Pot | Account | Payday |
 |---|---|---|
-| Buffer | the savings account already called **"Emergency"** | B |
-| Cowrywise investment | **Cowrywise**, locked to Jan 2027 | A |
+| Buffer | the savings account called **"Emergency"** + **Cowrywise savings** (from 2026-09-28) | A+B |
+| Investment fund | **with his finance manager**, locked (Rule 7). From 2026-09-28 | A |
+| ~~Cowrywise investment~~ | Relabelled 2026-09-28: it was the Cowrywise savings, now part of the Buffer. *"The 6,959 is actually savings, the investment is in a different place with my finance manager who invests for me"* | — |
 | Goal 1 — house | **Cowrywise**, plan created 2026-09-02 | B |
 | Goal 2 — marriage | **not set** — starts Jan 2027 | B |
 | Emergency fund | the "Emergency" account — starts Jan 2027 | B |

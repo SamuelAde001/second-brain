@@ -48,10 +48,10 @@ Append the `in` row to `03-Areas/finances/money-ledger.md`. The Note carries USD
 
 ## 4. Now the part that matters: move it
 
-With the numbers in front of him, list this payday's lines, with amounts, from the month's plan file (its Payday column). The pots move by Rule 3: Cowrywise on Payday A; Goal 1 and the Buffer on Payday B.
+With the numbers in front of him, list this payday's lines, with amounts, from the month's plan file (its Payday column). The pots move by Rule 3: the investment fund and the Buffer's NGN 40,000 to Cowrywise savings on Payday A; Goal 1 and the rest of the Buffer on Payday B, unless the month's plan moves them.
 
 - **Rule 4:** the building project, NGN 500,000, is paid in full before any discretionary line.
-- **Rule 7:** Cowrywise NGN 100,000 never pauses and never counts toward a goal.
+- **Rule 7:** the investment fund's NGN 60,000 never pauses and never counts toward a goal. Cowrywise savings is Buffer money (2026-09-28).
 - **Rule 3 excess:** if Payday A leaves more than NGN 50,000 free after its commitments, the excess moves the same day.
 - From January 2027: Goal 2 (marriage) and the NGN 300,000 emergency fund join the list.
 

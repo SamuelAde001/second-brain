@@ -36,7 +36,7 @@ History up to 2026-09-16 stays in the old ledger: [[08-Archive/accountability-en
 
 **Added 2026-09-22 — one starting position.** The starting position is the set of `opening` rows with the **earliest** date. A later `opening` row is a **checkpoint**: the scripts check the rows add up to it at the end of its day, and never apply it. That is how September 2026 came in from the old ledger without editing a row.
 
-Pot names, exactly: `Goal 1`, `Buffer`, `Cowrywise investment`, `Emergency fund`, `Goal 2`.
+Pot names, exactly: `Goal 1`, `Buffer`, `Investment fund`, `Emergency fund`, `Goal 2`. `Cowrywise investment` is history only: from 2026-09-28 Cowrywise savings is part of the `Buffer` and the locked investment is the `Investment fund`.
 
 **Category** for a spend row is a line from that month's plan (`03-Areas/finances/plans/plan-YYYY-MM.md`, or the standing plan in [[obligations]] if the month has none), exactly as written there (`Building project`, `Feeding`, `Kaduna trip`…), or `Other` if none fits. That is how the sheet matches spending to the plan.
 
@@ -116,5 +116,10 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-09-27 | balance | 1,265 | Bank | — | his words: "Right now, just 1,265 in my account right now"; no screenshot |
 | 2026-09-27 | from-pot | 30,000 | Cowrywise withdrawal, not yet in the bank | Cowrywise investment | his words: "I just withdrew 30,000 from cowrywise investment cause I don't like having nothing much in my account, the money would arrive tomorrow as it takes 24hrs to process"; in transit, due 2026-09-28; not in the 1,265 balance above; not asked first |
 | 2026-09-28 | correction | — | Cowrywise investment pot (all rows): it is Cowrywise savings, not the investment. The investment is a separate fund run by his finance manager, existing NGN 60,000 per his words, not in this ledger | Cowrywise investment | his words: "The 6,959 is actually savings, the investment is in a different place with my finance manager who invests for me"; "I have an existing 60k investment already locked". Pot split waits on his answer about Rule 7 |
+| 2026-09-28 | from-pot | 6,959 | Relabel: Cowrywise savings leaves the old pot name. No money moved | Cowrywise investment | his words: "It's withdrawable, put it toward the Buffer"; paired with the to-pot row below, bank unchanged |
+| 2026-09-28 | to-pot | 6,959 | Relabel: Cowrywise savings counted in the Buffer. No money moved | Buffer | his words: "It's withdrawable, put it toward the Buffer"; paired with the from-pot row above, bank unchanged |
+| 2026-08-31 | opening | 60,000 | Investment fund | Investment fund | his words 2026-09-28: "I have an existing 60k investment already locked", run by his finance manager. Date it went in not known; entered at the starting position because no row moved it |
+| 2026-09-28 | correction | — | Pot names from today: `Investment fund` (locked, Rule 7) and `Buffer` (includes Cowrywise savings). `Cowrywise investment` is history only | — | his words 2026-09-28; plan-2026-10 changes |
+| 2026-09-28 | bulk | 13,000 | Debt girlfriend owed someone, paid by Samuel | Girlfriend — extra | his words: "I had to pay a debt my babe owed someone, 13k"; day not given, logged as told 2026-09-28; not asked first |
 
 Back to [[03-Areas/finances/finances|Finances]]

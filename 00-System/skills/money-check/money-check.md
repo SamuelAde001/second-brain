@@ -31,7 +31,7 @@ That gives the bank as of the last row, every line with what's left, anything ov
    - **Fits.** The line covers it.
    - **Fits, but empties the line.** Name what that line was still for.
    - **Doesn't fit.** Say the shortfall in NGN and which line it would come out of instead, following Rule 8's cut order: personal/misc → creator visits → household → Buffer. If the Buffer is empty: *"Nothing under you. Rule 8: an urgency is negotiated, not funded."* Never suggest Goal 1 or the investment.
-   - **It's a savings pot.** If it could only come from Goal 1, the emergency fund or Cowrywise, say it's Rule 1 or Rule 7 and name the three allowed reasons. It's his call. Say the cost once, then stop.
+   - **It's a savings pot.** If it could only come from Goal 1, the emergency fund or the investment fund, say it's Rule 1 or Rule 7 and name the three allowed reasons. It's his call. Say the cost once, then stop.
 
 No lecture, no second warning. He decides.
 

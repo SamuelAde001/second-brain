@@ -17,6 +17,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 - **Built:** 5 agents (General Manager, Editor, Money man, PA, Brand manager; all run in the main session on Opus 5.5). 14 skills. 5 automations. Full list: [[00-System/systems-register|Systems register]].
 - **Dropped 2026-09-28** (Samuel): the job skills `brainstorm`, `plan`, `systemize`, `commit`, and the Editor's pipeline skills. The Editor runs from SOPs, scripts and small skills for tasks that repeat ([[00-System/decisions|decision]]).
 - **Next action:** no build work queued. First real `month-close` on 2026-09-30, then the items waiting on Samuel below.
+- **2026-09-28:** October budget set (4 videos, both paydays balance to 0). Cowrywise split: Investment fund NGN 60,000 locked, Cowrywise savings NGN 40,000 is Buffer money. Payday A due Wed 30 Sep: run `payday`.
 
 ## Live work and dates
 

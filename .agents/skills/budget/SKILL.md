@@ -45,11 +45,11 @@ Every item he names goes to a line in the month's plan file. A one-off (a trip, 
 
 ## 5. The arithmetic, out loud
 
-Total the plan. Add the pots for the month: building NGN 500,000, Cowrywise NGN 100,000, Goal 1, the Buffer, and from January 2027 Goal 2 and the emergency fund. Compare to money in hand plus expected, at the chosen video count.
+Total the plan. Add the pots for the month: building NGN 500,000, the investment fund NGN 60,000, Goal 1, the Buffer (NGN 90,000: NGN 40,000 Cowrywise savings + NGN 50,000), and from January 2027 Goal 2 and the emergency fund. Compare to money in hand plus expected, at the chosen video count.
 
 - **If it doesn't balance, say the shortfall in NGN.** Don't trim a category quietly to make it fit. Show the gap and make him choose what goes. If he wants the cut order, it's Rule 8: personal/misc → creator visits → household down to NGN 20,000 → the Buffer → a conversation.
 - **Rule 4:** if the plan underfunds the building, name it, and name the August NGN 300,000 shortfall.
-- **Rule 7:** Cowrywise NGN 100,000 doesn't flex.
+- **Rule 7:** the investment fund's NGN 60,000 doesn't flex (changed 2026-09-28 from NGN 100,000 to Cowrywise).
 - **Rule 1:** a plan that only balances by taking from savings is not a budget.
 - **Goal 1:** say what the plan leaves toward NGN 1,000,000 by 2026-12-31, and the NGN per month still needed from here. If that number went up, say so. Every month.
 - **Overspend shows red, never blocks.** His rule for the sheet: *"let me see it in red when it is more than 100% so I can adjust."* No pop-ups, no validation that stops him.

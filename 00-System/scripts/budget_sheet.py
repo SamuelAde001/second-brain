@@ -64,9 +64,9 @@ GOALS = [
 ]
 # Pot lines in the plan, and the rule that fixes their amount.
 POT_PLAN = [
-    ("Cowrywise investment", "A", 100_000),  # Rule 7
+    ("Investment fund", "A", 60_000),        # Rule 7: locked, run by his finance manager (2026-09-28)
     ("Goal 1", "B", None),                   # set each month in the budget
-    ("Buffer", "B", 50_000),                 # Rule 8
+    ("Buffer", "A+B", 90_000),               # Rule 8: 40,000 to Cowrywise savings on A + 50,000 on B (2026-09-28)
 ]
 COUNTS_TOWARD_GOAL_1 = ("Goal 1", "Emergency fund")
 OLD_SHEET_TABS = {"Dashboard", "Setup", "Details", "Budget"}  # refuse to touch the old sheet
@@ -93,7 +93,7 @@ def live_plan():
     for r in ml.table_rows(OBLIGATIONS, "Item"):
         item = r.get("Item", "")
         if not item or item.startswith("**") or item.lower().startswith("investment contribution"):
-            continue  # totals, and the investment row, which is the Cowrywise pot line below
+            continue  # totals, and the investment row, which is the Investment fund pot line below
         out.append((item, r.get("Payday", ""), ml.ngn(r.get("Amount", "")) or 0))
     return out + list(POT_PLAN)
 
@@ -260,7 +260,7 @@ def goal_rows(bal, today):
 
 def where_rows(bank, bal):
     rows = [["Bank", bank, "No"]] + [[p, bal.get(p, 0), "Yes" if p in COUNTS_TOWARD_GOAL_1 else "No"]
-                                      for p in ("Goal 1", "Emergency fund", "Buffer", "Cowrywise investment")]
+                                      for p in ("Goal 1", "Emergency fund", "Buffer", "Investment fund")]
     rows.append(["Saved toward Goal 1", sum(bal.get(p, 0) for p in COUNTS_TOWARD_GOAL_1), ""])
     return rows
 

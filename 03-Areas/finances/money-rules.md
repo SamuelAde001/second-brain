@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-22
+updated: 2026-09-28
 source: legacy-accountability-engine
 tags: [rules, money]
 ---
@@ -62,8 +62,16 @@ Settled once, 2026-08-26, and not to be re-argued: **it never pauses.** If Decem
 >
 > **What that costs, stated once:** the investment ends 2026 near **NGN 336,959** instead of the NGN 705,000 the plan assumed — a **NGN 368,041** permanent hole in the pot that was never supposed to be touched. Rule 7's "it never pauses" survives; "it is never touched" did not. The rule now has a precedent, and the next urgency will find it.
 
+> **Changed 2026-09-28 — what is locked.** Samuel: *"Cowrywise is now two patches, 1 is a Savings 40k The other is an investment fund 60k"*; *"The 6,959 is actually savings, the investment is in a different place with my finance manager who invests for me"*; *"It's withdrawable, put it toward the Buffer"*.
+>
+> **The rule now:** **NGN 60,000/month to the investment fund** his finance manager runs. Ring-fenced, never paused, never counts toward a goal. The other NGN 40,000 goes to **Cowrywise savings, which is Buffer money**, withdrawable under Rule 8. The pot the ledger called "Cowrywise investment" (NGN 6,959 on 2026-09-28) was the savings part all along.
+>
+> **Said once:** NGN 40,000 a month moved from a pot he couldn't touch to one he can. The day before, he took NGN 30,000 out of it because the bank balance looked low.
+
 ### 8. The Buffer funds urgencies — never savings
 **NGN 50,000/month to a NGN 200,000 target**, plus any month-end underspend, plus the whole excess of any 4-video month.
+
+> **Changed 2026-09-28:** NGN 90,000/month. NGN 40,000 to Cowrywise savings on Payday A + NGN 50,000 on Payday B. Samuel: *"It's withdrawable, put it toward the Buffer"*. The Buffer now sits in two places: the "Emergency" account and Cowrywise savings.
 
 When a month lands short, **the cut order is already decided**:
 

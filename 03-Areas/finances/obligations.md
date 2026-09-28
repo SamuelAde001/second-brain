@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-22
+updated: 2026-09-28
 source: legacy-accountability-engine
 tags: [budget, obligations]
 ---
@@ -27,8 +27,10 @@ Exact line items, given by Samuel on 2026-08-26 and maintained since. **Payday**
 | Personal / misc | NGN 10,000 | Discretionary | B |
 | Data / airtime | NGN 5,000 | Committed | B |
 | **Obligations floor** | **NGN 950,300** | | |
-| Investment contribution | NGN 100,000 | Fixed | A |
-| **Total committed outflow** | **NGN 1,050,300 / month** | | |
+| Investment contribution (Investment fund) | NGN 60,000 | Fixed | A |
+| **Total committed outflow** | **NGN 1,010,300 / month** | | |
+
+The Buffer gets NGN 90,000/month on top: NGN 40,000 to Cowrywise savings on Payday A + NGN 50,000 on Payday B (Rule 8, changed 2026-09-28).
 
 ## Subscriptions, exactly
 
@@ -75,6 +77,15 @@ A warning from the same rework: the estimate was NGN 1,044,500, the truth NGN 1,
 | Subscriptions (Google) | NGN 15,000 on the 2nd | NGN 28,500 on the 18th | His words: "I had to increase my google subscription because of the work I was doing needed me to use Flow, and my google plan wasn't enough" |
 
 The floor rises from NGN 936,800 to **NGN 950,300**, and committed outflow from NGN 1,036,800 to **NGN 1,050,300**. A work tool, and it recurs.
+
+## Changed 2026-09-28, at his instruction
+
+| Line | From | To | Why |
+|---|---|---|---|
+| Investment contribution | NGN 100,000 to Cowrywise, locked | NGN 60,000 to the investment fund his finance manager runs, locked | *"Cowrywise is now two patches, 1 is a Savings 40k The other is an investment fund 60k"*; *"The 6,959 is actually savings, the investment is in a different place with my finance manager who invests for me"* |
+| Buffer | NGN 50,000 on B | NGN 90,000: NGN 40,000 to Cowrywise savings on A + NGN 50,000 on B | *"It's withdrawable, put it toward the Buffer"* |
+
+Committed outflow falls from NGN 1,050,300 to **NGN 1,010,300**. Nothing got cheaper: the NGN 40,000 moved from a locked pot to one he can withdraw from.
 
 ## Removed and no longer owed
 

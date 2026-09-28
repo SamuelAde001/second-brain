@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-22
+updated: 2026-09-28
 source: legacy-accountability-engine
 tags: []
 ---
@@ -17,7 +17,7 @@ Real goals with numbers and dates, from the system Samuel confirmed on 2026-09-2
 | **Goal 2 — marriage** | **NGN 3,000,000 more, on top of Goal 1** — NGN 4,000,000 total | **31 Jul 2027** | Not started. Needs **NGN 428,571/month** across Jan–Jul 2027 |
 | **Emergency fund** | **NGN 300,000** | Funded from **January 2027**, after Goal 1 closes | NGN 0. His call: it does not compete with the December target |
 | **Building project** | **NGN 500,000 every month, no shortfall** | Ongoing | August 2026 was NGN 200,000 — a NGN 300,000 shortfall on the record |
-| **Buffer** | **NGN 200,000** at NGN 50,000/month | — | NGN 50,000 per the sheet (2026-09-16) |
+| **Buffer** | **NGN 200,000** at NGN 90,000/month (from 2026-10: NGN 40,000 Cowrywise savings + NGN 50,000) | — | NGN 6,959 as of 2026-09-28 (ledger, the Cowrywise savings). October plans NGN 134,891 in |
 
 **The investment pot does not count toward any of these.** Rule 7, [[money-rules]].
 

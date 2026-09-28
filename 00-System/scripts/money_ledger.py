@@ -24,7 +24,8 @@ BRAIN = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__
 LEDGER = os.path.join(BRAIN, "03-Areas", "finances", "money-ledger.md")
 DELIVERED = os.path.join(BRAIN, "03-Areas", "video-editing", "delivered-projects.md")
 
-POTS = ["Goal 1", "Buffer", "Cowrywise investment", "Emergency fund", "Goal 2"]
+POTS = ["Goal 1", "Buffer", "Investment fund", "Emergency fund", "Goal 2",
+        "Cowrywise investment"]  # the last is history only: relabelled as Cowrywise savings (Buffer) 2026-09-28
 OUT_TYPES = ("major", "bulk", "charges")
 TYPES = ("opening", "in", "major", "bulk", "to-pot", "from-pot", "charges", "balance", "correction")
 

@@ -1,6 +1,6 @@
 ---
 name: month-close
-description: "Month-end financial close for Samuel: what came in, what went out, what survived, the building payment, Goal 1 pace against NGN 1,000,000 by 2026-12-31, the invoice batch and the Cowrywise investment, then rebuild his 'Money' sheet from the ledger. Use on the last day of a month, when he asks to close or review a month, or asks how a month went for money. Not for a payday (use payday) or planning ahead (use budget)."
+description: "Month-end financial close for Samuel: what came in, what went out, what survived, the building payment, Goal 1 pace against NGN 1,000,000 by 2026-12-31, the invoice batch and the investment fund, then rebuild his 'Money' sheet from the ledger. Use on the last day of a month, when he asks to close or review a month, or asks how a month went for money. Not for a payday (use payday) or planning ahead (use budget)."
 type: skill
 area: finances
 status: active
@@ -44,7 +44,7 @@ How many videos this month (from `videos`), at what rate, and what the 70% lands
 
 ## 5. The investment
 
-Confirm the NGN 100,000 went to Cowrywise this month and give the running balance. Report it **on its own**, never inside the savings number (Rule 7).
+Confirm the NGN 60,000 went to the investment fund (his finance manager) this month and give the running balance. Cowrywise savings is Buffer money, not the investment (2026-09-28). Report it **on its own**, never inside the savings number (Rule 7).
 
 ## 6. Rebuild the sheet
 
