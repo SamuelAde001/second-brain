@@ -17,7 +17,7 @@ BRAIN = pathlib.Path(__file__).resolve().parents[2]
 NOTE = BRAIN / "03-Areas" / "scripnals" / "ai-workflow.md"
 ASSETS = BRAIN / "03-Areas" / "scripnals" / "assets"
 ATT = BRAIN / "_attachments" / "scripnals"
-DEFAULT_OUT = ASSETS / "scripnals-script-buddy-ai-workflow-v1.pdf"
+DEFAULT_OUT = ASSETS / "scripnals-script-buddy-ai-workflow-v1.1.pdf"
 CHROME = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 
 

@@ -92,8 +92,8 @@ Answers "what is this category actually made of" — every subscription, every l
 
 Through an **Apps Script web app bound to the sheet.** It's still deployed in the sheet; only the client moved. Since 2026-09-22 the client lives in the Brain:
 
-- `00-System/scripts/sheets.py`: the client. `ping`, `read`, `ops`, `doctor`, and `flush`/`pending` for batches that couldn't be delivered. Ported from the engine; only the paths and the credential handling changed.
-- `00-System/scripts/sheets-apps-script.gs`: the script inside the sheet, with a placeholder instead of the token. Needed only to redeploy.
+- `08-Archive/retired-scripts/sheets.py` (moved from `00-System/scripts/` on 2026-09-28, retired with the old sheet): the client. `ping`, `read`, `ops`, `doctor`, and `flush`/`pending` for batches that couldn't be delivered. Ported from the engine; only the paths and the credential handling changed.
+- `08-Archive/retired-scripts/sheets-apps-script.gs`: the script inside the sheet, with a placeholder instead of the token. Needed only to redeploy.
 - A batch that can't reach the sheet parks in `06-Logs/automation/sheet-queue.jsonl`. The next session that can reach the sheet sends it. Nothing is dropped.
 - The engine's originals, including `build_budget.py` and `plan.json`, stay at `08-Archive/accountability-engine/tools/sheets/`. *(They were deleted in the 2026-09-20 prune as "build tooling" and restored from git history the same day once Samuel confirmed this system is live.)*
 
@@ -111,7 +111,7 @@ Get-Content "$env:USERPROFILE\Desktop\engine\.env" | ForEach-Object { if ($_ -ma
 
 It writes the registry directly. The first version used `[Environment]::SetEnvironmentVariable`, which tells every open window about the change and froze PowerShell for minutes on 2026-09-22 (the values were saved anyway). Connected and verified the same day: `doctor` reached "My Claude Budget", 7 tabs.
 
-Then check: `python 00-System/scripts/sheets.py doctor`. No restart needed.
+Then check: `python 08-Archive/retired-scripts/sheets.py doctor`. No restart needed.
 
 **If the token ever leaks:** change `TOKEN` in the Apps Script editor, Deploy → Manage deployments → edit → New version, then set `SHEETS_TOKEN` again with the same command pattern. `python 00-System/scripts/sheets.py script` puts the script, token filled in, on the clipboard. It never prints it.
 

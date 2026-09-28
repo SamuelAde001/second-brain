@@ -136,7 +136,7 @@ Nothing from it was installed, merged or activated. `00-System/legacy-review.md`
 
 ## Phase 2 pass 1 — conversation triage (2026-09-20)
 
-`00-System/scripts/split_conversations.py` (stdlib only) split `conversations.json` into 235 markdown files under `01-Inbox/_imports/processed/conversations/` and wrote `triage.csv`.
+`00-System/scripts/split_conversations.py` (archived 2026-09-28 to `08-Archive/retired-scripts/`) (stdlib only) split `conversations.json` into 235 markdown files under `01-Inbox/_imports/processed/conversations/` and wrote `triage.csv`.
 
 - Suggested keep: 111 conversations, ~627,000 est tokens. **Too large to distil on a Pro plan.**
 - Suggested drop: 124 conversations, ~145,000 est tokens.

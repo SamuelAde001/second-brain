@@ -54,7 +54,7 @@ Keep an honest record of what money actually moved, say plainly where Samuel sta
 | Totals, pots and derived bank from the ledger | `00-System/scripts/money_ledger.py` | built |
 | Rebuild the "Money" sheet from the Brain: Overview, one tab per month, Ledger | `00-System/scripts/budget_sheet.py build` (official Sheets API, service account) | built 2026-09-22 ([[03-Areas/finances/budget-system\|budget system]]) |
 | Each month's plan: start it, change it while the month runs, freeze it at the close | `03-Areas/finances/plans/plan-YYYY-MM.md` · `budget_sheet.py month-plan YYYY-MM` · `freeze YYYY-MM` | built 2026-09-22 |
-| Read the old "My Claude Budget" sheet (history only) | `00-System/scripts/sheets.py read` | legacy, flaky; never write to it |
+| Read the old "My Claude Budget" sheet (history only) | `08-Archive/retired-scripts/sheets.py read` | legacy, flaky; never write to it. Archived 2026-09-28 |
 | "Can I spend X on Y?": the check before any off-plan spend | skill `money-check` (wish-list items: the four steps in [[03-Areas/finances/wish-list\|wish list]]) | built 2026-09-22 |
 | Every Sunday: his balance → log the gap → name every line over plan | skill `sunday-check` | built 2026-09-22; first one 2026-09-27 |
 
