@@ -41,7 +41,7 @@ The day's tasks live in TickTick, not here.
 - **Phone away:** by 11:00pm — *"not always."*
 - **Prayer and Bible study:** 6:00–6:30am. A practice, not a tracked habit.
 - **Social media:** only while eating — the 1:00pm first meal and dinner. His reason: *"when I am eating so it's a relaxation with it."* Outside meals there is no rule.
-  - 2026-09-28: Samuel named it himself: *"Social media doomscrolling at the wrong times are part of what is making me less productive."* He tracks usage and locks apps with **StayFree** on phone, PC and browser. What's readable on the PC: the StayFree desktop app's local `usage.db` (PC apps only, per-session start/end times, from 2025-11-14), and the StayFree Chrome extension's local storage (site-level, not yet parsed). Phone usage is not on the PC.
+  - 2026-09-28: Samuel named it himself: *"Social media doomscrolling at the wrong times are part of what is making me less productive."* He tracks usage and locks apps with **StayFree** on phone, PC and browser. What's readable on the PC: the StayFree desktop app's local `usage.db` (PC apps only, per-session start/end times, from 2025-11-14), and the desktop app's `config.db`, which caches synced **phone (Android) and web** sessions, with start/end times, for whatever dates the app last pulled from StayFree's cloud (only 2026-09-27 and 2026-09-28 on 2026-09-28). Completeness depends on that refresh.
 
 11:00pm to 6:00am is 7 hours — exactly his sleep floor ([[health]]), with no buffer: the phone cut-off and bedtime are now the same time, and both hold only some nights. Late nights are the upstream cause of P4 in [[patterns]].
 
