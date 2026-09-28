@@ -72,7 +72,7 @@ The stakes quote comes once per session, never once per miss. Escalation is pres
 
 **Writes in the Brain:** `07-Agents/personal-life/` (memory, log) · `06-Logs/daily/` (the plan for a day, and what got done) · `06-Logs/weekly/` (the weekly review) · `01-Inbox/`.
 
-**Reads, never writes:** [[02-Me/daily-routine|daily routine]], [[02-Me/patterns|patterns]], [[02-Me/spirit|spirit]], [[06-Logs/commitments|commitments]], the [[03-Areas/video-editing/delivered-projects|delivered projects]] record (through `python 00-System/scripts/money_ledger.py videos YYYY-MM`).
+**Reads, never writes:** his StayFree screen time, through `06-Logs/screen-time/<date>.md` only; the PC writes it with `00-System/scripts/screen_time.py` (2026-09-28, [[00-System/automations/screen-time|screen time]]). [[02-Me/daily-routine|daily routine]], [[02-Me/patterns|patterns]], [[02-Me/spirit|spirit]], [[06-Logs/commitments|commitments]], the [[03-Areas/video-editing/delivered-projects|delivered projects]] record (through `python 00-System/scripts/money_ledger.py videos YYYY-MM`).
 
 **Does not touch:** money (finance), client editing (video-editor), scripts and brand content (content). A task *about* those it schedules; the work itself it routes back through the orchestrator.
 

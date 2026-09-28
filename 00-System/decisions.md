@@ -440,3 +440,13 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **What:** routine `trig_01Pet8jENJ1CEguycgH9suEf` model `claude-sonnet-5` → `claude-opus-5-5`. The morning brief and the Sunday session stay on Sonnet. Updated: the automation note, AGENTS.md §7, the orchestrator profile, the roster. This narrows the 2026-09-23 rule that routines run on Sonnet.
 
 **Cost:** Opus uses more of the shared Pro limit on every night run.
+
+## 2026-09-28 — Social media is checked nightly from StayFree
+
+**Samuel:** *"Social media doomscrolling at the wrong times are part of what is making me less productive"* · asked whether the PA could read his StayFree usage *"to help keep me accountable"* · *"yes build it, YouTube counts as social media but sometimes it's used for work"*.
+
+**What:** a new commitment, *social media only while eating* ([[06-Logs/commitments|commitments]]). `00-System/scripts/screen_time.py` reads StayFree's local Windows data read-only (the PC's own apps, plus the phone and Chrome sessions StayFree caches from its cloud sync) and writes `06-Logs/screen-time/<date>.md`. Windows Task Scheduler runs it at 8:30pm and pushes, so the 8:45pm cloud night plan can read it. Night-plan skill, standing rules, PA profile, AGENTS.md §10 and the systems register updated. New automation note: [[00-System/automations/screen-time|screen time]].
+
+**Why a script, not computer use:** Samuel asked about computer use reading StayFree daily. The General Manager's recommendation was a script: the same data is on disk with exact times, a script costs no Pro usage, it doesn't take over the mouse, and the night plan is a cloud routine that can't see the PC screen anyway. Computer use stays a fallback only.
+
+**Who decided:** Samuel (the commitment, the build, YouTube counts). The PA's defaults, not his words yet: meal windows 1:00–2:00pm and 6:30–7:30pm, a miss at 10 minutes or more outside them, WhatsApp not counted.

@@ -50,7 +50,7 @@ Why it exists. Samuel, 2026-09-25: *"they forget things that I have settled befo
 | **Gym 5pm** | **at least 3 times a week**, days picked by how heavy the day's work is | habit check-in or his word; the agent checks in the habit when he says he went. *"minimum of 3X a week"* (2026-09-22) **The gym is closed on Sundays:** *"Gym doesn't open on Sunday"* (2026-09-27), so the 3 go Mon–Sat. |
 | **Post content** | a Reel, TikTok or carousel went out that day (a Story doesn't count) | habit check-in or his word. Reported, not escalated. (2026-09-22) |
 
-Other habits, from [[02-Me/daily-routine|daily routine]], aren't tracked in TickTick: sleep and phone away by about 11:00pm, social media only while eating.
+Other habits, from [[02-Me/daily-routine|daily routine]], aren't tracked in TickTick: sleep and phone away by about 11:00pm. Social media only while eating is now a commitment, below.
 
 ## Commitments he's held to
 
@@ -59,6 +59,11 @@ Full list and start dates: [[06-Logs/commitments|commitments]]. Checked every ni
 2. **Client deadlines and hours** kept.
 3. **Start by 7:00am**, content days too.
 4. **Free from porn and masturbation.** Day 1 was 2026-09-24. Ask plainly: *"Free today?"* Speak of it in his frame: freed by Christ, by grace.
+5. **Social media only while eating** (2026-09-28). Checked from StayFree, not asked: the PC writes `06-Logs/screen-time/<today>.md` at 8:30pm.
+   - **YouTube counts as social media.** *"YouTube counts as social media but sometimes it's used for work"*. Ask how much of the YouTube outside meals was work; his word stands and that part isn't counted.
+   - **Meal windows: 1:00–2:00pm and 6:30–7:30pm**, from his day (meal at 1:00, nap at 2:00; dinner ~6:30). **A miss is 10 minutes or more outside them**, late night included. Both numbers are the PA's defaults (2026-09-28), not his words yet. Change them when he says.
+   - WhatsApp is messaging, not social media. Reported, never a miss.
+   - No file, or phone data marked missing or stale: say so and ask for a StayFree screenshot. Never a miss on missing data.
 
 No answer to a question means unknown, never a miss.
 
