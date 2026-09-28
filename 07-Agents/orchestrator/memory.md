@@ -53,4 +53,12 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - **Obsidian overwrites `.obsidian/*.json` from memory while it's open.** I wrote graph colour groups into `graph.json`, Samuel zoomed the graph, and Obsidian saved its old blank settings over mine. Change Obsidian settings only while it's closed. What worked: a background PowerShell loop that waits for the `Obsidian` process to exit, then writes the file. Samuel only has to close it and reopen it.
 - `graph.json` is tracked and changes every time he zooms, so it will often show as modified. That's his Obsidian use: commit it with his edits (AGENTS.md §12).
 
+## 2026-09-28 — Auditing and tidying the Brain
+
+- **Audit by script, never by reading.** One Python pass (frontmatter, wikilinks with table-escaped `\|` stripped, orphans, sizes, duplicates) covered 282 notes for a few thousand tokens. Keep `audit.py`-style checks cheap and rerun after the tidy to verify.
+- **Check references before calling anything trash.** `ui-focus/` looked like scratch but the Editor's memory uses it as a tool; `build_scripnals_spec.py` wrote to the "superseded" PDF's filename by default.
+- **Auto mode refuses `git rm` of tracked files** as irreversible, even with Samuel's yes in chat. Moves (`git mv`) go through. Batch the deletions into a list for him instead of retrying.
+- **Split long files by moving text verbatim** into a named companion note with a pointer both ways. It keeps append-only history intact and cuts what every session start reads.
+- **The General Manager's own upkeep slips first** when run work is heavy (build-state went four days stale). Update build-state and the register at the end of any session that changes them.
+
 Back to [[07-Agents/orchestrator/profile|Profile]]
