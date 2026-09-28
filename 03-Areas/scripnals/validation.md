@@ -2,7 +2,7 @@
 type: knowledge
 area: scripnals
 status: needs-input
-updated: 2026-09-22
+updated: 2026-09-28
 source: claude-export
 tags: [validation, survey]
 ---
@@ -11,6 +11,8 @@ tags: [validation, survey]
 
 From two chats: `01-Inbox/_imports/processed/shortlist/scripnals/2026-07-22-understanding-scripnals.md` and `.../2026-07-25-scripnals-app-user-feedback-questionnaire.md`.
 
+> **Update 2026-09-28:** results are in → [Results](#results--fillout-export-read-2026-09-28) below.
+>
 > **Update 2026-09-22, Samuel:** the survey **was sent** and *"we had loads of responses"*. He will draft them into the Brain. Where this note says there is no evidence the survey went out, that is now superseded. The results themselves aren't in the Brain yet. The discount cap question is still open.
 
 ## What Scripnals is — confirmed correction, 2026-07-22
@@ -85,3 +87,32 @@ Added by the main session after the chat-export pass, from the Scripnals project
 **Pitch copy:** the group-chat message was judged too generic — the concrete differentiator was missing. The differentiator to lead with is **"voice note in → structured script out, fast."**
 
 **Next steps recorded:** distribute the refined pitch, collect responses, possibly add per-group-chat attribution via redirect slugs, then further app development.
+
+---
+
+## Results — Fillout export, read 2026-09-28
+
+Source: `Desktop/HighSignals/HighSignals App/Fillout Scripnals Application Survey results.csv`, supplied by Samuel 2026-09-28. Counted by script. Respondents' emails were **not** copied into the Brain (§6); they stay in the export.
+
+**What actually went live:** the screener includes Shorts and the skip logic works (3 "No" answers ended the form). The waitlist offer is **lifetime 50% for the first 100 members**, so that cap was the one used. The persona-split question and the traffic-source question are **not** in the live survey, and pricing sits after the concept pitch with no brand reveal step in the export.
+
+**Volume:** 45 submissions, 42 qualified, 40 left an email. 26 came on 2026-07-29 alone, 36 by 2026-07-31, then 6 in the next six weeks. One push, then distribution stopped.
+
+| Question | Answers (of 42 qualified) |
+|---|---|
+| Creating short-form now? | Struggle to be consistent 23 · Post regularly 10 · Not yet, want to 9 |
+| How ideas get captured (multi) | Notes app 19 · In my head 18 · Voice memo 13 · Notion 1 · Wing it 1 |
+| Hardest part | Hook 19 · Scripting 14 · Pacing 4 · Target audience 3 · Time 2 |
+| Usefulness of the concept | Game-changer 22 · Helpful 18 · Meh 2 |
+| One feature that excites most | Voice Studio 15 · Content Ideation 12 · Script Formatter 8 · Content Auditor 7 |
+| Monthly price | NGN 5,000–10,000: 22 · Free tools only: 10 · NGN 30,000+: 8 · NGN 15,000–25,000: 2 |
+
+**Cross-tabs worth knowing**
+- Regular posters: 5 of 10 use free tools only. "Struggle to be consistent": 19 of 23 would pay something (14 of them at NGN 5,000–10,000).
+- Of the 19 who named the hook as hardest, 8 picked Content Ideation and 7 Voice Studio.
+- The NGN 30,000+ group is mixed: 3 of 8 haven't started posting, and one rated the concept "Meh".
+- The price bands pair NGN 5,000 with USD 5. They are not the same amount, so the NGN band is the one to trust for Nigerian respondents.
+
+**Magic-wand answers, grouped** (36 non-blank): video editing or video generation ~11 (edit the video, image/sample video, style frames, voice-over) · consistency and reminders 3 · ideas and hooks ~5 · scheduling or posting 2 · insight or feedback on posted content 3 · the rest blank-equivalent.
+
+**Assistant's reading (not a decision):** strong stated interest from early and inconsistent creators; hooks are the top pain; realistic price is NGN 5,000–10,000/month, not the NGN 15,000–25,000 draft; Content Ideation, cut from scope, is the second most-wanted feature. It is stated interest from a mostly warm, one-day sample, not usage or payment.
