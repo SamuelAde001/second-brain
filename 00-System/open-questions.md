@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-23
+updated: 2026-09-28
 source: manual
 tags: [open-questions]
 ---
@@ -22,7 +22,7 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 7 | Academy: curriculum per course, platform, pricing, launch plan, existing assets in `Desktop/HighSignals/Course/`. | academy | 2026-09-20 | Course restart | Partly, 2026-09-22: the course is paused until Samuel has time. The rebuild is most likely video editing + DaVinci Resolve. Curriculum, platform, pricing and assets all wait for the restart → [[03-Areas/academy/academy\|Academy]] |
 | 8 | Scripnals: real build status, stack, validation evidence, monetisation, platform, pricing. An APK and an MVP architecture PDF exist on disk but say nothing about how far it got. | scripnals | 2026-09-20 | Scripnals session | Partly, 2026-09-22: stack as specified in Feb 2026 is in [[03-Areas/scripnals/technical-architecture\|Technical architecture]] (Samuel says it needs updating). Survey sent, many responses. Monetisation and pricing not decided. Android APKs exist. Build status goes to the Scripnals session. |
 | 9 | ~~Community: platform, size, rituals, engagement, moderation, monetisation, whether membership is paid.~~ | community | 2026-09-20 | — | 2026-09-22: WhatsApp, 20 free members. Activity: posting, schedule accountability, check-ins, occasional reviews. The admin runs the accountability. Earns nothing → [[03-Areas/community/community\|Community]] |
-| 10 | Area goals are unset across all nine areas — the goal ladder in `02-Me/goals/` does not exist yet. | all | 2026-09-20 | Phase 3 interview | — |
+| 10 | ~~Area goals are unset across all nine areas — the goal ladder in `02-Me/goals/` does not exist yet.~~ | all | 2026-09-20 | — | 2026-09-22: the goal ladder exists ([[02-Me/goals/goal-ladder|Goal ladder]], from the interview) and every area has its `<area>-goals.md`. Closed in the 2026-09-28 tidy |
 | 11 | Is the ascension model (Academy equips → Community implements → Mentorship personalises → Scripnals executes) still how HighSignals actually works? | highsignals | 2026-09-20 | Phase 3 interview | Partly, 2026-09-22: a **new system from next year** (Samuel). Not described yet, see 71 → [[03-Areas/highsignals/highsignals\|HighSignals]] |
 | 12 | ~~Where does the future book sit — under HighSignals, under the personal brand, or on its own?~~ | highsignals | 2026-09-20 | — | 2026-09-22: **on its own**, used in both the personal brand and HighSignals → [[03-Areas/book/book\|Book]] |
 | 13 | The companion doc "HighSignals — Content & Brand Context" referenced by the 2026-07-24 instructions is missing; Samuel thinks he deleted it and has deprioritised it. Its content gets rebuilt by interview when needed. | personal-brand | 2026-09-20 | Not blocking — deferred by Samuel | — |
@@ -43,7 +43,7 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 28 | ~~The four existing skills (`edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner`) are platform-provided, not files on disk, so they cannot be copied into `.claude/skills/` and Gemini cannot run them. Author Brain-local equivalents, or accept they are Claude-only?~~ | system | 2026-09-20 | — | 2026-09-22: Brain-local copies. Samuel wants the Brain usable by any AI. The skills were on disk after all, under the packaged-app path; copied to `00-System/skills/`. [[00-System/portability|Portability]] |
 | 29 | What happened to the Notion migration? On 2026-08-28 Samuel decided plainly: "Notion becomes source of truth, repo retires." The memory export of 2026-09-04 says "Never used Notion for anything." Both recorded, neither picked. | me | 2026-09-20 | systems-history accuracy | — |
 | 30 | What triggered archiving the whole Accountability Engine on 2026-09-16 rather than revising it? No source covers the gap. | me | 2026-09-20 | Legacy review | — |
-| 31 | Was any gym/cardio routine actually adopted, or the coffee-with-milk adjustment? Both were proposed in chat and never confirmed. | me | 2026-09-20 | Health note, habit design | — |
+| 31 | Was any gym/cardio routine actually adopted, or the coffee-with-milk adjustment? Both were proposed in chat and never confirmed. | me | 2026-09-20 | Health note, habit design | partly, 2026-09-22: gym is adopted as a habit, at least 3 times a week at 5:00pm ([[07-Agents/personal-life/standing-rules|standing rules]]). The coffee adjustment is still unknown |
 | 32 | ~~Whether a piece of personal material stays in an active note~~ | me | 2026-09-20 | — | 2026-09-20: Samuel said delete it. Removed from `02-Me/discipline.md`. Not restated here. |
 | 33 | ~~Budget: final category percentages for the 32.3% remainder~~ **VOID** | finances | 2026-09-20 | — | 2026-09-20: that percentage design was never adopted. The live system is the engine's - see [[budget-system]]. |
 | 34 | ~~Was the percentage budget ever built into Google Sheets and used?~~ | finances | 2026-09-20 | — | 2026-09-20: no. The live sheet is **"My Claude Budget"**, a different system, modified 2026-09-16. |
@@ -63,7 +63,7 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 48 | The "100 Days" script Samuel called "perfect" is not recoverable from the export — likely pasted as an image. Only fragments survive in review comments. Does he still have the original? | personal-brand | 2026-09-20 | Voice reference | — |
 | 49 | One line in that script — "Month after month I kept wining myself" — was flagged and never clarified: whining, or winning himself over? | personal-brand | 2026-09-20 | Script accuracy | — |
 | 50 | Does "visual direction is Samuel's own domain" apply to all his scripts, or only the cinematic visibility one where it was observed? | personal-brand | 2026-09-20 | Content agent scope | — |
-| 51 | Which existing skill is "the ideation skill" the video-editing agent should reuse? Samuel named it but not by filename. | video-editing | 2026-09-20 | Agent build | — |
+| 51 | ~~Which existing skill is "the ideation skill" the video-editing agent should reuse? Samuel named it but not by filename.~~ | video-editing | 2026-09-20 | — | 2026-09-21: no such skill exists; the cut-sheet HTML process is it, to be built as a Brain skill ([[00-System/decisions-2026-09-20-to-22|decisions]], 2026-09-21). Closed in the 2026-09-28 tidy |
 | 52 | ~~Concentration risk~~ **Confirmed and quantified**, not open: one payer, 100% of income, volume and both rates set by Route Rise, more clients ruled out by choice. See [[income]]. | video-editing, finances | 2026-09-20 | — | 2026-09-20 |
 | 53 | ~~Is the second Route Rise end client still active?~~ | video-editing | 2026-09-20 | — | 2026-09-20: **no, it ended.** One end client, one rate: USD 333.33/video. |
 | 54 | Wedding July 2027 — **who pays is answered (he does, alone)**. The cost is not: no budget figure exists, so Goal 2's NGN 3M is a chosen target, not a costed one. | finances, relationships | 2026-09-20 | Goal 2 sizing | partly, 2026-09-20 |
