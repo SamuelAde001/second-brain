@@ -34,5 +34,6 @@ Append-only. Date, decision, why, alternatives rejected, who decided.
 - **2026-09-22 — The guide library is a living document.** Samuel: *"The Guide will be improved and updated over time as better conventions and rules come up."* Updating it must never need an app release or a code change. Decided by Samuel.
 - **2026-09-28 — Freemium, and the waitlist tests first, free.** Samuel: *"I want people on the waitlist to be part of my first testers, it would be free for them, but I would restrict their AI usage till they start paying, so this product would eventually be freemium"*. The monetisation model is freemium; the free tier is limited AI use. Where the limit sits and the price are not set. Decided by Samuel.
 - **2026-09-28 — Code ownership is covered by the dev contract.** Samuel: *"my contract with them said I own the whole code"*, and the devs are actively working on the app. Decided by Samuel.
+- **2026-09-28 — Goal: 1,000 users by next year, and no stopping.** Samuel: *"We can make the goal by next year to be 1000 users, and I don't think I would stop this, I would push till it works"*. Stop-or-continue thresholds were suggested and declined; missed checkpoints mean changing the product, not quitting. Decided by Samuel.
 
 Back to [[03-Areas/scripnals/scripnals|Scripnals]]
