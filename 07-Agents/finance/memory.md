@@ -71,3 +71,7 @@ From the archived [[08-Archive/accountability-engine/context/money-ledger|engine
 - Word questions so they can't be misread. "Do you want that NGN 10,000 back?" meant the October Giving line; he heard the loan.
 
 Back to [[07-Agents/finance/profile|Profile]]
+
+## 2026-09-28 — The investment is not in Cowrywise
+
+- Samuel: *"The 6,959 is actually savings, the investment is in a different place with my finance manager who invests for me"*. The pot the ledger calls "Cowrywise investment" is Cowrywise savings. The Rule 7 investment is a separate fund, NGN 60,000 so far, run by a person, and nothing records it except his word. He also split it without telling the ledger. Ask about pot changes when they happen, not at the next budget.

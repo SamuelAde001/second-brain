@@ -115,5 +115,6 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-09-26 | bulk | 12,302 | Transportation | Transport | derived: NGN 13,567 (ledger) − NGN 1,265 (his words); his words: "I spent the out of the money that was in my account on transportation yesterday"; told 2026-09-27 at the Sunday check |
 | 2026-09-27 | balance | 1,265 | Bank | — | his words: "Right now, just 1,265 in my account right now"; no screenshot |
 | 2026-09-27 | from-pot | 30,000 | Cowrywise withdrawal, not yet in the bank | Cowrywise investment | his words: "I just withdrew 30,000 from cowrywise investment cause I don't like having nothing much in my account, the money would arrive tomorrow as it takes 24hrs to process"; in transit, due 2026-09-28; not in the 1,265 balance above; not asked first |
+| 2026-09-28 | correction | — | Cowrywise investment pot (all rows): it is Cowrywise savings, not the investment. The investment is a separate fund run by his finance manager, existing NGN 60,000 per his words, not in this ledger | Cowrywise investment | his words: "The 6,959 is actually savings, the investment is in a different place with my finance manager who invests for me"; "I have an existing 60k investment already locked". Pot split waits on his answer about Rule 7 |
 
 Back to [[03-Areas/finances/finances|Finances]]
