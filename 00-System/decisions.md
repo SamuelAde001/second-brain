@@ -140,3 +140,10 @@ Entries from 2026-09-20 to 2026-09-22, the build (Brain location, sync, naming, 
 - The retired sheet bridge (`sheets.py`, `sheets-apps-script.gs`) and the migration splitter moved to `08-Archive/retired-scripts/`.
 **Why:** the notes read at every start had grown past the 300-line rule, and every agent session paid for them. Nothing was deleted; moving text verbatim keeps the history.
 **Blocked:** three deletions (an empty duplicate log, a superseded PDF, a finished cache queue) were refused by Claude Code's auto-mode classifier. They wait for Samuel.
+
+## 2026-09-28 — The four job skills are dropped; the Editor grows by SOPs, small skills and scripts
+
+**What:** `brainstorm`, `plan`, `systemize` and `commit` will not be built. Samuel, asked why he'd need them: *"Drop them"*. The Editor's four planned pipeline skills (`routerise-cut`, cut-sheet, `storyboard-preview`, `html-to-fusion`) are dropped as well. Samuel: *"The editor pipeline is still learning, I can't turn it to a skill yet cause I constantly still make changes, and nothing is really the same for now, I think the best is editor has SOP's and small skills for repeated specific tasks, and scripts he uses"*.
+**So:** the Editor works from its SOPs, its scripts and [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]]. A small skill is built only for a specific task that repeats the same way (the systems register's ladder: SOP → checklist → skill → automation, lowest rung first). With nothing left to build, **Phase 4 is closed** (2026-09-28).
+**Why:** the General Manager's audit found no note describing what the four job skills would do, and each overlapped something already running (agents think ideas through, night-plan/weekly-review/budget plan, the PA holds commitments, git commits are a rule). The pipeline still changes every job, so a skill would freeze it too early.
+

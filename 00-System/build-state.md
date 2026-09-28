@@ -13,10 +13,10 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 ## Start here
 
-- **Phase 4 (agents and skills).** 14-day target for Phases 0–4: **2026-10-04**. Day 9 of 14 on 2026-09-28.
+- **Phase 4 closed 2026-09-28**, ahead of the 2026-10-04 target. The Brain is in run mode: agents do the work, and systems get added one rung at a time as tasks repeat (the ladder in the systems register).
 - **Built:** 5 agents (General Manager, Editor, Money man, PA, Brand manager; all run in the main session on Opus 5.5). 14 skills. 5 automations. Full list: [[00-System/systems-register|Systems register]].
-- **Still to build for Phase 4:** job skills `brainstorm`, `plan`, `systemize`, `commit`. The Editor's pipeline skills `routerise-cut`, cut-sheet, `storyboard-preview`, `html-to-fusion` (the visual engine already covers part of this as an SOP plus scripts).
-- **Next action:** Phase 4 job skills, next PC build session.
+- **Dropped 2026-09-28** (Samuel): the job skills `brainstorm`, `plan`, `systemize`, `commit`, and the Editor's pipeline skills. The Editor runs from SOPs, scripts and small skills for tasks that repeat ([[00-System/decisions|decision]]).
+- **Next action:** no build work queued. First real `month-close` on 2026-09-30, then the items waiting on Samuel below.
 
 ## Live work and dates
 

@@ -117,7 +117,7 @@ In the Brain now: `edit-clock`, `video-edit-pass`, `subtitle-transcript-formatte
 
 Finance skills, built 2026-09-22: `payday`, `budget`, `month-close`, `money-check`, `sunday-check`. Personal-life skills, built 2026-09-22: `night-plan`, `morning-brief`, `weekly-review`. Content skills, built 2026-09-22: `write-script`, `content-report`.
 
-Job skills — `brainstorm`, `plan`, `systemize`, `commit`, plus the editing job skills — are built in Phase 4. (`money-check` is built, as a finance skill.) Every skill is listed in `00-System/systems-register.md`.
+No general job skills (`brainstorm`, `plan`, `systemize`, `commit` were dropped 2026-09-28). The Editor has no pipeline skill: it works from SOPs, scripts and small skills for specific tasks that repeat, because the pipeline still changes (Samuel, 2026-09-28). New skills follow the ladder in the systems register. Every skill is listed in `00-System/systems-register.md`.
 
 ## 9. Logging
 

@@ -45,16 +45,16 @@ Take a Routerise/Alex talking-head brief from raw footage to a substantially-bui
 
 ## The pipeline it runs
 
-Steps map to [[03-Areas/video-editing/workflow|the brief-to-payment workflow]] and the agent plan. One skill per job.
+Steps map to [[03-Areas/video-editing/workflow|the brief-to-payment workflow]] and the agent plan. **No pipeline skills** (Samuel, 2026-09-28): the pipeline still changes every job, so each step runs from an SOP and scripts, and a small skill is built only for a specific task that repeats the same way.
 
-| # | Job | Skill | State |
+| # | Job | Runs from | State |
 |---|-----|-------|-------|
-| 1 | Cut from the script in Resolve — sync → ripple silence → transcribe → remove bad takes. The client freestyles off-script, so work from the footage, not the assumption that it follows the script. | `routerise-cut` (encodes [[03-Areas/video-editing/sops/routerise-cut-workflow\|the SOP]]) | **to build** |
+| 1 | Cut from the script in Resolve — sync → ripple silence → transcribe → remove bad takes. The client freestyles off-script, so work from the footage, not the assumption that it follows the script. | [[03-Areas/video-editing/sops/routerise-cut-workflow\|cut SOP]] + scripts | active |
 | 2 | Sectionalise the cut into major sections — must be right before anything proceeds. | folded into the edit pass | reuse `video-edit-pass` |
 | 3 | Transcribe the cut to a per-section document to refer to throughout. | `subtitle-transcript-formatter` | reuse (platform) |
-| 4 | Ideate the visual for **every sentence** — a cut-sheet storyboard as a full HTML page (never a chapter summary). Includes ideating the intro **for Samuel to edit himself.** | ideation / cut-sheet skill | **SOP + engine working, skill to build** — first run Route Rise #3 (2026-09-25): [[03-Areas/video-editing/sops/visual-sheet-pipeline\|visual sheet pipeline]] |
-| 5 | Visualise the approved storyboard as animated HTML/CSS so Samuel sees and approves the visual before it is built for real. | `storyboard-preview` | **working** as rendered videos placed on a duplicate timeline (Samuel's call, 2026-09-25), `scripts/visual-engine/` |
-| 6 | Convert approved visuals into **editable Fusion comps on the timeline**. | `html-to-fusion` | **bridge proven 2026-09-21**; skill to build |
+| 4 | Ideate the visual for **every sentence** — a cut-sheet storyboard as a full HTML page (never a chapter summary). Includes ideating the intro **for Samuel to edit himself.** | [[03-Areas/video-editing/sops/visual-sheet-pipeline\|visual sheet SOP]] + `scripts/visual-engine/` | **working** — first run Route Rise #3 (2026-09-25): [[03-Areas/video-editing/sops/visual-sheet-pipeline\|visual sheet pipeline]] |
+| 5 | Visualise the approved storyboard as animated HTML/CSS so Samuel sees and approves the visual before it is built for real. | `scripts/visual-engine/` | **working** as rendered videos placed on a duplicate timeline (Samuel's call, 2026-09-25), `scripts/visual-engine/` |
+| 6 | Convert approved visuals into **editable Fusion comps on the timeline**. | `scripts/fusion-box/`, `scripts/ui-focus/`, [[03-Areas/video-editing/resolve-automation-lessons\|Resolve automation lessons]] | **working**; bridge proven 2026-09-21 |
 | 7 | Standing job: professional DaVinci Resolve expert — bugs and anything Resolve-related, continuously, not only in this pipeline. | the agent itself | active |
 | 8 | Standing job: **keep [[03-Areas/video-editing/delivered-projects\|delivered projects]]**, one row per video, appended the day it's delivered. The finance agent reads it to know a month's income before invoice day. Samuel, 2026-09-22: *"My video editing agent should count the projects done so far with there names, and details so that the finance agent can get that knowledge."* | the agent itself | active; backfilled 2026-09-22 |
 
@@ -80,7 +80,7 @@ Steps map to [[03-Areas/video-editing/workflow|the brief-to-payment workflow]] a
 ## Skills
 Built and reused as the table above. Every skill is registered in [[00-System/systems-register|the systems register]].
 - **Reuse, do not rebuild:** `subtitle-transcript-formatter`, `video-edit-pass`, `edit-clock` (his "timer").
-- **Build this phase:** `routerise-cut`, the ideation/cut-sheet skill, `storyboard-preview`, `html-to-fusion`.
+- **No pipeline skills** (dropped 2026-09-28). New small skills only for a specific task that repeats the same way, with Samuel's yes.
 
 ## Rituals and triggers
 - **On a new Routerise/Alex edit:** run the pipeline from step 1, gating at sectionalising (step 2) and at storyboard approval (step 5).

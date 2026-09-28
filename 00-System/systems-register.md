@@ -18,7 +18,7 @@ The ladder, lowest rung first: **SOP → checklist → skill → automation.** W
 | Agent | Owns | Profile → generated adapter | Status |
 |-------|------|---------|--------|
 | **orchestrator** (General Manager) | Routing, merging, the session protocol. The default entry point | none — runs as the main session → [[07-Agents/orchestrator/profile\|profile]] | **built 2026-09-22** |
-| **video-editor** (Editor) | The DaVinci Resolve editing pipeline + standing Resolve expertise | none — runs in the main session → [[07-Agents/video-editor/profile\|profile]] | **built 2026-09-21**, in daily use on Route Rise jobs; pipeline skills not built |
+| **video-editor** (Editor) | The DaVinci Resolve editing pipeline + standing Resolve expertise | none — runs in the main session → [[07-Agents/video-editor/profile\|profile]] | **built 2026-09-21**, in daily use on Route Rise jobs; runs from SOPs, scripts and small skills (2026-09-28) |
 | **finance** (Money man) | Money: ledger, budget sheet, rules, pots, runway, month close. Never moves money | none — runs in the main session → [[07-Agents/finance/profile\|profile]] | **built 2026-09-22**; Money sheet connected 2026-09-22 |
 | **personal-life** (PA) | His day and week, and his disciplinarian: night plan with a nightly accountability check, morning brief, weekly review; TickTick and Google Calendar (full write) | none — runs in the main session → [[07-Agents/personal-life/profile\|profile]] | **built 2026-09-22** |
 | **content** (Brand manager) | His own brand, @SamuelSignals: ideas, scripts in his voice, draft reviews, the content log, the Sunday content report | none — runs in the main session → [[07-Agents/content/profile\|profile]] | **built 2026-09-22** |
@@ -96,18 +96,17 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | `00-System/scripts/session_start_sync.py` | Fetches GitHub, fast-forwards `main` (only on `main`, only fast-forward), and lists any unmerged `claude/*` branches (a fallback: cloud sessions push to `main` since 2026-09-22). Never merges, deletes or resets; always exits 0 | automatically, by the SessionStart hook |
 | `08-Archive/retired-scripts/split_conversations.py` | Split the Claude chat export into one file per conversation (Phase 2 migration). Archived 2026-09-28 | one-off, done |
 
-## Job skills — not built yet
+## How the Editor's pipeline runs — no pipeline skills
 
-`brainstorm`, `plan`, `systemize`, `commit`. Built in Phase 4. (`money-check` and the finance rituals are built. See above.)
+`brainstorm`, `plan`, `systemize` and `commit` were **dropped 2026-09-28**, and so were the Editor's planned pipeline skills (`routerise-cut`, cut-sheet, `storyboard-preview`, `html-to-fusion`). Samuel: *"The editor pipeline is still learning, I can't turn it to a skill yet cause I constantly still make changes, and nothing is really the same for now, I think the best is editor has SOP's and small skills for repeated specific tasks, and scripts he uses"*. The Editor works from:
 
-**The video-editor's job skills**, one per pipeline step ([[07-Agents/video-editor/profile|profile]]):
+| Step | Runs from |
+|------|-----------|
+| Job setup, cut | [[routerise-job-setup]] · [[routerise-cut-workflow]] SOPs; `av_sync.py`, `waveform_segments.py`, `noise_clips.py`, `transcript_docx.py` |
+| Visual per sentence, preview | [[visual-sheet-pipeline]] SOP; `scripts/visual-engine/` |
+| Fusion comps on the timeline | `scripts/fusion-box/`, `scripts/ui-focus/`; [[03-Areas/video-editing/resolve-automation-lessons\|Resolve automation lessons]] |
 
-| Skill | Job | Plan |
-|-------|-----|------|
-| `routerise-cut` | Step 1 — cut from footage: sync → ripple silence → transcribe → remove bad takes. Encodes [[routerise-cut-workflow]]. | build |
-| ideation / cut-sheet | Step 4 — a visual per sentence as a full HTML cut sheet. **The "existing ideation skill" from the brief does not exist** (decided 2026-09-21); build it. | build |
-| `storyboard-preview` | Step 5 — approved storyboard as animated HTML/CSS for sign-off. | build |
-| `html-to-fusion` | Step 6 — approved visuals → editable Fusion comps on the timeline. **Bridge proven 2026-09-21.** | build |
+A small skill gets built only when a specific task repeats the same way (the ladder at the top of this note). [[00-System/decisions|Decision]], 2026-09-28.
 
 Reused as-is by the agent, not rebuilt: [[subtitle-transcript-formatter]] (step 3), [[video-edit-pass]] (step 2 / editorial), [[edit-clock]].
 
