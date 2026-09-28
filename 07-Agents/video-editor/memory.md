@@ -277,3 +277,16 @@ Samuel: *"you made some stupid mistakes still, left in parts that where obvously
 - **The extension's virtual cursor is drawn into the page** where the last click or hover landed. Hover at the far left edge (outside the crop) before recording.
 - Google Images results can be read from the page: regex `["url",h,w]` triples out of `innerHTML`. Strip the query strings or the tool blocks the output. Image search `&tbm=isch&tbs=isz:l` gives large sizes.
 - LinkedIn's bottom Messaging dock shows his inbox. Hide it with page CSS (`#msg-overlay…{display:none}`) before a grab, and keep a public figure's profile on screen rather than a private person's.
+
+## 2026-09-28 (night build, Route Rise #3 Visuals v2) — placing and building comps by script
+
+- **`InsertFusionCompositionIntoTimeline()` (and the other Insert* calls) RIPPLE the whole timeline** (insert edit on every track, splitting V1/A1/V4/V6). Two inserts pushed Cut v6 by 86 + 46 frames; recovered with Resolve Undo (Ctrl+Z) via computer use, checked against *Visuals v1* (an untouched copy). **Never use Insert* on a cut timeline.**
+- **Safe placement:** a transparent base clip (`Graphics/Visuals v2/Fusion base 1080 transparent.mov`, 60 s PNG-in-MOV) placed with `MediaPool.AppendToTimeline([{..., trackIndex, recordFrame}])` (an overwrite, no ripple), then `TimelineItem.ImportFusionComp(path)` onto it. Assert the timeline length is unchanged after every placement. A clip at a different frame rate (29.97 B-roll) needs `endFrame` rounding checked; re-place if one frame short.
+- **AppendToTimeline onto an occupied track fails silently** (returns an item whose GetStart() is None). V4 is full of his disabled Tella pieces; use an empty track.
+- **Links into and out of Neo macros don't survive ImportFusionComp:** wire every macro input AND every merge that takes a macro's output with `ConnectInput` after import (`pk.py` stack() does this).
+- **Fusion EllipseMask Height is in frame-width units** (use h / 1920 for an ellipse, not h / 1080).
+- **Resolve caches Fusion output:** an Expression change doesn't invalidate it; nudge a real input (set a value and set it back) before checking.
+- **Viewer captures lag one request** even with a playhead nudge; keep Resolve restored (not minimised) and read results knowing the previous frame may show.
+- **Neo Bevel's column-0 inner tools break the macro slicer:** a comp with it imports empty. Use Light Sweep, or fix the slicer first.
+- **Retargeting his reveal:** his Clay reveal (Cut v6 V3 723) = per-card Neo Anim -> Opacity macro -> ColorCorrector (desaturate) + MosaicBlur on the unrevealed contents + Transform10 pan/zoom (Path1, Size 1->1.143 over 44 f). Retarget by reconnecting his own splines (Op_1Gain, ColorCorrector1_1Saturation, MosaicBlur_Content1Blend) and re-aiming with a Pivot expression driven by `Path1.Displacement` (x' = Pivot + (x - Pivot)*Size + (Center - 0.5)). Script: job folder `Graphics/Visuals v2/rr3.py`.
+- **Builders for his look:** `Graphics/Visuals v2/pillkit.py` (gen_circle_pills helpers) + `pk.py` / `pk2.py` (pill, arrow, tick, title, BGORANGE, his Moving dashed line, ringed hub, image card, Down fade) and one `build_*.py` per beat.
