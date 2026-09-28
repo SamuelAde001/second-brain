@@ -450,3 +450,13 @@ Decisions about the Brain itself: its structure, rules, agents and automations. 
 **Why a script, not computer use:** Samuel asked about computer use reading StayFree daily. The General Manager's recommendation was a script: the same data is on disk with exact times, a script costs no Pro usage, it doesn't take over the mouse, and the night plan is a cloud routine that can't see the PC screen anyway. Computer use stays a fallback only.
 
 **Who decided:** Samuel (the commitment, the build, YouTube counts). The PA's defaults, not his words yet: meal windows 1:00–2:00pm and 6:30–7:30pm, a miss at 10 minutes or more outside them, WhatsApp not counted.
+
+## 2026-09-28 — Social media rule changed: work blocks and bedtime, not meals
+
+**Samuel, same day:** *"No, I can't limit social media to when I am eating, Social media should not be used when I am activly beant to be doing a work … or I am done with the task for that moment I can use Social media, but obviously not late in the night when it's time for bed and not early mornings"*.
+
+**What:** the check counts social media inside his work blocks (timed TickTick tasks at priority 3 or 5, ended early when ticked) and 11:00pm–7:00am. Meal windows removed. `screen_time.py` now writes each social session's times into the day's file (hidden `%% social: … %%` line) and has `--check "HH:MM-HH:MM,…"`, which the cloud night plan runs against the day's work blocks. Updated: the script, the night-plan skill, standing rules, commitments (new dated line), the automation note, daily routine.
+
+**Who decided:** Samuel (the rule). The PA's defaults, not his words yet: bedtime-and-morning as 11:00pm–7:00am, a miss at 10 minutes or more.
+
+**Addendum, same day — lofi.** Samuel: *"I sometimes listen to Lofi from youtube when working though so I don't know if that counts since youtube window is not active when working"*. Checked: the StayFree Chrome extension counted 60m of YouTube on 2026-09-27/28 while Resolve was the window in front. The script now counts a site only while Chrome is the foreground window on the PC. This morning's YouTube dropped from 2h 00m to 47m.

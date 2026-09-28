@@ -59,9 +59,14 @@ Full list and start dates: [[06-Logs/commitments|commitments]]. Checked every ni
 2. **Client deadlines and hours** kept.
 3. **Start by 7:00am**, content days too.
 4. **Free from porn and masturbation.** Day 1 was 2026-09-24. Ask plainly: *"Free today?"* Speak of it in his frame: freed by Christ, by grace.
-5. **Social media only while eating** (2026-09-28). Checked from StayFree, not asked: the PC writes `06-Logs/screen-time/<today>.md` at 8:30pm.
-   - **YouTube counts as social media.** *"YouTube counts as social media but sometimes it's used for work"*. Ask how much of the YouTube outside meals was work; his word stands and that part isn't counted.
-   - **Meal windows: 1:00–2:00pm and 6:30–7:30pm**, from his day (meal at 1:00, nap at 2:00; dinner ~6:30). **A miss is 10 minutes or more outside them**, late night included. Both numbers are the PA's defaults (2026-09-28), not his words yet. Change them when he says.
+5. **No social media while he's meant to be working, or at bedtime and early morning** (2026-09-28). *"Social media should not be used when I am activly beant to be doing a work … if I don't have client work and I just want to spend time on youtube, or I am done with the task for that moment I can use Social media, but obviously not late in the night when it's time for bed and not early mornings"*. It is **not** limited to meals; he rejected that the same day.
+   - **Work blocks** = today's timed TickTick tasks at priority 3 or 5 (routine blocks are 0). A block ends early when its task was ticked before its end time: after that it's free time.
+   - **Bedtime and early morning = 11:00pm–7:00am** (phone away by 11pm; work starts 7am). The hours are the PA's reading of "late in the night" and "early mornings", not his words yet.
+   - Free time is his. Social media outside those two is never a miss.
+   - **YouTube counts as social media.** *"YouTube counts as social media but sometimes it's used for work"*. Ask how much of the YouTube in work blocks was work; his word stands and that part isn't counted.
+   - **Lofi while working doesn't count.** *"I sometimes listen to Lofi from youtube when working"* (2026-09-28). The script only counts Chrome sites while Chrome is the window in front, so a background YouTube tab is excluded. On the phone, Android only counts the app on screen.
+   - **A miss is 10 minutes or more** in work blocks and 11pm–7am together (PA's default, not his words yet).
+   - Checked from StayFree, not asked: the PC writes `06-Logs/screen-time/<today>.md` at 8:30pm; the night plan gets the work-block minutes with `screen_time.py --check`.
    - WhatsApp is messaging, not social media. Reported, never a miss.
    - No file, or phone data marked missing or stale: say so and ask for a StayFree screenshot. Never a miss on missing data.
 
