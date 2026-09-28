@@ -2,7 +2,7 @@
 type: area
 area: scripnals
 status: needs-input
-updated: 2026-09-22
+updated: 2026-09-28
 source: project-handover
 tags: []
 ---
@@ -35,12 +35,12 @@ Samuel, 2026-09-22: the developers are **still building it for free**; *"the app
 ### Team
 
 - **Samuel is the founder.**
-- **Two developers:** one backend, one frontend. Neither is paid now. In the dev chat (2026-09-22): **Ayomide** is the backend dev, and Samuel tagged **Alisha Prescious** on a UI fix. The package namespace `ayomiplenty` probably belongs to Ayomide (unconfirmed). Samuel: *"I would surely pay them in equity"*. No split has been set.
+- **Two developers:** one backend, one frontend. Neither is paid now. Actively building as of 2026-09-28; Samuel says the contract gives him ownership of the whole code. In the dev chat (2026-09-22): **Ayomide** is the backend dev, and Samuel tagged **Alisha Prescious** on a UI fix. The package namespace `ayomiplenty` probably belongs to Ayomide (unconfirmed). Samuel: *"I would surely pay them in equity"*. No split has been set.
 - Two contract files from 2026-02-08 are on disk, both unsigned: a developer agreement "awaiting developer signature" and a development contract. Whether anything was signed later is unknown (open question 69).
 
 ### Testing plan
 
-**Mentees first, then the waitlist** (Samuel, 2026-09-22). The mentees are in [[03-Areas/mentorship/mentorship|Mentorship]].
+**Mentees first, then the waitlist** (Samuel, 2026-09-22). The mentees are in [[03-Areas/mentorship/mentorship|Mentorship]]. **2026-09-28:** the 40 waitlist sign-ups are part of the first testers, free, with AI use restricted until they pay → [[03-Areas/scripnals/scripnals-decisions|Decisions]].
 
 ### Build, as far as the Brain knows
 
@@ -76,7 +76,7 @@ Get the core voice-to-script loop working solidly **before** layering in audienc
 
 Marked TBD in the source doc:
 
-- Monetisation model: subscription, freemium, one-time, or bundled with ecosystem membership? **Samuel, 2026-09-22: not decided yet.**
+- Monetisation model: subscription, freemium, one-time, or bundled with ecosystem membership? **Samuel, 2026-09-22: not decided yet. 2026-09-28: freemium** (free with limited AI use, paid to unlock). Price and free-tier limit not set. The survey points to NGN 5,000–10,000/month → [[03-Areas/scripnals/validation|Validation]].
 - Platform: iOS, Android, or both? Partly answered: the spec is React Native (Expo), which can target both, and Android APKs exist.
 - Pricing relative to Academy / Community / Mentorship. **Not decided** (2026-09-22). The NGN 15,000–25,000 tiers in the survey were a draft, not a decision.
 - Actual build status: **answered 2026-09-22** → [[03-Areas/scripnals/current-build|Current build]]. Whether anyone outside the team has used it is still unknown.

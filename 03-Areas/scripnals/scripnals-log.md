@@ -27,5 +27,6 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 - 2026-09-22 — Score bands and hook names confirmed. The guide library is a living document, updated as better conventions come up; the spec now asks the devs to support updates by swapping `guides.json` alone.
 - 2026-09-22 — Samuel sent the guides to the devs. They test from their end. The library stays a living document; new versions go as a swapped `guides.json`.
 - 2026-09-28 — Survey results read from Samuel's Fillout export (45 submissions, 42 qualified, 40 waitlist emails; 36 of them by 2026-07-31). Hook is the top pain (19), 22 of 42 would pay NGN 5,000–10,000/month, only 2 picked the NGN 15,000–25,000 draft tier. Summary → [[03-Areas/scripnals/validation|Validation]]. Emails not imported.
+- 2026-09-28 — Samuel settled: freemium; waitlist joins the first testers free with restricted AI until they pay; he owns the code per the dev contract; devs actively building. → [[03-Areas/scripnals/scripnals-decisions|Decisions]]
 
 Back to [[03-Areas/scripnals/scripnals|Scripnals]]

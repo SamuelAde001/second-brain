@@ -32,5 +32,7 @@ Append-only. Date, decision, why, alternatives rejected, who decided.
 - **2026-09-22 — The guides are written to be token-light.** Samuel: *"make sure the guide docs are not too wordy so it doesn't consume much tokens … I want the guide docs to be token efficient as possible."* All 51 entries rewritten terse, with word caps enforced by the build script. The largest request went from about 3,500 to about 2,050 words. Decided by Samuel.
 - **2026-09-22 — Score bands and hook names confirmed.** The review score bands in `action-review-full` and the 18 hook names users see: *"That's fine"* to both. Decided by Samuel.
 - **2026-09-22 — The guide library is a living document.** Samuel: *"The Guide will be improved and updated over time as better conventions and rules come up."* Updating it must never need an app release or a code change. Decided by Samuel.
+- **2026-09-28 — Freemium, and the waitlist tests first, free.** Samuel: *"I want people on the waitlist to be part of my first testers, it would be free for them, but I would restrict their AI usage till they start paying, so this product would eventually be freemium"*. The monetisation model is freemium; the free tier is limited AI use. Where the limit sits and the price are not set. Decided by Samuel.
+- **2026-09-28 — Code ownership is covered by the dev contract.** Samuel: *"my contract with them said I own the whole code"*, and the devs are actively working on the app. Decided by Samuel.
 
 Back to [[03-Areas/scripnals/scripnals|Scripnals]]
