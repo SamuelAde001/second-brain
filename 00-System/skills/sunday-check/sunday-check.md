@@ -1,10 +1,11 @@
 ---
 name: sunday-check
 description: "Samuel's weekly money check-in, every Sunday: he sends his bank balance, the finance agent works out what went unlogged since the last entry, logs it, rebuilds the 'Money' sheet and names every line that's over plan, plus what's left until the next payday. Use when he sends a balance or a bank screenshot on a Sunday, says 'Sunday check', 'weekly check', 'here's my balance', or it's Sunday and he opens a session without having done it. He committed to it on 2026-09-22."
+effort: medium
 type: skill
 area: finances
 status: active
-updated: 2026-09-22
+updated: 2026-09-29
 source: manual
 tags: [skill, finances, check, weekly]
 ---

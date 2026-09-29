@@ -1,10 +1,11 @@
 ---
 name: money-check
 description: "Samuel asks before spending money that isn't in the month's plan, and gets a one-line answer: which plan line it would come from, what's left after, and whether it breaks the month. Use whenever he says 'can I spend', 'can I afford', 'should I buy', 'I want to send someone money', 'is it okay to…', names an amount he's about to spend, or asks about something on his wish list. He committed to asking first on 2026-09-22. Not for logging money already spent after the fact (log it, then run this if it was off-plan) or for payday (use payday)."
+effort: medium
 type: skill
 area: finances
 status: active
-updated: 2026-09-22
+updated: 2026-09-29
 source: manual
 tags: [skill, finances, check]
 ---

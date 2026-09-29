@@ -1,10 +1,11 @@
 ---
 name: edit-clock
 description: "Builds the edit clock, a standalone dark HTML pace timer kept open beside DaVinci Resolve (or on a phone) to finish a video edit by a deadline. It shows where the playhead should be right now, time left, timeline needed per hour, and ahead/behind after check-ins, reading WAT (UTC+1) directly. Use this whenever the user asks for 'a timer', 'the timer the same way we do it', an 'editing clock', 'pace clock' or 'pace widget', or says they want to finish, cut or edit a video by a certain time, even if they never mention HTML or pace. Also use when they give a video length, a playhead position and a finish-by time and ask how fast they need to edit or what checkpoints to hit, or when they want the clock reset, changed or fixed. Not for plain countdowns unrelated to edit progress (like a 20-minute break timer) or for TickTick focus sessions."
+effort: medium
 type: skill
 area: video-editing
 status: active
-updated: 2026-09-22
+updated: 2026-09-29
 source: local-folder
 tags: [skill]
 ---

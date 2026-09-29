@@ -23,7 +23,7 @@ The ladder, lowest rung first: **SOP → checklist → skill → automation.** W
 | **personal-life** (PA) | His day and week, and his disciplinarian: night plan with a nightly accountability check, morning brief, weekly review; TickTick and Google Calendar (full write) | none — runs in the main session → [[07-Agents/personal-life/profile\|profile]] | **built 2026-09-22** |
 | **content** (Brand manager) | His own brand, @SamuelSignals: ideas, scripts in his voice, draft reviews, the content log, the Sunday content report | none — runs in the main session → [[07-Agents/content/profile\|profile]] | **built 2026-09-22** |
 
-No agent has a generated subagent adapter since 2026-09-23: all five run in the main session on Opus 5.5. Roster and planned agents: [[07-Agents/roster|roster]].
+No agent has a generated subagent adapter since 2026-09-23: all five run in the main session on Opus 5.5, with model and effort per job from [[00-System/model-routing|model routing]] (2026-09-29). Roster and planned agents: [[07-Agents/roster|roster]].
 
 ## SOPs and checklists — in the Brain
 

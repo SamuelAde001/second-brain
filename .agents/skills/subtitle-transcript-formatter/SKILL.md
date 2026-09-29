@@ -15,6 +15,8 @@ description: "Turns a raw subtitle/caption file (.srt, .vtt, or similar auto-cap
 > - `present_files` — your tool for showing Samuel a file. If you have none, give the full path.
 > - Node and the `docx` npm package were preinstalled in the claude.ai sandbox. Elsewhere, check `node --version` and install `docx` in a scratch folder if it is missing — never inside the Brain.
 
+> **Runs as a helper on the `standard` tier** (Samuel, 2026-09-29, [[00-System/model-routing|model routing]]): mechanical and output-heavy, so it runs in its own context, not the conversation. The helper can't see the chat. Whoever invokes it passes the input file's full path and the output folder as arguments. If either is missing, return one line asking for it; never guess a path.
+
 Converts a raw, fragmented subtitle export (from a talking-head YouTube/business video) into a polished,
 skimmable, ALL-CAPS Word document that a video editor can use as their working transcript — with section
 titles and lists pulled out wherever the speaker enumerates things.

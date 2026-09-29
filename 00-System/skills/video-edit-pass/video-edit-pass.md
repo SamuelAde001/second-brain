@@ -1,10 +1,11 @@
 ---
 name: video-edit-pass
 description: "Two-phase edit-assist pass for a long-form talking-head / tutorial video being cut in DaVinci Resolve. Phase 1 reads the subtitle export and timeline XML, finds duplicate takes, misspeaks, garbled audio, flash frames, redundancy and missing scripted sections, and outputs a colour-coded marker EDL of exactly what to cut. Phase 2 turns the re-cut subtitles into a chaptered ALL-CAPS Word transcript for editing from, plus a contiguous chapter marker EDL. Use this whenever the user uploads an SRT/VTT plus a Resolve XML/FCP7 XML and wants help tightening a cut, finding repeated or redundant lines, building an editing transcript, marking chapters, or says things like 'go through my subtitles', 'find things I should cut', 'make me an editing transcript', 'chapter this timeline', 'review my cut', or 'phase 1'. Also use when they mention a client video, a YouTube tutorial edit, or a talking-head video they are cutting and want an editorial second opinion."
+effort: high
 type: skill
 area: video-editing
 status: active
-updated: 2026-09-22
+updated: 2026-09-29
 source: local-folder
 tags: [skill]
 ---
@@ -162,6 +163,8 @@ Read `references/transcript-spec.md` for the full formatting spec. The rules tha
 - Fix **only unambiguous** auto-caption errors — a garbled brand or tool name that's obvious from
   context or from the script. Leave ambiguous garbles verbatim and flag them with a red note. Never
   smooth phrasing, remove filler or fix the speaker's grammar.
+
+**Who writes it** (Samuel, 2026-09-29, [[00-System/model-routing|model routing]]): the chapter boundaries and the caption fixes are judgement and stay in this session. Writing the transcript out is mechanical and output-heavy: hand it to a helper on the `standard` tier with the re-cut subtitle path, the chapter table (titles, in/out, first sentence of each), the list of fixes, `references/transcript-spec.md` and the output folder. Check its render yourself (the three pages below) before delivering.
 
 Build with `scripts/build_transcript.js`. Always render to PDF and view at least three pages
 (first, one with a note or box, one near the end) before delivering.

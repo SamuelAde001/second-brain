@@ -1,10 +1,11 @@
 ---
 name: month-close
 description: "Month-end financial close for Samuel: what came in, what went out, what survived, the building payment, Goal 1 pace against NGN 1,000,000 by 2026-12-31, the invoice batch and the investment fund, then rebuild his 'Money' sheet from the ledger. Use on the last day of a month, when he asks to close or review a month, or asks how a month went for money. Not for a payday (use payday) or planning ahead (use budget)."
+effort: high
 type: skill
 area: finances
 status: active
-updated: 2026-09-22
+updated: 2026-09-29
 source: legacy-accountability-engine
 tags: [skill, finances, month-close]
 ---

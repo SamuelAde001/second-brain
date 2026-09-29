@@ -31,7 +31,7 @@ Built from [[03-Areas/video-editing/agent-plan|the agent plan]] (his own brief) 
 
 ## How it runs
 
-In the main session (`runs-as: main-session`), on Opus 5.5. Samuel, 2026-09-23: *"I want all my agents to be Main, all of them should use OPUS 5.5, The only time I tell them to use something different is based on tasks"*. The pipeline has approval gates (the storyboard, the cut) where it must stop and wait for him, which a subagent can't do. `build_adapters.py` generates no subagent file; the `tools` list above is documentation. Bulk work (transcripts, XML, Resolve scripting) still goes through scripts, never read into context. A cheaper model or a subagent only when Samuel asks for one on a given task.
+In the main session (`runs-as: main-session`), on Opus 5.5. Samuel, 2026-09-23: *"I want all my agents to be Main, all of them should use OPUS 5.5, The only time I tell them to use something different is based on tasks"*. The pipeline has approval gates (the storyboard, the cut) where it must stop and wait for him, which a subagent can't do. `build_adapters.py` generates no subagent file; the `tools` list above is documentation. Bulk work (transcripts, XML, Resolve scripting) still goes through scripts, never read into context. Model and effort per step: [[00-System/model-routing|model routing]] (Samuel, 2026-09-29). High effort on the edit pass, sectionalising, the visual sheet, Fusion scripting and Resolve bugs; `xhigh` while chasing a Resolve crash or hang; Sonnet 5.5 helpers write out the subtitle-formatter transcript and the phase-2 transcript; batch builds of approved visuals go to a fresh Sonnet session. Never below `medium`.
 
 ## Mission
 

@@ -158,6 +158,8 @@ Read `references/transcript-spec.md` for the full formatting spec. The rules tha
   context or from the script. Leave ambiguous garbles verbatim and flag them with a red note. Never
   smooth phrasing, remove filler or fix the speaker's grammar.
 
+**Who writes it** (Samuel, 2026-09-29, [[00-System/model-routing|model routing]]): the chapter boundaries and the caption fixes are judgement and stay in this session. Writing the transcript out is mechanical and output-heavy: hand it to a helper on the `standard` tier with the re-cut subtitle path, the chapter table (titles, in/out, first sentence of each), the list of fixes, `references/transcript-spec.md` and the output folder. Check its render yourself (the three pages below) before delivering.
+
 Build with `scripts/build_transcript.js`. Always render to PDF and view at least three pages
 (first, one with a note or box, one near the end) before delivering.
 

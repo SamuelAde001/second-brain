@@ -1,10 +1,11 @@
 ---
 name: payday
 description: "Money landed. Log it in Samuel's money ledger, rebuild his 'Money' sheet, then get the week-of-pay transfers and the savings moved the same day, before it gets spent (money Rule 3). Use whenever Samuel says he got paid, money landed or came in, Cleva converted, the 70% or the 30% arrived, Route Rise paid, or it's Payday A or Payday B, even if he only mentions an amount. Not for planning a month that hasn't been paid yet (use budget) or for the month-end close (use month-close)."
+effort: medium
 type: skill
 area: finances
 status: active
-updated: 2026-09-22
+updated: 2026-09-29
 source: legacy-accountability-engine
 tags: [skill, finances, payday]
 ---

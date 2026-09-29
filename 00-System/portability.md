@@ -45,6 +45,8 @@ The test: if deleting `.claude/`, `.gemini/`, `.agents/`, CLAUDE.md and GEMINI.m
 
 **Current setting (Samuel, 2026-09-23):** every agent profile is `strong` and runs in the main session. In Claude Code that is Opus 5.5, the project default model in `.claude/settings.json`. `light` and `standard` stay defined for tasks where Samuel asks for a cheaper model. Cloud routines run on Sonnet; they are not agents.
 
+**Skills carry run settings (2026-09-29, [[00-System/model-routing|model routing]]):** optional `tier`, `effort` (`medium`, `high`, `xhigh`, `max`; Samuel set the floor at `medium`) and `context: fork` (run as a helper with its own context). `build_adapters.py` maps them for Claude Code (`model`, `effort`, `context: fork` + `background: false`) and drops them for targets that lack them.
+
 Gemini tiers are deliberately unmapped: which models Samuel's Gemini account can use is unknown. Set them in the script's `TARGETS` once it is.
 
 **Tools** — what an agent profile's `tools:` list uses.

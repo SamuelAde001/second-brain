@@ -1,10 +1,11 @@
 ---
 name: write-script
 description: "Turn Samuel's raw idea or story into a script in his own voice, or review a draft he wrote, for a Reel, TikTok or carousel on his own brand (@SamuelSignals). It interviews him for the real details first, drafts 2-3 hooks from his answers, locks the hook, writes the script with visual direction in braces, then runs the review checklist. Use whenever he brings an idea, a story or a draft and says 'script this', 'write a script', 'turn this into a video', 'review my script', 'fix my hook', 'is this hook good', or pastes a script. Not for unscripted talk-to-camera (use yap-session-planner) or for HighSignals content (none exists)."
+effort: high
 type: skill
 area: personal-brand
 status: active
-updated: 2026-09-22
+updated: 2026-09-29
 source: manual
 tags: [skill, content, scripts]
 ---

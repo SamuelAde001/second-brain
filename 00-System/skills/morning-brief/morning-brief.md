@@ -1,10 +1,11 @@
 ---
 name: morning-brief
 description: "Samuel's morning brief at 6:30am WAT, right after his prayer block: the main tasks for the day from TickTick with their times, the schedule, the habits due today, the client job and its deadline, anything overdue, yesterday's result and the week's misses. Short headed sections, readable on his phone. Use when a routine opens it at 6:30am, or when he asks 'what's on today', 'what's my day', 'brief me', 'what do I have today'. Not for planning a day that hasn't been planned (use night-plan) or the weekly look back (use weekly-review)."
+effort: medium
 type: skill
 area: me
 status: active
-updated: 2026-09-25
+updated: 2026-09-29
 source: interview
 tags: [skill, planning, ticktick, daily]
 ---

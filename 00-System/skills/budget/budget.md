@@ -1,10 +1,11 @@
 ---
 name: budget
 description: "Set or change Samuel's money plan: take his spending plans in his own words, match each to a line in that month's plan (03-Areas/finances/plans/plan-YYYY-MM.md), then say out loud whether the arithmetic works against the money that actually exists, and rebuild his 'Money' sheet. Use whenever he wants to budget, plan a month, replan after a short month, change what a category gets, or add, cancel or change a subscription or recurring line. Not for logging money that landed (use payday) or closing a finished month (use month-close)."
+effort: high
 type: skill
 area: finances
 status: active
-updated: 2026-09-22
+updated: 2026-09-29
 source: legacy-accountability-engine
 tags: [skill, finances, budget]
 ---

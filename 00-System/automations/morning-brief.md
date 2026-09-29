@@ -13,6 +13,7 @@ tags: [automation, planning, daily]
 
 - **Asked for by Samuel, 2026-09-22:** "Yes a morning brief routine". He picked 6:30am: straight after the prayer block (6:00–6:30am, never touched) and before client work at 7:00am.
 - **Model:** Sonnet 5 (`claude-sonnet-5`). Samuel, 2026-09-23: *"they aren't heavy tasks, they are not my agents, but they may call agents if needed to do better tasks"*. A step that needs an agent's judgement is handed to a subagent on Opus 5.5 with that agent's profile.
+- **Effort:** `medium`, pinned by the `morning-brief` skill ([[00-System/model-routing|model routing]], 2026-09-29; Samuel's floor is `medium`).
 - **Where it runs:** a **cloud routine** on claude.ai, "Morning brief (6:30am WAT)", id `trig_01UN9y23v1UwoBtBq3qmoJiH` (https://claude.ai/code/routines/trig_01UN9y23v1UwoBtBq3qmoJiH). Cron `30 5 * * *` in UTC = 6:30am WAT; the service adds a delay of about 4 minutes, so it fires about 6:34am (checked 2026-09-22). Repo `SamuelAde001/second-brain`, connectors TickTick and Google Calendar, model tier standard (Sonnet 5). **This note is the canonical copy.** If the two differ, this one wins, and the routine is updated to match.
 - **Why cloud (Samuel, 2026-09-22):** he couldn't see the routine or its notifications on his phone. A cloud routine runs with the PC off and shows in the Claude app on the phone, where he can answer it. It replaced the desktop-app task `morning-brief`, which is paused, not deleted.
 - **It commits nothing** unless he answers and something changes.

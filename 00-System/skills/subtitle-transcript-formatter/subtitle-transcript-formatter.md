@@ -1,10 +1,13 @@
 ---
 name: subtitle-transcript-formatter
 description: "Turns a raw subtitle/caption file (.srt, .vtt, or similar auto-captioned export) from a talking-head video into a clean, all-caps, sectioned Word document for a video editor to work from. Use this any time the user uploads or references an SRT/VTT/subtitle file and asks to format it, turn it into a transcript, clean it up, or make it 'editor-friendly' — even if they don't use the word 'skill' or 'transcript' explicitly. Also trigger when the user says things like 'format this subtitle file', 'make this readable for my editor', 'turn my captions into a script doc', or uploads a video script/caption export and asks for a document version. This handles fragmented word-by-word or line-by-line caption text by reconstructing full sentences, adding section titles that reflect the video's narrative beats, converting any spoken lists (first/second/third, things like X Y Z, etc.) into bulleted or numbered lists, and outputting everything in ALL CAPS as a downloadable .docx."
+tier: standard
+effort: medium
+context: fork
 type: skill
 area: video-editing
 status: active
-updated: 2026-09-22
+updated: 2026-09-29
 source: local-folder
 tags: [skill]
 ---
@@ -19,6 +22,8 @@ tags: [skill]
 > - `/home/claude/` — a scratch working folder outside the Brain. Never build inside the Brain.
 > - `present_files` — your tool for showing Samuel a file. If you have none, give the full path.
 > - Node and the `docx` npm package were preinstalled in the claude.ai sandbox. Elsewhere, check `node --version` and install `docx` in a scratch folder if it is missing — never inside the Brain.
+
+> **Runs as a helper on the `standard` tier** (Samuel, 2026-09-29, [[00-System/model-routing|model routing]]): mechanical and output-heavy, so it runs in its own context, not the conversation. The helper can't see the chat. Whoever invokes it passes the input file's full path and the output folder as arguments. If either is missing, return one line asking for it; never guess a path.
 
 Converts a raw, fragmented subtitle export (from a talking-head YouTube/business video) into a polished,
 skimmable, ALL-CAPS Word document that a video editor can use as their working transcript — with section

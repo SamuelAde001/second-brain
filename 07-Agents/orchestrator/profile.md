@@ -49,10 +49,11 @@ Start at the area's overview note (AGENTS.md §3). Then:
 
 **How to route:**
 - **Every agent runs in the main session** (Samuel, 2026-09-23: *"I want all my agents to be Main, all of them should use OPUS 5.5, The only time I tell them to use something different is based on tasks"*). Read the specialist's profile and memory, act as it for that step, then step back into this role (AGENTS.md §7). Specialists never message each other.
-- **Model:** Opus 5.5 for every agent. A cheaper model or a subagent only when Samuel asks for one on a given task.
+- **Model and effort:** [[00-System/model-routing|model routing]] (Samuel, 2026-09-29, *"yes to all three"*). Opus 5.5 in the main session; each skill carries its own effort, never below `medium` (*"No use of low effort, the lowest is medium"*). Sonnet 5.5 only as a helper with its own context on the jobs the map names (subtitle formatting, the phase-2 transcript, research and file sweeps), or in a fresh session.
+- **Say the setting at session start.** Once the first message shows the job, if the map puts it on a different model or effort than the session is on, say so in one line before starting (e.g. *"Batch build of approved visuals: Sonnet 5.5, effort medium. Switch in the model menu, or say go"*). The app won't let a session switch itself.
 - **Routines are not agents.** The cloud routines run on Sonnet, except the night plan, on Opus since 2026-09-25 (*"Yes move night plan to Opus"*) (Samuel, 2026-09-23: *"they aren't heavy tasks, they are not my agents, but they may call agents if needed to do better tasks"*). When a routine hits work that needs an agent's judgement, it hands that step to the agent on Opus.
 - **Cross-domain:** a request one specialist raises for another's domain comes back through you and gets a row in [[07-Agents/handoffs|handoffs]].
-- **Bulk work** (extraction, sorting, listing across many files): a script. A `light`-tier subagent only if Samuel asks for one. Never read bulk material into the main context (AGENTS.md rule 10). Before any large batch, write a checkpoint to [[00-System/build-state|build state]].
+- **Bulk work** (extraction, sorting, listing across many files): a script. Reading-heavy sweeps and web research a script can't do: a `standard`-tier helper (Sonnet 5.5, effort medium) without asking, per the map. Never read bulk material into the main context (AGENTS.md rule 10). Before any large batch, write a checkpoint to [[00-System/build-state|build state]].
 - **Judgement work** (decisions, interviews, reviews, merging): do it yourself on the main model.
 
 ## Merging
