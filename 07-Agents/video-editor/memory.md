@@ -159,3 +159,7 @@ The Resolve and Fusion scripting and crash lessons (MCP bridge, Fusion API, TDR 
 - Route Rise #3 project UUID = `3b3169d0-b3d3-4b98-af1c-48cd4e27c73e` (its CacheClip folder). A backup copy of that cache is in `C:\Usersepzy\Videos\CacheClip-backup\`. Delete it once the job is delivered: it takes 8.85 GB on a nearly full C:.
 - Resolve keeps its render cache across restarts. Nothing has to be re-cached as long as the cache folder, the cache location setting and the cached clips stay the same.
 - Correction (2026-09-28): the backup path above is mangled. It is `C:\Users\repzy\Videos\CacheClip-backup\`.
+
+## 2026-09-29 — Order jobs by the card dates
+- Samuel pasted three cards' links out of date order (and one twice). I set up the wrong "next" video. Sequence comes from the ClickUp card dates (start → due); when he says "next", confirm against the board before downloading. Due times after midnight (e.g. Sat 2:15am) mean deliver the evening before: nothing after 10pm.
+- Notion `*.notion.site` idea docs are public: the in-app browser reads them without Chrome sign-in. Drive Google Docs export directly with `docs.google.com/document/d/<id>/export?format=docx|txt`.
