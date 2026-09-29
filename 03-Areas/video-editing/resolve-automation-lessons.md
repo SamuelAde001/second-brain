@@ -158,3 +158,6 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
 - **Neo Bevel's column-0 inner tools break the macro slicer:** a comp with it imports empty. Use Light Sweep, or fix the slicer first.
 - **Retargeting his reveal:** his Clay reveal (Cut v6 V3 723) = per-card Neo Anim -> Opacity macro -> ColorCorrector (desaturate) + MosaicBlur on the unrevealed contents + Transform10 pan/zoom (Path1, Size 1->1.143 over 44 f). Retarget by reconnecting his own splines (Op_1Gain, ColorCorrector1_1Saturation, MosaicBlur_Content1Blend) and re-aiming with a Pivot expression driven by `Path1.Displacement` (x' = Pivot + (x - Pivot)*Size + (Center - 0.5)). Script: job folder `Graphics/Visuals v2/rr3.py`.
 - **Builders for his look:** `Graphics/Visuals v2/pillkit.py` (gen_circle_pills helpers) + `pk.py` / `pk2.py` (pill, arrow, tick, title, BGORANGE, his Moving dashed line, ringed hub, image card, Down fade) and one `build_*.py` per beat.
+
+- **2026-09-29: never call `DuplicateTimeline` on a heavy timeline through the MCP.** On Route Rise #3 (77 Fusion items) it blocked Resolve's UI thread past the 30 s script timeout, memory climbed 4.8 → 17 GB, and Resolve had to be restarted. For A/B render tests, ask Samuel to toggle the track himself, or test in a separate small project.
+
