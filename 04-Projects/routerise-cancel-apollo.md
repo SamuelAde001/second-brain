@@ -25,7 +25,7 @@ Client job through [[03-Areas/video-editing/clients/routerise|Route Rise]] (Alex
 
 `C:\Users\repzy\Desktop\Video edits\Routerise\I cancelled Apollo.io and built this Claude skill instead\`
 
-- `Client raws/`: C0787.MP4 (15.25 GB, downloading 2026-09-29), TX02_MIC018 + MIC019 (2026-09-25).
+- `Client raws/`: C0787.MP4 (15.25 GB, 3840×2160, 29.97 fps, 34:33; downloaded 2026-09-29), TX02_MIC018 + MIC019 (2026-09-25).
 - `Screen recordings/`: Tella 4K export, "Building a Custom GTM Operating System for Sales" (23:59). Tella chapters: 00:00 The Problem with Databases · 06:40 Forward Deployed Engineers · 09:02 Defining Good Accounts · 11:05 Analyzing Account Signals · 20:43 Generating Outreach & Copy.
 - `Docs/`: the idea doc (.md + .docx) and Alex's recording script, a Google Doc (about 2,250 words, opens "We built our own prospecting system…", example company Lob). The recording script differs from the Notion script; work from the footage.
 
