@@ -64,6 +64,38 @@ Project "I cancelled Apollo.io and built this Claude skill instead" (folder Rout
 
 Scratch left in the project: bin "zz Editor per-clip transcription (Cut v2)" (291 WAVs from `Conformed audio/Per-clip WAVs (Cut v2)/`). Delete both after the cut is approved.
 
+### Samuel's revision of Cut v3 (2026-09-29): 178 clips, 9:10 (13,194 frames)
+He edited Cut v3 in place. Diffed by mic source range against Cut v2/v3 (`Docs\Cut v3 revised by Samuel (2026-09-29).xml`):
+- **No clip restored, none removed.** All four review calls stood.
+- **28 trims inside kept clips.** In the talk they're 1–5 frames at heads and tails. In the Codex demo they're 5–31 frames, the pauses inside the dictated prompts.
+- **8 silent stretches put back in the demo** (294 frames, 1.7–2.4 s each) so Codex's answers show on screen before the next prompt.
+- **Screen recording only over the demo:** V2 emptied. The Tella now sits on **V3 from 5:45.55 to 7:42.67** (43 clips, sync unchanged). Everywhere else the Tella screen is Alex's teleprompter.
+- Two blue markers at 4:10 and 5:45 (the build and the demo start).
+
+## Sections, transcript, visual review (Editor, 2026-09-29)
+Timeline **Visuals v1 (Editor)** = duplicate of his revised Cut v3, with a subtitle track (disabled), clip colours on V1/V3/A1 and a duration marker per section. His Cut v3 is untouched.
+
+| # | Section | Starts | Colour |
+|---|---|---|---|
+| 1 | Hook and intro | 0:00 | Yellow |
+| 2 | Where Apollo falls short | 0:39.7 | Blue |
+| 3 | Frontal's GTM OS and skills | 2:05.8 | Green |
+| 4 | Forward-deployed engineers | 2:57.9 | Purple |
+| 5 | Mid-video CTA: Frontal | 3:55.8 | Pink |
+| 6 | Step 1: define a good account | 4:10.2 | Teal |
+| 7 | Step 2: connect the tools (the Lob example) | 4:51.2 | Tan |
+| 8 | Codex demo (screen recording) | 5:45.6 | Brown |
+| 9 | A shared data layer | 7:42.7 | Lime |
+| 10 | Outro and CTA | 8:58.8 | Violet |
+
+- **Transcript:** `Docs\Transcript - Cut v3 revised (2026-09-29).docx`: ALL CAPS, one colour per section, the 8 Codex prompts boxed, 8 check-by-ear notes ("a benefit" = a good fit?, "unworking", "the run rate on five signals", "hiring enrolls", "that we're going to call", "feeds the way to work", "from a business", "which play").
+- **Visual review v1:** https://claude.ai/artifact/QW3cUPRKZFhcniqem7c7T8 (private), copy at `Docs\Visual review v1 (2026-09-29).html`. 120 rows, one per sentence: 65 NODES, 19 HIGHLIGHT (demo), 11 NONE, 8 IDEA (intro), 6 REUSE (#3 comps), 5 UI, 5 TEXT, 1 FLOW. Build files: `Graphics\Visuals v1\` (`sections.py`, `sentences.py`, `review_v1.py`, `tlmap.py`, `stills\`).
+- **What real UI exists:** Tella 0:00–0:30 is Apollo (Companies page loading, "My lists"). The Codex app runs from Tella 12:15 to the end. The rest is the teleprompter. The typed bubble in Codex is his dictated prompt word for word, so use it to settle transcript doubts ("which play", not "which player").
+- **Flags for Samuel:** the Codex result at 6:50 shows three real Lob employees' names and LinkedIn links (emails masked): blur or leave? The last prompt (7:24–7:42, CTA and waterfall enrichment) never shows its result; the recording ends while he dictates.
+- Scratch left on *Visuals v1 (Editor)*: an empty Fusion comp with one Note on the first V1 clip (the cue export; `DeleteFusionCompByName` returned False). Harmless; delete it with the other scratch.
+
 ## Log
 
 - 2026-09-29 — Setup, sync and cut done (Editor). Cut v3 is ready for Samuel's review. Next: his review, then sections, transcript and the visual cut sheet.
+- 2026-09-29 — Checkpoint (Editor): Samuel revised Cut v3 himself (178 clips, 9:10). Duplicate *Visuals v1 (Editor)* made, subtitled, 10 sections coloured with duration markers; transcript `Docs\Transcript - Cut v3 revised (2026-09-29).docx`. Next: the visual review sheet.
+- 2026-09-29 — Samuel revised Cut v3 (9:10): 28 trims, 8 silent demo stretches back, Tella only over the demo. Editor: sections (10, coloured on *Visuals v1 (Editor)*), transcript docx, visual review sheet (120 rows). Next: Samuel answers the sheet, then the visuals build (Thu).

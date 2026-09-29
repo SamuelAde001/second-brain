@@ -168,3 +168,8 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
 - **Ripple Delete Silence skipped the second mic file** (the MIC019 clip after a DJI 30-minute split) although every clip was selected. Check the clip count per source after the pass; select the skipped clip alone and run it again.
 - **No trim API.** For an in-clip retake: find the cut frame (word times plus the lowest 1-frame RMS point), `SetCurrentTimecode`, then Trim → Ripple → End to Playhead (Shift+W). It trims V1, A1 and V2 together and ripples. Typed shortcut Ctrl+Shift+] did nothing.
 - **Remove Silence dialog fields:** double-click the field, Ctrl+A, Backspace, type, Return. Triple-click plus typing appended to the old value.
+
+## 2026-09-29 — Getting data out of the sandbox
+- **Subtitle text has no file export by API**, and FCPXML/OTIO exports leave the subtitle track out. Route that works: `item.AddFusionComp()` on a clip of a duplicate, add a `Note` tool, `SetInput("Comments", json.dumps(data))`, `comp.Save(<scratchpad>\x.comp)`, then parse the quoted `Comments` value with `ast.literal_eval` (no regex, the escapes break it). Cheap: one call for 406 cues.
+- `DeleteFusionCompByName("Composition 1")` returned False on that clip afterwards, so the empty comp stays. Do it on a duplicate only.
+- `Timeline.Export(path, resolve.EXPORT_FCP_7_XML)` works from the sandbox (Resolve writes the file). The XML `clipitem` `in` equals `GetLeftOffset(True)`, so it's the cheapest way to diff two cuts by source range.

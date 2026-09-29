@@ -163,3 +163,8 @@ The Resolve and Fusion scripting and crash lessons (MCP bridge, Fusion API, TDR 
 ## 2026-09-29 — Order jobs by the card dates
 - Samuel pasted three cards' links out of date order (and one twice). I set up the wrong "next" video. Sequence comes from the ClickUp card dates (start → due); when he says "next", confirm against the board before downloading. Due times after midnight (e.g. Sat 2:15am) mean deliver the evening before: nothing after 10pm.
 - Notion `*.notion.site` idea docs are public: the in-app browser reads them without Chrome sign-in. Drive Google Docs export directly with `docs.google.com/document/d/<id>/export?format=docx|txt`.
+
+## 2026-09-29 — What Samuel did to Apollo Cut v3 (his revision, diffed)
+- **All my retake calls held** (nothing restored, nothing removed). The gap is now small: he trimmed 1–5 frames at clip heads and tails in the talk, and 5–31 frame pauses inside the dictated demo prompts.
+- **Demo stretches need their silences.** The silence pass removes the seconds where the AI answers on screen. He put 8 of them back (1.7–2.4 s each) so the viewer sees the result before the next prompt. On a screen demo, keep a short silent hold after each prompt where the screen changes.
+- **The screen recording only goes where the screen shows something real.** He cleared V2 and put the Tella on V3 over the demo only. Before a cut is handed over, classify the Tella (teleprompter vs real UI) and keep it only over the real UI.
