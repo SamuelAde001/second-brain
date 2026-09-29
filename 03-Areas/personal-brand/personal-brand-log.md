@@ -17,5 +17,6 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 - 2026-09-22 — [[07-Agents/content/profile|Content agent]] built from Samuel's answers: all content is @SamuelSignals, daily posting reported on Sundays, audience is remote workers, creatives and video editors. Skills [[write-script]] and [[content-report]]; [[03-Areas/personal-brand/content-log|content log]] opened.
 - 2026-09-24 — B-roll archive catalogued: 88 clips already sorted, plus 142 new B-roll clips identified (27 of them gym footage, a new category). Gaps: Cleaning and reset is still empty, and Bicycle has only 3 selfie ride clips → [[03-Areas/personal-brand/b-roll-archive|B-roll archive]].
 - 2026-09-24 — Ep 3 (No light) shot and voiced. 39 new clips filed into the archive. First cut built in Resolve: voice-over tightened to 1:51, 61 B-roll cuts, 5 photo overlays, title. Grade, audio, music and captions still to do → [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep3-no-light|Ep 3]].
+- 2026-09-29 — Webinar → live class project set up: [[04-Projects/editing-career-webinar-and-live-class|project]].
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

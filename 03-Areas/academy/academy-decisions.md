@@ -16,5 +16,6 @@ Append-only. Date, decision, why, alternatives rejected, who decided.
 - **2026-09-22 — The rebuild will most likely be video editing and DaVinci Resolve.** Stated as likely, not final. Samuel.
 - **2026-09-22 — The CapCut curriculum is kept** for a possible later course, low on the list. Dropping it was rejected. Samuel.
 - **2026-09-22 — Mentorship replaces the course as the January 2027 income line.** Samuel: *"Mentorship would replace it."* Stated once: mentorship has no price, start date or paying mentee yet, so the line isn't funded (open question 70).
+- **2026-09-29 — The DaVinci Resolve teaching goes live first, as @SamuelSignals, not as the Academy.** A live class in November after a webinar in October ([[04-Projects/editing-career-webinar-and-live-class|project]]). The recorded course stays paused. **Who:** Samuel.
 
 Back to [[03-Areas/academy/academy|Academy]]

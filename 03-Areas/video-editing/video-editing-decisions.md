@@ -17,4 +17,6 @@ Append-only. Date, decision, why, alternatives rejected, who decided.
 - **Why:** he links the slowdown during caching to the change.
 - **Editor's objection (once):** the raised timeout was the fix for the 2026-09-23 crashes during render caching ([[03-Areas/video-editing/troubleshooting|Troubleshooting]] §7). At 2 s, heavy Fusion frames may crash Resolve again. If they do, cache heavy comps one at a time, or Render In Place.
 - **Who:** Samuel. He runs the change as admin; agents don't change system settings.
+- **2026-09-29 — No more editing clients, and no more Route Rise hours. 5 videos a month only through AI speed.** Samuel: *"I don't want more Route rise videos, it burns me out"* · *"NOPE, I don't want any more Video editing clients, It affects me mentally"* · *"I can try to speed up my editing efficiency with AI to get me to 5 videos per month"*. The target is 5 Route Rise videos in a month without more hours than 4 take now; the watch line is no day over 12h logged focus ([[02-Me/patterns|P2]]). A second payer is not to be raised again. The freed hours go to the [[04-Projects/editing-career-webinar-and-live-class|webinar and live class]]. Rejected: more Route Rise volume by working longer, a second USD payer. **Who:** Samuel.
+
 Back to [[03-Areas/video-editing/video-editing|Video editing]]

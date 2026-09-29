@@ -2,7 +2,7 @@
 type: knowledge
 area: me
 status: active
-updated: 2026-09-22
+updated: 2026-09-29
 source: interview
 tags: [goals]
 ---
@@ -65,11 +65,13 @@ The 2026-08-26 order was editing · course · content. **The course is not in th
 
 ## This quarter — Q4 2026, to 2026-12-31
 
-Only two targets land this quarter, both set earlier:
+Two targets set earlier, and two added 2026-09-29:
 
 | Target | By | Where |
 |---|---|---|
 | NGN 1,000,000 for the house | 2026-12-31 | [[03-Areas/finances/finances-goals\|Finances goals]] |
+| Paid webinar (NGN 5,000), then a DaVinci Resolve live class | webinar late Oct, class Nov 2026 | [[04-Projects/editing-career-webinar-and-live-class\|Project]] |
+| 5 Route Rise videos a month through AI speed, not more hours | Q4 2026 | [[03-Areas/video-editing/video-editing-decisions\|Video editing decisions]] |
 | 5,000 followers | December 2026 | Content creation, above |
 
 Asked on 2026-09-22 whether anything else has to be true by year-end, Samuel said: *"If there is any thing new I would let you know."* So nothing else is set.

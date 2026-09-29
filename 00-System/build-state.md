@@ -21,6 +21,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 ## Live work and dates
 
+- **Webinar → live class** (2026-09-29): paid webinar, *editing career from zero*, NGN 5,000, late October; DaVinci Resolve live class in November; both as @SamuelSignals. Waiting on date, platform, payment method, class price ([[04-Projects/editing-career-webinar-and-live-class|project]]). Alongside: 5 Route Rise videos a month through AI speed, not more hours.
 - **Route Rise #3:** delivery due 2026-09-28. State: the job folder's `Graphics\Visuals v2\BUILD-STATUS.md` and the Editor's log.
 - **Finance:** September close on 2026-09-30 (first real `month-close`). Payday A when the September 70% lands. The October plan is blocked on the standing plan's son's school and girlfriend lines ([[00-System/open-questions|open questions]]).
 - **October personal-client job:** NGN 100,000, kickoff block 2026-10-26 ([[04-Projects/personal-client-project-2026-10|project]]).
