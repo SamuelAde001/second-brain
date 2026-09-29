@@ -70,7 +70,9 @@ Arithmetic only, not a forecast: at NGN 5,000 a seat, 20 seats = NGN 100,000, 40
 - 2026-09-29 — Project created from Samuel's choices. Waiting on the webinar date, the platform, the payment method, and the class's price and dates.
 - 2026-09-29 — Date and platform confirmed. 8 timed blocks written to TickTick 📽 Content Creation, 2026-10-03 → 2026-10-24.
 
-%% ticktick: setup 6abbd8058f08717709b83f6d · open 6abbd8058f08f1c97021de7d · outline 6abbd8058f08f1c97021de7a · slides1 6abbd8058f086a6e17076e04 · slides2 6abbd8058f08717709b83f70 · offer 6abbd8058f086a6e17076e01 · dryrun 6abbd8058f08d6ee95cfa39a · webinar 6abbd8058f08717709b83f79 (id order as returned; titles are the reference) %%
+- 2026-09-29 — Samuel: *"Please remind me concerning this tasks far ahead of the day"*. Reminders set on every block: 3 days and 1 day before, 5 min before, at start. The live-class offer also 7 days before. The webinar: 7 days, 3 days, 1 day, 1 hour and 5 min before (TickTick kept 5 reminders).
+
+%% ticktick: setup 6abbd8058f08f1c97021de7a · open 6abbd8058f08d6ee95cfa39a · outline 6abbd8058f086a6e17076e01 · slides1 6abbd8058f08717709b83f6d · slides2 6abbd8058f086a6e17076e04 · offer 6abbd8058f08717709b83f70 · dryrun 6abbd8058f08f1c97021de7d · webinar 6abbd8058f08717709b83f79 (read back 2026-09-29; corrects the first mapping) %%
 
 ## Delivery
 
