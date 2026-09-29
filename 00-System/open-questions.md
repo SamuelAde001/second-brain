@@ -107,3 +107,4 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 92 | Scripnals goal of 1,000 users "by next year": by 2026-12-31 or by 2027-12-31? And users = sign-ups, weekly active, or paying? | scripnals | 2026-09-28 | Measuring the goal | — |
 | 93 | The investment fund with his finance manager: when did the existing NGN 60,000 go in, and from where? Entered in the ledger at the 2026-08-31 starting position with no date. | finances | 2026-09-28 | The ledger's pot history | — |
 | 94 | The Buffer reaches NGN 200,000 around November at NGN 90,000/month. After that, where do the NGN 90,000 go? | finances | 2026-09-28 | November budget | — |
+| 95 | Model routing: confirm the proposed map (which jobs run on Sonnet 5.5 vs Opus 5.5, and each job's effort), the standing exception for Sonnet helpers, and which unused plugins to turn off. | system | 2026-09-29 | [[00-System/model-routing\|Model routing]] | — |
