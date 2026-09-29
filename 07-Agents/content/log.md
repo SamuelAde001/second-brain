@@ -32,3 +32,4 @@ Append-only. Every action this agent takes. Newest at the bottom. Format: `- YYY
 - 2026-09-28 — Correction (General Manager, Brain tidy): the 2026-09-23 entry links a batch-content-day SOP that was never written. The link stays broken on purpose, since this log is append-only; the day's plan lives in that entry.
 
 Back to [[07-Agents/content/profile|Profile]]
+- 2026-09-29 · Brand manager · Samuel asked, honestly, whether he needs a human brand strategist (NGN 50,000 one-off for positioning, pillars, tone, posting structure; + NGN 100,000 if she scripts). Answer given: not now. brand-context.md already holds all four, and the gap is output and numbers (4 posts in W39, 695 IG, no view counts), not direction. Scripting stays his (write-script). Undecided, his call.

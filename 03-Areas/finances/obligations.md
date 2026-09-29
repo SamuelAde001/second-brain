@@ -99,7 +99,7 @@ Committed outflow falls from NGN 1,050,300 to **NGN 1,010,300**. Nothing got che
 
 She is not pressing, so it is not scheduled. It is written down anyway, because an undated debt is the kind of thing that ambushes a month, and because "when I have more funds" is the same sentence that moves due dates. **Bring it up the first month that closes with the buffer full.**
 
-**He owes his former PA NGN 50,000**, added 2026-09-29: the rest of her pay. His words: *"I am oweing someone 50k I need to pay this month end, my PA that was working for me before, I haven't paid her the rest of her money"*. NGN assumed from "50k". Which month end (30 Sep or 31 Oct) is asked, not yet answered. Not in the October plan yet.
+**He owes his former PA NGN 50,000**, added 2026-09-29: the rest of her pay. His words: *"I am oweing someone 50k I need to pay this month end, my PA that was working for me before, I haven't paid her the rest of her money"*. NGN assumed from "50k". Samuel, 2026-09-29: *"I can pay the PA when the money drops"*. Planned in [[plan-2026-10|October]] on Payday A: Buffer 40,000 + Extra cash 10,000.
 
 ## The structural fix that matters most
 
