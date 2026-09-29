@@ -39,12 +39,14 @@ Client job through [[03-Areas/video-editing/clients/routerise|Route Rise]] (Alex
 | When (WAT) | Step |
 |---|---|
 | Thu 10-01 7:00pm | Editor starts the camera download (20.4 GB, about 4h at 1.5 MB/s) |
-| Sat 10-03 7:00–8:00am | Resolve setup + sync (3 camera clips, 4 mics) |
-| Sat 10-03 8:00am–1:00pm | Cut |
-| Sat 10-03 7:00–9:00pm | Claude pass + visual cut sheet |
-| Sun 10-04 | Off (the Sunday session from 3pm) |
+| Fri 10-02 9:30pm | Editor: Resolve setup + sync overnight (3 camera clips, 4 mics), after Apollo is delivered |
+| Sat 10-03 7:00–9:00am | Cut, part 1. Samuel leaves for a wedding at 9:00 |
+| Sat 10-03 7:00–9:00pm | Cut, part 2, if he's back from the wedding |
+| Sun 10-04 7:00–9:00pm | Finish the cut + Claude pass + visual cut sheet (Samuel, 2026-09-29: *"Sunday 7pm"*) |
 | Mon 10-05 7:00am–1:00pm, 7:00–9:00pm | Visuals |
 | Tue 10-06 7:00am–1:00pm | Finish visuals + sound, render started by 1:00pm |
 | Tue 10-06 7:00–9:00pm | Review the render, deliver |
+
+Replanned 2026-09-29 by the PA around the wedding (Sat) and church (Sun).
 
 **Risk:** 3 working days for about 25 minutes with a dense on-screen plan. Flagged to Samuel 2026-09-29.

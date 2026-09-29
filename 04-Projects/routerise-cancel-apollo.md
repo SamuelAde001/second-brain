@@ -40,4 +40,4 @@ Client job through [[03-Areas/video-editing/clients/routerise|Route Rise]] (Alex
 | Fri 10-02 7:00am–1:00pm | Finish visuals + sound, render started by 1:00pm (the last render took 3h55m) |
 | Fri 10-02 7:00–8:30pm | Review the render, deliver (Bible study at 8:30) |
 
-Clashes flagged to Samuel 2026-09-29: Ep 4 edit (Wed 7am–1pm), Ep 4 captions (Wed 7–9pm).
+Clashes flagged to Samuel 2026-09-29: Ep 4 edit (Wed 7am–1pm), Ep 4 captions (Wed 7–9pm). Resolved the same day by the PA: Ep 4 moved to Wed and Thu 3:00–4:30pm.

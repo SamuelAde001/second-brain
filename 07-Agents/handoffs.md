@@ -14,5 +14,6 @@ Cross-domain requests between agents. One row each: **date · from · to · requ
 | Date | From | To | Request | Status | Result |
 |------|------|----|---------|--------|--------|
 | 2026-09-22 | finance | video-editor | Keep one row per delivered video (name, end client, date, rate, batch) so finance knows a month's income before invoice day. Samuel's instruction | **done**: backfilled May–Sep 2026 (17 rows, 15 unnamed); standing job from now | [[03-Areas/video-editing/delivered-projects\|delivered projects]] |
+| 2026-09-29 | personal-life | video-editor | AI B2B Resolve setup + sync moves from Sat 7:00am to Fri 10-02 night, after Apollo is delivered, run overnight (Samuel: *"I think It can"*). Saturday has 7:00–9:00am for the cut before a wedding | open | [[04-Projects/routerise-ai-b2b-marketing\|AI B2B project]] |
 
 Back to [[07-Agents/roster|Roster]] · Constitution: [[AGENTS]] §7.

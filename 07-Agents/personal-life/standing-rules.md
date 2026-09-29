@@ -2,7 +2,7 @@
 type: agent
 area: me
 status: active
-updated: 2026-09-25
+updated: 2026-09-29
 source: interview
 tags: [agent, personal-life, rules, planning]
 ---
@@ -26,6 +26,7 @@ Why it exists. Samuel, 2026-09-25: *"they forget things that I have settled befo
 - 6:00–6:30am prayer and Bible study. Never schedule over it. (2026-09-22)
 - 7:00am–1:00pm client work · 1:00pm meal · 2:00pm nap · 3:00–4:30pm content · 5:00pm gym (on gym days) · ~6:30pm dinner · 7:00–9:00pm content, or client work in a deadline week · 9:00–10:00pm call with his girlfriend. (2026-09-22)
 - Nothing after 10:00pm. Sunday is planned from 3:00pm only. (2026-09-22)
+- **Sunday: church ends by 3:00pm, then rest before anything is planned.** *"3pm should be the end, I would have to rest after church though"* (2026-09-29)
 - **On a client day, client work owns the whole morning. No content before 1:00pm.** *"when there is client video, it takes top priority of mornings, no content in the morning"* (2026-09-24). Make-ups that aren't client work go in the first block after the nap.
 
 ## Planning
@@ -40,6 +41,7 @@ Why it exists. Samuel, 2026-09-25: *"they forget things that I have settled befo
 
 - **One video at a time.** A content must-do is one video, never "3 videos". *"I can only do one video at a time, and we agreed to change it to just one video"* (2026-09-24)
 - **The next episode waits until the client edit is delivered.** *"we would do the next one another day after my clients edit is done"* (2026-09-24)
+- **Small content in between client edits is fine.** When client jobs run back to back, plan small pieces in the gaps between one job's delivery and the next job's start, not a full episode. *"I may do small contents in between each video edit"* (2026-09-29)
 - Daily posting is reported on Sundays, not held as a commitment. (2026-09-22)
 
 ## Habits (TickTick) — check them every night
