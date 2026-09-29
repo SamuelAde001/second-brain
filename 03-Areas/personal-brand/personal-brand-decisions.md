@@ -25,7 +25,7 @@ Append-only. Date, decision, why, alternatives rejected, who decided.
 - **What:** a human brand strategist, NGN 50,000 one-off, for "the full direction": positioning, content pillars, tone, posting structure (her words). Scripting help (+ NGN 100,000) not taken.
 - **Why:** *"I think I would go ahead and have the Strategist, cause what I am doing is not working and is Random, I feel having someone in the loop would really be helpful"*.
 - **Objection, logged once:** the Brand manager advised against it on 2026-09-29. [[brand-context]] already holds all four, and the gap looked like output and numbers (4 posts in W39, +24 Instagram followers that week, no view counts). Overruled; executed in full.
-- **Open:** when she's paid, and which October line pays it ([[03-Areas/finances/plans/plan-2026-10|October plan]]).
+- **Paid:** Payday A (~2026-09-30), from SMFest (skipped), Misc and Extra cash ([[03-Areas/finances/plans/plan-2026-10|October plan]]).
 - **Who decided:** Samuel.
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]
