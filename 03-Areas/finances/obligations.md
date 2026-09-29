@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-28
+updated: 2026-09-29
 source: legacy-accountability-engine
 tags: [budget, obligations]
 ---
@@ -93,11 +93,13 @@ Committed outflow falls from NGN 1,050,300 to **NGN 1,010,300**. Nothing got che
 - **HighSignals devs — NGN 0.** Paid NGN 150,000 in July; they have since agreed to work free because August was low. They are friends. Nothing owed. He intends to sort them out when Scripnals launches.
 - **Commercial loans — all cleared.** Okash, FairMoney, bank loan. Gone. Do not carry forward.
 
-## One live debt
+## Live debts
 
 **He owes his sister NGN 90,000**, added 2026-08-26. NGN 40,000 was paid in September on Payday B. **NGN 50,000 remains, with no date on it** — his words: *"can hold for anytime I am free with more funds, no deadline."*
 
 She is not pressing, so it is not scheduled. It is written down anyway, because an undated debt is the kind of thing that ambushes a month, and because "when I have more funds" is the same sentence that moves due dates. **Bring it up the first month that closes with the buffer full.**
+
+**He owes his former PA NGN 50,000**, added 2026-09-29: the rest of her pay. His words: *"I am oweing someone 50k I need to pay this month end, my PA that was working for me before, I haven't paid her the rest of her money"*. NGN assumed from "50k". Which month end (30 Sep or 31 Oct) is asked, not yet answered. Not in the October plan yet.
 
 ## The structural fix that matters most
 
