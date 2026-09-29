@@ -161,3 +161,10 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
 
 - **2026-09-29: never call `DuplicateTimeline` on a heavy timeline through the MCP.** On Route Rise #3 (77 Fusion items) it blocked Resolve's UI thread past the 30 s script timeout, memory climbed 4.8 → 17 GB, and Resolve had to be restarted. For A/B render tests, ask Samuel to toggle the track himself, or test in a separate small project.
 
+
+## 2026-09-29 — Apollo cut: transcription, silence pass, trims
+
+- **`Folder.TranscribeAudio()` / `MediaPoolItem.TranscribeAudio()` returned True but started nothing** (`Transcription Status` stayed empty for minutes). The Media Pool right-click menu (AI Tools → Audio Transcription → Transcribe) on the selected clips did the whole bin in seconds. Check `GetClipProperty("Transcription Status")`; if it's empty, use the menu.
+- **Ripple Delete Silence skipped the second mic file** (the MIC019 clip after a DJI 30-minute split) although every clip was selected. Check the clip count per source after the pass; select the skipped clip alone and run it again.
+- **No trim API.** For an in-clip retake: find the cut frame (word times plus the lowest 1-frame RMS point), `SetCurrentTimecode`, then Trim → Ripple → End to Playhead (Shift+W). It trims V1, A1 and V2 together and ripples. Typed shortcut Ctrl+Shift+] did nothing.
+- **Remove Silence dialog fields:** double-click the field, Ctrl+A, Backspace, type, Return. Triple-click plus typing appended to the old value.

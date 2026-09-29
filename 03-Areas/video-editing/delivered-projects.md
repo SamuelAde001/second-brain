@@ -58,6 +58,6 @@ Ask him, in order, for whatever isn't already obvious from context:
 
 A mistake in an existing row gets a new, dated line right here, never a silent edit:
 
-- (none yet)
+- 2026-09-29 — Row 18 is Route Rise #3, "I Tried 100+ AI Tools. These 4 Are Best for Businesses" ([[04-Projects/routerise-4-ai-tools|project]]; same job per the area log, 2026-09-28). Its final render was sent to the client on **2026-09-29**. Samuel: *"Route Rise Render has been done and sent to CLient"*. The row's "started 2026-09-15, due 2026-09-18" came from the archive and doesn't match this job's card (start 2026-09-24, due 2026-09-28).
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]

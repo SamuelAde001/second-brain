@@ -1,8 +1,8 @@
 ---
 type: project
 area: video-editing
-status: active
-updated: 2026-09-25
+status: done
+updated: 2026-09-29
 source: manual
 tags: [client, routerise, long-form]
 ---
@@ -127,3 +127,4 @@ Steps: (1) study both finals and timelines, read-only → a visual-vocabulary no
 - 2026-09-25 — Samuel finished the cut himself (9:55, final). Editor diffed it against Cut v6 for lessons, checked it (clean), and wrote the final transcript. Next: the Claude pass / cut sheet for visuals.
 - 2026-09-26 — Samuel asked for a full-screen AI-app demo (SaaS-commercial style, no motion graphics) over the "most impressive demo" line. Built and placed on Cut v6, V7 "Claude demo insert", frames 100–199 (`Graphics\Demo insert\I02_demo.mp4`). Next: Samuel reviews it in context.
 - 2026-09-28 — Visuals v2 built on *Cut v6* overnight (Editor). Status per beat: job folder `Graphics\Visuals v2\BUILD-STATUS.md`. Left for Samuel: screen-recording zooms, B27 (Flow video, prompt in the morning report), PII check (Alex's email in the B19 form autofill), SFX/music, watch-down.
+- 2026-09-29 — Render done and sent to the client (Samuel: *"Route Rise Render has been done and sent to CLient"*). The render cache backup (`C:\Users\repzy\Videos\CacheClip-backup\`, 8.85 GB) was deleted on his yes. End-of-job review still to run.
