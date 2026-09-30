@@ -2,7 +2,7 @@
 type: log
 area: system
 status: active
-updated: 2026-09-29
+updated: 2026-09-30
 source: manual
 tags: [build, state]
 ---
@@ -22,7 +22,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 ## Live work and dates
 
 - **Motion gallery v1** (2026-09-30): 39 animated pills, boxes, cards and circles sent to Samuel for approve / change / drop, after he rejected the Apollo stills as one design repeated. Waiting on his verdicts and on [[00-System/open-questions|question 98]] (BGORANGE-only grounds or not). Then the approved designs feed the Apollo visuals. [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]].
-- **Webinar → live class** (2026-09-29): paid webinar, *editing career from zero*, NGN 5,000, late October; DaVinci Resolve live class in November; both as @SamuelSignals. Waiting on date, platform, payment method, class price ([[04-Projects/editing-career-webinar-and-live-class|project]]). Alongside: 5 Route Rise videos a month through AI speed, not more hours.
+- **Called to Edit webinar → Called to Edit Academy** (2026-09-30 update): webinar Sat 2026-10-24, NGN 5,000, target 200; cohort NGN 50,000, ~6 weeks from November, target 50; 3–4 interns plus a project GM. Needs a planning session and his answers to [[00-System/open-questions|questions 99–106]] (brand, Meet cap, team, budget, cohort dates). [[04-Projects/editing-career-webinar-and-live-class|project]]. Alongside: 5 Route Rise videos a month through AI speed, not more hours.
 - **Route Rise #3:** delivered 2026-09-29.
 - **Route Rise Apollo** (due Sat 2026-10-03 2:15am, deliver Fri 10-02): Samuel revised Cut v3 (9:10); sections, transcript and a 120-row visual review sheet done 2026-09-29. Waiting on his answers to the sheet, then the visuals build ([[04-Projects/routerise-cancel-apollo|project]]).
 - **Finance:** September close on 2026-09-30 (first real `month-close`). Payday A when the September 70% lands. The October plan is blocked on the standing plan's son's school and girlfriend lines ([[00-System/open-questions|open questions]]).

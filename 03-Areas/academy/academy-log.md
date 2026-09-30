@@ -15,3 +15,4 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 - 2026-09-22 — Phase 3 interview, short. Still paused until he has time. Rebuild most likely video editing + DaVinci Resolve. CapCut curriculum kept for a possible later course. Mentorship replaces the course as the January income line.
 
 Back to [[03-Areas/academy/academy|Academy]]
+- 2026-09-30 — The name comes back: Samuel is calling his DaVinci Resolve cohort **Called to Edit Academy** (NGN 50,000, ~6 weeks, from November), sold from the Called to Edit webinar. Whether that restarts HighSignals Academy or stays under @SamuelSignals is open ([[00-System/open-questions|question 99]]). → [[04-Projects/called-to-edit-academy-cohort|Academy cohort]]. Back to [[03-Areas/academy/academy|Academy]].

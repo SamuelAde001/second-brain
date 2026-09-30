@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-28
+updated: 2026-09-30
 source: manual
 tags: [open-questions]
 ---
@@ -109,5 +109,13 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 94 | The Buffer reaches NGN 200,000 around November at NGN 90,000/month. After that, where do the NGN 90,000 go? | finances | 2026-09-28 | November budget | — |
 | 95 | ~~Model routing: confirm the proposed map (which jobs run on Sonnet 5.5 vs Opus 5.5, and each job's effort), the standing exception for Sonnet helpers, and which unused plugins to turn off.~~ | system | 2026-09-29 | [[00-System/model-routing\|Model routing]] | 2026-09-29: "yes to all three"; effort floor medium. Plugins listed; he switches them off |
 | 96 | Webinar: the time on Sat 2026-10-24, and how people pay the NGN 5,000 (possibly Paystack). Date and Google Meet confirmed 2026-09-29 | personal-brand | 2026-09-29 | Opening registration, proposed Mon 2026-10-05 | — |
-| 97 | DaVinci Resolve live class: price, number of sessions, November dates, what students get | personal-brand | 2026-09-29 | The offer at the end of the webinar | — |
+| 97 | DaVinci Resolve live class: price, number of sessions, November dates, what students get | personal-brand | 2026-09-29 | The offer at the end of the webinar | partly, 2026-09-30: now **Called to Edit Academy**, NGN 50,000, about 6 weeks, about two live classes a week, assignments, certificate, for people already on Resolve. Dates still open (see 101) → [[04-Projects/called-to-edit-academy-cohort\|Academy cohort]] |
 | 98 | Motion-graphic grounds: does every motion graphic stay on BGORANGE (the 2026-09-27 rule), or may the gallery's grey, cream and full-orange grounds be used now that he wants the colours mixed? | video-editing | 2026-09-30 | Which gallery designs can be built as drawn | — |
+| 99 | Called to Edit and Called to Edit Academy: @SamuelSignals (as decided 2026-09-29), or is this HighSignals Academy restarting? The name is HighSignals Academy's course line | personal-brand, academy | 2026-09-30 | Branding, certificate, where the project lives, the file's name | — |
+| 100 | Google Meet: which plan exactly (Google One / Google AI Pro or Workspace), and its participant cap. Consumer plans are believed to cap at 100 | personal-brand | 2026-09-30 | Selling more than 100 webinar seats | — |
+| 101 | Cohort: start date, the days and times of the two weekly classes, and is 6 weeks firm | personal-brand | 2026-09-30 | The cohort offer at the webinar (step 5b, 2026-10-21) | — |
+| 102 | Team: the project GM's name, what she owns, her terms; who fills graphic designer, publicity, video editor, admin; paid, unpaid or something else | personal-brand | 2026-09-30 | Outreach starting before registration opens 2026-10-05 | — |
+| 103 | Budget: how much NGN he'll put into ads, design and the team before seats sell, and from which plan line | personal-brand, finances | 2026-09-30 | Ads, paid help | — |
+| 104 | Cohort logistics: are classes recorded for students, where classes and assignments live (Meet, WhatsApp, Classroom, other), is 50 a cap or a target | personal-brand | 2026-09-30 | The cohort offer | — |
+| 105 | Cohort entry: must students be on Resolve already, and is Resolve free enough or do some lessons need Studio | personal-brand | 2026-09-30 | Who the cohort is sold to | — |
+| 106 | Webinar extras: replay for people who paid, early-bird price, webinar fee counted toward the cohort, open registration before 2026-10-05 | personal-brand | 2026-09-30 | The announcement | — |
