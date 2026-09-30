@@ -96,7 +96,8 @@ After the Apollo stills: *"You tend to use the same Design every time, the same 
 - No single pill, box or card style carries a whole video. Pick from the [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]]: approved designs first, "change" ones only with his note applied.
 - Rotate the fill: solid orange, white, light orange or cream, grey glass, deep orange, outline. Neighbouring visuals never share one.
 - The last three finals ($7M Founder, Taking a Step Back, 4 AI Tools) are the approved baseline (*"the finished videos of the last 3 are okay, just that we need more better and different types"*). Build on them; don't repeat one of them beat after beat.
-- Grounds: the 2026-09-27 rule (BGORANGE behind every motion graphic) stands until he answers whether the gallery's grey, cream and full-orange grounds may be used ([[00-System/open-questions|open question 98]]).
+- **The ground never changes: BGORANGE or the A-roll.** He sent all 13 gallery designs on grey, cream or orange grounds back with *"The background must be BGorange"*, and *"I want a consistent background"*. The fills change; the ground doesn't.
+- From his round-1 review of the gallery: no 3D tilt or rotation on cards (*"I don't like the rotation"*); side graphics like a card deck stay small; a quote goes on the footage of the person who said it; results go in one card, not a grid of tiles; a progress indicator is a bar that fills, not dots; nothing moving in the background behind a pill (*"don't use that background wave"*); a Dynamic Island notification over the A-roll rises from the bottom.
 
 ## UI demos and screen recordings — Samuel, 2026-09-27
 

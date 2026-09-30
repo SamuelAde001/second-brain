@@ -237,8 +237,10 @@
         if (opt.shade !== false) mk(bg, "shade");
       }
       if (opt.grid) mk(bg, opt.grid === "dots" ? "dots" : "grid" + (kind === "cream" || kind === "peach" ? " dark" : ""));
-      if (opt.vig !== false) mk(over, "vig" + (kind === "cream" || kind === "peach" || kind === "ember" ? " light" : kind === "aroll" ? " soft" : ""));
-      if (opt.grain !== false) {
+      // "bgo" = Samuel's BGORANGE macro rebuilt exactly (grid, top/bottom glow): no vignette, no grain, like the macro
+      const plain = kind === "bgo";
+      if (opt.vig !== false && !plain) mk(over, "vig" + (kind === "cream" || kind === "peach" || kind === "ember" ? " light" : kind === "aroll" ? " soft" : ""));
+      if (opt.grain !== false && !plain) {
         const gr = mk(over, "grain" + (kind === "cream" || kind === "peach" ? " soft" : ""));
         S.F((t) => { const f = Math.floor(t * 24); gr.style.transform = `translate(${Math.round((hash(f) - 0.5) * 120)}px,${Math.round((hash(f + 9) - 0.5) * 120)}px)`; });
       }

@@ -183,3 +183,7 @@ Samuel: *"Did you use the script to guide in the transcript? and for the visuals
 - His references: `Routerise\Visual Assets\Visual Inspo\` (125 frames from Andy Stauring's and Nate Herk's editors) and `3. I Tried 100+ AI Tools…\Docs\Visual study\best-editor\` (44 stills). Contact-sheet them before designing anything new (PowerShell System.Drawing; this PC has no PIL).
 - What he has approved is in the last three finals. Their reveal frames come out cheaply with ffmpeg scene detection (`select='gt(scene,0.22)'`), one frame 1.2 s after each change.
 - New visuals come from the [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]]. Get his verdicts there before a visual sheet uses a design.
+
+## 2026-09-30 — Gallery round 1: what he kept, what he changed
+- He approved 16 of 39 and asked for changes on 19. On 13 of the 19 his only note was the background. Before building, read his macro (`My macros\BGORANGE.setting`) instead of guessing it. My "warm" ground glowed from the bottom; his glows from the top and bottom edges.
+- His tastes from the notes: no 3D rotation on cards, small side graphics, quotes on the speaker's own footage, results in one card, fill bars instead of dots, nothing moving behind a pill. He loved the Dynamic Island, the border beam, the search bar, the chat, the leaderboard, the flags and the Venn, all on BGORANGE. He dropped the toggle, the receipt and the rotating seal.

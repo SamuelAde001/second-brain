@@ -178,6 +178,15 @@ A warm orange-on-near-black system, no cool tones except a rare dark teal. Backg
 
 **Don't be misled:** the most common raw Background colour by node count is `#FFACEA` (pink) — every instance has alpha 0, an inherited placeholder inside the Neo macros, not a design colour.
 
+### Background: BGORANGE (his macro, decoded 2026-09-30)
+
+Every motion graphic sits on `My macros\BGORANGE.setting` (Samuel, 2026-09-27 and 2026-09-30: *"The background must be BGorange"*). What it is:
+- Background `#110602` (RGB 0.067 / 0.024 / 0.008).
+- ResolveFX Grid over it, 20 × 12 hairlines (96 × 90 px cells), Blend 0.0143, so almost invisible.
+- A `#FF5A1F` Background masked by two Ellipse masks merged together (1.034 wide, soft edge 0.1). One is centred 274 px above the top of the frame, the other 323 px below the bottom. So the glow comes in from the **top and bottom edges**, strongest at centre and fading out about 300 px in. Gaussian blur (H 1, V 0.4), merged at 0.181.
+- Measured on the 4 AI Tools final: `#110602` in the middle band, about `#3B1609` at the top centre, `#361409` at the bottom centre, no vignette.
+- HTML replica: `.gr.bgo` in the motion gallery's `src/gallery.css`.
+
 ### Shapes
 - Rounded rectangles everywhere. `RectangleMask.CornerRadius` clusters at **0.30–0.34** (cards), **0.66–0.81** (pills/chips), **1.0** (full capsule).
 - Chips/pills: orange gradient fill, white bold caps, occasional large ghosted numeral behind ("1", "2") at low opacity.

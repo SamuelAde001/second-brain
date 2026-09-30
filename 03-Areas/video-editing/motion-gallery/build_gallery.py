@@ -38,7 +38,8 @@ BASELINE = [
     ("tsb", 57.21, "<b>Taking a Step Back</b> · Claude tile + department pills"),
     ("tsb", 4.29, "<b>Taking a Step Back</b> · two-tone headline"),
 ]
-JS_ORDER = ["gallery-engine.js", "pills.js", "boxes.js", "cards.js", "circles.js", "gallery-shell.js"]
+DESIGN_FILES = ["pills.js", "boxes.js", "cards.js", "circles.js"]
+JS_ORDER = ["gallery-engine.js", "verdicts.js"] + DESIGN_FILES + ["gallery-shell.js"]
 
 
 def ff(args):
@@ -66,7 +67,7 @@ def thumb_from_video(video, sec, name, width=480):
 
 def ref_ids():
     ids = set()
-    for f in JS_ORDER:
+    for f in DESIGN_FILES:
         with open(os.path.join(SRC, f), encoding="utf-8") as h:
             ids.update(re.findall(r'ref:\s*\{\s*id:\s*"([^"]+)"', h.read()))
     return sorted(ids)
@@ -118,7 +119,7 @@ def stills(times=(3.8,), only=None):
     out = os.path.join(CACHE, "stills")
     os.makedirs(out, exist_ok=True)
     codes = []
-    for f in JS_ORDER[1:5]:
+    for f in DESIGN_FILES:
         with open(os.path.join(SRC, f), encoding="utf-8") as h:
             codes += re.findall(r'^D\("([A-Z]\d\d)"', h.read(), re.M)
     if only:

@@ -1,7 +1,7 @@
 ---
 type: knowledge
 area: video-editing
-status: needs-input
+status: active
 updated: 2026-09-30
 source: interview
 tags: [visuals, motion-graphics, house-style, routerise, gallery]
@@ -18,7 +18,7 @@ Our own library of motion-graphic components, in Route Rise house style, to pick
 ## Rules it follows
 
 - **Same font, same colours, more ways of using them.** Geist only. Dark orange `#FF5A1F` (deep `#BE4117`, `#591E0B`), light orange `#FD9457` (cream `#FFE9DC`), white, grey. Ground `#1B0903`. From [[03-Areas/video-editing/routerise-house-style|Routerise house style]].
-- **Colour recipes rotate.** Solid orange, white paper, light orange, grey glass, outline. No two neighbouring designs share a recipe, and the grounds rotate too: A-roll, warm dark, grey, cream, full orange.
+- **Colour recipes rotate; the ground doesn't.** Solid orange, white paper, light orange, grey glass, outline: no two neighbouring designs share a recipe. The ground is the A-roll or BGORANGE, nothing else. Samuel, 2026-09-30: *"The background must be BGorange"*, *"I want a consistent background"*.
 - **The approved baseline is the last 3 finals:** *$7M Founder*, *Taking a Step Back from Claude*, *4 AI Tools* (Route Rise #3). Orange number pills, orange-ringed hub circles, dark list cards, the 4-tools tiles, the top stepper, two-tone headlines, highlighter marks. The gallery shows them in a strip and adds types that aren't there yet.
 - **Big, few words, depth, and something always moving.** [[03-Areas/video-editing/visual-vocabulary|Visual vocabulary]] still applies.
 - Every design can be rebuilt in Fusion from real nodes (rectangle and ellipse masks, NeoBevel, NeoGlow, NeoLightSweep, DropShadow, 3D). Each card on the page carries a one-line Fusion note.
@@ -75,13 +75,27 @@ Our own library of motion-graphic components, in Route Rise house style, to pick
 | O09 | Hand-drawn marker circle | orange marker | A-roll | web, best editor 27 |
 | O10 | Social buttons, like / save / send | grey glass + orange | A-roll | Inspo #20 |
 
-## Open with Samuel
+## Grounds (settled 2026-09-30)
 
-- **Grounds.** The 2026-09-27 rule puts BGORANGE behind every motion graphic. The gallery also tries grey, cream and full-orange grounds, because he asked for the colours mixed. Until he answers, client builds stay on BGORANGE ([[00-System/open-questions|question 98]]).
+v1 tried grey, cream and full-orange grounds. Samuel moved every one back to BGORANGE (*"Love this but The background must be BGorange"*, on 13 designs). v2 rebuilds BGORANGE from the macro itself; see [[03-Areas/video-editing/routerise-house-style|house style §9]].
 
 ## Samuel's verdicts
 
-None yet (v1 sent 2026-09-30). Each verdict goes here with his words and the date. An approved design is then rebuilt as a visual-engine scene and a Fusion comp.
+Round 1, 2026-09-30, pasted from the page's "Copy my review". Full notes are in `src/verdicts.js`.
+
+- **Approved (16):** P01, P02 (*"Just don't use that background wave"*: removed), P03, P04, P08, P11, P13, B01, B05, C06, C08, O03, O04, O06, O09, O10.
+- **Dropped (3):** P12 toggle, B06 receipt, O08 rotating seal.
+- **Changed in v2 (19):**
+  - BGORANGE only (*"Love this but The background must be BGorange"*): P07, P10, B02, B04, B07, C03, C04, C05, C07, O01, O02, O05, O07.
+  - P05: *"make it appear from the buttom instead if it's on screen, but we can use this in different other places"*. It now rises from the bottom over the A-roll, and the top version stays an option.
+  - P09: *"I prefer a bar that fills up instead of the dots"*.
+  - B03: *"Make it one card, not multiple"*.
+  - B08: *"Would prefer quotes to be on a picture/video of the person quoting it"*. It now sits on the speaker's footage, with a real line from Alex's Apollo script.
+  - C01: *"I don't normally use this kind of in Animation, and I don't like the rotation"*. Now flat, with no 3D.
+  - C02: *"I always prefer this smaller, too big on the screen right now"*. About a third smaller.
+- **Not reviewed:** P06.
+
+Round 2 (v2) is waiting on his marks. An approved design gets rebuilt as a visual-engine scene and a Fusion comp when a video needs it.
 
 ## Build notes
 
