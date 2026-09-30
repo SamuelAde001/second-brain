@@ -16,6 +16,8 @@ Read first: [[03-Areas/video-editing/visual-vocabulary|visual vocabulary]] (his 
 ## 0. The current method (Samuel, 2026-09-29)
 The hand-over is **rendered stills of the actual visuals**, one per visual, never a text-only sheet: *"you are meant to create the actual visuals and not just the text"*. Study the last delivered video first (contact sheet of its render, one frame per 3 s) and reuse what shipped: `kit.py` in the job's `Graphics\Visuals v1\` (copied from #3's stills2 kit), `vis.py` with one entry per visual, grounds from the A-roll and the Tella, `review_v2.py` for the page. The transcript that feeds it is checked against the client's script. First run: Apollo, 2026-09-29.
 
+**Updated 2026-09-30:** the review is now **animated, not stills**. The visuals are remixed from the approved [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]] vocabulary, each element times itself to its word (`S.when`), and the page is built by `motion-gallery/build_review.py` from the job's `Graphics\Visuals v3\` (`review.json` + `scenes-*.js`). Real-screen demo beats and reuses stay as stills. First run: Apollo, 2026-09-30.
+
 ## 1. Study before designing
 - If the style is in question, contact-sheet the reference finals (ffmpeg `fps=1,scale=384:216,drawtext,tile=6x5`) and read them. Don't re-read what [[03-Areas/video-editing/visual-vocabulary|visual vocabulary]] already records.
 - Contact-sheet the client's screen recording (`fps=1/4`, crop the screen side) to know what real UI exists. Pull full-res frames of the UI you'll rebuild into `_assets/tella/`.

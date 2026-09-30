@@ -21,10 +21,10 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 ## Live work and dates
 
-- **Motion gallery v2** (2026-09-30): Samuel approved 16 designs, dropped 3 and asked for 19 changes. All applied, with every ground on BGORANGE, which is now a rule. v2 is waiting on his marks for the 19 changes plus P06. Approved designs feed the Apollo visuals (deliver Fri 10-02). [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]].
+- **Motion gallery** (2026-09-30): Samuel approved all 36 designs (3 dropped). They are inspiration to remix, never templates, and that is now a rule. [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]].
 - **Called to Edit webinar → Called to Edit Academy** (2026-09-30): under @SamuelSignals. Webinar Sat 2026-10-24 (hour open), NGN 5,000, target 200, Meet capped at 100 on Google One AI Pro until sign-ups justify Workspace. Cohort NGN 50,000, ~6 weeks from November (maybe late), target 50, recorded, on Meet. Project manager Ifeoma; interns get a free cohort seat, a percentage later (not settled). PA's October time plan waiting on his yes before TickTick. [[04-Projects/called-to-edit-webinar-and-academy|project]]. Alongside: 5 Route Rise videos a month through AI speed.
 - **Route Rise #3:** delivered 2026-09-29.
-- **Route Rise Apollo** (due Sat 2026-10-03 2:15am, deliver Fri 10-02): Samuel revised Cut v3 (9:10); sections, transcript and a 120-row visual review sheet done 2026-09-29. Waiting on his answers to the sheet, then the visuals build ([[04-Projects/routerise-cancel-apollo|project]]).
+- **Route Rise Apollo** (due Sat 2026-10-03 2:15am, deliver Fri 10-02): visual review v3 sent 2026-09-30, with 40 animated visuals timed to the words (`Docs\Visual review v3 (2026-09-30).html`). Waiting on Samuel's marks, then the Fusion builds in the Thu 10-01 visuals block ([[04-Projects/routerise-cancel-apollo|project]]).
 - **Finance:** September close on 2026-09-30 (first real `month-close`). Payday A when the September 70% lands. The October plan is blocked on the standing plan's son's school and girlfriend lines ([[00-System/open-questions|open questions]]).
 - **October personal-client job:** NGN 100,000, kickoff block 2026-10-26 ([[04-Projects/personal-client-project-2026-10|project]]).
 - **Scripnals:** guide library sent to the devs 2026-09-22; they test from their end.

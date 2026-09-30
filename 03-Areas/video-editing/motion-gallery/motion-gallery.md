@@ -95,7 +95,7 @@ Round 1, 2026-09-30, pasted from the page's "Copy my review". Full notes are in 
   - C02: *"I always prefer this smaller, too big on the screen right now"*. About a third smaller.
 - **Not reviewed:** P06.
 
-Round 2 (v2) is waiting on his marks. An approved design gets rebuilt as a visual-engine scene and a Fusion comp when a video needs it.
+**Round 2, 2026-09-30: all approved.** Samuel: *"All of them are approved"*. That makes 36 approved and 3 dropped. His note with it: *"this designs must not be exact like this on my edits, but this designs are impirations of what we could work with in real designs, inspirations in which can be used in the actual designs in more creative ways, so better be more creative"*. So the designs are a vocabulary to remix per beat, never templates. First use: the [[04-Projects/routerise-cancel-apollo|Apollo]] visual review v3.
 
 ## Build notes
 
@@ -103,5 +103,10 @@ Round 2 (v2) is waiting on his marks. An approved design gets rebuilt as a visua
 - Reference ids: `I<n>` is the nth file of `Visual Inspo` sorted by name, `B<n>` the nth still of `best-editor`, `M7-67` a frame of the $7M Founder final. The build script turns them into thumbnails.
 - QA: `python build_gallery.py --stills --t=3.8 --only=P01,B02` renders `?only=CODE&t=T` with headless Chrome into `_cache/stills/`. Headless Chrome won't go narrower than 512 px, so phone layout can't be checked this way.
 - A flex container drops the space between a text node and a `<span>`. Wrap mixed text (`tt()` output) in one span, or words run together.
+- **Job reviews.** `src/parts.js` turns the approved vocabulary into building blocks (pill, badge, tag, card, row, hub, board, dash, arrow, title, bubble, marker, strike, stat). `build_review.py "<job>" "<spec>"` builds a job's review page from the job's `review.json` and `scenes-*.js`, which register visuals with `RV(code, meta, build)`. Every sentence of the cut is listed in order, each visual plays with a live caption, and approve/change/drop plus a comment copy back into chat. `--stills --t=end|mid` renders QA stills.
+- `S.when("phrase")` times an element to a phrase in the Resolve transcription. That transcription is raw: Apollo has "Kenya" for Kenny, "Cloud Code", "Entropic", "a benefit" for a bad fit, "share place". Match the raw words, and read the page's "Timing not found" line after every build.
+- An SVG layer paints above everything created before it and below everything created after it. A strike or marker meant to sit over a pill goes in a second SVG created after the pill. A card created after its rows covers them.
+- A pill with a fixed width keeps its icon on the left; only icon-less pills centre their text. A verdict pill carries its X inside, because a separate badge on its edge covers the first letter.
+- Review loops hold 1.8 s past the last sentence, so a beat that lands on the final word can still be seen.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]

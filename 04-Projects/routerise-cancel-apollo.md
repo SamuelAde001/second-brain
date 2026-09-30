@@ -2,7 +2,7 @@
 type: project
 area: video-editing
 status: active
-updated: 2026-09-29
+updated: 2026-09-30
 source: manual
 tags: [client, routerise, long-form]
 ---
@@ -94,9 +94,20 @@ Timeline **Visuals v1 (Editor)** = duplicate of his revised Cut v3, with a subti
 - **Flags for Samuel:** the Codex result at 6:50 shows three real Lob employees' names and LinkedIn links (emails masked): blur or leave? The last prompt (7:24–7:42, CTA and waterfall enrichment) never shows its result; the recording ends while he dictates.
 - Scratch left on *Visuals v1 (Editor)*: an empty Fusion comp with one Note on the first V1 clip (the cue export; `DeleteFusionCompByName` returned False). Harmless; delete it with the other scratch.
 
+## Visual review v3 (Editor, 2026-09-30)
+
+Samuel rejected the v2 stills as *"mediocre and shallow"*: the same design and colour ratio on every beat. After the [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]] was approved, he asked for a new visual review for this video: *"be creative and let it look good and professional, not stale like the last one"*.
+
+- **Page:** `Docs\Visual review v3 (2026-09-30).html`, built by `motion-gallery/build_review.py`. Every sentence of his Cut v3 in order. Each visual animates in time with the words, with a live caption, approve/change/drop, a comment box, and Copy my review back to chat.
+- **40 new animated visuals** (`Graphics\Visuals v3\scenes-1..3.js`): 4 intro ideas (I1–I4), 34 motion graphics on BGORANGE or the A-roll, and 2 text beats on the Down fade. **Q01** is new: Alex's own line *"You don't have to build your own contact database to build your own workflow"* as a quote on his footage.
+- **Motifs:** the GTM OS core (I1, I4, V11, V12, V33, V50, V51) and the build board DEFINE / CONNECT / CHECK / OUTREACH (V27, V29, V33, V34).
+- **Kept as planned** (shown as stills): the real Apollo and Codex screens V01, V02, V07, V23, V36, V38–V47; the #3 reuses V25, V26, V54, V55. V10 is a Flow AI video (prompt on its card).
+- **Still open:** blur or keep the three real Lob contacts' names (V43), and the last prompt's result never appears on the recording (V47).
+
 ## Log
 
 - 2026-09-29 — Setup, sync and cut done (Editor). Cut v3 is ready for Samuel's review. Next: his review, then sections, transcript and the visual cut sheet.
 - 2026-09-29 — Checkpoint (Editor): Samuel revised Cut v3 himself (178 clips, 9:10). Duplicate *Visuals v1 (Editor)* made, subtitled, 10 sections coloured with duration markers; transcript `Docs\Transcript - Cut v3 revised (2026-09-29).docx`. Next: the visual review sheet.
 - 2026-09-29 — Samuel revised Cut v3 (9:10): 28 trims, 8 silent demo stretches back, Tella only over the demo. Editor: sections (10, coloured on *Visuals v1 (Editor)*), transcript docx, visual review sheet (120 rows). Next: Samuel answers the sheet, then the visuals build (Thu).
 - 2026-09-29 — Samuel: the transcript had to use the script, and the visual review has to be the actual visuals, learned from #3's final. Transcript rebuilt against the script; 55 visuals rendered as stills after a study of #3's delivered video (v2.2.mp4, one frame per 3 s). Next: his answers on the stills, then the Fusion builds.
+- 2026-09-30 — Motion gallery approved in full. Visual review v3 built: 40 animated visuals remixed from the gallery and timed to the words. Next: Samuel's marks and comments, then the Fusion builds of what he approves (Thu 10-01 visuals block).
