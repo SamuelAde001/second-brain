@@ -156,7 +156,8 @@ The Resolve and Fusion scripting and crash lessons (MCP bridge, Fusion API, TDR 
 
 ## 2026-09-28 — Cache and drives
 - **G: is Google Drive (GoogleDriveFS), not a local disk.** Never put cache, proxies or footage there. The only local disk is C:.
-- Route Rise #3 project UUID = `3b3169d0-b3d3-4b98-af1c-48cd4e27c73e` (its CacheClip folder). A backup copy of that cache is in `C:\Usersepzy\Videos\CacheClip-backup\`. Delete it once the job is delivered: it takes 8.85 GB on a nearly full C:.
+- Route Rise #3 project UUID = `3b3169d0-b3d3-4b98-af1c-48cd4e27c73e` (its CacheClip folder). A backup copy of that cache is in `C:\Users
+epzy\Videos\CacheClip-backup\`. Delete it once the job is delivered: it takes 8.85 GB on a nearly full C:.
 - Resolve keeps its render cache across restarts. Nothing has to be re-cached as long as the cache folder, the cache location setting and the cached clips stay the same.
 - Correction (2026-09-28): the backup path above is mangled. It is `C:\Users\repzy\Videos\CacheClip-backup\`.
 
@@ -174,3 +175,11 @@ Samuel: *"Did you use the script to guide in the transcript? and for the visuals
 - **The transcript is checked against the client's script every time.** Resolve mishears names and phrases ("a benefit" for "a bad fit", "the run rate on" for "the run returned"). Where the footage follows the script, the script settles the words. Where the footage leaves the script, say so in a note (what wasn't recorded, what's new).
 - **The visual review is rendered stills, one per visual, never a text sheet.** Start from what shipped on the last video: contact-sheet its delivered render (one frame per 3 s) and reuse its components through `kit.py` (the #3 stills2 kit). Demos are the real screen full frame with Alex in the orange-ringed circle and focus boxes. Recurring motifs carry the video (a hub ring, a build board), and plain A-roll stays between visuals.
 - **Group sentences into visuals.** One visual can run across 2–4 sentences, building on the words, the way #3's comps did. Every sentence still appears on the sheet, visual or plain A-roll, so nothing is missed.
+
+## 2026-09-30 — "Mediocre" means one design repeated
+- Samuel on the Apollo stills: *"Everything looks mediocre and Shallow"*, *"You tend to use the same Design every time, the same color ratio"*, *"I thought you are meant to be creative"*.
+- What I kept doing: the same dark-brown card with a thin orange border and small caps text, about 90% brown to 10% orange, on every beat. Same shapes, same ratio, small text.
+- What he wants: same font and palette, more ways of using them. Light and dark orange, white, sometimes grey, in different ratios; pills with medallions, tags and corner badges; tilted glass, fanned decks, flags, orbits, rings, stamps, hand-drawn marks.
+- His references: `Routerise\Visual Assets\Visual Inspo\` (125 frames from Andy Stauring's and Nate Herk's editors) and `3. I Tried 100+ AI Tools…\Docs\Visual study\best-editor\` (44 stills). Contact-sheet them before designing anything new (PowerShell System.Drawing; this PC has no PIL).
+- What he has approved is in the last three finals. Their reveal frames come out cheaply with ffmpeg scene detection (`select='gt(scene,0.22)'`), one frame 1.2 s after each change.
+- New visuals come from the [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]]. Get his verdicts there before a visual sheet uses a design.

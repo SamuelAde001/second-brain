@@ -89,6 +89,15 @@ From his answers on all 63 remaining beats, checked against his finished hook (0
 - **People beats** ("business owner confused"): an AI video generated in **Flow, in his browser**. Beats about Alex himself: B-roll of Alex from earlier Route Rise projects, plus a node element (such as a thought bubble).
 - Many sentences get **no visual** (his NONE rows): let the A-roll breathe. He handles punch-ins himself.
 
+## Mix the designs — Samuel, 2026-09-30
+
+After the Apollo stills: *"You tend to use the same Design every time, the same color ratio, yes we have a color we use but, mix it up, use light and dark orange and white, and sometimes grey"* and *"Same font, Same color schemes, but more creative ways of doing things"*.
+
+- No single pill, box or card style carries a whole video. Pick from the [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]]: approved designs first, "change" ones only with his note applied.
+- Rotate the fill: solid orange, white, light orange or cream, grey glass, deep orange, outline. Neighbouring visuals never share one.
+- The last three finals ($7M Founder, Taking a Step Back, 4 AI Tools) are the approved baseline (*"the finished videos of the last 3 are okay, just that we need more better and different types"*). Build on them; don't repeat one of them beat after beat.
+- Grounds: the 2026-09-27 rule (BGORANGE behind every motion graphic) stands until he answers whether the gallery's grey, cream and full-orange grounds may be used ([[00-System/open-questions|open question 98]]).
+
 ## UI demos and screen recordings — Samuel, 2026-09-27
 
 - *"All Demos, screen recording, screenshot UI type of visuals must be full screen, like how it will actually look when I am browsing through the app or software."* Never a windowed UI tilted on a background.

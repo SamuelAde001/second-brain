@@ -70,4 +70,8 @@ Source: the agency's Notion training (Module 1 "Route Rise Media Editing style",
 - **Text:** client colours for emphasis, size and weight to separate title and subtitle, something always moving behind or under text.
 - **Music** changes with the subject, smoothly. **SFX** subtle, to make visuals feel real.
 
+## 6. The motion gallery (2026-09-30)
+
+After the Apollo stills were called *"mediocre and shallow"* for repeating one card, the component menu moved into the [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]]: 39 animated designs (13 pills, 8 boxes, 8 cards, 10 circles) built from this note's sources plus the Visual Inspo folder and 2026 motion trends. Samuel's verdict on each design is recorded there.
+
 Back to [[03-Areas/video-editing/video-editing|Video editing]]

@@ -31,3 +31,7 @@ Thumbs.db
 
 # Python bytecode
 __pycache__/
+
+# Motion gallery build output (embeds reference frames; rebuilt by build_gallery.py)
+03-Areas/video-editing/motion-gallery/_cache/
+03-Areas/video-editing/motion-gallery/motion-gallery.html

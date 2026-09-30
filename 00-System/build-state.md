@@ -21,6 +21,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 ## Live work and dates
 
+- **Motion gallery v1** (2026-09-30): 39 animated pills, boxes, cards and circles sent to Samuel for approve / change / drop, after he rejected the Apollo stills as one design repeated. Waiting on his verdicts and on [[00-System/open-questions|question 98]] (BGORANGE-only grounds or not). Then the approved designs feed the Apollo visuals. [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]].
 - **Webinar → live class** (2026-09-29): paid webinar, *editing career from zero*, NGN 5,000, late October; DaVinci Resolve live class in November; both as @SamuelSignals. Waiting on date, platform, payment method, class price ([[04-Projects/editing-career-webinar-and-live-class|project]]). Alongside: 5 Route Rise videos a month through AI speed, not more hours.
 - **Route Rise #3:** delivered 2026-09-29.
 - **Route Rise Apollo** (due Sat 2026-10-03 2:15am, deliver Fri 10-02): Samuel revised Cut v3 (9:10); sections, transcript and a 120-row visual review sheet done 2026-09-29. Waiting on his answers to the sheet, then the visuals build ([[04-Projects/routerise-cancel-apollo|project]]).

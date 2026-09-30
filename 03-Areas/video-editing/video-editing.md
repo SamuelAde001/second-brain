@@ -40,6 +40,7 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 
 **The craft**
 - [[visual-vocabulary]] — what makes a visual Samuel's, his list styles, why Claude's TSB visuals were called mediocre, the agency's best editor, the Route Rise editing guide
+- [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]] — our own library of animated pills, boxes, cards and circles in house style, with Samuel's verdict on each. Pick visuals from here (2026-09-30)
 - [[routerise-house-style]] — delivery spec, ten structural rules, track layout, cut rhythm, zooms, PIP demo system, sound design, typography, animation timing constants
 - [[fusion-node-system]] — node layout conventions, build recipes, adjustment-clip system, NeoTextMotion, worked examples from 107 comps
 - [[tsb-graphics-pipeline]] — the graphics pipeline
