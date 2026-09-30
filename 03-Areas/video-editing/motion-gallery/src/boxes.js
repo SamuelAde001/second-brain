@@ -8,7 +8,7 @@ D("B01", {
   fusion: "Glass Rectangle + a second Rectangle outline with a gradient → NeoGlow for the rim. Rows: Rectangles with Blur keyed 9 → 0 on the word. Star: Polygon (4 points) + NeoGlow.",
 }, (S) => {
   const { el, W, A, F, pop, tt, prog, ringMask } = S;
-  S.ground("warm", { grid: true });
+  S.ground("bgo");
   const X = 500, Y = 120, BW = 920, BH = 840;
   const box = W(null, X, Y, BW, BH);
   const rimG = "linear-gradient(160deg, #FFC19C, #FF5A1F 28%, rgba(255,90,31,.12) 58%, rgba(255,90,31,.65))";
@@ -44,7 +44,7 @@ D("B02", {
   fusion: "Window: dark Rectangle + title bar Rectangle + three Ellipses. Panels: grey and white Rectangles. Frame: Polyline rectangle with Write-On + NeoGlow. Theirs: Saturation 0 + Brightness keyed down.",
 }, (S) => {
   const { el, W, A, F, neo, pop, icon, prog, ripple } = S;
-  S.ground("graphite", { grid: "dots" });
+  S.ground("bgo");
   const X = 210, Y = 120, WW = 1500, WH = 840;
   const win = W(null, X, Y, WW, WH);
   const body = el(win, "abs m-dark clip", { inset: 0, borderRadius: "34px" });
@@ -82,44 +82,43 @@ D("B02", {
 });
 
 D("B03", {
-  name: "Bento grid of results", cat: "box", loop: 6.4,
-  use: "<b>Results and proof in one frame.</b> Tiles of different sizes and fills snap in, the numbers count, the chart draws, then one light sweep crosses the whole grid.",
-  ref: { web: "Web · Dribbble dark bento grids" },
-  recipe: ["#FF5A1F", "#ffffff", "#FD9457", "#2d2c2b"],
-  fusion: "Each tile its own Rectangle + Merge (orange, white, light orange, glass). Counters: Text+ with a number modifier. Chart: Polyline Write-On over a gradient-filled Polygon. One NeoLightSweep over the merged grid.",
+  name: "Results card", cat: "box", loop: 6.4,
+  use: "<b>Results and proof in one frame.</b> One card holds it all: the big number, two supporting stats and the pipeline line. The numbers count, the chart draws, one shine crosses the card.",
+  ref: { web: "Web · Dribbble dark bento grids, merged into one card on Samuel's note" },
+  recipe: ["#1c1c1c", "#FF5A1F", "#ffffff", "#FD9457"],
+  fusion: "One glass Rectangle (corner 0.3) on BGORANGE; dividers are thin Rectangles. Counters: Text+ with number modifiers (the big one with an orange gradient). Chart: Polyline Write-On over a gradient-filled Polygon. One NeoLightSweep over the card.",
 }, (S) => {
-  const { el, W, A, pop, icon, count, sweep } = S;
-  S.ground("warm", { grid: true });
-  const tiles = [];
-  const tile = (x, y, w, h, cls, delay) => { const t = W(null, x, y, w, h); const b = el(t, "abs clip " + cls, { inset: 0, borderRadius: "34px" }); pop(t, delay, { s0: 0.86, dur: 0.55 }); tiles.push([b, x]); return b; };
-  const t1 = tile(250, 140, 680, 490, "m-ember", 0.3);
-  el(t1, "abs center", { left: "44px", top: "40px", width: "76px", height: "76px", borderRadius: "22px", background: "rgba(255,255,255,.2)" }, icon("building", 42, "#fff", 2.2));
-  const n1 = el(t1, "abs num", { left: "44px", bottom: "112px", fontSize: "184px", fontWeight: 900, letterSpacing: "-.045em", lineHeight: 1 }, "0");
-  el(t1, "abs caps", { left: "50px", bottom: "58px", fontSize: "30px", fontWeight: 800, letterSpacing: ".14em", color: "rgba(255,255,255,.85)" }, "Accounts researched");
-  const t2 = tile(950, 140, 720, 235, "m-paper", 0.42);
-  const n2 = el(t2, "abs num", { left: "44px", top: "36px", fontSize: "120px", fontWeight: 900, color: "#FF5A1F", letterSpacing: "-.04em", lineHeight: 1 }, "0");
-  el(t2, "abs caps", { left: "48px", bottom: "36px", fontSize: "28px", fontWeight: 800, letterSpacing: ".14em", color: "#1B0903" }, "Demos booked");
-  el(t2, "abs center", { right: "40px", top: "40px", width: "96px", height: "96px", borderRadius: "28px", background: "#FFF0E6" }, icon("calendar", 52, "#FF5A1F", 2.2));
-  const t3 = tile(950, 395, 350, 235, "m-peach", 0.54);
-  const n3 = el(t3, "abs num", { left: "36px", top: "34px", fontSize: "96px", fontWeight: 900, letterSpacing: "-.04em", lineHeight: 1 }, "0");
-  el(t3, "abs caps", { left: "40px", bottom: "34px", fontSize: "24px", fontWeight: 800, letterSpacing: ".14em" }, "B2B clients");
-  const t4 = tile(1320, 395, 350, 235, "m-dark", 0.66);
-  el(t4, "abs center", { left: 0, right: 0, top: "36px", height: "110px" }, icon("spark", 96, "#FF5A1F", 2.6));
-  el(t4, "abs center caps", { left: 0, right: 0, bottom: "34px", fontSize: "24px", fontWeight: 800, letterSpacing: ".14em", color: "#bdbdbd" }, "Built with Claude");
-  const t5 = tile(250, 650, 1420, 290, "m-dark", 0.78);
-  el(t5, "abs caps", { left: "48px", top: "40px", fontSize: "28px", fontWeight: 800, letterSpacing: ".14em", color: "#bdbdbd" }, "Pipeline");
-  const n5 = el(t5, "abs num", { left: "44px", top: "80px", fontSize: "84px", fontWeight: 900, letterSpacing: "-.03em", color: "#fff" }, "$0");
-  const svg = S.svg(t5, 1420, 290);
-  svg.innerHTML = `<defs><linearGradient id="b03a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF5A1F" stop-opacity=".45"/><stop offset="1" stop-color="#FF5A1F" stop-opacity="0"/></linearGradient></defs>
-    <path class="area" d="M48 250 C 200 238, 300 196, 430 206 S 700 140, 860 150 S 1130 80, 1372 64 L1372 290 L48 290 Z" fill="url(#b03a)" opacity="0"/>
-    <path class="line" d="M48 250 C 200 238, 300 196, 430 206 S 700 140, 860 150 S 1130 80, 1372 64" fill="none" stroke="#FF5A1F" stroke-width="6" stroke-linecap="round" style="filter:drop-shadow(0 0 10px rgba(255,90,31,.8))"/>`;
+  const { el, W, A, count, sweep } = S;
+  S.ground("bgo");
+  const X = 300, Y = 150, CW = 1320, CH = 780;
+  const card = W(null, X, Y, CW, CH);
+  const c = el(card, "abs m-dark clip", { inset: 0, borderRadius: "46px" });
+  el(c, "abs", { left: "8%", right: "8%", top: 0, height: "2px", background: "linear-gradient(90deg, transparent, rgba(253,148,87,.95), transparent)" });
+  el(c, "abs caps", { left: "58px", top: "50px", fontSize: "26px", fontWeight: 800, letterSpacing: ".24em", color: "#FD9457" }, "Results");
+  const n1 = el(c, "abs num gtext", { left: "50px", top: "96px", fontSize: "214px", fontWeight: 900, letterSpacing: "-.05em", lineHeight: 1 }, "0");
+  el(c, "abs caps", { left: "58px", top: "322px", fontSize: "30px", fontWeight: 800, letterSpacing: ".14em", color: "#e6e0dc" }, "Accounts researched");
+  el(c, "abs", { left: "780px", top: "96px", width: "1.5px", height: "280px", background: "rgba(255,255,255,.1)" });
+  const n2 = el(c, "abs num", { left: "840px", top: "92px", fontSize: "116px", fontWeight: 900, color: "#fff", letterSpacing: "-.04em", lineHeight: 1 }, "0");
+  el(c, "abs caps", { left: "846px", top: "214px", fontSize: "24px", fontWeight: 800, letterSpacing: ".16em", color: "#bdbdbd" }, "Demos booked");
+  el(c, "abs", { left: "840px", right: "58px", top: "262px", height: "1.5px", background: "rgba(255,255,255,.1)" });
+  const n3 = el(c, "abs num", { left: "840px", top: "284px", fontSize: "88px", fontWeight: 900, color: "#FD9457", letterSpacing: "-.04em", lineHeight: 1 }, "0");
+  el(c, "abs caps", { left: "846px", top: "378px", fontSize: "24px", fontWeight: 800, letterSpacing: ".16em", color: "#bdbdbd" }, "B2B clients");
+  el(c, "abs", { left: "58px", right: "58px", top: "440px", height: "1.5px", background: "rgba(255,255,255,.1)" });
+  el(c, "abs caps", { left: "58px", top: "474px", fontSize: "26px", fontWeight: 800, letterSpacing: ".16em", color: "#bdbdbd" }, "Pipeline");
+  const n5 = el(c, "abs num", { left: "54px", top: "508px", fontSize: "80px", fontWeight: 900, color: "#fff", letterSpacing: "-.03em", lineHeight: 1 }, "$0");
+  const svg = S.svg(c, CW, CH);
+  svg.innerHTML = `<defs><linearGradient id="b03a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF5A1F" stop-opacity=".42"/><stop offset="1" stop-color="#FF5A1F" stop-opacity="0"/></linearGradient></defs>
+    <path class="area" d="M58 738 C 260 728, 380 690, 520 700 S 820 640, 980 650 S 1180 600, 1262 588 L1262 780 L58 780 Z" fill="url(#b03a)" opacity="0"/>
+    <path class="line" d="M58 738 C 260 728, 380 690, 520 700 S 820 640, 980 650 S 1180 600, 1262 588" fill="none" stroke="#FF5A1F" stroke-width="6" stroke-linecap="round"/>`;
+  svg.style.filter = "drop-shadow(0 0 10px rgba(255,90,31,.7))";
   S.drawOn(svg.querySelector(".line"), 1.2, 2.4, "io");
   S.fade(svg.querySelector(".area"), 1.8, 0.7);
   count(n1, 0.6, 2.0, 0, 3655);
-  count(n2, 0.7, 1.9, 0, 58);
-  count(n3, 0.8, 1.9, 0, 250, (v) => Math.round(v) + "+");
+  count(n2, 0.8, 2.0, 0, 58);
+  count(n3, 0.9, 2.0, 0, 250, (v) => Math.round(v) + "+");
   count(n5, 1.2, 2.4, 0, 7.83, (v) => "$" + v.toFixed(2) + "M");
-  tiles.forEach(([b, x]) => { S.addSweep(b); sweep(b, 2.6 + ((x - 250) / 1420) * 0.45, 0.8); });
+  A(card, { s: [[0.2, 0.94], [0.8, 1, "expo"]], o: [[0.2, 0], [0.45, 1, "out"]], blur: [[0.2, 12], [0.6, 0, "out"]] });
+  S.addSweep(c); sweep(c, 2.7, 1.1);
 });
 
 D("B04", {
@@ -130,7 +129,7 @@ D("B04", {
   fusion: "White Rectangle card on a cream Background. Bubbles: Rectangles with one small corner, pivot on that corner, back-ease Size. Typing: three Ellipses with offset sine Y.",
 }, (S) => {
   const { el, W, A, F, icon, prog } = S;
-  S.ground("cream", { grid: true });
+  S.ground("bgo");
   const X = 560, Y = 80, CW = 800, CH = 920;
   const card = W(null, X, Y, CW, CH);
   const c = el(card, "abs m-paper clip", { inset: 0, borderRadius: "48px", boxShadow: "0 40px 90px rgba(120,50,20,.2), 0 0 0 1.5px rgba(90,30,8,.05)" });
@@ -165,7 +164,7 @@ D("B05", {
   fusion: "Box + four tab Rectangles; active colour keyed per tab. Indicator bar: Transform X on an expo spline. Content: one Merge per step, crossfaded with a Dissolve or opacity keys.",
 }, (S) => {
   const { el, W, A, F, neo, icon, prog, lerp, E } = S;
-  S.ground("warm", { grid: true });
+  S.ground("bgo");
   const X = 330, Y = 270, BW = 1260, BH = 600;
   const steps = [["Define", "Who you sell to", "target"], ["Research", "Who is buying right now", "search"], ["Angle", "Why them, why now", "message"], ["Build", "Claude does the rest", "spark"]];
   const at = (t) => S.clamp(Math.floor((t - 0.8) / 1.1), 0, 3);
@@ -216,7 +215,7 @@ D("B06", {
   fusion: "Receipt: white Rectangle with a zigzag bottom (Polygon mask), Transform Y stepped out of a slot Rectangle and masked at the slot line. Stamp: Text+ in a double outline, Size 2.4 → 1 in 4 frames + camera shake.",
 }, (S) => {
   const { el, W, A, F, prog, lerp, count, hash } = S;
-  S.ground("peach", { grid: true });
+  S.ground("bgo");
   const rw = el(null, "abs", { left: "660px", top: "86px", width: "600px", height: "900px" });
   el(null, "abs", { left: "590px", top: "66px", width: "740px", height: "40px", borderRadius: "20px", background: "#2A0E04", boxShadow: "inset 0 7px 12px rgba(0,0,0,.65), 0 2px 0 rgba(255,255,255,.4)" });
   const zig = "conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom/40px 20px repeat-x, linear-gradient(#000 0 0) top/100% calc(100% - 19px) no-repeat";
@@ -256,7 +255,7 @@ D("B07", {
   fusion: "Box + four row Rectangles; each row's Transform Y keyed between slots (150 px apart). Winner: colour crossfade + crown Polygon pop. Bars: Rectangle Size X keyed.",
 }, (S) => {
   const { el, W, A, F, pop, icon, prog, lerp } = S;
-  S.ground("graphite", { grid: "dots" });
+  S.ground("bgo");
   const X = 440, Y = 110, BW = 1040, BH = 860;
   const box = W(null, X, Y, BW, BH);
   el(box, "abs m-dark", { inset: 0, borderRadius: "40px" });
@@ -295,32 +294,32 @@ D("B07", {
 });
 
 D("B08", {
-  name: "Quote box with a marker highlight", cat: "box", loop: 6.4,
-  use: "<b>Quotes from articles, clients, or his own key line.</b> Cream card, a big orange quote mark drops in, words land one by one and a marker hits the key word.",
-  ref: { id: "B6", label: "Best editor 6 · the highlighter marks already approved in Taking a Step Back" },
-  recipe: ["#FFE5D4", "#FF5A1F", "#FD9457", "#1B0903"],
-  fusion: "Cream Rectangle + DropShadow. Quote mark: Text+ “ at 360 pt, gradient fill. Words: Text+ with Follower (per-word delay). Marker: light-orange Rectangle behind the word, Size X 0 → 1.",
+  name: "Quote on the speaker's footage", cat: "box", loop: 6.8,
+  use: "<b>Quotes, on the person who said them.</b> Their footage punches in and slides right, the left side darkens, a big orange quote mark drops, the words land one by one, a marker hits the key words and the name tag closes it. Sample line: Alex's own, from the Apollo script.",
+  ref: { id: "B6", label: "Best editor 6 · the Kevin O'Leary and Steve Jobs beats in Taking a Step Back (approved)" },
+  recipe: ["#110602", "#FF5A1F", "#FD9457", "#ffffff"],
+  fusion: "The person's clip: Transform (size 1.35, centre pushed right) with a slow push-in; a dark gradient Background over the left side. Quote: Text+ with a per-word Follower; orange marker Rectangles behind the key words; name tag Rectangle + Text+.",
 }, (S) => {
   const { el, W, A, F, neo, prog } = S;
-  S.ground("warm", { grid: true });
-  const X = 240, Y = 230, BW = 1440, BH = 610;
-  const box = W(null, X, Y, BW, BH);
-  el(box, "abs m-cream", { inset: 0, borderRadius: "44px" });
-  const text = "Nobody reads your email. They read their *problem* in it.";
-  const p = el(box, "abs", { left: "120px", right: "120px", top: "130px", fontSize: "80px", fontWeight: 750, lineHeight: 1.16, letterSpacing: "-.02em", color: "#1B0903" });
+  const ph = el(S.bg, "abs", { left: 0, top: 0, width: "1920px", height: "1080px", backgroundImage: `url(${(window.ASSETS || {}).aroll || ""})`, backgroundSize: "cover", backgroundPosition: "center", transformOrigin: "50% 45%" });
+  F((t) => { const k = 1.34 + 0.05 * prog(t, 0, S.loop, "lin"), x = 330 * prog(t, 0.1, 0.9, "expo"); ph.style.transform = `translateX(${x.toFixed(1)}px) scale(${k.toFixed(4)})`; });
+  const shade = el(null, "abs", { inset: 0, background: "linear-gradient(90deg, rgba(17,6,2,.97) 0%, rgba(17,6,2,.92) 34%, rgba(17,6,2,.55) 56%, rgba(17,6,2,0) 76%)" });
+  S.fade(shade, 0.15, 0.6);
+  const q = W(null, 118, 140, 230, 240);
+  el(q, "abs gtext", { left: 0, top: 0, fontSize: "300px", fontWeight: 900, lineHeight: 1 }, "“");
+  A(q, { y: [[0.55, -70], [1.0, 0, "back"]], rz: [[0.55, -22], [1.0, 0, "back"]], o: [[0.55, 0], [0.7, 1, "out"]] });
+  const text = "You don't have to build your own contact database to build *your own workflow*.";
+  const p = el(null, "abs", { left: "130px", top: "350px", width: "900px", fontSize: "70px", fontWeight: 750, lineHeight: 1.14, letterSpacing: "-.02em", color: "#fff" });
+  let key = false;
   text.split(" ").forEach((w, i) => {
-    const key = w.startsWith("*");
-    const clean = w.replace(/\*/g, "");
-    const s = el(p, "fx", { display: "inline-block", marginRight: "22px", position: "relative", zIndex: 0, color: key ? "#1B0903" : "#1B0903" }, clean + (key ? '<i class="hl" style="position:absolute;left:-10px;right:-10px;bottom:6px;height:34px;border-radius:8px;background:rgba(253,148,87,.75);z-index:-1;transform-origin:left;transform:scaleX(0)"></i>' : ""));
-    neo(s, 0.8 + i * 0.13, { dist: 36, blur: 10 });
+    if (w.startsWith("*")) key = true;
+    const s = el(p, "fx", { display: "inline-block", marginRight: "20px", position: "relative", zIndex: 0 }, w.replace(/\*/g, "") + (key ? '<i class="hl" style="position:absolute;left:-8px;right:-14px;bottom:4px;height:30px;border-radius:6px;background:rgba(255,90,31,.85);z-index:-1;transform-origin:left;transform:scaleX(0)"></i>' : ""));
+    if (/\*\.?$/.test(w)) key = false;
+    neo(s, 0.9 + i * 0.1, { dist: 34, blur: 10 });
   });
-  const hl = p.querySelector(".hl");
-  F((t) => { hl.style.transform = `scaleX(${prog(t, 2.45, 2.85, "out").toFixed(3)})`; });
-  const tag = W(box, 120, BH - 130, 360, 64);
-  el(tag, "abs row m-ember caps", { inset: 0, borderRadius: "32px", padding: "0 30px", fontSize: "26px", fontWeight: 800, letterSpacing: ".1em", whiteSpace: "nowrap" }, "— Name, Role");
-  neo(tag, 2.9, { ang: 180, dist: 40, blur: 8 });
-  const q = W(null, X + 40, Y - 190, 260, 300);
-  el(q, "abs gtext", { left: 0, top: 0, fontSize: "380px", fontWeight: 900, lineHeight: 1 }, "“");
-  A(q, { y: [[0.45, -80], [0.95, 0, "back"]], rz: [[0.45, -25], [0.95, 0, "back"]], o: [[0.45, 0], [0.6, 1, "out"]] });
-  A(box, { y: [[0.2, 70], [0.75, 0, "expo"]], o: [[0.2, 0], [0.45, 1, "out"]], blur: [[0.2, 10], [0.6, 0, "out"]] });
+  const hls = [...p.querySelectorAll(".hl")];
+  F((t) => { hls.forEach((h, i) => { h.style.transform = `scaleX(${prog(t, 2.6 + i * 0.12, 2.85 + i * 0.12, "out").toFixed(3)})`; }); });
+  const tag = W(null, 130, 800, 330, 70);
+  el(tag, "abs row m-ember", { inset: 0, borderRadius: "35px", padding: "0 30px", gap: "14px", fontSize: "30px", fontWeight: 800, whiteSpace: "nowrap" }, '<i style="display:block;width:26px;height:3px;background:#fff;border-radius:2px"></i>Alex · Frontal');
+  neo(tag, 3.2, { ang: 180, dist: 40, blur: 8 });
 });

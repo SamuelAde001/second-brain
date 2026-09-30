@@ -70,7 +70,7 @@ Two targets set earlier, and two added 2026-09-29:
 | Target | By | Where |
 |---|---|---|
 | NGN 1,000,000 for the house | 2026-12-31 | [[03-Areas/finances/finances-goals\|Finances goals]] |
-| Paid webinar (NGN 5,000), then a DaVinci Resolve live class | webinar late Oct, class Nov 2026 | [[04-Projects/editing-career-webinar-and-live-class\|Project]] |
+| Paid webinar (NGN 5,000), then a DaVinci Resolve live class | webinar late Oct, class Nov 2026 | [[04-Projects/called-to-edit-webinar-and-academy\|Project]] |
 | 5 Route Rise videos a month through AI speed, not more hours | Q4 2026 | [[03-Areas/video-editing/video-editing-decisions\|Video editing decisions]] |
 | 5,000 followers | December 2026 | Content creation, above |
 

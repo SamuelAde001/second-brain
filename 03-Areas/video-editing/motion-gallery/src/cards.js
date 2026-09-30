@@ -1,15 +1,14 @@
 // CARDS — C01..C08. Single-subject tiles: an option, a metric, a product, a person, a milestone.
 
 D("C01", {
-  name: "Tilted glass pair with number badges", cat: "card", loop: 6.2,
-  use: "<b>Two options, two parts of an idea.</b> Glass cards swing in from edge-on and settle turned towards each other; the icons draw themselves; the cards keep swaying in 3D.",
+  name: "Glass pair with number badges", cat: "card", loop: 6.2,
+  use: "<b>Two options, two parts of an idea.</b> Flat glass cards slide up with Neo Anim, the number badges pop, the icons draw themselves. No rotation.",
   ref: { id: "I6", label: "Visual Inspo #6 · Andy Stauring's editor" },
   recipe: ["rgba(255,255,255,.22)", "#FF5A1F", "#FD9457", "#ffffff"],
-  fusion: "Each card: Rectangle → ImagePlane3D, rotated Y ±16° under a Camera3D + Renderer3D. Glass: blurred background copy masked by the card + NeoBevel. Icon: Polylines with Write-On, gradient via a Background + mask.",
+  fusion: "Each card: Rectangle (corner 0.3), glass = blurred background copy masked by the card + NeoBevel, orange underglow Background masked by the card. Neo Anim slide up. Icon: Polylines with Write-On.",
 }, (S) => {
   const { el, W, A, F, pop, icon } = S;
-  S.ground("warm", { grid: true });
-  el(null, "abs", { left: "300px", top: "850px", width: "1320px", height: "150px", borderRadius: "50%", background: "radial-gradient(closest-side, rgba(255,90,31,.34), transparent)" });
+  S.ground("bgo");
   const defs = S.svg(null, 1, 1);
   defs.innerHTML = `<defs><linearGradient id="c01g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD2B8"/><stop offset=".55" stop-color="#FD9457"/><stop offset="1" stop-color="#FF5A1F"/></linearGradient></defs>`;
   const persp = el(null, "abs", { inset: 0, perspective: "1800px", perspectiveOrigin: "50% 45%" });
@@ -23,7 +22,8 @@ D("C01", {
     const bd = W(w, -36, -36, 104, 104);
     el(bd, "abs center m-ember num", { inset: 0, borderRadius: "50%", fontSize: "50px", fontWeight: 900, boxShadow: "0 0 0 6px rgba(255,255,255,.95), 0 14px 30px rgba(0,0,0,.45)" }, String(n));
     const t0 = 0.3 + i * 0.3;
-    A(w, { ry: [[t0, ry > 0 ? 88 : -88], [t0 + 0.9, ry, "expo"], [3.4, ry + 5, "sine"], [6.2, ry - 2, "sine"]], rz: [[0, rz]], o: [[t0, 0], [t0 + 0.25, 1, "out"]], blur: [[t0, 14], [t0 + 0.5, 0, "out"]] });
+    S.neo(w, t0, { dist: 90, blur: 16 });
+    S.float(w, 4, 1.2, i * 1.6);
     pop(bd, t0 + 0.55, { s0: 0.2, ease: "back2" });
     tile.querySelectorAll("path,circle,rect").forEach((p) => S.drawOn(p, t0 + 0.6, t0 + 1.4, "io"));
   });
@@ -31,7 +31,7 @@ D("C01", {
 
 D("C02", {
   name: "Fanned deck of cards", cat: "card", loop: 6.2,
-  use: "<b>Lists where the current item is on top.</b> The stack slides in beside him and fans like a hand of cards; the front card is the one he's talking about.",
+  use: "<b>Lists where the current item is on top.</b> A small stack slides in beside him and fans like a hand of cards; the front card is the one he's talking about.",
   ref: { id: "I85", label: "Visual Inspo #73, #85 · Andy Stauring's editor" },
   recipe: ["#3a3a3a", "#FFE5D4", "#FF5A1F", "#8C8C8C"],
   fusion: "Three card Rectangles in one Merge chain; pivot below the cards; key Angle −18 / −7 / +7 on a spring. Front card: cream fill, ghost number Text+ at 22% opacity. NeoLightSweep on the front card.",
@@ -39,18 +39,18 @@ D("C02", {
   const { el, W, A, F, icon, sweep, float } = S;
   S.ground("aroll");
   const specs = [
-    { cls: "m-grey", n: "01", t: "SIGNALS", rz: -18, dx: -70, dy: 20, col: "rgba(255,255,255,.07)", tc: "#bdbdbd" },
-    { cls: "m-grey", n: "02", t: "CONTACTS", rz: -7, dx: -22, dy: 6, col: "rgba(255,255,255,.08)", tc: "#d9d9d9" },
-    { cls: "m-cream", n: "03", t: "THE <span style='color:#FF5A1F'>ANGLE</span>", rz: 7, dx: 44, dy: -22, col: "rgba(255,90,31,.22)", tc: "#1B0903", front: true },
+    { cls: "m-grey", n: "01", t: "SIGNALS", rz: -18, dx: -48, dy: 14, col: "rgba(255,255,255,.07)", tc: "#bdbdbd" },
+    { cls: "m-grey", n: "02", t: "CONTACTS", rz: -7, dx: -15, dy: 4, col: "rgba(255,255,255,.08)", tc: "#d9d9d9" },
+    { cls: "m-cream", n: "03", t: "THE <span style='color:#FF5A1F'>ANGLE</span>", rz: 7, dx: 30, dy: -15, col: "rgba(255,90,31,.22)", tc: "#1B0903", front: true },
   ];
   specs.forEach((s, i) => {
-    const w = W(null, 300, 250, 420, 540, { transformOrigin: "50% 125%" });
-    const c = el(w, "abs clip " + s.cls, { inset: 0, borderRadius: "38px" });
-    el(c, "abs num", { right: "22px", bottom: "-34px", fontSize: "250px", fontWeight: 900, letterSpacing: "-.06em", color: s.col, lineHeight: 1 }, s.n);
-    el(c, "abs caps", { left: "40px", top: "44px", right: "40px", fontSize: s.front ? "62px" : "46px", fontWeight: 900, lineHeight: 1, letterSpacing: "-.01em", color: s.tc }, s.front ? "THE<br><span style='color:#FF5A1F'>ANGLE</span>" : s.t);
-    if (s.front) el(c, "abs center", { right: "34px", top: "40px", width: "76px", height: "76px", borderRadius: "22px", background: "#FF5A1F" }, icon("message", 42, "#fff", 2.2));
+    const w = W(null, 250, 360, 290, 372, { transformOrigin: "50% 125%" });
+    const c = el(w, "abs clip " + s.cls, { inset: 0, borderRadius: "28px" });
+    el(c, "abs num", { right: "16px", bottom: "-24px", fontSize: "172px", fontWeight: 900, letterSpacing: "-.06em", color: s.col, lineHeight: 1 }, s.n);
+    el(c, "abs caps", { left: "28px", top: "30px", right: "28px", fontSize: s.front ? "44px" : "32px", fontWeight: 900, lineHeight: 1, letterSpacing: "-.01em", color: s.tc }, s.front ? "THE<br><span style='color:#FF5A1F'>ANGLE</span>" : s.t);
+    if (s.front) el(c, "abs center", { right: "24px", top: "26px", width: "54px", height: "54px", borderRadius: "16px", background: "#FF5A1F" }, icon("message", 30, "#fff", 2.2));
     A(w, {
-      x: [[0.3, -520], [0.85, 0, "expo"], [1.0, 0], [1.55, s.dx, "spring"]],
+      x: [[0.3, -420], [0.85, 0, "expo"], [1.0, 0], [1.55, s.dx, "spring"]],
       y: [[1.0, 0], [1.55, s.dy, "spring"]],
       rz: [[0.3, -6], [0.85, 0, "expo"], [1.0, 0], [1.55, s.rz, "spring"]],
       s: s.front ? [[1.0, 1], [1.55, 1.05, "spring"]] : [[0, 1]],
@@ -69,7 +69,7 @@ D("C03", {
   fusion: "Glass Rectangle + Text+ counter + bar Rectangle Size X. Arrow: Polyline Write-On with a Displace (noise, stepped every 4 frames) for the boil. Note: Text+ rotated −5°.",
 }, (S) => {
   const { el, W, A, F, neo, count, prog, hash } = S;
-  S.ground("graphite", { grid: "dots" });
+  S.ground("bgo");
   const X = 300, Y = 360, CW = 860, CH = 400;
   const card = W(null, X, Y, CW, CH);
   el(card, "abs", { left: "12%", right: "12%", bottom: "-50px", height: "100px", background: "radial-gradient(closest-side, rgba(255,90,31,.55), transparent)", filter: "blur(10px)" });
@@ -103,9 +103,7 @@ D("C04", {
   fusion: "Squircle Rectangle (corner 0.5) + NeoBevel + a gloss Rectangle on top; NeoReflection for the floor. 3D turn: ImagePlane3D + Renderer3D, or a DVE Y rotation.",
 }, (S) => {
   const { el, W, A, F, pop, icon, ripple } = S;
-  S.ground("graphite", { grid: "dots" });
-  el(null, "abs", { left: 0, right: 0, top: "690px", bottom: 0, background: "linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,0) 55%)" });
-  el(null, "abs", { left: "360px", right: "360px", top: "689px", height: "1.5px", background: "linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent)" });
+  S.ground("bgo");
   const persp = el(null, "abs", { inset: 0, perspective: "1600px", perspectiveOrigin: "50% 40%" });
   [[520, "white", "wrench", "#FF5A1F", "Service"], [1100, "ember", "box", "#fff", "Product"]].forEach(([x, kind, ic, col, label], i) => {
     const w = W(persp, x, 360, 300, 300);
@@ -134,7 +132,7 @@ D("C05", {
   fusion: "Planet: big Ellipse + NeoGlow on its edge. Poles: Rectangles with Size Y keyed from the base. Flags: Polygon cut-corner mask, Transform Size X from the pole; the wave is a Grid Warp or Bender.",
 }, (S) => {
   const { el, W, A, F } = S;
-  S.ground("graphite", { grid: "dots" });
+  S.ground("bgo");
   const R = 1700, top = 800;
   const pl = el(null, "abs", { left: 960 - R + "px", top: top + "px", width: 2 * R + "px", height: 2 * R + "px", borderRadius: "50%", background: "radial-gradient(closest-side, #140703 0%, #1d0a04 90%, #3a1407 100%)", boxShadow: "0 -6px 24px rgba(255,120,60,.95), 0 -40px 140px rgba(255,90,31,.5), inset 0 22px 50px rgba(255,90,31,.45)", border: "3px solid #FF7A40" });
   A(pl, { y: [[0.2, 280], [1.0, 0, "expo"]], o: [[0.2, 0], [0.5, 1, "out"]] });
@@ -164,7 +162,7 @@ D("C06", {
   fusion: "Two Rectangles (corner 0.3): grey and orange. Badges: Ellipses. Grey card: Transform Size 0.94 + Brightness down. Orange card: NeoGlow + NeoLightSweep.",
 }, (S) => {
   const { el, W, A, F, pop, icon, ripple, sweep, prog } = S;
-  S.ground("warm", { grid: true });
+  S.ground("bgo");
   const card = (x, cls, ic, icb, t1, t2, sub) => {
     const w = W(null, x, 220, 540, 640);
     const c = el(w, "abs clip " + cls, { inset: 0, borderRadius: "46px" });
@@ -197,7 +195,7 @@ D("C07", {
   fusion: "White Rectangle card + DropShadow on cream. Banner: orange gradient Rectangle revealed left → right. Avatar: Ellipse mask on the photo + white ring. Signal rows: Rectangles with Follower-style delays.",
 }, (S) => {
   const { el, W, A, F, neo, pop, icon, clip, ripple } = S;
-  S.ground("cream", { grid: true });
+  S.ground("bgo");
   const X = 610, Y = 120, CW = 700, CH = 840;
   const card = W(null, X, Y, CW, CH);
   const c = el(card, "abs m-paper clip", { inset: 0, borderRadius: "46px", boxShadow: "0 40px 90px rgba(120,50,20,.22), 0 0 0 1.5px rgba(90,30,8,.05)" });

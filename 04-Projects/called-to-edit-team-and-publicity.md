@@ -9,7 +9,7 @@ tags: [called-to-edit, team, publicity, outreach]
 
 # Called to Edit: team and publicity
 
-Part of [[04-Projects/editing-career-webinar-and-live-class|Called to Edit webinar → Academy]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]].
+Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
 ## The rule it runs under
 
@@ -23,13 +23,25 @@ Client work comes first: Route Rise (5 videos a month is the target, [[03-Areas/
 
 | Role | What he said it does | Status |
 |---|---|---|
-| **General manager** | Manages the whole project for him | *"I just called some a lady that is going to help me manage as my general manager for this whole project."* Name, scope and terms not recorded |
+| **Project manager: Ifeoma** | Manages the whole project for him; *"help me organize the project"* | On board, called by 2026-09-30. He first said "general manager", then: *"project manager, so is better"*. Scope beyond that and terms not settled |
 | **Graphic designer** | Flyers, carousels | *"I will surely need a graphic designer"*. Not found |
 | **Social media / publicity** | Helps with the publicity, posting across platforms | "Possibly". Not found |
 | **Video editor** | Edits his reels so he doesn't have to; posts on his profile and on other profiles; helps where he needs it | Not found |
 | **Admin** | *"very important"*: reaches out to and follows up the people helping him, sends emails, reaches out to anyone who'll make it work | Not found |
 
-Not to be confused with the Brain's own **General Manager** agent (the orchestrator). In the Brain she's "the project GM" until her name is known.
+Not to be confused with the Brain's own **General Manager** agent (the orchestrator).
+
+### Terms (Samuel, 2026-09-30)
+
+- **Pitched as an internship, unpaid.** *"if they want to work for me for free, they should come and work for me for free."*
+- **Every intern gets a free cohort seat**, *"for sure"*.
+- **Privately, a percentage of the whole money goes to the workers.** Not settled, not told to them yet: *"I'm not going to tell them they're going to be paid yet so that they can want to work for me regardless of the payment. Then I will still pay them, just make them feel welcome with what they did."*
+- **Ads budget: none for now.** *"if I see that I need to do ads, I might do ads"*.
+- Nobody found yet besides Ifeoma.
+
+### Proof for the publicity
+
+Route Rise work and previous clients' work. *"I can show them I have the rights to do so."*
 
 ## Publicity
 
@@ -53,4 +65,5 @@ Then the same again for the cohort after the webinar.
 
 ## Open
 
-Questions 102 and 103 in [[00-System/open-questions|open questions]]: who the team is and on what terms, and the budget for ads and the team.
+- The percentage, and what it's a percentage of ([[00-System/open-questions|question 102]]).
+- Who fills designer, publicity, video editor, admin.

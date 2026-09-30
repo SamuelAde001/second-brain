@@ -32,14 +32,10 @@ D("P02", {
   use: "<b>Two claims set against each other.</b> The tag hanging off the pill says what kind of claim it is: short term vs long term, old vs new, theirs vs yours.",
   ref: { id: "I14", label: "Visual Inspo #14 · Andy Stauring's editor" },
   recipe: ["#ffffff", "#9E350F", "#3a3a3a", "#FD9457"],
-  fusion: "Two Rectangle pills (corner 1.0), tag = smaller Rectangle merged on top, offset to the lower-left edge. Tag drop: Transform Y with a back-ease spline. Sonar: Ellipse outlines scaled + faded.",
+  fusion: "Two Rectangle pills (corner 1.0), tag = smaller Rectangle merged on top, offset to the lower-left edge. Tag drop: Transform Y with a back-ease spline. Sits straight on BGORANGE, nothing behind it.",
 }, (S) => {
   const { el, W, A, F, neo, icon, sweep, prog } = S;
-  S.ground("warm", { grid: true });
-  const rings = el(null, "abs", { left: "0", top: "0", width: "1920px", height: "1080px" });
-  [360, 620, 880, 1140].forEach((d) => el(rings, "abs", { left: 960 - d / 2 + "px", top: 520 - d / 2 + "px", width: d + "px", height: d + "px", borderRadius: "50%", border: "1.5px solid rgba(255,140,90,.09)" }));
-  const pulse = el(rings, "abs", { left: "960px", top: "520px", width: "10px", height: "10px", borderRadius: "50%", border: "2px solid rgba(255,120,70,.5)" });
-  F((t) => { const q = ((t + 10) % 2.4) / 2.4, d = 300 + q * 1100; Object.assign(pulse.style, { width: d + "px", height: d + "px", left: 960 - d / 2 + "px", top: 520 - d / 2 + "px", opacity: ((1 - q) * 0.6).toFixed(3) }); });
+  S.ground("bgo");
   const tag = (x, y, cls, badge, txt) => {
     const w = W(null, x, y, null, 66);
     el(w, "row " + cls, { height: "66px", borderRadius: "33px", padding: "0 26px 0 10px", gap: "14px", fontSize: "25px", fontWeight: 800, letterSpacing: ".06em", whiteSpace: "nowrap" }, badge + txt);
@@ -117,7 +113,7 @@ D("P04", {
 
 D("P05", {
   name: "Dynamic Island notification", cat: "pill", loop: 6,
-  use: "<b>A result landing:</b> a reply, a booked call, money in. A black capsule at the top grows into the message, holds, and shrinks back, the way the iPhone does it.",
+  use: "<b>A result landing:</b> a reply, a booked call, money in. A black capsule rises from the bottom, grows into the message, holds and shrinks back. Over the A-roll it lives at the bottom; the top version stays for other places.",
   ref: { web: "Web · Dribbble, Apple Dynamic Island shape-morph shots" },
   recipe: ["#050505", "#ffffff", "#FF5A1F", "#8C8C8C"],
   fusion: "One Rectangle: key Width, Height and Corner Radius together on a spring spline. Content in a separate Merge that fades in after the grow. Keep the capsule pure black.",
@@ -137,7 +133,8 @@ D("P05", {
   F((t) => {
     const grow = t < 0.9 ? 0 : t < 4.3 ? E.spring(Math.min(1, (t - 0.9) / 0.75)) : 1 - prog(t, 4.3, 4.8, "io");
     const w = lerp(230, 900, grow), h = lerp(70, 164, grow);
-    const y = t < 5.1 ? lerp(-90, 56, prog(t, 0.2, 0.55, "out")) : lerp(56, -120, prog(t, 5.1, 5.5, "in"));
+    const bottom = t < 5.1 ? lerp(1220, 1016, prog(t, 0.2, 0.6, "out")) : lerp(1016, 1240, prog(t, 5.1, 5.5, "in"));
+    const y = bottom - h;
     Object.assign(isl.style, { width: w.toFixed(1) + "px", height: h.toFixed(1) + "px", left: (960 - w / 2).toFixed(1) + "px", top: y.toFixed(1) + "px", borderRadius: (h / 2).toFixed(1) + "px", boxShadow: `0 20px 60px rgba(0,0,0,.55), 0 0 ${(70 * grow).toFixed(0)}px rgba(255,90,31,${(0.28 * grow).toFixed(3)})` });
     dot.style.opacity = (1 - prog(t, 0.9, 1.05)) * (0.6 + 0.4 * Math.sin(t * 8)) + prog(t, 4.6, 4.8) * (0.6 + 0.4 * Math.sin(t * 8));
     body.style.opacity = (prog(t, 1.25, 1.55) * (1 - prog(t, 4.05, 4.3))).toFixed(3);
@@ -185,8 +182,8 @@ D("P07", {
   fusion: "Pill Rectangle; beam = a thin outline (Rectangle with Border Width) masked by a rotating Triangle/Wedge mask, then NeoGlow. Rotate the wedge 360° over ~2.4 s, linear.",
 }, (S) => {
   const { el, W, A, F, neo, pop, icon, prog } = S;
-  S.ground("graphite", { grid: "dots" });
-  const halo = el(null, "abs", { left: "460px", top: "300px", width: "1000px", height: "480px", borderRadius: "50%", background: "radial-gradient(closest-side, rgba(255,90,31,.2), transparent)" });
+  S.ground("bgo");
+  const halo = el(null, "abs", { left: "520px", top: "430px", width: "880px", height: "200px", borderRadius: "50%", background: "radial-gradient(closest-side, rgba(255,90,31,.16), transparent)" });
   F((t) => { halo.style.opacity = (0.65 + 0.35 * Math.sin(t * 1.7)) * prog(t, 0.4, 1.0); });
   const X = 490, Y = 440, PW = 940, H = 176;
   const w = W(null, X, Y, PW, H);
@@ -243,11 +240,11 @@ D("P08", {
 });
 
 D("P09", {
-  name: "Stat pill with a segment bar", cat: "pill", loop: 6,
-  use: "<b>One number that matters</b>, counted up live, with segments that light as it climbs. Sits low on the A-roll so he stays in frame.",
+  name: "Stat pill with a fill bar", cat: "pill", loop: 6,
+  use: "<b>One number that matters</b>, counted up live, with one bar that fills as it climbs. Sits low on the A-roll so he stays in frame.",
   ref: { id: "I81", label: "Visual Inspo #81 · best editor 44" },
   recipe: ["#2d2c2b", "#FD9457", "#FF5A1F", "#ffffff"],
-  fusion: "Glass Rectangle (corner 0.35). Counter: Text+ with a number modifier. Segments: one small Rectangle duplicated 28× (Duplicate tool), colour keyed per copy with a time offset.",
+  fusion: "Glass Rectangle (corner 0.35). Counter: Text+ with a number modifier. Bar: a track Rectangle plus a fill Rectangle whose Width is keyed, NeoGlow on the fill, a small white head on its end.",
 }, (S) => {
   const { el, W, F, neo, pop, icon, count, prog, sweep } = S;
   S.ground("aroll");
@@ -260,17 +257,13 @@ D("P09", {
   const vt = el(card, "abs num", { left: "124px", top: "62px", fontSize: "76px", fontWeight: 850, color: "#FD9457", letterSpacing: "-.02em" }, "0");
   const live = W(card, PW - 190, 38, 154, 58);
   el(live, "abs row m-grey caps", { inset: 0, borderRadius: "29px", justifyContent: "center", gap: "12px", fontSize: "24px", fontWeight: 800, letterSpacing: ".1em" }, '<i style="width:14px;height:14px;border-radius:50%;background:#FF5A1F;box-shadow:0 0 12px #FF5A1F;display:block"></i>Live');
-  const N = 28, gap = 8, tw = (PW - 68 - gap * (N - 1)) / N;
-  const ticks = [];
-  for (let i = 0; i < N; i++) ticks.push(el(card, "abs", { left: 34 + i * (tw + gap) + "px", top: "156px", width: tw + "px", height: "26px", borderRadius: "7px", background: "#3a3a3a" }));
+  const trk = el(card, "abs", { left: "34px", right: "34px", top: "154px", height: "28px", borderRadius: "14px", background: "#343434", boxShadow: "inset 0 2px 6px rgba(0,0,0,.45)" });
+  const fill = el(trk, "abs", { left: 0, top: 0, bottom: 0, borderRadius: "14px", background: "linear-gradient(90deg,#FD9457,#FF5A1F)", boxShadow: "0 0 18px rgba(255,90,31,.75)" });
+  const head = el(fill, "abs", { right: "4px", top: "4px", bottom: "4px", width: "20px", borderRadius: "10px", background: "rgba(255,255,255,.9)", boxShadow: "0 0 14px #fff" });
   F((t) => {
-    const lit = prog(t, 0.8, 2.4, "out") * N * 0.75;
-    ticks.forEach((k, i) => {
-      const on = i < lit;
-      k.style.background = on ? "linear-gradient(180deg,#FF8750,#FF5A1F)" : "#3a3a3a";
-      k.style.boxShadow = on ? "0 0 12px rgba(255,90,31,.6)" : "none";
-      k.style.transform = `scaleY(${on ? (1 + 0.35 * Math.max(0, 1 - (lit - i) * 0.6)).toFixed(3) : 1})`;
-    });
+    fill.style.width = Math.max(28, (PW - 68) * 0.75 * prog(t, 0.8, 2.4, "out")).toFixed(1) + "px";
+    fill.style.opacity = t < 0.8 ? 0 : 1;
+    head.style.opacity = (0.55 + 0.45 * Math.sin(t * 6)).toFixed(3);
   });
   count(vt, 0.8, 2.4, 0, 3655);
   neo(w, 0.3, { dist: 70, s0: 0.97 });
@@ -288,7 +281,7 @@ D("P10", {
   fusion: "White Rectangle (corner 1.0) + soft DropShadow on a cream Background. Text+ with a Write-On range for typing; caret = small Rectangle blinking. Results: Rectangle revealed by its own mask.",
 }, (S) => {
   const { el, W, A, neo, icon, typeText, clip } = S;
-  S.ground("cream", { grid: true });
+  S.ground("bgo");
   const X = 410, Y = 300, PW = 1100, H = 136;
   const w = W(null, X, Y, PW, H);
   el(w, "abs m-paper", { inset: 0, borderRadius: H / 2 + "px", boxShadow: "0 30px 70px rgba(120,50,20,.18), inset 0 -3px 0 rgba(27,9,3,.05), 0 0 0 1.5px rgba(90,30,8,.06)" });
@@ -362,7 +355,7 @@ D("P12", {
   fusion: "Orange Background. Track: Rectangle (corner 1.0); knob: Ellipse + DropShadow; key knob X on a spring, squash on Size X mid-move. Track colour crossfades to dark. Sparks: pEmitter burst or 8 Ellipses.",
 }, (S) => {
   const { el, W, A, F, neo, pop, icon, prog, lerp, E, burst, ripple } = S;
-  S.ground("ember");
+  S.ground("bgo");
   const tt = W(null, 0, 236, 1920, 120);
   el(tt, "abs center caps", { inset: 0, fontSize: "112px", fontWeight: 900, letterSpacing: ".01em", color: "#fff", textShadow: "0 8px 36px rgba(120,30,0,.35)" }, "Autopilot");
   const X = 960 - 240, Y = 420, TW = 480, TH = 236;

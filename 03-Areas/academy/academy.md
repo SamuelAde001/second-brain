@@ -2,7 +2,7 @@
 type: area
 area: academy
 status: paused
-updated: 2026-09-22
+updated: 2026-09-30
 source: project-handover
 tags: []
 ---
@@ -17,7 +17,11 @@ tags: []
 
 Described in the source doc as the first stage of an ascension model — Academy equips, community implements, mentorship personalises, Scripnals executes daily. It is the entry point people meet first.
 
-## Current status — as of 2026-09-22
+## Current status — as of 2026-09-30
+
+**Called to Edit Academy restarts as a live cohort under @SamuelSignals**, not as the recorded course and not under HighSignals. Samuel: *"I think this method might actually work better than the course."* NGN 50,000, ~6 weeks, DaVinci Resolve, from November, sold from the Called to Edit webinar on 2026-10-24 → [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit project]]. What that leaves of HighSignals Academy is open ([[00-System/open-questions|question 107]]).
+
+### As of 2026-09-22
 
 **Still paused.** Samuel, 2026-09-22: *"It's paused until I have time, right now so much is on hand."* There is no restart date and no restart condition. It comes back when time frees up.
 

@@ -9,7 +9,7 @@ tags: [called-to-edit, webinar, outline, raw]
 
 # Called to Edit webinar: what it covers
 
-Part of [[04-Projects/editing-career-webinar-and-live-class|Called to Edit webinar → Academy]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]].
+Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
 **Raw material, not the outline.** This is everything Samuel said on 2026-09-30 that he wants the webinar to cover, grouped by the General Manager into sections but otherwise as he said it. He'll add his own research, and the outline gets built from this in a later session (step 4 of the plan, Mon 2026-10-12, or earlier).
 

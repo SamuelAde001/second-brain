@@ -9,7 +9,18 @@ tags: [called-to-edit, cohort, academy, davinci-resolve]
 
 # Called to Edit Academy: the cohort
 
-Part of [[04-Projects/editing-career-webinar-and-live-class|Called to Edit webinar → Academy]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]] until [[00-System/open-questions|question 99]] says otherwise.
+Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]], confirmed 2026-09-30.
+
+**Answers, 2026-09-30:**
+- **Brand:** @SamuelSignals. *"this would be the beginning of the academy ... I don't think the course is going to work out. I think this method might actually work better than the course."* The live cohort is how Called to Edit Academy starts.
+- **Starts:** November, *"might start later in November"*. Not set.
+- **Recorded:** yes.
+- **Classes and assignments:** on Google Meet.
+- **Size:** 50 is a target, not a cap.
+- **Entry:** Resolve users preferred, so his tools and macros work for them. Non-Resolve editors can still use most of it (*"the system still work in other platforms"*).
+- **Free Resolve:** he'll make the free version enough for most of it, and show a free-version route for anything he does in Studio.
+- **Standalone:** the NGN 5,000 webinar fee doesn't count toward it. People who skipped the webinar can join; it gets its own publicity after the webinar.
+- **Interns** each get a free seat.
 
 This replaces what the project called the "DaVinci Resolve live class" on 2026-09-29. Everything below is Samuel's, 2026-09-30. Where he hedged, it says so.
 
@@ -50,4 +61,5 @@ Majorly DaVinci Resolve:
 
 ## Open
 
-Questions 101–106 in [[00-System/open-questions|open questions]]: start date and class times, recordings, where classes and assignments live, the student cap, whether Resolve free is enough, whether the webinar fee counts toward the cohort.
+- Start date and class days and times ([[00-System/open-questions|question 101]]).
+- Assignments on Google Meet: Meet runs the live review, but students need somewhere to hand files in (a shared Drive folder is the obvious one). A suggestion, not asked yet.
