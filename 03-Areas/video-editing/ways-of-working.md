@@ -68,6 +68,7 @@ Phase-gated. Phases are defined upfront — **intake → cut analysis → transc
 - The effects chain runs **inline on the spine in order** — NeoBevel, NeoLightSweep, DropShadow, NeoAnim — never hung off to the side.
 - Source footage (Adjustment Clip / MediaIn) enters at the **bottom right** and merges into the final Merge before `MediaOut1`, which sits far right.
 - Third-party macros in use: **NeoLightSweep Pro, NeoBevel, NeoAnim, NeoTextMotion, MosaicBlur.**
+- **A set of repeated elements (pills, cards, logos)**, Samuel's arrangement, 2026-10-01 (*"Next time arrange this kind of nodes like this"*, screenshot of the Apollo hook pills): **one row per element**, rows evenly spaced down the flow. Each row is its own spine, left to right, ending in its placement Transform. **The collector Merges sit in one vertical column on the right**, each level with its row's last node, chained top to bottom, with the clear canvas Background at the top of the column. The bottom Merge of the column feeds the comp.
 
 ## Never position with a Merge — Samuel, 2026-09-27
 
@@ -94,6 +95,7 @@ From his answers on all 63 remaining beats, checked against his finished hook (0
 After the Apollo stills: *"You tend to use the same Design every time, the same color ratio, yes we have a color we use but, mix it up, use light and dark orange and white, and sometimes grey"* and *"Same font, Same color schemes, but more creative ways of doing things"*.
 
 - No single pill, box or card style carries a whole video. The [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]] (all 36 approved, 2026-09-30) is **inspiration, not templates**. Samuel: *"this designs must not be exact like this on my edits, but this designs are impirations of what we could work with in real designs, inspirations in which can be used in the actual designs in more creative ways, so better be more creative"*. Never drop a gallery design into an edit as it is. Take its parts (the medallion, the status tag, the border beam, the ghost numeral, the hub ring, the corner badge) and combine them into the picture the sentence needs.
+- **Every pill, box or card built in Fusion starts from gallery parts, never the #3 hook-pill construct as it stands.** On 2026-10-01 I built the Apollo tool pills from it (rounded rectangle, thin orange border, small square logo tile) and Samuel asked *"what kind of boxes are those"*: it reads as a generic box. Logo + name = the P01 medallion pill (full capsule, white medallion with an orange ring holding the real logo).
 - A video gets its own motifs, recurring pieces that carry its story. Apollo has two: the GTM OS core and the build board.
 - Rotate the fill: solid orange, white, light orange or cream, grey glass, deep orange, outline. Neighbouring visuals never share one.
 - The last three finals ($7M Founder, Taking a Step Back, 4 AI Tools) are the approved baseline (*"the finished videos of the last 3 are okay, just that we need more better and different types"*). Build on them; don't repeat one of them beat after beat.
