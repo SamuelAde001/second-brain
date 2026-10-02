@@ -58,7 +58,7 @@ TARGETS = {
     # Verified against the installed Gemini CLI 0.60.0 docs (docs/core/subagents.md, docs/cli/creating-skills.md,
     # docs/tools/*.md), 2026-09-22. No MCP servers are connected in Gemini yet.
     "gemini-cli": {
-        "role": "guest",
+        "role": "backup",
         "tool_label": "gemini",
         "agents_dir": ".gemini/agents",
         "skills_dir": ".agents/skills",
@@ -168,6 +168,13 @@ def build_agent(profile, tname, t):
         f"You are the **{name}** agent in Samuel's Brain. AGENTS.md is the constitution and overrides anything here.",
         "",
     ]
+    if t["role"] == "backup":
+        intro += [
+            f"**You are running in {tname} as the backup AI** (00-System/portability.md, write tiers; 00-System/relay.md). "
+            f"Write as the primary would, under the same rules, and prefix commits `[{t['tool_label']}]`. Claude Code "
+            f"reviews them at its next session.",
+            "",
+        ]
     if t["role"] == "guest":
         intro += [
             f"**You are running in {tname} as a guest** (00-System/portability.md, write tiers). Unless Samuel widens it "

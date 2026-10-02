@@ -162,3 +162,11 @@ Entries from 2026-09-20 to 2026-09-22, the build (Brain location, sync, naming, 
 ## 2026-09-29 — Objection logged: brand strategist
 
 Samuel is hiring a brand strategist (NGN 50,000, one-off). The Brand manager objected once: [[brand-context]] already holds positioning, pillars, tone and posting structure, and the gap is output and numbers. He decided: *"I think I would go ahead and have the Strategist, cause what I am doing is not working and is Random, I feel having someone in the loop would really be helpful"*. Executed. Record: [[03-Areas/personal-brand/personal-brand-decisions|Personal brand decisions]].
+
+## 2026-10-02 — Gemini CLI becomes the backup AI; Claude can hand it jobs
+
+**What:** Gemini CLI moves from guest to **backup**. When Claude's limits run out, Samuel opens Gemini in the Brain and types `/relay`: it reads a brief of what Claude was doing (built by `relay.py` from Claude Code's saved transcript and git, so it works even when Claude is cut off mid-task) and carries on, writing like the primary under the same rules, commits prefixed `[gemini]`. `/handback` logs where it stands in `06-Logs/relay/relay-log.md`, commits and pushes. Claude can also hand Gemini reading-heavy jobs through `ask_gemini.py` (read-only unless Claude allows edits). The session-start hook names `[gemini]` commits for Claude to review. Protocol: [[00-System/relay|Relay]].
+Samuel: *"I don't like the fact that my tokens can finish on Claude and I have to wait for Claude before I resume, I want Claude to be able to talk with Gemini CLI to get some work done, or I can continue some work that Claude was doing in Gemini CLI, let's set it up"*. That is also his go-ahead for Brain content going to Google through Gemini (the orchestrator's "first Gemini test" gate).
+**Read access added:** `relay.py` reads Claude Code's transcripts and Gemini's chats outside the Brain, read-only, printing to stdout only (AGENTS.md §10).
+**Why backup and not guest:** a guest writes only to `01-Inbox/` and `06-Logs/`, so it could not continue any real task. Full write with `[gemini]` commits and Claude's review keeps the record clean.
+**Not connected in Gemini:** TickTick, Resolve, Calendar, Gmail, Drive. Steps that need them wait for Claude.

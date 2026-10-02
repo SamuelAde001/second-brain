@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-22
+updated: 2026-10-02
 source: manual
 tags: [portability, agents, skills]
 ---
@@ -70,12 +70,13 @@ A tool without a capability falls back in plain terms: no `send-file` → give t
 |---|---|---|---|---|---|---|
 | **Claude Code** (desktop + CLI) | primary | CLAUDE.md imports it (`@AGENTS.md`) | CLAUDE.md · `.claude/settings.json` · `.claude/agents/` and `.claude/skills/` (generated) | native subagents, generated | native, generated | active |
 | **Claude Code — cloud session** (Claude app → Code, or claude.ai/code; for when the PC is off) | primary, **pushes to `main`** (Samuel, 2026-09-22) | CLAUDE.md imports it, from the GitHub clone | same files as above, from the repo | native, generated | native, generated | needs the Claude GitHub App on `SamuelAde001/second-brain` (Samuel installs it). **Has no:** local MCP servers (DaVinci Resolve), the Money sheet key or Windows variables, `01-Inbox/_imports/`. Good for brainstorming, planning, writing notes. Commits and pushes straight to `main` (Session protocol below) |
-| **Gemini CLI** | guest | `.gemini/settings.json` → `context.fileName` | GEMINI.md · `.gemini/settings.json` · `.gemini/agents/` and `.agents/skills/` (generated) | native subagents, generated — told they are guests | native, generated | 0.60.0 installed, **but inside the Claude app's private storage** — may not run from a normal terminal (open question 2). No MCP servers connected |
+| **Gemini CLI** | **backup** (Samuel, 2026-10-02) | `.gemini/settings.json` → `context.fileName` | GEMINI.md · `.gemini/settings.json` · `.gemini/commands/` (`/relay`, `/handback`, pointers to [[00-System/relay\|relay]]) · `.gemini/agents/` and `.agents/skills/` (generated) | native subagents, generated — told they are the backup | native, generated | 0.60.0, npm global, on PATH (checked 2026-10-02). Needs Samuel's Google sign-in once. No MCP servers connected. Also Claude's helper through `ask_gemini.py` |
 | **claude.ai chat** (web, phone) | none — no Brain access | — | copies of the 4 skills, uploaded there | — | copies; re-upload after editing (below) | skills only |
 | **Any other AI** | guest until Samuel says otherwise | natively if it reads AGENTS.md, else a pointer file or the boot prompt | — | reads the profile | reads the skill file | — |
 
 ### Write tiers
 - **primary** — full, per AGENTS.md. A role, not a model: Samuel moves it by editing this table and logging a decision.
+- **backup** — Gemini CLI. While Samuel works in it (Claude out of limits), writes like the primary under the same rules; prefixes commits `[gemini]`; the primary reviews them at its next session. As Claude's helper it is read-only unless Claude allows edits. [[00-System/relay|Relay]].
 - **guest** — reads everything; writes only to `01-Inbox/` and `06-Logs/` unless Samuel widens it for the session; never deletes or rewrites; prefixes commits `[<tool>]`. The primary reviews every guest commit at its next session and files or fixes what needs it.
 - **none** — no Brain access. Output reaches the Brain only when Samuel pastes it into `01-Inbox/`.
 

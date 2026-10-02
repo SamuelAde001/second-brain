@@ -26,6 +26,7 @@ Listed neutrally in `00-System/portability.md` → Integrations. In Claude Code 
 - Usage limits are shared with Claude chat, on a rolling 5-hour window, with weekly caps.
 - Every agent runs in the main session on Opus 5.5, the project default model in `.claude/settings.json` (Samuel, 2026-09-23). Bulk extraction is done by scripts, not read into context. Model and effort per job: `00-System/model-routing.md` (Samuel, 2026-09-29). Skills set `effort` (floor `medium`) and, for the few Sonnet jobs, `tier: standard` + `context: fork`; `build_adapters.py` maps them. A session can't switch its own model: the General Manager names the right one at session start and Samuel picks it in the model menu. Any other subagent or cheaper model only when he asks. Cloud routines run on Sonnet, except the night plan (Opus, 2026-09-25).
 - Before a large batch, write a checkpoint to `00-System/build-state.md` so a cutoff mid-batch loses nothing.
+- Gemini CLI is the backup when limits run out, and takes reading-heavy jobs through `00-System/scripts/ask_gemini.py`. Protocol: `00-System/relay.md`.
 - **Never set `ANTHROPIC_API_KEY` system-wide.** If it is set, Claude Code silently bills the API instead of the Pro subscription.
 
 ## Claude Code's private memory

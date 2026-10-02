@@ -2,7 +2,7 @@
 type: log
 area: system
 status: active
-updated: 2026-09-30
+updated: 2026-10-02
 source: manual
 tags: [build, state]
 ---
@@ -34,7 +34,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 1. Three deletions the auto-mode classifier blocked for Claude on 2026-09-28: the empty `03-Areas/community/log.md`, the superseded `03-Areas/scripnals/assets/scripnals-script-buddy-ai-workflow-v1.pdf`, and the finished `03-Areas/video-editing/scripts/cache-queue-7m-founder.json`. Plus two merged cloud branches on GitHub.
 2. The credential-named file on the Desktop (`HighSignals App/highsignals-project-…json`): move it to a secret store or revoke it ([[00-System/security-flags|security flags]]).
-3. Keep or drop Gemini. It has never read the Brain; if it's dropped, the `.gemini/` and `.agents/` adapters stop being maintenance.
+3. **Sign Gemini in** (2026-10-02, kept as the backup AI): run `gemini` in the Brain folder, trust the folder, sign in with Google. Then Claude runs the first `ask_gemini.py` test ([[00-System/relay|relay]]).
 4. His principles (the one `02-Me` gap).
 5. Moving the `Talking heads and  B-rolls` folder into the B-roll archive (old Resolve projects may link to it).
 
@@ -43,7 +43,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 1. **Phone sync through Obsidian was never set up.** Decided (GitHub as the spine, Obsidian Git on Android, token in the plugin only), not installed. Cloud sessions cover the phone for now.
 2. **Video-editing project memory files not distilled** (Samuel: skip for now): `technical-learnings.md`, `taking-a-step-back-from-claude.md`, `cold-outreach-video.md`. Check overlap before spending tokens.
 3. **~200 conversations dropped at triage.** Full list: `01-Inbox/_imports/processed/triage.csv`.
-4. **Gemini CLI 0.60.0** sits inside the Claude app's private storage and may not be on PATH. No end-to-end test with a second AI has run (it sends Brain content to Google, so it needs his go-ahead).
+4. **Gemini CLI 0.60.0** is on PATH (npm global, checked 2026-10-02) and set up as the backup AI with `/relay` and `/handback` ([[00-System/relay|relay]]). No end-to-end test yet: waiting on Samuel's sign-in. Samuel gave the go-ahead for Brain content going to Google through it on 2026-10-02.
 
 ## Facts every session needs
 

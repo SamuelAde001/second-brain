@@ -47,6 +47,15 @@ def main():
             cloud = [b.strip() for b in unmerged.splitlines() if b.strip().startswith("origin/claude/")]
             if cloud:
                 notes.append("Unmerged cloud-session branches (review and merge per portability.md): " + ", ".join(cloud))
+
+            # Work Gemini did while Claude was out of limits (00-System/relay.md -> Claude coming back).
+            _, last_claude = git("log", "-1", "--format=%H", "--grep=Co-Authored-By: Claude")
+            if last_claude:
+                _, subjects = git("log", f"{last_claude}..HEAD", "--format=%h %s")
+                gem = [s for s in subjects.splitlines() if s.split(" ", 1)[-1].startswith("[gemini]")]
+                if gem:
+                    notes.append(f"Gemini made {len(gem)} commit(s) since Claude's last: review per 00-System/relay.md "
+                                 "(Claude coming back). " + " | ".join(gem[:5]))
     except Exception as e:  # never block a session
         notes.append(f"Brain sync: skipped ({e.__class__.__name__}: {e}).")
 

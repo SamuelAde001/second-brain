@@ -1,0 +1,7 @@
+# Adapter: pointer to 00-System/relay.md. No unique content here.
+description = "Hand the work back to Claude Code: log where it stands, commit, push"
+prompt = """
+Samuel is moving back to Claude Code. Follow 00-System/relay.md, section "Handing back to Claude", step by step.
+
+Samuel's note, if any: {{args}}
+"""

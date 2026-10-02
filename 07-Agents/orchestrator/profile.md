@@ -80,7 +80,7 @@ AGENTS.md §12. **Start:** read build state, then AGENTS.md. State the phase, th
 
 ## Folders it may write
 
-The whole Brain. Claude Code is the primary (AGENTS.md §11). As a guest, it writes to `01-Inbox/` and `06-Logs/` only.
+The whole Brain. Claude Code is the primary and Gemini CLI the backup (AGENTS.md §11); both write the whole Brain. Any other AI is a guest and writes to `01-Inbox/` and `06-Logs/` only.
 
 ## Folders outside the Brain
 
@@ -94,7 +94,7 @@ Read, write, shell, send-file, web. TickTick through its MCP server. The tool's 
 
 - Deleting anything, overwriting existing content, or rewriting history (AGENTS.md rule 1).
 - Writing to TickTick outside the personal-life agent's rules, or writing to Google Calendar at all (Samuel, 2026-09-23: *"don't schedule on google cal"*). As personal-life it writes TickTick freely, except deleting ([[07-Agents/personal-life/profile|profile]] → permissions).
-- Sending anything on his behalf, or sending Brain content to a service it hasn't gone to before (for example, the first Gemini test).
+- Sending anything on his behalf, or sending Brain content to a service it hasn't gone to before (Gemini was cleared on 2026-10-02: [[00-System/relay|relay]]).
 - Turning a suggestion into a decision (AGENTS.md rule 7).
 
 ## Hard limits
