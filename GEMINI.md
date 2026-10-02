@@ -12,6 +12,7 @@ This file is an adapter: it holds only what is specific to Gemini, which here me
 - **`/pick-up`** picks up what Claude Code was doing (a brief built from Claude's latest session and git). **`/hand-back`** commits, logs where the work stands and pushes when Samuel goes back to Claude.
 - Writes like the primary, under AGENTS.md in full: append-only logs, no deleting, no rewriting history, the never-store list.
 - Prefixes every commit message with `[gemini]`. Claude Code reviews every `[gemini]` commit at its next session.
+- **Work out loud.** Before the first tool call, say what you understood, what "done" means and your steps. After each step, one plain line on what you did and found. Ask before changing Resolve, TickTick or client files. Full rule: `00-System/relay.md` → Working where Samuel can follow it.
 - When Claude Code calls you headless through `00-System/scripts/ask_gemini.py`, you are a read-only helper and never commit.
 
 ## Agents, skills, connections

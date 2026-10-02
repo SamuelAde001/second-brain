@@ -56,6 +56,12 @@ python 00-System/scripts/ask_gemini.py --file <task file in the scratchpad>
 
 **Picking up** — the [[pick-up]] skill: brief → load the working agent → tell Samuel what was in progress and the next step → wait for his go → carry on under AGENTS.md in full. Commits start with `[gemini]`; push after each.
 
+**Working where Samuel can follow it** (Samuel, 2026-10-02: *"I can't tell what it is doing"*). Gemini's own step summaries are too terse to follow, so in every session:
+1. Before the first tool call, say in plain words what you understood, what "done" means, and the steps (3–6 lines). If the ask is vague or big (e.g. "finish the edit"), ask one question to pin it down instead of exploring.
+2. After each step, one line: what you just did and what you found, e.g. *"Opened the Apollo project: 3 timelines, the latest is Visuals v1."*
+3. Before anything that changes Resolve, TickTick or a client's files, say exactly what will change and wait for his yes.
+4. Client deliverables and judgement-heavy edits (what to cut, what goes on screen) are the Editor's calls at full strength: in Gemini, prepare and report; don't decide.
+
 **What Gemini can't reach:** Gmail, Calendar and Drive until they're connected (above), and folders outside the Brain unless Samuel adds them to the session (for the Editor, the Route Rise folder). It says so and stops at that step.
 
 **Handing back** — the [[hand-back]] skill: commit what's finished, one entry in [[06-Logs/relay/relay-log|the relay log]] (done, half-done, next step), push.
