@@ -69,6 +69,7 @@ Phase-gated. Phases are defined upfront — **intake → cut analysis → transc
 - Source footage (Adjustment Clip / MediaIn) enters at the **bottom right** and merges into the final Merge before `MediaOut1`, which sits far right.
 - Third-party macros in use: **NeoLightSweep Pro, NeoBevel, NeoAnim, NeoTextMotion, MosaicBlur.**
 - **A set of repeated elements (pills, cards, logos)**, Samuel's arrangement, 2026-10-01 (*"Next time arrange this kind of nodes like this"*, screenshot of the Apollo hook pills): **one row per element**, rows evenly spaced down the flow. Each row is its own spine, left to right, ending in its placement Transform. **The collector Merges sit in one vertical column on the right**, each level with its row's last node, chained top to bottom, with the clear canvas Background at the top of the column. The bottom Merge of the column feeds the comp.
+- **This applies to every group of similar nodes, not only hook pills** (Samuel, 2026-10-02, on the Apollo B04 comp: *"Similar nodes on the same node line connected to a BG canvas, you are connecting them all to the main line"*, *"I prioritise node arrangement as it helps me navigate"*). Table rows, pills, arrows, logos: each group is collected over its own clear canvas and joins the main line (or the card line) **once**. Never chain the members of a group straight onto the main line.
 
 ## Never position with a Merge — Samuel, 2026-09-27
 

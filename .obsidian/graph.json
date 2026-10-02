@@ -1,114 +1,22 @@
 {
   "collapse-filter": false,
   "search": "-path:\"01-Inbox/_imports\"",
-  "showTags": true,
-  "showAttachments": true,
-  "hideUnresolved": true,
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "path:\"01-Inbox\"",
-      "color": {
-        "a": 1,
-        "rgb": 54015
-      }
-    },
-    {
-      "query": "path:\"02-Me\"",
-      "color": {
-        "a": 1,
-        "rgb": 15844367
-      }
-    },
-    {
-      "query": "path:\"03-Areas/finances\"",
-      "color": {
-        "a": 1,
-        "rgb": 3066993
-      }
-    },
-    {
-      "query": "path:\"03-Areas/video-editing\"",
-      "color": {
-        "a": 1,
-        "rgb": 15158332
-      }
-    },
-    {
-      "query": "path:\"03-Areas/personal-brand\"",
-      "color": {
-        "a": 1,
-        "rgb": 10181046
-      }
-    },
-    {
-      "query": "path:\"03-Areas/highsignals\" OR path:\"03-Areas/community\" OR path:\"03-Areas/academy\" OR path:\"03-Areas/mentorship\" OR path:\"03-Areas/scripnals\"",
-      "color": {
-        "a": 1,
-        "rgb": 3447003
-      }
-    },
-    {
-      "query": "path:\"03-Areas/relationships\"",
-      "color": {
-        "a": 1,
-        "rgb": 15221651
-      }
-    },
-    {
-      "query": "path:\"03-Areas/book\"",
-      "color": {
-        "a": 1,
-        "rgb": 15965202
-      }
-    },
-    {
-      "query": "path:\"04-Projects\"",
-      "color": {
-        "a": 1,
-        "rgb": 10734392
-      }
-    },
-    {
-      "query": "path:\"05-Knowledge\"",
-      "color": {
-        "a": 1,
-        "rgb": 5724347
-      }
-    },
-    {
-      "query": "path:\"07-Agents\"",
-      "color": {
-        "a": 1,
-        "rgb": 1752220
-      }
-    },
-    {
-      "query": "path:\"00-System\"",
-      "color": {
-        "a": 1,
-        "rgb": 9807270
-      }
-    },
-    {
-      "query": "path:\"06-Logs\" OR path:\"08-Archive\"",
-      "color": {
-        "a": 1,
-        "rgb": 6122878
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 3,
-  "nodeSizeMultiplier": 0.805531446337198,
-  "lineSizeMultiplier": 1.78051687285446,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0,
-  "repelStrength": 10.5079236082893,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 179,
-  "scale": 0.11660891579457298,
+  "linkDistance": 250,
+  "scale": 0.45050811767578086,
   "close": false
 }
