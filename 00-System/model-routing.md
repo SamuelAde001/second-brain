@@ -124,6 +124,8 @@ Tier: **O** = Opus 5.5, **S** = Sonnet 5.5. How: **skill** = frontmatter on the 
 
 - **Turn off the plugins the Brain never uses.** About 26,000 of the 70,000 start-up tokens are MCP tools and skill listings, many unused. Every turn of every session pays for them. His call which ones stay.
 - **One session per job.** A Resolve session left running all day re-reads its whole history every turn. Start fresh when the job changes; the Brain holds the memory.
+- **Fresh session past 100k context** (Samuel, 2026-10-02: *"yes do both"*). The 1M window means a session never hits a wall, so it keeps growing and every turn re-reads all of it: at 147k, a one-line reply costs about 147k input tokens. Once the context meter passes 100k, the working agent says so; Samuel runs `/compact` if the job continues, or ends it (update build-state, commit) and opens a new session. Checked 2026-10-02: 11 sessions that day, two with transcripts of about 14–15 MB from screenshot-heavy visual work.
+- **Images cost the most.** Crop screenshots to what matters; pull video frames by script at low resolution.
 - **Scripts first** already does the rest (AGENTS.md rule 10).
 
 ## Plugins and connectors (listed 2026-09-29)
@@ -148,7 +150,7 @@ Connectors (Settings → Connectors), for his call:
 |---|---|---|
 | TickTick, Google Calendar | the PA's daily tools | keep |
 | DaVinci Resolve (the one set up in Claude Code) | the Editor, every job | keep |
-| **DaVinci Resolve Studio** (desktop extension) | a duplicate of the one above: same 14 tools, never used in the Brain | remove the duplicate |
+| **DaVinci Resolve Studio** (desktop extension) | a duplicate of the one above: same 14 tools, never used in the Brain | remove the duplicate. Samuel said yes 2026-10-02; a desktop extension, so only he can switch it off (Claude desktop → Settings → Extensions) |
 | Notion | 20 notes use it (shot lists, client idea docs) | keep |
 | Google Drive | client footage links | keep |
 | Gmail | 3 notes | keep if he wants email read; otherwise off |
