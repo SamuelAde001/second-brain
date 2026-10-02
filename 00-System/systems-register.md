@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-28
+updated: 2026-10-02
 source: manual
 tags: [systems]
 ---
@@ -103,9 +103,10 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | `08-Archive/retired-scripts/sheets.py` | **Retired; archived 2026-09-28. Reads the old sheet only.** Client for the Apps Script bridge to the "My Claude Budget" sheet: `ping`, `read`, `ops`, `doctor`, `flush`/`pending` for queued batches. Credentials from Windows user variables only ([[03-Areas/finances/budget-system\|budget system]]) | any sheet read or write |
 | `00-System/scripts/screen_time.py` | Reads StayFree's local data (PC apps, plus phone and Chrome sessions synced into its cache) from a temp copy and writes `06-Logs/screen-time/<date>.md`: social media by app and hour, 11pm–7am, and each session's times (background Chrome tabs excluded). `--check "HH:MM-HH:MM,…"` gives minutes inside work blocks. No flags prints today | 8:30pm by Task Scheduler ([[00-System/automations/screen-time\|screen time]]); by hand any time |
 | `00-System/scripts/money_ledger.py` | Read-only totals from the money ledger (`totals`, `pots`, `last`) and the delivered-projects record (`videos`) | instead of reading either file |
-| `00-System/scripts/session_start_sync.py` | Fetches GitHub, fast-forwards `main` (only on `main`, only fast-forward), lists any unmerged `claude/*` branches (a fallback: cloud sessions push to `main` since 2026-09-22), and names any `[gemini]` commits since Claude's last. Never merges, deletes or resets; always exits 0 | automatically, by the SessionStart hook |
-| `00-System/scripts/relay.py` | `brief --from claude\|gemini`: prints what the other AI's latest session was doing (Samuel's last asks, its last replies and actions, files touched) plus uncommitted changes and recent commits. Reads Claude Code's transcript or Antigravity's session read-only, writes nothing ([[00-System/relay\|relay]]) | by [[pick-up]] |
-| `00-System/scripts/ask_gemini.py` | Hands a reading job to Gemini (Antigravity CLI, headless) and prints its answer. Read-only; never writes or commits ([[00-System/relay\|relay]]) | by Claude, for reading-heavy jobs |
+| `00-System/scripts/session_start_sync.py` | Fetches GitHub, fast-forwards `main` (only on `main`, only fast-forward), lists any unmerged `claude/*` branches (a fallback: cloud sessions push to `main` since 2026-09-22), and names the commits the other AI made since this one's last (`--for gemini` in Gemini). Never merges, deletes or resets; always exits 0 | automatically: Claude's SessionStart hook, Gemini's first-turn hook |
+| `00-System/scripts/agy_guard.py` | Gemini's guard rails, wired in `.agents/hooks.json`: `pre-tool` denies reads of secrets and makes Samuel approve deletes, system changes, installs and history rewrites (the same lists as `.claude/settings.json`); `first-turn` runs the session-start sync once per conversation. Never grants anything ([[00-System/relay\|relay]]) | automatically, by Antigravity's hooks |
+| `00-System/scripts/relay.py` | `brief --from claude\|gemini`: prints what the other AI's latest session was doing (Samuel's last asks, its last replies and actions, files touched) plus uncommitted changes and recent commits. Reads Claude Code's transcript or the newer of the Antigravity app and CLI sessions read-only, writes nothing ([[00-System/relay\|relay]]) | by [[pick-up]] |
+| `00-System/scripts/ask_gemini.py` | Hands a reading job to Gemini (Antigravity CLI, headless, plan mode) and prints its answer. Read-only; never writes or commits ([[00-System/relay\|relay]]) | by Claude, for reading-heavy jobs |
 | `08-Archive/retired-scripts/split_conversations.py` | Split the Claude chat export into one file per conversation (Phase 2 migration). Archived 2026-09-28 | one-off, done |
 
 ## How the Editor's pipeline runs — no pipeline skills

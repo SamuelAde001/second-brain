@@ -1,0 +1,25 @@
+{
+  "brain-guard": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python ..\\00-System\\scripts\\agy_guard.py pre-tool",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "brain-session-start": {
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "python ..\\00-System\\scripts\\agy_guard.py first-turn",
+        "timeout": 50
+      }
+    ]
+  }
+}

@@ -163,3 +163,4 @@ Full records in `00-System/decisions.md`. The ones that matter most:
 - 2026-09-24 — Session start: main had split from GitHub (3 local Editor commits vs the PA's night-plan commit); merged, no conflicts. Build-state caught up on 2026-09-23.
 - 2026-09-28 — Brain health audit, then tidy at Samuel's word ("Tidy"). Build-state cut to current state; this file holds the history. Retired scripts archived; systems register, open questions, decisions and the Editor's memory tidied.
 - 2026-09-28 — Samuel dropped the four job skills and the Editor's pipeline skills. Phase 4 closed.
+- 2026-10-02 — Gemini made an equal primary at Samuel's word. Guard rails and session start for Antigravity through `.agents/hooks.json`; relay brief reads the Antigravity app; Notion added to Gemini; helper locked to plan mode.

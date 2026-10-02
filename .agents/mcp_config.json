@@ -6,6 +6,9 @@
     },
     "ticktick": {
       "serverUrl": "https://mcp.ticktick.com/"
+    },
+    "notion": {
+      "serverUrl": "https://mcp.notion.com/mcp"
     }
   }
 }

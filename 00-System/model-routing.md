@@ -40,7 +40,7 @@ Four facts shape everything below:
 3. **Sonnet 5.5 where the context starts fresh and the job is well specified:** cloud routines that read and report, forked helpers for output-heavy mechanical jobs, and a fresh session for batch builds of an approved design.
 4. **Opus stays on anything where a mistake reaches a client, his money, or his own judgement.** Cheaper model there is a false saving: one redo costs more than the difference.
 5. **When a new session's job fits a different setting, the General Manager says so in one line at the start** (e.g. *"batch render job: Sonnet, effort medium; switch in the model menu or say go"*). He switches; the app won't let a session re-price itself.
-6. **Gemini takes reading-heavy jobs off Claude's limits** (Samuel, 2026-10-02): sweeps across many files, long transcripts and exports, web research, summaries. Claude sends them through `ask_gemini.py` instead of a Sonnet fork when its limits are tight or the job is mostly reading; Gemini's limits are separate. Judgement stays in Claude. [[00-System/relay|Relay]].
+6. **Gemini takes reading-heavy jobs off Claude's limits** (Samuel, 2026-10-02): sweeps across many files, long transcripts and exports, web research, summaries. Claude sends them through `ask_gemini.py` instead of a Sonnet fork when its limits are tight or the job is mostly reading; Gemini's limits are separate. The answer is a draft: the session that asked keeps the judgement. When Samuel works in Gemini, the same map holds with the Gemini models in [[00-System/portability|portability]] → tiers. [[00-System/relay|Relay]].
 
 ## The map
 

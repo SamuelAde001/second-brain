@@ -2,7 +2,7 @@
 type: agent
 area: system
 status: active
-updated: 2026-09-23
+updated: 2026-10-02
 source: manual
 tags: [agent, orchestrator, routing]
 name: orchestrator
@@ -80,7 +80,7 @@ AGENTS.md §12. **Start:** read build state, then AGENTS.md. State the phase, th
 
 ## Folders it may write
 
-The whole Brain. Claude Code is the primary and Gemini CLI the backup (AGENTS.md §11); both write the whole Brain. Any other AI is a guest and writes to `01-Inbox/` and `06-Logs/` only.
+The whole Brain. Claude Code and Gemini (Antigravity) are equal primaries (AGENTS.md §11, Samuel 2026-10-02); both write the whole Brain. Any other AI is a guest and writes to `01-Inbox/` and `06-Logs/` only.
 
 ## Folders outside the Brain
 

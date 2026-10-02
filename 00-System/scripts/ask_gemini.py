@@ -3,8 +3,8 @@
     python 00-System/scripts/ask_gemini.py "Summarise every note in 03-Areas/book/ in 10 lines"
     python 00-System/scripts/ask_gemini.py --file task.md
 
-Read-only: agy runs headless in its default permission mode, which refuses any tool not
-pre-approved, so it reads and answers but does not write or run commands. It never commits.
+Read-only: agy runs headless in plan mode (--mode plan), so it reads and answers but does not
+write or run commands, whatever Samuel's agy permission setting allows interactive sessions. It never commits.
 Gemini CLI's Google sign-in stopped for personal and AI Pro accounts on 2026-06-18;
 Antigravity CLI replaced it (00-System/relay.md).
 
@@ -61,7 +61,8 @@ def main():
     prompt = PREAMBLE + task.strip()
     if len(prompt) > 30000:
         sys.exit("Task too long for one command line (30,000 characters). Point Gemini at files instead of pasting them.")
-    cmd = [agy, "-p", prompt, "--output-format", "json", "--effort", a.effort]
+    # Plan mode keeps the helper read-only even though interactive agy runs with always-proceed.
+    cmd = [agy, "-p", prompt, "--output-format", "json", "--effort", a.effort, "--mode", "plan"]
     if a.model:
         cmd += ["--model", a.model]
 

@@ -10,6 +10,8 @@ It prints markdown to stdout and writes nothing. It reads, read-only:
   - Claude Code transcripts: %USERPROFILE%/.claude/projects/<this Brain>/*.jsonl
   - Antigravity CLI:         %USERPROFILE%/.gemini/antigravity-cli/ (history.jsonl picks the latest
                              conversation in this Brain; brain/<id>/.system_generated/logs/transcript_full.jsonl)
+  - Antigravity app:         %USERPROFILE%/.gemini/antigravity/ (same layout; the newest transcript that
+                             names this Brain). The newer of the CLI and app sessions wins.
   - Gemini CLI chats:        %USERPROFILE%/.gemini/tmp/*/chats/*  (fallback; Gemini CLI retired 2026-10-02)
   - git status and git log of the Brain
 Granted in AGENTS.md section 10. Protocol: 00-System/relay.md.
@@ -120,13 +122,22 @@ def gemini_text(content):
 
 
 AGY = os.path.join(HOME, ".gemini", "antigravity-cli")
+AGY_APP = os.path.join(HOME, ".gemini", "antigravity")
 FILE_ARGS = ("TargetFile", "AbsolutePath", "FilePath", "Path")
+BRAIN_MARKS = (BRAIN.lower(), BRAIN.replace(" ", "%20").replace("\\", "/").lower(),
+               BRAIN.replace("\\", "/").lower(), BRAIN.replace("\\", "\\\\").lower())
 
 
-def antigravity_session():
+def transcript(root, conv):
+    logs = os.path.join(root, "brain", conv, ".system_generated", "logs")
+    return next((p for p in (os.path.join(logs, "transcript_full.jsonl"), os.path.join(logs, "transcript.jsonl"))
+                 if os.path.exists(p)), None)
+
+
+def cli_conversation():
     """Latest interactive Antigravity CLI conversation in this Brain (found 2026-10-02, agy 1.2.14).
     history.jsonl maps each typed prompt to its workspace and conversation; headless ask_gemini.py runs
-    don't appear there, so they're skipped. Steps are in brain/<id>/.system_generated/logs/transcript_full.jsonl."""
+    don't appear there, so they're skipped."""
     hist = os.path.join(AGY, "history.jsonl")
     if not os.path.exists(hist):
         return None
@@ -138,14 +149,40 @@ def antigravity_session():
             continue
         if h.get("conversationId") and os.path.normcase(h.get("workspace", "")) == os.path.normcase(BRAIN):
             conv = h["conversationId"]
-    if not conv:
+    return conv
+
+
+def app_conversation():
+    """Latest Antigravity desktop app conversation in this Brain (added 2026-10-02). The app keeps no
+    history.jsonl, so the newest transcript that mentions the Brain's path is taken as this Brain's."""
+    found = []
+    for d in glob.glob(os.path.join(AGY_APP, "brain", "*")):
+        path = transcript(AGY_APP, os.path.basename(d))
+        if path:
+            found.append((os.path.getmtime(path), os.path.basename(d), path))
+    for _, conv, path in sorted(found, reverse=True):
+        with open(path, encoding="utf-8", errors="replace") as f:
+            head = f.read(400000).lower()
+        if any(m in head for m in BRAIN_MARKS):
+            return conv
+    return None
+
+
+def antigravity_session():
+    """The newer of the latest Antigravity CLI and Antigravity app conversations in this Brain.
+    Steps are in <root>/brain/<id>/.system_generated/logs/transcript_full.jsonl in both."""
+    options = []
+    for root, conv, label in ((AGY, cli_conversation(), "Gemini (Antigravity CLI)"),
+                              (AGY_APP, app_conversation(), "Gemini (Antigravity app)")):
+        path = transcript(root, conv) if conv else None
+        if conv:
+            options.append((os.path.getmtime(path) if path else 0, root, conv, label, path))
+    if not options:
         return None
-    logs = os.path.join(AGY, "brain", conv, ".system_generated", "logs")
-    path = next((p for p in (os.path.join(logs, "transcript_full.jsonl"), os.path.join(logs, "transcript.jsonl"))
-                 if os.path.exists(p)), None)
-    s = {"tool": "Gemini (Antigravity CLI)", "id": conv, "title": "", "start": None, "end": None,
+    _, root, conv, label, path = max(options)
+    s = {"tool": label, "id": conv, "title": "", "start": None, "end": None,
          "asks": [], "replies": [], "actions": [], "files": []}
-    ann = os.path.join(AGY, "annotations", conv + ".pbtxt")
+    ann = os.path.join(root, "annotations", conv + ".pbtxt")
     if os.path.exists(ann):
         m = re.search(r'title:"([^"]*)"', open(ann, encoding="utf-8", errors="replace").read())
         s["title"] = m.group(1) if m else ""
@@ -160,7 +197,8 @@ def antigravity_session():
         s["start"] = s["start"] or ts
         s["end"] = ts or s["end"]
         if r.get("type") == "USER_INPUT":
-            text = re.sub(r"</?USER_REQUEST>", "", r.get("content") or "")
+            text = re.sub(r"<(ADDITIONAL_METADATA|USER_SETTINGS_CHANGE)>.*?</\1>", "", r.get("content") or "", flags=re.S)
+            text = re.sub(r"</?USER_REQUEST>", "", text)
             text = clean(text, ASK_CHARS)
             if text:
                 s["asks"].append((ts, text))

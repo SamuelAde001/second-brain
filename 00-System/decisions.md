@@ -2,7 +2,7 @@
 type: decision
 area: system
 status: active
-updated: 2026-09-28
+updated: 2026-10-02
 source: manual
 tags: [decisions, system]
 ---
@@ -180,3 +180,10 @@ Samuel: *"I don't like the fact that my tokens can finish on Claude and I have t
 
 **What:** Samuel's Gemini CLI sign-in failed: *"This client is no longer supported for Gemini Code Assist for individuals"*. Google ended Login with Google for Gemini CLI on personal, AI Pro and AI Ultra accounts on 2026-06-18; Antigravity CLI (`agy`) replaces it and comes with his AI Pro plan. The relay moves to it: Resolve and TickTick in `.agents/mcp_config.json`, `/relay` and `/handback` (Gemini CLI commands, deleted the same day they were made) become the skills `pick-up` and `hand-back`, which any AI runs; `ask_gemini.py` calls `agy` and is read-only. The backup tier, the `[gemini]` prefix and the rules are unchanged. [[00-System/relay|Relay]].
 **Correction to the entry above:** the Google Workspace extension is for Gemini CLI. In Antigravity, Gmail, Calendar and Drive need Google's Workspace MCP servers and a Google Cloud OAuth client Samuel creates. Not connected yet.
+
+## 2026-10-02 — Gemini becomes an equal primary
+
+**What:** Samuel: *"I want to Gemini Antigravity app to have access to all you can do, and be able to do everything you can do, just in case I don't feel like using you, you both should be on the same level, and not Gemini being second in place"*. Claude Code and Gemini in Antigravity (app and CLI) are now **equal primaries**. "Backup" is gone everywhere (AGENTS.md §11, CLAUDE.md, GEMINI.md, portability, relay, the pick-up and hand-back skills, the orchestrator profile). Each signs commits with its own `Co-Authored-By` trailer instead of a `[gemini]` prefix, and neither reviews the other as a senior: whichever runs next reads the other's new commits.
+**Parity built the same day:** Gemini's guard rails mirror Claude's deny and ask lists (`.agents/hooks.json` → `00-System/scripts/agy_guard.py`; tested: secrets read blocked, ordinary commands run). Session start runs in Gemini too (first-turn hook → `session_start_sync.py --for gemini`). `relay.py` reads the Antigravity app's sessions, not only the CLI's. Notion added to Gemini. Tiers mapped for Gemini, strong = Gemini 3.1 Pro (High), his pick in the app. The helper call `ask_gemini.py` runs in plan mode, because agy is now on always-proceed and a headless run has no one to ask.
+**Not at parity, and why:** Gmail, Calendar and Drive (need a Google Cloud OAuth client he creates); computer use (needs a third-party Windows MCP server, his yes to install); cloud routines (they run on Claude regardless); Gemini handing Claude a job (needs the Claude Code CLI installed). Listed in [[00-System/relay|relay]] → What each AI can reach.
+**Source:** Samuel, in chat with Claude Code, 2026-10-02.

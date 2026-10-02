@@ -31,7 +31,7 @@ The test: if deleting `.claude/`, `.gemini/`, `.agents/`, CLAUDE.md and GEMINI.m
 4. **The Brain is the only memory.** Checked 2026-09-22: Claude Code's private memory folder for this Brain is empty. Keep it that way.
 5. **Skills are written for any model.** Name the capability ("show Samuel the file", "ask a multiple-choice question"), not a tool's function. Paths relative to the Brain root. Scripts live in the skill's folder and run with plain `python` or `node`.
 6. **Secrets never enter the Brain** (AGENTS.md §6). MCP tokens and API keys live in each tool's own config, outside the Brain. Secret file patterns are in `.gitignore`; Claude Code also denies reading them in `.claude/settings.json`.
-7. **Every AI that writes identifies itself.** The primary signs commits with its trailer; every other AI prefixes commit messages with `[<tool>]`, e.g. `[gemini]`.
+7. **Every AI that writes identifies itself.** The two primaries sign commits with their own trailer (Claude's `Co-Authored-By: Claude …`; Gemini's `Co-Authored-By: Gemini (Antigravity) <noreply@google.com>`; before 2026-10-02 Gemini prefixed `[gemini]`). Every other AI prefixes commit messages with `[<tool>]`.
 
 ## Neutral vocabulary
 
@@ -39,15 +39,15 @@ The test: if deleting `.claude/`, `.gemini/`, `.agents/`, CLAUDE.md and GEMINI.m
 
 | Tier | For | Claude | Gemini |
 |---|---|---|---|
-| `light` | bulk extraction, sorting, formatting | haiku | session default |
-| `standard` | most agent work | sonnet | session default |
-| `strong` | editorial review, finance rule enforcement, weekly synthesis, the interview | opus | session default |
+| `light` | bulk extraction, sorting, formatting | haiku | Gemini 3.8 Flash (Medium) |
+| `standard` | most agent work | sonnet | Gemini 3.8 Flash (High) |
+| `strong` | editorial review, finance rule enforcement, weekly synthesis, the interview | opus | Gemini 3.1 Pro (High) |
 
 **Current setting (Samuel, 2026-09-23):** every agent profile is `strong` and runs in the main session. In Claude Code that is Opus 5.5, the project default model in `.claude/settings.json`. `light` and `standard` stay defined for tasks where Samuel asks for a cheaper model. Cloud routines run on Sonnet; they are not agents.
 
 **Skills carry run settings (2026-09-29, [[00-System/model-routing|model routing]]):** optional `tier`, `effort` (`medium`, `high`, `xhigh`, `max`; Samuel set the floor at `medium`) and `context: fork` (run as a helper with its own context). `build_adapters.py` maps them for Claude Code (`model`, `effort`, `context: fork` + `background: false`) and drops them for targets that lack them.
 
-Gemini tiers are deliberately unmapped: which models Samuel's Gemini account can use is unknown. Set them in the script's `TARGETS` once it is.
+Gemini models on his AI Pro account (`agy models`, 2026-10-02): Gemini 3.8, 3.7 and 3.6 Flash, Gemini 3.1 Pro, plus Claude Sonnet 4.6, Claude Opus 4.6 and GPT-OSS 120B through Antigravity. `strong` is Gemini 3.1 Pro (High) because Samuel picked it in the app on 2026-10-02; whether it judges better than 3.8 Flash on his work is untested, so a real job may move it. The model is set in Antigravity's menu or `agy --model`, by Samuel, the way he picks Claude's; `build_adapters.py` doesn't set it.
 
 **Tools** — what an agent profile's `tools:` list uses.
 
@@ -70,14 +70,13 @@ A tool without a capability falls back in plain terms: no `send-file` → give t
 |---|---|---|---|---|---|---|
 | **Claude Code** (desktop + CLI) | primary | CLAUDE.md imports it (`@AGENTS.md`) | CLAUDE.md · `.claude/settings.json` · `.claude/agents/` and `.claude/skills/` (generated) | native subagents, generated | native, generated | active |
 | **Claude Code — cloud session** (Claude app → Code, or claude.ai/code; for when the PC is off) | primary, **pushes to `main`** (Samuel, 2026-09-22) | CLAUDE.md imports it, from the GitHub clone | same files as above, from the repo | native, generated | native, generated | needs the Claude GitHub App on `SamuelAde001/second-brain` (Samuel installs it). **Has no:** local MCP servers (DaVinci Resolve), the Money sheet key or Windows variables, `01-Inbox/_imports/`. Good for brainstorming, planning, writing notes. Commits and pushes straight to `main` (Session protocol below) |
-| **Gemini — Antigravity CLI (`agy`)** | **backup** (Samuel, 2026-10-02) | natively (AGENTS.md and GEMINI.md) | GEMINI.md · `.agents/skills/` (generated) · `.agents/mcp_config.json` (Resolve, TickTick) | from the profile | native, generated (`.agents/skills/<name>/SKILL.md`) | replaced Gemini CLI, whose Google sign-in ended for personal and AI Pro accounts on 2026-06-18. Setup and use: [[00-System/relay\|relay]]. Also Claude's read-only helper through `ask_gemini.py`. `.gemini/` and its generated agents are left from Gemini CLI |
+| **Gemini — Antigravity app and CLI (`agy`)** | **primary, equal to Claude Code** (Samuel, 2026-10-02) | natively (AGENTS.md and GEMINI.md) | GEMINI.md · `.agents/skills/` (generated) · `.agents/mcp_config.json` (Resolve, TickTick, Notion) · `.agents/hooks.json` (guard rails, session start) | from the profile | native, generated (`.agents/skills/<name>/SKILL.md`) | replaced Gemini CLI, whose Google sign-in ended for personal and AI Pro accounts on 2026-06-18. Setup, use and what each AI can reach: [[00-System/relay\|relay]]. Also Claude's read-only helper through `ask_gemini.py`. `.gemini/` and its generated agents are left from Gemini CLI |
 | **claude.ai chat** (web, phone) | none — no Brain access | — | copies of the 4 skills, uploaded there | — | copies; re-upload after editing (below) | skills only |
 | **Any other AI** | guest until Samuel says otherwise | natively if it reads AGENTS.md, else a pointer file or the boot prompt | — | reads the profile | reads the skill file | — |
 
 ### Write tiers
-- **primary** — full, per AGENTS.md. A role, not a model: Samuel moves it by editing this table and logging a decision.
-- **backup** — Gemini (Antigravity CLI). While Samuel works in it (Claude out of limits), writes like the primary under the same rules; prefixes commits `[gemini]`; the primary reviews them at its next session. As Claude's helper it is read-only unless Claude allows edits. [[00-System/relay|Relay]].
-- **guest** — reads everything; writes only to `01-Inbox/` and `06-Logs/` unless Samuel widens it for the session; never deletes or rewrites; prefixes commits `[<tool>]`. The primary reviews every guest commit at its next session and files or fixes what needs it.
+- **primary** — full, per AGENTS.md. A role, not a model: Samuel moves it by editing this table and logging a decision. **Two, equal** (Samuel, 2026-10-02: *"you both should be on the same level, and not Gemini being second in place"*): Claude Code and Gemini in Antigravity. Same rules, same guard rails (`.claude/settings.json`; `.agents/hooks.json` → `agy_guard.py`), same skills and agents. Either picks up the other's work and neither reviews the other as a senior. As Claude's headless helper (`ask_gemini.py`) Gemini is read-only for that one call: a mode, not a rank. [[00-System/relay|Relay]].
+- **guest** — reads everything; writes only to `01-Inbox/` and `06-Logs/` unless Samuel widens it for the session; never deletes or rewrites; prefixes commits `[<tool>]`. Whichever primary runs next reviews every guest commit and files or fixes what needs it.
 - **none** — no Brain access. Output reaches the Brain only when Samuel pastes it into `01-Inbox/`.
 
 ## Access modes
@@ -136,7 +135,7 @@ MCP is an open protocol, so the same servers work with any MCP-capable AI — bu
 | TickTick | tasks, schedule, focus — tasks live there, not in the Brain. Project map: [[00-System/ticktick-map\|TickTick map]] | orchestrator, personal-life | connected in Claude; in Gemini, TickTick's official server `https://mcp.ticktick.com/` in `.agents/mcp_config.json` (2026-10-02) |
 | DaVinci Resolve Studio | drives Resolve 21.1 | video-editor | connected in Claude; in Gemini, the same `ResolveMCP.exe` in `.agents/mcp_config.json` (2026-10-02) |
 | Google Calendar | read only: nothing is scheduled on it, meetings go in TickTick (Samuel 2026-09-23); four calendars, resolved by name | personal-life (read only) | connected in Claude; not yet in Gemini (needs a Google Cloud OAuth client, [[00-System/relay\|relay]]) |
-| Gmail · Google Drive · Notion · vidIQ | — | none until Samuel says so | connected in Claude, unused. Gmail and Drive not yet in Gemini |
+| Gmail · Google Drive · Notion · vidIQ | — | none until Samuel says so | connected in Claude, unused. In Gemini: Notion's official server `https://mcp.notion.com/mcp` in `.agents/mcp_config.json` (2026-10-02, sign-in pending); Gmail and Drive not yet; vidIQ has no server Gemini can use |
 
 ## Skills and claude.ai
 

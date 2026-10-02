@@ -34,7 +34,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 1. Three deletions the auto-mode classifier blocked for Claude on 2026-09-28: the empty `03-Areas/community/log.md`, the superseded `03-Areas/scripnals/assets/scripnals-script-buddy-ai-workflow-v1.pdf`, and the finished `03-Areas/video-editing/scripts/cache-queue-7m-founder.json`. Plus two merged cloud branches on GitHub.
 2. The credential-named file on the Desktop (`HighSignals App/highsignals-project-…json`): move it to a secret store or revoke it ([[00-System/security-flags|security flags]]).
-3. **Sign Gemini in to TickTick** (2026-10-02): agy is installed and signed in (AI Pro, Gemini 3.8 Flash), Resolve connects, the helper test passed, and the brief reads Antigravity's sessions. Left: `/mcp` → ticktick → authenticate. Gmail, Calendar, Drive need a Google Cloud OAuth client he creates: later, if he wants them ([[00-System/relay|relay]]).
+3. **Gemini sign-ins** (2026-10-02): in agy, `/mcp` → authenticate `ticktick` and `notion`; set Gemini 3.1 Pro (High) with `/model` (the app already has it). Optional, his yes each: Gmail, Calendar, Drive (a Google Cloud OAuth client he creates), computer use for Gemini (a third-party Windows MCP server), the Claude Code CLI so Gemini can hand Claude jobs ([[00-System/relay|relay]] → What each AI can reach).
 4. His principles (the one `02-Me` gap).
 5. Moving the `Talking heads and  B-rolls` folder into the B-roll archive (old Resolve projects may link to it).
 
@@ -43,7 +43,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 1. **Phone sync through Obsidian was never set up.** Decided (GitHub as the spine, Obsidian Git on Android, token in the plugin only), not installed. Cloud sessions cover the phone for now.
 2. **Video-editing project memory files not distilled** (Samuel: skip for now): `technical-learnings.md`, `taking-a-step-back-from-claude.md`, `cold-outreach-video.md`. Check overlap before spending tokens.
 3. **~200 conversations dropped at triage.** Full list: `01-Inbox/_imports/processed/triage.csv`.
-4. **Gemini = Antigravity CLI** (`agy` 1.2.14), the backup AI: `/pick-up`, `/hand-back`, Resolve and TickTick in `.agents/mcp_config.json` ([[00-System/relay|relay]]). The old Gemini CLI npm copy can be removed.
+4. **Gemini (Antigravity app and CLI) is an equal primary** since 2026-10-02 (Samuel): same rules, guard rails (`.agents/hooks.json` → `agy_guard.py`), skills and agents; `/pick-up` and `/hand-back` either way ([[00-System/relay|relay]]). The old Gemini CLI npm copy can be removed.
 
 ## Facts every session needs
 
