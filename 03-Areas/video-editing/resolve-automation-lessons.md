@@ -188,3 +188,9 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
 - **His NeoTextMotion preset (copied from the #3 four-box comp) brings a bevel and a dark shadow** that suits dark pills and muddies cream ones; setting `Char1RangeLow/High` alone didn't colour the range. On light pills use Text+ + CLS.
 - **A Moving dashed line shows its first brush dot before the write-on starts.** Key the Merge it enters (Blend 0 → 1 one frame before the draw).
 - Text+ left/right anchoring: `HorizontalLeftCenterRight` -1 / 1 with Center as that edge works; Size = px / 1013 matched the HTML px sizes.
+
+## 2026-10-02 — A self-linked node hangs Resolve on import or paste
+- Two nodes with the same name in a generated comp make the second link to itself (here `Merge_Chip` with Background `Merge_Chip`). `ImportFusionComp` and `comp.Paste()` both hung Resolve until it was killed: no dump, no `nvlddmkm` 153, no crash_archive entry. A generator must assert unique names and no link loops (SourceOp + expression references) before writing. `build_B04.py` in the Apollo job has the check.
+- **Swapping a clip's comp by paste:** `item.AddFusionComp()` adds "Composition 2" but doesn't make it current; `LoadFusionCompByName` loads it, yet `resolve.Fusion().CurrentComp` only follows after a page round trip (Edit → Fusion). Then paste into the empty comp (it holds MediaIn1, MediaOut1 and two audio tools), wire MediaOut1 last, and `DeleteFusionCompByName` the old version (works when the clip has two).
+- A Background node can carry saved-settings slots (`CustomData.Settings[n]`) with their own `ViewInfo … Pos`. When patching a node's flow position in text, match `\n\t\t\tViewInfo = OperatorInfo { Pos`, not the first `Pos =`.
+- `FlowView.SetScale(0.22)` zooms the node view out by script (`FrameAll` did nothing).
