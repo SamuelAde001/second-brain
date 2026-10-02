@@ -70,13 +70,13 @@ A tool without a capability falls back in plain terms: no `send-file` → give t
 |---|---|---|---|---|---|---|
 | **Claude Code** (desktop + CLI) | primary | CLAUDE.md imports it (`@AGENTS.md`) | CLAUDE.md · `.claude/settings.json` · `.claude/agents/` and `.claude/skills/` (generated) | native subagents, generated | native, generated | active |
 | **Claude Code — cloud session** (Claude app → Code, or claude.ai/code; for when the PC is off) | primary, **pushes to `main`** (Samuel, 2026-09-22) | CLAUDE.md imports it, from the GitHub clone | same files as above, from the repo | native, generated | native, generated | needs the Claude GitHub App on `SamuelAde001/second-brain` (Samuel installs it). **Has no:** local MCP servers (DaVinci Resolve), the Money sheet key or Windows variables, `01-Inbox/_imports/`. Good for brainstorming, planning, writing notes. Commits and pushes straight to `main` (Session protocol below) |
-| **Gemini CLI** | **backup** (Samuel, 2026-10-02) | `.gemini/settings.json` → `context.fileName` | GEMINI.md · `.gemini/settings.json` · `.gemini/commands/` (`/relay`, `/handback`, pointers to [[00-System/relay\|relay]]) · `.gemini/agents/` and `.agents/skills/` (generated) | native subagents, generated — told they are the backup | native, generated | Needs a real install (`npm install -g @google/gemini-cli`): the 0.60.0 copy sits in the Claude app's private storage, invisible to a normal terminal (2026-10-02). Resolve and TickTick in `.gemini/settings.json`; Gmail, Calendar, Drive through Google's Workspace extension. Setup: [[00-System/relay\|relay]]. Also Claude's helper through `ask_gemini.py` |
+| **Gemini — Antigravity CLI (`agy`)** | **backup** (Samuel, 2026-10-02) | natively (AGENTS.md and GEMINI.md) | GEMINI.md · `.agents/skills/` (generated) · `.agents/mcp_config.json` (Resolve, TickTick) | from the profile | native, generated (`.agents/skills/<name>/SKILL.md`) | replaced Gemini CLI, whose Google sign-in ended for personal and AI Pro accounts on 2026-06-18. Setup and use: [[00-System/relay\|relay]]. Also Claude's read-only helper through `ask_gemini.py`. `.gemini/` and its generated agents are left from Gemini CLI |
 | **claude.ai chat** (web, phone) | none — no Brain access | — | copies of the 4 skills, uploaded there | — | copies; re-upload after editing (below) | skills only |
 | **Any other AI** | guest until Samuel says otherwise | natively if it reads AGENTS.md, else a pointer file or the boot prompt | — | reads the profile | reads the skill file | — |
 
 ### Write tiers
 - **primary** — full, per AGENTS.md. A role, not a model: Samuel moves it by editing this table and logging a decision.
-- **backup** — Gemini CLI. While Samuel works in it (Claude out of limits), writes like the primary under the same rules; prefixes commits `[gemini]`; the primary reviews them at its next session. As Claude's helper it is read-only unless Claude allows edits. [[00-System/relay|Relay]].
+- **backup** — Gemini (Antigravity CLI). While Samuel works in it (Claude out of limits), writes like the primary under the same rules; prefixes commits `[gemini]`; the primary reviews them at its next session. As Claude's helper it is read-only unless Claude allows edits. [[00-System/relay|Relay]].
 - **guest** — reads everything; writes only to `01-Inbox/` and `06-Logs/` unless Samuel widens it for the session; never deletes or rewrites; prefixes commits `[<tool>]`. The primary reviews every guest commit at its next session and files or fixes what needs it.
 - **none** — no Brain access. Output reaches the Brain only when Samuel pastes it into `01-Inbox/`.
 
@@ -133,10 +133,10 @@ MCP is an open protocol, so the same servers work with any MCP-capable AI — bu
 
 | Server | Used for | Agent | State (per CLAUDE.md, 2026-09-20) |
 |---|---|---|---|
-| TickTick | tasks, schedule, focus — tasks live there, not in the Brain. Project map: [[00-System/ticktick-map\|TickTick map]] | orchestrator, personal-life | connected in Claude; in Gemini, TickTick's official server `https://mcp.ticktick.com/` (2026-10-02) |
-| DaVinci Resolve Studio | drives Resolve 21.1 | video-editor | connected in Claude; in Gemini, the same `ResolveMCP.exe` (2026-10-02) |
-| Google Calendar | read only: nothing is scheduled on it, meetings go in TickTick (Samuel 2026-09-23); four calendars, resolved by name | personal-life (read only) | connected in Claude; in Gemini through Google's Workspace extension (2026-10-02) |
-| Gmail · Google Drive · Notion · vidIQ | — | none until Samuel says so | connected in Claude, unused. Gmail and Drive also in Gemini through the Workspace extension (2026-10-02) |
+| TickTick | tasks, schedule, focus — tasks live there, not in the Brain. Project map: [[00-System/ticktick-map\|TickTick map]] | orchestrator, personal-life | connected in Claude; in Gemini, TickTick's official server `https://mcp.ticktick.com/` in `.agents/mcp_config.json` (2026-10-02) |
+| DaVinci Resolve Studio | drives Resolve 21.1 | video-editor | connected in Claude; in Gemini, the same `ResolveMCP.exe` in `.agents/mcp_config.json` (2026-10-02) |
+| Google Calendar | read only: nothing is scheduled on it, meetings go in TickTick (Samuel 2026-09-23); four calendars, resolved by name | personal-life (read only) | connected in Claude; not yet in Gemini (needs a Google Cloud OAuth client, [[00-System/relay\|relay]]) |
+| Gmail · Google Drive · Notion · vidIQ | — | none until Samuel says so | connected in Claude, unused. Gmail and Drive not yet in Gemini |
 
 ## Skills and claude.ai
 

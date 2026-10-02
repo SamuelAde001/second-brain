@@ -34,7 +34,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 1. Three deletions the auto-mode classifier blocked for Claude on 2026-09-28: the empty `03-Areas/community/log.md`, the superseded `03-Areas/scripnals/assets/scripnals-script-buddy-ai-workflow-v1.pdf`, and the finished `03-Areas/video-editing/scripts/cache-queue-7m-founder.json`. Plus two merged cloud branches on GitHub.
 2. The credential-named file on the Desktop (`HighSignals App/highsignals-project-…json`): move it to a secret store or revoke it ([[00-System/security-flags|security flags]]).
-3. **Set Gemini up** (2026-10-02, the backup AI): install it for real, trust the Brain folder, sign in with Google, `/mcp auth ticktick`, install the Workspace extension. Steps: [[00-System/relay|relay]] → one-time setup. Then Claude runs the first `ask_gemini.py` test.
+3. **Set Gemini up** (2026-10-02, the backup AI): install Antigravity CLI, sign in with Google, check `resolve` and `ticktick` under `/mcp`. Steps: [[00-System/relay|relay]] → one-time setup. Then Claude tests `ask_gemini.py` and makes `relay.py --from gemini` read agy's conversation store (its location isn't documented). Gmail, Calendar, Drive need a Google Cloud OAuth client he creates: later, if he wants them.
 4. His principles (the one `02-Me` gap).
 5. Moving the `Talking heads and  B-rolls` folder into the B-roll archive (old Resolve projects may link to it).
 
@@ -43,7 +43,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 1. **Phone sync through Obsidian was never set up.** Decided (GitHub as the spine, Obsidian Git on Android, token in the plugin only), not installed. Cloud sessions cover the phone for now.
 2. **Video-editing project memory files not distilled** (Samuel: skip for now): `technical-learnings.md`, `taking-a-step-back-from-claude.md`, `cold-outreach-video.md`. Check overlap before spending tokens.
 3. **~200 conversations dropped at triage.** Full list: `01-Inbox/_imports/processed/triage.csv`.
-4. **Gemini CLI** is set up in the Brain as the backup AI with `/relay`, `/handback`, Resolve and TickTick ([[00-System/relay|relay]]), but the only installed copy is inside the Claude app's storage, invisible to his terminal. No end-to-end test yet: waiting on Samuel's install and sign-in. Samuel gave the go-ahead for Brain content going to Google through it on 2026-10-02.
+4. **Gemini = Antigravity CLI** (`agy`), the backup AI: `/pick-up`, `/hand-back`, Resolve and TickTick in `.agents/mcp_config.json` ([[00-System/relay|relay]]). Gemini CLI's Google sign-in ended for his plan on 2026-06-18; the old npm copy can be removed. No end-to-end test yet.
 
 ## Facts every session needs
 

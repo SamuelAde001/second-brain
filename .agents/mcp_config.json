@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "resolve": {
+      "command": "C:/Program Files/Blackmagic Design/DaVinci Resolve/ResolveMCP.exe",
+      "args": []
+    },
+    "ticktick": {
+      "serverUrl": "https://mcp.ticktick.com/"
+    }
+  }
+}

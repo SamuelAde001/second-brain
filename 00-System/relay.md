@@ -4,82 +4,66 @@ area: system
 status: active
 updated: 2026-10-02
 source: interview
-tags: [portability, gemini, relay, limits]
+tags: [portability, gemini, antigravity, relay, limits]
 ---
 
-# Relay: Claude Code and Gemini CLI on the same work
+# Relay: Claude Code and Gemini on the same work
 
 > Samuel, 2026-10-02: *"I don't like the fact that my tokens can finish on Claude and I have to wait for Claude before I resume, I want Claude to be able to talk with Gemini CLI to get some work done, or I can continue some work that Claude was doing in Gemini CLI"*.
 
-Two ways the two AIs share work. Both run on the same Brain folder on the PC, so nothing needs copying: the files, the git history and the agents are the same. Gemini's limits are separate from Claude's, which is the point.
+**Gemini here means Antigravity CLI (`agy`).** Google stopped "Sign in with Google" for Gemini CLI on personal, AI Pro and AI Ultra accounts on 2026-06-18 and replaced it with Antigravity CLI, which comes with his Google One AI Pro plan. Found 2026-10-02 when his sign-in failed. Antigravity reads AGENTS.md and GEMINI.md itself, and runs the Brain's skills from `.agents/skills/`. Both AIs work on the same Brain folder on the PC, so nothing needs copying, and Gemini's limits are separate from Claude's.
 
 | Mode | Who drives | What happens |
 |---|---|---|
-| **Helper** | Claude Code | Claude hands Gemini a job with `00-System/scripts/ask_gemini.py` and gets the answer back, spending only the question and the answer from its own limits |
-| **Backup** | Samuel, in Gemini | Claude's limits ran out mid-task. Samuel opens Gemini in the Brain and types `/relay`; Gemini reads what Claude was doing and carries on. `/handback` when he returns to Claude |
+| **Helper** | Claude Code | Claude hands Gemini a reading job with `00-System/scripts/ask_gemini.py` and gets the answer back, spending only the question and the answer from its own limits |
+| **Backup** | Samuel, in Gemini | Claude's limits ran out mid-task. Samuel opens `agy` in the Brain and types `/pick-up`; Gemini reads what Claude was doing and carries on. `/hand-back` when he returns to Claude |
 
-The connective tissue is `00-System/scripts/relay.py`. It reads the other AI's latest chat history (kept outside the Brain, read-only, AGENTS.md §10) plus `git status` and the last commits, and prints a brief. It writes nothing. Claude can be cut off with no warning, so the brief is built from the transcript Claude Code saves as it goes, not from a note Claude has to remember to write.
+`00-System/scripts/relay.py` connects them. It reads Claude Code's latest saved transcript (outside the Brain, read-only, AGENTS.md §10) plus `git status` and the last commits, and prints a brief. It writes nothing. Claude can be cut off with no warning, so the brief comes from the transcript Claude Code saves as it goes, not from a note Claude has to remember to write. The way back to Claude is the relay log, which Gemini writes at `/hand-back`.
 
 ## One-time setup (Samuel)
 
-The copy of Gemini CLI found on 2026-09-21 sits inside the Claude app's private storage, which a normal terminal can't see. Install a real one. In PowerShell:
+In PowerShell (not Administrator):
 
-1. `npm install -g @google/gemini-cli`
-2. `cd` to the Brain folder, run `gemini`. When it asks, **trust this folder**: without trust Gemini turns off the Brain's settings, the MCP servers and the `/relay` and `/handback` commands.
-3. **Sign in with Google** (the account on Google One AI Pro: higher limits than a free account).
-4. In Gemini: `/mcp auth ticktick`. A browser opens; approve TickTick.
-5. Quit Gemini (`/quit`), then `gemini extensions install https://github.com/gemini-cli-extensions/workspace` for Gmail, Calendar and Drive. Start `gemini` again; it asks for the Google sign-in the first time a Workspace tool runs.
-6. Tell Claude it's done. Claude runs a test job through `ask_gemini.py`.
+1. Install: `irm https://antigravity.google/cli/install.ps1 | iex`. It installs to `%LOCALAPPDATA%\agy\bin` and adds itself to PATH; open a new terminal after.
+2. `cd "C:\Users\repzy\Desktop\My Second brain"`, then `agy`. Sign in with Google in the browser it opens (the AI Pro account). If it offers to import Gemini CLI settings, yes. If it asks to trust the folder, yes.
+3. In agy, type `/mcp`. Check that `resolve` and `ticktick` are listed (from `.agents/mcp_config.json`); sign in to TickTick when it asks (a browser opens).
+4. Tell Claude it's done. Claude runs a test job through `ask_gemini.py` and checks the brief from Gemini's side.
 
-Every login token stays in `%USERPROFILE%\.gemini\`, never in the Brain.
+Login tokens stay in Windows' credential manager and `%USERPROFILE%\.gemini\`, never in the Brain.
 
 ### What Gemini is connected to
 
 | Service | How | Notes |
 |---|---|---|
-| DaVinci Resolve | `ResolveMCP.exe`, Blackmagic's own server, in `.gemini/settings.json` | the same server Claude Code uses; Resolve must be open |
-| TickTick | TickTick's official server, `https://mcp.ticktick.com/`, in `.gemini/settings.json` | own login, made in step 4 |
-| Gmail, Google Calendar, Drive (also Docs, Sheets, Slides) | Google's Workspace extension for Gemini CLI, installed per PC | own login. The Brain's rules still hold: nothing is ever scheduled on Google Calendar, and nothing is sent from Gmail without Samuel's yes on that message |
+| DaVinci Resolve | `ResolveMCP.exe`, Blackmagic's own server, in `.agents/mcp_config.json` | the same server Claude Code uses; Resolve must be open |
+| TickTick | TickTick's official server, `https://mcp.ticktick.com/`, in `.agents/mcp_config.json` | own sign-in (step 3) |
+| Gmail, Google Calendar, Drive | **not yet.** Google's Workspace MCP servers for Antigravity need a Google Cloud project with an OAuth client that Samuel creates ([codelab](https://codelabs.developers.google.com/google-workspace-mcp-antigravity)). The OAuth secret goes in his user-level `%USERPROFILE%\.gemini\config\mcp_config.json`, never the Brain | when connected, the Brain's rules still hold: nothing is ever scheduled on Google Calendar, nothing is sent from Gmail without Samuel's yes on that message |
 
 ## Helper mode: Claude hands a job to Gemini
 
 ```
 python 00-System/scripts/ask_gemini.py "the task"
 python 00-System/scripts/ask_gemini.py --file <task file in the scratchpad>
-python 00-System/scripts/ask_gemini.py --write --file <task file>
 ```
 
-- **Read-only by default** (Gemini's plan mode): it reads, searches and uses the web, and cannot write or run commands. `--write` lets it create and edit files, but still not run commands, commit or push. Claude reviews `git diff` before anything is committed, and commits it itself with `[gemini]` at the start of the message.
-- **Hand over:** reading-heavy sweeps (many notes, long transcripts or exports), web research, summaries, first drafts of plain notes, checking a long file for something. Jobs where most of the cost is reading, not judging.
-- **Keep in Claude:** decisions, anything going to Samuel in his own voice (scripts, hooks), finance rule enforcement, editorial calls on a cut, and anything that writes to TickTick, Resolve or Google (in helper mode Gemini is read-only).
-- **Treat the answer as a draft.** Gemini's answer is checked like any source: no fact enters the Brain on its word alone if the note it cites says otherwise.
-- The task is written so it stands alone: Gemini starts fresh with AGENTS.md and nothing of Claude's conversation.
+- **Read-only.** agy runs headless in its default mode, which refuses any tool that isn't pre-approved. It reads, searches and answers. It never writes, runs commands or commits.
+- **Hand over:** reading-heavy sweeps (many notes, long transcripts or exports), web research, summaries, checking a long file for something. Jobs where most of the cost is reading, not judging.
+- **Keep in Claude:** decisions, anything in Samuel's voice (scripts, hooks), finance rule enforcement, editorial calls on a cut, and every write.
+- **Treat the answer as a draft.** It's checked like any source: nothing enters the Brain on Gemini's word alone if the note it cites says otherwise.
+- The task stands alone: Gemini starts fresh with AGENTS.md and nothing of Claude's conversation.
 
-## Picking up in Gemini (`/relay`)
+## Backup mode
 
-1. Read the relay brief that `/relay` injects: what Samuel last asked, Claude's last replies (each starts with the working agent's name), its last actions, the files it touched, uncommitted changes, the last commits.
-2. Read `00-System/build-state.md`, then the working agent's `07-Agents/<name>/profile.md` and `memory.md`. Act as that agent, and open every reply with its name, as AGENTS.md §7 says.
-3. In 3–5 lines tell Samuel: which agent, what was in progress, what is done (committed or on disk), and the next step. **Wait for his go** before acting. The brief can be wrong about intent.
-4. Carry on. Same rules as Claude: AGENTS.md in full, append-only logs, no deleting, no rewriting history, never store anything on the §6 list.
-5. Commit after each completed piece with `[gemini]` at the start of the message, then push.
-6. **TickTick, Resolve, Gmail, Calendar and Drive are connected** (table above), under the same rules as in Claude: the PA's TickTick rules, Resolve per the Editor's SOPs and [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]], read-only Calendar, no Gmail send without Samuel's yes. **Folders outside the Brain** only if Samuel started Gemini with `--include-directories` for that folder (`gemini --include-directories "C:/Users/repzy/Desktop/Video edits/Routerise"` for the Editor). Otherwise say so and stop at that step.
+**Picking up** — the [[pick-up]] skill: brief → load the working agent → tell Samuel what was in progress and the next step → wait for his go → carry on under AGENTS.md in full. Commits start with `[gemini]`; push after each.
 
-## Handing back to Claude (`/handback`)
+**What Gemini can't reach:** Gmail, Calendar and Drive until they're connected (above), and folders outside the Brain unless Samuel adds them to the session (for the Editor, the Route Rise folder). It says so and stops at that step.
 
-1. Commit any finished work (`[gemini] …`). Unfinished edits stay on disk, uncommitted, and are named in the log entry.
-2. Append one entry to [[06-Logs/relay/relay-log|the relay log]]: date and time (WAT), agent, what was done (with commit hashes), what is half-done, the next step.
-3. Push.
+**Handing back** — the [[hand-back]] skill: commit what's finished, one entry in [[06-Logs/relay/relay-log|the relay log]] (done, half-done, next step), push.
 
-## Claude coming back
-
-The session-start hook names any `[gemini]` commits made since Claude's last commit. When it does, or when Samuel says Gemini did some work, the General Manager:
-
-1. Reads the newest entry in the relay log, and `python 00-System/scripts/relay.py brief --from gemini` if the log has no entry for it.
-2. Reviews the `[gemini]` commits (`git show`), fixes or files what needs it with a dated correction where a log is involved, and says what it changed.
-3. Carries on from the next step.
+**Claude coming back:** the session-start hook names any `[gemini]` commits since Claude's last. The General Manager runs [[pick-up]] from its side: reads the newest relay-log entry, reviews the `[gemini]` commits, fixes or files what needs it (a dated correction where a log is involved), says what it changed, and carries on.
 
 ## Write tiers
 
-Gemini is the **backup** AI ([[00-System/portability|portability]] → write tiers): while Samuel is working in it, it writes like the primary under the same rules, prefixed `[gemini]`, and Claude reviews its commits. In helper mode it is read-only unless Claude passes `--write`.
+Gemini is the **backup** AI ([[00-System/portability|portability]] → write tiers): while Samuel works in it, it writes like the primary under the same rules, prefixed `[gemini]`, and Claude reviews its commits. As Claude's helper it is read-only.
 
 Back to [[00-System/portability|Portability]] · [[00-System/systems-register|Systems register]] · Constitution: [[AGENTS]]

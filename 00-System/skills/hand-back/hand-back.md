@@ -1,0 +1,21 @@
+---
+name: hand-back
+description: "End a stint of work so the other AI can pick it up: commit what's finished, log where the work stands in the relay log, push. Use when Samuel types /hand-back, or says 'Claude is back', 'going back to Claude', 'hand it back', 'stop here, Gemini', or before his limits run out on purpose. Not for picking work up (use pick-up)."
+effort: medium
+type: skill
+area: system
+status: active
+updated: 2026-10-02
+source: manual
+tags: [skill, relay, gemini]
+---
+
+# Hand back
+
+Protocol and rules: [[00-System/relay|Relay]]. This skill is its second half.
+
+1. **Commit what's finished**, one commit per piece. Gemini starts each message with `[gemini]`. Unfinished edits stay on disk, uncommitted.
+2. **Append one entry** to [[06-Logs/relay/relay-log|the relay log]], at the bottom:
+   `- YYYY-MM-DD HH:MM WAT · <from> → <to> · <agent> · done: <what, with commit hashes> · half-done: <files on disk, or none> · next: <the next step>`
+3. Commit the log entry, then **push** (fetch and merge `origin/main` first if the push is refused; never force).
+4. Tell Samuel in one line where it stands and what the other AI will do first.

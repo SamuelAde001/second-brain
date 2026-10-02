@@ -67,6 +67,13 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | [[morning-brief]] | Fixed times, must-dos, the client job and its deadline, anything overdue, in ten lines or fewer | 6:30am routine, or "what's on today" | 2026-09-27 | active |
 | [[weekly-review]] | Good week by his own bar, the numbers (must-dos, focus, habits, money line), what slipped and which pattern it matches, then next week planned with him | Sunday 3:00pm session, after [[sunday-check]] | 2026-09-27 | active |
 
+**Relay skills**, built 2026-10-02 for Claude ↔ Gemini hand-offs ([[00-System/relay|relay]]). Owner: the [[07-Agents/orchestrator/profile|orchestrator]]. Any AI runs them.
+
+| Skill | What it does | Trigger | Last used | Status |
+|-------|--------------|---------|-----------|--------|
+| [[pick-up]] | Brief from the other AI's session and git → which agent, what's done, next step → his go → carry on | `/pick-up`, or Claude ran out | — | active |
+| [[hand-back]] | Commit what's finished, one relay-log entry (done, half-done, next), push | `/hand-back`, or going back to Claude | — | active |
+
 **Content skills**, built 2026-09-22 from Samuel's answers. Owner: the [[07-Agents/content/profile|content agent]]. Both run in the main session.
 
 | Skill | What it does | Trigger | Last used | Status |
@@ -97,8 +104,8 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | `00-System/scripts/screen_time.py` | Reads StayFree's local data (PC apps, plus phone and Chrome sessions synced into its cache) from a temp copy and writes `06-Logs/screen-time/<date>.md`: social media by app and hour, 11pm–7am, and each session's times (background Chrome tabs excluded). `--check "HH:MM-HH:MM,…"` gives minutes inside work blocks. No flags prints today | 8:30pm by Task Scheduler ([[00-System/automations/screen-time\|screen time]]); by hand any time |
 | `00-System/scripts/money_ledger.py` | Read-only totals from the money ledger (`totals`, `pots`, `last`) and the delivered-projects record (`videos`) | instead of reading either file |
 | `00-System/scripts/session_start_sync.py` | Fetches GitHub, fast-forwards `main` (only on `main`, only fast-forward), lists any unmerged `claude/*` branches (a fallback: cloud sessions push to `main` since 2026-09-22), and names any `[gemini]` commits since Claude's last. Never merges, deletes or resets; always exits 0 | automatically, by the SessionStart hook |
-| `00-System/scripts/relay.py` | `brief --from claude\|gemini`: prints what the other AI's latest session was doing (Samuel's last asks, its last replies and actions, files touched) plus uncommitted changes and recent commits. Reads the transcripts read-only, writes nothing ([[00-System/relay\|relay]]) | by Gemini's `/relay`; by Claude when Gemini did work |
-| `00-System/scripts/ask_gemini.py` | Hands a job to Gemini CLI headless and prints its answer. Read-only by default; `--write` allows file edits, never commands or commits ([[00-System/relay\|relay]]) | by Claude, for reading-heavy jobs |
+| `00-System/scripts/relay.py` | `brief --from claude`: prints what Claude Code's latest session was doing (Samuel's last asks, its last replies and actions, files touched) plus uncommitted changes and recent commits. Reads the transcript read-only, writes nothing. `--from gemini` waits on agy's conversation store ([[00-System/relay\|relay]]) | by [[pick-up]] |
+| `00-System/scripts/ask_gemini.py` | Hands a reading job to Gemini (Antigravity CLI, headless) and prints its answer. Read-only; never writes or commits ([[00-System/relay\|relay]]) | by Claude, for reading-heavy jobs |
 | `08-Archive/retired-scripts/split_conversations.py` | Split the Claude chat export into one file per conversation (Phase 2 migration). Archived 2026-09-28 | one-off, done |
 
 ## How the Editor's pipeline runs — no pipeline skills

@@ -8,7 +8,8 @@ runs out of limits mid-task, the other reads this brief instead of starting cold
 
 It prints markdown to stdout and writes nothing. It reads, read-only:
   - Claude Code transcripts: %USERPROFILE%/.claude/projects/<this Brain>/*.jsonl
-  - Gemini CLI chats:        %USERPROFILE%/.gemini/tmp/*/chats/*
+  - Gemini CLI chats:        %USERPROFILE%/.gemini/tmp/*/chats/*  (Gemini CLI, retired 2026-10-02;
+                             Antigravity CLI's store is not documented yet: Gemini hands back via the relay log)
   - git status and git log of the Brain
 Granted in AGENTS.md section 10. Protocol: 00-System/relay.md.
 """
