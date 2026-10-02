@@ -8,8 +8,9 @@ runs out of limits mid-task, the other reads this brief instead of starting cold
 
 It prints markdown to stdout and writes nothing. It reads, read-only:
   - Claude Code transcripts: %USERPROFILE%/.claude/projects/<this Brain>/*.jsonl
-  - Gemini CLI chats:        %USERPROFILE%/.gemini/tmp/*/chats/*  (Gemini CLI, retired 2026-10-02;
-                             Antigravity CLI's store is not documented yet: Gemini hands back via the relay log)
+  - Antigravity CLI:         %USERPROFILE%/.gemini/antigravity-cli/ (history.jsonl picks the latest
+                             conversation in this Brain; brain/<id>/.system_generated/logs/transcript_full.jsonl)
+  - Gemini CLI chats:        %USERPROFILE%/.gemini/tmp/*/chats/*  (fallback; Gemini CLI retired 2026-10-02)
   - git status and git log of the Brain
 Granted in AGENTS.md section 10. Protocol: 00-System/relay.md.
 """
@@ -118,7 +119,71 @@ def gemini_text(content):
     return ""
 
 
+AGY = os.path.join(HOME, ".gemini", "antigravity-cli")
+FILE_ARGS = ("TargetFile", "AbsolutePath", "FilePath", "Path")
+
+
+def antigravity_session():
+    """Latest interactive Antigravity CLI conversation in this Brain (found 2026-10-02, agy 1.2.14).
+    history.jsonl maps each typed prompt to its workspace and conversation; headless ask_gemini.py runs
+    don't appear there, so they're skipped. Steps are in brain/<id>/.system_generated/logs/transcript_full.jsonl."""
+    hist = os.path.join(AGY, "history.jsonl")
+    if not os.path.exists(hist):
+        return None
+    conv = None
+    for line in open(hist, encoding="utf-8", errors="replace"):
+        try:
+            h = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if h.get("conversationId") and os.path.normcase(h.get("workspace", "")) == os.path.normcase(BRAIN):
+            conv = h["conversationId"]
+    if not conv:
+        return None
+    logs = os.path.join(AGY, "brain", conv, ".system_generated", "logs")
+    path = next((p for p in (os.path.join(logs, "transcript_full.jsonl"), os.path.join(logs, "transcript.jsonl"))
+                 if os.path.exists(p)), None)
+    s = {"tool": "Gemini (Antigravity CLI)", "id": conv, "title": "", "start": None, "end": None,
+         "asks": [], "replies": [], "actions": [], "files": []}
+    ann = os.path.join(AGY, "annotations", conv + ".pbtxt")
+    if os.path.exists(ann):
+        m = re.search(r'title:"([^"]*)"', open(ann, encoding="utf-8", errors="replace").read())
+        s["title"] = m.group(1) if m else ""
+    if not path:
+        return s
+    for line in open(path, encoding="utf-8", errors="replace"):
+        try:
+            r = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        ts = r.get("created_at")
+        s["start"] = s["start"] or ts
+        s["end"] = ts or s["end"]
+        if r.get("type") == "USER_INPUT":
+            text = re.sub(r"</?USER_REQUEST>", "", r.get("content") or "")
+            text = clean(text, ASK_CHARS)
+            if text:
+                s["asks"].append((ts, text))
+        elif r.get("type") == "PLANNER_RESPONSE":
+            if (r.get("content") or "").strip():
+                s["replies"].append((ts, clean(r["content"], REPLY_CHARS)))
+            for c in r.get("tool_calls") or []:
+                if not isinstance(c, dict):
+                    continue
+                args = c.get("args") or {}
+                key = next((k for k in FILE_ARGS if args.get(k)), None)
+                desc = args.get(key) if key else (args.get("CommandLine") or args.get("toolSummary") or "")
+                s["actions"].append(f"{c.get('name', '?')}: {clean(' '.join(str(desc).split()), ACTION_CHARS)}")
+                if key and ("write" in c.get("name", "") or "replace" in c.get("name", "") or "edit" in c.get("name", "")):
+                    s["files"].append(args[key])
+    return s
+
+
 def gemini_session():
+    s = antigravity_session()
+    if s:
+        return s
+    # Gemini CLI (retired 2026-10-02): ~/.gemini/tmp/*/chats/*
     candidates = []
     for f in glob.glob(os.path.join(HOME, ".gemini", "tmp", "*", "chats", "*")):
         if not f.endswith((".json", ".jsonl")):

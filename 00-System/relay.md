@@ -18,7 +18,7 @@ tags: [portability, gemini, antigravity, relay, limits]
 | **Helper** | Claude Code | Claude hands Gemini a reading job with `00-System/scripts/ask_gemini.py` and gets the answer back, spending only the question and the answer from its own limits |
 | **Backup** | Samuel, in Gemini | Claude's limits ran out mid-task. Samuel opens `agy` in the Brain and types `/pick-up`; Gemini reads what Claude was doing and carries on. `/hand-back` when he returns to Claude |
 
-`00-System/scripts/relay.py` connects them. It reads Claude Code's latest saved transcript (outside the Brain, read-only, AGENTS.md §10) plus `git status` and the last commits, and prints a brief. It writes nothing. Claude can be cut off with no warning, so the brief comes from the transcript Claude Code saves as it goes, not from a note Claude has to remember to write. The way back to Claude is the relay log, which Gemini writes at `/hand-back`.
+`00-System/scripts/relay.py` connects them. It reads the other AI's latest saved session (Claude Code's transcript, or Antigravity's under `%USERPROFILE%\.gemini\antigravity-cli\`; outside the Brain, read-only, AGENTS.md §10) plus `git status` and the last commits, and prints a brief. It writes nothing. Claude can be cut off with no warning, so the brief comes from the transcript Claude Code saves as it goes, not from a note Claude has to remember to write. Going back, Claude reads the relay log entry Gemini writes at `/hand-back`, and the brief from Gemini's session if there is no entry.
 
 ## One-time setup (Samuel)
 
@@ -26,8 +26,8 @@ In PowerShell (not Administrator):
 
 1. Install: `irm https://antigravity.google/cli/install.ps1 | iex`. It installs to `%LOCALAPPDATA%\agy\bin` and adds itself to PATH; open a new terminal after.
 2. `cd "C:\Users\repzy\Desktop\My Second brain"`, then `agy`. Sign in with Google in the browser it opens (the AI Pro account). If it offers to import Gemini CLI settings, yes. If it asks to trust the folder, yes.
-3. In agy, type `/mcp`. Check that `resolve` and `ticktick` are listed (from `.agents/mcp_config.json`); sign in to TickTick when it asks (a browser opens).
-4. Tell Claude it's done. Claude runs a test job through `ask_gemini.py` and checks the brief from Gemini's side.
+3. In agy, type `/mcp`. `resolve` and `ticktick` are listed (from `.agents/mcp_config.json`). TickTick shows *Unauthorized* until you sign in: arrow to `ticktick`, Enter, choose authenticate, approve in the browser, paste the code back if it asks.
+4. Tell Claude it's done. (Sign-in and the helper test passed 2026-10-02.)
 
 Login tokens stay in Windows' credential manager and `%USERPROFILE%\.gemini\`, never in the Brain.
 
@@ -46,7 +46,7 @@ python 00-System/scripts/ask_gemini.py "the task"
 python 00-System/scripts/ask_gemini.py --file <task file in the scratchpad>
 ```
 
-- **Read-only.** agy runs headless in its default mode, which refuses any tool that isn't pre-approved. It reads, searches and answers. It never writes, runs commands or commits.
+- **Read-only.** agy runs headless in its default mode, which refuses any tool that isn't pre-approved. It reads, searches and answers. It never writes, runs commands or commits. Tested 2026-10-02: told to create a file, it tried and the file was never made.
 - **Hand over:** reading-heavy sweeps (many notes, long transcripts or exports), web research, summaries, checking a long file for something. Jobs where most of the cost is reading, not judging.
 - **Keep in Claude:** decisions, anything in Samuel's voice (scripts, hooks), finance rule enforcement, editorial calls on a cut, and every write.
 - **Treat the answer as a draft.** It's checked like any source: nothing enters the Brain on Gemini's word alone if the note it cites says otherwise.
