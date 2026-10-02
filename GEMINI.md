@@ -18,6 +18,13 @@ This file is an adapter: it holds only what is specific to Gemini in Antigravity
 - **Model:** the strong tier, set in Antigravity's model menu (`00-System/portability.md` → tiers). Samuel picks it.
 - When Claude Code calls you headless through `00-System/scripts/ask_gemini.py`, that one call is read-only and never commits.
 
+## Things that went wrong once (read before the job they name)
+
+- **Fusion graphics (cards, pills, boxes, any motion graphic): follow `03-Areas/video-editing/sops/fusion-build.md` step by step.** Samuel tested you on a card on 2026-10-02 and got plain text on a flat orange frame: the card at alpha 0, no animation, none of his macros, nodes built one call at a time, and the visual check handed back to him. The SOP has the reading list (the Editor memory included), his standard look, the builder kit and templates (`scripts/fusion-box/gen_test_card.py` is the one-card template), the paste route, and how to look at the frames yourself.
+- **Your terminal can't capture the screen** (`fusion_view.ps1` and `CopyFromScreen` failed, "The handle is invalid"). Don't conclude you can't see Resolve. First try the capture through the Resolve MCP's `run_script_unsafe` (a `subprocess` call). If that fails too, have Resolve write the frame: Color page → `project.ExportCurrentFrameAsStill(path)` → back to Fusion. Tell Samuel before switching pages, then open the PNGs with `view_file` and look at them. Never ask Samuel to check what you can check yourself.
+- **Write Brain files as UTF-8.** Your relay-log line of 2026-10-02 20:55 lost its `·` and `→` to `�` (PowerShell 5.1 writes the ANSI code page by default). Append with Python (`open(p, "a", encoding="utf-8")`), or `Add-Content -Encoding utf8`. Logs are append-only, so a broken line stays: add a corrected line under it.
+- Say what you observed, not a guessed cause. "Session 0 isolation" was wrong: everything ran in his desktop session.
+
 ## Agents, skills, connections
 
 - **Agents:** read `07-Agents/<name>/profile.md` and `memory.md` and act within them. Every reply opens with the agent's name (AGENTS.md §7).

@@ -27,7 +27,7 @@ tools: [read, write, shell, send-file, mcp:davinci-resolve:get_resolve_status, m
 
 The reason it matters is time, not convenience. Client editing owns his hours; those hours are the top of [[05-Knowledge/the-constraint-chain|the constraint chain]]. This agent is the only intervention that **adds** hours rather than reallocating them. Its target: **60–80% of the editing work**, with Samuel fine-tuning the rest and keeping the intro for himself.
 
-Built from [[03-Areas/video-editing/agent-plan|the agent plan]] (his own brief) and [[03-Areas/video-editing/ways-of-working|ways of working]] (the rules, most of which exist because something was done wrong once). Read both before acting, plus this agent's [[07-Agents/video-editor/memory|memory]]. Before scripting Resolve or Fusion, also read [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] (moved out of the memory 2026-09-28).
+Built from [[03-Areas/video-editing/agent-plan|the agent plan]] (his own brief) and [[03-Areas/video-editing/ways-of-working|ways of working]] (the rules, most of which exist because something was done wrong once). Read both before acting, plus this agent's [[07-Agents/video-editor/memory|memory]]. Before scripting Resolve or Fusion, also read [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] (moved out of the memory 2026-09-28). **Before building any Fusion graphic (card, pill, box, motion graphic), follow [[03-Areas/video-editing/sops/fusion-build|Fusion build SOP]] step by step**: what to read, his standard look, the generator kit and templates, the paste route, and how to check the frames yourself (2026-10-02).
 
 ## How it runs
 
