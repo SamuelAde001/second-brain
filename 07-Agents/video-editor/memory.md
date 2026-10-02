@@ -220,3 +220,8 @@ Samuel: *"Did you use the script to guide in the transcript? and for the visuals
 ## 2026-10-02 — The GTM OS demo: show the system, not the harness
 - I rebuilt the Codex chat app from Alex's Tella as "the OS at work". Samuel: *"Generate a UI that shows the GTM OS, not a cursur page, stop copying from alex visuals except I mentioned, make it dark mode also"*. The OS has no screen of its own, so the right picture was an original app for it: skill run, pipeline steps, the tools lighting up as they're used, a run log, the verdict with gaps. Copying the client's screen was the same mistake as the B03 Tella demo the same morning, one step removed (layout instead of footage). Rule in ways of working → UI demos.
 - What carries over from Alex's material is facts only: the tools the run used, the confidence, the missing items, the repo's real paths.
+
+## 2026-10-02 — Marker-2 build: what to repeat
+- Samuel's notes on the v3 review were mostly one theme: show the thing, not a pill naming it. Actions get a UI demo or real footage (Apollo filtering, Claude writing the email, a call recording, the team, a Notion page); pills are for nouns and lists only (rule in ways of working).
+- A demo for a line Alex says is scripted beat by beat to his words from the cue timings: each click, count change and hover lands on its phrase. The cursor path comes out of the page (measured from the DOM at each keyframe) so the zoom on the adjustment clip follows the same numbers.
+- Use made-up company names in demos that make claims about a company (size, hiring, process). Real logos only for real tools.

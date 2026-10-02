@@ -109,6 +109,15 @@ After the Apollo stills: *"You tend to use the same Design every time, the same 
 - **The ground never changes: BGORANGE or the A-roll.** He sent all 13 gallery designs on grey, cream or orange grounds back with *"The background must be BGorange"*, and *"I want a consistent background"*. The fills change; the ground doesn't.
 - From his round-1 review of the gallery: no 3D tilt or rotation on cards (*"I don't like the rotation"*); side graphics like a card deck stay small; a quote goes on the footage of the person who said it; results go in one card, not a grid of tiles; a progress indicator is a bar that fills, not dots; nothing moving in the background behind a pill (*"don't use that background wave"*); a Dynamic Island notification over the A-roll rises from the bottom.
 
+## Show actions, don't label them — Samuel, 2026-10-02
+
+On the Apollo v3 review (marker 952–3017): *"Please learn to use real world examples, screenshots, real UI, or mockup demo's than just text in pills alone to show actions, Text in pills can show list or Nouns, but not for actions"*.
+
+- When Alex describes something being **done** (finding companies, filtering, writing an email, recording calls, notes from a campaign), show it being done: a UI demo built from scratch, a real screenshot, or real B-roll, full screen.
+- Pills and tags carry **nouns and lists** only (CALLS, TEAM KNOWLEDGE, the three questions). Never a pill that names an action in place of showing it.
+- No helper text he didn't ask for: no "same on paper", no "connected" pill, no small status tags like "NOT INCLUDED".
+- Elements enter from where they belong (two companies from the left and right, not out of the centre) and leave when their point is made.
+
 ## UI demos and screen recordings — Samuel, 2026-09-27
 
 - *"All Demos, screen recording, screenshot UI type of visuals must be full screen, like how it will actually look when I am browsing through the app or software."* Never a windowed UI tilted on a background.
