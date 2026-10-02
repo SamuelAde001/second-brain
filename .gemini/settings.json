@@ -1,5 +1,16 @@
 {
   "context": {
     "fileName": ["AGENTS.md", "GEMINI.md"]
+  },
+  "mcpServers": {
+    "resolve": {
+      "command": "C:/Program Files/Blackmagic Design/DaVinci Resolve/ResolveMCP.exe",
+      "args": [],
+      "description": "DaVinci Resolve Studio (Blackmagic's own MCP server). Same server Claude Code uses."
+    },
+    "ticktick": {
+      "httpUrl": "https://mcp.ticktick.com/",
+      "description": "TickTick's official MCP server. Sign in once with /mcp auth ticktick."
+    }
   }
 }

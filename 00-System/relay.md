@@ -22,10 +22,24 @@ The connective tissue is `00-System/scripts/relay.py`. It reads the other AI's l
 
 ## One-time setup (Samuel)
 
-1. Open a terminal in the Brain folder and run `gemini`.
-2. When it asks, **trust this folder**. Without trust, Gemini ignores `.gemini/settings.json` and the `/relay` and `/handback` commands.
-3. **Sign in with Google** (the account on Google One AI Pro: higher Gemini CLI limits than a free account). The login token stays in `%USERPROFILE%\.gemini\`, never in the Brain.
-4. Tell Claude it's done. Claude runs a test job through `ask_gemini.py`.
+The copy of Gemini CLI found on 2026-09-21 sits inside the Claude app's private storage, which a normal terminal can't see. Install a real one. In PowerShell:
+
+1. `npm install -g @google/gemini-cli`
+2. `cd` to the Brain folder, run `gemini`. When it asks, **trust this folder**: without trust Gemini turns off the Brain's settings, the MCP servers and the `/relay` and `/handback` commands.
+3. **Sign in with Google** (the account on Google One AI Pro: higher limits than a free account).
+4. In Gemini: `/mcp auth ticktick`. A browser opens; approve TickTick.
+5. Quit Gemini (`/quit`), then `gemini extensions install https://github.com/gemini-cli-extensions/workspace` for Gmail, Calendar and Drive. Start `gemini` again; it asks for the Google sign-in the first time a Workspace tool runs.
+6. Tell Claude it's done. Claude runs a test job through `ask_gemini.py`.
+
+Every login token stays in `%USERPROFILE%\.gemini\`, never in the Brain.
+
+### What Gemini is connected to
+
+| Service | How | Notes |
+|---|---|---|
+| DaVinci Resolve | `ResolveMCP.exe`, Blackmagic's own server, in `.gemini/settings.json` | the same server Claude Code uses; Resolve must be open |
+| TickTick | TickTick's official server, `https://mcp.ticktick.com/`, in `.gemini/settings.json` | own login, made in step 4 |
+| Gmail, Google Calendar, Drive (also Docs, Sheets, Slides) | Google's Workspace extension for Gemini CLI, installed per PC | own login. The Brain's rules still hold: nothing is ever scheduled on Google Calendar, and nothing is sent from Gmail without Samuel's yes on that message |
 
 ## Helper mode: Claude hands a job to Gemini
 
@@ -37,7 +51,7 @@ python 00-System/scripts/ask_gemini.py --write --file <task file>
 
 - **Read-only by default** (Gemini's plan mode): it reads, searches and uses the web, and cannot write or run commands. `--write` lets it create and edit files, but still not run commands, commit or push. Claude reviews `git diff` before anything is committed, and commits it itself with `[gemini]` at the start of the message.
 - **Hand over:** reading-heavy sweeps (many notes, long transcripts or exports), web research, summaries, first drafts of plain notes, checking a long file for something. Jobs where most of the cost is reading, not judging.
-- **Keep in Claude:** decisions, anything going to Samuel in his own voice (scripts, hooks), finance rule enforcement, editorial calls on a cut, and anything that needs an MCP server (TickTick, Resolve, Calendar) — Gemini has none.
+- **Keep in Claude:** decisions, anything going to Samuel in his own voice (scripts, hooks), finance rule enforcement, editorial calls on a cut, and anything that writes to TickTick, Resolve or Google (in helper mode Gemini is read-only).
 - **Treat the answer as a draft.** Gemini's answer is checked like any source: no fact enters the Brain on its word alone if the note it cites says otherwise.
 - The task is written so it stands alone: Gemini starts fresh with AGENTS.md and nothing of Claude's conversation.
 
@@ -48,7 +62,7 @@ python 00-System/scripts/ask_gemini.py --write --file <task file>
 3. In 3–5 lines tell Samuel: which agent, what was in progress, what is done (committed or on disk), and the next step. **Wait for his go** before acting. The brief can be wrong about intent.
 4. Carry on. Same rules as Claude: AGENTS.md in full, append-only logs, no deleting, no rewriting history, never store anything on the §6 list.
 5. Commit after each completed piece with `[gemini]` at the start of the message, then push.
-6. **Cannot do in Gemini:** anything that needs TickTick, DaVinci Resolve, Google Calendar, Gmail or Drive (not connected), and folders outside the Brain unless Samuel started Gemini with `--include-directories` for that folder (the Route Rise folder, for the Editor). Say so and stop at that step.
+6. **TickTick, Resolve, Gmail, Calendar and Drive are connected** (table above), under the same rules as in Claude: the PA's TickTick rules, Resolve per the Editor's SOPs and [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]], read-only Calendar, no Gmail send without Samuel's yes. **Folders outside the Brain** only if Samuel started Gemini with `--include-directories` for that folder (`gemini --include-directories "C:/Users/repzy/Desktop/Video edits/Routerise"` for the Editor). Otherwise say so and stop at that step.
 
 ## Handing back to Claude (`/handback`)
 

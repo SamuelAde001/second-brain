@@ -69,7 +69,7 @@ TARGETS = {
             "shell": ["run_shell_command"],
             "web": ["web_fetch", "google_web_search"],
         },
-        "mcp_servers": {},
+        "mcp_servers": {"davinci-resolve": "resolve", "ticktick": "ticktick"},  # set in .gemini/settings.json, 2026-10-02
         "mcp_name": "mcp_{server}_{tool}",
         "tools_format": "yaml-list",
         "extra_fields": ["kind: local"],

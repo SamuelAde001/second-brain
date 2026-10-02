@@ -70,7 +70,7 @@ A tool without a capability falls back in plain terms: no `send-file` → give t
 |---|---|---|---|---|---|---|
 | **Claude Code** (desktop + CLI) | primary | CLAUDE.md imports it (`@AGENTS.md`) | CLAUDE.md · `.claude/settings.json` · `.claude/agents/` and `.claude/skills/` (generated) | native subagents, generated | native, generated | active |
 | **Claude Code — cloud session** (Claude app → Code, or claude.ai/code; for when the PC is off) | primary, **pushes to `main`** (Samuel, 2026-09-22) | CLAUDE.md imports it, from the GitHub clone | same files as above, from the repo | native, generated | native, generated | needs the Claude GitHub App on `SamuelAde001/second-brain` (Samuel installs it). **Has no:** local MCP servers (DaVinci Resolve), the Money sheet key or Windows variables, `01-Inbox/_imports/`. Good for brainstorming, planning, writing notes. Commits and pushes straight to `main` (Session protocol below) |
-| **Gemini CLI** | **backup** (Samuel, 2026-10-02) | `.gemini/settings.json` → `context.fileName` | GEMINI.md · `.gemini/settings.json` · `.gemini/commands/` (`/relay`, `/handback`, pointers to [[00-System/relay\|relay]]) · `.gemini/agents/` and `.agents/skills/` (generated) | native subagents, generated — told they are the backup | native, generated | 0.60.0, npm global, on PATH (checked 2026-10-02). Needs Samuel's Google sign-in once. No MCP servers connected. Also Claude's helper through `ask_gemini.py` |
+| **Gemini CLI** | **backup** (Samuel, 2026-10-02) | `.gemini/settings.json` → `context.fileName` | GEMINI.md · `.gemini/settings.json` · `.gemini/commands/` (`/relay`, `/handback`, pointers to [[00-System/relay\|relay]]) · `.gemini/agents/` and `.agents/skills/` (generated) | native subagents, generated — told they are the backup | native, generated | Needs a real install (`npm install -g @google/gemini-cli`): the 0.60.0 copy sits in the Claude app's private storage, invisible to a normal terminal (2026-10-02). Resolve and TickTick in `.gemini/settings.json`; Gmail, Calendar, Drive through Google's Workspace extension. Setup: [[00-System/relay\|relay]]. Also Claude's helper through `ask_gemini.py` |
 | **claude.ai chat** (web, phone) | none — no Brain access | — | copies of the 4 skills, uploaded there | — | copies; re-upload after editing (below) | skills only |
 | **Any other AI** | guest until Samuel says otherwise | natively if it reads AGENTS.md, else a pointer file or the boot prompt | — | reads the profile | reads the skill file | — |
 
@@ -133,10 +133,10 @@ MCP is an open protocol, so the same servers work with any MCP-capable AI — bu
 
 | Server | Used for | Agent | State (per CLAUDE.md, 2026-09-20) |
 |---|---|---|---|
-| TickTick | tasks, schedule, focus — tasks live there, not in the Brain. Project map: [[00-System/ticktick-map\|TickTick map]] | orchestrator, personal-life | connected in Claude |
-| DaVinci Resolve Studio | drives Resolve 21.1 | video-editor | connected in Claude |
-| Google Calendar | read only: nothing is scheduled on it, meetings go in TickTick (Samuel 2026-09-23); four calendars, resolved by name | personal-life (read only) | connected in Claude |
-| Gmail · Google Drive · Notion · vidIQ | — | none until Samuel says so | connected in Claude, unused |
+| TickTick | tasks, schedule, focus — tasks live there, not in the Brain. Project map: [[00-System/ticktick-map\|TickTick map]] | orchestrator, personal-life | connected in Claude; in Gemini, TickTick's official server `https://mcp.ticktick.com/` (2026-10-02) |
+| DaVinci Resolve Studio | drives Resolve 21.1 | video-editor | connected in Claude; in Gemini, the same `ResolveMCP.exe` (2026-10-02) |
+| Google Calendar | read only: nothing is scheduled on it, meetings go in TickTick (Samuel 2026-09-23); four calendars, resolved by name | personal-life (read only) | connected in Claude; in Gemini through Google's Workspace extension (2026-10-02) |
+| Gmail · Google Drive · Notion · vidIQ | — | none until Samuel says so | connected in Claude, unused. Gmail and Drive also in Gemini through the Workspace extension (2026-10-02) |
 
 ## Skills and claude.ai
 

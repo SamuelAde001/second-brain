@@ -170,3 +170,8 @@ Samuel: *"I don't like the fact that my tokens can finish on Claude and I have t
 **Read access added:** `relay.py` reads Claude Code's transcripts and Gemini's chats outside the Brain, read-only, printing to stdout only (AGENTS.md §10).
 **Why backup and not guest:** a guest writes only to `01-Inbox/` and `06-Logs/`, so it could not continue any real task. Full write with `[gemini]` commits and Claude's review keeps the record clean.
 **Not connected in Gemini:** TickTick, Resolve, Calendar, Gmail, Drive. Steps that need them wait for Claude.
+
+## 2026-10-02 — Gemini gets TickTick, Resolve, Gmail, Calendar and Drive
+
+**What:** Samuel: *"I want Gemini to be able to do TickTick, DaVinci Resolve, Calendar, Gmail and Drive"*. `.gemini/settings.json` now connects Blackmagic's `ResolveMCP.exe` (the same server Claude Code uses) and TickTick's official server `https://mcp.ticktick.com/` (its own sign-in). Gmail, Calendar and Drive come through Google's Workspace extension for Gemini CLI, installed per PC. The Brain's rules carry over unchanged: nothing scheduled on Google Calendar, no Gmail send without his yes on that message, the PA's TickTick rules, the Editor's Resolve SOPs. [[00-System/relay|Relay]] → What Gemini is connected to.
+**Correction to the entry above:** Gemini CLI is not on his PATH. The 0.60.0 copy lives in the Claude app's private storage, which only Claude's own shell sees. He installs a real copy with `npm install -g @google/gemini-cli`.
