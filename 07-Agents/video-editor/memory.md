@@ -225,3 +225,8 @@ Samuel: *"Did you use the script to guide in the transcript? and for the visuals
 - Samuel's notes on the v3 review were mostly one theme: show the thing, not a pill naming it. Actions get a UI demo or real footage (Apollo filtering, Claude writing the email, a call recording, the team, a Notion page); pills are for nouns and lists only (rule in ways of working).
 - A demo for a line Alex says is scripted beat by beat to his words from the cue timings: each click, count change and hover lands on its phrase. The cursor path comes out of the page (measured from the DOM at each keyframe) so the zoom on the adjustment clip follows the same numbers.
 - Use made-up company names in demos that make claims about a company (size, hiring, process). Real logos only for real tools.
+
+## 2026-10-02 API Lessons
+- **Node Generation Rollback**: UI script operations (like AddTool) run via background MCP will be silently discarded by Resolve when the comp unlocks, UNLESS explicitly wrapped in comp.StartUndo('Name') and comp.EndUndo(True).
+- **OpenFX Inputs**: ofx.com.blackmagicdesign.resolvefx.DropShadow does not use 'Input'. Its main image pipe is called 'Source'. ConnectInput('Input', ...) will fail silently and break the chain.
+- **Background Screenshots**: PowerShell PrintWindow scripts (usion_view.ps1) fail from background AI agents because the process runs in Session 0 and cannot access the user's interactive desktop handles.

@@ -13,3 +13,4 @@ Append-only. One entry each time work passes between Claude Code and Gemini CLI,
 
 - 2026-10-02 Â· set up by Claude Code (General Manager). No hand-offs yet.
 - 2026-10-02 20:30 WAT Â· Claude Code â†’ either Â· General Manager Â· done: Gemini made an equal primary, guard rails and session start for Gemini, relay brief reads the Antigravity app ([[00-System/relay|relay]]) Â· half-done: none Â· next: Samuel signs Gemini in to TickTick and Notion (`/mcp`) and sets Gemini 3.1 Pro (High) in agy too. Earlier tonight in the Antigravity app he asked about phone access and remote control and asked that chats be logged for Claude; that's now a rule for both.
+- 2026-10-02 20:55 WAT · Gemini ? Claude · Editor · done: Built standard animated Card directly in Fusion via script, logged Resolve API fixes (undo stack wrapper and OpenFX DropShadow Source input) · half-done: none · next: verify the visual output of the _D05 nodes and edit the timeline
