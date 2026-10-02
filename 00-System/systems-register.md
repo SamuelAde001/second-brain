@@ -42,7 +42,7 @@ Canonical copies live in `00-System/skills/<name>/<name>.md`, with scripts and a
 
 | Skill | What it does | Area | Files beside it |
 |-------|--------------|------|-----------------|
-| [[edit-clock]] | Standalone HTML pace widget kept beside Resolve: where the playhead should be now, time left, timeline needed per hour, ahead/behind. Reads WAT (UTC+1). **When Samuel asks for "a timer", this is what he means.** | [[03-Areas/video-editing/video-editing\|Video editing]] | `assets/edit-clock.html`, `scripts/pace.py`, `scripts/test_clock.js` |
+| [[edit-clock]] | Standalone HTML pace widget kept beside Resolve: where the playhead should be now, time left, timeline needed per hour, ahead/behind. Reads WAT (UTC+1). **When Samuel asks for "a timer", this is what he means.** | [[03-Areas/video-editing/video-editing\|Video editing]] | `assets/edit-clock.html`, `scripts/pace.py`, `scripts/test_clock.js`, `scripts/resolve_bridge.py` (live mode: reads the Resolve playhead, 2026-10-02) |
 | [[video-edit-pass]] | Two-phase edit-assist pass on a long-form talking-head cut: phase 1 reads subtitles + timeline XML and outputs a colour-coded marker EDL of what to cut; phase 2 builds a chaptered ALL-CAPS transcript plus chapter markers. | [[03-Areas/video-editing/video-editing\|Video editing]] | — |
 | [[subtitle-transcript-formatter]] | Turns a raw SRT/VTT export into a clean, sectioned, ALL-CAPS .docx for editing from. | [[03-Areas/video-editing/video-editing\|Video editing]] | `scripts/build_docx.js` |
 | [[yap-session-planner]] | Structures unscripted talk-to-camera content into a beat-by-beat outline to speak from. | [[03-Areas/personal-brand/personal-brand\|Personal brand]] | `references/frameworks.md` |

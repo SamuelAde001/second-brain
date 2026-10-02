@@ -37,6 +37,16 @@ A pace timer for finishing an edit on a deadline. The user types three things in
 
 3. **Reply short.** The user already knows the clock. Two or three sentences: enter the three numbers, check in as you go, re-anchor if you fall behind. Only explain something if it changed. No feature tour.
 
+## Live mode: the clock reads Resolve (2026-10-02)
+
+Samuel: *"the clock should automatically check where I am in Resolve and update it"*. On the PC, with Resolve open:
+
+```bash
+python 00-System/skills/edit-clock/scripts/resolve_bridge.py
+```
+
+Then open `http://127.0.0.1:8765/`. The bridge serves the same clock plus `/status` (current timeline, its length, the playhead; read-only). Served over http, the clock polls every 4 s: the length follows the timeline, and progress is checked in automatically. **Progress is the furthest point the playhead has stayed at or past for a full minute** (the minimum playhead over the last 60 s, as a high-water mark), so jumping ahead to look at something doesn't count. Typing a position corrects it, backwards too. Opened as a plain file, the clock works by hand exactly as before. Saved plans are per browser (Claude's pane and Chrome don't share one).
+
 ## Changing the clock
 
 When the user wants a change (a new field, a layout tweak, a bug):

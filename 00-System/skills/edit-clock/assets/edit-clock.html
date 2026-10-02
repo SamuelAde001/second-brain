@@ -87,6 +87,13 @@
   .hint{font-size:12px;color:var(--muted);margin-top:4px}
   .err{font-size:13px;color:var(--behind);min-height:19px;margin-top:4px}
   .hidden{display:none !important}
+
+  /* live from Resolve */
+  .livebar{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);background:var(--panel);border-radius:10px;padding:9px 14px}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--muted);flex:none}
+  .dot.on{background:var(--ahead);box-shadow:0 0 0 3px rgba(78,216,160,.18)}
+  .dot.off{background:var(--behind)}
+  #live-txt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 </style>
 </head>
 <body>
@@ -121,6 +128,7 @@
 
   <!-- ===== running ===== -->
   <section id="live" class="hidden">
+    <div class="livebar hidden" id="live-bar"><span class="dot" id="live-dot"></span><span id="live-txt">Connecting to Resolve…</span></div>
     <div class="ruler">
       <div class="track"><div class="done" id="done"></div></div>
       <div class="mark plan" id="m-plan"><span class="cap" id="cap-plan">plan</span></div>
@@ -156,6 +164,7 @@
         <span id="verdict"></span>
       </div>
       <div id="since"></div>
+      <div class="hint hidden" id="auto-hint">Live: counts the furthest point you've stayed at or past for a full minute, so jumping ahead to look doesn't count. Type a position to correct it.</div>
     </div>
 
     <div class="foot">
@@ -170,8 +179,10 @@
 
 <script>
 (function(){
-  var KEY='edit-clock-v2', OLD_KEY='edit-clock-v1',
-      WAT=3600000, STALE=6*3600000, S=null;
+  var KEY='edit-clock-v3', OLD_KEY='edit-clock-v2',
+      WAT=3600000, STALE=6*3600000, S=null,
+      DWELL=60000, R=null, samples=[],
+      LIVE=typeof location!=='undefined'&&/^https?:$/.test(location.protocol)&&typeof fetch==='function';
 
   /* ---------- time helpers (reads UTC+1 directly, ignores device timezone) ---------- */
   function watParts(){
@@ -256,6 +267,10 @@
   function openSetup(prefill){
     $('setup-err').textContent='';
     $('cancel-setup').classList.toggle('hidden',!S);
+    if(R&&R.ok){
+      if(!$('f-len').value||!prefill) $('f-len').value=fmt(R.length);
+      if(!$('f-pos').value||!prefill) $('f-pos').value=fmt(S&&typeof S.prog==='number'?S.prog:R.playhead);
+    }
     if(prefill&&S){
       $('f-len').value=fmt(S.endPos);
       $('f-pos').value=fmt(S.anchorPos);
@@ -275,7 +290,8 @@
     if(pos>=len){ e.textContent='The playhead is already at or past the end.'; return; }
     var now=Date.now(), end=nextWatEpoch(dl.h,dl.m);
     if(end-now<60000){ e.textContent='That deadline is less than a minute away.'; return; }
-    S={endPos:len, anchorPos:pos, anchorEpoch:now, endEpoch:end, dh:dl.h, dm:dl.m, last:null};
+    S={endPos:len, anchorPos:pos, anchorEpoch:now, endEpoch:end, dh:dl.h, dm:dl.m, last:null, prog:pos};
+    samples=[];
     save();
     $('actual').value=''; $('verdict').textContent='';
     show('live'); tick();
@@ -325,13 +341,8 @@
     }
   }
 
-  $('check-btn').addEventListener('click',function(){
-    var pos=parseDur($('actual').value), out=$('verdict');
-    if(pos===null||pos>S.endPos){
-      out.style.color='var(--behind)';
-      out.textContent='enter 14:20';
-      return;
-    }
+  function checkIn(pos){
+    var out=$('verdict');
     S.last={pos:pos, epoch:Date.now()};
     save();
     var d=pos-planPos(S.last.epoch);
@@ -339,11 +350,22 @@
     else if(d>0){ out.style.color='var(--ahead)'; out.textContent=fmt(d)+' ahead'; }
     else{ out.style.color='var(--behind)'; out.textContent=fmt(-d)+' behind'; }
     tick();
+  }
+  $('check-btn').addEventListener('click',function(){
+    var pos=parseDur($('actual').value), out=$('verdict');
+    if(pos===null||pos>S.endPos){
+      out.style.color='var(--behind)';
+      out.textContent='enter 14:20';
+      return;
+    }
+    S.prog=pos; samples=[];
+    checkIn(pos);
   });
   $('actual').addEventListener('keydown',function(e){ if(e.key==='Enter') $('check-btn').click(); });
 
   $('reanchor').addEventListener('click',function(){
     var pos=parseDur($('actual').value);
+    if(pos===null&&LIVE&&typeof S.prog==='number') pos=S.prog;
     if(pos===null||pos>=S.endPos){
       $('verdict').style.color='var(--behind)';
       $('verdict').textContent='position first';
@@ -355,7 +377,7 @@
       $('verdict').textContent='deadline passed — edit plan';
       return;
     }
-    S.anchorPos=pos; S.anchorEpoch=Date.now(); S.last=null;
+    S.anchorPos=pos; S.anchorEpoch=Date.now(); S.last=null; S.prog=pos;
     save();
     $('actual').value=''; $('verdict').textContent='';
     tick();
@@ -368,6 +390,40 @@
     $('actual').value=''; $('verdict').textContent='';
     openSetup(false);
   });
+
+  /* ---------- live from Resolve (only when served by resolve_bridge.py) ---------- */
+  function onStatus(d){
+    var now=Date.now();
+    R=d;
+    $('live-dot').className='dot '+(d.ok?'on':'off');
+    if(!d.ok){ $('live-txt').textContent=d.error||'Resolve not reachable'; return; }
+    samples.push({t:now,p:d.playhead});
+    while(samples.length&&now-samples[0].t>DWELL+15000) samples.shift();
+    var settled=null;
+    if(samples.length&&now-samples[0].t>=DWELL){
+      settled=Infinity;
+      for(var i=0;i<samples.length;i++) if(now-samples[i].t<=DWELL) settled=Math.min(settled,samples[i].p);
+    }
+    var counted='';
+    if(S){
+      if(Math.abs(d.length-S.endPos)>0.5) S.endPos=d.length;
+      if(typeof S.prog!=='number') S.prog=S.anchorPos;
+      if(settled!==null&&settled>S.prog) S.prog=Math.min(settled,S.endPos);
+      counted=' · counted '+fmt(S.prog);
+      if(now<deadlineEpoch()) checkIn(S.prog); else save();
+    }
+    $('live-txt').textContent=d.timeline+' · playhead '+fmt(d.playhead)+counted;
+  }
+  function poll(){
+    fetch('/status',{cache:'no-store'}).then(function(r){return r.json();})
+      .then(onStatus)
+      .catch(function(){ onStatus({ok:false,error:'Bridge stopped. Run resolve_bridge.py again.'}); });
+  }
+  if(LIVE){
+    $('live-bar').classList.remove('hidden');
+    $('auto-hint').classList.remove('hidden');
+    poll(); setInterval(poll,4000);
+  }
 
   /* ---------- keep the screen awake ---------- */
   var lock=null;
