@@ -34,7 +34,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 1. Three deletions the auto-mode classifier blocked for Claude on 2026-09-28: the empty `03-Areas/community/log.md`, the superseded `03-Areas/scripnals/assets/scripnals-script-buddy-ai-workflow-v1.pdf`, and the finished `03-Areas/video-editing/scripts/cache-queue-7m-founder.json`. Plus two merged cloud branches on GitHub.
 2. The credential-named file on the Desktop (`HighSignals App/highsignals-project-…json`): move it to a secret store or revoke it ([[00-System/security-flags|security flags]]).
-3. **Gemini sign-ins** (2026-10-02): TickTick and Notion authenticated. Optional, waiting on his yes each: Gmail, Calendar, Drive (a Google Cloud OAuth client he creates), computer use for Gemini (a third-party Windows MCP server), the Claude Code CLI so Gemini can hand Claude jobs ([[00-System/relay|relay]] → What each AI can reach).
+3. **Gemini sign-ins** (2026-10-02): TickTick and Notion authenticated. Computer use (Windows MCP) and Claude Code CLI installed. Optional, waiting on his yes each: Gmail, Calendar, Drive (a Google Cloud OAuth client he creates) ([[00-System/relay|relay]] → What each AI can reach).
 4. His principles (the one `02-Me` gap).
 5. Moving the `Talking heads and  B-rolls` folder into the B-roll archive (old Resolve projects may link to it).
 
