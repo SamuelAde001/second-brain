@@ -129,6 +129,16 @@ On the Apollo marker-2 notes: *"Stop using wierd animations, never use boucing a
 - **Time each beat to the words** from the cue times. Things land on the word they show.
 - **Before reporting, render the range and look at it as he would**: size, readability, overlap with him, empty space, elements touching edges.
 
+## Show it in the tool, reveal it as he says it — Samuel, 2026-10-03 (Apollo red markers)
+
+His 15 red marker notes on 2635–8285 asked for one thing over and over: *"Show them Giving it Context in Codex"*, *"Show an MD file showing this context written there"*, *"Show a real skill.md file with this details, highlight them"*, *"Show the GTM OS on Codex"*, *"Write this down also in the Notion page and highlight it"*, *"SHow this on screen, on a new Notion notes Demo, Highlight what is said in the page, and reveal them as he says them"*. In his message: *"I want more real visuals, screen recordings, showing things, highlight things when necessary with brightness contrast"*.
+
+- When Alex names where something lives or happens (Codex, a markdown file, a SKILL.md, a Notion page, a prompt), the visual is that tool on screen, full frame, rebuilt to look like the real app, with the words he says appearing in it as he says them.
+- Highlight each part as he mentions it: Brightness Contrast darkening the rest, with a slow eased zoom onto it, on a base clip above the demo.
+- A list or document he walks through gets written into the same page over consecutive shots (the good-account Notion page carried 6289 → 6474 → 6875), so the viewer follows one page.
+- Motion graphics he called bad were small, dark, sparse and off-centre. The redesigns that replaced them fill the frame, sit centred, use real logos (companies and tools) and mixed fills, and use his straight Arrowline when he asks for a straight arrow.
+- A "visual of his team" is real team B-roll from the Frontal library, not a graphic.
+
 ## UI demos and screen recordings — Samuel, 2026-09-27
 
 - *"All Demos, screen recording, screenshot UI type of visuals must be full screen, like how it will actually look when I am browsing through the app or software."* Never a windowed UI tilted on a background.

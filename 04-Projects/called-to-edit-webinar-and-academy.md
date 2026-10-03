@@ -2,7 +2,7 @@
 type: project
 area: personal-brand
 status: needs-input
-updated: 2026-09-30
+updated: 2026-10-03
 source: manual
 tags: [project, webinar, live-class, cohort, called-to-edit, davinci-resolve]
 ---
@@ -20,6 +20,9 @@ tags: [project, webinar, live-class, cohort, called-to-edit, davinci-resolve]
 - [[04-Projects/called-to-edit-webinar-content|Webinar content]]: everything he wants the webinar to cover, as he said it
 - [[04-Projects/called-to-edit-academy-cohort|Academy cohort]]: the 6-week DaVinci Resolve cohort
 - [[04-Projects/called-to-edit-team-and-publicity|Team and publicity]]: the people he needs, the publicity channels, and the rule that it can't eat into client work
+- [[04-Projects/called-to-edit-playbook|Playbook]] (2026-10-03, proposal): funnel maths, setup, team, publicity, every video and design piece, timeline, risks
+- [[04-Projects/called-to-edit-teaching-outlines|Teaching outlines]] (2026-10-03, draft): the 2-hour webinar run-of-show and the 6-week Academy curriculum
+- [[04-Projects/called-to-edit-prep-tasks|Prep tasks and questions]] (2026-10-03): the draft task list for the whole prep and 35 questions for Samuel
 
 ## What done looks like
 
@@ -172,6 +175,7 @@ Arithmetic only, not a forecast: at NGN 5,000 a seat, 20 seats = NGN 100,000, 40
 
 - 2026-09-30 — Samuel's full brain dump recorded: names, targets, webinar content, cohort brief, team, publicity. Split into three detail notes. Reality check, reminders and questions 99–106 added. The 2026-09-29 TickTick blocks stand; they get renamed and added to after the planning session.
 - 2026-09-30 — His answers recorded; brand settled, file renamed from `editing-career-webinar-and-live-class.md` and links updated. PA proposed the October time plan; waiting on his yes before TickTick.
+- 2026-10-03 — Samuel asked for a full brainstorm and a proper task list with every question the plan needs. Playbook, teaching outlines, and prep tasks + 35 questions written (all proposals). Proposed: outline moves up to this week. Nothing in TickTick until he answers.
 
 %% ticktick: setup 6abbd8058f08f1c97021de7a · open 6abbd8058f08d6ee95cfa39a · outline 6abbd8058f086a6e17076e01 · slides1 6abbd8058f08717709b83f6d · slides2 6abbd8058f086a6e17076e04 · offer 6abbd8058f08717709b83f70 · dryrun 6abbd8058f08f1c97021de7d · webinar 6abbd8058f08717709b83f79 (read back 2026-09-29; corrects the first mapping) %%
 
