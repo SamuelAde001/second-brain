@@ -53,3 +53,4 @@ Back to [[07-Agents/orchestrator/profile|Profile]]
 - 2026-10-03 — Instructed Samuel to authenticate TickTick via `/mcp` in the Antigravity CLI or chat.
 - 2026-10-03 — Samuel authenticated TickTick and Notion via agy. Updated build-state.md.
 - 2026-10-03 — Installed Claude Code CLI and `open-computer-use` MCP server for Windows. Added `computer-use` to `.agents/mcp_config.json`.
+- 2026-10-03 — Called to Edit brainstorm at Samuel's ask: wrote the playbook, teaching outlines (webinar run-of-show, 6-week Academy draft with the Editor) and prep tasks + 35 questions. All proposals; waiting on his answers before TickTick.
