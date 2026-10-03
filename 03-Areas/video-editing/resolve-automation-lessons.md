@@ -222,3 +222,6 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
 - Script it all; nothing is read into context except the per-frame table.
 - **Before deleting a pasted comp for a rebuild, `comp.Save(<_cache>\name.comp)`** as a backup, and check each top-level tool against the names list. BGORANGE pastes as 7 loose `*_BG` nodes that the list doesn't name.
 - Time a graphic to the words before building it. The C01 build ran every beat 25–45 frames ahead of the words it shows.
+
+## 2026-10-03 — A closed PolylineMask fills unless Solid is 0
+- A ring drawn as a closed bezier `Polyline { Closed = true, … }` (four points, handles at 0.5523 × radius) rendered as a filled ellipse. Set `Solid = 0` on the PolylineMask for an outline; `WriteLength` 0 → 1 then draws it on, from the first point in point order (`build_M3_process.py` in the Apollo job). Open paths (his Arrowline) never showed this.
