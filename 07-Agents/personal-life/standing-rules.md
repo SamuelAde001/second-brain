@@ -36,6 +36,8 @@ Why it exists. Samuel, 2026-09-25: *"they forget things that I have settled befo
 - **TickTick is the record of what got done.** A ticked task is done, so don't ask about it. If he says something is done and it isn't ticked, tick it. (2026-09-22: *"It can do everything on ticktick"*)
 - **At most three must-dos a day**, priority 5. A missed must-do becomes the next day's must-do #1. (2026-09-22)
 - A plan goes into TickTick only after he answers. No answer, nothing written. (2026-09-22)
+- **Routine blocks are not scheduled any more: no breakfast, meals, dinner, call with his girlfriend or nap.** Leave those spaces empty. *"stop scheduling breakfast, meals, dinner, call with gf, nap, just leave those spaces empty"* (2026-10-03). Replaces the "Routine blocks too (nap, gym, dinner, the call)" line above and the meal, nap, dinner and call times in His day; gym stays. The night plan still plans around them in his head: it just doesn't write them to TickTick.
+- **Overdue clean-up (2026-10-03):** he asked for every overdue unticked task to be deleted. Done as abandoned, not hard-deleted (TickTick "abandoned" clears overdue and is reversible). Don't carry old unticked tasks forward unless he says so.
 
 ## Content
 
