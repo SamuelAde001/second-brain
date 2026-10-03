@@ -118,6 +118,17 @@ On the Apollo v3 review (marker 952–3017): *"Please learn to use real world ex
 - No helper text he didn't ask for: no "same on paper", no "connected" pill, no small status tags like "NOT INCLUDED".
 - Elements enter from where they belong (two companies from the left and right, not out of the centre) and leave when their point is made.
 
+## Motion, polish and checking — Samuel, 2026-10-03
+
+On the Apollo marker-2 notes: *"Stop using wierd animations, never use boucing animations, always use Neo anim where something animates in and out, your adjustment clips over UI visuals are animated janky and hard to follow, I need it smooth"*, *"Make use of design things that make it look good, shines, bevel, glow, things that make the visuals look premium"*, *"don't be using transforms when we have neo Anim"*, *"timing is important in the visuals"*, and *"make sure that you look at what you do, and ask, would Samuel correct this ... you can crosscheck videos we have finished in the past to know what has been approved"*.
+
+- **Every element comes in and goes out with his Neo Anim** (slide + blur + fade, Expo ease). Never a Transform pop, never an overshoot or bounce. Out animations are part of the build, not optional.
+- **Zooms and focus on UI are slow and eased:** a key only where a move starts or ends, holds in between, never a per-frame cursor follow. Highlight what he's talking about with a Brightness Contrast that darkens the rest.
+- **Premium = real effect nodes on every card:** Neo Glow on borders and rings, static NeoLightSweep, DropShadow, a moving shine once it lands. Real logos only (Claude's own mark, not a drawn spark).
+- **"Glass background" = his Glass effect** (`My macros\Glass effect.setting`): the layers below blurred 0.4, Displace refraction, inside a rounded panel whose width opens on a key, two-tone title on its top edge. His reference: the OUR OWN PROCESS beat at 685–754 of the Apollo job.
+- **Time each beat to the words** from the cue times. Things land on the word they show.
+- **Before reporting, render the range and look at it as he would**: size, readability, overlap with him, empty space, elements touching edges.
+
 ## UI demos and screen recordings — Samuel, 2026-09-27
 
 - *"All Demos, screen recording, screenshot UI type of visuals must be full screen, like how it will actually look when I am browsing through the app or software."* Never a windowed UI tilted on a background.
@@ -173,6 +184,7 @@ Read from his final comp (parsed from a saved copy) and frames. Build this way n
 
 ## When Resolve stops responding
 
+- **If it crashed, reopen it yourself** (Samuel, 2026-10-03: *"When resolve crashes, open it back yourself, I am not always on my PC"*): `launch_resolve`, load the project and the timeline, then report what crashed and what was lost.
 - **Tell Samuel immediately** (Samuel, 2026-09-27: *"Whenever Davinci is unresponsive, tell me immediately"*). The moment a Resolve script call times out, run one quick check (`Get-Process Resolve` → `Responding`). If it's `False`, stop and tell him in that same reply, with what the last call was doing and when the project was last saved. Don't sit through minutes of monitoring first.
 
 ## Animation and tidiness

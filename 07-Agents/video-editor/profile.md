@@ -2,7 +2,7 @@
 type: agent
 area: video-editing
 status: active
-updated: 2026-09-25
+updated: 2026-10-03
 source: interview
 tags: [agent, video-editing, resolve, fusion]
 name: video-editor
@@ -16,7 +16,7 @@ description: >-
   Resolve MCP. Runs in the main session, never as a subagent.
 tier: strong
 runs-as: main-session
-tools: [read, write, shell, send-file, mcp:davinci-resolve:get_resolve_status, mcp:davinci-resolve:get_whats_new, mcp:davinci-resolve:run_script, mcp:davinci-resolve:search_scripting_api, mcp:davinci-resolve:get_scripting_api, mcp:davinci-resolve:get_scripting_docs, mcp:davinci-resolve:list_luts, mcp:davinci-resolve:generate_lut, mcp:davinci-resolve:list_dctls, mcp:davinci-resolve:update_dctl]
+tools: [read, write, shell, send-file, mcp:davinci-resolve:get_resolve_status, mcp:davinci-resolve:launch_resolve, mcp:davinci-resolve:get_whats_new, mcp:davinci-resolve:run_script, mcp:davinci-resolve:search_scripting_api, mcp:davinci-resolve:get_scripting_api, mcp:davinci-resolve:get_scripting_docs, mcp:davinci-resolve:list_luts, mcp:davinci-resolve:generate_lut, mcp:davinci-resolve:list_dctls, mcp:davinci-resolve:update_dctl]
 ---
 
 # video-editor — "Editor"
@@ -75,7 +75,8 @@ Steps map to [[03-Areas/video-editing/workflow|the brief-to-payment workflow]] a
 - **DaVinci Resolve MCP** — `run_script` (the `resolve` global is the entry point), `search_scripting_api`, `get_scripting_api`, `get_scripting_docs`, `get_whats_new`, LUT/DCTL tools. Resolve **21.1**. Scripts run in a **sandbox: no `import os`/filesystem imports, ~10s per call** — first Fusion call spins Fusion up and can exceed it, so warm Fusion with a lone `AddFusionComp` before building.
 - **Python / PowerShell** for `.setting` and HTML generation and for all listing/filtering/counting (script first, AGENTS.md rule 10).
 - File tools within its writable folders. The `send-file` capability to show Samuel a still or a preview (Claude Code: `SendUserFile`); if the running tool has none, give him the full path.
-- Least privilege on the Resolve MCP: **no** `delete_lut`, `delete_dctl`, `launch_resolve` or `run_script_unsafe`. The `tools:` list in the frontmatter is the grant.
+- Least privilege on the Resolve MCP: **no** `delete_lut`, `delete_dctl` or `run_script_unsafe`. The `tools:` list in the frontmatter is the grant.
+- **`launch_resolve` is granted for one job: reopening Resolve after it crashes** (Samuel, 2026-10-03: *"When resolve crashes, open it back yourself, I am not always on my PC"*). Relaunch, reload the project and timeline, then tell him what crashed and what (if anything) was lost.
 
 ## Skills
 Built and reused as the table above. Every skill is registered in [[00-System/systems-register|the systems register]].
