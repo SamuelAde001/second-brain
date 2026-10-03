@@ -9,6 +9,10 @@
     },
     "notion": {
       "serverUrl": "https://mcp.notion.com/mcp"
+    },
+    "computer-use": {
+      "command": "open-computer-use",
+      "args": ["mcp"]
     }
   }
 }

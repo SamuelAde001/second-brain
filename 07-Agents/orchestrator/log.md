@@ -52,3 +52,4 @@ Back to [[07-Agents/orchestrator/profile|Profile]]
 - 2026-10-02 — Samuel made Gemini an equal primary ("not Gemini being second in place"). Rewrote the role in AGENTS.md §11, CLAUDE.md, GEMINI.md, portability, relay, pick-up, hand-back and the orchestrator profile. Built Gemini's guard rails (`.agents/hooks.json` → `agy_guard.py`, tested in agy) and its session-start sync; `relay.py` now reads the Antigravity app; Notion added to Gemini; `ask_gemini.py` locked to plan mode. Decision recorded.
 - 2026-10-03 — Instructed Samuel to authenticate TickTick via `/mcp` in the Antigravity CLI or chat.
 - 2026-10-03 — Samuel authenticated TickTick and Notion via agy. Updated build-state.md.
+- 2026-10-03 — Installed Claude Code CLI and `open-computer-use` MCP server for Windows. Added `computer-use` to `.agents/mcp_config.json`.
