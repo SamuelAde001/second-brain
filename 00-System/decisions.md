@@ -187,3 +187,8 @@ Samuel: *"I don't like the fact that my tokens can finish on Claude and I have t
 **Parity built the same day:** Gemini's guard rails mirror Claude's deny and ask lists (`.agents/hooks.json` → `00-System/scripts/agy_guard.py`; tested: secrets read blocked, ordinary commands run). Session start runs in Gemini too (first-turn hook → `session_start_sync.py --for gemini`). `relay.py` reads the Antigravity app's sessions, not only the CLI's. Notion added to Gemini. Tiers mapped for Gemini, strong = Gemini 3.1 Pro (High), his pick in the app. The helper call `ask_gemini.py` runs in plan mode, because agy is now on always-proceed and a headless run has no one to ask.
 **Not at parity, and why:** Gmail, Calendar and Drive (need a Google Cloud OAuth client he creates); computer use (needs a third-party Windows MCP server, his yes to install); cloud routines (they run on Claude regardless); Gemini handing Claude a job (needs the Claude Code CLI installed). Listed in [[00-System/relay|relay]] → What each AI can reach.
 **Source:** Samuel, in chat with Claude Code, 2026-10-02.
+## 2026-10-03 — Chrome browser for Workspace instead of OAuth extensions
+Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my chrome browser instead"*.
+**What**: The plan to create a Google Cloud OAuth client for Gmail, Calendar, and Drive is dropped. Instead, any tasks requiring them will be done by automating the Chrome browser via the computer-use MCP server.
+**Who decided**: Samuel.
+
