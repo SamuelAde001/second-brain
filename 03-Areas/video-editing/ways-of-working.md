@@ -95,6 +95,7 @@ From his answers on all 63 remaining beats, checked against his finished hook (0
 - **Pills beside him** sit on an adjustment clip over the A-roll and come in with Neo Anim, joined by an arrow line. No extra lines.
 - **Text-only beats:** NeoTextMotion over a dark gradient at the bottom (`Down fade`), in an adjustment clip. Nothing else.
 - **People beats** ("business owner confused"): an AI video generated in **Flow, in his browser**. Beats about Alex himself: B-roll of Alex from earlier Route Rise projects, plus a node element (such as a thought bubble).
+- **Flow model: Omni Flash** (Samuel, 2026-10-03: *"Next time, use the Omni Flash model when generating AI B-roll"*). Not Veo 3.1 Quality (100 credits a take); Omni 1.1 Flash costs about 12.
 - Many sentences get **no visual** (his NONE rows): let the A-roll breathe. He handles punch-ins himself.
 
 ## Mix the designs — Samuel, 2026-09-30
@@ -124,6 +125,7 @@ On the Apollo marker-2 notes: *"Stop using wierd animations, never use boucing a
 
 - **Every element comes in and goes out with his Neo Anim** (slide + blur + fade, Expo ease). Never a Transform pop, never an overshoot or bounce. Out animations are part of the build, not optional.
 - **Zooms and focus on UI are slow and eased:** a key only where a move starts or ends, holds in between, never a per-frame cursor follow. Highlight what he's talking about with a Brightness Contrast that darkens the rest.
+- **No fast zooms on UI visuals** (Samuel, 2026-10-03, second red-marker pass: *"Don't do fast zooms on UI visuals, make sure everything looks clear and premium"*). A focus move takes about 18 frames, the zoom stays at or under about 1.3, and where several parts are close together the highlight moves while the zoom holds (or there is no zoom at all). `M6 red markers\focusgen6.py` in the Apollo job has these settings.
 - **Premium = real effect nodes on every card:** Neo Glow on borders and rings, static NeoLightSweep, DropShadow, a moving shine once it lands. Real logos only (Claude's own mark, not a drawn spark).
 - **"Glass background" = his Glass effect** (`My macros\Glass effect.setting`): the layers below blurred 0.4, Displace refraction, inside a rounded panel whose width opens on a key, two-tone title on its top edge. His reference: the OUR OWN PROCESS beat at 685–754 of the Apollo job.
 - **Time each beat to the words** from the cue times. Things land on the word they show.

@@ -249,3 +249,9 @@ Samuel: *"Did you use the script to guide in the transcript? and for the visuals
 - What worked: one HTML engine per app (`codex.html`, `vscode.html`, `notion.html`) with a scene per marker, words timed from the cues, and the focus/zoom generated from the page's own element boxes (`render3.py` + `focusgen.py`). One Notion page carried across three markers so the viewer follows one document.
 - The three motion graphics he called bad (5031, 6760, 6983) had the same faults: small elements, lots of empty dark ground, off-centre, generic icons. The redesigns: big centred cards, real logos, mixed fills, one moving shine, cards lit on their words.
 - Old visuals I replaced are disabled, not deleted, and a backup timeline was made first. Tell him which ones so he can delete them.
+
+## 2026-10-03 (night) — Second red-marker pass: what he asked for and what held
+- His notes this time: reuse what he already built (*"use the GTM OS Circle I used in the intro"*), keep structure simple (*"all pills on a straight line connected to the GTM OS"*), "premium", and *"Don't do fast zooms on UI visuals"*. When he points at his own element, lift it from his comp with its settings (save the comp, copy the blocks) instead of redrawing a look-alike.
+- People and actions get AI B-roll; when the screen in that B-roll has to say something (the email, the company being researched), the AI screen can't carry it: Veo writes garbled text and hands cross the screen. Cut from the B-roll while its screen is still clean to a full-screen rebuild of the real app (Gmail) or the real site (lob.com captured live). That shows exactly what they're doing and it's readable.
+- He wants AI B-roll from **Omni Flash** in Flow from now on (said after I used Veo 3.1 Quality at 100 credits a take).
+- A list he says out loud on the orange screen = title + numbered pills that land on his words, with the one he's saying lit (orange) and the earlier ones settled (graphite).
