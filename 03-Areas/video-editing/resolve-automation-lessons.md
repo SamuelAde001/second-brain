@@ -215,3 +215,10 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
 ## 2026-10-03 — AppendToTimeline's endFrame is exclusive here
 - `MediaPool.AppendToTimeline([{"mediaPoolItem", "startFrame": 0, "endFrame": 50, "trackIndex": 2, "recordFrame": 634}])` placed a 50-frame clip (634–684). `endFrame: 51` gave the full 51 frames (634–685). Pass endFrame = frame count, then check `GetEnd()`.
 - `Timeline.SetMarkInOut(in, out)` + `ClearMarkInOut()` exist, and an `InsertGeneratorIntoTimeline("Adjustment Clip")` with every track locked except one free track is a safe patch probe (None = not patched there, nothing changes). Probe only tracks with nothing after the playhead, in case the insert ripples.
+
+## 2026-10-03 — Word times without Whisper: Windows speech, by prefix
+- Caption cues (`cues.json`) are line chunks, too coarse to time a beat to a word. There's no Whisper, numpy or PIL on the PC. Windows' built-in `System.Speech` is there, and it matches a known sentence well (a GrammarBuilder of the exact line got 0.89 confidence). But `RecognizedWordUnit` carries no audio position.
+- What works: write the clip's audio (from the conformed WAV, 24-bit to 16-bit mono, pure `wave`) cut at each pause in a per-frame RMS envelope, plus 0.5 s of silence. Recognise each cut against a `Choices` grammar of every prefix of the sentence. The prefix it returns is what was said up to that cut. Read with the envelope: a cut inside a word's onset can claim that word.
+- Script it all; nothing is read into context except the per-frame table.
+- **Before deleting a pasted comp for a rebuild, `comp.Save(<_cache>\name.comp)`** as a backup, and check each top-level tool against the names list. BGORANGE pastes as 7 loose `*_BG` nodes that the list doesn't name.
+- Time a graphic to the words before building it. The C01 build ran every beat 25–45 frames ahead of the words it shows.
