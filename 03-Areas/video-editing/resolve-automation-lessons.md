@@ -211,3 +211,7 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
 - **His NeoLightSweep copy (`NeoLightSweepPro_1_1_3_2_1_1`) has its band at frame centre** (inner `Rectangle1` Center unset, Width 0.1142, Angle -40). On a card away from the centre it shows as a glare across a corner. Patch the inner rectangle's Center to the card's centre (`copy_his` patch after `Width = Input { Value = 0.1142, },`), and lower `Intensity` (0.724) on light fills: 0.3 on cream, 0.25 on orange.
 - Under that sweep, light grey on white (0.85) goes to white. Use about 0.66 grey for placeholder text lines inside a white bubble.
 - His Opacity macro animates by script: add a BezierSpline inside the macro's `Tools` and set the inner `Op` tool's `Gain` to it (`opacity()` in the same builder). Links into and out of it are wired after the paste, like the Neo macros.
+
+## 2026-10-03 — AppendToTimeline's endFrame is exclusive here
+- `MediaPool.AppendToTimeline([{"mediaPoolItem", "startFrame": 0, "endFrame": 50, "trackIndex": 2, "recordFrame": 634}])` placed a 50-frame clip (634–684). `endFrame: 51` gave the full 51 frames (634–685). Pass endFrame = frame count, then check `GetEnd()`.
+- `Timeline.SetMarkInOut(in, out)` + `ClearMarkInOut()` exist, and an `InsertGeneratorIntoTimeline("Adjustment Clip")` with every track locked except one free track is a safe patch probe (None = not patched there, nothing changes). Probe only tracks with nothing after the playhead, in case the insert ripples.
