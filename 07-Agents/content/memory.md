@@ -80,3 +80,6 @@ Back to [[07-Agents/content/profile|Profile]]
 - Netlify CLI is installed globally and logged in to his account. Publish with `sh deploy.sh "msg"` in `Desktop\landing-page\` (site id `abf350bc-…`, `--dir site`). He drags whole folders by mistake; never ask him to drag again.
 - Apps Script editor: set code with `monaco.editor.getModels()[0].setValue(...)` via javascript, using `String.raw` so regex backslashes survive. The OAuth "Allow" stays his click.
 - `curl -L -X POST` to an Apps Script `/exec` returns 411 after the 302; the row is still written. Check the Sheet, not curl's reply.
+- Never put a honeypot field named like a real field (`company`) in his forms: Android autofill fills it and the form fails silently on phones.
+- He wants the Sheet readable at a glance: one list plus an overview, brand colours, no raw tabs. Phone numbers must stay text (leading 0).
+- Apps Script editor via Chrome: the Run function picker would not change by click; making `setup()` call the job once, then reverting, worked. Clicking at fixed coordinates in the editor can hit links in dialogs; click the editor by its ref.
