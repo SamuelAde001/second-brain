@@ -75,3 +75,9 @@ Back to [[07-Agents/finance/profile|Profile]]
 ## 2026-09-28 — The investment is not in Cowrywise
 
 - Samuel: *"The 6,959 is actually savings, the investment is in a different place with my finance manager who invests for me"*. The pot the ledger calls "Cowrywise investment" is Cowrywise savings. The Rule 7 investment is a separate fund, NGN 60,000 so far, run by a person, and nothing records it except his word. He also split it without telling the ledger. Ask about pot changes when they happen, not at the next budget.
+
+
+## 2026-10-04 — Claude is billed through Google Play
+
+- Samuel: *"my claude sub is done on my play store, so I have to cancel my existing Sub and then start a new sub for Max"*. Anthropic's own help-page rule (mid-cycle upgrade charges a full Max month less unused Pro, billing date resets) applies to direct billing, not Google Play. On Play, cancelling Pro stops the next renewal but the paid month stays usable; a new Max subscription is charged in full at once. Plan Claude at the full Max price, not net of Pro.
+- When a payday's allocation changes, rebuild the per-payday table in the whole plan, not just the lines that changed: on 2026-10-04 the older table still carried pre-cut Feeding and Transport and over-ran Payday B by NGN 20,000 until it was rebuilt.

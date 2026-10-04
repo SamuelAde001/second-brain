@@ -213,3 +213,10 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: Claude Max is paid on Payday A, this week (Samuel: *"Claude has to be paid this week actually"*), not on the 16th. The Brand strategist's NGN 50,000 is removed (*"I would also cut Brand strategist out"*). Goal 1 for October is NGN 219,153 (A 9,901 + B 209,252), a cut of NGN 65,500, replacing the NGN 127,000 above.
 **Why it moved**: an upgrade mid-cycle charges one full Max month less the unused Pro value and resets the billing date, so the 16th Pro renewal (NGN 33,500) disappears and the upgrade costs ~NGN 156,000 estimated (was NGN 134,000 on top of it). Eating out and Girlfriend extras moved from A to B so the upgrade fits on A.
 **Who decided**: Samuel.
+
+
+## 2026-10-04 (third) — Brand strategist hire cancelled; drum to Payday B; Claude Max via Google Play at full price
+
+**Decision**: The human brand strategist hire is cancelled completely: Samuel, *"Brand manager is canceled completly, I would work on my brand with Claude instead"*. Son's drum moves to Payday B (*"Son's drum should be in B"*). Claude is billed through Google Play, so Samuel cancels Pro there and starts a new Max subscription: *"my claude sub is done on my play store, so I have to cancel my existing Sub and then start a new sub for Max"*. A new Play subscription takes no proration credit, so the Claude Max line is ~NGN 167,500 (estimate), not 156,000. October's Goal 1 is NGN 207,653 (A 33,401 + B 174,252), a cut of NGN 77,000.
+**Supersedes** the Goal 1 figure and the Claude proration reasoning in the entry above (Anthropic's mid-cycle credit does not apply to Google Play).
+**Who decided**: Samuel.

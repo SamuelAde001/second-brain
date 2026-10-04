@@ -27,6 +27,7 @@ Append-only. Date, decision, why, alternatives rejected, who decided.
 - **Objection, logged once:** the Brand manager advised against it on 2026-09-29. [[brand-context]] already holds all four, and the gap looked like output and numbers (4 posts in W39, +24 Instagram followers that week, no view counts). Overruled; executed in full.
 - **Paid:** Payday A (~2026-09-30), from SMFest (skipped), Misc and Extra cash ([[03-Areas/finances/plans/plan-2026-10|October plan]]).
 - **Who decided:** Samuel.
+- **2026-10-04 — Cancelled completely.** Samuel: *"Brand manager is canceled completly, I would work on my brand with Claude instead"*. The NGN 50,000 is out of the October budget. Recorded by the Money man; the Brand manager agent is unaffected.
 - **2026-09-29 — A paid webinar in late October, then a DaVinci Resolve live class in November, both as @SamuelSignals.** Webinar NGN 5,000, topic *editing career from zero*. Samuel: *"then having the Webinar, then a live class could really elevate my brand"* · *"Let's get the Webinar before this month ends, and then the Live class, November, so that I would have time to prepare between both events, and people who want to pay can gather the money needed for the llive class"*. Rejected: running it as HighSignals Academy, a free webinar, a lower fee. → [[04-Projects/called-to-edit-webinar-and-academy|project]]. **Who:** Samuel.
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]

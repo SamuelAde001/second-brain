@@ -48,3 +48,10 @@ Back to [[03-Areas/finances/finances|Finances]]
 - *"Claude has to be paid this week actually"*: Claude Max upgrade NGN ~156,000 (estimate) on Payday A, replacing the 16th Pro renewal. Next renewal is a month after the upgrade date at ~NGN 167,500: November's plan carries it.
 - *"I would also cut Brand strategist out"*: NGN 50,000 removed. Hire status goes to the Brand manager (handoff).
 - Goal 1 October: NGN 219,153 (cut NGN 65,500).
+
+
+## 2026-10-04 (third) — strategist cancelled, drum to B, Claude via Play Store
+
+- *"Brand manager is canceled completly, I would work on my brand with Claude instead"*: strategist hire cancelled, not postponed. Read as the human strategist; the Brand manager agent stays.
+- *"Son's drum should be in B"*: NGN 40,000 on Payday B.
+- Claude is a Google Play subscription: cancel Pro, start Max. Full price, no credit: ~NGN 167,500 (estimate) on Payday A. Goal 1 October NGN 207,653.
