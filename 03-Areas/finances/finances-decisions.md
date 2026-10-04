@@ -55,3 +55,8 @@ Back to [[03-Areas/finances/finances|Finances]]
 - *"Brand manager is canceled completly, I would work on my brand with Claude instead"*: strategist hire cancelled, not postponed. Read as the human strategist; the Brand manager agent stays.
 - *"Son's drum should be in B"*: NGN 40,000 on Payday B.
 - Claude is a Google Play subscription: cancel Pro, start Max. Full price, no credit: ~NGN 167,500 (estimate) on Payday A. Goal 1 October NGN 207,653.
+
+
+## 2026-10-04 (fourth) — Claude Max real price
+
+- Google Play shows Max 5x at NGN 209,375/month (his screenshot). Payday A pays it; Goal 1 October becomes NGN 165,778 (cut NGN 118,875). From November the standing Claude line is NGN 209,375, not 33,500: an extra NGN 175,875 a month that the 5th video has to cover.
