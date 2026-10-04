@@ -2,7 +2,7 @@
 type: project
 area: personal-brand
 status: needs-input
-updated: 2026-10-03
+updated: 2026-10-04
 source: manual
 tags: [called-to-edit, tasks, questions, brainstorm]
 ---
@@ -12,6 +12,8 @@ tags: [called-to-edit, tasks, questions, brainstorm]
 Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]]. The plan behind these: [[04-Projects/called-to-edit-playbook|Playbook]] (V-numbers and roles are defined there) · [[04-Projects/called-to-edit-teaching-outlines|Teaching outlines]].
 
 Samuel, 2026-10-03: *"Make sure to ask me all the questions that would help us have a proper project plan for this, including a proper task list for the whole project prep"*.
+
+> **Correction 2026-10-04 (Samuel's voice note, answers below):** webinar is **Sun 2026-10-25, 7:00pm, 2½ hours**, not Sat 10-24. **No partners** (drop A10, C3, C4, V15 and every partner line). Interns are **volunteers**, 5 or 6, public call-out. **No mid-campaign live** (drop C8). **No Starter Kit decided.** Three big announcement videos plus daily simple ones, plus ads (NGN 20,000-30,000). Outline done **today 10-04**. Dates in the tables below are the old plan until rebuilt.
 
 ## Prep task list (draft)
 
@@ -159,5 +161,60 @@ Asked in chat on 2026-10-03; answers recorded here as they come. Answer by numbe
 33. Google Classroom or a Drive folder for assignments?
 34. What exactly goes in the asset pack: which SFX, which tools and macros?
 35. What earns the certificate?
+
+## Samuel's answers (2026-10-04, voice note)
+
+Recorded from his voice note, 2026-10-04 02:23 WAT. His words in quotes where the wording matters. These **supersede** the Playbook, Outlines, task list above and project-note blocks wherever they differ; see the correction block at the top of each.
+
+**The webinar**
+1. **Date and hour: moved from Sat 10-24 to Sunday 2026-10-25, 7:00pm.** *"I'm moving it from Saturday to Sunday on the 25th. The time I'm thinking is 7:00 p.m."*
+2. **2½ hours with Q&A.** *"I have a lot of things to cover during the event."* (7:00pm to 9:30pm WAT.)
+3. Not understood by him. Re-asked in plain words (below). Unanswered.
+4. Not understood by him ("Starter Kit"). Re-asked in plain words (below). Unanswered.
+5. **No refunds.** *"Once you've paid, you've paid."*
+6. **Just him.** No co-speaker or guest.
+
+**Selling**
+7. **Paystack.** *"I need to set Paystack up... I'm going to do that today."* (Sun 2026-10-04.) Selar is not mentioned: not a decision.
+8. **No partners.** *"I don't have any partner."* The partner programme in the Playbook was an assistant suggestion he never asked for. Dropped.
+9. **Promoted everywhere**, HighSignals Community and the other HighSignals channels included.
+10. **Not applicable**: no partners, so no top-15 partner messages.
+11. **Registration opens Mon 2026-10-05.** *"I need to get a video out tomorrow, Sunday, to announce it."* (He means today, Sun 10-04.)
+12. **Sales close the moment the webinar starts**, 7:00pm on 2026-10-25.
+13. **No mid-campaign live.** Instead: *"putting videos out almost every day"*, reminders, simple talking heads, and **paid ads**. **Three big announcement videos** before the day, well edited, *"like the major adverts"*; one of them runs as the ad. They need planning and scripting.
+
+**Team**
+14. **Ifeoma** is his project manager: *"any task I give her, she's just going to do it."* No hours figure given. **No designer, video editor, admin or social person known.**
+15. Not answered (PM as co-host).
+16. See 14: nobody yet.
+17. **Public call-out video**, then people **sign up at one place that redirects to a WhatsApp group**. They are called **volunteers, not interns.** *"I'm not going to reject anyone."* Probably capped at **5 or 6**: *"I need five people, but I will specify the roles."* Volunteers get free access (to the webinar).
+18. Some may keep helping after the webinar. No fixed end date.
+19. **Samuel approves every post.** Volunteers help *"script or maybe edit, majorly edit and designs and distribution."*
+
+**Your time**
+20. **Not accepted as fixed.** *"A lot of it will change depending on how things progress."*
+21. **Today, Sun 2026-10-04:** script, shoot, edit and publish one video. Other shoot nights: *"in between my client work... in the evenings."* No second date named.
+22. **Yes: the webinar outline is done today, Sun 2026-10-04**, not 10-12. *"I need to start getting everything out."*
+
+**Proof and content**
+23. *"I will show everything I need to show."* No Route Rise restriction named.
+24. **One of his mentees**, as part of the content.
+25. **Life of a Video Editor Ep 4 is scrapped / paused until the webinar is done.**
+
+**Money**
+26. **NGN 20,000 to NGN 30,000 on ads.** His reasoning: *"if I get four people to register or six... I've already gotten back my ad spend."* The Money man checks it against October.
+27. **Yes, he pays for an ad regardless**: *"irrespective of anything, I'll still pay for an ad."*
+28. **No team percentage now.** They are volunteers; he decides later.
+
+**The Academy** (*"leave the academy"*)
+29. **From November, date not decided.** Planned later.
+30. **6 weeks is firm.**
+31. **Pay in two instalments or in full.**
+32. **A deadline, set next month**; no seat cap given.
+33. **All on Google Meet. PDFs go in a WhatsApp group chat.** No Google Classroom.
+34. **Asset pack: sound effects, tools, macros, everything.**
+35. **Certificate: a good final project, plus progress towards a client.** *"Hitting a good project is one of the things that will approve."*
+
+**Still open:** 3 (which parts of his list get only a headline), 4 (Starter Kit bonus), 15 (co-host on the day), 21 (second shoot evening), 14 (Ifeoma's hours).
 
 Back to [[04-Projects/called-to-edit-webinar-and-academy|the project]] · [[03-Areas/personal-brand/personal-brand|Personal brand]]

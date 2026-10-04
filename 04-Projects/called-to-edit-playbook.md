@@ -7,6 +7,8 @@ source: manual
 tags: [called-to-edit, playbook, publicity, setup, team, brainstorm]
 ---
 
+> **Correction 2026-10-04:** Samuel's answers supersede this draft. Webinar **Sun 2026-10-25, 7:00pm, 2½ hours**. **No partners or partner cut** (§ Partners, V15, top-15 DMs are dropped; he has no partners). Interns are **volunteers** (5-6, public call-out, WhatsApp group). **No free warm-up live.** **Paystack** only. No refunds. Sales close at start. Paid ads NGN 20,000-30,000 plus a boost if short. Three major announcement videos, one used as the ad. Ep 4 paused. Full record: [[04-Projects/called-to-edit-prep-tasks|Prep tasks and questions]] → Samuel's answers. Dates in the rest of this note are still the old Sat 10-24 plan.
+
 # Called to Edit: the playbook (brainstorm)
 
 Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]]. Teaching side: [[04-Projects/called-to-edit-teaching-outlines|Teaching outlines]].

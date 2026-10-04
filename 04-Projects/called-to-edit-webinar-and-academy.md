@@ -7,6 +7,8 @@ source: manual
 tags: [project, webinar, live-class, cohort, called-to-edit, davinci-resolve]
 ---
 
+> **Correction 2026-10-04 (Samuel, voice note):** webinar moved to **Sunday 2026-10-25, 7:00pm, 2½ hours**; Paystack; no refunds; registration opens Mon 10-05; no partners; volunteers not interns; ads NGN 20,000-30,000. The TickTick webinar block on Sat 10-24 is now wrong (not yet changed). Details: [[04-Projects/called-to-edit-prep-tasks|Prep tasks and questions]].
+
 # Called to Edit webinar → Called to Edit Academy cohort
 
 *(Was `editing-career-webinar-and-live-class.md` until 2026-09-30, renamed once the brand was settled.)*

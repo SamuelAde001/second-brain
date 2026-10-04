@@ -7,6 +7,8 @@ source: manual
 tags: [called-to-edit, outline, webinar, cohort, curriculum, davinci-resolve, brainstorm]
 ---
 
+> **Correction 2026-10-04:** the webinar is now **2½ hours** (7:00-9:30pm, Sun 2026-10-25), not 2. Re-time the run-of-show; he is writing the outline today. Academy: 6 weeks firm, from November, Google Meet, PDFs in a WhatsApp group, pay in 2 or in full. Record: [[04-Projects/called-to-edit-prep-tasks|Prep tasks and questions]].
+
 # Called to Edit: teaching outlines (draft)
 
 Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]]. Campaign side: [[04-Projects/called-to-edit-playbook|Playbook]].

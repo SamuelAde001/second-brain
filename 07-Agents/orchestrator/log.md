@@ -54,3 +54,4 @@ Back to [[07-Agents/orchestrator/profile|Profile]]
 - 2026-10-03 — Samuel authenticated TickTick and Notion via agy. Updated build-state.md.
 - 2026-10-03 — Installed Claude Code CLI and `open-computer-use` MCP server for Windows. Added `computer-use` to `.agents/mcp_config.json`.
 - 2026-10-03 — Called to Edit brainstorm at Samuel's ask: wrote the playbook, teaching outlines (webinar run-of-show, 6-week Academy draft with the Editor) and prep tasks + 35 questions. All proposals; waiting on his answers before TickTick.
+- 2026-10-04 02:25 WAT · General Manager (Gemini) · recorded Samuel's voice-note answers to the Called to Edit questions in prep-tasks; correction blocks on playbook, outlines and project note (webinar now Sun 2026-10-25 7:00pm, 2.5h; no partners; volunteers; Paystack; ads NGN 20,000-30,000). TickTick not touched.
