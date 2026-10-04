@@ -198,3 +198,11 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: `C:\Users\repzy\Downloads\sounds\Sound effects\` is added to the Editor's outside-Brain access, read-only (AGENTS.md §10, the Editor's profile). Scripts list and measure files there, and Resolve imports them by reference. Nothing is moved, renamed or edited.
 **Why**: Samuel, 2026-09-28: *"go to my Sound library, use those same music and sound effects"*. His finished Route Rise timelines take their SFX palette (UI Double Beep 03, Swoosh_03, Mouse Click (5)…) from this folder. The Editor used it on #3 and on Apollo without it being listed.
 **Who decided**: Samuel (the instruction); the Editor recorded the grant.
+
+
+## 2026-10-04 — Goal 1 cut by NGN 127,000 to fund Claude Max, webinar ads and a community fee
+
+**Decision**: October's Goal 1 drops from NGN 284,653 to NGN 157,653 (A 90,901 + B 66,752). It pays for the Claude Max upgrade (~NGN 134,000 more than Pro, estimate), NGN 30,000 of webinar ads and a NGN 33,000 one-off for his girlfriend, net of the NGN 70,000 freed by Ex-Jam (now a NGN 30,000 contribution only).
+**Why**: Samuel, 2026-10-04: *"Let's cut out of Goal 1 cause my company said they want me to edit at least 5 videos, I think I can make it up"*.
+**Objection (Money man, logged once, then executed):** Goal 1 is the one line Rule 8 says never funds an urgency, and the plan assumes 4 videos. The 5th video is Route Rise's ask, not yet delivered or paid. If it does not come, Goal 1 needs NGN 348,153 a month in November and December (up from 284,653) to reach NGN 1,000,000 by 2026-12-31. Not relitigated.
+**Who decided**: Samuel.

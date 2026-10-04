@@ -33,3 +33,11 @@ Back to [[03-Areas/finances/finances|Finances]]
 - Cowrywise is now two parts: *"1 is a Savings 40k The other is an investment fund 60k, Last month I divided it without record, I have an existing 60k investment already locked"*. Total NGN 100,000 unchanged (Rule 7). What each part holds, and whether Rule 7 covers the savings part, is open.
 - The remainder (NGN 154,891) he handed over: *"add it to where you think I may end up spending more than planned"*. Put on Feeding, Transport, Eating out, Girlfriend extras and Extra cash, with NGN 44,891 kept as a rate cushion that goes to the Buffer on 31 Oct.
 - 2026-09-28 — Cowrywise savings is Buffer money. Samuel: *"It's withdrawable, put it toward the Buffer"*. The Rule 7 lock now covers only the NGN 60,000/month investment fund his finance manager runs.
+
+
+## 2026-10-04 — Ex-Jam trimmed, Goal 1 cut, three new lines
+
+- Ex-Jam: *"I won't go, and I would only send 30k contribution"*. October line NGN 100,000 → NGN 30,000 on Payday A.
+- Goal 1 cut NGN 127,000 (NGN 284,653 → NGN 157,653): *"Let's cut out of Goal 1 cause my company said they want me to edit at least 5 videos, I think I can make it up"*. Objection in [[00-System/decisions|decisions]].
+- New one-off lines: Girlfriend community fee NGN 33,000 on A (*"I have promised her the money, which is aside the 100k I was already giving her"*), Webinar ads NGN 30,000 on B, Claude Max upgrade ~NGN 134,000 on B (estimate).
+- The NGN 10,000 eating out, NGN 5,000 given and NGN 3,265 recharge cards spent 2026-10-04 were last month's cash, not October's budget (*"it was out of the money on hand from last month"*). Booked to September in the ledger.
