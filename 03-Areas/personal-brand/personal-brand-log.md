@@ -22,3 +22,4 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 - 2026-10-04 — Brand guide, three-week content plan (Mon 10-05 to Sun 10-25) and landing page copy drafted: [[03-Areas/personal-brand/brand-guide|guide]], [[03-Areas/personal-brand/content-plan-2026-10-called-to-edit|plan]], [[04-Projects/called-to-edit-landing-page-copy|landing copy]]. Samuel confirmed proof (5 years, Route Rise, 1M YouTuber, billion-dollar brand, ~500 videos, $10k+), 4 posts a week, students over followers. Metricool reconnected to @samuelsignals01, tracking from 2026-10-04.
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]
+- 2026-10-04 — Landing page build handed to a new Opus session using the scroll-craft skill. Setup checked, build folder made, brief questions open: [[04-Projects/called-to-edit-landing-page-build|build handoff]].
