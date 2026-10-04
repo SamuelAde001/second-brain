@@ -15,5 +15,6 @@ Cross-domain requests between agents. One row each: **date · from · to · requ
 |------|------|----|---------|--------|--------|
 | 2026-09-22 | finance | video-editor | Keep one row per delivered video (name, end client, date, rate, batch) so finance knows a month's income before invoice day. Samuel's instruction | **done**: backfilled May–Sep 2026 (17 rows, 15 unnamed); standing job from now | [[03-Areas/video-editing/delivered-projects\|delivered projects]] |
 | 2026-09-29 | personal-life | video-editor | AI B2B Resolve setup + sync moves from Sat 7:00am to Fri 10-02 night, after Apollo is delivered, run overnight (Samuel: *"I think It can"*). Saturday has 7:00–9:00am for the cut before a wedding | open | [[04-Projects/routerise-ai-b2b-marketing\|AI B2B project]] |
+| 2026-10-04 | finance | content | Samuel cut the Brand strategist's NGN 50,000 from the October budget (*"I would also cut Brand strategist out"*). Ask him whether the hire (2026-09-29 decision) is cancelled or only postponed, and update [[03-Areas/personal-brand/personal-brand-decisions|the decision]] | open | [[03-Areas/finances/plans/plan-2026-10|October plan]] |
 
 Back to [[07-Agents/roster|Roster]] · Constitution: [[AGENTS]] §7.

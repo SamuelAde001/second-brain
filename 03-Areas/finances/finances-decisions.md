@@ -41,3 +41,10 @@ Back to [[03-Areas/finances/finances|Finances]]
 - Goal 1 cut NGN 127,000 (NGN 284,653 → NGN 157,653): *"Let's cut out of Goal 1 cause my company said they want me to edit at least 5 videos, I think I can make it up"*. Objection in [[00-System/decisions|decisions]].
 - New one-off lines: Girlfriend community fee NGN 33,000 on A (*"I have promised her the money, which is aside the 100k I was already giving her"*), Webinar ads NGN 30,000 on B, Claude Max upgrade ~NGN 134,000 on B (estimate).
 - The NGN 10,000 eating out, NGN 5,000 given and NGN 3,265 recharge cards spent 2026-10-04 were last month's cash, not October's budget (*"it was out of the money on hand from last month"*). Booked to September in the ledger.
+
+
+## 2026-10-04 (later) — Claude paid this week, strategist cut
+
+- *"Claude has to be paid this week actually"*: Claude Max upgrade NGN ~156,000 (estimate) on Payday A, replacing the 16th Pro renewal. Next renewal is a month after the upgrade date at ~NGN 167,500: November's plan carries it.
+- *"I would also cut Brand strategist out"*: NGN 50,000 removed. Hire status goes to the Brand manager (handoff).
+- Goal 1 October: NGN 219,153 (cut NGN 65,500).

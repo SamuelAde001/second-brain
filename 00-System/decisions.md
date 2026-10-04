@@ -206,3 +206,10 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Why**: Samuel, 2026-10-04: *"Let's cut out of Goal 1 cause my company said they want me to edit at least 5 videos, I think I can make it up"*.
 **Objection (Money man, logged once, then executed):** Goal 1 is the one line Rule 8 says never funds an urgency, and the plan assumes 4 videos. The 5th video is Route Rise's ask, not yet delivered or paid. If it does not come, Goal 1 needs NGN 348,153 a month in November and December (up from 284,653) to reach NGN 1,000,000 by 2026-12-31. Not relitigated.
 **Who decided**: Samuel.
+
+
+## 2026-10-04 (later) — Claude Max paid this week; Brand strategist cut; Goal 1 cut shrinks to NGN 65,500
+
+**Decision**: Claude Max is paid on Payday A, this week (Samuel: *"Claude has to be paid this week actually"*), not on the 16th. The Brand strategist's NGN 50,000 is removed (*"I would also cut Brand strategist out"*). Goal 1 for October is NGN 219,153 (A 9,901 + B 209,252), a cut of NGN 65,500, replacing the NGN 127,000 above.
+**Why it moved**: an upgrade mid-cycle charges one full Max month less the unused Pro value and resets the billing date, so the 16th Pro renewal (NGN 33,500) disappears and the upgrade costs ~NGN 156,000 estimated (was NGN 134,000 on top of it). Eating out and Girlfriend extras moved from A to B so the upgrade fits on A.
+**Who decided**: Samuel.
