@@ -32,3 +32,15 @@ Append-only. Date, decision, why, alternatives rejected, who decided.
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]
 - 2026-09-30 — **Called to Edit** (webinar, Sat 2026-10-24, NGN 5,000) and **Called to Edit Academy** (live DaVinci Resolve cohort, NGN 50,000, from November) run under @SamuelSignals. Samuel: *"this would be under my personal brand at Samuel Signals"*. → [[04-Projects/called-to-edit-webinar-and-academy|project]]
+- **2026-10-04 — Brand pivot: the personal brand now serves video editors.** Samuel, voice note, in his words:
+  - **Who:** *"every video editor that is a Nigerian ... trying to establish himself"*, two kinds: (1) wants to start editing and has no plan or first step; (2) already learning but *"doesn't know how to get clients ... how to position himself ... how to get people to pay him"*. Earlier same day: beginners who want to start, and experts who want to learn on DaVinci Resolve.
+  - **Positioning:** *"Samuel Adebayo, the coach for video editors ... mentor and coach for video editors specializing in DaVinci Resolve. Not only specializing in DaVinci Resolve"*; any editor can ask him anything, whatever they use.
+  - **What he teaches that others don't:** *"most people don't teach the business"* and *"the methods I use in DaVinci Resolve"* (most teach After Effects).
+  - **Webinar jobs:** (1) authority in video editing in Nigeria, (2) help editors who don't know what to do, (3) establish video editors, (4) money, *"another source of pay"*. **Target about 200 seats.** After it the room should feel *"I have a plan. Now I need the tools"*, and want a guide who can really edit, which sells the NGN 50,000 cohort.
+  - **Old content stops for now:** Called to Create, faith and the other feed content: *"they don't really hit for my targets ... they might come in once in a while"*.
+  - **Link:** *"a link that will carry them to a landing page"* showing his authority and proof, with the payment link on it.
+  - **Brand guide wanted:** colours, fonts, style, tone, so everything is coherent; thumbnails are *"all everywhere"* now. Keep the Life of a Video Editor look (colours and fonts).
+  - **Inspiration on business:** Jack Cole, international. Most competitors don't teach the business side.
+  - **Capacity:** AI to speed up client edits and brand edits; no posts-a-week number given yet.
+  - **Who:** Samuel. → [[03-Areas/personal-brand/instagram-snapshot-2026-10-04|snapshot]] · [[04-Projects/called-to-edit-webinar-and-academy|project]]
+

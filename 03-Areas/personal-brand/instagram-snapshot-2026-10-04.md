@@ -9,7 +9,7 @@ tags: [instagram, analytics, snapshot, brand-strategy]
 
 # Instagram snapshot, 2026-10-04
 
-Read live from Samuel's logged-in Instagram (Claude in Chrome, read-only) on 2026-10-04. Handle on the platform is **@samuelsignals01** (the Brain says @SamuelSignals). Metricool was not readable: its session had expired and Samuel has to log in himself. TikTok not yet read. Input to the brand strategy for the webinar and the editor audience ([[04-Projects/called-to-edit-webinar-and-academy|Called to Edit project]]). Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]; context in [[instagram-strategy]].
+Read live from Samuel's logged-in Instagram (Claude in Chrome, read-only) on 2026-10-04. Handle on the platform is **@samuelsignals01** (the Brain says @SamuelSignals). Metricool, read after Samuel logged in: it is connected to a **different brand, "samuelbrand01"** (Instagram 158 followers, TikTok 1,072 followers, no posts in the last 30 days), not @samuelsignals01. Its demographics (Abuja 12.5%, Lagos 6.9%, Benin 6.9%) belong to that 158-follower account and are not used here. Waiting on Samuel to say whether @samuelsignals01 is connected under another Metricool brand. Input to the brand strategy for the webinar and the editor audience ([[04-Projects/called-to-edit-webinar-and-academy|Called to Edit project]]). Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]; context in [[instagram-strategy]].
 
 ## Profile as it stands
 
@@ -61,4 +61,4 @@ Sum 33,557. Median 436. Mean 1,119. The top 5 carry 61% of all views.
 3. **The profile does not speak to editors yet.** No Resolve, no webinar, link goes to mentorship.
 4. **Pace against 5,000 followers by 2026-12-31:** needs ~48 a day over the 88 days left; the current rate is ~7 a day.
 
-Unread: Metricool, TikTok, audience age/gender/location, per-Reel watch time, shares and saves, competitor accounts.
+Unread: @samuelsignals01 inside Metricool, TikTok @SamuelSignals, audience age/gender/location, per-Reel watch time, shares and saves, competitor accounts.
