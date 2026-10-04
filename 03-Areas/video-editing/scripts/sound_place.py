@@ -1,8 +1,11 @@
 """Place music (A2) and SFX (A3-A6) on the current Resolve timeline from a JSON plan, overwrite only (no ripple).
 
 python sound_place.py plan.json [--dry]
-plan = {"timeline": name, "music": [{"path", "rec", "end", "src_s", "vol"}], "sfx": [{"path", "rec", "vol", "tr"}]}
+plan = {"timeline": name, "music": [{"path", "rec", "end", "src_s", "vol", "fade_in"?, "fade_out"?}],
+        "sfx": [{"path", "rec", "vol", "tr", "len"?, "src"?}]}
 - rec/end are timeline frames, src_s is the source in-point in seconds, vol is the clip's AudioVolume in dB.
+- sfx: len in frames (else dur in seconds, else 1 s), src = source in-point in frames (default 0).
+- fade_in/fade_out: audio fade lengths in frames, set with TimelineItem.SetFades.
 - Adds stereo audio tracks up to the highest track the plan uses. Asserts the timeline length never changes.
 - Files are imported into the media pool folder "Sound (Editor)" (reused when already there).
 """
@@ -56,10 +59,12 @@ def place(path, rec, end, src_frames, tr, vol):
 out = []
 for m in plan.get("music", []):
     it = place(m["path"], m["rec"], m["end"], int(round(m["src_s"] * FPS)), 2, m["vol"])
+    if it and (m.get("fade_in") or m.get("fade_out")):
+        it.SetFades({"FadeIn": int(m.get("fade_in", 0)), "FadeOut": int(m.get("fade_out", 0))})
     out.append(("music", os.path.basename(m["path"]), m["rec"], it.GetStart() - ST if it else None, it.GetEnd() - ST if it else None, it.GetProperty("AudioVolume") if it else None))
 for s in plan.get("sfx", []):
     n = s.get("len") or int(round(s.get("dur", 1.0) * FPS))
-    it = place(s["path"], s["rec"], s["rec"] + n, 0, s["tr"], s["vol"])
+    it = place(s["path"], s["rec"], s["rec"] + n, int(s.get("src", 0)), s["tr"], s["vol"])
     out.append(("sfx", os.path.basename(s["path"]), s["rec"], it.GetStart() - ST if it else None, s["tr"], it.GetProperty("AudioVolume") if it else None))
 for o in out:
     print(o)

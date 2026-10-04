@@ -1,6 +1,7 @@
 """List the visual events on a Resolve timeline, for SFX placement (external Python; Resolve running).
 
-python sfx_events.py "<timeline>" <scratch_dir> <out.json>
+python sfx_events.py "<timeline>" <scratch_dir> <out.json> [--skip=4,8]
+--skip: video tracks to leave out (default 4,8, the #3 layout: V4 his disabled Tella pieces, V8 an A-roll duplicate).
 
 Events:
 - every enabled clip start on V2 and above (kind from the clip: ui / broll / comp / adjustment / generator)
@@ -42,7 +43,10 @@ def comp_events(path):
 
 
 events = []
-SKIP = {4, 8}   # V4 = his disabled Tella pieces, V8 = A-roll duplicate: cut-driven, never SFX
+SKIP = {4, 8}   # #3 layout: V4 = his disabled Tella pieces, V8 = A-roll duplicate: cut-driven, never SFX
+for a in sys.argv[4:]:
+    if a.startswith("--skip="):
+        SKIP = {int(x) for x in a[7:].split(",") if x}
 for tr in range(2, tl.GetTrackCount("video") + 1):
     if tr in SKIP or not tl.GetIsTrackEnabled("video", tr):
         continue
@@ -56,6 +60,8 @@ for tr in range(2, tl.GetTrackCount("video") + 1):
             p = os.path.join(cdir, "V%d_%d.comp" % (tr, s))
             if not os.path.exists(p):
                 it.ExportFusionComp(p, 1)
+            if not os.path.exists(p):
+                print("export failed", tr, s, nm); continue
             try:
                 lo = int(round(it.GetLeftOffset(False) or 0))
             except Exception:

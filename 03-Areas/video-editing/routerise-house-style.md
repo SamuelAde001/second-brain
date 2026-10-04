@@ -3,7 +3,7 @@ type: knowledge
 area: video-editing
 status: needs-input
 source: claude-export
-updated: 2026-09-20
+updated: 2026-10-04
 tags: [house-style, routerise]
 ---
 
@@ -142,6 +142,20 @@ In the reference, the V7 run is contiguous except for one 34-second gap (6:28.9�
 - **SFX marks graphics, not cuts.** Only 8% of A-roll cuts have an SFX within 4 frames, vs. 35% of graphic reveals within 6 frames — cuts are silent, reveals get sound, and even then only about a third of them so it never becomes wallpaper.
 
 **The demo-section rule (Rule 7), measured:** per 30-second window from 3:30–6:30, SFX count = 0, music absent, Fusion graphics drop from ~19 per window to 1–4. Everything strips away to just the screen recording plus PIP. At 6:28.9, music returns, SFX returns (10 hits in that window), PIP ends.
+
+### What Samuel changed on the Editor's #3 sound pass (read from his delivered timeline, 2026-10-04)
+
+The Editor scored #3 on 2026-09-28. Diffing his delivered *Cut v6* against that plan shows how he finishes sound. Facts from his timeline, not guesses:
+- **Music off under every Tella + PIP stretch** (Rule 7 applies to music, not just SFX). He disabled or cut the cue there and brought it back when the demo ended. Music stays under rebuilt full-screen UI visuals.
+- **Levels he moved:** Bahamas −32.1 (was −30.3), A Pinpoint of Light −30.2 (was −35.1), Road to Nowhere −32.8 (was −39.7). The rest kept the #1 levels.
+- **The open:** `ES_Low Hit` −14.9 (from source frame 1) + `Swoosh_03` −22.2 on frame 0.
+- **The riser ends on the hit:** `cinematic riser 4` starts 35 f before the Low Hit. At a section reveal: Swoosh −22.2 7 f before, Low Hit −15.6 5 f before.
+- **Clicks:** `Mouse Click (5)` −29.3 on every on-screen click in a UI demo.
+- **Shutters:** `Camera_01` −33.2 on photo and B-roll cuts, including fast cuts inside a montage.
+- **Staggered pops:** a cascade of `UI Double Beep 03` 3–6 f apart at −43.1 (−46.6 for minor ones), each on its own track; up to 8 audio tracks in use.
+- About 20 of the 120 hits were disabled, mostly `Multiple UI Beeps 01` on demo starts and a few swooshes.
+
+Sound library: music in `Routerise\Visual Assets\Music\`, SFX in `Routerise\Visual Assets\SFX\` and `C:\Users\repzy\Downloads\sounds\Sound effects\` (the palette files above live there). Scripts: `scripts/sound_study.py` (dump a finished project's audio), `scripts/sfx_events.py` (comp element landings + clip starts), `scripts/sound_place.py` (place a JSON plan, music fades, SFX in-points). Apollo's plan builder, with demo clicks and typing read from the HTML scene files: the job's `Docs\Sound plan (2026-10-04)\`.
 
 ## 9. Typography and colour
 

@@ -2,7 +2,7 @@
 type: agent
 area: video-editing
 status: active
-updated: 2026-10-03
+updated: 2026-10-04
 source: interview
 tags: [agent, video-editing, resolve, fusion]
 name: video-editor
@@ -70,6 +70,7 @@ Steps map to [[03-Areas/video-editing/workflow|the brief-to-payment workflow]] a
 ## Folders outside the Brain it may access
 - **The client project media and Resolve project files**, when a specific edit requires it — path granted per job in the running AI tool's permission config (Claude Code: `.claude/settings.json`) and listed in AGENTS.md §10. Sources are read-only: copy, never move (AGENTS.md rule 5).
 - **Granted 2026-09-24: `C:\Users\repzy\Desktop\Video edits\Routerise\`**, read and write. One folder per job, named exactly like the ClickUp card (e.g. `3. I Tried 100+ AI Tools…`), with `Client raws/`, `Screen recordings/`, `Docs/`, `Screenshots/`, `B-roll/`, `Music/`, `SFX/`, `Graphics/`. Downloaded client raws are never modified or renamed. How a job gets set up: [[03-Areas/video-editing/sops/routerise-job-setup|Routerise job setup]].
+- **Read-only: `C:\Users\repzy\Downloads\sounds\Sound effects\`**, his SFX library (Samuel, 2026-09-28: *"go to my Sound library"*). Listed and measured by script, imported into Resolve by reference, never moved or edited. How a sound pass is done: [[routerise-house-style]] §8.
 
 ## Tools and MCPs
 - **DaVinci Resolve MCP** — `run_script` (the `resolve` global is the entry point), `search_scripting_api`, `get_scripting_api`, `get_scripting_docs`, `get_whats_new`, LUT/DCTL tools. Resolve **21.1**. Scripts run in a **sandbox: no `import os`/filesystem imports, ~10s per call** — first Fusion call spins Fusion up and can exceed it, so warm Fusion with a lone `AddFusionComp` before building.

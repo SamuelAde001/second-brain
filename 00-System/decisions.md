@@ -192,3 +192,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **What**: The plan to create a Google Cloud OAuth client for Gmail, Calendar, and Drive is dropped. Instead, any tasks requiring them will be done by automating the Chrome browser via the computer-use MCP server.
 **Who decided**: Samuel.
 
+
+## 2026-10-04 — Editor may read Samuel's SFX library in Downloads
+
+**Decision**: `C:\Users\repzy\Downloads\sounds\Sound effects\` is added to the Editor's outside-Brain access, read-only (AGENTS.md §10, the Editor's profile). Scripts list and measure files there, and Resolve imports them by reference. Nothing is moved, renamed or edited.
+**Why**: Samuel, 2026-09-28: *"go to my Sound library, use those same music and sound effects"*. His finished Route Rise timelines take their SFX palette (UI Double Beep 03, Swoosh_03, Mouse Click (5)…) from this folder. The Editor used it on #3 and on Apollo without it being listed.
+**Who decided**: Samuel (the instruction); the Editor recorded the grant.
