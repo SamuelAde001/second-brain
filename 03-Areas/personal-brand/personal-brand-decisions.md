@@ -45,3 +45,10 @@ Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]
   - **Who:** Samuel. → [[03-Areas/personal-brand/instagram-snapshot-2026-10-04|snapshot]] · [[04-Projects/called-to-edit-webinar-and-academy|project]]
 - **2026-10-04 — Corrections to the brand guide.** Samuel, in his words: positioning is *"I coach video editors to get paid"* (not "Nigerian video editors"): *"my main audience right now are Nigerian, but I want other people outside to not feel left out"*. The pillar *The Resolve way* becomes **"My editing process behind the scenes"**. Bio: *Ex-military Personnel to Video Editor / 🎬 I coach Video editors to get paid / DaVinci Resolve Expert / 👇 Called to Edit, live webinar, Sun 25 Oct, 7pm*. Exact brand colours, fonts and look come **later**, from his DaVinci Resolve project of past edits. → [[03-Areas/personal-brand/brand-guide|brand guide]]. **Who:** Samuel.
 
+- **2026-10-04 — Landing page build: payment, form, proof, hero.** Samuel, voice note and answers in the build session:
+  - **Payment: Flutterwave, not Paystack.** *"I am using Flutterwave ... I already have a business account with them"*. A Flutterwave payment link, NGN 5,000.
+  - **Flow:** a form (name, email, phone, WhatsApp number), then payment, then *"redirect them all to a WhatsApp group chat"*.
+  - **Hosting Netlify; form rows into a Google Sheet** (his picks from the options offered).
+  - **Proof he cleared for the page:** about 5 years editing; 500+ long-form videos; *"Over $20000 worth of videos edited in 2 years"*; *"The Billion dollar brand name is Whop"*; Route Rise by name; a YouTuber with 1M+ subscribers (unnamed); *"more than 8 international clients"*; the ex-military line; a 30-day plan; seats capped at 100.
+  - **Emphasis:** *"I need them to see the roadmap and what they would learn"* · *"My photo's aren't most important"* · *"The Hero should emphasize more on, Starting and building a career as a video editor"* · mobile first, *"easy to load for slow networks"*.
+  - **Who:** Samuel. → [[04-Projects/called-to-edit-landing-page-build|build note]]

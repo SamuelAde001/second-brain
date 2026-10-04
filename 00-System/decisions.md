@@ -226,3 +226,10 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 
 **Decision**: the plan uses the real Play price, NGN 209,375, replacing the 167,500 estimate. October Goal 1 is NGN 165,778 (A 1,526 + B 164,252). Samuel decided the upgrade and the Goal 1 cut earlier today; the price is the only thing that moved. The objection above stands and is not repeated.
 **Who decided**: Samuel (the upgrade); the price is from his screenshot.
+
+
+## 2026-10-04 (fifth) — Brand manager gets two outside-Brain folders
+
+**Decision**: the content agent may read `C:\Users\repzy\Pictures\My pictures\` (not `Babe`) and read and write `C:\Users\repzy\Desktop\landing-page\`. Listed in AGENTS.md §10 and the agent's profile. Claude Code granted the build folder by a session directory request; no change to `.claude/settings.json`.
+**Why**: Samuel, 2026-10-04: *"check the folder of my pictures in my computer ... and just build this"*. The build folder was already set out in [[04-Projects/called-to-edit-landing-page-build|the build note]].
+**Who decided**: Samuel.

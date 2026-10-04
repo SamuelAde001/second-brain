@@ -111,5 +111,6 @@ The look already exists in the series. His room is the brand: a dark navy marble
 
 - Exact brand colours, fonts and look: to be taken **later** from his DaVinci Resolve project of past edits (Samuel, 2026-10-04); the values above stay approximate until then.
 - Which proof he may name publicly (the 1M YouTuber, the billion-dollar brand); his comfort with the income figure.
+  - **Answered 2026-10-04:** Whop is the billion-dollar brand and may be named; Route Rise by name; the 1M+ YouTuber stays unnamed; *"Over $20000 worth of videos edited in 2 years"*, 500+ long-form videos and 8+ international clients may be shown ([[03-Areas/personal-brand/personal-brand-decisions|decisions]]).
 - The real count of long-form videos edited.
 - Whether the cobalt/Poppins system is HighSignals or Scripnals.

@@ -65,3 +65,12 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 
 
 Back to [[07-Agents/content/profile|Profile]]
+
+## 2026-10-04 — Building web pages for him
+
+- He wants **conversion first, mobile first, light pages**: most of his audience is on phones and slow data. No video on a landing page; WebP at ~640px for phones.
+- The **content is the selling point, not his face**: *"I need them to see the roadmap and what they would learn"*. Lead with the career outcome.
+- His photo library: `C:\Users\repzy\Pictures\My pictures\Photos-1-001\` (76 JPGs). Best brand shot: `Potrait photo.jpg` (blue blazer, marble wall). `Pictures\Babe` is his girlfriend: never opened.
+- ffmpeg `drawtext` fails here (fontconfig missing); make contact sheets without labels and check picks by filename. EXIF rotation means raw dimensions can look swapped.
+- scroll-craft engine: `data-sc-kinetic` strips inner spans (a gold phrase loses its colour). A middle pinned act's last cue must hold (one value) or the stage slides off empty.
+- The in-app browser pane only advances CSS transitions while a screenshot is being taken; half-faded blocks in `javascript_tool` reads are not a page bug.

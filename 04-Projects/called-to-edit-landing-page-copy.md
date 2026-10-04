@@ -11,6 +11,8 @@ tags: [called-to-edit, landing-page, copy, webinar]
 
 Copy only; the page gets built in a separate chat from this. Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]]. Look and voice: [[03-Areas/personal-brand/brand-guide|Brand guide]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
+> **Build session 2026-10-04 (Samuel):** payment is **Flutterwave**, not Paystack. Every `[confirm]` in §5–§7 is settled: proof as listed in [[03-Areas/personal-brand/personal-brand-decisions|decisions]] (Whop named, Route Rise named, 1M+ YouTuber unnamed, 500+ videos, $20,000+ in 2 years, 8+ international clients, ex-military), the 30-day plan, and the 100-seat cap. The income line ($10,000 last year) stays off. The built page's hero reads **"Start and build your career as a video editor."** at his request; the live wording is in the build folder, not here.
+
 **Marked `[confirm]` = not yet his say-so; do not publish until he settles it.** Logistics come from his 2026-10-04 correction: Sunday 2026-10-25, 7:00pm WAT, about 2½ hours, Google Meet, NGN 5,000 on Paystack, no refunds, replay for people who paid.
 
 Page look: navy marble background, gold serif headings, cream text, his face in the hero. One button, repeated: **Get my seat**.
