@@ -74,3 +74,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - ffmpeg `drawtext` fails here (fontconfig missing); make contact sheets without labels and check picks by filename. EXIF rotation means raw dimensions can look swapped.
 - scroll-craft engine: `data-sc-kinetic` strips inner spans (a gold phrase loses its colour). A middle pinned act's last cue must hold (one value) or the stage slides off empty.
 - The in-app browser pane only advances CSS transitions while a screenshot is being taken; half-faded blocks in `javascript_tool` reads are not a page bug.
+- **Mobile first never means desktop second** (Samuel, 2026-10-04: *"some would open on their computers"*). Check every page at ~1920px too: keep content inside the page width, never a full-bleed photo with tiny copy at the far edge. He dislikes long pinned scroll sections and generic timelines; wants scannable cards with icons.

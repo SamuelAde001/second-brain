@@ -33,6 +33,16 @@ Use the **scroll-craft** skill (github.com/nateherkai/scroll-craft, MIT) to buil
 - **Risk he should know:** the WhatsApp link shows to anyone who opens `welcome.html?status=successful`. Match group members against Flutterwave's transaction list.
 - Not used: the `doctor` playwright step (verification ran in the in-app browser instead, no install), kie.ai (no generation).
 
+## Revision 2026-10-04 (Samuel's review)
+
+Samuel, on the first build: *"Because I told you prioritize mobile doesn't mean that desktop like mine should look bad"* · the stuck part had *"too much space ... more straight to the point, not too much animations"* · roadmap *"looks medicre and generic ... make them love to read it with visuals icons"* · remove "Not for you if" and the three steps beside the form · *"they must pay first before they join the whatsapp actually"*.
+
+- **Desktop hero:** now a composed spread inside the page width: copy left, framed portrait right (gold offset frame, name tag overlapping it, three parallax planes). Phone hero unchanged.
+- **Stuck:** no longer pinned. One screen: headline, three questions as icon cards, the "business side" line.
+- **Roadmap:** three phases (Get started 1–3, Get clients 4–5, Get paid and grow 6–7; the grouping is the Brand manager's, the content is his outline), each stop a card with an icon, the stop name and bullets taken from his outline. Desktop: a central road with cards alternating sides. Phone: road on the left. The road still fills and stops light up as you scroll. Finish card with the button.
+- **Payment first, then WhatsApp:** form → Flutterwave → `welcome.html` logs the payment and **opens the WhatsApp group automatically** after about 2 seconds (button kept as a fallback). Nobody gets the group link without Flutterwave sending them back as paid.
+- Verified in the in-app browser at 1920×960 and 375×812.
+
 ## Next step: Step 0, the brief (done 2026-10-04, see above)
 
 The skill needs a brief before building. Pre-filled from the Brain: audience, journey, one CTA (**Get my seat**), look (navy marble, gold serif, cream), mobile first. **Four questions still open for Samuel** (or he may say "use your judgment", which the skill treats as creative delegation: author the brief, flag assumptions, build):
