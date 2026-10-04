@@ -75,3 +75,8 @@ Back to [[07-Agents/content/profile|Profile]]
 - scroll-craft engine: `data-sc-kinetic` strips inner spans (a gold phrase loses its colour). A middle pinned act's last cue must hold (one value) or the stage slides off empty.
 - The in-app browser pane only advances CSS transitions while a screenshot is being taken; half-faded blocks in `javascript_tool` reads are not a page bug.
 - **Mobile first never means desktop second** (Samuel, 2026-10-04: *"some would open on their computers"*). Check every page at ~1920px too: keep content inside the page width, never a full-bleed photo with tiny copy at the far edge. He dislikes long pinned scroll sections and generic timelines; wants scannable cards with icons.
+
+## 2026-10-04 — Publishing the landing page
+- Netlify CLI is installed globally and logged in to his account. Publish with `sh deploy.sh "msg"` in `Desktop\landing-page\` (site id `abf350bc-…`, `--dir site`). He drags whole folders by mistake; never ask him to drag again.
+- Apps Script editor: set code with `monaco.editor.getModels()[0].setValue(...)` via javascript, using `String.raw` so regex backslashes survive. The OAuth "Allow" stays his click.
+- `curl -L -X POST` to an Apps Script `/exec` returns 411 after the 302; the row is still written. Check the Sheet, not curl's reply.
