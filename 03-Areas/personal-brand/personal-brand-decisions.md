@@ -43,4 +43,5 @@ Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]
   - **Inspiration on business:** Jack Cole, international. Most competitors don't teach the business side.
   - **Capacity:** AI to speed up client edits and brand edits; no posts-a-week number given yet.
   - **Who:** Samuel. → [[03-Areas/personal-brand/instagram-snapshot-2026-10-04|snapshot]] · [[04-Projects/called-to-edit-webinar-and-academy|project]]
+- **2026-10-04 — Corrections to the brand guide.** Samuel, in his words: positioning is *"I coach video editors to get paid"* (not "Nigerian video editors"): *"my main audience right now are Nigerian, but I want other people outside to not feel left out"*. The pillar *The Resolve way* becomes **"My editing process behind the scenes"**. Bio: *Ex-military Personnel to Video Editor / 🎬 I coach Video editors to get paid / DaVinci Resolve Expert / 👇 Called to Edit, live webinar, Sun 25 Oct, 7pm*. Exact brand colours, fonts and look come **later**, from his DaVinci Resolve project of past edits. → [[03-Areas/personal-brand/brand-guide|brand guide]]. **Who:** Samuel.
 

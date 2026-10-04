@@ -21,7 +21,7 @@ Page look: navy marble background, gold serif headings, cream text, his face in 
 
 **Headline:** You can edit. Now get paid for it.
 
-**Subhead:** Called to Edit is a live webinar with Samuel Adebayo, a working video editor with 5 years of experience, on how to start and build a career as a video editor in Nigeria and earn from it. Any device. Any app.
+**Subhead:** Called to Edit is a live webinar with Samuel Adebayo, a working video editor with 5 years of experience, on how to start and build a career as a video editor and earn from it, wherever you are. Any device. Any app.
 
 **Facts bar:** Sunday 25 October · 7:00pm WAT · Live on Google Meet · NGN 5,000
 
@@ -57,7 +57,7 @@ You'll finish with a plan: *I know what to do next.*
 
 ## 5. Meet your host
 
-**Samuel Adebayo.** Ex-military, now a full-time video editor. [confirm each line before publishing]
+**Samuel Adebayo.** Ex-military, now a full-time video editor and DaVinci Resolve expert. [confirm each line before publishing]
 - About 5 years editing professionally.
 - Client work including Route Rise, a YouTuber with 1M+ subscribers, and a billion-dollar brand. [confirm he may name or describe them]
 - Likely 500+ long-form videos edited. [count pending]

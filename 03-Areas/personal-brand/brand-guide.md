@@ -15,9 +15,9 @@ The guide for the editor pivot (2026-10-04). Samuel's positioning and audience a
 
 **Who he is.** Samuel Adebayo, the coach and mentor for video editors, specialising in DaVinci Resolve but able to guide any editor on any tool.
 
-**One line.** *I coach Nigerian video editors to get paid. DaVinci Resolve is how I do it.*
+**One line.** *I coach video editors to get paid.* (Samuel's wording, 2026-10-04.) Nigerian editors are the main audience today, but the line, the examples and the offer are built so editors anywhere don't feel left out.
 
-**Who it's for.** Nigerian editors, two kinds:
+**Who it's for.** Video editors, mostly Nigerian for now, from anywhere, two kinds:
 1. **The starter.** Wants to edit, has no plan, doesn't know the first step.
 2. **The stuck editor.** Already learning, but doesn't know how to get clients, position himself or get paid. (DaVinci Resolve users are the cohort's core buyers.)
 
@@ -25,7 +25,7 @@ The guide for the editor pivot (2026-10-04). Samuel's positioning and audience a
 
 **What he teaches that most don't.**
 1. **The business of editing:** niche, positioning, getting clients, pricing, foreign clients.
-2. **His DaVinci Resolve method**, where most Nigerian teachers use After Effects.
+2. **His DaVinci Resolve method**, where most teachers use After Effects.
 
 **Proof (his words; counts and names to confirm before publishing).** About 5 years editing professionally · client work with Route Rise · a YouTuber with 1M+ subscribers · a billion-dollar brand last year · likely 500+ long-form videos (to be counted) · two mentees who can give testimonials · Life of a Video Editor, the series that grew the account.
 
@@ -39,7 +39,7 @@ The guide for the editor pivot (2026-10-04). Samuel's positioning and audience a
 |---|---|---|---|
 | **Get started** | The plan for beginners: what to learn first, tools, money, niche | Reach and trust | Talking head |
 | **Get paid** | Clients, DMs, pricing, foreign vs Nigerian clients, packaging | Conversion | Talking head, screen + face |
-| **The Resolve way** | How he edits in Resolve, AI in Resolve, before/after | Authority, cohort | Screen recordings, B-roll |
+| **My editing process, behind the scenes** | How he edits, in DaVinci Resolve: his process, AI in Resolve, before/after | Authority, cohort | Screen recordings, B-roll |
 | **Life of a Video Editor** | His story and daily work, cinematic | Reach, emotion | Cinematic series |
 
 **Paused:** Called to Create, faith content, event clips, Guiding While Riding, vlogs. They may return once in a while. The numbers behind this: everything above 1,200 views is editing or Resolve; the rest sits at 280–900.
@@ -49,7 +49,7 @@ The guide for the editor pivot (2026-10-04). Samuel's positioning and audience a
 Keep the six non-negotiables from [[brand-context]]. For this pivot:
 - **Coach, not guru.** *"Here's what worked for me"*, never *"you must"*.
 - **Simple English** a 15-year-old can follow. Pidgin: one or two phrases, for warmth only.
-- **Nigeria first.** Examples are Nigerian: light, data, NEPA, naira, a phone and a laptop.
+- **Nigerian by default, open to everyone.** Examples lean Nigerian (light, data, naira, a phone and a laptop), but nothing is phrased so that an editor in Ghana, Kenya, the UK or the US feels it isn't for them. Prices are shown in NGN with the context kept simple; no "Nigerians only" wording.
 - **Hooks are bold and true.** A stake, a pain or a dream in the first line. Never misleading.
 - **Always one CTA.** Each Reel ends with one next step, not three.
 - **Money:** as possibility and proof, never flaunting. Family details stay out.
@@ -73,7 +73,7 @@ The look already exists in the series. His room is the brand: a dark navy marble
 
 **Cover and thumbnail template.** One layout, three variants, same every time:
 1. A single bold serif gold keyword, max 4 words.
-2. A small cream label above it (series or pillar name: *Get Started*, *Get Paid*, *The Resolve Way*, *Life of a Video Editor*).
+2. A small cream label above it (series or pillar name: *Get Started*, *Get Paid*, *Behind the Scenes*, *Life of a Video Editor*).
 3. His face or his desk on the navy marble background. No stock backgrounds, no new colours.
 4. Safe margins so the cover reads in the 3:4 profile grid.
 
@@ -87,9 +87,10 @@ The look already exists in the series. His room is the brand: a dark navy marble
 
 - **Name field:** Samuel Adebayo | Video Editing Coach (searchable).
 - **Handle:** @samuelsignals01 stays.
-- **Bio (draft):**
-  🎬 I coach Nigerian video editors to get paid
-  DaVinci Resolve · Ex-military → full-time editor
+- **Bio (his version, 2026-10-04):**
+  Ex-military Personnel to Video Editor
+  🎬 I coach Video editors to get paid
+  DaVinci Resolve Expert
   👇 Called to Edit, live webinar, Sun 25 Oct, 7pm
 - **Link:** none until the landing page exists. Then the landing page, not the mentorship page.
 - **Pinned (3):** the 5,901-view AI-and-Resolve Reel, Life of a Video Editor EP1 (5,002) or EP2 (4,304), and the webinar announcement.
@@ -108,7 +109,7 @@ The look already exists in the series. His room is the brand: a dark navy marble
 
 ## Open (`needs-input`)
 
-- Exact hex values and font names from his Fusion Text+ title preset (an eyedropper on one cover settles it).
+- Exact brand colours, fonts and look: to be taken **later** from his DaVinci Resolve project of past edits (Samuel, 2026-10-04); the values above stay approximate until then.
 - Which proof he may name publicly (the 1M YouTuber, the billion-dollar brand); his comfort with the income figure.
 - The real count of long-form videos edited.
 - Whether the cobalt/Poppins system is HighSignals or Scripnals.
