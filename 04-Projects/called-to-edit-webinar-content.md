@@ -154,6 +154,8 @@ Samuel, 2026-10-04: *"list out everything that you think I need to cover on the 
 - 10.2 (S) The upsell into Called to Edit Academy.
 - 10.3 Q&A.
 
+**Samuel's cuts and adds, 2026-10-04 02:39 WAT:** cut 1.4, 1.5, 2.5, 5.4, 6.3. Added: **1.7 (S) Working for free or for low pay as a learning mechanism** and **5.10 (S) Loom video outreach**. Now 49 items. The list above is kept as written; this line is the record.
+
 ## Open
 
 - How long the webinar runs. This list is big for 2 hours (the placeholder slot is 4:00–6:00pm). Something gets a headline and a pointer rather than a full section, and it's his call which.
