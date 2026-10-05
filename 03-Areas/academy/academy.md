@@ -19,7 +19,7 @@ Described in the source doc as the first stage of an ascension model — Academy
 
 ## Current status — as of 2026-09-30
 
-**Called to Edit Academy restarts as a live cohort under @SamuelSignals**, not as the recorded course and not under HighSignals. Samuel: *"I think this method might actually work better than the course."* NGN 50,000, ~6 weeks, DaVinci Resolve, from November, sold from the Called to Edit webinar on 2026-10-24 → [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit project]]. What that leaves of HighSignals Academy is open ([[00-System/open-questions|question 107]]).
+**Called to Edit Academy restarts as a live cohort under @SamuelSignals**, not as the recorded course and not under HighSignals. Samuel: *"I think this method might actually work better than the course."* NGN 50,000, ~6 weeks, DaVinci Resolve, from November, sold from the Called to Edit webinar on 2026-10-23 → [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit project]]. What that leaves of HighSignals Academy is open ([[00-System/open-questions|question 107]]).
 
 ### As of 2026-09-22
 

@@ -7,6 +7,8 @@ source: manual
 tags: [called-to-edit, playbook, publicity, setup, team, brainstorm]
 ---
 
+> **Update 2026-10-05 (Samuel):** the webinar is now **Friday 2026-10-23, 7:00pm WAT, 2½ hours**, moved from Sunday 10-25 ("I am changing the event date of the webinar from Sunday to Friday"). Every Sat 10-24 or Sun 10-25 below is superseded; post-event tasks (replay, feedback form, clips, cohort sales) shift to the days after Fri 10-23. Current plan: [[04-Projects/called-to-edit-webinar-project-plan|Project plan]].
+
 > **Correction 2026-10-04:** Samuel's answers supersede this draft. Webinar **Sun 2026-10-25, 7:00pm, 2½ hours**. **No partners or partner cut** (§ Partners, V15, top-15 DMs are dropped; he has no partners). Interns are **volunteers** (5-6, public call-out, WhatsApp group). **No free warm-up live.** **Paystack** only. No refunds. Sales close at start. Paid ads NGN 20,000-30,000 plus a boost if short. Three major announcement videos, one used as the ad. Ep 4 paused. Full record: [[04-Projects/called-to-edit-prep-tasks|Prep tasks and questions]] → Samuel's answers. Dates in the rest of this note are still the old Sat 10-24 plan.
 
 # Called to Edit: the playbook (brainstorm)

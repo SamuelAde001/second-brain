@@ -31,7 +31,7 @@ The guide for the editor pivot (2026-10-04). Samuel's positioning and audience a
 
 **What he is not.** A guru, a "course seller", someone who acts perfect (see the six non-negotiables in [[brand-context]]). He is relatable: ex-military, now a working editor, still doing the job.
 
-**Ladder.** Free Reels → Called to Edit webinar (NGN 5,000, Sun 2026-10-25, 7:00pm WAT) → Called to Edit Academy (NGN 50,000, from November). Mentorship waits until January 2027.
+**Ladder.** Free Reels → Called to Edit webinar (NGN 5,000, Fri 2026-10-23, 7:00pm WAT) → Called to Edit Academy (NGN 50,000, from November). Mentorship waits until January 2027.
 
 ## 2. Content pillars (replace the old five)
 
@@ -91,7 +91,7 @@ The look already exists in the series. His room is the brand: a dark navy marble
   Ex-military Personnel to Video Editor
   🎬 I coach Video editors to get paid
   DaVinci Resolve Expert
-  👇 Called to Edit, live webinar, Sun 25 Oct, 7pm
+  👇 Called to Edit, live webinar, Fri 23 Oct, 7pm
 - **Link:** none until the landing page exists. Then the landing page, not the mentorship page.
 - **Pinned (3):** the 5,901-view AI-and-Resolve Reel, Life of a Video Editor EP1 (5,002) or EP2 (4,304), and the webinar announcement.
 - **Highlights:** *Start here* (rebuilt: the plan), *Called to Edit* (webinar), *Proof* (client work, testimonials), *Life of an Editor*. Retire *Called to Create* from the front row.

@@ -7,6 +7,8 @@ source: manual
 tags: [called-to-edit, outline, webinar, cohort, curriculum, davinci-resolve, brainstorm]
 ---
 
+> **Update 2026-10-05 (Samuel):** the webinar is now **Friday 2026-10-23, 7:00pm WAT, 2½ hours**, moved from Sunday 10-25 ("I am changing the event date of the webinar from Sunday to Friday"). Every Sat 10-24 or Sun 10-25 below is superseded; post-event tasks (replay, feedback form, clips, cohort sales) shift to the days after Fri 10-23. Current plan: [[04-Projects/called-to-edit-webinar-project-plan|Project plan]].
+
 > **Correction 2026-10-04:** the webinar is now **2½ hours** (7:00-9:30pm, Sun 2026-10-25), not 2. Re-time the run-of-show; he is writing the outline today. Academy: 6 weeks firm, from November, Google Meet, PDFs in a WhatsApp group, pay in 2 or in full. Record: [[04-Projects/called-to-edit-prep-tasks|Prep tasks and questions]].
 
 # Called to Edit: teaching outlines (draft)

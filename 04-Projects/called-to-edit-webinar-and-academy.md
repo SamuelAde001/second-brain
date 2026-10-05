@@ -7,6 +7,8 @@ source: manual
 tags: [project, webinar, live-class, cohort, called-to-edit, davinci-resolve]
 ---
 
+> **Update 2026-10-05 (Samuel):** the webinar is now **Friday 2026-10-23, 7:00pm WAT, 2½ hours**, moved from Sunday 10-25 ("I am changing the event date of the webinar from Sunday to Friday"). Every Sat 10-24 or Sun 10-25 below is superseded; post-event tasks (replay, feedback form, clips, cohort sales) shift to the days after Fri 10-23. Current plan: [[04-Projects/called-to-edit-webinar-project-plan|Project plan]].
+
 > **Correction 2026-10-04 (Samuel, voice note):** webinar moved to **Sunday 2026-10-25, 7:00pm, 2½ hours**; Paystack; no refunds; registration opens Mon 10-05; no partners; volunteers not interns; ads NGN 20,000-30,000. The TickTick webinar block on Sat 10-24 is now wrong (not yet changed). Details: [[04-Projects/called-to-edit-prep-tasks|Prep tasks and questions]].
 
 # Called to Edit webinar → Called to Edit Academy cohort
@@ -15,7 +17,7 @@ tags: [project, webinar, live-class, cohort, called-to-edit, davinci-resolve]
 
 **Area:** [[03-Areas/personal-brand/personal-brand|Personal brand]]. Runs as @SamuelSignals, not HighSignals, confirmed 2026-09-30.
 **Started:** 2026-09-29
-**Deadline:** webinar **Sat 2026-10-24** (hour not set; 4:00–6:00pm placeholder) · cohort starts in November 2026, possibly late November (date not set)
+**Deadline:** webinar **Fri 2026-10-23, 7:00pm WAT** (was Sat 10-24, then Sun 10-25) · cohort starts in November 2026, possibly late November (date not set)
 **Status:** needs-input: the webinar hour, Paystack set up, the team found, the team's percentage, the cohort dates, his yes to the October time plan
 
 **Detail notes:**

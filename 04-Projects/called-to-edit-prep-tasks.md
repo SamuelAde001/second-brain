@@ -13,6 +13,8 @@ Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar 
 
 Samuel, 2026-10-03: *"Make sure to ask me all the questions that would help us have a proper project plan for this, including a proper task list for the whole project prep"*.
 
+> **Update 2026-10-05 (Samuel):** the webinar is now **Friday 2026-10-23, 7:00pm WAT, 2½ hours**, moved from Sunday 10-25 ("I am changing the event date of the webinar from Sunday to Friday"). Every Sat 10-24 or Sun 10-25 below is superseded; post-event tasks (replay, feedback form, clips, cohort sales) shift to the days after Fri 10-23. Current plan: [[04-Projects/called-to-edit-webinar-project-plan|Project plan]].
+
 > **Correction 2026-10-04 (Samuel's voice note, answers below):** webinar is **Sun 2026-10-25, 7:00pm, 2½ hours**, not Sat 10-24. **No partners** (drop A10, C3, C4, V15 and every partner line). Interns are **volunteers**, 5 or 6, public call-out. **No mid-campaign live** (drop C8). **No Starter Kit decided.** Three big announcement videos plus daily simple ones, plus ads (NGN 20,000-30,000). Outline done **today 10-04**. Dates in the tables below are the old plan until rebuilt.
 
 ## Prep task list (draft)

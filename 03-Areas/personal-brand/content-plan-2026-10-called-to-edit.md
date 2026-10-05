@@ -2,18 +2,18 @@
 type: knowledge
 area: personal-brand
 status: needs-input
-updated: 2026-10-04
+updated: 2026-10-05
 source: interview
 tags: [content-plan, called-to-edit, webinar, countdown]
 ---
 
-# Three-week content plan: Mon 2026-10-05 → Sun 2026-10-25
+# Three-week content plan: Mon 2026-10-05 → Fri 2026-10-23
 
-The content half of the Called to Edit push: 4 Reels a week to the webinar on **Sun 2026-10-25, 7:00pm WAT**. Positioning and look: [[03-Areas/personal-brand/brand-guide|Brand guide]]. Everything else (team, payment, outreach, the V-list of videos) is in the [[04-Projects/called-to-edit-playbook|playbook]]; this note takes its **2026-10-04 corrections** (no partners, no mid-campaign live, webinar on Sunday). Hooks below are drafts for Samuel to rewrite in his own voice (non-negotiable 1); `write-script` takes each one into a script. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]].
+The content half of the Called to Edit push: 4 Reels a week to the webinar on **Fri 2026-10-23, 7:00pm WAT** (moved from Sunday 10-25 on 2026-10-05). Positioning and look: [[03-Areas/personal-brand/brand-guide|Brand guide]]. Everything else (team, payment, outreach, the V-list of videos) is in the [[04-Projects/called-to-edit-playbook|playbook]]; this note takes its **2026-10-04 corrections** (no partners, no mid-campaign live, webinar on Sunday); the Sunday date was then changed to Friday 10-23 on 2026-10-05. Hooks below are drafts for Samuel to rewrite in his own voice (non-negotiable 1); `write-script` takes each one into a script. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
 ## Rules
 
-1. **Goal is paid seats, not views.** Target about 200 at NGN 5,000; checkpoints in the playbook (30 by 10-10, 90 by 10-17, 150 by 10-21, 200 by 10-23). Follower count (5,000 by December) stays a secondary goal.
+1. **Goal is paid seats, not views.** Target about 200 at NGN 5,000; checkpoints in the playbook (30 by 10-10, 90 by 10-17, 150 by 10-21, 200 by 10-22). Follower count (5,000 by December) stays a secondary goal.
 2. **Four Reels a week**, the same videos on TikTok. Stories don't count as posts but run every day.
 3. **Reels only.** On his account Reels are 90.3% of views and feed posts 0.3%. Carousels get one slot: the webinar agenda. The playbook's two carousels a week are dropped.
 4. **Each Reel has one job:** *Teach* (authority), *Story* (reach), *Proof* (trust), *Offer* (seats).
@@ -27,7 +27,7 @@ The content half of the Called to Edit push: 4 Reels a week to the webinar on **
 |---|---|---|---|
 | Mon 10-05 | Offer | **Announcement.** *"This is not a video editing tutorial. It's the plan to become an editor who gets paid."* Date, price, who it's for. | V2 in the playbook. Pin it. Registration opens today. |
 | Wed 10-07 | Teach | *"You can edit. So why has nobody paid you?"* | V4. The stuck editor's pain. CTA: comment PLAN. |
-| Fri 10-09 | Story | **His story:** soldier → editor → paid by a foreign company. Ends: *"On the 25th I'm showing you the path."* | V3, cinematic, 90s. Reuses the Life of a Video Editor look. |
+| Fri 10-09 | Story | **His story:** soldier → editor → paid by a foreign company. Ends: *"On the 23rd I'm showing you the path."* | V3, cinematic, 90s. Reuses the Life of a Video Editor look. |
 | Sun 10-11 | Proof | **Showreel:** 30–45s of real client work, plain caption: *"5 years. Here's what editing paid me."* [confirm what he may show and say] | V11. |
 
 ## Week 2 (Oct 12–18): Value, so they come for the plan
@@ -39,14 +39,13 @@ The content half of the Called to Edit push: 4 Reels a week to the webinar on **
 | Fri 10-16 | Story | **Life of a Video Editor EP4**, ends with one line pointing to the webinar. | Shoot is 10-07. Keeps the series that grew the account. |
 | Sun 10-18 | Proof | **Testimonials cut:** two mentees, a few lines each, selfie clips. Add *"X seats taken"* only if true. | V12. Ask the two mentees now. |
 
-## Week 3 (Oct 19–25): Urgency, and what you leave with
+## Week 3 (Oct 19–23): Urgency, and what you leave with
 
 | Day | Job | Reel (draft hook) | Notes |
 |---|---|---|---|
 | Mon 10-19 | Teach | *"How to price your first edit."* | V9. |
 | Wed 10-21 | Teach | *"Want a foreign client? Work for free first. Here's how."* | V7. The controversy Reel; invites comments. |
-| Fri 10-23 | Offer | **48 hours:** the three things you'll leave with (a plan, a niche, a way to find clients) + agenda carousel the same day. | V14. |
-| Sun 10-25 | Offer | **Tonight, 7pm:** morning post. | Last call. Stories all day. |
+| Fri 10-23 | Offer | **Tonight, 7pm:** morning post. The three things you'll leave with (a plan, a niche, a way to find clients) + agenda carousel the same day. | V14. Webinar day, last call. Stories all day. The old Sun 10-25 post is gone, so week 3 has three Reels. |
 
 ## Stories, every day (not counted as posts)
 
@@ -76,7 +75,7 @@ The content half of the Called to Edit push: 4 Reels a week to the webinar on **
 ## What changes versus the playbook
 
 - **Dropped:** partner share clip (V15), mid-campaign live, Starter Kit (per his 2026-10-04 correction); two carousels a week (Reels carry the account).
-- **Moved:** Sunday 10-25 not Saturday 10-24; posting time from 7pm to the morning.
+- **Moved:** Friday 10-23, not Saturday 10-24 and not Sunday 10-25 (Friday is Samuel's call, 2026-10-05); posting time from 7pm to the morning.
 - **Added:** the PLAN comment-to-DM CTA.
 
 ## Open

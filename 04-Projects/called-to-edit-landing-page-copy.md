@@ -13,7 +13,7 @@ Copy only; the page gets built in a separate chat from this. Part of [[04-Projec
 
 > **Build session 2026-10-04 (Samuel):** payment is **Flutterwave**, not Paystack. Every `[confirm]` in §5–§7 is settled: proof as listed in [[03-Areas/personal-brand/personal-brand-decisions|decisions]] (Whop named, Route Rise named, 1M+ YouTuber unnamed, 500+ videos, $20,000+ in 2 years, 8+ international clients, ex-military), the 30-day plan, and the 100-seat cap. The income line ($10,000 last year) stays off. The built page's hero reads **"Start and build your career as a video editor."** at his request; the live wording is in the build folder, not here.
 
-**Marked `[confirm]` = not yet his say-so; do not publish until he settles it.** Logistics come from his 2026-10-04 correction: Sunday 2026-10-25, 7:00pm WAT, about 2½ hours, Google Meet, NGN 5,000 on Paystack, no refunds, replay for people who paid.
+**Marked `[confirm]` = not yet his say-so; do not publish until he settles it.** Logistics come from his 2026-10-04 correction: Friday 2026-10-23, 7:00pm WAT, about 2½ hours (moved from Sunday 10-25 on 2026-10-05), Google Meet, NGN 5,000 on Paystack, no refunds, replay for people who paid.
 
 Page look: navy marble background, gold serif headings, cream text, his face in the hero. One button, repeated: **Get my seat**.
 
@@ -25,7 +25,7 @@ Page look: navy marble background, gold serif headings, cream text, his face in 
 
 **Subhead:** Called to Edit is a live webinar with Samuel Adebayo, a working video editor with 5 years of experience, on how to start and build a career as a video editor and earn from it, wherever you are. Any device. Any app.
 
-**Facts bar:** Sunday 25 October · 7:00pm WAT · Live on Google Meet · NGN 5,000
+**Facts bar:** Friday 23 October · 7:00pm WAT · Live on Google Meet · NGN 5,000
 
 **Button:** Get my seat
 
