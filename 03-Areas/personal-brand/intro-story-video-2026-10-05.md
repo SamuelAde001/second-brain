@@ -64,3 +64,9 @@ About 100 to 110 seconds. One shoot, two cuts: the story cut for the feed, a 30 
 4. May he name Route Rise and the 1M+ YouTuber, or say "a foreign company"?
 5. Talking head, voice-over with B-roll, or a mix? When can he shoot today?
 6. CTA: the landing page is live (calledtoedit.netlify.app), so it can be *link in bio* instead of *comment PLAN*.
+
+## 2026-10-05: his own draft arrived
+
+Samuel wrote the script himself (screenshots, reviewed by the Brand manager in chat). New facts from it, his words: *"In the last 21 months, I have made more than 20,000 dollars from video editing alone"*; started learning 4 years ago while still a soldier; volunteered to edit his mentor's YouTube videos, duties by day and editing at night, mainly for him for 2 years; the highest he had made from editing was NGN 50,000 and he wanted to quit; gave himself 3 months to get a first international client; sent 100 emails to YouTubers, spent a month learning DaVinci Resolve, posted on a new Twitter page 3 times a day; a DM brought his first international client at USD 20 per video; clients came because *"I knew how to present myself"*; CTA *"comment the word edit"*.
+
+Open from the review: his draft says 4 years, the proof list says about 5; his draft says one month on Resolve, the story bank says three. Answers go here when he gives them.
