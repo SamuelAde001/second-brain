@@ -31,6 +31,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 - **October personal-client job:** NGN 100,000, kickoff block 2026-10-26 ([[04-Projects/personal-client-project-2026-10|project]]).
 - **Scripnals:** guide library sent to the devs 2026-09-22; they test from their end.
 - **Content:** Life of a Video Editor Ep 3 out 2026-09-24; Ep 4–6 outlined.
+- **Webinar videos** (2026-10-05): list in [[03-Areas/personal-brand/webinar-video-list-2026-10|video list]]; today's intro/story video planned in [[03-Areas/personal-brand/intro-story-video-2026-10-05|intro video plan]], waiting on his answers. TickTick list **Webinar videos** still to create (TickTick tools not loaded in the Gemini session).
 
 ## Waiting on Samuel
 
