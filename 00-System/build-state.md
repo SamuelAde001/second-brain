@@ -55,3 +55,4 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 - **Limits are shared between Claude chat and Claude Code.** Checkpoint here before any long batch.
 - **Tone:** direct and blunt, no flattery, never congratulate him for planning. Don't raise his Air Force background unless he does ([[02-Me/how-to-work-with-me|how to work with me]]).
 - **Sources are read-only.** `01-Inbox/_imports/` is gitignored and holds the only copy of the Claude export. **Never rewrite history.**
+- **2026-10-05:** Webinar date changed to Friday 23 October across Brain notes and landing page. Waiting on Samuel to run `deploy.sh` for the landing page due to Netlify auth.
