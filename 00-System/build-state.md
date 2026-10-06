@@ -2,7 +2,7 @@
 type: log
 area: system
 status: active
-updated: 2026-10-04
+updated: 2026-10-06
 source: manual
 tags: [build, state]
 ---
@@ -35,6 +35,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 ## Waiting on Samuel
 
+0. **Max $100 plan move, tonight 2026-10-06** (new account): follow [[00-System/account-migration-max|the runbook]]. Kit is ready on the Desktop (`Claude account migration kit`). After step 3 say "account switched, run the post-switch checklist" in a Claude Code session: swap the old TickTick (`0033a1e9…`) and Calendar (`a5641035…`) connector IDs in `.claude/settings.json` and `settings.local.json`, then update the Pro-plan lines in CLAUDE.md and model-routing with the real Max limits he reads off the usage page. The two cloud routines are rebuilt on the new account and the old ones switched off.
 1. Three deletions the auto-mode classifier blocked for Claude on 2026-09-28: the empty `03-Areas/community/log.md`, the superseded `03-Areas/scripnals/assets/scripnals-script-buddy-ai-workflow-v1.pdf`, and the finished `03-Areas/video-editing/scripts/cache-queue-7m-founder.json`. Plus two merged cloud branches on GitHub.
 2. The credential-named file on the Desktop (`HighSignals App/highsignals-project-…json`): move it to a secret store or revoke it ([[00-System/security-flags|security flags]]).
 3. **Gemini sign-ins** (2026-10-02): TickTick and Notion authenticated. Computer use (Windows MCP) and Claude Code CLI installed. Gmail, Calendar, and Drive will be accessed via Chrome using computer-use (no OAuth setup needed) ([[00-System/relay|relay]] → What each AI can reach).
