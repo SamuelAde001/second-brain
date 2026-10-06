@@ -233,3 +233,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: the content agent may read `C:\Users\repzy\Pictures\My pictures\` (not `Babe`) and read and write `C:\Users\repzy\Desktop\landing-page\`. Listed in AGENTS.md §10 and the agent's profile. Claude Code granted the build folder by a session directory request; no change to `.claude/settings.json`.
 **Why**: Samuel, 2026-10-04: *"check the folder of my pictures in my computer ... and just build this"*. The build folder was already set out in [[04-Projects/called-to-edit-landing-page-build|the build note]].
 **Who decided**: Samuel.
+
+## 2026-10-06 — October: another NGN 50,000 out of Goal 1
+
+**Decision**: Goal 1 in October is NGN 204,626 (A 34,874 + B 169,752), down NGN 80,027 from the NGN 284,653 start. Feeding +20,000 and Transport +20,000, the rest to Extra cash and Personal timing.
+**Why**: Samuel, 2026-10-06: *"reduce like 50k from Goal 1, cause if I don't have that cash on hand, I would eventually take out of my savings"*. Objection, once: that is the third cut to Goal 1 this month (NGN 127,000, then 65,500 net, now another 50,000) and Goal 1's NGN 1,000,000 deadline is 2026-12-31; every cut is made up from a 5th video that has not happened. Samuel proceeded.
+**Who decided**: Samuel.

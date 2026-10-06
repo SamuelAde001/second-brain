@@ -26,4 +26,5 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 - 2026-10-06 — **Payday A spending logged.** Dellamond shopping NGN 58,200 split Chores NGN 20,150, Feeding NGN 27,400, Personal NGN 10,650; plus admin salary NGN 15,000, transport cash NGN 5,100, hanger/cream/sweets NGN 5,100, chicken NGN 4,000. Feeding (NGN 31,400) and Personal (NGN 15,750) are over their Payday A/B share; derived bank NGN 167,074.
 - 2026-10-06 — **Parents extra dropped, shopping recategorised.** Samuel: no more NGN 50,000 to his parents (October Parents NGN 100,000). Feeding +NGN 10,000, Goal 1 +NGN 40,000 (now NGN 249,126). Baby oil, lip care, hanger and cream moved to Chores, sweets to Feeding: Chores NGN 28,700, Feeding NGN 33,100, Personal NGN 5,500.
 
+
 Back to [[03-Areas/finances/finances|Finances]]
