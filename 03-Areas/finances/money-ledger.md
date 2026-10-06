@@ -141,6 +141,13 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-06 | major | 30,000 | Ex-Jam contribution | Ex-Jam get-together | his words: "Ex-Jam allowance"; plan 30,000 |
 | 2026-10-06 | major | 50,000 | Former PA debt | Former PA debt | his words: "Former PA debt" |
 | 2026-10-06 | to-pot | 60,000 | Investment fund (his finance manager) | Investment fund | his words: "Investment fund"; Rule 3 and Rule 7 kept: Payday A |
+| 2026-10-06 | major | 20,150 | First main shopping, Dellamond (invoice 114624): household and cleaning items | Chores / household | receipt screenshot; 11 items: foam, 3 air fresheners, cotton buds, bar soap, Dettol, toilet cleaner, Hypo, detergent, Izal; POS Moniepoint |
+| 2026-10-06 | major | 27,400 | First main shopping, Dellamond (invoice 114624): food and snacks | Feeding | receipt screenshot; cookies, Goldenmorn, cornflakes, Super2 biscuit, candy, cheese balls, Sesamix, Schweppes |
+| 2026-10-06 | major | 10,650 | First main shopping, Dellamond (invoice 114624): baby oil, lip care, fashion cap | Personal / misc | receipt screenshot; 2,200 + 2,950 + 5,500; receipt total 58,200 = 20,150 + 27,400 + 10,650; category my call, baby oil could be Chores |
+| 2026-10-06 | major | 15,000 | Community admin salary | Community admin salary | his words: "15k went to my admin, I changed my mind and sent him the money"; plan 15,000 Payday A |
+| 2026-10-06 | bulk | 5,100 | Cash withdrawn to hold, for small transportations | Transport | his words: "Withdrew 5.1k to hold on hand, for small transportations"; counted as spent on Transport when withdrawn; any unspent cash is still Transport |
+| 2026-10-06 | bulk | 5,100 | Hanger, cream and some sweets | Personal / misc | his words: "5.1K went to buying hanger, my cream and some sweets"; split not given, booked whole to Personal / misc |
+| 2026-10-06 | bulk | 4,000 | Chicken | Feeding | his words: "4000 went to buying chicken" |
 
 Back to [[03-Areas/finances/finances|Finances]]
 

@@ -62,3 +62,7 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - 2026-10-06 · payday: logged the September batch 70%, NGN 1,238,416 (his words; rate and USD not yet given). Payday A planned NGN 1,260,501, so NGN 22,085 short. Rebuilt the sheet. Gave him the Payday A list; payment rows wait until he says what moved.
 - 2026-10-06 · Claude Max paid on claude.ai, NGN 143,942 (USD 107.50), logged as major. October plan: Claude line 209,375 → 143,942, Goal 1 on A 1,526 → 44,874 (balancing line). Obligations: Claude Max now a standing subscription. Sheet rebuilt.
 - 2026-10-06 · Logged six Payday A transfers: building 500,000, parents 100,000 (plan 150,000), girlfriend allowance 100,000, Ex-Jam 30,000, former PA debt 50,000, investment fund 60,000. Derived bank NGN 254,474. Goal 1 waits on his answer about parents and the admin salary.
+
+## 2026-10-06 — Shopping logged
+
+- Receipt shopping is one `major` row per plan line, not per item. Items that fit two lines (baby oil) go where the plan has room, and he is told.
