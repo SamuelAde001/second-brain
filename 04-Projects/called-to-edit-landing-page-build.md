@@ -77,6 +77,9 @@ Samuel, 2026-10-06: *"someone paid but his name didn't show up"* · paid people 
 - Old v4 copies: `Desktop\landing-page\old\`.
 - **Deployed 2026-10-06 ~12:15 WAT** (Brand manager in Chrome, Samuel clicked Allow): code pasted, `setup` run, the deployment the page uses (`AKfycbyOSsZ0…`) moved from Version 4 (4 Oct) to the new version; endpoint answers "version 5". **Why the calendar never worked:** the 5 Oct calendar code went out as a *second* deployment with a different URL that nothing calls; the page's URL stayed on Version 4. That second deployment (Version 5 of 5 Oct, `AKfycbzyLvT4…`) is still active and unused. Archive it when convenient.
 - After `setup`: 19 people migrated, 3 payers on the calendar event (no email sent), event set so guests can't see each other or invite others, WhatsApp group added to its description. Samuel 2026-10-06: *"yes to both emails"*: both switches ticked. Sales page: the "contentinfluence / No refunds" line removed on his word (*"it doesn't show on the flutterwave Dashboard"*); No refunds stays in the FAQ.
+- **Webhook saved 2026-10-06** by Samuel (Settings → Webhooks, V3 live): URL checked exact, all preferences on. Not yet proven end to end: no payment since. Test = **Resend webhook** on a paid transaction (Samuel's click), or the next real payment; the Overview line then reads Connected.
+- **Emails sent 12:20 WAT:** 3 confirmations, 12 reminders. The 5 newest sign-ups get theirs when they pass 3 hours.
+- **Flutterwave transactions, 1 Aug–6 Oct (read 2026-10-06):** 3 successful, all **bank transfer**; 1 cancelled card attempt, Samuel's own test. No failed, pending or abandoned payments. So unpaid sign-ups never started a payment: the leak is between the form and the checkout, not card failures. Follow-up is the lever.
 
 ## Next step: Step 0, the brief (done 2026-10-04, see above)
 
