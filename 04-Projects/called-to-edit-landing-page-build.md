@@ -2,7 +2,7 @@
 type: project
 area: personal-brand
 status: active
-updated: 2026-10-04
+updated: 2026-10-06
 source: manual
 tags: [called-to-edit, landing-page, scroll-craft, build, handoff]
 ---
@@ -47,6 +47,34 @@ Samuel, on the first build: *"Because I told you prioritize mobile doesn't mean 
 - **Roadmap:** three phases (Get started 1–3, Get clients 4–5, Get paid and grow 6–7; the grouping is the Brand manager's, the content is his outline), each stop a card with an icon, the stop name and bullets taken from his outline. Desktop: a central road with cards alternating sides. Phone: road on the left. The road still fills and stops light up as you scroll. Finish card with the button.
 - **Payment first, then WhatsApp:** form → Flutterwave → `welcome.html` logs the payment and **opens the WhatsApp group automatically** after about 2 seconds (button kept as a fallback). Nobody gets the group link without Flutterwave sending them back as paid.
 - Verified in the in-app browser at 1920×960 and 375×812.
+
+## Funnel fix 2026-10-06 (Brand manager)
+
+Samuel, 2026-10-06: *"someone paid but his name didn't show up"* · paid people *"not being added to the google calendar guest automatically"* · *"I am getting registrations, but not much payment"* · *"I need a way to follow up people that have shown interest but haven't paid"* · *"Nigerians love transfers a lot ... I really don't want to loose people"* · *"Look at everything in this funnel to make it as easy as possible and less friction"*.
+
+**What was wrong (checked against the Sheet, his Gmail and his Calendar, 2026-10-06 ~11:30 WAT):**
+- 18 sign-ups, 3 paid (Flutterwave's emails confirm all 3; 2 of the 3 by bank transfer). The Sheet only heard about a payment when the buyer's browser came back to `welcome.html`. One transfer payer never came back, so the Sheet missed him and Samuel added him by hand. Transfer payers leave for their bank app and often don't return.
+- The calendar event "Called to Edit Live Webinar" (Fri 23 Oct, 7pm) had **0 guests**. The guest code added on 2026-10-05 sat behind that same browser return and swallowed its own errors, and a payer on 2026-10-06 still wasn't added, so the deployed web app wasn't running it, or it failed silently.
+- Checkout friction: after our form, Flutterwave's page asked for name and email again, under the business name **contentinfluence**, with no mention of Called to Edit until "Details".
+- Overview: wrong date ("Sun 25 Oct"), paid count only from ticks, sources almost all "direct" because links were pasted without tags, test taps from the build still counted.
+- Not known yet: card failures or abandoned checkouts. They live in Flutterwave's dashboard (Chrome wasn't connected, so not read).
+
+**Live on the page (published 2026-10-06 with `deploy.sh`, tested locally at 375 and 1440 px, then checked live):**
+- Flutterwave opens with **email, first and last name filled in** (`?email=&firstname=&lastname=` works on payment links; checked).
+- Form is name, email, **one WhatsApp number** (phone + checkbox removed). Email typo fix (gmial.com → gmail.com). Details refill after a failed payment.
+- Copy says **bank transfer, card or USSD** and names contentinfluence, so nobody is spooked.
+- `welcome.html`: cancelled, failed and pending each get their own message, a Bank Transfer tip, a retry with details filled in; no more "no money was taken" claim. It tells the Sheet when someone left the payment.
+- `pay.html` (`/pay?e=&n=`): the follow-up link, straight into a prefilled checkout.
+- `funnel.js`: source from the short-link tag, else the in-app browser (Instagram, TikTok, Facebook), else the referring site; kept 14 days. One view per visit. `?test=1` marks a tester's phone.
+- `site/_redirects`: short links `/ig /story /dm /tt /wa /status /group /x /fb /yt /li /tg /email /p/<name>` (full table in `SETUP-sheet-v5.md`).
+
+**Written, not live until Samuel does `SETUP-sheet-v5.md` (Sheet script version 5, `apps-script.gs`, 30+ checks passed in a Node mock):**
+- **Flutterwave webhook** → the Sheet: every payment, paid or failed, even when the buyer never returns. Amount must be NGN 5,000+. Duplicates ignored. Key in the URL (Apps Script can't read Flutterwave's header).
+- **Sign-ups**, one row per email: Status (Paid / Not paid yet / Left the payment page / Payment failed: reason), Paid, Paid at, Paid by (Bank transfer, Card, USSD, Returned from Flutterwave, Ticked by hand), On calendar, **Follow up** (a WhatsApp link with the message for their status), Followed up tick, Notes, Source, ref, Emails sent. **Payments** tab: every event with Flutterwave's failure reason.
+- **Calendar:** payers added quietly with CalendarApp every 10 minutes and on each payment. Not the Calendar API with notifications, which can email every guest each time one is added. Guests can't see each other.
+- **Overview:** paid, money in, after fees (NGN 4,892.50 each, from Flutterwave's emails), seats left, unpaid with failed/left/followed-up, the funnel (opened → tapped → form → paid), sources with paid %, how people paid, payment problems by reason.
+- **Two email switches, off:** a confirmation to each payer (Meet link + WhatsApp group) and one reminder to unpaid sign-ups after 3 hours. Waiting on Samuel's yes.
+- Old v4 copies: `Desktop\landing-page\old\`.
 
 ## Next step: Step 0, the brief (done 2026-10-04, see above)
 

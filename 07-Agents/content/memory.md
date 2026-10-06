@@ -83,3 +83,13 @@ Back to [[07-Agents/content/profile|Profile]]
 - Never put a honeypot field named like a real field (`company`) in his forms: Android autofill fills it and the form fails silently on phones.
 - He wants the Sheet readable at a glance: one list plus an overview, brand colours, no raw tabs. Phone numbers must stay text (leading 0).
 - Apps Script editor via Chrome: the Run function picker would not change by click; making `setup()` call the job once, then reverting, worked. Clicking at fixed coordinates in the editor can hit links in dialogs; click the editor by its ref.
+
+## 2026-10-06 — The webinar payment funnel
+
+- **Never trust the redirect alone.** Bank-transfer payers leave for their bank app and often never come back to `welcome.html`. Flutterwave's webhook is the truth; the redirect is a bonus.
+- **Flutterwave payment links prefill** with `?email=&firstname=&lastname=` (checked 2026-10-06; `first_name` does not work). The checkout shows his business name, contentinfluence.
+- Flutterwave emails him "New successful transaction" (from noreply@flutterwavego.com): name, method, Transaction ID (`Rave-Pages…`, the same as the redirect's `tx_ref`). No customer email in it. **Settlement emails carry his bank account number: never copy them into the Brain.**
+- **Apps Script web apps run the deployed version, not the saved code.** After any change: run `setup` in the editor (permissions), then Deploy → Manage deployments → New version. A `try {} catch {}` that swallows errors hid the calendar failure for a day: write failures into a cell instead.
+- **Calendar guests:** `CalendarApp` `addGuest` sends no email. The Calendar API `patch` with `sendUpdates: "all"` can notify every guest each time one is added, so with 100 payers, don't use it. Send our own confirmation email instead.
+- **Test page changes without touching his live Sheet:** serve a copy of `site/` with `config.sheet` pointed at a local logger (the 2026-10-06 `serve.py` pattern), and use `?test=1` on the live page.
+- The 400/411 after a POST to the Apps Script `/exec` is the redirect hop. The script already ran on the 302.
