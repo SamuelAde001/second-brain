@@ -29,8 +29,8 @@ Checked from Claude Code on the new account:
 
 - [x] **1. Paid.** Usage card reads plan **Max**: 5-hour window, weekly all models, weekly Fable; extra usage off. Paid on claude.ai, Cleva card, NGN 143,942 (ledger).
 - [x] **2. Desktop app on the new account.** No `ANTHROPIC_API_KEY` in the environment.
-- [ ] **3. Connectors.** Only Claude Docs and visualize are connected. TickTick and Google Calendar are not: Samuel adds them.
-- [ ] **4. Permission IDs.** Waits on 3: the new IDs only exist once the connectors are added.
+- [x] **3. Connectors.** TickTick and Google Calendar added by Samuel; both tested (today's tasks and the calendar list read back).
+- [x] **4. Permission IDs.** Swapped in both settings files: TickTick `6f1cbea4-dd7a-49b8-948c-9d212b86965d`, Google Calendar `f1580cca-def5-4557-a3af-bef3139f7e0a`.
 - [ ] **5. GitHub App** on the new account: Samuel, in the browser.
 - [ ] **6. Routines.** None on the new account yet. Built from Claude Code once 3 and 5 are done. Old ones still to be switched off on the old account.
 - [x] **7. Sunday task.** It did not survive the switch (no scheduled tasks listed). Recreated from the canonical prompt in [[00-System/automations/sunday-money-check|sunday-money-check]], cron `0 15 * * 0`. First run Sunday 2026-10-11.
