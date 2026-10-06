@@ -148,6 +148,12 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-06 | bulk | 5,100 | Cash withdrawn to hold, for small transportations | Transport | his words: "Withdrew 5.1k to hold on hand, for small transportations"; counted as spent on Transport when withdrawn; any unspent cash is still Transport |
 | 2026-10-06 | bulk | 5,100 | Hanger, cream and some sweets | Personal / misc | his words: "5.1K went to buying hanger, my cream and some sweets"; split not given, booked whole to Personal / misc |
 | 2026-10-06 | bulk | 4,000 | Chicken | Feeding | his words: "4000 went to buying chicken" |
+| 2026-10-06 | correction | — | 2026-10-06 Personal / misc rows (10,650 shopping, 5,100 hanger/cream/sweets): baby oil, lip care, hanger and cream are Chores; sweets are Feeding | — | his words: "Baby oil is for me under chores, including Nivea lip care, Hanger, and cream, I don't know how much they cost but just split them". Fixed by the rows below; total unchanged |
+| 2026-10-06 | major | -5,150 | Baby oil 2,200 + Nivea lip care 2,950 (moved to Chores) | Personal / misc | reverses part of the 10,650 row; receipt prices |
+| 2026-10-06 | major | 5,150 | Baby oil and Nivea lip care | Chores / household | his words; receipt prices |
+| 2026-10-06 | bulk | -5,100 | Hanger, cream and sweets (split below) | Personal / misc | reverses the 5,100 row |
+| 2026-10-06 | bulk | 3,400 | Hanger and cream | Chores / household | his words: "just split them"; prices unknown, split in three equal parts of 1,700 |
+| 2026-10-06 | bulk | 1,700 | Sweets | Feeding | his words: "just split them"; one third of 5,100 |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
