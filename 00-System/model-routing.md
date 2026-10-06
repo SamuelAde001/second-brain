@@ -31,7 +31,8 @@ Four facts shape everything below:
 
 - **About 22 of the last 40 sessions (2026-09-24 → 29) were Editor work:** Fusion comps, visuals, Resolve caching and renders, cuts. That's where the volume is. Money, PA and content sessions are short and few.
 - **Every session starts at about 70,000 tokens before a word is said:** system tools ~32k, MCP tools ~16k, the skills list ~10k, memory files ~6k. Much of it is plugins the Brain never uses (marketing, SOX/finance, data, design, product-management). That load is paid on every turn of every session, on any model.
-- Plan use at the time of checking: 5-hour window 28%, weekly 31%.
+- Plan use at the time of checking: 5-hour window 28%, weekly 31% (on Pro).
+- **2026-10-06: moved to Max, USD 100 tier** ([[00-System/account-migration-max|plan move]]). Limits: 5-hour window, weekly all models, weekly Fable; extra usage off. The rule below is unchanged. Whether `high` becomes the default effort on judgement jobs now there is more room is Samuel's call, not asked yet.
 
 ## The rule
 

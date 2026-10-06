@@ -15,7 +15,7 @@ Status: built 2026-09-20. Sections marked TBD are filled in later phases of the 
 - **HighSignals is the whole brand** — an umbrella over four branches: HighSignals Community, HighSignals Academy, Mentorship, and the Scripnals app.
 - **Samuel's personal brand is separate and sits outside HighSignals** — it is Samuel himself, Instagram @SamuelSignals. Its job is to funnel people into HighSignals. Content made as Samuel is not HighSignals content.
 - A future book, not yet placed.
-- Claude plan: Pro. Usage limits are shared across Claude chat and Claude Code. Token discipline is a constraint, not a preference.
+- Claude plan: Max (USD 100 tier), since 2026-10-06; was Pro. Usage limits are shared across Claude chat and Claude Code. Token discipline is a constraint, not a preference.
 - Tone he wants back: direct and blunt. No flattery, no reassurance loops, no repeated moralizing.
 - More: [[02-Me/about-samuel|About samuel]] once written.
 

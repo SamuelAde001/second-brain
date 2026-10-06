@@ -15,7 +15,7 @@ Samuel's production stack and the tooling around it. From the Claude memory expo
 
 **DaVinci Resolve · Fusion · OBS · DJI Osmo Pocket 4 · DJI Mic Mini.** The memory notes "strong, established fluency" across all of it — an agent should not explain the basics of these tools to him.
 
-- **Windows 11 PC. Android phone. Claude Pro plan.**
+- **Windows 11 PC. Android phone. Claude Max plan (USD 100 tier) since 2026-10-06; Pro before.**
 
 ## DaVinci Resolve
 

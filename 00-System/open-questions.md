@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-30
+updated: 2026-10-06
 source: manual
 tags: [open-questions]
 ---
@@ -124,4 +124,4 @@ Every `status: needs-input` note has a line here. Answered questions get the ans
 | 109 | Proof on the landing page and bio: may he name or describe the 1M-subscriber YouTuber and the billion-dollar brand; does the $10,000+ income line go in; two mentee testimonials | personal-brand | 2026-10-04 | Landing page, bio, showreel | open [[04-Projects/called-to-edit-landing-page-copy\|landing copy]] |
 | 110 | How many long-form videos has he edited in total (he thinks 500+, to be counted) | personal-brand | 2026-10-04 | A proof line on the landing page | open |
 
-| 111 | Claude Max $100 plan, paid 2026-10-06 on his other account: where does the money come from (the NGN 82,283 gap from 2026-10-04: Goal 1 or Buffer), and is it his own card? Payday A had not landed as of 2026-10-05 | finances | 2026-10-06 | October plan, [[00-System/account-migration-max\|plan move]] | open |
+| 111 | ~~Claude Max $100 plan, paid 2026-10-06 on his other account: where does the money come from (the NGN 82,283 gap from 2026-10-04: Goal 1 or Buffer), and is it his own card? Payday A had not landed as of 2026-10-05~~ | finances | 2026-10-06 | October plan, [[00-System/account-migration-max\|plan move]] | 2026-10-06: paid on claude.ai with his Cleva card, NGN 143,942 (USD 107.50), on the October plan's Payday A line; Goal 1 is the balancing line ([[03-Areas/finances/plans/plan-2026-10\|October plan]], ledger 2026-10-06). Live on the new account, plan Max, same day |

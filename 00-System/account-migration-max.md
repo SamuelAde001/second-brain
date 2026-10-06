@@ -23,6 +23,21 @@ Area: [[00-System/systems-register|Systems register]] · Plan rules today: `CLAU
 - **Routine prompts as plain text**, ready to paste: `...\Claude account migration kit\routine-prompts\` (`morning-brief.txt`, `night-plan.txt`, `sunday-money-check.txt`). Extracted from the canonical notes in [[00-System/automations/morning-brief|morning-brief]], [[00-System/automations/night-plan|night-plan]] and [[00-System/automations/sunday-money-check|sunday-money-check]]. Settings for each (time, model, effort, connectors) are in those notes.
 - Checked: no `ANTHROPIC_API_KEY` or token is set on the PC, so Claude Code will bill the subscription once signed in, not the API.
 
+## Status, 2026-10-06 (afternoon, General Manager)
+
+Checked from Claude Code on the new account:
+
+- [x] **1. Paid.** Usage card reads plan **Max**: 5-hour window, weekly all models, weekly Fable; extra usage off. Paid on claude.ai, Cleva card, NGN 143,942 (ledger).
+- [x] **2. Desktop app on the new account.** No `ANTHROPIC_API_KEY` in the environment.
+- [ ] **3. Connectors.** Only Claude Docs and visualize are connected. TickTick and Google Calendar are not: Samuel adds them.
+- [ ] **4. Permission IDs.** Waits on 3: the new IDs only exist once the connectors are added.
+- [ ] **5. GitHub App** on the new account: Samuel, in the browser.
+- [ ] **6. Routines.** None on the new account yet. Built from Claude Code once 3 and 5 are done. Old ones still to be switched off on the old account.
+- [x] **7. Sunday task.** It did not survive the switch (no scheduled tasks listed). Recreated from the canonical prompt in [[00-System/automations/sunday-money-check|sunday-money-check]], cron `0 15 * * 0`. First run Sunday 2026-10-11.
+- [ ] **8. Skill zips** and **9. chat memory**: Samuel, on claude.ai.
+- [ ] **Terminal CLI** (`claude auth status`): logged out. Samuel runs `claude auth login` with the new account if he wants `claude` in a terminal.
+- [x] Plan lines rewritten: CLAUDE.md, AGENTS.md §1, toolchain, model routing.
+
 ## Tonight, in order
 
 **1. Pay and confirm.** On the new account: subscribe to Max, the $100 tier. Check Settings → Usage on that account shows it.
