@@ -135,6 +135,12 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-04 | balance | 0 | Bank | — | same balance restated after the correction rows above, so the derived bank reads 0 again; no money moved |
 | 2026-10-06 | in | 1,238,416 | Route Rise, September batch 70% | — | his words: "1,238,416 in my account after conversion"; landed 2026-10-06 (told same day); USD gross/net and the Cleva rate not yet given; USD 3 kept back by Cleva for a virtual card whose activation failed, not converted; plan expected NGN 1,260,501 |
 | 2026-10-06 | major | 143,942 | Claude Max, claude.ai, Cleva card | Claude Max upgrade | his words: "N143,942 was charged for $107.5"; NGN 1,339/USD on the card |
+| 2026-10-06 | major | 500,000 | Building project | Building project | his words: "I just sent ... Building"; Rule 4 kept in full |
+| 2026-10-06 | major | 100,000 | Parents | Parents | his words: "Parents was sent 100k instead of 150k"; plan 150,000 |
+| 2026-10-06 | major | 100,000 | Girlfriend allowance | Girlfriend allowance | his words: "GF allowance" |
+| 2026-10-06 | major | 30,000 | Ex-Jam contribution | Ex-Jam get-together | his words: "Ex-Jam allowance"; plan 30,000 |
+| 2026-10-06 | major | 50,000 | Former PA debt | Former PA debt | his words: "Former PA debt" |
+| 2026-10-06 | to-pot | 60,000 | Investment fund (his finance manager) | Investment fund | his words: "Investment fund"; Rule 3 and Rule 7 kept: Payday A |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
