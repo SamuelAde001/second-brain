@@ -169,6 +169,86 @@ def plan_vs_actual(month):
     return rows
 
 
+def payday_splits(month):
+    """{line: (A, B)} from the plan file's per-payday table ('Line | Payday A | Payday B | Total'), if it has one."""
+    p = plan_path(month)
+    out = {}
+    if not os.path.exists(p):
+        return out
+    header = None
+    with open(p, encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line.startswith("|"):
+                if header:
+                    break
+                continue
+            cells = [c.strip() for c in line.strip("|").split("|")]
+            if header is None:
+                if "Payday A" in cells and "Payday B" in cells:
+                    header = cells
+                continue
+            if set("".join(cells)) <= set("-: "):
+                continue
+            d = dict(zip(header, cells))
+            name = d.get(header[0], "")
+            if name and not name.startswith("**"):
+                out[name] = (ml.ngn(d["Payday A"]) or 0, ml.ngn(d["Payday B"]) or 0)
+    return out
+
+
+def payday_of(date):
+    """Which pay period a date falls in: the latest Route Rise 70% (A) or 30% (B) that landed on or before it."""
+    best = "B"  # before any batch in the ledger: the tail of the previous cycle
+    for r in sorted(ml.ledger(), key=lambda r: r["Date"][:10]):
+        if r["Type"] != "in" or r["Date"][:10] > date[:10]:
+            continue
+        if "70%" in r["What"]:
+            best = "A"
+        elif "30%" in r["What"]:
+            best = "B"
+    return best
+
+
+def plan_vs_actual_split(month):
+    """Plan vs actual with Payday A and Payday B side by side, and the totals kept."""
+    act = {}
+    for r in entries(month):
+        if r["Type"] not in ("major", "bulk", "charges", "to-pot"):
+            continue
+        amt = ml.ngn(r["NGN"])
+        if amt is not None:
+            a = act.setdefault(r["Category"] or "Other", {"A": 0, "B": 0})
+            a[payday_of(r["Date"])] += amt
+    splits = payday_splits(month)
+
+    def split_for(line, payday, amount):
+        for name, ab in splits.items():
+            if name == line or name.startswith(line + " ("):
+                return ab
+        if payday == "A":
+            return (amount, 0)
+        if payday == "B":
+            return (0, amount)
+        return ("", "")
+
+    rows, known = [], set()
+    for line, payday, amount in plan_for(month):
+        known.add(line)
+        a = act.get(line, {"A": 0, "B": 0})
+        pa, pb = split_for(line, payday, amount) if amount is not None else ("", "")
+        tot = a["A"] + a["B"]
+        rows.append([line, payday, pa, pb, "" if amount is None else amount, a["A"], a["B"], tot,
+                     "" if amount is None else amount - tot])
+    for k in sorted(k for k in act if k not in known and k != "Other"):
+        rows.append([k, "unplanned", 0, 0, 0, act[k]["A"], act[k]["B"], act[k]["A"] + act[k]["B"],
+                     -(act[k]["A"] + act[k]["B"])])
+    o = act.get("Other", {"A": 0, "B": 0})
+    rows.append(["Other", "", "", "", "", o["A"], o["B"], o["A"] + o["B"], ""])
+    rows.append(["Total", ""] + [sum(r[j] for r in rows if r[j] != "") for j in range(2, 9)])
+    return rows
+
+
 def bank_at_start(month):
     return ml.position([r for r in ml.ledger() if r["Date"][:10] < month + "-01"])[1] or 0
 
@@ -336,11 +416,11 @@ def preview():
     show("Goals", H_GOALS, goal_rows(bal, today))
     show("Money flow " + pm, H_FLOW, flow_rows(pm))
     show("Subscriptions " + pm, H_SUBS, subscription_rows(pm))
-    show("Plan vs actual " + pm, H_PLAN, plan_vs_actual(pm))
+    show("Plan vs actual " + pm, H_PLAN, plan_vs_actual_split(pm))
     for m in reversed(months(today)):
         print("=== %s ===" % month_label(m, short=True))
         show("Money flow", H_FLOW, flow_rows(m))
-        show("Plan vs actual", H_PLAN, plan_vs_actual(m))
+        show("Plan vs actual", H_PLAN, plan_vs_actual_split(m))
         show("Every entry", H_ENTRY, entry_rows(entries(m)))
     print("=== Ledger ===")
     show("Every entry", H_ENTRY, entry_rows(ml.ledger()))
@@ -351,7 +431,8 @@ def preview():
 H_WHERE = ["Account / pot", "Balance (NGN)", "Counts toward Goal 1"]
 H_GOALS = ["Goal", "Target (NGN)", "Saved (NGN)", "Still to find (NGN)", "Progress", "Starts", "Deadline",
            "Months left", "Needed / month (NGN)"]
-H_PLAN = ["Line", "Payday", "Planned (NGN)", "Actual (NGN)", "Left (NGN)"]
+H_PLAN = ["Line", "Payday", "Plan A (NGN)", "Plan B (NGN)", "Plan total (NGN)",
+          "Spent A (NGN)", "Spent B (NGN)", "Spent total (NGN)", "Left (NGN)"]
 H_MONTHS = ["Month", "Bank at start (NGN)", "Money in (NGN)", "From pots (NGN)", "Spent (NGN)",
             "Into pots (NGN)", "Bank at end (NGN)"]
 H_ENTRY = ["Date", "Type", "Amount (NGN)", "What", "Category"]
@@ -519,9 +600,13 @@ def style_plan(i, j, v, row):
         return {"fg": ORANGE, "bold": j == 1}
     if j == 1 and v:
         return {"fg": BLUE if v == "A" else (VIOLET if v == "B" else ("#4338CA" if v == "A+B" else MUTED)), "bold": True}
-    if j == 3 and isinstance(v, (int, float)) and v:
+    if j in (5, 6) and isinstance(v, (int, float)) and v:
+        planned = row[j - 3]
+        over = isinstance(planned, (int, float)) and v > planned and row[1] != "unplanned"
+        return {"fg": ORANGE if over else BLUE, "bold": True}
+    if j == 7 and isinstance(v, (int, float)) and v:
         return {"fg": BLUE, "bold": True}
-    if j == 4 and isinstance(v, (int, float)) and v < 0:
+    if j == 8 and isinstance(v, (int, float)) and v < 0:
         return {"fg": RED, "bg": RED_BG, "bold": True}
     if row[0] == "Other" and j == 0:
         return {"fg": MUTED}
@@ -539,7 +624,7 @@ def style_entry(i, j, v, row):
         return {"fg": TYPE_COLOUR.get(row[1], INK), "bold": j == 1}
 
 
-PLAN_NUMS = {2: NGN_FMT, 3: NGN_FMT, 4: NGN_FMT}
+PLAN_NUMS = {j: NGN_FMT for j in range(2, 9)}
 ENTRY_NUMS = {2: NGN_FMT}
 
 
@@ -552,7 +637,7 @@ def paint_overview(page, today, gids):
     page.box("Goals", GOALS_C, H_GOALS, goal_rows(bal, today), style_goals,
              {1: NGN_FMT, 2: NGN_FMT, 3: NGN_FMT, 7: "0.0", 8: NGN_FMT})
     page.box("Money flow — " + month_label(pm), FLOW_C, H_FLOW, flow_rows(pm), style_flow, {1: NGN_FMT}, total=True)
-    page.box("Plan vs actual — " + month_label(pm), PLAN_C, H_PLAN, plan_vs_actual(pm), style_plan,
+    page.box("Plan vs actual — " + month_label(pm), PLAN_C, H_PLAN, plan_vs_actual_split(pm), style_plan,
              PLAN_NUMS, total=True)
     page.box("Subscriptions — " + month_label(pm), SUBS_C, H_SUBS, subscription_rows(pm), style_subs,
              {1: NGN_FMT, 3: NGN_FMT}, total=True)
@@ -572,9 +657,9 @@ def paint_overview(page, today, gids):
 def paint_month(page, m):
     rows = entries(m)
     sub = ("%d entries   ·   last entry %s" % (len(rows), rows[-1]["Date"][:10])) if rows else "No entries yet"
-    page.title(month_label(m).upper(), sub, 5)
+    page.title(month_label(m).upper(), sub, 9)
     page.box("Money flow", FLOW_C, H_FLOW, flow_rows(m), style_flow, {1: NGN_FMT}, total=True)
-    page.box("Plan vs actual", PLAN_C, H_PLAN, plan_vs_actual(m), style_plan, PLAN_NUMS, total=True)
+    page.box("Plan vs actual", PLAN_C, H_PLAN, plan_vs_actual_split(m), style_plan, PLAN_NUMS, total=True)
     page.box("Every entry", LEDGER_C, H_ENTRY, entry_rows(rows), style_entry, ENTRY_NUMS)
 
 
@@ -658,7 +743,7 @@ def build():
     paint_overview(ov, today, have)
     paint += ov.requests()
     for m in ms:
-        pg = Page(have[month_label(m, short=True)], [230, 110, 130, 260, 200])
+        pg = Page(have[month_label(m, short=True)], [230, 110, 130, 230, 190, 130, 130, 130, 130])
         paint_month(pg, m)
         paint += pg.requests()
     lg = Page(have["Ledger"], [110, 110, 130, 260, 200])
