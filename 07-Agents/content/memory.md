@@ -93,3 +93,6 @@ Back to [[07-Agents/content/profile|Profile]]
 - **Calendar guests:** `CalendarApp` `addGuest` sends no email. The Calendar API `patch` with `sendUpdates: "all"` can notify every guest each time one is added, so with 100 payers, don't use it. Send our own confirmation email instead.
 - **Test page changes without touching his live Sheet:** serve a copy of `site/` with `config.sheet` pointed at a local logger (the 2026-10-06 `serve.py` pattern), and use `?test=1` on the live page.
 - The 400/411 after a POST to the Apps Script `/exec` is the redirect hop. The script already ran on the 302.
+- **Nobody is added to the WhatsApp group by the system.** `welcome.html` opens the invite when a payer returns; bank-transfer payers usually don't, so they rely on the confirmation email. Samuel reads "not added" as broken: check the Sheet row and Sent mail first, then send the row's Follow up link.
+- **Flutterwave emails "Unsuccessful Webhook Delivery" for any hook that gets a 302**, which Apps Script always gives, even when the hook landed. Check the Payments tab before believing it. Fix: the `/flw` Netlify relay answers 200 (live 2026-10-06).
+- **Don't put payers' names or emails in Brain notes**: the Brain is pushed to GitHub. Say "4th payer" and point to the Sheet.
