@@ -2,7 +2,7 @@
 type: project
 area: video-editing
 status: active
-updated: 2026-09-29
+updated: 2026-10-06
 source: manual
 tags: [client, routerise, long-form]
 ---
@@ -77,13 +77,15 @@ So the target for a 20+ minute talking head with no demo: a visual on screen for
 2. [x] **A-roll synced (raw)**: V1 C0788 (0–55536), C0789 (55536–60432), C0790 (60432–66528); A1 the four conformed mics at +6 dB, linked to their camera clips; four blue lip-sync markers. 66,528 frames (46:15).
 3. [x] **Cut v1 (Editor) - ripple silence**: −33.4 dB / pre 0 / post 3 / min 2, no cross fade (red preview checked: it sits only in gaps, though this room's tone is about 8 dB higher than Apollo's). The tool only takes one mic file per run, so it ran four times (all selected, then MIC021, MIC022, MIC023 alone). 66,528 → 46,343 frames, 1,258 clips.
 4. [x] **Cut v2 (Editor) - noise clips removed**: 769 clips with no 50 ms window above −40 dB (all under 1.5 s) ripple-deleted, plus 3 camera pieces with no mic under them (C0789 head, C0789 tail, C0790 tail). Checked against the word-timed transcript first: no real word sat in a noise clip. **28:52, 489 clips, 41,520 frames, every V1/A1 pair on the same frames, no gaps.** A ripple delete removes the time range from every track (tested on a scratch timeline, then deleted).
-5. [ ] **In progress, resume here.** Cut v3 - retakes removed: per-clip transcription, empty clips joined to the next, last clean complete take inside and across clips, decide (no flags), restarts checked for a second restart, the hook checked against the script.
-6. [ ] Uhms and pauses trimmed inside clips (1–5 f heads and tails, the voiced fillers Resolve's transcript can't see).
+5. [x] **Cut v3 (Editor) - retakes removed** (2026-10-06 evening): the per-clip transcription had finished after all (all 530 WAVs `Transcribed`). Every clip judged on its own text, empty clips read joined to the next, against Alex's script. 160 clips ripple-deleted (`Docs\Editor working files (2026-10-06)3_cut_list.json`, Cut v2 clip numbers). **21:56, 329 clips, 31,555 frames**; V1/A1 source offsets match Cut v2 clip for clip, no gaps. Hook (Cut v2 clips 14–16) matches the script's first line. Cut on Alex's own word: 383–385 (*"…the audiences, the creatives and the campaign, all of that… [can] remove this"*, the script's "Ivan builds all of this from Claude Code" line). Off-script chatter 430–438 cut. Raw-vs-cut check (`raw_vs_cut.py`): every raw line under 50% covered is a removed retake, Alex's "remove this", or a quiet off-mic voice in a silence gap (MIC021 ~5515, *"How do you get the best of your customers?"*).
+   - **Number flags for Samuel (last takes differ from the script):** 6sense survey, the kept take says *"more than 5,000 B2B buyers"*, the script and the earlier take say 4,500. Bounce rate, the kept take (Cut v2 clip 449) says *"above 5%"*, the script and the earlier take (446–448, cut) say 2%. The on-screen cards follow the script unless he says otherwise.
+   - **In-clip retakes still to trim** (no blade in the API): 142 (keep *"If you don't have that many yet,"* then 143), 375 (tail *"and then warm accounts meaning…"*, retaken by 376), 449 (tail *"During the week go through"*, retaken by 450). 359 has an in-flow restart (*"if you sell a cheap self-serve product, if you sell… product-led growth"*), kept whole.
+6. [ ] **Resume here.** Uhms and pauses trimmed inside clips (1–5 f heads and tails, the voiced fillers Resolve's transcript can't see).
 7. [ ] Raw-vs-cut check: every raw line under 50% covered read by eye.
 8. [ ] Sections coloured on a duplicate (clip colours + duration markers), transcript .docx checked against the script.
 9. [ ] Visual plan: every sentence, timed to the words, pacing to the table above, from the motion gallery vocabulary and the rules in ways of working. Then stop for Samuel's go.
 
-### Where it stopped (2026-10-06, Samuel paused the session to save tokens)
+### Where it stopped the first time (2026-10-06 afternoon, Samuel paused to save tokens; superseded by step 5 above)
 - **Resolve:** project saved, current timeline *Cut v2 (Editor) - noise clips removed*. Timelines: *A-roll synced (raw)*, *Cut v1 (Editor) - ripple silence*, *Cut v2 (Editor) - noise clips removed*.
 - **Transcripts:** the four conformed mics are transcribed (whole files, word-timed). That transcript **drops repeated phrases** in places (e.g. around the 6sense stat, 12 s carry only 6 words), so retakes can't be judged from it alone.
 - **Per-clip transcription, half done:** 489 per-clip WAVs + 41 joined WAVs (each wordless clip + the next) exported to `Conformed audio\Per-clip WAVs (Cut v2)\` and imported into the bin *zz Editor per-clip transcription (Cut v2)*. Media Pool → right-click → AI Tools → Audio Transcription → Transcribe was clicked twice on the whole bin, but no clip showed a status after 2 minutes. Next: try it on a handful of clips first, or in smaller batches, and check `Transcription Status`.
