@@ -60,3 +60,4 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - 2026-10-04 · Money man · Claude Max real price from his Google Play screenshot: NGN 209,375/month (5x; 20x NGN 418,750), not the 167,500 estimate. Payday A line 167,500 → 209,375; Eating out A 10,000 moved to B; Goal 1 A 1,526 + B 164,252 = 165,778 (cut 118,875 from 284,653). A 1,260,501 and B 536,343 balance to 0. Sheet rebuilt. Obligations.md not changed until the upgrade is done.
 
 - 2026-10-06 · payday: logged the September batch 70%, NGN 1,238,416 (his words; rate and USD not yet given). Payday A planned NGN 1,260,501, so NGN 22,085 short. Rebuilt the sheet. Gave him the Payday A list; payment rows wait until he says what moved.
+- 2026-10-06 · Claude Max paid on claude.ai, NGN 143,942 (USD 107.50), logged as major. October plan: Claude line 209,375 → 143,942, Goal 1 on A 1,526 → 44,874 (balancing line). Obligations: Claude Max now a standing subscription. Sheet rebuilt.

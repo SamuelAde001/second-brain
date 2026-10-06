@@ -81,3 +81,9 @@ Back to [[07-Agents/finance/profile|Profile]]
 
 - Samuel: *"my claude sub is done on my play store, so I have to cancel my existing Sub and then start a new sub for Max"*. Anthropic's own help-page rule (mid-cycle upgrade charges a full Max month less unused Pro, billing date resets) applies to direct billing, not Google Play. On Play, cancelling Pro stops the next renewal but the paid month stays usable; a new Max subscription is charged in full at once. Plan Claude at the full Max price, not net of Pro.
 - When a payday's allocation changes, rebuild the per-payday table in the whole plan, not just the lines that changed: on 2026-10-04 the older table still carried pre-cut Feeding and Transport and over-ran Payday B by NGN 20,000 until it was rebuilt.
+
+## 2026-10-06 — Claude on the web is cheaper than Play
+
+- Max 5x on claude.ai with the Cleva USD card: USD 107.50 (USD 100 + 7.5% VAT), NGN 143,942 on 2026-10-06. Google Play wanted NGN 209,375 for the same plan. NGN 65,433 a month less. The card charge is the real price; the Play screenshot was not.
+- The Cleva card works for Claude. The USD 3 Cleva kept on payday was that card's fee.
+

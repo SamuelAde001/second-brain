@@ -134,6 +134,7 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-09-30 | bulk | 3,265 | Recharge card | Data / airtime | spent 2026-10-04 from September's cash on hand, booked to September; his words 2026-10-04: "is not part of this month's budget, it was out of the money on hand from last month"; derived: NGN 18,265 on hand - 15,000 |
 | 2026-10-04 | balance | 0 | Bank | — | same balance restated after the correction rows above, so the derived bank reads 0 again; no money moved |
 | 2026-10-06 | in | 1,238,416 | Route Rise, September batch 70% | — | his words: "1,238,416 in my account after conversion"; landed 2026-10-06 (told same day); USD gross/net and the Cleva rate not yet given; USD 3 kept back by Cleva for a virtual card whose activation failed, not converted; plan expected NGN 1,260,501 |
+| 2026-10-06 | major | 143,942 | Claude Max, claude.ai, Cleva card | Claude Max upgrade | his words: "N143,942 was charged for $107.5"; NGN 1,339/USD on the card |
 
 Back to [[03-Areas/finances/finances|Finances]]
 

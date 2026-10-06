@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-29
+updated: 2026-10-06
 source: legacy-accountability-engine
 tags: [budget, obligations]
 ---
@@ -16,7 +16,7 @@ Exact line items, given by Samuel on 2026-08-26 and maintained since. **Payday**
 | Building project | NGN 500,000 | Fixed | A |
 | Parents | NGN 100,000 | Committed | A |
 | Girlfriend allowance | NGN 100,000 | Committed | A |
-| Subscriptions | NGN 65,300 | mixed | split |
+| Subscriptions | NGN 175,742 | mixed | split |
 | Chores / household | NGN 40,000 | Discretionary | B |
 | Health — gym | NGN 30,000 | Committed | A |
 | Feeding | NGN 30,000 | Committed | B |
@@ -26,9 +26,9 @@ Exact line items, given by Samuel on 2026-08-26 and maintained since. **Payday**
 | Giving | NGN 10,000 | Committed | B |
 | Personal / misc | NGN 10,000 | Discretionary | B |
 | Data / airtime | NGN 5,000 | Committed | B |
-| **Obligations floor** | **NGN 950,300** | | |
+| **Obligations floor** | **NGN 1,060,742** | | |
 | Investment contribution (Investment fund) | NGN 60,000 | Fixed | A |
-| **Total committed outflow** | **NGN 1,010,300 / month** | | |
+| **Total committed outflow** | **NGN 1,120,742 / month** | | |
 
 The Buffer gets NGN 90,000/month on top: NGN 40,000 to Cowrywise savings on Payday A + NGN 50,000 on Payday B (Rule 8, changed 2026-09-28).
 
@@ -36,12 +36,12 @@ The Buffer gets NGN 90,000/month on top: NGN 40,000 to Cowrywise savings on Payd
 
 | Subscription | NGN | Bills on |
 |---|---|---|
-| Claude | 33,500 | 16th |
+| Claude Max (claude.ai, Cleva card) | ~143,942 (USD 107.50) | 6th |
 | Google | 28,500 | 18th |
 | YouTube Premium | 1,700 | 17th |
 | Spotify | 1,600 | 5th |
 
-**NGN 65,300 a month** from 2026-09-18. Until then it was NGN 51,800: Claude NGN 33,500 (16th) · Google NGN 15,000 (2nd) · YouTube Premium NGN 1,700 (17th) · Spotify NGN 1,600 (5th).
+**NGN 175,742 a month** from 2026-10-06, when Claude went from Pro on Google Play (NGN 33,500, 16th) to Max on claude.ai: USD 107.50, NGN 143,942 on the first charge. Samuel, 2026-10-06: *"N143,942 was charged for $107.5"*. The naira figure moves with the card rate. It was NGN 65,300 from 2026-09-18. Until then it was NGN 51,800: Claude NGN 33,500 (16th) · Google NGN 15,000 (2nd) · YouTube Premium NGN 1,700 (17th) · Spotify NGN 1,600 (5th).
 
 YouTube and Spotify are kept — his words: they help his work, and they are his only entertainment.
 
