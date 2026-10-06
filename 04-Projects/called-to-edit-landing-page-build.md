@@ -75,6 +75,8 @@ Samuel, 2026-10-06: *"someone paid but his name didn't show up"* · paid people 
 - **Overview:** paid, money in, after fees (NGN 4,892.50 each, from Flutterwave's emails), seats left, unpaid with failed/left/followed-up, the funnel (opened → tapped → form → paid), sources with paid %, how people paid, payment problems by reason.
 - **Two email switches, off:** a confirmation to each payer (Meet link + WhatsApp group) and one reminder to unpaid sign-ups after 3 hours. Waiting on Samuel's yes.
 - Old v4 copies: `Desktop\landing-page\old\`.
+- **Deployed 2026-10-06 ~12:15 WAT** (Brand manager in Chrome, Samuel clicked Allow): code pasted, `setup` run, the deployment the page uses (`AKfycbyOSsZ0…`) moved from Version 4 (4 Oct) to the new version; endpoint answers "version 5". **Why the calendar never worked:** the 5 Oct calendar code went out as a *second* deployment with a different URL that nothing calls; the page's URL stayed on Version 4. That second deployment (Version 5 of 5 Oct, `AKfycbzyLvT4…`) is still active and unused. Archive it when convenient.
+- After `setup`: 19 people migrated, 3 payers on the calendar event (no email sent), event set so guests can't see each other or invite others, WhatsApp group added to its description. Samuel 2026-10-06: *"yes to both emails"*: both switches ticked. Sales page: the "contentinfluence / No refunds" line removed on his word (*"it doesn't show on the flutterwave Dashboard"*); No refunds stays in the FAQ.
 
 ## Next step: Step 0, the brief (done 2026-10-04, see above)
 
