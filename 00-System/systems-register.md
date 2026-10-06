@@ -93,6 +93,7 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | `03-Areas/video-editing/scripts/md_to_docx.py` | Stock-Python Markdown → Word .docx for offline client briefs | saving a Notion idea doc offline |
 | `03-Areas/video-editing/scripts/transcript_docx.py` | Timecoded ALL-CAPS editing transcript .docx from a JSON spec (video-edit-pass phase 2 format) | building a cut's transcript |
 | `03-Areas/video-editing/scripts/waveform_segments.py` · `noise_clips.py` | Speech segments from the mic's 5 ms peaks; finds leftover room-noise clips after Ripple Delete Silence | cutting A-roll by waveform |
+| `03-Areas/video-editing/scripts/uhm_transcribe.py` · `uhm_find.py` | Filler-aware word times per clip (faster-whisper small.en, CPU) and the trims they imply: head/tail breaths and fillers, mid-clip "uh"s, long pauses, in-clip repeats for review; cut points on the quietest 10 ms, loud spans skipped | the uhm pass (cut SOP step 6) |
 | `03-Areas/video-editing/scripts/resolve_cache_watch.py` · `resolve_crash_dump.py` | Watch render-cache progress per clip; read Resolve crash dumps (exception, module) | a heavy cache or a crash |
 | `03-Areas/video-editing/scripts/chrome_grab.ps1` · `chrome_seq.ps1` · `fusion_view.ps1` | Full-resolution shots of Samuel's Chrome (still or a scroll as frames); a picture of Resolve's current viewer without touching the comp | real UI shots; checking a comp |
 | `03-Areas/video-editing/scripts/fusion-box/` | Generators for Fusion comps by script (tool boxes, circle pills, window stack, Neo Anim, bevel card) | building motion graphics in Fusion |
@@ -115,7 +116,7 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 
 | Step | Runs from |
 |------|-----------|
-| Job setup, cut | [[routerise-job-setup]] · [[routerise-cut-workflow]] SOPs; `av_sync.py`, `waveform_segments.py`, `noise_clips.py`, `transcript_docx.py` |
+| Job setup, cut | [[routerise-job-setup]] · [[routerise-cut-workflow]] SOPs; `av_sync.py`, `waveform_segments.py`, `noise_clips.py`, `uhm_transcribe.py`, `uhm_find.py`, `transcript_docx.py` |
 | Visual per sentence, preview | [[visual-sheet-pipeline]] SOP; `scripts/visual-engine/` |
 | Fusion comps on the timeline | `scripts/fusion-box/`, `scripts/ui-focus/`; [[03-Areas/video-editing/resolve-automation-lessons\|Resolve automation lessons]] |
 

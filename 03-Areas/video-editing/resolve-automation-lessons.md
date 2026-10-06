@@ -260,3 +260,10 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
 - **Flow B-roll at 24 fps placed on the 23.976 timeline came out one frame short** with `endFrame = start + D`. Ask for D + 1 and check `GetEnd()`.
 - **Flow downloads land in the job folder root** (Chrome's default download folder is set to the Apollo job), named like `Man_on_sales_call_1080p_<timestamp>.mp4`. The 1080p upscale takes 4–10 minutes per clip and the tiles go grey meanwhile. One upscale at a time; a second click on the same clip started a second copy.
 - **AI B-roll laptop screens:** Veo writes garbled text on screens and hands cross the bottom of them. Where the email must be readable, cut from the B-roll (while its screen is still blank) to a full-screen rebuild of the app, rather than corner-pinning over hands.
+
+## 2026-10-06 — Lifting ranges by keyboard, Delete Gaps, and screen control around TickTick
+- **No blade or range delete in the API** (searched 21.1: nothing to split, trim or ripple a range). `Timeline.SetMarkInOut(in, out)` sets marks the GUI ignores for deletion. What works: typed timecode + `i`/`o` + Backspace (a lift), then Ctrl+A and Edit > Delete Gaps. Method and waits in [[03-Areas/video-editing/sops/routerise-cut-workflow|the cut SOP]], step 5. Typing 8 digits with the timeline focused moves the playhead there exactly (timeline starts 00:00:00:00, 24 frames a second for 23.976).
+- **TickTick's floating focus timer counts as the front window.** Computer-use clicks on Resolve fail ("TickTick is in front") until TickTick is granted too; nothing in TickTick is touched.
+- **`Folder.TranscribeAudio()` on a bin of 530 WAVs finished; it just showed no status for the first minutes.** Check `GetClipProperty("Transcription Status")` later before re-running.
+- **Reading transcripts out of Resolve:** `MediaPoolItem.GetTranscription()` returns `{'segments': [{'text', 'words': [{'start','end','text'}]}]}`; print `name|text` lines for the whole bin in one call (530 clips fitted).
+

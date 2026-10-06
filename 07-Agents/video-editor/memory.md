@@ -255,3 +255,10 @@ Samuel: *"Did you use the script to guide in the transcript? and for the visuals
 - People and actions get AI B-roll; when the screen in that B-roll has to say something (the email, the company being researched), the AI screen can't carry it: Veo writes garbled text and hands cross the screen. Cut from the B-roll while its screen is still clean to a full-screen rebuild of the real app (Gmail) or the real site (lob.com captured live). That shows exactly what they're doing and it's readable.
 - He wants AI B-roll from **Omni Flash** in Flow from now on (said after I used Veo 3.1 Quality at 100 credits a take).
 - A list he says out loud on the orange screen = title + numbered pills that land on his words, with the one he's saying lit (orange) and the earlier ones settled (graphite).
+
+## 2026-10-06 — AI B2B Marketing cut: what the per-clip read and the uhm pass taught
+- **The whole-file transcript lies about retakes.** It dropped a whole take (Cut v2 clip 60, *"It's for B2B tech companies that already have a product people buy"*) and shifted my first read by a clip in places. The per-clip text decided every cluster; the first-read list from the whole file was wrong on 36–44 and 55–61.
+- **The last clean take can carry a different number from the script** (5,000 vs 4,500 buyers; 5% vs 2% bounces). Keep the take, flag the number to Samuel, and the on-screen card follows the script until he says otherwise.
+- **Alex says "remove this" to the editor on camera.** Cut what he points at, and say so in the transcript note.
+- **A teleprompter read has almost no uhms.** The uhm pass on 21 minutes found one "uh"; the real work was loose clip tails, a few long pauses, in-clip restarts and stutters ("the, the, the"). Read the per-clip text for single-word stutters: the repeat finder only catches 2–3 word runs.
+
