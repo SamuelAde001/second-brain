@@ -64,3 +64,13 @@ About 100 to 110 seconds. One shoot, two cuts: the story cut for the feed, a 30 
 4. May he name Route Rise and the 1M+ YouTuber, or say "a foreign company"?
 5. Talking head, voice-over with B-roll, or a mix? When can he shoot today?
 6. CTA: the landing page is live (calledtoedit.netlify.app), so it can be *link in bio* instead of *comment PLAN*.
+
+## 2026-10-05: his own draft arrived
+
+Samuel wrote the script himself (screenshots, reviewed by the Brand manager in chat). New facts from it, his words: *"In the last 21 months, I have made more than 20,000 dollars from video editing alone"*; started learning 4 years ago while still a soldier; volunteered to edit his mentor's YouTube videos, duties by day and editing at night, mainly for him for 2 years; the highest he had made from editing was NGN 50,000 and he wanted to quit; gave himself 3 months to get a first international client; sent 100 emails to YouTubers, spent a month learning DaVinci Resolve, posted on a new Twitter page 3 times a day; a DM brought his first international client at USD 20 per video; clients came because *"I knew how to present myself"*; CTA *"comment the word edit"*.
+
+Open from the review: his draft says 4 years, the proof list says about 5; his draft says one month on Resolve, the story bank says three. Answers go here when he gives them.
+
+Hook he proposed later the same day, his words: *"I have just hit $20,000 Dollars from video editing in just 20 months and 2 years ago, I couldn't even make more than N50,000 Naira from video editing, let me explain how I did it"*. It says 20 months where the draft says 21: one of them goes.
+
+Final script, his words, later the same day: hook locked as *"I just hit $20,000 from video editing, in 20 months. And two years ago, I couldn't even make more than ₦50,000 from it. Let me explain how I did it."* Draft now says *"I sent over 100 emails to different possible clients"*, adds *"I wanted to run mad with excitement"* after the USD 20 client, the bridge line *"If I could do it as a soldier editing at night, I believe you can too"*, the webinar *"this month, on the 23rd"*, CTA *"comment EDIT"*. Still open at review: it says 4 years ago in Context and 5 years in Resolution; *"my biggest video editing webinar so far"* needs a past webinar to be true. About 377 words, roughly 2:30 spoken.
