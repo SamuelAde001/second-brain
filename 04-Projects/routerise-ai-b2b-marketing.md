@@ -2,7 +2,7 @@
 type: project
 area: video-editing
 status: active
-updated: 2026-10-06
+updated: 2026-10-07
 source: manual
 tags: [client, routerise, long-form]
 ---
@@ -83,7 +83,8 @@ So the target for a 20+ minute talking head with no demo: a visual on screen for
 6. [x] **Cut v4 (Editor) - uhms trimmed** (2026-10-06): new tooling, `uhm_transcribe.py` + `uhm_find.py` (faster-whisper installed on Samuel's yes), method in [[03-Areas/video-editing/sops/routerise-cut-workflow|the cut SOP]] step 5. 48 lifts by keyboard + Delete Gaps, 758 frames (31.6 s): 1 "uh", 33 loose tails, 4 heads, 4 long pauses, in-clip retakes 142 / 375 / 449, restarts 170 (*"One client came, one client came in"*) and 326 (*"For automated, for automated email"*), stutters 211 (*"We're, we're"*) and 271 (*"The, the, the third kind"*). 9 tails skipped as too loud to be silence (likely a word Whisper missed). **21:24, 333 clips, 30,797 frames**, no gaps, every camera-to-mic offset unchanged. Lift list: `trims_applied.json`.
 7. [x] Raw-vs-cut check: done on Cut v3 (step 5); step 6 only removed silence, breaths and the retakes listed.
 8. [x] **Cut v5 (Editor) - sections**: clip colours + 12 duration markers (Hook Yellow · What we tell every new client Blue · After you sign Green · Step 1 Purple · Step 2 Teal · Step 3 Navy · Mid-CTA Pink · Step 4 Tan · Step 5 Lime · Step 6 Brown · Step 7 Olive · Recap Violet; markers in the nearest marker colours). Transcript: `Docs\Transcript - Cut v5 sections (2026-10-06).docx`, 12 pages, from the Whisper words minus the lifted ranges, names and terms corrected against the script (`sections.py` FIX list), red notes for the two number flags, Alex's "remove this", and his production notes.
-9. [ ] **Resume here, after Samuel checks Cut v5 and the sections** (the profile's gate at sectionalising). Visual plan: every sentence, timed to the words, pacing to the table above, from the motion gallery vocabulary and the rules in ways of working. Then stop for Samuel's go.
+9. [x] Samuel approved Cut v5 on 2026-10-06 (his trims: 29,990 frames, 20:50.7, 375 clips, markers removed). **Visual plan written 2026-10-07:** [[04-Projects/routerise-ai-b2b-marketing-visual-plan|visual plan]] (116 visuals, timed to the approved cut; copy in `Docs\Visual plan v1 (2026-10-07).md`). Next: build in the plan's phase order on a duplicate timeline *Visuals v1 (Editor)*.
+10. [ ] ~~Resume here, after Samuel checks Cut v5 and the sections~~ (the profile's gate at sectionalising). Visual plan: every sentence, timed to the words, pacing to the table above, from the motion gallery vocabulary and the rules in ways of working. Then stop for Samuel's go.
 
 ### Where it stopped the first time (2026-10-06 afternoon, Samuel paused to save tokens; superseded by step 5 above)
 - **Resolve:** project saved, current timeline *Cut v2 (Editor) - noise clips removed*. Timelines: *A-roll synced (raw)*, *Cut v1 (Editor) - ripple silence*, *Cut v2 (Editor) - noise clips removed*.
