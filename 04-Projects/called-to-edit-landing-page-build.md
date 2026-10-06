@@ -80,6 +80,7 @@ Samuel, 2026-10-06: *"someone paid but his name didn't show up"* · paid people 
 - **Webhook saved 2026-10-06** by Samuel (Settings → Webhooks, V3 live): URL checked exact, all preferences on. Not yet proven end to end: no payment since. Test = **Resend webhook** on a paid transaction (Samuel's click), or the next real payment; the Overview line then reads Connected.
 - **Emails sent 12:20 WAT:** 3 confirmations, 12 reminders. The 5 newest sign-ups get theirs when they pass 3 hours.
 - **Flutterwave transactions, 1 Aug–6 Oct (read 2026-10-06):** 3 successful, all **bank transfer**; 1 cancelled card attempt, Samuel's own test. No failed, pending or abandoned payments. So unpaid sign-ups never started a payment: the leak is between the form and the checkout, not card failures. Follow-up is the lever.
+- Samuel clicked Resend webhook on Paul Akoji's payment: *"no hook data found"*. Expected: that payment (09:02) came before any webhook URL existed, so Flutterwave never made a hook for it. No faked test sent: it would mark the webhook Connected without Flutterwave having reached the Sheet. Proof waits for the next real payment.
 
 ## Next step: Step 0, the brief (done 2026-10-04, see above)
 
