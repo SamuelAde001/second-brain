@@ -101,7 +101,12 @@ Samuel dropped the AI-made flyer kit on 2026-10-07 (*"I want to get an actual de
 **Title:** Samuel Adebayo
 **Label:** Your host
 **Role:** Video editor · DaVinci Resolve expert
-**Bio (Samuel's answers, 2026-10-07):** Samuel Adebayo is ex-military, now a professional video editor, coach and founder of HighSignals. In 5 years of editing, he has cut 500+ long-form videos, worked with 8+ international clients including Whop, and made over $20,000 in 19 months. Now he's giving everything he learned back.
+**Bio (Samuel's own draft, 2026-10-07, grammar tidied):**
+> Samuel Adebayo is ex-military, now a professional video editor, coach and the founder of HighSignals. In over 5 years of editing, he has worked with more than 8 international clients, including Whop, a billion-dollar company. He has edited over 500 long-form videos for clients and brands, and made over $20,000 in 19 months.
+>
+> Now he's giving back everything he learned. He has seen how many new video editors struggle, and he wants to help them establish themselves in the international market. That's why he started Called to Edit.
+
+On the card, use the first paragraph if space is short; the full bio goes on the landing page and the host introduction.
 **Quote:** "These are the things that helped me as a video editor."
 
 **Stats:**
