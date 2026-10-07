@@ -108,3 +108,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - His Pinterest picks (sheet in `landing-page\flyer\inspiration\`): giant heavy condensed title, person cut out on the right overlapping it, clean sans text, details in a divided labelled row, a badge for urgency, navy premium mood. He wants the main event details **and 3 benefits** on a flyer.
 - Show him options as one numbered contact-sheet image: the preview pane blocks hot-linked Pinterest images.
 - 2026-10-07: his Instagram handle on designs is **@samuelsignals01** (Samuel's correction to v3). He liked v2's direction; disliked a plain pill "Get your seat" button.
+- 2026-10-07: on 9:16 designs he wants the frame **filled top to bottom**; no empty bands for story safe zones. Backgrounds stay in his navy (a cream version was rejected: *"stick to my normal color for BG"*).
