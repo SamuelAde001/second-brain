@@ -245,3 +245,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: Claude Code mods (function-hook plugins) live in `00-System/mods/<name>/`, listed in the systems register. First mod `brain-hud`: working agent, context fill, plan limits in WAT, uncommitted files, hand-back warnings. Loading it in every session (one line in Samuel's user settings) waits on his yes.
 **Why**: Samuel, 2026-10-07: *"see what Claude code Mods we can build ... also I can see major details like token usage, context"*.
 **Who decided**: Samuel asked; the folder and the first mod are the General Manager's build. The other ideas in [[00-System/mods/mods|mods]] are suggestions.
+
+## 2026-10-07 (second) — Claude Code mods dropped
+
+**Decision**: `brain-hud` removed (Brain copy and session copy) and no other mods built. Corrects the entry above.
+**Why**: Samuel, 2026-10-07: *"I can see my usage easily already from the claude circle, so this mod is redundant"*; all seven other ideas: *"Most of this aren't helpful, let's just leave it"*.
+**Who decided**: Samuel.

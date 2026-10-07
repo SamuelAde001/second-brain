@@ -62,3 +62,7 @@ Append-only. What this agent has learned by doing. Newest at the bottom. Facts h
 - **The General Manager's own upkeep slips first** when run work is heavy (build-state went four days stale). Update build-state and the register at the end of any session that changes them.
 
 Back to [[07-Agents/orchestrator/profile|Profile]]
+
+## 2026-10-07 — Claude Code mods: not wanted
+
+- Built `brain-hud` (usage band) and pitched seven more mods. Samuel turned them all down: he reads usage from the app's usage circle, and none of the others helped. Don't propose Claude Code mods again unless he asks.

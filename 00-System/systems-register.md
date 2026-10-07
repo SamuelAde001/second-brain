@@ -136,14 +136,6 @@ Reused as-is by the agent, not rebuilt: [[subtitle-transcript-formatter]] (step 
 
 The rest of the automations are Phase 6.
 
-## Claude Code mods
-
-Function-hook plugins that draw inside Claude Code and cost no tokens. Claude Code only. Canonical source `00-System/mods/<name>/`, ideas list in [[00-System/mods/mods|mods]].
-
-| Mod | What it does | Status |
-|---|---|---|
-| `brain-hud` | Working agent, context fill, 5-hour and weekly limits (WAT), uncommitted files; `/brain` pane; hand-back warnings | built 2026-10-07 |
-
 ## Archived, not active
 
 The legacy Accountability Engine's nine skills, its enforcer subagent and its automations are listed in [[legacy-review]], all `unreviewed`. None of them run.
