@@ -136,3 +136,4 @@ He rejected the "stop watching tutorials" hook. Samuel: *"I want hit on a desire
 5. **"Comment EDIT to reserve your seat"**: a comment doesn't reserve a seat; payment does. Organic: "comment EDIT and I'll send you the link", only if someone answers every comment. Paid ad: "tap Sign up".
 6. "5 years ago" vs "4 years ago" (intro draft): one has to go.
 7. Picture: generator with no fuel offered in place of the guitar.
+- 2026-10-07, Samuel on the picture: *"I don't have a generator in my room, I need something I can demonstrate in my room, I have a guitar, I have my computer"*. Offered: the edit never exported (his PC and Resolve), and the guitar played with the sound cut to silence in the edit.
