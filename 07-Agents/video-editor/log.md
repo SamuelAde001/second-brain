@@ -169,3 +169,4 @@ esume_when_clear.py (scratchpad): probes a missing range every 30 min, resumes w
   - Resolve quit cleanly at 17:05 and was restarted.
   - Samuel asked for adjustment clips instead of base clips, then for a save and a new session.
   - Resume steps: [[04-Projects/routerise-ai-b2b-marketing|job note]] → RESUME HERE.
+- **2026-10-07 18:20 — B2B v3, adjustment clips solved.** Read the last chat (all Samuel's messages extracted by script, including the queued adjustment-clip one). Found his finals put 168 comps on adjustment clips. Reverse-engineered the .drt comp blob, proved a scripted write into an adjustment clip (test timeline *test1*), converted all 55 installed v3 comps to adjustment clips (*Visuals v3 adj (Editor)*), frames checked. Fixed the stray-comma converter bug (18 settings). Kit in the job's `kits\drt\`. [[04-Projects/routerise-ai-b2b-marketing|job note]]

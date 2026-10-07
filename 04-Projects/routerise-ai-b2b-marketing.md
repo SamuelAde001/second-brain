@@ -253,3 +253,12 @@ How adjustment clips work by script (tested 2026-10-07):
   - `his_template.py`.
   - `v3kit.py` + `V3_README.md` (the foundation kit).
 - **His templates:** 359 comps exported from his three timelines, in `Graphics\Visuals v1\comps\his\templates\`.
+
+## Session 2026-10-07 evening (Editor, new session) — adjustment clips without clicking
+
+Samuel, 2026-10-07 ~18:10: *"pick up the B2B video from RESUME HERE, finish this video, make sure it's perfect and meets everything that I told you in the last chat with no mistakes."*
+
+- **His two open questions, settled from his own words and timelines:** (1) In his three finals 168 of his comps sit on adjustment clips (TSB is almost all adjustment clips); media sits on V2. So every comp in v3 goes on an adjustment clip, media stays media. (2) No screen takeover is needed: adjustment-clip comps are written through a .drt round trip (method in [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]], last bullet).
+- **Done (18:20):** *Visuals v3 adj (Editor)* = v3 with all 55 installed comps (S0 8, A1 30, A2 10, A3 22, A4 32 minus media, V4 trackers, V6 TLA) moved onto adjustment clips; the two failed pastes dropped for rebuild. Frames checked against v3. *Visuals v3 (Editor)* and v2 untouched. Scratch timeline *test1* (one test clip) to delete.
+- **Converter bug fixed:** a lone `,` line left by `his_template`/`v3kit.his_comp` made 18 settings fail to paste (A3 pain, A4 caption, all K6 slams, K10 pills, L2, CTA). `his_template.clean()` now strips it on write and `parse_check` reports `STRAY`; all 146 settings in `comps\v3\` cleaned and parse clean.
+- **Next:** install the rest of A2/A3/A4 (18 items whose files landed after the stop), relaunch builders A5–A9 to finish from their folders, install each manifest (paste on base clips, then `kits\drt\convert.py`), chain check, frame sheets per section, fixes, then Samuel's review. Music only after he signs off the visuals.
