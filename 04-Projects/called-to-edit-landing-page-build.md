@@ -102,3 +102,11 @@ The skill needs a brief before building. Pre-filled from the Brain: audience, jo
 - The button goes to the Paystack payment page; needs the fields from task A3 in [[04-Projects/called-to-edit-prep-tasks|Prep tasks]]. Add a simple count of button taps.
 - Brand colours and fonts are *approximate* until Samuel confirms them against his Resolve project ([[03-Areas/personal-brand/brand-guide|Brand guide]], Open).
 - Never edit the skill's engine per project. Never put third-party code inside the Brain.
+
+## 2026-10-07 — Sign-ups silently lost since the 6 Oct page update
+
+Samuel, 2026-10-07: *"I am getting people responiding to the last video I posted, but most of them are not signing up or converting into payments"*.
+
+- **Sheet at 14:00 WAT:** 21 people, 5 paid (NGN 25,000 in, NGN 24,463 after fees), 95 seats left, 16 not paid (3 followed up). The last form sign-up was **Tue 6 Oct 11:42**. Since then: no form rows, no views (Views tab empty), only two people who reached Flutterwave without a form row (one paid by transfer, one card failure), caught by the webhook.
+- **Cause, proven:** the 6 Oct `funnel.js` sends a field named `sid` with every event. Google's Apps Script front end answers any POST carrying `sid` with **400** and never runs the script (curl: with `sid` → 400, nothing written; same body with `visit` or nothing → 302, row written). So every view, tap, form sign-up and page-reported payment since ~11:41 on 6 Oct was dropped. Those people got no reminder email and have no Follow up link. Anyone who filled the form but never opened checkout is unrecoverable. Webhook payments were unaffected (server to server, no `sid`).
+- **Fix, local, not yet published:** `funnel.js` sends `visit` instead of `sid`; the three pages load `funnel.js?v=2`. Tested from a local copy with `?test=1`: view and tap landed in the Tests tab. The Session column stays blank until the Sheet script reads `p.visit` (needs a new deployment version; optional). Publishing waits on Samuel's yes.
