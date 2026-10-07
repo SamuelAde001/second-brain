@@ -124,3 +124,38 @@ Samuel approved Cut v5 (now 29,990 f / 375 clips) and asked for the visuals end 
 - Next: the rest of Step 4 (onelist, stack, champ, plain, pair; CRM unworked + UserGems placements), then Steps 5–7 and the recap/CTA comps, then the remaining demo renders.
 
 **Builders and kit:** `kits\b2bkit.py` (on the Apollo chain m6kit → m4kit → m3kit → m2kit → pk/pillkit; `now_pill`, `title_row`, `group_io`, `ringdot`, `fillbar`, `strip7`, `photo_medallion`, `sicon` with his Assets icons), `kits\words.py` (`T("phrase", after)` on the Whisper words re-projected onto the approved cut, `Docs\Editor working files (2026-10-06)\words_v5.json`; phrases must match the raw Whisper text, e.g. "Even, or had" for Ivan, "1080 10" for 10-80-10), `kits\focuskit.py`, `kits\install_b2b.py`, `kits\queue.json`, `kits\clip.ps1`. One builder per section in `comps\s1 … s7, c`, lower thirds `comps\build_stepper.py`, focus plans `comps\focus\build_focus.py`. Each builder writes `<STEM>.setting` + `.json` beside itself and prints the Text+ nodes that need the Segoe UI Symbol font (the ✓ and ✕ glyphs), which the installer sets.
+
+**Checkpoint 2026-10-07 ~10:40 (Editor).** Steps 4–7 and the closing section are installed and checked on the timeline. Each one was checked by exporting frames at the middle and at end−30 and looking at them.
+- **Step 6:**
+  - Control dots fixed (they had been drawn at 0,0).
+  - Budget rebuilt as two stacked cards: Ivan / STARTS FROM THE BUDGET, then $5K / MONTH → 100–200 ACCOUNTS.
+  - Waste rebuilt as one ABM BUDGET bar split three ways into LinkedIn · Meta · Google, which then greys out under a NO TRACKING tag.
+  - Count gets a source plate; quote gets Ivan's name capsule.
+- **Step 7:**
+  - STEP7 pill placed (V4 26136, 78 f).
+  - once: EVERY WEEK now lands on "this is the part".
+  - week3: chips rebuilt (orange, check icon); WEEK 1/2 tick labels dropped.
+  - months: layout widened (no text under 20 px); the review pills are graphite.
+  - ab: no symbol-font swap; the cross is now an icon.
+  - opens: on a plate, with a thin strike.
+  - ramp: rebuilt on one plate (what you tune + the pipeline curve).
+- **Closing:**
+  - Frontal capsule shortened to 12942–13090.
+  - New crisp frontal.so hero capture (`engines\capture_clip.py`), cropped above the client-logo strip: `renders\M2 Frontal hero (Editor).mov` (V2 13090, 91 f, slow push) and `R3 Frontal book a call (Editor).mov` (V2 29291, 164 f, push to the Book button).
+  - link/link2 on a plate.
+  - recap placed.
+  - CTA service pills laid out from measured widths (they overlapped).
+  - last card sized to its headline.
+- **All 21 queue A/B demo renders are done** in `renders\`. Two queue bugs were fixed:
+  - Python swallowed the heredoc list on stdin (`</dev/null` now).
+  - Two queues shared one headless Chrome, so the background tab stalled (`RR_PORT` per queue). `render3.py` also waits up to 90 s for READY.
+- **New traps:**
+  - (3) Applying the Segoe UI Symbol font to a Text+ that holds a word plus a ✓/✕ turns the whole label thin. Keep glyphs in their own node or use an icon.
+  - (4) The clipboard can be overwritten by Samuel's own copying between Set-Clipboard and Paste: re-set it and paste in the next call.
+  - (5) Comps over ~0.8 MB: wipe, paste and wire in separate run_script calls (60 s limit).
+  - (6) ExportCurrentFrameAsStill straight after a jump can return the previous frame: wait ~1 s and export twice.
+- **Next:**
+  - Place the 21 demo renders with focus comps.
+  - UserGems and Google captures.
+  - Whole-video frame check.
+  - Records (Editor memory, resolve-automation-lessons), then commit and push.
