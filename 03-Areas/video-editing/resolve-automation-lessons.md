@@ -267,3 +267,18 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
 - **`Folder.TranscribeAudio()` on a bin of 530 WAVs finished; it just showed no status for the first minutes.** Check `GetClipProperty("Transcription Status")` later before re-running.
 - **Reading transcripts out of Resolve:** `MediaPoolItem.GetTranscription()` returns `{'segments': [{'text', 'words': [{'start','end','text'}]}]}`; print `name|text` lines for the whole bin in one call (530 clips fitted).
 
+# 2026-10-07 — Installing many comps, clipboard and Fusion-page traps
+- **The Fusion page does not switch to a new clip while a script is still running.** Navigating to the next clip and pasting in the same call pastes into the previous clip's comp. One page-based install per `run_script` call, or skip the page:
+  - `item.GetFusionCompByIndex(1).Paste()` works only if that comp has been opened in Fusion during this Resolve session.
+  - On a new item, or after a restart, use `item.ImportFusionComp(path.comp)`. A minimal `.comp` is `Composition { RenderRange, GlobalRange, Tools = { <the .setting's tools>, MediaOut1 = Saver { Inputs = { Index = "0", Input = <last node> } } } }`. It replaces the item's single comp (the count stays 1), and the returned comp object takes `FindTool` / `ConnectInput` / `SetInput` for the wiring.
+  - To verify the page shows the right comp, `SetData("brainmark", x)` on the item's comp and read it back from `resolve.Fusion().CurrentComp`.
+- **Anything can overwrite the clipboard between Set-Clipboard and Paste** (Samuel copying text). Set it inside the same script with `run_script_unsafe` + PowerShell. Pass the path in an env var: a `’` in a command line breaks PowerShell.
+- **Over ~0.8 MB of .setting, or ~1,000 tools:** wipe, paste and wire take more than 60 s together. Split them into separate calls, and `comp.Lock()` around the wiring.
+- **`ExportCurrentFrameAsStill` right after a jump can return the previous frame.** Wait ~1 s and export twice. In `run_script_unsafe`, export to a path without `’` (the scratchpad), or every export returns False.
+- **A long export loop crashed Resolve once** (it relaunched on an Untitled project). Save before long loops; reload with `OpenFolder("Routerise")` + `LoadProject`.
+- **Headless renders:**
+  - Two queues on one Chrome port stall: the background tab never gets a frame, so `READY()` times out. Give each queue its own `RR_PORT`.
+  - In a `while read … <<LIST` loop, Python swallows the list from stdin: add `</dev/null`.
+  - Google Fonts can delay a page's script: wait up to 90 s for `READY`.
+- **A crisp capture of one region of a live page:** `Page.captureScreenshot` with `clip.scale` re-renders the region at that scale (`engines\capture_clip.py`). That is better than upscaling a screenshot for a push.
+- **`mkdir -p` with an unmatched glob creates a literal `*` folder.** Expand the path first.

@@ -272,3 +272,13 @@ Samuel: *"Did you use the script to guide in the transcript? and for the visuals
 - **Headless Chrome renders of the heavy pages run at 0.5–3 fps** (the signals feed: 368 frames in about 12 minutes). Render in the background with long timeouts, one page at a time; a stills render (`stills f1 f2`) checks a page in seconds and adds missing `r_*` boxes to the rects json.
 - **Generator pitfalls that each cost a rebuild:** two helpers writing the same canvas name (`disc("X")`, `ringdot("X")`, `imgnode("X")` and `fillbar("X")` all make `Background_XCanvas`, so a group canvas is `Background_XGroupCanvas`), a disc placed right after another's merge (advance `k` first), the collector column inside a long row (24 dots × 4 columns), `width()` on the ✓ and ✕ glyphs (measure a stand-in letter), and Whisper phrase keys ("grandmas", not "grandma").
 - **What a night buys:** the plan, the kit, about 75 Fusion comps built and about 50 installed, 16 demos rendered and 14 placed with focus, with check frames looked at per section. Not the whole 21-minute video. The demo renders are the long pole: start them first next time and build comps while they run.
+- **Check every comp by exporting frames from the timeline, never from the build alone** (2026-10-07). On a frame sheet the lint can't see:
+  - a plate waiting empty for its words;
+  - a strike line hiding the word it strikes;
+  - pills overlapping because x positions were fixed instead of measured;
+  - white text on the white table.
+  Look at the middle and at end−30 of each one.
+- **Never let a card sit empty.** If its content arrives on late words, split it into two cards: the second one lands with its content.
+- **Lay out rows from measured widths** (`width()` × tracking + padding), never from fixed x positions. Size cards to their longest line.
+- **Glyphs (✓ ✕ →) go in their own Text+ node, or become an icon.** Swapping a whole label to Segoe UI Symbol makes the words thin.
+- **Demo focus plans come from two printouts:** the rect ids with their visible frame ranges, and the words with frame offsets (`_qa\demo_info.py`). Then one segment per phrase, zoom 1.0 where parts sit close together.

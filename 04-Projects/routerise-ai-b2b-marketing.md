@@ -159,3 +159,30 @@ Samuel approved Cut v5 (now 29,990 f / 375 clips) and asked for the visuals end 
   - UserGems and Google captures.
   - Whole-video frame check.
   - Records (Editor memory, resolve-automation-lessons), then commit and push.
+
+**Visuals complete, 2026-10-07 ~11:40 (Editor).** Every visual in the plan is on *Visuals v1 (Editor)*. A structural audit came back clean:
+- V2 77, V3 42, V4 50 clips.
+- Every graphics clip carries a wired comp.
+- Every V3 focus clip sits exactly on its render.
+- The only disabled clip is the S4_CRM overlay at V4 17927, which was turned off on purpose.
+
+A one-frame-every-20-s pass over the whole timeline was looked at, and each section was also checked at its middle and end−30.
+
+Since the 10:40 checkpoint:
+- **Demos and captures placed:**
+  - The 21 demo renders are on V2, each with a focus comp on V3 (`comps\focus\build_focus.py`, segments on his words).
+  - UserGems capture on V2 14772 with a focus on the 114% chart.
+  - Google sender-rules capture on V2 5662 with a focus on the "Important" box.
+- **Ramp (S7-9) rebuilt a third time**, as two cards:
+  - the pipeline graph lands on "ramp up", with DON'T JUDGE / MONTH 1 on "don't judge it";
+  - WHAT YOU TUNE lands on "figure out", with the three chips on his words.
+- **S5-3a doc focus** raised to 1.5× so the doc lines read.
+- **Resolve restarted itself at 10:49** during a frame-export loop. The project was saved and reloaded intact.
+
+**For Samuel:**
+- **Old render files to delete in `renders\`** (superseded by v2 or never used): `S2-4 Clay review`, `S4-3 Signals feed`, `S4-6 Signals handoff`, `S4-4a RB2B`, `S4-19 CRM unworked` (the non-v2 files).
+- **Disabled, not deleted:** the V4 S4_CRM counter at 17927. It was a motion graphic over a UI demo, against his rule.
+- **Not done:**
+  - No cursor on the R3 Book-a-call push; the push itself lands on the button.
+  - The Vector demo (S4-4b) shows a product-style card for "Anthony Lawrence from Applinks". Check it's acceptable.
+- **Two Resolve MCP servers from other sessions were killed earlier in the night; four are running now.** Restart Claude sessions that use Resolve if they misbehave.
