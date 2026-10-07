@@ -33,7 +33,7 @@ Samuel dropped the AI-made flyer kit on 2026-10-07 (*"I want to get an actual de
 - What Samuel liked from Pinterest: giant heavy condensed title, Samuel cut out on the right overlapping the title, clean sans text, details in a divided labelled row, a badge for urgency.
 - Cutouts with soft edges, no hard outline around him.
 
-**Do not write:** "guaranteed", any income promise, the name of the 1M+ YouTuber, or "HighSignals". This is Samuel's personal brand.
+**Do not write:** "guaranteed", any income promise, or the name of the 1M+ YouTuber. HighSignals appears only in the host bio (Samuel, 2026-10-07); everything else is Samuel's personal brand.
 
 **Files to send the designer:** photos of Samuel from `C:\Users\repzy\Desktop\landing-page\flyer\` (`photo-full.webp`, plus `subject-full.webp` as a ready cutout), the Pinterest picks in `flyer\inspiration\`, and the live page calledtoedit.netlify.app for reference.
 
@@ -101,12 +101,12 @@ Samuel dropped the AI-made flyer kit on 2026-10-07 (*"I want to get an actual de
 **Title:** Samuel Adebayo
 **Label:** Your host
 **Role:** Video editor · DaVinci Resolve expert
-**Bio:** Ex-military, now a full-time video editor with about 5 years of editing professionally. He mentors editors and teaches them the business side most tutorials skip.
+**Bio (Samuel's answers, 2026-10-07):** Samuel Adebayo is ex-military, now a professional video editor, coach and founder of HighSignals. In 5 years of editing, he has cut 500+ long-form videos, worked with 8+ international clients including Whop, and made over $20,000 in 19 months. Now he's giving everything he learned back.
 **Quote:** "These are the things that helped me as a video editor."
 
 **Stats:**
 - **500+** long-form videos edited
-- **$20,000+** worth of videos edited in 2 years
+- **$20,000+** made in 19 months
 - **8+** international clients
 - **5 years** editing professionally
 
