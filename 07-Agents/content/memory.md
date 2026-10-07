@@ -109,3 +109,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - Show him options as one numbered contact-sheet image: the preview pane blocks hot-linked Pinterest images.
 - 2026-10-07: his Instagram handle on designs is **@samuelsignals01** (Samuel's correction to v3). He liked v2's direction; disliked a plain pill "Get your seat" button.
 - 2026-10-07: on 9:16 designs he wants the frame **filled top to bottom**; no empty bands for story safe zones. Backgrounds stay in his navy (a cream version was rejected: *"stick to my normal color for BG"*).
+- 2026-10-07: **cutouts need soft edges**: use rembg with `alpha_matting=True, alpha_matting_foreground_threshold=235, alpha_matting_background_threshold=20, alpha_matting_erode_size=12` (16 s on 2240×3982). No 1px outline on the subject; he called it "too harsh". Flyers stay **4:5** unless he asks (he dropped 9:16 the same day).
