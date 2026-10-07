@@ -107,3 +107,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - Samuel on v1 (Playfair serif masthead, Montserrat, a Resolve-timeline details strip): *"looks good but could be better"*, *"not a fan of the fonts used"*, *"I don't like the timeline looking details"*, *"We need better heirachy"*. Clever editor motifs don't win him; clear hierarchy does.
 - His Pinterest picks (sheet in `landing-page\flyer\inspiration\`): giant heavy condensed title, person cut out on the right overlapping it, clean sans text, details in a divided labelled row, a badge for urgency, navy premium mood. He wants the main event details **and 3 benefits** on a flyer.
 - Show him options as one numbered contact-sheet image: the preview pane blocks hot-linked Pinterest images.
+- 2026-10-07: his Instagram handle on designs is **@samuelsignals01** (Samuel's correction to v3). He liked v2's direction; disliked a plain pill "Get your seat" button.
