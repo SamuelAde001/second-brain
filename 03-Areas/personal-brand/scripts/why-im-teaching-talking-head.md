@@ -1,7 +1,7 @@
 ---
 type: knowledge
 area: personal-brand
-status: needs-input
+status: active
 updated: 2026-10-07
 source: interview
 tags: [script, talking-head, called-to-edit, webinar, story]
@@ -46,3 +46,9 @@ Options from facts he has already given (he picks one or gives the real one):
 2. What he wants the webinar to achieve, in his words (for the people attending, not the business targets).
 3. CTA: "link in bio", or "comment EDIT" only if someone replies to every comment.
 4. "About five years" vs "four years" is still open from the intro script.
+
+## 2026-10-07: his train of thought, and draft 2
+
+Samuel talked through the video in chat. New facts, his words: *"I've been editing for more than five years"*; *"recently, I got the chance to teach someone video editing from scratch, someone very close to me"*, physically, and realised *"the things I think is going to be easy for people are things that it took me years to build"*; *"I didn't buy any course"*; watched *"nothing less than up to 80 to 100"* YouTube videos on editing from different creators and DMed people to learn; the few people he has mentored *"improved in a short period of time"*; learning to edit is *"like two percent of the work, the remaining 98 percent... has a lot to do outside of just the skill"*; this is *"the biggest I've ever done from all the other webinars I've ever done in the past"*; the cohort after it has live classes of him cutting on his timeline and teaching portfolio building; CTA *"comment EDIT"* plus the link in bio, and *"share this video"*.
+
+Draft 2 (the Brand manager, from those words) went to him in chat. Left out on purpose: *"a lot of people are already signing up"* (the Sheet showed 21 sign-ups and 5 paid on 2026-10-07; the true scarcity is the 100-seat Meet) and *"the flyer is coming out in like two days"* (dates the video; goes in the caption or a Story instead). "Call to Edit" corrected to Called to Edit.
