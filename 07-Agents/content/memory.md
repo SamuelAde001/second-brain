@@ -102,3 +102,8 @@ Back to [[07-Agents/content/profile|Profile]]
 - **Cutouts: `rembg` is installed** (Python 3.14, `isnet-general-use` model in `%USERPROFILE%\.rembg\models\`). `remove(img, session=new_session("isnet-general-use"), post_process_mask=True)` gave a clean cut of his portrait, hair included. Runs locally; his photos never leave the PC.
 - **Export designs to PNG with headless Chrome**: `chrome.exe --headless=new --user-data-dir=<scratchpad> --window-size=1080,1350 --force-device-scale-factor=2 --virtual-time-budget=10000 --screenshot=<out.png> file:///…?export`. Google Fonts load fine.
 - Pinterest's best-performing webinar flyers are busy templates; the ones that stand out are editorial magazine covers (big serif masthead, head over it, little text). That's the Called to Edit flyer direction.
+
+## 2026-10-07 — His taste in flyers (v1 rejected)
+- Samuel on v1 (Playfair serif masthead, Montserrat, a Resolve-timeline details strip): *"looks good but could be better"*, *"not a fan of the fonts used"*, *"I don't like the timeline looking details"*, *"We need better heirachy"*. Clever editor motifs don't win him; clear hierarchy does.
+- His Pinterest picks (sheet in `landing-page\flyer\inspiration\`): giant heavy condensed title, person cut out on the right overlapping it, clean sans text, details in a divided labelled row, a badge for urgency, navy premium mood. He wants the main event details **and 3 benefits** on a flyer.
+- Show him options as one numbered contact-sheet image: the preview pane blocks hot-linked Pinterest images.
