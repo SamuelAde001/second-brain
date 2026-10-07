@@ -239,3 +239,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: Goal 1 in October is NGN 204,626 (A 34,874 + B 169,752), down NGN 80,027 from the NGN 284,653 start. Feeding +20,000 and Transport +20,000, the rest to Extra cash and Personal timing.
 **Why**: Samuel, 2026-10-06: *"reduce like 50k from Goal 1, cause if I don't have that cash on hand, I would eventually take out of my savings"*. Objection, once: that is the third cut to Goal 1 this month (NGN 127,000, then 65,500 net, now another 50,000) and Goal 1's NGN 1,000,000 deadline is 2026-12-31; every cut is made up from a 5th video that has not happened. Samuel proceeded.
 **Who decided**: Samuel.
+
+## 2026-10-07 — Claude Code mods, first one built
+
+**Decision**: Claude Code mods (function-hook plugins) live in `00-System/mods/<name>/`, listed in the systems register. First mod `brain-hud`: working agent, context fill, plan limits in WAT, uncommitted files, hand-back warnings. Loading it in every session (one line in Samuel's user settings) waits on his yes.
+**Why**: Samuel, 2026-10-07: *"see what Claude code Mods we can build ... also I can see major details like token usage, context"*.
+**Who decided**: Samuel asked; the folder and the first mod are the General Manager's build. The other ideas in [[00-System/mods/mods|mods]] are suggestions.

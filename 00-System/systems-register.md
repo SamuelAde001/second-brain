@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-10-02
+updated: 2026-10-07
 source: manual
 tags: [systems]
 ---
@@ -135,6 +135,14 @@ Reused as-is by the agent, not rebuilt: [[subtitle-transcript-formatter]] (step 
 | Morning brief | Opens a session that runs [[morning-brief]]: today in ten lines | Daily ~6:34am WAT (cron `30 5 * * *` UTC + ~4 min service delay) | claude.ai cloud routine `trig_01UN9y23v1UwoBtBq3qmoJiH`; runs with the PC off, shows on the phone (moved from the desktop app 2026-09-22) | [[00-System/automations/morning-brief\|morning-brief]] | active from 2026-09-23 |
 
 The rest of the automations are Phase 6.
+
+## Claude Code mods
+
+Function-hook plugins that draw inside Claude Code and cost no tokens. Claude Code only. Canonical source `00-System/mods/<name>/`, ideas list in [[00-System/mods/mods|mods]].
+
+| Mod | What it does | Status |
+|---|---|---|
+| `brain-hud` | Working agent, context fill, 5-hour and weekly limits (WAT), uncommitted files; `/brain` pane; hand-back warnings | built 2026-10-07 |
 
 ## Archived, not active
 

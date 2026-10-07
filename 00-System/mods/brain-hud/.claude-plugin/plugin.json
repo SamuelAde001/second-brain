@@ -1,0 +1,6 @@
+{
+  "name": "brain-hud",
+  "version": "0.1.0",
+  "description": "Samuel's Brain HUD: working agent, context fill, 5-hour and weekly limits in WAT, uncommitted files, with hand-back warnings.",
+  "types": "./types/index.d.ts"
+}
