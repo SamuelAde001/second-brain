@@ -282,3 +282,13 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
   - Google Fonts can delay a page's script: wait up to 90 s for `READY`.
 - **A crisp capture of one region of a live page:** `Page.captureScreenshot` with `clip.scale` re-renders the region at that scale (`engines\capture_clip.py`). That is better than upscaling a screenshot for a push.
 - **`mkdir -p` with an unmatched glob creates a literal `*` folder.** Expand the path first.
+
+## 2026-10-07 (afternoon) — Re-timing a whole timeline of comps, studying finished timelines
+
+- **Extend a Fusion comp clip without rebuilding it:** `item.ExportFusionComp(path, 1)`, `DeleteClips([item])`, `AppendToTimeline` the same base clip with the new length at the same start, then `new.ImportFusionComp(path)`. Keyed elements keep their frames (they still land on the words), and **Neo Anim's out follows the clip end by itself**: its expression uses `comp.RenderEnd - OutOffset`. 112 comps went through this in about 20 calls of ~35 s (big BGORANGE comps 2 per call, focus comps ~19 per call). Process each track right to left.
+- **Pass data between `run_script` calls with `resolve.Fusion().SetData(key, json)` / `GetData(key)`.** It lives for the Resolve session, so a long job list is sent once and every later call stays short (keep the progress index there too). `exec` is not available in the sandbox.
+- **Renders can't be stretched, but they can be padded:** ffmpeg `tpad=stop_mode=clone:stop=N` (ProRes HQ, a new file name with `+Nf`) holds the last frame; then swap the clip and keep a mid-file in-point with `GetLeftOffset()`. Import is instant (0.2 s for 35 files); 38 swaps took 13 s.
+- **Studying a finished timeline:** `Timeline.Export(path, resolve.EXPORT_FCP_7_XML)` gives start/end/file per track; `EXPORT_DRT` is a zip whose Fusion comps are binary blobs. For node structure, `ExportFusionComp` every item with a comp (360 comps from three projects in about 6 calls). The target folder must exist first, or every export (and `ExportCurrentFrameAsStill`) returns False.
+- **`SaveProject()` then `LoadProject()` in the same script hung Resolve** (no CPU, no disk, 8 min) when switching to the TSB project. Kill and relaunch fixed it. Load projects in a call of their own; after a relaunch, `OpenFolder("Routerise")` before `LoadProject`.
+- **A timed-out `run_script` keeps running inside Resolve** and blocks every later call until it finishes. Probe with a trivial call, and keep each batch under ~35 s.
+- PowerShell `.ps1` files need `-ExecutionPolicy Bypass` when called from Bash.

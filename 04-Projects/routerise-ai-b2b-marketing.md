@@ -186,3 +186,13 @@ Since the 10:40 checkpoint:
   - No cursor on the R3 Book-a-call push; the push itself lands on the button.
   - The Vector demo (S4-4b) shows a product-style card for "Anthony Lawrence from Applinks". Check it's acceptable.
 - **Two Resolve MCP servers from other sessions were killed earlier in the night; four are running now.** Restart Claude sessions that use Resolve if they misbehave.
+
+## Visuals v2 (Editor), 2026-10-07 afternoon — after Samuel's verdict
+
+Samuel, 2026-10-07: the visuals were *"so bad"*: gaps between visuals and before the cuts, visuals between words that don't need them, websites and logos not shown, not like the last three timelines. Due **6:00pm today**. Logos are now allowed: *"Show the company logos. I have settled it with him."*
+
+**Timeline:** *Visuals v2 (Editor)*, a duplicate of v1 (v1 untouched).
+- **Pacing:** every visual extended to the next visual or to the A-roll cut (112 comps re-imported onto longer clips; 41 demo renders swapped for padded copies, `Graphics\Visuals v1\renders\padded\`, bin *Editor padded renders v2*). 168/168 visuals end on a cut or on the next visual; 12 breathing gaps, median 4.7 s, all on cuts. Numbers against his three finals: [[03-Areas/video-editing/routerise-house-style|house style]] §11b.
+- **Websites + logos (V6, 12 comps, `comps\web\build_WEB.py`):** Instantly 2853, 6sense report 3209 (with "61% of the way through"), Gartner 3814 (73%), Google + Microsoft sender rules 5662, Clay + Claude 8590, RB2B + Vector 14105, Fibbler 14204, TrustRadius 17651 (79%), LinkedIn Thought Leader Ads 21874, LinkedIn 1.7× CTR 22165, Meta 23377, Instagram 23502. Real captures in `Routerise\Visual Assets\B2B websites (Editor)\`, real logos in `...\B2B logos (Editor)\`.
+- **Removed:** the DREAM ICP thought bubble (V4 5986, disabled, not deleted).
+- **Not done:** the hook (his); a redesign of the weaker motion graphics; Neo Anim adjustment clips above the demo renders (the renders cut in on the chain). 6sense's 2025 report says nearly 4,000 buyers, so no buyer count is on screen.

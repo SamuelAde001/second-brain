@@ -3,7 +3,7 @@ type: knowledge
 area: video-editing
 status: needs-input
 source: claude-export
-updated: 2026-10-04
+updated: 2026-10-07
 tags: [house-style, routerise]
 ---
 
@@ -243,6 +243,29 @@ Logged during the study because it cost real time (Resolve crashed three times w
 3. Per frame: `SetRenderSettings` with `SelectAllFrames: False`, `MarkIn == MarkOut == frame`, then `AddRenderJob()`.
 4. `StartRendering(all_jobs)` — 12 frames rendered in well under 10 s.
 5. Apply settings **one key per `SetRenderSettings` call** — a batched dict silently returns `False` and falls back to defaults.
+
+## 11b. Visual pacing grammar: measured from his last three finals (2026-10-07)
+
+Samuel, 2026-10-07, on the AI B2B Marketing visuals: *"You are leaving gaps in between each visual. Um, gaps before the cut of the visuals. Go and check the timeline ... You won't see gaps from the visual to the end"*, and *"Study the timeline ... from the node structure to the type of visuals"*. Measured by script from the exported final timelines (Apollo *Visuals v1*, 4 AI Tools *Cut v6*, TSB *Timeline 2*) against the Editor's B2B builds:
+
+| | Apollo | 4 AI Tools | TSB | B2B v1 (Editor) | B2B v2 (Editor) |
+|---|---|---|---|---|---|
+| Visuals ending exactly where the next visual starts, or on an A-roll cut | 170/173 | 250/257 | 211/237 | **18/168** | 168/168 |
+| Visuals ending 1–12 f off a cut (a sliver of A-roll before the cut) | 3 | 3 | 8 | **145** | 0 |
+| Plain A-roll gaps under 0.5 s | 0 | 0 | 0 | **96** | 0 |
+| Breathing gaps (plain A-roll), median | 5.5 s | 3.6 s | 4.1 s | 0.25 s | 4.7 s |
+| Talk time covered by visuals | 85% | 81% | 85% | 84% | 87% |
+
+**The rules that follow (read from his three timelines, not a proposal):**
+1. **Visuals chain.** Each visual runs until the next one starts, back to back, so a section is one continuous run of visuals. A visual never stops a few frames short of the next one or of a cut.
+2. **A run of visuals ends on an A-roll cut**, never mid-clip. Breathing gaps are whole A-roll clips, 3–6 s, about one every 40–60 s.
+3. **Starts sit on a cut or on the previous visual's end.** Elements inside a comp still land on their words.
+4. **Media gets his Neo Anim adjustment clip on the track above** (B-roll, screenshots, demos slide and blur in and out).
+5. **When Alex names a company, a tool or a website, show its real website and logo.** Apollo: screenshot + PALANTIR logo card + YouTube B-roll. 4 AI Tools: real product video, logo cards (01 Claude.png …), a 1-second montage per spoken list item (LinkedIn, website, database, sheet, outreach).
+6. **Key statements get his "Box main" caption bar** (Down fade + Box main + shine) over the visual or the A-roll.
+7. **Company logos are allowed on this client.** Samuel, 2026-10-07: *"Don't worry about what he said about not showing logos. Show the company logos. I have settled it with him."*
+
+How the B2B v2 fix was done (extend without rebuilding, pad renders, website cards): [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] (2026-10-07 afternoon). Method: `Timeline.Export(EXPORT_FCP_7_XML)`, parse the items per track, classify them by comp content, measure each visual's end against the V1 cut list.
 
 ## 12. Open questions (unresolved as of 2026-09-20)
 

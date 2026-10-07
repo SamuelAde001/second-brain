@@ -156,3 +156,9 @@ esume_when_clear.py (scratchpad): probes a missing range every 30 min, resumes w
   - 21 demo renders placed with focus comps (one wrong-clip paste found and redone via ImportFusionComp); UserGems and Google captures placed.
   - Structural audit clean; whole-video frame pass looked at.
   - Records: [[04-Projects/routerise-ai-b2b-marketing|job note]], [[03-Areas/video-editing/resolve-automation-lessons|lessons]].
+
+- **2026-10-07 13:00–17:10 — B2B Visuals v2 (Editor), after Samuel's "so bad" verdict.**
+  - Studied the three finished timelines by script (Apollo, 4 AI Tools, TSB): exported XML + DRT, 360 comps, word-timed transcripts of the finals; measured visual end alignment, gaps, coverage.
+  - Resolve hung once loading TSB (killed and relaunched under Samuel's standing rule) and dropped to an Untitled project once mid-swap; nothing saved was lost.
+  - *Visuals v2 (Editor)* duplicated from v1: 112 comps extended to chain (export/import), 41 demo renders padded and swapped, 12 website + logo inserts on V6, the DREAM ICP bubble disabled. 168/168 visuals now end on a cut or on the next visual.
+  - Records: [[03-Areas/video-editing/routerise-house-style|house style]] §11b, [[03-Areas/video-editing/resolve-automation-lessons|lessons]], [[04-Projects/routerise-ai-b2b-marketing|job note]].

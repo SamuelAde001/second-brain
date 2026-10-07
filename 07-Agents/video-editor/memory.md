@@ -2,7 +2,7 @@
 type: agent
 area: video-editing
 status: active
-updated: 2026-09-28
+updated: 2026-10-07
 source: interview
 tags: [agent, memory]
 ---
@@ -282,3 +282,10 @@ Samuel: *"Did you use the script to guide in the transcript? and for the visuals
 - **Lay out rows from measured widths** (`width()` × tracking + padding), never from fixed x positions. Size cards to their longest line.
 - **Glyphs (✓ ✕ →) go in their own Text+ node, or become an icon.** Swapping a whole label to Segoe UI Symbol makes the words thin.
 - **Demo focus plans come from two printouts:** the rect ids with their visible frame ranges, and the words with frame offsets (`_qa\demo_info.py`). Then one segment per phrase, zoom 1.0 where parts sit close together.
+
+## 2026-10-07 — "The whole visual you did on this video is so bad": pacing and showing things
+- Samuel on B2B *Visuals v1*: gaps between visuals, gaps before the cut, visuals between words that don't need them, websites and logos not shown, not like his last three timelines. He asked for the timelines to be studied, not the renders.
+- **Measured, the cause was mechanical:** 145 of 168 of my visuals ended 1–12 frames before the next cut or visual (each comp ended on its last word plus a few frames), leaving 96 slivers of A-roll under half a second. His finals have none. I had density numbers before the build but never measured *where visuals end*. Measure end alignment, not just density. The grammar is in [[03-Areas/video-editing/routerise-house-style|house style]] §11b.
+- **Fix without rebuilding:** comp export, longer clip, import (Neo Anim's out follows the clip end); renders padded with a held last frame; 12 website + logo inserts on V6 (`comps\web\build_WEB.py`). Logos are allowed for Frontal now (Samuel settled it with Alex, 2026-10-07).
+- **Not done in this pass (time):** the hook stays his; the weaker motion graphics were not redesigned. Next job: build to the chain from the start (each visual ends where the next starts, or on the next cut), and plan a website/logo beat for every named company.
+- He asked for no screen control while he works (2026-10-07: *"Avoid using computer use when you don't need it"*). Scripts only.
