@@ -19,7 +19,7 @@ Weekly slots and hooks: [[03-Areas/personal-brand/content-plan-2026-10-called-to
 |---|---|---|---|
 | 1 | **Intro / story video**: who I am, 5 years as an editor, my story, why I'm giving it back | Story + trust | **Today (2026-10-05).** Highly edited so it can also run as an ad. Plan: [[03-Areas/personal-brand/intro-story-video-2026-10-05\|intro video plan]]. Playbook V3. |
 | 2 | **Webinar announcement**: what it is, date, price, who it's for | Offer | Playbook V2. |
-| 3 | **Main webinar video**: the highly edited, highly engaging first marketing piece | Offer, ad-grade | He thinks he may shoot it tomorrow (2026-10-06). Script draft 1 (2026-10-07): [[03-Areas/personal-brand/scripts/called-to-edit-main-ad|main ad script]]. |
+| 3 | **Main webinar video**: the highly edited, highly engaging first marketing piece | Offer, ad-grade | He thinks he may shoot it tomorrow (2026-10-06). Script draft 1 (2026-10-07): [[03-Areas/personal-brand/scripts/called-to-edit-main-ad\|main ad script]]. |
 | 4 | **Events video**: what happens at the webinar, what you leave with | Offer | Agenda and the three takeaways. |
 | 5 | **Testimonials video**: one or two people he mentored | Proof | Playbook V12. He has to ask the mentees. |
 
