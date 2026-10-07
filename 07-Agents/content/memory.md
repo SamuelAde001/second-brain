@@ -113,3 +113,5 @@ Back to [[07-Agents/content/profile|Profile]]
 
 ## 2026-10-07 — Apps Script field names
 - **Never send a field named `sid` to an Apps Script web app.** Google's front end returns 400 and the script never runs; the browser shows nothing wrong. It killed every landing-page sign-up from 6 Oct ~11:41 for a day. After any change to what the page sends, check that a `?test=1` view lands in the Tests tab before calling it done.
+- `deploy.sh` runs `check-sheet.js` before publishing: it posts the page's real fields to the Sheet as a test and blocks the publish unless it gets 302. Don't remove it.
+- Claude Code's auto-mode check blocks publishing his site and editing the live Sheet script unless Samuel says so in his own words for that change ("Deploy the fix" covered the page only). Ask for each live change by name.
