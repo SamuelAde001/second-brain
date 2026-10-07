@@ -96,3 +96,9 @@ Back to [[07-Agents/content/profile|Profile]]
 - **Nobody is added to the WhatsApp group by the system.** `welcome.html` opens the invite when a payer returns; bank-transfer payers usually don't, so they rely on the confirmation email. Samuel reads "not added" as broken: check the Sheet row and Sent mail first, then send the row's Follow up link.
 - **Flutterwave emails "Unsuccessful Webhook Delivery" for any hook that gets a 302**, which Apps Script always gives, even when the hook landed. Check the Payments tab before believing it. Fix: the `/flw` Netlify relay answers 200 (live 2026-10-06).
 - **Don't put payers' names or emails in Brain notes**: the Brain is pushed to GitHub. Say "4th payer" and point to the Sheet.
+
+## 2026-10-07 — Making flyers and cutouts
+- **Pinterest search needs a login**: logged out it shows a wall. Use his Chrome (he's logged in there); the in-app browser can't search it.
+- **Cutouts: `rembg` is installed** (Python 3.14, `isnet-general-use` model in `%USERPROFILE%\.rembg\models\`). `remove(img, session=new_session("isnet-general-use"), post_process_mask=True)` gave a clean cut of his portrait, hair included. Runs locally; his photos never leave the PC.
+- **Export designs to PNG with headless Chrome**: `chrome.exe --headless=new --user-data-dir=<scratchpad> --window-size=1080,1350 --force-device-scale-factor=2 --virtual-time-budget=10000 --screenshot=<out.png> file:///…?export`. Google Fonts load fine.
+- Pinterest's best-performing webinar flyers are busy templates; the ones that stand out are editorial magazine covers (big serif masthead, head over it, little text). That's the Called to Edit flyer direction.
