@@ -162,3 +162,10 @@ esume_when_clear.py (scratchpad): probes a missing range every 30 min, resumes w
   - Resolve hung once loading TSB (killed and relaunched under Samuel's standing rule) and dropped to an Untitled project once mid-swap; nothing saved was lost.
   - *Visuals v2 (Editor)* duplicated from v1: 112 comps extended to chain (export/import), 41 demo renders padded and swapped, 12 website + logo inserts on V6, the DREAM ICP bubble disabled. 168/168 visuals now end on a cut or on the next visual.
   - Records: [[03-Areas/video-editing/routerise-house-style|house style]] §11b, [[03-Areas/video-editing/resolve-automation-lessons|lessons]], [[04-Projects/routerise-ai-b2b-marketing|job note]].
+- **2026-10-07 15:00–17:55 — B2B Visuals v3, part-built.**
+  - Grammar/audit workflow: 10 agents catalogued his three finals and audited v2, producing a build list (`Docs`).
+  - Build workflow: a foundation kit plus 9 builders. The internet dropped once (relaunched); the session restart stopped A5–A9 mid-way.
+  - Installed on *Visuals v3 (Editor)*: S0 8, A1 30, A2 10, A3 22, A4 32 (2 paste failures from a converter bug).
+  - Resolve quit cleanly at 17:05 and was restarted.
+  - Samuel asked for adjustment clips instead of base clips, then for a save and a new session.
+  - Resume steps: [[04-Projects/routerise-ai-b2b-marketing|job note]] → RESUME HERE.

@@ -207,3 +207,49 @@ Samuel, 2026-10-07 (evening): *"Don't worry about time, don't stop till you have
 - **Building:** a second workflow, foundation kit (`kits\v3kit.py`) then 9 builders writing comps, renders and manifests into `Graphics\Visuals v1\comps\v3\<folder>\` and `renders\v3\`. The Editor installs each manifest, then checks frames section by section, then the sound pass.
 - **B-roll available** (catalogued with stills): Frontal Drive library (Alex at his laptop C0228/C0231/C0144, Alex-Renat strategy session, C0146, C0202 villa team days, IMG_2402, IMG_4457), his YouTube downloads (live sales calls, startup days), the Flow clips from Apollo/TSB. No new Flow generations (his browser).
 - **For Samuel when he reviews:** Alex's production note says no music under the voice; the sound pass will follow the house style (music per section on its own track) so it can be muted in one click if Alex's note stands.
+
+## RESUME HERE (next session) — state at 2026-10-07 17:55
+
+Samuel, 2026-10-07 ~17:55: *"save everything, let me start a new session from where we stopped"*.
+
+**Resolve:** project saved. Timeline *Visuals v3 (Editor)* holds V1 375 · V2 58 · V3 52 · V4 4 · V6 1. *Visuals v2 (Editor)* is untouched (the fallback). Resolve quit cleanly at 17:05 and was restarted (no loss).
+
+**Installed on v3 so far (base clips, MediaIn reading the layers below):**
+- S0: 8 entrance + focus comps over the kept demos. Checked: the entrance (blur + short slide-in) and spotlights land right.
+- A1 Instantly: 30/30.
+- A2 Clay/Sheets: 10/22. The other 12 renders weren't finished when the run stopped.
+- A3 Campaign Manager/LinkedIn: 22/27; 1 failed (`A3_K20808_pain`).
+- A4 HubSpot/calls/Apollo: 32/33; 1 failed (`A4_K6595_caption`).
+- Both failures: the his-template conversion left a stray `,` line after the last tool. Fix it in `kits\v3kit.py` his_comp / `kits\his_template.py`, rebuild both, then re-run `apply_manifest.py` on those manifests (it is idempotent and skips items whose files don't exist yet).
+
+**Builders A5–A9 stopped mid-way** (session restart): A5 Gmail/Fibbler/Frontal, A6 web pages + lockups, A7 chapters/roadmap/tier cards/glass checklists, A8 B-roll/captions/cards/overlays, A9 BGORANGE motion graphics. Their folders under `Graphics\Visuals v1\comps\v3\` hold partial files, but none has a manifest. Relaunch them with `Docs\Build workflow v3 (2026-10-07).js`: keep only those five roles, and tell each to continue from what is already in its folder.
+
+**NEW instruction from Samuel (2026-10-07 ~17:50):** *"Use Adjusment clips instead of what you used, it is not giving the same results, if needed use computer use to get them when neded"*. Two questions are open to him:
+- (1) Adjustment clips for every construct, or only those over the picture: media entrances, focus/spotlight, captions, glass, pills over Alex?
+- (2) When can the Editor take over the screen? He declined a screenshot while he was using the PC.
+
+How adjustment clips work by script (tested 2026-10-07):
+- **Inserting works, on one track only.** Lock every other track, `SetMarkInOut(a, b-1)`, `InsertGeneratorIntoTimeline("Adjustment Clip")` (`ext_kit.insert_adjustment`). It only lands on the timeline's **destination-patched** track. After the restart the patch moved and every track refused, so first set the destination patch in the track header (GUI).
+- **Writing the comp needs one GUI action per clip.** The Fusion page never opens an adjustment clip from a script: `GetCurrentVideoItem()` skips adjustment clips, `comp.Paste()` on the item's comp object, `ImportFusionComp` and `fusion.Execute` Lua paste all return false. So each clip must be selected in the timeline (computer use) before his setting is pasted.
+- For adjustment clips his comps keep their own MediaIn1. `his_template` needs an option that keeps the MediaIn1 links instead of pointing them at MediaIn_Below.
+
+**After the installs:**
+1. `python kits\qa_v3.py chain`: every visual ends on the next visual or a cut; no slivers.
+2. `python kits\qa_v3.py sheet <a> <b> <step> <label>` per section: stills come through Deliver render jobs and are made into contact sheets. Never use bulk `ExportCurrentFrameAsStill`; it crashed Resolve twice.
+3. Fix what the sheets show.
+4. Samuel reviews v3.
+5. **Music only after he signs off the visuals** (Samuel: *"No need to do music until we are sure of the visuals"*). The plan is ready: `Docs\Sound plan v3 (2026-10-07)\music.json`.
+
+**Where everything is:**
+- **Plan:** `Docs\Build list v3 (2026-10-07).md`.
+- **Grammar:** `Docs\Grammar - Samuel's last three timelines (2026-10-07).md`.
+- **Findings:** `Docs\Audit findings - Visuals v2 (2026-10-07).json`.
+- **Workflows:** `Docs\Build workflow v3 (2026-10-07).js`, `Docs\Grammar and audit workflow (2026-10-07).js`.
+- **Study scripts and B-roll catalogue:** `Docs\Editor working files (2026-10-07)\`.
+- **Kit:** `Graphics\Visuals v1\kits\`:
+  - `ext_kit.py`: external-Python Resolve API, no 60 s cap; install, media, frames, insert_adjustment, paste_his.
+  - `apply_manifest.py`: `--clear-v3`, plus apply.
+  - `qa_v3.py`.
+  - `his_template.py`.
+  - `v3kit.py` + `V3_README.md` (the foundation kit).
+- **His templates:** 359 comps exported from his three timelines, in `Graphics\Visuals v1\comps\his\templates\`.
