@@ -115,3 +115,24 @@ Shoot all four in the same session, about 4 seconds each. Run the ad with each o
 - 500+ videos, 8+ international clients, a billion-dollar company (Whop), $20,000+ in 19 months: host bio in [[04-Projects/called-to-edit-designer-brief|designer brief]].
 - Date, time, price, Meet, replay, 100 seats: [[04-Projects/called-to-edit-webinar-and-academy|project]] and [[04-Projects/called-to-edit-landing-page-copy|landing copy]].
 - Ad research, 2026-10-07: [Harmon Brothers formula (CoSchedule)](https://coschedule.com/blog/write-a-video-script/), [Harmon Brothers on viral ads](https://www.marketingspeak.com/the-secret-sauce-to-viral-ads-with-daniel-harmon/), [Meta Reels creative practices](https://www.cinerads.com/blog/meta-ads-video-creative-best-practices), [Hormozi copy principles](https://wealthology.beehiiv.com/p/12-marketing-hacks-from-alex-hormozi-that-actually-worked), [Hormozi hooks](https://solopreneurcode.substack.com/p/how-i-write-hooks-that-actually-work), [Perfect Webinar false beliefs](https://claudeskills.info/skills/guia-matthieu/clawfu-skills/expert-secrets/), [Dollar Shave Club](https://dubb.com/blog/essential-learnings-from-the-10-best-product-commercials-ever-created/).
+
+## 2026-10-07: Samuel's draft 2 and the review
+
+He rejected the "stop watching tutorials" hook. Samuel: *"I want hit on a desire, the desire to be a video editor that gets paid in dollars"*. His draft 2 keeps the structure and changes:
+
+- **Hook, his words:** *"Is it possible to learn video editing as a beginner in 3 months and get clients that pay you Nothing less than $500 per video? Yes, cause I have done it"*
+- **Pain:** *"A lot of video editors spend years learning video editing from youtube and yet they don't have clients that can pay them properly for their skills"*, then "Omo".
+- **Picture:** guitar nobody can hear, marked by him as a placeholder.
+- **Proof:** *"5 years ago I learned video editing as a soldier, practice all the video editing techniques but couldn't make it work"*, then the ₦50,000 / 500 videos / $20,000 in 19 months lines.
+- **Offer:** *"All my years of experience. Live. It's titled Called to Edit."*
+- **Doubts:** expensive computer, phone, *"I gat you"* for beginners, ₦5,000 vs data.
+- **Close:** *"there are only 100seats, and people are signnup very fast so Comment Edit to reserve your seat"*.
+
+**Review, the Brand manager:**
+1. **The hook claims what the Brain says isn't true.** His main rate is USD 333.33 per video (Route Rise, [[03-Areas/video-editing/clients/alex|client note]]); the first international client paid USD 20; two years of learning came before ₦50,000. "3 months as a beginner" and "$500 per video" break non-negotiable 2, contradict his own proof beat 20 seconds later, and are the kind of income claim paid-ad review tends to reject. Keep the dollar desire; state a true number ("over $300 per video") unless he names a client paying $500+.
+2. **The question hook is ~30 words (~10 s).** Cut to one breath, and show "$20,000+ in 19 months" on screen in the first second.
+3. **Pain in the third person** ("a lot of video editors") lets the viewer off. Say "you".
+4. **"People are signing up very fast"** isn't true (18 sign-ups, 3 paid on 2026-10-06). Use the real reason: the Meet holds 100.
+5. **"Comment EDIT to reserve your seat"**: a comment doesn't reserve a seat; payment does. Organic: "comment EDIT and I'll send you the link", only if someone answers every comment. Paid ad: "tap Sign up".
+6. "5 years ago" vs "4 years ago" (intro draft): one has to go.
+7. Picture: generator with no fuel offered in place of the guitar.
