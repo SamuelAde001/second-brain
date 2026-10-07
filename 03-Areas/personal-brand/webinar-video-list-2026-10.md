@@ -2,7 +2,7 @@
 type: knowledge
 area: personal-brand
 status: active
-updated: 2026-10-05
+updated: 2026-10-07
 source: interview
 tags: [video-list, called-to-edit, webinar, tickTick]
 ---
@@ -17,10 +17,11 @@ Weekly slots and hooks: [[03-Areas/personal-brand/content-plan-2026-10-called-to
 
 | # | Video | Job | Notes |
 |---|---|---|---|
-| 1 | **Intro / story video**: who I am, 5 years as an editor, my story, why I'm giving it back | Story + trust | **Today (2026-10-05).** Highly edited so it can also run as an ad. Plan: [[03-Areas/personal-brand/intro-story-video-2026-10-05\|intro video plan]]. Playbook V3. |
+| 1 | **Intro / story video**: who I am, 5 years as an editor, my story, why I'm giving it back | Story + trust | **Done** (Samuel, 2026-10-07). Planned for 2026-10-05. Highly edited so it can also run as an ad. Plan: [[03-Areas/personal-brand/intro-story-video-2026-10-05\|intro video plan]]. Playbook V3. |
 | 2 | **Webinar announcement**: what it is, date, price, who it's for | Offer | Playbook V2. |
-| 3 | **Main webinar video**: the highly edited, highly engaging first marketing piece | Offer, ad-grade | He thinks he may shoot it tomorrow (2026-10-06). Script draft 1 (2026-10-07): [[03-Areas/personal-brand/scripts/called-to-edit-main-ad\|main ad script]]. |
+| 3 | **Main webinar video**: the highly edited, highly engaging first marketing piece | Offer, ad-grade | He thinks he may shoot it tomorrow (2026-10-06). 2026-10-07: scripted; he plans the visuals, then shoots and edits it all before the evening of 2026-10-08. Script draft 1 (2026-10-07): [[03-Areas/personal-brand/scripts/called-to-edit-main-ad\|main ad script]]. |
 | 4 | **Events video**: what happens at the webinar, what you leave with | Offer | Agenda and the three takeaways. |
+| 3b | **Why I'm finally teaching** (talking head): people kept asking me to teach, I avoided it because I didn't feel good enough, until I saw what I was capable of; why the webinar, what I want it to achieve | Story + offer | Added and shot-planned 2026-10-07. Rough script: [[03-Areas/personal-brand/scripts/why-im-teaching-talking-head\|why I'm teaching]]. |
 | 5 | **Testimonials video**: one or two people he mentored | Proof | Playbook V12. He has to ask the mentees. |
 
 ## The rest (his ideas to look through)
