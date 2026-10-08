@@ -122,3 +122,10 @@ Back to [[07-Agents/content/profile|Profile]]
 - His content database in Notion is *Instagram Content Calendar* (Samuel Signals → My personal brand → Samuel Signals Instagram → Content Calendar), data source `collection://30d8d1c1-7bb7-8030-8a7a-000bcb336370`. Status is the only state field: Idea · Script · Recording · Editing · Done · Dropped. "Content pillar" doubles as the series (My stories, Called to create, Storytelling).
 - `ALTER COLUMN … SET SELECT(...)` keeps existing values when option names match: count rows per option before and after anyway.
 - In `update-view`, `CLEAR FILTER` does not remove quick filters that have a preset value; those still filter the view. Use `CLEAR QUICK FILTER` too, then read the returned `simpleFilters`.
+
+## 2026-10-08 — Changing the live Sheet script from Chrome
+- **A page on script.google.com can't fetch from localhost**: the request hangs (Chrome's local-network check), and screenshots of that tab can freeze after. Don't serve the script locally to paste it.
+- **What worked:** build old→new replacement pairs with a script (each old string unique, applied in order, result checked), apply them in the editor with `monaco.editor.getModels()[0]` in one javascript call, and set the value only if the SHA-256 of the result matches the local file. Hash the editor first to prove it still holds the last deployed local file.
+- **Manage deployments freezes screenshots** while open. Drive it with `find` refs only: Deploy → Manage deployments (menu item ref) → Edit → click the Version combobox → "New version" option → Deploy. Then `curl` the `/exec` URL: `doGet` reports the LAYOUT number, the proof the new code is live.
+- The Sheet lives on Samuel's other Google account: open Sheets with `?authuser=repzysam@gmail.com`; `u/0` shows nothing.
+- In the in-app browser, `scrollTo` doesn't move the landing page (the scroll engine takes over) and IntersectionObserver only fires on real wheel scrolls with screenshots between them.

@@ -2,7 +2,7 @@
 type: log
 area: system
 status: active
-updated: 2026-10-07
+updated: 2026-10-08
 source: manual
 tags: [build, state]
 ---
@@ -23,7 +23,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 - **Motion gallery** (2026-09-30): Samuel approved all 36 designs (3 dropped). They are inspiration to remix, never templates, and that is now a rule. [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]].
 - **Called to Edit webinar → Called to Edit Academy** (2026-09-30): under @SamuelSignals. Webinar Sat 2026-10-24 (hour open), NGN 5,000, target 200, Meet capped at 100 on Google One AI Pro until sign-ups justify Workspace. Cohort NGN 50,000, ~6 weeks from November (maybe late), target 50, recorded, on Meet. Project manager Ifeoma; interns get a free cohort seat, a percentage later (not settled). PA's October time plan waiting on his yes before TickTick. [[04-Projects/called-to-edit-webinar-and-academy|project]]. Alongside: 5 Route Rise videos a month through AI speed.
-- **Called to Edit landing page** (2026-10-04): live at calledtoedit.netlify.app; `deploy.sh` in `Desktop\landing-page\` (now checks the Sheet first). **2026-10-07: 21 people, 5 paid (NGN 25,000), 95 seats left.** Sign-ups were silently dropped 6 Oct 11:42 to 7 Oct ~14:26 (a `sid` field Google rejects); **fix live and checked**, returning visitors re-send their saved sign-up once. Sheet script version 8 live (15:00). Flutterwave checked: one lost sign-up found, details given to Samuel; he follows up the unpaid himself → [[04-Projects/called-to-edit-landing-page-build|build note]].
+- **Called to Edit landing page** (2026-10-04): live at calledtoedit.netlify.app; `deploy.sh` in `Desktop\landing-page\` (now checks the Sheet first). **2026-10-07: 21 people, 5 paid (NGN 25,000), 95 seats left.** Sign-ups were silently dropped 6 Oct 11:42 to 7 Oct ~14:26 (a `sid` field Google rejects); **fix live and checked**, returning visitors re-send their saved sign-up once. Sheet script version 8 live (15:00). Flutterwave checked: one lost sign-up found, details given to Samuel; he follows up the unpaid himself → [[04-Projects/called-to-edit-landing-page-build|build note]]. **2026-10-08: traffic tracking live**: Sheet tab *Traffic* (daily visits and people, how far people read, time on page, busiest hours); Sheet script layout 6.
 - **Route Rise AI B2B Marketing** (2026-10-08 ~02:00, Editor, stopped on the usage limit): all 353 visuals installed on adjustment clips in *Visuals v3 adj 3 (Editor)* (chain clean, coverage 91%). Frame review done: confirmed findings saved to job `Docs\Frame review v3 adj 3 (2026-10-08).json` (P1s include the empty 6980 caption, 3966 template text, GGARTNER 3814, stale v2 media at A2 8262/8637/9293, missing two-tone accents from Char1Enable). RESUME: launch a fix workflow per folder from that file + the fixers' sparse-page list (job note), reinstall changed items (remove → apply → convert → adj 4), re-check, MagicZoom, Samuel's review. [[04-Projects/routerise-ai-b2b-marketing|job note]].
 - **Route Rise #3:** delivered 2026-09-29.
 - **Route Rise Apollo**, 2026-10-04 night: picture done (Samuel). Sound pass placed on *Visuals v1 (Editor)*: 9 music cues, 150 SFX, 16 typing beds, none under the Tella demo 8282–11090. Waiting on his listen, then render. Backup: *…backup before sound 2026-10-04*. Leftovers to delete when he's happy are listed in the project note.
