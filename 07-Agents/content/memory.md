@@ -117,3 +117,8 @@ Back to [[07-Agents/content/profile|Profile]]
 - Claude Code's auto-mode check blocks publishing his site and editing the live Sheet script unless Samuel says so in his own words for that change ("Deploy the fix" covered the page only). Ask for each live change by name.
 - **Apps Script deploy dialog:** after picking "New version", the version listbox can stay over the Description field; a click there picks an old version (it deployed Version 6 by mistake on 2026-10-07). Skip the description, check the Version box reads "New version", then Deploy, then confirm the result says the new version number.
 - **Flutterwave Customers** (dashboard → Customers) lists people who opened checkout even without a transaction: the place to find lost sign-ups. Transactions list URL takes `?from=YYYY-MM-DD 00:00:00&to=…` and no status to show every status.
+
+## 2026-10-08 — Notion content calendar
+- His content database in Notion is *Instagram Content Calendar* (Samuel Signals → My personal brand → Samuel Signals Instagram → Content Calendar), data source `collection://30d8d1c1-7bb7-8030-8a7a-000bcb336370`. Status is the only state field: Idea · Script · Recording · Editing · Done · Dropped. "Content pillar" doubles as the series (My stories, Called to create, Storytelling).
+- `ALTER COLUMN … SET SELECT(...)` keeps existing values when option names match: count rows per option before and after anyway.
+- In `update-view`, `CLEAR FILTER` does not remove quick filters that have a preset value; those still filter the view. Use `CLEAR QUICK FILTER` too, then read the returned `simpleFilters`.
