@@ -45,3 +45,7 @@ Two sessions drive one Resolve. Before any Resolve step that writes, renders sti
 - [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] (bottom sections): identity gate after every paste, `sync_plan` before re-applying, raw line breaks in Lua strings, `Char1Enable` for two-tone, 24 fps Flow clips on the 23.976 timeline, MagicMask must be tracked in the GUI or it hides everything above it, Resolve's slow shutdown, Chrome's Save As for Flow downloads.
 - [[07-Agents/video-editor/memory|Editor memory]] (2026-10-08): markers are part of the brief, parallel builders burn the 5-hour window fast (run 3–5 at a time, check usage before a fan-out), ask before switching his Resolve project.
 - Flow (Omni Flash, ~12 credits a clip) in his Chrome is allowed for this job (Samuel, 2026-10-08); downloads open a Save As dialog he clicks.
+
+## Changed 2026-10-08 ~19:55: one session, overnight
+
+Samuel: *"I want it to do the both in one session, so I don't prompt again this night"*. The same session finishes the edits ([[04-Projects/routerise-ai-b2b-marketing|job note]] → RESUME) and builds this intro. **No storyboard gate tonight:** plan, then build on your defaults; save the storyboard stills and every choice for his morning review. The intro still builds in its own folders and on its own timeline; when it passes review, copy it into `comps3\H0_intro\` and combine it with *adj 6* as *Visuals v3 final (Editor)*, with MagicZoom over the whole video.
