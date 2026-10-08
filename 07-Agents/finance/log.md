@@ -66,3 +66,4 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 ## 2026-10-06 — Shopping logged
 
 - Receipt shopping is one `major` row per plan line, not per item. Items that fit two lines (baby oil) go where the plan has room, and he is told.
+- 2026-10-08 · Logged three bulk rows (data 2,500, eating out 6,200, GF extras 5,000) to money-ledger; rebuilt the sheet. Day of spend assumed 2026-10-08.

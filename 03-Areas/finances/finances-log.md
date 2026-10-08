@@ -28,3 +28,4 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 
 
 Back to [[03-Areas/finances/finances|Finances]]
+- 2026-10-08 — **Small spends logged.** Data NGN 2,500, Eating out NGN 6,200, Girlfriend extras NGN 5,000 (his "GF 5k for some stuffs"). Derived bank NGN 153,374 as of 2026-10-08, not a reported balance.

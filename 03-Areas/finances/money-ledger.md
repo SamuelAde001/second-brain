@@ -154,6 +154,9 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-06 | bulk | -5,100 | Hanger, cream and sweets (split below) | Personal / misc | reverses the 5,100 row |
 | 2026-10-06 | bulk | 3,400 | Hanger and cream | Chores / household | his words: "just split them"; prices unknown, split in three equal parts of 1,700 |
 | 2026-10-06 | bulk | 1,700 | Sweets | Feeding | his words: "just split them"; one third of 5,100 |
+| 2026-10-08 | bulk | 2,500 | Data | Data / airtime | his words: "Spent 2500 on data"; logged 2026-10-08, day assumed |
+| 2026-10-08 | bulk | 6,200 | Eating out | Eating out | his words: "Spent 6200 eating out"; logged 2026-10-08, day assumed |
+| 2026-10-08 | bulk | 5,000 | Girlfriend, "some stuffs" | Girlfriend extras | his words: "Gave GF 5k for some stuffs"; booked to Girlfriend extras, not the allowance; logged 2026-10-08, day assumed |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
