@@ -312,3 +312,5 @@ Samuel, 2026-10-08 ~19:25: stop this session (*"already token heavy"*), continue
 6. Music only after he signs off the visuals (plan: `Docs\Sound plan v3 (2026-10-07)\music.json`; Alex's note says no music under the voice, so music stays on its own track).
 
 **Where things are:** orders, results and reviews of every round in job `Docs\` (`Fix round results`, `Re-review adj 4`, `Fix round 5 results`, `Final check adj 5`, `Marker specs`, `Cast roster changes`, `Samuel markers on Visuals v1`); workflow scripts beside them; kit in `Graphics\Visuals v1\kits\` (install/QA tools in `kits\inst\`, .drt tools in `kits\drt\`). **C: has 22 GB free (98 % full):** check space before renders.
+
+**The study is in the Brain now (2026-10-08 19:45):** [[03-Areas/video-editing/edit-grammar/edit-grammar|Edit grammar]] (Apollo / 4 AI Tools / TSB grammar, shared rules, constructs, MagicZoom decoded); his comps, finals stills and MagicZoom data in `Routerise\Visual Assets\Samuel templates (Editor)\`. Use them; don't re-study his videos.
