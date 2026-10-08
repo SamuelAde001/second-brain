@@ -2,7 +2,7 @@
 type: knowledge
 area: personal-brand
 status: needs-input
-updated: 2026-09-23
+updated: 2026-10-08
 source: interview
 tags: [series, content, what-works]
 ---
@@ -62,7 +62,7 @@ The Brain has deep material on his voice, his script process and his storytellin
 | Ep | Title | Note | Posted |
 |---|---|---|---|
 | 1–2 | not recorded | — | before 2026-09-20 |
-| 3 | No light | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep3-no-light|Ep 3]] | — (first cut in Resolve 2026-09-24) |
+| 3 | No light | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep3-no-light|Ep 3]] | yes, date not given (Samuel, 2026-10-08: "I have done that episode"); first cut in Resolve 2026-09-24 |
 | 4 | How I stay productive | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep4-how-i-stay-productive|Ep 4]] | — |
 | later | Bad network | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-bad-network|Bad network]] | — |
 | later | Bad laptop | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-bad-laptop|Bad laptop]] | — |
