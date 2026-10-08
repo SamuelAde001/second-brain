@@ -73,3 +73,8 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 ## 2026-10-08 — morning changes (PA)
 
 - Samuel: still on the AI B2B video; LinkedIn does not start until B2B is done; today also needs time shooting the MAIN webinar ad video. TickTick: 7:00am–1:00pm block renamed "AI B2B — finish, review, deliver"; added "Webinar — shoot MAIN ad video" 3:00–4:30pm (priority 5, PA's proposed slot, not his words); LinkedIn visuals 7:00–9:00pm left as is.
+
+## 2026-10-08 — morning changes, second round (PA)
+
+- Samuel: Claude is cutting AI B2B this morning; he uses the time to brainstorm and shoot the MAIN webinar ad video. LinkedIn removed from today, starts Saturday. Two done-tasks for today: webinar video shot and ready to edit; company video (AI B2B) done and ready to render tonight. Gym: "may go, but the work of today is much" (not a commitment).
+- TickTick: 7:00am–1:00pm renamed "Webinar — brainstorm + shoot MAIN ad video"; 7:00–9:00pm renamed "AI B2B — render + deliver"; my 3:00–4:30pm webinar task abandoned (duplicate). No LinkedIn block written for Saturday yet: no time given.
