@@ -32,6 +32,7 @@ Numbers come from Samuel, when he has them. Nothing connects to Instagram or Tik
 | 2026-W39, day not given | not given | Main video, title not given | not given | not given | his words, 2026-09-27: "4 videos posted this week, 2 recap from my kd event, 1 main video, 1 recap of my outing" |
 | 2026-W39, day not given | not given | Outing recap | not given | not given | his words, 2026-09-27: "4 videos posted this week, 2 recap from my kd event, 1 main video, 1 recap of my outing" |
 | 2026-10-08 (recorded; posted date not given) | Reel | Life of a Video Editor Ep 3, *No light* | Life of a Video Editor | not given | his words, 2026-10-08: "I have done that episode". May be the 2026-W39 "main video" above; not confirmed |
+| Correction 2026-10-08 | not given | Life of a Video Editor Ep 3, *No light* | Life of a Video Editor | not given | correction to the row above: its format "Reel" was assumed, not given by Samuel |
 
 The two Life of a Video Editor episodes went out before this log, dates not recorded ([[03-Areas/personal-brand/series/life-of-a-video-editor|the series]]).
 
