@@ -69,3 +69,7 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 - 2026-10-04 20:50 — night check sent: Apollo delivered, both webinar must-dos open, AI B2B download unticked; Mon 10-05 plan proposed; waiting for answers. Nothing written to TickTick.
 - 2026-10-06 20:50 — night check sent (cloud routine): AI B2B due 1:45am, still at Cut v5; 2 misses (must-do, social media 3h10m in work blocks); Wed 10-07 plan proposed; waiting for answers. Nothing written to TickTick.
 - 2026-10-07 20:55 — night check sent (cloud routine): 0 of 3 LinkedIn must-dos, AI B2B not delivered per the record (v3 still building), social media 31m in work blocks + 57m 11pm–7am; 6 misses this week; Thu 10-08 plan proposed; waiting for answers. Nothing written to TickTick.
+
+## 2026-10-08 — morning changes (PA)
+
+- Samuel: still on the AI B2B video; LinkedIn does not start until B2B is done; today also needs time shooting the MAIN webinar ad video. TickTick: 7:00am–1:00pm block renamed "AI B2B — finish, review, deliver"; added "Webinar — shoot MAIN ad video" 3:00–4:30pm (priority 5, PA's proposed slot, not his words); LinkedIn visuals 7:00–9:00pm left as is.
