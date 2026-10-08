@@ -78,7 +78,4 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 
 - Samuel: Claude is cutting AI B2B this morning; he uses the time to brainstorm and shoot the MAIN webinar ad video. LinkedIn removed from today, starts Saturday. Two done-tasks for today: webinar video shot and ready to edit; company video (AI B2B) done and ready to render tonight. Gym: "may go, but the work of today is much" (not a commitment).
 - TickTick: 7:00am–1:00pm renamed "Webinar — brainstorm + shoot MAIN ad video"; 7:00–9:00pm renamed "AI B2B — render + deliver"; my 3:00–4:30pm webinar task abandoned (duplicate). No LinkedIn block written for Saturday yet: no time given.
-
-## 2026-10-08 — night check (PA)
-
-- 20:55 — night check sent (cloud routine): 0 of 2 must-dos ticked, AI B2B 2 days past due, 11pm–7am social media 10m; about 10 misses this week; Fri 10-09 plan proposed; waiting for answers. Nothing written to TickTick. Found: the webinar task lost its date in the morning rename.
+- 2026-10-08 20:55 — night check sent (cloud routine): 0 of 2 must-dos ticked (webinar MAIN ad shoot, AI B2B render + deliver), AI B2B still undelivered, 11pm–7am 10m; 10 misses this week; Fri 10-09 plan proposed with LinkedIn starting Fri evening; waiting for answers. Nothing written to TickTick.
