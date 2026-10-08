@@ -27,3 +27,4 @@ Back to [[02-Me/daily-routine|daily routine]]
 - 2026-10-05 20:30 — wrote 2026-10-04.md, 2026-10-05.md; phone data fresh
 - 2026-10-06 20:30 — wrote 2026-10-05.md, 2026-10-06.md; phone data fresh
 - 2026-10-07 20:30 — wrote 2026-10-06.md, 2026-10-07.md; phone data fresh
+- 2026-10-08 20:31 — wrote 2026-10-07.md, 2026-10-08.md; phone data STALE/MISSING; refresh tried
