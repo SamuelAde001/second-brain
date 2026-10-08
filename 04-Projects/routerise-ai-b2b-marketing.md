@@ -316,3 +316,9 @@ Samuel, 2026-10-08 ~19:25: stop this session (*"already token heavy"*), continue
 **The study is in the Brain now (2026-10-08 19:45):** [[03-Areas/video-editing/edit-grammar/edit-grammar|Edit grammar]] (Apollo / 4 AI Tools / TSB grammar, shared rules, constructs, MagicZoom decoded); his comps, finals stills and MagicZoom data in `Routerise\Visual Assets\Samuel templates (Editor)\`. Use them; don't re-study his videos.
 
 **Changed 2026-10-08 ~19:55 (Samuel): both in ONE session overnight, no prompting** (*"I want it to do the both in one session, so I don't prompt again this night"*). Order: relaunch round 6 and start the intro plan in parallel (neither needs Resolve) → reinstall as *adj 6*, check, fix → install and review the intro on its own timeline → combine *adj 6* + the intro as *Visuals v3 final (Editor)* and run MagicZoom over the whole video including the intro (`mz_plan.py <in> <out> 0`) → morning review list. No storyboard gate tonight: build on defaults and keep every choice for his review. On a usage limit: checkpoint, park with a background wait until the reset, carry on.
+
+## Session 2026-10-08 night (Editor): edits + intro in one session
+
+Samuel, 2026-10-08 ~19:35: finish the edits and the intro tonight without asking; morning review list. Running log (newest at the bottom):
+- **19:40 round 6 relaunched** (wf_2ca86a5c-11c, 3 builders at a time: the 5-hour window was at 69 %; script copy in the session scratchpad `wf\round6.js`, edited from `Docs\Fix round 6 workflow (2026-10-08).js`). S0 done 19:50 (open question: `cast_roster.json` numbers.kenny_organic_post now 21,700 impressions / 722 engagements / 3.3 % at 22301).
+- **19:50 intro plan written:** job `Graphics\Visuals v1\comps\intro\H0_intro\PLAN.md` (28 visuals H01–H25 over 0–2494, breaths 718–771 and 2397–2495, five builders U1 U2 G1 G2 M1) + `hook_clips.json` (the 32 A-roll clips with their words). Resolve has the B2B project open (no switch needed).
