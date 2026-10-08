@@ -251,3 +251,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: `brain-hud` removed (Brain copy and session copy) and no other mods built. Corrects the entry above.
 **Why**: Samuel, 2026-10-07: *"I can see my usage easily already from the claude circle, so this mod is redundant"*; all seven other ideas: *"Most of this aren't helpful, let's just leave it"*.
 **Who decided**: Samuel.
+
+## 2026-10-08 — The Editor builds the B2B Marketing intro
+
+**Decision**: For Route Rise "The Most Valuable AI B2B Marketing Training", the Editor builds the intro (the hook, frames 0–2494) in a separate session at full intensity, alongside a second session that finishes the rest of the edits. The standing rule "every intro is Samuel's" (ways of working, 2026-09-25) holds for other jobs unless he says otherwise.
+**Why**: Samuel, 2026-10-08: *"I want you to start the intro, but not in this session, in another session with the same intensity that you gave this one ... you did a good Job here and I belive you can handle the intro also"*.
+**Who decided**: Samuel.

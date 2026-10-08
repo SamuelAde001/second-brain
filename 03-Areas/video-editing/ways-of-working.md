@@ -194,6 +194,8 @@ Read from his final comp (parsed from a saved copy) and frames. Build this way n
 
 *"Every intro is Samuel."* Visual ideas for the intro still go on the cut sheet, as inspiration for him. **Nothing is placed on the timeline before the intro ends.** Visuals start on the first sentence after it.
 
+**Changed 2026-10-08 for the B2B Marketing video:** Samuel asked the Editor to build the intro (the hook, frames 0–2494) in its own session: *"I want you to start the intro, but not in this session, in another session with the same intensity that you gave this one"*. The default for other jobs stays as above until he says otherwise. Brief: [[04-Projects/routerise-ai-b2b-marketing-intro|B2B intro]].
+
 ## When Resolve stops responding
 
 - **If it crashed, reopen it yourself** (Samuel, 2026-10-03: *"When resolve crashes, open it back yourself, I am not always on my PC"*): `launch_resolve`, load the project and the timeline, then report what crashed and what was lost.

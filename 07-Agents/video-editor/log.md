@@ -171,3 +171,10 @@ esume_when_clear.py (scratchpad): probes a missing range every 30 min, resumes w
   - Resume steps: [[04-Projects/routerise-ai-b2b-marketing|job note]] → RESUME HERE.
 - **2026-10-07 18:20 — B2B v3, adjustment clips solved.** Read the last chat (all Samuel's messages extracted by script, including the queued adjustment-clip one). Found his finals put 168 comps on adjustment clips. Reverse-engineered the .drt comp blob, proved a scripted write into an adjustment clip (test timeline *test1*), converted all 55 installed v3 comps to adjustment clips (*Visuals v3 adj (Editor)*), frames checked. Fixed the stray-comma converter bug (18 settings). Kit in the job's `kits\drt\`. [[04-Projects/routerise-ai-b2b-marketing|job note]]
 - **2026-10-07 22:45–23:20 — B2B v3 installs.** Samuel asked why so much was left; answered (adjustment-clip work, usage-limit gap, QA rework, my install batching) and switched to installing each folder when ready. Installed A7, A9, A5, A8 (149 items) onto *Visuals v3 adj 2 (Editor)*; removed the 92 items the fix run changed and started reinstalling them with A6 and the patch. Resolve crashed once (relaunch automated). Install now leaves Samuel's clipboard alone. Details: [[04-Projects/routerise-ai-b2b-marketing|job note]].
+- **2026-10-08 08:05–19:30 — B2B v3 fix rounds (Editor).**
+  - Read Samuel's 29 markers on *Visuals v1* (the copies sit 96 f late); 16 were unanswered and turned into specs.
+  - Found and fixed install faults: five wrong comps (identity gate), three stale media (sync_plan), raw line breaks, Char1Enable, short 24 fps Flow clips, the pyramid's untracked MagicMask.
+  - Made five Flow clips with Omni Flash in his Chrome.
+  - Ran a fix round (13 builders; cut once by the usage limit, Samuel chose the full plan), a re-review, round 5, and the adj 5 final check.
+  - Built *Visuals v3 adj 4* and *adj 5*. Round 6 was stopped at Samuel's request for new sessions.
+  - Resume: [[04-Projects/routerise-ai-b2b-marketing|job note]] → RESUME HERE (edits), [[04-Projects/routerise-ai-b2b-marketing-intro|intro brief]].
