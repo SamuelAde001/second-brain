@@ -352,3 +352,19 @@ Samuel, 2026-10-10 ~11:50: he reviewed *Visuals v3 final (Editor)* and left 61 m
 - **14:05–14:20 review of every change from timeline stills** (265 stills, `%TEMP%\rr10\stills\r2_frames\`): all 46 items and the repeats read as asked; fix round 1 (the hook's missing chip, labels and title space, the 80% visual's weight and timing, the empty 5057 start, the recap capsule, the YouTube spotlight) confirmed on stills.
 - **14:30–14:40 sound pass** on *Visuals v3 final*: 12 music cues (A2 *Music*), 290 SFX (A3–A5), 23 typing beds (A8 *Typing*), from `%TEMP%\rr10\sound\plan_b2b.py` (the Apollo planner adapted; UI clicks and typing read from the render engines by a helper: `ui_events.json`). Resolve crashed once rendering an audio-only check (project saved before; nothing lost).
 - **14:44 caching** with background tasks back on. Revision list for Samuel: [[04-Projects/routerise-ai-b2b-marketing-review-2026-10-10|review 2026-10-10]].
+
+## Final markers and final render, 2026-10-10 evening (Editor)
+
+Samuel's last 5 red markers (597, 1046, 1743, 5431, 5922), fixed in place on *Visuals v3 final (Editor)*, checked on stills:
+
+- **597:** Frontal's real Proof page (Served 275+ companies, the logo wall, the 255+ counter), push + spotlight on the wall from '250'. V2 560-622; the old brand beat (V3 466-622) is switched off.
+- **1046:** the 7-step cards without the FRONTAL x YOUR COMPANY card; every card's logo and name mosaicked, the numbers clear.
+- **1743:** the same mosaic, card 4 BUYING SIGNALS revealed on 'four'.
+- **5431:** fuel poured on a campfire (Flow Omni Flash, 1080p upscale; no good real footage on YouTube), fireball on 'fire'. V3 5431-5511. Source: job `B-roll\`.
+- **5922:** the STEP 1 pill alone, same design as steps 2-7.
+
+Builders: `Graphics\Visuals v1\compsev10\S\build_S_m1010.py` (sdevice.py gained `hide_dim` and `shared_except`). Install manifest: `Docs\Editor working files (2026-10-10)\m1010_install.json`. Backups of the replaced comps: `%TEMP%r10\backup_m1010\`.
+
+**Render:** H.264 MP4, 1080p, in 10 chunks in `Final render 2026-10-10 (Editor)\chunks\`; never the render cache, never ProRes (Samuel). `join_chunks.py join auto` joins them without re-encoding the picture. Status and resume steps: `RESUME NOTE.md` in that folder.
+
+**For Samuel to check:** the 1141-1246 white cards (0.64%, THE TOOLS, WHERE AI DOES THE WORK) were left as they were; the 1046 marker was read as the 7 step boxes.
