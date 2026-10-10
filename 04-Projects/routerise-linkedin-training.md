@@ -43,3 +43,5 @@ Drive IDs for `drive_download.py` / Drive export:
 | Fri 10-09 7:00am–1:00pm, 7:00–8:30pm | Visuals (Bible study at 8:30) |
 | Sat 10-10 7:00am–1:00pm | Finish visuals + sound, render started by 1:00pm |
 | Sat 10-10 7:00–9:00pm | Review the render, deliver |
+
+**2026-10-10 (PA):** Samuel: *"I have not started"*. The schedule above is dead; its TickTick blocks were abandoned. Card still due Mon 2026-10-12 1:30am WAT. New plan not set.
