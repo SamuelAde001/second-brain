@@ -67,3 +67,4 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 
 - Receipt shopping is one `major` row per plan line, not per item. Items that fit two lines (baby oil) go where the plan has room, and he is told.
 - 2026-10-08 · Logged three bulk rows (data 2,500, eating out 6,200, GF extras 5,000) to money-ledger; rebuilt the sheet. Day of spend assumed 2026-10-08.
+- 2026-10-10 · Money man · Logged five rows: giving 5,000 (10-09), GF extras 8,000, gym 30,000, graphic designer advance 30,000 (of 60,000), TikTok ads 6,315 (Webinar ads). Derived bank NGN 74,059. Plan 2026-10: GF community fee 33,000 → 0 (his words); new Graphic designer line A 30,000 + B 30,000; Webinar ads 30,000 → 36,315 (IG 30,000 still to send); Goal 1 rebalanced A 31,559 + B 139,752 = 171,311. Rule 3 broken: Goal 1 A not moved on Payday A. Upcoming, not logged: haircut 3,000, gas 4,000, church 8,000 TP + 2,000 feeding, IG ads 30,000. Sheet rebuilt.

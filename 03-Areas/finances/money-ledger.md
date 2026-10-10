@@ -157,6 +157,11 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-08 | bulk | 2,500 | Data | Data / airtime | his words: "Spent 2500 on data"; logged 2026-10-08, day assumed |
 | 2026-10-08 | bulk | 6,200 | Eating out | Eating out | his words: "Spent 6200 eating out"; logged 2026-10-08, day assumed |
 | 2026-10-08 | bulk | 5,000 | Girlfriend, "some stuffs" | Girlfriend extras | his words: "Gave GF 5k for some stuffs"; booked to Girlfriend extras, not the allowance; logged 2026-10-08, day assumed |
+| 2026-10-09 | bulk | 5,000 | Giving, to someone | Giving | his words: "5k went to giving yesterday someone" (said 2026-10-10) |
+| 2026-10-10 | bulk | 8,000 | Girlfriend, foodstuffs | Girlfriend extras | his words: "Gave my GF 8k for some foodstuffs"; booked to Girlfriend extras, not the allowance; logged 2026-10-10, day assumed |
+| 2026-10-10 | major | 30,000 | Gym | Health — gym | his words: "30k went to Gym"; logged 2026-10-10, day assumed |
+| 2026-10-10 | major | 30,000 | Graphic designer, advance on NGN 60,000 | Graphic designer | his words: "My Graphics designer is charging me 60k, most of that money would hopefully come from the signups, but I gave him 30k advance from my cash on hand"; NGN 30,000 still owed; logged 2026-10-10, day assumed |
+| 2026-10-10 | bulk | 6,315 | TikTok ads | Webinar ads | his words: "Tiktok Ads 6315"; booked to Webinar ads; logged 2026-10-10, day assumed |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
