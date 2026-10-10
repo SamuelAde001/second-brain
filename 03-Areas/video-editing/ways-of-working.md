@@ -190,6 +190,22 @@ Read from his final comp (parsed from a saved copy) and frames. Build this way n
 - **Pills (chips):** RectangleMask (CornerRadius 0.34) → accent Background → GaussianBlur 0.4 → Merge masked by the fill, plus an Instance border in the lighter tint #FD9457, then NeoBevel → NeoLightSweep → DropShadow → **NeoAnim** (slide + blur in). The text is **NeoTextMotion** (Geist SemiBold). The title is NeoTextMotion Geist ExtraBold, with the number in the accent colour.
 - **The layout tells the story of the segment:** title ("4 TOOLS") → the two questions the section answers → the four tools → Alex at the bottom, with every line coming out of him.
 
+## Revision rules — Samuel, 2026-10-10 (61 markers on the B2B video)
+
+He asked for each of these once and said to repeat a correction everywhere it applies (*"if I corrected one place and you think that correction might be needed in other places, make sure you repeat that correction"*). They hold for every job.
+
+- **The hook gets full-screen visuals and concrete ones.** His words on the old pipeline card: *"very, very bad. I need something much more concrete"*. A small card beside Alex is not a hook visual; a full-frame scene of the real thing is (a pipeline dashboard with months, values and the flat line).
+- **One recurring device, one design.** A device that returns (the 7 steps) is full screen, big boxes with the text on them, his colours, the same every time it comes back (*"always keep consistency around this type of visuals"*). Make it light: no reflections or glow on every card. A heavy one crashed his cache.
+- **List reveals reuse the visual.** Item two shows the visual from item one and reveals the next item, and so on (*"what every visual you came up with in the last one, reuse here and reveal the next pill"*).
+- **Step and chapter pills are all one size**, with a small dark fade behind them so they stand out.
+- **Logos enter gently:** Neo Anim In about 25 f, a short offset, starting from opacity 0. Never from far below (*"that's why they look fast"*). Logo tiles show the real brand colours, never grey.
+- **No fade-out on full-frame visuals** into A-roll: hard cut. No fade-in on an insert either (*"it looks like a glitch"*).
+- **Captions over B-roll are the words animating in, no pill behind.**
+- **Real footage beats AI B-roll.** Remove AI B-roll he flags; for a real action (a cold call) find real footage on YouTube.
+- **Calls are shown as calls.** Wherever a sales call is mentioned, show the video-call screen (Meet: Alex + a blurred prospect) with the transcript or messages by the side, not a call-recording page.
+- **Highlights:** light the whole message when the whole message matters; move the highlight to the list as soon as it's said; zoom in far enough to read; don't move a highlight away when it should just be held.
+- **One timeline.** He caches the whole video before his review. Work in place on that timeline (only touched clips re-cache) instead of duplicating it. How: [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] (2026-10-10).
+
 ## The intro is Samuel's — 2026-09-25
 
 *"Every intro is Samuel."* Visual ideas for the intro still go on the cut sheet, as inspiration for him. **Nothing is placed on the timeline before the intro ends.** Visuals start on the first sentence after it.
