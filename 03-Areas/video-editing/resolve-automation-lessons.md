@@ -328,3 +328,13 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
   2. A big `.setting` pasted into an unlocked comp: Fusion renders it half-wired. Fix: `comp.Lock()` before the paste, `Unlock()` after the links are wired.
 - **After a forced kill, `LoadProject` returns False** until the project is opened once from the Project Manager (double-click). `exec` is blocked in the `run_script` sandbox.
 - **The .drt reader picked `MpFolder.xml` on a small timeline** (it took the biggest file); `drt_inject.Drt` now prefers `SeqContainer\`.
+
+## 2026-10-10 (evening) — A final render in chunks, and what joining them takes
+
+The B2B final was rendered as ten ~3,000-frame MP4 chunks so a power cut (solar battery) would lose one chunk at most, then joined with the job's `Final render 2026-10-10 (Editor)\join_chunks.py`. Reuse that script.
+- **`SetRenderSettings({"VideoQuality": ...})` returns False** for every value (int bitrate, "Best", 0) and every H.264/H.265 codec in Resolve 21.1. H.264 NVIDIA renders at its automatic quality, ~14-16 Mbps at 1080p; Samuel's "H.264 Master" preset gives the same. `ExportRenderPreset` returned None while a render ran.
+- **Resolve's AAC in a chunk:** 448 samples of encoder delay at the start (not flagged; a chunk from frame 0 has the delay too, but pre-echo hides it) and the last ~5 ms decode near silent. Joining the chunks' audio as-is ticks at every join. Fix: a 48-frame overlap render at every join (`seam SSSSS.mp4`, SSSSS-24 to SSSSS+23); measure each chunk's offset against it by cross-correlation (all came out 448, correlation 0.995-1.000) and splice the join window from it.
+- **ffmpeg's concat demuxer offsets each file by its longest stream.** The AAC track runs 784 samples past the video, so every join added 16.3 ms; 147 ms of A/V drift by chunk 10. Give each file an exact `duration` line (frames x 1001/24000). Then check every frame's pts against i x 1001/24000 (0.0 ms on the final).
+- **Queuing an audio-only WAV job crashed Resolve** (ucrtbase.dll, 0xc0000409). After that crash, and after a clean quit, `LoadProject` returned False for 2-10 minutes, then loaded by script; a watcher retrying every 15 s caught it.
+- **Resolve leaks memory over a long render:** 44 GB committed on the 32 GB PC by the 9th chunk, paging to disk (C: lost 16 GB to the pagefile), Resolve on ~10% CPU and the chunks slowing from ~8 fps to under 1 fps. `resolve.Quit()` (it exited 34 s later) and a relaunch: the next chunk took 6 min where the leaking session projected 55+. Relaunch Resolve between long render batches.
+- **Claude in Chrome screenshots time out while Resolve renders** (GPU busy); `find` / `read_page` still work.

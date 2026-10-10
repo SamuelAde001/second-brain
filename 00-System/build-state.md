@@ -20,7 +20,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 ## Live work and dates
 
-- **Route Rise AI B2B Marketing** (Editor): Samuel's 61 markers (2026-10-10) all worked in place on *Visuals v3 final (Editor)*, plus the sound pass (12 music cues, 290 SFX, typing beds). Caching from 14:44 (89 changed clips). Next: Samuel's final watch, then render and send to Route Rise **today, 2026-10-10**. [[04-Projects/routerise-ai-b2b-marketing-review-2026-10-10|revision list]] · [[04-Projects/routerise-ai-b2b-marketing|job note]].
+- **Route Rise AI B2B Marketing** (Editor): Samuel's 61 markers and his last 5 (2026-10-10 evening) all worked in place on *Visuals v3 final (Editor)*, plus the sound pass. **Final 1080p MP4 rendered 21:27** in the job's `Final render 2026-10-10 (Editor)\` (10 chunks, joined; checked). Next: Samuel watches it, then it goes to Route Rise; then a row in delivered projects and the end-of-job review. A fix after his watch re-renders only its chunk (`RESUME NOTE.md` there). [[04-Projects/routerise-ai-b2b-marketing|job note]].
 - **Route Rise LinkedIn Training** (3 of 3): not started as of 2026-10-10; card due Mon 2026-10-12 1:30am WAT. Samuel: client knows, he starts Monday 2026-10-12. New delivery date not recorded. [[04-Projects/routerise-linkedin-training|job note]].
 - **Route Rise Apollo:** sound pass placed 2026-10-04, waiting on his listen, then render. Delivery not recorded in the Brain. [[04-Projects/routerise-cancel-apollo|job note]].
 - **Ad showcase** (2026-10-09, Editor): 12 YouTube intros and one audio track downloaded and re-encoded for Samuel's showcase ad, in `Desktop\Video edits\Ad showcase\`.

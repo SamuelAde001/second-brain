@@ -367,4 +367,6 @@ Builders: `Graphics\Visuals v1\compsev10\S\build_S_m1010.py` (sdevice.py gained
 
 **Render:** H.264 MP4, 1080p, in 10 chunks in `Final render 2026-10-10 (Editor)\chunks\`; never the render cache, never ProRes (Samuel). `join_chunks.py join auto` joins them without re-encoding the picture. Status and resume steps: `RESUME NOTE.md` in that folder.
 
-**For Samuel to check:** the 1141-1246 white cards (0.64%, THE TOOLS, WHERE AI DOES THE WORK) were left as they were; the 1046 marker was read as the 7 step boxes.
+**For Samuel to check:** the 1141-1246 white cards (0.64%, THE TOOLS, WHERE AI DOES THE WORK) were left as they were; the 1046 marker was read as the 7 step boxes. The fire B-roll is AI (Flow); its last second has stylised flame curls and embers.
+
+**Final render done 21:27:** `Final render 2026-10-10 (Editor)\The Most Valuable AI B2B Marketing Training - FINAL 1080p (2026-10-10).mp4`, 1080p H.264 + AAC 320k, 29,967 frames, 20:49.87, 2.27 GB. Checked: full decode clean, every frame on its exact timestamp, audio aligned to the sample, the 5 fixes and a join on stills from the final. After the 597 v1 install a reviewer caught a thin dark strip at the top of the Frontal page; replaced by `H05b frontal proof 250 v2 (Editor).mov` (push from 1.03). Not sent to Route Rise: Samuel reviews it first. A fix after his review re-renders only the chunk holding it (`RESUME NOTE.md` there). How the join works and what went wrong: [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] (2026-10-10 evening).
