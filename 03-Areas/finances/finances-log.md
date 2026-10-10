@@ -29,3 +29,4 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 
 Back to [[03-Areas/finances/finances|Finances]]
 - 2026-10-08 — **Small spends logged.** Data NGN 2,500, Eating out NGN 6,200, Girlfriend extras NGN 5,000 (his "GF 5k for some stuffs"). Derived bank NGN 153,374 as of 2026-10-08, not a reported balance.
+- 2026-10-10 — **Five spends, plan changes, bank reported.** Logged giving NGN 5,000, GF extras NGN 8,000, gym NGN 30,000, graphic designer advance NGN 30,000 (of NGN 60,000), TikTok ads NGN 6,315. GF community fee cancelled; Graphic designer line added; Goal 1 A not moved (Rule 3) and now pays the Instagram ads: Goal 1 October NGN 169,752, all on B. Bank NGN 77,709 (his words), NGN 3,650 above the rows. Webinar money is via Flutterwave, kept in a separate account: NGN 29,340 there, NGN 24,462 unsettled (his words).

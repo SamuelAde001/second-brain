@@ -162,6 +162,7 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-10 | major | 30,000 | Gym | Health — gym | his words: "30k went to Gym"; logged 2026-10-10, day assumed |
 | 2026-10-10 | major | 30,000 | Graphic designer, advance on NGN 60,000 | Graphic designer | his words: "My Graphics designer is charging me 60k, most of that money would hopefully come from the signups, but I gave him 30k advance from my cash on hand"; NGN 30,000 still owed; logged 2026-10-10, day assumed |
 | 2026-10-10 | bulk | 6,315 | TikTok ads | Webinar ads | his words: "Tiktok Ads 6315"; booked to Webinar ads; logged 2026-10-10, day assumed |
+| 2026-10-10 | balance | 77,709 | Bank | — | his words: "I have 77,709 sitted in my account right now"; rows added up to 74,059, the +3,650 is not explained; Flutterwave webinar money passed through and was moved to a separate account (not personal money, not logged here); no screenshot |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
