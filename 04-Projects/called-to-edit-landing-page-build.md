@@ -2,7 +2,7 @@
 type: project
 area: personal-brand
 status: active
-updated: 2026-10-06
+updated: 2026-10-10
 source: manual
 tags: [called-to-edit, landing-page, scroll-craft, build, handoff]
 ---
@@ -149,3 +149,5 @@ Samuel, 2026-10-10: *"People are visiting my website but aren't signing up"* · 
 - **Checked** on a local copy with the Sheet and Flutterwave links blanked: 320, 360, 375 and 1920 px, no sideways scroll, all 7 tracked sections still present, no console errors.
 - **Not yet published:** waiting on Samuel's yes to `deploy.sh` (it runs `check-sheet.js` first).
 - Not touched, for later: the 8 of 13 lost between form and payment (reminder emails already chase them); his own wording on the headline if he wants it different.
+- **Samuel's changes, 2026-10-10:** label → *"Video editing Career Masterclass not an editing tutorial"* (shown as *Video editing career masterclass · Not an editing tutorial*, wraps to two lines on phones; button still on screen at 360×740); the *10+ editors have already booked* line removed. *"Go ahead and deploy it"*.
+- **Live 2026-10-10** via `deploy.sh` (`check-sheet.js` passed first; Netlify deploy `6ac9e56d…`, one file uploaded). Checked live: page, welcome, pay, config, funnel, engine and hero image 200; `/flw` GET 405 (relay up); new label and FAQ served; Sheet and Flutterwave links set; no console errors on a `?test=1` load. Watch the Traffic tab over the next few days: the test is whether fewer than 36% leave on the hero.
