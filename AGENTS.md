@@ -2,7 +2,7 @@
 
 Every AI that works in this Brain reads this file first, whatever model it is. It is deliberately short. Detail lives in the notes it points to.
 
-Status: built 2026-09-20. Sections marked TBD are filled in later phases of the build (see `00-System/build-state.md`).
+Status: built 2026-09-20, in run mode since 2026-09-28. Current state: `00-System/build-state.md`.
 
 ---
 
@@ -36,7 +36,8 @@ Status: built 2026-09-20. Sections marked TBD are filled in later phases of the 
 05-Knowledge/ evergreen know-how that spans areas. Domain SOPs live in their area instead.
 06-Logs/      daily/, weekly/, automation/, screen-time/, commitments.md
 07-Agents/    roster.md, handoffs.md, <agent-name>/{profile,memory,log}.md
-08-Archive/   finished work. accountability-engine/ = legacy system, read-only.
+08-Archive/   finished work: projects/ (done projects), brain-build/ (migration records),
+              retired-scripts/. accountability-engine/ = legacy system, read-only.
 _attachments/ screenshots and small images only. No video, audio or project files.
 ```
 
@@ -71,7 +72,8 @@ tags: []
 - Every note links back to its area overview note.
 - One subject per note. Split past ~300 lines. Merge fragments under ~10 lines.
 - ISO dates. Money always carries a currency code (NGN, USD). Never a bare number.
-- Templates: `00-System/templates/`.
+- Templates: `00-System/templates/`. Full rules: [[00-System/conventions|conventions]].
+- A finished project moves to `08-Archive/projects/`, with links to it rewritten. Check the Brain with `python 00-System/scripts/audit_brain.py` (broken links, frontmatter, encoding, size) after any restructure.
 
 ## 5. Operating rules
 

@@ -67,7 +67,7 @@ Samuel's stated need: a bookable, paid 1:1 link, working from Nigeria, for a mos
 - Whether Coachli (or anything else) was actually set up, and what price was published.
 - The retainer target from [[03-Areas/video-editing/client-acquisition|Client acquisition]]: how many retainers, at what value, by when — still unset.
 - Who the "other video editor" is and what the working arrangement is.
-- Any minimum rate Samuel personally holds to. Note: the archived legacy Accountability Engine had a rule — "no new work below USD 333 per video without logging the reason" (`00-System/legacy-review.md`, item M5) — that rule is **archived and unreviewed**, not active, and nothing in these sources confirms or replaces it. Flagged here only so it isn't lost; it is not being treated as current policy.
+- Any minimum rate Samuel personally holds to. Note: the archived legacy Accountability Engine had a rule — "no new work below USD 333 per video without logging the reason" (`08-Archive/brain-build/legacy-review.md`, item M5) — that rule is **archived and unreviewed**, not active, and nothing in these sources confirms or replaces it. Flagged here only so it isn't lost; it is not being treated as current policy.
 
 
 Back to [[03-Areas/finances/finances|Finances]]

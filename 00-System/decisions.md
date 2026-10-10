@@ -257,3 +257,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: For Route Rise "The Most Valuable AI B2B Marketing Training", the Editor builds the intro (the hook, frames 0–2494) in a separate session at full intensity, alongside a second session that finishes the rest of the edits. The standing rule "every intro is Samuel's" (ways of working, 2026-09-25) holds for other jobs unless he says otherwise.
 **Why**: Samuel, 2026-10-08: *"I want you to start the intro, but not in this session, in another session with the same intensity that you gave this one ... you did a good Job here and I belive you can handle the intro also"*.
 **Who decided**: Samuel.
+
+## 2026-10-10 — Brain tidy: archive finished work, shorten what every session reads
+
+**Decision**: Finished and build-era notes move to `08-Archive/` (`projects/routerise-4-ai-tools`, `brain-build/migration-report`, `brain-build/legacy-review`), links rewritten. Answered open questions (46 rows) move verbatim to `00-System/open-questions-answered.md`; the live list keeps the 65 still open. The Editor's memory (58.7 KB, read every Editor session) becomes a one-line-per-lesson digest, with its dated entries moved verbatim to `07-Agents/video-editor/memory-2026-09-21-to-10-09.md`. Build-state rewritten to current state only. `00-System/scripts/audit_brain.py` added as the standing health check. The rules are in conventions → Finished work. Nothing deleted.
+**Why**: Samuel, 2026-10-10: *"optimize the brain, any thing not needed, anything redundant, anything outdated, and anything not useful any more remove it. Make it more efficient for the Agents to easily find what they are looking for"*. Moving instead of deleting keeps the history (AGENTS.md rule 3) and is reversible.
+**Who decided**: Samuel asked; the method is the General Manager's, following the 2026-09-28 tidy.

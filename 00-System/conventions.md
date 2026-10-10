@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-09-22
+updated: 2026-10-10
 source: manual
 tags: [conventions]
 ---
@@ -75,6 +75,13 @@ Checked across the Brain on 2026-09-20 and fixed in 79 files.
 - One line, imperative, says what changed and where: `video-editing: add client note for Routerise`.
 - Prefix `[<tool>]` when a guest AI made the commit, e.g. `[gemini]` ([[00-System/portability|portability]] → write tiers).
 - Commit after every completed piece of work, not in one lump at the end.
+
+## Finished work
+- A project that is done moves to `08-Archive/projects/` with `git mv`, and every link to it is rewritten to the new path in the same commit.
+- Records of the Brain's own build (migration report, legacy review) live in `08-Archive/brain-build/`.
+- An answered open question moves verbatim to [[00-System/open-questions-answered|answered questions]].
+- An agent memory past ~300 lines gets a one-line-per-lesson digest at the top, and its dated entries move verbatim to a companion `memory-<from>-to-<to>.md` (first done for the Editor, 2026-10-10).
+- Check with `python 00-System/scripts/audit_brain.py`.
 
 ## What does not go in the Brain
 - Tasks and schedules — those live in TickTick.

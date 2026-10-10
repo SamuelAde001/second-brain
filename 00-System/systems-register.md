@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-10-07
+updated: 2026-10-10
 source: manual
 tags: [systems]
 ---
@@ -85,6 +85,7 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 
 | Script | Job | Run |
 |--------|-----|-----|
+| `00-System/scripts/audit_brain.py` | Brain health check, read-only: broken links, missing frontmatter, non-UTF-8 files, notes over 300 lines, done projects not archived; `orphans` lists notes nothing links to | after any restructure, and in any tidy |
 | `00-System/scripts/build_adapters.py` | Generates every AI tool's adapter files (Claude Code, Gemini CLI) from the canonical profiles and skills; `--check` detects drift; `--package` zips a skill for claude.ai | after any profile or skill edit |
 | `00-System/scripts/build_scripnals_guides.py` | Validates the Scripnals guide library (`03-Areas/scripnals/guides/`), exports `_export/guides.json` + `vocab.json` for the devs, and shows what one request loads (`--select`, `--prompt`). `--check` fails if the export is stale | after any change to a guide entry |
 | `00-System/scripts/build_scripnals_spec.py` | Builds the Scripnals AI spec PDF for the devs from `03-Areas/scripnals/ai-workflow.md`. `--figures` first re-draws the flow chart and screen mock-ups from `03-Areas/scripnals/assets/*.html`. Needs Chrome | after any change to the AI spec |

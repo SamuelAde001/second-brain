@@ -28,6 +28,9 @@ tags: [project, webinar, live-class, cohort, called-to-edit, davinci-resolve]
 - [[04-Projects/called-to-edit-teaching-outlines|Teaching outlines]] (2026-10-03, draft): the 2-hour webinar run-of-show and the 6-week Academy curriculum
 - [[04-Projects/called-to-edit-prep-tasks|Prep tasks and questions]] (2026-10-03): the draft task list for the whole prep and 35 questions for Samuel
 - [[04-Projects/called-to-edit-webinar-project-plan|Project plan]] (2026-10-05): the handover plan for the project manager, current with his 2026-10-04 corrections. Shareable copy: Claude Doc https://claude.ai/code/artifact/19cc7d62-9541-455c-96d5-57a9b195b574
+- [[04-Projects/called-to-edit-landing-page-copy|Landing page copy]] (2026-10-04, draft 1): the words on the sign-up page
+- [[04-Projects/called-to-edit-landing-page-build|Landing page build]] (2026-10-04): the live page at calledtoedit.netlify.app, the Sheet, payments, traffic tracking
+- [[04-Projects/called-to-edit-designer-brief|Designer brief]] (2026-10-07): the brief for the graphic designer
 
 ## What done looks like
 

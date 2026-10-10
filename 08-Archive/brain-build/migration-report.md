@@ -98,7 +98,7 @@ Extracted from `projects-000.zip` to `01-Inbox/_imports/claude-export/extracted/
 | Content Creation | 5 docs, 39,436 chars | `03-Areas/personal-brand/`: `brand-context.md`, `script-process.md`, `storytelling-structures.md`, `ideas.md` (30 story ideas) |
 | HighSignals brand | instructions only, 2,286 chars | `03-Areas/highsignals/_index.md` — name meaning, mission, four branches, community rules |
 | Scripnals | instructions only, 2,011 chars | Already covered by `03-Areas/scripnals/_index.md` — duplicate of the handover doc |
-| MY PA | instructions only, 2,508 chars | Tone rules → `02-Me/how-to-work-with-me.md`. The system it describes → `00-System/legacy-review.md` |
+| MY PA | instructions only, 2,508 chars | Tone rules → `02-Me/how-to-work-with-me.md`. The system it describes → `08-Archive/brain-build/legacy-review.md` |
 | comfort- cuts video edit | 1 doc, 34,177 chars | `03-Areas/video-editing/cut-sheets.md` (Butler reel) |
 
 **Recovered:** `HighSignals_Content_Context.md` — the "HighSignals — Content & Brand Context" doc Samuel believed he had deleted. It was in the Content Creation project. Open question 13 is answered.
@@ -132,7 +132,7 @@ Extracted from `projects-000.zip` to `01-Inbox/_imports/claude-export/extracted/
 
 Copied whole from `Desktop/engine` to `08-Archive/accountability-engine/` — 81 files, 1.69 MB. Source repo `github.com/SamuelAde001/engine`, HEAD `e01cd60` (2026-09-16). `.env` deliberately excluded and listed in `security-flags.md`.
 
-Nothing from it was installed, merged or activated. `00-System/legacy-review.md` lists **50 items** — 23 rules, 6 goals, 5 failure patterns, 16 rituals/agents/automations — each tagged with its domain and marked `unreviewed`, for keep/change/drop during the Phase 3 interview.
+Nothing from it was installed, merged or activated. `08-Archive/brain-build/legacy-review.md` lists **50 items** — 23 rules, 6 goals, 5 failure patterns, 16 rituals/agents/automations — each tagged with its domain and marked `unreviewed`, for keep/change/drop during the Phase 3 interview.
 
 ## Phase 2 pass 1 — conversation triage (2026-09-20)
 

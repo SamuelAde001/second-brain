@@ -66,3 +66,9 @@ Back to [[07-Agents/orchestrator/profile|Profile]]
 ## 2026-10-07 — Claude Code mods: not wanted
 
 - Built `brain-hud` (usage band) and pitched seven more mods. Samuel turned them all down: he reads usage from the app's usage circle, and none of the others helped. Don't propose Claude Code mods again unless he asks.
+
+## 2026-10-10 — Second tidy: where the tokens actually go
+
+- **Measure bytes of what each session loads, not line counts.** The Editor's memory was 58.7 KB (~15k tokens a run), three times AGENTS.md. A digest with dates pointing at a verbatim companion cut it to ~9 KB without losing a lesson.
+- **The audit is now a script:** `python 00-System/scripts/audit_brain.py` (add `all` for orphans). It skips inline code, attachments by basename and known append-only breaks, and flags non-UTF-8 files: Gemini wrote one relay-log line in Windows-1252 on 2026-10-02.
+- **Build-state drifts fastest.** It still listed three deletions done twelve days earlier, and two edits had spliced lines into each other. Rewrite it whole each tidy; git keeps the old one.

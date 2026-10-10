@@ -9,7 +9,7 @@ tags: [sop, visuals, cut-sheet, storyboard, resolve]
 
 # Visual sheet pipeline: a rendered visual for every sentence
 
-How the Editor turns a finished cut into a visual per sentence, rendered as videos and placed on a duplicate timeline for Samuel to judge in context. First run: Route Rise #3, 2026-09-25 (59 visuals, [[04-Projects/routerise-4-ai-tools|project note]]). This is steps 4–5 of [[07-Agents/video-editor/profile|the Editor's pipeline]] (ideate per sentence, preview). Step 6 (approved visuals rebuilt as Fusion comps) comes after Samuel's review. The engine lives in `03-Areas/video-editing/scripts/visual-engine/`: copy it into the job's `Graphics\Visuals vN\` folder.
+How the Editor turns a finished cut into a visual per sentence, rendered as videos and placed on a duplicate timeline for Samuel to judge in context. First run: Route Rise #3, 2026-09-25 (59 visuals, [[08-Archive/projects/routerise-4-ai-tools|project note]]). This is steps 4–5 of [[07-Agents/video-editor/profile|the Editor's pipeline]] (ideate per sentence, preview). Step 6 (approved visuals rebuilt as Fusion comps) comes after Samuel's review. The engine lives in `03-Areas/video-editing/scripts/visual-engine/`: copy it into the job's `Graphics\Visuals vN\` folder.
 
 Read first: [[03-Areas/video-editing/visual-vocabulary|visual vocabulary]] (his look, list styles, the TSB critique, the agency guide) and [[ways-of-working]] (effects are real nodes; the intro is his).
 

@@ -2,63 +2,57 @@
 type: log
 area: system
 status: active
-updated: 2026-10-08
+updated: 2026-10-10
 source: manual
 tags: [build, state]
 ---
 
 # Build state
 
-Single source of continuity. **Read this first, then AGENTS.md.** Update at the end of every session. Current state only: the narrative and the session log are in [[00-System/build-history|Build history]] (append new log lines there).
+Single source of continuity. **Read this first, then AGENTS.md.** Update at the end of every session. Current state only: what's done drops off (git has every past version). The narrative and the session log are in [[00-System/build-history|Build history]] (append new log lines there).
 
 ## Start here
 
-- **Phase 4 closed 2026-09-28**, ahead of the 2026-10-04 target. The Brain is in run mode: agents do the work, and systems get added one rung at a time as tasks repeat (the ladder in the systems register).
-- **Built:** 5 agents (General Manager, Editor, Money man, PA, Brand manager; all run in the main session on Opus 5.5; model and effort per job from [[00-System/model-routing|model routing]], 2026-09-29). 14 skills. 5 automations. Full list: [[00-System/systems-register|Systems register]].
-- **Dropped 2026-09-28** (Samuel): the job skills `brainstorm`, `plan`, `systemize`, `commit`, and the Editor's pipeline skills. The Editor runs from SOPs, scripts and small skills for tasks that repeat ([[00-System/decisions|decision]]).
-- **Next action:** no build work queued. First real `month-close` on 2026-09-30, then the items waiting on Samuel below.
-- **2026-09-28:** October budget set (4 videos, both paydays balance to 0). Cowrywise split: Investment fund NGN 60,000 locked, Cowrywise savings NGN 40,000 is Buffer money. Payday A due Wed 30 Sep: run `payday`.
+- **Run mode since 2026-09-28.** Agents do the work; systems get added one rung at a time as tasks repeat (the ladder in the systems register).
+- **Built:** 5 agents (General Manager, Editor, Money man, PA, Brand manager; all in the main session on Opus 5.5; model and effort per job from [[00-System/model-routing|model routing]]). 14 skills. 5 automations. Full list: [[00-System/systems-register|Systems register]].
+- **Brain tidy 2026-10-10:** run `python 00-System/scripts/audit_brain.py` to check links, frontmatter, orphans and sizes. Fix what it reports before adding anything new.
+- **Next action:** no build work queued. Work comes from the live list below.
 
 ## Live work and dates
 
-- **Motion gallery** (2026-09-30): Samuel approved all 36 designs (3 dropped). They are inspiration to remix, never templates, and that is now a rule. [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]].
-- **Called to Edit webinar → Called to Edit Academy** (2026-09-30): under @SamuelSignals. Webinar Fri 2026-10-23, 7:00pm WAT (Samuel, 2026-10-05; was Sat 10-24), NGN 5,000, target 200, Meet capped at 100 on Google One AI Pro until sign-ups justify Workspace. Cohort NGN 50,000, ~6 weeks from November (maybe late), target 50, recorded, on Meet. Project manager Ifeoma; interns get a free cohort seat, a percentage later (not settled). PA's October time plan waiting on his yes before TickTick. [[04-Projects/called-to-edit-webinar-and-academy|project]]. Alongside: 5 Route Rise videos a month through AI speed.
-- **Called to Edit landing page** (2026-10-04): live at calledtoedit.netlify.app; `deploy.sh` in `Desktop\landing-page\` (now checks the Sheet first). **2026-10-07: 21 people, 5 paid (NGN 25,000), 95 seats left.** Sign-ups were silently dropped 6 Oct 11:42 to 7 Oct ~14:26 (a `sid` field Google rejects); **fix live and checked**, returning visitors re-send their saved sign-up once. Sheet script version 8 live (15:00). Flutterwave checked: one lost sign-up found, details given to Samuel; he follows up the unpaid himself → [[04-Projects/called-to-edit-landing-page-build|build note]]. **2026-10-08: traffic tracking live**: Sheet tab *Traffic* (daily visits and people, how far people read, time on page, busiest hours); Sheet script layout 6.
-- **Route Rise AI B2B Marketing** (2026-10-09 08:40, Editor): **whole video built** on *Visuals v3 final (Editor)*: the new intro (0–2494, 28 visuals) + the body (adj 6, round 6 fixed) + MagicZoom (79 clips). Waiting on Samuel's review: [[04-Projects/routerise-ai-b2b-marketing-review-2026-10-09|review list]] (17 questions with defaults; left: 14448 roster fix, pyramid MagicMask, sound, render). Resolve is shared with his own edits: ping him before any Resolve step (`kits\inst
-  - **2026-10-09 ~10:05 (Editor): render cache paused while Samuel finishes his ad video.** The cache crashes were the V2 comp at 5057 (its Fusion cache is now Off). The other 266 Fusion items have Fusion cache On, and C: has about 79 GB free. When he's back: let the cache run with Resolve in front, and watch for crashes in another comp.
-esolve_block.py`). [[04-Projects/routerise-ai-b2b-marketing|job note]].
-esolve_lock.py`. C: 98 % full (22 GB free). [[04-Projects/routerise-ai-b2b-marketing|job note]].
-- **Route Rise #3:** delivered 2026-09-29.
-- **Route Rise Apollo**, 2026-10-04 night: picture done (Samuel). Sound pass placed on *Visuals v1 (Editor)*: 9 music cues, 150 SFX, 16 typing beds, none under the Tella demo 8282–11090. Waiting on his listen, then render. Backup: *…backup before sound 2026-10-04*. Leftovers to delete when he's happy are listed in the project note.
-- **Route Rise Apollo** (due Sat 2026-10-03 2:15am, deliver Fri 10-02): visual review v3 sent 2026-09-30, with 40 animated visuals timed to the words (`Docs\Visual review v3 (2026-09-30).html`). Waiting on Samuel's marks, then the Fusion builds in the Thu 10-01 visuals block ([[04-Projects/routerise-cancel-apollo|project]]).
-- **Finance:** September close on 2026-09-30 (first real `month-close`). Payday A when the September 70% lands. The October plan is blocked on the standing plan's son's school and girlfriend lines ([[00-System/open-questions|open questions]]).
+- **Route Rise AI B2B Marketing** (Editor): whole video built on *Visuals v3 final (Editor)* 2026-10-09. Waiting on Samuel's review: [[04-Projects/routerise-ai-b2b-marketing-review-2026-10-09|review list]] (17 questions with defaults; left: 14448 roster fix, pyramid MagicMask, sound, render). **Undelivered, 2+ days late** as of the 2026-10-09 night check. Render cache paused 2026-10-09 ~10:05 while Samuel edits his ad: the crashes were the V2 comp at 5057 (its Fusion cache now Off); when he's back, let the cache run with Resolve in front and watch for crashes in another comp. Resolve is shared with his own edits: ping him before any Resolve step. [[04-Projects/routerise-ai-b2b-marketing|job note]].
+- **Route Rise LinkedIn Training** (3 of 3): due Mon 2026-10-12 1:30am WAT, planned delivery Sat 2026-10-10. [[04-Projects/routerise-linkedin-training|job note]].
+- **Route Rise Apollo:** sound pass placed 2026-10-04, waiting on his listen, then render. Delivery not recorded in the Brain. [[04-Projects/routerise-cancel-apollo|job note]].
+- **Ad showcase** (2026-10-09, Editor): 12 YouTube intros and one audio track downloaded and re-encoded for Samuel's showcase ad, in `Desktop\Video edits\Ad showcase\`.
+- **Called to Edit webinar → Academy:** webinar **Fri 2026-10-23, 7:00pm WAT**, NGN 5,000, target 200. Cohort NGN 50,000, ~6 weeks from November, target 50. Project manager Ifeoma. [[04-Projects/called-to-edit-webinar-and-academy|project hub]].
+- **Called to Edit landing page:** live at calledtoedit.netlify.app; `deploy.sh` in `Desktop\landing-page\`. 2026-10-07: 21 people, 5 paid (NGN 25,000). Traffic tracking live 2026-10-08 (Sheet tab *Traffic*). [[04-Projects/called-to-edit-landing-page-build|build note]].
+- **Webinar videos:** [[03-Areas/personal-brand/webinar-video-list-2026-10|video list]]; 15 cards in the Notion calendar (2026-10-08). Intro video plan waits on his answers ([[03-Areas/personal-brand/intro-story-video-2026-10-05|intro video plan]]).
 - **October personal-client job:** NGN 100,000, kickoff block 2026-10-26 ([[04-Projects/personal-client-project-2026-10|project]]).
-- **Scripnals:** guide library sent to the devs 2026-09-22; they test from their end.
-- **Content:** Life of a Video Editor Ep 3 out 2026-09-24; Ep 4–6 outlined.
-- **Webinar videos** (2026-10-05): list in [[03-Areas/personal-brand/webinar-video-list-2026-10|video list]]; today's intro/story video planned in [[03-Areas/personal-brand/intro-story-video-2026-10-05|intro video plan]], waiting on his answers. TickTick list **Webinar videos** still to create (TickTick tools not loaded in the Gemini session).
+- **Finance:** October running; last ledger entry 2026-10-08. First Sunday money check on the new account fires Sun 2026-10-11, 3:00pm.
+- **Scripnals:** guide library with the devs since 2026-09-22; they test from their end.
 
 ## Waiting on Samuel
 
-0. **Max plan live 2026-10-06** (new account, usage card reads Max). Done: Sunday task recreated, Pro lines rewritten, plan-move question closed. Left: TickTick + Google Calendar connectors, then swap their IDs in `.claude/settings*.json`, GitHub App, rebuild both routines and switch the old ones off, skill zips, `claude auth login`. Checklist: [[00-System/account-migration-max|the runbook]] → Status.
-1. Three deletions the auto-mode classifier blocked for Claude on 2026-09-28: the empty `03-Areas/community/log.md`, the superseded `03-Areas/scripnals/assets/scripnals-script-buddy-ai-workflow-v1.pdf`, and the finished `03-Areas/video-editing/scripts/cache-queue-7m-founder.json`. Plus two merged cloud branches on GitHub.
+1. **Switch off the old routines** on the old Claude account. The duplicate night check on 2026-10-09 fits them still firing. Rest of the Max move (skill zips, chat memory, `claude auth login`): [[00-System/account-migration-max|runbook]] → Status.
 2. The credential-named file on the Desktop (`HighSignals App/highsignals-project-…json`): move it to a secret store or revoke it ([[00-System/security-flags|security flags]]).
-3. **Gemini sign-ins** (2026-10-02): TickTick and Notion authenticated. Computer use (Windows MCP) and Claude Code CLI installed. Gmail, Calendar, and Drive will be accessed via Chrome using computer-use (no OAuth setup needed) ([[00-System/relay|relay]] → What each AI can reach).
-4. His principles (the one `02-Me` gap).
-5. Moving the `Talking heads and  B-rolls` folder into the B-roll archive (old Resolve projects may link to it).
+3. His principles (the one `02-Me` gap).
+4. Moving the `Talking heads and  B-rolls` folder into the B-roll archive (old Resolve projects may link to it).
+5. Two merged cloud branches on GitHub to delete.
 
 ## Loose ends
 
 1. **Phone sync through Obsidian was never set up.** Decided (GitHub as the spine, Obsidian Git on Android, token in the plugin only), not installed. Cloud sessions cover the phone for now.
 2. **Video-editing project memory files not distilled** (Samuel: skip for now): `technical-learnings.md`, `taking-a-step-back-from-claude.md`, `cold-outreach-video.md`. Check overlap before spending tokens.
 3. **~200 conversations dropped at triage.** Full list: `01-Inbox/_imports/processed/triage.csv`.
-4. **Gemini (Antigravity app and CLI) is an equal primary** since 2026-10-02 (Samuel): same rules, guard rails (`.agents/hooks.json` → `agy_guard.py`), skills and agents; `/pick-up` and `/hand-back` either way ([[00-System/relay|relay]]). The old Gemini CLI npm copy can be removed.
+4. The old Gemini CLI npm copy can be removed (Antigravity `agy` replaced it).
+5. **Gemini writes files in Windows-1252 sometimes.** One relay-log line on 2026-10-02 broke UTF-8; repaired 2026-10-10. Any AI writing a Brain file writes UTF-8.
 
 ## Facts every session needs
 
-- Brain: `C:\Users\repzy\Desktop\My Second brain`, outside OneDrive and Dropbox. Remote `https://github.com/SamuelAde001/second-brain` (private, `main`). Git identity: Samuel <repzysam@gmail.com>. 282 notes, 244 commits on 2026-09-28.
+- Brain: `C:\Users\repzy\Desktop\My Second brain`, outside OneDrive and Dropbox. Remote `https://github.com/SamuelAde001/second-brain` (private, `main`). Git identity: Samuel <repzysam@gmail.com>. 388 notes, 530 commits on 2026-10-10.
 - `.claude/settings.json` allows git and all PowerShell (deleting, process/system, scheduled-task, install and history-rewriting commands still ask) and denies reads of secrets. Push as a bare `git push` right after each commit.
 - **It is "the Brain", never "the vault."** Filenames unique and readable; an area opens at `03-Areas/<area>/<area>.md`; wikilinks use the full path plus an alias.
 - **Limits are shared between Claude chat and Claude Code.** Checkpoint here before any long batch.
 - **Tone:** direct and blunt, no flattery, never congratulate him for planning. Don't raise his Air Force background unless he does ([[02-Me/how-to-work-with-me|how to work with me]]).
 - **Sources are read-only.** `01-Inbox/_imports/` is gitignored and holds the only copy of the Claude export. **Never rewrite history.**
-- **2026-10-05:** Webinar date changed to Friday 23 October across Brain notes and landing page. Waiting on Samuel to run `deploy.sh` for the landing page due to Netlify auth.
+- **Finished work moves to `08-Archive/`** (projects → `08-Archive/projects/`), with links rewritten. Answered open questions move to [[00-System/open-questions-answered|answered questions]].

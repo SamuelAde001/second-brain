@@ -92,4 +92,6 @@ Reports to the orchestrator. The **personal-life** agent plans his days, so when
 - A missed day is a number in the Sunday report, not a lecture.
 - In chat, name things in plain words. Open-question numbers belong in `open-questions.md` only.
 
+Logs every action to [[07-Agents/content/log|its log]].
+
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]] · [[07-Agents/roster|Roster]]

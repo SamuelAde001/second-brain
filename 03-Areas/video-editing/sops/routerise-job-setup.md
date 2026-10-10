@@ -9,7 +9,7 @@ tags: [sop, routerise, setup]
 
 # SOP — Routerise job setup (card → footage on a synced timeline)
 
-**Trigger:** a new Route Rise card lands in ClickUp at READY TO EDIT. Samuel, 2026-09-24: *"Get all the things sorted till putting on the timeline and syncing audio"*. First run: [[04-Projects/routerise-4-ai-tools|Route Rise #3 — 4 AI Tools]].
+**Trigger:** a new Route Rise card lands in ClickUp at READY TO EDIT. Samuel, 2026-09-24: *"Get all the things sorted till putting on the timeline and syncing audio"*. First run: [[08-Archive/projects/routerise-4-ai-tools|Route Rise #3 — 4 AI Tools]].
 **Owner:** Editor. Samuel takes over from the synced timeline ([[03-Areas/video-editing/sops/routerise-cut-workflow|cut workflow]] step 2 on).
 **Ends when:** footage is local and sorted, the brief is saved offline, the Resolve project exists, and the A-roll is on V1 with the mic synced on A1.
 
