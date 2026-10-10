@@ -25,7 +25,7 @@ A pot with no account is a pot that cannot be funded on payday.
 | Goal 1 — house | **Cowrywise**, plan created 2026-09-02 | B |
 | Goal 2 — marriage | **not set** — starts Jan 2027 | B |
 | Emergency fund | the "Emergency" account — starts Jan 2027 | B |
-| Webinar money (not a pot) | Flutterwave settles Called to Edit signups to his bank; he moves it to a **separate account** (nickname not given). As of 2026-10-10, his words: NGN 29,340 in that account, NGN 24,462 in Flutterwave not yet settled. Not personal money; not in the ledger | — |
+| Webinar money (not a pot) | Flutterwave settles Called to Edit signups to his bank; he moves it to a **separate account** (nickname not given). As of 2026-10-10, his words: NGN 29,340 in that account, NGN 24,462 in Flutterwave not yet settled. Not personal money; not in the ledger. Owes: the graphic designer's NGN 30,000 balance, and NGN 30,000 back to Samuel for the advance he paid from his own cash, after the webinar (his words, 2026-10-10) | — |
 
 ## ⚠️ Two name collisions, both deliberate, both dangerous by December
 
