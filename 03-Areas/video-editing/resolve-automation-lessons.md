@@ -316,3 +316,15 @@ Bordered card = larger light RectangleMask→Background behind a smaller dark Re
 - **`sync_plan` skips every clip ending at or before frame 2495** (the old hook boundary), so an op a builder drops from an intro manifest stays on the timeline. After any intro change, delete dropped ops by hand (`kits\inst\del_stale.py <track> <start> "<timeline>" …`, no ripple).
 - **Walking every comp's tool list on a ~400-op timeline crashed Resolve twice** (`verify_adj.py`, then `identity.py` on the MagicZoom final). Run the walks on the pre-MagicZoom timeline only; `round_install.py` skips verify_adj with `SKIP_VERIFY_ADJ=1`.
 - **Sharing Resolve with Samuel:** `kits\inst\resolve_block.py <steps.json> <log>` saves his project and its folder path, loads B2B, runs the steps, saves, and reopens his project on its timeline (used twice on 2026-10-09; a crash mid-block still ended with his project back).
+
+## 2026-10-10 — Editing a cached timeline in place, and the hangs
+
+- **Render cache is per timeline item** (the cache folder is the item's `GetUniqueId()`), so a duplicated or .drt-imported timeline re-caches everything. To keep Samuel's cache, edit the cached timeline itself and touch only the items that change.
+- **`TimelineItem.ImportFusionComp` replaces an existing adjustment clip's comp in place** (count stays 1). An export → import round trip keeps Loaders and macro links. A **fresh** adjustment clip refuses it, even after `AddFusionComp`.
+- **`InsertGeneratorIntoTimeline("Adjustment Clip")` rippled V1 again** with every other track locked (dry-run timeline, undone with a ripple delete). Never on a real timeline.
+- **Pasted comps were not written into a .drt export** (`<CompositionBA/>` empty, `ActiveCompositionIdx -1`) on a staging timeline. `ExportFusionComp` reads the live comp instead. `kits\instdjconv.py` swaps a staged base-clip comp's inputs for the host adjustment clip's own `MediaIn1` block. `kits\inst\inplace.py` does it all: paste on a standing staging timeline, export, convert, back up the host's comp, import.
+- **Hangs (4 on 2026-10-10): Resolve stops responding, no CPU, GPU fine, no driver reset.** Two causes:
+  1. Background render caching (Smart cache, on since 2026-10-09) plus a script switching page or timeline. Fix: `resolve.DisableBackgroundTasksForCurrentResolveSession()` first thing each session. It lasts only for that session; restart Resolve afterwards so caching runs.
+  2. A big `.setting` pasted into an unlocked comp: Fusion renders it half-wired. Fix: `comp.Lock()` before the paste, `Unlock()` after the links are wired.
+- **After a forced kill, `LoadProject` returns False** until the project is opened once from the Project Manager (double-click). `exec` is blocked in the `run_script` sandbox.
+- **The .drt reader picked `MpFolder.xml` on a small timeline** (it took the biggest file); `drt_inject.Drt` now prefers `SeqContainer\`.
