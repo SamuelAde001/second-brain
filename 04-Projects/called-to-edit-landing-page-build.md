@@ -129,3 +129,23 @@ Samuel, 2026-10-08: *"I want to be able to track the traffic coming to the landi
 - **Limits, said on the tab:** visits from 6 Oct 11:41 to 7 Oct 14:26 are missing (the `sid` bug). People, reading and time count from 8 Oct. Time is known only for visits where the person left or switched app. Samuel's own visits count unless he opens the page once with `?test=1` on each of his phones.
 - `check-sheet.js` now also posts a reach and a leave (as tests) and blocks a publish unless all three get 302. Backups of the changed files: `Desktop\landing-page\old\pre-traffic-2026-10-08\`.
 - **Checked:** locally at 375 px, scrolling top to bottom sent all 7 parts and a leave; live page serves the new code; the Traffic tab fills (first real visits after setup landed). Not available: heatmaps or screen recordings of visits (Microsoft Clarity would add those; it needs Samuel's own sign-up).
+
+## 2026-10-10 — Conversion pass (Brand manager)
+
+Samuel, 2026-10-10: *"People are visiting my website but aren't signing up"* · *"the FAQ should be around what they get from the webinar, the questions I am being asked is, what do we get to learn? Some people think I am just going to teach them video editing as a skill meanwhile they need to know this is for people who want to make a living editing videos"* · *"don't break anything"*.
+
+**The numbers (Sheet, read 2026-10-10 ~08:00 WAT):** 11 paid, NGN 55,000 in. Since 6 Oct: 107 opened, 25 tapped Get my seat, 17 filled the form, 7 paid. Traffic tab, since 8 Oct (76 visits): 95% on a phone, typical time on page 0:44, 15% leave within 10 s; **36% never scroll past the hero** (27 of 76 lost there, the biggest leak); 55% reach the roadmap, 39% the price, 38% the form; 13 filled the form, 5 paid (8 lost between form and payment). Busiest hours 9–10pm WAT.
+
+**What the page said that fed the confusion:** the hero promised "the full path from your first lesson"; the first pain card was "How do I learn video editing?"; "for you if" opened with "You want to start video editing". All read as an editing course.
+
+**Changed (only `site/index.html`; page script, form, tracking and `funnel.js` untouched; backup in `Desktop\landing-page\old\pre-conversion-2026-10-10\`):**
+- Hero: label *Live webinar · Not an editing tutorial*; headline *Make a living as a video editor.*; sub names what's covered (niche, portfolio, clients, pricing); *Replay included* added to the facts. Phone hero tightened so the button still shows at 360×740.
+- Stuck: "How do I learn video editing?" → "Where do I start, and which niche do I pick?"
+- For you: heading *…if you want to edit for a living*; new **It isn't / It is** pair (not a tutorial; the path to earning from editing, his words of 2026-09-30).
+- Roadmap: intro says it's the business of editing; added items from his own topic list: which platform suits your editing, Loom outreach, networking.
+- Price card: *10+ editors have already booked* (11 paid on 2026-10-10; stays true as it grows).
+- FAQ, now *Questions people ask*, opens on **What exactly will I learn?** (the three phases in plain words), then **Is this a video editing tutorial?** (No), beginner, already-editing, laptop/Resolve, then the old replay / join / pay / refund / after answers.
+- Title and description now *Make a living as a video editor*.
+- **Checked** on a local copy with the Sheet and Flutterwave links blanked: 320, 360, 375 and 1920 px, no sideways scroll, all 7 tracked sections still present, no console errors.
+- **Not yet published:** waiting on Samuel's yes to `deploy.sh` (it runs `check-sheet.js` first).
+- Not touched, for later: the 8 of 13 lost between form and payment (reminder emails already chase them); his own wording on the headline if he wants it different.
