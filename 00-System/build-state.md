@@ -28,7 +28,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 - **Called to Edit landing page:** live at calledtoedit.netlify.app; `deploy.sh` in `Desktop\landing-page\`. 2026-10-07: 21 people, 5 paid (NGN 25,000). Traffic tracking live 2026-10-08 (Sheet tab *Traffic*). [[04-Projects/called-to-edit-landing-page-build|build note]].
 - **Webinar videos:** [[03-Areas/personal-brand/webinar-video-list-2026-10|video list]]; 15 cards in the Notion calendar (2026-10-08). Intro video plan waits on his answers ([[03-Areas/personal-brand/intro-story-video-2026-10-05|intro video plan]]).
 - **October personal-client job:** NGN 100,000, kickoff block 2026-10-26 ([[04-Projects/personal-client-project-2026-10|project]]).
-- **Finance:** October running; last ledger entry 2026-10-08. First Sunday money check on the new account fires Sun 2026-10-11, 3:00pm.
+- **Finance:** October running; Sunday check done 2026-10-11 (bank NGN 16,000, his words). **Mon 2026-10-12, not yet logged:** 25,000 of his advance back from webinar money, GF gas 25,000, own gas ~4,000. Confirm with him and log (finance log 2026-10-11). Payday B ~Wed 2026-10-14.
 - **Scripnals:** guide library with the devs since 2026-09-22; they test from their end.
 
 ## Waiting on Samuel
