@@ -163,6 +163,15 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-10 | major | 30,000 | Graphic designer, advance on NGN 60,000 | Graphic designer | his words: "My Graphics designer is charging me 60k, most of that money would hopefully come from the signups, but I gave him 30k advance from my cash on hand"; NGN 30,000 still owed; logged 2026-10-10, day assumed |
 | 2026-10-10 | bulk | 6,315 | TikTok ads | Webinar ads | his words: "Tiktok Ads 6315"; booked to Webinar ads; logged 2026-10-10, day assumed |
 | 2026-10-10 | balance | 77,709 | Bank | — | his words: "I have 77,709 sitted in my account right now"; rows added up to 74,059, the +3,650 is not explained; Flutterwave webinar money passed through and was moved to a separate account (not personal money, not logged here); no screenshot |
+| 2026-10-10 | major | 30,000 | Instagram ads | Webinar ads | his words: "30k sent for instagram Ads" (said 2026-10-11); from his own bank, per plan line A 36,315 |
+| 2026-10-10 | bulk | 3,000 | Haircut | Personal / misc | his words: "3k for haircut" (said 2026-10-11) |
+| 2026-10-10 | bulk | 4,000 | Eating out | Eating out | his words: "4k on eating out" (said 2026-10-11) |
+| 2026-10-11 | bulk | 5,000 | Cash withdrawn for transport | Transport | his words: "5k withdrewn for transport"; counted as spent when withdrawn |
+| 2026-10-11 | bulk | 4,000 | Giving, someone in need at church | Giving | his words: "4k giving to someone in need at the church" |
+| 2026-10-11 | bulk | 5,000 | Girlfriend, food | Girlfriend extras | his words: "5k sent to GF for food"; booked to Girlfriend extras, not the allowance |
+| 2026-10-11 | bulk | 10,400 | Eating out | Eating out | his words: "10,400 eating out" |
+| 2026-10-11 | bulk | 309 | Minor spends 2026-10-10 to 2026-10-11 | Other | derived; rows give 16,309, he said "16k", likely rounding |
+| 2026-10-11 | balance | 16,000 | Bank | — | his words: "I have presenlty 16k in my bank account now"; Sunday check; no screenshot. Webinar money not counted: 29,340 separate account + 48,925 Flutterwave unsettled (his words) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
