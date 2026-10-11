@@ -131,3 +131,7 @@ Back to [[07-Agents/content/profile|Profile]]
 - In the in-app browser, `scrollTo` doesn't move the landing page (the scroll engine takes over) and IntersectionObserver only fires on real wheel scrolls with screenshots between them.
 - **Correction, same day:** schema edits on the Notion calendar wiped a *different* select column (Post Type lost every value; caught only later). Before any `update-data-source` statement, snapshot every column (`SELECT *` grouped counts), and re-check all columns after. `SET SELECT` maps options by name case-insensitively ("Called to create" kept its cards as "Called to Create").
 - Notion pages can't be deleted through the connector. To clear cards, move them under one page (`notion-move-pages`) and have Samuel delete that page.
+
+## 2026-10-11 — His taste on the landing page
+- Samuel rejected the 10-10 additions (It isn't / It is cards with coloured side borders and icons, a boxed label pill, an FAQ answer with bold-led bullet lists): *"to wordy and the design looks AI"*. New sections must reuse the page's existing components (fit items, gold-span headlines, short FAQ answers), not invent new card styles. Fewer words beats more explanation.
+- Netlify injects a "Powered by Netlify" badge (`#nl-badge-frame`, bottom-right) into published pages; it covers the sticky pay button on phones. The page hides it in CSS.
