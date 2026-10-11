@@ -46,3 +46,5 @@ Drive IDs for `drive_download.py` / Drive export:
 
 **2026-10-10 (PA):** Samuel: *"I have not started"*. The schedule above is dead; its TickTick blocks were abandoned. Card still due Mon 2026-10-12 1:30am WAT. New plan not set.
 **2026-10-10 (PA):** Samuel: *"They know about the linkeding video, I would start that on Monday"*. Start Mon 2026-10-12. New delivery date not recorded.
+
+**2026-10-11 (PA):** Samuel: due **Fri 2026-10-16**. Edit block 1 Mon 10-12 7:00am–1:00pm in TickTick.
