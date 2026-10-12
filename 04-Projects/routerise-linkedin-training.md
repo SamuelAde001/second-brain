@@ -71,3 +71,10 @@ Samuel, 2026-10-12: *"Download the video, cut it up and all the things we do in 
 - **Cut v5 (Editor) - sections:** clip colours + 12 duration markers: Hook Yellow · Post 1 product demo Blue · Post 2 guide Green · Post 3 tool post Purple · Mid-video CTA Pink · Post 4 shift post Teal · Post 5 "my team didn't want me to give this away" Navy (starts inside a clip at "Now, this next post", frame 12337) · Post 6 low-likes / best sign-up day Tan · Rule 1 Lime · Rule 2 Brown · Rule 3 Olive · Outro and CTA Violet. Stray lip-sync markers removed from the cut timelines (kept on the raw).
 - **Transcript:** `Docs\Transcript - Cut v5 sections (2026-10-12).docx` (`li_sections.py` → `transcript_docx.py`), names and terms fixed against the script, red notes for the judgement calls.
 - **Phase 1 done 2026-10-12 ~08:30. Next: Samuel revises the cut on *Cut v5*; then the visual plan.**
+
+## Samuel's cut revision, 2026-10-12
+
+Samuel: *"I just did final touches on the cut and cleaned up the timeline, added color corrections"*. He worked on *Cut v5 (Editor) - sections* itself: **14:35 (20,992 f), 233 clips**, markers removed, grade added (not to be touched). Diff against Cut v4 (`li_diff.py`, camera source frames): he removed **1,563 f (65 s) in 178 spans** and extended two spots (8 f).
+- **81 head trims** (696 f, median 7 f), **39 tail trims** (416 f, median 5 f), **57 cuts inside clips** (434 f, median 6 f: breaths and short pauses), **1 whole clip** ("In one month.", 17 f).
+- Content cuts: *"and add to your newsletter"* + *"never"* at the 190/191 join (66 f), the garbled *"and the posts people ask for look a lot"* (50 f), a 64 f false start before "First, the opening line is exactly what I built" (the finder had skipped that head as loud), 41–43 f spans at Cut v4 5043 and 9940.
+- None of the Editor's 82 retake cuts or 61 trims was restored.
