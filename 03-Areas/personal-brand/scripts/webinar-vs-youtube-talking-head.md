@@ -11,7 +11,7 @@ tags: [script, talking-head, called-to-edit, webinar, objection]
 
 A webinar video answering a question someone asked Samuel: *"What can I learn from the webinar that I can't already learn from Youtube"*. Samuel, 2026-10-12: answer it in *"a simple talking head, empasizing on how most people just learn skills at random without a proper pathway to building an actual career"*. Every point below is from his message that day; the "80 to 100 videos, no course" and "2% / 98%" lines are his words from 2026-10-07 ([[03-Areas/personal-brand/scripts/why-im-teaching-talking-head|why I'm teaching]]). List: [[03-Areas/personal-brand/webinar-video-list-2026-10|webinar video list]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
-**Status: draft 1.** Wording tightened by the Brand manager for him to say his own way.
+**Status: draft 1.** Wording tightened by the Brand manager for him to say his own way. In Notion: card *What can I learn from the webinar that I can’t already learn from Youtube* (Series Called to Edit Webinar), filled 2026-10-12.
 
 ## Hook options
 
