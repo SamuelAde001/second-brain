@@ -269,3 +269,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: Goal 1's Payday A share (NGN 31,559) is not moved; it pays the Instagram webinar ads (NGN 30,000) now. The ads' Payday B money goes to Goal 1 B, so Goal 1 in October is NGN 169,752, all on Payday B, down NGN 114,901 from the NGN 284,653 start. The girlfriend community fee (NGN 33,000) is cancelled and a graphic designer line (NGN 60,000) added the same day.
 **Why**: Samuel, 2026-10-10: *"I said I won't send Goal 1's money from payday A anymore, I need to run Ads"*. Objection, once: Rule 3 (savings move on the payday) broke on 2026-10-06, this is the fourth cut to October's Goal 1, and the NGN 1,000,000 by 2026-12-31 now leans on a Payday B that came in late and short last time. Samuel proceeded.
 **Who decided**: Samuel.
+
+## 2026-10-12 — Session size is enforced: compact at 200k, context guard hook
+
+**Decision**: Claude Code sessions in the Brain compact at 200k tokens (`autoCompactWindow: 200000`, project settings) instead of ~967k. A PostToolUse hook, `00-System/scripts/context_guard.py`, asks the main session to write the job's RESUME block and commit at 160k, tells helper agents to wrap up at 150k and return a hand-over at 185k. CLAUDE.md carries the compact instructions. Rule: [[00-System/model-routing|model routing]] → Session size is enforced.
+**Why**: a token audit of the video jobs (2026-10-12) found the AI B2B video cost ~569M cost units, about 120 % of a Max week. 79 % of it was cache re-reads from sessions at 700k-965k context and long-lived helper agents. The 2026-10-02 "fresh session past 100k" rule depended on someone noticing and was never acted on. Samuel, 2026-10-12: *"First we need to fix oversized sessions as it looks like that is what costs the most"* and *"We need to break sessions, or make them compact after a certain limit"*.
+**Who decided**: Samuel (the limit); General Manager (200k and the hook thresholds).

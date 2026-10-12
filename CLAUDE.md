@@ -29,5 +29,11 @@ Listed neutrally in `00-System/portability.md` → Integrations. In Claude Code 
 - Gemini (Antigravity app and CLI, `agy`) is an equal primary: when Claude's limits run out, or whenever Samuel would rather use it, he works there instead. It also takes reading-heavy jobs through `00-System/scripts/ask_gemini.py`. Protocol: `00-System/relay.md`.
 - **Never set `ANTHROPIC_API_KEY` system-wide.** If it is set, Claude Code silently bills the API instead of the Max subscription.
 
+## Session size
+Canonical rule: `00-System/model-routing.md` → Session size is enforced. The session compacts at 200k (`autoCompactWindow` in `.claude/settings.json`), and `00-System/scripts/context_guard.py` (PostToolUse hook) asks for a checkpoint at 160k and makes helper agents return by 185k.
+
+## Compact instructions
+When compacting, keep: the working agent's name; the job and its Brain note path; the step in progress and the next step; Samuel's latest instructions word for word; open decisions and questions waiting on him; files, Resolve timelines and folders touched this session; the latest usage-card reading. Drop tool output, image contents and resolved back-and-forth. (Same list in model-routing.md.)
+
 ## Claude Code's private memory
 Not used for Brain facts (AGENTS.md §11 rule 2). If anything lands there, move it into the Brain.
