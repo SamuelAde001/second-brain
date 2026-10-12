@@ -48,3 +48,14 @@ Drive IDs for `drive_download.py` / Drive export:
 **2026-10-10 (PA):** Samuel: *"They know about the linkeding video, I would start that on Monday"*. Start Mon 2026-10-12. New delivery date not recorded.
 
 **2026-10-11 (PA):** Samuel: due **Fri 2026-10-16**. Edit block 1 Mon 10-12 7:00am–1:00pm in TickTick.
+
+## Phase 1 run, 2026-10-12 (Editor)
+
+Samuel, 2026-10-12: *"Download the video, cut it up and all the things we do in phase 1 before I revise the cuts"*. Script link he gave: the ClickUp doc *Alex Vacca Scripts → 3. The Most Valuable B2B LinkedIn Training You'll Ever Watch* (last updated 2026-09-29). Phase 1 = the B2B run's steps 1-8: setup, sync, ripple silence, noise clips, retakes, uhms, raw-vs-cut check, sections + transcript. Then stop for his revision.
+
+- **Job folder:** `Desktop\Video edits\Routerise\3. The Most Valuable B2B LinkedIn Training You'll Ever Watch\` (straight apostrophe on purpose: the curly one breaks the MCP transport). Subfolders per the setup SOP plus `Conformed audio\`.
+- **Two scripts exist.** ClickUp (1,183 words: *"I've posted thousands of times… six of them made me the most money"*, four patterns) and the Google Doc "Script" in the Drive folder (2,764 words: *"I've posted on LinkedIn more than 700 times… 70,000 followers… 33 sales calls"*). Both saved in `Docs\`. Which one Alex read is settled from the footage.
+- **Drive folder unchanged since 2026-09-29:** C0791.MP4 + MIC024 (30:00) + MIC025 (1:45) + the Script doc. No Tella / screen-share doc.
+- **Mics conformed** to 23.976-grid lossless copies in `Conformed audio\` (audio MD5s match the raws).
+- **Resolve project** created in folder *Routerise*, same name as the job folder: 1080p, 23.976, YRGB, cache `C:\Users\repzy\Videos\CacheClip`. Samuel declined screen control for the power-bin drag, so the 13 bins were made by script with the power bin's names. An older project *Linkedin project* in the same folder holds unrelated thumbnail/promo clips; untouched.
+- C: had 40 GB free before the 15 GB camera download.
