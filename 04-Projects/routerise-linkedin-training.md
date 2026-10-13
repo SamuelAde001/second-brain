@@ -97,3 +97,12 @@ Samuel asked whether the visuals can be done at the B2B quality bar before his w
 - **Density:** *"Density remains the same"*. ~150-160 comps for 14:35, as in B2B.
 
 **Samuel, 2026-10-13 (Editor):** *"I got the max plan mainly for you to work better in my video editing. So I am not bothered about token usage as long as you give me the best results. Just that from what we learned, we are wasting tokens on repeating things that was already taught, and long sessions."* Quality comes first. The lean plan above now only cuts waste: no re-studying what is already written down, and no oversized sessions. Reviewer agents are back wherever they catch what scripts can't, and the 92 % stop no longer applies; the weekly cap itself still applies (resets Wed 2026-10-14 23:00 WAT, delivery Fri 2026-10-16).
+
+## RESUME HERE — unattended run, 2026-10-13 (Editor)
+
+Samuel, 2026-10-13: run the visuals start to finish while he's away, reviews in versions ([[03-Areas/video-editing/sops/unattended-run|unattended-run SOP]]); use the weekly cap up to ~99 % before the reset (Wed 2026-10-14 22:59 WAT), then carry on after it; quality first, reviewer agents allowed. Intro: build from his suggested visuals if they arrive, otherwise ideate it. Permissions: restart Resolve (script), screen control on Resolve unless he says he needs the PC.
+
+- **Done:** phase 1; his cut revision (14:35); token audit; session-size fix.
+- **Next:** step 1 of the SOP (read), then the visual plan against his 14:35 cut at B2B density (~150-160 comps), the intro, build waves, install on *Visuals v1 (Editor)*.
+- **Resolve:** at 09:10 another session was rendering B2B 4K chunks 09-10, then the join. Don't touch Resolve until `Final render 4K 2026-10-13 (Editor)\RESUME NOTE.md` says it's joined. Plan and build outside Resolve meanwhile.
+- **Usage at 09:10 WAT:** weekly 81 %, 5-hour 3 %.
