@@ -20,3 +20,10 @@ Append-only. Date, decision, why, alternatives rejected, who decided.
 - **2026-09-29 — No more editing clients, and no more Route Rise hours. 5 videos a month only through AI speed.** Samuel: *"I don't want more Route rise videos, it burns me out"* · *"NOPE, I don't want any more Video editing clients, It affects me mentally"* · *"I can try to speed up my editing efficiency with AI to get me to 5 videos per month"*. The target is 5 Route Rise videos in a month without more hours than 4 take now; the watch line is no day over 12h logged focus ([[02-Me/patterns|P2]]). A second payer is not to be raised again. The freed hours go to the [[04-Projects/called-to-edit-webinar-and-academy|webinar and live class]]. Rejected: more Route Rise volume by working longer, a second USD payer. **Who:** Samuel.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]
+
+## 2026-10-13 — Video jobs run start to finish unattended, reviewed in versions
+
+- **Decision:** the Editor runs a whole job in one unattended session (overnight), with no approval gates between steps, and Samuel reviews finished versions. Samuel: *"I want to do it all at once and have reviews in versions"*.
+- **Why:** he doesn't want to sit at the PC through every step.
+- **Editor's objection (once):** dropping the plan and sample gates means a wrong visual direction is found only in the morning, after the whole build. B2B *Visuals v1* was rejected whole that way. The mitigation is self-review against the edit grammar and his three finals before the version is called done.
+- **Who:** Samuel.
