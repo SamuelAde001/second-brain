@@ -356,3 +356,9 @@ Real LinkedIn pixels for the LinkedIn Training job. Kit: the job's `Docs\Editor 
 - **LinkedIn search doesn't index a creator's older posts** (his 1-year-old OpenAI post only turned up as someone else's copy). Reach deep posts by loading the activity page in one pass, capture, then close the tab. It froze at ~540 posts this time.
 - **Measure only when the layout is still.** A capture taken just after more posts load can stitch about 20 px off. Measure twice, 1.5 s apart, and capture only when the two match.
 - **Run `li_cap.py run '<json>'` from Bash with `C:/` paths.** Windows PowerShell 5.1 strips the double quotes from a JSON argument, and Git Bash turns `/c/...` into a wrong path.
+
+## 2026-10-13 — Visuals v1 intro install: four Fusion traps
+- **numpy values break a `.setting` silently.** Under numpy 2, `f"{x}"` on a numpy scalar writes `np.float64(0.107)`. Fusion can't read it and the input falls back to its default: masks sit mid-frame, and parse_check and lint passed anyway. Cast with `float()` before writing. `v3kit.parse_check()` now flags any `np.xxx(` ("NUMPY").
+- **A macro's combo that switches modes through an on-change script does nothing in a `.setting`.** Neo Highlighter Pro's `HighlighterAM` sets the inner merge `NHAM` (Multiply/Lighten) only through `INPS_ExecuteOnChange`, which runs in the UI. Written into a `.setting`, `NHAM` stays Multiply, and over a clear canvas the stroke draws a black bar. Set the inner tool's input itself: `NHAM_<suffix>.ApplyMode = FuID { "Normal" }` on a clear canvas.
+- **A Loader reads a filename ending in digits as one frame of a sequence.** `thumb_01.png` loaded empty. Name stills so they end in letters (`thumb_01_c.png`). Media-pool stills behave the same way (`H02_plate_104.png` = frame 104).
+- **`stills()` can grab a stale frame on the first jump into a heavy comp.** Take every check still twice and use the second. Never probe a comp tool with `Output.GetValue`: it crashed Resolve once.
