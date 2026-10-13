@@ -1,6 +1,6 @@
 {
   "model": "claude-opus-5-5",
-  "autoCompactWindow": 200000,
+  "autoCompactWindow": 500000,
   "permissions": {
     "allow": [
       "Bash(git add:*)",

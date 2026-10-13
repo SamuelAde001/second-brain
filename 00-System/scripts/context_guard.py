@@ -16,9 +16,9 @@ import os
 import sys
 import tempfile
 
-MAIN_CHECKPOINT = 160_000   # auto-compact runs at 200k (settings.json)
+MAIN_CHECKPOINT = 460_000   # auto-compact runs at 500k (settings.json)
 SUB_WRAP = 150_000
-SUB_STOP = 185_000   # below 200k, in case helpers auto-compact there too
+SUB_STOP = 185_000   # helpers stay small: cost, not the compact window
 TAIL_BYTES = 3_000_000
 
 
@@ -101,13 +101,13 @@ def main():
         if not fired(data.get("session_id", "x"), "checkpoint", ctx):
             return
         k = ctx // 1000
-        msg = (f"Context guard: this session is at {k}k tokens; auto-compact runs at 200k. "
+        msg = (f"Context guard: this session is at {k}k tokens; auto-compact runs at 500k. "
                "Before the next big step: write the job's RESUME block (done, next step, open "
                "decisions, Samuel's latest words) into the job note, commit, and tell Samuel the "
                "session is about to compact. If the current step is finished, end the session "
                "instead (build-state, commit, push) and name the next step for a fresh session.")
         out = {"hookSpecificOutput": {"hookEventName": "PostToolUse", "additionalContext": msg},
-               "systemMessage": f"Context at {k}k: checkpointing before auto-compact at 200k."}
+               "systemMessage": f"Context at {k}k: checkpointing before auto-compact at 500k."}
     print(json.dumps(out))
 
 
