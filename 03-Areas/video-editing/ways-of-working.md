@@ -206,6 +206,24 @@ He asked for each of these once and said to repeat a correction everywhere it ap
 - **Highlights:** light the whole message when the whole message matters; move the highlight to the list as soon as it's said; zoom in far enough to read; don't move a highlight away when it should just be held.
 - **One timeline.** He caches the whole video before his review. Work in place on that timeline (only touched clips re-cache) instead of duplicating it. How: [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] (2026-10-10).
 
+## His own fixes on the B2B final — study, 2026-10-13
+
+What Samuel changed himself after the Editor handed the B2B video over (frame diff of the three finals; write-up and stills in the B2B job's `Docs\Samuel own changes study (2026-10-13)\`). Samuel, 2026-10-13: *"Anything I corrected in the last video or in the last previous videos, I should not repeat myself."*
+
+- **Nothing sits still.** A-roll, B-roll and screens all get a slow push from the centre, about 6–12 % over 2–4 s (472–560: 1.00 → 1.06; 625–687: 1.03 → 1.12). The hook pushed in on the whole composite, card and A-roll together, to about 1.11 in under a second, then held.
+- **Web pages and screen captures fill the frame**: scaled up, browser bars cropped away, still pushing (560–621: 1.07 → 1.10).
+- **No source or citation line on a stat card.** He removed "6sense · 2025 Buyer Experience Report" from the 8-out-of-10 card.
+- **Never blur what is being said or highlighted.** He removed a blur that sat on the very header and rows the highlight pointed at (2901–2998).
+- **Hide a person with a pixel mosaic, not a soft blur** (the prospect's webcam face, 2901–2998).
+- **Twin cards share one layout.** He moved one card's header to the same inset as its twin's (7737–8000).
+- His 4K delivery came out 3.8 dB louder than the 1080p one; confirm the loudness target with him before the next final.
+
+## Real posts, full-screen UI — Samuel, 2026-10-13 (LinkedIn Training brief)
+
+- *"Every LinkedIn post reference that he's talking about, we need the real LinkedIn post ... you should not just make up things. Go to his LinkedIn page and find the actual post."* Made-up content only where no real reference exists, and then it must look exactly like the real UI, *"every detail down to the dot ... so that it feels like I just screen recorded the LinkedIn page."*
+- *"Make sure you don't show chrome tabs or the windows UI in the visuals, it must all be fullscreen of the UI visuals."* Captures are the page viewport only.
+- How the real captures are made (his logged-in Chrome, PrintWindow at device pixels, stitched scrolls): [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] → LinkedIn captures, 2026-10-13.
+
 ## The intro is Samuel's — 2026-09-25
 
 *"Every intro is Samuel."* Visual ideas for the intro still go on the cut sheet, as inspiration for him. **Nothing is placed on the timeline before the intro ends.** Visuals start on the first sentence after it.
