@@ -26,7 +26,9 @@ Each pass ends on a **new timeline, `<Visuals vN> (Editor)`**, made from a backu
 1. Read the job note, the [[03-Areas/video-editing/edit-grammar/edit-grammar|edit grammar]], [[03-Areas/video-editing/routerise-house-style|house style]] §11b, [[03-Areas/video-editing/ways-of-working|ways of working]] → Revision rules. Do not re-study past videos.
 2. **Visual plan** against the cut, at the density in the job note.
 3. **Intro:** build it from Samuel's suggested visuals if they are in the job note or `Docs\`. Otherwise ideate it yourself and build it, marked as the Editor's own idea.
-4. **Build waves:** 4-5 builders per wave, each owning 6-10 visuals. Briefs carry the rules from step 1 and the Resolve traps. Install each wave as soon as it lands.
+4. **Build waves:** many small builders, each owning **1-3 visuals**, and one installer agent that alone touches Resolve. Install each wave as soon as it lands.
+   - **Why so small** (first run, 2026-10-13): a helper starts at about 72k context (tools, CLAUDE.md, AGENTS.md) and the context guard stops it at 185k. Wave 1 gave builders 5-7 visuals and a reading list (plan header, brief, Brain notes). They spent 30-50k reading and built 6 of 24 visuals.
+   - **Briefs are one rules page**, written once per job: `Graphics\Visuals vN\kits\BUILD RULES.md`, the job's distilled rules, real material, shared specs and hand-back format. Each builder prints only its own beats (`kitseats.py <ids>`) and never reads the plan, the brief or the Brain notes.
 5. **Checks, quality first:** the scripted checks (lint, rawbreaks, identity, chain, NeoTextMotion range, blank tiles) **plus reviewer agents** wherever taste or readability is the question. Then a fix round.
 6. MagicZoom pass, then sound per the last three finals.
 7. Leave the timeline caching on the Edit page. No final render; delivery stays Samuel's call.
