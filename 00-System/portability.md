@@ -49,6 +49,8 @@ The test: if deleting `.claude/`, `.gemini/`, `.agents/`, CLAUDE.md and GEMINI.m
 
 Gemini models on his AI Pro account (`agy models`, 2026-10-02): Gemini 3.8, 3.7 and 3.6 Flash, Gemini 3.1 Pro, plus Claude Sonnet 4.6, Claude Opus 4.6 and GPT-OSS 120B through Antigravity. `strong` is Gemini 3.1 Pro (High) because Samuel picked it in the app on 2026-10-02; whether it judges better than 3.8 Flash on his work is untested, so a real job may move it. The model is set in Antigravity's menu or `agy --model`, by Samuel, the way he picks Claude's; `build_adapters.py` doesn't set it.
 
+2026-10-14 (`agy models`, agy 1.2.16): the list is now Gemini 3.8 Flash (High/Medium/Low), Claude Opus 5.5 and Claude Sonnet 5.5 (Low/Medium/High), GPT-OSS 120B. **Gemini 3.1 Pro is gone, so the `strong` row above points at a model agy no longer offers** (open question 111). **Gemini 4 Argon** (Google, GA 2026-10-13) is not on his account: in Antigravity it is for Google AI Ultra only; on AI Pro it is in the Gemini app and AI Mode, which are chat, not agentic; the API (`gemini-4-argon`, paid tier) is billed per token. `agy --model gemini-4-argon` fails with "not recognized". The old Gemini CLI (0.60.0) no longer signs in: Google retired it for individuals in favour of Antigravity.
+
 **Tools** — what an agent profile's `tools:` list uses.
 
 | Neutral | Means | Claude Code | Gemini CLI |
