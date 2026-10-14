@@ -95,29 +95,22 @@ def render(job, biz, payee):
             billed = subtotal - money(subtotal * Decimal(str(stage["rest_of"])) / 100)
         else:
             billed = money(subtotal * pct / 100)
-        shares = [money(r * pct / 100) for r in rates]
-        shares[-1] += billed - sum(shares)  # the rows add up to the billed total
     else:
         billed = subtotal
 
+    # Videos at their rate, the month's total, then the stage being billed and any extras
     heading = job.get("items_heading") or f"{job.get('period', '')} videos".strip()
-    head = f'<tr><th>{e(heading)}</th><th class="amt">Rate</th>'
-    head += f'<th class="amt">{e(stage["percent"])}%</th></tr>' if stage else "</tr>"
-    rows = []
-    for i, it in enumerate(items):
-        cells = f'<td>{e(it["description"])}</td><td class="amt">{fmt(rates[i])}</td>'
-        if stage:
-            cells += f'<td class="amt">{fmt(shares[i])}</td>'
-        rows.append(f"<tr>{cells}</tr>")
-    total = f'<tr class="total"><td>Total</td><td class="amt">{fmt(subtotal)}</td>'
-    total += f'<td class="amt">{fmt(billed)}</td></tr>' if stage else "</tr>"
-    rows.append(total)
+    rows = [f'<tr><th>{e(heading)}</th><th class="amt">Amount</th></tr>']
+    rows += [f'<tr><td>{e(it["description"])}</td><td class="amt">{fmt(rates[i])}</td></tr>'
+             for i, it in enumerate(items)]
+    rows.append(f'<tr class="total"><td>Total</td><td class="amt">{fmt(subtotal)}</td></tr>')
+    if stage:
+        rows.append(f'<tr class="extra"><td>{e(stage["label"])}</td><td class="amt">{fmt(billed)}</td></tr>')
     due = billed
     for x in job.get("extras", []):
         amt = money(x["amount"])
         due += amt
-        gap = "<td></td>" if stage else ""
-        rows.append(f'<tr class="extra"><td>{e(x["label"])}</td>{gap}<td class="amt">{fmt(amt)}</td></tr>')
+        rows.append(f'<tr class="extra"><td>{e(x["label"])}</td><td class="amt">{fmt(amt)}</td></tr>')
 
     who = [f"<strong>{e(biz['owner'])}</strong>"] + [e(x) for x in payee["street"]] + [e(biz["email"])]
     bill = [f"<strong>{e(client['name'])}</strong>"] + [e(x) for x in client.get("address", [])]
@@ -137,7 +130,6 @@ def render(job, biz, payee):
         "DUE": e(job.get("due", biz.get("default_due", "On receipt"))),
         "FROM": "<br>".join(who),
         "BILL_TO": "<br>".join(bill),
-        "HEAD": head,
         "ROWS": "".join(rows),
         "CUR": cur,
         "DUE_AMOUNT": fmt(due),
