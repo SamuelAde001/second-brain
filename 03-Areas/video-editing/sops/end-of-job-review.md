@@ -19,7 +19,8 @@ It exists to do three things: keep one copy of every rule, keep tested scripts a
 2. **Fold each new rule into one place.** For every fix that became a rule, find where it belongs: the step's SOP ([[routerise-job-setup]], [[routerise-cut-workflow]], [[visual-sheet-pipeline]]), [[03-Areas/video-editing/ways-of-working|ways of working]] for Samuel's preferences, or [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] for API and crash know-how. Write it there once. Search the other places for an older version (a script, not by reading them) and replace it with a link. Rules in the append-only memory and logs stay; add a line pointing to the new home.
 3. **Sort the scripts the job made.** A script that worked and will be used again gets a row in the [[00-System/systems-register|systems register]] (scripts table). A one-off moves to `03-Areas/video-editing/scripts/jobs/<job-slug>/`. Nothing is deleted.
 4. **Did any task run the same way again?** For each step, note in the project note whether it ran unchanged from the last job. Update the step's **Runs** line in its SOP. A task that ran the same way three times in a row is a candidate for a small skill: propose it to Samuel, build only on his yes (the ladder in the systems register).
-5. **Log and commit.** One line in the [[07-Agents/video-editor/log|Editor log]] with the fix count, then commit and push.
+5. **File the Resolve project.** Move the job's project from `Routerise/` to `Routerise/Delivered/` in the Project Manager (Ctrl+X, Ctrl+V). Never while it's the open project. [[03-Areas/video-editing/resolve-project-library|Resolve project library]] (added 2026-10-14).
+6. **Log and commit.** One line in the [[07-Agents/video-editor/log|Editor log]] with the fix count, then commit and push.
 
 ## Reading the trend
 

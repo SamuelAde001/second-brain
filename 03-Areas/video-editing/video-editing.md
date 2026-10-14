@@ -47,6 +47,7 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 - [[fusion-node-system]] — node layout conventions, build recipes, adjustment-clip system, NeoTextMotion, worked examples from 107 comps
 - [[tsb-graphics-pipeline]] — the graphics pipeline
 - [[cut-sheets]] — how a cut gets planned before it gets cut
+- [[03-Areas/video-editing/resolve-project-library|Resolve project library]] — how the Project Manager is sorted and where a new project goes (2026-10-14)
 - [[toolchain]] — Resolve, Fusion, OBS, DJI gear, bespoke tooling, and the edit clock
 
 **The work**
