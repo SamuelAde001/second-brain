@@ -196,6 +196,9 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-14 | bulk | 4,659 | Girlfriend's subscription (part 2 of 30,000) | Extra cash | same payment; empties Extra cash |
 | 2026-10-14 | bulk | 1,500 | Girlfriend's subscription (part 3 of 30,000) | Personal / misc | same payment; Rule 8 cut order |
 | 2026-10-14 | bulk | 15,261 | Girlfriend's subscription (part 4 of 30,000) | Chores / household | same payment; Rule 8 cut order (creator visits is 0) |
+| 2026-10-14 | bulk | 2,500 | Food for girlfriend | Girlfriend extras | his words: "I just sent 2.5k to my GF for some food"; Girlfriend extras was already empty, so over plan by 2,500 |
+| 2026-10-14 | charges | 11 | Bank charges | — | derived; rows give 6,831, he has 6,820 |
+| 2026-10-14 | balance | 6,820 | Bank | — | his words: "6,820 in my personal account"; no screenshot. Webinar money not counted: 49,883 webinar account + 4,892 Flutterwave (his words) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
