@@ -36,6 +36,7 @@ Not to be confused with the Brain's own **General Manager** agent (the orchestra
 - **Pitched as an internship, unpaid.** *"if they want to work for me for free, they should come and work for me for free."*
 - **Every intern gets a free cohort seat**, *"for sure"*.
 - **Privately, a percentage of the whole money goes to the workers.** Not settled, not told to them yet: *"I'm not going to tell them they're going to be paid yet so that they can want to work for me regardless of the payment. Then I will still pay them, just make them feel welcome with what they did."*
+  - **Superseded 2026-10-14 (Samuel, to Money man):** *"I am not giving the team any percentage again"*.
 - **Ads budget: none for now.** *"if I see that I need to do ads, I might do ads"*.
 - Nobody found yet besides Ifeoma.
 
