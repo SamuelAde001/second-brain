@@ -184,6 +184,7 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-14 | bulk | 4,659 | Girlfriend's subscription (part 2 of 30,000) | Extra cash | same payment; empties Extra cash |
 | 2026-10-14 | bulk | 1,500 | Girlfriend's subscription (part 3 of 30,000) | Personal / misc | same payment; Rule 8 cut order |
 | 2026-10-14 | bulk | 15,261 | Girlfriend's subscription (part 4 of 30,000) | Chores / household | same payment; Rule 8 cut order (creator visits is 0); his own gas ~4,000 not happening (his words) |
+| 2026-10-14 | in | 32,735 | Webinar money paid back to Samuel (advance 5,000 + ads 27,735) | — | his words: "I have paid myself the 32,735 already now"; webinar money owes him nothing now |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
