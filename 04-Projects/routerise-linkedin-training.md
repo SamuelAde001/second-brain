@@ -115,3 +115,34 @@ Samuel, 2026-10-13: run the visuals start to finish while he's away, reviews in 
 - **Next (after the reset, Wed 2026-10-14 23:00 WAT):** Samuel's intro notes first; then the body waves p1 → rules from body_builders.json (BUILD RULES + 1-3 beats per builder; one installer agent per wave), checks, reviewers, fix round, MagicZoom, sound, morning report. Open: H05 across a project reload; H20 pressed-key accent contrast; Kenny Damian in the H01 rail (ask Samuel).
 - **Lesson (now in the unattended-run SOP):** helpers start at ~72k and stop at 185k, so 1-3 visuals per builder and a one-page rules brief.
 - **Usage at 12:58 WAT:** weekly 89 %, 5-hour 18 %. A 5-agent wave costs about 1 weekly point.
+
+## Samuel's intro review and the overnight run, 2026-10-14 ~23:00 (Editor)
+
+Samuel, by voice at the weekly reset: the v1 intro is *"very bad … subpar"*; finish the whole video tonight and tomorrow, B2B standard or better, until *"100% sure that Samuel would approve this without correction"*. Sound design last, after his review of the visuals. Everything cached at the end so he can watch the whole video smoothly. Use each 5-hour window fully, waste nothing. Power may cut. Standing rules from the same brief are in [[03-Areas/video-editing/ways-of-working|ways of working]] → "Samuel, 2026-10-14".
+
+**His 17 comments on *Visuals v1 (Editor)* (blue markers, frame · his words):**
+- 0 (134 f): *"I don't like this style, let's use a 3D laptop, like the way I used 3D laptops in the intro of my last few videos … animated in with the linkedin page on it, and linkeding logo on the laptop, make the laptop big, and add a Dynamic typography on screen that says posted on linkedin, and zoom into the laptop to reveal the linkedin page and his posts and followers"*. Reference: TSB intro `tsb_V2_000000_1.comp` (FBX `Routerise\Claude Just Changed Freelancing Forever!\macbookpro.fbx`).
+- 134: *"Never use fusion comp for this zoom in effect, always use Adjustment clips like we have done in last videos"*
+- 164: *"Don't highlight anything in this visual"*
+- 210: *"Write in one month on screen on an adjustment clip above this clip darkened the way we do it"*
+- 225 (97 f): *"I don't like this visual, let's have him on screen and then the post appear my his sides, with him cut out ahead of it with magic masks"*
+- 322 (185 f): *"This visual doesn't look premium, it looks low quality"*
+- 723: *"Highlight the post earlier, and try and make the posts the same hight"*
+- 739: *"Put the text "The 6 posts" on the top"*
+- 778: *"Remove the word almost and just have the number, Big and bol, with people asked under it"*
+- 959: *"This my Perfect ICP pill looks dark and medicore, remove the pill, let the text be at the center of the page as I used to do it"*
+- 991: *"Show proper Youtube dark theme UI scrolling, don't show the whole UI, focus on the video parts, zoom in, too much on screen"*
+- 1166: *"Zoom and hold with magic zoom like we did in other videos"*
+- 1316: *"I don't understand, why this visual, it doesn't show anything meaningful, just scroll through his page on linkedin and write the main text as an overlay over the screen the way we do it"*
+- 1377: *"This is not well framed, please frame it well"*
+- 1422 (163 f): *"This looks mediocre, you can do better. look for better ways to do this, we don't have small text like thism and no logos or shines, look at what we have done in the past and come up with something better"*
+- 1603: *"Why am I seeing the shine on screen before it is animated"*
+- 1614: *"The blurred text doesn't cover the pages well and it's not weel framed, you can do better on this visual"*
+
+**His answers (2026-10-14 ~23:20):**
+- Laptop: *"In front of Alex, middle since that's the only element, and typography by Alex side"*.
+- LinkedIn logo: *"The top of the latop, above the lid, not 3D but animates in with the laptop, like a small crown for the laptop"*.
+- Typography: a 700+ counter plus the POSTED ON LINKEDIN line.
+- 1422: add logos and shines (bigger type, a real icon per point, a shine after each item lands).
+
+Usage at 23:10 WAT: weekly 0 % (reset), 5-hour 2 %. C: 104 GB free.

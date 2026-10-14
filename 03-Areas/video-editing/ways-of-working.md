@@ -224,6 +224,18 @@ What Samuel changed himself after the Editor handed the B2B video over (frame di
 - *"Make sure you don't show chrome tabs or the windows UI in the visuals, it must all be fullscreen of the UI visuals."* Captures are the page viewport only.
 - How the real captures are made (his logged-in Chrome, PrintWindow at device pixels, stitched scrolls): [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] → LinkedIn captures, 2026-10-13.
 
+## Samuel, 2026-10-14 (LinkedIn intro review)
+
+After the LinkedIn Training v1 intro: *"what you did on the intro was very bad … I don't expect to repeat myself"*. Per-beat notes are in [[04-Projects/routerise-linkedin-training|the job note]]; these hold for every job.
+
+- **The intro is the most important part of the video.** *"Don't joke with the intros."* Well paced, smooth, premium; every visual must make sense to the viewer.
+- **No fast zooms.** *"If it is too fast, it doesn't allow the viewer to digest the information."*
+- **UI is zoomed in from its first frame.** The viewer must be able to read what is said and highlighted the moment the shot appears; never a whole page with side rails, ads or empty margins first.
+- **Zooms and punch-ins are adjustment clips, never a Fusion comp.** *"Never use fusion comp for this zoom in effect, always use Adjustment clips like we have done in last videos"*; MagicZoom V3 Zoom & Hold on A-roll. **Use adjustment clips a lot: that is how he edits.** Anything that should be an adjustment clip (zooms, darkening, text over footage, focus over UI) is one. Route: the B2B kit (`kits\drt\convert.py`, `kits\inst\round_install.py`, `kits\drt\mz_plan.py`).
+- **Node trees are compact.** Groups stay separate and organised (main line, collector columns), but close enough that he never has to scroll or drag to find a group. This replaces "each box's node structure sits far from every other node group" in Box builds below.
+- **Text over darkened footage** is centred and big, no pill behind it, as in his finals.
+- **Sound design always comes last**, after he has approved the visuals. Before his review, cache the whole timeline so he can watch it smoothly.
+
 ## The intro is Samuel's — 2026-09-25
 
 *"Every intro is Samuel."* Visual ideas for the intro still go on the cut sheet, as inspiration for him. **Nothing is placed on the timeline before the intro ends.** Visuals start on the first sentence after it.
