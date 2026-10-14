@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: needs-input
-updated: 2026-09-20
+updated: 2026-10-14
 source: claude-export
 tags: [invoicing, clients]
 ---
@@ -80,3 +80,24 @@ Rate: **USD 333.33 per video**, the agency's standard.
 
 This is the split the percentage-based budget system's Receipt Ratio exists to track — see [[budget-system]]. It also means a month's earnings are never fully in hand until mid the next month, which is the single most important fact for any runway or cashflow calculation.
 
+## The SamuelVisuals invoice — from 2026-10-14
+
+Redesigned 2026-10-14 for Route Rise and made by the [[00-System/skills/invoice/invoice|invoice]] skill. One plain A4 page: wordmark and INVOICE, From / Bill to / details, the video list, the month's total, the stage being billed plus any bonus, the amount due, then the bank details and how to pay. Black on white, green only on the wordmark and the amount due. Samuel, 2026-10-14: *"Don't let the design look like AI, let it look easy to understand and clean, not too complex looking"*.
+
+Samuel's choices, 2026-10-14:
+- **Every invoice gets its own number.** The 30% balance goes on a new number that references the 70% one (#14 → "Balance of invoice #13").
+- **Payment term: due on receipt.**
+- **Bank details live outside the Brain**, in a private file only the script reads.
+
+Kept from his old layout: the SAMUELVISUALS wordmark in green and the line asking Route Rise to pay by Wise to the account details, not to his email. Dates print as "14 October 2026", not 10/14/2026, so a UK or US reader can't misread them.
+
+## Invoice register
+
+Newest at the bottom. The amount is what that invoice asks for.
+
+| No. | Issued | Client | Period | Stage | Amount | Job file |
+|---|---|---|---|---|---|---|
+| 13 | 2026-09-29 | Route Rise | September 2026 | 70% | not recorded | made by hand before the skill |
+| 14 | 2026-10-14 | Route Rise | September 2026 | 30% balance (USD 399.99) + bonus USD 25.00 | USD 424.99 | `invoices/invoice-014-routerise-2026-10-14.json` |
+
+Back to [[03-Areas/finances/finances|Finances]]

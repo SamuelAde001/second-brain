@@ -121,6 +121,8 @@ Finance skills, built 2026-09-22: `payday`, `budget`, `month-close`, `money-chec
 
 Relay skills, built 2026-10-02: `pick-up`, `hand-back` ([[00-System/relay|relay]]).
 
+Invoice skill, built 2026-10-14: `invoice` (Money man).
+
 No general job skills (`brainstorm`, `plan`, `systemize`, `commit` were dropped 2026-09-28). The Editor has no pipeline skill: it works from SOPs, scripts and small skills for specific tasks that repeat, because the pipeline still changes (Samuel, 2026-09-28). New skills follow the ladder in the systems register. Every skill is listed in `00-System/systems-register.md`.
 
 ## 9. Logging
@@ -135,6 +137,7 @@ No general job skills (`brainstorm`, `plan`, `systemize`, `commit` were dropped 
 ## 10. Outside-Brain access
 
 Agents may only reach folders outside this Brain when the folder is listed in the agent's `profile.md` and granted in the running AI tool's permission config (Claude Code: `.claude/settings.json`). Current list: **one file, read by a script only**: `%USERPROFILE%\.brain-secrets\budget-sheet-key.json`, the finance agent's Google key, read by `00-System/scripts/budget_sheet.py`. No agent opens it; `.claude/settings.json` denies reading it.
+- **By script only, for the Money man's invoices** (Samuel, 2026-10-14, asked for a skill that makes invoice PDFs and chose a private file for his bank details): `make_invoice.py` reads `%USERPROFILE%\.brain-secrets\invoice-payee.json` (Samuel fills it; no agent opens it) and writes PDFs to `C:\Users\repzy\Documents\Invoices\`.
 - **Read-only, by script, for the PA:** StayFree's Windows app data, `%LOCALAPPDATA%\Packages\37081StayFreeApps.StayFree3_fqhk48m1tsma0\LocalCache\Roaming\StayFree\`. `00-System/scripts/screen_time.py` copies `usage.db` and `config.db` to a temp folder and reads only session rows. Samuel, 2026-09-28: *"yes build it"* ([[00-System/automations/screen-time|screen time]]).
 - **Read-only, by script, for the relay:** Claude Code's transcripts for this Brain (`%USERPROFILE%\.claude\projects\C--Users-repzy-Desktop-My-Second-brain\`) and Gemini's chats (`%USERPROFILE%\.gemini\`). `00-System/scripts/relay.py` prints a brief of the latest session to stdout and copies nothing into the Brain. Samuel, 2026-10-02 ([[00-System/relay|relay]]).
 - **Read and write, video-editor agent (Editor):** `C:\Users\repzy\Desktop\Video edits\Routerise\`, the Route Rise client folder. Granted by Samuel 2026-09-24 (*"create a new folder on routerise and sort it there"*). The Editor makes one folder per job, downloads the client's footage into it and writes docs there. Downloaded client raws are never modified, moved or renamed. Nothing outside the job's own folder is touched without his yes.

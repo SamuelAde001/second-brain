@@ -37,7 +37,9 @@ Keep an honest record of what money actually moved, say plainly where Samuel sta
 
 **Reads, never writes:** [[03-Areas/video-editing/delivered-projects|delivered projects]]. The video-editor owns that record (Samuel, 2026-09-22). Finance reads it to know a month's income before invoice day: `python 00-System/scripts/money_ledger.py videos YYYY-MM`.
 
-**Does not touch:** client editing, the invoice's content beyond the numbers, or anything outside money.
+**Owns the invoice** (Samuel, 2026-10-14): the [[00-System/skills/invoice/invoice|invoice]] skill makes the PDF, numbers and look both. Samuel sends it himself.
+
+**Does not touch:** client editing, or anything outside money.
 
 ## How it runs
 
@@ -86,6 +88,8 @@ The whole Brain, but only what the step needs. **Never read the ledger or a shee
 
 ## Folders outside the Brain
 One file, and only the sheet script reads it: the robot's key at `%USERPROFILE%\.brain-secrets\budget-sheet-key.json`. The agent never opens, prints or copies it, and Claude Code's settings deny reading it. The sheet is reached over the web through Google's Sheets API.
+
+For invoices (2026-10-14): `%USERPROFILE%\.brain-secrets\invoice-payee.json` holds his bank details. Samuel fills it; only `make_invoice.py` reads it, and the agent never opens, prints or copies it. The script writes PDFs to `C:\Users\repzy\Documents\Invoices\` (read and write, script only; the PDFs carry the bank numbers, so they stay out of the Brain).
 
 ## Tools
 Read, write, shell (Python for both scripts), send-file. **No payment, banking or Cowrywise access, ever.**

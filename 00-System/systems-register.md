@@ -58,6 +58,7 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | [[month-close]] | What came in, went out, survived; Goal 1 pace; freeze the month's plan | Last day of the month, or he asks | never (first: 2026-09-30) | active |
 | [[money-check]] | Before an off-plan spend: which line pays, what's left after, the verdict in three lines | He asks "can I spend X?" (commitment, 2026-09-22) | 2026-09-25 | active |
 | [[sunday-check]] | Weekly: his balance → log the gap → name every line over plan, and what's left to payday | Every Sunday (commitment, 2026-09-22) | 2026-09-27 | active |
+| [[00-System/skills/invoice/invoice\|invoice]] | One-page invoice PDF: videos, the 70%/30% stage, bonus; bank details from a private file outside the Brain | Invoice day (29th, mid-month), or he asks | 2026-10-14 (#14) | active |
 
 **Personal-life skills**, built 2026-09-22 from Samuel's answers. Owner: the [[07-Agents/personal-life/profile|personal-life agent]]. All three are conversations and run in the main session.
 

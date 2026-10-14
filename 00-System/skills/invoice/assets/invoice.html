@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{TITLE}}</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #fff; }
+  body {
+    width: 210mm; height: 296mm; overflow: hidden; padding: 18mm 18mm 14mm;
+    font-family: "Segoe UI", Arial, sans-serif; font-size: 10pt; line-height: 1.5; color: #222;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+    display: flex; flex-direction: column;
+  }
+  .green { color: #2f7a1f; }
+  .grey { color: #777; }
+  h2 { font-size: 10pt; font-weight: 600; margin-bottom: 1.5mm; }
+
+  .top { display: flex; justify-content: space-between; align-items: baseline;
+         padding-bottom: 5mm; border-bottom: 1px solid #222; }
+  .brand { font-size: 17pt; font-weight: 700; letter-spacing: .05em; }
+  .doc-title { font-size: 20pt; font-weight: 300; letter-spacing: .1em; }
+
+  .meta { display: flex; justify-content: space-between; gap: 8mm; margin-top: 7mm; }
+  .meta > div { flex: 1; }
+  .meta > div.details { flex: 1.2; }
+  .details table td { padding: .4mm 0; }
+  .details table td:last-child { text-align: right; font-weight: 600; }
+
+  table { width: 100%; border-collapse: collapse; }
+  .items { margin-top: 10mm; }
+  .items th { text-align: left; font-weight: 600; padding-bottom: 2mm; border-bottom: 1px solid #222; }
+  .items td { padding: 2.8mm 0; border-bottom: 1px solid #e5e5e5; }
+  .amt { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; width: 32mm; }
+  .items th.amt { text-align: right; }
+  .note { font-size: 8.8pt; color: #777; }
+
+  .totals { width: 95mm; margin: 5mm 0 0 auto; }
+  .totals td { padding: 1.4mm 0; vertical-align: top; }
+  .totals tr.due td { border-top: 1px solid #222; padding-top: 3mm; font-size: 13pt; font-weight: 700; color: #2f7a1f; }
+
+  .pay { margin-top: 12mm; }
+  .pay table { width: auto; }
+  .pay td { padding: .4mm 8mm .4mm 0; }
+  .pay td:first-child { color: #777; }
+  .pay p { margin-top: 4mm; }
+
+  .foot { margin-top: auto; padding-top: 5mm; border-top: 1px solid #e5e5e5;
+          display: flex; justify-content: space-between; font-size: 9pt; color: #777; }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="brand">{{BRAND_A}}<span class="green">{{BRAND_B}}</span></div>
+  <div class="doc-title">INVOICE</div>
+</div>
+
+<div class="meta">
+  <div>
+    <h2>From</h2>
+    <p>{{FROM}}</p>
+  </div>
+  <div>
+    <h2>Bill to</h2>
+    <p>{{BILL_TO}}</p>
+  </div>
+  <div class="details">
+    <table>
+      <tr><td class="grey">Invoice no.</td><td>{{NUMBER}}</td></tr>
+      <tr><td class="grey">Date</td><td>{{ISSUED}}</td></tr>
+      <tr><td class="grey">Work period</td><td>{{PERIOD}}</td></tr>
+      <!--REF_START--><tr><td class="grey">Reference</td><td>{{REFERENCE}}</td></tr><!--REF_END-->
+      <tr><td class="grey">Due</td><td>{{DUE}}</td></tr>
+    </table>
+  </div>
+</div>
+
+<table class="items">
+  <tr><th>{{ITEMS_HEAD}}</th><th class="amt">Amount ({{CUR}})</th></tr>
+  {{ROWS}}
+</table>
+
+<table class="totals">
+  <tr><td>{{SUBTOTAL_LABEL}}</td><td class="amt">{{SUBTOTAL}}</td></tr>
+  {{SUMMARY_ROWS}}
+  <tr class="due"><td>Amount due</td><td class="amt">{{CUR}} {{DUE_AMOUNT}}</td></tr>
+</table>
+
+<div class="pay">
+  <h2>Payment details</h2>
+  <table>{{PAY_ROWS}}</table>
+  <p>{{PAY_NOTE}} {{PAY_REF}}</p>
+</div>
+
+<div class="foot">
+  <span>{{THANKS}}</span>
+  <span>{{EMAIL}}</span>
+</div>
+
+</body>
+</html>

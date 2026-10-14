@@ -288,3 +288,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Why**: Samuel, 2026-10-14: *"I am always missing the checks, also they look very complicated to read, make it easy and straight to the point"* · *"Stop asking me when I started work, it always varies based on the work of the day"* · *"Stop asking if I am free, I have been inconsistent"* · *"Stop logging the screen time, it has not been helpful"*.
 **Who decided**: Samuel.
 **Correction, same day**: no cap on questions. Samuel: *"It can ask as much questions just not too much verbasims"*. Any number of questions, each short.
+
+## 2026-10-14 — Invoices come from a skill; bank details stay outside the Brain
+
+**Decision**: A new `invoice` skill (Money man) makes the SamuelVisuals invoice as a one-page PDF from a job file in `03-Areas/finances/invoices/`. Bank details live in `%USERPROFILE%\.brain-secrets\invoice-payee.json`, filled by Samuel and read only by the script. PDFs go to `Documents\Invoices\`, outside the Brain. Every invoice gets its own number; the payment term is due on receipt. The Money man now owns the invoice's look as well as its numbers.
+**Why**: Samuel, 2026-10-14: *"I don't like how my invoice is looking ... create a skill that would be creating invoices in pdfs when I need it"*. Bank numbers can't be stored in the Brain (AGENTS.md §6), and the PDFs carry them.
+**Who decided**: Samuel (the skill, new number per invoice, due on receipt, the private file). File locations: Money man's call.
