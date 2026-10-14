@@ -174,6 +174,10 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-11 | balance | 16,000 | Bank | — | his words: "I have presenlty 16k in my bank account now"; Sunday check; no screenshot. Webinar money not counted: 29,340 separate account + 48,925 Flutterwave unsettled (his words) |
 | 2026-10-12 | in | 25,000 | Graphic designer advance back from webinar money (25,000 of 30,000) | — | his words: "Yes I sent back the 25k to me" (said 2026-10-14); planned for 2026-10-12, day assumed |
 | 2026-10-14 | major | -8,580 | Webinar ads, unspent money returned | Webinar ads | his words: "I stopped the ad before the ad spend could finish, the remaining ad money was 8,580 which I have already returned to my account"; day it landed not given; ads cost 27,735 net
+| 2026-10-12 | bulk | 6,400 | Eating out | Eating out | his words: "Spent 6,400 on eating out on Monday" (said 2026-10-14) |
+| 2026-10-13 | bulk | 6,000 | Giving, someone in need | Giving | his words: "gave 6,000 to someone who was in need yesterday" (said 2026-10-14) |
+| 2026-10-13 | bulk | 5,500 | Feeding | Feeding | his words: "spent 5,500 on feeding again yesterday" (said 2026-10-14) |
+| 2026-10-14 | correction | — | 2026-10-14 major -8,580 Webinar ads refund: landed 2026-10-13, not 10-14 | — | his words: "recieved the 8580 yesterday from the ads"; same month, totals unchanged |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
