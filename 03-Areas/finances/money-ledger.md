@@ -192,6 +192,10 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-14 | bulk | -15,261 | Girlfriend's subscription part 4 reversed | Chores / household | correction above |
 | 2026-10-14 | bulk | 84 | Minor spends 2026-10-11 to 2026-10-14 | Other | derived; rows give 39,415, he has 39,331 |
 | 2026-10-14 | balance | 39,331 | Bank | — | his words: "what is in my account now after withdrawing the 32k from the webinar is 39331"; before the GF subscription. Webinar account 30,313 (his words) |
+| 2026-10-14 | bulk | 8,580 | Girlfriend's subscription (part 1 of 30,000) | Girlfriend extras | his words: "Just sent the sub now"; the released ads money, plan changed 2026-10-14 |
+| 2026-10-14 | bulk | 4,659 | Girlfriend's subscription (part 2 of 30,000) | Extra cash | same payment; empties Extra cash |
+| 2026-10-14 | bulk | 1,500 | Girlfriend's subscription (part 3 of 30,000) | Personal / misc | same payment; Rule 8 cut order |
+| 2026-10-14 | bulk | 15,261 | Girlfriend's subscription (part 4 of 30,000) | Chores / household | same payment; Rule 8 cut order (creator visits is 0) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 

@@ -79,3 +79,4 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - 2026-10-14 · Money man · Logged in 32,735 (webinar money paid back to him). Derived bank 9,415. He reported 30,313, which equals the webinar account after the payback (63,048 - 32,735): asked which account and whether the GF subscription is paid. No balance row logged yet.
 - 2026-10-14 · Money man · Correction: GF subscription 30,000 not paid yet (I misread him); four rows reversed with minus rows. Bank 39,331 (his words), 84 derived minor. Webinar account 30,313 (his words). Plan change (ads 8,580 → GF extras) kept.
 - 2026-10-14 · Money man · Webinar payback 57,735 stays as spending money, not Goal 1 (his words). Goal 1 October = B 199,752 only.
+- 2026-10-14 · Money man · GF subscription 30,000 paid (his words), same four-line split. Derived bank 9,331.
