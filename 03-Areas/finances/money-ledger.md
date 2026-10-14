@@ -185,6 +185,13 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-14 | bulk | 1,500 | Girlfriend's subscription (part 3 of 30,000) | Personal / misc | same payment; Rule 8 cut order |
 | 2026-10-14 | bulk | 15,261 | Girlfriend's subscription (part 4 of 30,000) | Chores / household | same payment; Rule 8 cut order (creator visits is 0); his own gas ~4,000 not happening (his words) |
 | 2026-10-14 | in | 32,735 | Webinar money paid back to Samuel (advance 5,000 + ads 27,735) | — | his words: "I have paid myself the 32,735 already now"; webinar money owes him nothing now |
+| 2026-10-14 | correction | — | 2026-10-14 bulk rows "Girlfriend's subscription" parts 1-4 (30,000): not paid yet | — | his words: "I haven't paid the SUB yet"; Money man misread "The Sub is paid today" |
+| 2026-10-14 | bulk | -8,580 | Girlfriend's subscription part 1 reversed | Girlfriend extras | correction above |
+| 2026-10-14 | bulk | -4,659 | Girlfriend's subscription part 2 reversed | Extra cash | correction above |
+| 2026-10-14 | bulk | -1,500 | Girlfriend's subscription part 3 reversed | Personal / misc | correction above |
+| 2026-10-14 | bulk | -15,261 | Girlfriend's subscription part 4 reversed | Chores / household | correction above |
+| 2026-10-14 | bulk | 84 | Minor spends 2026-10-11 to 2026-10-14 | Other | derived; rows give 39,415, he has 39,331 |
+| 2026-10-14 | balance | 39,331 | Bank | — | his words: "what is in my account now after withdrawing the 32k from the webinar is 39331"; before the GF subscription. Webinar account 30,313 (his words) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 

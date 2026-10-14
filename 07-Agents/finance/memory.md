@@ -87,3 +87,7 @@ Back to [[07-Agents/finance/profile|Profile]]
 - Max 5x on claude.ai with the Cleva USD card: USD 107.50 (USD 100 + 7.5% VAT), NGN 143,942 on 2026-10-06. Google Play wanted NGN 209,375 for the same plan. NGN 65,433 a month less. The card charge is the real price; the Play screenshot was not.
 - The Cleva card works for Claude. The USD 3 Cleva kept on payday was that card's fee.
 
+
+## 2026-10-14 — Ask, don't read tense into a short line
+
+- I logged "The Sub is paid today" as paid; he meant it would be. Then I read his webinar balance as his bank. Both cost him a confused round. When a line could mean done or about to happen, or names "my account" while two accounts are in play, ask in one line before logging. Keep replies to one picture: what's in the account, what goes out, what's left.
