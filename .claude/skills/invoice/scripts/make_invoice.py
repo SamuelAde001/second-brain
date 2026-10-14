@@ -13,8 +13,9 @@ and nothing here ever prints a value from it.
 import html
 import json
 import re
+import shutil
 import subprocess
-import tempfile
+import time
 import sys
 from datetime import date
 from decimal import Decimal, ROUND_HALF_UP
@@ -168,15 +169,32 @@ def build(job_path, preview):
         stem = job.get("file_name") or f"Samuelvisuals {month}{kind} invoice"
         if (out_dir / f"{stem}.pdf").exists():
             sys.exit(f"Already exists, not overwritten: {out_dir / (stem + '.pdf')}")
-        html_dir = Path(tempfile.mkdtemp())  # the full page holds bank numbers; it never sits in a folder he keeps
+        # Not tempfile.mkdtemp(): its owner-only folder is unreadable to Edge's sandbox.
+        # The full page holds bank numbers, so this folder is deleted after the build.
+        html_dir = PREVIEWS.parent / "work"
+        html_dir.mkdir(parents=True, exist_ok=True)
     out_dir.mkdir(parents=True, exist_ok=True)
-    html_file = html_dir / f"{stem}.html"
+    # Edge drops paths with spaces, so it prints under a plain name and Python moves and renames the PDF
+    work = stem if preview else "invoice"
+    html_file = html_dir / f"{work}.html"
     html_file.write_text(page, encoding="utf-8")
-    pdf = out_dir / f"{stem}.pdf"
+    printed = html_dir / f"{work}.pdf"
     b = str(browser())
     common = [b, "--headless=new", "--disable-gpu", "--no-first-run", "--hide-scrollbars"]
-    subprocess.run(common + ["--no-pdf-header-footer", f"--print-to-pdf={pdf}", html_file.as_uri()],
-                   check=True, capture_output=True, timeout=120)
+    run = subprocess.run(common + ["--no-pdf-header-footer", f"--print-to-pdf={printed}", html_file.as_uri()],
+                         capture_output=True, text=True, timeout=120)
+    # Edge can return before the file lands: wait until it exists and its size stops changing
+    size = -1
+    for _ in range(60):
+        if printed.exists() and printed.stat().st_size == size and size > 0:
+            break
+        size = printed.stat().st_size if printed.exists() else -1
+        time.sleep(0.5)
+    else:
+        sys.exit(f"The browser didn't write the PDF.\n{run.stderr[-800:]}")
+    pdf = out_dir / f"{stem}.pdf"
+    if printed != pdf:
+        shutil.move(printed, pdf)
     if preview:
         png = out_dir / f"{stem}.png"
         subprocess.run(common + ["--window-size=794,1123", "--force-device-scale-factor=1.5",
@@ -184,7 +202,7 @@ def build(job_path, preview):
                        check=True, capture_output=True, timeout=120)
         print(f"preview png: {png}")
     else:
-        html_file.unlink()  # the full HTML holds bank numbers; keep only the PDF
+        shutil.rmtree(html_dir, ignore_errors=True)  # the full HTML holds bank numbers; keep only the PDF
     print(f"pdf: {pdf}")
     print(f"amount due: {job.get('currency', 'USD')} {fmt(due)}")
     pages = len(re.findall(rb"/Type\s*/Page[^s]", pdf.read_bytes()))

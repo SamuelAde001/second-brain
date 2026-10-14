@@ -27,7 +27,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 - **Called to Edit landing page:** live at calledtoedit.netlify.app; `deploy.sh` in `Desktop\landing-page\`. 2026-10-07: 21 people, 5 paid (NGN 25,000). Traffic tracking live 2026-10-08 (Sheet tab *Traffic*). [[04-Projects/called-to-edit-landing-page-build|build note]].
 - **Webinar videos:** [[03-Areas/personal-brand/webinar-video-list-2026-10|video list]]; 15 cards in the Notion calendar (2026-10-08). Intro video plan waits on his answers ([[03-Areas/personal-brand/intro-story-video-2026-10-05|intro video plan]]).
 - **October personal-client job:** NGN 100,000, kickoff block 2026-10-26 ([[04-Projects/personal-client-project-2026-10|project]]).
-- **Invoice #14** (September 30% + bonus, USD 424.99): designed and built by the new `invoice` skill 2026-10-14. Final PDF waits on Samuel filling the two bank numbers in `%USERPROFILE%\.brain-secrets\invoice-payee.json`, then `make_invoice.py build` ([[00-System/skills/invoice/invoice|skill]]).
+- **Invoice #14** (September 30% + bonus, USD 424.99): built 2026-10-14 by the new `invoice` skill, saved in `Routerise\Invoices` as *Samuelvisuals October mid invoice.pdf*. Samuel sends it ([[00-System/skills/invoice/invoice|skill]]).
 - **Finance:** handled by the Money man in its own sessions (webinar money settled 2026-10-14, finance log). PA doesn't ask about money.
 - **Scripnals:** guide library with the devs since 2026-09-22; they test from their end.
 
