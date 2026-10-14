@@ -135,3 +135,8 @@ Back to [[07-Agents/content/profile|Profile]]
 ## 2026-10-11 — His taste on the landing page
 - Samuel rejected the 10-10 additions (It isn't / It is cards with coloured side borders and icons, a boxed label pill, an FAQ answer with bold-led bullet lists): *"to wordy and the design looks AI"*. New sections must reuse the page's existing components (fit items, gold-span headlines, short FAQ answers), not invent new card styles. Fewer words beats more explanation.
 - Netlify injects a "Powered by Netlify" badge (`#nl-badge-frame`, bottom-right) into published pages; it covers the sticky pay button on phones. The page hides it in CSS.
+
+## 2026-10-14 — Script and B-roll pages in Notion
+- **Colour key for B-roll notes** (Samuel asked for archive clips in a different colour): blue `\{…\}` = shoot today with an S-number from the shot list, purple = clip already in the B-roll archive written `📁 Folder › file name`, gray = edit note. Check every archive name on disk before writing it.
+- **Shot lists** go at the bottom of the script page as Notion checkboxes, grouped by setup and outfit in shooting order (daylight first, dark last), with a callout for camera settings, timing per shot and continuity marks. Outfits can match existing archive clips so old and new footage cut together.
+- He edits the Notion page himself between rounds: always re-fetch before touching it. He prefers the simpler script over the denser one with more facts (picked v2 over v3 on 2026-10-14), then corrects it line by line; numbering ("One, two") reads to him as stiff ("First / And then / And lastly").

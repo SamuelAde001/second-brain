@@ -9,7 +9,7 @@ tags: [script, life-of-a-video-editor, outline, draft]
 
 # The Life of a Video Editor, Ep 4: How I stay productive
 
-**Stage:** words final 2026-10-14 (below, and in Notion); B-roll next. Was an outline 2026-09-23. (Samuel, 2026-09-24: moved up from Ep 6 — *"I don't feel like doing another video similar to the last, let's mix things up"*.)
+**Stage:** words final and B-roll planned 2026-10-14; shoot next. Notion holds the live version. Was an outline 2026-09-23. (Samuel, 2026-09-24: moved up from Ep 6 — *"I don't feel like doing another video similar to the last, let's mix things up"*.)
 **Series:** [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]. On screen at the start, in bold: *The Life of a Video Editor, Episode 4*. Target 1:30, up to 2:00.
 **Bank:** #26, #28, #22 ([[03-Areas/personal-brand/personal-brand-ideas|ideas]]). Told as the struggle, not as tips. No guru tone.
 
@@ -163,5 +163,15 @@ I'd love to know how you deal with procrastination in the comments.
 ```
 
 Read as he wrote it: "But what I am learning now...." taken as the lead-in to "is to take one job at a time" (asked him). 6:30am kept; he didn't change it.
+
+### Samuel's own last edits, and the B-roll plan (2026-10-14)
+
+He edited the Notion page himself after the version above: "You see," opens Context; "I get overwhelmed" (dropped "I feel down"); "From 6 to 1pm… Only editing"; "I don't eat anything until 1pm. a little coffee"; "Video editing has never been easy"; last line *"Samuel, This Job has to be done"*; **CTA removed**. Notion is the live copy; read it there before any change.
+
+Then, his ask: B-roll that fits each part, *"based on how I shoot B-rolls on past videos, the pacing of the clips, the B-rolls I already have on my archive, my existing room settings"*, archive clips in a different colour, and a shot list to shoot everything at once.
+
+- **In Notion now:** a note after almost every line, in his past style. **Blue = shoot today** (S1-S34), **purple = already in the archive** (27 clips, `📁 Folder › file name`, every name checked on disk), **gray = edit note**. About 60 clips over about 1:45, roughly one every 1.7 s (Ep 3 ran about 1.8 s).
+- **Shot list** at the bottom of the page, as checkboxes in 5 setups ordered for one session: black shirt, desk and window, in daylight first; black shirt, door and kitchen; vest, bed and floor; vest, desk; vest, lights off last. Phone screen recording separate. The vest matches his 2026-10-05 vest clips, the black shirt his 2026-10-08 editing clips (vest = that week, black shirt = now). A tape mark at the foot of the bed makes S18 (hook), S25 and S11 (ending) the same frame. S32 → S33 is one locked tripod, day then dark, as a faked time-lapse.
+- Archive table for the edit sits in a toggle under the shot list.
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]
