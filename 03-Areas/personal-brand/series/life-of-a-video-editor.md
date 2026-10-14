@@ -2,7 +2,7 @@
 type: knowledge
 area: personal-brand
 status: needs-input
-updated: 2026-10-08
+updated: 2026-10-14
 source: interview
 tags: [series, content, what-works]
 ---
@@ -66,6 +66,8 @@ The Brain has deep material on his voice, his script process and his storytellin
 | 4 | How I stay productive | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-ep4-how-i-stay-productive|Ep 4]] | — |
 | later | Bad network | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-bad-network|Bad network]] | — |
 | later | Bad laptop | [[03-Areas/personal-brand/scripts/life-of-a-video-editor-bad-laptop|Bad laptop]] | — |
+
+**Idea pool (2026-10-14):** the Notion calendar holds 33 more Idea cards for the series: the unused story-bank stories and the editor "The day I…" cards brought back from the old-scripts page ([[03-Areas/personal-brand/personal-brand-ideas|story bank]]).
 
 Order changed 2026-09-24: productivity moved up to Ep 4 so it doesn't follow Ep 3 with another hardship story. Network and laptop stay for later (Samuel).
 

@@ -2,7 +2,7 @@
 type: knowledge
 area: personal-brand
 status: active
-updated: 2026-09-23
+updated: 2026-10-14
 source: claude-export
 tags: [ideas, story-bank]
 ---
@@ -16,6 +16,8 @@ The idea bank for this area. Every idea is dated and carries a status: **raw** /
 All 30 entries below come from a single source document, "30 Stories — B-roll + Voiceover Series." Dated **2026-07** for every row — the month the source project was created. The source gives no exact day, so none is invented here. All 30 are unused: status **raw**, nothing recorded as shortlisted, used or dropped.
 
 The source document's own framing, kept verbatim: *"Every idea below traces back to something Samuel actually said. Nothing invented. Each has a conflict and a resolution."* And: *"Titles say what the story is about. Hooks are drafts — narration-style openers, not slogans. Rewrite them in your own mouth before shooting."*
+
+**In Notion (2026-10-14):** Samuel asked why these weren't on the Notion page. Each unused story is now an Idea card in the Instagram Content Calendar, Series *Life of a Video Editor*: #1, #2 (+#29), #3, #4, #5, #6 (+#7), #8, #9, #10, #11, #12, #13, #14, #15, #17 (+#18), #20, #21, #27, #30. #41 and #42 went into the restored card *The day I bought my dream PC setup*. Not carded because they already sit inside an episode card: #16, #23 (Ep 3), #22, #26, #28, #43–#46 (How I stay productive), #25, #37, #38 (Bad network), #19, #24, #39–#41 (Bad laptop), #31–#36 (Ep 3).
 
 The source groups the 30 ideas into five themed sets. That grouping is preserved below as five separate tables rather than flattened into one, because the source uses it to organize the bank.
 
