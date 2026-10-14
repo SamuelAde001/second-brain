@@ -85,6 +85,6 @@ Samuel: *"it sends report not well formatted for me to understand like it's talk
 - Short headed sections, one item per line, a blank line between sections. Never one run-on paragraph. His phone shows markdown, and lines without a bullet or a blank line between them run together.
 - **The main tasks for the day come first**, from TickTick, with their times. Then the rest of the schedule.
 - Questions go at the end, numbered, so he can answer "1 yes, 2 no".
-- **Short and straight to the point (2026-10-14).** *"I am always missing the checks, also they look very complicated to read, make it easy and straight to the point"*. Done, not done, gym, client, tomorrow, questions. Nothing else. At most 3 questions. One line per item.
+- **Short and straight to the point (2026-10-14).** *"I am always missing the checks, also they look very complicated to read, make it easy and straight to the point"*. Done, not done, gym, client, tomorrow, questions. Nothing else. One line per item. **Questions: as many as needed, each one short** (2026-10-14: *"It can ask as much questions just not too much verbasims"*). No long wording, no quoting back at length.
 
 Back to [[07-Agents/personal-life/profile|PA profile]]

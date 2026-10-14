@@ -86,7 +86,7 @@ Samuel, 2026-10-14: *"they look very complicated to read, make it easy and strai
 2. Change anything, or go?
 ```
 
-At most 3 questions. Never ask about his start time, freedom, screen time, money, the credential file, or a client job already delivered (standing rules → don't ask about).
+Ask as many questions as needed, each one short: no long wording, no long quotes (Samuel, 2026-10-14: *"It can ask as much questions just not too much verbasims"*). Never ask about his start time, freedom, screen time, money, the credential file, or a client job already delivered (standing rules → don't ask about).
 
 Rules for the message:
 - Ask only what TickTick can't answer. A ticked habit or task is never asked about.

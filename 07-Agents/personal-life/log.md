@@ -93,3 +93,4 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 - 2026-10-13 09:30 — today agreed: webinar video 2 edit + post 3:00–4:30pm (must-do), gym 5:00–6:00pm, outline moved to Thu 10-15 3:00–4:30pm. Written to TickTick and read back; today's daily note made.
 - 2026-10-13 — night check sent (cloud routine): 0 of 1 must-do ticked (Webinar video 2), 12m X after 11pm, phone data missing; tomorrow proposed: make-up 3:00pm, LinkedIn 7:00–1:00, gym 5pm. Waiting for answers.
 - 2026-10-14 08:30 — Samuel's answers: webinar video 2 posted (ticked), no gym yesterday. Today's 3 tasks into TickTick (invoice 9:00–9:30, storytelling video, talking head video). Dropped on his word: 7:00 start, freedom and screen-time checks; screen-time task disabled. Night check and morning brief rewritten short. Don't-ask list added to standing rules.
+- 2026-10-14 — Question cap removed on his word: ask as many as needed, keep each short.
