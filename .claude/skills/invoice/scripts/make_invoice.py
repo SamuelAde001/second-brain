@@ -2,7 +2,7 @@
 
   python make_invoice.py setup                 create the private payee file (blank bank numbers) if missing
   python make_invoice.py check                 say which payee fields are still empty (names only, never values)
-  python make_invoice.py build <job.json>      write the PDF to Documents\\Invoices
+  python make_invoice.py build <job.json>      write the PDF to the client's invoice folder (business.json)
   python make_invoice.py build <job.json> --preview
                                                masked bank numbers + a PNG, for an AI to check the layout
 
@@ -14,6 +14,7 @@ import html
 import json
 import re
 import subprocess
+import tempfile
 import sys
 from datetime import date
 from decimal import Decimal, ROUND_HALF_UP
@@ -24,7 +25,7 @@ SKILL = HERE.parent
 BUSINESS = SKILL / "assets" / "business.json"
 TEMPLATE = SKILL / "assets" / "invoice.html"
 PAYEE = Path.home() / ".brain-secrets" / "invoice-payee.json"
-OUT = Path.home() / "Documents" / "Invoices"
+PREVIEWS = Path.home() / "Documents" / "Invoices" / "previews"
 BROWSERS = [Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"),
             Path(r"C:\Program Files\Microsoft\Edge\Application\msedge.exe"),
             Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe")]
@@ -155,10 +156,21 @@ def build(job_path, preview):
     payee = load_payee(preview)
     page, due = render(job, biz, payee)
     client = biz["clients"][job["client"]]["short"]
-    stem = f"{biz['file_prefix']}-Invoice-{int(job['number']):03d}-{client}-{job['issued']}"
-    out_dir = OUT / "previews" if preview else OUT
+    if preview:
+        out_dir = PREVIEWS
+        stem = f"{biz['file_prefix']}-Invoice-{int(job['number']):03d}-{client}-{job['issued']}"
+        html_dir = out_dir
+    else:
+        # His naming since 2025: "Samuelvisuals <Month> mid invoice" (the 30%), "... end invoice" (the 70%)
+        out_dir = Path(biz["clients"][job["client"]]["invoice_folder"])
+        month = date.fromisoformat(job["issued"]).strftime("%B")
+        kind = {30: " mid", 70: " end"}.get((job.get("stage") or {}).get("percent"), "")
+        stem = job.get("file_name") or f"Samuelvisuals {month}{kind} invoice"
+        if (out_dir / f"{stem}.pdf").exists():
+            sys.exit(f"Already exists, not overwritten: {out_dir / (stem + '.pdf')}")
+        html_dir = Path(tempfile.mkdtemp())  # the full page holds bank numbers; it never sits in a folder he keeps
     out_dir.mkdir(parents=True, exist_ok=True)
-    html_file = out_dir / f"{stem}.html"
+    html_file = html_dir / f"{stem}.html"
     html_file.write_text(page, encoding="utf-8")
     pdf = out_dir / f"{stem}.pdf"
     b = str(browser())

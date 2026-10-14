@@ -89,7 +89,7 @@ The whole Brain, but only what the step needs. **Never read the ledger or a shee
 ## Folders outside the Brain
 One file, and only the sheet script reads it: the robot's key at `%USERPROFILE%\.brain-secrets\budget-sheet-key.json`. The agent never opens, prints or copies it, and Claude Code's settings deny reading it. The sheet is reached over the web through Google's Sheets API.
 
-For invoices (2026-10-14): `%USERPROFILE%\.brain-secrets\invoice-payee.json` holds his bank details. Samuel fills it; only `make_invoice.py` reads it, and the agent never opens, prints or copies it. The script writes PDFs to `C:\Users\repzy\Documents\Invoices\` (read and write, script only; the PDFs carry the bank numbers, so they stay out of the Brain).
+For invoices (2026-10-14): `%USERPROFILE%\.brain-secrets\invoice-payee.json` holds his bank details. Samuel fills it; only `make_invoice.py` reads it, and the agent never opens, prints or copies it. The script writes finished PDFs to `C:\Users\repzy\Desktop\Video edits\Routerise\Invoices\` (Samuel, 2026-10-14; new files only, never overwrites) and masked previews to `C:\Users\repzy\Documents\Invoices\previews\`. The PDFs carry the bank numbers, so they stay out of the Brain.
 
 ## Tools
 Read, write, shell (Python for both scripts), send-file. **No payment, banking or Cowrywise access, ever.**

@@ -17,7 +17,7 @@ Built 2026-10-14. Samuel: *"I want us to work on it and make it look better with
 - `assets/invoice.html`: the A4 layout. `assets/business.json`: brand, his name, email, payment note, clients.
 - **Bank details**: `%USERPROFILE%\.brain-secrets\invoice-payee.json`, outside the Brain (AGENTS.md §6). **Samuel fills it; no AI opens, prints or copies it.** Only the script reads it. `python make_invoice.py check` names any empty field without showing values.
 - Job files (no secrets, kept in the Brain): `03-Areas/finances/invoices/invoice-NNN-<client>-<YYYY-MM-DD>.json`.
-- PDFs: `C:\Users\repzy\Documents\Invoices\` (they hold the bank numbers, so they never go in the Brain). Masked previews: `...\Invoices\previews\`.
+- PDFs: the client's `invoice_folder` in `business.json`. Route Rise: `C:\Users\repzy\Desktop\Video edits\Routerise\Invoices\` (Samuel, 2026-10-14: *"add the invoice to my routerise invoices folder, that's where you will save my invoices"*), named his way: `Samuelvisuals <Month> mid invoice.pdf` for the 30%, `... end invoice.pdf` for the 70%. The script never overwrites a file there. PDFs hold the bank numbers, so they never go in the Brain. Masked previews: `C:\Users\repzy\Documents\Invoices\previews\`.
 
 ## Steps
 
