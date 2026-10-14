@@ -9,7 +9,7 @@ tags: [script, life-of-a-video-editor, outline, draft]
 
 # The Life of a Video Editor, Ep 4: How I stay productive
 
-**Stage:** outline, 2026-09-23. Samuel writes the script from this. (Samuel, 2026-09-24: moved up from Ep 6 — *"I don't feel like doing another video similar to the last, let's mix things up"*.)
+**Stage:** words final 2026-10-14 (below, and in Notion); B-roll next. Was an outline 2026-09-23. (Samuel, 2026-09-24: moved up from Ep 6 — *"I don't feel like doing another video similar to the last, let's mix things up"*.)
 **Series:** [[03-Areas/personal-brand/series/life-of-a-video-editor|The Life of a Video Editor]]. On screen at the start, in bold: *The Life of a Video Editor, Episode 4*. Target 1:30, up to 2:00.
 **Bank:** #26, #28, #22 ([[03-Areas/personal-brand/personal-brand-ideas|ideas]]). Told as the struggle, not as tips. No guru tone.
 
@@ -108,5 +108,60 @@ CTA
 Which rule are you stealing? Tell me in the comments. {point at the camera}
 And follow along, I'm sharing more of my life as a video editor. {walk out of frame}
 ```
+
+### Final words (Samuel's corrections to polished v2, 2026-10-14)
+
+Samuel preferred v2 over v3 (*"I prefer the other last script before this one, let's perfect that one"*), then corrected the polished v2 line by line: TikTok to Instagram throughout, "Watching YouTube", "they gave me 5 days to deliver" (confirms five days), numbering replaced by *First / And then / And lastly*, *"My body starts to feel slow and sleepy"*, *"It makes me go insane"*, *"reduce distractions"*, CTA *"I'd love to know how you deal with procrastination in the comments"*. Put in the Notion page under Script the same day. About 300 words, roughly 1:45.
+
+```
+HOOK
+People keep asking me how I'm so productive.
+Truth is... I'm not.
+But there's one weird thing I do that actually works, and it has nothing to do with editing.
+
+CONTEXT
+I post videos of me working, and the comments keep asking, "Samuel, how are you so productive?"
+And I'm just looking at my phone like... if only you knew.
+Because I am not the best productive person at all, and I'm not going to lie to you that I am.
+
+STRUGGLE
+See, when I look at how much work I have, I get overwhelmed. I feel down.
+And what do I do when I feel down?
+I open Instagram.
+There is this project I had recently. They gave me 5 days to deliver.
+I told myself, "This one no go take long."
+Day one: watching YouTube.
+Day two: Instagram.
+Day three... YouTube and Instagram.
+Day four: omo.
+The last two days, I edited 12 hours a day.
+By the end, my wrist and my hand were begging me to stop.
+
+PIVOT
+That week humbled me.
+But I finally figured out what to do better.
+First, in the morning, my phone goes on silent, and it leaves the room.
+Not my table. Not my pocket. The room.
+And then, I do the hardest work first, because my mind is clear and nobody has messaged me yet.
+From 6:30am to 1pm, I edit. Only edit. Nonstop.
+And lastly, the weird one I told you about.
+I don't eat until 1pm. Just coffee, maybe a small snack.
+Because the moment I eat a heavy breakfast, my body starts to feel slow and sleepy.
+Honestly, that has been my major productivity hack.
+
+RESOLUTION
+But I won't lie to you, I still struggle.
+The overwhelm hasn't gone. When the deadline is tight, it makes me go insane.
+It's not easy. Video editing is not easy. It's stressful.
+But what I am learning now... is to take one job at a time.
+You don't need to feel productive. You just need to reduce distractions.
+And on the days I don't feel like it, I tell myself:
+"Samuel, it has to be done."
+
+CTA
+I'd love to know how you deal with procrastination in the comments.
+```
+
+Read as he wrote it: "But what I am learning now...." taken as the lead-in to "is to take one job at a time" (asked him). 6:30am kept; he didn't change it.
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]
