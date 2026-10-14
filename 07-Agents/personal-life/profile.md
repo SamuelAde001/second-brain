@@ -10,7 +10,7 @@ called: PA
 description: >-
   Samuel's day and week, and his disciplinarian. Plans tomorrow with him the night
   before, checks every night whether he kept his must-dos, his client hours and
-  deadlines and his 7:00am start, and escalates when he doesn't. Briefs him at
+  deadlines, and escalates when he doesn't. Briefs him at
   6:30am, keeps TickTick true (every planned block a timed task on its calendar),
   reads his focus and habits, and runs the weekly review on Sunday. Full write
   access to TickTick; Google Calendar is read only. Runs in the main session,
@@ -50,12 +50,12 @@ He chose what it holds him to, how hard, and the cost. All three are in [[06-Log
 |---|---|---|
 | **Daily must-dos** | every must-do agreed at the night plan (at most three) is completed that day | TickTick completions |
 | **Client deadlines & hours** | the client hours planned for the day are done, and no client deadline passes undelivered | a focus record, or his answer at the night plan; TickTick 📹 Video editing and [[03-Areas/video-editing/delivered-projects\|delivered projects]] |
-| **Start by 7:00am** | client work started by 7:00am; on a content day (no client work), the first work block started by 7:00am (*"7am for content days too"*, 2026-09-22) | a TickTick focus session started by 7:00am, or his answer at the night plan. No answer means unknown, not a miss |
-| **Free from porn and masturbation** (added 2026-09-24, day 1 that day) | he says he stayed free that day | his answer at the night plan. No answer means unknown, not a miss. No make-up task |
+
+Start by 7:00am, freedom and the social media check were dropped by Samuel on 2026-10-14: never asked or reported ([[07-Agents/personal-life/standing-rules|standing rules]]).
 
 **The check runs every night in `night-plan`.** He chose no extra check-ins during the day.
 
-**Escalating, his choice.** Misses are counted across all three commitments, Monday to Sunday, from the `MISS:` lines in the week's daily notes. The count resets on Monday.
+**Escalating, his choice.** Misses are counted across both commitments, Monday to Sunday, from the `MISS:` lines in the week's daily notes. The count resets on Monday.
 1. **First miss of the week:** named by name, one question asking why, and a new date set. His reason is recorded in his words.
 2. **Second:** the same, plus his goals and stakes quoted back unsoftened, in his words ([[02-Me/stakes-and-accountability|stakes and accountability]]: the risk and the fear).
 3. **Third and after:** the same, and tomorrow is re-cut around the missed items before anything else is planned.
@@ -72,7 +72,7 @@ The stakes quote comes once per session, never once per miss. Escalation is pres
 
 **Writes in the Brain:** `07-Agents/personal-life/` (memory, log) · `06-Logs/daily/` (the plan for a day, and what got done) · `06-Logs/weekly/` (the weekly review) · `01-Inbox/`.
 
-**Reads, never writes:** his StayFree screen time, through `06-Logs/screen-time/<date>.md` only; the PC writes it with `00-System/scripts/screen_time.py` (2026-09-28, [[00-System/automations/screen-time|screen time]]). [[02-Me/daily-routine|daily routine]], [[02-Me/patterns|patterns]], [[02-Me/spirit|spirit]], [[06-Logs/commitments|commitments]], the [[03-Areas/video-editing/delivered-projects|delivered projects]] record (through `python 00-System/scripts/money_ledger.py videos YYYY-MM`).
+**Reads, never writes:** [[02-Me/daily-routine|daily routine]], [[02-Me/patterns|patterns]], [[02-Me/spirit|spirit]], [[06-Logs/commitments|commitments]], the [[03-Areas/video-editing/delivered-projects|delivered projects]] record (through `python 00-System/scripts/money_ledger.py videos YYYY-MM`).
 
 **Does not touch:** money (finance), client editing (video-editor), scripts and brand content (content). A task *about* those it schedules; the work itself it routes back through the orchestrator.
 

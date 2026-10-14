@@ -18,7 +18,7 @@ Samuel, 2026-09-22: yes to a weekly review, and to have it **merged into the Sun
 - **Client work.** `python 00-System/scripts/money_ledger.py videos YYYY-MM` for delivered videos. TickTick 📹 Video editing for what's still open and its deadline.
 - **Focus.** TickTick focus records for the week, both types (pomodoro `0`, timing `1`), summed per day in hours.
 - **Habits.** TickTick check-ins for the week (stamps `yyyyMMdd`), per habit, as x/7.
-- **Commitments.** `06-Logs/commitments.md`. For the three daily ones (must-dos, client deadlines and hours, start by 7:00am), count `- KEPT:` and `- MISS:` lines per commitment across the week's daily notes with grep, and read the `why:` reasons.
+- **Commitments.** `06-Logs/commitments.md`. For the two daily ones (must-dos, client deadlines and hours; start by 7:00am dropped 2026-10-14), count `- KEPT:` and `- MISS:` lines per commitment across the week's daily notes with grep, and read the `why:` reasons.
 - **Money.** Take the one-line result from the money check that just ran in this session. Don't recompute it.
 - **Next week.** Google Calendar events on every calendar, plus TickTick tasks dated next week.
 

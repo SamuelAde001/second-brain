@@ -1,11 +1,11 @@
 ---
 name: night-plan
-description: "Plan Samuel's tomorrow with him the night before, and hold him to account. Checks today in TickTick against what was planned (done, not done, moved, added), checks his habits and his commitments (must-dos, client deadlines and hours, a 7:00am start, freedom, no social media in work blocks or 11pm–7am, read from his StayFree screen time), names every miss, applies the make-up rule, lays tomorrow onto his real day in timed chunks, agrees it with him, then writes every block into TickTick as a timed task (never Google Calendar) and a short daily note. Use when a routine opens it at 8:45pm WAT, or when he says 'plan tomorrow', 'plan my day', 'what am I doing tomorrow', 'set up tomorrow', or it's evening and tomorrow isn't planned. Not for the morning read-out (use morning-brief) or the Sunday week plan (use weekly-review)."
+description: "Plan Samuel's tomorrow with him the night before, and hold him to account. Checks today in TickTick against what was planned (done, not done, moved, added), checks gym and his two commitments (must-dos, client deadlines and hours), names every miss, applies the make-up rule, lays tomorrow onto his real day in timed chunks, agrees it with him in one short message, then writes every block into TickTick as a timed task (never Google Calendar) and a short daily note. Use when a routine opens it at 8:45pm WAT, or when he says 'plan tomorrow', 'plan my day', 'what am I doing tomorrow', 'set up tomorrow', or it's evening and tomorrow isn't planned. Not for the morning read-out (use morning-brief) or the Sunday week plan (use weekly-review)."
 effort: high
 type: skill
 area: me
 status: active
-updated: 2026-09-29
+updated: 2026-10-14
 source: interview
 tags: [skill, planning, ticktick, daily]
 ---
@@ -24,7 +24,6 @@ What he asked for on 2026-09-25: *"At night, it needs to check the things I said
 2. `07-Agents/personal-life/profile.md`, then `memory.md`.
 3. `06-Logs/commitments.md`.
 4. **All of today's note** `06-Logs/daily/<today>.md`: the `## Plan` **and every `## Replan` and later section**. A replan changes what today's must-dos mean. On 2026-09-24 the routine read only the plan and asked him about "3 videos" after he had already cut it to one.
-5. **Today's screen time** `06-Logs/screen-time/<today>.md`, written and pushed by the PC at 8:30pm from StayFree (`00-System/scripts/screen_time.py`, [[00-System/automations/screen-time|screen time]]). Pull first. No file = the PC was off or the run failed: say so, ask for a StayFree screenshot of today, and don't count a miss.
 
 ## 1. Gather from TickTick (the record of the day)
 
@@ -42,11 +41,9 @@ If the note has no ID list (an older note, or the plan was made elsewhere), matc
 
 **c. Overdue.** `list_undone_tasks_by_date` for the 14 days before today.
 
-**Social media in work blocks.** Work blocks = today's timed tasks at priority 3 or 5 (from a and b). A block ends at its task's completion time if that came before its end: the rest is free time. Pull, then run `python 00-System/scripts/screen_time.py --date <today> --check "HH:MM-HH:MM,..."` with those blocks (WAT). Add the file's 11:00pm–7:00am figure. Background YouTube (lofi while working) is already excluded by the script.
+**d. Habits.** `list_habits`, then `get_habit_checkins` for all of them, today and Monday to today. Only gym is reported, counted against at least 3 a week. Post content is ticked when he says so, not reported.
 
-**d. Habits.** `list_habits`, then `get_habit_checkins` for all of them, today and Monday to today. For each habit: ticked today or not, and the week so far. Gym is counted against at least 3 a week.
-
-**e. Focus.** `get_focuses_by_time` for today, both types (0 and 1): the earliest start, and the hours on the client job.
+**e. Focus.** `get_focuses_by_time` for today, both types (0 and 1): the hours on the client job. Not the start time.
 
 **f. Tomorrow.** Undone tasks dated tomorrow. Google Calendar events tomorrow, every calendar (read only). Undone tasks in 📹 Video editing due in the next 7 days, and anything priority 5.
 
@@ -60,11 +57,8 @@ Check each commitment from [[06-Logs/commitments|commitments]] for today, using 
 |---|---|---|
 | Daily must-dos | every must-do in today's plan (as changed by any replan) is ticked | one not ticked and he doesn't say it's done. One miss per must-do |
 | Client deadlines & hours | planned client hours done; no deadline passed undelivered | hours short, or a deadline passed |
-| Start by 7:00am | "Start work 7am" ticked, a focus session by 7:00am, or he says yes | he says no |
-| Free from porn and masturbation | he says yes | he says no. No make-up task |
-| No social media in work blocks or 11pm–7am | under 10 min in today's work blocks plus 11pm–7am together, after taking off any YouTube he says was work | 10 min or more. No make-up task. Free time never counts. Missing or stale phone data is never a miss |
 
-No evidence and no answer = unknown, never a miss. If there was no plan for today, the must-dos are today's priority-5 tasks.
+Start time, freedom and screen time were dropped 2026-10-14 ([[06-Logs/commitments|commitments]]): never ask or report them. No evidence and no answer = unknown, never a miss. If there was no plan for today, the must-dos are today's priority-5 tasks.
 
 **How hard to push (his choice, 2026-09-22),** by the week's miss count including today's:
 1. **First miss:** name it, ask why once, give it a new date.
@@ -73,55 +67,32 @@ No evidence and no answer = unknown, never a miss. If there was no plan for toda
 
 **Make-up rule.** A missed must-do becomes tomorrow's must-do #1, in the earliest block that can hold it (on a client day, the first block after the nap). Nothing optional goes ahead of it. Content and routine blocks are not optional. Still at most three must-dos.
 
-## 3. The message — one message, this exact shape
+## 3. The message — one short message, this exact shape
 
-Write to him, not to yourself (standing rules → how the reports must read). Plain words, no internal labels. A blank line between sections. Leave out a section that has nothing in it, except **Today's tasks** and **Tomorrow**.
+Samuel, 2026-10-14: *"they look very complicated to read, make it easy and straight to the point"*. Write to him, not to yourself. Plain words, one line per item, a blank line between sections. Leave out a line that has nothing in it, except **Today** and **Tomorrow**.
 
 ```
-**[PA] Tonight's check — <Day> <YYYY-MM-DD>**
+**[PA] Tonight — <Day> <YYYY-MM-DD>**
 
-**Today's tasks**
+**Today**
 ✅ <task> · <task>
-❌ <task> — not ticked
-↪️ <task> — moved to <day time>
-➕ Also done: <unplanned task>
+❌ <task>
+↪️ <task> → <day>
 
-**Commitments**
-- Must-dos: <n> of <n> done<; missed: task>
-- Client: <job> — <h>h done of <h>h planned · due <date>
-- Started by 7:00: yes / no / ?
-- Free today: day <n> — ?
-- Social media: <time> in work blocks — <app> <time> · <app> <time> · 11pm–7am: <time>
+**Gym:** <n> of 3 this week
+**Client:** <job> — due <date>
+**Missed this week:** <n> <— one short line of his stakes, only from the second miss>
 
-**Habits**
-- Start work 7am: ✅ / ❌
-- Gym: ✅ / ❌ — <n> this week, need 3 by Sunday
-- Post content: ✅ / ❌
-
-**This week:** <n> misses. <one plain sentence on what that means for tomorrow>
-<the stakes quote, only on the second miss of the week or later, once>
-
-**Tomorrow — <Day> <YYYY-MM-DD>**
-Main tasks:
+**Tomorrow — <Day>**
 1. <must-do> — <time> <(missed today)>
 2. …
-Client: <job> — <h>h left, due <date>. <one line if the hours don't fit the days left, with the arithmetic>
 
-Schedule:
-- 6:00–6:30am prayer
-- 7:00–… <block>
-- …
-- 9:00–10:00pm call
-
-**Answer these**
-1. Why was <task> missed?
-2. Did you start by 7:00?
-3. Free today?
-4. How much of the <time> of YouTube in work blocks was work?
-5. Change anything in tomorrow, or go?
+**Answer**
+1. Did <task> get done?
+2. Change anything, or go?
 ```
 
-Question 4 only when YouTube in work blocks is 10 minutes or more.
+At most 3 questions. Never ask about his start time, freedom, screen time, money, the credential file, or a client job already delivered (standing rules → don't ask about).
 
 Rules for the message:
 - Ask only what TickTick can't answer. A ticked habit or task is never asked about.
@@ -134,7 +105,7 @@ Then wait for his answer.
 
 ## 4. On his answer, write it
 
-- **TickTick first.** Tick what he says is done. Check in habits he says he kept (gym, start work, post content). Then tomorrow: every block a timed task, start and end, in the project the [[00-System/ticktick-map|TickTick map]] gives it, reminders at the start and 5 minutes before. Must-dos priority 5, other work 3, routine blocks 0. Client tasks follow the naming rule (*"Alex video (Sep #3) — edit block 4"*). Move what he moved. Delete only on his word.
+- **TickTick first.** Tick what he says is done. Check in habits he says he kept (gym, post content). Then tomorrow: every block a timed task, start and end, in the project the [[00-System/ticktick-map|TickTick map]] gives it, reminders at the start and 5 minutes before. Must-dos priority 5, other work 3, routine blocks 0. Client tasks follow the naming rule (*"Alex video (Sep #3) — edit block 4"*). Move what he moved. Delete only on his word.
 - **Read tomorrow back** from TickTick and check every time landed.
 - **Never Google Calendar.**
 - **If he doesn't answer,** write nothing to TickTick. Record the check in the note (step 5) and stop.
@@ -147,9 +118,8 @@ Then wait for his answer.
   - `- MISS: <commitment> — <what> — why: "<his words>"` (`no answer` if none)
   - `- MOVED: <task> → <new date>` for what moved in TickTick today
   - `- CARRIED: <task> → <new date>` for what he carried tonight
-  - `- Habits: start 7am ✅/❌ · gym ✅/❌ (<n> this week) · post content ✅/❌`
-  - `- Social media: <time> in work blocks (<apps>) · 11pm–7am <time> · YouTube for work: <time> (his word) · counted: <time>`
-- **Tomorrow's note** from the template, only `## Plan` filled: the fixed times, the must-dos (make-ups marked `(make-up)`), the client line in exactly this form: `- Client: <job> — <h>h planned — due <date>`, `- Free: day <n>`. **End the plan with the TickTick IDs of every task written**, hidden in Obsidian:
+  - `- Gym: ✅/❌ (<n> this week)`
+- **Tomorrow's note** from the template, only `## Plan` filled: the fixed times, the must-dos (make-ups marked `(make-up)`), the client line in exactly this form: `- Client: <job> — <h>h planned — due <date>`. **End the plan with the TickTick IDs of every task written**, hidden in Obsidian:
   ```
   %% ticktick: <id> <short title> · <id> <short title> · … %%
   ```

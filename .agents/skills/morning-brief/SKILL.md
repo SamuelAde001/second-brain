@@ -52,7 +52,6 @@ Write to him, not to yourself. Plain words, no internal labels (standing rules �
 **Also dated today, no time yet:** <task> · <task>
 
 **Habits today**
-- Start work 7am — client work starts at 7:00
 - Gym — <n> of 3 this week<; today is / isn't a gym day in the plan>
 - Post content — <only if a content task is planned today>
 
@@ -70,7 +69,7 @@ Rules:
 - **No plan last night?** Say so in one line under the heading, and take the main tasks from today's priority-5 tasks. Don't lecture.
 - An event on Google Calendar that someone else created is listed under **On Google Calendar** as it is. It isn't treated as part of his plan unless it's also in TickTick.
 - If a client video is due today or tomorrow, offer the edit clock once (skill `edit-clock`).
-- No motivational line. No praise. He chose no check-ins during the day, so don't ask him to confirm the 7:00am start; the night check does that.
+- No motivational line. No praise. Short and straight to the point (2026-10-14). Never ask about his start time, freedom, screen time, money, the credential file, or a client job already delivered (standing rules → don't ask about).
 
 ## 3. Only if he answers
 

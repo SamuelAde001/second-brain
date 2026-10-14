@@ -33,7 +33,7 @@ Checked from Claude Code on the new account:
 - [x] **4. Permission IDs.** Swapped in both settings files: TickTick `6f1cbea4-dd7a-49b8-948c-9d212b86965d`, Google Calendar `f1580cca-def5-4557-a3af-bef3139f7e0a`.
 - [x] **5. GitHub** connected on the new account by Samuel; the test run cloned the repo.
 - [x] **6. Routines rebuilt** in a new cloud environment `Default` (`env_01Q12cyHPZ9WDEqLkNm8vTFi`): Morning brief `trig_01BaBcE4pPcSJ8tAgXfVAkVV` (Sonnet 5.5), Night plan `trig_01VEkuULMBcqFWrFyWCB3y3q` (Opus 5.5), both with TickTick and Google Calendar. Morning brief fired by hand 2026-10-06 17:00 WAT: cloned, synced, loaded both connectors. 
-- [ ] **Old routines off** on the old account (Samuel): the new night plan fires tonight at 8:45pm, so the old one must be off before then or he gets two.
+- [x] **Old routines off.** Samuel cancelled them 2026-10-14. Was: on the old account (Samuel): the new night plan fires tonight at 8:45pm, so the old one must be off before then or he gets two.
 - [x] **7. Sunday task.** It did not survive the switch (no scheduled tasks listed). Recreated from the canonical prompt in [[00-System/automations/sunday-money-check|sunday-money-check]], cron `0 15 * * 0`. First run Sunday 2026-10-11.
 - [ ] **8. Skill zips** and **9. chat memory**: Samuel, on claude.ai.
 - [ ] **Terminal CLI** (`claude auth status`): logged out. Samuel runs `claude auth login` with the new account if he wants `claude` in a terminal.

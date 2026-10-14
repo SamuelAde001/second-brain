@@ -1,8 +1,8 @@
 ---
 type: project
 area: video-editing
-status: active
-updated: 2026-10-07
+status: done
+updated: 2026-10-14
 source: manual
 tags: [client, routerise, long-form]
 ---
@@ -363,7 +363,9 @@ Samuel's last 5 red markers (597, 1046, 1743, 5431, 5922), fixed in place on *Vi
 - **5431:** fuel poured on a campfire (Flow Omni Flash, 1080p upscale; no good real footage on YouTube), fireball on 'fire'. V3 5431-5511. Source: job `B-roll\`.
 - **5922:** the STEP 1 pill alone, same design as steps 2-7.
 
-Builders: `Graphics\Visuals v1\compsev10\S\build_S_m1010.py` (sdevice.py gained `hide_dim` and `shared_except`). Install manifest: `Docs\Editor working files (2026-10-10)\m1010_install.json`. Backups of the replaced comps: `%TEMP%r10\backup_m1010\`.
+Builders: `Graphics\Visuals v1\comps
+ev10\S\build_S_m1010.py` (sdevice.py gained `hide_dim` and `shared_except`). Install manifest: `Docs\Editor working files (2026-10-10)\m1010_install.json`. Backups of the replaced comps: `%TEMP%
+r10\backup_m1010\`.
 
 **Render:** H.264 MP4, 1080p, in 10 chunks in `Final render 2026-10-10 (Editor)\chunks\`; never the render cache, never ProRes (Samuel). `join_chunks.py join auto` joins them without re-encoding the picture. Status and resume steps: `RESUME NOTE.md` in that folder.
 
@@ -378,3 +380,5 @@ Builders: `Graphics\Visuals v1\compsev10\S\build_S_m1010.py` (sdevice.py gained
 **4K re-render, 2026-10-13 (Editor).** Samuel made more corrections on *Visuals v3 final (Editor)* and queued a full-length 4K H.265 render (`chunks\intro v2\v2.mp4`). It stopped at 69% on 2026-10-12 23:46 and left a 2.6 GB partial file there. His call today: **4K H.265, re-render everything**. The timeline is 1080p, so Resolve upscales it on render. His preset *4K H265 MASTER HIGH* (NVENC, 3840x2160, MP4, AAC 320k) is used for the same 10 chunks + 9 seams, written to `Final render 4K 2026-10-13 (Editor)\chunks\` and joined with that folder's copy of `join_chunks.py` (VERSIONS empty, output `...FINAL 4K (2026-10-13).mp4`). Batches: (1) the 9 seams + chunks 01-03, then Resolve is relaunched (memory leak), (2) 04-06, (3) 07-08, (4) 09-10. Status: `RESUME NOTE.md` in that folder. C: had 27 GB free at the start.
 
 **4K re-render done, 2026-10-13 (Editor).** `Final render 4K 2026-10-13 (Editor)\The Most Valuable AI B2B Marketing Training - FINAL 4K (2026-10-13).mp4`: 3840x2160 H.265 + AAC 320k, 29,967 frames, 20:49.87, 3.55 GB. Every chunk's frame count is exact, all 9 seams patched, the full decode is clean and the contact sheet is correct. Batches took 50 / 22 / 7 / 19 min. Not sent to Route Rise; that's Samuel's call. His partial `chunks\intro v2\v2.mp4` (2.6 GB) in the old folder is still there until he says it can be deleted.
+
+**Delivered (2026-10-14, Samuel):** *"ROute Rise AI B2B and apollo has been done and sent"*. Exact send date not given. Still to do by the Editor: the delivered-projects row, the end-of-job review and the move to `08-Archive/projects/`.

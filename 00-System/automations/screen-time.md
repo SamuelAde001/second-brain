@@ -1,13 +1,15 @@
 ---
 type: sop
 area: me
-status: active
-updated: 2026-09-28
+status: paused
+updated: 2026-10-14
 source: interview
 tags: [automation, screen-time, social-media, stayfree]
 ---
 
 # Screen time (automation)
+
+**Switched off 2026-10-14.** Samuel: *"Stop logging the screen time, it has not been helpful"*. Task Scheduler task disabled, not deleted; the script and old files stay. Below is how it worked.
 
 **Every day at 8:30pm WAT** the PC writes today's StayFree screen time into the Brain and pushes it to GitHub, so the 8:45pm [[00-System/automations/night-plan|night plan]] (a cloud routine that can't see the PC) can check the commitment *no social media in work blocks or 11:00pm–7:00am* ([[06-Logs/commitments|commitments]], 2026-09-28).
 

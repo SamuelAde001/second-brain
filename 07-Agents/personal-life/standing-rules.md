@@ -2,7 +2,7 @@
 type: agent
 area: me
 status: active
-updated: 2026-09-29
+updated: 2026-10-14
 source: interview
 tags: [agent, personal-life, rules, planning]
 ---
@@ -50,9 +50,10 @@ Why it exists. Samuel, 2026-09-25: *"they forget things that I have settled befo
 
 | Habit | What counts | How it's checked |
 |---|---|---|
-| **Start work 7am** | client work (or on a content day, the first work block) started by 7:00am | habit check-in, a focus session by 7:00am, or his word. It is also a commitment. |
 | **Gym 5pm** | **at least 3 times a week**, days picked by how heavy the day's work is | habit check-in or his word; the agent checks in the habit when he says he went. *"minimum of 3X a week"* (2026-09-22) **The gym is closed on Sundays:** *"Gym doesn't open on Sunday"* (2026-09-27), so the 3 go Mon–Sat. |
 | **Post content** | a Reel, TikTok or carousel went out that day (a Story doesn't count) | habit check-in or his word. Reported, not escalated. (2026-09-22) |
+
+**Start work 7am is not checked or asked about** (2026-10-14): *"Stop asking me when I started work, it always varies based on the work of the day"*. The TickTick habit can stay; nobody reports it.
 
 Other habits, from [[02-Me/daily-routine|daily routine]], aren't tracked in TickTick: sleep and phone away by about 11:00pm. Social media only while eating is now a commitment, below.
 
@@ -61,20 +62,20 @@ Other habits, from [[02-Me/daily-routine|daily routine]], aren't tracked in Tick
 Full list and start dates: [[06-Logs/commitments|commitments]]. Checked every night:
 1. **Daily must-dos** done.
 2. **Client deadlines and hours** kept.
-3. **Start by 7:00am**, content days too.
-4. **Free from porn and masturbation.** Day 1 was 2026-09-24. Ask plainly: *"Free today?"* Speak of it in his frame: freed by Christ, by grace.
-5. **No social media while he's meant to be working, or at bedtime and early morning** (2026-09-28). *"Social media should not be used when I am activly beant to be doing a work … if I don't have client work and I just want to spend time on youtube, or I am done with the task for that moment I can use Social media, but obviously not late in the night when it's time for bed and not early mornings"*. It is **not** limited to meals; he rejected that the same day.
-   - **Work blocks** = today's timed TickTick tasks at priority 3 or 5 (routine blocks are 0). A block ends early when its task was ticked before its end time: after that it's free time.
-   - **Bedtime and early morning = 11:00pm–7:00am** (phone away by 11pm; work starts 7am). The hours are the PA's reading of "late in the night" and "early mornings", not his words yet.
-   - Free time is his. Social media outside those two is never a miss.
-   - **YouTube counts as social media.** *"YouTube counts as social media but sometimes it's used for work"*. Ask how much of the YouTube in work blocks was work; his word stands and that part isn't counted.
-   - **Lofi while working doesn't count.** *"I sometimes listen to Lofi from youtube when working"* (2026-09-28). The script only counts Chrome sites while Chrome is the window in front, so a background YouTube tab is excluded. On the phone, Android only counts the app on screen.
-   - **A miss is 10 minutes or more** in work blocks and 11pm–7am together (PA's default, not his words yet).
-   - Checked from StayFree, not asked: the PC writes `06-Logs/screen-time/<today>.md` at 8:30pm; the night plan gets the work-block minutes with `screen_time.py --check`.
-   - WhatsApp is messaging, not social media. Reported, never a miss.
-   - No file, or phone data marked missing or stale: say so and ask for a StayFree screenshot. Never a miss on missing data.
+
+**Dropped 2026-10-14, his words. Don't ask, don't report:**
+- Start by 7:00am: *"Stop asking me when I started work, it always varies based on the work of the day"*.
+- Free from porn and masturbation: *"Stop asking if I am free, I have been inconsistent"*. Not asked, not counted.
+- Social media and screen time: *"Stop logging the screen time, it has not been helpful"*. The StayFree script is switched off; there is no social media check.
 
 No answer to a question means unknown, never a miss.
+
+## Don't ask about (2026-10-14)
+
+Samuel: *"why are you still asking me"*.
+- **Delivered client jobs.** Route Rise AI B2B and Apollo are done and sent. Check the job note and build-state before asking whether something shipped.
+- **Money.** It is handled with the Money man in its own sessions. PA checks and briefs carry no money items. *"I am done with money man, why asking me"*.
+- **The credential file on the Desktop.** *"Don't worry about the credentials, stop asking me"*.
 
 ## How the reports must read (2026-09-25)
 
@@ -84,5 +85,6 @@ Samuel: *"it sends report not well formatted for me to understand like it's talk
 - Short headed sections, one item per line, a blank line between sections. Never one run-on paragraph. His phone shows markdown, and lines without a bullet or a blank line between them run together.
 - **The main tasks for the day come first**, from TickTick, with their times. Then the rest of the schedule.
 - Questions go at the end, numbered, so he can answer "1 yes, 2 no".
+- **Short and straight to the point (2026-10-14).** *"I am always missing the checks, also they look very complicated to read, make it easy and straight to the point"*. Done, not done, gym, client, tomorrow, questions. Nothing else. At most 3 questions. One line per item.
 
 Back to [[07-Agents/personal-life/profile|PA profile]]

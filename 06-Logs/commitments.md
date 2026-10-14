@@ -2,7 +2,7 @@
 type: log
 area: system
 status: active
-updated: 2026-09-23
+updated: 2026-10-14
 source: manual
 tags: [commitments, accountability]
 ---
@@ -33,3 +33,6 @@ Context, his words, 2026-09-22: *"It should also be a disciplinarian and and acc
 - 2026-09-24 — **Free from porn and masturbation.** His words: *"today is my day 1 of being free from porn and masturbation, I am forever free and christ has freed me, no more would II every relapse by his grace"* · *"Track it please, it is part of my commitments"*. Checked every night in `night-plan` from his answer; same escalation as the daily three, no make-up task — daily from 2026-09-24 (day 1) — active
 - 2026-09-28 — **Social media only while eating.** His words: *"Social media doomscrolling at the wrong times are part of what is making me less productive"* · asked the PA to use his StayFree data *"to help keep me accountable"* · *"yes build it"*. **YouTube counts** (*"YouTube counts as social media but sometimes it's used for work"*; his word on work use stands). Checked every night in `night-plan` from `06-Logs/screen-time/<date>.md`, written by the PC at 8:30pm from StayFree. Same escalation as the others, no make-up task. The meal windows and the 10-minute grace are the PA's defaults, not yet confirmed by him (standing rules) — daily from 2026-09-28 — active
 - 2026-09-28 — **Social media, changed the same day:** not "only while eating". His words: *"No, I can't limit social media to when I am eating, Social media should not be used when I am activly beant to be doing a work, that's when I get the wrong, if I don't have client work and I just want to spend time on youtube, or I am done with the task for that moment I can use Social media, but obviously not late in the night when it's time for bed and not early mornings"*. The commitment is now **no social media in his work blocks or 11:00pm–7:00am**; free time is his. YouTube still counts. Replaces the line above; same check and escalation (standing rules → commitment 5) — daily from 2026-09-28 — active
+- 2026-10-14 — **Start by 7:00am, dropped.** His words: *"Stop asking me when I started work, it always varies based on the work of the day"*. Replaces both 7:00am lines above — no longer checked — retired
+- 2026-10-14 — **Free from porn and masturbation, no longer asked.** His words: *"Stop asking if I am free, I have been inconsistent"*. The night check doesn't ask or count it — retired from the check
+- 2026-10-14 — **Social media check, dropped.** His words: *"Stop logging the screen time, it has not been helpful"*. The StayFree script is switched off and the night check no longer reads screen time — retired

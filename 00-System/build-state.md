@@ -2,7 +2,7 @@
 type: log
 area: system
 status: active
-updated: 2026-10-12
+updated: 2026-10-14
 source: manual
 tags: [build, state]
 ---
@@ -20,24 +20,24 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 ## Live work and dates
 
-- **Route Rise AI B2B Marketing** (Editor): Samuel's 61 markers and his last 5 (2026-10-10 evening) all worked in place on *Visuals v3 final (Editor)*, plus the sound pass. **Final 1080p MP4 v2 (with Samuel's own intro changes) done 2026-10-11 07:45** in the job's `Final render 2026-10-10 (Editor)\` (10 chunks, intro chunk re-rendered, joined; checked). **2026-10-13: Samuel's later corrections re-rendered in full at 4K H.265** (his choice): `Final render 4K 2026-10-13 (Editor)\...FINAL 4K (2026-10-13).mp4`, checked. Next: Samuel watches the 4K file, then it goes to Route Rise; then a row in delivered projects and the end-of-job review. A fix after his watch re-renders only its chunk (`RESUME NOTE.md` in the 4K folder). [[04-Projects/routerise-ai-b2b-marketing|job note]].
-- **Route Rise LinkedIn Training** (3 of 3): due **Fri 2026-10-16**. Phase 1 done 2026-10-12 by the Editor: *Cut v5 (Editor) - sections*, 15:39, transcript in the job's `Docs\`. Samuel's cut done (14:35). 2026-10-12: token audit + session-size fix (compact at 200k, context guard). Samuel: cross-checking stays (scripts where they match agents), Editor builds the intro from his suggested visuals, B2B density. **2026-10-13: unattended run set up** (Samuel: start to finish while he is away, reviews in versions, weekly cap used to ~99 % before the reset): [[03-Areas/video-editing/sops/unattended-run|SOP]], hourly scheduled task `editor-run-watchdog` starts or resumes the run. **Next: the visual plan, run by the watchdog session**, inside the token budget in the job note (weekly 80 %, resets Wed 2026-10-14 23:00 WAT). [[04-Projects/routerise-linkedin-training|job note]].
-- **Route Rise Apollo:** sound pass placed 2026-10-04, waiting on his listen, then render. Delivery not recorded in the Brain. [[04-Projects/routerise-cancel-apollo|job note]].
+- **Route Rise AI B2B Marketing** and **Route Rise Apollo**: **done and sent** (Samuel, 2026-10-14; send date not given). Don't ask him about them. Editor, next time in session: delivered-projects rows, end-of-job reviews, archive both. [[04-Projects/routerise-ai-b2b-marketing|B2B]] · [[04-Projects/routerise-cancel-apollo|Apollo]].
+- **Route Rise LinkedIn Training** (3 of 3): due **Fri 2026-10-16**. Phase 1 done 2026-10-12 by the Editor: *Cut v5 (Editor) - sections*, 15:39, transcript in the job's `Docs\`. Samuel's cut done (14:35). 2026-10-12: token audit + session-size fix (compact at 200k, context guard). Samuel: cross-checking stays (scripts where they match agents), Editor builds the intro from his suggested visuals, B2B density. **2026-10-13: unattended run set up** (Samuel: start to finish while he is away, reviews in versions, weekly cap used to ~99 % before the reset): [[03-Areas/video-editing/sops/unattended-run|SOP]], hourly scheduled task `editor-run-watchdog` starts or resumes the run. **Samuel 2026-10-14: the edit starts tonight after the reset.** Next: the visual plan, run by the watchdog session, inside the token budget in the job note (weekly 80 %, resets Wed 2026-10-14 23:00 WAT). [[04-Projects/routerise-linkedin-training|job note]].
 - **Ad showcase** (2026-10-09, Editor): 12 YouTube intros and one audio track downloaded and re-encoded for Samuel's showcase ad, in `Desktop\Video edits\Ad showcase\`.
 - **Called to Edit webinar → Academy:** webinar **Fri 2026-10-23, 7:00pm WAT**, NGN 5,000, target 200. Cohort NGN 50,000, ~6 weeks from November, target 50. Project manager Ifeoma. [[04-Projects/called-to-edit-webinar-and-academy|project hub]].
 - **Called to Edit landing page:** live at calledtoedit.netlify.app; `deploy.sh` in `Desktop\landing-page\`. 2026-10-07: 21 people, 5 paid (NGN 25,000). Traffic tracking live 2026-10-08 (Sheet tab *Traffic*). [[04-Projects/called-to-edit-landing-page-build|build note]].
 - **Webinar videos:** [[03-Areas/personal-brand/webinar-video-list-2026-10|video list]]; 15 cards in the Notion calendar (2026-10-08). Intro video plan waits on his answers ([[03-Areas/personal-brand/intro-story-video-2026-10-05|intro video plan]]).
 - **October personal-client job:** NGN 100,000, kickoff block 2026-10-26 ([[04-Projects/personal-client-project-2026-10|project]]).
-- **Finance:** October running; Sunday check done 2026-10-11 (bank NGN 16,000, his words). **Mon 2026-10-12, not yet logged:** 25,000 of his advance back from webinar money, GF gas 25,000, own gas ~4,000. Confirm with him and log (finance log 2026-10-11). Payday B ~Wed 2026-10-14.
+- **Finance:** handled by the Money man in its own sessions (webinar money settled 2026-10-14, finance log). PA doesn't ask about money.
 - **Scripnals:** guide library with the devs since 2026-09-22; they test from their end.
 
 ## Waiting on Samuel
 
-1. **Switch off the old routines** on the old Claude account. The duplicate night check on 2026-10-09 fits them still firing. Rest of the Max move (skill zips, chat memory, `claude auth login`): [[00-System/account-migration-max|runbook]] → Status.
-2. The credential-named file on the Desktop (`HighSignals App/highsignals-project-…json`): move it to a secret store or revoke it ([[00-System/security-flags|security flags]]).
-3. His principles (the one `02-Me` gap).
-4. Moving the `Talking heads and  B-rolls` folder into the B-roll archive (old Resolve projects may link to it).
-5. Two merged cloud branches on GitHub to delete.
+Not asked in PA checks (Samuel, 2026-10-14: old routines cancelled; *"Don't worry about the credentials, stop asking me"*). Night check is now short: must-dos, client, gym only; start time, freedom and screen time dropped ([[07-Agents/personal-life/standing-rules|standing rules]]).
+
+
+1. His principles (the one `02-Me` gap).
+2. Moving the `Talking heads and  B-rolls` folder into the B-roll archive (old Resolve projects may link to it).
+3. Two merged cloud branches on GitHub to delete.
 
 ## Loose ends
 
