@@ -178,6 +178,12 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-13 | bulk | 6,000 | Giving, someone in need | Giving | his words: "gave 6,000 to someone who was in need yesterday" (said 2026-10-14) |
 | 2026-10-13 | bulk | 5,500 | Feeding | Feeding | his words: "spent 5,500 on feeding again yesterday" (said 2026-10-14) |
 | 2026-10-14 | correction | — | 2026-10-14 major -8,580 Webinar ads refund: landed 2026-10-13, not 10-14 | — | his words: "recieved the 8580 yesterday from the ads"; same month, totals unchanged |
+| 2026-10-12 | bulk | 12,000 | Girlfriend's gas (part 1 of 25,000) | Girlfriend extras | his words: "Her 25k gas has left" (said 2026-10-14); split as agreed 2026-10-11 |
+| 2026-10-12 | bulk | 13,000 | Girlfriend's gas (part 2 of 25,000) | Extra cash | same transfer |
+| 2026-10-14 | bulk | 8,580 | Girlfriend's subscription (part 1 of 30,000) | Girlfriend extras | his words: "The Sub is paid today"; the released ads money, plan changed 2026-10-14 |
+| 2026-10-14 | bulk | 4,659 | Girlfriend's subscription (part 2 of 30,000) | Extra cash | same payment; empties Extra cash |
+| 2026-10-14 | bulk | 1,500 | Girlfriend's subscription (part 3 of 30,000) | Personal / misc | same payment; Rule 8 cut order |
+| 2026-10-14 | bulk | 15,261 | Girlfriend's subscription (part 4 of 30,000) | Chores / household | same payment; Rule 8 cut order (creator visits is 0); his own gas ~4,000 not happening (his words) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
