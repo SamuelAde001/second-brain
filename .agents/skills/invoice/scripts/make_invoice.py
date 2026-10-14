@@ -52,35 +52,6 @@ def fmt(v):
     return f"{v:,.2f}"
 
 
-ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
-TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
-
-
-def words(n):
-    if n < 20:
-        return ONES[n]
-    if n < 100:
-        return TENS[n // 10] + ("-" + ONES[n % 10] if n % 10 else "")
-    if n < 1000:
-        return ONES[n // 100] + " hundred" + (" " + words(n % 100) if n % 100 else "")
-    for size, name in ((10**9, "billion"), (10**6, "million"), (1000, "thousand")):
-        if n >= size:
-            return words(n // size) + " " + name + (" " + words(n % size) if n % size else "")
-
-
-CURRENCY_WORDS = {"USD": ("US dollars", "cents"), "NGN": ("naira", "kobo"), "GBP": ("pounds", "pence")}
-
-
-def amount_in_words(v, cur):
-    major, minor = CURRENCY_WORDS.get(cur, (cur, "cents"))
-    whole = int(v)
-    cents = int((v - whole) * 100)
-    s = f"{words(whole)} {major}"
-    if cents:
-        s += f" and {words(cents)} {minor}"
-    return s[0].upper() + s[1:]
-
-
 def long_date(iso):
     d = date.fromisoformat(iso)
     return f"{d.day} {d.strftime('%B %Y')}"
@@ -110,78 +81,70 @@ def render(job, biz, payee):
     cur = job.get("currency", "USD")
     client = biz["clients"][job["client"]]
     items = job["items"]
-    subtotal = sum((money(i["amount"]) for i in items), Decimal("0"))
+    rates = [money(i["amount"]) for i in items]
+    subtotal = sum(rates, Decimal("0"))
 
-    # Item rows
-    rows = []
-    for n, it in enumerate(items, 1):
-        sub = f'<div class="note">{e(it["detail"])}</div>' if it.get("detail") else ""
-        rows.append(f'<tr><td>{e(it["description"])}{sub}</td><td class="amt">{fmt(money(it["amount"]))}</td></tr>')
-
-    # What this invoice bills: the whole subtotal, or a stage of it (70% / 30%)
-    summary = []
+    # What this invoice bills: the whole total, or a stage of it (70% / 30%)
     stage = job.get("stage")
     if stage:
+        pct = Decimal(str(stage["percent"]))
         if "amount" in stage:
             billed = money(stage["amount"])
         elif stage.get("rest_of"):
             # 30% stage: total minus the rounded 70%, so the two always add up to the total
-            billed = subtotal - money(subtotal * Decimal(stage["rest_of"]) / 100)
+            billed = subtotal - money(subtotal * Decimal(str(stage["rest_of"])) / 100)
         else:
-            billed = money(subtotal * Decimal(stage["percent"]) / 100)
-        summary.append((stage["label"], billed, stage.get("note", "")))
+            billed = money(subtotal * pct / 100)
+        shares = [money(r * pct / 100) for r in rates]
+        shares[-1] += billed - sum(shares)  # the rows add up to the billed total
     else:
         billed = subtotal
+
+    heading = job.get("items_heading") or f"{job.get('period', '')} videos".strip()
+    head = f'<tr><th>{e(heading)}</th><th class="amt">Rate</th>'
+    head += f'<th class="amt">{e(stage["percent"])}%</th></tr>' if stage else "</tr>"
+    rows = []
+    for i, it in enumerate(items):
+        cells = f'<td>{e(it["description"])}</td><td class="amt">{fmt(rates[i])}</td>'
+        if stage:
+            cells += f'<td class="amt">{fmt(shares[i])}</td>'
+        rows.append(f"<tr>{cells}</tr>")
+    total = f'<tr class="total"><td>Total</td><td class="amt">{fmt(subtotal)}</td>'
+    total += f'<td class="amt">{fmt(billed)}</td></tr>' if stage else "</tr>"
+    rows.append(total)
     due = billed
     for x in job.get("extras", []):
         amt = money(x["amount"])
         due += amt
-        summary.append((x["label"], amt, x.get("note", "")))
+        gap = "<td></td>" if stage else ""
+        rows.append(f'<tr class="extra"><td>{e(x["label"])}</td>{gap}<td class="amt">{fmt(amt)}</td></tr>')
 
-    sum_rows = "".join(
-        f'<tr><td>{e(lbl)}{f"<div class=note>{e(note)}</div>" if note else ""}</td><td class="amt">{fmt(a)}</td></tr>'
-        for lbl, a, note in summary)
-
-    bill_to = "<br>".join([f"<strong>{e(client['name'])}</strong>", *(e(x) for x in client.get("address", []))])
-    if job.get("attention") or client.get("attention"):
-        bill_to += f'<br><span class="grey">Attn: {e(job.get("attention") or client.get("attention"))}</span>'
+    who = [f"<strong>{e(biz['owner'])}</strong>"] + [e(x) for x in payee["street"]] + [e(biz["email"])]
+    bill = [f"<strong>{e(client['name'])}</strong>"] + [e(x) for x in client.get("address", [])]
+    if client.get("email"):
+        bill.append(e(client["email"]))
 
     pay_rows = "".join(f"<tr><td>{e(k)}</td><td>{e(v)}</td></tr>" for k, v in [
         ("Account name", payee["account_name"]), ("Bank", payee["bank"]),
-        ("Account number", payee["account_number"]), ("Routing number (ACH)", payee["routing_number"]),
+        ("Account number", payee["account_number"]), ("Routing number", payee["routing_number"]),
         ("Account type", payee["account_type"]), ("Bank address", payee["bank_address"])])
 
-    count = len(items)
-    period = job.get("period", "")
-    subtotal_label = job.get("subtotal_label") or f"Total for {period} ({count} video{'s' if count != 1 else ''})"
     fields = {
         "TITLE": f"Invoice {job['number']} · {biz['brand']}",
         "BRAND_A": e(biz["brand_parts"][0]), "BRAND_B": e(biz["brand_parts"][1]),
-        "TAGLINE": e(biz["tagline"]),
         "NUMBER": e(job["number"]),
         "ISSUED": long_date(job["issued"]),
         "DUE": e(job.get("due", biz.get("default_due", "On receipt"))),
-        "PERIOD": e(period),
-        "REFERENCE": e(job.get("reference", "")),
-        "FROM": "<br>".join([f"<strong>{e(biz['owner'])}</strong>", *(e(x) for x in payee["street"]), e(biz["email"])]),
-        "BILL_TO": bill_to,
+        "FROM": "<br>".join(who),
+        "BILL_TO": "<br>".join(bill),
+        "HEAD": head,
+        "ROWS": "".join(rows),
         "CUR": cur,
         "DUE_AMOUNT": fmt(due),
-        "DUE_WORDS": e(amount_in_words(due, cur)),
-        "ITEMS_HEAD": e(job.get("items_heading", "Video")),
-        "ROWS": "".join(rows),
-        "SUBTOTAL_LABEL": e(subtotal_label),
-        "SUBTOTAL": fmt(subtotal),
-        "SUMMARY_ROWS": sum_rows,
         "PAY_ROWS": pay_rows,
         "PAY_NOTE": e(biz["payment_note"]),
-        "PAY_REF": e(f"Payment reference: Invoice {job['number']}."),
-        "THANKS": e(job.get("thanks", biz["thanks"])),
-        "EMAIL": e(biz["email"]),
     }
     out = TEMPLATE.read_text(encoding="utf-8")
-    if not fields["REFERENCE"]:
-        out = out.split("<!--REF_START-->")[0] + out.split("<!--REF_END-->")[1]
     for k, v in fields.items():
         out = out.replace("{{" + k + "}}", str(v))
     return out, due

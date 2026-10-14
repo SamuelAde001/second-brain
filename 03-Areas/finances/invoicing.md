@@ -91,6 +91,8 @@ Samuel's choices, 2026-10-14:
 
 Kept from his old layout: the SAMUELVISUALS wordmark in green and the line asking Route Rise to pay by Wise to the account details, not to his email. Dates print as "14 October 2026", not 10/14/2026, so a UK or US reader can't misread them.
 
+**Revised the same day, bold** (Samuel: *"Make it bold and more legible, and add colors to where colors are needed ... Unneccesary wordings should be removed"*, after sending Route Rise's own template). It now follows their template's fields: From, Bill to with Route Rise's address and email (9 Commercial Yard, DL12 8FE, Barnard Castle, United Kingdom; routerisemedia@gmail.com), a Rate column and a 70% / 30% column per video, the amount owed, and payment details. Their template also asks for an **ID number**; Samuel has none (2026-10-14), so it's left off. Big bold type, a green table header and a dark green amount-due bar, the Wise line in red. Removed: work period, reference line, footer, the thank-you line.
+
 ## Invoice register
 
 Newest at the bottom. The amount is what that invoice asks for.

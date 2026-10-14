@@ -81,3 +81,4 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - 2026-10-14 · Money man · Webinar payback 57,735 stays as spending money, not Goal 1 (his words). Goal 1 October = B 199,752 only.
 - 2026-10-14 · Money man · GF subscription 30,000 paid (his words), same four-line split. Derived bank 9,331.
 - 2026-10-14 · Money man · Invoice redesign + `invoice` skill built (Samuel's ask). Invoice #14: September 30% balance USD 399.99 + bonus USD 25.00 = USD 424.99, Route Rise, dated 2026-10-14, due on receipt. Bank details moved to a private payee file outside the Brain (Samuel fills the two numbers). Masked preview checked: one page.
+- 2026-10-14 · Money man · Invoice redesigned bold after Samuel sent Route Rise's template: their fields (client address + email, Rate and 30%/70% column), green header and amount-due bar, extra wording cut. No ID number (Samuel has none). #14 preview rebuilt, one page.

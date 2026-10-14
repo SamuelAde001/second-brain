@@ -1,18 +1,24 @@
 {
   "brand": "SAMUELVISUALS",
-  "brand_parts": ["SAMUEL", "VISUALS"],
-  "tagline": "Video editing · Abuja, Nigeria",
+  "brand_parts": [
+    "SAMUEL",
+    "VISUALS"
+  ],
   "owner": "Samuel Adebayo",
   "email": "repzysam@gmail.com",
   "file_prefix": "SamuelVisuals",
   "default_due": "On receipt",
-  "payment_note": "Pay by USD bank transfer straight to the account details here. Wise works best. Please don't send payment to my email address.",
-  "thanks": "Thank you for your business.",
+  "payment_note": "Pay through Wise directly to the account details above. Don't use my email.",
   "clients": {
     "routerise": {
       "name": "Route Rise Media LTD",
       "short": "RouteRise",
-      "address": []
+      "address": [
+        "9 Commercial Yard, DL12 8FE",
+        "Barnard Castle",
+        "United Kingdom"
+      ],
+      "email": "routerisemedia@gmail.com"
     }
   }
 }

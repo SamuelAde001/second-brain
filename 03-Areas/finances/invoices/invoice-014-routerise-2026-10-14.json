@@ -5,13 +5,33 @@
   "client": "routerise",
   "currency": "USD",
   "period": "September 2026",
-  "reference": "Balance of invoice #13",
   "items": [
-    {"description": "The Only Claude Dropshipping Guide You'll Ever Need in 2026 (For Beginners)", "amount": "333.33"},
-    {"description": "$7M Founder: How I Use Claude for Cold Outreach (B2B Sales)", "amount": "333.33"},
-    {"description": "Taking a Step Back from Claude (and Why You Should Too)", "amount": "333.33"},
-    {"description": "I Tried 100+ AI Tools. These 4 Are Best for Businesses", "amount": "333.33"}
+    {
+      "description": "The Only Claude Dropshipping Guide You'll Ever Need in 2026 (For Beginners)",
+      "amount": "333.33"
+    },
+    {
+      "description": "$7M Founder: How I Use Claude for Cold Outreach (B2B Sales)",
+      "amount": "333.33"
+    },
+    {
+      "description": "Taking a Step Back from Claude (and Why You Should Too)",
+      "amount": "333.33"
+    },
+    {
+      "description": "I Tried 100+ AI Tools. These 4 Are Best for Businesses",
+      "amount": "333.33"
+    }
   ],
-  "stage": {"label": "30% balance of the September total", "amount": "399.99", "note": "The 70% was billed on invoice #13."},
-  "extras": [{"label": "Bonus", "amount": "25.00"}]
+  "stage": {
+    "label": "30% balance of the September total",
+    "percent": 30,
+    "amount": "399.99"
+  },
+  "extras": [
+    {
+      "label": "Bonus",
+      "amount": "25.00"
+    }
+  ]
 }
