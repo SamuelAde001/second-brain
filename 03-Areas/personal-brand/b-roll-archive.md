@@ -2,7 +2,7 @@
 type: knowledge
 area: personal-brand
 status: active
-updated: 2026-09-24
+updated: 2026-10-14
 source: local-folder
 tags: [b-roll, archive, footage, catalogue]
 ---
@@ -20,44 +20,46 @@ The catalogue of Samuel's B-roll for @SamuelSignals. Use it to storyboard an epi
 
 ## Folders
 
-Clip counts on disk after the 2026-09-24 sorts (the morning archive sort plus the Ep 3 shoot, filed the same afternoon).
+Clip counts on disk after the 2026-10-14 sort ([[03-Areas/personal-brand/b-roll-archive-2026-10-14|filed 2026-10-14]]: the two Called to Edit shoots and the 2026-07-29 shoot).
 
-| Folder | Clips | Added 2026-09-24 |
+| Folder | Clips | Added 2026-10-14 |
 |---|---|---|
 | Balcony and Outdoors | 3 | 0 |
-| Bathroom | 4 | 2 |
-| Bed | 11 | 9 |
-| Bible study | 2 | 0 |
-| Bicycle | 3 | 3 |
+| Bathroom | 4 | 0 |
+| Bed | 13 | 2 |
+| Bible study | 8 | 6 |
+| Bicycle | 3 | 0 |
 | Cleaning and reset | 0 | 0 |
-| Desk and Setup | 64 | 47 |
-| Eating | 7 | 7 |
-| Editing | 20 | 18 |
-| Face and Reaction | 30 | 20 |
-| Gym and Fitness | 27 | 27 |
-| Journal | 10 | 5 |
-| Keyboard and hands | 20 | 10 |
-| Military picture frame | 4 | 0 |
-| Phone and Chat | 19 | 10 |
-| Prayer | 1 | 0 |
-| Research | 16 | 12 |
-| Room and atmosphere | 17 | 8 |
-| Water | 2 | 1 |
-| Whiteboard and Planning | 2 | 1 |
-| **All B-roll** | **262** | **180** |
+| Desk and Setup | 75 | 11 |
+| Eating | 7 | 0 |
+| Editing | 37 | 17 |
+| Face and Reaction | 39 | 9 |
+| Filming BTS | 1 | 1 (new folder) |
+| Gym and Fitness | 27 | 0 |
+| Journal | 12 | 2 |
+| Keyboard and hands | 23 | 3 |
+| Military picture frame | 5 | 1 |
+| Phone and Chat | 28 | 9 |
+| Prayer | 2 | 1 |
+| Research | 18 | 2 |
+| Room and atmosphere | 21 | 4 |
+| Water | 3 | 1 |
+| Whiteboard and Planning | 2 | 0 |
+| **All B-roll** | **331** | **69** |
 
 **Not B-roll:**
-- `Voice over videos`: 7 clips of voice-overs recorded on camera, including the Ep 3 voice-over (6 min 33 s, 2026-09-24).
+- `Voice over videos`: 2 clips on disk (the 2026-10-05 Called to Edit voice-overs). The 7 listed here on 2026-09-24 are no longer in the folder; not moved by an agent.
+- `Talking heads\` (top level, new 2026-10-14): 39 talking-head takes with original names: `2026-10-08 Called to Edit ad` (33), `2026-07-29 shoot` (4), `Older` (2).
 - `Girlfriend`: 11 personal clips of Samuel's girlfriend. Kept out of content; not indexed here.
-- `Unsorted`: 6 clips (the four "Random footage" clips from August, plus #16 and #163 below).
-- `_to_delete`: 5 empty or accidental clips of 0–2 s. **Samuel deletes these himself.**
+- `Unsorted`: 1 clip on disk (the other 5 and `_to_delete` are gone since 2026-09-24).
+- `Vlog\` (top level): 112 clips from one day, 2026-06-12. Not sorted into the archive.
 
 ## Gaps
 
 - **Cleaning and reset** is still empty. None of its 6 library shots has been captured.
 - **Bicycle** has only 3 selfie clips of the ride to the gym (2026-09-04). None of the 8 library shots has been captured, including BIK-08 golden hour ride, which his shot list calls the best shot in the bank. Win-bucket resolution shots are still thin.
 - **Eating** is coffee plus one rice clip. There's still no EAT-04 (cooking) and no EAT-05 (empty plate).
-- **Thin:** Prayer (1), Water (2), Bathroom (4), Bible study (2), Whiteboard (2).
+- **Thin:** Prayer (2), Water (3), Bathroom (4), Whiteboard (2). Bible study went from 2 to 8 on 2026-10-14.
 - **Strong now:** Desk and Setup, Face and Reaction, Editing and Research. The 2026-09-14 session (googling editing software, Adobe pricing, CapCut, opening Resolve) fits an episode about choosing editing software.
 - **Gym and Fitness is new:** 27 clips, about 33 minutes, from 2026-09-04 and 2026-09-08. Other gym users are in frame in #53, #108 and #113.
 
