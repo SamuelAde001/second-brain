@@ -57,3 +57,5 @@ Not asked in PA checks (Samuel, 2026-10-14: old routines cancelled; *"Don't worr
 - **Tone:** direct and blunt, no flattery, never congratulate him for planning. Don't raise his Air Force background unless he does ([[02-Me/how-to-work-with-me|how to work with me]]).
 - **Sources are read-only.** `01-Inbox/_imports/` is gitignored and holds the only copy of the Claude export. **Never rewrite history.**
 - **Finished work moves to `08-Archive/`** (projects → `08-Archive/projects/`), with links rewritten. Answered open questions move to [[00-System/open-questions-answered|answered questions]].
+
+- 2026-10-15 20:50 (Editor): LinkedIn Training *Visuals v5 (Editor)* built (intro + 107 body visuals + 41 MZ + fix round 1) and cached; waiting on Samuel's review. Next: his markers -> fixes in place on v5 -> sound design -> deliver Fri 2026-10-16. Resume point in `04-Projects/routerise-linkedin-training.md`.
