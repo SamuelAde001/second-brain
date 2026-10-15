@@ -236,6 +236,23 @@ After the LinkedIn Training v1 intro: *"what you did on the intro was very bad �
 - **Text over darkened footage** is centred and big, no pill behind it, as in his finals.
 - **Sound design always comes last**, after he has approved the visuals. Before his review, cache the whole timeline so he can watch it smoothly.
 
+## Samuel, 2026-10-15 (LinkedIn v5 review, 106 markers)
+
+*"There are some things that I have corrected in the past that I still saw you make mistakes on ... I don't want to have to repeat myself."* He asked for each of these somewhere and said to repeat them everywhere they apply. Working copy for builders: the job's `kits\REVISION 2 RULES.md`.
+
+- **Animation:** *"Your animations throughout this video are not smooth enough, always jittery and too fast, not proper ease in and out, correct all through the video."* Smooth Bezier keys only, entrances 16–22 f with a long ease-out, exits 10–14 f, transitions ≥ 14 f.
+- **Engagement on our own cards:** *"just use one Icon that fits the theme of the video"*, *"the engagement numbers are too big, make them smaller and put them in a small pill"*. One orange icon + a small count pill. Real and made-up LinkedIn UI keeps LinkedIn's reaction row (his choice, 2026-10-15).
+- **Blur:** *"always use gausian blur and not normal blur"* = the ResolveFX Gaussian Blur node (what his own comps use). **Mosaic:** *"always increase the pixel freequency to the highest"* = PixelFrequency 200, the slider maximum.
+- **Text never over Alex's face:** *"NEVER EVER PUT TEXT OVER HIS FACE, if at all put it under"*. Over A-roll the text sits low with the Down fade. **No orange or brown backdrop behind text:** *"Don't darken the video with a brown color, use brightness and contrast node to darken the whole video"*, *"I hate the orange backdrop"*, and *"the screen is too dark"*: darken neutrally and moderately.
+- **LinkedIn posts read as posts:** *"Zoom out all linkedin posts, so we know it is a post, not too out that has too much of linkedin UI in it, but enough for us to know it is a post."* The whole card width and its header in frame. This replaces "no #F4F2EE margins wider than ~120 px" for posts.
+- **Made-up posts get a profile picture** (*"Add a profile pic to the linkedin post so it doesn't look bare"*). One face per name across the video.
+- **No generic boxes:** *"You are using the same generic box designs in the whole video"*, *"The boxes should look more like pills with better rounded corners and smaller a bit"*. Capsules, his Glass effect, medallions, real icons; shine subtle (*"The shine on the boxes is much, reduce it"*). Score/stat devices sit **on screen with Alex**, in a glass panel by his side.
+- **Show, don't tell:** *"show me the actual comments ... you can add numbers on the screen above the visual but show something"*. A number gets the real UI under it.
+- **Reveal with mosaic until reviewed:** in a list of items Alex goes through (the six posts), the titles not yet covered are MosaicBlurred.
+- **Don't change what he didn't mark:** *"I liked the visual you used in the last version of the intro in this part, I didn't tell you to change it."* A fix round touches only marked beats and the rules above.
+- **Intro laptop = his TSB laptop:** the whole 3D MacBook (lid and deck) in frame at a 3/4 angle, the UI playing on its screen, then a smooth push into the screen to full frame. A lid rising from the bottom edge reads as 2D.
+- **Creative director notes count as his:** Route Rise's creative director (Shawn) asked that video-call scenes use Alex's real podcast footage and real podcast guests as prospects, with "name - position" tags and the name blurred. Samuel passed it on as a correction (2026-10-15).
+
 ## The intro is Samuel's — 2026-09-25
 
 *"Every intro is Samuel."* Visual ideas for the intro still go on the cut sheet, as inspiration for him. **Nothing is placed on the timeline before the intro ends.** Visuals start on the first sentence after it.

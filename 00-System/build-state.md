@@ -2,7 +2,7 @@
 type: log
 area: system
 status: active
-updated: 2026-10-14
+updated: 2026-10-15
 source: manual
 tags: [build, state]
 ---
@@ -58,4 +58,4 @@ Not asked in PA checks (Samuel, 2026-10-14: old routines cancelled; *"Don't worr
 - **Sources are read-only.** `01-Inbox/_imports/` is gitignored and holds the only copy of the Claude export. **Never rewrite history.**
 - **Finished work moves to `08-Archive/`** (projects → `08-Archive/projects/`), with links rewritten. Answered open questions move to [[00-System/open-questions-answered|answered questions]].
 
-- 2026-10-15 20:50 (Editor): LinkedIn Training *Visuals v5 (Editor)* built (intro + 107 body visuals + 41 MZ + fix round 1) and cached; waiting on Samuel's review. Next: his markers -> fixes in place on v5 -> sound design -> deliver Fri 2026-10-16. Resume point in `04-Projects/routerise-linkedin-training.md`.
+- 2026-10-15 23:30 (Editor): LinkedIn Training revision 2 running overnight (Samuel's 106 markers on v5; run wf_9f4da911-d9d, 19 jobs, pool 5). Next: v6 build, stills check, fix round, cache v6, morning report; then his review, sound design, deliver Fri 2026-10-16. Resume point: job folder `Docs\RUN STATE.md` → REVISION 2, and `04-Projects/routerise-linkedin-training.md`.
