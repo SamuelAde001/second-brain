@@ -158,3 +158,12 @@ Usage at 23:10 WAT: weekly 0 % (reset), 5-hour 2 %. C: 104 GB free.
 
 ## Session handoff — 2026-10-15 08:25 WAT (Editor)
 Samuel: *"Round up this session, we are starting a new session to continue from where you stopped"*. Stopped body wave A and disabled the `editor-run-watchdog` task; nothing runs. Wave A: 59 of 83 body jobs pass, 24 not started (list and relaunch recipe in the job folder `Docs\RUN STATE.md`, block ">>> HANDOFF 2026-10-15 08:25"). Intro still not on a timeline. Next session, first step: install the intro on *Visuals v2 (Editor)* with `kits\install_v2x.py` (exact command in the handoff block), stills sheet for Samuel, then the Editor fixes the laptop personally. Usage 08:22: 5-hour 15 %, weekly 29 %.
+
+
+## Session 2026-10-15 from 08:25 WAT (Editor, main session)
+Samuel: *"We are continuing from where we stopped. Nothing should be lost. Every token must be efficiently used ... Make use of your agent well. The work that doesn't need an agent, do it yourself ... I want to see things being done on the timeline ... make sure everything is perfect and Samuel can approve it ... still premium looking."*
+- **On the timeline: *Visuals v2 (Editor)*** = the whole intro (10 folders) + 59 body jobs + 40 MagicZooms, as adjustment clips (installer verify: V1 236 / 20997 unchanged, 90 adj, no overlaps). Done by script, no agents.
+- The Editor checked every intro beat on timeline stills and one frame of each body job, then all frames of the suspect ones. Fixed himself: LAPTOP (crown fades before the push, push end clean, shine softened), BOARD ("2,408" no longer pushed off the bottom), installer MZ guard (zoom under text overlays allowed), one MZ moved onto its cut (6276).
+- **Running:** workflow wf_3e9495be-fe4 at a pool of 3: 6 wave B devices, the 24 unbuilt wave A jobs, then 18 device jobs. Cost written before launch: ~14 weekly points (29 % -> ~43 %).
+- **Needs Samuel:** I04 Magic Mask tracking (GUI only, steps in the job folder SIDES FIX LOG); Top-10 cards #03 and #10 were never captured (not indexed; activity tab froze), they show as one-line text posts.
+- Live state: job folder `Docs\RUN STATE.md`, block ">>> NOW".
