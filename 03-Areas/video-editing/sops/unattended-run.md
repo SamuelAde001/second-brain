@@ -51,3 +51,6 @@ His markers on version N are the brief for version N+1: read every one, track ea
 - Permission prompts stall a night: no `Remove-Item` or `Stop-Process`. Leave temp files; the restart script is the only way to end Resolve.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]
+
+## Hard rule: pace the agents (Samuel, 2026-10-15)
+*"efficiency is a hard rule you must follow"*. Worker pool of 3-5 agents in every workflow; never fan out a whole job list at once. Usage card before every launch, expected cost written in RUN STATE (one agent ≈ 0.2-0.25 weekly points, a full 5-hour window ≈ 13). Pace each window to last 5 hours. Stop hung agents after ~30 min without progress. Why: [[07-Agents/video-editor/memory|Editor memory]] 2026-10-15.
