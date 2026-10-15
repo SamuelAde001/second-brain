@@ -10,7 +10,7 @@ tags: [client]
 # Route Rise Media LTD (agency)
 
 **Status:** active — the agency Samuel currently works through
-**Contact channel:** needs-input — not stated in the source documents.
+**Contact channel:** Slack (team workspace) and Google Meet. Maria Fernanda Alvarez runs a recurring month-end team call, the **EOM Team Huddle**, with Route Rise staff and the editors (seen 2026-10-15). Prep: [[03-Areas/video-editing/routerise-eom-huddle-2026-10|October huddle]].
 **Since:** needs-input — not stated. Earliest dated reference in the source material is 2026-09-14 (house style study established).
 
 > **RESOLVED 2026-09-20 by Samuel: Routerise is the agency he works with.** They assigned him one client — **Alex**, who runs Frontal. He edits Alex's videos. The agency's standard rate is **USD 333.33 per video**.
