@@ -60,3 +60,10 @@ Back to [[03-Areas/finances/finances|Finances]]
 ## 2026-10-04 (fourth) — Claude Max real price
 
 - Google Play shows Max 5x at NGN 209,375/month (his screenshot). Payday A pays it; Goal 1 October becomes NGN 165,778 (cut NGN 118,875). From November the standing Claude line is NGN 209,375, not 33,500: an extra NGN 175,875 a month that the 5th video has to cover.
+
+
+## 2026-10-16 — Payday B plans
+
+- *"I would put 50k in the buffer instead, cause I want to send 30k to my babe, and have more cash on hand"*: Buffer B NGN 50,000. Objection logged in [[00-System/decisions|decisions]].
+- Parents' house and church this weekend, ~NGN 20,000 transport, NGN 10,000 for things for his parents. Seminar 2026-10-30: fee NGN 5,000, transport ~NGN 15,000. Eating out ~NGN 30,000 more.
+- Google One AI Pro (NGN 28,500, renews the 18th): thinking of downgrading, not decided.
