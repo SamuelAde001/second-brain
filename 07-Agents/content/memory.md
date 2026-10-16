@@ -140,3 +140,7 @@ Back to [[07-Agents/content/profile|Profile]]
 - **Colour key for B-roll notes** (Samuel asked for archive clips in a different colour): blue `\{…\}` = shoot today with an S-number from the shot list, purple = clip already in the B-roll archive written `📁 Folder › file name`, gray = edit note. Check every archive name on disk before writing it.
 - **Shot lists** go at the bottom of the script page as Notion checkboxes, grouped by setup and outfit in shooting order (daylight first, dark last), with a callout for camera settings, timing per shot and continuity marks. Outfits can match existing archive clips so old and new footage cut together.
 - He edits the Notion page himself between rounds: always re-fetch before touching it. He prefers the simpler script over the denser one with more facts (picked v2 over v3 on 2026-10-14), then corrects it line by line; numbering ("One, two") reads to him as stiff ("First / And then / And lastly").
+
+## 2026-10-16 — His own story
+- **Don't build his life story from a list of questions.** Samuel, 2026-10-16: *"I don't want you to use the questions that you are asking me to frame a story. I don't like it."* For a story about himself, ask him to tell it in his own words once, then write from that. Questions only for a specific gap after.
+- The February 2026 montage (*Keep pursuing your dreams and be ruthless at it*) is his proof the music-only, short-caption photo montage works: one short line per chapter, no VO, Skyfall.

@@ -33,9 +33,56 @@ Theme options pitched (Brand manager suggestions, not his decision):
 1. **The timeline of my life.** Opens on a Resolve timeline named after his life, playhead starts; each chapter is a clip, captions read like clip names or markers; the low point is a *Media Offline* frame; *"And then..."* is the playhead jumping; ends on *Render complete* and the lesson.
 2. **Same montage, editor captions.** The February build with captions in editing words. Lighter to make.
 
-## Questions waiting
+## His story, 2026-10-16 (his account, in order)
 
-Asked in chat 2026-10-16. Answers go here, his words.
+He rejected building the story from a question list: *"I don't want you to use the questions that you are asking me to frame a story. I don't like it."* He told it himself instead. Facts, his words where quoted:
+
+- Started learning video editing while in the military. Asked his mentor if he could edit his YouTube videos; did it *"for almost two years"*. *"I was not satisfied. I wanted more"*, but didn't know how to get paying clients.
+- Started posting his work on Twitter, got *"little traction"* while still learning. From Twitter, his first international client found him: USD 20 per video. That was when he saw the opportunity and planned to quit.
+- **Quit the military fully in January 2025.** The USD 20 client started around December, and he wasn't sure that client would still want him in January. *"Just having faith and believing in myself"*. *"I was scared that if I quit and I don't succeed … my fellow soldiers will laugh at me. My family will be disappointed."*
+- Started from scratch: no table, no chair, about **NGN 90,000** to his name; NGN 50,000 of it bought his first table. He already had his laptop. Locked in for January 2025: editing, outreach, posting his work.
+- First biggest international payout: **USD 600**, which bought his chair. Next month: first **USD 1,000** (that client plus another). The month after: three clients, all bringing their workload: stressful, *"I wanted to give up"*. Kept reaching out.
+- **April 2025:** a client at **USD 250 per video**, his highest; before that USD 100-150 (also USD 120). Stressful, lots of revisions. *"I wasn't a good video editor. I knew that I needed to become better."*
+- **May or June 2025:** worked on his skills. In June a client reached out (they loved his work), hired him after an interview: **USD 350 per video**, many videos, his first **USD 1,500 month**. That bought his **first PC**.
+- Through that client: a **1 million subscriber YouTuber**, who linked him to **a billion-dollar company**.
+- Now: *"crossed over $21,000 in the last 19 months of editing"*. *"I almost gave up when I left the military, I thought it wouldn't work out. I never knew it would work out this way."*
+- Now helping editors who are where he was: *"they just had maybe their phone or their laptop and they wanted to push through"*.
+
+## How he wants it made (2026-10-16)
+
+- Same type as the reference: music only (Skyfall again, cut to its beats), photos and clips, captions tell the story.
+- *"Not too much wording, just a simple sentence that hits"*, each line about the length of the reference captions.
+- A full emotional arc: succeeded, almost gave up, failed. A picture per line that carries the emotion.
+- Photos and videos from his Google Photos in his browser; old reel photos only where they really fit.
+- Order: script first, he corrects it, then gather the visuals.
+
+## Caption script v1 (Brand manager draft, 2026-10-16, waiting for his corrections)
+
+Times follow the Skyfall cut in the February reel (0:00 = first sung line). *"And then..."* sits on the breath before the first chorus; the payoff lands on the chorus.
+
+| # | Time | Caption | Picture |
+|---|---|---|---|
+| 1 | 0:00 | Learned video editing as a soldier | In uniform |
+| 2 | 0:04 | Edited my mentor's videos for 2 years | Editing at night, military days |
+| 3 | 0:09 | Wanted more, so I posted on Twitter | His early Twitter posts or a screen |
+| 4 | 0:15 | First international client: $20 a video | The client chat or a proud face |
+| 5 | 0:21 | January 2025: Quit the military | Last uniform photo or walking away |
+| 6 | 0:25 | Scared they'd laugh if I failed | Alone, worried |
+| 7 | 0:28 | ₦90,000 to my name. No chair. | Empty room, laptop on the floor or bed |
+| 8 | 0:30 | First $600 payout. Bought my chair. | The first chair |
+| 9 | 0:33 | Three clients. Burnt out. Wanted to give up. | Tired, late night, head in hands |
+| 10 | 0:36 | $250 a video. Still not good enough. | Revisions on screen, frustrated |
+| 11 | 0:39 | So I locked in on my skills | Learning, notes, focused |
+| 12 | 0:41 | And then... | Black or a slow push-in |
+| 13 | 0:42 | A client found me. $350 a video. | Big reaction, the interview call |
+| 14 | 0:48 | First $1,500 month. First PC. | Unboxing or building the PC |
+| 15 | 0:52 | A 1M-subscriber YouTuber | Working at the full setup |
+| 16 | 0:56 | Then a billion-dollar company | The setup today, confident |
+| 17 | 0:58 | 19 months. Over $21,000. | Calm win, outside, smiling |
+| 18 | 1:01 | Now I help editors who started like me | Teaching, the webinar |
+| 19 | 1:04 | Lesson: (his pick) | Today |
+
+Lesson options (suggestions): *"Bet on yourself, then get better"* · *"Faith to start. Skill to stay."* · *"Take the leap. Then earn it."*
 
 ## Photos
 
