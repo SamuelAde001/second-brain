@@ -199,6 +199,10 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-14 | bulk | 2,500 | Food for girlfriend | Girlfriend extras | his words: "I just sent 2.5k to my GF for some food"; Girlfriend extras was already empty, so over plan by 2,500 |
 | 2026-10-14 | charges | 11 | Bank charges | — | derived; rows give 6,831, he has 6,820 |
 | 2026-10-14 | balance | 6,820 | Bank | — | his words: "6,820 in my personal account"; no screenshot. Webinar money not counted: 49,883 webinar account + 4,892 Flutterwave (his words) |
+| 2026-10-15 | bulk | 6,000 | Plumber, water issue in the house | Chores / household | his words: "there was a water issue in the house so I had to pay plumber 6000 from my personal money"; before Payday B; day assumed |
+| 2026-10-16 | in | 569,096.50 | Route Rise, September batch 30% + bonus | — | invoice #14: 30% USD 399.99 + bonus USD 25.00 = USD 424.99 billed; USD 421.59 received (his words), USD 3.40 lost to charges; NGN 569,096.50 after Cleva (his words) = about NGN 1,349.88/USD; day landed assumed today; plan expected NGN 536,343 |
+| 2026-10-16 | charges | 17.50 | Bank charges | — | derived; rows give 569,916.50, he has 569,899 |
+| 2026-10-16 | balance | 569,899 | Bank | — | his words: "what is in my personal account right now is N569,899"; no screenshot. Webinar money not counted: 44,084 webinar account + 14,677 Flutterwave (his words) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
