@@ -27,6 +27,7 @@ tags: [project, webinar, live-class, cohort, called-to-edit, davinci-resolve]
 - [[04-Projects/called-to-edit-playbook|Playbook]] (2026-10-03, proposal): funnel maths, setup, team, publicity, every video and design piece, timeline, risks
 - [[04-Projects/called-to-edit-teaching-outlines|Teaching outlines]] (2026-10-03, draft): the 2-hour webinar run-of-show and the 6-week Academy curriculum
 - [[04-Projects/called-to-edit-webinar-teachings|Teachings]] (2026-10-16): what he says on each topic, from his voice notes, for the slides and whiteboard
+- [[04-Projects/called-to-edit-webinar-outline|Outline]] (2026-10-16): the 48 topics in order, with the one being recorded now at the top
 - [[04-Projects/called-to-edit-prep-tasks|Prep tasks and questions]] (2026-10-03): the draft task list for the whole prep and 35 questions for Samuel
 - [[04-Projects/called-to-edit-webinar-project-plan|Project plan]] (2026-10-05): the handover plan for the project manager, current with his 2026-10-04 corrections. Shareable copy: Claude Doc https://claude.ai/code/artifact/19cc7d62-9541-455c-96d5-57a9b195b574
 - [[04-Projects/called-to-edit-landing-page-copy|Landing page copy]] (2026-10-04, draft 1): the words on the sign-up page

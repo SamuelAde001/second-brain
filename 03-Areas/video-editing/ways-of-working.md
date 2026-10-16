@@ -253,6 +253,18 @@ After the LinkedIn Training v1 intro: *"what you did on the intro was very bad â
 - **Intro laptop = his TSB laptop:** the whole 3D MacBook (lid and deck) in frame at a 3/4 angle, the UI playing on its screen, then a smooth push into the screen to full frame. A lid rising from the bottom edge reads as 2D.
 - **Creative director notes count as his:** Route Rise's creative director (Shawn) asked that video-call scenes use Alex's real podcast footage and real podcast guests as prospects, with "name - position" tags and the name blurred. Samuel passed it on as a correction (2026-10-15).
 
+## Samuel, 2026-10-16 (LinkedIn v6 review: laptop, mosaic, sound design)
+
+*"I don't want to find myself repeating myself in future videos."* Rules from this review, for every video:
+
+- **A 3D laptop looks like a real laptop:** the screen sits inside the lid with a black bezel and a thin silver rim. Never a screen wider than the lid, never a light band between screen and lid (*"The top has a large white gap, that's not how a laptop screen looks"*). How: [[07-Agents/video-editor/memory|Editor memory]], 2026-10-16.
+- **List items hidden until he says them:** *"Mosaic blur the text of each of them till he mentions it, then reveal"* (the three FOR EACH POST pills). Same as the six posts rule above: in any list Alex walks through, each item's text is MosaicBlurred (PF 200) until its word.
+- **Music = the last video's music, in its order:** *"use the music I used in the last video ... in the sequence. I used them for each major segment of the video."* One cue per major segment, in the order he used them last time.
+- **Every animated item gets its own sound:** *"You miss a lot of movement ... if they are listing three things, you only put a sound effect for the first thing and not ... for the second and third thing that are animated in."* Every element that animates in gets a small hit, not just the first of a group.
+- **Don't repeat the same sound:** *"I noticed you are repeating the same sound all throughout the video a lot."* Go through his beep folder and vary the beeps (*"I use beeps a lot"*) so they fit what's on screen.
+- **Low levels:** beeps and whooshes *"as low as I normally used to do ... so that it's not distracting"*. Whooshes only where something moves.
+- **Finished means render-ready:** *"once I'm watching the video, I will just need to render it after the music."*
+
 ## The intro is Samuel's â€” 2026-09-25
 
 *"Every intro is Samuel."* Visual ideas for the intro still go on the cut sheet, as inspiration for him. **Nothing is placed on the timeline before the intro ends.** Visuals start on the first sentence after it.
