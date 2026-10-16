@@ -203,6 +203,8 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-16 | in | 569,096.50 | Route Rise, September batch 30% + bonus | — | invoice #14: 30% USD 399.99 + bonus USD 25.00 = USD 424.99 billed; USD 421.59 received (his words), USD 3.40 lost to charges; NGN 569,096.50 after Cleva (his words) = about NGN 1,349.88/USD; day landed assumed today; plan expected NGN 536,343 |
 | 2026-10-16 | charges | 17.50 | Bank charges | — | derived; rows give 569,916.50, he has 569,899 |
 | 2026-10-16 | balance | 569,899 | Bank | — | his words: "what is in my personal account right now is N569,899"; no screenshot. Webinar money not counted: 44,084 webinar account + 14,677 Flutterwave (his words) |
+| 2026-10-16 | to-pot | 200,000 | Goal 1, Payday B | Goal 1 | his words: "I just sent 200k for goal 1, so I have a round number"; plan 199,752, the extra 248 from Extra cash; Rule 3 kept: same day as Payday B |
+| 2026-10-16 | to-pot | 50,000 | Buffer, Payday B | Buffer | his words: "and 50k for buffer"; plan cut from 114,891 to 50,000 the same day; Rule 3 kept |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
