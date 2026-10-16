@@ -209,3 +209,9 @@ Samuel: *"go through those corrections ... understand the whole context of the c
 - **11:55:** Samuel approved the laptop. His v6 comment at 1422 done: the three FOR EACH POST pill labels are mosaicked (PF 200) until Alex says each one, then revealed (I19 `_pills_c`, swapped in place, stale cache cleared).
 - **12:16:** Music and sound design placed on *Visuals v6 (Editor)*, render-ready for Samuel. A2: his B2B final's 12 cues in his order, one per section, his levels. A3-A7: 604 SFX, one for every element that animates in, each list item a different beep, 132 files, no file twice in a row, levels normalised to his B2B levels. A8: typing and data beds. Backup: *zz Visuals v6 before sound 2026-10-16 (Editor)*. Scripts and plan: job folder `Graphics\Visuals v1\sound\`.
 - **RESUME (12:20):** Samuel watches v6 with sound and renders. Any notes on levels or a specific hit: change it in place on v6 (plan_li.py → plan_li.json → sound_place.py only for a full redo, on the backup copy). Then end-of-job: delivered row, review, archive.
+
+## Final render 4K — 2026-10-16 (Editor)
+- Samuel: *"I am fully done with this video, Render it with my export settings of 4k, monitor it so it doesn't crash ... make sure to restart resolve and render it in phases in case of a crash"*.
+- *Visuals v6 (Editor)*, preset *4K H265 MASTER HIGH*, 7 chunks + 6 seam renders in 3 batches, Resolve restarted before each (13:07-14:37). Joined with the B2B job's `join_chunks.py` (copied into the render folder).
+- **FINAL:** job folder `Final render 4K 2026-10-16 (Editor)\The Most Valuable B2B LinkedIn Training - FINAL 4K (2026-10-16).mp4`, 3840x2160 HEVC 10-bit + AAC, 20,997 frames, 14:35.75, 2.03 GB, A/V lengths equal, seams clean, full decode clean.
+- **Next:** Samuel sends it. Then end-of-job: delivered-projects row, end-of-job review, archive.
