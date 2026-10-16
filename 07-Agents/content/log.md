@@ -109,3 +109,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-16 — Teachings note set up for the webinar, 48 topics, filled one at a time from Samuel's voice notes ([[04-Projects/called-to-edit-webinar-teachings|teachings]]).
 - 2026-10-16 — Topic 0.1 (his story) written up from his voice note; raw note started; whiteboard-not-slides decision recorded.
 - 2026-10-16 — Topic 0.2 written up from his voice note; outline file moved to 0.3.
+- 2026-10-16 — Correction: commit e02baa3 also swept in an uncommitted 4-line change to `03-Areas/video-editing/scripts/sound_place.py` (SFX fade_in/fade_out) made outside this session. Change kept as it was; future commits here stage named paths only.
