@@ -11,16 +11,16 @@ tags: [called-to-edit, webinar, outline]
 
 The 48 teaching topics in order, for Samuel to keep open while he records. Built from [[04-Projects/called-to-edit-webinar-content|Webinar content]] with his 2026-10-04 cuts applied (1.4, 1.5, 2.5, 5.4, 6.3 cut, so the numbering has gaps). Write-ups: [[04-Projects/called-to-edit-webinar-teachings|Teachings]]. Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]] · [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
-## Now recording: 0.2 What tonight is and isn't
+## Now recording: 0.3 The truth about the market
 
-His words from 2026-09-30: *"not a video editing tutorial"*, but *"the steps, the pathway to become a professional video editor that earns money"*. He ended 0.1 on: not everything matters, tonight is the things that do.
+Why are editors in demand, and why do most beginners never earn? This was the General Manager's suggestion, not yours. Skip it if it doesn't feel needed.
 
 Things you could cover:
-- What they leave with tonight, and what they won't get (button-by-button teaching).
-- Why the career side matters more than the software at the start.
-- Who it's for: phone or laptop, CapCut or Resolve, total beginner or stuck editor.
-- What you're asking of them for 2½ hours: stay to the end, notes, chat.
-- The roadmap: the stages below.
+- Where the demand comes from: every brand, creator and business now needs video.
+- What clients actually complain about with editors (missed deadlines, poor communication, editors who can't take direction).
+- Why most beginners never earn: they learn the software and stop there, never post, never reach out, quit too early.
+- The competition: *"millions of video editors"* (your words in 0.1), so what actually separates the ones who get paid.
+- Nigeria vs the world: is the competition local, global, or both?
 
 ## The outline
 
@@ -28,7 +28,7 @@ Things you could cover:
 
 **0. Before the pathway**
 - 0.1 Your story ✅
-- 0.2 What tonight is and isn't
+- 0.2 What tonight is and isn't ✅
 - 0.3 The truth about the market: demand for editors, why most beginners never earn
 - 0.4 The mindset: treat it as a business from day one; consistency over talent
 

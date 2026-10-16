@@ -61,7 +61,37 @@ Recorded 2026-10-16.
 
 ### 0.2 What tonight is and isn't: not a tutorial, the pathway to earning
 
-*Not recorded yet.*
+Recorded 2026-10-16.
+
+**Points**
+- **Tonight is the pathway to the career, not editing tutorials.**
+- **Video editing is broad:** movie editors, podcast editors, short-form editors, motion graphic animators. His definition: *"Editing is literally cutting out what is not needed from the raw idea and presenting it in a way that the consumer can get it."* He can't teach every kind, but the pathway works whatever kind you do.
+- **Step-by-step tutorials are on YouTube.** *"I learned 80 to 90% of what I know in video editing from YouTube"*, and he'll show how to learn from it properly.
+- **The AI age:** *"A lot of skills that you learn tomorrow will become useless next tomorrow."* So you need to know what to learn, where to start and how to find the right tutorials. Typing "video editing tutorial" into YouTube may not give you what's useful for you.
+- **What tonight covers** (his roadmap, in his order):
+  1. Learning the skill: what to learn, where to start, how to pick the right tutorials.
+  2. Tools and money: the right tool for your kind of editing; the hidden costs (*"video editing is not cheap"*); gadgets and the computer. For those who've already started: line up what you already have and use it right.
+  3. Choosing a niche.
+  4. Establishing yourself: *"How does the world know that you are a good video editor?"* Social media, platforms, personal brand, portfolio and the tools for it, presenting yourself, packaging the skill, showing your work.
+  5. Getting clients, *"one major thing"*: outbound, inbound (getting clients to find you), cold DMs, pitching, following up.
+  6. Pricing and getting paid: *"A lot of us price ourselves wrongly."*
+  7. Networking with other editors, *"a huge part of the career"*.
+  8. Growing your income at the end, for people already established.
+- **A teaser for later in the webinar:** *"another thing I'm planning to do... stay tuned for that"*. This sets up the Academy offer.
+- Close: *"I believe that you guys are ready for it too. Let us get into it."*
+
+**Teaching:** tutorials teach the buttons, and they're free on YouTube. Tonight teaches the path, which works whatever kind of editing you do.
+
+**Examples:** he learned 80–90% from YouTube · editors earning big on just a phone or CapCut while others use expensive tools.
+
+**Lines to say:**
+- *"Editing is literally cutting out what is not needed from the raw idea and presenting it in a way that the consumer can get it."*
+- *"I can't teach you every aspect of video editing, but I can tell you the pathway."*
+- *"I know video editors that are making huge with their phone."*
+
+**Board:** a cluster of editing types (movie, podcast, short-form, motion graphics) all pointing at one path. Then the roadmap as a row of stops, the frame the rest of the board hangs off: Learn → Tools and money → Niche → Establish → Clients → Pricing → Network → Grow. A crossed-out "tutorials" box next to a YouTube logo with "80–90%". A closed box at the far end marked "later tonight" for the Academy teaser.
+
+**To check with him:** his roadmap leaves out section 7 (working with clients: briefs, revisions, communication, testimonials). Keep it as its own stop, fold it into Clients, or cut it?
 
 ### 0.3 The truth about the market: demand for editors, why most beginners never earn
 

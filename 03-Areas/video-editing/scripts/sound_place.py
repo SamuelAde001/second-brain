@@ -2,7 +2,7 @@
 
 python sound_place.py plan.json [--dry]
 plan = {"timeline": name, "music": [{"path", "rec", "end", "src_s", "vol", "fade_in"?, "fade_out"?}],
-        "sfx": [{"path", "rec", "vol", "tr", "len"?, "src"?}]}
+        "sfx": [{"path", "rec", "vol", "tr", "len"?, "src"?, "fade_in"?, "fade_out"?}]}
 - rec/end are timeline frames, src_s is the source in-point in seconds, vol is the clip's AudioVolume in dB.
 - sfx: len in frames (else dur in seconds, else 1 s), src = source in-point in frames (default 0).
 - fade_in/fade_out: audio fade lengths in frames, set with TimelineItem.SetFades.
@@ -65,6 +65,8 @@ for m in plan.get("music", []):
 for s in plan.get("sfx", []):
     n = s.get("len") or int(round(s.get("dur", 1.0) * FPS))
     it = place(s["path"], s["rec"], s["rec"] + n, int(s.get("src", 0)), s["tr"], s["vol"])
+    if it and (s.get("fade_in") or s.get("fade_out")):
+        it.SetFades({"FadeIn": int(s.get("fade_in", 0)), "FadeOut": int(s.get("fade_out", 0))})
     out.append(("sfx", os.path.basename(s["path"]), s["rec"], it.GetStart() - ST if it else None, s["tr"], it.GetProperty("AudioVolume") if it else None))
 for o in out:
     print(o)

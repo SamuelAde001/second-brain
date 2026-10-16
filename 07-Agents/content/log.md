@@ -108,3 +108,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-16 — Gathered montage visuals into Soldier to editor montage folder; first pull judged random by Samuel, curated to 59 on-story picks with archive B-roll, board v2 sent.
 - 2026-10-16 — Teachings note set up for the webinar, 48 topics, filled one at a time from Samuel's voice notes ([[04-Projects/called-to-edit-webinar-teachings|teachings]]).
 - 2026-10-16 — Topic 0.1 (his story) written up from his voice note; raw note started; whiteboard-not-slides decision recorded.
+- 2026-10-16 — Topic 0.2 written up from his voice note; outline file moved to 0.3.
