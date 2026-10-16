@@ -84,6 +84,36 @@ Times follow the Skyfall cut in the February reel (0:00 = first sung line). *"An
 
 Lesson options (suggestions): *"Bet on yourself, then get better"* · *"Faith to start. Skill to stay."* · *"Take the leap. Then earn it."*
 
+## Caption script v2 (locked by Samuel, 2026-10-16)
+
+His corrections to v1, his words: *"I think this works well with these corrections."* Lines 12, 16 and 18 he left as drafted. He'll post it today.
+
+| # | Time | Caption |
+|---|---|---|
+| 1 | 0:00 | While still being a soldier |
+| 2 | 0:04 | Helped edit my mentors videos for 2 years |
+| 3 | 0:09 | But wanted more clients, so I started posting my work online |
+| 4 | 0:15 | got my fist international client, $20 per video |
+| 5 | 0:21 | January 2025, decided to quit the military |
+| 6 | 0:25 | I was scared that people would laugh at me if I failed |
+| 7 | 0:28 | I had only 90,000 to my name, an empty room with just my laptop |
+| 8 | 0:30 | Got my first $600 payout, bought a chair finally |
+| 9 | 0:33 | I had too many small clients, I got burned out and wanted too give up |
+| 10 | 0:36 | Then I landed a $250 per video client, still wasn't good enough |
+| 11 | 0:39 | So I locked in to become a better video editor |
+| 12 | 0:41 | And then... |
+| 13 | 0:42 | My biggest client found me, sent me a DM, $350 per video |
+| 14 | 0:48 | Crossed $1,500 a month, got my first PC |
+| 15 | 0:52 | Worked for a 1m - Subscriber youtuber |
+| 16 | 0:56 | Then a billion-dollar company |
+| 17 | 0:58 | Now in just 19 months, made over $20,000 |
+| 18 | 1:01 | Now I help editors who started like me |
+| 19 | 1:04 | You still have a chance to change your story |
+
+Typos kept as he typed them here (fist, too give up, mentors); fix in the edit, not the record. Line 7 needs a currency mark on screen (₦90,000).
+
+Visual sources, his instruction: *"go to my Twitter page … the media aspect … that's where you really see me working … when I was still in the grind"*, from the beginning of the media, then Google Photos.
+
 ## Photos
 
 Local photos are thick for 2025-2026 (`Pictures\My pictures`, 76) and thin before 2023 (`Instagram Samuel Signals\Photos`, 54). Military picture-frame B-roll exists: `B-roll archive\Military picture frame\MIL-01` to `MIL-04`. Google Photos fills the early years. Nothing is downloaded without his yes.
