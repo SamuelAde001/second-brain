@@ -110,3 +110,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-16 — Topic 0.1 (his story) written up from his voice note; raw note started; whiteboard-not-slides decision recorded.
 - 2026-10-16 — Topic 0.2 written up from his voice note; outline file moved to 0.3.
 - 2026-10-16 — Correction: commit e02baa3 also swept in an uncommitted 4-line change to `03-Areas/video-editing/scripts/sound_place.py` (SFX fade_in/fade_out) made outside this session. Change kept as it was; future commits here stage named paths only.
+- 2026-10-16 — Outline card for the webinar sign-ups' group chat: 8 parts from his outline, title *Building a career in video editing*, Called to Edit flyer system (navy, gold, Anton, his cutout). Sub-numbers left off (his outline skips 1.4, 1.5, 5.4, 6.3). Files: `landing-page\flyer\outline-card.html` → `called-to-edit-outline.png/.jpg` (1080×4244).
