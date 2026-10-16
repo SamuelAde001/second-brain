@@ -203,3 +203,4 @@ Samuel: *"go through those corrections ... understand the whole context of the c
 - **Next:** check the pass's final frames (contact sheets), `ease_pass.py apply` on the updated list, build *Visuals v7 (Editor)* on a fresh Resolve (v6 stays as Samuel's cached review copy), cache v7, report. Sleep rule lapsed (not cached before 07:00): the PC stays awake.
 - Usage 07:52: weekly 67 %, 5-hour 48 % (resets 08:30). Expected cost of the pass ~5 weekly points.
 - **08:35 update:** Samuel stopped the zoom-out pass (*"the ones remaining leave them"*): none had been Resolve-checked, so none are used; the 4 switched manifests are back to the v6 state. **v6 is his review version**; he makes his last corrections today, then sound design. Guard restored 150k/185k.
+- **10:17:** *Visuals v6 (Editor)* cached 159/160 (only the LAPTOP overlay at 0-118 stays live: the background cacher stalls on it). Samuel reviews now, then his last corrections, sound design, deliver today.
