@@ -17,8 +17,8 @@ import sys
 import tempfile
 
 MAIN_CHECKPOINT = 460_000   # auto-compact runs at 500k (settings.json)
-SUB_WRAP = 230_000   # TEMP 2026-10-16 night run (Editor): restore 150_000 after LinkedIn revision 2
-SUB_STOP = 260_000   # TEMP 2026-10-16 night run: restore 185_000 (helpers stay small: cost, not the compact window)
+SUB_WRAP = 230_000   # TEMP 2026-10-16 zoom-out run (Editor): restore 150_000 after it
+SUB_STOP = 260_000   # TEMP 2026-10-16 zoom-out run: restore 185_000
 TAIL_BYTES = 3_000_000
 
 

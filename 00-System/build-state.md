@@ -59,3 +59,4 @@ Not asked in PA checks (Samuel, 2026-10-14: old routines cancelled; *"Don't worr
 - **Finished work moves to `08-Archive/`** (projects → `08-Archive/projects/`), with links rewritten. Answered open questions move to [[00-System/open-questions-answered|answered questions]].
 
 - 2026-10-15 23:30 (Editor): LinkedIn Training revision 2 running overnight (Samuel's 106 markers on v5; run wf_9f4da911-d9d, 19 jobs, pool 5). Next: v6 build, stills check, fix round, cache v6, morning report; then his review, sound design, deliver Fri 2026-10-16. Resume point: job folder `Docs\RUN STATE.md` → REVISION 2, and `04-Projects/routerise-linkedin-training.md`.
+- 2026-10-16 08:00 (Editor): LinkedIn revision 2: *Visuals v6 (Editor)* rebuilt with every marker fix, caching now for Samuel's review; zoom-out pass on ~29 unmarked post beats running (wf_20403384-6f1), then *Visuals v7 (Editor)* build + cache. Resume point: `04-Projects/routerise-linkedin-training.md` → RESUME HERE 08:00.

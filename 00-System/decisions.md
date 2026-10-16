@@ -300,3 +300,5 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: For the LinkedIn Training revision 2 night run only, `00-System/scripts/context_guard.py` lets helper agents run to 230k (wrap) / 260k (stop) instead of 150k / 185k. Restored to 150k / 185k when the run ends.
 **Why**: Helpers now start near 70k and spent ~80k on the reading each job needs (rules, FIX LOG, builder scripts), so most first tries hit the 150k wrap before building anything and each new try repeated the same reading (35 tries, 5 jobs finished by 00:10). A longer helper run builds after one read. 230k stays under the "fresh session per step under ~250k" line in [[00-System/model-routing|model routing]]. Samuel's budget for the night: *"Take as much as you need, but be as efficient as possible"*.
 **Who decided**: the Editor, for the night run. Whether to keep it is Samuel's call.
+**Restored** 2026-10-16 07:05 WAT: back to 150k / 185k after the run's last helper (review + final fix round) returned.
+**Raised again** 2026-10-16 07:55 WAT for one more run (zoom-out pass on ~29 unmarked post beats, same reason); restore 150k / 185k when it returns.
