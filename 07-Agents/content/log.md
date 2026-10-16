@@ -103,3 +103,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-14 — Phone-editing script draft 2: Samuel said draft 1 *"doesn't sound like me"*, wanted *"a normal talk session, not one robotic video"*, no comedy. Rebuilt from his own dump sentences, no numbered points, ~580 words. Same note.
 - 2026-10-14 — Ep 4: clean voice-over copy added to the Notion page (section *Voice-over copy*, between the script and the shot list): one breath per line, no B-roll notes, with a fluff-and-restart tip for clean waveform cuts.
 - 2026-10-14 — Phone-editing script draft 2 written line by line into its Notion card (Event hook / Context / Struggle / Discovery-pivot / Value-Lesson + CTA), Status Idea → Script, for Samuel to adjust there. Notion is now the live version.
+- 2026-10-16 — Read the Called to Edit Registrations Sheet in Samuel's Chrome (read-only): 29 paid, funnel and hero drop-off logged in [[04-Projects/called-to-edit-landing-page-build|build note]].

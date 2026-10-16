@@ -2,7 +2,7 @@
 type: project
 area: personal-brand
 status: active
-updated: 2026-10-10
+updated: 2026-10-16
 source: manual
 tags: [called-to-edit, landing-page, scroll-craft, build, handoff]
 ---
@@ -169,3 +169,13 @@ Samuel, 2026-10-11, sending the designer's flyer (1080×1350; Friday 23 Oct, 7:0
 - Backup: `landing-page\old\pre-cleanup-2026-10-11\index.html`. Checked locally at 375 px. Not published: waiting on Samuel's yes.
 - **Published 2026-10-11** on Samuel's *"Deploy it"* (`deploy.sh`; the sheet check passed on the second try, after a network blip; deploy `6acbcc5f…`). Live check: Netlify's badge frame loads and stays hidden; the cards and long FAQ entries are gone.
 - **Live 2026-10-11 18:47 WAT** (Samuel: *"I permit you, go ahead and click on it, I am watching you"*): ran `setup()` from the editor, Samuel clicked Allow in Google's popup for the new permission, setup completed; deployment edited to **Version 10**, same URL (deployment ID matches `SHEET_URL`). Endpoint answers; `check-sheet.js` passes. Added `testFlyerEmail()` (one sample to Samuel's own address, local file and editor hash-matched): ran it, log *"Sent with the flyer."* WhatsApp follow-up links switch to the flyer version on the next 10-minute run.
+
+## 2026-10-16 — Numbers check (Brand manager)
+
+Samuel: *"Open the Called to Edit Registrations Sheet in the browser and give me today's paid count, the funnel and the hero drop-off since the 10-10 page change."* Read in his Chrome. Sheet last checked Fri 16 Oct 7:31 WAT; read-only, nothing changed.
+
+- **Paid 29**, NGN 145,000 in (NGN 141,883 after fees), 71 seats left of 100, 29 on the calendar event. 85 signed up but not paid (71 followed up, 1 payment failed, 1 left the payment page). How they paid: 26 bank transfer, 2 came back from Flutterwave, 1 ticked by hand, 0 card.
+- **Funnel since 6 Oct (Overview):** 1,280 opened → 191 tapped Get my seat (15%) → 92 filled the form (48% of taps) → 24 paid (26% of forms).
+- **Traffic tab since 8 Oct:** 1,249 opened; 453 reached *where you're stuck*, so **796 (64%) were lost on the hero**. Typical time on page 0:19, 33% leave within 10 s. Taking away the 10-10 08:00 reading (76 visits, 27 lost on the hero) leaves about 1,173 visits and about 747 lost (~64%) since the change. That is **worse than the 36% before**, not better. The Sheet has no per-day hero figure, so this is rough. The 10-10 to 10-13 traffic was mostly the Instagram paid boost (752 opens, 14 sign-ups, 3 paid), and ad clicks bounce more than his own followers, so the copy change can't be judged from this alone.
+- **Daily:** visits 260 (10-10), 447, 341, 79, 34, 22 (10-15), so traffic fell once the boost ended. Paid per day 10-10 to 10-15: 3, 3, 1, 4, 2, 4.
+- **Pace:** plan checkpoint 2 is 90 paid by Sat 10-17; at 29 the day before, that's about a third. 18 paid in the 6 days since 10-10, about 3 a day.
