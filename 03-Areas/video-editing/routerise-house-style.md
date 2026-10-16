@@ -155,6 +155,10 @@ The Editor scored #3 on 2026-09-28. Diffing his delivered *Cut v6* against that 
 - **Staggered pops:** a cascade of `UI Double Beep 03` 3–6 f apart at −43.1 (−46.6 for minor ones), each on its own track; up to 8 audio tracks in use.
 - About 20 of the 120 hits were disabled, mostly `Multiple UI Beeps 01` on demo starts and a few swooshes.
 
+### Changed 2026-10-16 (Samuel, LinkedIn v6 review)
+
+The tiny reused palette and "only about a third of reveals" above describe the reference and his old passes. **Samuel no longer wants either:** every element that animates in gets its own small sound (each item of a list, not just the first), and the same sound is not repeated through the video. Vary the beeps across his beep folder; keep beeps and whooshes as low as the levels above. His words: [[03-Areas/video-editing/ways-of-working|ways of working]] → Samuel, 2026-10-16. The level references above still hold (normalise every other file to them). First pass built this way: LinkedIn Training *Visuals v6*, planner in that job's `Graphics\Visuals v1\sound\plan_li.py`.
+
 Sound library: music in `Routerise\Visual Assets\Music\`, SFX in `Routerise\Visual Assets\SFX\` and `C:\Users\repzy\Downloads\sounds\Sound effects\` (the palette files above live there). Scripts: `scripts/sound_study.py` (dump a finished project's audio), `scripts/sfx_events.py` (comp element landings + clip starts), `scripts/sound_place.py` (place a JSON plan, music fades, SFX in-points). Apollo's plan builder, with demo clicks and typing read from the HTML scene files: the job's `Docs\Sound plan (2026-10-04)\`.
 
 ## 9. Typography and colour
