@@ -143,3 +143,11 @@ Sources: **T** = his Twitter @samuelbrand01 media (352 posts, 2024-05-16 → 202
 | 17 | 19 months, over $20,000 | L93-L95 on the hill over the city (2026-04) |
 | 18 | Now I help editors | L111-L119 Tehila Foundation session, L127 Break into Tech talk |
 | 19 | You still have a chance… | L129 portrait, or the newest setup clip |
+
+## Files gathered (2026-10-16)
+
+Samuel, 2026-10-16: *"Yes, download all the picks into Instagram Samuel Signals\Soldier to editor montage\, numbered by line. Skip the 38-minute recording."* Folder: `Instagram Samuel Signals\Soldier to editor montage\`, files named `NN_line_SOURCE-…`. Twitter via yt-dlp, Google Photos via Chrome (Shift+D, lands in `Desktop\Called to Edit\`, then moved), PC photos and B-roll archive clips copied, never moved.
+
+Mid-download he objected, his words: *"Why are you donwloading random pictures and images that doesn't fit the story or doesn't show me"* and *"You are meant to get the best videos/images that fit the story not random stuffs"*. Fair: the first pull (61 items) had wrong-emotion shots (a victory pose and a smiling guitar shot on the "scared" line), screen grabs, blurry frames and duplicates, and he never saw them. 15 went to `_not used\` (nothing deleted). Emotional B-roll from the archive replaced them: FCE-01 hand on head, FCE-09 hands over face and head down on keyboard, FCE-02 rubbing eyes, FCE-03 slumped, ROM-08 dark room on the floor, PHN-06 hand over mouth, PHN-07 smiling at the phone, DSK-00 screen wakes, MIL-00/01/04. Now 59 picks; board v2 sent to him for cuts.
+
+Still thin: line 3 (one clip), line 13 (no real DM screenshot).
