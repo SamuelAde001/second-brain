@@ -106,3 +106,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-16 — Read the Called to Edit Registrations Sheet in Samuel's Chrome (read-only): 29 paid, funnel and hero drop-off logged in [[04-Projects/called-to-edit-landing-page-build|build note]].
 - 2026-10-16 — Broke down the Feb 2026 montage reel from his file (frames + transcription in scratchpad), wrote [[03-Areas/personal-brand/soldier-to-editor-montage-2026-10-16|soldier to editor montage]], asked story and photo questions.
 - 2026-10-16 — Gathered montage visuals into Soldier to editor montage folder; first pull judged random by Samuel, curated to 59 on-story picks with archive B-roll, board v2 sent.
+- 2026-10-16 — Teachings note set up for the webinar, 48 topics, filled one at a time from Samuel's voice notes ([[04-Projects/called-to-edit-webinar-teachings|teachings]]).
