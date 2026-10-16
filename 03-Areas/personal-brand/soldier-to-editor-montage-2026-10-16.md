@@ -117,3 +117,29 @@ Visual sources, his instruction: *"go to my Twitter page … the media aspect �
 ## Photos
 
 Local photos are thick for 2025-2026 (`Pictures\My pictures`, 76) and thin before 2023 (`Instagram Samuel Signals\Photos`, 54). Military picture-frame B-roll exists: `B-roll archive\Military picture frame\MIL-01` to `MIL-04`. Google Photos fills the early years. Nothing is downloaded without his yes.
+
+## Visual picks v1 (Brand manager, 2026-10-16, waiting for his OK)
+
+Sources: **T** = his Twitter @samuelbrand01 media (352 posts, 2024-05-16 → 2026-10; tweet ids below), **G/K/J/R/U** = Google Photos search results (labels from the searches *military*, *laptop*, *January 2025*, *March 2025*, *June 2025*; photo ids kept in Chrome's localStorage `__picks` on photos.google.com), **L** = local photos (index in the session's contact sheet; files in `Instagram Samuel Signals\Photos` and `Pictures\My pictures`).
+
+| # | Caption (short) | Picks |
+|---|---|---|
+| 1 | While still being a soldier | G180 airfield formation (2021-11), G185 selfie with unit (2021-03), L30/L31 in Air Force uniform editing on a laptop (2024-08) |
+| 2 | Helped edit my mentor's videos | K204 Acer laptop (2021-07), K226/K239 at laptop (2023-11), L12/L13 laptop timeline (2023-07), L36 night laptop (2024-11) |
+| 3 | Posting my work online | T4 *"Worked on this Intro for my Client"* (2024-05-16, 1791052127751590001), T23 *"Editing days, the grind is real"* (1803466548260061228), T31 studio (1818053380406710357) |
+| 4 | First international client, $20 | J152 client message *"bring you on as an editor for my main channel"* (2025-01-16), T84 *"My expression when the client loves the Video"* (2024-12-15, 1868381932201091417) |
+| 5 | January 2025, quit the military | T98 *"Finally quiting my 9-5 Job for video editing full-time"* (2025-01-04, 1875502668040610061), J189 silhouette video (2025-01-07) |
+| 6 | Scared people would laugh | J189 silhouette, T120 (1883620460568412296) |
+| 7 | 90,000, empty room, laptop | J194/J195 empty-room videos (2025-01-05), T99 *"Moving in to my new apartment"* (1875960222852009994), J196, L39 |
+| 8 | $600, bought a chair | J149/J150 chair videos (2025-01-16), T102 *"My new video editing work area"* (1878189577992622128) |
+| 9 | Too many clients, burned out | R126 back-of-head at laptop video (2025-03-27), R139 dark room (2025-03-25), R103 *"urgent project"* client message, T141 (1895534458893451602) |
+| 10 | $250 client, not good enough | T173 *"VLOG Day 2: POV of an Entrepreneur Video Editor"* (2025-04-08, 1909562824004599854), K221/K247 (2025-04) |
+| 11 | Locked in | T219 *"Time to lock in"* (2025-06-22, 1936878981883580500), U140-U142 blue-lit night editing (2025-06-25), T215 notebook (1932377776167796960) |
+| 12 | And then... | black, or slow push-in |
+| 13 | Biggest client DM, $350 | his DM screenshot if he has it (not found), L43 shouting at the mic (2025-03) |
+| 14 | $1,500 month, first PC | L62-L66 PC setups (2025-09), T258 (1967586388506739098), T264 (1970379937736478961) |
+| 15 | 1M-subscriber YouTuber | T277 setup (2025-10-21, 1980570175100551308), L69/L70 |
+| 16 | Billion-dollar company | L77-L82 confident at the setup (2026-01) |
+| 17 | 19 months, over $20,000 | L93-L95 on the hill over the city (2026-04) |
+| 18 | Now I help editors | L111-L119 Tehila Foundation session, L127 Break into Tech talk |
+| 19 | You still have a chance… | L129 portrait, or the newest setup clip |
