@@ -302,3 +302,4 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Who decided**: the Editor, for the night run. Whether to keep it is Samuel's call.
 **Restored** 2026-10-16 07:05 WAT: back to 150k / 185k after the run's last helper (review + final fix round) returned.
 **Raised again** 2026-10-16 07:55 WAT for one more run (zoom-out pass on ~29 unmarked post beats, same reason); restore 150k / 185k when it returns.
+**Restored** 2026-10-16 08:35 WAT: Samuel stopped the zoom-out run ("the ones remaining leave them"); back to 150k / 185k.
