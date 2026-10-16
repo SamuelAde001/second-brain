@@ -206,6 +206,7 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-16 | to-pot | 200,000 | Goal 1, Payday B | Goal 1 | his words: "I just sent 200k for goal 1, so I have a round number"; plan 199,752, the extra 248 from Extra cash; Rule 3 kept: same day as Payday B |
 | 2026-10-16 | to-pot | 50,000 | Buffer, Payday B | Buffer | his words: "and 50k for buffer"; plan cut from 114,891 to 50,000 the same day; Rule 3 kept |
 | 2026-10-16 | bulk | 30,000 | Girlfriend, sent | Girlfriend extras | his words: "Sent my GF 30k"; planned 2026-10-16 |
+| 2026-10-16 | bulk | 15,430 | Yoghurt 8,430 + turkey 5,000 + banana 2,000 | Feeding | his words: "I spent 8,430 on some yougort, and 5000, on buying a turkey, and 2000 on bannana" |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
