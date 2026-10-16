@@ -67,3 +67,4 @@ Back to [[03-Areas/finances/finances|Finances]]
 - *"I would put 50k in the buffer instead, cause I want to send 30k to my babe, and have more cash on hand"*: Buffer B NGN 50,000. Objection logged in [[00-System/decisions|decisions]].
 - Parents' house and church this weekend, ~NGN 20,000 transport, NGN 10,000 for things for his parents. Seminar 2026-10-30: fee NGN 5,000, transport ~NGN 15,000. Eating out ~NGN 30,000 more.
 - Google One AI Pro (NGN 28,500, renews the 18th): thinking of downgrading, not decided.
+- *"I just downgraded, it's 15k per month for the google sub"* (2026-10-16): Google AI Pro NGN 28,500 → AI Plus 2 TB NGN 15,000 from the 18th. Standing plan changed ([[03-Areas/finances/obligations|obligations]]).

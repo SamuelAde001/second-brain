@@ -205,6 +205,7 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-16 | balance | 569,899 | Bank | — | his words: "what is in my personal account right now is N569,899"; no screenshot. Webinar money not counted: 44,084 webinar account + 14,677 Flutterwave (his words) |
 | 2026-10-16 | to-pot | 200,000 | Goal 1, Payday B | Goal 1 | his words: "I just sent 200k for goal 1, so I have a round number"; plan 199,752, the extra 248 from Extra cash; Rule 3 kept: same day as Payday B |
 | 2026-10-16 | to-pot | 50,000 | Buffer, Payday B | Buffer | his words: "and 50k for buffer"; plan cut from 114,891 to 50,000 the same day; Rule 3 kept |
+| 2026-10-16 | bulk | 30,000 | Girlfriend, sent | Girlfriend extras | his words: "Sent my GF 30k"; planned 2026-10-16 |
 
 Back to [[03-Areas/finances/finances|Finances]]
 

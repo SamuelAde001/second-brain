@@ -16,7 +16,7 @@ Exact line items, given by Samuel on 2026-08-26 and maintained since. **Payday**
 | Building project | NGN 500,000 | Fixed | A |
 | Parents | NGN 100,000 | Committed | A |
 | Girlfriend allowance | NGN 100,000 | Committed | A |
-| Subscriptions | NGN 175,742 | mixed | split |
+| Subscriptions | NGN 162,242 | mixed | split |
 | Chores / household | NGN 40,000 | Discretionary | B |
 | Health — gym | NGN 30,000 | Committed | A |
 | Feeding | NGN 30,000 | Committed | B |
@@ -28,7 +28,7 @@ Exact line items, given by Samuel on 2026-08-26 and maintained since. **Payday**
 | Data / airtime | NGN 5,000 | Committed | B |
 | **Obligations floor** | **NGN 1,060,742** | | |
 | Investment contribution (Investment fund) | NGN 60,000 | Fixed | A |
-| **Total committed outflow** | **NGN 1,120,742 / month** | | |
+| **Total committed outflow** | **NGN 1,107,242 / month** | | |
 
 The Buffer gets NGN 90,000/month on top: NGN 40,000 to Cowrywise savings on Payday A + NGN 50,000 on Payday B (Rule 8, changed 2026-09-28).
 
@@ -37,11 +37,11 @@ The Buffer gets NGN 90,000/month on top: NGN 40,000 to Cowrywise savings on Payd
 | Subscription | NGN | Bills on |
 |---|---|---|
 | Claude Max (claude.ai, Cleva card) | ~143,942 (USD 107.50) | 6th |
-| Google | 28,500 | 18th |
+| Google (AI Plus 2 TB, from 2026-10-18) | 15,000 | 18th |
 | YouTube Premium | 1,700 | 17th |
 | Spotify | 1,600 | 5th |
 
-**NGN 175,742 a month** from 2026-10-06, when Claude went from Pro on Google Play (NGN 33,500, 16th) to Max on claude.ai: USD 107.50, NGN 143,942 on the first charge. Samuel, 2026-10-06: *"N143,942 was charged for $107.5"*. The naira figure moves with the card rate. It was NGN 65,300 from 2026-09-18. Until then it was NGN 51,800: Claude NGN 33,500 (16th) · Google NGN 15,000 (2nd) · YouTube Premium NGN 1,700 (17th) · Spotify NGN 1,600 (5th).
+**NGN 162,242 a month** from 2026-10-18, when Google went from AI Pro (NGN 28,500) down to AI Plus 2 TB (NGN 15,000). Samuel, 2026-10-16: *"I just downgraded, it's 15k per month for the google sub"*. 2 TB kept for Meet's long group calls and recording (webinar, cohort classes). Before that, **NGN 175,742 a month** from 2026-10-06, when Claude went from Pro on Google Play (NGN 33,500, 16th) to Max on claude.ai: USD 107.50, NGN 143,942 on the first charge. Samuel, 2026-10-06: *"N143,942 was charged for $107.5"*. The naira figure moves with the card rate. It was NGN 65,300 from 2026-09-18. Until then it was NGN 51,800: Claude NGN 33,500 (16th) · Google NGN 15,000 (2nd) · YouTube Premium NGN 1,700 (17th) · Spotify NGN 1,600 (5th).
 
 YouTube and Spotify are kept — his words: they help his work, and they are his only entertainment.
 
@@ -86,6 +86,14 @@ The floor rises from NGN 936,800 to **NGN 950,300**, and committed outflow from 
 | Buffer | NGN 50,000 on B | NGN 90,000: NGN 40,000 to Cowrywise savings on A + NGN 50,000 on B | *"It's withdrawable, put it toward the Buffer"* |
 
 Committed outflow falls from NGN 1,050,300 to **NGN 1,010,300**. Nothing got cheaper: the NGN 40,000 moved from a locked pot to one he can withdraw from.
+
+## Changed 2026-10-16, at his instruction
+
+| Line | From | To | Why |
+|---|---|---|---|
+| Google | NGN 28,500 (AI Pro) | NGN 15,000 (AI Plus 2 TB) | *"I don't really need the flow sub as urgent again, and I hardly use Gemini AI, so we can cut cost"*; *"I just downgraded, it's 15k per month"*. 2 TB, not 400 GB, keeps long Meet calls and recording |
+
+Committed outflow falls from NGN 1,120,742 to **NGN 1,107,242**. NGN 13,500 a month saved.
 
 ## Removed and no longer owed
 
