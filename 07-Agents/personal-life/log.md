@@ -100,3 +100,4 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 - 2026-10-15 20:45 — night check sent (cloud routine): 2 misses pending his answer, plan for 2026-10-16 proposed, nothing written to TickTick yet.
 - 2026-10-16 20:45 — night check sent (cloud routine): no new misses (talking head and outline were moved to 17 Oct before the check), 9 this week; plan for 2026-10-17 proposed, nothing written to TickTick yet.
 - 2026-10-17 — ManyChat: on Samuel's ask ("Remind me to cancel Manychat sub tomorrow night, it's starting on 19th"), moved the existing task (ID 6ac39bee8f08929497eb7dfc, was due 17 Oct 8:00am) to Sun 2026-10-18 9:00pm WAT, high priority, reminders 15 min before and at start. 9:00pm is the agent's pick, after the 8:45pm night check.
+- 2026-10-17 20:45 — night check sent (cloud routine): nothing ticked today, 2 must-do misses pending his answer (11 this week if confirmed); plan for 2026-10-18 proposed, nothing written to TickTick yet.
