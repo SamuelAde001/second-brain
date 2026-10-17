@@ -2,7 +2,7 @@
 type: log
 area: personal-brand
 status: active
-updated: 2026-09-22
+updated: 2026-10-17
 source: manual
 tags: [content, numbers, log]
 ---
@@ -22,6 +22,7 @@ Numbers come from Samuel, when he has them. Nothing connects to Instagram or Tik
 | 2026-08-26 | 460 | 550 | the accountability engine's audience file (`08-Archive/accountability-engine/context/audience.md`) |
 | 2026-09-20 | 671 | 673 | Samuel, 2026-09-20 ([[instagram-strategy]]) |
 | 2026-09-27 | 695 | 703 | his words: "Im at 695 on IG and 703 on tiktok" |
+| 2026-10-17 | 1,000+ (exact count not given) | 960 | his words: "Just crossed 1k followers on IG, 960 on tiktok" |
 
 ## Posts
 
