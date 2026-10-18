@@ -18,7 +18,7 @@ Samuel, 2026-10-18 (Editor's plan written by the General Manager):
 - *"don't worry about the deadlines, I have no issues delaying as long as I have a perfect video, I just need to use my tokens wisely"*
 - *"don't schedule, cause when you schedule we never follow your plans on my tiktik and it becomes noise"*
 
-**This plan is not in TickTick.** Order and phases only, no clock times. Live state lives in each job note.
+**This plan is not in TickTick.** Order and phases only, no clock times. Live state lives in each job note. **Each day's client work is planned the night before**, in the night plan, from the next step here. Samuel, 2026-10-18: *"We would plan the task of the client work a night before, so we are more accurate"*.
 
 ## The budget it works against
 
