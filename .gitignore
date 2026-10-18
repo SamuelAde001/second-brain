@@ -2,6 +2,8 @@
 01-Inbox/_imports/
 
 # Obsidian local state
+# The phone's own settings folder (layout, plugins, the GitHub token): 00-System/phone-sync.md
+.obsidian-mobile/
 .obsidian/workspace*.json
 .obsidian/cache
 .obsidian/plugins/*/data.json

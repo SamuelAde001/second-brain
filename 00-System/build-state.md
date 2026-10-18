@@ -2,7 +2,7 @@
 type: log
 area: system
 status: active
-updated: 2026-10-16
+updated: 2026-10-18
 source: manual
 tags: [build, state]
 ---
@@ -38,11 +38,11 @@ Not asked in PA checks (Samuel, 2026-10-14: old routines cancelled; *"Don't worr
 
 1. His principles (the one `02-Me` gap).
 2. Moving the `Talking heads and  B-rolls` folder into the B-roll archive (old Resolve projects may link to it).
-3. Two merged cloud branches on GitHub to delete.
+3. Merged cloud branches on GitHub to delete: `claude/confident-dijkstra-7l3jer`, `ccr-55637369-izb3m4`, `ccr-71b35528-li1qui` (the two `ccr-*` merged 2026-10-18).
 
 ## Loose ends
 
-1. **Phone sync through Obsidian was never set up.** Decided (GitHub as the spine, Obsidian Git on Android, token in the plugin only), not installed. Cloud sessions cover the phone for now.
+1. **Phone sync through Obsidian: steps written 2026-10-18, not installed.** Samuel does steps 1-9 in [[00-System/phone-sync|phone sync]] (token, vault, `.obsidian-mobile` settings folder, Obsidian Git, clone). Cloud sessions now run the sync hook in cloud mode (decision 2026-10-18).
 2. **Video-editing project memory files not distilled** (Samuel: skip for now): `technical-learnings.md`, `taking-a-step-back-from-claude.md`, `cold-outreach-video.md`. Check overlap before spending tokens.
 3. **~200 conversations dropped at triage.** Full list: `01-Inbox/_imports/processed/triage.csv`.
 4. The old Gemini CLI npm copy can be removed (Antigravity `agy` replaced it).
