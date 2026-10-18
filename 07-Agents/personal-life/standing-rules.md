@@ -2,7 +2,7 @@
 type: agent
 area: me
 status: active
-updated: 2026-10-14
+updated: 2026-10-18
 source: interview
 tags: [agent, personal-life, rules, planning]
 ---
@@ -77,6 +77,8 @@ Samuel: *"why are you still asking me"*.
 - **Delivered client jobs.** Route Rise AI B2B and Apollo are done and sent. Check the job note and build-state before asking whether something shipped.
 - **Money.** It is handled with the Money man in its own sessions. PA checks and briefs carry no money items. *"I am done with money man, why asking me"*.
 - **The credential file on the Desktop.** *"Don't worry about the credentials, stop asking me"*.
+- **Invoices that have been paid (2026-10-18).** *"I have sent invoice since, why mentioning it again, if I have been paid, it means invoice has been sent"*. A payment in the finance log means the invoice went out.
+- **Webinar sign-up numbers (2026-10-18).** *"For webinar signups, I am okay with what we have"*. Don't push registrations.
 
 ## How the reports must read (2026-09-25)
 
