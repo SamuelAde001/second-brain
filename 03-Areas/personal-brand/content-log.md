@@ -2,7 +2,7 @@
 type: log
 area: personal-brand
 status: active
-updated: 2026-10-17
+updated: 2026-10-18
 source: manual
 tags: [content, numbers, log]
 ---
@@ -23,6 +23,7 @@ Numbers come from Samuel, when he has them. Nothing connects to Instagram or Tik
 | 2026-09-20 | 671 | 673 | Samuel, 2026-09-20 ([[instagram-strategy]]) |
 | 2026-09-27 | 695 | 703 | his words: "Im at 695 on IG and 703 on tiktok" |
 | 2026-10-17 | 1,000+ (exact count not given) | 960 | his words: "Just crossed 1k followers on IG, 960 on tiktok" |
+| 2026-10-18 | not given | not given | his words: the viral Instagram video got "over 700 followers" (gained from that video) |
 
 ## Posts
 
@@ -42,5 +43,6 @@ The two Life of a Video Editor episodes went out before this log, dates not reco
 | Checked | Post (date + title) | Instagram views | TikTok views | Source |
 |---|---|---|---|---|
 | 2026-09-27 | 2026-W39 main video, title not given | not split | not split | his words: "Main views on my main video this week was 1k"; 1,000 views total, platform not stated |
+| 2026-10-18 | Viral video, title not given | 130k (his words: "hit 130k views") | went viral too; number not given | his words, 2026-10-18. Audience skewed to Indian video editors, not Nigerian ones (he wanted Nigerian) |
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]
