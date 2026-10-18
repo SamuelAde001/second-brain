@@ -9,7 +9,7 @@ tags: [routerise, plan, tokens]
 
 # Route Rise videos 2 and 4: work plan (order and token budget)
 
-Back to [[03-Areas/video-editing/video-editing|Video editing]]. Jobs: [[04-Projects/routerise-claude-10000-saas|2. I Gave Claude 10,000 SaaS Companies]] · [[04-Projects/routerise-cold-email-goldrush|4. The Cold Email Goldrush Is Back]].
+Back to [[03-Areas/video-editing/video-editing|Video editing]]. **"2" and "4" are Route Rise's card numbers, not a count.** October has **5** Route Rise videos (Samuel, 2026-10-18): AI B2B, Apollo, LinkedIn Training, and these two ([[03-Areas/video-editing/delivered-projects|delivered projects]]). Jobs: [[04-Projects/routerise-claude-10000-saas|2. I Gave Claude 10,000 SaaS Companies]] · [[04-Projects/routerise-cold-email-goldrush|4. The Cold Email Goldrush Is Back]].
 
 Samuel, 2026-10-18 (Editor's plan written by the General Manager):
 - *"One is meant to start today, but I would start tomorrow as I need to rest and prepare for the week"*

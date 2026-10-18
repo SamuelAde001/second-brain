@@ -2,7 +2,7 @@
 type: knowledge
 area: video-editing
 status: needs-input
-updated: 2026-10-14
+updated: 2026-10-18
 source: manual
 tags: [clients, delivered, income]
 ---
@@ -36,6 +36,7 @@ Every client video delivered so far, one row per video. The **video-editor agent
 | 19 | Alex video (Sep #4): one of "The Only Claude Dropshipping Guide", "$7M Founder: Cold Outreach" or "Taking a Step Back from Claude" (rows 16–17 aren't matched to titles) | Alex | Route Rise | — | 333.33 | 2026-09 | Samuel, 2026-09-28: *"Yes I did 4 vids, 3 Alex videos ... and one Andy's video"*; 2026-10-14: all four delivered, billed on invoice #13 |
 | 20 | The Most Valuable AI B2B Marketing Training You'll Ever Watch | Alex | Route Rise | by 2026-10-14 | 333.33 | 2026-10 | Samuel, 2026-10-14: done and sent; send date not given. [[04-Projects/routerise-ai-b2b-marketing\|job note]] |
 | 21 | I cancelled Apollo.io and built this Claude skill instead | Alex | Route Rise | by 2026-10-14 | 333.33 | 2026-10 | Samuel, 2026-10-14: done and sent; send date not given. [[04-Projects/routerise-cancel-apollo\|job note]] |
+| 22 | The Most Valuable B2B LinkedIn Training You'll Ever Watch | Alex | Route Rise | — | 333.33 | 2026-10 | Final v2 rendered 2026-10-16 (Editor); Samuel sends it. Counted in October's 5 by Samuel, 2026-10-18. Send date not given. [[04-Projects/routerise-linkedin-training\|job note]] |
 
 Rows 1–15 come from the batch-count table in [[03-Areas/finances/income|Income]] (May 5 / June 4 / July 2 / August 4 videos), confirmed by Samuel 2026-09-20 as the live record. No video names, individual delivery dates or per-video splits exist anywhere in the Brain for May–July, so those rows carry `name unknown` and `—`. The single-rate assumption for May–July (all USD 333.33, one end client) follows directly from the source: the second end client is stated as "new August 2026" — before that there was one client at one rate. August's 2+2 split and both rates are stated explicitly in [[03-Areas/finances/income|Income]].
 
@@ -67,3 +68,4 @@ A mistake in an existing row gets a new, dated line right here, never a silent e
 - 2026-10-14 — **Moved on means delivered.** Samuel: *"If I am not actively working on a video anymore and I am on a new video, it means that video has been deilvered, take note, I would never start working on a new routerise video if I haven't delivered the last"*. When a new Route Rise job starts, the previous one gets its row the same day without asking him. Ask only for the delivery date, and leave it `—` if he doesn't know.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]
+- 2026-10-18 — **October has 5 Route Rise videos.** Samuel: *"With this 2 we have 5 videos this Month, not 4"*. B2B, Apollo, LinkedIn Training (row 22, added today) plus the two new cards: 2. I Gave Claude 10,000 SaaS Companies and 4. The Cold Email Goldrush Is back ([[04-Projects/routerise-videos-2-and-4-plan|plan]]). The 2 and 4 are Route Rise's card numbers, not a count.
