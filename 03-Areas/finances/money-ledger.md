@@ -207,6 +207,17 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-16 | to-pot | 50,000 | Buffer, Payday B | Buffer | his words: "and 50k for buffer"; plan cut from 114,891 to 50,000 the same day; Rule 3 kept |
 | 2026-10-16 | bulk | 30,000 | Girlfriend, sent | Girlfriend extras | his words: "Sent my GF 30k"; planned 2026-10-16 |
 | 2026-10-16 | bulk | 15,430 | Yoghurt 8,430 + turkey 5,000 + banana 2,000 | Feeding | his words: "I spent 8,430 on some yougort, and 5000, on buying a turkey, and 2000 on bannana" |
+| 2026-10-17 | bulk | 15,329 | SMFest seminar fee | Creator visits (network) — SMFest 2026-10-17 | his words: "SMFest fee - 15329"; plan 15,000, over by 329; day assumed (seminar 2026-10-17) |
+| 2026-10-17 | bulk | 1,700 | Google YouTube subscription | Subscriptions | his words: "Google Youtube sub - 1,700"; told 2026-10-18; day assumed |
+| 2026-10-17 | bulk | 15,000 | Google One subscription (AI Plus 2 TB) | Subscriptions | his words: "Google one sub - 15,000"; told 2026-10-18; day assumed |
+| 2026-10-17 | bulk | 25,000 | Girlfriend's bible | Girlfriend extras | his words: "Babe's bible 25,000"; not in the plan, line already fully spent, so over by 25,000; told 2026-10-18; day assumed |
+| 2026-10-17 | bulk | 4,100 | Transport on the SMFest outing (2,100 + 2,000) | Transport | his words: "2,100 TP, 2000,tp"; day assumed |
+| 2026-10-17 | bulk | 14,000 | Food on the SMFest outing (4,000 + 10,000) | Eating out | his words: "4000 food,10000 food"; day assumed |
+| 2026-10-17 | bulk | 5,100 | Things for his parents | Parents | his words: "5100, parents"; the one-off 10,000 for this visit; day assumed |
+| 2026-10-18 | bulk | 10,200 | POS cash withdrawal for Sunday transport | Transport | his words: "10,200 POS withdraw for TP of Sunday"; day assumed |
+| 2026-10-18 | bulk | 9,400 | Food today | Feeding | his words: "Food today 9400"; Feeding, not Eating out, is Money man's guess, he was told |
+| 2026-10-18 | bulk | 1,518 | Minor spends 2026-10-16 to 2026-10-18 | Other | derived; rows give 174,640, he has 173,122; likely POS and transfer charges |
+| 2026-10-18 | balance | 173,122 | Bank | — | his words: "Current bank account is 173,122"; no screenshot. Webinar money not counted: 11,507 webinar account + 29,355 Flutterwave (his words) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
