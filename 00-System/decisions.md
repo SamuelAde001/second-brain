@@ -316,3 +316,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Why**: Samuel, 2026-10-18: *"using Claude code from my phone has been challenging, it is slower, less accurate on going through files on my github and makes a lot of mistakes, I need to make it more optimised, and also, I need to sync my files on my obsidian phone too"*. Found: two phone commits (2026-10-09, 2026-10-17) sat on `ccr-*` branches the hook never named, merged today; the 2026-10-11 cloud session could not merge `origin/main` (shallow clone, "unrelated histories"); cloud sessions were told to use PowerShell, which Linux doesn't have, and Bash beyond a few git commands needed approval on the phone.
 **Who decided**: Samuel asked for the fix; the method is the General Manager's. The Obsidian Git route is his 2026-09-20 decision.
 
+
+## 2026-10-18 — October: freed NGN 82,070 stays in the bank
+
+**Decision**: The NGN 82,070 freed on 2026-10-18 (son's drum, transport, parents, feeding cuts) stays in his current account as Extra cash. Nothing goes to Goal 1 or the Buffer before Payday A.
+**Why**: Samuel, 2026-10-18: *"I just want to have cash in my account, makes me feel less anxious"*. Objection, once: about NGN 87,600 is now unassigned, the second time in three days he has chosen cash on hand over a pot (Buffer cut 2026-10-16), and unassigned cash is how NGN 595,250 went in June to August. Money man suggested NGN 70,000 to Goal 1, keeping ~NGN 17,600 for early November. Samuel proceeded.
+**Who decided**: Samuel.

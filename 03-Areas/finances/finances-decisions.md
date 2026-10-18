@@ -69,3 +69,9 @@ Back to [[03-Areas/finances/finances|Finances]]
 - Google One AI Pro (NGN 28,500, renews the 18th): thinking of downgrading, not decided.
 - *"I just downgraded, it's 15k per month for the google sub"* (2026-10-16): Google AI Pro NGN 28,500 → AI Plus 2 TB NGN 15,000 from the 18th. Standing plan changed ([[03-Areas/finances/obligations|obligations]]).
 - *"I want to go for the SMfest Seminar tomorrow, which cost 15k reg fee"* (2026-10-16): SMFest back on (skipped 2026-09-29). Trip transport 20–25k (seminar, parents' house, church). Friend NGN 30,000 on Monday 2026-10-19, *"may be returned ending of the month"*: planned as given. All from Extra cash.
+
+## 2026-10-18 — Sunday cuts
+
+- *"I may not spend on Sons drum till next months bills"*: drum NGN 40,000 moves to November. Transport to NGN 20,000 left (*"maybe just 20k instead"*), parents and home feeding cut to what was spent, NGN 82,070 freed.
+- *"I just want to have cash in my account, makes me feel less anxious"*: the freed money stays in the bank as Extra cash. Objection logged in [[00-System/decisions|decisions]].
+- *"I might not go for the Seminar again, once the time reaches I would decide"*: seminar 2026-10-30 (fee NGN 5,000 + ~NGN 15,000 transport) stays planned until he decides.

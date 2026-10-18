@@ -91,3 +91,7 @@ Back to [[07-Agents/finance/profile|Profile]]
 ## 2026-10-14 — Ask, don't read tense into a short line
 
 - I logged "The Sub is paid today" as paid; he meant it would be. Then I read his webinar balance as his bank. Both cost him a confused round. When a line could mean done or about to happen, or names "my account" while two accounts are in play, ask in one line before logging. Keep replies to one picture: what's in the account, what goes out, what's left.
+
+## 2026-10-18 — Cash on hand is about anxiety
+
+- Samuel: *"I just want to have cash in my account, makes me feel less anxious"*. Twice in three days (Buffer cut 2026-10-16, freed money kept 2026-10-18) he chose cash in the bank over a pot. The feeling is the real driver. A suggestion that empties his account to a low figure lands badly. Show what stays in the bank after a pot move, and offer pots he can reach (the Buffer) before Goal 1.
