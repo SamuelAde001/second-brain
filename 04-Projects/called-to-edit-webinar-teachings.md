@@ -377,7 +377,56 @@ Recorded 2026-10-19.
 
 ### 1.7 Working for free or low pay as a learning mechanism
 
-*Not recorded yet.*
+Recorded 2026-10-19.
+
+**Real projects are the best and fastest way to learn.** *"My number one way to learn is working on real projects that have real consequences and are for real people."*
+
+**Why real projects teach faster: pressure**
+- If a friend or client will post it on their Instagram, you try your best not to make mistakes, so it converts and gets views.
+- Your own practice video has no deadline. You can spend a whole month on one.
+- When you know someone is posting tomorrow, it keeps you up late.
+- To get real projects as a beginner, offer your service free, to people who can manage you as a beginner, where excellence isn't critical yet.
+
+**The money ladder**
+1. **Free:** the best way to start.
+2. **Low pay**, once you're more confident and have done real work, *"even if it is 5K, 10K"* (NGN). It still lets you get better, and it pays for what learning costs: **data, electricity**. *"Whether you're working for free or not, you still need to get data."*
+3. Don't stay free too long. *"We spend too much time learning and working for free. And that's why we don't have the money to afford the little things that we need."*
+4. Reality check: you hear editors say *"I'm earning 500,000 naira, I'm earning 1 million."* *"You are not there yet. You are still in the learning stage."* At that stage you need enough money to fund your skill.
+
+**How long is too long:** after **four or five free projects** for someone, start moving to paid, unless you have an agreement.
+
+**Set the scope up front: a time frame or a number of videos**
+- Not *"free for a year"*.
+- The ask: *"Sir, please, can I edit your videos for one month for free? I'm trying to build my portfolio and I'm looking for more work... I would love to partner with you."* Or *"let me just do five videos for you, for free."*
+- **Don't say you're learning:** say you're building your portfolio.
+- His example: an editor once worked for him free for a whole month; after that he started paying them.
+
+**The money conversation: you don't have to raise it.** With a scope set, when it ends the person knows either you leave or they pay you. If you did a good job, they know they may not find someone as good, so *"he will want to pay you to stay."* Then you renegotiate a new deal. (Negotiating contracts and batched deals comes later: 6.x, 9.2.)
+
+**What free work gives you besides practice**
+- **Testimonials and client results.** People who see the work won't know it was free: *"maybe this person has paid you huge."*
+- **A portfolio** with real things to show.
+- **Years of experience.** *"I used to say I have five years of experience. Out of that five years, three years... was majorly me working for free. At most, I was earning 25,000 naira. But no one knows that."*
+- **Confidence.**
+- **Referrals.**
+- **Sharper skills.**
+
+**Mindset:** *"You have to learn to humble yourself and work for free."* Most people think they need to get paid; you want to get better.
+
+**Teaching:** work free on real projects for the pressure and the proof, with a set scope (one month or five videos). Move to low pay fast enough to fund your data and power.
+
+**Examples:** his three years free or on at most NGN 25,000 a month, counted in his five years · an editor who worked free for him for a month, then got paid · staying up late for a friend's post.
+
+**Lines to say:**
+- *"Real projects that have real consequences and are for real people."*
+- *"Whether you're working for free or not, you still need to get data."*
+- *"You are not there yet. You are still in the learning stage."*
+- *"Don't tell the person you're learning. Tell them you're building your portfolio."*
+- *"You have to learn to humble yourself and work for free."*
+
+**Board:** free → low pay (NGN 5K–10K) → paid · the scope ask as a script on screen · what free work gives you, as a list.
+
+**Overlaps to sort when organising:** 1.6 (free → token → paid ladder), 5.5 (value-first, editing for free), 5.7 (learn to work for free, and how), 7.3 (testimonials), 4.5 (portfolio with no clients).
 
 ## 2. Tools and money to start
 
