@@ -219,7 +219,7 @@ Recorded 2026-10-19. He asked for this one as lists, so it has structure: *"I ne
 - He uses Claude (Claude Code) in his own workflow to edit parts of his videos.
 - A friend works with a client whose short forms are all edited by AI.
 - **AI as a pitch:** *"I use AI to enhance your videos faster so that you can put out content faster."* Some creators and business owners *"need speed more than even fancy stuff."*
-- Use AI tools if you can afford them, then pitch them, and charge the client for the AI tools you use. *(He said "course"; likely "cost". Check.)*
+- Use AI tools if you can afford them, then pitch them, and **charge the client for the cost of the AI tools** you use. *(Checked 2026-10-19: he meant "AI cost", not "course".)*
 
 **Rule for beginners:** *"Don't learn what you are not going to be able to pitch out to your client."* Everything looks exciting. Motion graphics is fine to learn if it's your target audience, everything checks out and your tools can handle it.
 
@@ -296,7 +296,42 @@ Recorded 2026-10-19. He'll visualise almost all of it on the whiteboard: *"I'm g
 
 ### 1.3 How to learn: recreate videos you like instead of only watching
 
-*Not recorded yet.*
+Recorded 2026-10-19.
+
+**Recreating videos in your niche is one of the fastest ways to learn.** It gets easier once you know what kind of videos you edit (1.1), because you know where to look. *"One of the things I did a lot was recreate what people have already edited."*
+
+**How (his podcast example)**
+1. Pick your niche, e.g. podcast videos.
+2. Find an edit you love, e.g. someone's short form cut from a podcast.
+3. Find the raw podcast on YouTube and download it.
+4. Mimic the same edit.
+5. When you hit something you can't do (an animation, a visual, a 3D effect, the sound design), search YouTube for how to do that one thing, learn it, then put it in. *"There's a YouTube tutorial for everything you want to do. I promise you."*
+
+**Where to get raw footage**
+- *"YouTube is a mine of raw videos."* Many people post unedited videos.
+- **Don't use the biggest creators:** their videos are already over-edited. Look for raw videos similar to your niche.
+- If you can't find the raw, use another kind of video.
+- Download with one of the many download tools. **He plans to show them how to download YouTube videos live.** *Which tool: not said yet.*
+
+**Share it:** put the original and yours side by side on social media: *"I just recreated this edit. What do you guys think? Did I get it right?"* Lots of editors post recreations.
+
+**Practice, not portfolio:** *"a recreated video might not really be going into your portfolio... it's mostly for practice."*
+
+**Why it works**
+- You're implementing what someone already did professionally, *"so that you can one day become like that person."*
+- It sharpens your skills and challenges you. You've never done it before and can't ask the editor who did it, so you have to work out how.
+- He did it with motion graphics and styles he admired.
+
+**Teaching:** pick an edit you love in your niche, find raw footage and copy it shot for shot, learning each missing piece on YouTube as you hit it.
+
+**Examples:** recreating podcast shorts from the raw podcast · recreating motion graphics and styles he admired.
+
+**Lines to say:**
+- *"There's a YouTube tutorial for everything you want to do. I promise you."*
+- *"YouTube is a mine of raw videos."*
+- *"Don't look for the biggest creators. Those guys have already over-edited their videos."*
+
+**Board:** the 5-step recreate loop · original vs recreation side by side · live demo: downloading a YouTube video.
 
 ### 1.6 How long until you're good enough to charge
 
