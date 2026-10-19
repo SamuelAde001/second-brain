@@ -2,7 +2,7 @@
 type: project
 area: personal-brand
 status: needs-input
-updated: 2026-10-16
+updated: 2026-10-19
 source: interview
 tags: [called-to-edit, webinar, teaching, slides, whiteboard]
 ---
@@ -18,6 +18,8 @@ Samuel, 2026-10-16: *"you would mention each topic one by one and I would do a v
 Webinar: Fri 2026-10-23, 7:00pm WAT, 2½ hours. Visuals built Mon 2026-10-19 and Tue 2026-10-20.
 
 **Taught on a Canva whiteboard, not slides** (Samuel, 2026-10-16): *"I don't want slide slides because slides are kind of boring. I want to be able to move the whiteboard"*. Each section is lines and connections that tell the story, plus lists, revealed gradually, like a Miro board. Some parts switch to his Chrome browser to show things live. **Order:** all topics get recorded first, then the board gets mapped topic by topic so it builds progressively. The *Board* lines below are notes for that pass, not the layout.
+
+**Where the weight goes** (Samuel, 2026-10-19): most of the audience are beginners who haven't worked with clients yet. Their two big concerns, from what they told him, are **how they will learn** and **how they will get clients and get paid**. Those two get the most emphasis: sections 1 and 5, plus getting paid in 6. *"Those two things are the major two things I need to emphasize a lot in this webinar because that's what a lot of them pointed out."*
 
 His full voice notes, word for word: [[04-Projects/called-to-edit-webinar-teachings-raw|raw voice notes]].
 
@@ -57,7 +59,7 @@ Recorded 2026-10-16.
 
 **Board** (his ask: points, pictures and the journey as a timeline on the Canva whiteboard): one timeline, left to right, each stop a picture plus one line: 2020 Minecraft channel → free work for his mentor (rejected first edit) → new Twitter account, posting → USD 60 community → first USD 20 client → quits the military → USD 600 / USD 1,000 months → three clients, burnout → USD 250 agency → Route Rise → 1M-subscriber channel and a billion-dollar brand. End the timeline on *"Why you?"*, which bridges into tonight. Pictures already found for the montage (first chair after the USD 600, work area) are listed in [[03-Areas/personal-brand/soldier-to-editor-montage-2026-10-16|the montage note]]. He picks the rest.
 
-**To check with him:** the year he went professional (he said 2022–2023); the name of the virtual card platform, if he wants it said.
+**Settled 2026-10-19:** no need to pin the year he went pro or name the virtual card platform (*"don't worry about"* either).
 
 ### 0.2 What tonight is and isn't: not a tutorial, the pathway to earning
 
@@ -91,7 +93,7 @@ Recorded 2026-10-16.
 
 **Board:** a cluster of editing types (movie, podcast, short-form, motion graphics) all pointing at one path. Then the roadmap as a row of stops, the frame the rest of the board hangs off: Learn → Tools and money → Niche → Establish → Clients → Pricing → Network → Grow. A crossed-out "tutorials" box next to a YouTube logo with "80–90%". A closed box at the far end marked "later tonight" for the Academy teaser.
 
-**To check with him:** his roadmap leaves out section 7 (working with clients: briefs, revisions, communication, testimonials). Keep it as its own stop, fold it into Clients, or cut it?
+**Settled 2026-10-19:** section 7 stays but is *"not a major emphasis"*; what he'll talk about there is testimonials, turned into case studies. See section 7.
 
 ### 0.3 The truth about the market: demand for editors, why most beginners never earn
 
@@ -225,6 +227,8 @@ Recorded 2026-10-16.
 
 ## 6. Pricing and getting paid
 
+Samuel, 2026-10-19: getting paid is one of the two things the audience asked about most. He'll mention payments here, including *"some of the places that they can use to get paid"*. Which places: not said yet.
+
 ### 6.1 How to price yourself
 
 *Not recorded yet.*
@@ -238,6 +242,8 @@ Recorded 2026-10-16.
 *Not recorded yet.*
 
 ## 7. Working with clients
+
+Samuel, 2026-10-19: *"it won't be a major emphasis"*. Most of the audience haven't had clients yet. What he'll cover: **testimonials**, especially from anyone you've already worked with, and how to leverage them; the testimonials *"should be case studies"*, so they learn how to do case studies. He'll go into it when he records the section. 7.1 and 7.2 aren't part of that: cover them lightly or cut them when he records.
 
 ### 7.1 Briefs, revisions and deadlines
 
