@@ -151,4 +151,5 @@ Back to [[07-Agents/content/profile|Profile]]
 ## 2026-10-19 — Questions for the webinar topics
 - **Keep each topic's questions inside that topic.** For 0.3 (the market) he skipped "what do beginners do wrong" and "good but broke vs paid editor": *"these are questions that I don't want you to be asking me right now in this stage"*. Don't ask what a later section covers (mistakes, positioning, pricing); ask what this topic needs. Give the topic heading first so he can say it on the recording.
 - He wants claims about the market backed by real statistics with sources, not "a lot".
+- **Write his topics up as lists.** Samuel, 2026-10-19: *"I need a lot of lists so that I can be able to have a structure and not just be rambling around."* He records rambling on purpose; the Brand manager structures it. The final order and flow get set on the whiteboard after every topic is recorded.
 

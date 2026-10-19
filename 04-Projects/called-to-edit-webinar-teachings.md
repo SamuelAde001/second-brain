@@ -173,9 +173,72 @@ Recorded 2026-10-19. **"Consistency over talent" dropped:** *"I don't think we n
 
 ### 1.1 What to learn first when you don't know where to start
 
-*Carry in (2026-10-19): AI is part of what to learn, from the start (see 0.3). Work backwards: the tool you have plus who you want to serve decide what you learn (see 0.4).*
+Recorded 2026-10-19. He asked for this one as lists, so it has structure: *"I need a lot of lists so that I can be able to have a structure and not just be rambling around."* The final order gets set on the whiteboard.
 
-*Not recorded yet.*
+**The core idea:** *"You don't choose what to learn. What you learn is chosen for you"* by a few factors. You work backwards from them and *"eliminate what you don't need till you finally know what you need to learn."*
+
+**The factors that choose what you learn**
+1. **Who you want to work for, and what kind of videos.** Be very specific.
+   - On YouTube: vlogs, business talking heads, reaction, gaming, podcast, storytelling, cinematic.
+   - On Instagram: reaction, talking head, storytelling.
+   - Adverts are a category of their own.
+   - Platforms edit differently: *"YouTube talking head and Instagram talking head. They are not the same thing."* TikTok is different again, and so is LinkedIn. Short form vs long form.
+2. **Who can actually pay you.** Business videos pay more than entertainment. Paying niches he named: AI and SaaS (his), real estate (*"They have money"*), logistics, solar companies. *"You need to niche into something first before you even pick your skill."*
+3. **What you have: your hardware.** Phone or laptop, and how strong it is.
+4. **What you have: your software.** CapCut can't do 3D motion graphics, *"so why learn the skill?"*
+
+**Each kind of video needs different skills**
+- Real estate: a lot of tracking and animation.
+- Business talking heads: no tracking or animation needed.
+- Some storytelling videos: visual effects.
+- Adverts: other skills, some need visual effects.
+- Some videos don't even need sound effects.
+
+**Where phone editors win and lose**
+- Lose: long-form YouTube, motion graphics, heavy animation. *"You can't compete with a computer video editor."* Many phone editors add animations because everyone else does.
+- Win: simple short form, **event recaps**, talking heads cut into shorts that just need captions, simple social-media-style videos with captions, overlays and screenshots. *"Most of the mobile video editors I see succeeding very well are those ones that do event recaps and simple social media styled videos."*
+- *"Focus on where your power can handle."*
+
+**Worked example: a phone editor doing podcast recaps**
+- Learn: cutting, sound design, typography and captions.
+- Skip: motion graphics, *"crazy storytelling"*.
+
+**Then define yourself.** Don't just say "I'm a video editor": there are many (movie, TikTok, visual effects, podcast). His line: *"I am a long-form video editor that edits business videos for YouTubers."* Specialising is what makes you stand out. Every niche chosen this way has an audience. The next step after learning is finding those people.
+
+**The foundations every paid edit needs:** cutting, pacing, audio, captions.
+
+**Software vs skill: learn both, and they're different**
+- **Master the software first**, the one you'll actually use. For CapCut, sit through the long 4–5 hour tutorials. *"This is a part that you can't skip."* He mastered DaVinci Resolve: *"There's nothing you can tell me about DaVinci Resolve that I don't know about."*
+- **The skill** is what achieves the kind of video you chose: the art of cutting, pacing, sound.
+- The mistake: learning the software and thinking that's editing, without knowing how to run the skill.
+- Your tool stack grows as you go, e.g. CapCut plus Claude as an AI tool.
+
+**AI as part of what you learn**
+- AI is a tool in your stack, depending on the videos you edit.
+- It can't do cinematic, heavily animated videos yet. It can handle some simple talking heads, and on a laptop it can cut your videos for you.
+- He uses Claude (Claude Code) in his own workflow to edit parts of his videos.
+- A friend works with a client whose short forms are all edited by AI.
+- **AI as a pitch:** *"I use AI to enhance your videos faster so that you can put out content faster."* Some creators and business owners *"need speed more than even fancy stuff."*
+- Use AI tools if you can afford them, then pitch them, and charge the client for the AI tools you use. *(He said "course"; likely "cost". Check.)*
+
+**Rule for beginners:** *"Don't learn what you are not going to be able to pitch out to your client."* Everything looks exciting. Motion graphics is fine to learn if it's your target audience, everything checks out and your tools can handle it.
+
+**Then where to learn is simple: YouTube.** It has everything. The problem is trying to learn everything (more in 1.2).
+
+**Teaching:** don't start with the skill. Start with who you serve, what they pay for and what your tools can do. Cut everything else, then learn the software and the few skills that are left.
+
+**Examples:** he wanted to learn everything (a flip animation he saw) and it was overwhelming, until he chose YouTube long-form business talking heads · he loved motion graphics but his laptop couldn't handle it, so he dropped it · he mastered Resolve · he uses Claude in his edits · a friend's client gets all short forms edited by AI · phone editors winning on event recaps.
+
+**Lines to say:**
+- *"You don't choose what to learn. What you learn is chosen for you."*
+- *"You need to niche into something first before you even pick your skill."*
+- *"Don't just say I'm a video editor."*
+- *"Focus on where your power can handle."*
+- *"Don't learn what you are not going to be able to pitch out to your client."*
+
+**Board** (his ask: lists for structure, built on the whiteboard): a funnel. Who you serve and what video → who pays → your hardware → your software → what you learn. The video-type list per platform. The phone editor's win/lose columns. Software + skill as two boxes. The podcast-recap example as a worked case.
+
+**Overlaps to sort when organising:** niches and who pays (section 3), tools (2.1, 2.3), defining yourself and packaging (4.6), AI as a pitch (5.6, 9.4), finding your audience (section 5).
 
 ### 1.2 Where to learn: tutorials
 
