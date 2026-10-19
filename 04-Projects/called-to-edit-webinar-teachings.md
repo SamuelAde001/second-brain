@@ -128,9 +128,11 @@ Recorded 2026-10-19, answering a question list. He skipped two questions (top be
 **Board** (his ask): the statistics mapped out on the whiteboard: creators, users, content volume, demand for editors. The rest of the board for this topic gets looked at after all topics are recorded (*"we'll look through"*).
 
 **Open:**
-- **Agencies:** *"I don't know where it will be in the whole teaching yet."* Placed here for now. Candidate homes: 3.1 (niches / who pays), 5.2 (where to find clients), or a short stop of its own.
-- **AI weight:** he called it *"a very huge aspect"*; the list has it only at 9.4 (Using AI to edit faster). Keep at 9.4, or bring it forward?
 - **Statistics:** to be found, each with a source.
+
+**Settled 2026-10-19:**
+- **Agencies belong to getting clients** (*"agencies are part of clients"*); most reach out on Twitter and LinkedIn saying they need an editor. He left the exact spot to the Brand manager: the full take goes in **5.2**, with a pointer in 5.1. In 0.3 they're only named as one of the payers.
+- **AI moves to the start, into learning** (*"at the beginning, not even at the ending, AI is going to be part of what we need to learn"*): **1.1** and **1.2**, where to learn it and which tutorials. 9.4 stays for using AI to take on more work.
 
 ### 0.4 The mindset: treat it as a business from day one; consistency over talent
 
@@ -140,9 +142,13 @@ Recorded 2026-10-19, answering a question list. He skipped two questions (top be
 
 ### 1.1 What to learn first when you don't know where to start
 
+*Carry in (2026-10-19): AI is part of what to learn, from the start (see 0.3).*
+
 *Not recorded yet.*
 
 ### 1.2 Where to learn: tutorials
+
+*Carry in (2026-10-19): where to learn AI for editing and which tutorials (see 0.3).*
 
 *Not recorded yet.*
 
@@ -224,9 +230,13 @@ Recorded 2026-10-19, answering a question list. He skipped two questions (top be
 
 ### 5.1 Inbound: getting clients to come to you
 
+*Carry in (2026-10-19): agencies often reach out to editors themselves, on Twitter and LinkedIn (see 0.3 and 5.2).*
+
 *Not recorded yet.*
 
 ### 5.2 Outbound: where to find clients, which platforms
+
+*Carry in (2026-10-19): agencies as a client type. His take from 0.3: middlemen with 20–30 clients; always have work and give access to clients you can't reach; pay less and give heavy revisions; good for beginners, helped his career; best long-term is creators, businesses and brands directly; big brands go through agencies, so you work up the ladder. Most agencies post on Twitter and LinkedIn that they need an editor.*
 
 *Not recorded yet.*
 
