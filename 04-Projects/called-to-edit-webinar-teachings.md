@@ -335,7 +335,45 @@ Recorded 2026-10-19.
 
 ### 1.6 How long until you're good enough to charge
 
-*Not recorded yet.*
+Recorded 2026-10-19.
+
+**The answer: no fixed time, a finished-video test.** *"When you can finish a full video from beginning to the end, you're already good enough to charge."* Specifically, your target type of video, start to finish. *"There's no real time. It is more of your skill level."*
+
+**His standard: three full videos in your niche, start to finish** (*"let me not say one, but let's say... three videos in your niche"*). Then you're good enough to charge.
+
+**The path from practice to paid**
+1. **Practice videos:** your own, e.g. two or three talking heads of yourself.
+2. **Move quickly to real people's videos, for free.** *"As soon as possible, transition from practicing to real-world projects."* Who:
+   - a friend who owns a business: *"Record a video for your business, let me help you edit it so you can post it"*
+   - an event you go to: capture it, edit it, show them so they can use it
+   - small businesses near you without the budget for a video editor
+   - small creators, or a friend making content in the style you want to edit
+   These people can't pay great editors but can let you learn on their videos.
+3. **Ask for a token:** if they're enjoying it, tell them you'd love to be paid a token for it.
+4. **Charge.**
+
+**Free and paid at the same time:** offer free help, but still put your work out there as a paid service. If someone sees your practice videos and asks *"How much do you charge?"*, don't tell them *"I'm not ready."*
+
+**Free work turns into paid work:** a time comes when the person has to start paying you. If they won't, you can leave for another client, and they won't want you to leave.
+
+**Why people wait too long to feel ready**
+- They never start and finish a whole project.
+- They learn *"nuggets"* and specific styles, not full projects, so they don't know how to put it together on a real video.
+- Finish one, two, three full projects and you build the confidence to try a real person's video.
+
+**Teaching:** you're ready to charge when you've finished three full videos in your niche. Get onto real people's videos fast, free at first, then ask for a token.
+
+**Examples:** his mentor: free videos at first, then he started paying as Samuel's skill improved (0.1 has the NGN 25,000 a month) · a friend's business video · editing an event you attended.
+
+**Lines to say:**
+- *"When you can finish a full video from beginning to the end, you're already good enough to charge."*
+- *"There's no real time."*
+- *"As soon as possible, transition from practicing to real-world projects."*
+- *"A lot of people are learning nuggets."*
+
+**Board:** a ladder: practice videos → real people's videos, free → token → paid. The "3 full videos" test as a checkbox.
+
+**Overlaps to sort when organising:** free work and the move to paid overlaps heavily with 1.7 (working for free as learning) and 5.5 (value-first). He said real-world projects come *"later on"*.
 
 ### 1.7 Working for free or low pay as a learning mechanism
 
