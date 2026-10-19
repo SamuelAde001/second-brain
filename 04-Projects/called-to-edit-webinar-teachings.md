@@ -136,13 +136,44 @@ Recorded 2026-10-19, answering a question list. He skipped two questions (top be
 
 ### 0.4 The mindset: treat it as a business from day one; consistency over talent
 
-*Not recorded yet.*
+Recorded 2026-10-19. **"Consistency over talent" dropped:** *"I don't think we need to be talking about consistency beats talent."* His own story of when he started treating it as a business is skipped too: *"I don't want to focus on me."* Working title from what he said: **the mindset: editing is a service, run it as a business.** He called these notes scattered, to be organised later: *"just take some of the things I'm saying and just put them down, then we can organize everything eventually."*
+
+**Points**
+- **Video editing is a service, not just a skill.** *"You learn the skill of the video editing, you sell the service."* You need an offer for a client or a business.
+- **Business is an exchange of value for money.** *"I serve you by editing your videos and you give me cash for it. That's business."*
+- **Where editors get stuck:** they learn the skill, leave it as a skill, and never package it as a service or convince the client why they need it.
+- **In practice:** ask how you can offer this and who you can offer it to. Have an ideal client. Not everyone is your client.
+- **The clothing example:** a clothing business can't dress people in Japan and China at once because they dress differently. You pick one demographic: *"I'm sewing clothes for Nigerians."*
+- **Your target audience decides how you pitch.**
+- **Serving a client changes how you learn:** you improve your skill based on what suits your target audience, not what you'd like to learn.
+- **Many editors didn't make it** because they learned a skill but never turned it into a service for a target audience. They want to edit for everyone. *"If you are targeting everyone, you have no one."* Beginners think "I'm just starting, I want as much as I can get"; you can't edit for everyone, and you need to start somewhere.
+- **Your tools decide who you can serve right now.** You can't edit on a phone and serve someone who needs YouTube videos. They may be your dream client, but your tools don't get you there yet.
+- **Talented editors miss this** because they focus on the skill, not on how to serve the client.
+- **Tools + skill + target audience decide what you serve.** Serve everyone and you end up like every other editor. Be specialised, not generalised. (Niching down comes later: section 3.)
+- **Work backwards:** start from the tool you have (*"my phone, my computer, CapCut"*) and the person you want to serve (*"YouTubers or Instagram content creators or real estate agents"*). Those two decide what skill you go and learn. Then package that skill as a service for that audience.
+
+**Teaching:** you learn a skill but you sell a service, to a specific client. Work backwards from your tools and who you want to serve to what you learn.
+
+**Examples:** the clothing business (Japan vs China; *"I'm sewing clothes for Nigerians"*) · he wanted to be a motion designer, but his laptop was very bad and he didn't have the money · phone editor vs a client who needs YouTube videos.
+
+**Lines to say:**
+- *"Video editing is not a skill, it's a service."*
+- *"You learn the skill of the video editing, you sell the service."*
+- *"Business is exchange of value for money, literally."*
+- *"Not everyone is your client."*
+- *"If you are targeting everyone, you have no one."*
+
+**Homework he wants them to leave with** (*"part of the assignment and homework of this session"*): write down what video editing skill you offer as a service, to whom (the person you'd like to work with), which kind of videos, and how you'll package and sell it to that audience. *Where it goes: here, or in the close (10.1). His call when organising.*
+
+**Board:** not said. Possible pass later: the work-backwards chain, Tools + Target audience → Skill to learn → Service you package.
+
+**Overlaps to sort when organising:** target audience and specialising overlap with section 3 (niche); tools deciding who you serve overlaps with 2.1 and 2.3; working backwards overlaps with 1.1 (what to learn first).
 
 ## 1. Learning the skill
 
 ### 1.1 What to learn first when you don't know where to start
 
-*Carry in (2026-10-19): AI is part of what to learn, from the start (see 0.3).*
+*Carry in (2026-10-19): AI is part of what to learn, from the start (see 0.3). Work backwards: the tool you have plus who you want to serve decide what you learn (see 0.4).*
 
 *Not recorded yet.*
 
@@ -189,6 +220,8 @@ Recorded 2026-10-19, answering a question list. He skipped two questions (top be
 *Not recorded yet.*
 
 ### 3.2 How to choose one
+
+*Carry in (2026-10-19): from 0.4, tools + skill + target audience decide what you serve; "if you are targeting everyone, you have no one"; specialised, not generalised.*
 
 *Not recorded yet.*
 
