@@ -432,7 +432,54 @@ Recorded 2026-10-19.
 
 ### 2.1 The editing tools, pros and cons: phone (CapCut) vs laptop (Resolve, Premiere)
 
-*Not recorded yet.*
+Recorded 2026-10-19.
+
+**What decides your software:** the video type you chose (and the skills it needs) + the hardware you have or can afford. *"If you don't have the hardware that can support that software, then don't even try to focus on videos that need a skill that you can only achieve with a particular software."* No laptop means Resolve, Premiere and Final Cut (mostly Mac) aren't options for you.
+
+**The tools he named**
+
+| | Phone | Laptop |
+|---|---|---|
+| Apps | CapCut · Premiere Pro mobile · the "Edit" app | DaVinci Resolve · Premiere Pro (+ After Effects) · CapCut Desktop · Final Cut (Mac) |
+| Cost | All free on phone (paid tiers exist) | Resolve free · Premiere paid · CapCut free with Pro |
+
+**Pros and cons, his words**
+- **DaVinci Resolve:** *"a great all-rounder, especially color grading."* Free. Needs a laptop that can run it.
+- **Premiere Pro + After Effects:** best for *"crazy motion design stuff."* Resolve can do it, but these work best. Paid.
+- **CapCut:** the free version is good and *"enough to get you paid work"*, but most major professional tools need the paid version. If you can afford a laptop, start with CapCut on the laptop, depending on your niche.
+- **The "Edit" app (phone):** he uses it, especially for Instagram-style music. *(Likely Meta's Edits app; check the name.)*
+- **Colour grading** is part of video editing, and some people sell colour grading alone.
+
+**Invest in your software**
+- *"If you really want to do this thing, guys, invest in this software."*
+- **Never use cracked software.** He once used a cracked Premiere Pro while trying to move from Resolve, and got hacked: *"not joking, I was hacked on my computer. And it affected my work."* He went back to Resolve.
+- It's a ladder: he used free Resolve for client work for two to three years before buying Resolve Studio (paid).
+- Phone editors: pay for CapCut Pro. If you don't have the money, *"you can borrow money to pay for the first subscription"*, then work hard that month to earn the next one.
+
+**Subscriptions are capital.** *"Whatever you're paying for a subscription is your capital."* Once you see it as a business you think *"I'm already spending capital. I need to start making profit"*, and that pushes you to pitch.
+
+**AI tools in the stack:** depends on your niche.
+- He pays for Claude now, but a beginner shouldn't pay for Claude if they don't need it.
+- Other paid AI tools exist, e.g. ones that cut long form into short forms. *(He started to name one, "Opus", then corrected himself; likely OpusClip. Check.)*
+- If you need one, invest, then make a profit quickly to cover it.
+
+**His story:** started on DaVinci Resolve because it was free and he didn't know CapCut existed. His laptop could just about run it (*"It was hanging, but it could do something"*).
+
+**Teaching:** your niche and your hardware pick the software. Start free if you must, never cracked, and pay for the pro version as soon as you can: it's your capital.
+
+**Examples:** hacked on a cracked Premiere Pro · free Resolve for client work for 2–3 years before Studio · the Edit app for Instagram music · he pays for Claude.
+
+**Lines to say:**
+- *"Invest in this software."*
+- *"Whatever you're paying for a subscription is your capital."*
+- *"CapCut is enough to get you paid work."*
+- *"I was hacked on my computer."* (the cracked-software warning)
+
+**Board:** the phone vs laptop table · a software ladder: free → pro · "Subscription = capital → profit".
+
+**Not answered:** moving from phone to laptop later; the board ask.
+
+**Overlaps to sort when organising:** 2.2 (money to start: subscriptions as capital), 2.3 (the computer per niche), 1.1 (tools decide what you learn).
 
 ### 2.2 How much money you need to start
 

@@ -129,3 +129,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-19 — On Samuel's word (*"don't add it to my notes in any way"*): moved the three research notes to `05-Knowledge/called-to-edit-research/` as reference only and removed their link from the project note. Lesson in memory.
 - 2026-10-19 — Topic 1.6 (good enough to charge) written up as lists from his voice note: three full videos in your niche, practice → free real videos → token → paid.
 - 2026-10-19 — Topic 1.7 (free or low pay) written up as lists from his voice note. Section 1 fully recorded (1.1, 1.2, 1.3, 1.6, 1.7).
+- 2026-10-19 — Topic 2.1 (editing tools) written up from his voice note: phone vs laptop table, never cracked, subscriptions are capital. Two names to check (Edit app, Opus).
