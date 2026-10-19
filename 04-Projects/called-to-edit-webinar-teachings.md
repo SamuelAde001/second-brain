@@ -242,9 +242,57 @@ Recorded 2026-10-19. He asked for this one as lists, so it has structure: *"I ne
 
 ### 1.2 Where to learn: tutorials
 
-*Carry in (2026-10-19): where to learn AI for editing and which tutorials (see 0.3).*
+Recorded 2026-10-19. He'll visualise almost all of it on the whiteboard: *"I'm going to visualize almost all these things in one way or the other."*
 
-*Not recorded yet.*
+**Where: YouTube, for the skill.** *"I didn't learn from any other place than YouTube."* *"There's nothing you want to learn that you won't learn there."* He never paid for a skills course.
+
+**The problem isn't the source, it's the search**
+- People think one video can teach them all of video editing. *"No, that's wrong. Video editing is broad."*
+- What you search for comes from 1.1: who you serve, what kind of video, who pays more, your hardware, your software.
+- Example: he wanted typography for his videos, so he searched "typography tutorial", learned it and implemented it.
+
+**Build a learning list (the method)**
+1. Name your video type, e.g. talking-head business videos for Instagram creators.
+2. Ask any AI tool: *"What are the skills I need to learn to edit talking head videos for business creators on Instagram?"*
+3. It returns a list, e.g. cutting, pacing, captions, a little typography, overlays and outlines, B-roll, sound design, music.
+4. Learn them **one by one**: watch one tutorial for one skill.
+5. **Implement it straight away** on one practice video: a full video from YouTube or anywhere, or *record yourself on your phone*. Learn cutting → cut your own video. Learn typography → add it to that same video. Then sound design, then a little motion graphics, all on the same video.
+- *"Don't learn without implementation."*
+
+**Learn as you work**
+- Mid-edit and don't know a transition? Search YouTube for it, or describe the transition you saw to an AI and ask how to do it. Learn it, then implement it.
+- With clients: when a client asks "can you do this?", he says yes, then learns it while doing that project.
+- *"I actually learned on the go more than just watching tutorials."*
+- *"You can't learn video editing without actually being in the videos, practicing it."*
+
+**No single teacher:** he recommends no specific creator. He learned from many, each for what he needed at that moment, never one creator from beginning to end.
+
+**Make tutorials your entertainment:** there was a time he opened YouTube and watched tutorials for fun. *"Let the tutorials become your entertainment."*
+
+**What's a waste of time:** learning something you don't know you'll implement. Watching one whole full tutorial instead of learning skill by skill from your list.
+
+**Free vs paid**
+- *"Everything you can pay for in a course when it comes to the skill is on YouTube."* Don't pay for skills.
+- What YouTube hardly teaches is **the business**: talking with clients, packaging yourself, presenting yourself, *"everything I'm teaching here"*. YouTube teaches *"fancy stuff that you don't need"*.
+- He paid for a community to learn the business. He learned the business side from marketers, sales people and people who run ads, not from video editors.
+- *"If you don't know what you want to learn, that's when you end up paying for courses. And most of the time, you will not implement them."*
+
+**AI tools:** once you find AI tools that help your editing, learn each one the same way, individually. Describing what you saw to an AI is itself a way to learn.
+
+**Teaching:** YouTube has every skill. Make a learning list for your kind of video, learn one skill at a time and use it on a real video straight away. Pay only to learn the business.
+
+**Examples:** typography search · saying yes to a client, then learning it on the job · watching tutorials for fun · paying for a community for the business side, taught by marketers and sales people.
+
+**Lines to say:**
+- *"Video editing is broad."*
+- *"Don't learn without implementation."*
+- *"Let the tutorials become your entertainment."*
+- *"Everything you can pay for in a course when it comes to the skill is on YouTube."*
+- *"If you don't know what you want to learn, that's when you end up paying for courses."*
+
+**Board:** the learning-list loop: AI prompt → skill list → watch one → implement on the same video → next skill. Free (skills, YouTube) vs paid (the business). His visuals to be set on the whiteboard.
+
+**Overlaps to sort when organising:** practising on your own recorded video overlaps with 1.3 (recreate videos you like). Learning from a client job overlaps with 1.7 (working for free as learning).
 
 ### 1.3 How to learn: recreate videos you like instead of only watching
 
