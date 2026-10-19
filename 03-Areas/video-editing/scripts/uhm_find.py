@@ -3,7 +3,11 @@
 Reads the filler-aware word times from uhm_transcribe.py and the per-clip WAVs, and writes
 trims as timeline frame ranges to remove, cut points snapped to the quietest 10 ms.
 
-    python uhm_find.py <working_dir> <wav_folder>
+    python uhm_find.py <working_dir> <wav_folder> [--tight]
+
+--tight: Samuel's own trim depth (LinkedIn diff, 2026-10-12: heads median 7 f, tails 5 f,
+pauses 6 f). Heads cut to just before the first word, tails ~2-3 f after the last word,
+pauses over 0.5 s shortened to ~0.22 s. Default (off) is the looser 2026-10-06 pass.
 
 <working_dir> holds v2_clips.json (clip list: start, dur), v3_cut_list.json (clips already
 removed), whisper_words.json, and optional manual_trims.json {"c142": [[from_s, to_s]], ...}.
@@ -20,6 +24,13 @@ FILLERS = {"uh", "um", "umm", "uhm", "uhh", "ah", "er", "erm", "hmm", "mm", "mhm
 MIN_TRIM = 3          # frames; anything shorter isn't worth a cut
 PAUSE = 0.70          # s between words before a pause gets shortened
 KEEP_PAUSE = (0.15, 0.12)  # s kept after the previous word / before the next
+HEAD_MIN, HEAD_WIN = 0.30, (0.20, 0.02)   # head trimmed if first word starts later; cut window around it
+TAIL_MIN, TAIL_WIN = 0.40, (0.00, 0.20)   # tail trimmed if this much after the last word; cut window after it
+if "--tight" in sys.argv:
+    sys.argv.remove("--tight")
+    PAUSE, KEEP_PAUSE = 0.50, (0.12, 0.10)
+    HEAD_MIN, HEAD_WIN = 0.15, (0.12, 0.00)
+    TAIL_MIN, TAIL_WIN = 0.20, (0.04, 0.12)
 # A head/tail/pause trim must be quiet: at most 25% of its 10 ms windows within 12 dB of the
 # clip's speech level, and its peak 8 dB under it. Louder means a word Whisper missed: skip it.
 LOUD_DB, LOUD_SHARE, PEAK_DB = 12, 0.25, 8
@@ -63,11 +74,11 @@ def main():
         if real:
             s0, e1 = real[0][0], real[-1][1]
             head = [w[2] for w in words if w[1] <= s0 + 0.01 and norm(w[2]) in FILLERS]
-            if head or s0 > 0.30:
-                out.append(("head-filler" if head else "head", 0.0, quietest(e, s0 - 0.20, s0 + 0.02), " ".join(head)))
+            if head or s0 > HEAD_MIN:
+                out.append(("head-filler" if head else "head", 0.0, quietest(e, s0 - HEAD_WIN[0], s0 + HEAD_WIN[1]), " ".join(head)))
             tail = [w[2] for w in words if w[0] >= e1 - 0.01 and norm(w[2]) in FILLERS]
-            if tail or dur_s - e1 > 0.40:
-                out.append(("tail-filler" if tail else "tail", quietest(e, e1, e1 + 0.20), dur_s, " ".join(tail)))
+            if tail or dur_s - e1 > TAIL_MIN:
+                out.append(("tail-filler" if tail else "tail", quietest(e, e1 + TAIL_WIN[0], e1 + TAIL_WIN[1]), dur_s, " ".join(tail)))
             # fillers and long pauses between real words
             for k in range(1, len(real)):
                 p, n = real[k - 1], real[k]
