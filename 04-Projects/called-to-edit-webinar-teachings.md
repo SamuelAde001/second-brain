@@ -430,6 +430,8 @@ Recorded 2026-10-19.
 
 ## 2. Tools and money to start
 
+**Brush over, don't emphasise** (Samuel, 2026-10-19, on 2.1–2.3): *"These are things that we'll just brush over, but I'm not really going to emphasize because they are more important things. People want to know how to get clients."*
+
 ### 2.1 The editing tools, pros and cons: phone (CapCut) vs laptop (Resolve, Premiere)
 
 Recorded 2026-10-19.
@@ -514,7 +516,41 @@ Recorded 2026-10-19. Short: *"I think I've already covered most of all these thi
 
 ### 2.3 The computer you need for each niche
 
-*Not recorded yet.*
+Recorded 2026-10-19.
+
+**Minimum for DaVinci Resolve:** at least **16 GB RAM**, an **SSD** and a **dedicated GPU**. These are expensive.
+
+**Start with what you have**
+- Don't pick niches that need heavy edits if you can't afford a laptop that handles them.
+- Ask: what laptop do I have now? What laptop or phone can I afford? Start with what you can do on it.
+- *"I can't mention every computer that you need for every niche... it all varies and it changes."*
+- Example: proper colour grading can't be done on a phone. You need a better computer and Resolve.
+
+**His hardware ladder**
+1. First laptop: **4 GB RAM**, *"very bad"*.
+2. Second: **8 GB**, upgraded to **16 GB**.
+3. Third: came with **16 GB**, upgraded to **64 GB**.
+4. Now: a **PC, 32 GB RAM, a big RTX GPU**.
+
+**Reinvest your editing money in your tools.** *"Don't spend your video editing money on yourself yet."* Putting his earnings back into his tools was *"one of the fastest ways I grew."*
+
+**Mac:** *"The best laptops for video editing"* are Apple Macs (he named the M1 Macs). He couldn't afford one, so he used Windows. If you can, save up for one: *"it will make your life easier."*
+
+**A bad laptop frustrates you**, but it can still edit some kinds of video.
+
+**Don't wait for the perfect machine**
+- Some say *"I'm going to wait till I earn 1 million before I buy my first laptop"*. It will take a while.
+- If all you can afford is an **NGN 300,000** laptop, buy it and use it until you can upgrade to an **NGN 600,000** one.
+- **Buy a laptop you can upgrade:** he upgraded RAM instead of buying a new laptop.
+
+**Teaching:** start on the machine you can afford, buy one you can upgrade, and put your editing money back into your tools.
+
+**Lines to say:**
+- *"Don't spend your video editing money on yourself yet."*
+- *"A bad laptop is going to frustrate your video editing life."*
+- *"Don't wait till you have all the money to buy the high-end laptops."*
+
+**Board:** his RAM ladder 4 → 8 → 16 → 64 GB → PC with RTX · minimum spec card (16 GB, SSD, GPU) · NGN 300K → 600K upgrade path.
 
 ### 2.4 The decisions an editor makes and what should drive them
 
