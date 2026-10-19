@@ -128,7 +128,7 @@ Recorded 2026-10-19, answering a question list. He skipped two questions (top be
 **Board** (his ask): the statistics mapped out on the whiteboard: creators, users, content volume, demand for editors. The rest of the board for this topic gets looked at after all topics are recorded (*"we'll look through"*).
 
 **Open:**
-- **Statistics:** to be found, each with a source.
+- **Statistics:** found 2026-10-19, each with source, date and a "how to say it": [[04-Projects/called-to-edit-market-stats|Market statistics]]. Three need a check at source before the board (Goldman, Upwork, Instagram); no hard count of editor jobs found.
 
 **Settled 2026-10-19:**
 - **Agencies belong to getting clients** (*"agencies are part of clients"*); most reach out on Twitter and LinkedIn saying they need an editor. He left the exact spot to the Brand manager: the full take goes in **5.2**, with a pointer in 5.1. In 0.3 they're only named as one of the payers.
