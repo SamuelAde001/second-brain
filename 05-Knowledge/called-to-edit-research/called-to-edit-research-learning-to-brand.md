@@ -9,7 +9,7 @@ tags: [called-to-edit, webinar, research, learning, tools, niche, portfolio, ai,
 
 # Called to Edit research: sections 0-4, AI and copyright
 
-Detail behind [[04-Projects/called-to-edit-webinar-research|the research briefing]]. Labels: **read** = page opened · **reported** = a secondary piece quoting it · **unverified** = search summary only · **checked** = Brand manager opened it 2026-10-19. Dollar rates come mostly from agencies selling the service: treat them as ranges. Part of [[04-Projects/called-to-edit-webinar-and-academy|the project]] · [[03-Areas/personal-brand/personal-brand|Personal brand]].
+Detail behind [[05-Knowledge/called-to-edit-research/called-to-edit-webinar-research|the research briefing]]. Labels: **read** = page opened · **reported** = a secondary piece quoting it · **unverified** = search summary only · **checked** = Brand manager opened it 2026-10-19. Dollar rates come mostly from agencies selling the service: treat them as ranges. Part of [[04-Projects/called-to-edit-webinar-and-academy|the project]] · [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
 ## 0.3 The market (adds to [[04-Projects/called-to-edit-market-stats|Market statistics]])
 
@@ -227,4 +227,4 @@ No real survey; these are agency pages.
 - **Who owns the edit:** under the 2022 Act, the "author" of an audiovisual work is whoever made the arrangements for making it (usually the producer or client), unless a contract says otherwise ([Banwo & Ighodalo](https://www.banwo-ighodalo.com/grey-matter/implications-of-the-copyright-act-on-the-entertainment-and-advertising-industries-in-nigeria/), read). Nothing settles who owns the project file, so **put footage, final video, project files and licensed assets in writing.**
 - **AI output:** the US Copyright Office (2025-01-29) says prompts alone don't earn copyright, but human arrangement and editing of AI material can ([copyright.gov](https://www.copyright.gov/newsnet/2025/1060.html), read). A fully AI clip is probably unprotected; your edit around it is protected. Not legal advice.
 
-Back to [[04-Projects/called-to-edit-webinar-research|the research briefing]] · [[04-Projects/called-to-edit-webinar-and-academy|the project]]
+Back to [[05-Knowledge/called-to-edit-research/called-to-edit-webinar-research|the research briefing]] · [[04-Projects/called-to-edit-webinar-and-academy|the project]]

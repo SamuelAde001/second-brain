@@ -9,7 +9,7 @@ tags: [called-to-edit, webinar, research, clients, pricing, payments, tax, retai
 
 # Called to Edit research: sections 5-10
 
-Detail behind [[04-Projects/called-to-edit-webinar-research|the research briefing]]. Labels: **read** = page opened · **reported** = a secondary piece quoting it · **unverified** = search summary only · **checked** = Brand manager opened it 2026-10-19. Sections 5 and 6 carry the weight, because the audience asked most about getting clients and getting paid. Part of [[04-Projects/called-to-edit-webinar-and-academy|the project]] · [[03-Areas/personal-brand/personal-brand|Personal brand]].
+Detail behind [[05-Knowledge/called-to-edit-research/called-to-edit-webinar-research|the research briefing]]. Labels: **read** = page opened · **reported** = a secondary piece quoting it · **unverified** = search summary only · **checked** = Brand manager opened it 2026-10-19. Sections 5 and 6 carry the weight, because the audience asked most about getting clients and getting paid. Part of [[04-Projects/called-to-edit-webinar-and-academy|the project]] · [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
 ## 5.1 Inbound
 
@@ -21,7 +21,7 @@ Detail behind [[04-Projects/called-to-edit-webinar-research|the research briefin
 
 - **YT Jobs (ytjobs.co):** Paddy Galloway's YouTube job board. Lots of editor and thumbnail posts, profiles that verify your work, "a lot of extremely low-paying jobs" (Descript blog, read). Whether it accepts Nigerians wasn't confirmed.
 - **Other boards** named by Descript: Roster (pays more, fewer posts), Vouch (pitch big creators), Creator Economy Jobs (noisy), LinkedIn and Indeed alerts for "YouTube".
-- **Contra:** see 4.4 in [[04-Projects/called-to-edit-research-learning-to-brand|the other note]]. Nigerian editors from Lagos and Abuja are listed there.
+- **Contra:** see 4.4 in [[05-Knowledge/called-to-edit-research/called-to-edit-research-learning-to-brand|the other note]]. Nigerian editors from Lagos and Abuja are listed there.
 - **Reddit:** r/forhire about 694k members. Rules couldn't be read (Reddit blocked); an old version required a stated rate. Check the rules before posting.
 - **Agencies and white-label:** guides suggest offering overflow editing to agencies at a lower rate for steady volume (Fueler, Pixflow, read). This fits your 0.3 take on agencies.
 - **Skool communities:** creators running them post for recurring short-form editors. That makes them a client source more than a peer network (unverified).
@@ -229,7 +229,7 @@ No numbers were found for retention-based pricing or usage-rights fees; teach th
 
 ## 9.4-9.6 AI, agency, teaching
 
-- **9.4 AI:** see the AI section in [[04-Projects/called-to-edit-research-learning-to-brand|the other note]].
+- **9.4 AI:** see the AI section in [[05-Knowledge/called-to-edit-research/called-to-edit-research-learning-to-brand|the other note]].
 - **9.5 Agency:** sources are all white-label vendors. One line is enough: it's a different job (sales, quality control, people); first step is subcontracting your overflow.
 - **9.6 Teaching:** no independent source. Teaching sells on a student result, which is the same case-study structure as 7.3.
 
@@ -270,4 +270,4 @@ Guides say **30-50 personal pitches before the first paying client**. Don't prom
 - **Deadlines, honestly:** a real deadline you'll honour; no countdown that resets. Bonuses tied to the outcome (templates, a review call). Replay watchers get the **same** deadline. Clear price, a guarantee if you offer one, payment options. Fake urgency is a dark pattern regulators name (FTC 2022).
 - **Follow-up:** three emails over 3-5 days (replay, objections, final call) (Ruzuku). Personal messages within hours to people who showed intent (ClickMeeting).
 
-Back to [[04-Projects/called-to-edit-webinar-research|the research briefing]] · [[04-Projects/called-to-edit-webinar-and-academy|the project]]
+Back to [[05-Knowledge/called-to-edit-research/called-to-edit-webinar-research|the research briefing]] · [[04-Projects/called-to-edit-webinar-and-academy|the project]]

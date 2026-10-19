@@ -9,10 +9,12 @@ tags: [called-to-edit, webinar, research]
 
 # Called to Edit: research briefing for the webinar
 
+**Reference only.** Samuel, 2026-10-19: *"most of what you shared are things I already know... just keep all this knowledge somewhere, but don't add it to my notes in any way. I can refer to it if I need to."* Nothing here goes into the teachings, the outline or the webinar project notes.
+
 Samuel, 2026-10-19: *"do a research on every of the topics and give me your findings so I can read it and keep myself up to date"*. This note is the briefing: what's new, what's changed, and what not to say. The detail by topic, with every source, is in two notes:
 
-- [[04-Projects/called-to-edit-research-learning-to-brand|Research: sections 0-4, AI and copyright]] (market, learning, tools, money to start, niches, establishing yourself)
-- [[04-Projects/called-to-edit-research-clients-to-close|Research: sections 5-10]] (getting clients, pricing and getting paid, working with clients, networking, growing income, the close)
+- [[05-Knowledge/called-to-edit-research/called-to-edit-research-learning-to-brand|Research: sections 0-4, AI and copyright]] (market, learning, tools, money to start, niches, establishing yourself)
+- [[05-Knowledge/called-to-edit-research/called-to-edit-research-clients-to-close|Research: sections 5-10]] (getting clients, pricing and getting paid, working with clients, networking, growing income, the close)
 
 Statistics for 0.3 are already in [[04-Projects/called-to-edit-market-stats|Market statistics]]; not repeated here. Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]] · [[03-Areas/personal-brand/personal-brand|Personal brand]]. Topic write-ups: [[04-Projects/called-to-edit-webinar-teachings|Teachings]].
 
