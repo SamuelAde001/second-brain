@@ -132,3 +132,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-19 — Topic 2.1 (editing tools) written up from his voice note: phone vs laptop table, never cracked, subscriptions are capital. Two names to check (Edit app, Opus).
 - 2026-10-19 — Topic 2.2 (money to start) written up from his voice note: costs list, no fixed price, first laptop NGN 150,000.
 - 2026-10-19 — Topic 2.3 (the computer) written up from his voice note; section 2 marked brush-over on his words (clients matter more).
+- 2026-10-19 — Topic 2.4 (edit decisions) written up from his voice note: goal-driven edits, function test, show don't tell. Section 2 recorded. One check: the third way viewers digest a video.

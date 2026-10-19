@@ -554,7 +554,52 @@ Recorded 2026-10-19.
 
 ### 2.4 The decisions an editor makes and what should drive them
 
-*Not recorded yet.*
+Recorded 2026-10-19.
+
+**The goal drives every decision.** Every video has a goal; know it.
+- A business video's goal: *"convert viewers into clients."*
+- You measure your result by whether the video achieved the reason the client posted it.
+- **Views vs sales:** a fancy video can get lots of views and no sales. A simple, clear video for the target audience can bring lots of sales. *"Which is more beneficial for the client?"*
+- If the client's goal is views, then hit that goal instead.
+- Ask: what is my client trying to achieve? What is their target audience looking for? What's the best thing this video presents? Build the edit around that.
+
+**Every element needs a function.** *"Every cut, every animation that you do needs to have a reason for it to be in the video."* Each one must do one of two things:
+1. **help the viewer understand** the knowledge in the video, or
+2. **help the viewer feel an emotion.**
+- Sad music used to carry the emotion of a story works. Sad music *"plastered for no reason"* doesn't.
+- A transition has to play a role in the story.
+- Random B-roll *"just to make it look like it is being edited"* is wrong. B-roll is there to help the audience see what's being said.
+
+**Show, don't tell.** *"Whenever the client is saying something and you can show that thing, show it."*
+- For clients: whatever he explains, Samuel visualises, with motion graphics and explainers.
+- **Real beats fake:** if he's talking about a car, show a real car, not a car icon. *"A real thing always beats a fake thing."*
+- Talking about YouTube views? Show YouTube views. A meeting? Show B-roll of that meeting if you can, or visualise it another way.
+- Some of his videos are about **80% showing what the client says** rather than the client's face, depending on the video type.
+
+**How viewers take in a video**
+- **What they hear:** the speaker's voice helps them follow; sound effects carry feelings and emotion.
+- **What they see:** visuals must match what they hear. A car sound needs something car-related on screen.
+- *He said "three major ways a viewer digests a video" and named hearing (voice, sound effects) and seeing. Check what the third is.*
+
+**Niche and platform shape the choices**
+- Master one niche and you learn *"the ingredients"* that make its videos get results for the client.
+- Platform matters: TikTok is fast; Instagram and YouTube editing each differ. Hold the viewer's attention.
+
+**Why this makes you worth more:** *"A client will prefer an editor that can do videos that produce more results than a video editor that is doing flashy stuff and the video is not performing."* That's what tells you what to add or cut.
+
+**Teaching:** edit for the client's goal, not to look edited. Every cut, effect, sound and B-roll must help the viewer understand or feel something. Show, don't tell.
+
+**Examples:** visualising his clients' explanations with motion graphics · real car vs car icon · videos 80% visuals, not face · sad music with a purpose vs plastered.
+
+**Lines to say:**
+- *"Every cut, every animation that you do needs to have a reason for it to be in the video."*
+- *"A real thing always beats a fake thing."*
+- *"Show and not tell."*
+- *"Views that he can't use for anything, or the sales?"*
+
+**Board:** views vs sales side by side · the function test (understand / feel) · show-don't-tell pairs (said → shown) · hear + see matching.
+
+**Ties to:** 0.1 (*"A lot of people put a lot of effect without understanding what purpose it is actually doing"*), 5.6 (pitching on results), 7.3 (results as case studies).
 
 ## 3. Choosing a niche
 
