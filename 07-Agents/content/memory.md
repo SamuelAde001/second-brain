@@ -147,3 +147,8 @@ Back to [[07-Agents/content/profile|Profile]]
 - **Show picks as pictures before downloading, and curate for emotion, not volume.** 2026-10-16 he called a 61-item pull "random stuffs": it was chosen from thumbnails and only described in a table. For any visual hunt: pick 1-3 per beat that carry that beat's feeling, show a numbered picture board first, then download. Check the B-roll archive's Face and Reaction / Room / Phone clips first: they were shot for exactly these emotions.
 - **Story montages use real moments only** (Samuel, 2026-10-16): his Google Photos, his tweets and his own photos from that period, mostly with him in frame, like the Feb 2026 reel. The B-roll archive is for normal videos, not these. Judge a video by the frame he posted, not a random mid-clip frame.
 - 2026-10-16 — **His taste: the blue/yellow Called to Edit flyer is the current look for webinar designs** (deep blue, yellow, white boxes, B&W photo with a yellow asterisk; he asked for the outline card in *"the same design style as this one, with same font type and colors"*). On long cards, keep the header short: small photo, one-line title, no pill or handle.
+
+## 2026-10-19 — Questions for the webinar topics
+- **Keep each topic's questions inside that topic.** For 0.3 (the market) he skipped "what do beginners do wrong" and "good but broke vs paid editor": *"these are questions that I don't want you to be asking me right now in this stage"*. Don't ask what a later section covers (mistakes, positioning, pricing); ask what this topic needs. Give the topic heading first so he can say it on the recording.
+- He wants claims about the market backed by real statistics with sources, not "a lot".
+

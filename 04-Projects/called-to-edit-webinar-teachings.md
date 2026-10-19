@@ -97,7 +97,40 @@ Recorded 2026-10-16.
 
 ### 0.3 The truth about the market: demand for editors, why most beginners never earn
 
-*Not recorded yet.*
+Recorded 2026-10-19, answering a question list. He skipped two questions (top beginner mistakes, good-but-broke vs paid editor): *"these are questions that I don't want you to be asking me right now in this stage"*.
+
+**Points**
+- **There is a huge demand for editors.** He wants this backed by **statistics, not "a lot"**: how many creators there are, how many people use the platforms (*"billions of users"*), how much content goes out, how much demand there is for editors. *Stats not gathered yet; each one needs a named source.*
+- **Three kinds of creators:** entertainment, educative, and business people. **Most educative creators are business people**: they educate so you eventually buy their product. They put out a lot of content, it's tedious for them, so they need editors most, and **they pay the most** (*"Eventually, we'll touch that"*: the niche section). Entertainment creators are plenty too and need editors.
+- **Every business needs content now:** *"you can't run a proper business if you don't... put something out there on the internet."* Many of these people are busy, and they'll pay well for editing.
+- **AI:** yes, AI can edit, but *"people don't even want to spend time asking AI to edit their videos."* The leverage is the skill **plus AI in your workflow**, so you deliver faster and easier. His company demands that its professional editors integrate AI. Clients want editors who are up to date, and creativity is still needed. *"AI is a very huge aspect of what I'm going to be talking about."* He'll show how to integrate it later.
+- **Who pays: businesses and creators, and agencies.**
+  - Agencies are middlemen. One may have 20–30 clients and employ many editors.
+  - Good: they always have work, and give you access to clients you couldn't reach yourself. Working for agencies at one point *"really helped my career"*. **Good for beginners.**
+  - Bad: they pay less because they take a cut, and they give the worst feedback and many revisions. Frustrating and painful. Working with a client directly has less of that.
+  - **Best: creators, businesses and brands directly.**
+- **The ladder:** big brands and big creators go to agencies; they hardly work with individual editors. Those who can't afford agencies are who individual editors work with. *"You kind of have to work your way up the ladder."*
+- **"The market is full"? No.** *"Some creators have three, four, five video editors."* The problem is that most of us are bad editors and don't position ourselves so these people can find us. That's what tonight covers.
+- **The main beginner mistake: learning a lot of skill but not positioning yourself.** Not using social media to get clients; putting random things in a portfolio and applying for jobs. Applying has its place, but only once you have a strong social media presence and portfolio. Before that, *"social media is where you build"* (covered properly in section 4).
+- **His own main mistake:** not putting himself out there (more later).
+
+**Teaching:** there's huge demand and a real chance for you, but you have to position yourself. *"A diamond is as valuable as it is visible."*
+
+**Examples** (his): his company demanding AI from its professional editors · agencies helped his career · some creators have 3–5 editors.
+
+**Lines to say:**
+- *"A diamond is as valuable as it is visible."*
+- *"You can't be a video editor without being visible because video editing is literally a visible kind of skill."*
+- *"Our muscle is in the beauty of the video."*
+- *"Some creators have three, four, five video editors."*
+- *"You kind of have to work your way up the ladder."*
+
+**Board** (his ask): the statistics mapped out on the whiteboard: creators, users, content volume, demand for editors. The rest of the board for this topic gets looked at after all topics are recorded (*"we'll look through"*).
+
+**Open:**
+- **Agencies:** *"I don't know where it will be in the whole teaching yet."* Placed here for now. Candidate homes: 3.1 (niches / who pays), 5.2 (where to find clients), or a short stop of its own.
+- **AI weight:** he called it *"a very huge aspect"*; the list has it only at 9.4 (Using AI to edit faster). Keep at 9.4, or bring it forward?
+- **Statistics:** to be found, each with a source.
 
 ### 0.4 The mindset: treat it as a business from day one; consistency over talent
 
