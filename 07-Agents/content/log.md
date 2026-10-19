@@ -130,3 +130,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-19 — Topic 1.6 (good enough to charge) written up as lists from his voice note: three full videos in your niche, practice → free real videos → token → paid.
 - 2026-10-19 — Topic 1.7 (free or low pay) written up as lists from his voice note. Section 1 fully recorded (1.1, 1.2, 1.3, 1.6, 1.7).
 - 2026-10-19 — Topic 2.1 (editing tools) written up from his voice note: phone vs laptop table, never cracked, subscriptions are capital. Two names to check (Edit app, Opus).
+- 2026-10-19 — Topic 2.2 (money to start) written up from his voice note: costs list, no fixed price, first laptop NGN 150,000.

@@ -483,7 +483,34 @@ Recorded 2026-10-19.
 
 ### 2.2 How much money you need to start
 
-*Not recorded yet.*
+Recorded 2026-10-19. Short: *"I think I've already covered most of all these things."*
+
+**Video editing is expensive.** *"It costs you a lot."* The costs he named:
+- software: subscriptions or one-off payments
+- **data**: *"Data is very important"*
+- **electricity**: he had to buy a generator and fuel it to edit; now also solar inverters
+- storage
+- headphones
+- mic
+
+**"Free" isn't really free.** Even a phone editor needs data to watch tutorials, download videos, upload and show your work, and needs electricity.
+
+**The first one or two months are capital**, an investment in your business and your skill.
+
+**That's why you move from free to paid fast** (1.6, 1.7): paid clients relieve the cost, then you break even, then you profit.
+
+**How much? No specific price:** *"I'm not giving any specific price because everything varies."* If you have a phone and can afford data, you can start.
+
+**His example:** his first laptop cost **NGN 150,000** at the time, *"a lot"* (0.1: a whole salary). *"Later on, things start to change."*
+
+**Teaching:** editing costs real money (data, power, software, gear), so treat the first months as investment and get your first paid client as soon as possible.
+
+**Lines to say:**
+- *"Video editing is expensive."*
+- *"You can start from free, but it's not really free."*
+- *"It's all an investment."*
+
+**Board:** the cost list as icons (software, data, power, storage, headphones, mic) → "capital" → first paid client → break even → profit.
 
 ### 2.3 The computer you need for each niche
 
