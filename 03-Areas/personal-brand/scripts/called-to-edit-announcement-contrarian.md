@@ -23,13 +23,13 @@ Meanwhile, content creators need editors. Businesses are creating content every 
 If Nigeria can't give the youth jobs, we in the creative economy can give them a career.
 Let's stop focusing on useless things. Let's Focus on how to actually make money editing videos
 {Takes off glasses.} And that's what Called to Edit is for.
-I'll teach you the editing, and how to actually get paid for it."
+I'll teach you the editing, and how to actually Build a career with it"
 {Hoodie you, leaning in:} "Sir… where do I start?"
 {Suit you, glasses back on:} "Follow me. I'll show you."
 Called To Edit..
 Coming Soon
 
-Brand manager note, 2026-10-20 (his call): "get paid" / "make money" / "get paid" is said three times; line 3 was "build a career" in draft 3. Music plan stays as adjustment 6 below.
+Brand manager note, 2026-10-20: "get paid" / "make money" / "get paid" was said three times. Samuel fixed it by changing the closing line, not line 3: *"I'll teach you the editing, and how to actually Build a career with it"*. Music plan stays as adjustment 6 below.
 
 ## Draft 3: Samuel's script (2026-10-20, his words)
 
