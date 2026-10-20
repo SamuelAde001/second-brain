@@ -62,7 +62,7 @@ One accent only. Fusion values are the hex as 0–1 floats, the same way `#FF5A1
 | Eyebrows, labels, lower thirds, tags, data labels, buttons | **JetBrains Mono**, ALL CAPS | Short. Tracking +2 % (1.02), +4 % (1.04) at the smallest size |
 
 - The kit's scale in px (web): Display 64 / 56 / 48, Headline 40 / 32 / 28, Title 24 / 20, Body 20 / 18 / 16 / 15 / 13, Mono 15 / 13 / 11. Decks *"scale the whole set up together and keep the ratios"*: do the same in video.
-- **Sizes used in the approved-look style frames at 1920×1080** (to confirm on the first Fusion comp): chapter title 132 px, statement over A-roll 96 px, section headline 84–96 px, key number 190–330 px, body 32–48 px, mono eyebrow 26 px, mono labels 19–24 px. Fusion Text+ Size ≈ px ÷ 1920 (our old titles at 0.058–0.070 match 112–134 px): **check it on the first comp before relying on it.**
+- **Sizes used in the approved-look style frames at 1920×1080** (to confirm on the first Fusion comp): chapter title 132 px, statement over A-roll 96 px, section headline 84–96 px, key number 190–330 px, body 32–48 px, mono eyebrow 26 px, mono labels 19–24 px. ~~Fusion Text+ Size ≈ px ÷ 1920~~ (wrong). **Measured 2026-10-20 in Resolve:** Fusion sizes text by the font's full height (hhea ascender − descender), so Size = px × font height ÷ 1508, with font height Season Serif 1.229, Inter 1.210, JetBrains Mono 1.320. Same for Text+ and his NeoTextMotion; within 1 % on all four fonts (`kits\frkit.py` → `FONT_H`).
 - "Putting it together" (the kit's screen recipe): mono eyebrow in Blue-300 → Season headline, one colour → Inter supporting line at white 64 %. One idea per screen.
 
 ## 4. Shape
@@ -88,14 +88,16 @@ One accent only. Fusion values are the hex as 0–1 floats, the same way `#FF5A1
 - **The fluo blue glow** (`PixelGlow`): the pixel icon's seven cells lit, inside a fading grid, blue halo and ambient light. The brand's hero art: **one per composition**, usually left of the headline. Never recolour the cells, light other cells or put text on them.
 - **Website hero glow:** `04_Glow` images, at 20 % opacity, blurred ~91 px, behind hero shots.
 - **Ground for motion graphics** (our replacement for BGORANGE): Dark, a faint Blue-300 grid (~7–8 %, faded out at the edges), blue ambient light from the top and bottom edges. Same structure as his BGORANGE macro, new colours. Social cards in the kit use a 48 px grid in Blue-300 at 8 %.
-- **Imagery:** real product screens, real people, illustrations that explain a mechanism. **No stock photos, no 3D blobs, no purple gradients.** Client logos in Frontal's own graphics are white and one colour. *"Graphics show only real companies and real public events, with a source"*: open question for our made-up demo companies (project note).
+- **Imagery:** real product screens, real people, illustrations that explain a mechanism. **No stock photos, no 3D blobs, no purple gradients.** Client logos in Frontal's own graphics are white and one colour.
+- **Made-up companies in demos are fine** and **every Frontal client may be shown by logo** (Samuel, 2026-10-20: *"Yes made up companies are ok"*, *"All frontal clients are cleared to show by logo"*). The kit's "real companies only" and "cleared clients only" lines don't bind his videos.
+- **No extra kit parts needed** (Samuel, 2026-10-20: *"We don't need those extra kits"*): we make our own icons in the brand's style instead of waiting for GRAFIT's set.
 
 ## 7. Motion
 
 - **Quiet motion:** one thing moves at a time, on purpose. Nothing bounces.
 - Animated graphics **play once and hold their final frame**: no loops, no replays (Alex, 2026-10-15, in the kit).
-- **The kit disagrees with itself on the curve.** README and `DESIGN-SYSTEM.md`: `cubic-bezier(.23, 1, .32, 1)`, 140–320 ms for UI moves. Brand book p22 and `tokens.json`: 140 / 180 / 200 ms, *"Easing: ease, everywhere"*, and *"The glow may pulse slowly"* (against "no loops"). Its own rule for a conflict: tell Alex instead of picking one. Until he answers, use the cubic-bezier (it's the newer README, v2.3.1) and no pulsing.
-- The kit's motion numbers are for website UI. How they translate to our entrances is Samuel's call: [[04-Projects/frontal-rebrand-video-kit|project note]] → question 1.
+- **The kit disagreed with itself on the curve** (README: `cubic-bezier(.23, 1, .32, 1)` and no loops; brand book p22: *"Easing: ease, everywhere"*, *"The glow may pulse slowly"*). **Settled by Samuel, 2026-10-20: the brand book wins.** *"For the contradiction, you need to ease everywhere, use what the brand book says"*. So: the CSS `ease` curve (cubic-bezier .25, .1, .25, 1) on every move we keyframe ourselves, nothing bounces, and the pixel glow may pulse slowly.
+- **Our motion stays; only the look changes.** Samuel, 2026-10-20: *"Motion, keep our pacing and one by one reveals, keep our current motion and change only the look"*. NeoAnim entrances, timing constants, staggers, section slams and shine passes stay as in [[03-Areas/video-editing/routerise-house-style|house style]] §10 and the edit grammar; what they move is now on-brand. The kit's 140–200 ms numbers are for website UI, not our graphics.
 
 ## 8. Formats in the kit that touch video
 
