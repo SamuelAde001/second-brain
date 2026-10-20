@@ -96,3 +96,4 @@ Append-only. Every action this agent takes, dated, newest at the bottom.
 - 2026-10-18 · Money man · Freed 82,070 stays in the bank (his words, objection logged in decisions). Seminar 2026-10-30 kept planned, he decides nearer the day.
 
 - 2026-10-20 · money-check · Samuel asked about a NGN 550,000 app loan (13.7%/month, 18 months, NGN 83,631/month) to buy a laptop for an unpaid volunteer creative director. Verdict: doesn't fit — repays ~NGN 1,505,585, ~367% a year, against a month with a NGN 56,959 Buffer and Goal 1 behind pace. Suggested: cheaper/used laptop he owns, saved for, with a written trial agreement. His choice pending.
+- 2026-10-20 · Money man · Loan taken: NGN 321,000 in (ledger), laptop line NGN 330,000 in October (Extra cash -9,000), standing line Creative director salary NGN 100,000 Nov–Apr, loan in Live debts, decision recorded. Sheet rebuilt.

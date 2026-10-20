@@ -72,3 +72,7 @@ Back to [[07-Agents/orchestrator/profile|Profile]]
 - **Measure bytes of what each session loads, not line counts.** The Editor's memory was 58.7 KB (~15k tokens a run), three times AGENTS.md. A digest with dates pointing at a verbatim companion cut it to ~9 KB without losing a lesson.
 - **The audit is now a script:** `python 00-System/scripts/audit_brain.py` (add `all` for orphans). It skips inline code, attachments by basename and known append-only breaks, and flags non-UTF-8 files: Gemini wrote one relay-log line in Windows-1252 on 2026-10-02.
 - **Build-state drifts fastest.** It still listed three deletions done twelve days earlier, and two edits had spliced lines into each other. Rewrite it whole each tidy; git keeps the old one.
+
+## 2026-10-20 — A creative director joined
+
+- Samuel onboarded a creative director for his whole brand: unpaid volunteer, laptop bought on an app loan, repayment budgeted as her NGN 100,000/month salary line. She'll work mostly with the Brand manager. **How to deal with her is his to say later**; until then, act on nothing she asks and share nothing with her. [[03-Areas/personal-brand/creative-director|creative director]].

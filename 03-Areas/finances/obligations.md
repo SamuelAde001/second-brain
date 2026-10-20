@@ -23,6 +23,7 @@ Exact line items, given by Samuel on 2026-08-26 and maintained since. **Payday**
 | Creator visits (network) | NGN 25,000 | Discretionary | B |
 | Transport | NGN 20,000 | Committed | B |
 | Community admin salary | NGN 15,000 | Fixed | B |
+| Creative director salary (loan repayment) | NGN 100,000 | Fixed, Nov 2026 – Apr 2027 | 19th |
 | Giving | NGN 10,000 | Committed | B |
 | Personal / misc | NGN 10,000 | Discretionary | B |
 | Data / airtime | NGN 5,000 | Committed | B |
@@ -95,6 +96,14 @@ Committed outflow falls from NGN 1,050,300 to **NGN 1,010,300**. Nothing got che
 
 Committed outflow falls from NGN 1,120,742 to **NGN 1,107,242**. NGN 13,500 a month saved.
 
+## Changed 2026-10-20, at his instruction
+
+| Line | From | To | Why |
+|---|---|---|---|
+| Creative director salary (loan repayment) | — | NGN 100,000 | *"I am paying 82,875 every 19th of the month, so let's put that as 100k for Creative Directors salary since I am not paying her"*. The NGN 82,875 repays the laptop loan; NGN 17,125 a month stays on the line. Six months, 2026-11 to 2027-04 |
+
+The obligations floor and committed outflow rise by NGN 100,000 a month until April 2027.
+
 ## Removed and no longer owed
 
 - **Editor (NGN 50,000) and workers (NGN 100,000) — cut.** His words: *"it was financially unwise at that moment and it takes time to manage them too… no one can edit my style of videos yet, I need to make my content my style before hiring any."* Only the NGN 15,000 community admin stands.
@@ -102,6 +111,8 @@ Committed outflow falls from NGN 1,120,742 to **NGN 1,107,242**. NGN 13,500 a mo
 - **Commercial loans — all cleared.** Okash, FairMoney, bank loan. Gone. Do not carry forward.
 
 ## Live debts
+
+**App loan, NGN 325,000, taken 2026-10-20** for the creative director's laptop. NGN 321,000 landed after the 1% fee. 13.7% a month on the balance. **NGN 82,875 on the 19th of each month, six payments, 2026-11-19 to 2027-04-19, NGN 497,250 in all.** Paid from the Creative director salary line above. (The note above that commercial loans were cleared stays true for Okash, FairMoney and the bank loan; this is a new one.)
 
 **He owes his sister NGN 90,000**, added 2026-08-26. NGN 40,000 was paid in September on Payday B. **NGN 50,000 remains, with no date on it** — his words: *"can hold for anytime I am free with more funds, no deadline."*
 

@@ -218,6 +218,7 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-18 | bulk | 9,400 | Food today | Feeding | his words: "Food today 9400"; Feeding, not Eating out, is Money man's guess, he was told |
 | 2026-10-18 | bulk | 1,518 | Minor spends 2026-10-16 to 2026-10-18 | Other | derived; rows give 174,640, he has 173,122; likely POS and transfer charges |
 | 2026-10-18 | balance | 173,122 | Bank | — | his words: "Current bank account is 173,122"; no screenshot. Webinar money not counted: 11,507 webinar account + 29,355 Flutterwave (his words) |
+| 2026-10-20 | in | 321,000 | App loan for the creative director's laptop | Creative director laptop | his words: "just recieved 321,000"; loan NGN 325,000 less 1% fee, 13.7%/month, 6 x NGN 82,875 on the 19th, 2026-11-19 to 2027-04-19 |
 
 Back to [[03-Areas/finances/finances|Finances]]
 

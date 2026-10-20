@@ -134,3 +134,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-19 — Topic 2.3 (the computer) written up from his voice note; section 2 marked brush-over on his words (clients matter more).
 - 2026-10-19 — Topic 2.4 (edit decisions) written up from his voice note: goal-driven edits, function test, show don't tell. Section 2 recorded. One check: the third way viewers digest a video.
 - 2026-10-20 — Free seats: explained the tick-Paid route (no free Flutterwave link). Checked Comfort Matur's missing email: she was ticked after the 9:31 sync; the 9:41 run confirmed her. Two free seats noted (Anita Christian, Comfort Matur); Money in overstates by NGN 10,000.
+- 2026-10-20 · Brand manager · Noted the new creative director; waiting on Samuel for how to work with her.

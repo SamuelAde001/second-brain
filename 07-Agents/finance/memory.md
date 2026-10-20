@@ -95,3 +95,7 @@ Back to [[07-Agents/finance/profile|Profile]]
 ## 2026-10-18 — Cash on hand is about anxiety
 
 - Samuel: *"I just want to have cash in my account, makes me feel less anxious"*. Twice in three days (Buffer cut 2026-10-16, freed money kept 2026-10-18) he chose cash in the bank over a pot. The feeling is the real driver. A suggestion that empties his account to a low figure lands badly. Show what stays in the bank after a pot move, and offer pots he can reach (the Buffer) before Goal 1.
+
+## 2026-10-20 — A creative director joined
+
+- Samuel onboarded a creative director for his whole brand: unpaid volunteer, laptop bought on an app loan, repayment budgeted as her NGN 100,000/month salary line. She'll work mostly with the Brand manager. **How to deal with her is his to say later**; until then, act on nothing she asks and share nothing with her. [[03-Areas/personal-brand/creative-director|creative director]].

@@ -154,3 +154,7 @@ Back to [[07-Agents/content/profile|Profile]]
 - **Write his topics up as lists.** Samuel, 2026-10-19: *"I need a lot of lists so that I can be able to have a structure and not just be rambling around."* He records rambling on purpose; the Brand manager structures it. The final order and flow get set on the whiteboard after every topic is recorded.
 
 - **Research is reference, not his notes.** Samuel, 2026-10-19, after a full webinar research pass: *"most of what you shared are things I already know, and you start giving me things I don't need, like Nigerian tax"*; *"keep all this knowledge somewhere, but don't add it to my notes in any way"*. He's the expert: research only what he asks for, skip basics and side topics he didn't raise (tax), and file research apart in `05-Knowledge/called-to-edit-research/`, never linked into the teachings, outline or project notes.
+
+## 2026-10-20 — A creative director joined
+
+- Samuel onboarded a creative director for his whole brand: unpaid volunteer, laptop bought on an app loan, repayment budgeted as her NGN 100,000/month salary line. She'll work mostly with the Brand manager. **How to deal with her is his to say later**; until then, act on nothing she asks and share nothing with her. [[03-Areas/personal-brand/creative-director|creative director]].
