@@ -2,12 +2,14 @@
 type: area
 area: highsignals
 status: active
-updated: 2026-09-22
+updated: 2026-10-20
 source: claude-export
 tags: []
 ---
 
 # HighSignals
+
+> **2026-10-20 (Samuel): HighSignals is no longer the umbrella.** *"instead of High Signals, I'm moving my brand to Call to Edit fully"*. Called to Edit becomes the brand for everything he sells to video editors; HighSignals Community may continue next year as Called to Create. This note describes the old structure until the restructure (open question 114). Decision: [[03-Areas/highsignals/highsignals-decisions|HighSignals decisions]].
 
 ## What this is
 

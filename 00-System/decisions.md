@@ -322,3 +322,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: The NGN 82,070 freed on 2026-10-18 (son's drum, transport, parents, feeding cuts) stays in his current account as Extra cash. Nothing goes to Goal 1 or the Buffer before Payday A.
 **Why**: Samuel, 2026-10-18: *"I just want to have cash in my account, makes me feel less anxious"*. Objection, once: about NGN 87,600 is now unassigned, the second time in three days he has chosen cash on hand over a pot (Buffer cut 2026-10-16), and unassigned cash is how NGN 595,250 went in June to August. Money man suggested NGN 70,000 to Goal 1, keeping ~NGN 17,600 for early November. Samuel proceeded.
 **Who decided**: Samuel.
+
+## 2026-10-20 — Brand: Called to Edit replaces HighSignals as the umbrella
+
+**Decision**: Called to Edit is Samuel's brand for everything he sells to video editors (webinar, cohort, community, website, later a seminar); he is its founder. @SamuelSignals stays his personal brand and funnels into it. HighSignals Community may continue next year as Called to Create. Full record: [[03-Areas/highsignals/highsignals-decisions|HighSignals decisions]].
+**Brain impact**: AGENTS.md §1-2 and the HighSignals, Academy, Community and Mentorship notes still describe the old umbrella. They get restructured after Samuel answers open question 114; until then the HighSignals decision record is the current truth.
+**Who decided**: Samuel.

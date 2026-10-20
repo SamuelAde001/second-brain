@@ -21,6 +21,10 @@ Samuel onboarded a creative director on 2026-10-20, *"for my whole brand"*. She 
 
 *"She would be working more with Brand manager later on."*
 
+## Called to Edit
+
+Samuel, 2026-10-20: she *"would eventually be the creative director of Call to Edit brand"* ([[03-Areas/highsignals/highsignals-decisions|decision]]).
+
 ## Open
 
 - **How the agents deal with her: Samuel will say later** (*"I would let you know how to deal with her later"*). Until then no agent acts on her requests, shares Brain content with her or gives her access to anything.
