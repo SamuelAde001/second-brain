@@ -15,6 +15,8 @@ Status: **final script locked by Samuel, 2026-10-20**, ready to shoot. He wrote 
 
 ## Final script (Samuel, 2026-10-20, his words)
 
+In Notion: Instagram Content Calendar, page "Called to Edit announcement: I'm here to challenge the industry" (id `3ff8d1c1-7bb7-8180-8980-c340f735beed`), Status Script, with the shot list. Notion is where he edits it; re-fetch before changing either copy.
+
 {Walks in, sits down. Suit, black glasses, white table.}
 "I'm here to challenge the video editing industry.
 Everyone is teaching you how to do this effect, that effect, this animation, that animation. Things you will never even use.

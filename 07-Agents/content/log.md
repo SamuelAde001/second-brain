@@ -145,3 +145,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-20 · Brand manager · Announcement script v1 rejected by Samuel (coaches, Nigeria, sounded AI). Draft 2: three concepts (The Interview, recommended; The Fake Tutorial; The Job Posts), all speaking to editors, lines from his own words. Lesson filed in memory.
 - 2026-10-20 · Brand manager · Samuel wrote draft 3 himself (Concept A's monologue, no skit, sit-down opening). Recorded word for word in the script note with six suggested adjustments.
 - 2026-10-20 · Brand manager · Samuel sent the final announcement script (ends 'Called To Edit.. Coming Soon'); recorded word for word as final. One note left with him: 'get paid' said three times.
+- 2026-10-20 · Brand manager · Put the final announcement script and shot list on Notion (Instagram Content Calendar, id 3ff8d1c1-7bb7-8180-8980-c340f735beed, Status Script, no Series: none fits).
