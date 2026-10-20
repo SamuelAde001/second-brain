@@ -15,7 +15,8 @@ Rules: [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1 fo
 
 ## Where it lives
 
-Video 2's job folder, `Graphics\Frontal kit (Editor)\` (outside the Brain: Season Serif is Frontal's licence and never enters the Brain or GitHub).
+**Master: `Routerise\Visual Assets\Frontal templates (Editor)\`** (Samuel, 2026-10-20: *"Yes: copy the kit to Visual Assets\Frontal templates (Editor) and install BGFRONTAL into My macros."*). Each Alex job copies it into its own `Graphics\Frontal kit (Editor)\` and works there; kit fixes go back to the master. Video 2's working copy is the original. Its `README.md` says how to use it. Outside the Brain: Season Serif is Frontal's licence and never enters the Brain or GitHub.
+- **BGFRONTAL is installed in `My macros`** beside BGORANGE (2026-10-20): the same nodes under the same names, recoloured; it renders pixel-identical to the ground in every template. Made by `frkit.bgfrontal_setting()`; BGORANGE was only read (hash unchanged). It may need a Resolve restart to show in the macro list.
 - `kits\frkit.py`: brand tokens, calibrated text, brackets, hairlines, boxes, glass, connector, pixel glow, bands, logo, icons, BGFRONTAL (generated from his BGORANGE, which stays untouched), his NeoAnim and NeoTextMotion re-skinned, `write()`.
 - `kits\frlib.py`: 13 geometric glyphs, three icon tiles (bracket, panel, sky), scrim, eased wipe (draw-ons, bars, band slides).
 - `catalog.md`: every template with its look and motion. `proof.py` + `lib\J1.py`..`J10.py`: the generators. `rebuild_all.py`: rebuilds everything and renders each last frame.
