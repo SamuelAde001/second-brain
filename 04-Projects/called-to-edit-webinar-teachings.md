@@ -809,10 +809,10 @@ Recorded 2026-10-20 (4.4–4.7 in one voice note).
 ### 4.5 A portfolio when you have no clients yet
 
 - *"Your practice work is your work. I repeat, your practice work is your work."* It's part of your portfolio, even practice on someone else's video, because you made it look that way.
-- Put in recreations (1.3) and free work for others (1.7). He did lots of practice work, and it was in his portfolio back then.
+- Put in free work for others (1.7) and practice on real people's videos.
+- **Recreations stay practice** (settled 2026-10-20): *"You can't really call recreation your own."* (Matches 1.3.)
 - Replace practice pieces with real projects as they come.
-- He said: *"It might be their video, but because you edited it, that has become your intellectual property."* **Brand manager flag (once):** the edit is your work to show, but the footage stays the owner's. Calling it "your intellectual property" could be challenged. Suggested wording: *"It's their footage, but the edit is yours, so it belongs in your portfolio."* His call.
-- **To square when organising:** in 1.3 he said a recreation *"might not really be going into your portfolio... it's mostly for practice."* Here practice work goes in. Pick one line.
+- **Settled 2026-10-20:** *"The footage still belongs to the owner, right? But the edit is yours... So you can add it to your portfolio."* Line to say: *"It's their footage, but the edit is yours."*
 
 ### 4.6 Presenting yourself professionally; packaging the skill
 
@@ -839,11 +839,44 @@ Covered in 4.0 and 4.3. His closing line: *"Always show your work as much as pos
 
 ### 5.1 Inbound: getting clients to come to you
 
-*Carry in (2026-10-19): agencies often reach out to editors themselves, on Twitter and LinkedIn (see 0.3 and 5.2).*
+Recorded 2026-10-20.
 
-*Not recorded yet.*
+**Opening for section 5: skip the groundwork and this gets hard.** If you skipped being specific (your niche, who you serve) or being visible, *"getting clients will be difficult for you."* Establish yourself in one niche and be *"visible and loud about it."*
+
+**Two ways to get clients**
+| | What | Example |
+|---|---|---|
+| **Inbound** | the client comes to you: an *"inbound lead"* | *"Hey, I saw your work, I would love to know how much you charge"* |
+| **Outbound / outreach** | you approach the client | you see someone whose videos you could edit and reach out |
+- **Do both.** *"You can't rely on only inbound and you can't rely on only outbound."* Established editors get more inbound; beginners have to go looking.
+
+**What makes a client DM you rather than another editor**
+- **Specificity**: your personal brand makes you unique.
+- **Reliability.** Clients want editors who are reliable, diligent, hardworking and deliver on time. *"Clients are tired of editors that know how to do flashy edits, but they are not reliable"* and miss deadlines.
+- **So document your day.** A client scrolls your profile, sees your day-to-day and thinks *"this guy is hardworking."* His time-lapses of himself working got that comment: *"this guy is locked in."*
+- *"People are not just looking at the fancy videos. They want to see... the behind the scenes."* That attracts quality clients.
+
+**Every view counts:** *"Those 200 views, one of them could be your client."* Or one of them knows your client and recommends you. Many people recommended him to clients because they followed him on Twitter.
+
+**Trust:** *"I can't give you my money if I don't trust you."* Your content builds that reputation.
+
+**What makes clients DM you, as a list:** showing your work · how you came up with the work · the person and personality behind it · your credibility: testimonials and the results the work brought · posting consistently (not once a week, not once every 2–3 days).
+
+**Be patient:** 1, 2, 3 months of consistency. Once other editors comment, follow and like your posts, clients follow, *"because if you are valuable to other video editors, it means that you are valuable."*
+
+**Teaching:** inbound only comes from work on your personal brand. Show your work, the process and you, every day, and be patient for 1–3 months.
+
+**Lines to say:**
+- *"Clients are tired of editors that know how to do flashy edits, but they are not reliable."*
+- *"Those 200 views, one of them could be your client."*
+- *"I can't give you my money if I don't trust you."*
+- *"There are a lot of clients looking for people. You are invisible. That's why they can't find you."*
+
+**Board:** inbound vs outbound · **his Twitter profile and posts that brought inbound leads, shown live** (*"you guys can see how much I was posting"*) · his time-lapse work videos.
 
 ### 5.2 Outbound: where to find clients, which platforms
+
+*In progress, 2026-10-20: he paused mid-topic. So far:* outbound is you looking for clients. Don't wait for them to find you, at any stage, and especially at the start: no one knows you yet. **He'll show how to look for clients live.** Step 1: go to the platform where your client is. If you edit for business YouTubers, search YouTube for business content creators, watch their videos and get to understand what they do.
 
 *Carry in (2026-10-19): agencies as a client type. His take from 0.3: middlemen with 20–30 clients; always have work and give access to clients you can't reach; pay less and give heavy revisions; good for beginners, helped his career; best long-term is creators, businesses and brands directly; big brands go through agencies, so you work up the ladder. Most agencies post on Twitter and LinkedIn that they need an editor.*
 
