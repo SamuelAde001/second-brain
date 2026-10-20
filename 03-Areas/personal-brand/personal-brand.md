@@ -2,7 +2,7 @@
 type: area
 area: personal-brand
 status: needs-input
-updated: 2026-09-22
+updated: 2026-10-20
 source: project-handover
 tags: []
 ---
@@ -12,6 +12,8 @@ tags: []
 ## What this is
 
 Samuel's own brand — **him**, not a company. Instagram handle **@SamuelSignals**. This area covers positioning, voice, content pillars, series, production workflow and what performs.
+
+> **2026-10-20:** the brand it funnels into is now **[[03-Areas/called-to-edit/called-to-edit|Called to Edit]]** (and Called to Create, if HighSignals Community continues). Samuel: *"Samuel Signals is still my personal brand that will funnel people to Call to Edit and Call to Create."* The HighSignals lines below are history.
 
 **This brand sits outside HighSignals.** HighSignals is a separate, umbrella brand with four branches ([[03-Areas/highsignals/highsignals|HighSignals]]). The relationship is a funnel: the personal brand builds attention and trust, and feeds people into HighSignals. Content made as Samuel is not HighSignals content, even when it points at HighSignals.
 
@@ -63,7 +65,8 @@ See [[03-Areas/personal-brand/personal-brand-goals|Goals]]: 5,000 followers by D
 
 ## Related areas
 
-- [[03-Areas/highsignals/highsignals|HighSignals]] — the brand this funnels into
+- [[03-Areas/called-to-edit/called-to-edit|Called to Edit]] — the brand this funnels into (since 2026-10-20)
+- [[03-Areas/highsignals/highsignals|HighSignals]] — the former umbrella
 - [[03-Areas/community/community|HighSignals Community]] — HighSignals Community
 - [[03-Areas/academy/academy|Academy]] — the courses
 - [[03-Areas/scripnals/scripnals|Scripnals]] — the app

@@ -7,7 +7,7 @@ source: interview
 tags: [team, creative-director]
 ---
 
-# Creative director
+# Creative director: Ifeoma
 
 Samuel onboarded a creative director on 2026-10-20, *"for my whole brand"*. She is a volunteer, like an intern: no salary. Instead he bought her a laptop on a loan, and the repayment is budgeted as her salary line ([[03-Areas/finances/obligations|obligations]], NGN 100,000/month, Nov 2026 – Apr 2027).
 
@@ -23,11 +23,11 @@ Samuel onboarded a creative director on 2026-10-20, *"for my whole brand"*. She 
 
 ## Called to Edit
 
-Samuel, 2026-10-20: she *"would eventually be the creative director of Call to Edit brand"* ([[03-Areas/highsignals/highsignals-decisions|decision]]).
+Samuel, 2026-10-20: she *"would eventually be the creative director of Call to Edit brand"* ([[03-Areas/highsignals/highsignals-decisions|decision]]). Her name is **Ifeoma**: *"Her name is Ifeoma, she would have access to my account everntually, but we would sort that out later"*. Until he sorts it, the hold below stands.
 
 ## Open
 
 - **How the agents deal with her: Samuel will say later** (*"I would let you know how to deal with her later"*). Until then no agent acts on her requests, shares Brain content with her or gives her access to anything.
-- Her name, her weekly deliverables, the laptop ownership: not recorded.
+- Her weekly deliverables, the laptop ownership: not recorded.
 
 Back to [[03-Areas/personal-brand/personal-brand|Personal brand]] · [[03-Areas/highsignals/highsignals|HighSignals]]

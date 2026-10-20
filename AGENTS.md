@@ -12,8 +12,9 @@ Status: built 2026-09-20, in run mode since 2026-09-28. Current state: `00-Syste
 - Time zone WAT (UTC+1). ISO dates everywhere.
 - Editing stack: DaVinci Resolve Studio + Fusion, OBS, DJI Osmo Pocket 4, DJI Mic Mini.
 - Income is freelance and variable, in NGN and USD. USD reaches NGN through Cleva.
-- **HighSignals is the whole brand** — an umbrella over four branches: HighSignals Community, HighSignals Academy, Mentorship, and the Scripnals app.
-- **Samuel's personal brand is separate and sits outside HighSignals** — it is Samuel himself, Instagram @SamuelSignals. Its job is to funnel people into HighSignals. Content made as Samuel is not HighSignals content.
+- **Called to Edit is the brand** (Samuel, 2026-10-20; replaced HighSignals as the umbrella). It covers everything he sells to video editors building a career: the webinar, Called to Edit Academy (the cohort), Called to Edit Mentorship, and a Called to Edit Community from 2027. Samuel is its founder; the switch goes public after the 2026-10-23 webinar. Always **Called**, never "Call" or "Code". → [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
+- **HighSignals** is now only the HighSignals Community (posting accountability), which may become **Called to Create** in 2027. **Scripnals** is a standalone app, not the focus.
+- **Samuel's personal brand is separate** — it is Samuel himself, Instagram @SamuelSignals. Its job is to funnel people into Called to Edit (and Called to Create). Content made as Samuel is not Called to Edit content.
 - A future book, not yet placed.
 - Claude plan: Max (USD 100 tier), since 2026-10-06; was Pro. Usage limits are shared across Claude chat and Claude Code. Token discipline is a constraint, not a preference.
 - Tone he wants back: direct and blunt. No flattery, no reassurance loops, no repeated moralizing.
@@ -30,8 +31,8 @@ Status: built 2026-09-20, in run mode since 2026-09-28. Current state: `00-Syste
 02-Me/        about-samuel.md is the entry point. Story, values, principles,
               patterns, routines, habits, health, goals/ = the goal ladder
 03-Areas/     video-editing, finances, relationships, personal-brand,
-              highsignals (umbrella) -> community, academy, mentorship, scripnals,
-              book. Each folder opens with <area>.md.
+              called-to-edit (umbrella) -> academy, mentorship, community,
+              highsignals (former umbrella, kept as history), scripnals, book. Each folder opens with <area>.md.
 04-Projects/  finite work with an end date. Each links to its area.
 05-Knowledge/ evergreen know-how that spans areas. Domain SOPs live in their area instead.
 06-Logs/      daily/, weekly/, automation/, screen-time/, commitments.md

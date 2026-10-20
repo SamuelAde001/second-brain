@@ -18,7 +18,7 @@ Almost all of this is Phase 3 interview material. What is here now came out of i
 ## What is known — as of 2026-09-20
 
 - Samuel Adebayo. Full-time freelance video editor, self-employed. **Abuja, Nigeria**, WAT (UTC+1).
-- **Nigerian Air Force veteran.** Now video editor, content creator, content coach, founder of the HighSignals community and the Scripnals app.
+- **Nigerian Air Force veteran.** Now video editor, content creator, content coach, founder of the HighSignals community and the Scripnals app. From 2026-10-20, founder of [[03-Areas/called-to-edit/called-to-edit|Called to Edit]], his brand for video editors (public after the 2026-10-23 webinar).
 - Works primarily with clients on video editing projects.
 - Works from home on a Windows 11 PC. Android phone.
 - His stated priority order for creating: inspire first, let that lead people into his offers naturally, build reputation, let money follow value ([[03-Areas/personal-brand/brand-context|Brand context]]).

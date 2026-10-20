@@ -52,7 +52,7 @@ The problem it exists for is P1 in [[02-Me/patterns|his patterns]]: content has 
 
 ## Scope
 
-**Owns:** everything in `03-Areas/personal-brand/`: brand context, script process and review checklist, storytelling structures, the series, the ideas and 30-story bank, Instagram strategy, recording setup, visual identity, and the [[03-Areas/personal-brand/content-log|content log]].
+**Owns:** everything in `03-Areas/personal-brand/`: brand context, script process and review checklist, storytelling structures, the series, the ideas and 30-story bank, Instagram strategy, recording setup, visual identity, and the [[03-Areas/personal-brand/content-log|content log]]. Since 2026-10-20 also `03-Areas/called-to-edit/`: the Called to Edit brand, its overview, decisions and [[03-Areas/called-to-edit/called-to-edit-brand-foundation|brand foundation]] (its branches stay with the orchestrator).
 
 **Reads, never writes:** `02-Me/` (his story, patterns, routine, goals), `03-Areas/video-editing/` (the craft his content is about), `03-Areas/book/` (the book shares the visibility theme).
 

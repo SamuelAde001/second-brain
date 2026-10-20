@@ -2,7 +2,7 @@
 type: area
 area: mentorship
 status: needs-input
-updated: 2026-09-22
+updated: 2026-10-20
 source: project-handover
 tags: []
 ---
@@ -11,7 +11,7 @@ tags: []
 
 ## What this is
 
-**HighSignals Mentorship** — the premium tier of the HighSignals brand ([[03-Areas/highsignals/highsignals|HighSignals]]): **one-on-one mentorship directly with Samuel**, applying Academy and community lessons to the individual's specific niche, audience and goals.
+**Called to Edit Mentorship** — the premium tier of [[03-Areas/called-to-edit/called-to-edit|Called to Edit]] (Samuel, 2026-10-20: *"Yes it becomes Called to edit mentorship"*; was HighSignals Mentorship): **one-on-one mentorship directly with Samuel**, applying Academy and community lessons to the individual's specific niche, audience and goals.
 
 Third stage of the ladder — after the Academy equips and the community implements, mentorship personalises.
 
@@ -50,6 +50,6 @@ See [[03-Areas/mentorship/mentorship-goals|Goals]]. Not set yet.
 
 ## Related areas
 
-- [[03-Areas/highsignals/highsignals|HighSignals]] — the umbrella
-- [[03-Areas/community/community|HighSignals Community]] · [[03-Areas/academy/academy|Academy]] · [[03-Areas/scripnals/scripnals|Scripnals]] — sister branches
-- [[03-Areas/personal-brand/personal-brand|Personal brand]] — outside HighSignals, funnels into it
+- [[03-Areas/called-to-edit/called-to-edit|Called to Edit]] — the umbrella since 2026-10-20 (was [[03-Areas/highsignals/highsignals|HighSignals]])
+- [[03-Areas/academy/academy|Academy]] · [[03-Areas/community/community|Community]] — sister branches
+- [[03-Areas/personal-brand/personal-brand|Personal brand]] — funnels into it

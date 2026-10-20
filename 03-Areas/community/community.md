@@ -2,12 +2,14 @@
 type: area
 area: community
 status: active
-updated: 2026-09-22
+updated: 2026-10-20
 source: project-handover
 tags: []
 ---
 
 # Community — HighSignals
+
+> **2026-10-20 (Samuel):** two communities now. **HighSignals Community** (this WhatsApp group, posting accountability) keeps running: *"I'm not sure it might continue next year. If it might continue, I might eventually have another branch called Code to Create"*, meaning **Called to Create**. The **video-editing community** planned for 2027 is **Called to Edit Community**, a branch of [[03-Areas/called-to-edit/called-to-edit|Called to Edit]].
 
 ## What this is
 

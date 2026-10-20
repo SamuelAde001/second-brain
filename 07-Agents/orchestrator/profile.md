@@ -41,7 +41,7 @@ Start at the area's overview note (AGENTS.md §3). Then:
 | Money: spending, income, pots, rules, the sheet | **finance** — built ([[07-Agents/finance/profile\|profile]]). Runs in the main session with its profile loaded (`runs-as: main-session`) | — |
 | Tasks, schedule, focus, Google Calendar, planning a day or a week | **personal-life** — built ([[07-Agents/personal-life/profile\|profile]]). Runs in the main session with its profile loaded (`runs-as: main-session`) | — |
 | Scripts, @SamuelSignals content, the brand | content | Main session, with [[07-Agents/content/profile\|its profile]] loaded. Skills [[write-script]], [[content-report]] |
-| HighSignals and its branches, the book, relationships, `02-Me`, the Brain's own build and structure | **orchestrator** | — |
+| Called to Edit's Academy, Mentorship and Community, HighSignals, Scripnals, the book, relationships, `02-Me`, the Brain's own build and structure | **orchestrator** | — |
 
 **Calling by name** (Samuel, 2026-09-23): a message that opens with **General Manager**, **Editor**, **Money man**, **PA** or **Brand manager** goes straight to that agent. No routing judgement needed.
 

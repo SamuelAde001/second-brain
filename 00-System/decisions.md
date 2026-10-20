@@ -328,3 +328,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: Called to Edit is Samuel's brand for everything he sells to video editors (webinar, cohort, community, website, later a seminar); he is its founder. @SamuelSignals stays his personal brand and funnels into it. HighSignals Community may continue next year as Called to Create. Full record: [[03-Areas/highsignals/highsignals-decisions|HighSignals decisions]].
 **Brain impact**: AGENTS.md §1-2 and the HighSignals, Academy, Community and Mentorship notes still describe the old umbrella. They get restructured after Samuel answers open question 114; until then the HighSignals decision record is the current truth.
 **Who decided**: Samuel.
+
+## 2026-10-20 — Brain restructure: `03-Areas/called-to-edit/` is the umbrella area
+
+**Decision**: new area `03-Areas/called-to-edit/` (overview, brand foundation, standing files). Academy, Mentorship and Community link to it as branches; HighSignals is marked paused and kept as history plus the community that may become Called to Create; Scripnals stands alone. AGENTS.md §1-2, about-samuel, and the orchestrator and Brand manager profiles updated; the Brand manager now owns the new area, the orchestrator keeps the branches. No folder renamed.
+**Why**: Samuel's answers, 2026-10-20 ([[03-Areas/called-to-edit/called-to-edit-decisions|Called to Edit decisions]]). The layout is the Brand manager's; Samuel can change it.
+**Who decided**: Samuel (the brand), Brand manager (the layout).

@@ -1,7 +1,7 @@
 ---
 type: area
 area: highsignals
-status: active
+status: paused
 updated: 2026-10-20
 source: claude-export
 tags: []
@@ -9,7 +9,7 @@ tags: []
 
 # HighSignals
 
-> **2026-10-20 (Samuel): HighSignals is no longer the umbrella.** *"instead of High Signals, I'm moving my brand to Call to Edit fully"*. Called to Edit becomes the brand for everything he sells to video editors; HighSignals Community may continue next year as Called to Create. This note describes the old structure until the restructure (open question 114). Decision: [[03-Areas/highsignals/highsignals-decisions|HighSignals decisions]].
+> **2026-10-20 (Samuel): HighSignals is no longer the umbrella.** *"instead of High Signals, I'm moving my brand to Call to Edit fully"*. Called to Edit becomes the brand for everything he sells to video editors → [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]. What's left of HighSignals is the community (posting accountability), which may continue next year as **Called to Create**. Mentorship moved to Called to Edit; Scripnals stands alone. His bio keeps "Founder of HighSignals" until after the 2026-10-23 webinar. **Everything below is the old structure, kept as history.** Decision: [[03-Areas/highsignals/highsignals-decisions|HighSignals decisions]].
 
 ## What this is
 

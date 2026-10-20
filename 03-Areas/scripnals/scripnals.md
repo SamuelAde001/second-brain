@@ -2,12 +2,14 @@
 type: area
 area: scripnals
 status: needs-input
-updated: 2026-09-28
+updated: 2026-10-20
 source: project-handover
 tags: []
 ---
 
 # Scripnals
+
+> **2026-10-20 (Samuel):** *"Scripnals would be a stand alone product, but focus won't be on it for now"*. It is no longer a branch of an umbrella brand: HighSignals stopped being one, and [[03-Areas/called-to-edit/called-to-edit|Called to Edit]] doesn't include it.
 
 ## What this is
 

@@ -2,12 +2,14 @@
 type: area
 area: academy
 status: paused
-updated: 2026-09-30
+updated: 2026-10-20
 source: project-handover
 tags: []
 ---
 
 # Academy
+
+> **2026-10-20:** the Academy is **Called to Edit Academy**, a branch of [[03-Areas/called-to-edit/called-to-edit|Called to Edit]], which replaced HighSignals as the umbrella. Called to Create, the old third course name, now names the possible successor to HighSignals Community, not a course.
 
 ## What this is
 
@@ -74,7 +76,7 @@ All of these wait until the course restarts:
 
 ## Related areas
 
-- [[03-Areas/highsignals/highsignals|HighSignals]] — the umbrella
+- [[03-Areas/called-to-edit/called-to-edit|Called to Edit]] — the umbrella since 2026-10-20 (was [[03-Areas/highsignals/highsignals|HighSignals]])
 - [[03-Areas/community/community|HighSignals Community]] · [[03-Areas/mentorship/mentorship|Mentorship]] · [[03-Areas/scripnals/scripnals|Scripnals]] — sister branches
 - [[03-Areas/video-editing/video-editing|Video editing]] — the craft being taught
 
