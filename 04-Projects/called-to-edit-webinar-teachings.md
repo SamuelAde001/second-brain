@@ -771,19 +771,69 @@ Recorded 2026-10-20 (visibility, 4.1, 4.2, 4.3 in one voice note). **He wants th
 
 ### 4.4 Portfolio: where to build it and how to present yourself
 
-*Not recorded yet.*
+Recorded 2026-10-20 (4.4–4.7 in one voice note).
+
+**Why:** your socials show your work, but *"a new client... cannot go through and start scrolling all your posts."* A link in your bio takes them to where all your work lives: an archive of your work and proof that you're someone they can work with.
+
+**A website, not Google Drive**
+- *"The best portfolio that you can ever get is a website."*
+- *"I go against Google Drive because it is very bad."* Making the client click every file is friction: *"I'm not ready for this"*, and they go to another editor. On a website they just watch.
+- It doesn't need to be flashy or built by a web designer. *"What the client wants to see is your videos, not a flashy website."*
+
+**Build it with AI (his method)**
+1. Upload your edits to YouTube as unlisted ("hidden") videos.
+2. Copy the links.
+3. Paste them into an AI: *"These are the videos I edited. Use these videos to create a portfolio that I can link in my bio."*
+- Claude does it very well (he recently built one for someone on Claude); ChatGPT and Gemini can too. Free versions: *"I believe they should be able to do something good."*
+- His own: built on **Framer** in one night, using code and AI. *"I did that once and it got me clients."*
+- **Live in class:** he'll show his old portfolio from when he was pitching himself.
+
+**Free portfolio builders, researched on his ask** (Brand manager, 2026-10-20; check each on a phone before recommending it live)
+
+| Builder | Free plan | Good for | Watch out |
+|---|---|---|---|
+| **Framer** (his) | Free portfolio plan on a Framer address; custom domain is paid ([Framer](https://www.framer.com/solutions/portfolio-maker)) | Best-looking sites. Video-editor templates exist: a free "Video" template; paid ones such as Cutfolio and Editorya | Takes time to learn; a desktop tool |
+| **Canva Websites** | Free users can publish a site on a free `my.canva.site` address; custom domain needs Canva Pro ([Canva help](https://www.canva.com/help/publishing-websites-for-free/)) | People already on Canva (he uses it for banners) | Mobile and link-in-bio templates publish to a `canva.link` address only. Whether you can build it in the phone app wasn't confirmed |
+| **Carrd** | Up to 3 simple one-page sites, no custom domain ([Carrd Pro](https://carrd.co/pro)) | The simplest one-pager: a showreel plus a few videos | Video uploads and embeds sit mostly on paid tiers (from about USD 19/year). Check that YouTube embeds work on free |
+
+**What goes in it**
+- **Your best videos, 8 at most:** *"your top 4 and your other 4."* Only have 3? Put the 3. Too many is *"giving the client too much work."*
+- **Before and afters.**
+- **Testimonials:** screenshots of what clients said.
+- **Results:** screenshots of what you got for clients.
+- **About you:** who you are, how long you've been editing.
+- **Show it every time:** whenever a client asks for your work, send the portfolio.
+
+**First-month goal:** do enough practice work to fill your portfolio.
 
 ### 4.5 A portfolio when you have no clients yet
 
-*Not recorded yet.*
+- *"Your practice work is your work. I repeat, your practice work is your work."* It's part of your portfolio, even practice on someone else's video, because you made it look that way.
+- Put in recreations (1.3) and free work for others (1.7). He did lots of practice work, and it was in his portfolio back then.
+- Replace practice pieces with real projects as they come.
+- He said: *"It might be their video, but because you edited it, that has become your intellectual property."* **Brand manager flag (once):** the edit is your work to show, but the footage stays the owner's. Calling it "your intellectual property" could be challenged. Suggested wording: *"It's their footage, but the edit is yours, so it belongs in your portfolio."* His call.
+- **To square when organising:** in 1.3 he said a recreation *"might not really be going into your portfolio... it's mostly for practice."* Here practice work goes in. Pick one line.
 
 ### 4.6 Presenting yourself professionally; packaging the skill
 
-*Not recorded yet.*
+- **Brand colours:** pick colours and stick to them. His was **green**: *"If you see all my posts, I always use green."*
+- *"If you don't understand branding, don't disturb yourself too much."* It comes gradually.
+- **Use Canva** for banners and packaging your profile. He eventually subscribed to Canva for it.
+- The rest of packaging is in 4.1 (profile checklist) and 3.2 (offer sentence).
 
 ### 4.7 Showing your work
 
-*Not recorded yet.*
+Covered in 4.0 and 4.3. His closing line: *"Always show your work as much as possible."* Merge into 4.0/4.3 when organising unless he adds more.
+
+**Teaching (4.4–4.7):** put your best 8 or fewer videos on a simple website, not Google Drive. AI or a free builder can do it in a night. Practice work counts. Keep your look consistent.
+
+**Lines to say:**
+- *"Your practice work is your work."*
+- *"What the client wants to see is your videos, not a flashy website."*
+- *"I go against Google Drive."*
+- *"Anytime a client asks you for your work, show them your portfolio."*
+
+**Board:** live: his old portfolio · the AI portfolio method in 3 steps (possibly a live demo) · website vs Google Drive · the builder table · portfolio checklist (≤8 videos, before/after, testimonials, results, about).
 
 ## 5. Getting clients
 
