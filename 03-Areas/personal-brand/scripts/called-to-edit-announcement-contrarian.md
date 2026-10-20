@@ -15,7 +15,7 @@ Status: draft by the Brand manager. Punchlines written on his ask; every line is
 
 ## What the reference does (26 s, read from frames)
 
-1. **Villain address.** *"This is a message to all finance bros. My name is Kumar, a [retired] accountant, and I'm gonna take your jobs by becoming the biggest accounting influencer in the world."* Seated, dark office, fingers steepled, no movement, slow deadpan.
+1. **Villain address.** *"This is a message to all finance bros. My [name] is Kumar, a retired accountant, and I'm gonna [take] your jobs by becoming the biggest accounting influencer in [the] world."* Read from the burned-in captions at 0.55 s steps, not from the audio (it wasn't heard); words in brackets were never on a sampled frame and are inferred. 12–19 s has no caption (cutaways). Seated, dark office, fingers steepled, no movement, slow deadpan.
 2. **One giant word per beat.** Red serif, full width, slammed on the key words (KUMAR, ACCOUNTANT, JOBS, INFLUENCER, WORLD).
 3. **Cutaways** to dramatic portraits on a white backdrop: hard light, silhouettes, a close-up through glasses, cash in hand.
 4. **The deflate.** His wife sits beside him: *"My husband wants to be famous. Please follow him."* The menace becomes wholesome. That flip is why it went viral: big claim, then self-aware.
