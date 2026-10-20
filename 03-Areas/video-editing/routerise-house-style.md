@@ -163,6 +163,8 @@ Sound library: music in `Routerise\Visual Assets\Music\`, SFX in `Routerise\Visu
 
 ## 9. Typography and colour
 
+> **Superseded for Alex's videos on 2026-10-20.** Frontal's brand kit v2.3.1 replaces everything in this section: no orange, no Geist, no BGORANGE, no rounded shapes. Samuel: *"they are a must follow"*. The rules now: [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1 for video]]; what changed construct by construct: [[04-Projects/frontal-rebrand-video-kit|Frontal rebrand of the video kit]]. This section stays as the record of the July look (finals before 2026-10-20). §10's timing is under review there (question 1).
+
 ### Typography
 | | |
 |---|---|

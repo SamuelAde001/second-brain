@@ -11,6 +11,8 @@ tags: [visuals, house-style, routerise, fusion]
 
 Studied 2026-09-25 for Route Rise #3, on Samuel's instruction (*"cross-check how I used to edit… study the finals"*). Sources: the finals of *$7M Founder* (`v2.mp4`, 7:30) and *Taking a Step Back from Claude* (`v2.1.mp4`, 10:41), TSB Timeline 2's node trees, a video by Route Rise's best editor, and the Route Rise editing guide. Contact sheets and stills: `Routerise\3. I Tried 100+ AI Tools…\Docs\Visual study\`. Companion notes: [[routerise-house-style]], [[fusion-node-system]], [[ways-of-working]].
 
+> **2026-10-20:** the look described here (orange, Geist, pills) is superseded for Alex's videos by [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]]. What makes a visual his (density, variety, real things shown, list styles as structures) still applies.
+
 ## 1. What makes a visual Samuel's
 
 1. **Show the real thing.** Real UI (screen recordings, website screenshots rebuilt or zoomed), real logos, real footage (AI B-roll, YouTube clips framed in the YouTube page, the A-roll itself). Abstract metaphors only when nothing real can show it.

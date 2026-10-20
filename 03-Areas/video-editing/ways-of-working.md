@@ -11,6 +11,8 @@ tags: [conventions, agents, fusion]
 
 From the Claude memory export for the video-editing project, last updated 2026-09-19. **This is the single most important note for the Phase 4 video-editing agent.** It is not theory: most of these rules exist because something was done wrong once and corrected.
 
+> **2026-10-20: Alex's videos follow Frontal's brand kit v2.3.1** ([[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]]; Samuel: *"they are a must follow"*). Every rule below that names orange, BGORANGE, Geist, two-tone white/orange, pills, capsules, rounded corners, Neo Glow on borders or rings, light sweeps, shines, bevels, drop shadows on cards, curved arrows or orange icons is superseded for Alex. Everything else stands: editable nodes, real UI, show actions, variety, placement, pacing, node layout, sound, revision rules. Mapping: [[04-Projects/frontal-rebrand-video-kit|Frontal rebrand of the video kit]].
+
 ## Node naming — strict
 
 - **Never rename Samuel's existing Fusion nodes.**
@@ -87,7 +89,7 @@ From his answers on all 63 remaining beats, checked against his finished hook (0
 
 - **Motion graphics are Fusion nodes, always.** *"When my client sends in changes, I don't want to always have to have Claude re-render everything… I can change the nodes, change the text, change the animation by myself."* Rendered video is only for **real-UI demos**.
 - **UI demos:** full screen, no background, real UI (his Chrome, Google Images, or an HTML rebuild that looks like the real app), with smooth, unhurried cursor movement: *"nothing should be too fast and everything must be very smooth"*. **Never a motion graphic on a UI visual**: no timer chips, no labels, no shine. Where a line describes what a tool does ("Clay is a data orchestration tool", "research the account"), show the tool doing it as a demo, not a diagram.
-- **Background for every motion graphic: his `BGORANGE` macro** (`My macros\BGORANGE.setting`). Stay on brand orange. Never a tool's brand colour (Railway was not to be purple) or a blue/purple ground.
+- *(Superseded 2026-10-20 for Alex: the ground is BGFRONTAL, Dark with blue light. See the banner at the top.)* **Background for every motion graphic: his `BGORANGE` macro** (`My macros\BGORANGE.setting`). Stay on brand orange. Never a tool's brand colour (Railway was not to be purple) or a blue/purple ground.
 - **Lines:** `Moving dashed line`. **Arrows:** his arrow macro (`Arrowline`). **Icons:** real ones from flaticon, or the tool's real logo. Never a screenshot thumbnail standing in for a logo.
 - **"Premium" means the hook's look:** two-tone Geist ExtraBold titles (white + orange) with glow, glass pills with an orange border, orange numbered circles, ghost numerals, orange icons, curved white arrows, a circular A-roll with an orange ring.
 - **Hub = a circle** with the tool's logo and name, not a screen.

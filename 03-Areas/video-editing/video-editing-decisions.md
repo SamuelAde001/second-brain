@@ -27,3 +27,10 @@ Back to [[03-Areas/video-editing/video-editing|Video editing]]
 - **Why:** he doesn't want to sit at the PC through every step.
 - **Editor's objection (once):** dropping the plan and sample gates means a wrong visual direction is found only in the morning, after the whole build. B2B *Visuals v1* was rejected whole that way. The mitigation is self-review against the edit grammar and his three finals before the version is called done.
 - **Who:** Samuel.
+
+## 2026-10-20 — Alex's videos follow Frontal brand kit v2.3.1
+
+- **Decision:** from 2026-10-20 every visual in Alex's videos follows Frontal's brand kit v2.3.1 (Season Serif / Inter / JetBrains Mono, Dark + white + Blue-300, square shapes, quiet motion, no orange). It replaces the July orange/Geist look and the "accent changes per video" rule. Samuel: *"my client Alex just sent in the new brand guidlines of his company and brand, and they are a must follow"*, *"we just need to make sure his videos now follow the new brand guidelines including all the fonts, colors and everything there"*.
+- **Why:** the client's brand changed; the kit says *"no orange anywhere from now on"*.
+- **What it touches:** colours, fonts, shapes, effects and the motion style of every construct. The edit method, pacing and visual grammar stay. Rules: [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]]. Rollout and open questions: [[04-Projects/frontal-rebrand-video-kit|Frontal rebrand of the video kit]].
+- **Who:** Samuel.

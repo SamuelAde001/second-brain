@@ -13,6 +13,8 @@ What the Editor learned by studying Samuel's three finished Route Rise timelines
 
 **Use this instead of re-studying his videos.** Samuel, 2026-10-08: *"Hope all the things you learned in the study sessions would all be used to help in the new session without it learning again from the old videos"*. Start every visual plan here. Open one of his comps or a still of his finals only when building that exact construct, to copy its nodes and settings. Re-study only when he finishes a new video (then add it here).
 
+> **2026-10-20: his three finals are in Frontal's July look (orange, Geist, rounded pills).** For Alex's videos the look now comes from [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]]. Use this grammar for what to show and when (beat types, density, pacing, placement); take colours, fonts, shapes and effects from the brand note. Mapping: [[04-Projects/frontal-rebrand-video-kit|Frontal rebrand of the video kit]].
+
 ## The notes
 
 | Note | What's in it |

@@ -32,12 +32,12 @@ needs-input — no source document describes how Alex/Routerise actually briefs 
 
 - **Pacing / style:** cuts only, no transitions ever (confirmed zero dissolves/wipes across 503 clips in the reference project). A-roll cut to a ~2.4 s median, holding up to 11 s when a point earns it, machine-gunning sub-second cuts for emphasis. Full detail in [[routerise-house-style|Routerise house style]].
 - **Zooms:** **MagicZoom V3, never Dynamic Zoom.** Samuel's own words on this account: *"I prefer MagicZoom V3 instead of Dynamic Zoom, I use it for slow zooms, and quick punch ins and the speed and depth of the zoom differs in different contexts."*
-- **Captions/typography:** word-by-word animated text (NeoTextMotion / NeoAnim), ALL CAPS bold for chips and titles. Brand font is **Geist** (Alex's brand font — confirmed by Samuel, replacing the ad-hoc Open Sans seen in the first reference cut). Full detail in [[routerise-house-style|Routerise house style]].
+- **Captions/typography:** word-by-word animated text (NeoTextMotion / NeoAnim), ALL CAPS bold for chips and titles. Brand font is **Geist** (Alex's brand font — confirmed by Samuel, replacing the ad-hoc Open Sans seen in the first reference cut). *(Superseded 2026-10-20: Season Serif sentence case for headlines, Inter for reading text, JetBrains Mono caps for labels. [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]].)* Full detail in [[routerise-house-style|Routerise house style]].
 - **Music:** Epidemic Sound tracks, one track per script section/chapter, changing on the exact section boundary; level set once per track (−25 to −42 dB), never automated per clip.
 - **Graphics must be built as native Fusion nodes, not raster.** Dated rule from the TSB project: *"graphics are always nodes… No PNG sequences or rasterised graphics standing in for a visual"* — raster/PNG-sequence fallbacks from Samuel's compiler tooling were explicitly rejected as unacceptable output and had to be rebuilt as real node trees. (See [[tsb-graphics-pipeline|TSB graphics pipeline]] — note that document does not itself confirm it is Routerise work; flagged there.)
 - **B-roll sourcing:** real-world B-roll from **YouTube and TikTok only — no stock libraries** (stated house style on two separate cut sheets).
 - **Show over tell**, with explicit calls for when to cut back to A-roll (recurring instruction across cut sheets).
-- **Accent colour is per-client/per-brand**, not fixed: `#FF5A1F` for Frontal specifically; fill = accent × ~0.10, border = the accent itself.
+- **Accent colour is per-client/per-brand**, not fixed: `#FF5A1F` for Frontal specifically; fill = accent × ~0.10, border = the accent itself. *(Superseded 2026-10-20 for Alex: Frontal brand kit v2.3.1, Blue-300 `#A5CCFD` on Dark, no orange. [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]].)*
 
 ## Things they always ask for
 

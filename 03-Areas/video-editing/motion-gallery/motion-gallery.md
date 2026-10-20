@@ -11,6 +11,8 @@ tags: [visuals, motion-graphics, house-style, routerise, gallery]
 
 Our own library of motion-graphic components, in Route Rise house style, to pick from on every video. Built 2026-09-30 after Samuel rejected the Apollo visual stills.
 
+> **2026-10-20:** every design here is in Frontal's July look (orange, rounded). For Alex's videos the look is now [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]]: square, Dark, Blue-300, no pills. The gallery stays a vocabulary of structures (medallion → logo-wall cell, status tag → mono tag in brackets, fill bar, hub, corner badge), not of colours or shapes.
+
 > Samuel, 2026-09-30: *"You tend to use the same Design every time, the same color ratio, yes we have a color we use but, mix it up, use light and dark orange and white, and sometimes grey"* · *"Everything looks mediocre and Shallow"* · *"Let's create our own inspiration Galerry of different types of Boxes, Cards, circles, pills, that we can use from"* · *"All for motion grahpics"* · *"the finished videos of the last 3 are okay, just that we need more better and different types"*.
 
 **Open it:** run `python 03-Areas/video-editing/motion-gallery/build_gallery.py`, then open `motion-gallery.html` in the same folder. The built page is gitignored, because it embeds the reference frames and A-roll stills. The sources in `src/` are the record.

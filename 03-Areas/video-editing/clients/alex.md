@@ -12,7 +12,7 @@ tags: [client]
 **The client Samuel actually edits for.** Assigned to him by the agency, [[routerise|Routerise]]. Confirmed by Samuel 2026-09-20.
 
 **Status:** active — the current client.
-**Runs:** Frontal, a B2B agency, described in the source material as having worked with 250+ B2B companies.
+**Runs:** Frontal, a B2B agency, described in the source material as having worked with 250+ B2B companies. Full name Alex Vacca, Founder & CEO (Frontal brand kit and frontal.so, 2026-10-19); the new site says 300+ companies.
 
 ## The arrangement
 
@@ -37,8 +37,8 @@ Kept in separate notes because there is a lot of it:
 - [[fusion-node-system]] — the node conventions and build recipes used on his videos
 - [[cut-sheets]] — how his videos are planned beat by beat
 - [[routerise-cut-workflow]] — the order of operations
-- Accent colour for the Frontal / cold-outreach video: `#FF5A1F`. **Accent changes per video.**
-- Brand font: **Geist**.
+- **Brand, from 2026-10-20: Frontal brand kit v2.3.1** ([[03-Areas/video-editing/clients/frontal-brand-v2|rules for video]]): Season Serif / Inter / JetBrains Mono, Dark `#04060C` + white + Blue-300 `#A5CCFD` as the one accent, square shapes, no orange. Samuel, 2026-10-20: *"they are a must follow"*. Rollout: [[04-Projects/frontal-rebrand-video-kit|Frontal rebrand of the video kit]].
+- Until 2026-10-19 (the July look, superseded): accent `#FF5A1F`, "accent changes per video", brand font Geist.
 
 ## needs-input
 

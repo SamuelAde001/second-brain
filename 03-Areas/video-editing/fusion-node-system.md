@@ -13,6 +13,8 @@ Node layout, adjustment-clip system, and reusable build recipes, reverse-enginee
 
 **Corrections note:** an earlier pass of this study misread four things, corrected here after Samuel answered directly: (1) Geist, not Open Sans, is the house font going forward; (2) clip colours *are* the chapter system, not a rotating cycle; (3) the 1080p timeline / 4K export split is deliberate, not accidental; (4) the V1/V7 duplication is a deliberate clean/PiP switch, not a workflow accident. See [[routerise-house-style]] for the style-facing side of these.
 
+> **2026-10-20:** the colours and fonts in the recipes below (orange, Geist) are Frontal's July look, superseded for Alex's videos by [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]]. The node layout, adjustment-clip system and recipe structure still hold.
+
 ## 1. Tool usage across the reference project (107 comps)
 
 Raw counts are misleading: `LUTBezier` (711) and `LUTLookup` (644) are internal to the NeoAnim macro (~11 animation-curve controllers per instance) and `AudioDisplay` (228) is just MediaIn audio pins. Stripped of those, the real picture:

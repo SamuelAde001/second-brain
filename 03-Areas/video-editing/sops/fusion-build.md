@@ -35,6 +35,8 @@ Part of [[03-Areas/video-editing/video-editing|Video editing]].
 
 ## 2. His standard look, as a checklist
 
+> **2026-10-20: for Alex's videos this checklist's look is superseded** by [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]]: Dark ground (BGFRONTAL, to be built) instead of BGORANGE, Season Serif / Inter / JetBrains Mono instead of Geist, Blue-300 as the one accent, square corners and corner brackets instead of rounded cards and pills, no bevel, sweep, shine or drop shadow on cards (glass only), no glow on logos. The build method (steps 1, 3, 4, 5, 6) is unchanged. Until the Frontal kit is built ([[04-Projects/frontal-rebrand-video-kit|project]], list B), don't build an orange comp for Alex.
+
 - **Ground:** his `BGORANGE` macro (`My macros\BGORANGE.setting`), or the A-roll. Never a flat colour, never a tool's brand colour.
 - **Card (box with outline):** a RectangleMask → dark fill Background (a gradient `#2B0E06` → `#130602` reads better than flat `#1B0903`), plus an **Instance** of the same mask with `Solid = 0`, `BorderWidth ≈ 0.00184` → orange Background (`#FF5A1F` = 1, 0.3529, 0.1216), merged over the fill. Glow on the border = **Neo Glow**, never the stock Glow.
 - **Effects inline, in this order:** Neo Bevel (optional) → **NeoLightSweep** → shine (BrightnessContrast under an inclined RectangleMask) → **DropShadow** (a node, never a dark offset rectangle) → **Neo Anim**.

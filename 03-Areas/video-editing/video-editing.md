@@ -51,7 +51,7 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 - [[toolchain]] — Resolve, Fusion, OBS, DJI gear, bespoke tooling, and the edit clock
 
 **The work**
-- `clients/` — [[alex|Alex]] (the client) · [[routerise|Routerise]] (the agency)
+- `clients/` — [[alex|Alex]] (the client) · [[routerise|Routerise]] (the agency) · [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]] (Alex's brand rules for every visual, from 2026-10-20; rollout in [[04-Projects/frontal-rebrand-video-kit|the rebrand project]])
 - `sops/` — [[routerise-job-setup]] (card → synced timeline) · [[routerise-cut-workflow]] · [[visual-sheet-pipeline]] (a rendered visual per sentence, placed for review) · [[end-of-job-review]] (what Samuel fixed, rules folded into one place, scripts sorted) · [[fusion-build]] (any AI building a Fusion graphic: read, generate, paste, check the frames) · [[03-Areas/video-editing/sops/unattended-run|unattended run]] (a whole job overnight, reviewed in versions)
 - [[client-acquisition]] — the USD retainer goal
 - [[delivered-projects]] — every client video delivered so far, one row per video. Owned by the video-editor agent; the finance agent reads it to know a month's income before invoice day.
