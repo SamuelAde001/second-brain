@@ -188,3 +188,12 @@ Samuel: *"I am getting webhook errors from flutterwave to my registeration sheet
 - **Why Flutterwave calls it a failure:** the Netlify relay's log (24 h kept) shows no call for any of tonight's events, only Oct 18 08:13 and 15:29 (the two paid transfers, 9.5 s and 9.9 s each) and my two test calls at 01:32. So tonight's hooks reached the Apps Script URL some other way than `/flw`. Apps Script always answers with a 302, and Flutterwave counts that as failed. Most likely cause: the webhook URL in Flutterwave Settings → Webhooks no longer starts with `https://calledtoedit.netlify.app/flw`. Not confirmed: Flutterwave was logged out in Chrome.
 - **Second risk:** yesterday's relay calls took 9.5 s and 9.9 s, close to Netlify's 10 s limit for a function. Each webhook runs the full Sheet sync (calendar, emails, flyer fetch) before it answers, and a 10-minute sync that runs long holds the lock (one was at 144 s and still running at 01:31). A slower hook will time out at the relay and get the same email, even though the Sheet records it.
 - Relay checked live: GET 405, POST with a wrong key 200; Sheet endpoint 302. Apps Script: 1 failed web-app run in 7 days (Oct 17 06:53, 0 s).
+
+## 2026-10-20 — Two free seats for relatives (Brand manager)
+
+Samuel asked for a free payment link for relatives that does everything the paid one does. No new link: a Flutterwave link needs an amount and the webhook only counts NGN 5,000+. Instead they sign up and he ticks **Paid** on their row; the 10-minute sync then does what it does for a payer (Status Paid, calendar, confirmation email with Meet and WhatsApp links). Checked in `apps-script.gs` `syncInner`.
+
+- Samuel, 2026-10-20: *"they are two of them marked as paid but didn't pay cause I gave them for free"*. **Anita Christian** (processed 9:31 WAT) and **Comfort Matur** (processed 9:41 WAT). Both Paid by "Ticked by hand", on the calendar, confirmation sent. Comfort's email was only late: he ticked her after the 9:31 run; nothing was wrong.
+- **Numbers:** the Overview's Money in is paid count × NGN 5,000, so it overstates real income by NGN 10,000 from these two. Subtract them at the month close.
+- Ticking needs to happen within 3 hours of sign-up, or the unpaid reminder goes out first (Anita got one on 19 Oct before her tick).
+- Older hand tick, not free: Mike Andy (6 Oct), added by hand because his transfer never came back to the page.
