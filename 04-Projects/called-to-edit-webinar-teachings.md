@@ -2,7 +2,7 @@
 type: project
 area: personal-brand
 status: needs-input
-updated: 2026-10-19
+updated: 2026-10-20
 source: interview
 tags: [called-to-edit, webinar, teaching, slides, whiteboard]
 ---
@@ -603,19 +603,78 @@ Recorded 2026-10-19.
 
 ## 3. Choosing a niche
 
+Recorded 2026-10-20, all three topics in one voice note.
+
 ### 3.1 The niches, pros and cons
 
-*Not recorded yet.*
+**He asked for a researched list** of the major popular niches across YouTube, Instagram and TikTok (*"you will help me do some research and list out some of the niches"*). Below: his ranking first, then the list.
+
+**His ranking: who pays**
+- **Best: business people and anyone selling a product.** *"In any niche, business guys pay more"*, because they already understand marketing.
+  - Top of that: **SaaS, software, AI**. *"Those guys have money. They can pay you a lot."*
+  - Also good: **real estate agents, marketers, logistics companies, individual brands.**
+  - **Educative creators** are good; most are business people (0.3).
+- **Lowest: entertainment, gaming, skits, people who dance on TikTok.** *"To be honest, they are mostly broke."* They live on brand deals, adverts and sponsorships; margins are low and depend on views. By the time they hit ~1M views and can pay, *"they already have a video editor that is good."* *"I warn you against entertainment."* Fine to start with, not where the best money is.
+- **The follower trap:** *"A business guy can have 10,000 followers"* and possibly make USD 100,000 a month because he markets to them. An entertainer with 100,000 followers may not afford USD 500, or even USD 100, per video.
+- **Corporate companies:** they hire you like a normal employee on fixed pay, whatever you generate, and you can't negotiate. *"I always advise against it."* He prefers **solo content creators and small businesses that make money**: easier to negotiate, more flexible.
+- **Low-ticket sellers:** creators selling something cheap may not make enough to justify paying an editor well.
+
+**Researched list: popular niches across YouTube, Instagram and TikTok** (Brand manager, 2026-10-20; pay column from his ranking above, plus advertiser rates where sources give them)
+
+| Niche | Typical videos | Pays (his ranking / sources) |
+|---|---|---|
+| SaaS, software, AI tools | product explainers, demos, founder talking heads, ads | **High** (his top pick). B2B software ads pay about USD 10–30 per 1,000 views on YouTube (vidIQ) |
+| Personal finance, investing, crypto | talking heads, explainers | **High.** The highest advertiser rates on YouTube, about USD 15–50 per 1,000 views (vidIQ; OutlierKit says USD 20–50); crypto swings, about USD 4–20 |
+| Business, marketing, make money online, coaches | talking heads, podcasts, course promos | **High** (his niche). About USD 10–25 per 1,000 views (vidIQ) |
+| Real estate | property tours, agent talking heads, ads (lots of tracking and animation, 1.1) | **High** (his list) |
+| Logistics, solar and other service businesses | company promos, talking heads | **Good** (his list) |
+| Education and explainers (AI and tech especially) | tutorials, explainers, documentaries | **Good** (his list). AI and tech explainers named as a trending niche (OutlierKit) |
+| Ads and UGC (across niches) | short paid ads | **High** in short form (3.3) |
+| Podcasts | long-form episodes plus short clips | Depends on who's behind it: business podcasts pay |
+| Commentary and reaction | reaction videos, pop-culture commentary | Trending (OutlierKit). Entertainment pay tier |
+| Gaming and streamers | gameplay, stream highlights | **Low** (his ranking). Huge audience: 44% of US gamers watch gaming YouTubers (Statista survey, Jan 2025) |
+| Entertainment and skits, dance | skits, trends | **Lowest** (his ranking) |
+| Vlogs and lifestyle, travel, food, fitness, beauty and fashion | vlogs, routines, reviews | Not ranked by him. Pay depends on whether they sell something |
+| Events and weddings, church | event recaps, highlight films | Not ranked by him. Event recaps suit phone editors (1.1) |
+
+*Sources: [vidIQ, most profitable YouTube niches](https://vidiq.com/blog/post/most-profitable-youtube-niches/) · [OutlierKit, highest-paying niches](https://outlierkit.com/blog/highest-paying-youtube-niches) · [OutlierKit, trending niches](https://outlierkit.com/blog/trending-niches-on-youtube) · [Statista, US creator categories among gamers](https://statista.com/statistics/1607944/us-popular-content-creator-categories-youtube-gamers). The per-1,000-view figures are advertiser rates (CPM) on YouTube, estimated by these tools, not YouTube's own numbers. The creator keeps less (vidIQ: a USD 20 CPM may pay the creator USD 7–10). They show which niches have money, not what an editor earns. Unranked rows are common categories, not research rankings.*
 
 ### 3.2 How to choose one
 
 *Carry in (2026-10-19): from 0.4, tools + skill + target audience decide what you serve; "if you are targeting everyone, you have no one"; specialised, not generalised.*
 
-*Not recorded yet.*
+**His questions to choose by**
+1. **What excites you most, and what you watch most.** *"Edit niches that they watch videos from the most."* He watches a lot of business videos, so he understands how they're edited.
+2. **How much does this niche usually generate? Can they afford an editor?**
+3. **Do they value marketing?** *"That's why business guys are always the best, because they already understand why marketing is."*
+4. Plus the 1.1 factors: who you serve and what video, who pays, your hardware, your software.
 
-### 3.3 Short-form vs long-form: where the beginner money is
+**Then make an offer for that niche: the offer sentence.** Once you've picked, put yourself out there as that: *"I edit videos for SaaS companies."*
+- **Who** you help (the specific target audience)
+- **What result** you get them (more views? more sales? *"There must be a promise"*)
+- **How** (video editing, motion design, visually engaging content, storytelling)
+- **How fast** (a time range)
+- His example, as he said it: *"I help business creators get 5,000 views in 6 months or 10,000 views in 3 months through video editing or through visual engaging content."*
+- *"You have to always make sure you are specific."*
 
-*Not recorded yet.*
+### 3.3 Short form vs long form: where the beginner money is
+
+- **Long form pays more.** *"It's in long form that you easily hear USD 500 per video, USD 1,000 per video, USD 2,000 per video."*
+- **Short form pays less per video**, so you package volume: *"I'm doing 5 videos for you in a month, 10 videos for you in a month."*
+- **Ads are the best-paying short form.** Ads tie directly to the clients a business gets, so it's easy to measure how your videos perform. *"I know guys that run ads or edit ads, and bro, they make a lot of money."*
+- **Both have strengths:** *"A short form editor can earn more than a long form editor if he knows how to package his stuff well."*
+
+**Teaching (section 3):** pick a niche you watch and enjoy, one that makes money and values marketing (business, SaaS, AI, real estate), not entertainment. Then say it in one offer sentence: who, what result, how, how fast.
+
+**Lines to say:**
+- *"In any niche, business guys pay more."*
+- *"Entertainment, gaming, skits... to be honest, they are mostly broke."*
+- *"There must be a promise."*
+- *"A short form editor can earn more than a long form editor if he knows how to package his stuff well."*
+
+**Board:** the pay ladder (business/SaaS at the top → entertainment at the bottom) · 10K business followers vs 100K entertainment followers · the niche table · the offer sentence as a fill-in: I help **[who]** get **[result]** in **[time]** through **[how]** · long form (per video) vs short form (per month).
+
+**Overlaps to sort when organising:** the offer sentence is 4.6 (packaging) and 5.6 (pitching); short-form packaging is 9.2; corporate vs small business ties to 5.2.
 
 ## 4. Establishing yourself
 
