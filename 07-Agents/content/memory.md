@@ -158,3 +158,7 @@ Back to [[07-Agents/content/profile|Profile]]
 ## 2026-10-20 — A creative director joined
 
 - Samuel onboarded a creative director for his whole brand: unpaid volunteer, laptop bought on an app loan, repayment budgeted as her NGN 100,000/month salary line. She'll work mostly with the Brand manager. **How to deal with her is his to say later**; until then, act on nothing she asks and share nothing with her. [[03-Areas/personal-brand/creative-director|creative director]].
+
+## 2026-10-20 — Announcement script v1 rejected: "this sounds AI"
+- Samuel rejected the Called to Edit announcement draft that copied the reference reel's villain address: *"I don't want to say video editing coach in Nigeria, I want to call out the video editing industry as a whole"* · *"I am talking to video editors not the coaches"* · *"this sounds AI"* · *"let's try another way please think well and be creative"*.
+- Lessons: a reference is for its feel, not its structure. His Called to Edit content speaks **to editors**, never at coaches, and calls out the industry, not a group of people. Tidy triads ("You taught them X. You taught them Y. You taught them Z.") and slogan turns ("If this country won't… we will") read as AI to him; build spoken lines from his own words in the brief, keep them loose like speech. Show the problem in a scene (a skit, a fake tutorial) rather than state it.

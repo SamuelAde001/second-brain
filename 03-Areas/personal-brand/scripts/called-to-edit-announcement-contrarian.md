@@ -7,76 +7,111 @@ source: interview
 tags: [script, talking-head, called-to-edit, announcement, contrarian]
 ---
 
-# Called to Edit announcement: the contrarian take (draft, 2026-10-20)
+# Called to Edit announcement: the contrarian take (draft 2, 2026-10-20)
 
-Samuel, 2026-10-20: a short talking-head Reel that announces Called to Edit with a contrarian take on how video editing is taught: *"Everyone is telling you how to do this effect, that effect ... no one is telling them how to put everything together to build a successful career"*. It must *"look cool and sound cool"*, with punchlines, B-roll and *"a banger music"* with a boss vibe. Setup he gave: seated on his chair at a white table, suit, black glasses. Reference: Kumar (@thekumarmethod), reel `DZN5Njzo-Yh`, 2026-06-05, about 3M likes. Brand: [[03-Areas/called-to-edit/called-to-edit-brand-foundation|brand foundation]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]].
+Samuel, 2026-10-20: a short talking-head Reel that announces Called to Edit with a contrarian take on how video editing is taught: *"Everyone is telling you how to do this effect, that effect, how to do this animation, that animation ... no one is telling them how to put everything together to build a successful career"*. It must *"look cool and sound cool"*, with punchlines, B-roll and *"a banger music"* with a boss vibe. Setup he gave: seated on his chair at a white table, suit, black glasses. Reference: Kumar (@thekumarmethod), reel `DZN5Njzo-Yh`, 2026-06-05, about 3M likes. Brand: [[03-Areas/called-to-edit/called-to-edit-brand-foundation|brand foundation]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
-Status: draft by the Brand manager. Punchlines written on his ask; every line is his to change (non-negotiable 1).
+Status: draft 2 by the Brand manager, three concepts for him to pick from. Lines are his to change (non-negotiable 1).
 
-## What the reference does (26 s, read from frames)
+## What he rejected in draft 1 (2026-10-20)
 
-1. **Villain address.** *"This is a message to all finance bros. My [name] is Kumar, a retired accountant, and I'm gonna [take] your jobs by becoming the biggest accounting influencer in [the] world."* Read from the burned-in captions at 0.55 s steps, not from the audio (it wasn't heard); words in brackets were never on a sampled frame and are inferred. 12–19 s has no caption (cutaways). Seated, dark office, fingers steepled, no movement, slow deadpan.
-2. **One giant word per beat.** Red serif, full width, slammed on the key words (KUMAR, ACCOUNTANT, JOBS, INFLUENCER, WORLD).
-3. **Cutaways** to dramatic portraits on a white backdrop: hard light, silhouettes, a close-up through glasses, cash in hand.
-4. **The deflate.** His wife sits beside him: *"My husband wants to be famous. Please follow him."* The menace becomes wholesome. That flip is why it went viral: big claim, then self-aware.
-5. **Poster end card.** "KUMAR'S DEBUT", full body, like a film poster.
+Draft 1 copied Kumar's villain address: *"This is a message to every video editing coach in Nigeria"*, a triad of "You taught them…" lines, a client-WhatsApp twist, a poster end card. Samuel: *"I don't like the script"* · *"I don't want to say video editing coach in Nigeria, I want to call out the video editing industry as a whole"* · *"I am talking to video editors not the coaches, so it's a video for video editors"* · *"this sounds AI"* · *"I don't like the video concept again, let's try another way please think well and be creative"*.
 
-## Samuel's version: the idea
+So: **talk to editors, call out the industry, no copied structure, no tidy triads.** Draft 2 builds every spoken line from his own words in the 2026-10-20 message.
 
-Same engine (deadpan address, giant words, cool cutaways, a deflate, a poster), his message: **coaches teach effects; Called to Edit teaches the career.** The deflate does a second job: it keeps him from sounding like a guru (non-negotiable 6), and it proves he's a working editor.
+## What the reference does (26 s)
 
-## Script (about 35 s; speak slow, let the music breathe)
+1. **Villain address.** *"This is a message to all finance bros. My [name] is Kumar, a retired accountant, and I'm gonna [take] your jobs by becoming the biggest accounting influencer in [the] world."* Read from the burned-in captions at 0.55 s steps, not from the audio (it wasn't heard); words in brackets were never on a sampled frame and are inferred. 12–19 s has no caption (cutaways).
+2. Giant red word per beat · cutaways to hard-light portraits · his wife deflates it (*"My husband wants to be famous. Please follow him."*) · a "KUMAR'S DEBUT" poster card.
 
-`WORD` = giant word slammed on screen. `{…}` = picture.
+What's worth taking from it: a serious man played straight, then a turn that makes people smile. Not its structure.
 
-{Dark room, one light. Centred behind the white table. Suit, black glasses, fingers steepled on the table. Camera locked and symmetrical. He doesn't move.}
+## Concept A: The Interview (recommended)
 
-1. "This is a message to every video editing coach in Nigeria." `MESSAGE` `COACH`
-2. "You taught them transitions." {flash: the cheesiest spin transition} "You taught them glitch effects." {glitch} "You taught them the 3D zoom." {zoom punch} `TRANSITIONS` `GLITCH` `ZOOM`
-3. "But you never taught them how to get paid." {music cuts to silence, hard punch-in on his face} `PAID`
-4. "Every creator needs an editor. Every business needs content." {Resolve timeline reflected in his glasses} `CREATOR` `BUSINESS`
-5. "If this country won't create the jobs ... we will." {slow push-in} `JOBS` `WE WILL`
-6. "My name is Samuel. Founder of Called to Edit." {stands, buttons the jacket, slow motion} `CALLED TO EDIT`
-7. "And I'm going to become the biggest video editing coach in Nigeria." `BIGGEST` `NIGERIA`
-8. **Deflate.** {Phone buzzes on the white table. Close-up: a WhatsApp from "Client": *"Oga where my video??"* He breaks character, glasses slide down.} "... Abeg, give me five minutes."
-9. **Poster.** {Full body, standing, arms crossed, plain background.} `CALLED TO EDIT` / `EST. 2026`
+Samuel plays both people. **Suit and black glasses at the white table: the client.** **Hoodie: the editor** who can do every effect and knows nothing about getting paid. The skit shows the problem; then the client takes off his glasses and talks to the editors watching.
 
-Line 7 is his own ambition (*"I want to become the best or the most known or the most influential video editing coach in Nigeria"*). Line 5 is his own point about the country and jobs.
+Why this one: it shows instead of tells, editors will see themselves and tag each other, the suit stays the cool one, and the glasses coming off is the moment the music drops. The hoodie callback keeps it funny, not preachy.
 
-**Other openers** (if line 1 is too hot): "Video editing coaches have been teaching you the wrong thing." · "You don't need another transition tutorial."
+**Script (about 40 s)**
 
-**Other deflates:** someone off camera: *"He's been practising this speech since morning. Please follow him."* (who, his call; family stays out, per [[03-Areas/personal-brand/brand-context|brand context]] boundaries) · He tries to stand dramatically and the chair rolls away.
+{Client: dark room, one hard light, suit, glasses, white table. Editor: brighter, flatter light, hoodie, laptop. Shot as two singles, each looking just off camera at the other.}
 
-## Shot list for today
+CLIENT: "So you're a video editor."
+EDITOR: "Yes sir! I can do 3D zoom, glitch effect, speed ramp, smooth transition ... any effect you want."
+CLIENT: "Nice. How much do you charge?"
+EDITOR: "Ehm ... anything you like, sir."
+CLIENT: "Send me your portfolio."
+EDITOR: "You can check my Instagram."
+CLIENT: "And your invoice?"
+EDITOR: {blank stare. Two seconds of dead silence.}
+
+{Client slowly takes off the glasses. The beat drops. He turns to camera.}
+
+"That's a lot of video editors right now.
+And it's not your fault.
+Everybody in this industry is teaching you this effect, that effect, this animation, that animation. Things you will never even use.
+Nobody is teaching you how to build a career with it.
+Meanwhile, content creators need editors. Businesses are creating content every day. {fast montage of real "I need a video editor" posts, names blurred}
+The jobs are there.
+If the country can't give us jobs, we in the creative economy can create them.
+But you have to know the business side of this thing.
+That's why I started Called to Edit.
+I'll still teach you editing. But I'm teaching you how to get paid for it."
+
+{Cut back to the editor, leaning in:} "Sir ... so how much should I charge?"
+{Client puts the glasses back on:} "Follow me. I go show you."
+
+**Shots**
 
 | # | Shot | Note |
 |---|---|---|
-| A1 | Full script, wide, centred | Camera at table height, a little below the eyes. Room dark, one key light at 45°, no fill, nothing lit behind him. The white table bounces light up onto his face. |
-| A2 | Full script again, tighter | Camera closer. Gives punch-ins and a second angle. |
-| B1 | Puts the black glasses on | Close, slow motion |
-| B2 | Resolve timeline reflected in his glasses | Screen as the only light. The hero shot. |
-| B3 | Steepled hands on the white table | Close, locked |
-| B4 | Stands and buttons the jacket | Low angle, slow motion |
-| B5 | Selects a stack of flashy transitions and hits Delete | Screen recording (OBS) |
-| B6 | Phone buzzes on the table, the client message | Close. A made-up contact called "Client", no real name. |
-| B7 | Full-body standing portrait, arms crossed | Plain wall, hard side light. For the poster. |
-| B8 | Silhouette and side profile, standing | Same wall, light behind or beside |
+| 1 | Client single, the whole skit | Suit, glasses. Dark, one hard light from the side. Camera low, he looks slightly off camera. |
+| 2 | Editor single, the whole skit | Hoodie, laptop. Brighter, flat light. Looks off camera the other way. |
+| 3 | Glasses coming off | Close, slow motion. |
+| 4 | Monologue to camera, wide | Centred, locked. |
+| 5 | Monologue again, tight | For punch-ins on the big lines. |
+| 6 | Editor callback, then client glasses back on | Both singles. |
+| 7 | Job posts | Real posts saved from X, LinkedIn or WhatsApp status, names and photos blurred. Screen recording, scrolling. |
+| 8 | B-roll | Resolve timeline in his glasses; hands on the keyboard; standing and buttoning the jacket. |
 
-Camera settings: [[03-Areas/personal-brand/recording-setup|recording setup]]. Slow-motion shots at 50 fps, shutter 1/100.
+The contrast in light does the storytelling: the editor looks ordinary, the client looks like the boss.
 
-The flashy montage for line 2: build the most over-the-top transitions he can in Resolve in ten minutes. The cheese is the joke.
+## Concept B: The Fake Tutorial
 
-## Edit notes
+Opens like every editing tutorial on the internet, then he kills it.
 
-- **Giant words:** heavy, full width, his brand colour, on key words only, each landing on a beat with an impact sound from his SFX library. Normal captions small underneath.
-- **Pace:** slow voice, fast pictures. Alternate A1, A2 and B-roll every 1 to 2 seconds.
-- **Music:** a boss-energy, slow-tempo cinematic trap or orchestral bed that can drop to silence for line 3 and come back. Pick it from Instagram's own audio library so it isn't muted.
+{Bright light, hoodie, upbeat tutorial music, Resolve on screen, big YouTube energy.}
+"What's up guys! In today's video I'm going to show you how to do this viral 3D zoom transition. First, go to your Fusion page—"
+{Record scratch. Black.}
+{Dark room. Suit, glasses, white table. No music.}
+"How many times have you watched that video?
+And how many clients has it brought you?"
+{Then the same body as Concept A, from "Everybody in this industry is teaching you…"}
+{End: he reaches over and closes the laptop with the tutorial still talking.} "Called to Edit."
+
+Why: the first three seconds look exactly like what editors already click, so they stay; the cut to the suit is the surprise. Weaker on laughs than A.
+
+## Concept C: The Job Posts
+
+Leads with the opportunity, his strongest argument.
+
+{Black screen. A notification ping. A post: "Looking for a video editor urgently." Another. Another. Faster, stacking, the pings building into the beat.}
+{Hard cut. Silence. Suit, glasses, white table.}
+"Every day, somebody is looking for a video editor.
+So why are so many video editors still not getting paid?"
+{Then the same body, from "Everybody in this industry…"}
+
+Why: it backs the claim with real proof instead of saying "a lot". Needs 15–20 real posts collected first.
+
+## For all three
+
+- **Music:** silence or tutorial music first, then one boss beat that drops on the turn (glasses off / record scratch / hard cut). Pick it from Instagram's audio library so it isn't muted.
+- **Giant words** on two or three lines only: EFFECT, CAREER, CALLED TO EDIT.
+- Camera settings: [[03-Areas/personal-brand/recording-setup|recording setup]]. Slow motion at 50 fps, shutter 1/100.
 
 ## Open (Samuel)
 
-1. **Post date.** His decision: *"I would announce it all after the webinar"* (webinar Fri 2026-10-23). Record today, post after the webinar?
-2. Opener: line 1 or one of the other two.
-3. Deflate: the client message, or someone off camera.
-4. Line 7 as written?
-5. CTA: none, follow, or a keyword for the cohort waitlist.
-6. Brand colour for the giant words and poster: open question 115.
+1. Which concept: A, B or C.
+2. Concept A's editor lines are guesses at what new editors say. Swap in what editors actually tell you when you ask their price or their portfolio.
+3. Post date. His decision: *"I would announce it all after the webinar"* (Fri 2026-10-23).
+4. Brand colour for the giant words: open question 115.
