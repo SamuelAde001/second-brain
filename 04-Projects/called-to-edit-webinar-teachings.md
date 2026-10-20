@@ -678,17 +678,96 @@ Recorded 2026-10-20, all three topics in one voice note.
 
 ## 4. Establishing yourself
 
-### 4.1 Profile page and a new Twitter account
+Recorded 2026-10-20 (visibility, 4.1, 4.2, 4.3 in one voice note). **He wants this section emphasised:** *"I really want to emphasize the importance of visibility in this webinar."* *"No one that is learning from me would succeed if they didn't do visibility."*
 
-*Not recorded yet.*
+**4.1 retitled** (Samuel, 2026-10-20): the "new Twitter account" came from his story and *"should not be the heading."* 4.1 is about building your profile on any social platform.
+
+### 4.0 Why visibility comes first (opens the section)
+
+- For his first two or so years, *"no one ever taught me... the importance of visibility."*
+- **Editing is a visible skill.** To prove you're credible you must show your work: *"That's your selling point. That's your marketing. That's your advert."*
+- **His mentor's question:** *"Where can people find you? When they need you, where can people see your work?"* He had nowhere to show it. So he opened brand-new Twitter, LinkedIn and Instagram accounts.
+- **Step 1, curate your feed.** He searched "video editors" and followed every major editor he found (about 50 on Twitter, many on LinkedIn and Instagram), so his feed constantly fed him editing content. *"You want to build something around a niche, you need to surround yourself with that niche."* For the next month, lock in: all your social media about video editing, especially your niche. *"A secret that most people don't know."*
+- **Step 2, post your work.** He set his phone to record him working, took pictures of his timeline, screenshotted everything he did in a day, and posted **no less than 3 times a day**.
+- *"That visibility is what actually made me successful."*
+- *"No matter how good you are, if no one knows..."* When people think of your name, they should think of what you do. Announce it and be unashamed.
+- *"You can't succeed in this industry if you are hidden."* *"Showing your work is your leverage."*
+
+### 4.1 Building your profile on social media
+
+**Pick one platform and own it.** *"Pick one platform and focus on it."* Two if you have the capacity. Become the known person in your niche: *"If you are a real estate editor, let it be that you are the best real estate editor that can be found on Twitter."*
+- His start: Twitter was home, LinkedIn the backup (he reposted everything from Twitter). He woke up on Twitter, studied new editing styles, posted his latest work, engaged with other editors, *"posting radically."*
+
+**The profile checklist**
+1. **Photo: your face.** *"People trust who they can see."* *"A lot of us hide ourselves."* Show your face, often.
+2. **Name + what you do:** *"Samuel Adebayo, long form video editor."*
+3. **Bio = your offer** (the 3.2 sentence): I help **who** get **what result** in **what time** through **how**. His example here: *"I help business owners get their first 10,000 views in 3 videos."* Be specific about the result, how fast and how (video editing, motion graphics).
+4. **Clients you've worked with:** simple tags, e.g. "I've edited for [client]".
+5. **Portfolio link in the bio, always:** where they can see all your work at once (4.4).
+6. **Pinned post = your best edit**, the one you're proudest of, so the first impression is *"this guy is a professional."*
+7. **Banner** (LinkedIn, Twitter): make it good.
+
+**Not Facebook:** *"one of the worst places to build a personal brand for a video editor. You will get low ticket clients and frustrating clients."*
 
 ### 4.2 Which platform suits which editor
 
-*Not recorded yet.*
+**Beginners: LinkedIn and Twitter (X).**
+- Agencies and clients search there. Big creators go to hiring agencies; the agencies search "video editor" on Twitter, find 5, 20 or 30 who look good, message them all, and give a trial to whoever replies. Individual clients do the same: *"The fastest way for me to find a video editor is LinkedIn and Twitter."*
+- **Low friction:** text and pictures. Screenshot your edit, post *"check out my timeline"* or *"here's a video I did for a client."* No face, no extra editing.
+- It's where you meet and build relationships with other editors (section 8).
+
+**Instagram and TikTok: harder, but big if you put in the work.**
+- You need to show your face and record yourself talking about your experiences: a personal brand.
+- More friction: you're busy editing for clients, and now you also edit your own videos.
+- Instagram builds two things at once, **your personal brand and a mini portfolio**: show your work, before and afters, behind the scenes, stories. *"If you can put in the work, Instagram will succeed hugely for you."*
+- He has now *"fully moved from Twitter to Instagram"* to build authority and his personal brand.
+
+**Who finds you where (his experience)**
+
+| Platform | Clients he gets there |
+|---|---|
+| Twitter, LinkedIn | Mostly **international**: agencies and corporate organisations; few solo creators (it happens). He hardly got Nigerian clients, likely because he followed and engaged mostly international editors |
+| TikTok | A lot of **Nigerian** DMs asking him to edit |
+| Instagram | **Mixed**, international and Nigerian, but takes the most work |
+
+**Niche and format don't decide the platform:** long form or short form, *"there are business clients on every of those platforms."*
 
 ### 4.3 A personal brand as a video editor
 
-*Not recorded yet.*
+**Why:** people need to know you're a genuine, real human. *"This is the AI age"*: people impersonate, copy others' posts and generate with ChatGPT.
+
+**What to post: your life around video editing**, nothing else for now (no politics, no football: *"You can, but right now you are trying to build a reputation"*).
+- a normal day: you working, you on a call with a client
+- **your story.** His soldier-to-editor story *"always hits as bangers every single time."*
+- struggles and failures, e.g. a client who bounced you
+- wins: a new client, a new laptop
+- challenges: *"Day one of trying to get my first client, day two, day three."*
+
+**The 40 / 40 / 20 rule: three kinds of post**
+| Type | Share | What | Why |
+|---|---|---|---|
+| **Authentic** | 40% | your story, timeline pictures, behind the scenes, you working, wins and failures | builds emotion |
+| **Authority** | 40% | educational posts, e.g. *"Video editors, here are 3 ways to get a client"*, or for your niche: *"Business owners, these are the mistakes you make in your videos: 1, 2, 3"* | proves you know what you're doing: *"You are not just a dummy"* |
+| **Sales** | 20% | *"Hey, I'm a video editor and I'm looking for a new business client"*: introduce yourself, say what you want | pitches you |
+
+**How often:** at least **2–3 posts a day.** He posted 3 a day for 60 days, and it built his engagement.
+
+**Followers don't matter as much as you think:** *"I only had 700 followers on my Twitter, but that 700 followers got me the best clients I needed."*
+
+**Teaching (section 4 so far):** you can't get hired if no one can see you. Pick one platform, build a profile that says who you help and shows your best work, and post 2–3 times a day: 40% authentic, 40% authority, 20% sales.
+
+**Examples:** his mentor's "where can people find you?" · following ~50 editors to curate his feed · 3 posts a day for 60 days · 700 Twitter followers, best clients · the soldier story as his best post · TikTok bringing Nigerian DMs.
+
+**Lines to say:**
+- *"You can't succeed in this industry if you are hidden."*
+- *"Showing your work is your leverage."*
+- *"You want to build something around a niche, you need to surround yourself with that niche."*
+- *"People trust who they can see."*
+- *"I only had 700 followers on my Twitter, but that 700 followers got me the best clients I needed."*
+
+**Board:** **screenshots of his real posts that landed him clients** (he'll provide them: *"they will be as screenshots on the whiteboard"*) · the profile checklist as a mock profile · the platform table · the 40/40/20 split.
+
+**Overlaps to sort when organising:** 4.7 (showing your work) is largely covered here; offer sentence also in 3.2; networking in section 8; inbound clients in 5.1.
 
 ### 4.4 Portfolio: where to build it and how to present yourself
 

@@ -136,3 +136,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-20 — Free seats: explained the tick-Paid route (no free Flutterwave link). Checked Comfort Matur's missing email: she was ticked after the 9:31 sync; the 9:41 run confirmed her. Two free seats noted (Anita Christian, Comfort Matur); Money in overstates by NGN 10,000.
 - 2026-10-20 · Brand manager · Noted the new creative director; waiting on Samuel for how to work with her.
 - 2026-10-20 — Section 3 (niches: 3.1, 3.2, 3.3) written up from one voice note, with a researched niche table on his ask (vidIQ, OutlierKit, Statista; CPM marked as advertiser rates, not editor pay). Offer sentence recorded.
+- 2026-10-20 — Section 4 first half written up from his voice note: visibility opener (4.0), 4.1 retitled 'Building your profile on social media' on his words, profile checklist, platform table, 40/40/20 posting rule. He'll supply screenshots of posts that landed clients.

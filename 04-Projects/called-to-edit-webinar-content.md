@@ -2,7 +2,7 @@
 type: project
 area: personal-brand
 status: needs-input
-updated: 2026-10-04
+updated: 2026-10-20
 source: interview
 tags: [called-to-edit, webinar, outline, raw]
 ---
@@ -155,6 +155,8 @@ Samuel, 2026-10-04: *"list out everything that you think I need to cover on the 
 - 10.3 Q&A.
 
 **Samuel's cuts and adds, 2026-10-04 02:39 WAT:** cut 1.4, 1.5, 2.5, 5.4, 6.3. Added: **1.7 (S) Working for free or for low pay as a learning mechanism** and **5.10 (S) Loom video outreach**. Now 49 items. The list above is kept as written; this line is the record.
+
+**Samuel, 2026-10-20:** 4.1 is retitled **Building your profile on social media**. The "new Twitter account" was from his story and *"should not be the heading."*
 
 **Samuel, 2026-10-04 02:40 WAT:** *"No need for the timing part"*. The list is not timed into a run-of-show.
 
