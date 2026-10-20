@@ -11,7 +11,29 @@ tags: [script, talking-head, called-to-edit, announcement, contrarian]
 
 Samuel, 2026-10-20: a short talking-head Reel that announces Called to Edit with a contrarian take on how video editing is taught: *"Everyone is telling you how to do this effect, that effect, how to do this animation, that animation ... no one is telling them how to put everything together to build a successful career"*. It must *"look cool and sound cool"*, with punchlines, B-roll and *"a banger music"* with a boss vibe. Setup he gave: seated on his chair at a white table, suit, black glasses. Reference: Kumar (@thekumarmethod), reel `DZN5Njzo-Yh`, 2026-06-05, about 3M likes. Brand: [[03-Areas/called-to-edit/called-to-edit-brand-foundation|brand foundation]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
-Status: draft 2 by the Brand manager, three concepts for him to pick from. Lines are his to change (non-negotiable 1).
+Status: **Samuel wrote his own version (draft 3) on 2026-10-20**, keeping the monologue from Concept A and dropping the opening skit: *"I like the second part of the script, but I don't like the first drama"*. The concepts below are kept as history.
+
+## Draft 3: Samuel's script (2026-10-20, his words)
+
+{Me coming to sit down on my chair}
+"I am here to challenge the Video Editing Industry
+Everyone is teaching you how to do this effect, that effect, this animation, that animation. Things you will never even use.
+But no one is teaching you how to actually build a career with it
+Meanwhile, content creators need editors. Businesses are creating content every day. The jobs are there.
+If Nigeria can't give the youth Jobs, we in the creative economy can give them a career
+But video editors need to stop focusing of flashiness, and focus on how to actually market their skills and get clients that can pay them for what they do
+And that's what Called to Edit is for
+I'd teach you the editing, and tell you how to actually get paid for it"
+EDITOR, leaning in: "Sir… How do I get paid for it?"
+CLIENT, glasses back on: "Follow me. I would show you."
+
+**Brand manager adjustments, suggested 2026-10-20 (not yet accepted):**
+1. "I am" → "I'm"; it's spoken.
+2. The flashiness line talks *about* editors in the third person; he's talking *to* them. → "So stop focusing on flashiness. Focus on how to market your skill and get clients who can pay you for what you do." ("of" → "on".)
+3. "I'd teach you" means "I would", which sounds like a maybe. → "I'll teach you the editing, and how to actually get paid for it."
+4. With the skit gone there is no client and no editor before the ending. The hoodie editor still works as a surprise cameo. For "glasses back on" to land, the glasses come off first, on "And that's what Called to Edit is for".
+5. The editor asks "How do I get paid for it?" straight after he's been told. → "Sir… where do I start?" Answer: "Follow me. I'll show you."
+6. Music: a low bed under the opening, cut to silence after "Things you will never even use", the beat drops on "Called to Edit".
 
 ## What he rejected in draft 1 (2026-10-20)
 
