@@ -46,3 +46,16 @@ Samuel, 2026-10-19: *"So let's download it and work on it, prep the video the wa
 - **Usage at end:** weekly 76 % (no measurable change), 5-hour 1 % after its reset. Phase 1 costs about nothing on the weekly card.
 - **Phase 1 done 2026-10-19 ~20:45 WAT. Next: Samuel revises the cut on *Cut v5 (Editor) - sections*; then the text visual plan.**
 - **2026-10-20: Alex sent Frontal brand kit v2.3.1 (must follow).** This video's visuals are the first in the new brand: no orange, no Geist. Study and style frames done ([[04-Projects/frontal-rebrand-video-kit|rebrand project]], job `Docs\Frontal brand study (Editor)\`); the text visual plan and the build wait on Samuel's answers there and the Frontal Fusion kit.
+
+## Visual plan run, 2026-10-20 night (Editor)
+
+Samuel, 2026-10-20 ~21:50 WAT, by voice before bed: start the visuals; transcribe his cut, plan the best visual for every section in the new brand, plan the nodes, get every resource from Chrome (B-roll, screen recordings, pictures, UI), UI *"accurate down to the last dot"*, show don't tell, our normal pacing, nothing he corrected before comes back, *"I don't want to make one single correction"*. Creative: text behind Alex, 3D, layered effects, beautiful motion design, *"when my creative director sees it, he's like, wow"*. Budget: weekly **81 % → 95 %**, then stop (he needs tokens for webinar planning on Wed). Pace agents; no failed or lost agents. Word-for-word brief: job `Docs\Visual plan v1 (Editor)\PLAN BRIEF.md`.
+
+- **His answers (2026-10-20 ~22:00):** Claude demo = **Claude Code** in a terminal, rebuilt from real captures. B-roll: *"Stock B-roll just applies to stock B-roll from stock websites, real UI, and websites and all we have been using is fine, even AI B-roll is fine"*. Tonight = plan + captures + style frames; Fusion build after the Wed 2026-10-21 23:00 reset.
+- **His cut:** *Cut v5 (Editor) - sections* is now 16,076 f (11:10.5), 217 clips (was 16,001 / 219). Section markers unchanged; ranges re-read from clip colours.
+- **Usage at start:** weekly 81 %, 5-hour 3 % (21:52 WAT).
+- Permissions taken before he slept: screen control (Resolve full; Explorer, TickTick click/full for focus), keep-awake, his Chrome (Baremetrics, Apollo, Claude, Wayback, Flow open without prompts).
+
+### RESUME (Editor)
+- Live state: job `Docs\RUN STATE.md` → ">>> NOW". Plan folder: `Docs\Visual plan v1 (Editor)\`.
+- Steps: W1 prep (re-timed transcript, brief A + B) + 3 concepts + judge → W2 planners g1-g5 + reviewers + creative-director pass → W3 captures + Flow B-roll → W4 style frames → morning report. Stop at 95 % weekly.
