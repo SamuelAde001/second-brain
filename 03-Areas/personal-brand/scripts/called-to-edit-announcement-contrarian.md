@@ -11,7 +11,25 @@ tags: [script, talking-head, called-to-edit, announcement, contrarian]
 
 Samuel, 2026-10-20: a short talking-head Reel that announces Called to Edit with a contrarian take on how video editing is taught: *"Everyone is telling you how to do this effect, that effect, how to do this animation, that animation ... no one is telling them how to put everything together to build a successful career"*. It must *"look cool and sound cool"*, with punchlines, B-roll and *"a banger music"* with a boss vibe. Setup he gave: seated on his chair at a white table, suit, black glasses. Reference: Kumar (@thekumarmethod), reel `DZN5Njzo-Yh`, 2026-06-05, about 3M likes. Brand: [[03-Areas/called-to-edit/called-to-edit-brand-foundation|brand foundation]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
-Status: **Samuel wrote his own version (draft 3) on 2026-10-20**, keeping the monologue from Concept A and dropping the opening skit: *"I like the second part of the script, but I don't like the first drama"*. The concepts below are kept as history.
+Status: **final script locked by Samuel, 2026-10-20**, ready to shoot. He wrote draft 3 himself, keeping the monologue from Concept A and dropping the opening skit: *"I like the second part of the script, but I don't like the first drama"*. The concepts below are kept as history.
+
+## Final script (Samuel, 2026-10-20, his words)
+
+{Walks in, sits down. Suit, black glasses, white table.}
+"I'm here to challenge the video editing industry.
+Everyone is teaching you how to do this effect, that effect, this animation, that animation. Things you will never even use.
+But no one is teaching you how to actually get paid for it.
+Meanwhile, content creators need editors. Businesses are creating content every day. The jobs are there.
+If Nigeria can't give the youth jobs, we in the creative economy can give them a career.
+Let's stop focusing on useless things. Let's Focus on how to actually make money editing videos
+{Takes off glasses.} And that's what Called to Edit is for.
+I'll teach you the editing, and how to actually get paid for it."
+{Hoodie you, leaning in:} "Sir… where do I start?"
+{Suit you, glasses back on:} "Follow me. I'll show you."
+Called To Edit..
+Coming Soon
+
+Brand manager note, 2026-10-20 (his call): "get paid" / "make money" / "get paid" is said three times; line 3 was "build a career" in draft 3. Music plan stays as adjustment 6 below.
 
 ## Draft 3: Samuel's script (2026-10-20, his words)
 
