@@ -1292,35 +1292,37 @@ Recorded 2026-10-21, 8.1 and 8.2 in one voice note. *"This is something very, ve
 
 ## 9. Growing the income
 
+*Skipped, whole section* (Samuel, 2026-10-21: *"Let's skip growing income it's not relevant"*). Packages, retainers and upsells are taught in 6.1; the carry-ins below point there.
+
 ### 9.1 One-off gigs vs recurring clients; how to get recurring ones
 
 *Carry in (2026-10-21, from 6.1): retainer clients post consistently and you work with them long term; packages need one; "Stop collecting single projects."*
 
-*Not recorded yet.*
+*Skipped.*
 
 ### 9.2 Packaging several gigs into one deal
 
 *Carry in (2026-10-21, from 6.1): pitch several videos at once, e.g. 5 long-form a month for USD 5,000 or 30 short-form for USD 3,000; his own: 3 to 6 videos a month, paid at month end.*
 
-*Not recorded yet.*
+*Skipped.*
 
 ### 9.3 Add-ons: content strategy, thumbnails, scripting
 
 *Carry in (2026-10-21, from 6.1): land the client first, then upsell ideation (only if you really can), scripting or thumbnails: "USD 1,000 instead of USD 500".*
 
-*Not recorded yet.*
+*Skipped.*
 
 ### 9.4 Using AI to edit faster and take on more work
 
-*Not recorded yet.*
+*Skipped.*
 
 ### 9.5 Agency: possible, not taught
 
-*Not recorded yet.*
+*Skipped.*
 
 ### 9.6 Coaching or teaching editing once you're good
 
-*Not recorded yet.*
+*Skipped.*
 
 ## 10. The close
 
