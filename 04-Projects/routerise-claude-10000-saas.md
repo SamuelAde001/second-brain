@@ -67,3 +67,11 @@ Samuel, 2026-10-20 ~21:50 WAT, by voice before bed: start the visuals; transcrib
 ### RESUME (Editor), earlier
 - Live state: job `Docs\RUN STATE.md` → ">>> NOW". Plan folder: `Docs\Visual plan v1 (Editor)\`.
 - Steps: W1 prep (re-timed transcript, brief A + B) + 3 concepts + judge → W2 planners g1-g5 + reviewers + creative-director pass → W3 captures + Flow B-roll → W4 style frames → morning report. Stop at 95 % weekly.
+
+### Morning report, 2026-10-21 02:30 (Editor)
+- **Usage:** weekly 81 % at 21:52 → **92 %** at 02:15 (5-hour peaked 79 %). Stopped 3 points under Samuel's 95 % line. About 45 agents in 6 workflows; 6 died on an internet drop at ~23:00 before writing anything and were re-run (cost little).
+- **Done:** transcript of his revised cut; corrections brief (63 hard rules) + look-and-kit brief; creative concept "The Receipts" (judge over 3 concepts); **visual plan v1: 143 beats, ~117 comps, 86.6 % coverage, H1-H14, every beat with its node build and assets**, reviewed per group, two creative-director passes, 13 beats fixed after the style frames; real sources for all 11 claims; 40+ site captures; logos incl. 18 Frontal clients; Alex's Claude desktop app reference; site kit (Corlivo = stuck, Tallywell = winner, names checked not real); hook halves; Flow B-roll P3-03 (sales floor); 14 style frames + 2 review sheets (job `Docs/Visual plan v1 (Editor)/frames/`).
+- **Open the review sheets first**, then `Visual plan v1.md` (generated) and `CD_REVIEW.md`.
+- **Editor's own calls in the plan (not Samuel's):** chapter markers without numbers; real-page beats up to 22; "$50" as glass beside Alex; top Dark fade in the ledger; light pages under numbers = blur + Dark overlay, never grey (PLAN BRIEF §6).
+- **Questions for Samuel:** (1) the title says 10,000, Alex says 3,000 (300 up close): visuals show 3,000/300, OK? (2) the source of "18 founders who broke out of a stall" (no link in either script). (3) the call screen needs real footage of Alex on a call with a guest: is there a better source than the Rob Hoffman podcast tiles?
+- **Next:** his notes on the plan and frames; then the build after the Wed 2026-10-21 23:00 reset, masters first (Claude app rebuild, R5 field rig, R1 ledger, R3 board, R2 receipt), with PLAN BRIEF §6 applied.
