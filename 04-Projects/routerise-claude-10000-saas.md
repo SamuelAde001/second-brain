@@ -56,6 +56,14 @@ Samuel, 2026-10-20 ~21:50 WAT, by voice before bed: start the visuals; transcrib
 - **Usage at start:** weekly 81 %, 5-hour 3 % (21:52 WAT).
 - Permissions taken before he slept: screen control (Resolve full; Explorer, TickTick click/full for focus), keep-awake, his Chrome (Baremetrics, Apollo, Claude, Wayback, Flow open without prompts).
 
-### RESUME (Editor)
+### RESUME (Editor), 2026-10-21 01:20
+- **Visual plan v1 done.** 143 beats (121 visuals, 22 breaths), ~117 comps, coverage 86.6 % of 16,076 f, heroes H1-H14, plan_check clean (two accepted mid-clip breaths, one accepted 63 s run with H8 as the reset). Source of truth: job `Docs\Visual plan v1 (Editor)\sections\g1a ... g5b.json`; generated views `Visual plan v1.md`, `Assets and builds.md`, `beats.json` (`python make_plan_docs.py`). Concept: `CREATIVE CONCEPT.md` ("The Receipts"); creative-director read: `CD_REVIEW.md`; briefs: `PLAN BRIEF.md` + parts A and B.
+- **Captures done:** real sources for all 11 claims (`Screenshots\Web captures (Editor)\sources\`), 40+ site pages (`sites\`), logos (`Graphics\Assets (Editor)\logos\`), Alex's Claude desktop app reference (`Screenshots\Claude Code reference (Editor)\`).
+- **Running (W3, run wf_88941fd9-fc2):** site kit for the made-up STUCK/WINNER companies, wave-2 captures in his Chrome, Flow B-roll (sales floor), style frames of ~14 hero beats + review sheets in `Visual plan v1 (Editor)\frames\`.
+- **Editor decisions in the plan (not Samuel's):** WEB-FOCUS budget 22; chapter markers without numbers ("[ THE STUDY ]", "[ THE METHOD ]", "[ THE CAVEATS ]"); CL-15 "$50" as glass beside Alex instead of a sky band.
+- **For Samuel in the morning:** the title says 10,000, Alex says 3,000 (300 up close), the visuals show 3,000/300. Four MagicMask beats (H3, H8, "Agencies.", H14): the Editor tracks them by screen control in the build.
+- **Next:** Samuel's review of the plan + frames; the Fusion build after the Wed 2026-10-21 23:00 reset, masters first (Claude app rebuild, R5 field rig, R1/R3 comps), then waves.
+
+### RESUME (Editor), earlier
 - Live state: job `Docs\RUN STATE.md` → ">>> NOW". Plan folder: `Docs\Visual plan v1 (Editor)\`.
 - Steps: W1 prep (re-timed transcript, brief A + B) + 3 concepts + judge → W2 planners g1-g5 + reviewers + creative-director pass → W3 captures + Flow B-roll → W4 style frames → morning report. Stop at 95 % weekly.
