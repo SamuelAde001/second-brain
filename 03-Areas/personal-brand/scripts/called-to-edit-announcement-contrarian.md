@@ -173,3 +173,16 @@ Made in his Chrome, Flow project "Oct 21 - 18:56": **Omni 1.1 Flash, Frames mode
 | 5 | 1 (looking to the side) | turns to the lens, chin down, stare |
 
 **Checked frame by frame (Brand manager, 2026-10-21):** 1 strongest (looks up, leans back, ends on steepled fingers); 5 and 4 hold his face and the room; 3 usable but the lenses lose their tint by the end; 2 weakest: the tinted rimless glasses turn into clear thin-framed glasses and the orange arms vanish. 60 credits used. Nothing downloaded; the clips are in the Flow project.
+
+## Effect clips for "this effect, that effect" (2026-10-21)
+
+Samuel asked for four short YouTube videos showing crazy animations and effects, and approved the download: *"Yes, download clips 1, 2, 3 and 4 into a new folder 'Called to Edit announcement\Effect clips' inside my Instagram Samuel Signals folder."* All four are **Creative Commons Attribution** on YouTube (checked with yt-dlp): reuse allowed with credit. Saved with yt-dlp to `Instagram Samuel Signals\Called to Edit announcement\Effect clips\`:
+
+| # | Clip | Creator | Length | Size |
+|---|---|---|---|---|
+| 1 | Infinite zoom, Photoshop + After Effects | ALYV | 22.5 s | 1080×1920, 60 fps |
+| 2 | TikTok trend transition | Shreesh Tech (editz) | 9.8 s | 720×1280, 25 fps |
+| 3 | Sunlight transformation transition | Aparna Dwivedi | 14.5 s | 720×1280, 30 fps |
+| 4 | Crazy fashion transitions | Artlist / Valslooks | 36.5 s | 1080×1920, 30 fps |
+
+**Credit in the caption:** "Clips: ALYV, Shreesh Tech, Aparna Dwivedi, Valslooks via Artlist (CC BY)". Use 1–2 s of each, no names on screen.
