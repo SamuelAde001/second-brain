@@ -15,7 +15,7 @@ tags: [brand, brand-guide, logo, colour, type, called-to-edit]
 
 **Samuel's decisions:** the stacked logo (direction 1), champagne `#FCDD9E` as the one gold, Gloock, Plus Jakarta Sans, "Called" = a calling from God and to the craft, the brand ladder, the marker and the round dot interchangeable, product names under the logo, a PDF guide. **The Brand manager's v1, under his review:** the exact spacing, the profile picture and icon, and every size, layout and motion rule below.
 
-**Logo files:** `_attachments/called-to-edit-brand/svg/` (outlined, no fonts needed) and `png/` (transparent; logos 2400 px wide, square files 1080 px). Rebuild from `source/`: Chrome prints `glyphs.html` to PDF, `build_kit.py` and `build_kit2.py` turn the glyphs into SVG paths, `make_png.py` renders PNGs, `guide.html` is the PDF (Chrome print, 1600 × 900 pages; it needs the kit in `kit/` and the photo cutout in `photos/`).
+**Logo files:** `_attachments/called-to-edit-brand/svg/` (outlined, no fonts needed) and `png/` (transparent; logos 2400 px wide, square files 1080 px). Rebuild from `source/`: Chrome prints `glyphs.html` to PDF, `build_kit.py` and `build_kit2.py` turn the glyphs into SVG paths, `make_png.py` renders PNGs, `make_status.py` renders the WhatsApp Status versions (`status/`, 1080 × 1920, the logo on navy, navy glow, midnight, champagne and white), `guide.html` is the PDF (Chrome print, 1600 × 900 pages; it needs the kit in `kit/` and the photo cutout in `photos/`).
 
 ## 1. The brand
 
