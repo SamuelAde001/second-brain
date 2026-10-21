@@ -15,7 +15,7 @@ tags: [brand, umbrella, called-to-edit]
 
 Samuel, 2026-10-20: *"instead of High Signals, I'm moving my brand to Call to Edit fully"* · *"Instead of known as the founder of High Signals, I'll be known as the founder of Call to Edit"*. The name is **Called**, never "Call" or "Code" (his voice typing writes both; confirmed 2026-10-20: *"Yes, it's Called not Call"*).
 
-What it stands for, the audience, naming rules and the look: [[03-Areas/called-to-edit/called-to-edit-brand-foundation|brand foundation]].
+What it stands for, the audience, naming rules and the look: [[03-Areas/called-to-edit/called-to-edit-brand-guide|Brand guide]] (v1, 2026-10-21) · [[03-Areas/called-to-edit/called-to-edit-brand-foundation|brand foundation]].
 
 ## Why it matters
 

@@ -56,6 +56,7 @@ No number yet (2026-10-20): *"I want it to be that when they think of a video ed
 - **What he likes (2026-10-21):** *"I like the color Navy blue or so and also the color of the text in my Life of a Video Editor video, but I don't know if they work together"*. On the title font: *"I like that font actually, but I don't know if that is the best font for my brand"*. The brief: *"Don't make the branding work look AI, I need it to have my personality, just notice patterns of how I do things to get something good"*, and *"show me concepts ... until you are 100% sure before you finalise things"*.
 - **Measured, 2026-10-21** (frames of Life of a Video Editor Ep 1 and Ep 2): the title gold is `#FCDD9E` in both; the title font is **Gloock** (installed on his PC, in Resolve's Fusion font list, letters match). Not yet checked inside the episode projects: that needs Route Rise video 2's open project closed. The marble wall reads about `#1E2F47`. The designer's flyer (`Desktop\Called to Edit\called-to-edit-main-flyer.png`) uses royal navy, yellow, white and a heavy round sans with a big asterisk.
 - **Round 1 concepts** are out for his answers: [[04-Projects/called-to-edit-brand-build|brand build]].
+- **2026-10-21: decided and built.** Title Card logo, champagne, Gloock, Plus Jakarta Sans. Guide v1: [[03-Areas/called-to-edit/called-to-edit-brand-guide|brand guide]].
 
 ## 7. Timing
 

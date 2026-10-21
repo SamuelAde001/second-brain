@@ -28,3 +28,18 @@ Samuel, voice note: *"instead of High Signals, I'm moving my brand to Call to Ed
 - **Who decided:** Samuel. The Brain layout is the Brand manager's, following his answers.
 
 Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
+
+## 2026-10-21 — The look: his answers to round 1
+
+Samuel, on the round 1 board ([[04-Projects/called-to-edit-brand-build|brand build]]), word for word:
+1. *"For the logo, I love the first one the most, I would love to see Variations of the first one to see more character in it, but for videos, it looks like something that would work. the profile picture and Icon could do more work I think, just fine tune it to see what's better"*
+2. *"I like Champagne actually"*
+3. *"Yes keep Gloock"*
+4. *"Yeah"* (Plus Jakarta Sans as the second font)
+5. *"Both"* ("Called" means a calling from God and a calling to the craft)
+
+Then: *"Go ahead and do the full brand guide"*.
+
+- **Decided:** logo direction 1 (Title Card), champagne `#FCDD9E` as the one gold (flyer yellow out), Gloock display, Plus Jakarta Sans for everything else.
+- **Still open:** which variation of the Title Card, and the profile picture / icon (he asked for variations and fine-tuning).
+- **Who decided:** Samuel.

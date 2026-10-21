@@ -114,3 +114,5 @@ The look already exists in the series. His room is the brand: a dark navy marble
   - **Answered 2026-10-04:** Whop is the billion-dollar brand and may be named; Route Rise by name; the 1M+ YouTuber stays unnamed; *"Over $20000 worth of videos edited in 2 years"*, 500+ long-form videos and 8+ international clients may be shown ([[03-Areas/personal-brand/personal-brand-decisions|decisions]]).
 - The real count of long-form videos edited.
 - Whether the cobalt/Poppins system is HighSignals or Scripnals.
+
+**2026-10-21 correction (Brand manager):** the Life of a Video Editor title gold measures `#FCDD9E` (not ≈ `#D6B25E`) and the title font is Gloock (not Playfair). Called to Edit now has its own guide: [[03-Areas/called-to-edit/called-to-edit-brand-guide|Called to Edit brand guide]]. Whether @SamuelSignals adopts it is not decided.
