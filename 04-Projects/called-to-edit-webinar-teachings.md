@@ -1191,7 +1191,18 @@ Recorded 2026-10-21. *"Especially if you're in Nigeria, it has been very difficu
 - **Western Union:** he has used it before (*"I've actually transferred money to Western Union before"*), but isn't sure it still works (*"I don't think this thing works anymore"*).
 - **What works depends on where the client is.** US clients pay differently from Canadian ones. Research what works for your client's country, and ask people who already earn online. *"My Cleva that I'm using might not work for you."*
 
-**Board:** his platforms: Payoneer → Grey → Cleva (now) · "client's country decides" note.
+**The main platforms** (researched 2026-10-21 on his ask, *"research major payment platforms for me"*). Fees come mostly from the platforms' own blogs and rivals' comparisons, and they change often: **check the fee in the app before quoting a number live.**
+| Platform | What it's for | Cost, as reported Oct 2026 |
+|---|---|---|
+| **Cleva** (his) | USD account (US account details for ACH and wire), convert to naira | USD only. Deposit fee reported as USD 1–5 flat or under 1%; no conversion fee; Upwork deposits reported free in 2026 ([Cleva](https://www.getcleva.com/blog/how-to-get-paid-via-ach-in-nigeria-2026-guide)) |
+| **Grey** | USD, GBP and EUR accounts; good if clients are in the UK or Europe | about 0.8% to receive, about 1% to convert (capped at USD 6), NGN 35 to withdraw to a Nigerian bank ([Grey](https://grey.co/blog/best-way-to-receive-usd-in-nigeria-without-paypal)) |
+| **Raenest** (was Geegpay) | USD account for freelancers | reported fees conflict: a few free deposits a month then about USD 1, or USD 2–4 flat, or 0.8% capped at USD 12 ([Raenest](https://www.raenest.com/blog/best-usd-account-for-nigerian-freelancers-in-2026-raenest-vs-cleva)) |
+| **Payoneer** | marketplaces (Fiverr, Upwork) and clients who already use it | usually the dearest route into naira: up to about 8.5% on a USD 1,000 payment; an annual fee of about USD 29.95 if you receive little in a year ([turnetfinance](https://turnetfinance.ng/how-to-receive-dollar-payments-in-nigeria/), [daya](https://daya.co/blog/best-usd-accounts-freelancers-nigeria)) |
+| **PayPal** | not a way to get paid | Nigerian accounts are personal only and mostly for paying, not receiving ([Wise guide](https://wise.com/gb/blog/can-i-use-paypal-in-nigeria)) |
+| **Wise** | clients abroad can send naira straight to a Nigerian bank account through Wise | whether a Nigerian resident can open a Wise balance is unclear: not confirmed |
+- Naira rates on Grey and Cleva were about the same in mid-October 2026 (about NGN 1,343 to USD 1, as quoted on 13 Oct).
+
+**Board:** his platforms: Payoneer → Grey → Cleva (now) · "client's country decides" note · the platforms table, short: Cleva, Grey, Raenest, Payoneer, with PayPal crossed out.
 
 ## 7. Working with clients
 
