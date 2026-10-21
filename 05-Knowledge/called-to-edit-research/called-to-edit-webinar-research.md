@@ -15,6 +15,7 @@ Samuel, 2026-10-19: *"do a research on every of the topics and give me your find
 
 - [[05-Knowledge/called-to-edit-research/called-to-edit-research-learning-to-brand|Research: sections 0-4, AI and copyright]] (market, learning, tools, money to start, niches, establishing yourself)
 - [[05-Knowledge/called-to-edit-research/called-to-edit-research-clients-to-close|Research: sections 5-10]] (getting clients, pricing and getting paid, working with clients, networking, growing income, the close)
+- [[05-Knowledge/called-to-edit-research/called-to-edit-research-every-client-method|Every known way video editors get clients]] (added 2026-10-21, for Samuel's own knowledge, not the webinar)
 
 Statistics for 0.3 are already in [[04-Projects/called-to-edit-market-stats|Market statistics]]; not repeated here. Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]] · [[03-Areas/personal-brand/personal-brand|Personal brand]]. Topic write-ups: [[04-Projects/called-to-edit-webinar-teachings|Teachings]].
 
