@@ -1,0 +1,67 @@
+/* Workbook additions on top of book.css */
+@page{@bottom-left{content:"Called to Edit · Workbook"}}
+.wbc .big{font-size:66px}
+.wbc .tag{top:440px}
+.wbc .rule{top:424px}
+.day,.week{break-before:page}
+.dh{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
+.dn{display:flex;align-items:baseline;gap:10px;font:400 58px/.9 Gloock;letter-spacing:-.05em;color:var(--navy)}
+.dn span{font:800 12px 'Plus Jakarta Sans';letter-spacing:.24em;text-transform:uppercase;color:var(--bronze)}
+.meta{display:flex;gap:6px;padding-top:6px}
+.chip{font:800 11.5px 'Plus Jakarta Sans';letter-spacing:.12em;text-transform:uppercase;background:var(--tint);color:var(--navy);border-radius:20px;padding:6px 12px}
+.chip.ph{background:var(--navy);color:var(--gold)}
+.day h2{font-size:33px;margin:12px 0 6px}
+.ref{display:flex;align-items:center;gap:7px;font:700 12.5px 'Plus Jakarta Sans';letter-spacing:.14em;text-transform:uppercase;color:var(--bronze);margin-bottom:12px}
+.why{font:500 18px/1.5 'Plus Jakarta Sans';color:var(--ink);margin-bottom:4px}
+.sec{display:flex;align-items:center;gap:10px;font:800 19.5px/1.2 'Plus Jakarta Sans';letter-spacing:-.01em;margin:18px 0 10px;break-after:avoid}
+ol.st>li{font-size:17.5px;line-height:1.45;margin-bottom:9px;padding-left:42px;min-height:30px}
+ol.st>li::before{width:30px;height:30px;font-size:18px;line-height:30px}
+.q{break-inside:avoid;margin:0 0 11px}
+.ql{font:700 16.5px/1.38 'Plus Jakarta Sans';color:var(--navy);margin-bottom:5px}
+.hint{font:500 14.5px/1.45 'Plus Jakarta Sans';color:var(--ink);margin:-2px 0 6px}
+.ans{background:rgb(246,247,251);border:1.5px solid var(--line);border-radius:12px;break-inside:avoid;}
+.ans.sm{background-image:none}
+.cb{display:inline-block;flex:0 0 24px;width:24px;height:24px;background:rgb(255,253,247);border:2px solid var(--bronze);border-radius:6px}
+.chk{margin:4px 0 14px}
+.ci{display:flex;gap:12px;align-items:flex-start;padding:7px 0;border-bottom:1px solid var(--line);font:600 17px/1.4 'Plus Jakarta Sans';break-inside:avoid}
+.ci:last-child{border-bottom:0}
+.ci .cb{margin-top:-1px}
+.nums{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;margin:0 0 14px}
+.nm .ql{font-size:14.5px}
+.post{background:var(--goldtint);padding:13px 18px;margin:14px 0 10px}
+.post .bl{color:var(--bronze)}
+.post p{font:600 16px/1.45 'Plus Jakarta Sans'}
+.post .bl{margin-bottom:4px}
+.done{display:flex;align-items:center;gap:12px;margin-top:12px;padding-top:12px;border-top:2px solid var(--navy);font:800 18px 'Plus Jakarta Sans';break-inside:avoid}
+.done em{margin-left:auto;font:600 13px 'Plus Jakarta Sans';font-style:normal;color:var(--bronze);letter-spacing:.06em}
+.trk{border:1.5px solid var(--line);border-radius:14px;overflow:hidden;margin:6px 0 18px}
+.tr{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1.3fr;align-items:center;border-bottom:1px solid var(--line)}
+.tr:last-child{border-bottom:0}
+.tr.th{background:var(--navy);color:var(--gold);font:800 11px 'Plus Jakarta Sans';letter-spacing:.1em;text-transform:uppercase}
+.td{font:800 15px 'Plus Jakarta Sans';padding:9px 12px}
+.tc{text-align:center;padding:9px 4px}
+.week h2{font-size:36px}
+.op ul{display:none}
+.map .mp{margin:14px 0 6px;break-inside:avoid}
+.map .mh{display:flex;align-items:baseline;gap:10px;font:400 25px/1.1 Gloock;letter-spacing:-.02em;padding-bottom:6px;border-bottom:2px solid var(--navy)}
+.map .mh span{font:800 11px 'Plus Jakarta Sans';letter-spacing:.16em;text-transform:uppercase;color:var(--gold);background:var(--navy);border-radius:20px;padding:4px 9px}
+.map .mh em{margin-left:auto;font:700 12px 'Plus Jakarta Sans';font-style:normal;color:var(--bronze);letter-spacing:.1em;text-transform:uppercase}
+.map ul{list-style:none;margin:6px 0 0;padding:0}
+.map li a{display:flex;gap:10px;font:600 15px/1.35 'Plus Jakarta Sans';padding:3.5px 0}
+.map li b{flex:0 0 26px;font:400 16px/1.3 Gloock;color:var(--bronze)}
+ul.mk.sm li{font-size:16.5px;line-height:1.45;margin-bottom:6px}
+ul.mk.sm li::before{top:6px}
+.ref svg{color:var(--bronze)}
+.dp1,.dp2{height:850px;display:flex;flex-direction:column}
+.dp1 .post{margin-top:auto;margin-bottom:0}
+.dp2 .q{display:flex;flex-direction:column;margin:0 0 12px}
+.dp2 .ans{flex:1 1 auto}
+.dp2 .done{margin-top:auto}
+.ah{display:flex;align-items:baseline;gap:10px;font:400 26px/1.15 Gloock;letter-spacing:-.02em;padding-bottom:10px;margin-bottom:16px;border-bottom:2px solid var(--navy)}
+.ah span{flex:0 0 auto;font:800 11.5px 'Plus Jakarta Sans';letter-spacing:.16em;text-transform:uppercase;color:var(--gold);background:var(--navy);border-radius:20px;padding:5px 10px;transform:translateY(-4px)}
+.dp2 .chk{margin-top:0}
+.notes{flex:1 1 auto;display:flex;flex-direction:column;margin:16px 0 0;min-height:90px}
+.notes .ans{flex:1 1 auto}
+.notes .ql{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--bronze);font-weight:800}
+.dp1 .notes + .post{margin-top:14px}
+.week.dp1 .trk{margin-bottom:auto}

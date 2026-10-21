@@ -61,6 +61,7 @@ Discord's add-role and remove-role calls need a bot token in a script property, 
 - The weekly Wednesday call: yes or no, decided 2026-10-22 with his creative director.
 - Someone who joins after 11-01 (*"anytime"*): do they start the challenge at day 1 on their own, or join the group at its current day?
 - The 60-day plan and workbook (10.1): to be built by the Brand manager from the teachings.
+  - **Built 2026-10-21, draft for Samuel's review:** `_attachments/called-to-edit-workbook/Called-to-Edit-Workbook-Your-First-60-Days.pdf`. 60 days in four phases (direction, learn on real videos, real people's work, first client), a check-in every 7 days. The day-by-day order is the Brand manager's proposal from the book, not yet confirmed by Samuel.
 - Who on the team moderates.
 
 Samuel will give the build instructions in a new session (2026-10-21).
