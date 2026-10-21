@@ -7,6 +7,7 @@ writes a file.
     python 00-System/scripts/money_ledger.py totals 2026-10   # a month: in, out, pots, categories
     python 00-System/scripts/money_ledger.py pots             # pot balances + derived bank, as of the last row
     python 00-System/scripts/money_ledger.py last 10          # the last N ledger rows
+    python 00-System/scripts/money_ledger.py recap            # last check-in (balance to balance) + rows since + pots
     python 00-System/scripts/money_ledger.py videos 2026-10   # delivered videos in a batch month, USD total
 
 Ledger:    03-Areas/finances/money-ledger.md   (row types are defined there)
@@ -187,6 +188,53 @@ def last(n):
         print("| %s | %s | %s | %s | %s | %s |" % (r["Date"], r["Type"], r["NGN"], r["What"], r["Category"], r["Note"]))
 
 
+def recap():
+    """The last check-in (previous balance row → last balance row) and every row since.
+
+    Used by the `spend` skill so Samuel sees what he last told the agent before
+    he adds anything new. Balance rows are the anchors: he gives one at the end
+    of most updates.
+    """
+    rows = [r for r in ledger() if r["Type"] != "correction"]
+    marks = [i for i, r in enumerate(rows) if r["Type"] == "balance"]
+
+    def block(title, part):
+        print(title)
+        if not part:
+            print("  nothing logged")
+            return
+        spent, by_cat, other = 0.0, defaultdict(float), []
+        for r in part:
+            amt = ngn(r["NGN"])
+            if amt is None:
+                continue
+            print("  %s  %-8s %12s  %s  [%s]" % (r["Date"][:10], r["Type"], fmt(amt)[4:], r["What"], r["Category"]))
+            if r["Type"] in OUT_TYPES:
+                spent += amt
+                by_cat[r["Category"] or "—"] += amt
+            elif r["Type"] != "balance":
+                other.append(r)
+        print("  Spent %s across %d line(s):" % (fmt(spent), len(by_cat)))
+        for c, a in sorted(by_cat.items(), key=lambda kv: -kv[1]):
+            print("      %-40s %s" % (c[:40], fmt(a)))
+        for r in other:
+            print("  Also: %s %s (%s)" % (r["Type"], fmt(ngn(r["NGN"])), r["What"]))
+
+    if not marks:
+        block("No balance given yet. Last 10 rows:", rows[-10:])
+    else:
+        end = marks[-1]
+        start = marks[-2] + 1 if len(marks) > 1 else max(0, end - 15)
+        b = rows[end]
+        block("LAST CHECK-IN — %s to %s, closed with your balance %s (%s)"
+              % (rows[start]["Date"][:10], b["Date"][:10], fmt(ngn(b["NGN"])), b["Note"].split(";")[0]),
+              rows[start:end + 1])
+        print()
+        block("SINCE THAT BALANCE (%s onward)" % b["Date"][:10], rows[end + 1:])
+    print()
+    pots()
+
+
 def videos(month):
     rows = [r for r in table_rows(DELIVERED, "#") if r.get("Batch") == month]
     usd = [ngn(r.get("Rate USD", "")) for r in rows]
@@ -214,6 +262,8 @@ def main(argv):
         pots()
     elif cmd == "last":
         last(int(argv[1]) if len(argv) > 1 else 10)
+    elif cmd == "recap":
+        recap()
     elif cmd == "videos" and len(argv) == 2:
         videos(argv[1])
     else:

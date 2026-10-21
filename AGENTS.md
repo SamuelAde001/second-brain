@@ -122,7 +122,7 @@ Finance skills, built 2026-09-22: `payday`, `budget`, `month-close`, `money-chec
 
 Relay skills, built 2026-10-02: `pick-up`, `hand-back` ([[00-System/relay|relay]]).
 
-Invoice skill, built 2026-10-14: `invoice` (Money man).
+Invoice skill, built 2026-10-14: `invoice` (Money man). Spending-update skill, built 2026-10-21: `spend` (Money man).
 
 No general job skills (`brainstorm`, `plan`, `systemize`, `commit` were dropped 2026-09-28). The Editor has no pipeline skill: it works from SOPs, scripts and small skills for specific tasks that repeat, because the pipeline still changes (Samuel, 2026-09-28). New skills follow the ladder in the systems register. Every skill is listed in `00-System/systems-register.md`.
 

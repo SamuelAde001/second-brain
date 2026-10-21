@@ -59,6 +59,7 @@ Keep an honest record of what money actually moved, say plainly where Samuel sta
 | Read the old "My Claude Budget" sheet (history only) | `08-Archive/retired-scripts/sheets.py read` | legacy, flaky; never write to it. Archived 2026-09-28 |
 | "Can I spend X on Y?": the check before any off-plan spend | skill `money-check` (wish-list items: the four steps in [[03-Areas/finances/wish-list\|wish list]]) | built 2026-09-22 |
 | Every Sunday: his balance → log the gap → name every line over plan | skill `sunday-check` | built 2026-09-22; first one 2026-09-27 |
+| Any time he has spent money: last check-in and what's coming up, then log his spends, his balance, what's over | skill `spend` (`money_ledger.py recap`) | built 2026-10-21 |
 
 ## Keeping him in check (Samuel, 2026-09-22)
 

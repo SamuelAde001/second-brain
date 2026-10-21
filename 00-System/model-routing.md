@@ -75,6 +75,7 @@ Tier: **O** = Opus 5.5, **S** = Sonnet 5.5. How: **skill** = frontmatter on the 
 | `budget` | O | high | skill | Trade-offs against money that exists; he pushes back. Monthly |
 | `month-close` | O | high | skill | Goal 1 pace, the freeze. Once a month, so the cost is small |
 | `money-check` | O | medium | skill | Three lines from `budget_sheet.py left`. On Sonnet it would cost more, not less (rule 2 above) |
+| `spend` | O | medium | skill | Logging his listed spends against plan lines; `money_ledger.py recap` gives the breakdown, so nothing is read whole |
 | `sunday-check` | O | medium | skill | Logging a gap from his balance; runs in the Sunday session with the review |
 
 ### PA
