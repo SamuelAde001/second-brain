@@ -11,6 +11,8 @@ tags: [called-to-edit, webinar, project-plan, brief, team]
 
 Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
+> **2026-10-21 (Samuel):** the close now upsells the **Called to Edit Community** (NGN 5,000 a month), set up before the webinar; the Academy is announced as coming soon. The Academy tasks below stand until he says what replaces them.
+
 Samuel, 2026-10-05: a proper plan document, *"like a brief for everyone who reads it to know what we are doing and what needs to be done"*, shown to the project manager first and used by him as his own reference. He asked for no Proposed/Decided tags, no personal framing, no client-work details. Canonical copy; the shareable version is a Claude Doc (https://claude.ai/code/artifact/19cc7d62-9541-455c-96d5-57a9b195b574) kept in step with this text. His handle in the doc is **@SamuelSignals01** (his edit). The private team percentage is deliberately not in it.
 
 **2026-10-05, Samuel's edit and the date change.** Samuel moved the webinar from Sunday 25 October to **Friday 23 October 2026**, 7:00pm WAT unchanged, and sent his own edited copy of the doc (`Desktop\Called to Edit\Called-to-Edit-Webinar-Project-Plan.docx`). The text below mirrors his edited doc, in his words. Two leftovers from the date change are fixed here and not in his file: the Reel table's old Fri 23 "48 hours" and Sun 25 "Tonight" rows are one Fri 23 row, and "23th" is "23rd". Sections he cut (checkpoints, week by week, event day, SMFest, outreach targets and others) are kept at the bottom under *Cut from the team doc*, re-dated for Friday 23 October, so nothing is lost.

@@ -151,7 +151,7 @@ Samuel, 2026-10-04: *"list out everything that you think I need to cover on the 
 
 **10. The close**
 - 10.1 (+) Your first 30 days: a week-by-week action plan.
-- 10.2 (S) The upsell into Called to Edit Academy.
+- 10.2 (S) The upsell into Called to Edit Academy. *(2026-10-21: now the Called to Edit Community, NGN 5,000 a month; the Academy is coming soon.)*
 - 10.3 Q&A.
 
 **Samuel's cuts and adds, 2026-10-04 02:39 WAT:** cut 1.4, 1.5, 2.5, 5.4, 6.3. Added: **1.7 (S) Working for free or for low pay as a learning mechanism** and **5.10 (S) Loom video outreach**. Now 49 items. The list above is kept as written; this line is the record.

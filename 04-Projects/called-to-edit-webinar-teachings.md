@@ -1326,12 +1326,30 @@ Recorded 2026-10-21, 8.1 and 8.2 in one voice note. *"This is something very, ve
 
 ## 10. The close
 
+Recorded 2026-10-21. **The upsell is now the Called to Edit Community, not the Academy** (decision: [[03-Areas/called-to-edit/called-to-edit-decisions|Called to Edit decisions]], 2026-10-21).
+
+**The flow** (his order): 8.2, joining communities as one of the biggest ways to grow → the upsell into the Called to Edit Community → what to do in the next 30 (or 60) days → the challenge, run inside the community.
+
 ### 10.1 Your first 30 days: a week-by-week action plan
 
-*Not recorded yet.*
+- **To be built by the Brand manager from everything he taught**, week by week. Samuel, 2026-10-21: *"look through everything I've taught and be able to come up with an instruction for the first 30 days for them to do"*, **"but don't do that now."**
+- It goes in **the workbook** and he talks through it at the close.
+- **It becomes a challenge run in the community:** one or two activities a day for everyone in it. *"We'll supervise the growth of all that in the community, where I'll give feedbacks, I'll correct them, and I'll guide them properly."*
+- **Length: 30 or 60 days, not decided.** He asked which. If 60, the title becomes *"your first 60 days"*. The Brand manager's suggestion (2026-10-21, a suggestion, not his decision): 60 days, run as two 30-day halves.
+- Homework already set in the teachings, to build from: 0.4 (mindset), 4.0 (lock in for a month, feed full of your niche), 5.2 (warm outreach after tonight, the dream client list), 7.3 (ask a past client for a testimonial).
 
-### 10.2 The upsell into Called to Edit Academy
+### 10.2 The upsell into the Called to Edit Community
 
-*Not recorded yet.*
+*(Was "The upsell into Called to Edit Academy" until 2026-10-21.)*
+
+- **Why the community, not the Academy:** they'll want to put tonight into practice: ask him more questions, get his feedback on their emails, their outreach, their profile and their niche. *"They will need kind of a place, a community where they can be able to give themselves feedbacks on everyone, and everyone is supporting each other."*
+- **What it is:** where they build, engage and keep up. He gives feedback, corrects and guides; calls in the community; the challenge (10.1) runs there.
+- **Price: NGN 5,000 a month**, a subscription. *"It's not going to be free."*
+- **Open to anyone**, not only people who came to the webinar.
+- **His tone:** *"If they are okay with learning under me or learning with my community, let them go."*
+- **Academy:** he'll say it's **coming soon**. Not sold at the webinar.
+- **It has to be set up before the webinar** (Fri 2026-10-23): *"so that the community is already ready and set up before the webinar."* Platform, payment link and what members get each week: not said yet.
+
+**Board:** 8.2 communities → the Called to Edit Community: feedback · support · calls · the challenge · NGN 5,000 a month · "Academy: coming soon".
 
 Back to [[04-Projects/called-to-edit-webinar-and-academy|the project]] · [[03-Areas/personal-brand/personal-brand|Personal brand]]

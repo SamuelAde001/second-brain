@@ -38,6 +38,7 @@ tags: [project, webinar, live-class, cohort, called-to-edit, davinci-resolve]
 
 **Updated 2026-09-30:**
 - A paid webinar, **"Called to Edit"**, on how to start a career as a video editor, delivered live on Sat 2026-10-24 at **NGN 5,000** a seat. **Target: 200 people there** (Samuel: *"Let's try and get 200 people to show up"*; earlier in the same message, 100 to 200).
+- **2026-10-21: the upsell is now the Called to Edit Community** (NGN 5,000 a month, set up before the webinar); the Academy is announced as coming soon ([[03-Areas/called-to-edit/called-to-edit-decisions|decision]]). The Academy line below is the earlier plan.
 - At the end of it he upsells to **Called to Edit Academy**: a 6-week live DaVinci Resolve cohort at **NGN 50,000**. **Target: 50 students.**
 - The cohort runs from November, and the people who paid attend and graduate with a certificate.
 - He runs it without it pulling him off his client work.

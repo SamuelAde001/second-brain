@@ -94,5 +94,5 @@ Things you could cover:
 
 **10. The close**
 - 10.1 Your first 30 days: a week-by-week action plan
-- 10.2 The upsell into Called to Edit Academy
+- 10.2 The upsell into the Called to Edit Community (was the Academy until 2026-10-21; Academy: coming soon)
 - Q&A (not counted)

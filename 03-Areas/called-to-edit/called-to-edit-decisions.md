@@ -2,7 +2,7 @@
 type: decision
 area: called-to-edit
 status: active
-updated: 2026-10-20
+updated: 2026-10-21
 source: interview
 tags: []
 ---
@@ -61,4 +61,16 @@ Samuel, word for word:
 - *"I Want a proper PDF brand Guide, I ddon't like this artifact, images are missing and I can't see the design in work, make a PDF instead and showcase the brand guide and the actuall usage properly in the PDF, so I can see the proper use case and see the visuals well"*
 
 - **Decided:** the brand ladder is personal brand → webinars → Community → Academy → Mentorship → a Called to Edit physical event (one day). This replaces the order in the brand foundation. The marker and the normal round dot on the i are interchangeable. Product names go under the logo. The guide holds no personal details (no room, no series, nothing only Samuel would understand). The guide is a PDF.
+- **Who decided:** Samuel.
+
+## 2026-10-21 — The webinar upsells the Called to Edit Community, not the Academy
+
+Samuel, voice note for the webinar close: *"I am not upselling them to call to edit academy anymore. I'm upselling them to call to edit community."*
+- **Why:** after the webinar people will want to put it into practice, ask more questions and get his feedback on their emails, outreach, profile and niche: *"they will need kind of a place, a community where they can be able to give themselves feedbacks on everyone, and everyone is supporting each other."* *"I think the best thing would be the community first."*
+- **Price:** *"5,000 naira per month"*, a monthly subscription. *"It's not going to be free."*
+- **Who:** webinar attendees, and *"other people outside of that didn't come for the webinar can still join."*
+- **When:** set up before the webinar (Fri 2026-10-23): *"we need to work on the community before the webinar, so that the community is already ready and set up before the webinar."*
+- **Inside it:** his feedback, corrections and guidance; calls; a 30- or 60-day challenge built from the webinar (length not decided).
+- **Academy:** *"The call to edit academy would be coming soon."* Announced as coming soon, not sold at the webinar. The NGN 50,000 cohort plan stands down until he says otherwise.
+- **Changes:** the Community was planned for 2027; it now launches at the webinar.
 - **Who decided:** Samuel.

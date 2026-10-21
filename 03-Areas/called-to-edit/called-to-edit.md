@@ -28,9 +28,9 @@ It's the business his ambition sits on: *"I want to become the best or the most 
 | Branch | State, 2026-10-20 | Where |
 |---|---|---|
 | **Called to Edit webinar** | Fri 2026-10-23, 7:00pm WAT, NGN 5,000 | [[04-Projects/called-to-edit-webinar-and-academy\|project]] |
-| **Called to Edit Academy** | Live DaVinci Resolve cohort, NGN 50,000, ~6 weeks, from November | [[03-Areas/academy/academy\|Academy]] · [[04-Projects/called-to-edit-academy-cohort\|cohort]] |
+| **Called to Edit Academy** | *Coming soon*: announced at the webinar, not sold there (2026-10-21). Earlier plan: live DaVinci Resolve cohort, NGN 50,000, ~6 weeks | [[03-Areas/academy/academy\|Academy]] · [[04-Projects/called-to-edit-academy-cohort\|cohort]] |
 | **Called to Edit Mentorship** | 3 unpaid mentees; the January 2027 income line, no price yet | [[03-Areas/mentorship/mentorship\|Mentorship]] |
-| **Called to Edit Community** | Not started. The video-editing community planned for 2027 | [[03-Areas/community/community\|Community]] |
+| **Called to Edit Community** | **The webinar's upsell** (2026-10-21): NGN 5,000 a month, open to anyone, set up before Fri 2026-10-23. Was planned for 2027 | [[03-Areas/community/community\|Community]] |
 | Masterclass, website, physical seminar | Named by Samuel, not planned | [[03-Areas/called-to-edit/called-to-edit-ideas\|Ideas]] |
 
 **No Called to Edit social account yet.** *"right now I don't have the capacity for that"*. All content is @SamuelSignals.
@@ -45,7 +45,7 @@ It's the business his ambition sits on: *"I want to become the best or the most 
           ├── Webinar
           ├── Academy (cohort)
           ├── Mentorship
-          └── Community (2027)
+          └── Community (launches at the webinar, NGN 5,000/month)
 
   Outside it:
      HighSignals Community → maybe Called to Create in 2027
