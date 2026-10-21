@@ -219,6 +219,14 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-18 | bulk | 1,518 | Minor spends 2026-10-16 to 2026-10-18 | Other | derived; rows give 174,640, he has 173,122; likely POS and transfer charges |
 | 2026-10-18 | balance | 173,122 | Bank | — | his words: "Current bank account is 173,122"; no screenshot. Webinar money not counted: 11,507 webinar account + 29,355 Flutterwave (his words) |
 | 2026-10-20 | in | 321,000 | App loan for the creative director's laptop | Creative director laptop | his words: "just recieved 321,000"; loan NGN 325,000 less 1% fee, 13.7%/month, 6 x NGN 82,875 on the 19th, 2026-11-19 to 2027-04-19 |
+| 2026-10-21 | bulk | 15,000 | Parents, emergency medical | Parents | his words: "I sent 15k to my parents on an emergency medical spending"; Parents line already fully spent, so over by 15,000; not asked first; day assumed |
+| 2026-10-21 | bulk | 4,400 | Eating out | Eating out | his words: "4400 spent on eating out"; day assumed |
+| 2026-10-21 | bulk | 330,000 | Laptop for the creative director | Creative director laptop | his words: "330k spent on the laptop"; paid from the app loan (321,000 in, 2026-10-20); day assumed |
+| 2026-10-21 | bulk | 3,000 | Girlfriend, sent | Girlfriend extras | his words: "3000 sent to my GF"; line already over; day assumed |
+| 2026-10-21 | bulk | 22,650 | Waybill of the laptop to Ifeoma's house | Creative director laptop | his words: "22650 spent on weybill of the computer to Ifeoma's house"; laptop line was 330,000, so over by 22,650; day assumed |
+| 2026-10-21 | bulk | 3,000 | Drugs he needed | Personal / misc | his words: "3000 spent by me on some drugs I needed"; line already fully spent, so over by 3,000; day assumed |
+| 2026-10-21 | bulk | 5,500 | Eating out | Eating out | his words: "5,500 spent on eating out"; day assumed |
+| 2026-10-21 | bulk | 8,000 | Transport for the person who helped pick the laptop | Creative director laptop | his words: "8000 spent on transportation for the person that helped me pick the laptop for her"; on the laptop line, not Transport, so the laptop's full cost shows in one place; day assumed |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
