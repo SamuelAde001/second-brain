@@ -1104,19 +1104,94 @@ Samuel, 2026-10-21: *"Brand manager, make sure that these major things, we highl
 
 ## 6. Pricing and getting paid
 
-Samuel, 2026-10-19: getting paid is one of the two things the audience asked about most. He'll mention payments here, including *"some of the places that they can use to get paid"*. Which places: not said yet.
+Samuel, 2026-10-19: getting paid is one of the two things the audience asked about most. Recorded 2026-10-21 in one voice note: 6.1, 6.2, 6.4, the places to get paid, and packages and retainers (which also feed 9.1–9.3).
 
 ### 6.1 How to price yourself
 
-*Not recorded yet.*
+Recorded 2026-10-21.
+
+**Charge per video (per project)**
+- **Not monthly like a salary.** Companies and corporate organisations pay monthly wages. As a freelancer with a client, charge per video.
+- **Not per minute.** *"A one minute video can have as much work as a 20-minute video."* Length doesn't measure the work. When a client offers to pay per minute, don't take that deal.
+- Set fixed rates by what's in the video.
+
+**Have a rate card:** one card showing your price tiers. His, as a long-form editor:
+| Tier | What's in it |
+|---|---|
+| 1 | under 20 minutes · simple cut, talking head, a few captions |
+| 2 | under 20 minutes · motion graphics, B-roll, research from him |
+| 3 | over 20 minutes · motion graphics |
+- The card shows the client your real price, and you can budget around it together.
+
+**What sets the number**
+- **Your skill level** and how confident you are that you can deliver.
+- **The kind of client.** Good international clients used to pay about **USD 20–30** for a short-form video. A beginner can still take **USD 10**, or even **USD 5** for simple work they're learning on.
+- Everything else that moves the price is in 6.2.
+
+**Take control of the price**, especially with an individual client
+- **Ask questions first:** *"Do you want motion graphics? What style of video do you want? What do you want to achieve with this?"* They see you know what you're doing.
+- When they say it's too much, you can explain why: *"There's motion graphics,"* or *"This video has to be tailored to an audience that can buy your product, so I'm doing more research."*
+- **Price on a call** (the closing pyramid, 5.6), so you can negotiate properly.
+- **Clients who demand the price in the DMs** get angry when you hold it back. They're comparing you with other editors and looking for the cheapest. *"You don't want to stoop that low."*
+- If you've tried everything and they flatly refuse a call, give them your flat price and let them decide.
+- *"Don't be afraid to get no's. Don't be afraid to get rejections. It's part of the journey."*
+
+**Packages beat single videos** (*"Stop collecting single projects."*)
+- Pitch several videos at once. It's easier to sell a full package than one video after which they have to come back to you.
+- His examples: 5 long-form videos a month for USD 5,000, or 30 short-form videos a month for USD 3,000.
+- His own now: 3 to 6 videos a month for his client, paid at the end of the month for the videos done.
+- **Packages need a client who posts consistently.** That's a **retainer client**: they already post consistently and you work with them over a long time, so you know the money will come back every month.
+- **Upsell once you've landed the client, not before.** Offer ideation (*"if you really know how to ideate"*), scripting or thumbnails on top of the edit: *"so that you can pay me USD 1,000 instead of USD 500."*
+
+**Teaching:** price per video from a rate card, and get to packages and retainers as fast as you can.
+
+**Lines to say:**
+- *"A one minute video can have as much work as a 20-minute video."*
+- *"Stop collecting single projects."*
+- *"Don't be afraid to get no's."*
+
+**Board:** per video ✓ · per month ✗ · per minute ✗ · **his rate card as three tiers** · beginner vs international short-form rates (USD 5–10 vs USD 20–30) · the questions to ask before pricing · single video vs package, with his two package examples · the upsell stack: edit + ideation + script + thumbnail.
 
 ### 6.2 What moves your price up or down
 
-*Not recorded yet.*
+Recorded 2026-10-21. *"There's no fixed price."*
+
+- **Your skill and confidence** (6.1)
+- **The client's business and how much the video matters to it.** Some videos are very important to them and need a lot of work.
+- **What the video is for.** *"A paid advert is directly correlated with the money."* Business videos: *"always charge more."*
+- **The work inside it:** animation, motion graphics, B-roll, research. Documentaries: look at what the video actually needs.
+- **The niche**
+- **The length**
+- **Revisions.** Set them in the deal, e.g. *"a video with only 3 rounds of revisions."*
+- **The result you're getting them:** the sales the video should bring.
+
+**Teaching:** price what the video is worth to the client's business and the work inside it, not its length.
+
+**Board:** a price dial with the factors around it: client business · ads and business videos (up) · motion graphics, animation and research · niche · length · revisions · results.
 
 ### 6.4 Deposits, contracts and not getting scammed or unpaid
 
-*Not recorded yet.*
+Recorded 2026-10-21. *"I'm getting you guys' minds ready because it is possible and it happens a lot in this industry."*
+
+- **The scam:** you deliver the video and never get paid. *"A lot of people can also run away with your money."*
+- **Take an upfront payment**, especially from people you don't trust yet: about **30%** before you start.
+- **On a new bundle, always.** If you agree 20 or 30 videos a month with a new client, don't wait until all 30 are done for the first payment. If they don't pay the rest, you already have something.
+- Once you've worked with a client a long time, you can trust end-of-month pay. His long-time client pays at month end, whatever the count.
+- **Write a contract and have them sign it.** Not something they just say or type in a chat. For example: 5 videos a month, 30% upfront for the 5. Both of you keep a signed copy of what you agreed.
+
+**Teaching:** 30% upfront and a signed contract, until a client has earned your trust.
+
+**Board:** the deal as a contract card: 5 videos a month · 30% upfront · signed, a copy each · a scam warning: delivered, never paid.
+
+### Getting paid (the places to receive money)
+
+Recorded 2026-10-21. *"Especially if you're in Nigeria, it has been very difficult to receive payment."*
+
+- **What he has used:** Payoneer, Grey, and now **Cleva**, for the past two years.
+- **Western Union:** he has used it before (*"I've actually transferred money to Western Union before"*), but isn't sure it still works (*"I don't think this thing works anymore"*).
+- **What works depends on where the client is.** US clients pay differently from Canadian ones. Research what works for your client's country, and ask people who already earn online. *"My Cleva that I'm using might not work for you."*
+
+**Board:** his platforms: Payoneer → Grey → Cleva (now) · "client's country decides" note.
 
 ## 7. Working with clients
 
@@ -1148,13 +1223,19 @@ Samuel, 2026-10-19: *"it won't be a major emphasis"*. Most of the audience haven
 
 ### 9.1 One-off gigs vs recurring clients; how to get recurring ones
 
+*Carry in (2026-10-21, from 6.1): retainer clients post consistently and you work with them long term; packages need one; "Stop collecting single projects."*
+
 *Not recorded yet.*
 
 ### 9.2 Packaging several gigs into one deal
 
+*Carry in (2026-10-21, from 6.1): pitch several videos at once, e.g. 5 long-form a month for USD 5,000 or 30 short-form for USD 3,000; his own: 3 to 6 videos a month, paid at month end.*
+
 *Not recorded yet.*
 
 ### 9.3 Add-ons: content strategy, thumbnails, scripting
+
+*Carry in (2026-10-21, from 6.1): land the client first, then upsell ideation (only if you really can), scripting or thumbnails: "USD 1,000 instead of USD 500".*
 
 *Not recorded yet.*
 
