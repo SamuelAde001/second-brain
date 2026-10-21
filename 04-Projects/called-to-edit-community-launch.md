@@ -1,7 +1,7 @@
 ---
 type: project
 area: called-to-edit
-status: needs-input
+status: active
 updated: 2026-10-21
 source: interview
 tags: [called-to-edit, community, discord, flutterwave, 60-day-challenge]
@@ -18,8 +18,10 @@ Part of [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]. The webinar's
 - **The upsell:** the Called to Edit Community, not the Academy. NGN 5,000 a month. Open to anyone, not only webinar attendees. The Academy is announced as coming soon.
 - **Payment:** Flutterwave (*"since that works"*).
 - **The 60-day challenge:** *"60 days challenge is what we are going for."* Starts **2026-11-01**, *"to give people time to pay for the community"*. Everyone posts what they did each day from the workbook; he gives feedback and guides them there, until the 60 days end, *"before we know what next."*
-- **Platform: leaning Discord**, his reasons: *"in case someones sub finishes we can kick them out automatically, and I can have an automation there easily."* He asked for research before deciding.
-- **Waitlist or pay now:** his open question (below).
+- **Platform: Discord** (*"Discord yes"*, 2026-10-21). His reasons: *"in case someones sub finishes we can kick them out automatically, and I can have an automation there easily."*
+- **No waitlist:** *"Pay now or anytime"*. The link goes out at the webinar and stays open.
+- **Numbers:** *"If few people pay, we work with the few."*
+- **Weekly call:** proposed, 1 hour on Wednesdays for live questions, *"but that may be stressful for me"*. He decides on 2026-10-22 with his creative director.
 
 ## Research (2026-10-21, on his ask)
 
@@ -46,7 +48,7 @@ Discord's add-role and remove-role calls need a bot token in a script property, 
 
 ## Waitlist or pay now
 
-**Brand manager's suggestion (2026-10-21, not his decision): pay now, no waitlist.**
+**Settled 2026-10-21: pay now or anytime, no waitlist** (his words above). The reasoning given before he chose, kept for the record:
 - The end of the webinar is when they want it most. A free waitlist is a second ask later, and people drop off between "interested" and paying.
 - The 11-01 start is already a deadline: *"doors close 31 Oct, challenge starts 1 Nov."* By 10-31 he knows the real number, which is what a waitlist would tell him.
 - He already has a working Flutterwave setup.
@@ -55,10 +57,9 @@ Discord's add-role and remove-role calls need a bot token in a script property, 
 
 ## Open
 
-- Discord: final yes. Bot and server set-up.
-- Waitlist or pay now.
-- What members get each week besides the daily feedback: calls? how many?
-- If few pay by 10-31: start anyway, or a minimum?
+- Bot and server set-up (Discord settled).
+- The weekly Wednesday call: yes or no, decided 2026-10-22 with his creative director.
+- Someone who joins after 11-01 (*"anytime"*): do they start the challenge at day 1 on their own, or join the group at its current day?
 - The 60-day plan and workbook (10.1): to be built by the Brand manager from the teachings.
 - Who on the team moderates.
 
