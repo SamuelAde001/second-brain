@@ -1243,13 +1243,52 @@ Recorded 2026-10-21. He frames it as *how to get more clients*.
 
 ## 8. Networking
 
+Recorded 2026-10-21, 8.1 and 8.2 in one voice note. *"This is something very, very important. It helped me a lot. Other video editors are very important in your growth."*
+
 ### 8.1 Networking with other editors
 
-*Not recorded yet.*
+**What he did** when he started on Twitter:
+- Engaged other editors' posts: commented, liked, talked with them, built relationships.
+- Joined their challenges (e.g. *"10 days challenge to get my first client"*) and cheered them on.
+- They engaged his posts back. Some became friends who sent him client projects and opportunities.
+- DMs: they looked at each other's edits and corrected each other.
+- Now he has editor friends in Canada, the USA, India, Pakistan, Nigeria and Ghana.
+
+**How to do it**
+- *"Social media is meant to be social."* Build a community of editors like you.
+- **Where:** LinkedIn and Twitter are the best he's seen; Instagram works too.
+- **Who:** editors at your level or smaller. Let them know you; engage with them.
+- Fill your feed with editing and editors (carries on from 4.0, *curate your feed*).
+
+**What a network gives you:** they recommend you · pass you opportunities · critique your work · boost your posts.
+
+**Why it matters**
+- *"The real people that will give you opportunities are people that know you."*
+- Some opportunities never come by outreach or personal branding: *"It comes by relationships."* Companies reach out because someone recommended you.
+- *"You can't do video editing alone."*
+- His stat: *"64% of video editing work were given by referrals."* **Not found at source** (2026-10-21). The nearest sourced figure: in Fiverr's 2024 survey, referrals and reputation were the most common way independent professionals across all industries got work, at **67%** ([Freelance Informer](https://www.freelanceinformer.com/news/word-of-mouth-still-top-way-to-land-freelance-work/)). It isn't video-specific. Say it as *"about two in three freelancers get their work through referrals"* if you use a number.
+
+*Carry in (2026-10-21, from 5.2): editors you know as warm outreach: reach out and offer to edit for them.*
+
+**Teaching:** build real relationships with editors at your level. Referrals come from people who know you, not from outreach.
+
+**Lines to say:**
+- *"Social media is meant to be social."*
+- *"The real people that will give you opportunities are people that know you."*
+- *"You can't do video editing alone."*
+
+**Board:** you in the middle, editor friends around you, arrows bringing back referrals, critique, boosts and opportunities · his map of editor friends: Canada, USA, India, Pakistan, Nigeria, Ghana · the referral stat.
 
 ### 8.2 Joining editor communities
 
-*Not recorded yet.*
+- *"One of the best things to ever do."*
+- **His: VP Plus**, a paid community. He met some of the best editors there: *"They challenged me. I saw what other people were doing."* (He got one or two clients there too: 5.9.)
+- Be around like-minded people to grow.
+- **Bridges to the Called to Edit community:** *"That will also lead me to talk about our community that we're going to be launching after this course."* Carried to 10.2.
+
+**Teaching:** join a serious editing community; the people in it push you.
+
+**Board:** VP Plus → challenged, saw others' work · arrow to the Called to Edit community (10.2).
 
 ## 9. Growing the income
 
