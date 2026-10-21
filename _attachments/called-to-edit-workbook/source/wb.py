@@ -11,13 +11,13 @@ OUT = os.path.join(HERE, "Called-to-Edit-Workbook-Your-First-60-Days.pdf")
 
 MK = '<svg class="mk" width="14" height="16" viewBox="0 0 14 16"><path d="M0 0H14V9.6L7 16L0 9.6Z" fill="#8A5E17"/></svg>'
 MKG = '<svg width="12" height="14" viewBox="0 0 14 16"><path d="M0 0H14V9.6L7 16L0 9.6Z" fill="currentColor"/></svg>'
-QL = {4: "My example", 11: "My definition of editing", 23: "Say it like this", 46: "Say it like this"}
-LINE = 26  # px per answer line
+QL = {4: "My example", 41: "Example"}
+LINE = 28  # px per answer line
 
 HEAD = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <title>Called to Edit Workbook: Your First 60 Days</title>
 <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Plus+Jakarta+Sans:ital,wght@0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="book.css"><link rel="stylesheet" href="wb.css"></head><body>
+<link rel="stylesheet" href="book.css"><link rel="stylesheet" href="wb.css"><link rel="stylesheet" href="lean.css"></head><body>
 """
 
 
@@ -29,71 +29,57 @@ def cb():
     return '<span class="cb"></span>'
 
 
-def question(q, lines, hint):
-    h = f'<div class="hint">{hint}</div>' if hint else ""
-    return f'<div class="q"><div class="ql">{q}</div>{h}{ans(lines)}</div>'
-
-
-def checks(items):
+def ticks(items):
     return '<div class="chk">' + "".join(f'<div class="ci">{cb()}<span>{c}</span></div>' for c in items) + "</div>"
+
+
+def head(label, num, time, ch, title):
+    return (f'<div class="dh"><div class="dn"><span>{label}</span>{num}</div><div class="meta"><span class="chip">{time}</span></div></div>'
+            f'<h2>{title}</h2><div class="ref">{MKG}Book: {ch}</div>')
 
 
 def day(d):
     n = d["n"]
-    phase = next(p for p in PHASES if p["a"] <= n <= p["b"])
-    o = [f'<section class="day dp1" id="d{n}"><span class="tm">MARKD{n}</span>',
-         f'<div class="dh"><div class="dn"><span>Day</span>{n}</div><div class="meta"><span class="chip ph">Phase {phase["n"]}</span><span class="chip">{d["time"]}</span></div></div>',
-         f'<h2>{d["t"]}</h2><div class="ref">{MKG}Book: {d["ch"]}</div>',
+    o = [f'<section class="day" id="d{n}"><span class="tm">MARKD{n}</span>', head("Day", n, d["time"], d["ch"], d["t"]),
          f'<p class="why">{d["why"]}</p>']
-    if d.get("quote"):
-        o.append(f'<div class="box say"><div class="bl">{MKG}{QL.get(n, "In my words")}</div><p>&ldquo;{d["quote"]}&rdquo;</p></div>')
-    if d.get("rhythm"):
-        o.append(f'<div class="sec">{MK}Today&rsquo;s rhythm</div>' + checks(RHYTHM))
-    else:
-        o.append(f'<div class="sec">{MK}Do this</div><ol class="st">' + "".join(f"<li>{s}</li>" for s in d["steps"]) + "</ol>")
-    o.append('<div class="notes"><div class="ql">Notes</div><div class="ans"></div></div>')
-    if d.get("post"):
-        o.append(f'<div class="box post"><div class="bl">{MKG}Post idea for today</div><p>{d["post"]}</p></div>')
-    else:
-        o.append('<div class="box post"><div class="bl">' + MKG + 'Post today</div><p>Two to three posts: 40% authentic, 40% authority, 20% sales.</p></div>')
-    o.append("</section>")
-    o.append(f'<section class="day dp2"><span class="tm">MARKA{n}</span><div class="ah"><span>Day {n}</span>{d["t"]}</div>')
-    if d.get("rhythm"):
-        o.append('<div class="nums">' + "".join(f'<div class="nm"><div class="ql">{k}</div>{ans(1, "sm")}</div>' for k in ["Names added", "Outreach sent", "Follow-ups sent", "Replies"]) + "</div>")
-        qs = list(d.get("extra", [])) + [("The best thing that happened today, and what I&rsquo;ll fix tomorrow", 3, None)]
-    else:
-        if d.get("checks"):
-            o.append(checks(d["checks"]))
-        qs = d["qs"]
-    for q, lines, hint in qs:
-        h = f'<div class="hint">{hint}</div>' if hint else ""
-        o.append(f'<div class="q" style="flex:{lines} 1 auto"><div class="ql">{q}</div>{h}<div class="ans" style="min-height:{lines * LINE + 14}px"></div></div>')
-    o.append(f'<div class="done">{cb()}<span>Day {n} done</span><em>Share it in the Community</em></div></section>')
+    if d.get("say"):
+        o.append(f'<div class="box say"><div class="bl">{MKG}{QL.get(n, "Say it like this")}</div><p>&ldquo;{d["say"]}&rdquo;</p></div>')
+    o.append(f'<div class="sec">{MK}Today</div><ol class="st">' + "".join(f"<li>{s}</li>" for s in d["do"]) + "</ol>")
+    if d.get("ticks"):
+        o.append(ticks(d["ticks"]))
+    for label, lines in d.get("box", []):
+        o.append(f'<div class="q"><div class="ql">{label}</div>{ans(lines)}</div>')
+    o.append(f'<div class="done">{cb()}<span><b>Done when:</b> {d["done"]}</span></div></section>')
     return "\n".join(o)
+
+
+def block(d):
+    rows = "".join(f'<div class="br"><div class="bd">Day {n}</div><div class="bx">{x or "Your five"}</div>{cb()}</div>' for n, x in d["items"])
+    marks = "".join(f'<span class="tm">MARKD{n}</span>' for n, _ in d["items"])
+    return f"""<section class="day" id="d{d['a']}">{marks}{head("Days", f"{d['a']}&ndash;{d['b']}", d["time"], d["ch"], d["t"])}
+  <p class="why">{d["why"]}</p>
+  <div class="sec">{MK}Your five, every day</div>
+  <ul class="mk five">{"".join(f"<li>{r}</li>" for r in RHYTHM)}</ul>
+  <div class="sec">{MK}Tick each day when your five are done</div>
+  <div class="blk">{rows}</div>
+</section>"""
 
 
 def week(k):
     a, b = 7 * k - 6, 7 * k
-    rows = "".join(f'<div class="tr"><div class="td">Day {i}</div>' + "".join(f'<div class="tc">{cb()}</div>' for _ in range(4)) + "</div>" for i in range(a, b + 1))
-    nums = ["Followers now", "Posts this week"] + (["Outreach sent this week", "Replies this week"] if k >= 6 else ["Videos finished", "Editors I engaged"])
-    return f"""<section class="week dp1" id="w{k}">
-  <span class="kick">Week {k} check-in &middot; Days {a}&ndash;{b}</span>
-  <h2>Week {k}, done. Look back before you go on.</h2>
-  <div class="sec">{MK}Did you show up?</div>
-  <p class="small">Tick each post and each day you commented on other people&rsquo;s posts. Two to three posts a day: 40% authentic, 40% authority, 20% sales.</p>
-  <div class="trk"><div class="tr th"><div class="td"></div><div class="tc">Post 1</div><div class="tc">Post 2</div><div class="tc">Post 3</div><div class="tc">Comments</div></div>{rows}</div>
-  <div class="sec">{MK}Your numbers</div>
-  <div class="nums">{"".join(f'<div class="nm"><div class="ql">{x}</div>{ans(1, "sm")}</div>' for x in nums)}</div>
-</section>
-<section class="week dp2"><div class="ah"><span>Week {k}</span>Look back</div>
-  {"".join(f'<div class="q" style="flex:{l} 1 auto"><div class="ql">{q}</div><div class="ans" style="min-height:{l * LINE + 14}px"></div></div>' for q, l in [("What did I finish this week?", 3), ("What slipped, and why?", 2), ("What worked best this week?", 2), ("One thing I&rsquo;ll do differently next week", 2)])}
-  <div class="done">{cb()}<span>Week {k} check-in done</span><em>Post it in the Community</em></div>
+    row = "".join(f'<div class="wd"><div>{i}</div>{cb()}</div>' for i in range(a, b + 1))
+    return f"""<section class="week" id="w{k}">
+  <span class="kick">Week {k} check-in</span>
+  <h2>Days {a}&ndash;{b}, done</h2>
+  <div class="sec">{MK}Did you post every day?</div>
+  <div class="wk">{row}</div>
+  <div class="q"><div class="ql">What slipped this week, and what will you do about it?</div>{ans(3)}</div>
+  <p class="small">Missed something? Don&rsquo;t skip it. Do it first next week.</p>
 </section>"""
 
 
 def opener(p):
-    items = "".join(f'<li><a href="#d{d["n"]}"><b>{d["n"]}</b>{d["t"]}</a></li>' for d in DAYS if p["a"] <= d["n"] <= p["b"])
-    return f"""<section class="full op ph{p['n']}" id="p{p['n']}">
+    return f"""<section class="full op" id="p{p['n']}">
   <img class="logo" src="kit/called-to-edit-logo-dark.svg" alt="">
   <div class="num">{p['n']}</div>
   <div class="lab">{MKG}<span>Phase {p['n']} &middot; Days {p['a']}&ndash;{p['b']}</span></div>
@@ -107,7 +93,12 @@ def opener(p):
 def front():
     maps = ""
     for p in PHASES:
-        items = "".join(f'<li><a href="#d{d["n"]}"><b>{d["n"]}</b><span>{d["t"]}</span></a></li>' for d in DAYS if p["a"] <= d["n"] <= p["b"])
+        items = ""
+        for d in DAYS:
+            if d.get("block") and p["a"] <= d["a"] <= p["b"]:
+                items += f'<li><a href="#d{d["a"]}"><b>{d["a"]}&ndash;{d["b"]}</b><span>{d["t"]}</span></a></li>'
+            elif not d.get("block") and p["a"] <= d["n"] <= p["b"]:
+                items += f'<li><a href="#d{d["n"]}"><b>{d["n"]}</b><span>{d["t"]}</span></a></li>'
         maps += f'<div class="mp"><div class="mh"><span>Phase {p["n"]}</span>{p["title"]}<em>Days {p["a"]}&ndash;{p["b"]}</em></div><ul>{items}</ul></div>'
     return f"""
 <section class="full cover wbc">
@@ -115,7 +106,7 @@ def front():
   <div class="tl">The workbook</div>
   <div class="big">Your first 60 days <span class="g">to your first client</span></div>
   <div class="rule"></div>
-  <div class="tag">One or two tasks a day, with questions you answer as you go.</div>
+  <div class="tag">One clear task a day. Simple steps, no fluff.</div>
   <img class="photo" src="photos/samuel-cutout.webp" alt="">
   <div class="fade"></div>
   <div class="by"><div class="n">Samuel Adebayo</div><div class="r">Video editor and coach</div></div>
@@ -123,55 +114,56 @@ def front():
 
 <section style="break-after:page">
   <span class="kick">Start here</span>
-  <h2>How this workbook works</h2>
-  <p class="lead">The book shows you the pathway. This workbook walks you down it, one day at a time, from choosing your niche to reaching out to the clients you want.</p>
-  <ul class="mk">
-    <li><b>One day at a time, in order.</b> Each day has one or two tasks and says how long they take.</li>
-    <li><b>Missed a day? Don&rsquo;t skip it.</b> Pick up where you stopped. It&rsquo;s sixty steps, not sixty dates.</li>
-    <li><b>Every day points to the book</b> chapter it comes from. Read it first if you haven&rsquo;t.</li>
-    <li><b>Post every day.</b> Each day ends with a post idea. Showing your work is your leverage.</li>
-    <li><b>Every seven days, a check-in.</b> Your posts, your numbers, what slipped.</li>
-  </ul>
-  <div class="box story"><div class="bl">{MKG}Typing your answers</div>
-    <p>Tap any box and type. Open this file in <b>Adobe Acrobat Reader</b> (free on Android and iPhone), Xodo, or Google Drive on Android. Save after each day. If a box won&rsquo;t let you type, your app is only showing the file: open it in Acrobat Reader instead.</p></div>
+  <h2>How this works</h2>
+  <ol class="st">
+    <li><b>One day at a time.</b> Each day has one or two tasks and a clear finish line: <b>Done when</b>.</li>
+    <li><b>Missed a day?</b> Pick up where you stopped. It&rsquo;s 60 steps, not 60 dates.</li>
+    <li><b>Every day, post about your journey.</b> Two to three posts. Ideas on the next page.</li>
+    <li><b>Stuck?</b> Each day names the book chapter it comes from.</li>
+  </ol>
+  <div class="box story"><div class="bl">{MKG}Typing in this workbook</div>
+    <p>Tap a box to type or tick. Open the file in <b>Adobe Acrobat Reader</b> (free on Android and iPhone), Xodo or Google Drive. If you can&rsquo;t tap a box, open it in Acrobat Reader.</p></div>
   <div class="box remember"><div class="bl">{MKG}In the Community</div>
-    <p>If you&rsquo;re in the Called to Edit Community, share each day&rsquo;s work there. I&rsquo;ll give you feedback, correct you and guide you as you go.</p></div>
-  <div class="sec">{MK}What you&rsquo;ll need</div>
-  <ul class="mk sm">
-    <li><b>The book</b>, <i>Called to Edit: How to Build a Career as a Video Editor and Get Paid</i>. Every day points to a chapter.</li>
-    <li><b>Your editing tool</b>: phone or laptop, and the software you already use.</li>
-    <li><b>One social platform</b> you&rsquo;ll post on every day.</li>
-    <li><b>Notion or a spreadsheet</b> for your dream client list (Day 36).</li>
-    <li><b>Free accounts</b> on Canva, Loom and a booking-link tool such as Calendly or Cal.com (Days 32, 45 and 47).</li>
-  </ul>
+    <p>Share each day&rsquo;s work in the Called to Edit Community. I&rsquo;ll give you feedback and guide you as you go.</p></div>
 </section>
 
 <section style="break-after:page">
-  <span class="kick">Before Day 1</span>
-  <h2>Your commitment</h2>
-  <p class="small">Fill this in before Day 1. Come back to it on the days you don&rsquo;t feel like it.</p>
-  {question("My name", 1, None)}
-  <div class="nums">
-    <div class="nm"><div class="ql">Day 1 is</div>{ans(1, "sm")}</div>
-    <div class="nm"><div class="ql">Day 60 is</div>{ans(1, "sm")}</div>
-  </div>
-  {question("The hours I&rsquo;ll give this every day, and when", 1, None)}
-  {question("Why I&rsquo;m doing this, in one line", 2, None)}
-  {question("Who will hold me to it", 1, None)}
-  {checks(["I&rsquo;ll do one day at a time, in order", "I&rsquo;ll post my work every day", "When I miss a day, I&rsquo;ll pick up where I stopped, not quit"])}
-  <div class="nums">
-    <div class="nm"><div class="ql">Signed (type your name)</div>{ans(1, "sm")}</div>
-    <div class="nm"><div class="ql">Date</div>{ans(1, "sm")}</div>
-  </div>
+  <span class="kick">Every day</span>
+  <h2>What to post</h2>
+  <p>Post your journey, not just finished work. Mix it like this:</p>
+  <div class="pi"><div class="pt"><b>40%</b> Authentic</div><p>Your day, your story, your wins and failures. &ldquo;Day 12 of 60: learning captions.&rdquo; A photo of your timeline. A client who said no.</p></div>
+  <div class="pi"><div class="pt"><b>40%</b> Authority</div><p>Teach what you&rsquo;re learning. &ldquo;3 mistakes in business videos.&rdquo; A before and after. Your recreation next to the original.</p></div>
+  <div class="pi gold"><div class="pt"><b>20%</b> Sales</div><p>Say what you do. &ldquo;I edit ___ for ___. I&rsquo;m taking on new clients.&rdquo;</p></div>
 </section>
 
 <section class="map" style="break-after:page">
   <span class="kick">The plan</span>
-  <h2>Your 60 days at a glance</h2>
-  <p class="small">Tap any day to go straight to it.</p>
+  <h2>Your 60 days</h2>
+  <p class="small">Tap a day to jump to it.</p>
   {maps}
 </section>
 """
+
+
+def assemble():
+    body = [front()]
+    weeks_done = set()
+    for d in DAYS:
+        first = d["a"] if d.get("block") else d["n"]
+        last = d["b"] if d.get("block") else d["n"]
+        p = next((p for p in PHASES if p["a"] == first), None)
+        if p:
+            body.append(opener(p))
+        body.append(block(d) if d.get("block") else day(d))
+        for k in range(1, 9):
+            if first <= 7 * k <= last and k not in weeks_done:
+                weeks_done.add(k)
+                body.append(week(k))
+    body.append(back())
+    html = HEAD + "\n".join(body) + "\n</body></html>"
+    path = os.path.join(HERE, "workbook.html")
+    open(path, "w", encoding="utf-8").write(html)
+    return path
 
 
 def back():
@@ -199,22 +191,6 @@ def back():
   <div style="font:600 14px/1.5 'Plus Jakarta Sans';color:#B9C3D6;margin-top:18px">&copy; 2026 Samuel Adebayo, Called to Edit. All rights reserved.</div>
 </section>
 """
-
-
-def assemble():
-    body = [front()]
-    for d in DAYS:
-        p = next((p for p in PHASES if p["a"] == d["n"]), None)
-        if p:
-            body.append(opener(p))
-        body.append(day(d))
-        if d["n"] % 7 == 0 and d["n"] <= 56:
-            body.append(week(d["n"] // 7))
-    body.append(back())
-    html = HEAD + "\n".join(body) + "\n</body></html>"
-    path = os.path.join(HERE, "workbook.html")
-    open(path, "w", encoding="utf-8").write(html)
-    return path
 
 
 def render(html):

@@ -1,0 +1,24 @@
+/* Lean workbook layout, on top of book.css and wb.css */
+.day h2{font-size:36px;margin:12px 0 6px}
+.why{font:500 19px/1.5 'Plus Jakarta Sans';color:var(--ink);margin-bottom:6px}
+ol.st>li{font-size:18.5px;line-height:1.5;margin-bottom:10px}
+.ql{font-size:17px}
+.q{margin:16px 0 0}
+.done{margin-top:24px;font:600 17px/1.4 'Plus Jakarta Sans'}
+.done b{font-weight:800}
+.blk{border:1.5px solid var(--line);border-radius:14px;overflow:hidden}
+.br{display:flex;align-items:center;gap:12px;padding:11px 14px;border-bottom:1px solid var(--line);break-inside:avoid}
+.br:last-child{border-bottom:0}
+.bd{flex:0 0 64px;font:400 19px Gloock;color:var(--bronze)}
+.bx{flex:1;font:600 16px/1.4 'Plus Jakarta Sans'}
+.wk{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin:6px 0 10px}
+.wd{display:flex;flex-direction:column;align-items:center;gap:6px;background:var(--tint);border-radius:12px;padding:10px 0;font:400 18px Gloock;color:var(--navy)}
+.week h2{font-size:38px}
+.pi{background:var(--tint);border-radius:16px;padding:16px 20px;margin:14px 0}
+.pi.gold{background:var(--goldtint)}
+.pi .pt{font:800 13px 'Plus Jakarta Sans';letter-spacing:.16em;text-transform:uppercase;color:var(--bronze);margin-bottom:6px}
+.pi .pt b{font:400 30px Gloock;letter-spacing:-.02em;color:var(--navy);margin-right:8px;text-transform:none}
+.pi p{margin:0;font-size:18px;line-height:1.5}
+.map li b{flex:0 0 48px}
+ul.mk.five li{font-size:17.5px;margin-bottom:5px}
+.br{padding:8px 14px}
