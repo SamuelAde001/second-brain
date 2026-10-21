@@ -2,7 +2,7 @@
 type: project
 area: personal-brand
 status: needs-input
-updated: 2026-10-20
+updated: 2026-10-21
 source: interview
 tags: [called-to-edit, webinar, teaching, slides, whiteboard]
 ---
@@ -876,23 +876,155 @@ Recorded 2026-10-20.
 
 ### 5.2 Outbound: where to find clients, which platforms
 
-*In progress, 2026-10-20: he paused mid-topic. So far:* outbound is you looking for clients. Don't wait for them to find you, at any stage, and especially at the start: no one knows you yet. **He'll show how to look for clients live.** Step 1: go to the platform where your client is. If you edit for business YouTubers, search YouTube for business content creators, watch their videos and get to understand what they do.
+Recorded 2026-10-20 (start) and 2026-10-21 (one long voice note that also covers 5.3, 5.5, 5.6, 5.8, 5.9 and 5.10).
+
+Outbound is you looking for clients. Don't wait for them to find you, at any stage, and especially at the start, when no one knows you yet.
+
+**Two kinds of outreach**
+| | Who | Why it works |
+|---|---|---|
+| **Warm outreach** | people who already know you: friends, family, colleagues doing content, people in your DMs and on your WhatsApp list, editors you know (*"we'll talk about reaching out to other editors later on"*) | they already know or trust you. *"Warm outreach converts the fastest."* |
+| **Cold outreach** | people who don't know you | it takes research and warming up (below) |
+
+**Warm outreach**
+- His own first client was warm: his mentor had just started on YouTube. *"Sir, I love your videos and I see what you do. I would love to help you out in your videos."*
+- Ask people you know: *"I'm a video editor, I edit videos, do you know anyone that needs my service?"* They can link you up. Even your father who works in a bank may know someone.
+- **Beginners: work with someone first, whoever it is.** Real projects are the fastest way to grow; most people stay in practice mode too long. Free or low pay, start there.
+- It may not be the best payer. But without results and evidence, *"the high-paying clients will not even consider you. They want to see experience."*
+- **Homework: *"Every one of you guys that is here must do a warm outreach after this meeting."*** Do your research on who to reach first.
+
+**Finding cold clients** (he'll demo this live on screen)
+1. **Go to the platform where your client is.** For YouTube clients, search YouTube for creators in your niche, watch their videos and get to understand what they do. Scroll past the many who already have great editors.
+2. **A potential client has three things:**
+   - they're in your niche
+   - they already make money in some form, so they can afford you
+   - they need an editor: videos performing badly, badly edited, or not edited at all. Even well-edited creators may need an extra editor.
+3. **Find their email.** On YouTube many creators list one.
+4. **Find them everywhere else:** Instagram, LinkedIn, Twitter. Note the kind of content they make and save examples you can use as references.
+5. **On Instagram, go smaller.** The top accounts for your niche have big audiences and editors already. Look for creators with about 1,000 to 20,000 followers. Many of them edit by themselves or have editors who aren't good.
+
+**The dream client list** (*"This is the most important thing for every video editor."*)
+- A table in Notion (his pick, *"I always recommend Notion"*) or a spreadsheet. Columns: name · channel or handle · email · other platforms (Instagram, LinkedIn, Twitter) · type of content · follower count · short or long form · links to example videos · follow-ups done.
+- You're gathering leads, not reaching out yet.
+- Aim for **20 to 50**. His was **100, his "dream 100"**, built by hand before AI could research.
+- Keep adding every day until you land your dream 1, 2, 3 clients.
+- Keep two lists: **potential clients** (prospects, dream clients) and **clients** (people you already work with; keep records of them too).
+
+**Multiple points of contact**
+- He emailed each of the 100 one by one, then sent the same person an Instagram DM, then a Twitter message. *"You don't know which of the platforms they might open."*
+- What the creator thinks: email, *"I don't really need this guy"* → Instagram, *"this guy is very serious"* → Twitter, *"oh boy, this guy, he really means business. Let me respond to him."*
+
+**Warm up the list before you DM**
+- Turn on notifications for the creator. Be the first to comment, and say something good about what they teach.
+- After **4 or 5 posts** (smaller creators especially) they notice you: *"this guy likes my content."* By the time you DM, you're not a stranger.
+- Comment enough and they check your page: *"who is this guy?"* They see you're an editor; if they need one right then, they may reach out first.
+- His own: on Twitter, *"As they're posting, I'm commenting."*
+
+**Research with AI** (if you can pay for it)
+- ChatGPT on its own *"won't even give you the best results"*. Agent tools can: Codex, Claude Code, Grok.
+- He pays for Claude Code and has an agent that researches and pulls potential clients for him from YouTube, Instagram and TikTok. Best on a laptop. *"I think it's just 33,000 naira a month."*
+- He won't go deep on agents here: *"you master it later on, maybe in the community."*
+
+**Sites that help you find clients** (researched 2026-10-21 on his ask, *"help me take note of those websites"*; he did it by hand)
+| Site | What it does | Cost |
+|---|---|---|
+| **YouTube itself** | a channel's About page shows a business email only when the creator has added one; also check video descriptions and linked sites | free |
+| **Channel Crawler** | search YouTube channels by niche, country and subscriber count; export lists | search free; emails and exports on credits, paid ([Channel Crawler](https://channelcrawler.com/features)) |
+| **TubeMailer** | Chrome extension: search YouTube by keyword, export the public business emails to a CSV | free to try ([Chrome Web Store](https://chromewebstore.google.com/detail/hiphjffbgpjmkkcdjfhapibeldcappng)) |
+| **Modash** | finds creators on Instagram, TikTok and YouTube by niche and follower range | 14-day free trial, then paid; a separate free YouTube email finder ([Modash](https://www.modash.io/youtube-email-finder)) |
 
 *Carry in (2026-10-19): agencies as a client type. His take from 0.3: middlemen with 20–30 clients; always have work and give access to clients you can't reach; pay less and give heavy revisions; good for beginners, helped his career; best long-term is creators, businesses and brands directly; big brands go through agencies, so you work up the ladder. Most agencies post on Twitter and LinkedIn that they need an editor.*
 
-*Not recorded yet.*
+**Teaching:** do warm outreach first, then build a dream client list and warm each person up before you reach out, on every platform they use.
+
+**Lines to say:**
+- *"Warm outreach converts the fastest."*
+- *"They want to see experience."*
+- *"You need to have a list. This is the most important thing for every video editor."*
+- *"By the time I get to their DM, I am not really a stranger."*
+
+**Board:** warm vs cold, two columns · the three signs of a potential client · **live demo: search YouTube for creators in a niche and find a channel's email** · the dream client list as a Notion table with the columns above · multiple points of contact: one creator in the middle, arrows to email, Instagram, Twitter · warm-up: 4–5 comments → DM · the sites table · homework box: *warm outreach after tonight*.
 
 ### 5.3 Cold DMs and emails
 
-*Not recorded yet.*
+Recorded 2026-10-21, inside the 5.2 voice note.
+
+**Why most cold messages fail:** *"Hey, my name is Samuel, I'm a video editor, and I'd love to work for you. Here's my portfolio."* Most don't reply. *"You are too cold. You just want their money."* You're not showing interest in what they do.
+
+**Before any message:** research the client properly, and warm them up in their comments 2–3 times first. *"Take your time and do this. This can make or break your career."* Leave comments that are actually good.
+
+**DMs: start a conversation, pitch later**
+1. **Open with a question about their video**, not a pitch. *"Hi Joshua. I saw your video about B2B SaaS. That was a wonderful video. I learned a lot from it. How do you make these videos?"*
+2. They see a curious, casual person. It lowers their guard: *"There are a lot of scammers out there."*
+3. **Keep the conversation going**, then steer it to a problem they have: *"I noticed the video is not really performing, and it has a high potential of performing. Do you have an editor?"* Or: *"These videos are nice, but do they bring clients for you?"*
+4. **If they have no editor, or theirs isn't doing much:** pitch. *"I'm a video editor and I can help you out with this. Can you permit me to work on one or two videos for you for free, so we see how they perform?"* They decide whether to post it. *"You need to learn to give out value."*
+5. Even when they don't need you, they reply more politely (*"presently I don't even have the money for editors"*). That leaves you room to follow up (5.8).
+
+**Emails: no conversation, so be specific in one message.** His example:
+> Good day, Joshua. I just saw your YouTube video about 5 ways to get healthy, and I love the video. I noticed that this video is not really performing well. Do you have an editor? I feel that your videos can perform better in this way, that way and this way. I would love to do a free edit for you. Let me know.
+
+- **Name the video.** Not *"I saw your videos"* but *"your last video about 5 ways to get healthy."* Better still, mention something about 10 minutes in, so they know you watched it.
+- *"The more you do research around that person, the better responses you will get."*
+
+**DMs: send voice notes, not Loom links.** Voice notes are what work in Instagram and Twitter DMs (Loom works on email: 5.10). *"People want to hear real human beings."* Others paste ChatGPT DMs; recording your voice makes you stand out. Send your picture and your portfolio too.
+
+**Teaching:** start a conversation before you pitch. In emails, prove you watched their video.
+
+**Lines to say:**
+- *"You are too cold. You just want their money."*
+- *"If I enter your DM now and just tell you, I want to work for you, you will shun me out."*
+
+**Board:** the cold message that fails, crossed out · **mock DM screenshots of the Joshua conversation going back and forth** (his ask: *"create screenshots and samples"*): question → his reply → the problem → the pitch for a free edit · the email example as a mock email, the specific video line highlighted.
 
 ### 5.5 Value-first: editing someone's video for free
 
-*Not recorded yet.*
+Recorded 2026-10-21, inside the 5.2 voice note.
+
+**What it is:** still cold outreach, but you don't wait to be offered a free trial. *"You take their videos, download it, re-edit it and send it."* They see you've already put in work.
+
+**How**
+- Download a video of theirs: YouTube, TikTok or Instagram.
+- **Never edit more than 30 seconds.** *"If you start editing 1 minute in the name of value first, you're wasting your time,"* because you have others to reach and this one may say no.
+- Pick a video you can visibly improve. Don't take a well-edited video and add things that don't make sense. The edit has to add value.
+- Show a **before and after**.
+- Email it: *"I did a free video for you. Check it out."*
+- **Also post it on Twitter and tag the creator.** They may miss the email and see the post. Other editors see it too, and sometimes someone else wants that edit for themselves: *"your video that you did value first for someone can get you client."*
+
+**Good and bad**
+- Good: gets attention; he also used it to practise.
+- Bad: takes a lot of time. You have to be *"very good enough"*. It sells how fancy your edit is, not the other things you bring (*"how you can make the videos convert"*).
+
+**Teaching:** a 30-second re-edit of their own video, sent and posted publicly, shows them what you can do before they ask.
+
+**Examples:** he'll show one of his own value-first videos on the board.
+
+**Board:** **his value-first video, before and after** · rule box: *30 seconds max* · email → also posted on Twitter, tagging the creator.
 
 ### 5.6 Pitching and showing your value
 
-*Not recorded yet.*
+Recorded 2026-10-21 at the end of the 5.2 voice note, as **closing a client**. The pitch lines themselves are in 5.3 (DMs and email); price is section 6.
+
+**Get the client on a video call as soon as possible.** *"I repeat, as soon as possible, get that client into a video call."* The closer you are to them, the easier it is to close. Face to face, they see your emotions and find it hard to say no.
+
+**The closing pyramid, strongest first**
+1. **Meeting in person.** If they're near, offer to come to their office or house. Most clients are remote, so this is rare (*"99% of the time"*).
+2. **Video call.** They see a real person, not an AI bot, and the conversation is better. *"That's why when CEOs are having meetings... they can fly from one country to another."*
+3. **Voice call.**
+4. **Voice notes in the chat.** They hear your voice and know you're real. *"Once there are emotional feelings attached to it, negotiations have more potential of landing."*
+5. **Plain chat.**
+
+**When they ask your price in the DMs, don't give it there**
+- *"Thank you very much. I can see that you're interested. Before I tell you my price, because it varies based on several factors, I would love to know what you're trying to achieve with your videos, what business you run, what your goal is."*
+- Or: *"I would love some more context on what you do, so I know which of my packages fits you. Let's have a video call."* Then send a **Google Calendar booking link** so they pick a time that fits them.
+- *"If I'm on a chat, I can just tell you no, and I don't care... on a video call, before I tell you no, I will reconsider."*
+
+**Teaching:** don't quote a price in a DM. Move every serious lead up the pyramid, to a video call if you can.
+
+**Lines to say:**
+- *"As soon as possible, get that client into a video call."*
+- *"Don't just give people your price."*
+
+**Board:** the closing pyramid: in person (top) → video call → voice call → voice notes → chat (bottom) · the price reply as a mock DM, ending on the booking link.
 
 ### 5.7 Nigeria vs abroad; learn to work for free first, and how
 
@@ -900,15 +1032,75 @@ Recorded 2026-10-20.
 
 ### 5.8 Following up
 
-*Not recorded yet.*
+Recorded 2026-10-21, inside the 5.2 voice note.
+
+- **When they don't reply, follow up.** Don't give up because one message got no answer.
+- **Space the follow-ups:** first after about 24 hours, the next after about 2 days, then about 1 week.
+- **What to say:**
+  - *"Hey, just checking whether you saw my last message. I would really love to know what you think."*
+  - Third one: *"I realise you must be busy. But I really love your videos and I still feel I can be of good assistance."*
+  - Be kind every time.
+- **His limit: 4.** Most people advise 2–3. After the 4th with no reply, he moves on: *"I have other people I can reach out to."*
+- The old editors' rule, *"follow up till they say no"* (some send 7): he only does that for a client he really wants.
+- Track it in your list: tick 1, tick 2, tick 3 in the Notion table.
+
+**Teaching:** follow up up to 4 times, spaced out, and track every one.
+
+**Board:** follow-up timeline: message → +24 h → +2 days → +1 week → stop at 4 (*"till they say no"* only for a dream client) · the follow-up column in the Notion table.
 
 ### 5.9 Upwork, Fiverr and job boards: worth it or not
 
-*Not recorded yet.*
+Recorded 2026-10-21, inside the 5.2 voice note. His least favourite routes. *"It's good for you to know these methods... I did use them. It didn't work for me. But you can try."*
+
+| Route | How | His verdict |
+|---|---|---|
+| **"Looking for a video editor" posts** on Twitter, LinkedIn, TikTok | search that phrase | his least favourite. About **80% are scams**; editors (some automated) flood the DMs within minutes. *"I recommend it with 0.1% chance."* |
+| **Communities and Discord servers** | job channels | free ones are *"filled up with scammers"*: USD 2 edits, people asking you to send money, links that are viruses. Real jobs are in **paid communities**: he got one or two clients from **VP Plus** (name as heard), at about NGN 50,000 a month |
+| **Job sites** (Jobberman and others) | apply | *"It doesn't work."* One editor post gets about 5,000 applicants |
+| **Upwork and Fiverr** | profile and bids | a race to the bottom on price: *"if you are not the best video editor there, you are the cheapest."* Saturated. Some editors he knows did succeed there |
+
+**Teaching:** don't rely on one way of getting clients. Use all of them. These routes are the weakest, and they're full of scams.
+
+**Lines to say:**
+- *"Don't rely on one means."*
+- *"I recommend it with 0.1% chance."*
+
+**Board:** the routes ranked strongest to weakest: warm → cold DM and email → value-first and Loom → job posts, communities, job sites, Upwork and Fiverr · a scam warning box.
 
 ### 5.10 Loom video outreach
 
-*Not recorded yet.*
+Recorded 2026-10-21, inside the 5.2 voice note.
+
+- **What Loom is:** record a short video of yourself and send it as a link. The free plan allows up to 5 minutes a video (third-party listings; [Capterra](https://capterra.com/p/191187/Loom/pricing/)). *"I don't know how popular it is right now."*
+- **How he used it:** an email saying *"I recorded a video to explain some things for you,"* plus the Loom link. He pitched himself on camera instead of in text.
+- **Why it works:**
+  - They see a real person who took the trouble. *"Right now people use AI to automate emails."*
+  - *"People relate to videos very well."* It did well for him.
+- **Stack it.** He sent a value-first edit and a Loom together. Or value-first first, with the Loom as the follow-up email. *"The person will see how serious I am."* They may not need you today but remember you tomorrow.
+- **Email only.** In Instagram and Twitter DMs, send voice notes instead (5.3).
+- **Link your best video, not only your portfolio.** He linked his best edit posted on Twitter, so clicking it took them to his page, where they saw him working hard.
+
+**Teaching:** on email, a short video of you pitching beats any written email.
+
+**Board:** email + Loom link → his face on video · stacked: value-first + Loom.
+
+### Section 5 close: what gets you clients
+
+Samuel, 2026-10-21: *"Brand manager, make sure that these major things, we highlight them in the whiteboard."*
+
+- People you reach out to check your page before they reply. *"If they come to your social media page and it is empty, they won't even reply to you."*
+- **What gets you clients, all at once:**
+  1. **Your skill must be good.** *"You can't dodge that one."*
+  2. **A strong personal brand**, showing your personality and hard work
+  3. **A strong portfolio.** That's why you work for free at the start.
+  4. **Outreach:** value-first, Loom, good emails, comments, warm-ups, conversations
+  5. **Networking with other editors** (section 8)
+- Do all of it consistently for 1, 2, 3 months, for many clients: *"There's no way you will not land one."*
+- Good skill but a weak brand, or no outreach: *"You'll be slower."*
+
+**Teaching:** *"Getting clients is a lot of hard work. That's the truth."* Skill, brand, portfolio, outreach and network together.
+
+**Board:** the five as one highlighted block, the section's closing frame.
 
 ## 6. Pricing and getting paid
 
