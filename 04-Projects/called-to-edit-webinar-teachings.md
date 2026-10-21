@@ -901,7 +901,7 @@ Outbound is you looking for clients. Don't wait for them to find you, at any sta
    - they need an editor: videos performing badly, badly edited, or not edited at all. Even well-edited creators may need an extra editor.
 3. **Find their email.** On YouTube many creators list one.
 4. **Find them everywhere else:** Instagram, LinkedIn, Twitter. Note the kind of content they make and save examples you can use as references.
-5. **On Instagram, go smaller.** The top accounts for your niche have big audiences and editors already. Look for creators with about 1,000 to 20,000 followers. Many of them edit by themselves or have editors who aren't good.
+5. **On Instagram, go smaller.** The top accounts for your niche have big audiences and editors already. Look for creators with about 1,000 to 20,000 followers (on the recording he said "500 followers" for the big accounts; he meant 500K, confirmed 2026-10-21). Many of them edit by themselves or have editors who aren't good.
 
 **The dream client list** (*"This is the most important thing for every video editor."*)
 - A table in Notion (his pick, *"I always recommend Notion"*) or a spreadsheet. Columns: name · channel or handle · email · other platforms (Instagram, LinkedIn, Twitter) · type of content · follower count · short or long form · links to example videos · follow-ups done.
@@ -1028,7 +1028,7 @@ Recorded 2026-10-21 at the end of the 5.2 voice note, as **closing a client**. T
 
 ### 5.7 Nigeria vs abroad; learn to work for free first, and how
 
-*Not recorded yet.*
+*Skipped* (Samuel, 2026-10-21: *"I am not talking specifically about Nigerian vs abroad again"*). Working for free is covered in 1.7, 5.2 and 5.5.
 
 ### 5.8 Following up
 
@@ -1055,7 +1055,7 @@ Recorded 2026-10-21, inside the 5.2 voice note. His least favourite routes. *"It
 | Route | How | His verdict |
 |---|---|---|
 | **"Looking for a video editor" posts** on Twitter, LinkedIn, TikTok | search that phrase | his least favourite. About **80% are scams**; editors (some automated) flood the DMs within minutes. *"I recommend it with 0.1% chance."* |
-| **Communities and Discord servers** | job channels | free ones are *"filled up with scammers"*: USD 2 edits, people asking you to send money, links that are viruses. Real jobs are in **paid communities**: he got one or two clients from **VP Plus** (name as heard), at about NGN 50,000 a month |
+| **Communities and Discord servers** | job channels | free ones are *"filled up with scammers"*: USD 2 edits, people asking you to send money, links that are viruses. Real jobs are in **paid communities**: he got one or two clients from **VP Plus**, at about NGN 50,000 a month |
 | **Job sites** (Jobberman and others) | apply | *"It doesn't work."* One editor post gets about 5,000 applicants |
 | **Upwork and Fiverr** | profile and bids | a race to the bottom on price: *"if you are not the best video editor there, you are the cheapest."* Saturated. Some editors he knows did succeed there |
 
