@@ -1210,15 +1210,36 @@ Samuel, 2026-10-19: *"it won't be a major emphasis"*. Most of the audience haven
 
 ### 7.1 Briefs, revisions and deadlines
 
-*Not recorded yet.*
+*Skipped* (Samuel, 2026-10-21: *"I'm not going to talk about any other aspect in terms of working with clients"*). Revisions in the deal: 6.2.
 
 ### 7.2 Communication: updates, delivery, file sharing
 
-*Not recorded yet.*
+*Skipped* (same words, 2026-10-21).
 
 ### 7.3 Turning one job into a testimonial and a referral
 
-*Not recorded yet.*
+Recorded 2026-10-21. He frames it as *how to get more clients*.
+
+**Your most important asset:** *"real testimonials and real results that you've gotten from your previous client."*
+
+- **Document the result for every client.** For example, the views their videos got.
+- **Keep screenshots** of the results you got for clients.
+- **Turn them into case studies.** His own: working for his mentor for free, he took the channel from about 1,000 views to about 4,000 (*"I think"*). *"Even though it's not that much for YouTube, that really helped."* It went into his portfolio and his case studies.
+- **Ask for a testimonial**, if you can:
+  - **written:** they type out how good you are or what you did for them
+  - **video:** they record themselves saying it. *"Very powerful."*
+- **Why it matters:** *"Clients love to work with people that are already experienced, that have worked with other people."* It builds the trust bigger clients need.
+- *"Some of us have worked with people, but we've not told them to give us a testimonial."* Go and ask.
+
+**Teaching:** document the result for every client and ask every one for a testimonial. That's what wins bigger clients.
+
+**Examples:** his mentor's channel, about 1,000 → 4,000 views, used as a case study even though the work was free.
+
+**Lines to say:**
+- *"One of the most important assets that you have is real testimonials and real results."*
+- *"Clients love to work with people that are already experienced."*
+
+**Board:** result screenshot → case study → testimonial (written / video) → bigger clients · his mentor case: 1,000 → 4,000 views · homework box: ask a past client for a testimonial.
 
 ## 8. Networking
 
