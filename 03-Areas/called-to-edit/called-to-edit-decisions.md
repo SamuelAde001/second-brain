@@ -74,3 +74,7 @@ Samuel, voice note for the webinar close: *"I am not upselling them to call to e
 - **Academy:** *"The call to edit academy would be coming soon."* Announced as coming soon, not sold at the webinar. The NGN 50,000 cohort plan stands down until he says otherwise.
 - **Changes:** the Community was planned for 2027; it now launches at the webinar.
 - **Who decided:** Samuel.
+
+## 2026-10-21 — Community: 60-day challenge from 1 November, Flutterwave, leaning Discord
+
+Samuel, same day: *"60 days challenge is what we are going for."* It starts **2026-11-01**, *"to give people time to pay for the community"*. Everyone posts what they did that day from the workbook and gets his feedback and guidance there, until the 60 days end, *"before we know what next."* **Payment:** Flutterwave, *"since that works"*. **Platform:** leaning Discord, *"in case someones sub finishes we can kick them out automatically, and I can have an automation there easily"*. Research and the open points (waitlist or pay now) in [[04-Projects/called-to-edit-community-launch|community launch]].

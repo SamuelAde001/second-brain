@@ -1335,7 +1335,7 @@ Recorded 2026-10-21. **The upsell is now the Called to Edit Community, not the A
 - **To be built by the Brand manager from everything he taught**, week by week. Samuel, 2026-10-21: *"look through everything I've taught and be able to come up with an instruction for the first 30 days for them to do"*, **"but don't do that now."**
 - It goes in **the workbook** and he talks through it at the close.
 - **It becomes a challenge run in the community:** one or two activities a day for everyone in it. *"We'll supervise the growth of all that in the community, where I'll give feedbacks, I'll correct them, and I'll guide them properly."*
-- **Length: 30 or 60 days, not decided.** He asked which. If 60, the title becomes *"your first 60 days"*. The Brand manager's suggestion (2026-10-21, a suggestion, not his decision): 60 days, run as two 30-day halves.
+- **Length: 60 days** (Samuel, 2026-10-21: *"60 days challenge is what we are going for"*), so the title is *"your first 60 days"*. **Starts 2026-11-01**, in the community. Set-up: [[04-Projects/called-to-edit-community-launch|community launch]].
 - Homework already set in the teachings, to build from: 0.4 (mindset), 4.0 (lock in for a month, feed full of your niche), 5.2 (warm outreach after tonight, the dream client list), 7.3 (ask a past client for a testimonial).
 
 ### 10.2 The upsell into the Called to Edit Community
