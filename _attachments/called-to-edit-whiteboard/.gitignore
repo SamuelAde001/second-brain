@@ -1,0 +1,4 @@
+out/
+source/*.html
+source/kit/fonts/
+source/__pycache__/
