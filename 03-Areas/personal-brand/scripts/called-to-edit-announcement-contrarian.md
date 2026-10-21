@@ -157,3 +157,19 @@ Why: it backs the claim with real proof instead of saying "a lot". Needs 15–20
 2. Concept A's editor lines are guesses at what new editors say. Swap in what editors actually tell you when you ask their price or their portfolio.
 3. Post date. His decision: *"I would announce it all after the webinar"* (Fri 2026-10-23).
 4. Brand colour for the giant words: open question 115.
+
+## AI cutaways in Google Flow (2026-10-21)
+
+Samuel, 2026-10-21: *"create AI Cinematic badass clips ... with me sitting down, and looking badass in different postures ... it must look exactly like me and not look like AI videos nothing in the room should change"*, in Google Flow with Omni. He sent seven stills from the shoot.
+
+Made in his Chrome, Flow project "Oct 21 - 18:56": **Omni 1.1 Flash, Frames mode (his still as the start frame), 9:16, 720p, 8 s, x1, 12 credits each.** Start frames keep the room and his face; every prompt asks for a locked-off camera, slow motion, the room unchanged, silent. Stills 3 and 6 (smiling, mid-word) not used.
+
+| Clip | Start still | Move |
+|---|---|---|
+| 1 | 2 (wide, looking down) | lifts his head, stares into the lens, leans back, fingertips together |
+| 2 | 4 (glasses in hand) | unimpressed look, puts the glasses on, cold stare |
+| 3 | 5 (both hands on the glasses) | settles the glasses, hands down, chin up, stare, small smirk |
+| 4 | 7 (leaning in, fist on desk) | slow knowing nod, leans back |
+| 5 | 1 (looking to the side) | turns to the lens, chin down, stare |
+
+**Checked frame by frame (Brand manager, 2026-10-21):** 1 strongest (looks up, leans back, ends on steepled fingers); 5 and 4 hold his face and the room; 3 usable but the lenses lose their tint by the end; 2 weakest: the tinted rimless glasses turn into clear thin-framed glasses and the orange arms vanish. 60 credits used. Nothing downloaded; the clips are in the Flow project.

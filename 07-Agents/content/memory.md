@@ -175,3 +175,9 @@ Back to [[07-Agents/content/profile|Profile]]
 - **Brand guides go to outsiders.** No personal details (his room, where he shoots, his series, anything only he'd get) and no in-house words ("kicker", "Title Card"). Write for a designer who has never met him. Samuel, 2026-10-21.
 - **Deliver a brand guide as a designed PDF, not a Claude Design System artifact.** He couldn't see the images or the design at work there. HTML pages at 1600 × 900 (`@page{size:1600px 900px;margin:0}`), Chrome `--print-to-pdf --virtual-time-budget=15000`, then check every page on a contact sheet (pymupdf `get_pixmap(matrix=...)`; `dpi=` with a float fails). Watch inherited text colour on light pages: a navy mockup inside a light page needs `color:#fff` set.
 - Correction to the 2026-10-21 line on the Design System artifact: it is superseded by the PDF guide.
+
+## 2026-10-21 — Google Flow from his Chrome
+- He's on Google AI **Plus** in Flow (labs.google/fx/tools/flow → flow.google.com), logged in in his Chrome. Video models: **Omni 1.1 Flash** (his "OMNI"), Veo 3.1 Lite / Fast / Quality. Omni, Frames mode, 9:16, 720p, 8 s, x1 = **12 credits** a clip.
+- **Uploading files:** Flow makes its file input only on click, which opens a native picker. Patch `HTMLInputElement.prototype.click` in the page so a file input is appended to the DOM with an aria-label instead, click "Upload media", then `find` it and `file_upload` to it.
+- **Reviewing a clip:** the preview isn't a DOM `<video>`; clicking the ruler or Play didn't move it reliably. **Drag the playhead** on the ruler (y ≈ 558, 8 s ≈ x 14→510 at 1568 wide) and zoom the preview.
+- With his still as the start frame, Omni keeps the room and his face; it drifts on **his glasses** (tinted rimless with orange arms turn clear) when the prompt has him take them off or put them on.
