@@ -9,207 +9,137 @@ tags: [brand, brand-guide, logo, colour, type, called-to-edit]
 
 # Called to Edit: brand guide
 
-**Version 1, 2026-10-21.** The browsable guide with live examples and every logo file: https://claude.ai/artifact/FFdUdBWirJXJ96dSWa2bvm (private; Samuel shares it from its Share menu). This note is the Brain copy of its rules. Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]] · [[03-Areas/called-to-edit/called-to-edit-brand-foundation|brand foundation]] · applications: [[03-Areas/called-to-edit/called-to-edit-brand-guide-applications|video, social and print]].
+**Version 1.0, 2026-10-21.** The guide itself is a designed PDF: `_attachments/called-to-edit-brand/Called-to-Edit-Brand-Guidelines.pdf` (27 pages, with every logo and real mockups). This note is the Brain copy of its rules, word for word in substance. Applications (video, social, print, web): [[03-Areas/called-to-edit/called-to-edit-brand-guide-applications|applications]]. Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]] · [[03-Areas/called-to-edit/called-to-edit-brand-foundation|brand foundation]].
 
-**Samuel's decisions** (2026-10-21, [[03-Areas/called-to-edit/called-to-edit-decisions|decisions]]): logo direction 1 (Title Card), champagne `#FCDD9E` as the one gold, Gloock display, Plus Jakarta Sans, "Called" = a calling from God and to the craft. **The Brand manager's v1, waiting on his review:** the marker on the i, the exact lockup spacing, the profile picture and icon choice, every size, layout and motion rule below.
+**Rule for this guide (Samuel, 2026-10-21):** it can go to any designer or anyone working for him, so it holds **no personal details** and nothing only Samuel would understand. No room, no shooting location, no series names, no in-jokes. [[03-Areas/called-to-edit/called-to-edit-decisions|Decisions]], 2026-10-21.
 
-**Logo files:** `_attachments/called-to-edit-brand/svg/` (outlined, no fonts needed) and `png/` (transparent; logos 2400 px wide, icons 1080). Rebuild from `source/` (Chrome prints `glyphs.html` to PDF, `build_kit.py` turns the glyphs into SVG paths, `make_png.py` renders PNGs).
+**Samuel's decisions:** the stacked logo (direction 1), champagne `#FCDD9E` as the one gold, Gloock, Plus Jakarta Sans, "Called" = a calling from God and to the craft, the brand ladder, the marker and the round dot interchangeable, product names under the logo, a PDF guide. **The Brand manager's v1, under his review:** the exact spacing, the profile picture and icon, and every size, layout and motion rule below.
 
-The brand book for Called to Edit, Samuel Adebayo's coaching brand for video editors who want to build a career. Version 1, 2026-10-21.
+**Logo files:** `_attachments/called-to-edit-brand/svg/` (outlined, no fonts needed) and `png/` (transparent; logos 2400 px wide, square files 1080 px). Rebuild from `source/`: Chrome prints `glyphs.html` to PDF, `build_kit.py` and `build_kit2.py` turn the glyphs into SVG paths, `make_png.py` renders PNGs, `guide.html` is the PDF (Chrome print, 1600 × 900 pages; it needs the kit in `kit/` and the photo cutout in `photos/`).
 
-Every rule here comes from something Samuel already made or picked: the Life of a Video Editor title cards, the navy marble wall in his room, the webinar flyer and his own answers. When a case isn't covered, decide it with the five rules below.
+## 1. The brand
 
-## What Called to Edit is
+### About
+Called to Edit helps video editors build a career. Most training teaches effects and flashy edits. Called to Edit teaches the career itself: how to start, how to find clients, how to price your work and how to grow, alongside the editing skill.
 
-- **Who it's for:** video editors building a career, mostly Nigerian, open to editors anywhere. Two kinds: the starter with no plan, and the editor who can edit but can't get clients or get paid.
-- **The position:** most coaches teach flashy edits. Called to Edit teaches the career: the business side (niche, positioning, clients, pricing) and the skill, with DaVinci Resolve at its core.
 - **The line:** *I coach video editors to get paid.*
-- **The ladder:** Webinar → Academy (the cohort) → Mentorship → Community (from 2027). Samuel is the founder and the face.
+- **Who it's for:** video editors building a career. Some are starting with no plan. Others can already edit but don't yet get clients or get paid. Most are in Nigeria, and editors anywhere are welcome.
+- **Founder:** Samuel Adebayo, video editor and coach. He is the face of the brand.
+- **The name:** always **Called to Edit**, lowercase "to" in sentences. Never "Call to Edit". "Called" means a calling: from God, and to the craft.
 
-### The name
+### The brand ladder
+Each step leads to the next. People meet Samuel first, then join something bigger.
 
-- Always **Called to Edit**. Never "Call to Edit", never "Code to Edit".
-- In running text, `to` is lowercase: Called to Edit Academy, Called to Edit Webinar.
-- "Called" means two things to Samuel: a calling from God and a calling to the craft. The name carries both. The logo stays clean and the meaning shows in how the brand speaks: purpose, service, giving back what he learned.
+1. **Personal brand:** Samuel's own content, under his name. Where people meet him first.
+2. **Webinars:** live sessions. The first step into Called to Edit.
+3. **Community:** where editors keep learning together.
+4. **Academy:** the cohort, the full career programme.
+5. **Mentorship:** one-to-one guidance.
+6. **Physical event (one day):** a Called to Edit event in person.
 
-## The five rules
+The personal brand carries Samuel's own name and photo and stays separate; it points people to Called to Edit. Everything from Webinars onward carries the Called to Edit logo.
 
-1. **The room is the brand.** Navy ground, champagne words, real footage of Samuel, his desk and his wall. No stock photos, no 3D shapes, no purple gradients.
-2. **One gold, one word.** Champagne marks the single thing that matters in a frame: the title word, the number, the price, the button. If two things are gold, one of them is wrong.
-3. **Gloock for the idea, Jakarta for the detail.** The big word is Gloock. Everything people read is Plus Jakarta Sans.
-4. **Hierarchy beats clever details.** One big thing per frame, then a clear second level, then small print. No decoration that only an editor would get (timelines, film strips, clapperboards).
-5. **Real over polished.** Real DMs, real client results, real timelines from real jobs. Proof is the design.
+### Brand principles
+Four rules. When a case isn't covered, decide it with these.
 
-## How it sounds
+1. **Navy first.** Every piece starts on navy. White and champagne sit on top. Real photos of Samuel; never stock photos of people.
+2. **One gold, one word.** Champagne marks the single thing that matters in a design: the main word, the number, the price or the button.
+3. **Gloock for the big word.** The big word is set in Gloock. Everything people read is set in Plus Jakarta Sans.
+4. **Clear hierarchy.** One big thing per design, then a clear second level, then the small print.
 
-- Coach, not guru. "Here's what worked for me", never "you must".
-- Simple English a 15-year-old can follow. One or two Pidgin phrases for warmth, no more.
-- Nigerian by default, open to everyone: naira and Nigerian examples are fine, "Nigerians only" wording isn't.
-- Hooks are bold and true: a stake, a pain or a dream in the first line, never misleading.
-- One call to action per piece.
-- Money shows up as proof and possibility, never as flaunting. Family stays out.
-- Speak to editors, never at other coaches. Call out the industry, not people.
-- Loose like speech. No tidy three-part slogans; they read as written by a machine.
+### Voice and tone
+Called to Edit sounds like a working editor who has done it and is showing you how.
 
-## What's in this system
+- **We sound like:** a coach, not a guru ("Here's what worked for me"). Simple English a 15-year-old can follow, one or two Pidgin phrases for warmth. Nigerian by default, open to editors everywhere. Bold and true hooks: a stake, a pain or a dream in the first line. Loose, like speech, talking to editors directly.
+- **We never:** say "you must" or act perfect; promise income or say "guaranteed"; show money as flaunting (money is proof and possibility); use "Nigerians only" wording; end with more than one call to action.
 
-- **Logo**: the Title Card lockup, its one-line version, product lockups, colourways, clear space, misuse.
-- **Colour**: one navy family, one gold, contrast checked.
-- **Type**: Gloock and Plus Jakarta Sans, with sizes for screens and for 1080 × 1920 video.
-- **Video**: title cards, captions, lower thirds, the soft title shadow.
-- **Social and print**: flyers, carousels, profile pictures, certificates.
-- **Assets**: every logo as SVG and transparent PNG, the profile pictures, the app icon and the seal.
+## 2. Logo
 
-Fonts: both are free Google Fonts under the SIL Open Font License (video, web, print and merch). Install Gloock and Plus Jakarta Sans on any machine that edits for the brand, Resolve included.
+### The logo
+The stacked logo, three parts:
+1. **The top line:** "Called to" in Plus Jakarta Sans SemiBold. White on dark, bronze on light.
+2. **The main word:** "Edit" in Gloock. Champagne on dark, navy on light.
+3. **The marker:** the dot on the i, shaped like the head of a video playhead. It marks the moment you're on.
 
-## Logo
+Always use the logo files. The two lines stay stacked, left-aligned and tight, exactly as drawn.
 
-## The Title Card
+### Marker or round dot
+Both are correct. The marker is the main one. The round dot (Gloock's own dot) is the alternative wherever the marker can't be built, for example a title typed live in a video tool. Never mix the two in one piece. Files ending in `-dot` are the round-dot versions. (Samuel, 2026-10-21: he may build a Fusion node for the marker.)
 
-The logo is built the way Samuel builds his Life of a Video Editor titles: a small white sans line sitting tight on top of one big Gloock word in champagne.
+### Versions
+- **Stacked (main):** almost everywhere: video, social posts, flyers, slides, certificates.
+- **One line:** wide, short spaces: a website header, a lower third, an email footer.
 
-- **"Called to"** in Plus Jakarta Sans SemiBold, white on dark, bronze on light.
-- **"Edit"** in Gloock, champagne on dark, navy on light.
-- **The marker.** The dot on the i is a playhead marker, the shape that sits on top of the playhead in Resolve. It marks the frame you're on now. It is part of the logo: never swap it back for a round dot.
+### Colourways
+Pick the version by the background, never by taste.
 
-Always use the files in Assets. Never retype the logo in a font, even with the right fonts.
-
-## Versions
-
-| Version | File | Use it for |
-|---|---|---|
-| Stacked (main) | `called-to-edit-logo-dark.svg` / `-light.svg` | Almost everything: video, flyers, slides, certificates |
-| One line | `called-to-edit-logo-oneline-dark.svg` / `-light.svg` | Wide, short spaces: website header, lower thirds, email footer |
-| Product | `called-to-edit-academy-*.svg`, `-webinar-`, `-mentorship-`, `-community-` | Anything that belongs to one product. The tag sits where EP 1 sits on his titles |
-| One colour | `-white`, `-navy`, `-champagne` | Over photos, one-colour print, embroidery, foil |
-| Profile picture | `called-to-edit-avatar-champagne.png` | Instagram, TikTok, WhatsApp, YouTube, Google Meet |
-| Icon | `called-to-edit-icon-champagne.png` | Favicon, app icon, anything 24 px and under |
-| Seal | `called-to-edit-seal.svg` | Academy certificates, merch, stickers. Never as the main logo |
-
-## Which colourway
-
-- On navy, midnight, marble or dark footage: **dark** (white + champagne).
-- On white or light paper: **light** (bronze + navy).
-- On busy footage or a photo where neither reads: **white**, plus the title shadow (see Video).
-- Never champagne on white: 1.3 : 1, it disappears.
-
-## Clear space and size
-
-- **Clear space:** keep empty space on every side equal to the height of the letters in "Called to". Nothing else enters it, including the edge of the frame.
-- **Smallest size:** stacked logo 120 px wide on screen, 30 mm in print. One-line logo 160 px wide. Below that, use the profile picture or the icon.
-- **On a 1080 × 1920 video frame:** 360–520 px wide for a title, 220–300 px for a corner bug.
-
-## Responsive marks
-
-The logo shrinks in steps, not by squeezing:
-
-1. **Above 120 px wide:** the full stacked logo.
-2. **32–120 px:** the profile picture, the word Edit with its marker on a champagne disc.
-3. **24 px and under:** the icon, a Gloock E.
-
-## Don't
-
-- Don't retype it, stretch it, rotate it or change the spacing between the two lines.
-- Don't split "Called to" from "Edit", or use "Edit" alone outside the profile picture.
-- Don't recolour it outside the palette, or make both lines gold.
-- Don't add outlines, glows, bevels or gradients. The only effect allowed is the soft title shadow over footage.
-- Don't put the dark logo on a light background, or the champagne logo on white.
-- Don't put the logo on the champagne colour except as the profile picture.
-- Don't capitalise "To" in running text.
-
-## Colour
-
-One navy family and one gold. Navy is the room, champagne is the word.
-
-## The palette
-
-| Name | Hex | Where it comes from | Use |
+| Version | Top line | Main word | Use on |
 |---|---|---|---|
-| Called Navy | `#0A1F44` | Between the flyer's royal navy and the wall | Main background everywhere |
-| Midnight | `#071226` | The shadows of the room | Deepest ground, fades, footer bands, behind cut-outs |
-| Marble | `#1E3150` | The navy marble wall | Panels and cards on navy, second background |
-| Champagne | `#FCDD9E` | Measured from the Life of a Video Editor titles | Logo, the big word, numbers, buttons on dark |
-| Bronze | `#8A5E17` | Champagne made dark enough for white | Gold on white only |
-| White | `#FFFFFF` | | Text on navy, light pages |
-| Mist | `#B9C3D6` | Navy-tinted grey | Second-level text on navy |
+| Dark | white | champagne | navy, midnight, dark footage |
+| Light | bronze | navy | white, light paper |
+| White | white | white | photos, with the soft title shadow |
+| Navy | navy | navy | one-colour print on light stock |
+| Champagne | champagne | champagne | gold foil, embroidery, one colour on dark |
 
-## Proportion
+### Product logos
+Each product puts its name **under** the logo in capitals, spread to the exact width of "Edit", in the colour of the top line. Files: `called-to-edit-{webinar,community,academy,mentorship}-{dark,light,white}`. Product profile pictures: `called-to-edit-avatar-{product}` ("Edit" with the name under it, navy on a champagne disc), for groups and accounts for one product.
 
-About **60 % navy, 30 % white and marble, 10 % champagne.** If a design looks gold, it has too much gold.
+### Clear space and size
+- Clear space on every side equal to the height of the "Called to" letters. Nothing enters it, including the edge of the page or frame.
+- Smallest: stacked 120 px / 30 mm wide, one line 160 px. Below that, use the profile picture or the icon.
+- On a vertical video (1080 × 1920): 360–520 px wide as a title, 220–300 px as a corner logo.
 
-## Contrast (checked)
+### Profile picture and icon
+- **Profile picture:** the word "Edit" with its marker, navy on a champagne disc. Stands out among dark profile pictures and reads down to 32 px. A navy disc version for dark pages where the bright one is too loud.
+- **Icon:** a Gloock E, for 24 px and under: browser tabs, app icons.
+- **Seal:** a ring of "CALLED TO EDIT · ACADEMY · EST. 2026" around the stacked logo, for certificates, merch and stickers. It never replaces the main logo.
 
-| Pair | Ratio | Rule |
+### Misuse
+Don't stretch or squash it. Don't change its colours. Don't rotate it. Don't add glows, outlines or bevels. Don't put champagne on white. Don't place it over busy parts of a photo without the soft shadow. Don't retype it in any font. Don't split or reorder the lines.
+
+## 3. Colour and type
+
+### Palette
+
+| Name | HEX | RGB | CMYK (approx.) | Role |
+|---|---|---|---|---|
+| Called Navy | `#0A1F44` | 10 31 68 | 85 54 0 73 | main background |
+| Midnight | `#071226` | 7 18 38 | 82 53 0 85 | deeper panels, bands |
+| Slate | `#1E3150` | 30 49 80 | 63 39 0 69 | cards, second surfaces |
+| Champagne | `#FCDD9E` | 252 221 158 | 0 12 37 1 | the one gold |
+| Bronze | `#8A5E17` | 138 94 23 | 0 32 83 46 | gold on white only |
+| White | `#FFFFFF` | 255 255 255 | 0 0 0 0 | reading text on navy |
+| Mist | `#B9C3D6` | 185 195 214 | 14 9 0 16 | secondary text on navy |
+| Ink (light pages) | `#4A5670` | 74 86 112 | — | secondary text on white |
+
+Ask the printer for a proof against the HEX values. Slate was called "Marble" in round 1; renamed 2026-10-21.
+
+### Colour in use
+- **Proportion:** 60 % navy, 30 % white and slate, 10 % gold.
+- **Contrast:** champagne on navy 12.4 : 1 (logo, headlines, buttons) · white on navy 16.2 : 1 (all reading text) · navy on champagne 12.4 : 1 (buttons, boxes) · bronze on white 5.7 : 1 (gold on light pages) · champagne on white 1.3 : 1, never.
+- Urgency (seats left, a price, a deadline) gets a champagne or white box with navy text, never red.
+- Gradients only from navy to midnight, to darken a photo behind text.
+
+### Gloock (display)
+For the big word: titles, numbers, names, one to four words at a time. 48 px and up on screen, 120 px and up on a 1080 × 1920 video. One weight, no italic. Never fake bold or italic, never all caps. Letter spacing −4 to −5 %. Free Google Font (SIL Open Font License).
+
+### Plus Jakarta Sans (text)
+For everything people read. ExtraBold 800 headlines, Bold 700 titles and labels, SemiBold 600 top lines and captions, Medium 500 body. Letter spacing −3 % on headlines, 0 on body, +14 % on all-caps labels. Free Google Font (SIL OFL). Install it on every machine that designs or edits for the brand.
+
+### Type hierarchy
+
+| Style | Font | Size / line height |
 |---|---|---|
-| White on Called Navy | 16.2 : 1 | All reading text |
-| Champagne on Called Navy | 12.4 : 1 | Logo, headlines, numbers, buttons |
-| Navy on Champagne | 12.4 : 1 | Text on a champagne button or box |
-| Champagne on Marble | 9.9 : 1 | Highlights inside cards |
-| Mist on Called Navy | 9.2 : 1 | Labels, dates, small print |
-| Mist on Marble | 7.4 : 1 | Small print inside cards |
-| Bronze on White | 5.7 : 1 | Gold accent on light pages |
-| White on Bronze | 5.7 : 1 | A button on a light page |
-| Champagne on White | 1.3 : 1 | **Never** |
+| Big word | Gloock | 120 / 0.9 |
+| Section word | Gloock | 72 / 0.95 |
+| Number | Gloock | 96 / 0.9 |
+| Headline | Jakarta ExtraBold | 40 / 1.15 |
+| Top line | Jakarta SemiBold | 0.3 × the big word |
+| Title | Jakarta Bold | 24 / 1.25 |
+| Body | Jakarta Medium | 17 / 1.6 |
+| Label | Jakarta Bold, caps | 12 / 1.3, +14 % |
 
-## Rules
+**The signature build:** a short top line in Plus Jakarta Sans sitting tight on one big Gloock word, both left-aligned, exactly like the logo. For titles, covers and headlines.
 
-- The webinar flyer's yellow is retired. Two golds side by side look like a mistake.
-- Urgency (seats left, a price, a deadline) gets a champagne box with navy text, or a white box with navy text. Never red.
-- Status colours (green for paid, red for an error) appear only in forms and dashboards, small. Never in a headline or a logo.
-- Over footage, grade toward the room: deep navy shadows, warm highlights. The champagne then sits naturally on top.
-- Gradients: only navy to midnight, to darken a photo behind text.
-
-## Type
-
-Two families. Gloock carries the idea, Plus Jakarta Sans carries everything people read.
-
-## Gloock (display)
-
-- Already Samuel's title font in Life of a Video Editor. Heavy, warm, readable on a phone at title size.
-- **One weight, no italic.** Don't fake bold or italic.
-- **Big sizes only:** 48 px and up on screen, 120 px and up on a 1080 × 1920 frame. Its thin strokes break up below about 24 px.
-- **One to four words at a time:** a title word, a number, a name.
-- Tracking −4 % to −5 % (tight, like the titles). Line height 0.9–1.
-- Sentence case. Never all caps.
-
-## Plus Jakarta Sans (everything else)
-
-- The free match for the heavy sans on the webinar flyer, with every weight from 200 to 800.
-- **ExtraBold 800** for headlines, **Bold 700** for titles and labels, **SemiBold 600** for the kicker and video captions, **Medium 500** for body text.
-- Tracking −3 % on headlines, 0 on body, +14 % on all-caps labels.
-
-## Screen sizes
-
-| Style | Family | Size / line | Use |
-|---|---|---|---|
-| display-xl | Gloock | 120 / 0.9 | The one big word on a flyer or cover |
-| display-l | Gloock | 72 / 0.95 | Section words, big names |
-| display-m | Gloock | 48 / 1.0 | Smallest Gloock allowed on screen |
-| number | Gloock | 96 / 0.9 | Stats: 500+, $20,000+, 8+ |
-| headline | Jakarta 800 | 40 / 1.15 | The sentence under the big word |
-| title | Jakarta 700 | 24 / 1.25 | Card and slide titles |
-| kicker | Jakarta 600 | 30 / 1.0 | The small line on top of a Gloock word (0.3 × its size) |
-| body | Jakarta 500 | 17 / 1.6 | Reading text |
-| body-s | Jakarta 500 | 15 / 1.5 | Small text, footers |
-| label | Jakarta 700 | 12 / 1.3, caps, +14 % | Eyebrows, details labels, tags |
-
-## Video sizes (1080 × 1920)
-
-| Element | Size | Notes |
-|---|---|---|
-| Title word (Gloock) | 180–260 px | Champagne, tracking −5 % |
-| Kicker (Jakarta 600) | 0.3 × the title size | White, tight on top of the title |
-| Tag (Jakarta 700 caps) | 0.12 × the title size | Champagne, top right of the title, like EP 1 |
-| Subtitle (Jakarta 600) | 44–52 px | White, one line under the title |
-| Captions (Jakarta 600) | 46–54 px | White, the key word champagne |
-| Lower third name (Jakarta 700) | 44 px | White; role under it in Mist, 32 px |
-
-For 1920 × 1080 (landscape), use the same numbers × 0.9.
-
-## The kicker-and-word build
-
-This is the brand's signature, from the logo down to every title: a short Jakarta line, then one Gloock word, stacked tight and left-aligned. The kicker is 0.3 × the word's size and sits so its baseline almost touches the tallest letter of the word.
-
-- *Called to* / **Edit**
-- *Lesson 3* / **Pricing**
-- *How I got my first* / **Client**
+### The marker
+The playhead shape from the logo's i is the brand's one graphic device: as a bullet, as a pointer ("you are here" in a list of steps), or over a number. Champagne on dark, bronze on light. One marker per item, never scattered as decoration.

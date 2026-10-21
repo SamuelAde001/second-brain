@@ -12,7 +12,7 @@ tags: [project, brand, called-to-edit]
 **Area:** [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
 **Started:** 2026-10-21, at Samuel's ask: *"I want to have a proper logo for Called to Edit, and a proper brand guidine for Called to Edit, just like my client Alex had a proper branding for his company"*. (On 2026-10-20 he had said *"later after the webinar though"*; today's ask replaces that.)
 **Deadline:** none set.
-**Status:** guide v1 built 2026-10-21, waiting on his review. Round 1 answered the same day. Nothing is final until he says so (*"until you are 100% sure before you finalise things"*).
+**Status:** guide v1.0 PDF built 2026-10-21 after his corrections (`_attachments/called-to-edit-brand/Called-to-Edit-Brand-Guidelines.pdf`), waiting on his review. Round 1 answered the same day. Nothing is final until he says so (*"until you are 100% sure before you finalise things"*).
 
 ## What it covers
 
@@ -47,3 +47,13 @@ Samuel's answers in [[03-Areas/called-to-edit/called-to-edit-decisions|decisions
 - **Built:** 23 outlined SVGs + 23 transparent PNGs (stacked and one-line logos in 5 colourways, Academy/Webinar/Mentorship/Community lockups, two avatars, two icons, the seal), in `_attachments/called-to-edit-brand/`.
 - **Guide v1:** https://claude.ai/artifact/FFdUdBWirJXJ96dSWa2bvm, a Claude Design System: brand book (overview, five rules, voice, logo, colour, type, video, social and print), tokens, 13 live examples (logo, profile picture, title card, captions, lower third, button, urgency, details row, marker, flyer, carousel, certificate, cover). Brain copy: [[03-Areas/called-to-edit/called-to-edit-brand-guide|brand guide]] and [[03-Areas/called-to-edit/called-to-edit-brand-guide-applications|applications]].
 - **Waiting on Samuel:** his review of the variation, avatar and guide v1. Not yet done: Resolve title templates (Fusion macros) in the brand, a Canva kit, the landing page restyle, the post-webinar announcement. Nothing goes public before the webinar (his 2026-10-20 rule).
+
+## Round 3: corrections and the PDF guide (2026-10-21, Brand manager)
+
+Samuel's corrections word for word in [[03-Areas/called-to-edit/called-to-edit-decisions|decisions]] (2026-10-21). He rejected the Design System artifact as the guide (*"images are missing and I can't see the design in work"*) and asked for a PDF.
+
+- **Kit v2:** product names under the logo, spread to the width of "Edit" (Webinar, Community, Academy, Mentorship; dark, light, white); product profile pictures; round-dot versions of every logo and the avatar (`-dot`). 40 SVG + 40 PNG in `_attachments/called-to-edit-brand/`.
+- **Guide v1.0 as a PDF:** `_attachments/called-to-edit-brand/Called-to-Edit-Brand-Guidelines.pdf`, 27 pages at 1600 × 900: about, ladder, four principles, voice, the logo and its parts, marker or dot, versions, colourways, product logos (in a box, as profile pictures, in a chat list), clear space, profile picture and icon (on a phone profile), misuse, palette, contrast, Gloock, Plus Jakarta Sans, hierarchy, the marker, vertical video, lower thirds, flyer and carousel, certificate, website. Source `source/guide.html`.
+- **Removed per Samuel:** every room and location detail, the series name, rule 5, "If two things are gold, one of them is wrong", the decoration line, "Call out the industry, not people", words only he would get ("kicker" is now "top line", "Title Card" is now "the stacked logo", "Marble" is now "Slate").
+- **Mockup copy is example copy.** The webinar details on the flyer and website come from the designer brief and landing page copy. The phone profile uses placeholder numbers.
+- **Not done:** the marker as a Fusion node (Samuel's or the Editor's job, his call), Resolve title templates, a Canva kit, the landing page restyle, the post-webinar announcement. The superseded Design System artifact (https://claude.ai/artifact/FFdUdBWirJXJ96dSWa2bvm) still exists; it is not deleted unless he asks.

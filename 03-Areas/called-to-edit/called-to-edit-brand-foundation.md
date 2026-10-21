@@ -57,6 +57,7 @@ No number yet (2026-10-20): *"I want it to be that when they think of a video ed
 - **Measured, 2026-10-21** (frames of Life of a Video Editor Ep 1 and Ep 2): the title gold is `#FCDD9E` in both; the title font is **Gloock** (installed on his PC, in Resolve's Fusion font list, letters match). Not yet checked inside the episode projects: that needs Route Rise video 2's open project closed. The marble wall reads about `#1E2F47`. The designer's flyer (`Desktop\Called to Edit\called-to-edit-main-flyer.png`) uses royal navy, yellow, white and a heavy round sans with a big asterisk.
 - **Round 1 concepts** are out for his answers: [[04-Projects/called-to-edit-brand-build|brand build]].
 - **2026-10-21: decided and built.** Title Card logo, champagne, Gloock, Plus Jakarta Sans. Guide v1: [[03-Areas/called-to-edit/called-to-edit-brand-guide|brand guide]].
+- **2026-10-21: the brand ladder** (Samuel): personal brand → webinars → Community → Academy → Mentorship → a Called to Edit physical event (one day). Replaces the order in suggestion 1 below.
 
 ## 7. Timing
 
@@ -67,7 +68,7 @@ No number yet (2026-10-20): *"I want it to be that when they think of a video ed
 
 Given to Samuel on 2026-10-20. He confirmed none of these yet.
 
-1. **Build the ladder one step at a time**: content → webinar → cohort → alumni community → mentorship → seminar once there are enough alumni to fill a room. Drop "masterclass" unless it means something the webinar doesn't.
+1. **Build the ladder one step at a time**: content → webinar → cohort → alumni community → mentorship → seminar once there are enough alumni to fill a room. Drop "masterclass" unless it means something the webinar doesn't. *(2026-10-21: Samuel set his own ladder, recorded above under the look.)*
 2. **The contrarian take needs proof.** Cohort 1's real job is 3-5 case studies of editors who got paid. They become the content, and later the content of a Called to Edit account.
 3. **Say "Called" on purpose.** Samuel said "Call to Edit" throughout the 2026-10-20 voice note; the audience will too. Make "Called" clear in the logo, and secure the handle and domain for both spellings.
 4. **The logo is a simple wordmark** in the look he picks, ready before cohort certificates are handed out.
