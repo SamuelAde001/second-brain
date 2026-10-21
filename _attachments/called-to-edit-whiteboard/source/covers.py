@@ -1,5 +1,5 @@
 """Reveal stickies: one champagne SVG per hidden part, sized to cover it, label outlined in Plus Jakarta Sans ExtraBold.
-Reads out/<row>.json (positions from build.py), writes out/covers/<row>-NN.svg and out/covers.json."""
+Reads out/map*.json (positions from build_map.py), writes out/covers/<row>-NN.svg and out/covers.json."""
 import glob, json, os
 from fontTools.ttLib import TTFont
 from fontTools.varLib.instancer import instantiateVariableFont
@@ -54,7 +54,7 @@ def cover(label, w, h):
 
 
 manifest = {}
-for js in sorted(glob.glob(os.path.join(OUT, "row*.json"))):
+for js in sorted(glob.glob(os.path.join(OUT, "map*.json"))):
     name = os.path.basename(js)[:-5]
     info = json.load(open(js, encoding="utf-8"))
     items = []

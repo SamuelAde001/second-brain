@@ -2,7 +2,7 @@
 from maplib import *
 from lib import rv, icon, mark, NAVY, CH, MIST
 
-NAME, W, H = "map04-niche", 5400, 3200
+NAME, W = "map04-niche", 5400
 A, B = 1450, 3500          # the two branch columns
 R1, R2, R3 = 80, 1150, 2220  # the three branch rows
 
@@ -27,7 +27,7 @@ def ranking(b, ox, oy):
     edge("t1", "r0", "line", sa="b", sb="t", bend=0.4)
     for k in range(3):
         edge(f"r{k}", f"r{k+1}", "mist", sa="l", sb="l", bend=0.9)
-    b.append(note(ox - 150, oy + 520, 130, '<div style="font:800 20px \'Plus Jakarta Sans\';letter-spacing:.12em;color:#B9C3D6;text-align:right">PAYS<br>LESS</div>'))
+    b.append(note(ox + 1640, oy + 640, 130, '<div style="font:800 20px \'Plus Jakarta Sans\';letter-spacing:.12em;color:#B9C3D6">PAYS<br>LESS</div>'))
 
 
 def trap(b, ox, oy):
@@ -97,25 +97,17 @@ def offer(b, ox, oy):
     edge("o7", "ex", "gold", sa="b", sb="t", bend=0.3)
 
 
+TOC = [("4.1", "Who pays? My ranking"), ("4.2", "The follower trap"), ("4.3", "The niches at a glance"),
+       ("4.4", "How to choose yours"), ("4.5", "Short form or long form?"), ("4.6", "Say it in one sentence")]
+
+
 def build():
     reset()
-    b = []
-    b += [zone(A - 220, R1, 1940, 1000), zone(B - 70, R1, 1600, 1000),
-          zone(B - 70, R2, 1600, 1000), zone(A - 220, R2, 1940, 1000),
-          zone(A - 220, R3, 1940, 920), zone(B - 70, R3, 1600, 920)]
-    b.append(hub("hub", 60, 1300, "4", "Choose your", "Niche", "Pick one you enjoy, that makes money and values marketing. Then say it in one sentence."))
-    b.append(quote_(80, 1900, 1050, "In any niche, business people pay more.", 58))
-    ranking(b, A, R1)
-    trap(b, B, R1)
-    glance(b, B, R2)
-    choose(b, A, R2)
-    shortlong(b, A, R3)
-    offer(b, B, R3)
-    # the road through the branches
-    edge("hub", "t1", "gold", sa="t", sb="l", bend=0.5)
-    edge("t1", "t2", "gold", sa="r", sb="l", bend=0.3)
-    edge("t2", "t3", "gold", sa="r", sb="r", bend=0.5)
-    edge("t3", "t4", "gold", sa="l", sb="r", bend=0.3)
-    edge("t4", "t5", "gold", sa="l", sb="l", bend=0.5)
-    edge("t5", "t6", "gold", sa="r", sb="l", bend=0.3)
-    return "".join(b), W, H
+    brs = []
+    for fn in (ranking, trap, glance, choose, shortlong, offer):
+        b = []
+        fn(b, 0, -60)
+        brs.append("".join(b))
+    body = assemble("4", "Choose your", "Niche", "Pick one you enjoy, that makes money and values marketing. Then say it in one sentence.",
+                    "In any niche, business people pay more.", brs, TOC, ("NEXT · CHAPTER 5", "Your tools and the money to start"))
+    return body, W, None

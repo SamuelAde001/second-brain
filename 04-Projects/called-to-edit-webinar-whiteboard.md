@@ -29,7 +29,35 @@ His choices: Canva **in his Chrome** (he keeps the window visible); old story ph
 - Canva design: "Untitled design - Whiteboard" in his account, https://www.canva.com/design/DAHYrXl8-WE/Vy9aSwga4gVcdXINoOc29g/edit. It currently holds the **rejected slide rows** (rows 0-9): delete them before placing maps. The test Presentation "test.pdf" (DAHYrWMI1dE) can be deleted.
 - Old slide version (rejected, kept as content reference): `rows_a..d.py`, `build.py`.
 
-## RESUME (2026-10-21 ~23:40)
+## RESUME (2026-10-22, after Samuel's yes to the map style)
+
+Samuel: *"Yes, this map style is right. Map every chapter like this, clear the old slide rows and put it all on the Canva whiteboard."*
+
+- Done:
+  - All 13 maps are built: `map00.py` (opening) to `map12.py` (next steps, Community, questions).
+  - Each map is a hub column on the left with a contents list, branches in a two-column snake, and a gold road ending in a "Next chapter" pointer.
+  - Layout is measured in the page (`maplib.assemble`), so nothing overlaps.
+  - The old slide rows are deleted from the whiteboard.
+  - Every map is placed on the Canva whiteboard in one column at x=0, 900 px apart. Positions: `out/placement.json` and `out/canva-plan.json`.
+  - 120 reveal stickies are placed from `out/covers.json`.
+- Canva refuses SVGs over 3 MB. `split_map.py` cuts big maps into bands at empty rows (map01, map08 and map09 are in bands; `out/<map>-bands.json`).
+- Demo badges are on the maps:
+  - 6.5: YouTube download (optional)
+  - 8.4: Twitter
+  - 8.5: portfolio
+  - 9.4: YouTube/IG search
+  - 9.8: outreach email
+  - 9.10: Loom
+- Photo and screenshot slots are dashed polaroids. Fill them via `source/photos.json`, then rebuild and replace that map.
+- Next:
+  - Whiteboard background to Midnight `#071226`.
+  - Rename the design "Called to Edit Webinar Whiteboard".
+  - Samuel walks through it.
+  - Google Photos picture board for the story photos.
+  - His screenshots.
+  - Canva people and client illustrations on top.
+
+## Earlier RESUME (2026-10-21 ~23:40)
 
 - Done: content for all 12 chapters written (slide version); map style built and proven on **Chapter 4** (`map04.py`, preview `_attachments/called-to-edit-whiteboard/map-style-preview-ch4.png`).
 - Waiting: Samuel's yes on the Chapter 4 map style.

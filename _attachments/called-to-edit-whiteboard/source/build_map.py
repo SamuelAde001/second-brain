@@ -23,10 +23,13 @@ def build(modname, preview=0.2):
     if hasattr(m, "P"):
         m.P.update(photos)
     body, w, h = m.build()
-    html = maplib.page(body, w, h, m.NAME)
     hp = os.path.join(HERE, m.NAME + ".html")
-    open(hp, "w", encoding="utf-8").write(html)
     url = "file:///" + hp.replace("\\", "/")
+    if h is None:  # measured layout: render tall once, read the height the page computed
+        open(hp, "w", encoding="utf-8").write(maplib.page(body, w, 40000, m.NAME))
+        mm = re.search(r'<script type="application/json" id="pos">(.*?)</script>', chrome("--dump-dom", url).stdout, re.S)
+        h = json.loads(mm.group(1))["h"]
+    open(hp, "w", encoding="utf-8").write(maplib.page(body, w, h, m.NAME))
     pdf = os.path.join(OUT, m.NAME + ".pdf")
     chrome(f"--print-to-pdf={pdf}", url)
     dom = chrome("--dump-dom", url).stdout
