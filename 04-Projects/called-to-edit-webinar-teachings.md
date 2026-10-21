@@ -23,6 +23,8 @@ Webinar: Fri 2026-10-23, 7:00pm WAT, 2½ hours. Visuals built Mon 2026-10-19 and
 
 His full voice notes, word for word: [[04-Projects/called-to-edit-webinar-teachings-raw|raw voice notes]].
 
+**Master doc** (2026-10-21, Samuel asked for one doc that is his teaching outline, the students' reading version and the base for the whiteboard): *Called to Edit Webinar: How to Build a Career as a Video Editor and Get Paid*, a Claude Doc at https://claude.ai/artifact/EFWTzDSHQPooeHkZNKCLCq. Twelve chapters reordered for reading (niche and tools before learning; learning split into how to learn and practice to paid), seven drawings, homework checklist, one-page recap. Built from this note and the raw notes; nothing added that he didn't say, except sourced market numbers and the researched tables.
+
 ## 0. Before the pathway
 
 ### 0.1 His story: zero to paid by a client abroad, working from Abuja
