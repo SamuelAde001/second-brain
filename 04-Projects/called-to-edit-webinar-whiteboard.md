@@ -26,7 +26,7 @@ His choices: Canva **in his Chrome** (he keeps the window visible); old story ph
 - Source: `_attachments/called-to-edit-whiteboard/source/`. Map style: `maplib.py` (nodes, hub, topic pills, leaves, chips, demo badges, polaroid photo slots, connectors drawn by script). One file per chapter: `mapNN.py`. Build: `python build_map.py map04` → `out/<name>.svg` (text outlined, his exact fonts), preview PNG on midnight, reveal positions JSON.
 - Reveal stickies: `covers.py` makes one champagne SVG per hidden part from the positions JSON (written for the old rows; point it at the map JSONs).
 - Into Canva: a hidden file input + synthetic drop onto the whiteboard, then the Position panel's W/X/Y set by script (`claudePlace` in the page). One placement at a time; wait for the new element before setting values; long jobs run as a background promise and are polled (the JS call times out at 45 s).
-- Canva design: "Untitled design - Whiteboard" in his account, https://www.canva.com/design/DAHYrXl8-WE/Vy9aSwga4gVcdXINoOc29g/edit. It currently holds the **rejected slide rows** (rows 0-9): delete them before placing maps. The test Presentation "test.pdf" (DAHYrWMI1dE) can be deleted.
+- Canva design: "Called to Edit Webinar Whiteboard" in his account, https://www.canva.com/design/DAHYrXl8-WE/Vy9aSwga4gVcdXINoOc29g/edit. The test Presentation "test.pdf" (DAHYrWMI1dE) can be deleted.
 - Old slide version (rejected, kept as content reference): `rows_a..d.py`, `build.py`.
 
 ## RESUME (2026-10-22, after Samuel's yes to the map style)
@@ -49,9 +49,8 @@ Samuel: *"Yes, this map style is right. Map every chapter like this, clear the o
   - 9.8: outreach email
   - 9.10: Loom
 - Photo and screenshot slots are dashed polaroids. Fill them via `source/photos.json`, then rebuild and replace that map.
+- Also done: a locked Midnight `#071226` backdrop (6400 px wide, `out/backdrop.svg`) sits behind everything, and the design is renamed "Called to Edit Webinar Whiteboard".
 - Next:
-  - Whiteboard background to Midnight `#071226`.
-  - Rename the design "Called to Edit Webinar Whiteboard".
   - Samuel walks through it.
   - Google Photos picture board for the story photos.
   - His screenshots.
