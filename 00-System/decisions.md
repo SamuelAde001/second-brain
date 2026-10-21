@@ -334,3 +334,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: new area `03-Areas/called-to-edit/` (overview, brand foundation, standing files). Academy, Mentorship and Community link to it as branches; HighSignals is marked paused and kept as history plus the community that may become Called to Create; Scripnals stands alone. AGENTS.md §1-2, about-samuel, and the orchestrator and Brand manager profiles updated; the Brand manager now owns the new area, the orchestrator keeps the branches. No folder renamed.
 **Why**: Samuel's answers, 2026-10-20 ([[03-Areas/called-to-edit/called-to-edit-decisions|Called to Edit decisions]]). The layout is the Brand manager's; Samuel can change it.
 **Who decided**: Samuel (the brand), Brand manager (the layout).
+
+## 2026-10-21 — Brand manager may read `Desktop\Called to Edit\`
+
+**Decision**: read-only access for the Brand manager to `C:\Users\repzy\Desktop\Called to Edit\` (the designer's webinar flyer and his references), listed in AGENTS.md §10 and the profile. Small copies go to the scratchpad only.
+**Why**: Samuel, 2026-10-21, asking for the Called to Edit brand guide: *"go through my materials and my finished video of my page"*. The flyer he picked lives there.
+**Who decided**: Samuel.
