@@ -43,3 +43,22 @@ Then: *"Go ahead and do the full brand guide"*.
 - **Decided:** logo direction 1 (Title Card), champagne `#FCDD9E` as the one gold (flyer yellow out), Gloock display, Plus Jakarta Sans for everything else.
 - **Still open:** which variation of the Title Card, and the profile picture / icon (he asked for variations and fine-tuning).
 - **Who decided:** Samuel.
+
+## 2026-10-21 — Corrections to brand guide v1, and a PDF instead
+
+Samuel, word for word:
+- *"Never add personal details to the guide as it could go to any designer, or anyone working for me, eg, MY ROOM, they don't know my room, I can shoot somewhere else from my room"*
+- *"The ladder is - My Personal brand - webinars - Community - Academy - Mentorship - Called to Edit physical event (one day)"*
+- *"The room is not my brand, don't mention the room and it's details, I would move out one day"*
+- *"Remove the line " If two things are gold, one of them is wrong.""*
+- *"Remove this "No decoration that only an editor would get (timelines, film strips, clapperboards).""*
+- *"The move the whole of Rule No 5"* (read as: remove rule 5, "Real over polished")
+- *"Remove "Call out the industry, not people.""*
+- *"Remove anything someone who isn't me can't understand, some words you use are things only I understands in the brand guide"*
+- *"Remove "The logo is built the way Samuel builds his Life of a Video Editor titles: " a new designer won't know my series"*
+- *"For the Marker dot on the I sometimes, I am not sure it can fit in a video based on the font, I have to create a fusion node for it, but I like it, It can be interchanged with the normal font dot"*
+- *"I don't like the Called to Edit Webinar and Called to Edit Academy, the extra words are byt the side, let's put it under so it's easy to put in a box or a profile picture"*
+- *"I Want a proper PDF brand Guide, I ddon't like this artifact, images are missing and I can't see the design in work, make a PDF instead and showcase the brand guide and the actuall usage properly in the PDF, so I can see the proper use case and see the visuals well"*
+
+- **Decided:** the brand ladder is personal brand → webinars → Community → Academy → Mentorship → a Called to Edit physical event (one day). This replaces the order in the brand foundation. The marker and the normal round dot on the i are interchangeable. Product names go under the logo. The guide holds no personal details (no room, no series, nothing only Samuel would understand). The guide is a PDF.
+- **Who decided:** Samuel.
