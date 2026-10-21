@@ -227,6 +227,8 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-21 | bulk | 3,000 | Drugs he needed | Personal / misc | his words: "3000 spent by me on some drugs I needed"; line already fully spent, so over by 3,000; day assumed |
 | 2026-10-21 | bulk | 5,500 | Eating out | Eating out | his words: "5,500 spent on eating out"; day assumed |
 | 2026-10-21 | bulk | 8,000 | Transport for the person who helped pick the laptop | Creative director laptop | his words: "8000 spent on transportation for the person that helped me pick the laptop for her"; on the laptop line, not Transport, so the laptop's full cost shows in one place; day assumed |
+| 2026-10-21 | bulk | 525 | Minor spends 2026-10-19 to 2026-10-21 | Other | derived; rows give 102,572, he has 102,047; likely transfer and POS charges |
+| 2026-10-21 | balance | 102,047 | Bank | — | his words: "102,047 in my bank now"; no screenshot. Webinar money not counted: 69,216 webinar account + 4,892 Flutterwave (his words) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
