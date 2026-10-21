@@ -110,3 +110,7 @@ One accent only. Fusion values are the hex as 0–1 floats, the same way `#FF5A1
 Ten frames of our constructs redrawn in this brand, with the real fonts and Alex's frame from video 2, rendered 2026-10-20 for Samuel: video 2's job folder → `Docs\Frontal brand study (Editor)\` (`review_sheet_1.png`, `review_sheet_2.png`, `frames\f1–f10.png`, source `frames.html`). Ground + chapter title, key line over A-roll, list reveal, tool logo wall, sky key number, glass stat beside Alex, diagram, chapter lower third, brand beat, website beat.
 
 Back to [[03-Areas/video-editing/clients/alex|Alex]] · [[03-Areas/video-editing/video-editing|Video editing]]
+
+## 10. How Samuel wants the brand used (2026-10-21)
+
+After the video 2 plan v1 frames: *"using their brand guide doesn't mean you should do very medicocre looking visuals, use the style and work on it"*. Corner brackets on every box; the last four videos' standard in this look, and better. Full rules: [[03-Areas/video-editing/ways-of-working|ways of working]] (2026-10-21).

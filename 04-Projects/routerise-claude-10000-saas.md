@@ -75,3 +75,9 @@ Samuel, 2026-10-20 ~21:50 WAT, by voice before bed: start the visuals; transcrib
 - **Editor's own calls in the plan (not Samuel's):** chapter markers without numbers; real-page beats up to 22; "$50" as glass beside Alex; top Dark fade in the ledger; light pages under numbers = blur + Dark overlay, never grey (PLAN BRIEF §6).
 - **Questions for Samuel:** (1) the title says 10,000, Alex says 3,000 (300 up close): visuals show 3,000/300, OK? (2) the source of "18 founders who broke out of a stall" (no link in either script). (3) the call screen needs real footage of Alex on a call with a guest: is there a better source than the Rob Hoffman podcast tiles?
 - **Next:** his notes on the plan and frames; then the build after the Wed 2026-10-21 23:00 reset, masters first (Claude app rebuild, R5 field rig, R1 ledger, R3 board, R2 receipt), with PLAN BRIEF §6 applied.
+
+### Samuel's review of the style frames, 2026-10-21 ~02:40 (Editor)
+
+- **Plan v1's look is rejected** (*"the visuals look cheap bro"*). His words and eight rules: job `Docs/Visual plan v1 (Editor)/SAMUEL NOTES 2026-10-21.md`, also in [[03-Areas/video-editing/ways-of-working|ways of working]] (2026-10-21). The structure (beats, timing, captures, site kit) stays; the compositions get re-planned.
+- **RESUME (when he says resume, after the Wed 2026-10-21 23:00 WAT reset):** read SAMUEL NOTES first, then PLAN BRIEF section 7. Plan v2 starts from the brand-study frames he liked and the last four finals; 3-4 hero frames to him first, his yes, then the rest, then the build. Nothing goes on his timeline before that.
+- Ask him on resume: SY-03 or SY-02 (he named SY-03; only SY-02 was on the sheets).
