@@ -82,3 +82,7 @@ Samuel, same day: *"60 days challenge is what we are going for."* It starts **20
 ## 2026-10-21 — Community: Discord, pay now or anytime, go ahead with any number
 
 Samuel, word for word: *"Discord yes"* · *"Pay now or anytime"* (no waitlist) · *"We would have weekly calls so people can ask questions on the live call, 1hr on Wednesdays, but that may be stressful for me, I would decide it tomorrow with my creative Director"* · *"If few people pay, we work with the few"*. Weekly call: not decided, his call on 2026-10-22. → [[04-Projects/called-to-edit-community-launch|community launch]]
+
+## 2026-10-22 — Community: NGN 2,000 first month for webinar attendees, and a /community page
+
+Samuel: *"instead of 5k, they would get 2k for their first month and 5k monthly after, that discount is only those who attended the webinar"*. Access opens right after the webinar. Registration goes through a **/community** page on a new on-brand website; the rest of the website is not built yet (*"I can't build the main website now cause I don't want to burn all this weeks tokens"*). → [[04-Projects/called-to-edit-community-launch|community launch]]

@@ -2,7 +2,7 @@
 type: project
 area: called-to-edit
 status: active
-updated: 2026-10-21
+updated: 2026-10-22
 source: interview
 tags: [called-to-edit, community, discord, flutterwave, 60-day-challenge]
 ---
@@ -22,6 +22,14 @@ Part of [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]. The webinar's
 - **No waitlist:** *"Pay now or anytime"*. The link goes out at the webinar and stays open.
 - **Numbers:** *"If few people pay, we work with the few."*
 - **Weekly call:** proposed, 1 hour on Wednesdays for live questions, *"but that may be stressful for me"*. He decides on 2026-10-22 with his creative director.
+
+## Added 2026-10-22
+
+Samuel, word for word: *"immediatly they finish the webinar, I would give them access to the community, as a paid subscription, but on a discount, instead of 5k, they would get 2k for their first month and 5k monthly after, that discount is only those who attended the webinar"*.
+- **Webinar attendees:** NGN 2,000 for the first month, then NGN 5,000 a month. Everyone else: NGN 5,000 a month.
+- **Discord**, set up in full: channels, lobby, rules, automations, and a payment flow that works with Discord.
+- **A new website**, on brand. Only the **/community** page is built now: it is the link people get after the webinar to register. The main page waits, to save this week's tokens.
+- Set-up questions put to him 2026-10-22; his answers go below.
 
 ## Research (2026-10-21, on his ask)
 
