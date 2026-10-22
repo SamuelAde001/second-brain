@@ -184,3 +184,6 @@ Back to [[07-Agents/content/profile|Profile]]
 
 ## 2026-10-22 evening: Discord built in Samuel's Chrome
 - Created the server and the bot app, set the redirect, Public Bot off. Samuel did the human check, pasted the keys (Notepad) and authorised the bot. Ran build and post-texts: roles, 23 channels with icons (his ask), AutoMod, Community mode, pinned texts, workbook, logo; renamed the bot from "Editors Bot". Keys and server ids on Netlify, redeployed. Open: Flutterwave key, test payment, domain.
+
+## 2026-10-22 night: rework after Samuel's correction
+- Cut the server to 12 member channels around growth (accountability, feedback, resources, opportunities, help, weekly live), the 60-Day Challenge as one forum post. Rewrote the Discord texts and the /community page. Built Editors Bot: slash commands via a Netlify interactions endpoint, Claude answering from the teachings, call reminder. /help tested in the server. Waiting: Anthropic key, call time.

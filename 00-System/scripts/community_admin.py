@@ -45,40 +45,28 @@ NO_POST = SEND | (1 << 38) | (1 << 35)  # send, send in threads, create threads
 
 TEXT, VOICE, CATEGORY, STAGE, FORUM = 0, 2, 4, 13, 15
 # (category, [(name, type, mode, topic)]). mode: ro = read-only for members, rw, team, expired
+# Samuel, 2026-10-22: few, essential channels; the community is for growing with others, the
+# 60-day challenge is one activity in it.
 LAYOUT = [
     ("START HERE", [
-        ("welcome", TEXT, "ro", "Join messages and welcomes land here, so the chat stays clear."),
-        ("rules", TEXT, "ro", "The rules. One minute."),
-        ("announcements", TEXT, "ro", "News from Samuel."),
-        ("start-here", TEXT, "ro", "How the community works and how to post your check-in."),
-        ("workbook", TEXT, "ro", "Your First 60 Days: the workbook."),
-        ("daily-nugget", TEXT, "ro", "A nugget from Samuel's teaching, every morning at 7."),
+        ("start-here", TEXT, "ro", "What this community is, the rules, and how to use it. Read first."),
+        ("announcements", TEXT, "ro", "Live calls, challenges and news from Samuel."),
+        ("welcome", TEXT, "rw", "New here? Say hi: your name, where you edit from, what you edit, who you want to edit for."),
     ]),
     ("COMMUNITY", [
-        ("introduce-yourself", TEXT, "rw", "Your name, where you edit from, what you edit on, who you want to edit for."),
-        ("general", TEXT, "rw", "Talk with the community."),
-        ("wins", TEXT, "rw", "First client, first reply, first finished video. Share it."),
+        ("general", TEXT, "rw", "Talk with the community. The morning nugget from Samuel lands here."),
+        ("wins", TEXT, "rw", "Clients, replies, finished videos, milestones. Share them. Sunday's leaderboard lands here too."),
+        ("accountability", FORUM, "rw", None),
+        ("ask-editors-bot", TEXT, "rw", "Ask Editors Bot anything from Samuel's teachings. Type /ask, or /help for all commands."),
     ]),
-    ("THE 60 DAYS", [
-        ("daily-check-in", FORUM, "rw", None),
-        ("leaderboard", TEXT, "ro", "Streaks and days done, every Sunday at 6pm."),
-    ]),
-    ("FEEDBACK", [
-        ("portfolio-and-profile", TEXT, "rw", "Share your portfolio, bio or profile. Say what you want feedback on."),
-        ("outreach", TEXT, "rw", "Your DMs, emails and Looms before you send them."),
-        ("niche", TEXT, "rw", "Your one-sentence niche and who you edit for."),
-    ]),
-    ("HELP", [
-        ("questions", TEXT, "rw", "Ask anything about the 60 days or the work."),
-        ("davinci-help", TEXT, "rw", "DaVinci Resolve questions. CapCut and phone editing too."),
-        ("gear", TEXT, "rw", "Laptops, phones, mics, cameras."),
+    ("GROW", [
+        ("feedback", FORUM, "rw", None),
+        ("resources", FORUM, "rw", None),
+        ("opportunities", TEXT, "rw", "Gigs, client leads, jobs and collabs. Too busy for a job? Pass it on here."),
+        ("help", TEXT, "rw", "Stuck? Software, gear, clients, pricing, anything."),
     ]),
     ("LIVE", [
-        ("weekly-call", STAGE, "rw", None),
-        ("call-recordings", TEXT, "ro", "Recordings of the live calls."),
-    ]),
-    ("OFF-TOPIC", [
-        ("off-topic", TEXT, "rw", "Anything else. Keep it kind."),
+        ("weekly-live", STAGE, "rw", None),
     ]),
     ("TEAM", [
         ("payments-log", TEXT, "team", "Payments, joins, renewals and expiries, posted by the bot."),
@@ -88,11 +76,22 @@ LAYOUT = [
         ("subscription-expired", TEXT, "expired", "Renew to get back in."),
     ]),
 ]
-CONFIG_KEYS = {  # channel name -> key the site's functions use
-    "welcome": "welcome", "rules": "rules", "start-here": "startHere", "workbook": "workbook",
-    "introduce-yourself": "introduce", "general": "general", "daily-check-in": "checkin",
-    "daily-nugget": "nugget", "leaderboard": "leaderboard", "payments-log": "payments",
-    "mod-log": "modLog", "subscription-expired": "expired", "announcements": "announcements",
+# Old channel -> new channel, kept so posts and links survive the rename.
+RENAMES = {"daily-check-in": "accountability", "questions": "help", "weekly-call": "weekly-live"}
+# Channels from the first layout that are gone (Samuel: "any thing not neccessary should be removed").
+REMOVED = ["rules", "workbook", "daily-nugget", "introduce-yourself", "leaderboard", "portfolio-and-profile",
+           "outreach", "niche", "davinci-help", "gear", "call-recordings", "off-topic"]
+FORUM_TAGS = {
+    "accountability": [("60-Day Challenge", "🗓️"), ("Weekly goals", "🎯"), ("Daily log", "✍️")],
+    "feedback": [("Edit", "🎬"), ("Portfolio", "🗂️"), ("Profile and bio", "🪪"), ("Outreach", "📨"), ("Niche", "🧭"), ("Client work", "💼")],
+    "resources": [("Tutorial", "🎓"), ("Editing hack", "⚡"), ("Template or asset", "🧩"), ("Tool", "🛠️"), ("Call replay", "📼")],
+}
+CONFIG_KEYS = {  # channel name -> keys the site's functions use
+    "welcome": ["welcome"], "start-here": ["startHere", "rules"], "announcements": ["announcements"],
+    "general": ["general", "nugget"], "wins": ["wins", "leaderboard"], "accountability": ["checkin"],
+    "ask-editors-bot": ["askBot"], "feedback": ["feedback"], "resources": ["resources"],
+    "opportunities": ["opportunities"], "help": ["help"], "weekly-live": ["live"],
+    "payments-log": ["payments"], "mod-log": ["modLog"], "subscription-expired": ["expired"],
 }
 SCAM_WORDS = ["*free nitro*", "*discord.gift*", "*nitro for free*", "*steamcommunity*", "*crypto signal*",
               "*forex signal*", "*investment opportunity*", "*invest with me*", "*double your money*",
@@ -173,7 +172,13 @@ def cmd_edit_secrets():
             "discord_bot_token": "PASTE BOT TOKEN HERE",
             "discord_client_id": "1562931510364082336",
             "discord_client_secret": "PASTE CLIENT SECRET HERE",
-            "flw_secret_key": "PASTE FLUTTERWAVE SECRET KEY HERE"}, indent=2), encoding="utf-8")
+            "flw_secret_key": "PASTE FLUTTERWAVE SECRET KEY HERE",
+            "anthropic_api_key": "PASTE ANTHROPIC API KEY HERE"}, indent=2), encoding="utf-8")
+    else:  # add any key the file doesn't have yet, keeping what's there
+        cur = json.loads(SECRETS.read_text(encoding="utf-8"))
+        if "anthropic_api_key" not in cur:
+            cur["anthropic_api_key"] = "PASTE ANTHROPIC API KEY HERE"
+            SECRETS.write_text(json.dumps(cur, indent=2), encoding="utf-8")
     subprocess.Popen(["notepad.exe", str(SECRETS)])
     print("Opened in Notepad. Replace each PASTE ... HERE (keep the quotes), then Ctrl+S.")
 
@@ -184,10 +189,9 @@ def cmd_invite_url():
 
 
 ICONS = {
-    "welcome": "👋", "rules": "📜", "announcements": "📢", "start-here": "🧭", "workbook": "📘", "daily-nugget": "☀️",
-    "introduce-yourself": "🙋", "general": "💬", "wins": "🏆", "daily-check-in": "✍️", "leaderboard": "🔥",
-    "portfolio-and-profile": "🎞️", "outreach": "📨", "niche": "🎯", "questions": "❓", "davinci-help": "🎬", "gear": "🎧",
-    "weekly-call": "🎙️", "call-recordings": "📼", "off-topic": "🍿", "payments-log": "💳", "mod-log": "🛡️",
+    "start-here": "🧭", "announcements": "📢", "welcome": "👋", "general": "💬", "wins": "🏆",
+    "accountability": "✅", "ask-editors-bot": "🤖", "feedback": "🎞️", "resources": "📚",
+    "opportunities": "💼", "help": "🆘", "weekly-live": "🎙️", "payments-log": "💳", "mod-log": "🛡️",
     "subscription-expired": "🔒",
 }
 SEP = "・"
@@ -238,6 +242,9 @@ def cmd_build():
 
     # Categories and channels, matched by name so a re-run updates instead of duplicating.
     chans = api("GET", f"/guilds/{g}/channels")
+    for ch in chans:
+        if base(ch["name"]) in RENAMES:
+            ch.update(api("PATCH", f"/channels/{ch['id']}", {"name": shown(RENAMES[base(ch["name"])])}))
     by = {(base(ch["name"]), ch["type"]): ch for ch in chans}
     ids = c.setdefault("channels", {})
     for pos, (cat, items) in enumerate(LAYOUT):
@@ -260,8 +267,10 @@ def cmd_build():
                     continue  # made after Community mode is on (second pass below)
                 ch = api("POST", f"/guilds/{g}/channels", {**body, "type": typ})
             by[(name, typ)] = ch
-            if name in CONFIG_KEYS:
-                ids[CONFIG_KEYS[name]] = ch["id"]
+            if typ == FORUM and name in FORUM_TAGS and not ch.get("available_tags"):
+                ch = api("PATCH", f"/channels/{ch['id']}", {"available_tags": [{"name": n, "emoji_name": e} for n, e in FORUM_TAGS[name]]})
+            for key in CONFIG_KEYS.get(name, []):
+                ids[key] = ch["id"]
     save_cfg(c)
 
     # Community mode (needed for the forum and the stage channel). Join messages go to #welcome.
@@ -300,6 +309,19 @@ def cmd_build():
             api("PATCH", f"/guilds/{g}/auto-moderation/rules/{have[r['name']]['id']}", body)
         else:
             api("POST", f"/guilds/{g}/auto-moderation/rules", body)
+    keep = {k for keys in CONFIG_KEYS.values() for k in keys}
+    for k in [k for k in ids if k not in keep]:
+        ids.pop(k)
+    # Channels the layout dropped, then categories left empty (the guild's rules channel already moved).
+    layout_cats = {cat for cat, _ in LAYOUT}
+    for ch in api("GET", f"/guilds/{g}/channels"):
+        if ch["type"] != CATEGORY and base(ch["name"]) in REMOVED:
+            api("DELETE", f"/channels/{ch['id']}")
+    left = api("GET", f"/guilds/{g}/channels")
+    for ch in left:
+        if ch["type"] == CATEGORY and ch["name"] not in layout_cats and not any(x.get("parent_id") == ch["id"] for x in left):
+            api("DELETE", f"/channels/{ch['id']}")
+
     # Discord's starter "Text Channels" / "Voice Channels" categories and voice "General", left empty by the move above.
     for ch in api("GET", f"/guilds/{g}/channels"):
         if ch["type"] == VOICE and ch["name"] == "General":
@@ -327,48 +349,55 @@ def render(body, c):
 
 
 def cmd_post_texts():
+    """Each '## #channel' (or '## #channel 2') section is one pinned bot message there, edited in place
+    on re-runs. '## #forum guidelines' is a forum's guidelines; '## #forum post: Title' its pinned post."""
     c = load_cfg()
     if not c.get("guild"):
         sys.exit("Run build first.")
     sec = sections()
-    ids = c["channels"]
     posted = c.setdefault("posted", {})
     by_name = {base(ch["name"]): ch["id"] for ch in api("GET", f"/guilds/{c['guild']}/channels")}
+
+    # The first layout's example check-in post is replaced by the posts below.
+    if posted.get("checkin-example"):
+        api("DELETE", f"/channels/{posted.pop('checkin-example')}", ok_missing=True)
+
     for key, body in sec.items():
-        if not key.startswith("#") or " " in key:
+        if not key.startswith("#"):
             continue
-        name = key[1:]
+        name, _, rest = key[1:].partition(" ")
         ch = by_name.get(name)
         if not ch:
             print("No channel for", key)
             continue
         content = render(body, c)
-        mid = posted.get(name)
-        files = None
-        if name == "workbook" and not mid and WORKBOOK.exists():
-            files = {"files[0]": (WORKBOOK.name, WORKBOOK.read_bytes(), "application/pdf")}
+        if rest == "guidelines":
+            api("PATCH", f"/channels/{ch}", {"topic": content[:4096]})
+            print("Guidelines set for", name)
+            continue
+        if rest.startswith("post:"):
+            title = rest[5:].strip()
+            tid = posted.get(key)
+            if tid and api("PATCH", f"/channels/{tid}/messages/{tid}", {"content": content}, ok_missing=True):
+                print("Updated forum post", key)
+                continue
+            files = None
+            if "60-Day" in title and WORKBOOK.exists():
+                files = {"files[0]": (WORKBOOK.name, WORKBOOK.read_bytes(), "application/pdf")}
+            t = api("POST", f"/channels/{ch}/threads", {"name": title[:100], "message": {"content": content, "allowed_mentions": {"parse": []}}}, files=files)
+            api("PATCH", f"/channels/{t['id']}", {"flags": 2})  # pinned at the top of the forum
+            posted[key] = t["id"]
+            print("Posted forum post", key)
+            continue
+        mid = posted.get(key) or posted.get(name) if not rest else posted.get(key)
         if mid and api("PATCH", f"/channels/{ch}/messages/{mid}", {"content": content}, ok_missing=True):
+            posted[key] = mid
             print("Updated", key)
             continue
-        msg = api("POST", f"/channels/{ch}/messages", {"content": content, "allowed_mentions": {"parse": []}}, files=files)
+        msg = api("POST", f"/channels/{ch}/messages", {"content": content, "allowed_mentions": {"parse": []}})
         api("PUT", f"/channels/{ch}/pins/{msg['id']}")
-        posted[name] = msg["id"]
+        posted[key] = msg["id"]
         print("Posted and pinned", key)
-
-    # The forum: guidelines, plus a pinned example post.
-    forum = ids.get("checkin")
-    if forum and "#daily-check-in guidelines" in sec:
-        api("PATCH", f"/channels/{forum}", {"topic": render(sec["#daily-check-in guidelines"], c)[:4096]})
-    if forum and "#daily-check-in example post" in sec:
-        body = render(sec["#daily-check-in example post"], c)
-        tid = posted.get("checkin-example")
-        if tid and api("PATCH", f"/channels/{tid}/messages/{tid}", {"content": body}, ok_missing=True):
-            print("Updated the example check-in")
-        else:
-            t = api("POST", f"/channels/{forum}/threads", {"name": "📌 How to check in (example)", "message": {"content": body}})
-            api("PATCH", f"/channels/{t['id']}", {"flags": 2})  # pinned in the forum
-            posted["checkin-example"] = t["id"]
-            print("Posted the example check-in")
     save_cfg(c)
 
 
@@ -390,8 +419,13 @@ def cmd_push_env():
         "DISCORD_BOT_TOKEN": s["discord_bot_token"].strip(),
         "DISCORD_CLIENT_SECRET": s["discord_client_secret"].strip(),
         "DISCORD_CLIENT_ID": s["discord_client_id"].strip(),
-        "DISCORD_CONFIG": json.dumps({k: c[k] for k in ("guild", "roles", "channels") if k in c}, separators=(",", ":")),
+        "DISCORD_CONFIG": json.dumps({k: c[k] for k in ("guild", "roles", "channels", "call") if k in c}, separators=(",", ":")),
+        "DISCORD_PUBLIC_KEY": api("GET", "/applications/@me")["verify_key"],  # not secret; checks Discord's signatures
     }
+    if str(s.get("anthropic_api_key", "")).strip().startswith("sk-ant-"):
+        values["ANTHROPIC_API_KEY"] = s["anthropic_api_key"].strip()  # Netlify only, never system-wide (CLAUDE.md)
+    else:
+        print("Anthropic API key not filled in yet: Editors Bot's /ask, /review and /niche wait for it.")
     if str(s.get("flw_secret_key", "")).strip().startswith("FLWSECK"):
         values["FLW_SECRET_KEY"] = s["flw_secret_key"].strip()
     else:
@@ -459,15 +493,90 @@ def cmd_say(channel, text):
     print("Posted.")
 
 
+
+TEACHINGS = BRAIN / "04-Projects" / "called-to-edit-webinar-teachings.md"
+
+
+def cmd_knowledge():
+    """Editors Bot's knowledge: the webinar teachings, without the production notes (board, recording dates)."""
+    text = TEACHINGS.read_text(encoding="utf-8")
+    text = text[text.index("\n## 0."):]
+    out, skip = [], False
+    for line in text.splitlines():
+        if line.startswith("**Board") or line.startswith("**Settled") or line.startswith("Recorded "):
+            skip = True
+            continue
+        if skip and (line.startswith("#") or line.startswith("**")):
+            skip = False
+        if skip or "Brand manager" in line:
+            continue
+        line = re.sub(r"\[\[[^|\]]*\|([^\]]+)\]\]", r"\1", line)
+        line = re.sub(r"\[\[([^\]]+)\]\]", r"\1", line)
+        out.append(line)
+    body = re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip()
+    dest = SITE_DIR / "netlify" / "lib" / "knowledge.mjs"
+    dest.write_text("// Made by community_admin.py knowledge from the Brain's webinar teachings. Don't edit here.\nexport default "
+                    + json.dumps(body, ensure_ascii=False) + ";\n", encoding="utf-8")
+    print(f"Knowledge written: {len(body):,} characters.")
+
+
+S, I = 3, 4  # option types: string, integer
+COMMANDS = [
+    {"name": "ask", "description": "Ask Editors Bot anything from Samuel's teachings",
+     "options": [{"type": S, "name": "question", "description": "Your question", "required": True, "max_length": 1000}]},
+    {"name": "review", "description": "Feedback on your bio, portfolio blurb or outreach message (only you see it)",
+     "options": [{"type": S, "name": "text", "description": "Paste it here", "required": True, "max_length": 1800}]},
+    {"name": "niche", "description": "Say your niche in one sentence (only you see it)",
+     "options": [{"type": S, "name": "what", "description": "What you edit, e.g. talking-head Reels", "required": True, "max_length": 300},
+                 {"type": S, "name": "who", "description": "Who for, e.g. real estate agents", "required": False, "max_length": 300}]},
+    {"name": "nugget", "description": "A nugget from Samuel's teaching"},
+    {"name": "streak", "description": "Your accountability streak and days done"},
+    {"name": "subscription", "description": "When your access ends, and how to renew"},
+    {"name": "call", "description": "When the next weekly live call is"},
+    {"name": "help", "description": "Everything Editors Bot can do"},
+]
+
+
+def cmd_bot_setup():
+    """Name, slash commands and the Interactions Endpoint (the site must already be deployed with DISCORD_PUBLIC_KEY)."""
+    c = load_cfg()
+    app = api("GET", "/applications/@me")
+    try:
+        api("PATCH", "/users/@me", {"username": "Editors Bot"})
+    except SystemExit as e:
+        print("Username not changed now (Discord limits renames):", str(e)[:120])
+    api("PATCH", f"/guilds/{c['guild']}/members/@me", {"nick": "Editors Bot"})
+    api("PUT", f"/applications/{app['id']}/guilds/{c['guild']}/commands", COMMANDS)
+    api("PATCH", "/applications/@me", {"interactions_endpoint_url": SITE_URL + "/api/interactions",
+                                       "description": "The Called to Edit Community's guide. Ask me anything from Samuel's teachings: type /help."})
+    print(f"Editors Bot: name set, {len(COMMANDS)} slash commands registered, endpoint {SITE_URL}/api/interactions.")
+
+
+DAYS = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+
+
+def cmd_call(day_name, hhmm, *label):
+    """Weekly live call, e.g.: call wednesday 19:00. Then push-env + deploy."""
+    c = load_cfg()
+    h, m = (int(x) for x in hhmm.split(":"))
+    d = DAYS.index(day_name.lower())
+    nice = f"{DAYS[d].capitalize()}s, {((h - 1) % 12) + 1}:{m:02d}{'am' if h < 12 else 'pm'} WAT"
+    c["call"] = {"day": d, "hour": h, "minute": m, "text": " ".join(label) or nice}
+    save_cfg(c)
+    print("Call saved:", c["call"]["text"], "- now push-env and deploy.")
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     a = sys.argv[1:]
     cmds = {"setup-secrets": cmd_setup_secrets, "edit-secrets": cmd_edit_secrets, "invite-url": cmd_invite_url, "build": cmd_build, "post-texts": cmd_post_texts, "push-env": cmd_push_env,
-            "nuggets": cmd_nuggets, "status": cmd_status, "members": cmd_members, "team-invite": cmd_team_invite}
+            "nuggets": cmd_nuggets, "status": cmd_status, "members": cmd_members, "team-invite": cmd_team_invite,
+            "knowledge": cmd_knowledge, "bot-setup": cmd_bot_setup}
     if a and a[0] in cmds:
         cmds[a[0]]()
     elif a[:1] == ["team"] and len(a) > 1:
         cmd_team(" ".join(a[1:]))
+    elif a[:1] == ["call"] and len(a) > 2:
+        cmd_call(*a[1:])
     elif a[:1] == ["say"] and len(a) > 2:
         cmd_say(a[1], " ".join(a[2:]))
     else:
