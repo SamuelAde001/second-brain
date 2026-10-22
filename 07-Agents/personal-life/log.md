@@ -107,3 +107,4 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 - 2026-10-19 20:50 — night check sent (cloud routine): welcome video, laundry, Shawn testimonial ticked; webinar lock and contrarian video not ticked, asked; video 2 phase 1 done by the Editor; gym 0 of 3; Tuesday proposed (cut revision 7am–1pm, webinar lock 3pm, gym 5pm, contrarian 7pm). Nothing written to TickTick.
 - 2026-10-20 20:50 — night check sent (cloud routine): nothing ticked, gym 0/3, webinar plan carried a third time; plan for 2026-10-21 proposed, waiting on his answer, nothing written to TickTick.
 - 2026-10-21 20:50 — night check (cloud routine): message sent and Samuel notified; 6 questions waiting; nothing written to TickTick; plan for 2026-10-22 proposed in [[06-Logs/daily/2026-10-22|the daily note]].
+- 2026-10-22 20:50 — night-plan (cloud): check sent for 2026-10-22, plan for Fri 2026-10-23 proposed (webinar day); waiting on his answer, nothing written to TickTick.
