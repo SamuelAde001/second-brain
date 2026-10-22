@@ -41,3 +41,10 @@ Back to [[03-Areas/video-editing/video-editing|Video editing]]
 - **Why:** it is the agency's stated bar ("the exact way we expect our videos to look on all of our channels") and it matches most of Samuel's own 41 markers of the same day.
 - **Order of authority:** Samuel's rulings first, then the client's brand kit for colours, fonts and shapes (for Alex: Frontal, with shines, sweeps, glow, glass, icons and bold white text kept, Samuel 2026-10-22), then the standard, then the older house notes. Open items he hasn't ruled on (all-caps titles, angled cards, a corner tool logo) stay as listed in the standard.
 - **Who:** Samuel.
+
+## 2026-10-22 — Correction: order of authority for the creative director standard
+
+- **Correction (correction to the entry above, same day):** the order in the entry above is wrong. Samuel: *"The Creative directors standard stays top, older house notes second, client brand kit third(More subtle but is there overall) The only overruling of everything is my corrections and markers"*.
+- **Order now:** Samuel's corrections and markers overrule everything. Below them: 1. the creative director standard, 2. the older house notes, 3. the client's brand kit, more subtle but present throughout.
+- **What it means for Alex:** Frontal sets the fonts, colours and square boxes because Samuel ruled that himself on 2026-10-22, not because the kit ranks high. Where the Frontal kit and the standard disagree on anything else (glow, red keywords, motion, density), the standard wins.
+- **Who:** Samuel.
