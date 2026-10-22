@@ -34,3 +34,10 @@ Back to [[03-Areas/video-editing/video-editing|Video editing]]
 - **Why:** the client's brand changed; the kit says *"no orange anywhere from now on"*.
 - **What it touches:** colours, fonts, shapes, effects and the motion style of every construct. The edit method, pacing and visual grammar stay. Rules: [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]]. Rollout and open questions: [[04-Projects/frontal-rebrand-video-kit|Frontal rebrand of the video kit]].
 - **Who:** Samuel.
+
+## 2026-10-22 — The creative director standard is the standard for every video
+
+- **Decision:** from 2026-10-22, [[03-Areas/video-editing/creative-director/creative-director-standard|the creative director standard]] (Route Rise's creative director, six top-video breakdowns) is the edit standard for every video, every client. Samuel: *"This study must be used as standard in every video we do from hence"*.
+- **Why:** it is the agency's stated bar ("the exact way we expect our videos to look on all of our channels") and it matches most of Samuel's own 41 markers of the same day.
+- **Order of authority:** Samuel's rulings first, then the client's brand kit for colours, fonts and shapes (for Alex: Frontal, with shines, sweeps, glow, glass, icons and bold white text kept, Samuel 2026-10-22), then the standard, then the older house notes. Open items he hasn't ruled on (all-caps titles, angled cards, a corner tool logo) stay as listed in the standard.
+- **Who:** Samuel.

@@ -348,3 +348,10 @@ Notes and the revision plan: video 2's job folder, `Docs/Visual plan v1 (Editor)
 7. **Lower thirds centred, one line, big, the method on top.** Never to the side.
 8. **A visual starts on the word that names it.** **"In this video": Alex's frame slides into a circle or slides up**, as in the last videos.
 9. **Mobile first:** bigger boxes, bigger text, fewer words.
+
+## Samuel, 2026-10-22: the creative director standard applies to every video
+
+- *"This study must be used as standard in every video we do from hence"* — said after the summary of the creative director's six top-video breakdowns.
+- From 2026-10-22, every video the Editor plans, builds or reviews, for any client, follows [[03-Areas/video-editing/creative-director/creative-director-standard|the creative director standard]]: triple attack, show don't tell, real proof first, never static, one focal point, darken behind, light to steer the eye, blur teases, a title on every chart, colour carries judgement, mobile first, reuse what works. Visual frequency: every 1 s in the hook, 2 s in the intro, 5-10 s in the body, 15 s at most.
+- Order of authority: Samuel's own rulings and markers, then the client's brand kit (colours, fonts, shapes), then the standard, then the older house notes.
+- Every visual plan and every version is checked against the standard before Samuel sees it.

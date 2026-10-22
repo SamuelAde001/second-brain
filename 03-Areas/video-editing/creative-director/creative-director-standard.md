@@ -4,12 +4,14 @@ area: video-editing
 status: active
 updated: 2026-10-22
 source: local-folder
-tags: [creative-director, standard, style]
+tags: [creative-director, standard, style, standing-rule]
 ---
 
 # Creative director standard: the six breakdowns, distilled
 
 What Route Rise's creative director asks of every edit, merged from his six recorded trainings (the "MOST UP TO DATE + IN DEPTH BREAKDOWN" list) and checked against Samuel's own rules. Where Samuel has ruled differently, his ruling is stated and wins. Each rule carries its source as `(note time)`, where the time is in the training recording: 01-jp, 02-jp, 03-andy, 04-nate, 05-alex, 06-matt. Lines marked *(Editor's inference)* are the Editor's reading. No source states them.
+
+**This is the standard for every video, every client, from 2026-10-22.** Samuel, 2026-10-22: *"This study must be used as standard in every video we do from hence"*. Order of authority: Samuel's own rulings and markers first, then the client's brand kit for colours, fonts and shapes (for Alex: [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2]] as Samuel ruled it on 2026-10-22), then this standard, then the older house notes.
 
 The six notes:
 - [[03-Areas/video-editing/creative-director/cd-breakdown-01-jp-1|01: JP Middleton #1]], the triple attack and the screen-recording method
