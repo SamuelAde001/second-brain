@@ -347,3 +347,8 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Why**: Samuel, 2026-10-22: *"the only reason you would notify me for a permission is if you are doing screen, you want to use screen use, and if you want to delete something, right? Except for that, carry on, stop asking me for permissions."* And on helpers: *"I noticed that the agents are always breaking whenever they have a token limit and they were not able to finish a task. So let us give them more chances ... Let's increase all the agents' workload so that they can be able to do good work"*. The day run on 2026-10-22 showed builders start at ~73k and had ~75k of working room under the old cap.
 **Rule**: [[00-System/model-routing|model routing]] → Session size is enforced. Supersedes the helper caps in the 2026-10-12 and 2026-10-14 entries.
 
+## 2026-10-22: Agents may edit anywhere on the PC without asking
+
+**Decision**: `C:\` added to `.claude/settings.json` additional directories; AGENTS.md §10 opens with the whole-PC grant. Deleting still asks (decision above), secret reads stay denied, client raws stay untouched.
+**Why**: Samuel, 2026-10-22, mid-run on video 2: *"I give you full access to all files and folders on this computer, never ask me permissions again when editing"*.
+
