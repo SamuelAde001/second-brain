@@ -49,6 +49,7 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 - [[cut-sheets]] — how a cut gets planned before it gets cut
 - [[03-Areas/video-editing/resolve-project-library|Resolve project library]] — how the Project Manager is sorted and where a new project goes (2026-10-14)
 - [[toolchain]] — Resolve, Fusion, OBS, DJI gear, bespoke tooling, and the edit clock
+- [[03-Areas/video-editing/creative-director/creative-director-standard|Creative director standard]]: the company creative director's 6 top-video breakdowns, distilled (2026-10-22).
 
 **The work**
 - `clients/` — [[alex|Alex]] (the client) · [[routerise|Routerise]] (the agency) · [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]] (Alex's brand rules for every visual, from 2026-10-20; rollout in [[04-Projects/frontal-rebrand-video-kit|the rebrand project]]) · [[03-Areas/video-editing/clients/frontal-template-library|Frontal template library]] (27 Fusion templates in the new brand)
