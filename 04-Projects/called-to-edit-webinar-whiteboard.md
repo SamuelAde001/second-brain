@@ -2,7 +2,7 @@
 type: project
 area: called-to-edit
 status: active
-updated: 2026-10-21
+updated: 2026-10-22
 source: interview
 tags: [called-to-edit, webinar, whiteboard, canva]
 ---
@@ -85,10 +85,20 @@ Samuel: *"The arrows, the texts, the boxes, the whole visual elements must be na
 
 ## Native board done (2026-10-22)
 
-- **With covers:** "Called to Edit Webinar Whiteboard" (Canva design DAHYrXl8-WE). All 13 chapters in the right-hand column as native Canva text, boxes, arrows and icons; only photos are media. Each chapter's Midnight panel is locked, everything on it stays editable. 120 reveal stickies on top.
+- **With covers:** "Called to Edit Webinar Whiteboard" (Canva design DAHYrXl8-WE; in Canva Trash since 2026-10-22, see One board, five columns). All 13 chapters in the right-hand column as native Canva text, boxes, arrows and icons; only photos are media. Each chapter's Midnight panel is locked, everything on it stays editable. 120 reveal stickies on top.
 - **Without covers:** "Called to Edit Webinar Whiteboard (no covers)" (DAHYsWQt71Y). Samuel, 2026-10-22: *"Once you are done, create a copy of everything exactly the way it is but without the Sticky notes covers so I can check everything, and see if I prefer that version without the sticky note covers"*. Made with Canva's Make a copy, then all 120 covers deleted one by one. Nothing else changed.
 - Sweep fixes: inline "?" stickies under 80 px lost their author line and got padding (`sticky_el` in `native.py`; Canva drops the whole paste when a sticky's text box goes negative). Chapter 11's six "Editor" chips: the icon sat on the word, so the word is now its own box beside the icon (`map11.py`).
 - Swapping covers one at a time in Canva: shift-clicking inside the current selection's box is ignored, so delete one sticky at a time.
-- **Waiting on Samuel's yes to delete (both boards):** the old image column (left of the native one), and a cluster of build test elements about 100,000 px above the board ("Big serif word" texts, sample boxes, arrows, one photo). The cluster makes "zoom to fit" show the board tiny. Its one sticky ("Reveal me") is already gone from the no-covers copy. Also the test Presentation (DAHYrWMI1dE).
+- ~~Waiting on Samuel's yes to delete (both boards): the old image column, the build test cluster about 100,000 px above the board, the test Presentation (DAHYrWMI1dE).~~ Done 2026-10-22, see below.
 - **Empty slots for his material (13):** Ch 1: his Minecraft YouTube channel, one of his first editing tweets. Ch 6: the original edit and his recreation (clips). Ch 8: phone recording him at work or a timeline post, two posts that landed clients, his Framer portfolio site. Ch 9: a working time-lapse, a value-first before and after (clips). Ch 11: views on his mentor's channel, a client testimonial.
 - Fonts stay DM Serif Display / DM Sans until he has Canva Pro (then "Change all" to Gloock / Plus Jakarta Sans).
+
+## One board, five columns (2026-10-22)
+
+Samuel: *"So, delete every other thing except the one without the cover notes, and zoom everything out and increase them in the same way, cause, I noticed if I put it on fullscreen I can't zoom in fully"*.
+
+- **The only board now:** "Called to Edit Webinar Whiteboard (no covers)", https://www.canva.com/design/DAHYsWQt71Y/EdMBKz4SuXqjqRLLxZN-1A/edit. Overview: `_attachments/called-to-edit-whiteboard/board-five-columns.jpg`.
+- **Deleted:** the board with covers (DAHYrXl8-WE) and the test Presentation (DAHYrWMI1dE) are in Canva Trash, restorable for 30 days. On the surviving board: the old image column, its backdrop and the build test cluster.
+- **Why fullscreen couldn't zoom in:** "Present full screen" opens at fit (the whole board on screen) and zooms in at most about 10× from there. One column of 13 chapters is about 75,000 px tall and 6,400 px wide, so fit was tiny: the max was about 7.6% of real size with the clutter, 16% without. Scaling everything up by the same amount changes nothing, because fit and the 10× cap scale with it. Only the board's shape counts: the closer to the screen's shape, the deeper the zoom.
+- **Fix:** the 13 chapters are now in five columns, read top to bottom, then left to right: ch 0–1 · 2–5 · 6–8 · 9 · 10–12. Columns are 6,400 px wide, touching, tops aligned (checked to 0 px); every chapter panel is locked again; nothing inside a chapter moved relative to its panel. Fullscreen now opens at 6.4% and zooms to 63.5% of real size, so one branch fills about half the screen. The editor itself still zooms to 500%.
+- Moving a multi-selection in Canva: the Position panel shows "--" and arrow keys don't nudge. Drag from inside the block (dragging its edge resizes the whole block), then zoom to ~20% and ~130% at the junction and drag a few px; Canva snaps the edge exactly.
