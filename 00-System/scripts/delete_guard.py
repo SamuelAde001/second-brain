@@ -78,10 +78,24 @@ def classify(command, cwd, shell="bash"):
     """Return None (no delete), 'allow' (all targets agent-owned) or 'ask', plus the targets seen."""
     ps = shell == "powershell"
     cwd = _winpath(cwd or os.getcwd())
-    targets, deletes = [], False
+    targets, deletes, var = [], False, {}
+
+    def subst(s):                                  # $S / ${S} / $env:S from earlier assignments or the environment
+        return re.sub(r"\$(?:env:)?\{?([A-Za-z_]\w*)\}?",
+                      lambda m: var.get(m.group(1), os.environ.get(m.group(1), m.group(0))), s)
+
     for seg in SPLIT.split(command or ""):
-        w = [x.strip('"').strip("'") for x in _words(seg, ps)]
+        raw = [x.strip('"').strip("'") for x in _words(seg, ps)]
+        w = [subst(x) for x in raw]
         if not w:
+            continue
+        if not ps and all(re.match(r"^[A-Za-z_]\w*=", x) for x in w):          # S="..." P="..."
+            for x in w:
+                k, _, v = x.partition("=")
+                var[k] = subst(v)
+            continue
+        if ps and len(raw) >= 3 and re.match(r"^\$[A-Za-z_]\w*$", raw[0]) and raw[1] == "=":   # $S = "..."
+            var[raw[0][1:]] = w[2]
             continue
         head = w[0].lower()
         if head in CD and len(w) > 1:
