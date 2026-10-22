@@ -86,3 +86,8 @@ Samuel, word for word: *"Discord yes"* · *"Pay now or anytime"* (no waitlist) �
 ## 2026-10-22 — Community: NGN 2,000 first month for webinar attendees, and a /community page
 
 Samuel: *"instead of 5k, they would get 2k for their first month and 5k monthly after, that discount is only those who attended the webinar"*. Access opens right after the webinar. Registration goes through a **/community** page on a new on-brand website; the rest of the website is not built yet (*"I can't build the main website now cause I don't want to burn all this weeks tokens"*). → [[04-Projects/called-to-edit-community-launch|community launch]]
+
+## 2026-10-22 — Community set-up: Samuel's 25 answers
+
+The webinar link carries the NGN 2,000 offer (leaks are fine) until Monday 2026-10-26; 30 days from each payment; card auto-renew first, transfer payers renew by hand with reminders to both sides; expired members see only a renew channel; no refunds; Join with Discord after paying; a bot runs and moderates the server; members start their own day 1 and go at their own pace, no penalty; a morning teaching nugget instead of daily workbook tasks; streaks and a weekly leaderboard; free Team seats; a new website, only /community for now; the WhatsApp group closes 2026-10-31. Word for word in [[04-Projects/called-to-edit-community-launch|community launch]].
+- **Built the same day** (Brand manager): the site at https://calledtoeditcommunity.netlify.app/community (offer link `/community/webinar`), Flutterwave checkout and webhook, Discord join, renewals, streaks, nuggets, leaderboard, and `community_admin.py`. Waiting on his Discord, Flutterwave and domain steps.

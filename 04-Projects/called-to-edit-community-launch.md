@@ -71,6 +71,14 @@ Samuel, word for word: *"immediatly they finish the webinar, I would give them a
 - **Admin from here:** there is no official Discord MCP. A local script, `community_admin.py`, drives the bot (build channels and roles, post, read, give Team seats). The bot token lives only in a secrets file outside the Brain and in Netlify's environment, never in the Brain (AGENTS.md §6).
 - **Channels:** welcome (read-only; join messages and the bot's welcomes land here, apart from chat) · rules · announcements · start-here · workbook · introduce-yourself · general (the chat) · daily-check-in (forum, one thread per member, own day count) · wins · portfolio-and-profile · outreach · niche · questions · davinci-help · gear · weekly-call (stage) · call-recordings · off-topic · team only: mod-log, payments-log · Expired only: subscription-expired.
 
+### Built 2026-10-22 (Brand manager)
+
+- **Live:** https://calledtoeditcommunity.netlify.app/community · offer: `/community/webinar` · renew: `/community/renew` · after paying: `/community/join` · account (auto-renew on/off): `/community/account`. Home `/` sends to `/community` until the main site exists.
+- **Code:** `C:\Users\repzy\Desktop\called-to-edit-site\` (`site/`, `netlify/functions/`, `netlify/lib/`), published with `sh deploy.sh "what changed"`. Functions: checkout, verify, claim, flw (webhook), discord login and callback, account. Scheduled: streaks 6:00am, nugget 7:00am, renewals 7:05am WAT daily; leaderboard Sundays 6:00pm WAT.
+- **Webinar relay:** `calledtoedit.netlify.app/flw` now forwards any `cte-` payment to the community site, so a community payment on the current Flutterwave account never lands in the webinar Sheet (tested 2026-10-22).
+- **Texts:** [[04-Projects/called-to-edit-community-discord-texts|Discord texts]] (rules, welcome, start-here, workbook, expired, check-in guide, 64 nuggets in his words).
+- **Checked:** pages at 375 px (no sideways scroll; offer price and countdown right), checkout answers without keys, the Blobs store works, the relay routes `cte-`. **Not checked yet:** a real payment, the Discord join, the scheduled jobs (they need the keys and the server).
+
 ### Needs Samuel
 1. Discord: create the server "Called to Edit" (bots can't create servers), then the bot application in Discord's developer portal, with the Brand manager in Chrome. He pastes the token into the secrets file himself.
 2. Flutterwave: a new account goes through KYC review, which can take days. Launch on the current account and switch later, unless the new one is approved in time.
