@@ -334,3 +334,17 @@ His words, ~02:40 WAT, after the plan v1 style frames of [[04-Projects/routerise
 8. **Revise the plan before anything goes on his timeline.** These corrections apply to the whole video, not only the 14 frames. Re-render the revised hero frames and get his yes before any Fusion build or timeline work.
 
 Notes and the revision plan: video 2's job folder, `Docs/Visual plan v1 (Editor)/SAMUEL NOTES 2026-10-21.md`. Back to [[03-Areas/video-editing/video-editing|Video editing]]
+
+## Samuel, 2026-10-22: video 2 first 32 visuals reviewed (applies to every Alex video)
+
+41 markers on *Visuals v1 (Editor)* (f0-3644) and a voice brief, ~15:40 WAT. Word for word: video 2's job folder, `Docs/Visual plan v2 (Editor)/SAMUEL NOTES 2026-10-22.md`. *"It doesn't look premium. It looks like AI did it, right? Because it's flat."*
+
+1. **The new brand changes fonts, colours and square boxes only.** *"the only thing you are changing ... is the fonts will be changed, but does not mean that we are changing any other thing about the style of the way we do typography. The boxes would not be rounded, it would be square ... But does not mean that we are not going to put the shines that we used to put before."* His premium chain stays on every box: light sweep, moving shine, glow, glass, bevel; every box animates in; variety of box colours; solid icons used a lot ([[03-Areas/video-editing/edit-grammar/edit-grammar-shared-rules|shared rules]] S0.3-S0.4, re-coloured). Text keeps his NeoTextMotion shines.
+2. **Text: white, bold, big for a phone.** No corner brackets on text (brackets on boxes only), no bracketed eyebrows, no dot separators, no filler words: show numbers. Season Serif has no bold, so bold text is Inter Bold/ExtraBold.
+3. **Real UI and pages: zoom out for context, then 3 points of focus.** The page reads as what it is (post, job ad, article), then the area brightens, then the exact words get highlighted.
+4. **His adjustment clip on every screen recording, page and B-roll** (animation in + vignette, S0.1). *"we do this in past videos, this video shouldn't change that"*.
+5. **Charts are real charts:** money on the right axis, years along the bottom, labelled lines drawn on cue, the line turns red where it stalls.
+6. **Negatives get red:** red tint, red vignette and desaturation on the word. Red vs green for failure vs success.
+7. **Lower thirds centred, one line, big, the method on top.** Never to the side.
+8. **A visual starts on the word that names it.** **"In this video": Alex's frame slides into a circle or slides up**, as in the last videos.
+9. **Mobile first:** bigger boxes, bigger text, fewer words.

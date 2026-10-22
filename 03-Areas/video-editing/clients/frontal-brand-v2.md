@@ -114,3 +114,7 @@ Back to [[03-Areas/video-editing/clients/alex|Alex]] · [[03-Areas/video-editing
 ## 10. How Samuel wants the brand used (2026-10-21)
 
 After the video 2 plan v1 frames: *"using their brand guide doesn't mean you should do very medicocre looking visuals, use the style and work on it"*. Corner brackets on every box; the last four videos' standard in this look, and better. Full rules: [[03-Areas/video-editing/ways-of-working|ways of working]] (2026-10-21).
+
+## 11. Samuel's ruling, 2026-10-22: the brand re-skins his style, it does not replace it
+
+After the first 32 visuals of video 2: only **fonts, colours and square boxes** come from this note. His premium chain stays on every box (light sweep, shine, glow, glass, bevel, animate in), boxes vary in colour, solid icons are used a lot, text is **white and bold** (Inter Bold/ExtraBold; Season Serif Regular for chapter titles and very big numbers) in his NeoTextMotion with shines. Red and green may carry negative/positive and failure/success. Arrows with heads are fine. Corner brackets go on boxes, never on text. Where §2-§7 above say otherwise (no glow, no shadows, never bold, no arrowheads, red only as a small tag), this section wins for his videos. Rules: [[03-Areas/video-editing/ways-of-working|ways of working]] (2026-10-22).

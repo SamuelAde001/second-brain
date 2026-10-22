@@ -9,7 +9,9 @@ tags: [grammar, style, samuel, constructs]
 
 > Samuel's shared rules in numbers (S0.1-S0.6), distilled from the grammar study for the B2B build (2026-10-07): section 4 of the job's `Docs\Build list v3 (2026-10-07).md`. Reusable on any Route Rise talking head. Index: [[03-Areas/video-editing/edit-grammar/edit-grammar|Edit grammar]].
 
-> **2026-10-20: the look in S0.3–S0.10 is superseded for Alex's videos** by [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]]: orange borders, Neo Glow on borders, bevel, light sweep, shine and card shadows (S0.3), Geist and the two-tone colours (S0.4), BGORANGE (S0.5), the brown down fade (S0.6), "one orange focus" (S0.7), the orange highlighter (S0.8–S0.9) and the orange-ring medallion (S0.10). Structure, placement, timing words and the construct list still guide the build; colours, fonts, shapes and effects come from the brand note. Mapping: [[04-Projects/frontal-rebrand-video-kit|Frontal rebrand of the video kit]].
+> **Correction 2026-10-22 (Samuel):** the line below went too far. For Alex only the colours, fonts and box shape change; the premium chain (S0.1 adj clip, S0.3 border glow, light sweep, bevel, moving shine, shadow, NeoAnim; S0.4 NeoTextMotion shines) stays, re-coloured to Frontal. *"does not mean that we are not going to put the shines that we used to put before"* ([[03-Areas/video-editing/ways-of-working|ways of working]], 2026-10-22).
+
+> **2026-10-20 (partly withdrawn 2026-10-22, see above): the look in S0.3–S0.10 is superseded for Alex's videos** by [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]]: orange borders, Neo Glow on borders, bevel, light sweep, shine and card shadows (S0.3), Geist and the two-tone colours (S0.4), BGORANGE (S0.5), the brown down fade (S0.6), "one orange focus" (S0.7), the orange highlighter (S0.8–S0.9) and the orange-ring medallion (S0.10). Structure, placement, timing words and the construct list still guide the build; colours, fonts, shapes and effects come from the brand note. Mapping: [[04-Projects/frontal-rebrand-video-kit|Frontal rebrand of the video kit]].
 
 ## 4. Shared kit (S0), built once
 
