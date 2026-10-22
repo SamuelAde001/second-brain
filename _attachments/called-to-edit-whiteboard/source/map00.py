@@ -1,4 +1,4 @@
-"""Opening map: the title, why you, and tonight's pathway through the 12 chapters."""
+"""Opening map: the title, why you, and tonight's pathway through the 12 chapters. Wording from his voice notes 0.1 and 0.2."""
 from maplib import *
 from lib import rv, icon, remember, NAVY, CH, MIST
 
@@ -12,13 +12,15 @@ BRIGHT = {"6", "7", "8", "9", "10"}
 
 def b1():
     items = [
-        note(0, 0, 1700, '<span style="font:600 50px \'Plus Jakarta Sans\';color:#fff">There are millions of video editors.</span><br>' + big("Why you?", 170)),
-        L("d0", "My definition of video editing", '<span style="font-family:Gloock;font-size:40px;line-height:1.15;color:#FCDD9E">&ldquo;Editing is cutting out what is not needed from the raw idea and presenting it in a way the viewer can get it.&rdquo;</span>', "scissors", "navy"),
-        row([L("d1", "Not a tutorial", "The buttons are free on YouTube. I learned 80 to 90% of my editing there.", "circle-x", "dim", "auto", "flex:1"),
-             rv(L("d2", "Tonight: the career around the skill", "What to learn first · how to get seen · how to get clients · <b>how to get paid</b>", "route", "gold", "auto", "flex:1"), "What tonight IS", "flex:1;display:flex")], 70),
+        note(0, 0, 1700, '<span style="font:600 50px \'Plus Jakarta Sans\';color:#fff">There are up to millions of video editors all around the globe.</span><br>' + big("Why you?", 170)),
+        L("d0", "Video editing is broad", "Movie editors, podcast editors, short form editors, motion graphics animators. As long as you turn raw footage and a raw idea "
+              "into a video people can easily digest, <b>that is editing.</b>", "scissors", "navy"),
+        row([L("d1", "Tonight is not a tutorial", "Step-by-step tutorials, YouTube is there. I learned 80 to 90% of what I know from YouTube, and I'll show you how to learn from it properly.", "circle-x", "dim", "auto", "flex:1"),
+             rv(L("d2", "I'm teaching you the pathway", "How to learn the skill and what to learn first. The tools and the money to start. Your niche. How to establish yourself. "
+                  "<b>How to get clients, and how to get paid.</b>", "route", "gold", "auto", "flex:1"), "What tonight is", "flex:1;display:flex")], 70),
     ]
     edge("d1", "d2", "gold", sa="r", sb="l")
-    return B(1, "0.1", "Start here", "flag", items, "Why you?", "d0")
+    return B(1, "0.1", "Start here", "flag", items, "What tonight is, and what it isn't", "d0")
 
 
 def b2():
@@ -31,27 +33,27 @@ def b2():
     r2 = row([stop(k + 6, n, t) for k, (n, t) in reversed(list(enumerate(STOPS[6:])))], 48, "justify-content:space-between")
     for k in range(11):
         if k == 5:
-            edge("c5", "c6", "gold", sa="r", sb="r", bend=0.9)
+            edge("c5", "c6", "gold", sa="b", sb="t")
         else:
             edge(f"c{k}", f"c{k+1}", "gold", sa="r" if k < 5 else "l", sb="l" if k < 5 else "r", bend=0.2)
     items = [
-        note(0, 0, 1700, big("Each step decides the next.", 80)),
+        note(0, 0, 1700, big("This is where we're going tonight.", 80)),
         r1, note(0, 0, 10, "&nbsp;"), r2,
         note(0, 0, 1700, f'<div style="display:flex;align-items:center;gap:16px"><svg width="30" height="30"><circle cx="15" cy="15" r="13" fill="{CH}"/></svg>'
-                         'Bright stops are where most of the work is: <b>learning, getting clients and getting paid.</b></div>'),
+                         '<div>The gold ones are where I\'ll spend the most time, because that\'s what most of you asked me: <b>how do I learn, and how do I get clients and get paid?</b></div></div>'),
     ]
-    return B(2, "0.2", "Tonight's pathway", "map", items, "12 chapters, in order", "c0")
+    return B(2, "0.2", "The pathway", "map", items, "12 stops, one by one", "c0")
 
 
-TOC = [("0.1", "Start here: why you?"), ("0.2", "Tonight's pathway")]
+TOC = [("0.1", "Start here"), ("0.2", "The pathway")]
 
 
 def build():
     reset()
     side = ('<img src="kit/samuel-cutout-sm.webp" style="width:760px;align-self:center">'
-            '<div style="font:700 30px \'Plus Jakarta Sans\';color:#fff">Samuel Adebayo<br><span style="color:#B9C3D6;font-weight:500">Video editor and coach · Founder, Called to Edit</span></div>'
+            '<div style="font:700 30px \'Plus Jakarta Sans\';color:#fff">Samuel Adebayo<br><span style="color:#B9C3D6;font-weight:500">Video editor and coach. Founder, Called to Edit</span></div>'
             '<img src="kit/called-to-edit-logo-dark.svg" style="width:420px">')
-    body = assemble("", "How to build a career as a", "Video Editor", "and get paid. From your first lesson to your first paying client, and every step between. <br><b style=\"color:#FCDD9E\">Live webinar · Fri 23 Oct 2026 · 7pm WAT</b>",
-                    "Editing is cutting out what is not needed from the raw idea and presenting it in a way the viewer can get it.",
+    body = assemble("", "How to build a career as a", "Video Editor", "and get paid. The pathway I wish I knew when I started. <br><b style=\"color:#FCDD9E\">Live webinar, Friday 23 October, 7pm WAT</b>",
+                    "Editing is cutting out what is not needed from the raw idea, and presenting it in a way the viewer can get it.",
                     [b1(), b2()], TOC, ("START · CHAPTER 1", "My story: soldier to editor"), side)
     return body, W, None

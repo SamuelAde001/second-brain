@@ -202,7 +202,7 @@ def toc(rows):
 
 
 def nextnode(nid, label, title_):
-    return node(nid, 0, 0, 1300, f'{icon("arrow-down", 64, CH, 2.4)}<div><div class="a">{label}</div><div class="b">{title_}</div></div>', "nx")
+    return node(nid, 0, 0, 1800, f'{icon("arrow-down", 64, CH, 2.4)}<div><div class="a">{label}</div><div class="b">{title_}</div></div>', "nx")
 
 
 def assemble(num, top, big, sub, quote_text, branches, toc_rows, nxt=None, side_extra=""):
@@ -286,6 +286,6 @@ def col(items, gap=30, w=None, style=""):
 
 def B(k, num, title_, ic, items, sub="", first=None, gap=44, tw=1800):
     """One branch: topic pill at the origin, a column of content below. first: id the topic points into."""
-    if first:
+    if first and not (items and items[0].startswith('<div class="note"')):  # a heading sits in between: the line would cross it
         edge(f"t{k}", first, "line", sa="b", sb="t", bend=0.35)
     return topic(f"t{k}", 0, 0, tw, num, title_, ic, sub) + flow(0, 170, 1800, items, gap)

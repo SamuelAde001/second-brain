@@ -297,6 +297,13 @@ def img_el(e):
 
 
 def sticky_el(x, y, w, h, label):
+    # An inline reveal is too short for the author line: drop it so the label gets the whole note.
+    # (With the line kept, h - 44 goes negative below 44 and Canva drops the whole paste.)
+    small = h < 80
+    if small and h < 44:
+        y, h = y - (44 - h) / 2, 44
+    elif small:  # Canva draws big serif digits lower than the browser does: pad, mostly downwards
+        x, y, w, h = x - 0.06 * w, y - 0.1 * h, w * 1.12, h * 1.4
     fx = lambda v: r2(v * w / 240)
     curl = (f"M0 {r2(h-8)}H{r2(w)}L{r2(w-10)} {r2(h)}C{r2(w-10)} {r2(h)} {fx(152)} {r2(h-6)} {fx(144)} {r2(h-6)}H{fx(96)}"
             f"C{fx(88)} {r2(h-6)} 10 {r2(h)} 10 {r2(h)}L0 {r2(h-8)}V0H{r2(w)}V{r2(h-8)}H1V{r2(h-9)}H{r2(w-1)}V1H1V{r2(h-8)}")
@@ -306,8 +313,8 @@ def sticky_el(x, y, w, h, label):
             "b": [{"A": f"M0 0H{r2(w)}V{r2(h-8)}H0Z", "B": {"A": False, "C": "#fcdd9e"}},
                   {"A": curl, "B": {"A": False, "C": "#394c60", "D": 0.9, "F": True}}],
             "c": {"A": {"A": 80, "B": 96, "D": 48, "C": 80}, "B": 48, "C": 80, "D": "A", "E": "A"},
-            "f": [{"A": {"C": rt}, "B": {"A": [2]}, "D": {"D": r2(w), "C": r2(h - 44)}, "E": [16], "F": "B"},
-                  {"A": {"C": {"A": ["Samuel Adebayo\n"], "B": [15], "C": [{"G": "14px"}, {"H": True}], "D": [0, 15]}}, "B": {}, "D": {"A": r2(h - 44), "D": r2(w), "C": 36}, "E": [0, 16], "F": "A"}],
+            "f": [{"A": {"C": rt}, "B": {"A": [2]}, "D": {"D": r2(w), "C": r2(h if small else h - 44)}, "E": [16], "F": "B"}]
+                 + ([] if small else [{"A": {"C": {"A": ["Samuel Adebayo\n"], "B": [15], "C": [{"G": "14px"}, {"H": True}], "D": [0, 15]}}, "B": {}, "D": {"A": r2(h - 44), "D": r2(w), "C": 36}, "E": [0, 16], "F": "A"}]),
             "h": {"A?": "H", "A": 240}}
 
 

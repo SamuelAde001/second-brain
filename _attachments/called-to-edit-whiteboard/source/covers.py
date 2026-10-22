@@ -54,7 +54,7 @@ def cover(label, w, h):
 
 
 manifest = {}
-for js in sorted(glob.glob(os.path.join(OUT, "map*.json"))):
+for js in sorted(j for j in glob.glob(os.path.join(OUT, "map*.json")) if not j.endswith("-bands.json")):
     name = os.path.basename(js)[:-5]
     info = json.load(open(js, encoding="utf-8"))
     items = []
