@@ -35,7 +35,7 @@ DENY = [
 # .claude/settings.json -> permissions.ask (deleting, history rewrites, security settings and power).
 # Samuel, 2026-10-22: ask only for screen control and deletes.
 ASK = [
-    r"\bRemove-Item\b", r"(^|[\s;&|(])(rm|del|rd|rmdir)\s", r"\bClear-Content\b", r"\bFormat-Volume\b",
+    r"\bClear-Content\b", r"\bFormat-Volume\b",   # rm/del/Remove-Item: delete_guard.classify in pre_tool
     r"\bUnregister-ScheduledTask\b", r"\bRestart-Computer\b", r"\bStop-Computer\b",
     r"\bSet-ExecutionPolicy\b", r"(^|[\s;&|(])reg\s",
     r"\bgit\s+(reset|clean|rebase)\b", r"\bgit\s+push\s+(.*\s)?(--force|-f)\b", r"\bgit\s+push\s+(.*\s)?\+",
@@ -51,6 +51,15 @@ def pre_tool(payload):
                     "reason": "Blocked by the Brain's guard: secrets are never read by an AI (AGENTS.md section 6)."}
     if call.get("name") == "run_command":
         cmd = str((call.get("args") or {}).get("CommandLine", ""))
+        try:  # deletes: agents' own files pass, anything else asks (delete_guard.py, Samuel 2026-10-22)
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import delete_guard
+            cwd = str((call.get("args") or {}).get("Cwd", "") or os.getcwd())
+            dec = delete_guard.classify(cmd, cwd, "powershell")[0] or delete_guard.classify(cmd, cwd, "bash")[0]
+        except Exception:
+            dec = "ask" if re.search(r"(^|[\s;&|(])(rm|rmdir|del|rd|ri|erase|Remove-Item)", cmd, re.I) else None
+        if dec == "ask":
+            return {"decision": "force_ask", "reason": "Deleting something that is not an agent's own file needs Samuel's yes (delete_guard.py)."}
         for pat in ASK:
             if re.search(pat, cmd, re.I):
                 return {"decision": "force_ask",

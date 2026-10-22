@@ -48,16 +48,9 @@
     ],
     "ask": [
       "mcp__computer-use",
-      "PowerShell(Remove-Item *)",
-      "PowerShell(rm *)",
-      "PowerShell(del *)",
-      "PowerShell(rd *)",
-      "PowerShell(rmdir *)",
       "PowerShell(Clear-Content *)",
       "PowerShell(Format-Volume *)",
       "PowerShell(Unregister-ScheduledTask *)",
-      "Bash(rm *)",
-      "Bash(rmdir *)",
       "mcp__DaVinci_Resolve__delete_lut",
       "mcp__DaVinci_Resolve__delete_dctl",
       "mcp__6f1cbea4-dd7a-49b8-948c-9d212b86965d__delete_task",
@@ -125,6 +118,18 @@
           {
             "type": "command",
             "command": "\"$(command -v python || command -v python3)\" \"$CLAUDE_PROJECT_DIR/00-System/scripts/context_guard.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$(command -v python || command -v python3)\" \"$CLAUDE_PROJECT_DIR/00-System/scripts/delete_guard.py\"",
             "timeout": 10
           }
         ]

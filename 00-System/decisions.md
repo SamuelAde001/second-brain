@@ -352,3 +352,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: `C:\` added to `.claude/settings.json` additional directories; AGENTS.md §10 opens with the whole-PC grant. Deleting still asks (decision above), secret reads stay denied, client raws stay untouched.
 **Why**: Samuel, 2026-10-22, mid-run on video 2: *"I give you full access to all files and folders on this computer, never ask me permissions again when editing"*.
 
+## 2026-10-22: Agents delete their own files without asking
+
+**Decision**: `00-System/scripts/delete_guard.py`, a PreToolUse hook on Bash and PowerShell, now decides every delete (rm, rmdir, Remove-Item, del, rd, ri, erase); the delete patterns left the settings ask list. A delete passes without asking only when every target is an agent's own file: strictly inside a folder tagged with an agent name (e.g. `Frontal kit (Editor)\renders\x.jpg`), inside the temp/scratchpad folder, or inside `_attachments/creative-director-breakdowns/`. Everything else asks: Samuel's files, Brain notes, client raws, a whole tagged folder at once, and anything under a folder named like a final render, delivery or invoices. `agy_guard.py` uses the same classifier for Gemini. Decisions are logged to `%TEMP%\brain-delete-guard.log`.
+**Why**: Samuel, 2026-10-22, after an analyst asked to remove two key frames it had just made: *"Yes, I don't want them to ask me when they want to delete files created on their own"*.
+**Note**: Claude Code loads hooks at session start, so the guard is live from the next session; in the session that made it, deletes did not ask at all and agents were told to delete only their own files.
+
