@@ -29,7 +29,54 @@ Samuel, word for word: *"immediatly they finish the webinar, I would give them a
 - **Webinar attendees:** NGN 2,000 for the first month, then NGN 5,000 a month. Everyone else: NGN 5,000 a month.
 - **Discord**, set up in full: channels, lobby, rules, automations, and a payment flow that works with Discord.
 - **A new website**, on brand. Only the **/community** page is built now: it is the link people get after the webinar to register. The main page waits, to save this week's tokens.
-- Set-up questions put to him 2026-10-22; his answers go below.
+- Set-up questions put to him 2026-10-22. His answers, close to his words:
+
+| # | Question | Samuel, 2026-10-22 |
+|---|---|---|
+| 1 | Proving attendance | *"The webinar people would get a secret link I would give them on the call, don't worry about a leak, I am fine with other people getting the discount"* |
+| 2 | How long the NGN 2,000 lasts | *"The offer lasts until Monday"* (Mon 2026-10-26) |
+| 3 | What NGN 2,000 covers | *"their first 30 days till the subscription expires, so if they pay on the 24th, their next pay would be 24th next month with the 5k"*. Access runs 30 days from the payment, not from 11-01 |
+| 4 | Flutterwave fees | *"I absorb it"* |
+| 5 | Renewals | *"We would prioritise more on bank cards"* (card charged automatically); people without cards pay one-off and *"renew manually with a reminder for both parties"* (member and Samuel) |
+| 6 | When a month runs out | Dropped to a lobby where they *"can't message or see any messages"*, only that the sub expired and the link to resubscribe |
+| 7 | Flutterwave account | *"I would try and create a new flutterwave account so we have more better flow"* |
+| 8 | Refunds | *"No refunds"* |
+| 9 | Linking payment to Discord | Join with Discord after paying; *"most of them don't have discord accounts so they would have to create it"* |
+| 10 | Bot | He has a Discord account. *"you would make a bot for me that you use to help me oversee things there, it would be the one running things from there"* |
+| 11 | Server name | **Called to Edit** |
+| 12 | Channels | Proposed list approved; *"I want to have the welcome page seperate from the lobby so we don't get bugged with welcomes"* |
+| 13 | Weekly call | Not decided, *"but that would surely be a possiblity"* |
+| 14 | Joining after 11-01 | *"They start their own day 1"* |
+| 15 | DMs | *"Yes members can DM each other"* |
+| 16 | Rules | Draft approved, plus *"no fights or abuses, not scam, be kind to one another"* |
+| 17 | Missed check-ins | *"I want everyone to go at their pace, not to be forced, when they see others putting the work they would want to do so also"*. No penalty, no nudge |
+| 18 | Automations | Welcome DM yes · **no** daily workbook task; instead *"a reminder nugget from the teachings every morning"* · streak counter and weekly leaderboard yes · 3-day expiry reminder yes · removal yes · call reminder once a call is set |
+| 19 | Team | *"No moderation for now, we would have our bot do the moderation"*. Team members get a free seat, *"like my creative director"* |
+| 20 | Domain | None yet; *"I am going to buy one today"* |
+| 21 | Hosting | *"A new website as we want to build on our brand, but similar setup as the netlify own"* |
+| 22 | Page content | Proposed sections fine; he adds more later |
+| 23 | Testimonials | *"Not yet but would be added"* |
+| 24 | How-to-join | *"Once they signup, let them know the instructions"* |
+| 25 | WhatsApp group | Stays open for questions, *"shut down by this month end"* (2026-10-31) |
+
+## Build plan (Brand manager's design, 2026-10-22; not Samuel's decisions unless quoted above)
+
+- **Site:** a new Netlify site from `C:\Users\repzy\Desktop\called-to-edit-site\`, set up like the webinar page (`site/`, `netlify/functions/`, `deploy.sh`). Pages: `/community` (NGN 5,000), the secret offer link (NGN 2,000 until Mon 2026-10-26 23:59 WAT, taken as the end of Monday), `/community/join` (after paying: how to make a Discord account, then Join with Discord). The server sets the price, never the page.
+- **Payment:** Flutterwave hosted checkout, opened by a function, card first. The payment is verified with Flutterwave's API on return; the webhook catches transfer payers who never come back. A card payment keeps Flutterwave's card token, and a scheduled function charges NGN 5,000 on day 30. A failed charge, or a transfer payer, gets reminders on day 27 and day 30: the member by email and Discord DM, Samuel by Discord DM.
+- **Join:** Discord login (OAuth). The bot adds them to the server with the **Member** role. No public invite link, so nobody gets in without paying.
+- **Expired:** the Member role is swapped for **Expired**, which sees one read-only channel with the resubscribe link.
+- **Team:** a **Team** role, free, no expiry.
+- **Running it:** no always-on server. Netlify functions (checkout, verify, webhook, Discord login) and scheduled functions (daily: nugget, renewals, expiry, streaks; weekly: leaderboard). Members are stored in Netlify Blobs.
+- **Moderation:** Discord's built-in AutoMod (slurs, scam links, spam, mass mentions), logging to a private mod-log channel.
+- **Admin from here:** there is no official Discord MCP. A local script, `community_admin.py`, drives the bot (build channels and roles, post, read, give Team seats). The bot token lives only in a secrets file outside the Brain and in Netlify's environment, never in the Brain (AGENTS.md §6).
+- **Channels:** welcome (read-only; join messages and the bot's welcomes land here, apart from chat) · rules · announcements · start-here · workbook · introduce-yourself · general (the chat) · daily-check-in (forum, one thread per member, own day count) · wins · portfolio-and-profile · outreach · niche · questions · davinci-help · gear · weekly-call (stage) · call-recordings · off-topic · team only: mod-log, payments-log · Expired only: subscription-expired.
+
+### Needs Samuel
+1. Discord: create the server "Called to Edit" (bots can't create servers), then the bot application in Discord's developer portal, with the Brand manager in Chrome. He pastes the token into the secrets file himself.
+2. Flutterwave: a new account goes through KYC review, which can take days. Launch on the current account and switch later, unless the new one is approved in time.
+3. Buy the domain; it gets connected to the new Netlify site.
+4. Times for the morning nugget (proposed 7:00am WAT) and the leaderboard (proposed Sunday 6:00pm WAT).
+5. Discord usernames of the team members who get a free seat.
 
 ## Research (2026-10-21, on his ask)
 
