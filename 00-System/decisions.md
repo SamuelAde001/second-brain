@@ -358,3 +358,4 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Why**: Samuel, 2026-10-22, after an analyst asked to remove two key frames it had just made: *"Yes, I don't want them to ask me when they want to delete files created on their own"*.
 **Note**: Claude Code loads hooks at session start, so the guard is live from the next session; in the session that made it, deletes did not ask at all and agents were told to delete only their own files.
 
+**Correction 2026-10-22 19:20:** the hook was live in the same session after all (it caught a planner's scratch delete). It now resolves shell variables before judging a delete (a `$S/pc_g06` scratch path had asked Samuel).
