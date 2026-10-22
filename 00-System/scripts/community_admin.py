@@ -524,9 +524,9 @@ S, I = 3, 4  # option types: string, integer
 COMMANDS = [
     {"name": "ask", "description": "Ask Editors Bot anything from Samuel's teachings",
      "options": [{"type": S, "name": "question", "description": "Your question", "required": True, "max_length": 1000}]},
-    {"name": "review", "description": "Feedback on your bio, portfolio blurb or outreach message (only you see it)",
+    {"name": "review", "description": "Feedback on your bio, portfolio blurb or outreach message",
      "options": [{"type": S, "name": "text", "description": "Paste it here", "required": True, "max_length": 1800}]},
-    {"name": "niche", "description": "Say your niche in one sentence (only you see it)",
+    {"name": "niche", "description": "Say your niche in one sentence",
      "options": [{"type": S, "name": "what", "description": "What you edit, e.g. talking-head Reels", "required": True, "max_length": 300},
                  {"type": S, "name": "who", "description": "Who for, e.g. real estate agents", "required": False, "max_length": 300}]},
     {"name": "nugget", "description": "A nugget from Samuel's teaching"},

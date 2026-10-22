@@ -187,3 +187,4 @@ Back to [[07-Agents/content/profile|Profile]]
 
 ## 2026-10-22 night: rework after Samuel's correction
 - Cut the server to 12 member channels around growth (accountability, feedback, resources, opportunities, help, weekly live), the 60-Day Challenge as one forum post. Rewrote the Discord texts and the /community page. Built Editors Bot: slash commands via a Netlify interactions endpoint, Claude answering from the teachings, call reminder. /help tested in the server. Waiting: Anthropic key, call time.
+- 2026-10-22: Editors Bot switched to Haiku 5.5 and every slash-command answer made public (Samuel's ask); commands re-registered, site redeployed. Keys file opened for the Anthropic key.
