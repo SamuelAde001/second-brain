@@ -181,3 +181,6 @@ Back to [[07-Agents/content/profile|Profile]]
 
 ## 2026-10-22: Called to Edit Community set-up
 - Took Samuel's 25 answers into the launch note. Built the new site (Netlify `calledtoeditcommunity`, `Desktop\called-to-edit-site\`): /community, /community/webinar (NGN 2,000 until Mon 2026-10-26), join, account; Flutterwave checkout, verify and webhook; Discord join (OAuth); scheduled streaks, nugget, renewals and leaderboard. Wrote `00-System/scripts/community_admin.py` and the Discord texts note (64 nuggets from the teachings). The webinar relay now forwards `cte-` payments to the community site. Waiting on his Discord app, secrets file, Flutterwave keys and domain.
+
+## 2026-10-22 evening: Discord built in Samuel's Chrome
+- Created the server and the bot app, set the redirect, Public Bot off. Samuel did the human check, pasted the keys (Notepad) and authorised the bot. Ran build and post-texts: roles, 23 channels with icons (his ask), AutoMod, Community mode, pinned texts, workbook, logo; renamed the bot from "Editors Bot". Keys and server ids on Netlify, redeployed. Open: Flutterwave key, test payment, domain.

@@ -79,6 +79,14 @@ Samuel, word for word: *"immediatly they finish the webinar, I would give them a
 - **Texts:** [[04-Projects/called-to-edit-community-discord-texts|Discord texts]] (rules, welcome, start-here, workbook, expired, check-in guide, 64 nuggets in his words).
 - **Checked:** pages at 375 px (no sideways scroll; offer price and countdown right), checkout answers without keys, the Blobs store works, the relay routes `cte-`. **Not checked yet:** a real payment, the Discord join, the scheduled jobs (they need the keys and the server).
 
+### Discord set up, 2026-10-22 evening (Brand manager, in Samuel's Chrome)
+
+Samuel: *"I want you to build the discord community for me and set everything up for me on my browser as I am very tired"*, then *"Make sure all channel names have Icons to make them look cooler"*.
+- **Server** "Called to Edit" (id 1562930392863080470), made by the Brand manager in his Discord. **Bot app** "Called to Edit" (client id 1562931510364082336): Public Bot off, install link None, redirect `https://calledtoeditcommunity.netlify.app/api/discord/callback`. The Brand manager ticked the Developer Terms box on his ask; Samuel did the "I am human" check, pasted the token and client secret into `community.json` himself (Notepad, via `community_admin.py edit-secrets`) and clicked Authorise in his Discord app.
+- **Built by `community_admin.py build` + `post-texts`:** roles Team, Member, Expired; 9 categories, 23 channels, each named icon・name (e.g. 📜・rules); Community mode; AutoMod (Kindness, Scams, Spam, Mention spam → 🛡️・mod-log); server icon and bot avatar = community logo; bot renamed from Discord's default "Editors Bot" to "Called to Edit"; Discord's empty starter channels removed; rules, welcome, start-here, workbook (PDF), expired texts pinned; example check-in pinned in the forum.
+- **Website:** Discord keys and server ids on Netlify, redeployed; the Discord login link forwards correctly.
+- **Still open:** the Flutterwave secret key (nobody can pay until it's in), one real test payment, the domain, team seats.
+
 ### Needs Samuel
 1. Discord: create the server "Called to Edit" (bots can't create servers), then the bot application in Discord's developer portal, with the Brand manager in Chrome. He pastes the token into the secrets file himself.
 2. Flutterwave: a new account goes through KYC review, which can take days. Launch on the current account and switch later, unless the new one is approved in time.

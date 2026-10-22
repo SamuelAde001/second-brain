@@ -147,9 +147,60 @@ def find_guild():
     return pick[0]["id"]
 
 
+def cmd_setup_secrets():
+    """Samuel pastes each key; nothing is echoed or printed. Blank keeps what's there."""
+    import getpass
+    cur = json.loads(SECRETS.read_text(encoding="utf-8")) if SECRETS.exists() else {}
+    cur.setdefault("discord_client_id", "1562931510364082336")
+    asks = [("discord_bot_token", "Discord BOT TOKEN (Bot page > Reset Token > Copy)"),
+            ("discord_client_secret", "Discord CLIENT SECRET (OAuth2 page > Reset Secret > Copy)"),
+            ("flw_secret_key", "Flutterwave SECRET KEY (starts FLWSECK; blank to add later)")]
+    print("Paste each one and press Enter. Nothing shows when you paste: that's normal.\n")
+    for key, label in asks:
+        v = getpass.getpass(label + ": ").strip()
+        if v:
+            cur[key] = v
+    SECRETS.parent.mkdir(exist_ok=True)
+    SECRETS.write_text(json.dumps(cur, indent=2), encoding="utf-8")
+    print("\nSaved. Filled in: " + ", ".join(k for k, _ in asks if str(cur.get(k, "")).strip()))
+
+
+def cmd_edit_secrets():
+    """Writes a fill-in template if the file is missing, then opens it in Notepad for Samuel."""
+    if not SECRETS.exists():
+        SECRETS.parent.mkdir(exist_ok=True)
+        SECRETS.write_text(json.dumps({
+            "discord_bot_token": "PASTE BOT TOKEN HERE",
+            "discord_client_id": "1562931510364082336",
+            "discord_client_secret": "PASTE CLIENT SECRET HERE",
+            "flw_secret_key": "PASTE FLUTTERWAVE SECRET KEY HERE"}, indent=2), encoding="utf-8")
+    subprocess.Popen(["notepad.exe", str(SECRETS)])
+    print("Opened in Notepad. Replace each PASTE ... HERE (keep the quotes), then Ctrl+S.")
+
+
 def cmd_invite_url():
     cid = secrets()["discord_client_id"].strip()
     print(f"https://discord.com/oauth2/authorize?client_id={cid}&permissions=8&scope=bot%20applications.commands")
+
+
+ICONS = {
+    "welcome": "👋", "rules": "📜", "announcements": "📢", "start-here": "🧭", "workbook": "📘", "daily-nugget": "☀️",
+    "introduce-yourself": "🙋", "general": "💬", "wins": "🏆", "daily-check-in": "✍️", "leaderboard": "🔥",
+    "portfolio-and-profile": "🎞️", "outreach": "📨", "niche": "🎯", "questions": "❓", "davinci-help": "🎬", "gear": "🎧",
+    "weekly-call": "🎙️", "call-recordings": "📼", "off-topic": "🍿", "payments-log": "💳", "mod-log": "🛡️",
+    "subscription-expired": "🔒",
+}
+SEP = "・"
+
+
+def shown(name):
+    """What Discord shows: icon, dot, name (Samuel, 2026-10-22: icons on every channel)."""
+    return f"{ICONS[name]}{SEP}{name}" if name in ICONS else name
+
+
+def base(name):
+    """A channel's plain name, without its icon, so lookups don't depend on the icon."""
+    return name.split(SEP, 1)[-1]
 
 
 def ow(role_id, allow=0, deny=0):
@@ -187,7 +238,7 @@ def cmd_build():
 
     # Categories and channels, matched by name so a re-run updates instead of duplicating.
     chans = api("GET", f"/guilds/{g}/channels")
-    by = {(ch["name"], ch["type"]): ch for ch in chans}
+    by = {(base(ch["name"]), ch["type"]): ch for ch in chans}
     ids = c.setdefault("channels", {})
     for pos, (cat, items) in enumerate(LAYOUT):
         ckey = (cat.lower(), CATEGORY)
@@ -195,7 +246,7 @@ def cmd_build():
         body = {"name": cat, "type": CATEGORY, "position": pos}
         cat_obj = api("PATCH", f"/channels/{cat_obj['id']}", {"name": cat, "position": pos}) if cat_obj else api("POST", f"/guilds/{g}/channels", body)
         for i, (name, typ, mode, topic) in enumerate(items):
-            body = {"name": name, "parent_id": cat_obj["id"], "position": i, "permission_overwrites": overwrites(mode, g, roles)}
+            body = {"name": shown(name), "parent_id": cat_obj["id"], "position": i, "permission_overwrites": overwrites(mode, g, roles)}
             if topic and typ == TEXT:
                 body["topic"] = topic
             if typ == FORUM:
@@ -221,6 +272,10 @@ def cmd_build():
         import base64
         patch["icon"] = "data:image/png;base64," + base64.b64encode(ICON.read_bytes()).decode()
     api("PATCH", f"/guilds/{g}", patch)
+    me = api("GET", "/users/@me")
+    if not me.get("avatar") and ICON.exists():  # the bot wears the community logo in DMs
+        import base64
+        api("PATCH", "/users/@me", {"avatar": "data:image/png;base64," + base64.b64encode(ICON.read_bytes()).decode()})
     if "COMMUNITY" not in guild.get("features", []):
         print("Community mode on; making the forum and stage channels.")
         return cmd_build()
@@ -245,6 +300,14 @@ def cmd_build():
             api("PATCH", f"/guilds/{g}/auto-moderation/rules/{have[r['name']]['id']}", body)
         else:
             api("POST", f"/guilds/{g}/auto-moderation/rules", body)
+    # Discord's starter "Text Channels" / "Voice Channels" categories and voice "General", left empty by the move above.
+    for ch in api("GET", f"/guilds/{g}/channels"):
+        if ch["type"] == VOICE and ch["name"] == "General":
+            api("DELETE", f"/channels/{ch['id']}")
+    left = api("GET", f"/guilds/{g}/channels")
+    for ch in left:
+        if ch["type"] == CATEGORY and ch["name"].lower() in ("text channels", "voice channels") and not any(x.get("parent_id") == ch["id"] for x in left):
+            api("DELETE", f"/channels/{ch['id']}")
     save_cfg(c)
     print(f"Built: {len(ids)} channels tracked, roles {', '.join(roles)}, AutoMod {len(rules)} rules, Community mode on.")
 
@@ -258,7 +321,7 @@ def sections():
 def render(body, c):
     names = {}
     for ch in api("GET", f"/guilds/{c['guild']}/channels"):
-        names[ch["name"]] = ch["id"]
+        names[base(ch["name"])] = ch["id"]
     body = body.replace("{SITE}", SITE_URL)
     return re.sub(r"(?<![\w<&])#([a-z0-9-]+)", lambda m: f"<#{names[m.group(1)]}>" if m.group(1) in names else m.group(0), body)
 
@@ -270,7 +333,7 @@ def cmd_post_texts():
     sec = sections()
     ids = c["channels"]
     posted = c.setdefault("posted", {})
-    by_name = {ch["name"]: ch["id"] for ch in api("GET", f"/guilds/{c['guild']}/channels")}
+    by_name = {base(ch["name"]): ch["id"] for ch in api("GET", f"/guilds/{c['guild']}/channels")}
     for key, body in sec.items():
         if not key.startswith("#") or " " in key:
             continue
@@ -323,8 +386,6 @@ def netlify(*args, secret_value=False):
 def cmd_push_env():
     s = secrets()
     c = load_cfg()
-    if not (SITE_DIR / ".netlify" / "state.json").exists():
-        netlify("link", "--id", SITE_ID)
     values = {
         "DISCORD_BOT_TOKEN": s["discord_bot_token"].strip(),
         "DISCORD_CLIENT_SECRET": s["discord_client_secret"].strip(),
@@ -335,10 +396,12 @@ def cmd_push_env():
         values["FLW_SECRET_KEY"] = s["flw_secret_key"].strip()
     else:
         print("Flutterwave secret key not filled in yet: skipped.")
-    for k, v in values.items():
-        netlify("env:set", k, v, secret_value=True)
-        print("Set", k)
-    print("Deploy again (sh deploy.sh) so the functions pick them up.")
+    # Python here can't launch the Netlify CLI, so the values go into a one-off file that
+    # `netlify env:import` reads from bash (output silenced), then the file is removed.
+    out = SITE_DIR / ".env.push"
+    out.write_text("".join(f"{k}={v}\n" for k, v in values.items()), encoding="utf-8")
+    print("Wrote", ", ".join(values), "to .env.push. Now, in the site folder:")
+    print("  netlify env:import .env.push >/dev/null && rm .env.push && sh deploy.sh 'keys'")
 
 
 def cmd_nuggets():
@@ -389,7 +452,7 @@ def cmd_team(name):
 
 def cmd_say(channel, text):
     c = load_cfg()
-    by_name = {ch["name"]: ch["id"] for ch in api("GET", f"/guilds/{c['guild']}/channels")}
+    by_name = {base(ch["name"]): ch["id"] for ch in api("GET", f"/guilds/{c['guild']}/channels")}
     if channel.lstrip("#") not in by_name:
         sys.exit("No channel " + channel)
     api("POST", f"/channels/{by_name[channel.lstrip('#')]}/messages", {"content": render(text, c), "allowed_mentions": {"parse": []}})
@@ -397,8 +460,9 @@ def cmd_say(channel, text):
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")
     a = sys.argv[1:]
-    cmds = {"invite-url": cmd_invite_url, "build": cmd_build, "post-texts": cmd_post_texts, "push-env": cmd_push_env,
+    cmds = {"setup-secrets": cmd_setup_secrets, "edit-secrets": cmd_edit_secrets, "invite-url": cmd_invite_url, "build": cmd_build, "post-texts": cmd_post_texts, "push-env": cmd_push_env,
             "nuggets": cmd_nuggets, "status": cmd_status, "members": cmd_members, "team-invite": cmd_team_invite}
     if a and a[0] in cmds:
         cmds[a[0]]()
