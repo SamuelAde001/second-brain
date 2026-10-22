@@ -17,8 +17,8 @@ import sys
 import tempfile
 
 MAIN_CHECKPOINT = 460_000   # auto-compact runs at 500k (settings.json)
-SUB_WRAP = 150_000
-SUB_STOP = 185_000
+SUB_WRAP = 300_000   # Samuel, 2026-10-22: give helpers more room (was 150k / 185k)
+SUB_STOP = 350_000
 TAIL_BYTES = 3_000_000
 
 

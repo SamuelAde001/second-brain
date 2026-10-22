@@ -340,3 +340,10 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: read-only access for the Brand manager to `C:\Users\repzy\Desktop\Called to Edit\` (the designer's webinar flyer and his references), listed in AGENTS.md §10 and the profile. Small copies go to the scratchpad only.
 **Why**: Samuel, 2026-10-21, asking for the Called to Edit brand guide: *"go through my materials and my finished video of my page"*. The flyer he picked lives there.
 **Who decided**: Samuel.
+
+## 2026-10-22: Permissions ask only for screen control and deletes; helper agents get 350k
+
+**Decision**: `.claude/settings.json` now allows every tool and MCP server by default. It asks only before screen control (`mcp__computer-use`), deleting (files, TickTick/Calendar/Notion/Docs deletes, Resolve LUT/DCTL deletes), history rewrites (git reset/clean/rebase/force push) and the system-security or power commands (execution policy, registry, restart/shutdown). Secret reads stay denied. `agy_guard.py` mirrors the ask list for Gemini. The context guard's helper-agent caps rise from 150k (wrap) / 185k (stop) to 300k / 350k, permanently.
+**Why**: Samuel, 2026-10-22: *"the only reason you would notify me for a permission is if you are doing screen, you want to use screen use, and if you want to delete something, right? Except for that, carry on, stop asking me for permissions."* And on helpers: *"I noticed that the agents are always breaking whenever they have a token limit and they were not able to finish a task. So let us give them more chances ... Let's increase all the agents' workload so that they can be able to do good work"*. The day run on 2026-10-22 showed builders start at ~73k and had ~75k of working room under the old cap.
+**Rule**: [[00-System/model-routing|model routing]] → Session size is enforced. Supersedes the helper caps in the 2026-10-12 and 2026-10-14 entries.
+

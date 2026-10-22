@@ -30,7 +30,7 @@ Listed neutrally in `00-System/portability.md` → Integrations. In Claude Code 
 - **Never set `ANTHROPIC_API_KEY` system-wide.** If it is set, Claude Code silently bills the API instead of the Max subscription.
 
 ## Session size
-Canonical rule: `00-System/model-routing.md` → Session size is enforced. The session compacts at 500k (`autoCompactWindow` in `.claude/settings.json`), and `00-System/scripts/context_guard.py` (PostToolUse hook) asks for a checkpoint at 460k and makes helper agents return by 185k.
+Canonical rule: `00-System/model-routing.md` → Session size is enforced. The session compacts at 500k (`autoCompactWindow` in `.claude/settings.json`), and `00-System/scripts/context_guard.py` (PostToolUse hook) asks for a checkpoint at 460k and makes helper agents return by 350k.
 
 ## Compact instructions
 When compacting, keep: the working agent's name; the job and its Brain note path; the step in progress and the next step; Samuel's latest instructions word for word; open decisions and questions waiting on him; files, Resolve timelines and folders touched this session; the latest usage-card reading. Drop tool output, image contents and resolved back-and-forth. (Same list in model-routing.md.)

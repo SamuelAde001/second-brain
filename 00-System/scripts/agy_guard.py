@@ -32,12 +32,12 @@ DENY = [
     r"(^|[\\/])token[^\\/]*\.json",
     r"ANTHROPIC_API_KEY",
 ]
-# .claude/settings.json -> permissions.ask (deleting, process/system, scheduled tasks, installs, history rewrites).
+# .claude/settings.json -> permissions.ask (deleting, history rewrites, security settings and power).
+# Samuel, 2026-10-22: ask only for screen control and deletes.
 ASK = [
-    r"\bRemove-Item\b", r"(^|[\s;&|(])(rm|del|rd|rmdir)\s", r"\bClear-Content\b",
-    r"\bStop-Process\b", r"\bStop-Service\b", r"\bRestart-Computer\b", r"\bStop-Computer\b",
-    r"\bSet-ExecutionPolicy\b", r"\bFormat-Volume\b", r"(^|[\s;&|(])reg\s",
-    r"\bschtasks\b", r"\b(Un)?Register-ScheduledTask\b", r"\bwinget\b",
+    r"\bRemove-Item\b", r"(^|[\s;&|(])(rm|del|rd|rmdir)\s", r"\bClear-Content\b", r"\bFormat-Volume\b",
+    r"\bUnregister-ScheduledTask\b", r"\bRestart-Computer\b", r"\bStop-Computer\b",
+    r"\bSet-ExecutionPolicy\b", r"(^|[\s;&|(])reg\s",
     r"\bgit\s+(reset|clean|rebase)\b", r"\bgit\s+push\s+(.*\s)?(--force|-f)\b", r"\bgit\s+push\s+(.*\s)?\+",
 ]
 
