@@ -160,3 +160,10 @@ Samuel, ~01:00 WAT, by voice before bed: resume the video *"from beginning to th
 - **Wave 3a (g08) was cut off:** 12 of 20 beats have manifests; missing P4-20, P4-24, P4-29, P4-29b, P4-30, P4-31, P4-32, P4-32b.
 - **Usage 06:10:** weekly 60 %, 5-hour 88 % (resets 06:40). Rest at full standard projects to ~73-74 %: asked Samuel whether to stay at 70 % (9-10 lean on built templates) or raise to 75 %.
 - **Next:** after 06:40, finish g08's 8 beats; build g09-g10 per his answer; install g01-g10 (`INST_g01_g10`); stills; fix list; sound if budget allows.
+
+### RESUME (Editor), 2026-10-23 09:41
+- **Samuel 06:30-07:00:** no weekly cap, be efficient; Neo Bevel off everywhere; green and red only where very needed (words in [[03-Areas/video-editing/ways-of-working|ways of working]] → 2026-10-23). Done by script, no regeneration: `KIT/kits/brandfix.py` (live timeline: 321 bevels off on *Visuals v2*; .setting files: bevels off, green/red to Frontal shades except the beats in `V2/brandfix_keep.json`, 18 beats; originals in each beat's `_pre_brandfix`). Kit `frfx.bevel` builds the bevel off. Before/after sheet sent (`KIT/renders/v3/brandfix_preview/`).
+- **Wave 3 done (wf_35ef74c5-a62, 15 groups, builder-only):** g08 finished, g09 + g10 built, P4-09/11/13 re-framed (zoom out). **LP-02 not built:** its Flow clip doesn't exist (`Graphics/Assets (Editor)/flow/` is missing); LP-03b and LP-07 use motion-graphic stand-ins until Samuel generates the Flow clips (swap in `manifest_flow.json`). Builders dropped plan v3's red where it wasn't a mistake to avoid.
+- **Running:** install of g01-g10 (141 manifests, 29 MZ) onto a fresh *Visuals v3 (Editor)* (lists `KIT/renders/v3/INST_g01_g10/`), then `brandfix.py timeline`, then one landed still per beat (70 % in) via deliver. *Visuals v2 (Editor)* stays as the pre-recolour version.
+- **Open for Samuel:** the Flow clips (LP-02, LP-03b, LP-07); plan v3 question 7 (the CRM company names and lost reasons in LP-0x are made up); the wording of SY-13's box 3 and 4 labels in the BD reprise; music + SFX pass not started.
+- **Next:** sheets to Samuel; his review; sound pass.
