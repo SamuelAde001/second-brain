@@ -197,3 +197,11 @@ Samuel asked for a free payment link for relatives that does everything the paid
 - **Numbers:** the Overview's Money in is paid count × NGN 5,000, so it overstates real income by NGN 10,000 from these two. Subtract them at the month close.
 - Ticking needs to happen within 3 hours of sign-up, or the unpaid reminder goes out first (Anita got one on 19 Oct before her tick).
 - Older hand tick, not free: Mike Andy (6 Oct), added by hand because his transfer never came back to the page.
+
+## 2026-10-23 — Seven more free seats (Brand manager)
+
+Samuel: *"I want to add some people in the webinar for free, as this are people close to me, so I would give you their details so you add them in now, send them the emails and tick them as paid on the sheet"*, then *"Add this person too"*. Same route as 2026-10-20: each was signed up through the Sheet endpoint (`type=registration`, source `free seat (samuel)`, 17:33 WAT), then Paid ticked on Sign-ups rows 199–205 in his Chrome, so the 10-minute sync does the rest (Status Paid, Paid by "Ticked by hand", calendar, confirmation email).
+
+- **Ogwara Precious Alisha, Agba Christopher, Joshua Azi, Agatha Mngohol Nyinongo, Onah Gideon Chigozie, Favour Dorcas Josiah, Jesse Agada.** Their contact details are in the Sheet only.
+- **Numbers:** with Anita and Comfort that's 9 free seats, so the Overview's Money in overstates real income by NGN 45,000. Subtract at the month close.
+- Note for next time: curl to the endpoint must not follow the redirect with `-X POST` (Google answers 411); post once, then GET the `Location` for the reply.

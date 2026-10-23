@@ -46,3 +46,4 @@ Back to [[03-Areas/personal-brand/personal-brand|Personal brand]]
 - 2026-10-19 — Webinar research briefing filed: [[05-Knowledge/called-to-edit-research/called-to-edit-webinar-research|research briefing]] (top 15 changes, what not to say, day-before checks), with detail notes for sections 0-4 and 5-10.
 - 2026-10-20 — Samuel onboarded a creative director (volunteer, laptop bought on a loan instead of salary). She'll work with the Brand manager later; how to deal with her comes from him later → [[03-Areas/personal-brand/creative-director|creative director]].
 - 2026-10-20 — Called to Edit announcement Reel drafted (contrarian take, Kumar reference, to shoot today) → [[03-Areas/personal-brand/scripts/called-to-edit-announcement-contrarian|announcement script]].
+- 2026-10-23 — 7 free webinar seats added for people close to Samuel (9 free in total); the Sheet's Money in overstates income by NGN 45,000 → [[04-Projects/called-to-edit-landing-page-build|build note]].
