@@ -167,3 +167,9 @@ Samuel, ~01:00 WAT, by voice before bed: resume the video *"from beginning to th
 - **Running:** install of g01-g10 (141 manifests, 29 MZ) onto a fresh *Visuals v3 (Editor)* (lists `KIT/renders/v3/INST_g01_g10/`), then `brandfix.py timeline`, then one landed still per beat (70 % in) via deliver. *Visuals v2 (Editor)* stays as the pre-recolour version.
 - **Open for Samuel:** the Flow clips (LP-02, LP-03b, LP-07); plan v3 question 7 (the CRM company names and lost reasons in LP-0x are made up); the wording of SY-13's box 3 and 4 labels in the BD reprise; music + SFX pass not started.
 - **Next:** sheets to Samuel; his review; sound pass.
+
+### RESUME (Editor), 2026-10-23 12:13
+- ***Visuals v3 (Editor)* is the full video:** g01-g10, 258 ops (142 adjustment clips), 29 MagicZoom, verify ok 11:46; every Neo Bevel off; green/red per `V2/brandfix_keep.json` (18 beats). 140 landed stills (70 % in) as nine sheets `KIT/renders/v3/INST_g01_g10/Visuals v3 stills N of 9.jpg`, sent to Samuel. *Visuals v2 (Editor)* = sections 1-7 with the old colours, bevels off.
+- Install fixes: `install_v2x.py` retries a beat up to 3 times on Fusion's random "paste failed" (P3-10 this time). Resolve crashed (fusionsystem.dll) on the first two imports of big timelines; a fresh Resolve imported fine. `restart_resolve.py` when the MCP launch reports "running" but no process exists.
+- **Editor's review flags for Samuel:** P4-25 (Apollo stall chart) and LP-10 (red A-roll wash on "you cannot") are the two heaviest reds left (both on the keep list); LP-02 empty until its Flow clip exists; LP-03b and LP-07 on stand-ins; CRM names in LP-05b/07/08 and ST-02 made up (plan question 7).
+- **Next:** Samuel's review of v3; the music + SFX pass (new song per chapter, never repeated; SFX heaviest in the hook).
