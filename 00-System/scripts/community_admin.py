@@ -173,11 +173,11 @@ def cmd_edit_secrets():
             "discord_client_id": "1562931510364082336",
             "discord_client_secret": "PASTE CLIENT SECRET HERE",
             "flw_secret_key": "PASTE FLUTTERWAVE SECRET KEY HERE",
-            "anthropic_api_key": "PASTE ANTHROPIC API KEY HERE"}, indent=2), encoding="utf-8")
+            "gemini_api_key": "PASTE GEMINI API KEY HERE"}, indent=2), encoding="utf-8")
     else:  # add any key the file doesn't have yet, keeping what's there
         cur = json.loads(SECRETS.read_text(encoding="utf-8"))
-        if "anthropic_api_key" not in cur:
-            cur["anthropic_api_key"] = "PASTE ANTHROPIC API KEY HERE"
+        if "gemini_api_key" not in cur:  # Editors Bot runs on Gemini (Samuel, 2026-10-23)
+            cur["gemini_api_key"] = "PASTE GEMINI API KEY HERE"
             SECRETS.write_text(json.dumps(cur, indent=2), encoding="utf-8")
     subprocess.Popen(["notepad.exe", str(SECRETS)])
     print("Opened in Notepad. Replace each PASTE ... HERE (keep the quotes), then Ctrl+S.")
@@ -422,8 +422,8 @@ def cmd_push_env():
         "DISCORD_CONFIG": json.dumps({k: c[k] for k in ("guild", "roles", "channels", "call") if k in c}, separators=(",", ":")),
         "DISCORD_PUBLIC_KEY": api("GET", "/applications/@me")["verify_key"],  # not secret; checks Discord's signatures
     }
-    if str(s.get("anthropic_api_key", "")).strip().startswith("sk-ant-"):
-        values["ANTHROPIC_API_KEY"] = s["anthropic_api_key"].strip()  # Netlify only, never system-wide (CLAUDE.md)
+    if str(s.get("gemini_api_key", "")).strip().startswith("AIza"):
+        values["GEMINI_API_KEY"] = s["gemini_api_key"].strip()  # Netlify only
     else:
         print("Anthropic API key not filled in yet: Editors Bot's /ask, /review and /niche wait for it.")
     if str(s.get("flw_secret_key", "")).strip().startswith("FLWSECK"):
