@@ -18,5 +18,6 @@ Append-only. Newest at the bottom.
 - 2026-10-21 — The teachings became a branded, phone-first PDF book (119 pages), Samuel's first digital product to sell later → [[04-Projects/called-to-edit-webinar-teachings|teachings]]. Workbook next.
 - 2026-10-21 — Workbook drafted: *Your first 60 days to your first client*, a phone PDF people type into, built from the book; day order waits on Samuel's review → [[04-Projects/called-to-edit-community-launch|community launch]].
 - 2026-10-21 — Workbook confirmed by Samuel (73 pages, one task a day) and copied to Desktop\Called to Edit.
+- 2026-10-24 — Community webinar offer (NGN 2,000 first month) extended to Fri 2026-10-30 23:59 WAT; site deployed.
 
 Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]

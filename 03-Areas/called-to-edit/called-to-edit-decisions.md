@@ -2,7 +2,7 @@
 type: decision
 area: called-to-edit
 status: active
-updated: 2026-10-21
+updated: 2026-10-24
 source: interview
 tags: []
 ---
@@ -100,3 +100,6 @@ Samuel, word for word: *"you built the whole community around the 60 days challe
 
 ## 2026-10-23 · Editors Bot runs on Gemini's free tier
 Samuel: *"let's swtich to Gemini and see how it works, since it is just asnwering questions from my teachings etc"*. The Anthropic Console payment verification kept failing (he says the card isn't the issue). The bot's AI now calls the Gemini API (free tier, three Flash models tried in turn as each daily quota runs out). Trade-off accepted: free-tier prompts may be used by Google; teachings are public-facing anyway.
+
+## 2026-10-24 · Community webinar offer runs to Friday 30 Oct
+Samuel: *"Make the deadline for the discounted community registeration to be Next week friday"*. The NGN 2,000 first month on `/community/webinar` now ends **Fri 2026-10-30, 23:59 WAT** (was Mon 2026-10-26). Changed in the server price check (`netlify/lib/lib.mjs`), the page banner and the countdown; deployed and checked live. → [[04-Projects/called-to-edit-community-launch|community launch]]

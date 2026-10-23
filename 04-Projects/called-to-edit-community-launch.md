@@ -2,7 +2,7 @@
 type: project
 area: called-to-edit
 status: active
-updated: 2026-10-22
+updated: 2026-10-24
 source: interview
 tags: [called-to-edit, community, discord, flutterwave, 60-day-challenge]
 ---
@@ -34,7 +34,7 @@ Samuel, word for word: *"immediatly they finish the webinar, I would give them a
 | # | Question | Samuel, 2026-10-22 |
 |---|---|---|
 | 1 | Proving attendance | *"The webinar people would get a secret link I would give them on the call, don't worry about a leak, I am fine with other people getting the discount"* |
-| 2 | How long the NGN 2,000 lasts | *"The offer lasts until Monday"* (Mon 2026-10-26) |
+| 2 | How long the NGN 2,000 lasts | *"The offer lasts until Monday"* (Mon 2026-10-26). **Moved 2026-10-24 to Fri 2026-10-30, 23:59 WAT** (Samuel: *"Make the deadline for the discounted community registeration to be Next week friday"*) |
 | 3 | What NGN 2,000 covers | *"their first 30 days till the subscription expires, so if they pay on the 24th, their next pay would be 24th next month with the 5k"*. Access runs 30 days from the payment, not from 11-01 |
 | 4 | Flutterwave fees | *"I absorb it"* |
 | 5 | Renewals | *"We would prioritise more on bank cards"* (card charged automatically); people without cards pay one-off and *"renew manually with a reminder for both parties"* (member and Samuel) |
@@ -61,7 +61,7 @@ Samuel, word for word: *"immediatly they finish the webinar, I would give them a
 
 ## Build plan (Brand manager's design, 2026-10-22; not Samuel's decisions unless quoted above)
 
-- **Site:** a new Netlify site from `C:\Users\repzy\Desktop\called-to-edit-site\`, set up like the webinar page (`site/`, `netlify/functions/`, `deploy.sh`). Pages: `/community` (NGN 5,000), the secret offer link (NGN 2,000 until Mon 2026-10-26 23:59 WAT, taken as the end of Monday), `/community/join` (after paying: how to make a Discord account, then Join with Discord). The server sets the price, never the page.
+- **Site:** a new Netlify site from `C:\Users\repzy\Desktop\called-to-edit-site\`, set up like the webinar page (`site/`, `netlify/functions/`, `deploy.sh`). Pages: `/community` (NGN 5,000), the secret offer link (NGN 2,000 until Mon 2026-10-26 23:59 WAT, taken as the end of Monday; moved to Fri 2026-10-30 23:59 WAT on 2026-10-24), `/community/join` (after paying: how to make a Discord account, then Join with Discord). The server sets the price, never the page.
 - **Payment:** Flutterwave hosted checkout, opened by a function, card first. The payment is verified with Flutterwave's API on return; the webhook catches transfer payers who never come back. A card payment keeps Flutterwave's card token, and a scheduled function charges NGN 5,000 on day 30. A failed charge, or a transfer payer, gets reminders on day 27 and day 30: the member by email and Discord DM, Samuel by Discord DM.
 - **Join:** Discord login (OAuth). The bot adds them to the server with the **Member** role. No public invite link, so nobody gets in without paying.
 - **Expired:** the Member role is swapped for **Expired**, which sees one read-only channel with the resubscribe link.
