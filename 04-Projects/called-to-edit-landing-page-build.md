@@ -205,3 +205,4 @@ Samuel: *"I want to add some people in the webinar for free, as this are people 
 - **Ogwara Precious Alisha, Agba Christopher, Joshua Azi, Agatha Mngohol Nyinongo, Onah Gideon Chigozie, Favour Dorcas Josiah, Jesse Agada.** Their contact details are in the Sheet only.
 - **Numbers:** with Anita and Comfort that's 9 free seats, so the Overview's Money in overstates real income by NGN 45,000. Subtract at the month close.
 - Note for next time: curl to the endpoint must not follow the redirect with `-X POST` (Google answers 411); post once, then GET the `Location` for the reply.
+- **Done 17:41 WAT:** the sync's run marked all seven Paid (Ticked by hand), added them to the calendar event and sent each a confirmation email. Read back from the Sheet.
