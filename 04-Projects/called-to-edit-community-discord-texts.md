@@ -59,6 +59,13 @@ Tell us:
 
 Then read #start-here, and say hi to the person who joined before you.
 
+## Join welcome
+
+👋 **Welcome to Called to Edit, {MEMBER}!** 🎬
+You just joined video editors who are building real careers and landing clients, together.
+Tell us who you are: your name, where you edit from, what you edit, and who you want to edit for.
+Then read #start-here. Everyone, give them a warm welcome 👇
+
 ## #ask-editors-bot
 
 **Meet Editors Bot** 🤖

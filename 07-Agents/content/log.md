@@ -194,3 +194,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-23: Samuel ran /ask in #ask-editors-bot; Editors Bot answered. Bot live.
 - 2026-10-23: weekly live call set to Wednesdays 8:00pm WAT (Samuel); pushed and deployed.
 - 2026-10-23: added team-chat and team-call to the Discord TEAM category (Samuel's ask); made a one-use team invite for his creative director (not in the server yet; Team seat to give once she joins).
+- 2026-10-23: creative director joined; Team seat given. Custom join welcome built (Brain text -> site callback + team/welcome commands), Discord's stock join line off, site deployed, first welcome posted for her.

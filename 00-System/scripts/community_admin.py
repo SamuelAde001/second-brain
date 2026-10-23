@@ -7,11 +7,12 @@ This script reads them and never prints them. No agent opens that file (AGENTS.m
   python community_admin.py build           roles, channels, permissions, AutoMod, Community mode (safe to re-run)
   python community_admin.py post-texts      post or update the pinned texts from the Brain note, upload the workbook
   python community_admin.py push-env        put the keys and the server config on the Netlify site
-  python community_admin.py nuggets         rebuild the bot's morning-nugget list from the Brain note
+  python community_admin.py nuggets         rebuild the bot's morning-nugget list and join welcome from the Brain note
   python community_admin.py status          what the server looks like now
   python community_admin.py members         who has paid, until when (no emails or phones printed)
   python community_admin.py team-invite     a one-use, 24-hour invite for a team member
-  python community_admin.py team <name>     give someone already in the server a free Team seat
+  python community_admin.py team <name>     give someone already in the server a free Team seat (and welcome them)
+  python community_admin.py welcome <name>  post the join welcome in #welcome for someone in the server
   python community_admin.py say <channel> <text>
 """
 import json
@@ -279,6 +280,7 @@ def cmd_build():
     # Community mode (needed for the forum and the stage channel). Join messages go to #welcome.
     patch = {"verification_level": 1, "explicit_content_filter": 2, "default_message_notifications": 1,
              "rules_channel_id": ids["rules"], "public_updates_channel_id": ids["modLog"], "system_channel_id": ids["welcome"],
+             "system_channel_flags": 1 | 8,  # Discord's stock join line off: the bot posts our own welcome (Samuel, 2026-10-23)
              "features": sorted(set(guild.get("features", [])) | {"COMMUNITY"})}
     if not guild.get("icon") and ICON.exists():
         import base64
@@ -447,6 +449,12 @@ def cmd_nuggets():
     out.write_text("// Made by community_admin.py nuggets from the Brain note. Don't edit here.\nexport default "
                    + json.dumps(lines, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
     print(f"{len(lines)} nuggets written.")
+    # The join welcome, posted by the site when a paid member joins; {MEMBER} becomes their mention.
+    text = render(sections()["Join welcome"], load_cfg())
+    (SITE_DIR / "netlify" / "lib" / "join-welcome.mjs").write_text(
+        "// Made by community_admin.py nuggets from the Brain note. Don't edit here.\nexport default "
+        + json.dumps(text, ensure_ascii=False) + ";\n", encoding="utf-8")
+    print("Join welcome written.")
 
 
 def cmd_status():
@@ -485,6 +493,18 @@ def cmd_team(name):
     uid = found[0]["user"]["id"]
     api("PUT", f"/guilds/{c['guild']}/members/{uid}/roles/{c['roles']['team']}")
     print(f"Team seat given to @{found[0]['user']['username']}.")
+    cmd_welcome(name)
+
+
+def cmd_welcome(name):
+    c = load_cfg()
+    found = api("GET", f"/guilds/{c['guild']}/members/search?query={requests.utils.quote(name)}&limit=5")
+    if len(found) != 1:
+        sys.exit(f"{len(found)} matches for '{name}': " + ", ".join(f['user']['username'] for f in found))
+    uid = found[0]["user"]["id"]
+    text = render(sections()["Join welcome"], c).replace("{MEMBER}", f"<@{uid}>")
+    api("POST", f"/channels/{c['channels']['welcome']}/messages", {"content": text, "allowed_mentions": {"users": [uid]}})
+    print(f"Welcome posted for @{found[0]['user']['username']}.")
 
 
 def cmd_say(channel, text):
@@ -578,6 +598,8 @@ if __name__ == "__main__":
         cmds[a[0]]()
     elif a[:1] == ["team"] and len(a) > 1:
         cmd_team(" ".join(a[1:]))
+    elif a[:1] == ["welcome"] and len(a) > 1:
+        cmd_welcome(" ".join(a[1:]))
     elif a[:1] == ["call"] and len(a) > 2:
         cmd_call(*a[1:])
     elif a[:1] == ["say"] and len(a) > 2:
