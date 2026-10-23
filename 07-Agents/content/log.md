@@ -193,3 +193,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-23: Gemini key pushed to Netlify; bot brain tested locally (3 questions, good answers, 17-18 s); fallback tightened (added gemini-3.6-flash, 10 s per model, 24 s total); deployed. Live /ask in Discord not yet run (Chrome logged out of Discord).
 - 2026-10-23: Samuel ran /ask in #ask-editors-bot; Editors Bot answered. Bot live.
 - 2026-10-23: weekly live call set to Wednesdays 8:00pm WAT (Samuel); pushed and deployed.
+- 2026-10-23: added team-chat and team-call to the Discord TEAM category (Samuel's ask); made a one-use team invite for his creative director (not in the server yet; Team seat to give once she joins).

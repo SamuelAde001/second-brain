@@ -69,6 +69,9 @@ LAYOUT = [
         ("weekly-live", STAGE, "rw", None),
     ]),
     ("TEAM", [
+        # Samuel, 2026-10-23: "we need to have a team chat room and a team call room"
+        ("team-chat", TEXT, "team", "The team's own chat. Members can't see this."),
+        ("team-call", VOICE, "team", None),
         ("payments-log", TEXT, "team", "Payments, joins, renewals and expiries, posted by the bot."),
         ("mod-log", TEXT, "team", "What AutoMod blocked."),
     ]),
@@ -192,7 +195,7 @@ ICONS = {
     "start-here": "🧭", "announcements": "📢", "welcome": "👋", "general": "💬", "wins": "🏆",
     "accountability": "✅", "ask-editors-bot": "🤖", "feedback": "🎞️", "resources": "📚",
     "opportunities": "💼", "help": "🆘", "weekly-live": "🎙️", "payments-log": "💳", "mod-log": "🛡️",
-    "subscription-expired": "🔒",
+    "subscription-expired": "🔒", "team-chat": "🗨️", "team-call": "📞",
 }
 SEP = "・"
 
