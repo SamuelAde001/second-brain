@@ -74,6 +74,7 @@ Samuel, word for word: *"immediatly they finish the webinar, I would give them a
 ### Built 2026-10-22 (Brand manager)
 
 - **Live:** https://calledtoeditcommunity.netlify.app/community · offer: `/community/webinar` · renew: `/community/renew` · after paying: `/community/join` · account (auto-renew on/off): `/community/account`. Home `/` sends to `/community` until the main site exists.
+- **Tested, 2026-10-24:** Samuel ran a payment and a cancel (auto-renew off) himself: *"Tested the payment and the cancel, all works"*.
 - **Code:** `C:\Users\repzy\Desktop\called-to-edit-site\` (`site/`, `netlify/functions/`, `netlify/lib/`), published with `sh deploy.sh "what changed"`. Functions: checkout, verify, claim, flw (webhook), discord login and callback, account. Scheduled: streaks 6:00am, nugget 7:00am, renewals 7:05am WAT daily; leaderboard Sundays 6:00pm WAT.
 - **Webinar relay:** `calledtoedit.netlify.app/flw` now forwards any `cte-` payment to the community site, so a community payment on the current Flutterwave account never lands in the webinar Sheet (tested 2026-10-22).
 - **Texts:** [[04-Projects/called-to-edit-community-discord-texts|Discord texts]] (rules, welcome, start-here, workbook, expired, check-in guide, 64 nuggets in his words).
