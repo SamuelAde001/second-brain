@@ -229,6 +229,9 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-21 | bulk | 8,000 | Transport for the person who helped pick the laptop | Creative director laptop | his words: "8000 spent on transportation for the person that helped me pick the laptop for her"; on the laptop line, not Transport, so the laptop's full cost shows in one place; day assumed |
 | 2026-10-21 | bulk | 525 | Minor spends 2026-10-19 to 2026-10-21 | Other | derived; rows give 102,572, he has 102,047; likely transfer and POS charges |
 | 2026-10-21 | balance | 102,047 | Bank | — | his words: "102,047 in my bank now"; no screenshot. Webinar money not counted: 69,216 webinar account + 4,892 Flutterwave (his words) |
+| 2026-10-23 | bulk | 10,000 | Girlfriend, for feeding | Girlfriend extras | his words: "Today I gave my GF 10k to use for some feeding"; her food, so Girlfriend extras, not Feeding |
+| 2026-10-23 | bulk | 49 | Minor spends 2026-10-21 to 2026-10-23 | Other | derived; rows give 92,047, he has 91,998; likely transfer charges. His "5,500 I think on eating out on 21st" is the 5,500 Eating out row already logged 2026-10-21: as a new spend his bank would sit 5,451 above the rows with no money in |
+| 2026-10-23 | balance | 91,998 | Bank | — | his words: "What is in personal account rn is 91998"; no screenshot. Webinar money not counted: 122,526 webinar account + 14,677 Flutterwave (his words) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 

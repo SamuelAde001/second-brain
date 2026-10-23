@@ -41,8 +41,11 @@ The Buffer gets NGN 90,000/month on top: NGN 40,000 to Cowrywise savings on Payd
 | Google (AI Plus 2 TB, from 2026-10-18) | 15,000 | 18th |
 | YouTube Premium | 1,700 | 17th |
 | Spotify | 1,600 | 5th |
+| Instagram (free trial, first charge 2026-11-07; not in the total yet) | 8,499 | 7th |
 
 **NGN 162,242 a month** from 2026-10-18, when Google went from AI Pro (NGN 28,500) down to AI Plus 2 TB (NGN 15,000). Samuel, 2026-10-16: *"I just downgraded, it's 15k per month for the google sub"*. 2 TB kept for Meet's long group calls and recording (webinar, cohort classes). Before that, **NGN 175,742 a month** from 2026-10-06, when Claude went from Pro on Google Play (NGN 33,500, 16th) to Max on claude.ai: USD 107.50, NGN 143,942 on the first charge. Samuel, 2026-10-06: *"N143,942 was charged for $107.5"*. The naira figure moves with the card rate. It was NGN 65,300 from 2026-09-18. Until then it was NGN 51,800: Claude NGN 33,500 (16th) · Google NGN 15,000 (2nd) · YouTube Premium NGN 1,700 (17th) · Spotify NGN 1,600 (5th).
+
+Instagram, Samuel 2026-10-23: *"I have added instagram SUB to my Subs, coming on the 7th of November 8,499, I may change my mind if it is not neccessary, I am on free trial rn"*. If kept, NGN 170,741 a month from 2026-11-07.
 
 YouTube and Spotify are kept — his words: they help his work, and they are his only entertainment.
 
