@@ -191,3 +191,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-23 · Brand manager · On Samuel's ask (white theme, no dark background, room to scribble): added a white theme to the whiteboard generator (recolour by context, wider gaps, no panels or covers), uploaded the light logos, created "Called to Edit Webinar Whiteboard (white)" and pasted all 13 chapters in five columns. No save errors. Turned off Canva's "Open links in Desktop App" on his yes.
 - 2026-10-23: Editors Bot moved from Haiku to the Gemini API free tier (Samuel's call); brain.mjs rewritten, Anthropic SDK removed, keys file slot now gemini_api_key; deployed.
 - 2026-10-23: Gemini key pushed to Netlify; bot brain tested locally (3 questions, good answers, 17-18 s); fallback tightened (added gemini-3.6-flash, 10 s per model, 24 s total); deployed. Live /ask in Discord not yet run (Chrome logged out of Discord).
+- 2026-10-23: Samuel ran /ask in #ask-editors-bot; Editors Bot answered. Bot live.
