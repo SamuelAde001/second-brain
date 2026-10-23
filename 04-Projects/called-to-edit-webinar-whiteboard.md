@@ -102,3 +102,19 @@ Samuel: *"So, delete every other thing except the one without the cover notes, a
 - **Why fullscreen couldn't zoom in:** "Present full screen" opens at fit (the whole board on screen) and zooms in at most about 10× from there. One column of 13 chapters is about 75,000 px tall and 6,400 px wide, so fit was tiny: the max was about 7.6% of real size with the clutter, 16% without. Scaling everything up by the same amount changes nothing, because fit and the 10× cap scale with it. Only the board's shape counts: the closer to the screen's shape, the deeper the zoom.
 - **Fix:** the 13 chapters are now in five columns, read top to bottom, then left to right: ch 0–1 · 2–5 · 6–8 · 9 · 10–12. Columns are 6,400 px wide, touching, tops aligned (checked to 0 px); every chapter panel is locked again; nothing inside a chapter moved relative to its panel. Fullscreen now opens at 6.4% and zooms to 63.5% of real size, so one branch fills about half the screen. The editor itself still zooms to 500%.
 - Moving a multi-selection in Canva: the Position panel shows "--" and arrow keys don't nudge. Drag from inside the block (dragging its edge resizes the whole block), then zoom to ~20% and ~130% at the junction and drag a few px; Canva snaps the edge exactly.
+
+## White version (2026-10-23)
+
+Samuel: *"I want you to turn my recreate the canva board to white theme, I want to see how it looks, so no blue dark background over everything, remove that, and let all the elements sit on the native white board, change the colors of the elements to be visible on the whiteboard background, make sure there are spaces around each section in case I want to scribble something for them"*; *"The design is okay as it is, just do this"*.
+
+- **New board:** "Called to Edit Webinar Whiteboard (white)" (Canva design DAHY0B1pmtg), https://www.canva.com/design/DAHY0B1pmtg/544bxD08zceSLdFwVik-IQ/edit. The dark no-covers board is untouched, so he can compare. Overview: `_attachments/called-to-edit-whiteboard/board-white.jpg`.
+- Built from the map sources with `C2E_THEME=white python native.py map00 … map12` → `out/native-white/` (plus `plan.json`). No chapter panels and no reveal covers. Same five columns, with 1,500 px of white space between chapters. Inside each chapter there is more room: 600 px between the two branch columns and 450 px between rows. Any edits he made by hand on the dark board are not in the white one.
+- Colours on white:
+  - Navy hub, navy cards and gold pills stay as they are.
+  - Gold text becomes bronze (#8A5E17).
+  - The slate cards become light grey-blue (#E9EEF6).
+  - Gold lines become deep gold (#B8821F); grey lines become #7D8BA3.
+  - Anything sitting on a navy box keeps its dark-theme colours.
+- Logos: the light-background Called to Edit and Community logos are uploaded to his Canva (`logo-light` MAHY0C9SWTQ, `community-light` MAHY0CL5mno in `source/canva_media.json`).
+- Canva setting: "Open links in Desktop App" was on, so every Canva link hung on "Redirecting…". It was turned off on Samuel's yes (2026-10-23).
+- Pasting a chapter right after a file upload, or straight after a big paste, sometimes doesn't take. Check that the clipboard holds the payload, then paste again.

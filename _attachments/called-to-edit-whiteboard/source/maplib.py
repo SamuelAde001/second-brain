@@ -1,6 +1,6 @@
 """Mind-map building blocks for the webinar whiteboard: free-placed nodes joined by drawn connectors.
 Each chapter is one big canvas. Connectors are drawn by a script after layout, from the node edges."""
-import json
+import json, os
 from lib import icon, mark, rv, NAVY, MID, SLATE, CH, MIST
 
 EDGES = []
@@ -159,7 +159,9 @@ def page(body, w, h, name, band=None):
 
 
 # ---- whole-chapter layout: hub column on the left, branches in a two-column snake, heights measured in the page ----
-COLX, COLW = [1300, 3360], 1800
+WHITE = os.environ.get("C2E_THEME") == "white"  # white board: more room around each branch for scribbles
+COLX, COLW = ([1450, 3850] if WHITE else [1300, 3360]), 1800
+RG = 450 if WHITE else 150
 
 CSS += """
 .side{position:absolute;left:60px;top:100px;width:1060px;display:flex;flex-direction:column;gap:70px}
@@ -178,7 +180,7 @@ CSS += """
 LAYOUT_JS = """
 <script>
 function layout(){
- const COLX=%s,Y0=110,RG=150,ZP=70;const brs=[...document.querySelectorAll('.br')];
+ const COLX=%s,Y0=110,RG=%s,ZP=70;const brs=[...document.querySelectorAll('.br')];
  const hts=brs.map(b=>{let m=0;for(const c of b.children)m=Math.max(m,c.offsetTop+c.offsetHeight);return m});
  let y=Y0;
  for(let r=0;r*2<brs.length;r++){
@@ -189,7 +191,7 @@ function layout(){
   y+=h+RG+2*ZP}
  const side=document.querySelector('.side');window.FULLH=Math.ceil(Math.max(y,side?side.offsetTop+side.offsetHeight+120:0));
 }
-</script>""" % json.dumps(COLX)
+</script>""" % (json.dumps(COLX), RG)
 
 
 def flow(x, y, w, items, gap=30, d="column", style=""):

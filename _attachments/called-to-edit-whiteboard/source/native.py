@@ -15,9 +15,17 @@ FONT = {"sans": "YAD1aU3sLnI,0", "serif": "YAD1aYG82rc,0"}  # Canva's DM Sans, D
 COMP = {"0": "1", "C": "D", "G": "H", "I": "J", "K": "L", "M": "N", "W": "X", "Y": "Z", "c": "d", "q": "r", "BC": "BD", "BG": "BH"}
 EDGE_STYLE = {"line": ("#3a5072", 5, None), "gold": ("#fcdd9e", 7, None), "dash": ("#fcdd9e", 4, [3, 1]),
               "thick": ("#fcdd9e", 14, [1, 1]), "mist": ("#b9c3d6", 4, None)}
+WHITE = os.environ.get("C2E_THEME") == "white"  # white-board version: same design, colours for a white canvas, no panels or covers
+if WHITE:
+    EDGE_STYLE = {"line": ("#7d8ba3", 5, None), "gold": ("#b8821f", 7, None), "dash": ("#b8821f", 4, [3, 1]),
+                  "thick": ("#b8821f", 14, [1, 1]), "mist": ("#7d8ba3", 4, None)}
+    OUT = os.path.join(HERE, "..", "out", "native-white")
+DESIGN = (os.environ.get("C2E_DESIGN", "DAHYrXl8-WE"), os.environ.get("C2E_DOC", "Vy9aSwga4gVcdXINoOc29g"))  # target design id, doc id
 DASH = {"dashed": [3, 1], "dotted": [1, 1]}
 SRC_KEY = {"kit/samuel-cutout-sm.webp": "samuel-cutout", "kit/samuel-cutout.webp": "samuel-cutout",
            "kit/called-to-edit-logo-dark.svg": "logo-dark", "kit/called-to-edit-community-dark.svg": "community-dark"}
+if WHITE:
+    SRC_KEY.update({"kit/called-to-edit-logo-dark.svg": "logo-light", "kit/called-to-edit-community-dark.svg": "community-light"})  # logos made for light backgrounds
 MEDIA_DIR = os.path.join(os.environ.get("C2E_MEDIA", ""))  # high-res copies, for intrinsic sizes
 
 NATIVE_CSS = """<style>
@@ -376,11 +384,96 @@ def group(children, lift_anchor=False):
     return g
 
 
+NAVY, BRONZE, W_GOLD, W_LINE, W_EDGE, W_CARD, W_HAIR = "#0a1f44", "#8a5e17", "#b8821f", "#7d8ba3", "#c9d3e3", "#e9eef6", "#d5dce8"
+
+
+def _rgb(h):
+    return [int(h[i:i + 2], 16) for i in (1, 3, 5)]
+
+
+def _lum(h):
+    f = lambda v: v / 12.92 if v <= 0.04045 else ((v + 0.055) / 1.055) ** 2.4
+    r, g, b = (f(v / 255) for v in _rgb(h))
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def _gold(h):
+    r, g, b = _rgb(h)
+    return r - b > 40 and r >= g
+
+
+def w_fill(f, w, h):
+    """A box's fill on the white board, and whether it needs a hairline to show on white."""
+    if not f or f == NAVY:
+        return f, False
+    if _gold(f) and _lum(f) > 0.5:
+        return (W_GOLD if min(w, h) <= 14 else f), False   # gold cards stay; thin gold bars darken
+    if _lum(f) > 0.6:
+        return f, True                                      # already light: polaroids, mock-ups
+    if sum(abs(a - b) for a, b in zip(_rgb(f), (7, 18, 38))) < 40:
+        return "#ffffff", False                             # page-coloured: labels, journey boxes
+    return W_CARD, False                                    # slate cards and other dark fills
+
+
+def w_line(c):
+    if not c or c == NAVY:
+        return c
+    if _gold(c):
+        return W_GOLD
+    return W_EDGE if _lum(c) < 0.15 else W_LINE
+
+
+def w_ink(c):
+    if not c or _lum(c) < 0.45:
+        return c
+    if _gold(c):
+        return BRONZE
+    return NAVY if _lum(c) > 0.75 else "#4a5670"
+
+
+def whiten(data):
+    """Recolour an extracted map for a white canvas. Whatever sits on a navy box keeps its dark-theme colours."""
+    boxes = [e for e in data["els"] if e["t"] == "box" and e.get("fill")]
+    new = {id(b): w_fill(b["fill"], b["w"], b["h"]) for b in boxes}
+
+    def on_dark(e):
+        cx, cy = e["x"] + e["w"] / 2, e["y"] + e["h"] / 2
+        best = None
+        for b in boxes:
+            if b is not e and b["x"] <= cx <= b["x"] + b["w"] and b["y"] <= cy <= b["y"] + b["h"]:
+                if best is None or b["w"] * b["h"] < best["w"] * best["h"]:
+                    best = b
+        return best is not None and _lum(new[id(best)][0]) < 0.2
+
+    for e in data["els"]:
+        t = e["t"]
+        if t == "box":
+            if e.get("fill"):
+                e["fill"], hair = new[id(e)]
+                dark = _lum(e["fill"]) < 0.2
+            else:
+                hair, dark = False, on_dark(e)
+            if e.get("stroke") and not dark:
+                e["stroke"] = w_line(e["stroke"])
+            elif hair and not e.get("stroke"):
+                e["stroke"], e["sw"], e["dash"] = W_HAIR, 2, None
+        elif t in ("text", "icon") and not on_dark(e):
+            if t == "text":
+                for para in e["paras"]:
+                    for run in para:
+                        run["s"]["color"] = w_ink(run["s"]["color"])
+            else:
+                for p in e["paths"]:
+                    p["fill"], p["stroke"] = w_ink(p["fill"]), w_ink(p["stroke"])
+
+
 BACK = ("#071226", 500, 450)  # Midnight panel behind each chapter: colour, side margin, top/bottom margin (half the 900 gap)
 
 
 def convert(name, data, wrap=False):
     ns = "CTE" + re.sub(r"[^A-Za-z0-9]", "", name)
+    if WHITE:
+        whiten(data)
     anchors, groups, order, loose = {}, {}, [], []
     stats = {}
     for e in data["els"]:
@@ -420,18 +513,37 @@ def convert(name, data, wrap=False):
             body.append(group(ch, lift_anchor=True) if len(ch) > 1 else ch[0])
         elif v not in zones:
             body.append(v)
-    stick = [sticky_el(r["x"], r["y"], r["w"], r["h"], r["label"]) for r in data["rv"] if r["w"] > 0]
+    stick = [] if WHITE else [sticky_el(r["x"], r["y"], r["w"], r["h"], r["label"]) for r in data["rv"] if r["w"] > 0]
     stats["stickies"] = len(stick)
     col, mx, my = BACK
     back = shape(-mx, -my, data["w"] + 2 * mx, data["h"] + 2 * my, [{"A": f"M0 0H{data['w'] + 2 * mx}V{data['h'] + 2 * my}H0z", "B": {"C": col}}])
     top = [back] + zones + conns + body + stick  # the panel is the paste's bounding box, so placement is exact
+    if WHITE:
+        top = zones + conns + body  # straight on the white board
     els = [group(top)] if wrap else top
-    payload = {"a": 5, "h": "www.canva.com", "c": "DAHYrXl8-WE", "i": "Vy9aSwga4gVcdXINoOc29g", "b": 1792625136638,
+    payload = {"a": 5, "h": "www.canva.com", "c": DESIGN[0], "i": DESIGN[1], "b": 1792625136638,
                "n": {"A": {}}, "p": False, "A?": "B", "A": els, "B": -1, "C": -1}
     return payload, stats
 
 
 COL_X, GAP = 7000, 900  # native column: left edge of the maps, gap between chapters (old image column is at x=0)
+
+
+COLS_W, GUT = [[0, 1], [2, 3, 4, 5], [6, 7, 8], [9], [10, 11, 12]], 1500  # white board: the five columns, white space between chapters
+
+
+def plan_white(names):
+    """Each chapter's content box top-left at its slot; Canva centres a paste on the cursor, so each entry gives that centre."""
+    out, x = [], 0
+    for c, col in enumerate(COLS_W):
+        y, cw = 0, 0
+        for i in col:
+            bs = [bbox(e) for e in json.load(open(os.path.join(OUT, names[i] + ".json"), encoding="utf-8"))["A"]]
+            w = max(b[2] for b in bs) - min(b[0] for b in bs); h = max(b[3] for b in bs) - min(b[1] for b in bs)
+            out.append({"name": names[i], "col": c, "x": r2(x), "y": r2(y), "w": r2(w), "h": r2(h), "centre": [r2(x + w / 2), r2(y + h / 2)]})
+            y += h + GUT; cw = max(cw, w)
+        x += cw + GUT
+    return out
 
 
 def plan(sizes):
@@ -454,6 +566,10 @@ if __name__ == "__main__":
         s = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
         open(os.path.join(OUT, name + ".json"), "w", encoding="utf-8").write(s)
         print(f"{name}: {data['w']}x{data['h']}  {len(s)//1024} KB  {stats}")
+    if WHITE:
+        names = sorted(f[:-5] for f in os.listdir(OUT) if re.fullmatch(r"map\d\d-[a-z]+\.json", f))
+        json.dump(plan_white(names), open(os.path.join(OUT, "plan.json"), "w"), indent=1)
+        sys.exit()
     sizes = []
     for f in sorted(os.listdir(OUT)):
         if re.fullmatch(r"map\d\d-[a-z]+-prims\.json", f):
