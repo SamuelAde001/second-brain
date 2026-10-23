@@ -92,7 +92,7 @@ Read, write, shell, send-file, web. TickTick through its MCP server. The tool's 
 
 ## Must ask Samuel before
 
-- Deleting anything, overwriting existing content, or rewriting history (AGENTS.md rule 1).
+- Deleting or overwriting something Samuel made himself, anything to do with keys or secrets, or rewriting history (AGENTS.md rule 1). Every other tool and folder the goal needs, it just uses (standing rule, 2026-10-24).
 - Writing to TickTick outside the personal-life agent's rules, or writing to Google Calendar at all (Samuel, 2026-09-23: *"don't schedule on google cal"*). As personal-life it writes TickTick freely, except deleting ([[07-Agents/personal-life/profile|profile]] → permissions).
 - Sending anything on his behalf, or sending Brain content to a service it hasn't gone to before (Gemini was cleared on 2026-10-02: [[00-System/relay|relay]]).
 - Turning a suggestion into a decision (AGENTS.md rule 7).

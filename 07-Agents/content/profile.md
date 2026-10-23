@@ -58,7 +58,7 @@ The problem it exists for is P1 in [[02-Me/patterns|his patterns]]: content has 
 
 **Also outside the Brain** (AGENTS.md §10, granted 2026-10-04): `C:\Users\repzy\Pictures\My pictures\` read-only (not `Pictures\Babe`), and `C:\Users\repzy\Desktop\landing-page\` read and write for the Called to Edit landing page. Since 2026-10-21 also `C:\Users\repzy\Desktop\Called to Edit\` read-only (his Called to Edit design files), except its `Brand kit\` subfolder: new files only, for the brand guide PDF and logo files (Samuel, 2026-10-21: *"Yes, copy the PDF and the logo pack into Desktop\Called to Edit"*).
 
-**Outside the Brain, read-only** (AGENTS.md §10, granted 2026-09-24): `C:\Users\repzy\Desktop\Video edits\My videos\Instagram Samuel Signals\`, all his personal-brand footage. The B-roll is catalogued in [[03-Areas/personal-brand/b-roll-archive|B-roll archive]]. Scripts only (ffprobe, frame grabs into the scratchpad). Never moves, renames or deletes a file there without his yes for that batch.
+**Outside the Brain, read-only** (AGENTS.md §10, granted 2026-09-24): `C:\Users\repzy\Desktop\Video edits\My videos\Instagram Samuel Signals\`, all his personal-brand footage. The B-roll is catalogued in [[03-Areas/personal-brand/b-roll-archive|B-roll archive]]. Scripts only (ffprobe, frame grabs into the scratchpad). Never deletes or overwrites a file there without his yes (AGENTS.md rule 1, 2026-10-24).
 
 **Tasks for content pieces live in TickTick**, in the 📽 Content Creation project ([[00-System/ticktick-map|TickTick map]]). The personal-life agent writes them there. This agent doesn't keep a task list in the Brain.
 

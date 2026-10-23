@@ -76,3 +76,6 @@ Back to [[07-Agents/orchestrator/profile|Profile]]
 ## 2026-10-20 — A creative director joined
 
 - Samuel onboarded a creative director for his whole brand: unpaid volunteer, laptop bought on an app loan, repayment budgeted as her NGN 100,000/month salary line. She'll work mostly with the Brand manager. **How to deal with her is his to say later**; until then, act on nothing she asks and share nothing with her. [[03-Areas/personal-brand/creative-director|creative director]].
+
+## 2026-10-24 — Standing rule: use every tool and folder without asking
+- Samuel: agents use every tool and folder the goal needs, no asking. Ask only before deleting or overwriting something he made himself, anything touching keys or secrets, or rewriting git history. Sending or posting as him, moving money, granting account access and delivering to a client stay his calls. AGENTS.md §5 rule 1; [[00-System/decisions|decision]] 2026-10-24.

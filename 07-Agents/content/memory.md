@@ -181,3 +181,6 @@ Back to [[07-Agents/content/profile|Profile]]
 - **Uploading files:** Flow makes its file input only on click, which opens a native picker. Patch `HTMLInputElement.prototype.click` in the page so a file input is appended to the DOM with an aria-label instead, click "Upload media", then `find` it and `file_upload` to it.
 - **Reviewing a clip:** the preview isn't a DOM `<video>`; clicking the ruler or Play didn't move it reliably. **Drag the playhead** on the ruler (y ≈ 558, 8 s ≈ x 14→510 at 1568 wide) and zoom the preview.
 - With his still as the start frame, Omni keeps the room and his face; it drifts on **his glasses** (tinted rimless with orange arms turn clear) when the prompt has him take them off or put them on.
+
+## 2026-10-24 — Standing rule: use every tool and folder without asking
+- Samuel: agents use every tool and folder the goal needs, no asking. Ask only before deleting or overwriting something he made himself, anything touching keys or secrets, or rewriting git history. Sending or posting as him, moving money, granting account access and delivering to a client stay his calls. AGENTS.md §5 rule 1; [[00-System/decisions|decision]] 2026-10-24.
