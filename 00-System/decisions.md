@@ -377,3 +377,7 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Why**: Samuel, 2026-10-24: *"I want to setup, obsidian on my phone to have all the files from the second brain and it would be always updated"*. Before this, the PC only touched GitHub at session start and end, so the phone fell behind between sessions.
 **Not done**: auto-committing on the PC. An auto-commit would sweep up an agent's half-finished edits and skip the step where a session files Samuel's Obsidian edits (AGENTS.md section 12). His uncommitted PC edits still wait for the next session.
 **Who decided**: Samuel asked for always-updated; the method is the General Manager's. Phone side unchanged: [[00-System/phone-sync|phone sync]].
+## 2026-10-24: The PC's .obsidian settings folder is no longer committed
+**Decision**: `.obsidian/` is gitignored and untracked (`git rm --cached`; the PC's files stay on disk, untouched). GitHub keeps only the history up to today.
+**Why**: Samuel's first phone clone failed: *"Your local changes to the following files would be overwritten by checkout: .obsidian/app.json, .obsidian/core-plugins.json"*. A new phone vault creates `.obsidian/` before the `.obsidian-mobile` override exists, so any committed PC settings collide with it. The folder only holds window, theme and plugin settings for the PC's Obsidian. Nothing in the Brain depends on it being in git.
+**Who decided**: General Manager, while setting up phone sync at Samuel's request ([[00-System/phone-sync|phone sync]]).

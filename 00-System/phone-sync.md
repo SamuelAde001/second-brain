@@ -14,7 +14,7 @@ How the Brain gets onto Samuel's phone and back. Decided 2026-09-20 ([[00-System
 ## How it works
 
 - The phone holds a full git copy of `SamuelAde001/second-brain` and pulls and pushes `main` through the **Git** community plugin (Vinzent03's *Obsidian Git*).
-- The phone uses its **own Obsidian settings folder, `.obsidian-mobile/`**, which is never committed. So the phone's layout, plugins and the GitHub token never reach the PC, and the PC's `.obsidian/` never fights the phone's.
+- The phone uses its **own Obsidian settings folder, `.obsidian-mobile/`**, which is never committed. So the phone's layout, plugins and the GitHub token never reach the PC. The PC's `.obsidian/` isn't committed either (since 2026-10-24): a new phone vault makes its own `.obsidian/` before the override, and the first clone failed with *"Your local changes to the following files would be overwritten by checkout: .obsidian/app.json, .obsidian/core-plugins.json"*.
 - PC sessions pick up phone commits at start (the SessionStart hook fast-forwards `main`). Cloud sessions merge `origin/main` before every push. Nothing here needs an AI.
 
 ## The PC side (since 2026-10-24)

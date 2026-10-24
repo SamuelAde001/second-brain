@@ -4,9 +4,9 @@
 # Obsidian local state
 # The phone's own settings folder (layout, plugins, the GitHub token): 00-System/phone-sync.md
 .obsidian-mobile/
-.obsidian/workspace*.json
-.obsidian/cache
-.obsidian/plugins/*/data.json
+# The PC's own settings folder stays on the PC too (2026-10-24): a fresh phone vault makes its
+# own .obsidian before the override, and the clone refused to overwrite it.
+.obsidian/
 .trash/
 
 # Secrets — never commit, never store in this vault at all
