@@ -31,6 +31,7 @@ SITE_DIR = Path(r"C:\Users\repzy\Desktop\called-to-edit-site")
 CONFIG = SITE_DIR / "discord-config.json"  # ids only, nothing secret
 TEXTS = BRAIN / "04-Projects" / "called-to-edit-community-discord-texts.md"
 WORKBOOK = BRAIN / "_attachments" / "called-to-edit-workbook" / "Called-to-Edit-Workbook-Your-First-60-Days.pdf"
+BOOK = BRAIN / "_attachments" / "called-to-edit-book" / "Called-to-Edit-How-to-Build-a-Career-as-a-Video-Editor-and-Get-Paid.pdf"
 ICON = BRAIN / "_attachments" / "called-to-edit-brand" / "png" / "called-to-edit-avatar-community.png"
 SITE_ID = "20664735-e47b-402f-9450-6fab7ce27ebc"
 SITE_URL = os.environ.get("CTE_SITE_URL", "https://calledtoeditcommunity.netlify.app")
@@ -89,7 +90,10 @@ REMOVED = ["rules", "workbook", "daily-nugget", "introduce-yourself", "leaderboa
 FORUM_TAGS = {
     "accountability": [("60-Day Challenge", "🗓️"), ("Weekly goals", "🎯"), ("Daily log", "✍️")],
     "feedback": [("Edit", "🎬"), ("Portfolio", "🗂️"), ("Profile and bio", "🪪"), ("Outreach", "📨"), ("Niche", "🧭"), ("Client work", "💼")],
-    "resources": [("Tutorial", "🎓"), ("Editing hack", "⚡"), ("Template or asset", "🧩"), ("Tool", "🛠️"), ("Call replay", "📼")],
+    "resources": [("Tutorial", "🎓"), ("Editing hack", "⚡"), ("Template or asset", "🧩"), ("Tool", "🛠️"), ("Call replay", "📼"),
+                  # Samuel, 2026-10-24: tutorials for CapCut mobile and desktop, DaVinci, Premiere Pro, and every major part of the journey
+                  ("CapCut Mobile", "📱"), ("CapCut Desktop", "💻"), ("DaVinci Resolve", "🎬"), ("Premiere Pro", "🟪"),
+                  ("After Effects", "✨"), ("Career", "🧭")],
 }
 CONFIG_KEYS = {  # channel name -> keys the site's functions use
     "welcome": ["welcome"], "start-here": ["startHere", "rules"], "announcements": ["announcements"],
@@ -274,8 +278,12 @@ def cmd_build():
                     continue  # made after Community mode is on (second pass below)
                 ch = api("POST", f"/guilds/{g}/channels", {**body, "type": typ})
             by[(name, typ)] = ch
-            if typ == FORUM and name in FORUM_TAGS and not ch.get("available_tags"):
-                ch = api("PATCH", f"/channels/{ch['id']}", {"available_tags": [{"name": n, "emoji_name": e} for n, e in FORUM_TAGS[name]]})
+            if typ == FORUM and name in FORUM_TAGS:
+                # Add missing tags; existing ones keep their ids, so tagged posts stay tagged.
+                have = ch.get("available_tags") or []
+                new = [{"name": n, "emoji_name": e} for n, e in FORUM_TAGS[name] if n not in {t["name"] for t in have}]
+                if new:
+                    ch = api("PATCH", f"/channels/{ch['id']}", {"available_tags": have + new})
             for key in CONFIG_KEYS.get(name, []):
                 ids[key] = ch["id"]
     save_cfg(c)
@@ -386,14 +394,22 @@ def cmd_post_texts():
         if rest.startswith("post:"):
             title = rest[5:].strip()
             tid = posted.get(key)
-            if tid and api("PATCH", f"/channels/{tid}/messages/{tid}", {"content": content}, ok_missing=True):
+            if tid and api("PATCH", f"/channels/{tid}/messages/{tid}", {"content": re.sub(r"^Tags:.*\n+", "", content)}, ok_missing=True):
                 print("Updated forum post", key)
                 continue
-            files = None
-            if "60-Day" in title and WORKBOOK.exists():
-                files = {"files[0]": (WORKBOOK.name, WORKBOOK.read_bytes(), "application/pdf")}
-            t = api("POST", f"/channels/{ch}/threads", {"name": title[:100], "message": {"content": content, "allowed_mentions": {"parse": []}}}, files=files)
-            api("PATCH", f"/channels/{t['id']}", {"flags": 2})  # pinned at the top of the forum
+            # A first line "Tags: A, B" picks the forum tags; it isn't posted.
+            tags = []
+            if content.startswith("Tags:"):
+                line, _, content = content.partition("\n")
+                want = [x.strip() for x in line[5:].split(",")]
+                avail = {t["name"]: t["id"] for t in api("GET", f"/channels/{ch}").get("available_tags", [])}
+                tags = [avail[x] for x in want if x in avail]
+                content = content.strip()
+            pdfs = [WORKBOOK] if "60-Day" in title else [BOOK, WORKBOOK] if "Webinar" in title else []
+            files = {f"files[{i}]": (p.name, p.read_bytes(), "application/pdf") for i, p in enumerate(pdfs) if p.exists()} or None
+            t = api("POST", f"/channels/{ch}/threads", {"name": title[:100], "applied_tags": tags, "message": {"content": content, "allowed_mentions": {"parse": []}}}, files=files)
+            if title.startswith("📌"):  # a forum holds one pinned post
+                api("PATCH", f"/channels/{t['id']}", {"flags": 2})
             posted[key] = t["id"]
             print("Posted forum post", key)
             continue

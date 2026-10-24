@@ -130,7 +130,7 @@ Want feedback right now? Type **/review** in #ask-editors-bot and paste your bio
 
 ## #resources guidelines
 
-Share what actually helped you: tutorials, editing hacks, templates, assets, tools. One post per resource: what it is, why it's good, and the link. Pick a tag. Replays of the weekly live call go here too, tagged Call replay.
+Tutorials and resources for every step of your journey. Each topic has its own post (CapCut, DaVinci Resolve, Premiere Pro, niche, clients, pricing and more): open it and reply with the link, what it is and why it's good. Samuel adds tutorials there too. Replays of the weekly live call go here, tagged Call replay.
 
 ## #resources post: 📌 How to share a resource
 
@@ -142,6 +142,146 @@ Share what actually helped you: tutorials, editing hacks, templates, assets, too
 **Software:** DaVinci Resolve, CapCut, Premiere, any
 
 Search here before you ask in #help: the answer may already be waiting.
+
+## #resources post: 📱 CapCut Mobile tutorials
+
+Tags: CapCut Mobile, Tutorial
+**CapCut Mobile tutorials** 📱
+Editing on your phone with CapCut: the basics, cuts, text, captions, effects, exporting.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 💻 CapCut Desktop tutorials
+
+Tags: CapCut Desktop, Tutorial
+**CapCut Desktop tutorials** 💻
+Editing on a computer with CapCut: timeline, keyframes, captions, templates, exporting.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 🎬 DaVinci Resolve tutorials
+
+Tags: DaVinci Resolve, Tutorial
+**DaVinci Resolve tutorials** 🎬
+DaVinci Resolve from the first project up: Cut and Edit pages, Fusion, Fairlight, colour, Deliver.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 🟪 Premiere Pro tutorials
+
+Tags: Premiere Pro, Tutorial
+**Premiere Pro tutorials** 🟪
+Premiere Pro from the first project up: timeline, effects, Essential Graphics, audio, export.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: ✨ After Effects and motion graphics
+
+Tags: After Effects, Tutorial
+**After Effects and motion graphics** ✨
+Motion graphics and animation: After Effects, Fusion, text animation, transitions.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: ✂️ Editing basics and storytelling
+
+Tags: Tutorial
+**Editing basics and storytelling** ✂️
+The craft under every tool: pacing, cuts, hooks, story, retention.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 🎧 Sound design, music and SFX
+
+Tags: Tutorial, Template or asset
+**Sound design, music and SFX** 🎧
+Making it sound right: cleaning voice, music choice, sound effects, mixing, free libraries.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 🎨 Colour grading
+
+Tags: Tutorial
+**Colour grading** 🎨
+Colour correction and grading, LUTs, matching shots, skin tones.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 🔤 Captions and text
+
+Tags: Tutorial, Template or asset
+**Captions and text** 🔤
+Captions, subtitles, text styles and animated text for short-form and long-form.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 🧭 Choosing your niche
+
+Tags: Career
+**Choosing your niche** 🧭
+Picking the videos you edit and the people you edit for.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 🗂️ Portfolio and personal brand
+
+Tags: Career
+**Portfolio and personal brand** 🗂️
+Building a portfolio, your profile and bio, and showing your work online.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 📨 Getting clients and outreach
+
+Tags: Career
+**Getting clients and outreach** 📨
+Finding clients: cold DMs, emails, pitching, following up, platforms, getting found.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 💰 Pricing and getting paid
+
+Tags: Career
+**Pricing and getting paid** 💰
+What to charge, packages, invoices, getting paid from abroad.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 🤝 Working with clients
+
+Tags: Career
+**Working with clients** 🤝
+Briefs, revisions, deadlines, communication, keeping clients coming back.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 🛠️ Gear, computer and setup
+
+Tags: Tool
+**Gear, computer and setup** 🛠️
+Phones, computers, storage, headphones and what you really need to start.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 🤖 AI tools for editors
+
+Tags: Tool
+**AI tools for editors** 🤖
+AI tools that save editing time: transcription, captions, voice, B-roll, research.
+
+Samuel drops tutorials here as they come. Found one that helped you? Reply with the link and one line on what it taught you.
+
+## #resources post: 📼 Webinar recording, e-book and workbook
+
+Tags: Call replay
+**Webinar recording, e-book and workbook** 📼
+Everything from the Called to Edit webinar, in one place.
+
+🎥 **The full recording:** https://drive.google.com/file/d/150XsEt2S15J1ZNJmyuxgR5PWKRXl9kY1/view
+📖 **The e-book:** *Called to Edit: How to Build a Career as a Video Editor and Get Paid* (attached)
+📝 **The workbook:** *Your First 60 Days* (attached). Open it in Adobe Acrobat Reader, Xodo or Google Drive to type into the boxes.
+
+These are for members only. Please don't share them outside the community.
 
 ## Morning nuggets
 
