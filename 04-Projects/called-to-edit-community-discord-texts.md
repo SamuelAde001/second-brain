@@ -23,13 +23,14 @@ Rewritten 2026-10-22 after Samuel: *"the 60 days challenge is just one of the ma
 This is where video editors grow together: people going the same way, accountability, honest feedback on your work, resources worth your time, real opportunities, and a weekly live call with Samuel.
 
 **How to use it**
-👋 #welcome: every new member gets welcomed here. Then say hi in #general: your name, where you edit from, what you edit, who you want to edit for.
+👋 #welcome: every new member gets welcomed here. Then say hi in #general-chat: your name, where you edit from, what you edit, who you want to edit for.
 ✅ #accountability: make your own post and share your goals and progress. The 60-Day Challenge lives here.
 🎞️ #feedback: post your edit, portfolio, bio or outreach message and get honest feedback.
 📚 #resources: tutorials, editing hacks, templates and tools. Share what helped you.
 💼 #opportunities: gigs, client leads and collabs. Pass on what you can't take.
 🆘 #help: stuck on anything? Ask.
 🏆 #wins: every win counts, small or big.
+🎬 #showcase: share your work: finished edits, cuts in progress and your timelines.
 🤖 #ask-editors-bot: ask Editors Bot anything from Samuel's teachings. Type **/ask**.
 🎙️ **Weekly live call** with Samuel: he guides you and sometimes teaches. Times go up in #announcements.
 
@@ -50,21 +51,21 @@ The bot removes messages that break these rules. Breaking them on purpose means 
 
 ## #welcome
 
-**New here? Introduce yourself in #general** 👋
+**New here? Introduce yourself in #general-chat** 👋
 Tell us:
 • your name, and where you edit from
 • what you edit on (phone or computer, which software)
 • the videos you want to edit, and who for
 • one thing you want to get done in the next 30 days
 
-Then read #start-here, and say hi to the person who joined before you, in #general.
+Then read #start-here, and say hi to the person who joined before you, in #general-chat.
 
 ## Join welcome
 
 👋 **Welcome to Called to Edit, {MEMBER}!** 🎬
 You just joined video editors who are building real careers and landing clients, together.
-Tell us who you are in #general: your name, where you edit from, what you edit, and who you want to edit for.
-Then read #start-here. Everyone, give them a warm welcome in #general 👋
+Tell us who you are in #general-chat: your name, where you edit from, what you edit, and who you want to edit for.
+Then read #start-here. Everyone, give them a warm welcome in #general-chat 👋
 
 ## #ask-editors-bot
 
@@ -81,7 +82,7 @@ I've learned Samuel's teachings: learning the skill, tools, choosing a niche, vi
 **/call** the next weekly live call
 **/help** this list
 
-Commands work in any channel; asking here keeps #general clear. I'm an AI and I can be wrong. For big decisions, bring it to the weekly live call.
+Commands work in any channel; asking here keeps #general-chat clear. I'm an AI and I can be wrong. For big decisions, bring it to the weekly live call.
 
 ## #subscription-expired
 

@@ -56,11 +56,13 @@ LAYOUT = [
         ("start-here", TEXT, "ro", "What this community is, the rules, and how to use it. Read first."),
         ("announcements", TEXT, "ro", "Live calls, challenges and news from Samuel."),
         # Samuel, 2026-10-24: only he and the admins post in start-here, announcements and welcome.
-        ("welcome", TEXT, "ro", "Every new member gets welcomed here. Say hi and introduce yourself in #general."),
+        ("welcome", TEXT, "ro", "Every new member gets welcomed here. Say hi and introduce yourself in #general-chat."),
     ]),
     ("COMMUNITY", [
-        ("general", TEXT, "rw", "Talk with the community. The morning nugget from Samuel lands here."),
+        ("general-chat", TEXT, "rw", "Talk with the community. The morning nugget from Samuel lands here."),
         ("wins", TEXT, "rw", "Clients, replies, finished videos, milestones. Share them. Sunday's leaderboard lands here too."),
+        # Samuel, 2026-10-24: a channel to share their work, edits and timelines.
+        ("showcase", TEXT, "rw", "Share your work: finished edits, in-progress cuts and your timeline screenshots. Say what you did and what you'd like help with."),
         ("accountability", FORUM, "rw", None),
         ("ask-editors-bot", TEXT, "rw", "Ask Editors Bot anything from Samuel's teachings. Type /ask, or /help for all commands."),
     ]),
@@ -99,7 +101,7 @@ FORUM_TAGS = {
 }
 CONFIG_KEYS = {  # channel name -> keys the site's functions use
     "welcome": ["welcome"], "start-here": ["startHere", "rules"], "announcements": ["announcements"],
-    "general": ["general", "nugget"], "wins": ["wins", "leaderboard"], "accountability": ["checkin"],
+    "general-chat": ["general", "nugget"], "wins": ["wins", "leaderboard"], "accountability": ["checkin"],
     "ask-editors-bot": ["askBot"], "feedback": ["feedback"], "resources": ["resources"],
     "opportunities": ["opportunities"], "help": ["help"], "weekly-live": ["live"],
     "payments-log": ["payments"], "mod-log": ["modLog"], "subscription-expired": ["expired"],
@@ -200,7 +202,7 @@ def cmd_invite_url():
 
 
 ICONS = {
-    "start-here": "🧭", "announcements": "📢", "welcome": "👋", "general": "💬", "wins": "🏆",
+    "start-here": "🧭", "announcements": "📢", "welcome": "👋", "general-chat": "💬", "wins": "🏆", "showcase": "🎬",
     "accountability": "✅", "ask-editors-bot": "🤖", "feedback": "🎞️", "resources": "📚",
     "opportunities": "💼", "help": "🆘", "weekly-live": "🎙️", "payments-log": "💳", "mod-log": "🛡️",
     "subscription-expired": "🔒", "team-chat": "🗨️", "team-call": "📞",
@@ -248,6 +250,9 @@ def cmd_build():
     for name, (perms, color, hoist) in want.items():
         body = {"name": name, "permissions": str(perms), "color": color, "hoist": hoist, "mentionable": False}
         r = existing.get(name)
+        if name == "Founder" and r:  # Samuel moved it above the bot's role (2026-10-24): the bot can't edit it, so leave it
+            roles[name.lower()] = r["id"]
+            continue
         r = api("PATCH", f"/guilds/{g}/roles/{r['id']}", body) if r else api("POST", f"/guilds/{g}/roles", body)
         roles[name.lower()] = r["id"]
     api("PATCH", f"/guilds/{g}/roles/{g}", {"permissions": str(1 << 26)})  # @everyone: change nickname only
