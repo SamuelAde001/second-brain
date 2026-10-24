@@ -201,3 +201,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-24: diagnosed a member's 'no access' error: payer by transfer never linked Discord; permissions fine. Renewals job now flags paid-but-not-joined members daily; deployed.
 - 2026-10-24: built the webinar thank-you email (thank-you.gs, standalone Apps Script; header from Brand kit; PDFs copied to Drive folder 'Called to Edit - Webinar thank-you'); Apps Script creation blocked by auto-mode (account access grant), handed to Samuel.
 - 2026-10-24: removed Samuel's test member; built the Community members Sheet (Apps Script v3, site `syncSheet` + `/api/sheet-sync`, `SHEET_URL` env) and payer emails (off until he switches on); site deployed twice; drafted the WhatsApp pitch for the webinar group.
+- 2026-10-24: correction: members couldn't see 10 channels (my build bug: @everyone deny beat the role's View). Added Member/Team View on each channel, fixed overwrites() in community_admin.py, verified effective access.

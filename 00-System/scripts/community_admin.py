@@ -223,7 +223,9 @@ def overwrites(mode, everyone, roles):
         return [ow(everyone, deny=VIEW), ow(m, deny=VIEW), ow(e, deny=VIEW), ow(t, VIEW | SEND | HISTORY)]
     if mode == "expired":
         return [ow(everyone, deny=VIEW), ow(m, deny=VIEW), ow(t, deny=VIEW), ow(e, VIEW | HISTORY, NO_POST | REACT)]
-    return [ow(everyone, deny=VIEW), ow(e, deny=VIEW)]  # rw: Member and Team see it through their role
+    # rw. A channel's @everyone deny beats a role's server-wide View, so Member and Team need
+    # their own allow here (fixed 2026-10-24: without it members saw only start-here and announcements).
+    return [ow(everyone, deny=VIEW), ow(m, VIEW), ow(t, VIEW), ow(e, deny=VIEW)]
 
 
 def cmd_build():
