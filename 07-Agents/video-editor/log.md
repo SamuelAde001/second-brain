@@ -241,3 +241,10 @@ esume_when_clear.py (scratchpad): probes a missing range every 30 min, resumes w
 - 2026-10-24 — (by the General Manager) 20x rules revised to Samuel's order; new [[03-Areas/video-editing/samuel-review-card|Samuel's review card]] (every correction, one line each) for every helper brief; end-of-job review gains review-card and library-harvest steps. Render queue for `lab.py` named as the speed fix (Editor build job, not started).
 
 - 2026-10-24 17:20-19:30: Video 2 revision 3 (Samuel's 108 markers on Visuals v3). Fan-outs: wf_93e1fba5-2d3 (audit, fix routes, references: 3 helpers); unmarked-part reviewer (1); wf_a547e4b4-797 rebuild (18 builders + 18 reviewers, comps/v4); wf_fb3ffa25-a79 wave B (script agent + 5 regen + 8 unmarked rebuild groups, each with a reviewer). Fixed the adj-comp black-background bug in kits/drt/convert.py. Rules added to ways of working + review card.
+
+## 2026-10-24 21:20 (Editor): video 2 rev 3, Resolve restart, install, wave C
+- Resolve's script connection hung ~20:28-21:03: killed the stuck lab render + install pass 1, `restart_resolve.py --force`, `open_job.py`, cleared 114 old render jobs (Editor timelines only), saved.
+- Wave A (wf_a547e4b4-797, 40 agents) done. `make_rev3_list.py` -> 141 manifests (97 v4), 0 conflicts; `rev3fix.py --write` (only OU-04 ctaC changed). Install of the full list onto *Visuals v4 (Editor)* started 21:08 (log `KIT/renders/v4/INST/build_p2.log`).
+- Found 4 missed rebuilds (P1-07, LP-03a tall side boxes; OU-02 circle + boxes; LP-03 1,184 tools): wave C wf_b7789e2f-603 (+ LISTFIX: 18 f list changes), fresh reviewer each.
+- `audit_v4.py` (audit on list_rev3 + mz_final, skips PassThrough tools): 7 moving shines left -> `fixpass.py` switched off BrightnessContrast_RuleGoodHit (SY-04b, P3-16, P4-02) and _FireWave (LP-03b, LP-11) as new `_fx1` stems in comps/v4 (SY-13's flag is its dashed line, false positive).
+- Do NOT re-run `rev3fix.py` over the whole list from now on: the `_fx1` copies have no `_pre_rev3` backup and would get the anim/size rules twice. Run it only on wave C's new beats.
