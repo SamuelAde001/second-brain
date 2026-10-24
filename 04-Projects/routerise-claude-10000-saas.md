@@ -178,3 +178,9 @@ Samuel, ~01:00 WAT, by voice before bed: resume the video *"from beginning to th
 - **Render cache running by script:** `Frontal kit (Editor)\kits\cache_tl.py` on *Visuals v3 (Editor)* (200 Fusion clips, 16,184 frames), Render Cache User, batches of 20, auto-recovery from crashes and hangs; log `kits\_cache\cache_v3_2026-10-24.txt` (+ `.json` at the end: done and deferred clips). Smart cache was crawling at 4-8 frames a minute. Don't work in Resolve while it runs: it switches pages and may restart Resolve.
 - `TdrDelay` reads unset again (2 s). Samuel's to set back to 10 s if crashes show up.
 - **Next:** when it ends, cache any deferred clips one by one; then the sound pass.
+
+### RESUME (Editor), 2026-10-24 11:40
+- **Cache: 122 of 200 Fusion clips (10,041 of 16,184 frames).** Uncached: 7488 and 8058 on V2, and nearly everything from 10230 (07:06) to the end. `cache_tl.py` stopped after 5 stalls; Render Cache back on Smart, the 5 stalled clips re-flagged, Resolve restarted clean, playhead at 00:00:05:00.
+- **Why it's slow:** the second-half comps render at ~50 s a frame or stall outright (one frame of the 7488 comp didn't finish in 20 min), with Resolve on ~1.2 of 16 cores and the GPU at ~35 %. Not the cache mode. Node types are the same as in the comps that did cache; the cause isn't found yet.
+- `TdrDelay` unset (2 s). Samuel's call: reboot, and set it back to 10 s while at it.
+- **Next (on Samuel's word):** reboot the PC, then profile one stalled comp in the Fusion page (pass-through by node group) to find what stalls, fix it across the beats, cache the rest.
