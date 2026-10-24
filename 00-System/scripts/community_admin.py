@@ -52,7 +52,8 @@ LAYOUT = [
     ("START HERE", [
         ("start-here", TEXT, "ro", "What this community is, the rules, and how to use it. Read first."),
         ("announcements", TEXT, "ro", "Live calls, challenges and news from Samuel."),
-        ("welcome", TEXT, "rw", "New here? Say hi: your name, where you edit from, what you edit, who you want to edit for."),
+        # Samuel, 2026-10-24: only he and the admins post in start-here, announcements and welcome.
+        ("welcome", TEXT, "ro", "Every new member gets welcomed here. Say hi and introduce yourself in #general."),
     ]),
     ("COMMUNITY", [
         ("general", TEXT, "rw", "Talk with the community. The morning nugget from Samuel lands here."),

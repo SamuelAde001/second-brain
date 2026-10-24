@@ -2,7 +2,7 @@
 type: project
 area: called-to-edit
 status: active
-updated: 2026-10-22
+updated: 2026-10-24
 source: interview
 tags: [called-to-edit, community, discord]
 ---
@@ -23,7 +23,7 @@ Rewritten 2026-10-22 after Samuel: *"the 60 days challenge is just one of the ma
 This is where video editors grow together: people going the same way, accountability, honest feedback on your work, resources worth your time, real opportunities, and a weekly live call with Samuel.
 
 **How to use it**
-👋 #welcome: say hi. Your name, where you edit from, what you edit, who you want to edit for.
+👋 #welcome: every new member gets welcomed here. Then say hi in #general: your name, where you edit from, what you edit, who you want to edit for.
 ✅ #accountability: make your own post and share your goals and progress. The 60-Day Challenge lives here.
 🎞️ #feedback: post your edit, portfolio, bio or outreach message and get honest feedback.
 📚 #resources: tutorials, editing hacks, templates and tools. Share what helped you.
@@ -50,21 +50,21 @@ The bot removes messages that break these rules. Breaking them on purpose means 
 
 ## #welcome
 
-**New here? Introduce yourself** 👋
+**New here? Introduce yourself in #general** 👋
 Tell us:
 • your name, and where you edit from
 • what you edit on (phone or computer, which software)
 • the videos you want to edit, and who for
 • one thing you want to get done in the next 30 days
 
-Then read #start-here, and say hi to the person who joined before you.
+Then read #start-here, and say hi to the person who joined before you, in #general.
 
 ## Join welcome
 
 👋 **Welcome to Called to Edit, {MEMBER}!** 🎬
 You just joined video editors who are building real careers and landing clients, together.
-Tell us who you are: your name, where you edit from, what you edit, and who you want to edit for.
-Then read #start-here. Everyone, give them a warm welcome 👇
+Tell us who you are in #general: your name, where you edit from, what you edit, and who you want to edit for.
+Then read #start-here. Everyone, give them a warm welcome in #general 👋
 
 ## #ask-editors-bot
 

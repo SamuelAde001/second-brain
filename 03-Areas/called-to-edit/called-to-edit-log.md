@@ -27,5 +27,6 @@ Append-only. Newest at the bottom.
 
 - 2026-10-24 — Thank-you email sent to all 78 seat holders (Samuel authorised and ran it); Sheet marked, sent copy checked → [[04-Projects/called-to-edit-landing-page-build|landing page build]].
 - 2026-10-24 — Community: #announcements post sent (Samuel asked): first official call Wednesday 2026-10-28, time and link to follow; resources coming gradually; everyone to talk in #general meanwhile.
+- 2026-10-24 — Community: #start-here, #announcements and #welcome now read-only for members; only Samuel (owner), Team and the bot post there (Samuel: *"No one should be able to send messages on the welcome start and announcement pages except me and the admins"*). Introductions moved to #general in the pinned texts, the join welcome, the welcome DM and the join page; site redeployed.
 
 Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]

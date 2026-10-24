@@ -207,3 +207,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-24 09:05 WAT: payer emails switched on with catch-up (Samuel: *"Please do it for me and send all the emails"*); 4 welcome emails sent from his Gmail (all 4 payers so far), no errors. New payers are now emailed automatically.
 - 2026-10-24: thank-you email went out after Samuel authorised and ran the script: 78 sent, Sheet marked, sent copy and recording sharing checked.
 - 2026-10-24: posted Samuel's announcement in #announcements via the bot (`community_admin.py say`): first official call Wednesday 2026-10-28, resources gradually, talk in #general. No @everyone ping (the bot posts with mentions off).
+- 2026-10-24: #welcome switched to read-only (LAYOUT mode ro) on Samuel's word; build + post-texts run, overwrites checked (Member send denied, Team allowed, @everyone/Expired can't view). Intros pointed to #general in discord-texts note, lib.mjs welcome DM, join page; deploy.sh run.
