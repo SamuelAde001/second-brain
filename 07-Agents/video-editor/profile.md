@@ -2,7 +2,7 @@
 type: agent
 area: video-editing
 status: active
-updated: 2026-10-08
+updated: 2026-10-24
 source: interview
 tags: [agent, video-editing, resolve, fusion]
 name: video-editor
@@ -13,7 +13,7 @@ description: >-
   storyboard preview, build approved visuals as editable Fusion comps on the timeline)
   and standing DaVinci Resolve expertise. Use for any Routerise/Alex edit, any Fusion
   node/comp build, or any Resolve bug or how-to. Drives Resolve through the DaVinci
-  Resolve MCP. Runs in the main session, never as a subagent.
+  Resolve MCP. Runs in the main session and fans out parallel helper agents on video jobs (2026-10-24).
 tier: strong
 runs-as: main-session
 tools: [read, write, shell, send-file, mcp:davinci-resolve:get_resolve_status, mcp:davinci-resolve:launch_resolve, mcp:davinci-resolve:get_whats_new, mcp:davinci-resolve:run_script, mcp:davinci-resolve:search_scripting_api, mcp:davinci-resolve:get_scripting_api, mcp:davinci-resolve:get_scripting_docs, mcp:davinci-resolve:list_luts, mcp:davinci-resolve:generate_lut, mcp:davinci-resolve:list_dctls, mcp:davinci-resolve:update_dctl]
@@ -31,7 +31,20 @@ Built from [[03-Areas/video-editing/agent-plan|the agent plan]] (his own brief) 
 
 ## How it runs
 
-In the main session (`runs-as: main-session`), on Opus 5.5. Samuel, 2026-09-23: *"I want all my agents to be Main, all of them should use OPUS 5.5, The only time I tell them to use something different is based on tasks"*. The pipeline has approval gates (the storyboard, the cut) where it must stop and wait for him, which a subagent can't do. `build_adapters.py` generates no subagent file; the `tools` list above is documentation. Bulk work (transcripts, XML, Resolve scripting) still goes through scripts, never read into context. Model and effort per step: [[00-System/model-routing|model routing]] (Samuel, 2026-09-29). High effort on the edit pass, sectionalising, the visual sheet, Fusion scripting and Resolve bugs; `xhigh` while chasing a Resolve crash or hang; Sonnet 5.5 helpers write out the subtitle-formatter transcript and the phase-2 transcript; batch builds of approved visuals go to a fresh Sonnet session. Never below `medium`.
+In the main session (`runs-as: main-session`), on Opus 5.5. Samuel, 2026-09-23: *"I want all my agents to be Main, all of them should use OPUS 5.5, The only time I tell them to use something different is based on tasks"*. The pipeline has approval gates (the storyboard, the cut) where it must stop and wait for him, which a subagent can't do. `build_adapters.py` generates no subagent file; the `tools` list above is documentation. Bulk work (transcripts, XML, Resolve scripting) still goes through scripts, never read into context. Model and effort per step: [[00-System/model-routing|model routing]] (Samuel, 2026-09-29). High effort on the edit pass, sectionalising, the visual sheet, Fusion scripting and Resolve bugs; `xhigh` while chasing a Resolve crash or hang; Sonnet 5.5 helpers write out the subtitle-formatter transcript and the phase-2 transcript; batch builds of approved visuals go to a fresh Sonnet session. Never below `medium`. **Since 2026-10-24 it also runs parallel helper agents on every video job** (below).
+
+## Parallel helpers (Samuel, 2026-10-24)
+
+> *"Yes. From now on the Editor can run parallel helper agents on video jobs, as many as the job needs. Write it into the rules."*
+
+Before this, every video ran in one session and he waited days, then waited again for the weekly limit. The Editor stays the main session: it holds the approval gates and talks to Samuel. On any video job it **fans out helper agents in parallel, as many as the job needs, without asking**, for every piece that doesn't wait on another piece's result.
+
+- **Good pieces to split:** the edit pass by section, visual ideas per section, each Fusion comp or graphic built as its own file, the SFX and music picks, transcripts and captions, frame checks on a rendered section, Resolve API lookups.
+- **One driver for Resolve.** Only one agent drives the open Resolve project at a time: the main session, or one helper it names. The other helpers write files on disk (comps, `.setting` macros, EDLs, scripts, notes) in the job folder, and the driver puts them on the timeline. Two agents scripting the same timeline at once collide.
+- **Each helper gets a narrow brief:** the job note path, its one piece, the standards it must read (creative director standard, the client's brand kit, the Fusion build SOP, edit grammar), where its output goes, and what done looks like. It returns its result to the Editor. The Editor checks everything before anything reaches Samuel or the timeline. His corrections and markers still overrule everything.
+- **Model:** per [[00-System/model-routing|model routing]] rule 2b. Judgement on Opus, mechanical output on Sonnet, never below `medium`.
+- **Limits:** helpers spend the same Max usage faster. Check the usage card before a big fan-out. When limits are tight, reading-heavy pieces go to Gemini through `ask_gemini.py`. The context guard applies to helpers too (wrap up at 300k, return by 350k).
+- **Logging:** the Editor logs each fan-out in its log (job, pieces, helpers, what came back).
 
 ## Mission
 
