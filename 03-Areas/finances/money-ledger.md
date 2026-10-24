@@ -239,6 +239,7 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-24 | balance | 79,915 | Bank | — | his words: "I have 79,915 in my personal account now"; no screenshot; before the loan and the webinar move below |
 | 2026-10-24 | in | 97,925 | Bank loan | — | his words: "I collected 100k from the bank just now, they gave me 97925, to be paid in a month"; NGN 2,075 kept as fee; 2.95%/month quoted (his words, earlier today); repayment amount and other fees not given ("Not sure") |
 | 2026-10-24 | in | 115,799 | All webinar money moved to personal | — | his words: "I just transfereed all the webinar money to my personal account, 115799 added"; for the Claude 20x upgrade. Webinar account now empty; Flutterwave NGN 86,108 still to settle Monday (his words) |
+| 2026-10-24 | bulk | 232,804 | Claude Max 20x upgrade, USD 169.73 | Claude Max 20x upgrade (USD 169.73, next bill ~2026-11-24, estimate) | his words: "I paid with my main bank card, they charged, 232,804"; about NGN 1,371.6/USD, NGN 5,536 above the Cleva-rate estimate |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
