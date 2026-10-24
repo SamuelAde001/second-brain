@@ -184,3 +184,9 @@ Samuel, ~01:00 WAT, by voice before bed: resume the video *"from beginning to th
 - **Why it's slow:** the second-half comps render at ~50 s a frame or stall outright (one frame of the 7488 comp didn't finish in 20 min), with Resolve on ~1.2 of 16 cores and the GPU at ~35 %. Not the cache mode. Node types are the same as in the comps that did cache; the cause isn't found yet.
 - `TdrDelay` unset (2 s). Samuel's call: reboot, and set it back to 10 s while at it.
 - **Next (on Samuel's word):** reboot the PC, then profile one stalled comp in the Fusion page (pass-through by node group) to find what stalls, fix it across the beats, cache the rest.
+
+### RESUME (Editor), 2026-10-24 14:20
+- **Cause found: Resolve's background render cacher, not the comps.** Fresh Resolve, cache off: the "stalled" comps render at 0.3-0.9 s a frame at full quality, Deliver at 0.29 s a frame. Once the background cacher works on one of the 78 uncached clips, it stalls and drags every render in that Resolve session to ~85 s a frame until Resolve restarts.
+- **Set up now:** Render Cache User, only the 122 cached clips flagged, the 78 unflagged, so the cacher never starts on them. Cached sections play from cache; the 78 render live (about 0.3-0.6 s a frame, so they stutter on playback but don't jam). Don't switch Render Cache to Smart on this timeline.
+- `TdrDelay`/`TdrDdiDelay` still not in the registry after the reboot: the `reg add` needs an admin terminal, then reboot.
+- **Next:** a full review render via Deliver (cache off, fresh Resolve, about 16,076 frames at ≤0.3 s ≈ up to ~80 min) if Samuel wants to watch it straight through; the sound pass in Resolve as set up.
