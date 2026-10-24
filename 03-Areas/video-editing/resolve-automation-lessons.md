@@ -369,3 +369,7 @@ Real LinkedIn pixels for the LinkedIn Training job. Kit: the job's `Docs\Editor 
 - The LinkedIn kit's `R()` (install_v2x.py, lab.py) calls `DisableBackgroundTasksForCurrentResolveSession()`, so no render cache runs in a Resolve session where a build, stills or lab render ran. Restart Resolve before caching.
 - `kits\cache_tl.py` in the LinkedIn job folder caches a whole timeline the safe way (section 7 of [[03-Areas/video-editing/troubleshooting|troubleshooting]]): Render Cache User, Fusion output flagged 20 clips at a time, cacher woken, progress per clip from the CacheClip folder, auto-recovery from a crash (partial cache deleted, clip deferred, Resolve relaunched). A 21-minute timeline with 169 Fusion adjustment clips started at ~1.6 frames/s on 3D-heavy intro comps.
 - Back to [[03-Areas/video-editing/video-editing|Video editing]]
+
+## 2026-10-24 — Smart cache on a Fusion-heavy timeline crawls; use cache_tl.py
+- Video 2 *Visuals v3*: 200 Fusion clips, Render Cache Smart, background after 1 s idle → 4-8 new frames a minute while Samuel was clicking in and out of Resolve. Switching to `cache_tl.py` (User, batches of 20) is the fix; clips already cached on disk pass in seconds. A copy now lives in each job's `kits\` with its `PROJECT` constant changed.
+- `TdrDelay` read unset on 2026-10-24 (was 10 s since 2026-09-24), likely reset by the 2026-10-23 Windows Update restart. Read it before every heavy cache.

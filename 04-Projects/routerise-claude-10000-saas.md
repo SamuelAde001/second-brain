@@ -173,3 +173,8 @@ Samuel, ~01:00 WAT, by voice before bed: resume the video *"from beginning to th
 - Install fixes: `install_v2x.py` retries a beat up to 3 times on Fusion's random "paste failed" (P3-10 this time). Resolve crashed (fusionsystem.dll) on the first two imports of big timelines; a fresh Resolve imported fine. `restart_resolve.py` when the MCP launch reports "running" but no process exists.
 - **Editor's review flags for Samuel:** P4-25 (Apollo stall chart) and LP-10 (red A-roll wash on "you cannot") are the two heaviest reds left (both on the keep list); LP-02 empty until its Flow clip exists; LP-03b and LP-07 on stand-ins; CRM names in LP-05b/07/08 and ST-02 made up (plan question 7).
 - **Next:** Samuel's review of v3; the music + SFX pass (new song per chapter, never repeated; SFX heaviest in the hook).
+
+### RESUME (Editor), 2026-10-24 10:12
+- **Render cache running by script:** `Frontal kit (Editor)\kits\cache_tl.py` on *Visuals v3 (Editor)* (200 Fusion clips, 16,184 frames), Render Cache User, batches of 20, auto-recovery from crashes and hangs; log `kits\_cache\cache_v3_2026-10-24.txt` (+ `.json` at the end: done and deferred clips). Smart cache was crawling at 4-8 frames a minute. Don't work in Resolve while it runs: it switches pages and may restart Resolve.
+- `TdrDelay` reads unset again (2 s). Samuel's to set back to 10 s if crashes show up.
+- **Next:** when it ends, cache any deferred clips one by one; then the sound pass.
