@@ -45,6 +45,7 @@ Before this, every video ran in one session and he waited days, then waited agai
 - **Model:** per [[00-System/model-routing|model routing]] rule 2b. Judgement on Opus, mechanical output on Sonnet, never below `medium`.
 - **Limits:** helpers spend the same Max usage faster. Check the usage card before a big fan-out. When limits are tight, reading-heavy pieces go to Gemini through `ask_gemini.py`. The context guard applies to helpers too (wrap up at 300k, return by 350k).
 - **Logging:** the Editor logs each fan-out in its log (job, pieces, helpers, what came back).
+- **Helper hygiene on Max 20x (2026-10-24), from the measured week:** [[00-System/model-routing|model routing]] → On Max 20x, rules 1-9. In short: no helper tool call over 4 minutes (helpers cache for 5; long renders, Whisper, caching and installs belong to the main session); builder-only with self-review, a fresh reviewer only on hero beats and his marked beats; file-and-script helpers start as [[07-Agents/editor-builder/profile|editor-builder]]; briefs name 2-4 files; one contact sheet per beat; Sonnet for mechanical pieces; his yes on 3-4 hero frames before any plan or build fans out; pool 8; weekly % per stage in the job note.
 
 ## Mission
 

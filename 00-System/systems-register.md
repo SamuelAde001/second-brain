@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-10-10
+updated: 2026-10-24
 source: manual
 tags: [systems]
 ---
@@ -19,6 +19,7 @@ The ladder, lowest rung first: **SOP → checklist → skill → automation.** W
 |-------|------|---------|--------|
 | **orchestrator** (General Manager) | Routing, merging, the session protocol. The default entry point | none — runs as the main session → [[07-Agents/orchestrator/profile\|profile]] | **built 2026-09-22** |
 | **video-editor** (Editor) | The DaVinci Resolve editing pipeline + standing Resolve expertise | none — runs in the main session → [[07-Agents/video-editor/profile\|profile]] | **built 2026-09-21**, in daily use on Route Rise jobs; runs from SOPs, scripts and small skills (2026-09-28) |
+| **editor-builder** (Editor's builder) | Lean helper the Editor fans out on video jobs: one piece on disk from a short brief, files and scripts only | [[07-Agents/editor-builder/profile\|profile]] → `.claude/agents/editor-builder.md` | **built 2026-10-24** (Max 20x) |
 | **finance** (Money man) | Money: ledger, budget sheet, rules, pots, runway, month close. Never moves money | none — runs in the main session → [[07-Agents/finance/profile\|profile]] | **built 2026-09-22**; Money sheet connected 2026-09-22 |
 | **personal-life** (PA) | His day and week, and his disciplinarian: night plan with a nightly accountability check, morning brief, weekly review; TickTick and Google Calendar (full write) | none — runs in the main session → [[07-Agents/personal-life/profile\|profile]] | **built 2026-09-22** |
 | **content** (Brand manager) | His own brand, @SamuelSignals: ideas, scripts in his voice, draft reviews, the content log, the Sunday content report | none — runs in the main session → [[07-Agents/content/profile\|profile]] | **built 2026-09-22** |
@@ -90,6 +91,7 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 | `00-System/scripts/audit_brain.py` | Brain health check, read-only: broken links, missing frontmatter, non-UTF-8 files, notes over 300 lines, done projects not archived; `orphans` lists notes nothing links to | after any restructure, and in any tidy |
 | `00-System/scripts/build_adapters.py` | Generates every AI tool's adapter files (Claude Code, Gemini CLI) from the canonical profiles and skills; `--check` detects drift; `--package` zips a skill for claude.ai | after any profile or skill edit |
 | `00-System/scripts/build_scripnals_guides.py` | Validates the Scripnals guide library (`03-Areas/scripnals/guides/`), exports `_export/guides.json` + `vocab.json` for the devs, and shows what one request loads (`--select`, `--prompt`). `--check` fails if the export is stale | after any change to a guide entry |
+| `00-System/scripts/usage_audit.py` | Where the Claude usage went, read from this Brain's Claude Code transcripts: cost by main session and helpers, cache lost to waits over 5 minutes, helper start-up weight, images, costliest sessions. Summary only | at every end-of-job review (`--session <id>`), and when usage runs out faster than expected |
 | `00-System/scripts/build_scripnals_spec.py` | Builds the Scripnals AI spec PDF for the devs from `03-Areas/scripnals/ai-workflow.md`. `--figures` first re-draws the flow chart and screen mock-ups from `03-Areas/scripnals/assets/*.html`. Needs Chrome | after any change to the AI spec |
 | `00-System/scripts/budget_sheet.py` | Rebuilds the "Money" Google Sheet (Overview, one tab per month, Ledger) from the money ledger, each month's plan and the goals, over Google's official Sheets API as a service account. `preview` prints it without touching the sheet, `doctor` checks the connection, `left` prints what's left per line this month (for `money-check` and `spend`), `month-plan YYYY-MM` starts a month's plan from the standing plan, `freeze YYYY-MM` locks it at the close | after any ledger or plan change; `freeze` at every month close |
 | `03-Areas/video-editing/scripts/drive_download.py` | Fast, resumable parallel-range download of a link-shared Drive file or any signed URL (Tella exports) | a new Routerise job's footage |

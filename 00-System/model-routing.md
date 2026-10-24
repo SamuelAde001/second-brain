@@ -2,7 +2,7 @@
 type: knowledge
 area: system
 status: active
-updated: 2026-10-02
+updated: 2026-10-24
 source: manual
 tags: [models, tokens, effort, routing]
 ---
@@ -32,6 +32,7 @@ Four facts shape everything below:
 - **About 22 of the last 40 sessions (2026-09-24 → 29) were Editor work:** Fusion comps, visuals, Resolve caching and renders, cuts. That's where the volume is. Money, PA and content sessions are short and few.
 - **Every session starts at about 70,000 tokens before a word is said:** system tools ~32k, MCP tools ~16k, the skills list ~10k, memory files ~6k. Much of it is plugins the Brain never uses (marketing, SOX/finance, data, design, product-management). That load is paid on every turn of every session, on any model.
 - Plan use at the time of checking: 5-hour window 28%, weekly 31% (on Pro).
+- **2026-10-24: moved to Max 20x** (see On Max 20x below).
 - **2026-10-06: moved to Max, USD 100 tier** ([[00-System/account-migration-max|plan move]]). Limits: 5-hour window, weekly all models, weekly Fable; extra usage off. The rule below is unchanged. Whether `high` becomes the default effort on judgement jobs now there is more room is Samuel's call, not asked yet.
 
 ## The rule
@@ -42,6 +43,29 @@ Four facts shape everything below:
 4. **Opus stays on anything where a mistake reaches a client, his money, or his own judgement.** Cheaper model there is a false saving: one redo costs more than the difference.
 5. **When a new session's job fits a different setting, the General Manager says so in one line at the start** (e.g. *"batch render job: Sonnet, effort medium; switch in the model menu or say go"*). He switches; the app won't let a session re-price itself.
 6. **Gemini takes reading-heavy jobs off Claude's limits** (Samuel, 2026-10-02): sweeps across many files, long transcripts and exports, web research, summaries. Claude sends them through `ask_gemini.py` instead of a Sonnet fork when its limits are tight or the job is mostly reading; Gemini's limits are separate. The answer is a draft: the session that asked keeps the judgement. When Samuel works in Gemini, the same map holds with the Gemini models in [[00-System/portability|portability]] → tiers. [[00-System/relay|Relay]].
+
+## On Max 20x (2026-10-24)
+
+Samuel upgraded to Max 20x on 2026-10-24 to edit faster: *"I'm looking for speed, right? I'm looking for much more good headroom around the usage, right? But I also want to make sure that we don't waste anything."* The General Manager measured the week before with `00-System/scripts/usage_audit.py --since 2026-10-19` (1,776 cost units at API prices):
+
+- **Helpers were 53 % of all spend**, main sessions 45 %. Video 2's run-3 session alone (`1162acdc`) was 731 units, 41 % of the week.
+- **27 % of helper spend was cache thrown away.** Helpers cache for 5 minutes, main sessions for 1 hour (checked in the transcripts). A helper tool call that ran 5-15 minutes (a render, a Whisper pass, a wait loop) made it rewrite its whole context at 1.25x. ~249 units, 14 % of everything.
+- **25 % of helper spend was start-up re-reads:** every helper starts at ~74,000 tokens (tool definitions, CLAUDE.md, AGENTS.md) and re-reads them every turn (median 28 turns).
+- **A fresh reviewer per group tripled build cost:** 1.4 weekly points per group with a reviewer, 0.5 builder-only with self-review (video 2, waves 1 and 2, on 5x).
+- **No helper ran on Sonnet** (0 of 7,844 workflow turns), though this map sends mechanical jobs there.
+- **Rework was the biggest loss of time and tokens:** video 2's plan v1 (11 points) and *Visuals v1* (16 points) were rejected on look after being built at scale.
+
+The rules from here (the General Manager's, on Samuel's ask to optimise for 20x):
+
+1. **No helper waits past its cache.** Every tool call in a helper finishes in under 4 minutes. Renders, Whisper, Resolve caching, stills through Deliver and installs run in the main session, or the helper starts them in the background and checks in slices of 4 minutes or less (`timeout 230 bash -c 'until <done>; do sleep 15; done'`, then check again). No `sleep` or Monitor wait past 4 minutes in a helper.
+2. **Builder-only with self-review is the default.** The builder checks its own work against the job's review card. A fresh reviewer only for hero beats and beats Samuel marked.
+3. **Lean helper type.** Helpers that only read, write files and run scripts start as `editor-builder` (`agentType: 'editor-builder'` in a workflow, profile [[07-Agents/editor-builder/profile|editor-builder]]): six tools instead of the full set. Captures in Chrome, Resolve calls and anything else that needs MCP use the default helper. Its start-up saving is unmeasured: check it with `usage_audit.py` on its first run.
+4. **Short brief, short output.** The brief names the 2-4 files the piece needs, not a reading list. Tool output is counts and paths. One script call does a whole check.
+5. **Images:** one contact sheet per beat, 1280 px wide at most, read once near the end, not single frames one at a time. An image stays in the context and is re-read every turn after it.
+6. **Sonnet for mechanical helpers:** `model: 'sonnet', effort: 'medium'` on install lists, captures from a given URL list, transcript formatting, stills sheets, render and cache babysitting. Planners, builders and anything Samuel judges stay on Opus.
+7. **Look lock before scale.** Samuel approves 3-4 hero frames of a new look before a full plan or a build fans out (the 2026-10-21 route, made standing).
+8. **Pool:** the 5-hour window is about 4x bigger on 20x, so 8 helpers at a time (was 3-5), up to 12 for short steps when the weekly bar has room. The weekly bar is now the limit that runs out: usage card between waves.
+9. **Measure every video:** weekly % at each stage (cut, plan, build, each review round, sound) in the job note, and `usage_audit.py --session <id>` at the end-of-job review. The bar read 0 % right after the upgrade (2026-10-24), so the first full video on 20x gives the real cost per video.
 
 ## The map
 

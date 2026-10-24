@@ -2,7 +2,7 @@
 type: sop
 area: video-editing
 status: active
-updated: 2026-10-13
+updated: 2026-10-24
 source: interview
 tags: [sop, unattended, overnight, versions]
 ---
@@ -54,3 +54,5 @@ Back to [[03-Areas/video-editing/video-editing|Video editing]]
 
 ## Hard rule: pace the agents (Samuel, 2026-10-15)
 *"efficiency is a hard rule you must follow"*. Worker pool of 3-5 agents in every workflow; never fan out a whole job list at once. Usage card before every launch, expected cost written in RUN STATE (one agent ≈ 0.2-0.25 weekly points, a full 5-hour window ≈ 13). Pace each window to last 5 hours. Stop hung agents after ~30 min without progress. Why: [[07-Agents/video-editor/memory|Editor memory]] 2026-10-15.
+
+**On Max 20x (2026-10-24):** the pool is 8 helpers (up to 12 for short steps), because the 5-hour window is about 4x bigger and the weekly bar is now what runs out. The point figures above were measured on 5x; re-measure on the first 20x video. Helper rules (no tool call over 4 minutes, builder-only with self-review, `editor-builder` type, contact sheets, Sonnet for mechanical pieces, look lock before scale): [[00-System/model-routing|model routing]] → On Max 20x.

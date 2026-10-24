@@ -56,6 +56,8 @@ On 5x the same arithmetic gives 1.1-1.4 videos per week, ~5-6 a month, before an
 
 The weekly bar was **75 %** on 2026-10-24 ~15:00 WAT (resets Wed 2026-10-28 23:00 WAT), on 5x. Read the usage card right before and right after the upgrade goes through: 75 ÷ the new percentage = his real ratio (75 → ~19 % means 4x, → ~38 % means 2x, → ~47 % means 1.6x). If the bar doesn't move, check again after the first reset, when one video's cost on the new bar answers it directly. Write the reading here.
 
+**Reading, 2026-10-24 (General Manager, from Samuel's screenshot right after the upgrade):** *Max (20x)*, "No usage yet. 100% of your weekly limit is available", session 0 %, week 0 %, resets Wednesday 11:00 PM. The bar restarted at 0 % on the upgrade, so the before/after ratio above can't be read. The answer comes from the first full video on 20x: its weekly % per stage is recorded in the job note ([[00-System/model-routing|model routing]] → On Max 20x, rule 9).
+
 ## Sources
 
 - Anthropic help: About Claude's Max plan usage (support.claude.com, article 11014257)

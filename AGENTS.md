@@ -16,7 +16,7 @@ Status: built 2026-09-20, in run mode since 2026-09-28. Current state: `00-Syste
 - **HighSignals** is now only the HighSignals Community (posting accountability), which may become **Called to Create** in 2027. **Scripnals** is a standalone app, not the focus.
 - **Samuel's personal brand is separate** — it is Samuel himself, Instagram @SamuelSignals. Its job is to funnel people into Called to Edit (and Called to Create). Content made as Samuel is not Called to Edit content.
 - A future book, not yet placed.
-- Claude plan: Max (USD 100 tier), since 2026-10-06; was Pro. Usage limits are shared across Claude chat and Claude Code. Token discipline is a constraint, not a preference.
+- Claude plan: Max 20x since 2026-10-24 (USD 169.73 a month, keep-or-drop by 2026-11-05); Max 5x from 2026-10-06, Pro before. Usage limits are shared across Claude chat and Claude Code. Token discipline is a constraint, not a preference.
 - Tone he wants back: direct and blunt. No flattery, no reassurance loops, no repeated moralizing.
 - More: [[02-Me/about-samuel|About samuel]] once written.
 
@@ -111,7 +111,7 @@ An agent reads its own `profile.md` and `memory.md` before acting, and logs ever
 - **Every agent runs in the main session, on Opus 5.5** (Samuel, 2026-09-23); in Gemini, on the strong-tier model in [[00-System/portability|portability]] → tiers. **Model and effort per job follow [[00-System/model-routing|model routing]]** (Samuel, 2026-09-29, *"yes to all three"*): each skill carries its effort, never below `medium`; Sonnet 5.5 runs only as a helper with its own context on mechanical, output-heavy jobs the map names, or in a fresh session the General Manager recommends. Any other subagent or model change only when he asks. **Exception, the Editor (Samuel, 2026-10-24):** on video jobs it runs parallel helper agents, as many as the job needs, without asking ([[07-Agents/video-editor/profile|Editor profile]] → Parallel helpers). Routines are not agents: they run on Sonnet (the night plan on Opus, 2026-09-25) and hand a step to an agent when needed. Agents never message each other; cross-domain work goes through the orchestrator.
 - Cross-domain work goes through `07-Agents/handoffs.md`: date · from · to · request · status · link to result.
 
-Built so far: **video-editor** (2026-09-21), **orchestrator**, **finance**, **personal-life** and **content** (2026-09-22). All five carry `runs-as: main-session` and tier `strong`. See the roster.
+Built so far: **video-editor** (2026-09-21), **orchestrator**, **finance**, **personal-life** and **content** (2026-09-22). All five carry `runs-as: main-session` and tier `strong`. One helper type, **editor-builder** (2026-10-24), is a generated subagent the Editor fans out on video jobs. See the roster.
 
 ## 8. Skills
 
