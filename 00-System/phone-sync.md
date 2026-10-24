@@ -2,7 +2,7 @@
 type: sop
 area: system
 status: active
-updated: 2026-10-18
+updated: 2026-10-24
 source: manual
 tags: [phone, sync, obsidian, git]
 ---
@@ -16,6 +16,13 @@ How the Brain gets onto Samuel's phone and back. Decided 2026-09-20 ([[00-System
 - The phone holds a full git copy of `SamuelAde001/second-brain` and pulls and pushes `main` through the **Git** community plugin (Vinzent03's *Obsidian Git*).
 - The phone uses its **own Obsidian settings folder, `.obsidian-mobile/`**, which is never committed. So the phone's layout, plugins and the GitHub token never reach the PC, and the PC's `.obsidian/` never fights the phone's.
 - PC sessions pick up phone commits at start (the SessionStart hook fast-forwards `main`). Cloud sessions merge `origin/main` before every push. Nothing here needs an AI.
+
+## The PC side (since 2026-10-24)
+
+- Windows task **"Brain - git sync"** runs `00-System/scripts/pc_git_sync.py` every 10 minutes while Samuel is logged in (hidden, no window). It pulls phone and cloud commits into the PC's `main` (fast-forward, or a normal merge, never rebase or force) and pushes PC commits to GitHub. So whatever an agent commits reaches the phone within about 10 minutes, and phone notes land on the PC without a session.
+- It never commits. Uncommitted edits (an agent mid-job, Samuel typing in Obsidian on the PC) reach the phone once the next session commits them (AGENTS.md §12).
+- A pull that conflicts is aborted and left for the next session to show Samuel. Log: `%LOCALAPPDATA%\Brain\git-sync.log` (only runs that did something or failed).
+- Needs the PC on. With the PC off, the phone still has its last copy and still pushes; the PC catches up when it's back.
 
 ## One-time setup on the phone (Samuel, ~15 minutes, on Wi-Fi)
 

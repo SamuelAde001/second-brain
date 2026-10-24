@@ -48,7 +48,7 @@ Not asked in PA checks (Samuel, 2026-10-14: old routines cancelled; *"Don't worr
 
 ## Loose ends
 
-1. **Phone sync through Obsidian: steps written 2026-10-18, not installed.** Samuel does steps 1-9 in [[00-System/phone-sync|phone sync]] (token, vault, `.obsidian-mobile` settings folder, Obsidian Git, clone). Cloud sessions now run the sync hook in cloud mode (decision 2026-10-18).
+1. **Phone sync through Obsidian: steps written 2026-10-18, not installed.** Samuel does steps 1-9 in [[00-System/phone-sync|phone sync]] (token, vault, `.obsidian-mobile` settings folder, Obsidian Git, clone). Cloud sessions now run the sync hook in cloud mode (decision 2026-10-18). PC side done 2026-10-24: task "Brain - git sync" pulls and pushes every 10 minutes (`pc_git_sync.py`).
 2. **Video-editing project memory files not distilled** (Samuel: skip for now): `technical-learnings.md`, `taking-a-step-back-from-claude.md`, `cold-outreach-video.md`. Check overlap before spending tokens.
 3. **~200 conversations dropped at triage.** Full list: `01-Inbox/_imports/processed/triage.csv`.
 4. The old Gemini CLI npm copy can be removed (Antigravity `agy` replaced it).
