@@ -198,3 +198,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-23: 7 free webinar seats for people close to Samuel: signed up via the Sheet endpoint, Paid ticked (Sign-ups rows 199–205) so the sync sends confirmations → [[04-Projects/called-to-edit-landing-page-build|build note]].
 - 2026-10-24: moved the Community webinar offer deadline from Mon 2026-10-26 to Fri 2026-10-30 23:59 WAT (lib.mjs OFFER_ENDS, /community banner + countdown); deployed; live page checked. Sent Samuel the community links.
 - 2026-10-24: Samuel confirmed his own end-to-end test of Community payment and cancel works (Samuel: *"Tested the payment and the cancel, all works"*); logged.
+- 2026-10-24: diagnosed a member's 'no access' error: payer by transfer never linked Discord; permissions fine. Renewals job now flags paid-but-not-joined members daily; deployed.
