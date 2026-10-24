@@ -11,7 +11,8 @@ This script reads them and never prints them. No agent opens that file (AGENTS.m
   python community_admin.py status          what the server looks like now
   python community_admin.py members         who has paid, until when (no emails or phones printed)
   python community_admin.py team-invite     a one-use, 24-hour invite for a team member
-  python community_admin.py team <name>     give someone already in the server a free Team seat (and welcome them)
+  python community_admin.py founder         red Founder role above Team, given to the server owner
+  python community_admin.py team <name>   give someone already in the server a free Team seat (and welcome them)
   python community_admin.py welcome <name>  post the join welcome in #welcome for someone in the server
   python community_admin.py say <channel> <text>
 """
@@ -43,6 +44,7 @@ VIEW, SEND, HISTORY, REACT = 1 << 10, 1 << 11, 1 << 16, 1 << 6
 MEMBER_PERMS = (VIEW | SEND | HISTORY | REACT | (1 << 38) | (1 << 35) | (1 << 14) | (1 << 15) | (1 << 18)
                 | (1 << 20) | (1 << 21) | (1 << 25) | (1 << 32) | (1 << 26) | (1 << 31) | (1 << 9))
 TEAM_PERMS = MEMBER_PERMS | (1 << 13) | (1 << 34) | (1 << 17)  # + manage messages, manage threads, mention everyone
+FOUNDER_RED = 0xE53935  # Samuel, 2026-10-24: a Founder role, red
 NO_POST = SEND | (1 << 38) | (1 << 35)  # send, send in threads, create threads
 
 TEXT, VOICE, CATEGORY, STAGE, FORUM = 0, 2, 4, 13, 15
@@ -241,7 +243,7 @@ def cmd_build():
 
     # Roles. @everyone sees nothing: a paid Member, a Team seat or an Expired role decides what you see.
     existing = {r["name"]: r for r in api("GET", f"/guilds/{g}/roles")}
-    want = {"Team": (TEAM_PERMS, 0xFCDD9E, True), "Member": (MEMBER_PERMS, 0xB9C3D6, False), "Expired": (0, 0x4A5670, False)}
+    want = {"Founder": (TEAM_PERMS, FOUNDER_RED, True), "Team": (TEAM_PERMS, 0xFCDD9E, True), "Member": (MEMBER_PERMS, 0xB9C3D6, False), "Expired": (0, 0x4A5670, False)}
     roles = {}
     for name, (perms, color, hoist) in want.items():
         body = {"name": name, "permissions": str(perms), "color": color, "hoist": hoist, "mentionable": False}
@@ -515,6 +517,25 @@ def cmd_team(name):
     cmd_welcome(name)
 
 
+def cmd_founder():
+    """Make (or fix) the red Founder role, put it above Team, and give it to the server owner."""
+    c = load_cfg()
+    g = c["guild"]
+    roles = api("GET", f"/guilds/{g}/roles")
+    body = {"name": "Founder", "permissions": str(TEAM_PERMS), "color": FOUNDER_RED, "hoist": True, "mentionable": False}
+    r = next((x for x in roles if x["name"] == "Founder"), None)
+    r = api("PATCH", f"/guilds/{g}/roles/{r['id']}", body) if r else api("POST", f"/guilds/{g}/roles", body)
+    team = next(x for x in roles if x["name"] == "Team")
+    api("PATCH", f"/guilds/{g}/roles", [{"id": r["id"], "position": team["position"] + 1}])
+    c.setdefault("roles", {})["founder"] = r["id"]
+    save_cfg(c)
+    owner = api("GET", f"/guilds/{g}")["owner_id"]
+    api("PUT", f"/guilds/{g}/members/{owner}/roles/{r['id']}")
+    me = api("GET", f"/guilds/{g}/members/{owner}")
+    names = {x["id"]: x["name"] for x in api("GET", f"/guilds/{g}/roles")}
+    print("Founder role (red) given to the owner. Their roles now:", ", ".join(names.get(i, i) for i in me["roles"]))
+
+
 def cmd_welcome(name):
     c = load_cfg()
     found = api("GET", f"/guilds/{c['guild']}/members/search?query={requests.utils.quote(name)}&limit=5")
@@ -607,7 +628,7 @@ if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     a = sys.argv[1:]
     cmds = {"setup-secrets": cmd_setup_secrets, "edit-secrets": cmd_edit_secrets, "invite-url": cmd_invite_url, "build": cmd_build, "post-texts": cmd_post_texts, "push-env": cmd_push_env,
-            "nuggets": cmd_nuggets, "status": cmd_status, "members": cmd_members, "team-invite": cmd_team_invite,
+            "nuggets": cmd_nuggets, "status": cmd_status, "members": cmd_members, "team-invite": cmd_team_invite, "founder": cmd_founder,
             "knowledge": cmd_knowledge, "bot-setup": cmd_bot_setup}
     if a and a[0] in cmds:
         cmds[a[0]]()
