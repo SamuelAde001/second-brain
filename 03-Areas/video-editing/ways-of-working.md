@@ -362,3 +362,23 @@ Notes and the revision plan: video 2's job folder, `Docs/Visual plan v1 (Editor)
 - Colour: *"you used so so so much green and red in the video when they aren't needed, only use green and red where it is very needed like possitive income, revenue, something done right, and something they should not do for negative but not everywhere, use their shades of their colours to keep things in their style"*. Editor's reading (applied to video 2, open to his correction): green for money going up (revenue / income lines and numbers) and advice the viewer should follow; red for something the viewer should not do and a stall on a revenue chart. Everything else, including winners-vs-stuck comparisons, in the client's own shades (Frontal: winners cobalt and sky blue, stuck gray).
 - He likes the design through the video so far: *"Now I like the design all through the video so far"*.
 - Budget for the video 2 run: *"Don't worry about weekly unit anymore"* then *"just be efficient in you usage"*: no 70 % cap, still lean (builder-only with self-review, reuse, scripts over regeneration).
+
+## Samuel, 2026-10-24: video 2 v3 review, 108 markers (applies to every video)
+
+108 markers on *Visuals v3 (Editor)* plus a voice brief, ~17:15 WAT. Word for word: video 2's job folder, `Docs/Revision 3 (Editor)/markers.json`. *"The video is 40% there ... you put shines wrongly all throughout the video without any reason ... it was very, very annoying to watch."* He marked only the first 7:39 because most notes repeat: every correction below applies to the whole video, marked or not.
+
+1. **Shines: none by default.** *"Stop putting shines in total cause you put two, and the shines are used badly"*, *"bad shines in the whole video"*. No moving shine or light sweep on boxes, pages or screen recordings. Where one truly earns its place (one key box, at most one shine): it sweeps only that box, starts on its turn, and travels fully off the box (*"this shine is okay, but they never completely leave the box"*). This overrules the 2026-10-22 "shines on every box" line for Alex.
+2. **Zooms: gradual, never deep.** *"Because I told you to zoom out, I didn't mean zoom out to the whole page, right? I mean just don't be too close to the exact sentence, just a little bit, and gradually zoom in."* *"here start a bit closer and zoom in to the points gradually, your zooms in the whole video is just too fast"*. A page or capture opens slightly wider than the line, then eases in slowly across the beat; no punch, no 2x, no jitter. A-roll zooms centre on his face. Not every page needs a zoom (*"no need to zoom here at all"*).
+3. **Slow and smooth beats fast.** *"the animations in this video are too fast, slow and smooth is better"*, *"Too much fast motion"*, *"viewer can't follow it"*. Line charts grow at one constant rate from start to end while he speaks (*"let it be a constant growth"*).
+4. **All text in Inter** (bold for headlines). *"I want you to change all text in the video to be inter, I don't like that other font"*. Season Serif is out for Alex.
+5. **Highlight the words at once**, not word by word, in every highlight of this kind.
+6. **No boxes everywhere**, *"especially on screen"*: text over a screen recording or page goes without a box.
+7. **No dark shade over his screen visuals** unless it steers the eye to one spot. No black backgrounds where footage should show (two marked; cause to be found).
+8. **One thing on screen at a time.** *"the viewer needs to focus on one thing at a time"*.
+9. **Desaturate, don't paint red,** when something just isn't working (*"this red is not needed, just desaturated instead"*). No green glow to pick a winner: dim the others.
+10. **Text:** not too big, centred (vertically too), never off screen or touching an edge; elements animate or fade out.
+11. **Typing is character by character**, never word by word.
+12. **A company is introduced by its logo and name**, no website page behind it.
+13. **The "in this video" list** is done the way the first and second Alex intros did it: the points written, blurred, in numbered boxes (pill-like, square), revealed as he names them; the method openers in the body reuse it. **The intro ends with the "coming up" preview** from Alex's first video.
+14. **Playback must be smooth:** comps light enough for his computer; heavy visuals are a fault (*"this visual is too intensive on the computer"*).
+15. Compare every version with the videos the creative director approved before he sees it. *"This does not look like any of those videos that the creative director reviewed and said it was good."*
