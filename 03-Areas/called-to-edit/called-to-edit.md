@@ -68,6 +68,7 @@ See [[03-Areas/called-to-edit/called-to-edit-goals|Goals]]. No number yet: *"I w
 ## Map of content
 
 - [[03-Areas/called-to-edit/called-to-edit-brand-foundation|Brand foundation]]: what the brand is, who it's for, the contrarian take, naming, the ladder, the look
+- [[05-Knowledge/teachings/teachings-archive|Teachings archive]]: everything Samuel teaches, prep and live webinar, by topic; the source for content, Editors Bot and the Academy
 - [[03-Areas/called-to-edit/called-to-edit-goals|Goals]] · [[03-Areas/called-to-edit/called-to-edit-decisions|Decisions]] · [[03-Areas/called-to-edit/called-to-edit-log|Log]] · [[03-Areas/called-to-edit/called-to-edit-ideas|Ideas]]
 - Branches: [[03-Areas/academy/academy|Academy]] · [[03-Areas/mentorship/mentorship|Mentorship]] · [[03-Areas/community/community|Community]]
 - Projects: [[04-Projects/called-to-edit-brand-build|Full brand build]] (after the webinar) · [[04-Projects/called-to-edit-webinar-and-academy|Webinar and Academy]] · [[04-Projects/called-to-edit-landing-page-build|Landing page]] · [[04-Projects/called-to-edit-designer-brief|Designer brief]]

@@ -35,6 +35,7 @@ Status: built 2026-09-20, in run mode since 2026-09-28. Current state: `00-Syste
               highsignals (former umbrella, kept as history), scripnals, book. Each folder opens with <area>.md.
 04-Projects/  finite work with an end date. Each links to its area.
 05-Knowledge/ evergreen know-how that spans areas. Domain SOPs live in their area instead.
+              teachings/ = Samuel's teachings archive (content source, Editors Bot's knowledge)
 06-Logs/      daily/, weekly/, automation/, screen-time/, commitments.md
 07-Agents/    roster.md, handoffs.md, <agent-name>/{profile,memory,log}.md
 08-Archive/   finished work: projects/ (done projects), brain-build/ (migration records),
@@ -149,7 +150,7 @@ Agents may only reach folders outside this Brain when the folder is listed in th
 - **Read-only, video-editor agent (Editor):** Samuel's SFX library, `C:\Users\repzy\Downloads\sounds\Sound effects\`. Scripts list and measure files there; Resolve imports them by reference. Nothing is moved, renamed or edited. Samuel, 2026-09-28: *"go to my Sound library, use those same music and sound effects"* ([[00-System/decisions|decision]], 2026-10-04).
 - **Read-only, content agent (Brand manager):** `C:\Users\repzy\Pictures\My pictures\`, his photos of himself. Scripts make contact sheets and web copies into the build folder; originals untouched. `Pictures\Babe` is excluded. Samuel, 2026-10-04: *"check the folder of my pictures in my computer, check every asset that you think you might need"*.
 - **Read and write, content agent (Brand manager):** `C:\Users\repzy\Desktop\landing-page\`, the Called to Edit landing page build folder (the third-party scroll-craft engine copy lives here, never in the Brain). Samuel, 2026-10-04.
-- **Read-only, content agent (Brand manager):** `C:\Users\repzy\Desktop\Called to Edit\`, his Called to Edit design files (the designer's webinar flyer, references). Scripts make small copies into the scratchpad; nothing there is changed. Samuel, 2026-10-21: *"go through my materials and my finished video of my page"*. **Write, new files only, in its `Brand kit\` subfolder:** the brand guide PDF and logo files (Samuel, 2026-10-21: *"Yes, copy the PDF and the logo pack into Desktop\Called to Edit"*). Nothing else there is touched.
+- **Read-only, content agent (Brand manager):** `C:\Users\repzy\Desktop\Called to Edit\`, his Called to Edit design files (the designer's webinar flyer, references). Scripts make small copies into the scratchpad; nothing there is changed. Samuel, 2026-10-21: *"go through my materials and my finished video of my page"*. **Write, new files only, in its `Brand kit\` subfolder:** the brand guide PDF and logo files (Samuel, 2026-10-21: *"Yes, copy the PDF and the logo pack into Desktop\Called to Edit"*). Nothing else there is touched. **Write, new files only, in `Videos\Webinar recording 2026-10-23 (Brand manager)\`:** the webinar transcript (Samuel, 2026-10-24: *"downlaod the webinar video, and get the transcript"*).
 - **Read-only, content agent (Brand manager):** `C:\Users\repzy\Desktop\Video edits\My videos\Instagram Samuel Signals\`, where all his personal-brand footage lives. Scripts list files, read metadata and pull frames into the scratchpad. Deleting or overwriting anything there needs Samuel's yes (rule 1, 2026-10-24). Granted 2026-09-24.
 
 ## 11. Any AI, same Brain

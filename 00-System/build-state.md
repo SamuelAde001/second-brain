@@ -2,7 +2,7 @@
 type: log
 area: system
 status: active
-updated: 2026-10-19
+updated: 2026-10-24
 source: manual
 tags: [build, state]
 ---
@@ -29,6 +29,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 - **Called to Edit webinar → Academy:** webinar **Fri 2026-10-23, 7:00pm WAT**, NGN 5,000, target 200. Cohort NGN 50,000, ~6 weeks from November, target 50. Project manager Ifeoma. [[04-Projects/called-to-edit-webinar-and-academy|project hub]].
 - **Called to Edit brand build** (started 2026-10-21 at Samuel's ask): **guide v1.0 PDF built** after his 11 corrections (`_attachments/called-to-edit-brand/Called-to-Edit-Brand-Guidelines.pdf`; Brain copy [[03-Areas/called-to-edit/called-to-edit-brand-guide|brand guide]]; logo kit v2 `_attachments/called-to-edit-brand/`). Waiting on his review. [[04-Projects/called-to-edit-brand-build|project]].
 - **Called to Edit Community** (built 2026-10-22, Brand manager): site live at https://calledtoeditcommunity.netlify.app/community, offer link `/community/webinar` (NGN 2,000 until Mon 2026-10-26). Code in `Desktop\called-to-edit-site\` (`sh deploy.sh`); server run by `00-System/scripts/community_admin.py`. **Discord server built 2026-10-22** (23 channels with icons, roles, AutoMod, texts, bot on the site). Flutterwave key in, checkout tested. **Reworked same night** to a growth community: 12 member channels, Editors Bot (slash commands, AI from the teachings; on Gemini free tier, /ask live-tested 2026-10-23), site rewritten. **Weekly call** Wed 8pm WAT (set 2026-10-23). **Waiting on Samuel:** one real test payment, the domain, team seats. [[04-Projects/called-to-edit-community-launch|launch note]]
+- **Teachings archive** (built 2026-10-24, Brand manager): [[05-Knowledge/teachings/teachings-archive|archive]], prep + live webinar by topic, Q&A, new-at-the-webinar list with recording times. Editors Bot reads it. Ask the Brand manager for educational video ideas from it. The Meet recording download in Chrome is stuck at 846 MB on a save prompt; the OBS recording was used instead.
 - **Called to Edit landing page:** live at calledtoedit.netlify.app; `deploy.sh` in `Desktop\landing-page\`. 2026-10-07: 21 people, 5 paid (NGN 25,000). Traffic tracking live 2026-10-08 (Sheet tab *Traffic*). [[04-Projects/called-to-edit-landing-page-build|build note]].
 - **Webinar videos:** [[03-Areas/personal-brand/webinar-video-list-2026-10|video list]]; 15 cards in the Notion calendar (2026-10-08). Intro video plan waits on his answers ([[03-Areas/personal-brand/intro-story-video-2026-10-05|intro video plan]]).
 - **October personal-client job:** NGN 100,000, kickoff block 2026-10-26 ([[04-Projects/personal-client-project-2026-10|project]]).

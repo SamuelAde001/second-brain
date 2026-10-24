@@ -536,25 +536,21 @@ def cmd_say(channel, text):
 
 
 
-TEACHINGS = BRAIN / "04-Projects" / "called-to-edit-webinar-teachings.md"
+TEACHINGS = BRAIN / "05-Knowledge" / "teachings"  # the teachings archive: prep voice notes + what he said live
 
 
 def cmd_knowledge():
-    """Editors Bot's knowledge: the webinar teachings, without the production notes (board, recording dates)."""
-    text = TEACHINGS.read_text(encoding="utf-8")
-    text = text[text.index("\n## 0."):]
-    out, skip = [], False
-    for line in text.splitlines():
-        if line.startswith("**Board") or line.startswith("**Settled") or line.startswith("Recorded "):
-            skip = True
-            continue
-        if skip and (line.startswith("#") or line.startswith("**")):
-            skip = False
-        if skip or "Brand manager" in line:
-            continue
-        line = re.sub(r"\[\[[^|\]]*\|([^\]]+)\]\]", r"\1", line)
-        line = re.sub(r"\[\[([^\]]+)\]\]", r"\1", line)
-        out.append(line)
+    """Editors Bot's knowledge: the teachings archive's topic notes, without Brain links, nav lines or recording times."""
+    out = []
+    for note in sorted(TEACHINGS.glob("teachings-[0-9]*.md")):
+        text = note.read_text(encoding="utf-8").split("\n---\n", 1)[1]  # drop frontmatter
+        for line in text.splitlines():
+            if line.startswith(("Part of the [[", "[[05-Knowledge/")) or "Brand manager" in line:
+                continue
+            line = re.sub(r"\[\[[^|\]]*\|([^\]]+)\]\]", r"\1", line)
+            line = re.sub(r"\[\[([^\]]+)\]\]", r"\1", line)
+            line = re.sub(r" ?\[\d{1,2}:\d{2}:\d{2}\]", "", line)
+            out.append(line)
     body = re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip()
     dest = SITE_DIR / "netlify" / "lib" / "knowledge.mjs"
     dest.write_text("// Made by community_admin.py knowledge from the Brain's webinar teachings. Don't edit here.\nexport default "

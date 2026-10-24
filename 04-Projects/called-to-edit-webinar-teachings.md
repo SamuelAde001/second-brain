@@ -11,6 +11,8 @@ tags: [called-to-edit, webinar, teaching, slides, whiteboard]
 
 Part of [[04-Projects/called-to-edit-webinar-and-academy|Called to Edit webinar → Academy]]. Area: [[03-Areas/personal-brand/personal-brand|Personal brand]]. Topic list: [[04-Projects/called-to-edit-webinar-content|Webinar content]] (48 teaching topics after his cuts of 2026-10-04; Q&A not counted).
 
+**Evergreen copy since 2026-10-24:** the [[05-Knowledge/teachings/teachings-archive|Teachings archive]] holds these teachings by topic, without the production notes, plus what he said live at the webinar. This note stays as the prep record. New teachings go to the archive, not here.
+
 Samuel, 2026-10-16: *"you would mention each topic one by one and I would do a voice record here of what I would be talking about so we have an understanding of points, teachings and examples I would cover to be used eventually in the whiteboard or the slides"*.
 
 **How each topic is filled:** he records what he'd say; the Brand manager writes it up as **Points** (what he covers), **Teaching** (the one thing they leave with), **Examples** (his stories and proof), **Board / slide** (what goes on screen). Everything comes from his recording. Anything not said stays blank. A topic he skips is marked *skipped*.
