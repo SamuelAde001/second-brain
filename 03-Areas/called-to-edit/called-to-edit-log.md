@@ -21,8 +21,10 @@ Append-only. Newest at the bottom.
 - 2026-10-24 — Community webinar offer (NGN 2,000 first month) extended to Fri 2026-10-30 23:59 WAT; site deployed.
 - 2026-10-24 — Samuel tested Community payment and cancel (auto-renew off) end to end: both work (Samuel: *"Tested the payment and the cancel, all works"*).
 
-- 2026-10-24 — Webinar thank-you email (recording, e-book and workbook attached, Community offer, logo header) sent to all 78 seat holders → [[04-Projects/called-to-edit-landing-page-build|landing page build]].
+- 2026-10-24 — Webinar thank-you email built (recording, e-book and workbook attached, Community offer, logo header) for 78 seat holders; waiting on Samuel to authorise the script and approve the test → [[04-Projects/called-to-edit-landing-page-build|landing page build]].
 - 2026-10-24 — Test member removed. Community members Sheet live (site keeps it current); payer welcome/renewal emails built, off until Samuel tests and switches them on. First 3 real payers (NGN 6,000, webinar offer).
 - 2026-10-24 — Payer emails on: welcome sent to the first 4 community payers; every new payer now gets one automatically.
+
+- 2026-10-24 — Thank-you email sent to all 78 seat holders (Samuel authorised and ran it); Sheet marked, sent copy checked → [[04-Projects/called-to-edit-landing-page-build|landing page build]].
 
 Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
