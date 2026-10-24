@@ -103,3 +103,6 @@ Samuel: *"let's swtich to Gemini and see how it works, since it is just asnwerin
 
 ## 2026-10-24 · Community webinar offer runs to Friday 30 Oct
 Samuel: *"Make the deadline for the discounted community registeration to be Next week friday"*. The NGN 2,000 first month on `/community/webinar` now ends **Fri 2026-10-30, 23:59 WAT** (was Mon 2026-10-26). Changed in the server price check (`netlify/lib/lib.mjs`), the page banner and the countdown; deployed and checked live. → [[04-Projects/called-to-edit-community-launch|community launch]]
+
+## 2026-10-24 · Community members Sheet, and an email to every payer
+Samuel: *"we need a sheet to document all the called to edit community members, payments etc, just like we setup something for the webinar"* and *"I want to ensure an email is sent to people that pay also with the community logo, and the link to join discord also and with a small guide"*. Built as a Google Sheet the site keeps current, with the payer emails sent from his Gmail by the Sheet's script; the emails wait for his test and his switch-on. → [[04-Projects/called-to-edit-community-launch|community launch]]

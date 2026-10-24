@@ -22,5 +22,6 @@ Append-only. Newest at the bottom.
 - 2026-10-24 — Samuel tested Community payment and cancel (auto-renew off) end to end: both work (Samuel: *"Tested the payment and the cancel, all works"*).
 
 - 2026-10-24 — Webinar thank-you email built (recording, e-book and workbook attached, Community offer, logo header) for 78 seat holders; waiting on Samuel to authorise the script and approve the test → [[04-Projects/called-to-edit-landing-page-build|landing page build]].
+- 2026-10-24 — Test member removed. Community members Sheet live (site keeps it current); payer welcome/renewal emails built, off until Samuel tests and switches them on. First 3 real payers (NGN 6,000, webinar offer).
 
 Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]

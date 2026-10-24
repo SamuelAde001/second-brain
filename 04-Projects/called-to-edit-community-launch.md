@@ -153,3 +153,13 @@ Discord's add-role and remove-role calls need a bot token in a script property, 
 Samuel will give the build instructions in a new session (2026-10-21).
 
 Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
+
+## Members Sheet and payer emails (2026-10-24)
+
+Samuel: *"Remove, also, we need a sheet to document all the called to edit community members, payments etc, just like we setup something for the webinar"*; *"It should have their discords username once they have joined"*; *"I want to ensure an email is sent to people that pay also with the community logo, and the link to join discord also and with a small guide"*.
+
+- **Test record removed** (his own NGN 2,000 card test of 2026-10-23: member, Discord link, payment and checkout entries).
+- **Sheet:** "Called to Edit · Community members" in his Drive, script project "Called to Edit community sheet" (web app, run as Samuel, anyone; script version 3). Tabs: **Overview** (members now, in Discord / not yet, team, expired, auto-renew, ending in 7 days, webinar-offer takers, money in this month and all time, checkouts not paid, the 7-day ending list), **Members** (status, paid to, days left, how they renew, totals, first month offer or full price, email, phone, WhatsApp link, **Discord username**, card, his own Notes kept by email), **Payments**, **Didn't pay** (left the page or failed, with a WhatsApp link).
+- **How it stays current:** the site sends the whole picture (members, payments, checkouts; never card tokens) to the Sheet after every payment, checkout, Discord join, failed payment and auto-renew switch, and every morning with the renewals run. An older picture never overwrites a newer one. Menu **Community → Refresh from the site** pulls it again (`/api/sheet-sync`). Site env `SHEET_URL` holds the web app address. Source: `called-to-edit-site\sheet-script.gs`; site side `syncSheet()` in `netlify/lib/lib.mjs`.
+- **Payer emails** (from his Gmail, "Samuel · Called to Edit", logo `site/assets/email-logo.png` from the brand kit's community-dark PNG on a midnight band): first payment = welcome with their own Join with Discord button (7-day link, fallback `/join`), the 2-minute Discord guide, what to do inside, the 60-Day Challenge line until 1 Nov, how renewal works. Renewal = short confirmation. Once per payment. **Off until Samuel turns it on** from the Community menu, after the test email (*Send me a test payer email*). *Turn payer emails on + email everyone who already paid* also sends the welcome to earlier payers.
+- **First real payers, 2026-10-24 morning:** 3 on the webinar offer (NGN 6,000); two joined Discord, one paid but not joined yet.

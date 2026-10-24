@@ -184,3 +184,10 @@ Back to [[07-Agents/content/profile|Profile]]
 
 ## 2026-10-24 — Standing rule: use every tool and folder without asking
 - Samuel: agents use every tool and folder the goal needs, no asking. Ask only before deleting or overwriting something he made himself, anything touching keys or secrets, or rewriting git history. Sending or posting as him, moving money, granting account access and delivering to a client stay his calls. AGENTS.md §5 rule 1; [[00-System/decisions|decision]] 2026-10-24.
+
+## 2026-10-24 — Community Sheet build
+- Push the whole picture to an Apps Script web app on every change, not events: a missed send is fixed by the next one, and the Sheet keeps no state worth losing. Ignore a picture older than the last one drawn.
+- Paste code with the clipboard (`Set-Clipboard`, then ctrl+v in the focused Monaco editor) and check the SHA-256 in the page; no hand-typed copy.
+- The Run/Debug toolbar shifts when the picker is clicked by coordinates: a click meant for the picker hit Debug. Run one-off functions from a Sheet menu item instead (it also gives Samuel the permission prompt).
+- New-deployment dialogs can close when `find` runs between clicks; click by coordinates read from a screenshot, and confirm the live version with a GET to `/exec` (doGet returns the version).
+- `community_admin.py members` fails (node can't find netlify-cli's run.js); `netlify blobs:*` from bash in the site folder works.
