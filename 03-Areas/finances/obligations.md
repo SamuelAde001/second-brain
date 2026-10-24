@@ -117,6 +117,8 @@ The obligations floor and committed outflow rise by NGN 100,000 a month until Ap
 
 **App loan, NGN 325,000, taken 2026-10-20** for the creative director's laptop. NGN 321,000 landed after the 1% fee. 13.7% a month on the balance. **NGN 82,875 on the 19th of each month, six payments, 2026-11-19 to 2027-04-19, NGN 497,250 in all.** Paid from the Creative director salary line above. (The note above that commercial loans were cleared stays true for Okash, FairMoney and the bank loan; this is a new one.)
 
+**Bank loan, NGN 100,000, taken 2026-10-24** for the Claude Max 20x upgrade. NGN 97,925 landed (NGN 2,075 fee). His words: *"to be paid in a month"*, so due about 2026-11-24. 2.95% a month quoted; repayment amount and any other fees not given yet. At 2.95% on NGN 100,000 that would be about NGN 102,950 (estimate, not his figure).
+
 **He owes his sister NGN 90,000**, added 2026-08-26. NGN 40,000 was paid in September on Payday B. **NGN 50,000 remains, with no date on it** — his words: *"can hold for anytime I am free with more funds, no deadline."*
 
 She is not pressing, so it is not scheduled. It is written down anyway, because an undated debt is the kind of thing that ambushes a month, and because "when I have more funds" is the same sentence that moves due dates. **Bring it up the first month that closes with the buffer full.**

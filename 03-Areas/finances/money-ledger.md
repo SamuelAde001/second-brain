@@ -232,6 +232,13 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-23 | bulk | 10,000 | Girlfriend, for feeding | Girlfriend extras | his words: "Today I gave my GF 10k to use for some feeding"; her food, so Girlfriend extras, not Feeding |
 | 2026-10-23 | bulk | 49 | Minor spends 2026-10-21 to 2026-10-23 | Other | derived; rows give 92,047, he has 91,998; likely transfer charges. His "5,500 I think on eating out on 21st" is the 5,500 Eating out row already logged 2026-10-21: as a new spend his bank would sit 5,451 above the rows with no money in |
 | 2026-10-23 | balance | 91,998 | Bank | — | his words: "What is in personal account rn is 91998"; no screenshot. Webinar money not counted: 122,526 webinar account + 14,677 Flutterwave (his words) |
+| 2026-10-24 | bulk | 2,000 | Community payment test | Other | his words: "2,000 was sent to test the community payments"; paid into his own Flutterwave, so it sits in the webinar money now; day assumed |
+| 2026-10-24 | bulk | 10,000 | Given to a friend who needs help | Giving | his words: "10,000 was sent for another friend that needs help", "It;s money given"; day assumed |
+| 2026-10-24 | bulk | 12,500 | Eating out | Eating out | his words: "12500 spent on eating out"; day assumed |
+| 2026-10-24 | in | 12,417 | Unexplained: bank above the rows | — | derived; rows give 67,498, he has 79,915; his words: "I honestly don't know". 83 off the 12,500 eating out, so that may not have left this account. His "10,000 was spent yesterday on gf" is the 2026-10-23 row (his words: "I think so"), not logged again |
+| 2026-10-24 | balance | 79,915 | Bank | — | his words: "I have 79,915 in my personal account now"; no screenshot; before the loan and the webinar move below |
+| 2026-10-24 | in | 97,925 | Bank loan | — | his words: "I collected 100k from the bank just now, they gave me 97925, to be paid in a month"; NGN 2,075 kept as fee; 2.95%/month quoted (his words, earlier today); repayment amount and other fees not given ("Not sure") |
+| 2026-10-24 | in | 115,799 | All webinar money moved to personal | — | his words: "I just transfereed all the webinar money to my personal account, 115799 added"; for the Claude 20x upgrade. Webinar account now empty; Flutterwave NGN 86,108 still to settle Monday (his words) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
