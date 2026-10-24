@@ -26,5 +26,6 @@ Append-only. Newest at the bottom.
 - 2026-10-24 — Payer emails on: welcome sent to the first 4 community payers; every new payer now gets one automatically.
 
 - 2026-10-24 — Thank-you email sent to all 78 seat holders (Samuel authorised and ran it); Sheet marked, sent copy checked → [[04-Projects/called-to-edit-landing-page-build|landing page build]].
+- 2026-10-24 — Community: #announcements post sent (Samuel asked): first official call Wednesday 2026-10-28, time and link to follow; resources coming gradually; everyone to talk in #general meanwhile.
 
 Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
