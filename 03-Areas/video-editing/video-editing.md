@@ -33,6 +33,7 @@ Everything else — the brand, HighSignals, the app, the course — is funded by
 
 **How he works — read first**
 - [[ways-of-working]] — node naming, build conventions, the cut-sheet format, how he collaborates, what he has already corrected once. The Phase 4 editing agent is built on this note.
+- [[03-Areas/video-editing/samuel-review-card|Samuel's review card]] — every correction he has given, one line each. Every builder and reviewer works from it; new corrections are added the same session (2026-10-24).
 
 **Solving problems**
 - [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] — driving Resolve and Fusion by script, and why it crashed or hung. Read before scripting

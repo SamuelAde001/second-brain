@@ -55,17 +55,39 @@ Samuel upgraded to Max 20x on 2026-10-24 to edit faster: *"I'm looking for speed
 - **No helper ran on Sonnet** (0 of 7,844 workflow turns), though this map sends mechanical jobs there.
 - **Rework was the biggest loss of time and tokens:** video 2's plan v1 (11 points) and *Visuals v1* (16 points) were rejected on look after being built at scale.
 
-The rules from here (the General Manager's, on Samuel's ask to optimise for 20x):
+**Samuel's order for 20x (2026-10-24):** *"number one, speed... Number two, quality, meaning that it must be able to give me something that I don't need to have problems with eventually. And number three, efficiency... I don't like wastage... And number four, I really need it to be good... and remember things that we've done in the past."* The first version of these rules (same day) leaned on cost; he pushed back on self-review, the pool of 8 and the 4-minute rule. This is the revised set.
 
-1. **No helper waits past its cache.** Every tool call in a helper finishes in under 4 minutes. Renders, Whisper, Resolve caching, stills through Deliver and installs run in the main session, or the helper starts them in the background and checks in slices of 4 minutes or less (`timeout 230 bash -c 'until <done>; do sleep 15; done'`, then check again). No `sleep` or Monitor wait past 4 minutes in a helper.
-2. **Builder-only with self-review is the default.** The builder checks its own work against the job's review card. A fresh reviewer only for hero beats and beats Samuel marked.
-3. **Lean helper type.** Helpers that only read, write files and run scripts start as `editor-builder` (`agentType: 'editor-builder'` in a workflow, profile [[07-Agents/editor-builder/profile|editor-builder]]): six tools instead of the full set. Captures in Chrome, Resolve calls and anything else that needs MCP use the default helper. Its start-up saving is unmeasured: check it with `usage_audit.py` on its first run.
-4. **Short brief, short output.** The brief names the 2-4 files the piece needs, not a reading list. Tool output is counts and paths. One script call does a whole check.
-5. **Images:** one contact sheet per beat, 1280 px wide at most, read once near the end, not single frames one at a time. An image stays in the context and is re-read every turn after it.
-6. **Sonnet for mechanical helpers:** `model: 'sonnet', effort: 'medium'` on install lists, captures from a given URL list, transcript formatting, stills sheets, render and cache babysitting. Planners, builders and anything Samuel judges stay on Opus.
-7. **Look lock before scale.** Samuel approves 3-4 hero frames of a new look before a full plan or a build fans out (the 2026-10-21 route, made standing).
-8. **Pool:** the 5-hour window is about 4x bigger on 20x, so 8 helpers at a time (was 3-5), up to 12 for short steps when the weekly bar has room. The weekly bar is now the limit that runs out: usage card between waves.
-9. **Measure every video:** weekly % at each stage (cut, plan, build, each review round, sound) in the job note, and `usage_audit.py --session <id>` at the end-of-job review. The bar read 0 % right after the upgrade (2026-10-24), so the first full video on 20x gives the real cost per video.
+**What actually limits speed (measured):** helpers worked 97 hours on video 2 and spent about **36 of them asleep**, in `sleep`/`until` loops and lock waits, queuing for the one Resolve to render their frame checks through `lab.py` (one Resolve lock, default wait 15 minutes). More helpers alone make that queue longer, not the video faster.
+
+**Parallel helpers don't cost more tokens.** The same pieces cost the same whether 5 or 14 run at once; running them together only finishes sooner. What costs more is waiting, re-reading and rework. So: as many helpers as there are independent pieces, and no waste.
+
+### 1. Speed
+
+1. **Helpers: up to 14 per workflow** (the cap on his 16-core PC), and two workflows may run at once when the work splits cleanly (building one section while planning the next). No fixed small pool. On 20x the 5-hour window is about 4x bigger: 14 helpers burn it at about the rate 5 did on 5x. The stop is the video's weekly budget, not a pool size.
+2. **Until the render queue exists, at most ~6 helpers render through Resolve at once.** The others take work that doesn't need Resolve: planning, captures, transcripts, generators, SFX and music picks, B-roll. The fix is the **render queue**: one renderer owns Resolve, takes requests from a folder, renders several comps per pass, and builders keep working while it renders. An Editor build job.
+3. **Pipeline, not waves.** Each beat goes build → review → fix the moment its own step is done. Sections install as they finish while later sections build. Nothing waits for a whole wave.
+4. **Never idle-wait.** A helper that would wait sends the render and builds its next beat. If it truly has nothing else, it checks every 4 minutes or less (`timeout 230 bash -c 'until <done>; do sleep 15; done'`, then again). This is how often it looks, not how long it lives: a helper runs as long as its piece needs. Helpers cache for 5 minutes, so one 10-minute wait rewrites the whole context (27 % of helper spend last week). Checking every 4 minutes costs about a twelfth of that and loses no time.
+5. **Look lock before scale.** Samuel approves 3-4 hero frames of a new look before a full plan or build fans out. Two rejected looks cost video 2 about two days.
+6. **Start from the library.** Each video starts from the client's built comps ([[03-Areas/video-editing/clients/frontal-template-library|Frontal template library]] for Alex), harvested at every end-of-job review. They're starting points rebuilt for the line, never swapped-text templates (CD standard rule 12; ways of working, 2026-09-18).
+
+### 2. Quality
+
+7. **Independent review stays** (Samuel was right: *"Builders do not see their own faults"* is the first line of the job's own review card). Every beat gets a fresh reviewer that judges its rendered stills against [[03-Areas/video-editing/samuel-review-card|Samuel's review card]] and the job card, fixes small faults itself, and sends back what's wrong. To keep it fast and lean: one reviewer per 2-4 beats, reading only the cards, the beat records and the stills.
+8. **Section pass.** Before anything reaches Samuel, one Opus reviewer looks at each finished section's stills sheet as a whole: variety, density, flow, the three questions. It catches what a beat-by-beat check can't (the "flat, like AI did it" look).
+9. Builders also check their own work before handing in, and the scripted checks (lint, timing, margins) run on everything.
+
+### 3. Efficiency
+
+10. **Lean helper type** [[07-Agents/editor-builder/profile|editor-builder]] for builders and reviewers (six tools instead of the full set). Captures in Chrome and anything that needs MCP use the default helper. Unmeasured until its first run.
+11. **Short brief:** Samuel's review card, the client's brand note, the beat's record and the kit's API. Not the long notes. Tool output is counts and paths.
+12. **Images:** one contact sheet per beat (1280 px wide at most), read once near the end.
+13. **Sonnet for mechanical helpers:** `model: 'sonnet', effort: 'medium'` on install lists, captures from a given URL list, transcript formatting, stills sheets, cache and render babysitting. Planners, builders and reviewers stay on Opus.
+14. **Budget per video:** weekly % at each stage (cut, plan, build, each review round, sound) in the job note. `usage_audit.py --session <id>` at the end-of-job review. The bar read 0 % right after the upgrade, so the first full video on 20x gives the real cost.
+
+### 4. Memory
+
+15. **[[03-Areas/video-editing/samuel-review-card|Samuel's review card]]** holds every correction he has given, one line each. Every builder and reviewer works from it. When he gives markers or a correction, the Editor adds the rule there in the same session.
+16. **The library** (rule 6) carries what was built and approved. The job note's RESUME blocks carry the state of a job across sessions, and the Editor's memory carries technical lessons.
 
 ## The map
 
