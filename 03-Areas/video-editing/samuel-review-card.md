@@ -33,7 +33,7 @@ Samuel, 2026-10-13: *"Anything I corrected in the last video or in the last prev
 
 ## Look: premium, never flat
 
-- Every box carries his premium chain: static light sweep (narrow, ~0.07), a moving shine as it lands, glow, glass where it fits, solid icons or real logos. Bevel built but switched off (PassThrough). (2026-10-22, 2026-10-23)
+- **No shines by default** (2026-10-24, overrules 2026-10-22): no moving shine or light sweep on boxes, pages or screen recordings. At most one, on one key box, only that box, on its turn, travelling fully off it. Boxes keep glass where it fits, solid icons or real logos; glow only where it means something. Bevel off. (2026-10-22, 2026-10-23, 2026-10-24)
 - Effects are real nodes: NeoGlow, DropShadow, NeoLightSweep, ResolveFX Gaussian Blur. Never a faked glow or shadow box. (2026-09-25, 2026-10-15)
 - Vary fills; neighbouring visuals never share one. No single box style carries a video. Gallery designs are inspiration, never templates. (2026-09-30, 2026-10-15)
 - Boxes are opaque or properly blurred glass; nothing behind reads as a second layer. Shapes in layers, sizes and shades. (CD standard)
@@ -42,6 +42,9 @@ Samuel, 2026-10-13: *"Anything I corrected in the last video or in the last prev
 - Dark base, bright elements on top. Never bright on bright. Darken neutrally with Brightness Contrast, moderately; never a brown or orange backdrop. (CD standard, 2026-10-15)
 
 ## Text
+
+- **All text in Inter** (bold for headlines); Season Serif is out for Alex. Not too big, centred (vertically too), never off screen or touching an edge. Typing is character by character. (2026-10-24)
+- **No boxes everywhere, especially on screen:** text over a screen recording or page has no box. (2026-10-24)
 
 - White, bold, big for a phone; mobile first, fewer words, one or two things on screen. (2026-10-22)
 - Text lands on the words he says (97 % match). No brackets, no dot separators, no filler, numbers as 1, 2 (never 01). One accent word. (2026-10-22, CD standard)
@@ -53,6 +56,8 @@ Samuel, 2026-10-13: *"Anything I corrected in the last video or in the last prev
 
 ## Placement
 
+- **One thing on screen at a time** (2026-10-24). No dark shade over his screen visuals unless it steers the eye to one spot. Desaturate (not red) for "not working"; dim the others rather than a green glow. A company is introduced by its logo and name, no website behind it. (2026-10-24)
+
 - **Nothing directly behind Alex's back.** Any behind-Alex idea needs his yes first. (2026-10-21)
 - **No text at the top of a screen recording or web capture.** Text that goes with a capture is centred, big, in its own visual. (2026-10-21)
 - One focal point; the eye never chases. Labels near the centre, never far corners. Margins kept. Twin cards share one layout. (CD standard, 2026-10-13)
@@ -61,7 +66,7 @@ Samuel, 2026-10-13: *"Anything I corrected in the last video or in the last prev
 
 - Full screen, viewport only: no browser bars, tabs, Windows UI, wallpaper, tilt or floating window. (2026-09-27, 2026-10-13)
 - Real products get their real UI (his Chrome, then vendor screenshots); HTML rebuilds only for what doesn't exist, accurate "down to the last dot". Never copy Alex's own visuals or Tella unless Samuel names them. (2026-09-27, 2026-10-02, 2026-10-13)
-- Three points of focus: zoom out so the page reads as what it is (a post shows its whole card and header), then brighten the area, then highlight the exact words (double highlight). Zoom 1.25-1.3 at most, slow (~18 f), eased. On his own screen recordings: highlight only, no zoom. (2026-09-27, 2026-10-03, 2026-10-15, 2026-10-22)
+- Three points of focus: the page reads as what it is, then the area brightens, then the exact words get highlighted, **all at once, never word by word** (2026-10-24). **Zooms gradual (2026-10-24): open just a little wider than the line (never the whole page, never right on the sentence), then ease in slowly across the beat; never deep, never fast, never jittery; not every page needs one.** On his own screen recordings: highlight only, no zoom. (2026-09-27, 2026-10-03, 2026-10-15, 2026-10-22, 2026-10-24)
 - No motion graphics or text on UI visuals. Never blur what is being said or highlighted. Hide a person with mosaic, not soft blur. (2026-09-27, 2026-10-13)
 - His adjustment clip (animation in + vignette) on every screen recording, page and B-roll. Focus, zoom and darkening go on an adjustment clip above, never in the clip's own comp. (2026-09-27, 2026-10-22)
 
@@ -71,6 +76,8 @@ Samuel, 2026-10-13: *"Anything I corrected in the last video or in the last prev
 - Money is never a bare counter: a box, a subline, the logo. Every readable number is Alex's. (CD standard, REVIEW CARD v3)
 
 ## Motion and timing
+
+- **Slow and smooth beats fast** (2026-10-24): nothing that makes the viewer chase; line charts grow at one constant rate while he speaks; one thing moves at a time; elements animate or fade out. Comps light enough to play back smoothly on his PC.
 
 - Every element in and out with NeoAnim (slide + blur + fade, Expo ease). Smooth Bezier keys. Entrances 16-22 f with a long ease-out, exits 10-14 f, transitions 14 f or more. Never a pop, overshoot, bounce or jitter; never a Transform where NeoAnim does it. (2026-10-03, 2026-10-15)
 - Things land on their word (±3 f), never before it. A visual starts on the word that names it. One element per word, staggered. (2026-10-03, 2026-10-22)
@@ -94,6 +101,7 @@ Samuel, 2026-10-13: *"Anything I corrected in the last video or in the last prev
 
 - Frontal changes fonts, colours and square boxes only; the premium chain, shines, glass, icons and bold white text stay. Square boxes with the Frontal corner brackets on every box, never on text. Bold text is Inter Bold/ExtraBold. (2026-10-20, 2026-10-21, 2026-10-22) Detail: [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2]].
 - "In this video": Alex's frame slides into a circle or slides up. (2026-10-22)
+- "In this video" list: the points written and blurred in numbered square boxes (pill-like), revealed as he names them, as in the first and second Alex intros; method openers reuse it; the intro ends on the "coming up" preview from Alex's first video. (2026-10-24)
 
 ## Sound (last, after he approves the visuals)
 
