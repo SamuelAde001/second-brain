@@ -199,3 +199,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-24: moved the Community webinar offer deadline from Mon 2026-10-26 to Fri 2026-10-30 23:59 WAT (lib.mjs OFFER_ENDS, /community banner + countdown); deployed; live page checked. Sent Samuel the community links.
 - 2026-10-24: Samuel confirmed his own end-to-end test of Community payment and cancel works (Samuel: *"Tested the payment and the cancel, all works"*); logged.
 - 2026-10-24: diagnosed a member's 'no access' error: payer by transfer never linked Discord; permissions fine. Renewals job now flags paid-but-not-joined members daily; deployed.
+- 2026-10-24: built the webinar thank-you email (thank-you.gs, standalone Apps Script; header from Brand kit; PDFs copied to Drive folder 'Called to Edit - Webinar thank-you'); Apps Script creation blocked by auto-mode (account access grant), handed to Samuel.

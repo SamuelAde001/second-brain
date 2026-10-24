@@ -206,3 +206,12 @@ Samuel: *"I want to add some people in the webinar for free, as this are people 
 - **Numbers:** with Anita and Comfort that's 9 free seats, so the Overview's Money in overstates real income by NGN 45,000. Subtract at the month close.
 - Note for next time: curl to the endpoint must not follow the redirect with `-X POST` (Google answers 411); post once, then GET the `Location` for the reply.
 - **Done 17:41 WAT:** the sync's run marked all seven Paid (Ticked by hand), added them to the calendar event and sent each a confirmation email. Read back from the Sheet.
+
+## 2026-10-24 — Thank-you email to every seat holder (Brand manager)
+
+Samuel: *"I want to send an email to all participants of the webinar, telling them all thank you for coming, giving the their pakcages as a gift, that is the E-book and the Workbook, and giving them the full recording which is already sent on my email by google, and then telling them about the community with a link to sign-up, ensure the logo is there"*.
+
+- **Who:** everyone with Paid ticked on Sign-ups: 79 rows, 78 unique emails (paid and the 9 free seats). Meet attendance isn't recorded, so people who paid but missed it get the replay too. Under the 100-a-day email limit.
+- **What:** navy header with the Called to Edit Webinar logo (Brand kit PNG), thanks, the recording (Meet recording in Drive, `150XsEt2…`; the script sets it to anyone-with-the-link, view only), the e-book and the workbook **attached** as PDFs (7.4 MB), then the Community at NGN 2,000 first month until Fri 2026-10-30 23:59 with a button to `/community/webinar`. Signed "Samuel, Founder, Called to Edit".
+- **How:** a separate Apps Script project, so the Sheet's live webhook script is untouched: `Desktop\landing-page\thank-you\thank-you.gs`. `sendTest()` mails Samuel only; `sendAll()` mails every seat holder once and marks "Thank you <time>" in Emails sent, so a re-run only picks up who's left. Files read from Drive folder **Called to Edit - Webinar thank-you** (copied through Google Drive for desktop, G:). Preview: `thank-you\preview.html`, `preview-phone.png`.
+- **Waiting on Samuel:** creating the Apps Script project and its Allow click (Claude Code blocks an agent from granting an app access to his Google account), then the test, then his go for `sendAll`.
