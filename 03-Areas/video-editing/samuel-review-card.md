@@ -2,7 +2,7 @@
 type: sop
 area: video-editing
 status: active
-updated: 2026-10-24
+updated: 2026-10-25
 source: manual
 tags: [review, standard, corrections, helpers]
 ---
@@ -21,6 +21,20 @@ Samuel, 2026-10-13: *"Anything I corrected in the last video or in the last prev
 - The three questions on every visual: is it the best video editors' kind of creative work? would his creative director like it? does it belong on a 10M-follower channel? "Cheap", "flat" and "like AI did it" are the failures. (2026-10-21, 2026-10-22)
 - Keep the standard of the last finals, then do better. A brand never excuses a plain visual: *"use the style and work on it."* (2026-10-21)
 - A fix round touches only what he marked, plus the same correction everywhere else it applies. Don't change what he didn't mark. (2026-10-10, 2026-10-15)
+
+## His pattern: never static, never "AI-edited" (2026-10-25, 73 markers on video 2; overrules anything below)
+
+Samuel, 2026-10-25: *"Nothing just comes on screen randomly. Everything is animated individually and well-timed. But this one, everything is just very static and it feels very AI generated."* Check every beat against these ten before anything else.
+- **P1** Every element animates in on its own, one at a time, on the word that names it (readable 0-3 f after the word, never before it). Lists, logos and companies come in one by one, fast. Nothing lands all at once; no element sits on screen empty waiting for its content.
+- **P2** Every main number Alex says counts up (his Number Counter, Text+ named "Count"), landing on its word.
+- **P3** Main text goes word by word with NeoTextMotion, each word rising from below (PosDir 0 = Up; 3 = Left is the frfx.ntext default and reads as "slides from the left"). Separate word pieces need a real space between them.
+- **P4** No boxes he doesn't need: plain text labels, no "matched by" or initial boxes, no box behind text over Alex.
+- **P5** Never a red strike or cancel line: what failed turns red, what is stuck turns grey/dim.
+- **P6** Never a box animated over a box: change the existing box's colour and swap its logo.
+- **P7** Blur only what must stay hidden (the intro list items revealed later); never blur made-up names or companies.
+- **P8** A chart dot rides its line at every frame; percentages are animated pies with the number counting, growth is a bar chart.
+- **P9** Pages zoom to what is being highlighted (not so close the text crowds the edge); small stats are pills at the bottom, not full screen.
+- **P10** Every page, screen recording and B-roll gets his media adjustment clip (slide 0.021 + blur in). Chapter returns are bottom pills, not the intro list again.
 
 ## Show, don't tell
 
