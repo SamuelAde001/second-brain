@@ -110,3 +110,4 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 - 2026-10-22 20:50 — night-plan (cloud): check sent for 2026-10-22, plan for Fri 2026-10-23 proposed (webinar day); waiting on his answer, nothing written to TickTick.
 - 2026-10-23 20:50 — night-plan (cloud): check sent during the webinar (nothing ticked, gym 0/3), Sat 2026-10-24 proposed (video 2 review, phone Obsidian, gym); 5 questions waiting, nothing written to TickTick.
 - 2026-10-24 20:50 — night-plan (cloud): check sent for Sat 2026-10-24 (nothing ticked, gym 0/3 for the week), Sun 2026-10-25 proposed (weekly session 3pm, video 2 final 5pm); 5 questions waiting, nothing written to TickTick.
+- 2026-10-25 20:50 — night-plan (cloud): check sent for Sun 2026-10-25 (video 2 render and send not ticked, gym 1 of 3 for last week), Mon 2026-10-26 proposed (video 2 send 7am, personal client kickoff, content 3pm, gym Tue/Thu/Sat); 7 questions waiting, nothing written to TickTick.
