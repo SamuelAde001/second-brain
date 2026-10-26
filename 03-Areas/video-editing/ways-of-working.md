@@ -382,3 +382,10 @@ Notes and the revision plan: video 2's job folder, `Docs/Visual plan v1 (Editor)
 13. **The "in this video" list** is done the way the first and second Alex intros did it: the points written, blurred, in numbered boxes (pill-like, square), revealed as he names them; the method openers in the body reuse it. **The intro ends with the "coming up" preview** from Alex's first video.
 14. **Playback must be smooth:** comps light enough for his computer; heavy visuals are a fault (*"this visual is too intensive on the computer"*).
 15. Compare every version with the videos the creative director approved before he sees it. *"This does not look like any of those videos that the creative director reviewed and said it was good."*
+
+## Samuel + Route Rise's creative director, 2026-10-26 (21 Frame.io notes on video 2 v6)
+
+Samuel: *"So anything that he said and you think can be applied in other places, let's apply it, right? I don't want us redoing this video from scratch ... some of these corrections should also be things that we'll implement in the next video."* The CD's notes, the context read from the stills, and the fix for each: video 2's `Docs\Revision 5 CD corrections (Editor)\CD corrections on v6.md`. The rules they add are C1-C10 on [[03-Areas/video-editing/samuel-review-card|the review card]]: lighting tricks on every page and UI, darker behind all text, ~1.5 s to read a landed card, never more on screen than the viewer can take in, the read spot centred, lower thirds low, no small text over footage, gentle transitions, every number as Alex says it (checked on the audio), chart labels that span what they name.
+- **Sound goes back to the first videos** (Samuel: *"the sound effects I used initially in the first two or three videos that we have worked on are the ones that are best. I don't use the sound effect of the last video"*). Replaces the 2026-10-16 rule. Detail: [[routerise-house-style]] §8 → Changed back 2026-10-26.
+- **Numbers inside a sentence are plain text**; hero numbers on their own still count up (his pick, 2026-10-26).
+- **He watches a client version before it goes to Frame.io** (his pick, 2026-10-26, for video 2 V2).

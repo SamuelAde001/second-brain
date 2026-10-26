@@ -26,7 +26,7 @@ Samuel, 2026-10-13: *"Anything I corrected in the last video or in the last prev
 
 Samuel, 2026-10-25: *"Nothing just comes on screen randomly. Everything is animated individually and well-timed. But this one, everything is just very static and it feels very AI generated."* Check every beat against these ten before anything else.
 - **P1** Every element animates in on its own, one at a time, on the word that names it (readable 0-3 f after the word, never before it). Lists, logos and companies come in one by one, fast. Nothing lands all at once; no element sits on screen empty waiting for its content.
-- **P2** Every main number Alex says counts up (his Number Counter, Text+ named "Count"), landing on its word.
+- **P2** Every main number Alex says counts up (his Number Counter, Text+ named "Count"), landing on its word. **Except a number inside a sentence or title: plain text, rising in like the other words** (CD on video 2 v6, *"why was the 1m a money counter just do normal text"*; Samuel, 2026-10-26: numbers inside a sentence plain, hero numbers on their own still count).
 - **P3** Main text goes word by word with NeoTextMotion, each word rising from below (PosDir 0 = Up; 3 = Left is the frfx.ntext default and reads as "slides from the left"). Separate word pieces need a real space between them.
 - **P4** No boxes he doesn't need: plain text labels, no "matched by" or initial boxes, no box behind text over Alex.
 - **P5** Never a red strike or cancel line: what failed turns red, what is stuck turns grey/dim.
@@ -35,6 +35,19 @@ Samuel, 2026-10-25: *"Nothing just comes on screen randomly. Everything is anima
 - **P8** A chart dot rides its line at every frame; percentages are animated pies with the number counting, growth is a bar chart.
 - **P9** Pages zoom to what is being highlighted (not so close the text crowds the edge); small stats are pills at the bottom, not full screen.
 - **P10** Every page, screen recording and B-roll gets his media adjustment clip (slide 0.021 + blur in). Chapter returns are bottom pills, not the intro list again.
+
+## Route Rise's creative director on video 2 v6 (2026-10-26, 21 Frame.io notes; Samuel: apply everywhere it fits, and on the next videos)
+
+- **C1 Lighting tricks on every page and UI:** the eye goes to one spot because everything else is darker and that spot is lit. A flat white page or dashboard with a pill on it is "lacking lighting tricks". (#2, #11, #16)
+- **C2 Darker behind all text** over footage and pages, the whole video. (#10)
+- **C3 Time to read:** a card's last element is on screen fully landed for at least ~1.5 s before the cut. (#3 "never did was too fast")
+- **C4 Not too much at once:** a frame the viewer can't take in before it changes is wrong; slow the beat down, fewer elements, longer hold. (#11, #12)
+- **C5 The thing being read sits in the centre** of the frame, not at the top. (#2)
+- **C6 Lower thirds sit low** (bottom band), still centred and big, never on his chest. (#7)
+- **C7 No small text over footage:** small mono caps labels are unreadable on a phone. (#19, #21)
+- **C8 Transitions gentle:** no fast fly-off stacked on a jump cut. (#8)
+- **C9 Every on-screen number is the number Alex says**, checked against the audio, not the transcript alone (he said 700, the screen said 1,700). On-screen wording follows the script when the transcript is unsure. (#15, #17)
+- **C10 Facts on charts hold up:** a label spans exactly what it names (the "7 years" bracket covers the whole 7 years). (#1)
 
 ## Show, don't tell
 
@@ -120,7 +133,9 @@ Samuel, 2026-10-25: *"Nothing just comes on screen randomly. Everything is anima
 ## Sound (last, after he approves the visuals)
 
 - Music: a new song per major segment and chapter, changed in a gap, never the same song twice in a video; the last video's music in its order. (2026-10-16, CD standard)
-- Every animated item gets its own low, varied hit; vary his beeps; whooshes only where something moves; more SFX in the hook. Ching on money, riser before a reveal. (2026-10-16, CD standard)
+- ~~Every animated item gets its own low, varied hit; vary his beeps~~ (2026-10-16, **superseded 2026-10-26**).
+- **SFX = the first videos' sound design (2026-10-26, overrules 2026-10-16).** Samuel: *"the sound effects I used initially in the first two or three videos that we have worked on are the ones that are best. I don't use the sound effect of the last video."* The creative director on video 2 v6: *"didnt like the techno style SFXs ... too many in a row"*, *"random sfx?"*, *"can u remove that clack sound"*, *"too dramatic ... sfx volume or BG song not loud compared"*. Model = his delivered #3 (122 SFX in 9.9 min from 9 files) and the $7M Cold Outreach reference: a small palette reused (UI Double Beep 03 at -43 to -48 dB, Arpeggiated UI Beep 03, Multiple UI Beeps 01, Swoosh_03, Camera_01 on photo cuts, Mouse Click (5) on UI clicks, ES_Low Hit + one riser only at big reveals), about a third of reveals get a sound, never a run of beeps, no sub drops, no cash registers or money counters, no "techno" data sounds as filler. Detail: [[routerise-house-style]] §8.
+- Music never drops under him: no song breakdown or near-silent stretch inside a cue; the SFX never sits louder than the song. (CD, 2026-10-26)
 - Finished means render-ready. Cache the whole timeline before his review. (2026-10-14, 2026-10-16)
 - **2026-10-26 (video 4 plan, hero EN-04 "10-80-10"): plain boxes in a row read as AI-made.** Samuel: *"I don't like the design of the boxes for the 80% part, we have done something like this before, use that style just with the new branding ... don't let things look like it is AI, be creative and look at our past videos ... crosscheck your design with the top videos in my company and just fit new design concepts with the clients brand style, don't let me say this video is trash"*. Before designing any process/split/percentage graphic, find the construct his past finals already used for the same idea and re-skin it in the client's brand; cross-check against the creative director breakdowns (top videos). A row of equal labelled boxes with icons is never the answer.
 

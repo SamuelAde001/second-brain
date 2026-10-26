@@ -265,3 +265,15 @@ Samuel, ~01:00 WAT, by voice before bed: resume the video *"from beginning to th
 - **22:29: v6 cleared to Samuel.** `renders/v6 final (Editor)/v6_final.mp4` (11:10, 1080p, 16076 frames, 0 offline, audio exact, -22.2 LUFS, TP -1.6). He sends it to his creative director himself. Older chunks and joins in `_superseded_2120` / `_superseded_2218`.
 - Judgment calls left as they are (not faults): ST-07b caption; BD-02a percentages without pies; P1-08 title says 'the' where Alex says 'their'; CL-01/ST-01/HL-01 lower thirds; P1-14 green word; shine count; P4-07 '+82%'.
 - **Next:** wait for the creative director's response; then end-of-job (delivered row, review incl. review card + cost step, archive).
+
+## Revision 5, 2026-10-26 17:00 onward (Editor): the creative director's 21 Frame.io notes on v6 -> V2 (4K)
+
+- Samuel, 2026-10-26 ~16:55: CD corrections are on Frame.io (share link in his message, asset `v6_final.mp4`). He did #5 himself (Alex's mic): **Voice Isolation 44 on track A1** of *Visuals v4 (Editor)*, nothing else (his answer). Everything else is ours, on the existing build, not from scratch: *"we are working on what we've already built"*. Then render 4K and send it as V2; **he watches V2 before it goes to Frame.io** (his answer).
+- The 21 notes, what each points at and the fix: job `Docs\Revision 5 CD corrections (Editor)\CD corrections on v6.md`. Beats: HK-02 (7-years bracket), HK-05 (article title centred + lighting), HK-08 (hold "Never did"), SY-08b ($1M plain word), SY-10 (lower third lower), SY-13 (gentler slide-up), CL-06 + all text over footage (darker), P1-09/P1-09b (slower, lighting, fewer elements), P3-11 ("who they sell to"), P3-13 (dialer lighting), P4-14 (**Alex says 700**, re-transcribed with medium.en: screen said 1,700+), ST-01 (readable), OU-02 (text), music: ES_A Pinpoint of Light breaks down ~5 dB at song 64-72 s = timeline 10444-10636 (#18).
+- Samuel's answers (2026-10-26): sound = the first videos' palette and density (#3 delivered: 122 SFX / 9.9 min / 9 files); numbers inside a sentence plain, hero numbers still count.
+- Rules written to the review card (C1-C10, P2 exception, Sound), house style §8 and ways of working the same session. Video 4 (Cold Email Goldrush) takes the same rules before its builds (its restart order).
+
+### RESUME (Editor), 2026-10-26 17:40
+- Context: weekly 71 % (resets Wed 2026-10-28 23:00 WAT), 5-hour 24 %. Session context 330k.
+- Scratch: `scratchpad\cd\` (tl_v4.json dump of the timeline as Samuel left it, ops.json beat map, sheets of every note).
+- **Next:** workflow: per-beat fixes (fixer + fresh checker, lab stills) + sweeps for C1-C10 across all 139 beats + sound planner in the #3 style + music fix; then rebuild *Visuals v4 (Editor)* (changed manifests), **re-apply Voice Isolation 44 on A1**, place sound, render 4K chunks, seam, check every note on the render, send Samuel the file.
