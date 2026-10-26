@@ -244,6 +244,10 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-26 | bulk | 5,100 | Cash withdrawn to keep on hand | Extra cash | his words: "5100 withdrawn to have cash on hand"; day assumed; line is a guess; whatever the cash buys is not logged again |
 | 2026-10-26 | bulk | 11,900 | Eating out | Eating out | his words: "11900 spent on eating out"; day assumed |
 | 2026-10-26 | in | 68,495 | Flutterwave webinar settlement to personal | — | his words: "I just recived 68,495 from flutter wave to my personal account"; NGN 28,376 still in Flutterwave, not landed yet (his words) |
+| 2026-10-26 | correction | — | 2026-10-24 in 12,417 "Unexplained: bank above the rows": it was the 2026-10-24 Eating out 12,500, not yet cleared when he gave 79,915 | — | his words: "It left my account late actaully". Reversed by the row below; Eating out stays logged once |
+| 2026-10-26 | in | -12,417 | Reverses 2026-10-24 unexplained in (the 12,500 eating out cleared late) | — | reverses the 2026-10-24 Unexplained row |
+| 2026-10-26 | bulk | 939 | Minor spends 2026-10-24 to 2026-10-26 | Other | derived; rows give 89,713, he has 88,774; likely transfer and POS charges (incl. the 5,100 cash withdrawal) |
+| 2026-10-26 | balance | 88,774 | Bank | — | his words: "I actually have 88,774 in my bank right now"; no screenshot. Webinar money not counted: NGN 28,376 still in Flutterwave (his words) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
