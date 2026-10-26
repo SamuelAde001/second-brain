@@ -18,6 +18,8 @@ For Ifeoma (Ivisuals), creative director. Samuel, 2026-10-26: you *"can ask bran
 3. Start with *"I'm Ifeoma"* or *"Ivisuals here"*, then your question. The reply starts with **[Brand manager]**.
 4. Start your own session. Don't type into a session you didn't start: those are Samuel's, often mid-job on client work.
 
+It runs in the cloud. Nothing to install, and Samuel's PC doesn't need to be on: each session works on a fresh copy of the Brain from GitHub and saves back to it when it ends. Files that live only on Samuel's PC (his photos, footage, design files, the brand kit PDF) can't be reached from here. Ask him for those.
+
 ## What to ask it
 
 - **Brand questions:** Samuel's voice and non-negotiables, his audience, what has performed, the Called to Edit brand guide (colours, fonts, logo use), past content plans.
