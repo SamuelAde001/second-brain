@@ -3,7 +3,7 @@ type: sop
 area: video-editing
 status: active
 source: claude-export
-updated: 2026-10-06
+updated: 2026-10-26
 tags: [sop, routerise]
 ---
 
@@ -111,7 +111,7 @@ tags: [sop, routerise]
    - Samuel's final sectioning splits talk from demo: Hook Yellow · Clay Blue · Clay demo Green · Railway Purple · Railway demo Brown · Mid-CTA Pink · Claude Teal · Wispr Flow Pink · Wispr Flow demo Green · Together Tan · Outro Violet. No markers left on the final.
 
 ### 5. Uhms, pauses and in-clip retakes (tooling built 2026-10-06, AI B2B Marketing)
-1. `python 03-Areas/video-editing/scripts/uhm_transcribe.py "<per-clip WAV folder>" "<working>\whisper_words.json" <kept clip names>`: faster-whisper small.en on the CPU with a prompt full of fillers, so it writes the "uh"s Resolve drops. About 6 s a clip while Resolve is open. Installed with pip `--user` on Samuel's yes; its own decoder breaks on PyAV 19, so the script decodes with ffmpeg.
+1. `python 03-Areas/video-editing/scripts/uhm_transcribe.py "<per-clip WAV folder>" "<working>\whisper_words.json" <kept clip names>`: faster-whisper small.en on the CPU with a prompt full of fillers, so it writes the "uh"s Resolve drops. About 6 s a clip while Resolve is open. **Add `--cuda`** to run it on the GPU: 259 clips in 90 s (Cold Email Goldrush, 2026-10-26). Installed with pip `--user` on Samuel's yes; its own decoder breaks on PyAV 19, so the script decodes with ffmpeg.
 2. `python 03-Areas/video-editing/scripts/uhm_find.py "<working>" "<per-clip WAV folder>"` reads `v2_clips.json`, the cut list, the word times and `manual_trims.json` (in-clip retakes decided by hand, in seconds) and writes `trims.json`, timeline frames on the cut. It prints REPEAT lines (a word run said twice in one clip) to decide by hand, and SKIPs any head/tail/pause span loud enough to be a word Whisper missed. Single-word stutters ("the, the, the") aren't caught: read the text. **Add `--tight`** for Samuel's own trim depth (his LinkedIn diff, 2026-10-12): tails ~2-3 f after the last word, pauses over 0.5 s cut to ~0.22 s. **Re-check every mid-filler before lifting it**: the filler prompt makes Whisper write real words as "uh" (Claude 10,000 SaaS, 2026-10-19: "But uh, not" was "But they are not"). Re-transcribe that clip without the prompt and drop the trim if words come back.
 3. **Applying the trims, no blade in the API.** On a duplicate timeline, in the GUI: click the empty timeline area, Ctrl+Shift+A, then per trim type the In timecode (8 digits) + Enter, `i`, the Out timecode + Enter, `o`, **Backspace**. Backspace lifts the In/Out range and leaves a gap, so no position moves and the whole list goes in any order (12 trims per keyboard batch). Shift+Backspace does nothing on a marked range. Waits: 0.3 s after each Enter, 0.15 s after `i`/`o`; without them about 1 in 12 Out timecodes got dropped (a 1-frame lift). Check the gaps against the plan by script, redo any short one, then Ctrl+A → Edit > Delete Gaps (greyed out until something is selected). Verify: no gaps, V1/A1 starts and durations equal, every clip's camera-minus-mic source offset unchanged.
 4. On AI B2B Marketing (Alex reading a teleprompter) there was almost nothing to find: 1 "uh", 33 loose tails, 4 heads, 4 long pauses, 5 in-clip retakes and 2 stutters by hand, 50 trims, 29.5 s.

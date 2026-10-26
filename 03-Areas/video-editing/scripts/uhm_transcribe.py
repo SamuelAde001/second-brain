@@ -3,9 +3,10 @@
 Resolve's transcription drops "uh"/"um". faster-whisper keeps them when the initial
 prompt is itself full of fillers. Writes one JSON: {clip_name: [[start_s, end_s, word], ...]}.
 
-    python uhm_transcribe.py <wav_folder> <out.json> [name1 name2 ...]
+    python uhm_transcribe.py <wav_folder> <out.json> [name1 name2 ...] [--cuda]
 
-Model: small.en on the CPU (int8), installed 2026-10-06 with Samuel's yes.
+Model: small.en on the CPU (int8), installed 2026-10-06 with Samuel's yes. --cuda runs it on the
+GPU in float16 (added 2026-10-26, Cold Email Goldrush).
 """
 import glob, json, os, shutil, subprocess, sys, time
 import numpy as np
@@ -23,10 +24,19 @@ def load(path):
 PROMPT = "Umm, so, uh, I mean, like, uh, you know. Hmm, so we, um, we start with the, uh, the list."
 
 def main():
-    folder, out = sys.argv[1], sys.argv[2]
-    names = sys.argv[3:] or sorted(f[:-4] for f in os.listdir(folder) if f.endswith(".wav"))
+    args = sys.argv[1:]
+    cuda = "--cuda" in args  # GPU (RTX 3060): the pip nvidia-cublas/cudnn bins must be findable (added below)
+    if cuda:
+        args.remove("--cuda")
+        import site
+        for p in site.getsitepackages() + [site.getusersitepackages()]:
+            for b in glob.glob(os.path.join(p, "nvidia", "*", "bin")):
+                os.add_dll_directory(b); os.environ["PATH"] = b + os.pathsep + os.environ["PATH"]
+    folder, out = args[0], args[1]
+    names = args[2:] or sorted(f[:-4] for f in os.listdir(folder) if f.endswith(".wav"))
     done = json.load(open(out, encoding="utf-8")) if os.path.exists(out) else {}
-    model = WhisperModel("small.en", device="cpu", compute_type="int8")
+    model = WhisperModel("small.en", device="cuda", compute_type="float16") if cuda else \
+        WhisperModel("small.en", device="cpu", compute_type="int8")
     t0 = time.time()
     for n, name in enumerate(names):
         if name in done:
