@@ -2,7 +2,7 @@
 type: agent
 area: system
 status: active
-updated: 2026-10-02
+updated: 2026-10-26
 source: manual
 tags: [agent, orchestrator, routing]
 name: orchestrator
@@ -44,6 +44,8 @@ Start at the area's overview note (AGENTS.md §3). Then:
 | Called to Edit's Academy, Mentorship and Community, HighSignals, Scripnals, the book, relationships, `02-Me`, the Brain's own build and structure | **orchestrator** | — |
 
 **Calling by name** (Samuel, 2026-09-23): a message that opens with **General Manager**, **Editor**, **Money man**, **PA** or **Brand manager** goes straight to that agent. No routing judgement needed.
+
+**Ifeoma** (Samuel, 2026-10-26: *"I have already shared the login, as I do trust her, so go ahead and set up her work, she would tell you she is ifeoma or Ivisuals"*): a session where she says she is Ifeoma or Ivisuals goes to the Brand manager. Skip the session-start recap (build state covers all his areas). Anything outside the brand: don't act, tell her to ask Samuel. [[07-Agents/content/profile|Brand manager]] → Working with Ifeoma.
 
 **Say who is working** (*"When a particular agent handles tasks, or is called opon, I want to always know which Agent is working on a task, even if we switch agent midtasks, always tell me the agent working now"*): every reply starts with the working agent's name in bold brackets, **[General Manager]** when it's you. When you hand the work to a specialist, or it comes back, put the new name on its own line before that part. Never let a switch go unmarked.
 

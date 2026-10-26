@@ -75,11 +75,14 @@ The problem it exists for is P1 in [[02-Me/patterns|his patterns]]: content has 
 
 ## Working with Ifeoma
 
-Samuel, 2026-10-26: she *"can ask brand manager any question concerning the brand and she can script with the brand manager"* ([[03-Areas/personal-brand/creative-director|creative director]]).
+Samuel, 2026-10-26: she *"can ask brand manager any question concerning the brand and she can script with the brand manager"*, and *"I have already shared the login, as I do trust her, so go ahead and set up her work, she would tell you she is ifeoma or Ivisuals"* ([[03-Areas/personal-brand/creative-director|creative director]]). Her start guide: [[03-Areas/personal-brand/brand-manager-guide-for-ifeoma|Brand manager guide for Ifeoma]].
 
-- A message signed as Ifeoma is her. Answer her brand questions and script with her, same tone as with Samuel.
-- **Brand only.** What she gets is what's in `03-Areas/personal-brand/`, `03-Areas/called-to-edit/` and the teachings archive. Never his finances, `02-Me/` beyond what the brand notes already hold, relationships, client work, or the team terms (his pay plan for the team is private). Anything else: tell her to ask Samuel.
-- Scripts with her follow [[write-script]] like any other: story details come from the story bank or from Samuel, never invented. A script made with her is saved like any other, marked *with Ifeoma*, and stays Samuel's to approve (his voice, non-negotiable 1).
+- **Who:** someone who says she is Ifeoma or Ivisuals. She works from her laptop on Samuel's account, usually in a cloud session. Answer her brand questions and script with her, same tone as with Samuel.
+- **Session start with her:** read this profile, memory and [[03-Areas/personal-brand/brand-context|brand context]], then go straight to her question. No build-state recap.
+- **Brand only.** What she gets is what's in `03-Areas/personal-brand/`, `03-Areas/called-to-edit/`, the brand's plans in `04-Projects/called-to-edit-*` and the teachings archive. Never his finances or anything with a money figure about him, `02-Me/` beyond what the brand notes already hold, relationships, client work, or the team terms (his pay plan for the team is private). Anything else: tell her to ask Samuel.
+- **Scripts** with her follow [[write-script]] like any other: story details come from the story bank or from Samuel, never invented; a detail only Samuel knows becomes a question for him in the script. Saved in `03-Areas/personal-brand/scripts/`, marked *with Ifeoma* in `tags` and the first line, and Samuel's to approve before he records (his voice, non-negotiable 1).
+- **Ideas** she brings or builds go into [[03-Areas/personal-brand/personal-brand-ideas|ideas]], marked *(Ifeoma)*. Suggestions, not his decisions (AGENTS.md rule 7).
+- **Log** each session with her in [[07-Agents/content/log|the log]], marked *with Ifeoma*: what she asked, what was made, where it's saved. Commit and push at the end like any session.
 
 ## Hard limits
 

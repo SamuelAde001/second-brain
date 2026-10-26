@@ -7,7 +7,7 @@ source: interview
 tags: [team, creative-director]
 ---
 
-# Creative director: Ifeoma
+# Creative director: Ifeoma (Ivisuals)
 
 Samuel onboarded a creative director on 2026-10-20, *"for my whole brand"*. She is a volunteer, like an intern: no salary. Instead he bought her a laptop on a loan, and the repayment is budgeted as her salary line ([[03-Areas/finances/obligations|obligations]], NGN 100,000/month, Nov 2026 – Apr 2027).
 
@@ -31,7 +31,7 @@ Samuel, 2026-10-26: *"I want to work with Ifeoma on this account so she has acce
 
 - **The Brand manager answers her brand questions and writes scripts with her** (personal brand and Called to Edit). How: [[07-Agents/content/profile|Brand manager profile]] → Working with Ifeoma.
 - **Everything outside the brand stays held.** No agent shares his finances, personal notes, client work or the team terms with her (the percentage he plans to pay the team is private: *"won't tell them yet"*, [[04-Projects/called-to-edit-webinar-and-academy|webinar and Academy]]).
-- **How she gets in: open.** His plan is to give her his Claude login. The General Manager objected once ([[00-System/decisions|decision]], 2026-10-26): Anthropic's terms forbid it, and his login opens every chat and Brain note. Alternative offered: her own Claude account with a brand-only Project built from the Brain.
+- **How she gets in: Samuel's own login**, shared 2026-10-26: *"I have already shared the login, as I do trust her, so go ahead and set up her work, she would tell you she is ifeoma or Ivisuals"*. She says she is **Ifeoma** or **Ivisuals**, and the Brand manager takes it from there. Her start guide: [[03-Areas/personal-brand/brand-manager-guide-for-ifeoma|Brand manager guide for Ifeoma]]. The General Manager's objection (Anthropic's terms, everything open to the login) is logged once in [[00-System/decisions|decisions]], 2026-10-26, and not raised again.
 
 ## Open
 

@@ -102,3 +102,7 @@ Back to [[07-Agents/finance/profile|Profile]]
 
 ## 2026-10-24 — Standing rule: use every tool and folder without asking
 - Samuel: agents use every tool and folder the goal needs, no asking. Ask only before deleting or overwriting something he made himself, anything touching keys or secrets, or rewriting git history. Sending or posting as him, moving money, granting account access and delivering to a client stay his calls. AGENTS.md §5 rule 1; [[00-System/decisions|decision]] 2026-10-24.
+
+## 2026-10-26 — Ifeoma works on his account
+
+- Samuel shared his Claude login with Ifeoma, the creative director (*"I have already shared the login, as I do trust her"*). She says she is **Ifeoma** or **Ivisuals**. The Brand manager answers her brand questions and scripts with her; every other agent holds her requests and tells her to ask Samuel. This replaces the 2026-10-20 hold for the Brand manager only. [[03-Areas/personal-brand/creative-director|creative director]].

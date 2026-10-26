@@ -194,3 +194,7 @@ Back to [[07-Agents/content/profile|Profile]]
 - Teachings live in `05-Knowledge/teachings/` (since 2026-10-24). New teachings from calls, classes or voice notes go into the matching topic note, dated and sourced; the bot picks them up on the next site deploy.
 - Google Meet recordings are view-only for anyone but the owner (download blocked); Samuel's own OBS recording of a session has the attendees' audio too and is the better source.
 - Whisper on this PC: `faster-whisper` + model `mobiuslabsgmbh/faster-whisper-large-v3-turbo` (cached). GPU needs the cuBLAS/cuDNN bin folders from the user site-packages (`...\Python314\site-packages\nvidia\cublas\bin`, `...\cudnn\bin`) on PATH; run with `python -P` (not `-I`, which hides user packages). PyAV here breaks faster-whisper's decoder: extract 16 kHz mono WAV with ffmpeg and pass it as a numpy array. 3.5 h of audio ≈ 6.5 min on the 3060; on CPU ≈ 80 min.
+
+## 2026-10-26 — Ifeoma works on his account
+
+- Samuel shared his Claude login with Ifeoma, the creative director (*"I have already shared the login, as I do trust her"*). She says she is **Ifeoma** or **Ivisuals**. The Brand manager answers her brand questions and scripts with her; every other agent holds her requests and tells her to ask Samuel. This replaces the 2026-10-20 hold for the Brand manager only. [[03-Areas/personal-brand/creative-director|creative director]].

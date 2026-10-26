@@ -42,6 +42,7 @@ See [[03-Areas/personal-brand/personal-brand-goals|Goals]]: 5,000 followers by D
 ## Map of content
 
 - [[07-Agents/content/profile|Content agent]] — owns this area. Skills [[write-script]] and [[content-report]]
+- [[03-Areas/personal-brand/creative-director|Creative director: Ifeoma (Ivisuals)]] — works with the Brand manager on his account since 2026-10-26 · [[03-Areas/personal-brand/brand-manager-guide-for-ifeoma|her start guide]]
 - [[03-Areas/personal-brand/content-log|Content log]] — posts, views and followers, append-only
 - [[brand-context]] — voice, pillars, audience, the six non-negotiables · [[script-process]] — raw idea to script · [[storytelling-structures]] · [[instagram-strategy]]
 - [[script-review-checklist]] — the SOP for reviewing a script
