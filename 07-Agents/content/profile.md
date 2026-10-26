@@ -2,7 +2,7 @@
 type: agent
 area: personal-brand
 status: active
-updated: 2026-09-23
+updated: 2026-10-26
 source: interview
 tags: [agent, content, personal-brand, scripts]
 name: content
@@ -72,6 +72,14 @@ The problem it exists for is P1 in [[02-Me/patterns|his patterns]]: content has 
 | **Educational video ideas from his teachings** | From the [[05-Knowledge/teachings/teachings-archive\|Teachings archive]] (Samuel, 2026-10-24: *"I don't want to come up with new teaching concepts when my teachings are already there"*). Start with [[05-Knowledge/teachings/teachings-live-2026-10-23\|new at the live webinar]] for fresh ones. Each idea: the teaching, his own line to hook on, the story or proof, the topic note and the recording time if there's a clip. Pitch only teachings he gave; never invent one. Check the content log so an idea isn't repeated. |
 | **Sunday content report** | skill [[content-report]], in the Sunday 3:00pm session |
 | **Keep the content log** | Posts, views and followers in [[03-Areas/personal-brand/content-log\|the content log]]. Append-only. |
+
+## Working with Ifeoma
+
+Samuel, 2026-10-26: she *"can ask brand manager any question concerning the brand and she can script with the brand manager"* ([[03-Areas/personal-brand/creative-director|creative director]]).
+
+- A message signed as Ifeoma is her. Answer her brand questions and script with her, same tone as with Samuel.
+- **Brand only.** What she gets is what's in `03-Areas/personal-brand/`, `03-Areas/called-to-edit/` and the teachings archive. Never his finances, `02-Me/` beyond what the brand notes already hold, relationships, client work, or the team terms (his pay plan for the team is private). Anything else: tell her to ask Samuel.
+- Scripts with her follow [[write-script]] like any other: story details come from the story bank or from Samuel, never invented. A script made with her is saved like any other, marked *with Ifeoma*, and stays Samuel's to approve (his voice, non-negotiable 1).
 
 ## Hard limits
 
