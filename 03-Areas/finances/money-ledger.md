@@ -240,6 +240,10 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-24 | in | 97,925 | Bank loan | — | his words: "I collected 100k from the bank just now, they gave me 97925, to be paid in a month"; NGN 2,075 kept as fee; 2.95%/month quoted (his words, earlier today); repayment amount and other fees not given ("Not sure") |
 | 2026-10-24 | in | 115,799 | All webinar money moved to personal | — | his words: "I just transfereed all the webinar money to my personal account, 115799 added"; for the Claude 20x upgrade. Webinar account now empty; Flutterwave NGN 86,108 still to settle Monday (his words) |
 | 2026-10-24 | bulk | 232,804 | Claude Max 20x upgrade, USD 169.73 | Claude Max 20x upgrade (USD 169.73, next bill ~2026-11-24, estimate) | his words: "I paid with my main bank card, they charged, 232,804"; about NGN 1,371.6/USD, NGN 5,536 above the Cleva-rate estimate |
+| 2026-10-25 | bulk | 10,200 | Transport | Transport | his words: "10,200 spent on transport yesterday" |
+| 2026-10-26 | bulk | 5,100 | Cash withdrawn to keep on hand | Extra cash | his words: "5100 withdrawn to have cash on hand"; day assumed; line is a guess; whatever the cash buys is not logged again |
+| 2026-10-26 | bulk | 11,900 | Eating out | Eating out | his words: "11900 spent on eating out"; day assumed |
+| 2026-10-26 | in | 68,495 | Flutterwave webinar settlement to personal | — | his words: "I just recived 68,495 from flutter wave to my personal account"; NGN 28,376 still in Flutterwave, not landed yet (his words) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
