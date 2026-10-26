@@ -70,19 +70,27 @@ LAYOUT = [
         ("feedback", FORUM, "rw", None),
         ("resources", FORUM, "rw", None),
         ("opportunities", TEXT, "rw", "Gigs, client leads, jobs and collabs. Too busy for a job? Pass it on here."),
-        ("help", TEXT, "rw", "Stuck on anything? Ask here. CapCut, DaVinci Resolve, Premiere Pro, outreach and pricing have their own channels."),
+        ("help", TEXT, "rw", "Stuck on anything? Ask here. Personal brand, outreach, pricing, editing and each editing app also have their own channels."),
     ]),
     # Samuel, 2026-10-26: "capcut should have it's own channel, Davinci should have it's own channel, so they can
     # talk about specific topics, even outreach should have it's own channel". The #resources posts stay as the archive.
+    # Samuel, 2026-10-26: "one of my main approach of teaching for them to get clients is, a strong personal brand
+    # + A great value first outreach system + Great skills". One category per part, in his order.
     # {name} in a topic becomes a link to that channel.
-    ("SOFTWARE", [
+    ("PERSONAL BRAND", [
+        ("personal-brand", TEXT, "rw", "Getting seen: what to post, your story, showing your face, which platform, posting 2-3 times a day. Samuel's mix: 40% authentic, 40% authority, 20% sales. Ask, and share what's working."),
+        ("profile-and-portfolio", TEXT, "rw", "Your page is where clients decide: your face, name and what you do, a bio that's your offer (I help who get what result in what time through how), your best edit pinned, your portfolio link. Want a review? Post it in {feedback}."),
+        ("share-your-posts", TEXT, "rw", "Posted today? Drop the link and back each other: watch, like, comment, repost. Your editing content only, and no selling to members (rule 4)."),
+    ]),
+    ("OUTREACH", [
+        ("outreach", TEXT, "rw", "Value-first outreach: a free edit of 30 seconds or less of their video, Loom walkthroughs, cold DMs and emails, warm-ups, follow-ups. Share what worked and what didn't. Want eyes on your message? Post it in {feedback}."),
+        ("pricing-and-clients", TEXT, "rw", "What to charge, packages, invoices, getting paid from abroad, and handling briefs, revisions and deadlines. Ask here before you quote."),
+    ]),
+    ("SKILLS", [
+        ("editing-craft", TEXT, "rw", "The craft under every tool: hooks, pacing, story, cuts, sound, colour, captions, keeping viewers watching. Tutorials: the craft posts in {resources}."),
         ("capcut", TEXT, "rw", "CapCut on your phone or computer: ask questions, share tips, swap fixes. Tutorials: the CapCut posts in {resources}."),
         ("davinci-resolve", TEXT, "rw", "DaVinci Resolve: Edit page, Fusion, Fairlight, colour, Deliver. Ask, share tips, solve problems together. Tutorials: the DaVinci Resolve post in {resources}."),
         ("premiere-pro", TEXT, "rw", "Premiere Pro and After Effects: ask, share tips, solve problems together. Tutorials: the Premiere Pro and After Effects posts in {resources}."),
-    ]),
-    ("CLIENTS", [
-        ("outreach", TEXT, "rw", "Getting clients: cold DMs, emails, pitches, follow-ups, where to find them. Share what worked and what didn't. Want eyes on your message? Post it in {feedback}."),
-        ("pricing-and-clients", TEXT, "rw", "What to charge, packages, invoices, getting paid from abroad, and handling briefs, revisions and deadlines. Ask here before you quote."),
     ]),
     ("LIVE", [
         ("weekly-live", STAGE, "rw", None),
@@ -219,6 +227,7 @@ ICONS = {
     "opportunities": "💼", "help": "🆘", "weekly-live": "🎙️", "payments-log": "💳", "mod-log": "🛡️",
     "subscription-expired": "🔒", "team-chat": "🗨️", "team-call": "📞",
     "capcut": "✂️", "davinci-resolve": "🎛️", "premiere-pro": "🟪", "outreach": "📨", "pricing-and-clients": "💰",
+    "personal-brand": "🌟", "profile-and-portfolio": "🪪", "share-your-posts": "🔗", "editing-craft": "🪄",
 }
 SEP = "・"
 

@@ -29,13 +29,15 @@ This is where video editors grow together: people going the same way, accountabi
 📚 #resources: tutorials, editing hacks, templates and tools. Share what helped you.
 💼 #opportunities: gigs, client leads and collabs. Pass on what you can't take.
 🆘 #help: stuck on anything? Ask.
-✂️ #capcut · 🎛️ #davinci-resolve · 🟪 #premiere-pro: talk about your software. Ask, share tips, solve problems together.
-📨 #outreach: getting clients. Share what worked.
-💰 #pricing-and-clients: what to charge, getting paid, handling clients.
 🏆 #wins: every win counts, small or big.
 🎬 #showcase: share your work: finished edits, cuts in progress and your timelines.
 🤖 #ask-editors-bot: ask Editors Bot anything from Samuel's teachings. Type **/ask**.
 🎙️ **Weekly live call** with Samuel: he guides you and sometimes teaches. Times go up in #announcements.
+
+**How you get clients: a strong personal brand + value-first outreach + great skills.** Each has its own channels:
+🌟 #personal-brand · 🪪 #profile-and-portfolio · 🔗 #share-your-posts: get seen. Post, sharpen your page, back each other's posts.
+📨 #outreach · 💰 #pricing-and-clients: reach out value-first, price it, close it.
+🪄 #editing-craft · ✂️ #capcut · 🎛️ #davinci-resolve · 🟪 #premiere-pro: sharpen the skill.
 
 **Your subscription:** type **/subscription**, or go to {SITE}/community/account
 
@@ -134,7 +136,7 @@ Want feedback right now? Type **/review** in #ask-editors-bot and paste your bio
 
 ## #resources guidelines
 
-Tutorials and resources for every step of your journey. Each topic has its own post (CapCut, DaVinci Resolve, Premiere Pro, niche, clients, pricing and more): open it and reply with the link, what it is and why it's good. Samuel adds tutorials there too. Replays of the weekly live call go here, tagged Call replay. Questions and chat go in the topic's own channel: #capcut, #davinci-resolve, #premiere-pro, #outreach, #pricing-and-clients.
+Tutorials and resources for every step of your journey. Each topic has its own post (CapCut, DaVinci Resolve, Premiere Pro, niche, clients, pricing and more): open it and reply with the link, what it is and why it's good. Samuel adds tutorials there too. Replays of the weekly live call go here, tagged Call replay. Questions and chat go in the topic's own channel: #personal-brand, #profile-and-portfolio, #outreach, #pricing-and-clients, #editing-craft, #capcut, #davinci-resolve, #premiere-pro.
 
 ## #resources post: 📌 How to share a resource
 

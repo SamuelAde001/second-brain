@@ -47,3 +47,14 @@ Samuel, 2026-10-26: *"We need to start work fast on my new client's video, we ar
 - **Judgement calls (in the transcript):** 551 campaigns "average reply rate 4x the market" (script: best tenth 4x the typical); data cost "less than seven dollars" (script ~8); "more than 4,000 emails" (script 400); OpenAI "150 to 160K" (script 144 to 160); "500 or more got only 2%" (script 2.4%); event emails "8.1%" per Whisper (script 3.1%, listen); Hunter 5.2%/4.4% line never said; honest-limits passage take 3 drops "a real setup costs money"; the outro's last take has no "Everyone's".
 - **Usage at end:** weekly 56 % (55 at start), 5-hour 3 %.
 - **Phase 1 done 2026-10-26 ~09:40 WAT. Next: Samuel revises the cut on *Cut v5 (Editor) - sections*; then the visual plan.**
+
+## Samuel's cut revision, 2026-10-26 (before 12:00)
+
+He revised *Cut v5 (Editor) - sections* in place and removed the 12 section markers (clip colours kept): **12,100 f (8:25), 159 clips**. Diff against Cut v4 (`cut_diff.py`): 9 heads trimmed (33 f, e.g. "The", "So", "what", "that"), 22 tails loosened by 1-3 f (51 f added), and **"Inboxes are" restored** (8 f): my c241 trim was one word too far. The `--tight` tails are about 1-3 f too tight in places. Timed text of his cut: `Docs\Editor working files (2026-10-26)\sentences.txt` (173 sentences), `cut_words.json`.
+
+## Visual plan v1, 2026-10-26 (Editor)
+
+Samuel, 2026-10-26: *"I need every screen recording visual to look exactly like a live demo of those things. I don't want it to be too zoomed in, but also not too zoomed out ... Every website that they mention should show the actual website look ... the UI must be one-to-one identical. Demo everything, plan all those things ... also plan the visuals, that's the motion graphics"*. The creative director hasn't reviewed video 2 yet; build on what video 2 established. *"Don't waste tokens ... I need speed. I need quality ... cross-check the works and don't make any mistakes that I will have to correct."* The brand manager is using the same limits today.
+
+- Usage at start: weekly 56 %, 5-hour 3 % (12:10 WAT).
+- Workflow wf_2c44b7fd-5c0 (~23 agents, ~5-6 weekly points expected): plan brief + capture inventory + live-demo recorder pilot → 9 section planners → 9 fresh reviewer-fixers → assembler (plan_check, `beats.json`, `Visual plan v1.html`) + 5 hero frames. Outputs in the job's `Docs\Visual plan v1 (Editor)\`; live state in `Docs\RUN STATE.md`.
