@@ -250,6 +250,7 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-26 | balance | 88,774 | Bank | — | his words: "I actually have 88,774 in my bank right now"; no screenshot. Webinar money not counted: NGN 28,376 still in Flutterwave (his words) |
 | 2026-10-26 | in | 19,570 | Flutterwave webinar settlement to personal | — | his words: "19,570 just landed my account now from flutterwave" |
 | 2026-10-26 | balance | 108,344 | Bank | — | his words: "So I am presently at 108,344"; matches 88,774 + 19,570 exactly. Flutterwave about NGN 8,806 left by arithmetic (28,376 - 19,570), not confirmed |
+| 2026-10-26 | bulk | 12,439 | Called to Edit domain | Called to Edit domain (USD 9, estimate) | his words: "Just bought domain, it const me 12,439"; from his bank (webinar money is in it since 2026-10-24) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
