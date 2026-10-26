@@ -174,3 +174,13 @@ Samuel: *"I think some of the resources posts, can have their own channels on th
 - **Kept as #resources posts only** (the Brand manager's call, to keep the server from feeling crowded, Samuel 2026-10-22): editing basics, sound, colour, captions, motion graphics (in the software channels), niche and portfolio (#feedback has those tags, Editors Bot has /niche), working with clients (in pricing-and-clients), gear and AI tools (#help). Any of them can get a channel later: add a line to `LAYOUT` in `community_admin.py` and run `build`.
 - **Updated:** #start-here lists the new channels; #help's topic and the #resources guidelines send topic questions to them; `outreach` taken off the script's removed list so `build` keeps it. Editors Bot's channel guide (`netlify/lib/brain.mjs`) names them too, **live only after the next site deploy**: not deployed now because the site folder holds another session's unfinished website work.
 - **Announced 2026-10-26** in #announcements by Editors Bot (Samuel: *"Yes, post a short announcement in #announcements about the five new channels."*), no @everyone ping.
+
+## Channels built around his three parts (2026-10-26, later)
+
+Samuel: *"Build channels that help with personal brand etc, cause one of my main approach of teaching for them to get clients is, a strong personal brand + A great value first outreach system + Great skills"*
+
+- **One category per part, in his order, after GROW:** PERSONAL BRAND 🌟・personal-brand (what to post, his 40/40/20 mix, platforms, 2-3 posts a day) · 🪪・profile-and-portfolio (his profile checklist: face, bio as the offer, pinned best edit, portfolio link) · 🔗・share-your-posts (drop your post link, back each other's: his networking teaching, "boost your posts") — OUTREACH 📨・outreach (topic now value-first: a free edit of 30 seconds or less, Loom, DMs, emails, warm-ups, follow-ups) · 💰・pricing-and-clients — SKILLS 🪄・editing-craft (hooks, pacing, story, sound, colour, captions) · ✂️ capcut · 🎛️ davinci-resolve · 🟪 premiere-pro.
+- The morning's SOFTWARE and CLIENTS categories were renamed in place to SKILLS and OUTREACH. Member channels: 18 → 22. The channel picks and topic wording are the Brand manager's, from the teachings notes 06, 07, 09 and 11.
+- #start-here now opens the channel list for those three with his formula; #help and the #resources guidelines point to them. Editors Bot's channel guide (`brain.mjs`) names them, **live only after the next site deploy** (same reason as above).
+- **Not given a channel:** niche (part of the bio-as-offer in profile-and-portfolio; Editors Bot has /niche), testimonials (wins and profile-and-portfolio).
+
