@@ -106,3 +106,12 @@ Samuel: *"Make the deadline for the discounted community registeration to be Nex
 
 ## 2026-10-24 · Community members Sheet, and an email to every payer
 Samuel: *"we need a sheet to document all the called to edit community members, payments etc, just like we setup something for the webinar"* and *"I want to ensure an email is sent to people that pay also with the community logo, and the link to join discord also and with a small guide"*. Built as a Google Sheet the site keeps current, with the payer emails sent from his Gmail by the Sheet's script; the emails wait for his test and his switch-on. → [[04-Projects/called-to-edit-community-launch|community launch]]
+
+## 2026-10-26 · The website: prices, pages, and four set-up choices
+
+Samuel's brief for calledtoedit.com, word for word in [[04-Projects/called-to-edit-website|the website project]].
+- **Prices (his):** 1-month 1:1 mentorship NGN 500,000 (*"Full 1 month mentorship is 500K"*); 1-hour 1:1 call NGN 50,000; any Academy cohort NGN 50,000 per person (*"anything in the academy is 50K per person"*; maybe an early discount, not set); small 1-hour webinars NGN 5,000; e-book NGN 10,000; recorded masterclasses NGN 10,000 each.
+- **Academy is back as live cohorts, several of them:** DaVinci Resolve first (*"from beginning to the end, including Fusion nodes"*), personal branding for video editors later (*"later next year"*), outreach. A waitlist per cohort. This replaces "Academy stands down" of 2026-10-21.
+- **His order of priorities:** conversion, then functionality, then beauty; phones and laptops both; few words; light and dark mode; every visitor leaves at least an email; one link per offer.
+- **His four choices on the set-up questions (2026-10-26, picked from the options given):** the agents switch calledtoedit.com's nameservers at Spaceship to Netlify and add the new Discord login address, in his Chrome · the free homepage guide is **chapter 4 of the e-book, "Choose your niche"** (pages 25-31) plus "The pathway in twelve lines" (p. 113) · the mailbox for samuel@calledtoedit.com is **Google Workspace** · the agents fix Flutterwave in his Chrome: request international payments, set the fee to be paid by him, read the failed Ghana and Zimbabwe declines, draft the support question on other African currencies.
+- **Who decided:** Samuel. The concept, site map and three payment rails are the Brand manager's proposal from the research, not yet his decisions.
