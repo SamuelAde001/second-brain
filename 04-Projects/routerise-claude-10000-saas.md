@@ -277,3 +277,9 @@ Samuel, ~01:00 WAT, by voice before bed: resume the video *"from beginning to th
 - Context: weekly 71 % (resets Wed 2026-10-28 23:00 WAT), 5-hour 24 %. Session context 330k.
 - Scratch: `scratchpad\cd\` (tl_v4.json dump of the timeline as Samuel left it, ops.json beat map, sheets of every note).
 - **Next:** workflow: per-beat fixes (fixer + fresh checker, lab stills) + sweeps for C1-C10 across all 139 beats + sound planner in the #3 style + music fix; then rebuild *Visuals v4 (Editor)* (changed manifests), **re-apply Voice Isolation 44 on A1**, place sound, render 4K chunks, seam, check every note on the render, send Samuel the file.
+
+### RESUME (Editor), 2026-10-26 19:05 — read after a compaction
+- Workflow wf_a7e171a9-81e (script `~/.claude/projects/C--Users-repzy-Desktop-My-Second-brain/4add3727-1309-4335-90bf-b5da89bacd5d/workflows/scripts/video2-rev5-cd-corrections-wf_a7e171a9-81e.js`): DONE K1 darker text (23 DownFade + StatDark comps), sound plan v5, video 4 carry-over doc, 8 audits (59 tasks, 130 issues: C3 hold 70, P1 15, P2 8, C4 8, C1 7, C5 6). RUNNING K2 lighting trick; the fix stage waits for it.
+- **Bug to fix before the fix stage:** 5 beats sit in tasks of two sections (CL-01, P1-01, P2-01, P3-01, P4-01) -> two fixers on one beat. Plan: when K2 completes, stop the run, change the script to merge all tasks globally (union by beat), resume with `resumeFromRunId` (K1/K2/audits/sound/v4 cached).
+- Weekly 74 % at 19:00 (5-hour 6 %, resets 23:30 WAT). Estimate told Samuel: full fix round ~3.5-4 h + build/sound/4K/checks ~1.5 h.
+- After the run: check stills, mz_v7.json, `SOUND_CHAIN=<sound planner rerun chain> bash build_v7.sh` (job `Docs/Revision 5 CD corrections (Editor)/`), check every CD note on the 4K render, send Samuel the file.
