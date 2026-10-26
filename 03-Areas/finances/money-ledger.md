@@ -248,6 +248,8 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-26 | in | -12,417 | Reverses 2026-10-24 unexplained in (the 12,500 eating out cleared late) | — | reverses the 2026-10-24 Unexplained row |
 | 2026-10-26 | bulk | 939 | Minor spends 2026-10-24 to 2026-10-26 | Other | derived; rows give 89,713, he has 88,774; likely transfer and POS charges (incl. the 5,100 cash withdrawal) |
 | 2026-10-26 | balance | 88,774 | Bank | — | his words: "I actually have 88,774 in my bank right now"; no screenshot. Webinar money not counted: NGN 28,376 still in Flutterwave (his words) |
+| 2026-10-26 | in | 19,570 | Flutterwave webinar settlement to personal | — | his words: "19,570 just landed my account now from flutterwave" |
+| 2026-10-26 | balance | 108,344 | Bank | — | his words: "So I am presently at 108,344"; matches 88,774 + 19,570 exactly. Flutterwave about NGN 8,806 left by arithmetic (28,376 - 19,570), not confirmed |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
