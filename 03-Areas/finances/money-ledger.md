@@ -251,6 +251,10 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-26 | in | 19,570 | Flutterwave webinar settlement to personal | — | his words: "19,570 just landed my account now from flutterwave" |
 | 2026-10-26 | balance | 108,344 | Bank | — | his words: "So I am presently at 108,344"; matches 88,774 + 19,570 exactly. Flutterwave about NGN 8,806 left by arithmetic (28,376 - 19,570), not confirmed |
 | 2026-10-26 | bulk | 12,439 | Called to Edit domain | Called to Edit domain (USD 9, estimate) | his words: "Just bought domain, it const me 12,439"; from his bank (webinar money is in it since 2026-10-24) |
+| 2026-10-26 | bulk | 55,000 | Sent to babe, incl. her transport | Girlfriend extras | his words: "Just sent 55k to my babe, so she can also transport herself to where she needs to"; asked about 40k first, sent 55k |
+| 2026-10-26 | in | 8,806 | Flutterwave webinar settlement to personal | — | his words: "the remaining 8,806 just came in"; Flutterwave now empty (19,570 + 8,806 = 28,376) |
+| 2026-10-26 | bulk | 54 | Minor spends 2026-10-26 | Other | derived; rows give 49,711, he has 49,657; likely transfer charges |
+| 2026-10-26 | balance | 49,657 | Bank | — | his words: "I now have 49,657 left in my account"; no screenshot; before the 20,000 to his dad (not sent yet) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
