@@ -222,3 +222,4 @@ Back to [[07-Agents/content/profile|Profile]]
 
 - 2026-10-26 ~22:00 WAT: redesigned calledtoedit.com built (26 pages, scroll-craft system) and deployed to the preview (site commit 81e4abe). Review workflow stopped at Samuel's request to save tokens; preview link and screenshots sent; known issues in the project note.
 - 2026-10-26 ~22:10 WAT: fixed the known issues on the calledtoedit.com preview (hero size, phone logo, outro gap, form header, styleguide off); redeployed preview; screenshots sent.
+- 2026-10-26 ~22:20 WAT: redesign deployed to production on calledtoedit.com on Samuel's OK. Pending: his copy changes, smaller cards, fewer gaps.
