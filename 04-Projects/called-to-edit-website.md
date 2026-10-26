@@ -137,6 +137,8 @@ Part of [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]. Built by the 
 
 Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
 
+**Handed to Gemini 2026-10-26:** read [[04-Projects/called-to-edit-website-handover|the handover]] first.
+
 ## >>> RESUME (2026-10-26 ~22:00 WAT, Brand manager)
 
 - **Done today:** brief, research (`05-Knowledge/called-to-edit-research/called-to-edit-website-research*.md`), concept and plan (above); domain live on Netlify with HTTPS (`calledtoedit.com/community` works; old netlify.app addresses still answer); Discord callback for the new domain added; Flutterwave findings; free guide PDF in the scratchpad (`...\scratchpad\guide\called-to-edit-choose-your-niche.pdf`, copy to `site/guides/`); TickTick reminder (Tue 3pm, now moot: Samuel chose to do Workspace today); Samuel switched on the extra Flutterwave payment methods himself.
