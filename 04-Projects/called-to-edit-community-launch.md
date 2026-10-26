@@ -2,7 +2,7 @@
 type: project
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-10-26
 source: interview
 tags: [called-to-edit, community, discord, flutterwave, 60-day-challenge]
 ---
@@ -165,3 +165,11 @@ Samuel: *"Remove, also, we need a sheet to document all the called to edit commu
 - **Payer emails** (from his Gmail, "Samuel · Called to Edit", logo `site/assets/email-logo.png` from the brand kit's community-dark PNG on a midnight band): first payment = welcome with their own Join with Discord button (7-day link, fallback `/join`), the 2-minute Discord guide, what to do inside, the 60-Day Challenge line until 1 Nov, how renewal works. Renewal = short confirmation. Once per payment. **Off until Samuel turns it on** from the Community menu, after the test email (*Send me a test payer email*). *Turn payer emails on + email everyone who already paid* also sends the welcome to earlier payers.
 - **First real payers, 2026-10-24 morning:** 3 on the webinar offer (NGN 6,000); two joined Discord, one paid but not joined yet.
 - **Emails on, 2026-10-24 09:05 WAT** (Samuel: *"Please do it for me and send all the emails"*): switched on with catch-up; the welcome went to all 4 payers so far (2 not yet in Discord got their Join button). New payers are emailed automatically.
+
+## Topic channels (2026-10-26)
+
+Samuel: *"I think some of the resources posts, can have their own channels on their own on discord, so leave the resources posts on discord, but look through all those different sections and topics there to see which would need a dedicated channell to it, example capcut should have it's own channel, Davinci should have it's own channel, so they can talk about specific topics , even outreach should have it's own channel"*
+
+- **Added, two new categories after GROW:** SOFTWARE ✂️・capcut (phone and desktop) · 🎛️・davinci-resolve (incl. Fusion, Fairlight, colour) · 🟪・premiere-pro (Premiere and After Effects); CLIENTS 📨・outreach · 💰・pricing-and-clients (what to charge, getting paid, briefs, revisions). Member and Team can see and post; each topic links its tutorials in #resources. Member channels: 13 → 18.
+- **Kept as #resources posts only** (the Brand manager's call, to keep the server from feeling crowded, Samuel 2026-10-22): editing basics, sound, colour, captions, motion graphics (in the software channels), niche and portfolio (#feedback has those tags, Editors Bot has /niche), working with clients (in pricing-and-clients), gear and AI tools (#help). Any of them can get a channel later: add a line to `LAYOUT` in `community_admin.py` and run `build`.
+- **Updated:** #start-here lists the new channels; #help's topic and the #resources guidelines send topic questions to them; `outreach` taken off the script's removed list so `build` keeps it. Editors Bot's channel guide (`netlify/lib/brain.mjs`) names them too, **live only after the next site deploy**: not deployed now because the site folder holds another session's unfinished website work.

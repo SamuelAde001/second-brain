@@ -70,7 +70,19 @@ LAYOUT = [
         ("feedback", FORUM, "rw", None),
         ("resources", FORUM, "rw", None),
         ("opportunities", TEXT, "rw", "Gigs, client leads, jobs and collabs. Too busy for a job? Pass it on here."),
-        ("help", TEXT, "rw", "Stuck? Software, gear, clients, pricing, anything."),
+        ("help", TEXT, "rw", "Stuck on anything? Ask here. CapCut, DaVinci Resolve, Premiere Pro, outreach and pricing have their own channels."),
+    ]),
+    # Samuel, 2026-10-26: "capcut should have it's own channel, Davinci should have it's own channel, so they can
+    # talk about specific topics, even outreach should have it's own channel". The #resources posts stay as the archive.
+    # {name} in a topic becomes a link to that channel.
+    ("SOFTWARE", [
+        ("capcut", TEXT, "rw", "CapCut on your phone or computer: ask questions, share tips, swap fixes. Tutorials: the CapCut posts in {resources}."),
+        ("davinci-resolve", TEXT, "rw", "DaVinci Resolve: Edit page, Fusion, Fairlight, colour, Deliver. Ask, share tips, solve problems together. Tutorials: the DaVinci Resolve post in {resources}."),
+        ("premiere-pro", TEXT, "rw", "Premiere Pro and After Effects: ask, share tips, solve problems together. Tutorials: the Premiere Pro and After Effects posts in {resources}."),
+    ]),
+    ("CLIENTS", [
+        ("outreach", TEXT, "rw", "Getting clients: cold DMs, emails, pitches, follow-ups, where to find them. Share what worked and what didn't. Want eyes on your message? Post it in {feedback}."),
+        ("pricing-and-clients", TEXT, "rw", "What to charge, packages, invoices, getting paid from abroad, and handling briefs, revisions and deadlines. Ask here before you quote."),
     ]),
     ("LIVE", [
         ("weekly-live", STAGE, "rw", None),
@@ -90,7 +102,7 @@ LAYOUT = [
 RENAMES = {"daily-check-in": "accountability", "questions": "help", "weekly-call": "weekly-live"}
 # Channels from the first layout that are gone (Samuel: "any thing not neccessary should be removed").
 REMOVED = ["rules", "workbook", "daily-nugget", "introduce-yourself", "leaderboard", "portfolio-and-profile",
-           "outreach", "niche", "davinci-help", "gear", "call-recordings", "off-topic"]
+           "niche", "davinci-help", "gear", "call-recordings", "off-topic"]  # outreach is back, 2026-10-26
 FORUM_TAGS = {
     "accountability": [("60-Day Challenge", "🗓️"), ("Weekly goals", "🎯"), ("Daily log", "✍️")],
     "feedback": [("Edit", "🎬"), ("Portfolio", "🗂️"), ("Profile and bio", "🪪"), ("Outreach", "📨"), ("Niche", "🧭"), ("Client work", "💼")],
@@ -206,6 +218,7 @@ ICONS = {
     "accountability": "✅", "ask-editors-bot": "🤖", "feedback": "🎞️", "resources": "📚",
     "opportunities": "💼", "help": "🆘", "weekly-live": "🎙️", "payments-log": "💳", "mod-log": "🛡️",
     "subscription-expired": "🔒", "team-chat": "🗨️", "team-call": "📞",
+    "capcut": "✂️", "davinci-resolve": "🎛️", "premiere-pro": "🟪", "outreach": "📨", "pricing-and-clients": "💰",
 }
 SEP = "・"
 
@@ -273,7 +286,7 @@ def cmd_build():
         for i, (name, typ, mode, topic) in enumerate(items):
             body = {"name": shown(name), "parent_id": cat_obj["id"], "position": i, "permission_overwrites": overwrites(mode, g, roles)}
             if topic and typ == TEXT:
-                body["topic"] = topic
+                body["topic"] = re.sub(r"\{([a-z-]+)\}", lambda m: f"<#{ids[m.group(1)]}>" if m.group(1) in ids else "#" + m.group(1), topic)
             if typ == FORUM:
                 body.update({"default_auto_archive_duration": 10080, "default_reaction_emoji": {"emoji_name": "🔥"},
                              "default_sort_order": 0, "default_forum_layout": 1})

@@ -2,7 +2,7 @@
 type: project
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-10-26
 source: interview
 tags: [called-to-edit, community, discord]
 ---
@@ -29,6 +29,9 @@ This is where video editors grow together: people going the same way, accountabi
 📚 #resources: tutorials, editing hacks, templates and tools. Share what helped you.
 💼 #opportunities: gigs, client leads and collabs. Pass on what you can't take.
 🆘 #help: stuck on anything? Ask.
+✂️ #capcut · 🎛️ #davinci-resolve · 🟪 #premiere-pro: talk about your software. Ask, share tips, solve problems together.
+📨 #outreach: getting clients. Share what worked.
+💰 #pricing-and-clients: what to charge, getting paid, handling clients.
 🏆 #wins: every win counts, small or big.
 🎬 #showcase: share your work: finished edits, cuts in progress and your timelines.
 🤖 #ask-editors-bot: ask Editors Bot anything from Samuel's teachings. Type **/ask**.
@@ -131,7 +134,7 @@ Want feedback right now? Type **/review** in #ask-editors-bot and paste your bio
 
 ## #resources guidelines
 
-Tutorials and resources for every step of your journey. Each topic has its own post (CapCut, DaVinci Resolve, Premiere Pro, niche, clients, pricing and more): open it and reply with the link, what it is and why it's good. Samuel adds tutorials there too. Replays of the weekly live call go here, tagged Call replay.
+Tutorials and resources for every step of your journey. Each topic has its own post (CapCut, DaVinci Resolve, Premiere Pro, niche, clients, pricing and more): open it and reply with the link, what it is and why it's good. Samuel adds tutorials there too. Replays of the weekly live call go here, tagged Call replay. Questions and chat go in the topic's own channel: #capcut, #davinci-resolve, #premiere-pro, #outreach, #pricing-and-clients.
 
 ## #resources post: 📌 How to share a resource
 
