@@ -76,7 +76,8 @@ Samuel, 2026-10-26: *"Handover everything concerning the website brand building 
   - They live in `%USERPROFILE%\.brain-secrets\community.json`: Flutterwave secret key, Discord bot token and client secret.
   - No agent opens that file. `python 00-System/scripts/community_admin.py push-env` puts them on Netlify as environment variables.
   - Only these names appear in code: `FLW_SECRET_KEY`, `DISCORD_*`, `GEMINI_API_KEY`.
-- **Not paid online yet:** webinar seats, e-book, recordings, Academy, Mentorship.
+- **Masterclass (the 2026-10-23 webinar recording), NGN 10,000, sold since 2026-10-27:** button opens the `masterclass` dialog (type `buy`) → `netlify/functions/masterclass.mjs` (POST, price set on the server, tx_ref `mc-`) → Flutterwave → `/thanks/masterclass` → `masterclass-verify.mjs` checks the payment and returns the video link from the Netlify env var `MASTERCLASS_URL` (Samuel's Drive link; until set, the page says the link comes by email within 24 hours). Paid records: Blobs store `community`, keys `mc:<tx_ref>`. The Community webhook ignores `mc-`.
+- **Not paid online yet:** webinar seats, e-book, Academy, Mentorship.
   - Their buttons open the pop-up and collect a lead (first name and email) into Netlify Blobs store `leads` via `lead.mjs`.
   - Mentorship applications also DM Samuel on Discord.
   - The webinar button says "Tell me the next date" until `webinars.next.paymentUrl` is set in `site.ts`; then it becomes "Book my seat".
