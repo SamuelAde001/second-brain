@@ -11,6 +11,8 @@ tags: [script, talking-head, called-to-edit, community, 60-day-challenge, explai
 
 Samuel, 2026-10-27: *"a short video about the idea of Called to Edit, what it is, what it means, and what we plan on doing"* · *"conversational style of video, very casual"* · *"a CTA of how they can join the called to edit community"* · *"let it sound like me, just me talking to the camera"*. Draft written straight away (he asked for the script, not an interview), built only from facts and lines already in the Brain: [[03-Areas/called-to-edit/called-to-edit-brand-foundation|brand foundation]], the name's meaning ([[03-Areas/called-to-edit/called-to-edit-decisions|decisions]] → *"Both"*), his 2026-10-07 words in [[03-Areas/personal-brand/scripts/why-im-teaching-talking-head|Why I'm finally teaching]] (more than five years, two percent / ninety-eight percent, no course), the [[04-Projects/called-to-edit-community-launch|community launch]] (NGN 5,000 a month, 60-day challenge from 2026-11-01, own pace, late joiners start their own day 1). No story from the bank. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]] · [[03-Areas/called-to-edit/called-to-edit|Called to Edit]].
 
+In Notion: Instagram Content Calendar, page "What is Called to Edit" (Status Script, Series Called to Edit), https://app.notion.com/p/4068d1c17bb78125b446c9e9f4aa1de5. Notion is where he edits it; re-fetch before changing either copy.
+
 ## Hooks
 
 1. **(Recommended)** "I didn't call it Learn to Edit. I called it Called to Edit. And there's a reason."
