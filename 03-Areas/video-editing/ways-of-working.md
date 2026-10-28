@@ -2,7 +2,7 @@
 type: knowledge
 area: video-editing
 status: active
-updated: 2026-09-26
+updated: 2026-10-28
 source: memory-export
 tags: [conventions, agents, fusion]
 ---
@@ -389,3 +389,18 @@ Samuel: *"So anything that he said and you think can be applied in other places,
 - **Sound goes back to the first videos** (Samuel: *"the sound effects I used initially in the first two or three videos that we have worked on are the ones that are best. I don't use the sound effect of the last video"*). Replaces the 2026-10-16 rule. Detail: [[routerise-house-style]] §8 → Changed back 2026-10-26.
 - **Numbers inside a sentence are plain text**; hero numbers on their own still count up (his pick, 2026-10-26).
 - **He watches a client version before it goes to Frame.io** (his pick, 2026-10-26, for video 2 V2).
+
+## 2026-10-28 — Video 4 night-run brief: the LinkedIn bar in Frontal, no corrections
+
+Samuel, 2026-10-28 ~23:00, starting video 4's build after the weekly reset (deadline: the full video to his creative director by Thu 2026-10-29 18:00 WAT):
+- *"I need speed and I need quality ... I want Opus to do all the thinking ... and Sonnet sub-agent to actually do the practical ... but make sure that they don't make mistakes"*.
+- *"I want the quality of ... the previous video before this video ... my client's previous branding colors ... but in this video and with good branding"* (LinkedIn Training, final 2026-10-16). *"we will save more tokens ... if you do a perfect version, a perfect first version of a full video without any mistakes ... I don't want to have to make corrections. And worst of all, I don't want my creative directors to make corrections"*.
+- *"the screen recording and the screenshots and the screen visuals or the UI visuals that we used to do in the previous videos, that's not the last one ... those screen recordings were good. And I want the motion graphics to also be good. I need it to be very, very, very creative"*.
+- Boxes: *"all the boxes must have a light sweep ... to give them that depth"*; clarified: *"light sweep is a node I use to give a box a shiny look, not neccessarily animated, I used another animated method to add a shine effect, you can use that but only when necessary and do it well, you used that it past videos well, but the last video, you did it wrongly"*.
+- *"I don't want you to use motion blur because that makes it very hard to do"*; his answer: MotionBlur off, the soft blur-in kept.
+- *"every element must come in one by one. There must be slow and steady and smooth movement, camera movement in motion graphics and also in the screen recordings"*.
+- *"In the previous videos, there was an adjustment clip that I always put in on top of screen recordings that had ... a vignette and it had [NeoAnim] in it ... and it had a plugin of Magic Zoom that naturally slowly zoomed in ... so that ... we don't have static visuals ... the adjustment clips you used in this last video was wrong because you only use [NeoAnim]"*.
+- *"nothing should be static. Even the motion graphic area should slowly zoom in"*.
+- *"at the intro, there is one adjustment clip I always put at the intro of my videos. I think I put in the last one"*.
+- Overnight: no approval stops (his yes, 2026-10-28); 39 GB of video 2 draft renders deleted on his yes (finals kept).
+Short form: [[03-Areas/video-editing/samuel-review-card|review card]] → S1-S7.

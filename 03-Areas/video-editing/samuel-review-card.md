@@ -2,7 +2,7 @@
 type: sop
 area: video-editing
 status: active
-updated: 2026-10-25
+updated: 2026-10-28
 source: manual
 tags: [review, standard, corrections, helpers]
 ---
@@ -37,6 +37,17 @@ Samuel, 2026-10-25: *"Nothing just comes on screen randomly. Everything is anima
 - **P9** Pages zoom to what is being highlighted (not so close the text crowds the edge); small stats are pills at the bottom, not full screen.
 - **P10** Every page, screen recording and B-roll gets his media adjustment clip (slide 0.021 + blur in). Chapter returns are bottom pills, not the intro list again.
 
+## Samuel's video 4 brief, 2026-10-28 (overrules anything below where they differ)
+
+Samuel, 2026-10-28 ~23:00: *"I need speed and I need quality"*. The bar is the LinkedIn Training video (the last one in Alex's old branding), done in the new Frontal branding: *"a perfect first version of a full video without any mistakes ... I don't want to have to make corrections. And worst of all, I don't want my creative directors to make corrections"*.
+- **S1 Every box gets a NeoLightSweep, as a static shine.** *"light sweep is a node I use to give a box a shiny look, not neccessarily animated"*, *"all the boxes must have a light sweep ... to give them that depth"*. The animated shine is a different method from his earlier videos: *"you can use that but only when necessary and do it well, you used that it past videos well, but the last video, you did it wrongly"*. Replaces "No shines by default" (2026-10-24) for the static sheen; the animated shine stays rare.
+- **S2 No motion blur** (*"that makes it very hard to do"*): MotionBlur off on every NeoAnim and Transform. NeoAnim's soft entrance blur (StartBlur) stays (his answer, 2026-10-28).
+- **S3 Every element comes in one by one** (P1, again: *"remember the corrections ... every element must come in one by one"*).
+- **S4 Slow, steady, smooth camera movement** in motion graphics and in screen recordings: *"Let it not be too fast, but let it not be static ... nothing should be static. Even the motion graphic area should slowly zoom in."*
+- **S5 The media adjustment clip is three things**, over every screen recording, page and B-roll: NeoAnim in + Vignette + MagicZoom slow zoom-in. *"the adjustment clips you used in this last video was wrong because you only use [NeoAnim]"*.
+- **S6 His intro adjustment clip goes on the intro** (*"there is one adjustment clip I always put at the intro of my videos. I think I put in the last one"*): video 2's V5 0-28, saved as `HK01_samuel_intro_adj.setting`.
+- **S7 Screen recordings and UI visuals as in the videos before video 2** (*"those screen recordings were good"*); motion graphics *"very, very, very creative"*: visuals that show what is being said.
+
 ## Route Rise's creative director on video 2 v6 (2026-10-26, 21 Frame.io notes; Samuel: apply everywhere it fits, and on the next videos)
 
 - **C1 Lighting tricks on every page and UI:** the eye goes to one spot because everything else is darker and that spot is lit. A flat white page or dashboard with a pill on it is "lacking lighting tricks". (#2, #11, #16)
@@ -61,7 +72,7 @@ Samuel, 2026-10-25: *"Nothing just comes on screen randomly. Everything is anima
 
 ## Look: premium, never flat
 
-- **No shines by default** (2026-10-24, overrules 2026-10-22): no moving shine or light sweep on boxes, pages or screen recordings. At most one, on one key box, only that box, on its turn, travelling fully off it. Boxes keep glass where it fits, solid icons or real logos; glow only where it means something. Bevel off. (2026-10-22, 2026-10-23, 2026-10-24)
+- **No shines by default** (2026-10-24; **the static part is superseded 2026-10-28 by S1: a static NeoLightSweep sheen on every box**): no moving shine or light sweep on boxes, pages or screen recordings. At most one, on one key box, only that box, on its turn, travelling fully off it. Boxes keep glass where it fits, solid icons or real logos; glow only where it means something. Bevel off. (2026-10-22, 2026-10-23, 2026-10-24)
 - Effects are real nodes: NeoGlow, DropShadow, NeoLightSweep, ResolveFX Gaussian Blur. Never a faked glow or shadow box. (2026-09-25, 2026-10-15)
 - Vary fills; neighbouring visuals never share one. No single box style carries a video. Gallery designs are inspiration, never templates. (2026-09-30, 2026-10-15)
 - Boxes are opaque or properly blurred glass; nothing behind reads as a second layer. Shapes in layers, sizes and shades. (CD standard)
