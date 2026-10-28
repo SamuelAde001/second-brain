@@ -80,6 +80,8 @@ Video 2 is read only (delivered): every test works on copies in its `Docs\Pipeli
 - Lint on copies of the 141 installed beats (185 comps) by type: `Lint v7c (Editor)\`. Hook section, first run: `Lint first run (Editor)\`.
 - Queue mechanics in `--fake` mode: batches, a hung request killed and retried once then failed, lab.py hand-off with and without `--nowait`.
 - Preview page for the hook from the v7 4K render (`--from-render`): 5 beats, 5 clips, `Preview hook first run (Editor)\preview_hook.html`.
-- Not yet: a live queue run in Resolve. It goes in a scratch project, never in video 2's project or timelines.
+- **Live in Resolve, 2026-10-28 12:05-12:12, scratch project `zz Pipeline test (Editor) 2026-10-28`** (Samuel: *"Yes, scratch project"*; his "Talking head" saved first and put back after): `lab.py render` handed to the queue → 3 stills in 13 s; 14 foundation clips (`--below` = a still of Alex from the raw, `--audio-src` = the v7 render) at 10-32 s each, no hang, no restart. Page: `Preview all (Editor)\preview_all.html`; test kit `kits (test copy)\`.
+- In a project without the job's cut (a scratch project), give clips `--below <still or clip>` and `--audio-src <full render of the cut>`; `--section all` and several `--comps` folders joined with `|` build one page for a library set.
+- Creating the scratch project hung Resolve once (from Samuel's project on the Deliver page, again): save first, `restart_resolve.py`, then create from the Project Manager.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]

@@ -172,7 +172,7 @@ def render_clip(lab, req):
     pad = int(req.get("pad", 12))
     if req.get("manifest"):
         lay, S, D = from_manifest(req["manifest"], pad)
-        below = "aroll@%d" % (S - pad)
+        below = req.get("below") or "aroll@%d" % (S - pad)          # a scratch project has no cut: give a file
     else:
         lay = [{"kind": k, "path": v, "track": int(req.get("track", 2)) + n, "off": pad, "D": int(req["D"]),
                 "src_in": 0, "fonts": req.get("fonts") or []} for n, (k, v) in enumerate(req["layers"])]
@@ -196,7 +196,7 @@ def render_clip(lab, req):
         if below.lower().startswith("aroll@"):
             F = int(below[6:])
             lab._aroll(K, p, mp, t, S0, F, DT, aroll_tl, errs)
-            if req.get("audio", True):
+            if req.get("audio", True) and not req.get("audio_src"):
                 _aroll_audio(lab, p, mp, t, S0, F, DT, aroll_tl, errs)
         elif below.lower() != "none":
             lab._media_layer(K, mp, fold, t, 1, S0, below, DT, errs)
@@ -253,6 +253,15 @@ def render_clip(lab, req):
             if got:
                 dst = os.path.join(out, name + os.path.splitext(got[-1])[1])
                 shutil.copyfile(got[-1], dst)
+                if req.get("audio_src") and S is not None:          # the beat's sound from a full render of the cut
+                    tmp = dst + ".mux.mp4"
+                    rr = subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", dst, "-ss", "%.3f" % ((S - pad) / 23.976),
+                                         "-i", req["audio_src"], "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a",
+                                         "aac", "-shortest", tmp], capture_output=True, text=True)
+                    if rr.returncode == 0:
+                        os.replace(tmp, dst)
+                    else:
+                        errs.append("audio mux: " + rr.stderr[-120:])
                 files.append(dst)
             else:
                 errs.append("deliver: %s" % st.get("JobStatus"))
@@ -277,7 +286,7 @@ def render_clip(lab, req):
             errs.append("restore: " + repr(e)[:160])
     W.res.update({"files": files, "D": DT, "S": S, "pad": pad, "secs": round(time.time() - t_start, 1),
                   "frames_rendered": DT})
-    W.res["ok"] = bool(files) and not [e for e in errs if not e.startswith("audio covers")]
+    W.res["ok"] = bool(files) and not [e for e in errs if not e.startswith(("audio covers", "audio mux"))]
     return W.res
 
 

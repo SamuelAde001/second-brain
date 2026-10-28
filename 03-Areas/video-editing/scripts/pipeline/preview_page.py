@@ -31,7 +31,8 @@ def tc(f):
 
 def _folders(beat, comps):
     out = []
-    for name in (beat.get("built") or []) + [beat["id"]]:
+    built = beat.get("built") or []
+    for name in ([built] if isinstance(built, str) else list(built)) + [beat["id"]]:
         m = os.path.join(comps, name, "manifest.json")
         if os.path.exists(m) and m not in out:
             out.append(m)
@@ -56,9 +57,9 @@ def _span(mpath):
 def collect(beats, section, comps, kinds):
     rows = []
     for b in beats:
-        if b.get("sec") != section or b.get("kind") not in kinds:
+        if (section != "all" and b.get("sec") != section) or b.get("kind") not in kinds:
             continue
-        for m in _folders(b, comps):
+        for m in [m for c in comps.split("|") for m in _folders(b, c)]:
             S, D, has_comp = _span(m)
             if has_comp:
                 rows.append({"beat": os.path.basename(os.path.dirname(m)), "plan": b["id"], "kind": b["kind"],
@@ -133,7 +134,7 @@ paint();
 </script></body></html>
 """
 
-CARD = """<section class="beat" id="%(beat)s" data-plan="%(plan)s" data-clip="%(clip)s">
+CARD = """<section class="beat" id="%(cid)s" data-plan="%(plan)s" data-clip="%(clip)s">
 <div>%(media)s</div>
 <div><div class="id">%(beat)s</div><div class="meta">%(tc)s &middot; %(dur).1f s &middot; %(kind)s %(family)s</div>
 <p class="alex">%(alex)s</p><details><summary>What it should show</summary>%(visual)s</details>
@@ -176,7 +177,7 @@ def build(argv):
         for r in todo:
             i, d = rq.submit(Q, {"id": "preview_" + r["clip_name"], "kind": "clip", "manifest": r["manifest"],
                                  "out": clips, "name": r["clip_name"], "pad": pad, "res": res, "audio": True,
-                                 "owner": "preview_page"})
+                                 "owner": "preview_page", "below": g("--below"), "audio_src": g("--audio-src")})
             ids[i] = r
         print("queued %d clips; waiting" % len(ids), flush=True)
         got = rq.wait_done(Q, list(ids), int(g("--wait", 3600)))
@@ -191,7 +192,7 @@ def build(argv):
         media = ('<video src="clips/%s" controls preload="metadata" playsinline></video>' % html.escape(r["clip"])
                  if r["clip"] else '<div class="missing">No clip yet%s</div>' % (
                      "<br>" + html.escape(r["err"]) if r["err"] else ""))
-        cards.append(CARD % {"beat": html.escape(r["beat"]), "plan": html.escape(r["plan"]), "clip": html.escape(r["clip"]),
+        cards.append(CARD % {"cid": html.escape(r["clip_name"]), "beat": html.escape(r["beat"]), "plan": html.escape(r["plan"]), "clip": html.escape(r["clip"]),
                              "media": media, "tc": tc(r["S"]), "dur": r["D"] / FPS, "kind": html.escape(r["kind"]),
                              "family": html.escape(r["family"]), "alex": html.escape(r["alex"]),
                              "visual": html.escape(r["visual"])})

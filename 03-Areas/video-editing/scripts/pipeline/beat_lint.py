@@ -561,7 +561,8 @@ def _beat_index(beats):
     idx = {}
     for b in beats:
         idx.setdefault(b["id"], b)
-        for x in b.get("built") or []:
+        built = b.get("built") or []
+        for x in [built] if isinstance(built, str) else built:
             idx.setdefault(x, b)
     return idx
 
