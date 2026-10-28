@@ -487,12 +487,14 @@ def lint_op(op, words, beat, below_media, continued=None):
                     R["P5"].append((False, "%s: red bar across '%s'" % (n, ti["text"][:30])))
 
     # C3 ------------------------------------------------------------------------------------------------------
+    last_land = None
     exits = [e.get("out", 0) for e in el if e["kind"] == "exit" and e.get("out")]
     cut = D - (max(exits) if exits else 0)
     if continued:
         R["C3"].append((True, "continues into %s (same beat, butted): the hold is judged at the sequence end" % continued))
     elif [e for e in ent if e["kind"] != "fade" or dict(content)[e["name"]]]:
         last = max([e for e in ent if e["kind"] != "fade" or dict(content)[e["name"]]], key=lambda e: e["land_all"])
+        last_land = last["land_all"]
         gap = cut - last["land_all"]
         R["C3"].append((gap >= HOLD, "last element %s lands comp f%d, cut f%d: %d f hold (need %d)" % (
             last["name"], last["land_all"], cut, gap, HOLD)))
@@ -531,8 +533,14 @@ def lint_op(op, words, beat, below_media, continued=None):
                 R["C9"].append((far, "%s shows '%s'%s" % (n, raw, "" if near else (
                     " - said elsewhere in the video, not in this beat" if far else
                     " - never said (heard here: %s)" % (", ".join("%g" % h for h in sorted(heard_n))[:80] or "none")))))
+    stems = {}
+    for e in ent:
+        if re.search(r"\d+[a-z]?$", e["name"]):
+            stems.setdefault(re.sub(r"\d+[a-z]?$", "", e["name"]), []).append(e["name"])
     stats = {"tools": len(tools), "elements": len(ent), "unmatched": unmatched, "over": over,
-             "kb": round(os.path.getsize(path) / 1024)}
+             "kb": round(os.path.getsize(path) / 1024), "counters": len(counters), "axis": bool(axis),
+             "list": any(len(v) >= 3 for v in stems.values()), "texts": len(texts),
+             "last_land": last_land, "min_D": None if last_land is None else int(last_land + HOLD + (D - cut))}
     return R, stats
 
 
@@ -563,6 +571,50 @@ def find_beat(idx, folder):
         if k in idx:
             return idx[k]
     return None
+
+
+PAGE_FAM = ("WEB-FOCUS", "PAGE", "UI", "UI-REBUILD", "CC-TERM", "WEB-PAIR", "WALL-GLASS")
+LIST_FAM = ("BOARD", "TILES", "CATEGORY-CARDS", "FLOW")
+TYPES = ("chart", "page/UI", "lower third", "list", "counter", "card")
+
+
+def comp_type(st, beat):
+    """chart > page/UI > lower third > list > counter > card, from the plan family and what the comp holds."""
+    fam, kind = (beat or {}).get("family", ""), (beat or {}).get("kind", "")
+    if fam == "CHART" or st.get("axis"):
+        return "chart"
+    if st.get("over") == "page" or kind in ("capture", "ui-demo") or fam in PAGE_FAM:
+        return "page/UI"
+    if st.get("over") == "aroll" or fam in ("CH-LT", "LT-NAME"):
+        return "lower third"
+    if st.get("list") or fam in LIST_FAM:
+        return "list"
+    if st.get("counters"):
+        return "counter"
+    return "card"
+
+
+def by_type(results):
+    """per comp type: comps, comps failing each rule, the commonest fault per rule."""
+    agg = {t: {"comps": 0, "clean": 0, "rules": {r: [0, 0] for r in RULES}, "eg": {r: {} for r in RULES}}
+           for t in TYPES}
+    for b in results:
+        for c in b["comps"]:
+            if c.get("error"):
+                continue
+            a = agg[c["type"]]
+            a["comps"] += 1
+            a["clean"] += not any(v[1] for v in c["rules"].values())
+            for r, (ok, bad) in c["rules"].items():
+                a["rules"][r][0] += bool(ok or bad)
+                a["rules"][r][1] += bool(bad)
+            base = os.path.basename(c["setting"])
+            for r in RULES:
+                for m in b["rules"][r]["msgs"]:
+                    if m.startswith(base + ":"):
+                        key = re.sub(r"[\d.+-]+ ?f|f\d+|'[^']*'|\w+_\w+|\d+", "#", m.split(": ", 1)[1])[:70]
+                        a["eg"][r][key] = a["eg"][r].get(key, 0) + 1
+    return agg
 
 
 def _stem(folder):
@@ -603,6 +655,8 @@ def lint_manifest(mpath, words, idx, allops=()):
         except Exception as e:                                   # a comp the parser can't read is a FAIL to look at
             res["comps"].append({"setting": op["setting"], "error": repr(e)[:200]}); continue
         st["setting"] = op["setting"]
+        st["rules"] = {r: [sum(1 for ok, m in fl if ok), sum(1 for ok, m in fl if not ok)] for r, fl in R.items()}
+        st["type"] = comp_type(st, beat)
         res["comps"].append(st)
         for r, fl in R.items():
             for ok, msg in fl:
@@ -685,6 +739,15 @@ def main(argv):
     print("fails: " + "  ".join("%s %d beats/%d" % (k, v[0], v[1]) for k, v in tot.items() if v[0]) if nfail else
           "fails: none")
     print("%d of %d beats fail. Details: python beat_lint.py --why \"%s\" <BEAT>" % (nfail, len(results), out))
+    if "--by-type" in argv:
+        agg = by_type(results)
+        print("\nBY COMP TYPE  (comps failing a rule / comps the rule applied to)")
+        print("%-12s %5s %5s  %s" % ("TYPE", "comps", "clean", "  ".join("%-6s" % r for r in RULES)))
+        for t in TYPES:
+            a = agg[t]
+            print("%-12s %5d %5d  %s" % (t, a["comps"], a["clean"], "  ".join(
+                ("%d/%d" % (a["rules"][r][1], a["rules"][r][0]) if a["rules"][r][0] else "-").ljust(6) for r in RULES)))
+        json.dump(agg, open(out.replace(".json", "_by_type.json"), "w", encoding="utf-8"), indent=1)
     return 1 if nfail else 0
 
 

@@ -15,7 +15,7 @@ The three scripts the zero-revision pipeline needs (Samuel, 2026-10-28: *"If we 
 
 - **Canonical:** `03-Areas/video-editing/scripts/pipeline/` in the Brain: `beat_lint.py`, `preview_page.py`, `render_queue.py`, and `fusion_setting.py` (reads a .setting into Python; the lint uses it).
 - **Copies beside `lab.py`** in the master kit `Routerise\Visual Assets\Frontal templates (Editor)\kits\`, so a job kit copied from the master has them. After changing a Brain copy, copy the four files over the kit copies. Never edit a kit copy.
-- `lab.py` (master kit and video 2's kit) hands its renders to the queue when the queue runs (below). The pre-change file is kept beside it as `lab.py.pre_queue_2026-10-28`.
+- The queue hand-off version of `lab.py` is `kits\lab_with_queue_2026-10-28.py` in the master kit (new file; the master `lab.py` stays as it was). When a job's kit is set up, copy it over the job kit's `lab.py`. Video 2's kit is never changed: it is delivered and kept as the reference.
 
 ## Step 3: beat lint (no AI, no Resolve)
 
@@ -24,6 +24,7 @@ Run by the worker on its own beats before it reports done, and by the Editor on 
 ```
 python beat_lint.py --words "<Docs>\...\words_cut.json" --beats "<Docs>\<plan>\beats.json" [--section hook] [--out <report.json>] "<kits>\..\comps\<run>"
 python beat_lint.py --why <report.json> <BEAT>        one beat's findings, for the worker that fixes it
+python beat_lint.py ... --by-type <folders>           adds a table per comp type (chart, page/UI, lower third, list, counter, card)
 python beat_lint.py --words <w.json> --setting <comp.setting> --start <timeline f> --D <n> [--beat ID]    one comp before it has a manifest
 ```
 
@@ -75,8 +76,10 @@ python preview_page.py read "<path>\preview_<sec>_notes.json"
 
 ## Tested on video 2, 2026-10-28
 
-- Lint on all 142 v4 beats in 4.4 s, and on the hook section (8 beats): `Docs\Lint (Editor)\lint_hook_2026-10-28.txt` / `.json` in the video 2 job folder.
+Video 2 is read only (delivered): every test works on copies in its `Docs\Pipeline tools test (Editor)\`.
+- Lint on copies of the 141 installed beats (185 comps) by type: `Lint v7c (Editor)\`. Hook section, first run: `Lint first run (Editor)\`.
 - Queue mechanics in `--fake` mode: batches, a hung request killed and retried once then failed, lab.py hand-off with and without `--nowait`.
-- Preview page for the hook from the v7 4K render (`--from-render`): 5 beats, 5 clips.
+- Preview page for the hook from the v7 4K render (`--from-render`): 5 beats, 5 clips, `Preview hook first run (Editor)\preview_hook.html`.
+- Not yet: a live queue run in Resolve. It goes in a scratch project, never in video 2's project or timelines.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]
