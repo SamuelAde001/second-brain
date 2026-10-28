@@ -2,7 +2,7 @@
 type: log
 area: system
 status: active
-updated: 2026-10-26
+updated: 2026-10-28
 source: manual
 tags: [build, state]
 ---
@@ -16,7 +16,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 - **Run mode since 2026-09-28.** Agents do the work; systems get added one rung at a time as tasks repeat (the ladder in the systems register).
 - **Built:** 5 agents (General Manager, Editor, Money man, PA, Brand manager; all in the main session on Opus 5.5; model and effort per job from [[00-System/model-routing|model routing]]). 14 skills. 5 automations. Full list: [[00-System/systems-register|Systems register]].
 - **Brain tidy 2026-10-10:** run `python 00-System/scripts/audit_brain.py` to check links, frontmatter, orphans and sizes. Fix what it reports before adding anything new.
-- **Max 20x since 2026-10-24.** How agents spend it: [[00-System/model-routing|model routing]] → On Max 20x (nine helper rules, `editor-builder` helper, `usage_audit.py`). The first full video on 20x measures the real cost per video.
+- **Max 20x since 2026-10-24.** How agents spend it: [[00-System/model-routing|model routing]] → On Max 20x (nine helper rules, `editor-builder` helper, `usage_audit.py`). The first full video on 20x measures the real cost per video. **2026-10-28 audit:** weekly at 97 % before the Wed 23:00 reset; helpers 84 % of spend, correction/check loop 69 % of that. New `editor-worker` helper (Sonnet) for exact-spec work, Opus plans and checks (Samuel). Five efficiency changes wait on his yes ([[00-System/model-routing|model routing]] → Audit 2026-10-28).
 - **Next action:** no build work queued. Work comes from the live list below.
 
 ## Live work and dates
