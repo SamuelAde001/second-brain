@@ -231,3 +231,4 @@ Back to [[07-Agents/content/profile|Profile]]
 
 - 2026-10-27 — Script draft 1: "What is Called to Edit" (casual talk-to-camera, what it is, what the name means, the plan, Community CTA). No story-bank story. Saved: [[03-Areas/personal-brand/scripts/what-is-called-to-edit|What is Called to Edit]].
 - 2026-10-27 · Brand manager · Put "What is Called to Edit" on Notion (Instagram Content Calendar, Status Script, Series Called to Edit, red section headings, blue B-roll, shot list checkboxes): https://app.notion.com/p/4068d1c17bb78125b446c9e9f4aa1de5
+- 2026-10-28 · Brand manager · Community reminder for the 8:00pm WAT Onboarding Session posted in #announcements, with a Discord event on the weekly-live stage. → [[03-Areas/called-to-edit/called-to-edit-log|Called to Edit log]]
