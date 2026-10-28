@@ -1,3 +1,12 @@
+---
+type: sop
+area: called-to-edit
+status: active
+updated: 2026-10-28
+source: manual
+tags: [automation, teachings, community-call]
+---
+
 # Call to teachings archive (headless prompt)
 
 Read by `call_archive.py`, which fills the {placeholders} and runs it with `claude -p` the same night as the call. Samuel, 2026-10-28: *"I want to be able to get all my meetings on discord transcribed, filtered for what is great knowledge and saved in my teaching archives so that it can be used as content, qoutes, courasoels, by the editing bot etc"*; *"I want it the same night"*.
