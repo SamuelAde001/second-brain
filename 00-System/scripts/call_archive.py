@@ -93,7 +93,7 @@ def file_into_archive(transcript, title, when, length):
     WORK.mkdir(parents=True, exist_ok=True)
     summary_json = WORK / f"summary-{when:%Y-%m-%d-%H%M}.json"
     summary_json.unlink(missing_ok=True)
-    body = PROMPT.read_text(encoding="utf-8").split("\n---\n", 1)[1]
+    body = PROMPT.read_text(encoding="utf-8").split("\n---\n")[-1]  # after the frontmatter and the intro
     for k, v in {"title": title, "date": f"{when:%Y-%m-%d}", "length": length, "transcript": str(transcript),
                  "summary_json": str(summary_json)}.items():
         body = body.replace("{" + k + "}", v)
