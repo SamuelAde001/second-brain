@@ -37,6 +37,8 @@ His older presets, as found 2026-10-28: profiles **1080p 25 fps** and **4k 30fps
 - Start main calls as **scheduled events** (Start event) or by opening the weekly-live stage. The event's name becomes the recording's title.
 - The Drive folder `My Drive\Called to Edit\Community Call Recordings` must be shared as *Anyone with the link → Viewer*, once. Until it is, the bot DMs him instead of posting.
 
+- **Wi-Fi drops (found 2026-10-28):** the PC's USB Wi-Fi dongle (Realtek 8812CU on the 5 GHz extender "Starlink-Ade_5GEXT") dropped 45 times in 7 days, 16 of them on 2026-10-28. 42 of the 45 say "disconnected by the driver". Samuel thinks it happens when Discord uses his speaker; not confirmed. For calls, an Ethernet cable into the PC's own network port avoids it.
+
 ## By hand
 
 - `python 00-System/scripts/meeting_recorder.py status`: is a call live, is OBS recording, the Drive folder link.
