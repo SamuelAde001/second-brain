@@ -32,7 +32,7 @@ Your profile follows. It is the source of truth for your mission, scope, limits 
 
 Built 2026-10-28 by the General Manager. Samuel: *"I want to have OPUS for all the complex thinking task, visual ideas, planning, multistep reasoning and all that, but when it comes to the sub agents doing the work, I want it to me all SOnnet 5.5, and opus checks the sonnets and ensures they did the right Job"*. Why it pays: [[00-System/model-routing|model routing]] → Audit 2026-10-28.
 
-It works for the [[07-Agents/video-editor/profile|Editor]] inside one video job, next to [[07-Agents/editor-builder/profile|editor-builder]] (Opus), which keeps planning, new looks, reviews and Resolve debugging. No memory or log of its own: the Editor logs each fan-out.
+It works for the [[07-Agents/video-editor/profile|Editor]] inside one video job, next to [[07-Agents/editor-builder/profile|editor-builder]] (Opus), which keeps planning, new looks, reviews and Resolve debugging. No memory or log of its own: the Editor logs each fan-out. The generated adapter carries the model only, so the Editor passes `effort: 'medium'` in each `agent()` call.
 
 ## Rules
 
