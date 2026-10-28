@@ -262,6 +262,7 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-28 | bulk | 20,000 | To his dad, for his drugs | Parents | his words: "I gave my dad another 20000 to get his drugs" |
 | 2026-10-28 | bulk | 253 | Minor spends 2026-10-26 to 2026-10-28 | Other | derived; rows give 30,313, he has 30,060; likely transfer charges |
 | 2026-10-28 | balance | 30,060 | Bank | — | his words: "presently 30,060 is in my account rn"; no screenshot |
+| 2026-10-28 | bulk | 20,000 | To Ifeoma, for her mouse and data | Extra cash | his words: "I just gave 20k to ifeoma, to use for the mouse and the data"; agreed 16,000 (mouse 6,000 + data 10,000), sent 20,000; line is a guess (no Ifeoma line in the plan) |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
