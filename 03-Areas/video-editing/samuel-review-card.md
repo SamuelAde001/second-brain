@@ -20,6 +20,7 @@ Samuel, 2026-10-13: *"Anything I corrected in the last video or in the last prev
 - Order: **Samuel's corrections and markers** > creative director standard > older house notes > the client's brand kit (subtle but present). (2026-10-22)
 - The three questions on every visual: is it the best video editors' kind of creative work? would his creative director like it? does it belong on a 10M-follower channel? "Cheap", "flat" and "like AI did it" are the failures. (2026-10-21, 2026-10-22)
 - Keep the standard of the last finals, then do better. A brand never excuses a plain visual: *"use the style and work on it."* (2026-10-21)
+- **The bar is zero revisions.** Route Rise's creative director sees only finished versions; the videos before video 2 got no revisions from him. Ifeoma (personal brand) never touches Route Rise edits. Samuel reviews motion-graphic beats on a preview page before they go on the timeline. (2026-10-28)
 - A fix round touches only what he marked, plus the same correction everywhere else it applies. Don't change what he didn't mark. (2026-10-10, 2026-10-15)
 
 ## His pattern: never static, never "AI-edited" (2026-10-25, 73 markers on video 2; overrules anything below)
