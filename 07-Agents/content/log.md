@@ -237,3 +237,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-28 · Brand manager · Outlined the Community Onboarding Session whiteboard → [[04-Projects/called-to-edit-onboarding-whiteboard|onboarding whiteboard]]
 - 2026-10-28 · Brand manager · Built the onboarding whiteboard on Canva (Samuel: "Build it, white"): new map sources onboarding.py + onb00-08, merged into one paste with onb_merge.py, pasted via Set-Clipboard -AsHtml. Design DAHZTgZ4Rts. → [[04-Projects/called-to-edit-onboarding-whiteboard|onboarding whiteboard]]
 - 2026-10-28 · Brand manager · Researched educational short formats on Instagram (his Chrome) and the web; wrote [[03-Areas/personal-brand/teaching-formats|teaching formats]].
+- 2026-10-28 · Brand manager · Saved Samuel's decision: teaching shorts use the spine, format picked per topic, filmed seated. Updated [[teaching-formats]], write-script skill (new 'A teaching' case), profile Jobs, decisions.

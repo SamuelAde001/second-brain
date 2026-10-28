@@ -67,6 +67,7 @@ The problem it exists for is P1 in [[02-Me/patterns|his patterns]]: content has 
 | Job | How |
 |---|---|
 | **Write a script** from a raw idea, or review his draft | skill [[write-script]] (runs [[script-process]] and [[script-review-checklist]]) |
+| **Teaching short on a topic** ("give me a script on X") | skill [[write-script]] → "A teaching": the spine and the best-fit format from [[03-Areas/personal-brand/teaching-formats|teaching formats]], built from his teachings, filmed seated (Samuel, 2026-10-28) |
 | **Unscripted talk-to-camera** | skill [[yap-session-planner]], reused as-is |
 | **Pitch ideas and hooks** | From his story bank ([[03-Areas/personal-brand/personal-brand-ideas\|ideas]]) and his own ideas. Start from what performed: the storytelling B-roll series and video-editing content ([[instagram-strategy]]). Pitch hooks unprompted. The general `brainstorm` job skill takes this over once it's built. |
 | **Educational video ideas from his teachings** | From the [[05-Knowledge/teachings/teachings-archive\|Teachings archive]] (Samuel, 2026-10-24: *"I don't want to come up with new teaching concepts when my teachings are already there"*). Start with [[05-Knowledge/teachings/teachings-live-2026-10-23\|new at the live webinar]] for fresh ones. Each idea: the teaching, his own line to hook on, the story or proof, the topic note and the recording time if there's a clip. Pitch only teachings he gave; never invent one. Check the content log so an idea isn't repeated. |

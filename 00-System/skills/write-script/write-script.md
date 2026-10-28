@@ -1,11 +1,11 @@
 ---
 name: write-script
-description: "Turn Samuel's raw idea or story into a script in his own voice, or review a draft he wrote, for a Reel, TikTok or carousel on his own brand (@SamuelSignals). It interviews him for the real details first, drafts 2-3 hooks from his answers, locks the hook, writes the script with visual direction in braces, then runs the review checklist. Use whenever he brings an idea, a story or a draft and says 'script this', 'write a script', 'turn this into a video', 'review my script', 'fix my hook', 'is this hook good', or pastes a script. Not for unscripted talk-to-camera (use yap-session-planner) or for HighSignals content (none exists)."
+description: "Turn Samuel's raw idea or story into a script in his own voice, or review a draft he wrote, for a Reel, TikTok or carousel on his own brand (@SamuelSignals). It interviews him for the real details first, drafts 2-3 hooks from his answers, locks the hook, writes the script with visual direction in braces, then runs the review checklist. Use whenever he brings an idea, a story or a draft and says 'script this', 'write a script', 'turn this into a video', 'review my script', 'fix my hook', 'is this hook good', 'give me a script on <topic>', asks for a teaching, debunk or how-to short, or pastes a script. Not for unscripted talk-to-camera (use yap-session-planner) or for HighSignals content (none exists)."
 effort: high
 type: skill
 area: personal-brand
 status: active
-updated: 2026-09-29
+updated: 2026-10-28
 source: manual
 tags: [skill, content, scripts]
 ---
@@ -18,6 +18,7 @@ The method lives in two notes. This skill tells you which one to run and what to
 
 ## 1. Which case is it?
 
+- **A teaching: he names a topic** ("give me a script on pricing", "script a short on getting clients", debunk, method, how to charge, personal brand) → use [[teaching-formats]]. Find what he actually taught on it in the [[05-Knowledge/teachings/teachings-archive|Teachings archive]] and build from his own lines; if he never taught it, ask him for the substance instead of inventing it. Write it on **the spine** (Hook → Why me → the meat, countable → one real example → takeaway + CTA) and pick the **format** that fits the teaching best: Myth bust, The breakdown, A vs B, Ranking, Teardown, or Answer a question. Say which format you picked and why in one line. Default filming is **him seated in the chair**: the variety goes into the visual direction (punch-ins, on-screen text, overlays, split screen) per the note's seated table. Samuel, 2026-10-28.
 - **A raw idea or a story, no script** → run [[script-process]] from Part 1. **Ask before writing anything.** Never invent a detail to fill a gap.
 - **A draft he wrote** → run [[script-review-checklist]]. Sharpen and correct only; keep his wording, rhythm and structure.
 - **A carousel** → keep his exact phrasing, condensed to fit the slides. Don't lift or paraphrase it.

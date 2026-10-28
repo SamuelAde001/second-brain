@@ -9,7 +9,9 @@ tags: [formats, educational, talking-head, reels, research]
 
 # Teaching formats for talking-head shorts
 
-Samuel, 2026-10-28: *"I have the normal format for storytelling, but no format yet for my teachings shorts, I need a format that would always keep them engaged, very valuable and any teaching can fit in it."* Researched on Instagram and the web the same day. Formats below are the Brand manager's recommendation, not his decision until he picks.
+Samuel, 2026-10-28: *"I have the normal format for storytelling, but no format yet for my teachings shorts, I need a format that would always keep them engaged, very valuable and any teaching can fit in it."* Researched on Instagram and the web the same day.
+
+**His decision, 2026-10-28:** *"for general format of script I can always use the spline you shared"* · *"save this all so I can tell you to give me a script on a certain topic, and based on what makes sense, you can use any of them to script it out for me"*. So the spine is the standard script shape for every teaching short, and the Brand manager picks the format per topic. He films seated in his chair. How the skill runs it: [[write-script]] → "A teaching".
 
 The beat-level templates (Myth, Step-by-Step, Common Mistake, Authority) already sit in [[storytelling-structures]]. This note sits above them: one spine every teaching fits, a short set of named formats, and the visual layouts to rotate.
 
@@ -44,6 +46,21 @@ Five beats. Every format below is this spine dressed differently.
 
 **Stretch format:** the **scenario skit**, him playing the client and the editor. Highest effort, highest payoff, and it fits his own lesson from 2026-10-20: show the problem in a scene rather than state it.
 
+## Filming seated in the chair
+
+His default (2026-10-28). Every format works seated; the edit carries the variety.
+
+| Format | What the edit adds |
+|---|---|
+| Myth bust | The myth as text, or as a screenshot above or beside him |
+| The breakdown | A step counter and text for each step, a punch-in on each new step |
+| Ranking | A list or tier graphic that fills in as he goes |
+| Answer a question | The comment sticker at the top |
+| Teardown | The DM or portfolio over the top half, him on the bottom half. An overlay, no real green screen needed |
+| A vs B | Two takes from the same chair (lean or angle differently, or change top), cut back and forth or split screen. Simplest: one take with "BEGINNER" / "PAID EDITOR" labels flipping on screen |
+
+Only the scenario skit really wants a second spot. The risk of the chair is sameness, so every script carries punch-ins, text and B-roll cutaways in its visual direction.
+
 ## Visual layouts to rotate
 
 The same teaching can go out twice in two layouts.
@@ -54,7 +71,7 @@ The same teaching can go out twice in two layouts.
 4. **Text-led**: the steps or ranks build up on screen while he talks.
 5. **Voiceover on B-roll**: from the [[b-roll-archive|B-roll archive]] on days he can't film.
 
-## How to start (recommendation)
+## How to start (the Brand manager's suggestion, not decided)
 
 - Start with **Myth bust, The breakdown and A vs B.** All three fit the spine, need no set, and between them cover every teaching topic.
 - Make five of one format before judging it. Log the format name with each post in the [[content-log|content log]] so the Sunday [[content-report]] can compare formats.
