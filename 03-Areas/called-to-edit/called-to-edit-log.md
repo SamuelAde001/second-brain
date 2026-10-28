@@ -35,3 +35,4 @@ Append-only. Newest at the bottom.
 - 2026-10-28 — Brand manager: Samuel asked for a reminder that today's Onboarding Session is at 8:00pm WAT and how to attend. Posted in #announcements (Member role pinged: join the 🎙️ weekly-live stage, Request to Speak to ask, press Interested) and created a Discord event "Onboarding Session" on the weekly-live stage, 19:00–20:00 UTC. The Brain had no note on the Onboarding Session itself; assumed it is today's Wednesday 8pm live call on that stage.
 
 Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
+- 2026-10-28 — Brand manager: meeting recorder built (Samuel asked). Main Community calls now record by themselves on a new OBS preset ("Called to Edit Meeting", local folder, other OBS presets untouched), go to Drive `Called to Edit\Community Call Recordings`, and the bot posts and pins the link in #announcements. → [[00-System/automations/meeting-recorder|meeting recorder]]

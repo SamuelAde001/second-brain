@@ -198,3 +198,9 @@ Back to [[07-Agents/content/profile|Profile]]
 ## 2026-10-26 — Ifeoma works on his account
 
 - Samuel shared his Claude login with Ifeoma, the creative director (*"I have already shared the login, as I do trust her"*). She says she is **Ifeoma** or **Ivisuals**. The Brand manager answers her brand questions and scripts with her; every other agent holds her requests and tells her to ask Samuel. This replaces the 2026-10-20 hold for the Brand manager only. [[03-Areas/personal-brand/creative-director|creative director]].
+
+## 2026-10-28 — Recording Community calls
+- Discord bots can't receive video; recording a call means OBS on his PC, with Discord open there. OBS WebSocket (port 4455) is on; `meeting_recorder.py` switches OBS to the "Called to Edit Meeting" profile and collection, records, then switches it back.
+- Drive for desktop's `metadata_sqlite_db` (read from a temp copy) gives each file's cloud ID, so the script can make a direct `drive.google.com/file/d/<id>/view` link without the Drive API. A link is public only if fetching it doesn't redirect to accounts.google.com.
+- A Windows logon task (`schtasks /SC ONLOGON`) needs admin here; use a Startup-folder shortcut instead.
+- OBS minimised to the tray ignores `taskkill` without /F. Change a preset's sources over WebSocket (`set_input_settings`) instead of killing OBS.
