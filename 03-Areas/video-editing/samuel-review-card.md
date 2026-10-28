@@ -47,6 +47,7 @@ Samuel, 2026-10-28 ~23:00: *"I need speed and I need quality"*. The bar is the L
 - **S5 The media adjustment clip is three things**, over every screen recording, page and B-roll: NeoAnim in + Vignette + MagicZoom slow zoom-in. *"the adjustment clips you used in this last video was wrong because you only use [NeoAnim]"*.
 - **S6 His intro adjustment clip goes on the intro** (*"there is one adjustment clip I always put at the intro of my videos. I think I put in the last one"*): video 2's V5 0-28, saved as `HK01_samuel_intro_adj.setting`.
 - **S7 Screen recordings and UI visuals as in the videos before video 2** (*"those screen recordings were good"*); motion graphics *"very, very, very creative"*: visuals that show what is being said.
+- **S8 Node layout is his B04 v2 standard, in every comp** (Samuel, 2026-10-28: *"Also I realised from the last video that you have completly abandoned the way I told you to arrange fusion nodes, and you are doing it choticly, making it hard for me to make adjustments myself, please don't do that in this video"*). One main line left to right; each group of similar elements on its own row over its own clear canvas, joined to the main line once; compact, no stray nodes, every node with its ViewInfo position and a type-prefixed name. Rules: ways of working → Node tree layout (2026-10-01/02, reference `build_B04.py` in the Apollo job). Checked on every comp before it goes to Samuel.
 
 ## Route Rise's creative director on video 2 v6 (2026-10-26, 21 Frame.io notes; Samuel: apply everywhere it fits, and on the next videos)
 

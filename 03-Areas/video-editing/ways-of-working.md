@@ -403,4 +403,5 @@ Samuel, 2026-10-28 ~23:00, starting video 4's build after the weekly reset (dead
 - *"nothing should be static. Even the motion graphic area should slowly zoom in"*.
 - *"at the intro, there is one adjustment clip I always put at the intro of my videos. I think I put in the last one"*.
 - Overnight: no approval stops (his yes, 2026-10-28); 39 GB of video 2 draft renders deleted on his yes (finals kept).
-Short form: [[03-Areas/video-editing/samuel-review-card|review card]] → S1-S7.
+- Later the same night: *"Also I realised from the last video that you have completly abandoned the way I told you to arrange fusion nodes, and you are doing it choticly, making it hard for me to make adjustments myself, please don't do that in this video"* Video 2's comps broke the B04 v2 node layout (above, 2026-10-02). Every video 4 comp follows it and is checked for it (review card S8).
+Short form: [[03-Areas/video-editing/samuel-review-card|review card]] → S1-S8.
