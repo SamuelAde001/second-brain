@@ -32,6 +32,7 @@ SITE_DIR = Path(r"C:\Users\repzy\Desktop\called-to-edit-site")
 GIT_BASH = Path(r"C:\Program Files\Git\bin\bash.exe")
 
 MODEL = "large-v3-turbo"
+CHUNK_S = 600             # transcribe 10 minutes at a time
 FILTER_MODEL = "opus"     # judgement on his teaching; Max 20x
 FILTER_TIMEOUT = 60 * 60  # seconds
 
@@ -76,13 +77,16 @@ def transcribe(path):
     model = _model()
     lines = []
     for track, who in plan:
-        segs, _ = model.transcribe(_pcm(path, track), language="en", vad_filter=True,
-                                   vad_parameters={"min_silence_duration_ms": 700}, condition_on_previous_text=False,
-                                   initial_prompt="Called to Edit, video editing, CapCut, DaVinci Resolve, clients, outreach, portfolio.")
-        for s in segs:
-            text = s.text.strip()
-            if text:
-                lines.append((s.start, who, text))
+        pcm = _pcm(path, track)
+        # in CHUNK_S pieces: whole-call feature extraction ran out of memory on the 73-minute 2026-10-28 call
+        for i in range(0, len(pcm), CHUNK_S * 16000):
+            segs, _ = model.transcribe(pcm[i:i + CHUNK_S * 16000], language="en", vad_filter=True,
+                                       vad_parameters={"min_silence_duration_ms": 700}, condition_on_previous_text=False,
+                                       initial_prompt="Called to Edit, video editing, CapCut, DaVinci Resolve, clients, outreach, portfolio.")
+            for s in segs:
+                text = s.text.strip()
+                if text:
+                    lines.append((i / 16000 + s.start, who, text))
     lines.sort()
     out.write_text("".join(f"[{ts(t)}] {who}: {text}\n" for t, who, text in lines), encoding="utf-8")
     return out, len(lines)

@@ -64,6 +64,13 @@ His older presets, as found 2026-10-28: profiles **1080p 25 fps** and **4k 30fps
 
 - **Wi-Fi drops (found 2026-10-28):** the PC's USB Wi-Fi dongle (Realtek 8812CU on the 5 GHz extender "Starlink-Ade_5GEXT") dropped 45 times in 7 days, 16 of them on 2026-10-28. 42 of the 45 say "disconnected by the driver". Samuel thinks it happens when Discord uses his speaker; not confirmed. For calls, an Ethernet cable into the PC's own network port avoids it.
 
+## First real call, 2026-10-28 (Onboarding Session, 20:00–21:14)
+
+- **Recording: fine.** 1 h 13 min, 822 MB, scenes followed his screen share, it survived a 3-minute internet drop at 20:21, and it was copied to Drive at 21:14.
+- **Transcription crashed out of memory** (the whole call's audio went through at once, and only 5 GB of RAM was free). Fixed: `call_archive.py` now transcribes 10 minutes at a time. Rerun by hand at 21:40: 962 lines in 263 s, 8 teachings filed, pushed.
+- **His mic was doubled on track 4.** The Meeting scene uses a second mic source, "Samuels mic", added in OBS by hand, not by `setup-obs`, and it was on all 6 tracks. So his voice came out as `Member` too. It's now on tracks 1–3 only, like "Samuel mic". In tonight's transcript, 241 doubled lines were removed (the raw copy is kept beside it as `.raw.txt`).
+- **The bot deploy failed:** `netlify` was installed from inside the Claude desktop app, so it lives in that app's private AppData copy (`%LOCALAPPDATA%\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\npm`). Its sign-in is there too. Programs started outside the app, like the recorder at logon, can't see either. `deploy.sh` now runs the CLI by its real path, but outside the app Netlify is still signed out, so the same-night bot deploy fails until Netlify is signed in outside the app (open question). Deployed by hand from the app tonight.
+
 ## By hand
 
 - `python 00-System/scripts/meeting_recorder.py status`: is a call live, is OBS recording, the Drive folder link.
