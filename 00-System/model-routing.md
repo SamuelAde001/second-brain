@@ -81,13 +81,32 @@ Samuel upgraded to Max 20x on 2026-10-24 to edit faster: *"I'm looking for speed
 10. **Lean helper type** [[07-Agents/editor-builder/profile|editor-builder]] for builders and reviewers (six tools instead of the full set). Captures in Chrome and anything that needs MCP use the default helper. Unmeasured until its first run.
 11. **Short brief:** Samuel's review card, the client's brand note, the beat's record and the kit's API. Not the long notes. Tool output is counts and paths.
 12. **Images:** one contact sheet per beat (1280 px wide at most), read once near the end.
-13. **Sonnet for mechanical helpers:** `model: 'sonnet', effort: 'medium'` on install lists, captures from a given URL list, transcript formatting, stills sheets, cache and render babysitting. Planners, builders and reviewers stay on Opus.
+13. **Opus thinks, Sonnet works (Samuel, 2026-10-28; replaces "builders stay on Opus").** Work that carries out an exact spec runs on [[07-Agents/editor-worker/profile|editor-worker]] (Sonnet 5.5, medium): building a beat from an approved hero frame or library comp, applying fix specs, captures from a list, transcripts, stills sheets, renders. Opus ([[07-Agents/editor-builder/profile|editor-builder]] or the main session) keeps the visual plan, new looks, turning a correction into a fix spec, every review and section pass, and Resolve debugging. A worker returns anything vague or failed twice as `needs Opus`. See Audit 2026-10-28 below.
 14. **Budget per video:** weekly % at each stage (cut, plan, build, each review round, sound) in the job note. `usage_audit.py --session <id>` at the end-of-job review. The bar read 0 % right after the upgrade, so the first full video on 20x gives the real cost.
 
 ### 4. Memory
 
 15. **[[03-Areas/video-editing/samuel-review-card|Samuel's review card]]** holds every correction he has given, one line each. Every builder and reviewer works from it. When he gives markers or a correction, the Editor adds the rule there in the same session.
 16. **The library** (rule 6) carries what was built and approved. The job note's RESUME blocks carry the state of a job across sessions, and the Editor's memory carries technical lessons.
+
+## Audit 2026-10-28: where 20x went, and Opus thinks / Sonnet works
+
+Samuel, 2026-10-28: *"even with my MAX plan I am still burning a lot of tokens"*. Weekly card at 97 % on the morning of the Wed 23:00 reset, after running out on 2026-10-27 (v7c re-rendered with no cross-checks). Measured with `usage_audit.py --since 2026-10-24` (2,580 cost units; the script had counted Opus cache reads at USD 0.40 instead of 0.20 per 1M, fixed the same day, so earlier totals in this note run high):
+
+- **Workflow helpers 84 %**, main sessions 15 %. 901 helpers, 35,262 turns, all on Opus; 0 Sonnet turns.
+- **The correction and check loop is 69 % of helper spend; building is 6 %.** By phase: fix 31 %, verify 14 %, review 11 %, check 9 %, sweep 6 %, build 6 %, confirm 3 %. Video 2's two correction rounds (Samuel's 73 markers, then the creative director's) were 31 % of everything in 5 days: 273 + 149 helpers, about one fixer plus one checker per marker.
+- **Big helpers cost most:** median helper 2.4 units, the costliest ran to the 300k guard at ~14 units each; the top 10 % of helpers were 30 % of helper cost. Cost grows with turns × context.
+- **What helper cost is made of:** output (thinking + writing) 38 %, context re-reads 35 %, cache writes 28 %. Images: 5,155 read by helpers, 1,785 of them in verify.
+- **Fixed start-up load per main session** (usage card, this session): system tools 37k, MCP tools 20k, system prompt 10k, skills list 10k, CLAUDE.md + AGENTS.md 9k = ~87k tokens before a word. Editor sessions then read ~70k more of required notes (ways of working and Resolve lessons are 391 and 400 lines, over the 300-line split).
+
+**Sonnet for the workers, Opus thinking and checking (Samuel's ask).** Possible: the [[07-Agents/editor-worker/profile|editor-worker]] helper type runs on Sonnet; Opus plans and reviews (rule 13 above). Cost at the same amount of work: Sonnet is half price on output and cache writes but **the same price on cache re-reads** (USD 0.20 per 1M both), so it saves ~30 % per helper, not 50 %. On last week's mix, moving only the worker phases (fix, build, check, sweep, pages, captures) saves ~20 % of helper spend, ~16 % of the week; all phases would be ~30 % but puts reviews on Sonnet. The saving is gone only if Sonnet needs ~45 % more tokens for the same piece, which it shouldn't on an exact spec. Quality holds where the spec is exact and the reference is approved; it drops on taste calls, vague corrections and new Resolve failures, which stay on Opus. Opus already checks every piece (review, verify, check, confirm), so Sonnet adds no new check cost. The Max weighting of Sonnet vs Opus isn't published; API prices are the proxy.
+
+**Bigger than the model: rework and check layers (General Manager's recommendations, waiting on Samuel's yes):**
+1. **Batch corrections per section, not per marker.** Opus turns a round of markers into one fix-spec list per section; one worker applies a section's list, one Opus reviewer checks the section's contact sheet. ~15-20 helpers for a 70-marker round, not ~270.
+2. **One check layer per fault.** Reviewer (Opus) writes the fault as an exact fix spec; worker fixes and runs the scripted checks; the section pass (rule 8) is the final look. The separate verify and confirm layers (17 %) only for faults the reviewer marks unsure.
+3. **The creative director sees the hero frames** (rule 5) with Samuel, before build. Her corrections after delivery cost video 2 a whole extra round.
+4. **Size briefs to finish by ~150k context**, not the 300k guard: same total work, about half the re-reading. The guard stays where Samuel set it.
+5. **Render queue** (rule 2) is still not built, and remains the speed limit when helpers render.
 
 ## The map
 

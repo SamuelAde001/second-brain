@@ -410,3 +410,9 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Why**: Samuel, 2026-10-26: *"I have already shared the login, as I do trust her, so go ahead and set up her work, she would tell you she is ifeoma or Ivisuals"*.
 **Replaces**: the open route in the entry above. The General Manager's objection there stands as logged and is not raised again (AGENTS.md rule 2).
 **Who decided**: Samuel. Her session flow (cloud session, no recap, scripts marked *with Ifeoma*, ideas marked *(Ifeoma)*, a log line per session) is the General Manager's.
+
+## 2026-10-28: Opus thinks, Sonnet works on video jobs
+**Decision**: The Editor's helpers that carry out an exact spec run on Sonnet 5.5 as the new `editor-worker` helper type; Opus keeps the plan, new looks, turning corrections into fix specs, every review and the section pass, and Resolve debugging. Rule 13 in [[00-System/model-routing|model routing]] → On Max 20x, the Editor profile and the roster updated. The five efficiency changes in model routing → Audit 2026-10-28 (batch corrections per section, one check layer, creative director on hero frames, briefs sized to ~150k, render queue) are the General Manager's recommendations and wait on Samuel's yes.
+**Why**: Samuel, 2026-10-28: *"when it comes to the sub agents doing the work, I want it to me all SOnnet 5.5, and opus checks the sonnets and ensures they did the right Job"*. Audit: helpers 84 % of spend, all Opus; worker phases on Sonnet save ~16 % of a week at the same work; the correction and check loop (69 % of helper spend) is the larger loss.
+**Replaces**: "Planners, builders and reviewers stay on Opus" (2026-10-24).
+**Who decided**: Samuel (Sonnet workers, Opus checking). The split of which pieces count as exact-spec work is the General Manager's.

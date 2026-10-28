@@ -6,8 +6,8 @@ cost by kind, what the cost is made of, helper start-up weight, cache lost to lo
 waits, images, and the costliest sessions with their first line.
 
 Cost is in USD at API prices (the best proxy for the usage card; Anthropic doesn't
-publish the weighting): Opus 5.5 in 4 / cache write 5 / cache read 0.4 / out 20 per 1M,
-Sonnet half. Helpers run on a 5-minute cache, main sessions on a 1-hour one (checked
+publish the weighting): Opus 5.5 in 4 / cache write 5 / cache read 0.2 / out 20 per 1M; Sonnet 5.5
+2 / 2.5 / 0.2 / 10 (cache reads cost the same on both; claude-api reference, 2026-10-28). Helpers run on a 5-minute cache, main sessions on a 1-hour one (checked
 2026-10-24), so a helper tool call that takes over 5 minutes rewrites its whole context.
 
 Usage:
@@ -26,7 +26,7 @@ import os
 import re
 
 ROOT = os.path.expanduser(r"~/.claude/projects/C--Users-repzy-Desktop-My-Second-brain")
-PRICE = {"opus": (4, 5, 0.4, 20), "sonnet": (2, 2.5, 0.2, 10), "haiku": (1, 1.25, 0.1, 5)}
+PRICE = {"opus": (4, 5, 0.2, 20), "sonnet": (2, 2.5, 0.2, 10), "haiku": (0.1, 0.125, 0.01, 0.5)}
 GAP = 300  # seconds: the helpers' cache lifetime
 
 
@@ -112,7 +112,7 @@ def main():
     print(f"Total: {total:,.0f} cost units (USD at API prices)")
     for kind, rs in sorted(groups.items()):
         c = sum(r["cost"] for r in rs)
-        cr = sum(r["cr"] for r in rs) * 0.4 / 1e6
+        cr = sum(r["cr"] for r in rs) * 0.2 / 1e6
         cw = sum(r["cw"] for r in rs) * 5 / 1e6
         out = sum(r["out"] for r in rs) * 20 / 1e6
         lost = sum(r["lost"] for r in rs) * 5 / 1e6
@@ -122,7 +122,7 @@ def main():
               f"  | Sonnet turns {sum(r['sonnet'] for r in rs)}  | images read {sum(r['images'] for r in rs)}")
         if kind != "main sessions":
             starts = sorted(r["first_ctx"] for r in rs)
-            start_cost = sum(r["turns"] * r["first_ctx"] for r in rs) * 0.4 / 1e6
+            start_cost = sum(r["turns"] * r["first_ctx"] for r in rs) * 0.2 / 1e6
             print(f"  start-up context median {starts[len(starts) // 2]:,} tokens, re-read every turn: ~{start_cost:,.0f} ({start_cost / c:.0%})")
             print(f"  cache rewritten after a wait over 5 min: ~{lost:,.0f} ({lost / c:.0%})")
     mains = sorted(groups.get("main sessions", []), key=lambda r: -r["cost"])[:10]
