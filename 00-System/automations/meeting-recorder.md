@@ -42,7 +42,7 @@ Samuel, 2026-10-28: *"I want to be able to get all my meetings on discord transc
 
 **Main Mic, always** (Samuel, 2026-10-28: *"My main mic is always the one to be recorded for me"*): the preset's mic is pinned by device ID to Main Mic (High Definition Audio Device), taken from his Course rec preset, not to the Windows default.
 
-**Needs Samuel once:** the command-line Claude Code on the PC isn't signed in (*"Not logged in · Please run /login"*), and the Brain folder isn't trusted there yet. Until he opens a terminal, runs `claude` in the Brain folder, accepts the trust prompt and signs in with /login on his Max account, step 2 falls back to Gemini (summary only; archive filing waits for the next session).
+**Done 2026-10-28:** Samuel signed in the command-line Claude (`claude.cmd`, because PowerShell blocks `claude.ps1`) and trusted the Brain folder. The headless filing then ran in 37 s on the test call. What it was before: the command-line Claude Code on the PC wasn't signed in (*"Not logged in · Please run /login"*), and the Brain folder isn't trusted there yet. Until he opens a terminal, runs `claude` in the Brain folder, accepts the trust prompt and signs in with /login on his Max account, step 2 falls back to Gemini (summary only; archive filing waits for the next session).
 
 ## The OBS meeting preset
 
