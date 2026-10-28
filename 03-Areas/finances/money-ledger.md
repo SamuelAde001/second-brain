@@ -255,6 +255,13 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-26 | in | 8,806 | Flutterwave webinar settlement to personal | — | his words: "the remaining 8,806 just came in"; Flutterwave now empty (19,570 + 8,806 = 28,376) |
 | 2026-10-26 | bulk | 54 | Minor spends 2026-10-26 | Other | derived; rows give 49,711, he has 49,657; likely transfer charges |
 | 2026-10-26 | balance | 49,657 | Bank | — | his words: "I now have 49,657 left in my account"; no screenshot; before the 20,000 to his dad (not sent yet) |
+| 2026-10-26 | bulk | 25,000 | To his dad, transport to hospital treatment | Parents | his words: "I sent 25,000 to my dad on 26th october for his transportation to the hospital treatment"; told 2026-10-28; after the 49,657 balance (arithmetic fits) |
+| 2026-10-27 | in | 7,828 | Flutterwave settlement to personal | — | his words: "7,828 came to my personal account from flutter wave" |
+| 2026-10-27 | in | 10,000 | Repaid by the person he gave money to | — | his words: "10,000 was repaid to me by the person I gave money to"; given money is never counted on, this came back anyway |
+| 2026-10-28 | in | 7,828 | Flutterwave settlement to personal | — | his words: "Today, we have 7,828 that came from flutter wave" |
+| 2026-10-28 | bulk | 20,000 | To his dad, for his drugs | Parents | his words: "I gave my dad another 20000 to get his drugs" |
+| 2026-10-28 | bulk | 253 | Minor spends 2026-10-26 to 2026-10-28 | Other | derived; rows give 30,313, he has 30,060; likely transfer charges |
+| 2026-10-28 | balance | 30,060 | Bank | — | his words: "presently 30,060 is in my account rn"; no screenshot |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
