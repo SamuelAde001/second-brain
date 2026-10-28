@@ -426,3 +426,8 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Why**: Samuel, 2026-10-28: *"Install this mod for me"*.
 **Objection (General Manager, logged once)**: the mod's first question sends simple and back-and-forth prompts to `low`, and Samuel's floor is *"No use of low effort, the lowest is medium"* (2026-09-29). In suggest mode he can pick Keep; auto mode would drop to `low` silently. Offered: patch the local copy so it never picks below `medium`. It also adds one Sonnet call per typed prompt to the shared limits. His call.
 **Who decided**: Samuel (install). The objection stands as logged.
+
+## 2026-10-28 (later): Effort Optimizer floored at medium
+**Decision**: The local copy of the Effort Optimizer mod is patched to v0.1.1: its picker prompt sends simple prompts to `medium` and never offers `low`, and any `low` answer is raised to `medium` in code (`FLOOR` in `hooks/register.tsx`). Reinstalled from `%USERPROFILE%\.claude\local-marketplaces\benai-effort-optimizer\`. If Ben AI ships a new version, the patch has to be reapplied.
+**Why**: Samuel, 2026-10-28: *"Yes, floor at Medium"*, answering the objection in the entry above, which is now resolved.
+**Who decided**: Samuel. The patch is the General Manager's.
