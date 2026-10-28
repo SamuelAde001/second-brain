@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-10-28
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -279,5 +279,13 @@ What he said live that the prep didn't have, or said better. Times are from the 
 **How long to learn** (from the Q&A, [3:11:48]): *"If you find yourself focusing on everything, you will find yourself spending one year to learn. But if I tell you to learn how to cut videos for podcasts and put subtitles, you will need just one week."* With a proper niche, one month, if you're serious.
 
 **Be self-taught** (Q&A, [3:09:04]): break editing into small pieces (colour grading, typography) and each one is learnable on YouTube. *"I never bought one course. The only thing I ever paid for in my video editing journey was a community."* He read a 1,000-page DaVinci Resolve book on Fusion to master it. *"If you don't know how to learn things by yourself, you'll never become a master."* When a style isn't on YouTube, ask editors who do it; he once **paid an editor to teach him a style** [3:02:59].
+
+## Community calls
+
+What he taught on Called to Edit Community calls. Times are from the start of each call's recording; each call's note is listed in the [[05-Knowledge/teachings/teachings-archive|archive]].
+
+### Call 2026-10-28: master your software in 30 days, and post while you learn
+- To a member whose 60-day goal was to master DaVinci Resolve: **Call 2026-10-28 [1:04:52]** *"Try and master it in 30 days instead of 60 days."*
+- **Call 2026-10-28 [1:05:07]** *"As you're trying to learn, document your journey, document the things that you've been able to achieve. If you did any edit, post it, talk about it. You need to share your story and your journey for people to be able to follow up."*
 
 [[05-Knowledge/teachings/teachings-01-story-and-mindset|← Story and mindset]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-03-tools-and-money|Tools and money to start →]]

@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-10-28
 source: interview
 tags: [teachings, called-to-edit, content-source, archive]
 ---
@@ -46,8 +46,13 @@ Read in order, or jump to the one you need. Each note has the teaching, the poin
 | The live webinar, Fri 2026-10-23, 7:00pm WAT | his OBS recording, 3h34m, 4K: the transcript's source | `C:\Users\repzy\Videos\2026-10-23 19-05-49.mp4` |
 | | Google Meet recording (attendee view, 2.0 GB) | Google Drive, *Called to Edit Live Webinar - 2026/10/23 18:56 WAT - Recording* |
 | | transcript (Whisper large-v3-turbo, machine-made: names and numbers can be misheard) | `Desktop\Called to Edit\Videos\Webinar recording 2026-10-23 (Brand manager)\` as `.txt` (timed lines) and `.srt` |
+| Community call, Wed 2026-10-28, 8:00pm WAT | Onboarding Session, 1 h 13 min, Discord; transcript (Whisper, machine-made) | `C:\Users\repzy\Videos\Called to Edit Meetings\transcripts\Meeting 2026-10-28 20-00.txt` · [[05-Knowledge/teachings/calls/teachings-call-2026-10-28\|call note]] |
 
 Times marked **Live [h:mm:ss]** are from the start of the OBS recording (it began at 19:05:49 WAT).
+
+## Community calls
+
+- 2026-10-28, Onboarding Session (1 h 13 min): the 60-day challenge, the Discord tour, and the formula *visibility + outreach + skill*; 8 items filed. [[05-Knowledge/teachings/calls/teachings-call-2026-10-28|Call note]]
 
 ## Adding to it
 

@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-10-28
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -119,5 +119,15 @@ What he said live that the prep didn't have, or said better. Times are from the 
 - **Live [2:49:20]** The first-client formula, said live: good skill · strong personal brand · strong portfolio · outreach · networking. *"I have mentored people that it has worked for."*
 - **International clients** (Q&A, [3:13:28]): book a Google Meet or Zoom, not a phone call. He has also taken client calls on Instagram and Twitter, but prefers Meet.
 - **Pitching for higher pay** (Q&A, [3:28:09]): there's a way to pitch so you're worth more; he said he'd cover it in the community.
+
+## Community calls
+
+What he taught on Called to Edit Community calls. Times are from the start of each call's recording; each call's note is listed in the [[05-Knowledge/teachings/teachings-archive|archive]].
+
+### Call 2026-10-28: visibility plus outreach plus skill
+- **Call 2026-10-28 [1:07:15]** *"Visibility plus outreach plus your skill will give you clients. That's the formula we are going to stay on in this community."*
+- **Call 2026-10-28 [1:07:34]** *"You must be visible, you must be good, and you must know how to outreach."* Good: *"learn your software and master it."* Outreach: *"reach out to the right clients."*
+- Each part alone isn't enough. **Call 2026-10-28 [1:07:10]** *"Without visibility you're not going to get clients."* And [0:13:35]: *"No matter how much you reach out to clients, if your skills are bad, you won't be able to get any clients."*
+- A shorter version of the webinar's first-client formula above [2:49:20].
 
 [[05-Knowledge/teachings/teachings-08-finding-clients|← Finding clients]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-10-pricing-and-getting-paid|Pricing and getting paid →]]

@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-10-28
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -159,5 +159,13 @@ What he said live that the prep didn't have, or said better. Times are from the 
 - **Live [0:37:03]** **The skill is the car; the result is the destination.** A driver focuses on where he's going, not on the car. *"If I start the car and I'm moving in circles, is that going to get me the results I want?"* That's most editors: learning the skill with no result in view. [1:04:31] *"If you are not driving a car to a destination, your driving skill is useless... the same way your video editing skill is useless if it is not aimed at a result."*
 - **Live [0:41:33]** *"There's no use learning a skill if you don't understand what it is trying to achieve."*
 - **Live [0:42:06]** The tailor, live: sewing for Japan, China, Nigeria and Brazil makes you *"a jack of all trades, master of none."* His own mistake: he edited every kind of video, *"any deal as far as money is coming"*, and got no results and no clients, *"because I was everywhere, which means I'm nowhere."*
+
+## Community calls
+
+What he taught on Called to Edit Community calls. Times are from the start of each call's recording; each call's note is listed in the [[05-Knowledge/teachings/teachings-archive|archive]].
+
+### Call 2026-10-28: you do the work
+- **Call 2026-10-28 [0:15:36]** *"I can only teach you and guide you. At the end of the day, you will be the one to work."*
+- **Call 2026-10-28 [1:08:49]** *"The community is starting by your work. I'm going to be teaching every Wednesday, but you are the one that is doing the work."*
 
 [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-02-learning-the-skill|Learning the skill →]]

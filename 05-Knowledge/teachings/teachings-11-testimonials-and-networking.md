@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-10-28
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -81,5 +81,16 @@ What he said live that the prep didn't have, or said better. Times are from the 
 - **Live [2:51:18]** He showed his mentor's written testimonial (*"very committed, excellent skill... open to feedback"*). Pin testimonials on your portfolio, your profile and your pinned post.
 - **Live [2:52:32]** *"Other video editors have more potential to help you, refer you and recommend you than you can ever imagine."* See an editor doing good work? DM them: *"Hey bro, I saw your work, that's nice."* Become friends.
 - **Live [1:52:37]** Twitter demo: search "video editors", join communities like *Video Editors of X*, and find editors in every niche to learn from and befriend.
+
+## Community calls
+
+What he taught on Called to Edit Community calls. Times are from the start of each call's recording; each call's note is listed in the [[05-Knowledge/teachings/teachings-archive|archive]].
+
+### Call 2026-10-28: don't abandon your past projects
+- To a member who had edited for clients who paid little: **Call 2026-10-28 [0:50:58]** *"If you've worked for other people, build that testimonial. Build the credibility based on all that project you've worked on. Some of us throw the project we've worked on in the past and abandon it."*
+
+### Call 2026-10-28: community is the fastest way to grow
+- **Call 2026-10-28 [0:10:46]** After five years editing and working with many other editors: *"Community growth is the fastest way of establishing something substantial."*
+- **Call 2026-10-28 [0:11:02]** *"One of the times that video editing changed my life, the trajectory, was when I joined some kind of community."*
 
 [[05-Knowledge/teachings/teachings-10-pricing-and-getting-paid|← Pricing and getting paid]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-12-webinar-qa|Webinar Q&A →]]

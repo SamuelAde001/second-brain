@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-10-28
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -118,5 +118,18 @@ What he said live that the prep didn't have, or said better. Times are from the 
 - **Live [2:02:41]** He showed his posts: phone propped up recording him working, his struggles (*"today I'm going to be more productive"*), his timeline. *"The two views, the 20 views are real human beings."*
 - **Live [2:03:53]** *"Personal branding is about documenting your journey, documenting your story, and building an online reputation."*
 - **Live [2:05:17]** An authority post, his own from 2025: *"As a video editor, your next video should always be an improvement over your previous video."* Authority posts are you sharing what you just learned.
+
+## Community calls
+
+What he taught on Called to Edit Community calls. Times are from the start of each call's recording; each call's note is listed in the [[05-Knowledge/teachings/teachings-archive|archive]].
+
+### Call 2026-10-28: your posts are what close your outreach
+- Said to a member who stops posting whenever client work comes in, and loses the momentum.
+- **Call 2026-10-28 [0:48:03]** *"You might think that your outreach does not have anything to do with your posting, but let me tell you: every time you outreach, the client will try to find out who you are, and that's where your personal brand will speak for you."*
+- **Call 2026-10-28 [0:48:16]** He has seen it *"over and over again"*: the client researches who you are, *"and once they see who you are and they love what you've been putting online, then they can trust you enough"* to take your outreach.
+
+### Call 2026-10-28: edit the videos you want to be known for
+- To a member with no personal brand yet: **Call 2026-10-28 [0:54:40]** *"That's your first work. People need to know you. Video editing is a visual work. People need to see your work and evidence of your work."*
+- **Call 2026-10-28 [0:54:51]** *"Start putting yourself out there. Edit the videos that you want people to know you for, and share your journey."*
 
 [[05-Knowledge/teachings/teachings-05-choosing-a-niche|← Choosing a niche]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-07-portfolio-and-packaging|Portfolio and packaging →]]

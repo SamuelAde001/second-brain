@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-10-28
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -107,5 +107,14 @@ What he said live that the prep didn't have, or said better. Times are from the 
 **The offer sentence, live** [1:01:43]: who you help (*"they have a name, they have an occupation"*) · what result · which method. *"I help fitness coaches drive more sales through well-created engaging videos for their Instagram."* And *"Do you see me saying 'I am a video editor'?"* Another: *"I help sports creators edit their videos so that they can get more views"* [0:39:50]: *"now your editing has a purpose."*
 
 **Mixing niches** (Q&A, [3:25:41]): only similar ones (business, SaaS, AI). *"You can't be mixing talking-head long-form business with someone on TikTok dancing."* Skills transfer across niches (he has edited business talking heads, trading, vlogs, drop-shipping), *"but the best is specialized"* [3:21:31].
+
+## Community calls
+
+What he taught on Called to Edit Community calls. Times are from the start of each call's recording; each call's note is listed in the [[05-Knowledge/teachings/teachings-archive|archive]].
+
+### Call 2026-10-28: start with one
+- A member asked about short form or long form: *"I could do both."* His answer, **Call 2026-10-28 [0:55:12]**: *"No, don't do both. Start with one."*
+- **Call 2026-10-28 [0:55:29]** *"It is better you are best in one thing than you are mediocre in multiple things. Start somewhere to build your foundation, and then you establish across other places that you can spread."*
+- To a member who named several things they wanted to build: *"I need you to be very clear about what you are trying to build"* [1:00:00]. **Call 2026-10-28 [1:00:26]** *"International clients need people that are good in a particular thing."*
 
 [[05-Knowledge/teachings/teachings-04-editing-decisions|← Editing decisions]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-06-visibility-and-personal-brand|Visibility and personal brand →]]
