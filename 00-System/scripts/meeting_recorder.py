@@ -59,6 +59,7 @@ BRAIN_LOG = BRAIN / "06-Logs" / "automation" / "meeting-recorder.md"
 
 # Mic: the Windows default input, which is what Discord uses on "Default" (Main Mic on 2026-10-28).
 POLL = 15            # seconds between Discord checks
+SHARE_POLL = 5       # seconds between screen-share checks while recording
 START_AFTER = 2      # live on this many checks in a row before recording
 STOP_AFTER = 4       # not live on this many checks in a row before stopping (1 min)
 MAX_HOURS = 4        # safety stop
@@ -171,12 +172,22 @@ def owner_id():
     return gd["owner_id"] if st == 200 else None
 
 
-def samuel_in(channel_id):
-    uid = owner_id()
-    if not uid:
+_owner = None
+
+
+def samuel_voice():
+    """Samuel's voice state ({} when he's in no call): channel_id, self_stream (screen-sharing), ..."""
+    global _owner
+    _owner = _owner or owner_id()
+    if not _owner:
         return None
-    st, vs = dc("GET", f"/guilds/{cfg()['guild']}/voice-states/{uid}")
-    return st == 200 and vs and vs.get("channel_id") == channel_id
+    st, vs = dc("GET", f"/guilds/{cfg()['guild']}/voice-states/{_owner}")
+    return vs if st == 200 and vs else ({} if st == 404 else None)
+
+
+def samuel_in(channel_id):
+    vs = samuel_voice()
+    return None if vs is None else vs.get("channel_id") == channel_id
 
 
 def dm_samuel(text):
@@ -399,9 +410,29 @@ def run():
     s = load_state()
     if s.get("recording"):
         log("Found a recording left open from before a restart; will stop it if the call is over.")
-    live_n = idle_n = 0
+    live_n = idle_n = tick = 0
     warned_absent = False
+    shown = None  # the OBS scene we last put up
     while True:
+        time.sleep(SHARE_POLL)
+        tick += 1
+        s = load_state()
+        if s.get("recording"):
+            # follow his screen share: whole monitor while he shares, the Discord window otherwise
+            try:
+                vs = samuel_voice()
+                if vs is not None:
+                    want = "Screen" if vs.get("self_stream") else "Meeting"
+                    if want != shown:
+                        obs_client(wait=5).set_current_program_scene(want)
+                        log(f"Scene: {want}")
+                        shown = want
+            except Exception as e:
+                log(f"Scene follow error: {e}")
+        else:
+            shown = None
+        if tick % (POLL // SHARE_POLL):
+            continue
         try:
             live, title, chan = call_live()
             s = load_state()
@@ -429,7 +460,6 @@ def run():
                         idle_n = 0
         except Exception as e:
             log(f"Watcher error: {e}\n{traceback.format_exc()}")
-        time.sleep(POLL)
 
 
 def start_recording(title, chan):
@@ -488,7 +518,11 @@ def _publish_safe(path, title, started):
 
 def setup_obs():
     if obs_running():
-        sys.exit("Close OBS first (it rewrites its config on exit).")
+        cl = obs_client(wait=5)
+        if PRESET in (cl.get_profile_list().current_profile_name,
+                      cl.get_scene_collection_list().current_scene_collection_name):
+            sys.exit("OBS is on the meeting preset; switch it to another one (or close OBS) first.")
+        # OBS reads a profile and collection from disk when it switches to them, so rewriting is safe now
     # profile: copy his 1080p profile, then change what a meeting needs
     src, dst = OBS_DIR / "basic" / "profiles" / BASE_PROFILE, OBS_DIR / "basic" / "profiles" / PRESET_DIR
     if not dst.exists():
@@ -529,7 +563,8 @@ def setup_obs():
     (dst / "streamEncoder.json").unlink(missing_ok=True)
     LOCAL_DIR.mkdir(parents=True, exist_ok=True)
 
-    # scene collection: one scene, the Discord window, his mic, Discord's sound (+ a backup track)
+    # scene collection: "Meeting" (the Discord window) and "Screen" (his whole monitor, used while he
+    # screen-shares), both with the same sound: track 1 = everything he hears + his mic, track 2 = Discord + mic
     def src_(name, sid, settings, mixers, volume=1.0):
         return {"prev_ver": 536870914, "name": name, "uuid": str(uuid.uuid4()), "id": sid, "versioned_id": sid,
                 "settings": settings, "mixers": mixers, "sync": 0, "flags": 0, "volume": volume, "balance": 0.5,
@@ -537,28 +572,37 @@ def setup_obs():
                 "push-to-talk": False, "push-to-talk-delay": 0, "hotkeys": {}, "deinterlace_mode": 0,
                 "deinterlace_field_order": 0, "monitoring_type": 0, "private_settings": {}}
     win = "Discord:Chrome_WidgetWin_1:Discord.exe"
-    sources = [
-        src_("Discord window", "window_capture", {"window": win, "priority": 2, "method": 2, "cursor": False,
-                                                  "client_area": True}, 255),
-        src_("Discord sound", "wasapi_process_output_capture", {"window": win, "priority": 2}, 1),      # track 1
+    monitor = next(s["settings"]["monitor_id"] for s in json.loads(
+        (OBS_DIR / "basic" / "scenes" / "Course_rec.json").read_text(encoding="utf-8"))["sources"]
+        if s["id"] == "monitor_capture")  # his one monitor, as his Course rec preset captures it
+    discord_win = src_("Discord window", "window_capture", {"window": win, "priority": 2, "method": 2,
+                                                            "cursor": False, "client_area": True}, 255)
+    screen = src_("Full screen", "monitor_capture", {"monitor_id": monitor, "method": 0, "capture_cursor": True}, 255)
+    sound = [
+        src_("Desktop sound", "wasapi_output_capture", {"device_id": "default"}, 1),            # track 1
         src_("Samuel mic", "wasapi_input_capture", {"device_id": "default"}, 3),  # Windows default mic, as Discord uses; tracks 1+2
-        src_("Desktop sound (backup)", "wasapi_output_capture", {"device_id": "default"}, 2),           # track 2
+        src_("Discord sound", "wasapi_process_output_capture", {"window": win, "priority": 2}, 2),  # track 2
     ]
-    items = []
-    for i, s in enumerate(sources, 1):
-        items.append({"name": s["name"], "source_uuid": s["uuid"], "visible": True, "locked": i == 1, "rot": 0.0,
-                      "align": 5, "bounds_type": 2 if i == 1 else 0, "bounds_align": 0, "bounds_crop": False,
-                      "crop_left": 0, "crop_top": 0, "crop_right": 0, "crop_bottom": 0, "id": i,
-                      "group_item_backup": False, "pos": {"x": 0.0, "y": 0.0}, "scale": {"x": 1.0, "y": 1.0},
-                      "bounds": {"x": 1920.0, "y": 1080.0}, "scale_filter": "disable", "blend_method": "default",
-                      "blend_type": "normal", "show_transition": {"duration": 0}, "hide_transition": {"duration": 0},
-                      "private_settings": {}})
-    scene = src_("Meeting", "scene", {"items": items, "id_counter": len(items), "custom_size": False}, 0)
-    coll = {"current_scene": "Meeting", "current_program_scene": "Meeting", "scene_order": [{"name": "Meeting"}],
+
+    def items_(sources):
+        out_ = []
+        for i, s in enumerate(sources, 1):
+            out_.append({"name": s["name"], "source_uuid": s["uuid"], "visible": True, "locked": i == 1, "rot": 0.0,
+                         "align": 5, "bounds_type": 2 if i == 1 else 0, "bounds_align": 0, "bounds_crop": False,
+                         "crop_left": 0, "crop_top": 0, "crop_right": 0, "crop_bottom": 0, "id": i,
+                         "group_item_backup": False, "pos": {"x": 0.0, "y": 0.0}, "scale": {"x": 1.0, "y": 1.0},
+                         "bounds": {"x": 1920.0, "y": 1080.0}, "scale_filter": "disable", "blend_method": "default",
+                         "blend_type": "normal", "show_transition": {"duration": 0},
+                         "hide_transition": {"duration": 0}, "private_settings": {}})
+        return {"items": out_, "id_counter": len(out_), "custom_size": False}
+    scenes = [src_("Meeting", "scene", items_([discord_win] + sound), 0),
+              src_("Screen", "scene", items_([screen] + sound), 0)]
+    coll = {"current_scene": "Meeting", "current_program_scene": "Meeting",
+            "scene_order": [{"name": "Meeting"}, {"name": "Screen"}],
             "name": PRESET, "groups": [], "quick_transitions": [], "transitions": [], "saved_projectors": [],
-            "current_transition": "Fade", "transition_duration": 300, "preview_locked": False,
+            "current_transition": "Cut", "transition_duration": 300, "preview_locked": False,
             "scaling_enabled": False, "scaling_level": 0, "scaling_off_x": 0.0, "scaling_off_y": 0.0,
-            "modules": {}, "sources": [scene] + sources}
+            "modules": {}, "sources": scenes + [discord_win, screen] + sound}
     (OBS_DIR / "basic" / "scenes" / f"{PRESET_DIR}.json").write_text(json.dumps(coll, indent=4), encoding="utf-8")
 
     # OBS WebSocket on, local password kept as OBS set it

@@ -22,11 +22,10 @@ Samuel, 2026-10-28: *"I need to be recording meetings in the discord in video fo
 ## The OBS meeting preset
 
 - **Profile "Called to Edit Meeting":** a copy of his 1080p profile. 1920×1080, 30 fps, NVENC H.264 at CQP 23 (roughly 1–2 GB an hour), hybrid MP4, so a crash still leaves a usable file. It records to `C:\Users\repzy\Videos\Called to Edit Meetings\` on the PC. None of his other profiles points at Drive.
-- **Scene collection "Called to Edit Meeting":** one scene, "Meeting":
-  - **Discord window**: the whole app, fitted to the frame, cursor hidden, captured even when other windows cover it.
-  - **Discord sound**: only Discord's audio, so other apps' sounds stay out. Audio track 1.
-  - **Samuel mic**: the Windows default input, as Discord uses it ("Main Mic" on 2026-10-28). Tracks 1 and 2.
-  - **Desktop sound (backup)**: track 2 only, in case Discord's own capture fails. Drive plays track 1.
+- **Scene collection "Called to Edit Meeting":** two scenes with the same sound.
+  - **Meeting**: the Discord window, the whole app fitted to the frame, cursor hidden, captured even when other windows cover it.
+  - **Screen**: his whole monitor. While he screen-shares, the watcher checks every 5 s (Discord's `self_stream`) and switches to it, so Canva, Chrome and tab changes are all recorded. When he stops sharing, it switches back to Meeting (Samuel, 2026-10-28: *"If I am using canva as a screen white board or showing them other tools on chrome by screen shairing … would it affect the recording?"*). He shares his **whole screen**, so the recording matches what members see.
+  - **Sound:** track 1 (what Drive plays) is everything he hears plus his mic. Track 2 is Discord's sound only plus his mic, as a backup.
 - **Camera:** OBS doesn't open the Osmo. Discord shows his camera, and if OBS opened it as well, Discord would lose it. The recording is what members see in the Discord window: speakers, camera tiles, screen shares.
 - `python 00-System/scripts/meeting_recorder.py setup-obs` rebuilds the preset (OBS closed). It also turned on OBS WebSocket (port 4455, password kept by OBS; the script reads it, and nobody else sees it).
 
@@ -50,6 +49,7 @@ His older presets, as found 2026-10-28: profiles **1080p 25 fps** and **4k 30fps
 - The OBS switch, recording and restore worked: 1080p30 H.264 with two AAC tracks, and the Discord window captured cleanly.
 - The Drive copy and the file ID lookup worked. The public-link check correctly said "not shared yet".
 - Discord lookups (events, stage, his voice state) worked.
-- **Not yet proven:** a live call end to end, and the mic. During the test, "Main Mic" recorded digital silence (−91 dB), so it may be unplugged or muted in Windows.
+- **Live test with Samuel, 2026-10-28, 13:19–13:26 (stage "Test session"):** recording started 30 s after the stage opened. It switched to Screen when he shared, captured Canva, and switched back to Meeting. It stopped 1 minute after the stage ended, OBS went back to 4k / Course rec, and the bot DMed him that the 6-minute recording was too short to post. His mic was clear on both tracks (peak −7 dB).
+- His internet dropped for about 2 minutes mid-test. The watcher kept recording and didn't stop by mistake: Discord errors don't count as the call ending. The scene can't follow his share while the internet is down.
 
 Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]] · [[00-System/systems-register|systems register]]
