@@ -204,3 +204,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - Drive for desktop's `metadata_sqlite_db` (read from a temp copy) gives each file's cloud ID, so the script can make a direct `drive.google.com/file/d/<id>/view` link without the Drive API. A link is public only if fetching it doesn't redirect to accounts.google.com.
 - A Windows logon task (`schtasks /SC ONLOGON`) needs admin here; use a Startup-folder shortcut instead.
 - OBS minimised to the tray ignores `taskkill` without /F. Change a preset's sources over WebSocket (`set_input_settings`) instead of killing OBS.
+- 2026-10-28 — **Canva native paste without the page:** encode the clipboard JSON (UTF-16LE, base64, in `<div><span data-canva-clipboard="…"></span></div>`), `Set-Clipboard -AsHtml` in PowerShell, then Ctrl+V on the board. Several chapters can be merged into one paste by shifting each element's A/B (and a connector's b.C/c.C points); 395 elements, 510 KB pasted and saved fine.

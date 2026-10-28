@@ -205,11 +205,16 @@ How it works (chain): tap **Request to Speak** → I bring you up → 2–3 minu
 - **Questions** (big): "Your turn."
 - Slots: his photo, @SamuelSignals, Called to Edit Community logo.
 
-## Board build (to do)
+## Board built (2026-10-28)
 
-- Theme and format: same as the webinar board. Native Canva elements (boxes, text, arrows, icons, stickies), only photos as media. Built from `_attachments/called-to-edit-whiteboard/source/` with new map files (`onb00.py` …).
-- Light or dark: not settled. The latest webinar version he asked to see is the **white** board (2026-10-23), with room around each section for scribbling.
-- Section 7's road and the blank member stickies matter most: that's where he works live.
-- No reveal covers unless he asks.
+Samuel: *"Build it, white"*.
+
+- **Canva:** "Called to Edit Community Onboarding Whiteboard" (design DAHZTgZ4Rts), https://www.canva.com/design/DAHZTgZ4Rts/9EjIg7aq_mLdkXftrbwAKQ/edit. White theme, everything native and editable except the two photos and the logos. No reveal covers.
+- **Layout:** three columns, read top to bottom, then left to right: sections 0–2 · 3–5 · 6–8, with 1,500 px of white between sections. Section 7 has the six-stop road and ten empty note boxes.
+- **Source:** `_attachments/called-to-edit-whiteboard/source/onboarding.py` (all nine sections), `onb00.py` … `onb08.py` (one per section), `onb_merge.py` (joins them into one paste). Build: `C2E_THEME=white python native.py onb00 … onb08`, then `C2E_THEME=white python onb_merge.py <design id> <doc id>` → `out/native-white/onboarding-board.json`.
+- **Pasted in one go:** the payload, encoded the Canva way (`data-canva-clipboard`, UTF-16LE base64), was put on the Windows clipboard with PowerShell `Set-Clipboard -AsHtml`, then Ctrl+V on the board. No file input or in-page script was needed. Canva saved without errors.
+- New blank whiteboard: Canva's own link `l.canva.me/oA4a/pp-whiteboards` opens one from a flowchart template. Its elements were cleared first (Ctrl+A, Delete).
+- **Known nit:** the step numbers sit tight against their titles ("6The stage"), the same as on the webinar board.
+- The demo badges read "LIVE DEMO · switch to Discord".
 
 Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
