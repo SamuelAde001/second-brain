@@ -419,7 +419,16 @@ def free_space(local, dest, transcript):
         log(f"Kept {local.name}: Drive size not confirmed")
         return False
     gb = local.stat().st_size / 1e9
-    local.unlink()
+    end = time.time() + 24 * 3600
+    while True:  # VLC (or anything else) may have it open: 2026-10-28 he was watching it, and the delete crashed
+        try:
+            local.unlink()
+            break
+        except PermissionError:
+            if time.time() > end:
+                log(f"Kept {local.name}: still open in another program after 24 hours")
+                return False
+            time.sleep(300)
     log(f"Deleted the local copy {local.name} ({gb:.1f} GB); it's on Drive as {dest.name}")
     return True
 
