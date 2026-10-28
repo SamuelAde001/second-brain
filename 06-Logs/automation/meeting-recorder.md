@@ -12,3 +12,4 @@ tags: [automation, community, recordings]
 Append-only. One line per recorded call, written by `00-System/scripts/meeting_recorder.py`. Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]].
 
 - 2026-10-28 13:26 — Test session: 6 min, too short, kept locally, not posted
+- 2026-10-28 18:40 — Same-night filing tested on the 13:19 test recording: headless Claude ran (37 s), filed 0 (test call), summary correct; test call note removed
