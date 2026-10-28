@@ -94,6 +94,8 @@ LAYOUT = [
     ]),
     ("LIVE", [
         ("weekly-live", STAGE, "rw", None),
+        # Samuel, 2026-10-28: "a channel that is for the recordings links, the topic of that session and a summary"
+        ("call-recordings", TEXT, "ro", "Every recorded live call: the link, what it covered and a summary. Missed a call? Start here."),
     ]),
     ("TEAM", [
         # Samuel, 2026-10-23: "we need to have a team chat room and a team call room"
@@ -110,7 +112,7 @@ LAYOUT = [
 RENAMES = {"daily-check-in": "accountability", "questions": "help", "weekly-call": "weekly-live"}
 # Channels from the first layout that are gone (Samuel: "any thing not neccessary should be removed").
 REMOVED = ["rules", "workbook", "daily-nugget", "introduce-yourself", "leaderboard", "portfolio-and-profile",
-           "niche", "davinci-help", "gear", "call-recordings", "off-topic"]  # outreach is back, 2026-10-26
+           "niche", "davinci-help", "gear", "off-topic"]  # call-recordings back, 2026-10-28  # outreach is back, 2026-10-26
 FORUM_TAGS = {
     "accountability": [("60-Day Challenge", "🗓️"), ("Weekly goals", "🎯"), ("Daily log", "✍️")],
     "feedback": [("Edit", "🎬"), ("Portfolio", "🗂️"), ("Profile and bio", "🪪"), ("Outreach", "📨"), ("Niche", "🧭"), ("Client work", "💼")],
@@ -123,7 +125,7 @@ CONFIG_KEYS = {  # channel name -> keys the site's functions use
     "welcome": ["welcome"], "start-here": ["startHere", "rules"], "announcements": ["announcements"],
     "general-chat": ["general", "nugget"], "wins": ["wins", "leaderboard"], "accountability": ["checkin"],
     "ask-editors-bot": ["askBot"], "feedback": ["feedback"], "resources": ["resources"],
-    "opportunities": ["opportunities"], "help": ["help"], "weekly-live": ["live"],
+    "opportunities": ["opportunities"], "help": ["help"], "weekly-live": ["live"], "call-recordings": ["recordings"],
     "payments-log": ["payments"], "mod-log": ["modLog"], "subscription-expired": ["expired"],
 }
 SCAM_WORDS = ["*free nitro*", "*discord.gift*", "*nitro for free*", "*steamcommunity*", "*crypto signal*",
@@ -224,7 +226,7 @@ def cmd_invite_url():
 ICONS = {
     "start-here": "🧭", "announcements": "📢", "welcome": "👋", "general-chat": "💬", "wins": "🏆", "showcase": "🎬",
     "accountability": "✅", "ask-editors-bot": "🤖", "feedback": "🎞️", "resources": "📚",
-    "opportunities": "💼", "help": "🆘", "weekly-live": "🎙️", "payments-log": "💳", "mod-log": "🛡️",
+    "opportunities": "💼", "help": "🆘", "weekly-live": "🎙️", "call-recordings": "📼", "payments-log": "💳", "mod-log": "🛡️",
     "subscription-expired": "🔒", "team-chat": "🗨️", "team-call": "📞",
     "capcut": "✂️", "davinci-resolve": "🎛️", "premiere-pro": "🟪", "outreach": "📨", "pricing-and-clients": "💰",
     "personal-brand": "🌟", "profile-and-portfolio": "🪪", "share-your-posts": "🔗", "editing-craft": "🪄",

@@ -4,7 +4,9 @@ Runs quietly from Windows logon (scheduled task "Called to Edit meeting recorder
 Discord whether a main call is live: the weekly-live stage is open, or a scheduled event is active. When
 one starts it opens OBS on the meeting preset (profile + scene collection "Called to Edit Meeting"),
 records, and switches OBS back to whatever it was on before. When the call ends it copies the file into
-Drive, waits until Drive has it, and has the bot post the link in #announcements and pin it.
+Drive and, at the same time, call_archive.py transcribes it and files the great knowledge into the teachings
+archive. The bot then posts the link, topic and summary in #call-recordings and the summary in #general-chat,
+and the local copy is deleted once Drive has all of it.
 
 The bot token is read from %USERPROFILE%\\.brain-secrets\\community.json and the OBS WebSocket password
 from OBS's own config, by this script only. Neither is ever printed or written anywhere.
@@ -57,7 +59,7 @@ STATE = WORK / "state.json"
 LOG = WORK / "recorder.log"
 BRAIN_LOG = BRAIN / "06-Logs" / "automation" / "meeting-recorder.md"
 
-# Mic: the Windows default input, which is what Discord uses on "Default" (Main Mic on 2026-10-28).
+# Mic: Main Mic, always (Samuel, 2026-10-28), pinned by its device id from his Course rec preset.
 POLL = 15            # seconds between Discord checks
 SHARE_POLL = 5       # seconds between screen-share checks while recording
 START_AFTER = 2      # live on this many checks in a row before recording
@@ -201,16 +203,36 @@ def dm_samuel(text):
     log(f"DM to Samuel ({st}): {text[:80]}")
 
 
-def post_announcement(text):
-    ch = cfg()["channels"]["announcements"]
-    st, msg = dc("POST", f"/channels/{ch}/messages", {"content": text, "allowed_mentions": {"parse": []}})
+def post(channel_key, body):
+    ch = cfg()["channels"][channel_key]
+    st, msg = dc("POST", f"/channels/{ch}/messages", {**body, "allowed_mentions": {"parse": []}})
     if st not in (200, 201):
-        raise RuntimeError(f"announcement post failed: {st} {msg}")
-    pst, _ = dc("PUT", f"/channels/{ch}/messages/pins/{msg['id']}")
-    if pst not in (200, 204):
-        pst, _ = dc("PUT", f"/channels/{ch}/pins/{msg['id']}")
-    log(f"Posted in #announcements, pin {pst}")
-    return msg["id"]
+        raise RuntimeError(f"post in {channel_key} failed: {st} {msg}")
+    log(f"Posted in {channel_key}")
+    return f"https://discord.com/channels/{cfg()['guild']}/{ch}/{msg['id']}"
+
+
+def post_recording(title, when, secs, url, archive, summary):
+    """Samuel, 2026-10-28: a channel for the recordings: the link, the session's topic and a summary; and the
+    summary in the general chat for everyone who missed it."""
+    s = summary or {}
+    topic = (s.get("topic") or title).strip()
+    desc = f"**{title}** · {when:%A %d %B %Y} · {nice_len(secs)}\n\n"
+    if s.get("summary"):
+        desc += s["summary"].strip() + "\n\n"
+    if s.get("takeaways"):
+        desc += "**Key takeaways**\n" + "\n".join(f"• {t}" for t in s["takeaways"]) + "\n\n"
+    if s.get("questions"):
+        desc += "**Questions answered**\n" + "\n".join(f"• {q}" for q in s["questions"]) + "\n\n"
+    desc += f"▶️ **[Watch the recording]({url})**"
+    if archive:
+        desc += f"\n📂 [Every call we've recorded]({archive})"
+    embed = {"title": f"📼 {topic}"[:256], "url": url, "description": desc[:4000], "color": 0xE53935}
+    jump = post("recordings", {"content": f"📼 **{topic}** — the recording is up", "embeds": [embed]})
+    if s.get("summary"):
+        post("general", {"content": (f"📼 **Missed {title}? Here's what we covered: {topic}**\n\n{s['summary'].strip()}\n\n"
+                                     f"Recording, key takeaways and the questions answered: {jump}")[:2000]})
+    return jump
 
 
 # ---------- OBS ----------
@@ -360,6 +382,48 @@ def folder_link():
 
 # ---------- after a call ----------
 
+def drive_uploaded(dest, local):
+    """True when Drive for desktop has a cloud id for the copy and its size matches the local file."""
+    fid = drive_item(dest.name, DRIVE_DIR.name)
+    if not fid:
+        return False
+    for acct in DRIVEFS.iterdir():
+        db = acct / "metadata_sqlite_db"
+        if not db.exists():
+            continue
+        tmp = Path(tempfile.mkdtemp())
+        for suffix in ("", "-wal", "-shm"):
+            if (acct / ("metadata_sqlite_db" + suffix)).exists():
+                shutil.copy(acct / ("metadata_sqlite_db" + suffix), tmp)
+        con = sqlite3.connect(tmp / "metadata_sqlite_db")
+        try:
+            row = con.execute("select file_size from items where id=?", (fid,)).fetchone()
+        finally:
+            con.close()
+            shutil.rmtree(tmp, ignore_errors=True)
+        if row and row[0] == local.stat().st_size:
+            return True
+    return False
+
+
+def free_space(local, dest, transcript):
+    """Samuel, 2026-10-28: "every recording that has been uploaded, should be deleted from my computer to save
+    space, cause I don't have space". Only once Drive has the whole file and the transcript is written."""
+    if not (transcript and Path(transcript).exists()):
+        log(f"Kept {local.name}: no transcript yet")
+        return False
+    end = time.time() + 2 * 3600
+    while time.time() < end and not drive_uploaded(dest, local):
+        time.sleep(120)
+    if not drive_uploaded(dest, local):
+        log(f"Kept {local.name}: Drive size not confirmed")
+        return False
+    gb = local.stat().st_size / 1e9
+    local.unlink()
+    log(f"Deleted the local copy {local.name} ({gb:.1f} GB); it's on Drive as {dest.name}")
+    return True
+
+
 def publish(local, title, started=None):
     secs = duration_s(local)
     log(f"Recording {local.name}: {nice_len(secs)}")
@@ -368,6 +432,19 @@ def publish(local, title, started=None):
                   f"It's on the PC: `{local}`")
         brain_log(f"{title}: {nice_len(secs)}, too short, kept locally, not posted")
         return
+    when = started or datetime.fromtimestamp(local.stat().st_mtime)
+    # transcribe and file into the archive while Drive uploads
+    result = {}
+
+    def archive_job():
+        try:
+            import call_archive
+            result["summary"], result["transcript"], result["notes"] = call_archive.run(
+                local, title, when, nice_len(secs), log=log)
+        except Exception as e:
+            log(f"Archive job failed: {e}\n{traceback.format_exc()}")
+    job = threading.Thread(target=archive_job, daemon=True)
+    job.start()
     dest = to_drive(local, title)
     url, public = wait_for_link(dest)
     if not url:
@@ -385,16 +462,26 @@ def publish(local, title, started=None):
         while time.time() < end and not link_is_public(url):
             time.sleep(300)
         if not link_is_public(url):
+            job.join()
             return
-    when = started or datetime.fromtimestamp(local.stat().st_mtime)
-    archive = folder_link()
-    text = (f"📼 **{title}** — the recording is up\n"
-            f"{when:%A %d %B %Y} · {nice_len(secs)}\n\n"
-            f"Watch it here: {url}")
-    if archive:
-        text += f"\n\nEvery call we've recorded is in one place: {archive}"
-    post_announcement(text)
-    brain_log(f"{title}: {nice_len(secs)}, posted in #announcements ({dest.name})")
+    job.join(timeout=3 * 3600)
+    summary = result.get("summary")
+    post_recording(title, when, secs, url, folder_link(), summary)
+    notes = result.get("notes") or []
+    if not summary:
+        dm_samuel(f"📼 **{title}** is posted in #call-recordings, but I couldn't write its summary or file it into "
+                  "the teachings archive tonight. Ask the Brand manager to file it next session.")
+    freed = free_space(local, dest, result.get("transcript"))
+    brain_log(f"{title}: {nice_len(secs)}, posted in #call-recordings"
+              + (" with a summary in #general-chat" if summary else ", no summary")
+              + (f", {summary.get('filed', 0)} teachings filed" if summary else "")
+              + (f" ({'; '.join(notes)})" if notes else "")
+              + (", local copy deleted" if freed else ", local copy kept") + f" ({dest.name})")
+    try:
+        import call_archive
+        call_archive.commit_and_push(title, when)  # the log line above
+    except Exception as e:
+        log(f"Log commit failed: {e}")
 
 
 # ---------- the watcher ----------
@@ -532,7 +619,7 @@ def setup_obs():
     sets = {("General", "Name"): PRESET,
             ("Output", "FilenameFormatting"): "Meeting %CCYY-%MM-%DD %hh-%mm",
             ("AdvOut", "RecFilePath"): rec, ("AdvOut", "RecFormat2"): "hybrid_mp4",
-            ("AdvOut", "RecEncoder"): "obs_nvenc_h264_tex", ("AdvOut", "RecTracks"): "3",
+            ("AdvOut", "RecEncoder"): "obs_nvenc_h264_tex", ("AdvOut", "RecTracks"): "15",
             ("AdvOut", "RecType"): "Standard", ("AdvOut", "RecUseRescale"): "false",
             ("AdvOut", "RecSplitFile"): "false",
             ("SimpleOutput", "FilePath"): rec,
@@ -564,7 +651,8 @@ def setup_obs():
     LOCAL_DIR.mkdir(parents=True, exist_ok=True)
 
     # scene collection: "Meeting" (the Discord window) and "Screen" (his whole monitor, used while he
-    # screen-shares), both with the same sound: track 1 = everything he hears + his mic, track 2 = Discord + mic
+    # screen-shares), both with the same sound: track 1 = everything he hears + his mic, track 2 = Discord + mic,
+    # track 3 = his mic alone, track 4 = Discord alone (3 and 4 let the transcript say who spoke)
     def src_(name, sid, settings, mixers, volume=1.0):
         return {"prev_ver": 536870914, "name": name, "uuid": str(uuid.uuid4()), "id": sid, "versioned_id": sid,
                 "settings": settings, "mixers": mixers, "sync": 0, "flags": 0, "volume": volume, "balance": 0.5,
@@ -575,13 +663,18 @@ def setup_obs():
     monitor = next(s["settings"]["monitor_id"] for s in json.loads(
         (OBS_DIR / "basic" / "scenes" / "Course_rec.json").read_text(encoding="utf-8"))["sources"]
         if s["id"] == "monitor_capture")  # his one monitor, as his Course rec preset captures it
+    # Samuel, 2026-10-28: "My main mic is always the one to be recorded for me". Pinned to Main Mic, as his
+    # Course rec preset has it, not to the Windows default, which can change.
+    main_mic = next((s["settings"]["device_id"] for s in json.loads(
+        (OBS_DIR / "basic" / "scenes" / "Course_rec.json").read_text(encoding="utf-8"))["sources"]
+        if s["id"] == "wasapi_input_capture" and s["settings"].get("device_id", "default") != "default"), "default")
     discord_win = src_("Discord window", "window_capture", {"window": win, "priority": 2, "method": 2,
                                                             "cursor": False, "client_area": True}, 255)
     screen = src_("Full screen", "monitor_capture", {"monitor_id": monitor, "method": 0, "capture_cursor": True}, 255)
     sound = [
         src_("Desktop sound", "wasapi_output_capture", {"device_id": "default"}, 1),            # track 1
-        src_("Samuel mic", "wasapi_input_capture", {"device_id": "default"}, 3),  # Windows default mic, as Discord uses; tracks 1+2
-        src_("Discord sound", "wasapi_process_output_capture", {"window": win, "priority": 2}, 2),  # track 2
+        src_("Samuel mic", "wasapi_input_capture", {"device_id": main_mic}, 7),  # tracks 1+2+3
+        src_("Discord sound", "wasapi_process_output_capture", {"window": win, "priority": 2}, 10),  # tracks 2+4
     ]
 
     def items_(sources):
@@ -639,7 +732,7 @@ def test(seconds):
     r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=index,codec_type,codec_name,width,height,r_frame_rate",
                         "-of", "compact", str(path)], capture_output=True, text=True)
     print(r.stdout)
-    for idx in (0, 1):
+    for idx in range(4):
         r = subprocess.run(["ffmpeg", "-v", "info", "-i", str(path), "-map", f"0:a:{idx}", "-af", "volumedetect",
                             "-f", "null", "-"], capture_output=True, text=True)
         levels = [l.split("]")[-1].strip() for l in r.stderr.splitlines() if "max_volume" in l or "mean_volume" in l]

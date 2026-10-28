@@ -51,4 +51,6 @@ Times marked **Live [h:mm:ss]** are from the start of the OBS recording (it bega
 
 ## Adding to it
 
+**Community calls file themselves** the same night (2026-10-28): the recorder transcribes each main call and the Brand manager adds what's new to the topic notes, with a call note in `calls/` ([[00-System/automations/meeting-recorder|meeting recorder]]).
+
 Anything new he teaches (community calls, Academy classes, a voice note, a post that lands) goes into the topic note it belongs to, marked with the date and the source. One teaching per heading. His words stay his: record what he said, never fill a gap with a guess (AGENTS.md §5 rule 6). New topic, new note: `teachings-13-…`, then a line in the list above.
