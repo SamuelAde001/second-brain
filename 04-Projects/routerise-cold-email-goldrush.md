@@ -2,7 +2,7 @@
 type: project
 area: video-editing
 status: active
-updated: 2026-10-26
+updated: 2026-10-28
 source: manual
 tags: [client, routerise, long-form]
 ---
@@ -73,3 +73,15 @@ Samuel, 2026-10-28: *"Though video 2 is done, I am still not happy with the outp
 - **Starting set:** 18 comps from video 2's final, three per type (chart, counter, list, lower third, page/UI, card), lint-clean on every placement-independent rule: [[03-Areas/video-editing/clients/frontal-template-library|Frontal template library]] → Video 2 foundation set. Builders start from these, re-time entrances to this video's words and give each at least its `min_D`. They still need a render review on the eye-only rules before the first build.
 - **Patterns this video must not repeat** (lint on video 2's 185 final comps): NeoMotionText sliding from the left (PosDir 3, kit default) on 84 tools; lower thirds above y 900 and pill text under 56 px over footage; a counter, its label and its box entering on one frame; chart labels landing together; the last element landing under 36 f before the cut on most beats. Full list in the library note.
 - **Before the build:** set PosDir 0 as `frfx.ntext`'s default in this job's kit copy; copy `kits\lab_with_queue_2026-10-28.py` from the master kit over this job's `kits\lab.py` (queue hand-off) and the four pipeline scripts beside it; run [[03-Areas/video-editing/sops/video-pipeline-tools|the pipeline tools]]: lint on every beat, the render queue, Samuel's preview page per section.
+
+## Night run 2026-10-28 → Thu 18:00 (Editor)
+
+Samuel, 2026-10-28 ~23:00, after the weekly reset: *"I need speed and I need quality"*. Full video by Thu 2026-10-29 18:00 WAT for his creative director, *"a perfect first version of a full video without any mistakes"*. The bar is the LinkedIn Training video in Frontal v2.3.1; video 2 is *"a huge mess"*, used only as what not to repeat (its foundation set is still the starting point). His rules tonight: [[03-Areas/video-editing/samuel-review-card|review card]] → S1-S7 (static NeoLightSweep on every box; MotionBlur off; one by one; slow smooth camera on everything; media adj clip = NeoAnim + Vignette + MagicZoom; his intro adj clip; screen recordings as before video 2). His words in full: [[03-Areas/video-editing/ways-of-working|ways of working]] 2026-10-28.
+
+- **His answers, 23:20:** shine = the NeoLightSweep node as a static sheen; the animated shine only when necessary, done as in the earlier videos. MotionBlur off, soft blur-in kept. No approval stops overnight (the Editor takes the recommended answers on the 14 capture calls and the hero calls, EN-04 included, and approves looks against the review card and the LinkedIn bar; the Editor builds the intro with his intro adj clip; Resolve and screen control are the Editor's until 18:00). Video 2's draft renders deleted on his yes (39.3 GB; v6_final.mp4 and the v7 finals kept; C: 65 GB free).
+- **Usage at start:** weekly 0 %, 5-hour 1 % (23:28 WAT).
+- **Cut checked 23:50:** *Cut v5 (Editor) - sections* is unchanged since 2026-10-26 (12,100 f, 159 clips, every in/out point identical), so the plan's word timings hold.
+- **Watchdog** `editor-run-watchdog` re-armed hourly for this job (resumes the run after a power cut; disables itself after Thu 20:00). Session: "Editor run: 4. Cold Email Goldrush".
+- **Stage 1, build bible:** workflow wf_2b6c2fc0-340, 10 Opus readers + a critic, docs in the job's `Docs\Night run 2026-10-28 (Editor)\bible\` (screen-recording bar, shine/motion, adj clips and camera, build card + review checklist, kit setup + runbook, plan delta ×3, sound, captures, critic).
+
+**RESUME (2026-10-28 23:55):** job `Docs\RUN STATE.md` → ">>> NOW (NIGHT RUN". Next: read the bible → `MASTER PLAN.md` in the night-run folder → plan v2, captures, kit style patch → builds (Sonnet workers, Opus review) → install on *Visuals v1 (Editor)* → adj clips + MagicZoom → review render + preview pages for Samuel ~10:00 → his notes → sound → 4K final by 17:00.
