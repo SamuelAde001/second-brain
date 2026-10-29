@@ -324,3 +324,5 @@ Started from the General Manager's session (zero-revision pipeline, model routin
 - 2026-10-29 14:30 WAT: v2 rendered and mastered at 14:21. The v1-to-v2 regression scan found 0 unexpected changes. Sent Samuel v2 as 4 phone parts. Fan-out: Opus check wf_7cc11131-ed2 of the 17 changed beats and the audio. Samuel asked to give his small corrections in one batch, so they will go in with the check findings.
 
 - 2026-10-29 14:36 WAT: Samuel is editing Visuals v1 (Editor) himself and will leave markers for the Editor. I took a read-only snapshot of the timeline first (0 markers). Resolve is his until he says he is done. The install route is retired for this video, so his edits cannot be replaced (DECISIONS #62).
+
+- 2026-10-29 14:56 WAT: v2 check wf_7cc11131-ed2 (8 agents) confirmed all 17 fixes on the 4K render and found 1 new CD-risk: EN-21 brackets touch the top edge in the last 5 frames, fixed by a MagicZoom pivot change. Holding it until Samuel finishes his timeline edits (DECISIONS #63).
