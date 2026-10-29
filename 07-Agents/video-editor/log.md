@@ -322,3 +322,5 @@ Started from the General Manager's session (zero-revision pipeline, model routin
 - 2026-10-29 13:42 WAT: fix round wf_a1c40663-40d passed 16 of 16 (34 agents, 0 errors). I looked at the EN-09b cut-in and accepted it (DECISIONS #61). Started finish_v2.sh: reinstall, sound with the Low Hit fix, A1 check, 4K v2 render, master, 1080p. Wrote regress.py to compare v1 and v2 frame by frame.
 
 - 2026-10-29 14:30 WAT: v2 rendered and mastered at 14:21. The v1-to-v2 regression scan found 0 unexpected changes. Sent Samuel v2 as 4 phone parts. Fan-out: Opus check wf_7cc11131-ed2 of the 17 changed beats and the audio. Samuel asked to give his small corrections in one batch, so they will go in with the check findings.
+
+- 2026-10-29 14:36 WAT: Samuel is editing Visuals v1 (Editor) himself and will leave markers for the Editor. I took a read-only snapshot of the timeline first (0 markers). Resolve is his until he says he is done. The install route is retired for this video, so his edits cannot be replaced (DECISIONS #62).
