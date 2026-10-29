@@ -1,7 +1,7 @@
 ---
 type: project
 area: personal-brand
-status: needs-input
+status: active
 updated: 2026-10-29
 source: interview
 tags: [content-week, 60-day-challenge, ideas]
@@ -11,7 +11,7 @@ tags: [content-week, 60-day-challenge, ideas]
 
 Week 1 of his 60-day posting challenge. Shape (Samuel, 2026-10-29): **5 teaching talking heads** (seated, to camera) and **2 storytelling videos** (his voice-over on B-roll). Ifeoma edits. Run by [[content-week]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
-**Status: all 7 approved, all 7 scripted (draft 1), waiting for his edits.** All 8 recorded on 2026-10-29: the 7 below plus today's [[03-Areas/personal-brand/scripts/focus-on-the-result-not-the-skill|Focus on the result, not the skill]].
+**Status: all 7 approved and scripted; all 8 cards in Notion since 2026-10-29, where Samuel adjusts them** (*"Put them all on Notion, I would adjust the script there"*). Notion is now the live version: re-fetch a card before any change. All 8 recorded on 2026-10-29: the 7 below plus today's [[03-Areas/personal-brand/scripts/focus-on-the-result-not-the-skill|Focus on the result, not the skill]].
 
 ## Pitched (Brand manager, 2026-10-29)
 
@@ -39,13 +39,13 @@ Suggested order (Brand manager, his call): Sun 11-01 S1 (day 1) · Mon 11-02 T1 
 
 ## Scripts
 
-| # | Script | Status |
-|---|---|---|
-| today | [[03-Areas/personal-brand/scripts/focus-on-the-result-not-the-skill\|Focus on the result, not the skill]] | approved 2026-10-29 |
-| T1 | [[03-Areas/personal-brand/scripts/learning-software-doesnt-mean-you-can-edit\|Learning software doesn't mean you can edit]] | draft 1 |
-| T2 | [[03-Areas/personal-brand/scripts/clients-arent-paying-for-your-skill\|Clients aren't paying for your skill]] | draft 1 |
-| T3 | [[03-Areas/personal-brand/scripts/stop-saying-im-a-video-editor\|Stop saying "I'm a video editor"]] | draft 1 |
-| T4 | [[03-Areas/personal-brand/scripts/10k-followers-vs-100k-followers\|10K vs 100K followers]] | draft 1 |
-| T5 | [[03-Areas/personal-brand/scripts/why-nobody-dms-you\|Why nobody DMs you]] | draft 1 |
-| S1 | [[03-Areas/personal-brand/scripts/25-views\|25 views]] | draft 1 |
-| S2 | [[03-Areas/personal-brand/scripts/usd-1000-a-video-and-i-was-on-25k\|USD 1,000 a video]] | draft 1 |
+| # | Script | Status | Notion |
+|---|---|---|---|
+| today | [[03-Areas/personal-brand/scripts/focus-on-the-result-not-the-skill\|Focus on the result, not the skill]] | approved 2026-10-29 | [card](https://app.notion.com/p/4088d1c17bb781188a80cc8d9c622995) |
+| T1 | [[03-Areas/personal-brand/scripts/learning-software-doesnt-mean-you-can-edit\|Learning software doesn't mean you can edit]] | in Notion | [card](https://app.notion.com/p/4088d1c17bb781f38287fbea8a361847) |
+| T2 | [[03-Areas/personal-brand/scripts/clients-arent-paying-for-your-skill\|Clients aren't paying for your skill]] | in Notion | [card](https://app.notion.com/p/4088d1c17bb781eb89decc4314b4fe47) |
+| T3 | [[03-Areas/personal-brand/scripts/stop-saying-im-a-video-editor\|Stop saying "I'm a video editor"]] | in Notion | [card](https://app.notion.com/p/4088d1c17bb781f0bad9d05e0de04c25) |
+| T4 | [[03-Areas/personal-brand/scripts/10k-followers-vs-100k-followers\|10K vs 100K followers]] | in Notion | [card](https://app.notion.com/p/4088d1c17bb781448dbefe4eed03106f) |
+| T5 | [[03-Areas/personal-brand/scripts/why-nobody-dms-you\|Why nobody DMs you]] | in Notion | [card](https://app.notion.com/p/4088d1c17bb781e78007d99600f0863d) |
+| S1 | [[03-Areas/personal-brand/scripts/25-views\|25 views]] | in Notion | [card](https://app.notion.com/p/4088d1c17bb7816f9fb6ea83ca043cad) |
+| S2 | [[03-Areas/personal-brand/scripts/usd-1000-a-video-and-i-was-on-25k\|USD 1,000 a video]] | in Notion | [card](https://app.notion.com/p/4088d1c17bb7819c9ca9f5d8afbab77f) |
