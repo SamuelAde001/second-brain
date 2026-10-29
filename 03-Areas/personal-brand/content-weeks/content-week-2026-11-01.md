@@ -11,7 +11,7 @@ tags: [content-week, 60-day-challenge, ideas]
 
 Week 1 of his 60-day posting challenge. Shape (Samuel, 2026-10-29): **5 teaching talking heads** (seated, to camera) and **2 storytelling videos** (his voice-over on B-roll). Ifeoma edits. Run by [[content-week]]. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
-**Status: ideas pitched, waiting for his picks.** All 8 recorded on 2026-10-29: the 7 below plus today's [[03-Areas/personal-brand/scripts/focus-on-the-result-not-the-skill|Focus on the result, not the skill]].
+**Status: all 7 approved, all 7 scripted (draft 1), waiting for his edits.** All 8 recorded on 2026-10-29: the 7 below plus today's [[03-Areas/personal-brand/scripts/focus-on-the-result-not-the-skill|Focus on the result, not the skill]].
 
 ## Pitched (Brand manager, 2026-10-29)
 
@@ -19,7 +19,7 @@ Every idea is a teaching or story he already gave. Times are in the webinar OBS 
 
 | # | Type | Working title | Format | His line to hook on | Source |
 |---|---|---|---|---|---|
-| T1 | Teaching | Learning CapCut doesn't mean you can edit | Myth bust | *"I can learn CapCut and still not know how to edit videos."* | [[05-Knowledge/teachings/teachings-02-learning-the-skill\|Learning the skill]] → software vs skill; live [1:27:14]; call 2026-10-28 (*"master it in 30 days"*). He flagged it himself today |
+| T1 | Teaching | Learning editing software doesn't mean you can edit *(his title)* | Myth bust | *"I can learn CapCut and still not know how to edit videos."* | [[05-Knowledge/teachings/teachings-02-learning-the-skill\|Learning the skill]] → software vs skill; live [1:27:14]; call 2026-10-28 (*"master it in 30 days"*). He flagged it himself today |
 | T2 | Teaching | Clients aren't paying for your skill | Myth bust | *"People are not looking for skill. They are looking for experience."* | Learning the skill, live [1:42:24], [1:43:38]; his five years, three of them free |
 | T3 | Teaching | Stop saying "I'm a video editor" | The breakdown | *"I am a long-form video editor that edits business videos for YouTubers."* | [[05-Knowledge/teachings/teachings-05-choosing-a-niche\|Choosing a niche]]; live [0:44:12] *"Generalists will always lose to specialists"* |
 | T4 | Teaching | 10,000 followers vs 100,000 followers: who pays you more | A vs B | *"A business guy can have 10,000 followers"* | Choosing a niche → the follower trap; live [0:32:13] |
@@ -33,10 +33,19 @@ Every idea is a teaching or story he already gave. Times are in the webinar OBS 
 
 ## Approved
 
-Not yet.
+Samuel, 2026-10-29: *"All the ideas make sense. Let's script them"* · T1 renamed *"Learning editing softwares doesn't mean you can edit (So change the hook) but this won't be the first video of the week"*. CTA for teaching videos: *"follow if you want to make money through video editing"*.
+
+Suggested order (Brand manager, his call): Sun 11-01 S1 (day 1) · Mon 11-02 T1 · Tue T4 · Wed T2 · Thu S2 · Fri T3 · Sat T5.
 
 ## Scripts
 
 | # | Script | Status |
 |---|---|---|
-| today | [[03-Areas/personal-brand/scripts/focus-on-the-result-not-the-skill\|Focus on the result, not the skill]] | draft 1 |
+| today | [[03-Areas/personal-brand/scripts/focus-on-the-result-not-the-skill\|Focus on the result, not the skill]] | approved 2026-10-29 |
+| T1 | [[03-Areas/personal-brand/scripts/learning-software-doesnt-mean-you-can-edit\|Learning software doesn't mean you can edit]] | draft 1 |
+| T2 | [[03-Areas/personal-brand/scripts/clients-arent-paying-for-your-skill\|Clients aren't paying for your skill]] | draft 1 |
+| T3 | [[03-Areas/personal-brand/scripts/stop-saying-im-a-video-editor\|Stop saying "I'm a video editor"]] | draft 1 |
+| T4 | [[03-Areas/personal-brand/scripts/10k-followers-vs-100k-followers\|10K vs 100K followers]] | draft 1 |
+| T5 | [[03-Areas/personal-brand/scripts/why-nobody-dms-you\|Why nobody DMs you]] | draft 1 |
+| S1 | [[03-Areas/personal-brand/scripts/25-views\|25 views]] | draft 1 |
+| S2 | [[03-Areas/personal-brand/scripts/usd-1000-a-video-and-i-was-on-25k\|USD 1,000 a video]] | draft 1 |

@@ -11,7 +11,7 @@ tags: [script, talking-head, teaching, learning-the-skill, myth-bust]
 
 Teaching short to post on 2026-10-29, seated in the chair. Built from Samuel's voice note of 2026-10-29 (what to learn: start from the result, the USD 500 a video example, finance videos, *"We spend time learning things that we never use and never need in our journey"*) plus his own lines in [[05-Knowledge/teachings/teachings-02-learning-the-skill|Learning the skill]]: *"You don't choose what to learn. What you learn is chosen for you"* and, from the webinar Q&A [3:11:48], learning everything takes *"one year"*. Format: **Myth bust** (the myth: learn every skill first). Story bank: none. Back to [[03-Areas/personal-brand/personal-brand|Personal brand]].
 
-**Status: draft 2, waiting for his edits.** About 310 spoken words, roughly 1:50 at his pace. To get near 1:30, drop the WHY ME beat or the "Now don't get me wrong" lines. Draft 2 (same day) is rewritten after reading his own Notion scripts: one line per thought, his asides ("Omo"), his own experience before the lesson (wanting to learn every animation, from [[05-Knowledge/teachings/teachings-02-learning-the-skill|Learning the skill]] → examples). It avoids the "one more technique: 3D, motion graphics" beat, already used in his posted *Stop learning video editing, start learning sales*.
+**Status: approved 2026-10-29** (Samuel: *"I like the script you did for that first one"*). CTA his: *"follow if you want to make money through video editing"*. Was draft 2: About 310 spoken words, roughly 1:50 at his pace. To get near 1:30, drop the WHY ME beat or the "Now don't get me wrong" lines. Draft 2 (same day) is rewritten after reading his own Notion scripts: one line per thought, his asides ("Omo"), his own experience before the lesson (wanting to learn every animation, from [[05-Knowledge/teachings/teachings-02-learning-the-skill|Learning the skill]] → examples). It avoids the "one more technique: 3D, motion graphics" beat, already used in his posted *Stop learning video editing, start learning sales*.
 
 ## Hooks (he picks one)
 
@@ -64,7 +64,8 @@ Then find out what it takes to get the result you want, and learn that.
 Don't focus on the skill. Focus on the result. {On screen: "FOCUS ON THE RESULT"}
 Because a lot of us spend time learning things we never use, and never need, in our journey.
 
-**CTA** (see question 2)
+**CTA**
+Follow if you want to make money through video editing.
 
 ## Checklist
 
@@ -77,4 +78,4 @@ Because a lot of us spend time learning things we never use, and never need, in 
 ## Questions for Samuel
 
 1. **Spreadsheets.** He said finance videos need *"spreadsheets or screen record skills"*. The draft says "animated charts and screen recordings" (from his webinar demo, [1:17:40]). Keep that, or does he mean something else by spreadsheets?
-2. **CTA.** None given. Options: "Follow, because from November 1st I'm posting every day for 60 days", or "Comment EDIT" for the Community. Which, or none?
+2. ~~CTA~~ Answered 2026-10-29: *"follow if you want to make money through video editing"*.
