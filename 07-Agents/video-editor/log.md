@@ -316,3 +316,5 @@ Started from the General Manager's session (zero-revision pipeline, model routin
 - 2026-10-29 11:30 WAT: polish round wf_b8da8d73-b0b closed (14 agents, 0 errors). P2-P5 passed Opus review. P1 applied #52 to 16 accent nodes, and I did the last one (T1B-07) myself; the accent scan is 0 of 137. Stopped the queue. Started stage5\finish_v1.sh: reinstall, sound, A1 check, chunked 4K render (DECISIONS #57, #58).
 
 - 2026-10-29 12:12 WAT: reinstall verified clean. Sound placed; A1 Voice Isolation matches Samuel's 31. Rendered v1 in 4K as 6 chunks with a restart before each, 11:32-11:56, about 3 min a chunk, against 2 h+ for the one pass. seam_audio spliced all 5 joins. Mastered to -16.06 LUFS / -1.50 dBTP (DECISIONS #59). Sent Samuel a 1080p watch copy. Fan-out: render check wf_4acaf79b-a2f (9 Opus reviewers + adversarial verifiers).
+
+- 2026-10-29 13:10 WAT: render check wf_4acaf79b-a2f: 16 faults confirmed by adversarial verifiers, 6 refuted. Fan-out: fix round wf_a1c40663-40d, 16 items, each with an Opus review and one retry. Moved the 4 Low Hits to source frame 1, so they land on their frame (DECISIONS #60). Wrote finish_v2.sh and master.py for the v2 render.
