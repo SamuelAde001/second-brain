@@ -81,6 +81,7 @@ Verified 2026-09-22: `edit-clock`'s `pace.py` and its smoke test run from the Br
 
 | Skill | What it does | Trigger | Last used | Status |
 |-------|--------------|---------|-----------|--------|
+| [[content-week]] | The week's 7 videos: pitch 5 teaching + 2 story ideas from his teachings and stories, take his picks, script each from his voice-note ramble, take his edits, put approved scripts in Notion | He calls it, once a week during the 60-day challenge (from 2026-11-01) | 2026-10-29 | active |
 | [[write-script]] | Raw idea → interview → hooks → script in his voice, or a review of his draft. Runs [[script-process]] and [[script-review-checklist]] | He brings an idea, a story or a draft | no log entry yet | active |
 | [[content-report]] | Days with a post out of 7, followers and pace to 5,000 by December, best and worst post. Logs his numbers; never estimates one | Sunday 3:00pm session, after the money check | 2026-09-27 | active |
 

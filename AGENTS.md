@@ -120,7 +120,7 @@ A skill is a plain-markdown file in the open Agent Skills shape: frontmatter `na
 
 In the Brain now: `edit-clock`, `video-edit-pass`, `subtitle-transcript-formatter`, `yap-session-planner` — Samuel's own claude.ai skills, copied in 2026-09-22. The Brain copy is canonical.
 
-Finance skills, built 2026-09-22: `payday`, `budget`, `month-close`, `money-check`, `sunday-check`. Personal-life skills, built 2026-09-22: `night-plan`, `morning-brief`, `weekly-review`. Content skills, built 2026-09-22: `write-script`, `content-report`.
+Finance skills, built 2026-09-22: `payday`, `budget`, `month-close`, `money-check`, `sunday-check`. Personal-life skills, built 2026-09-22: `night-plan`, `morning-brief`, `weekly-review`. Content skills, built 2026-09-22: `write-script`, `content-report`; `content-week`, built 2026-10-29.
 
 Relay skills, built 2026-10-02: `pick-up`, `hand-back` ([[00-System/relay|relay]]).
 

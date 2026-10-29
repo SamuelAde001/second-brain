@@ -248,3 +248,4 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-29 · Brand manager · Posted confirm-your-email reminder in #announcements. → [[03-Areas/called-to-edit/called-to-edit-log|Called to Edit log]]
 
 - 2026-10-29 — Found and posted 73 starter tutorials into the 16 #resources posts (yt-dlp search, picks in [[04-Projects/called-to-edit-community-tutorial-picks|tutorial picks]]); added `community_admin.py tutorials`. First version hid link previews; Samuel wanted thumbnails, so it now posts one message per video.
+- 2026-10-29 · Brand manager · Scripted today's teaching short *Focus on the result, not the skill* (draft 2, after reading his Notion scripts); pitched 7 ideas for week 1 of the 60-day challenge; built skill `content-week`. → [[03-Areas/personal-brand/scripts/focus-on-the-result-not-the-skill|script]] · [[03-Areas/personal-brand/content-weeks/content-week-2026-11-01|week 1]]

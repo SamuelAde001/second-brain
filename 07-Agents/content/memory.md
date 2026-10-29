@@ -205,3 +205,8 @@ Back to [[07-Agents/content/profile|Profile]]
 - A Windows logon task (`schtasks /SC ONLOGON`) needs admin here; use a Startup-folder shortcut instead.
 - OBS minimised to the tray ignores `taskkill` without /F. Change a preset's sources over WebSocket (`set_input_settings`) instead of killing OBS.
 - 2026-10-28 — **Canva native paste without the page:** encode the clipboard JSON (UTF-16LE, base64, in `<div><span data-canva-clipboard="…"></span></div>`), `Set-Clipboard -AsHtml` in PowerShell, then Ctrl+V on the board. Several chapters can be merged into one paste by shifting each element's A/B (and a connector's b.C/c.C points); 395 elements, 510 KB pasted and saved fine.
+
+## 2026-10-29 — His voice is in Notion, not only the Brain
+- Samuel: *"Read past scripts on notion, not just in the second braind"*. His own written scripts live on the Done cards of the Instagram Content Calendar. What they show: one short line per thought; asides (*"omo"*, *"Hmmm"*, *"not to brag though"*, *"trust me"*, *"Nah, that aint for me"*); rhetorical questions; *"But there was an issue"*, *"And then one day"*, *"The truth is"*; his own experience first, lesson after; a bold one-line truth at the end. Each card fetch is ~15k tokens (template toggles above `Script`): fetch one or two, not all.
+- The calendar's schema changed since 2026-10-08: now Name, Status, Series (Called to Create · Life of a Video Editor · Called to Edit Webinar · Called to Edit), date. Post Type and Content pillar are gone.
+- *Stop learning video editing, start learning sales* (Done) already used the "one more technique: 3D, motion graphics" beat; check Done cards for beats already spent before scripting a teaching.
