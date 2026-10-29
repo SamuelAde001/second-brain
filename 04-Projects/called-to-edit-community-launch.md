@@ -184,3 +184,9 @@ Samuel: *"Build channels that help with personal brand etc, cause one of my main
 - #start-here now opens the channel list for those three with his formula; #help and the #resources guidelines point to them. Editors Bot's channel guide (`brain.mjs`) names them, **live only after the next site deploy** (same reason as above).
 - **Not given a channel:** niche (part of the bio-as-offer in profile-and-portfolio; Editors Bot has /niche), testimonials (wins and profile-and-portfolio).
 
+
+### Engagement, 2026-10-29 (Brand manager)
+Samuel: members are used to WhatsApp, not Discord, so they don't take part. Decision in [[03-Areas/called-to-edit/called-to-edit-decisions|Called to Edit decisions]], 2026-10-29. Live on production (site commit 05daa7a):
+- **`nudge.mjs`, 6:15am WAT daily**, after the streak count. A paid member (not Team, not expired) who has gone 48 hours without a check-in gets one Editors Bot DM with a link to their own post in daily-check-in (or the forum, if they have none). The clock starts at Day 1 (2026-11-01) or when they joined Discord, whichever is later. One per quiet stretch (`nudged` on the member record = the last check-in day it was sent for).
+- **`whatsapp-post.mjs`, 7:10am WAT daily**: Editors Bot DMs Samuel today's WhatsApp group post, ready to long-press and copy: day of the challenge (or days to it), the day's nugget, how many posted yesterday, the check-in link, the Wednesday call line, the Sunday leaderboard line, and "questions go in Discord". **Samuel posts it himself.**
+- Tested with fakes (both first-check-in and gone-quiet cases, late joiners, team and expired skipped, posts before, on and after Day 1). **Not seen live yet:** the first real nudge is possible from Tue 2026-11-03 06:15; the first WhatsApp post DM is Fri 2026-10-30 07:10.

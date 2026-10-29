@@ -115,3 +115,11 @@ Samuel's brief for calledtoedit.com, word for word in [[04-Projects/called-to-ed
 - **His order of priorities:** conversion, then functionality, then beauty; phones and laptops both; few words; light and dark mode; every visitor leaves at least an email; one link per offer.
 - **His four choices on the set-up questions (2026-10-26, picked from the options given):** the agents switch calledtoedit.com's nameservers at Spaceship to Netlify and add the new Discord login address, in his Chrome · the free homepage guide is **chapter 4 of the e-book, "Choose your niche"** (pages 25-31) plus "The pathway in twelve lines" (p. 113) · the mailbox for samuel@calledtoedit.com is **Google Workspace** · the agents fix Flutterwave in his Chrome: request international payments, set the fee to be paid by him, read the failed Ghana and Zimbabwe declines, draft the support question on other African currencies.
 - **Who decided:** Samuel. The concept, site map and three payment rails are the Brand manager's proposal from the research, not yet his decisions.
+
+## 2026-10-29 · Community engagement: WhatsApp kept, one nudge after 48 hours
+- **Problem (Samuel):** *"most of them are not used to discord, and are used to whatsapp, so they aren't participating and this would lead to churn"*.
+- **Decision (Samuel, 2026-10-29, "Yes, build both" to:** *"build the 48-hour bot nudge and the WhatsApp bridge posts. Keep the WhatsApp group open as announcements-only."*)
+  - The **WhatsApp group stays open, announcements only**. This replaces *"shut down by this month end"* (2026-10-22, Q25). It sends people into Discord; questions go to Discord.
+  - **One bot DM after 48 hours without a check-in**, once per quiet stretch. This softens Q17's *"no penalty, no nudge"*: still no penalty, one nudge. The Brand manager objected to Q17 once, on 2026-10-29: copying others only works when others are visibly posting.
+- **Suggested, not decided:** a Discord setup call before Day 1; one action only (the check-in) for the first two weeks; Samuel replying to every first post; the Wednesday call in Discord voice; pods of 4-5; the 14-day test (under about a third posting 3+ check-ins means looking at a WhatsApp Community with Discord as the payment gate).
+- **Who decided:** Samuel. → [[04-Projects/called-to-edit-community-launch|launch note]]
