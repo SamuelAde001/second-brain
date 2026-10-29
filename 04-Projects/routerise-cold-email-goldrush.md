@@ -2,7 +2,7 @@
 type: project
 area: video-editing
 status: active
-updated: 2026-10-28
+updated: 2026-10-29
 source: manual
 tags: [client, routerise, long-form]
 ---
@@ -87,3 +87,5 @@ Samuel, 2026-10-28 ~23:00, after the weekly reset: *"I need speed and I need qua
 **RESUME (2026-10-28 23:55):** job `Docs\RUN STATE.md` → ">>> NOW (NIGHT RUN". Next: read the bible → `MASTER PLAN.md` in the night-run folder → plan v2, captures, kit style patch → builds (Sonnet workers, Opus review) → install on *Visuals v1 (Editor)* → adj clips + MagicZoom → review render + preview pages for Samuel ~10:00 → his notes → sound → 4K final by 17:00.
 
 **RESUME (2026-10-29 10:40):** job `Docs\RUN STATE.md` → ">>> NOW" (newest line on top of NEXT). Done: all 44 section units passed Opus review; installed on *Visuals v1 (Editor)* 10:06 (verify ok); sound placed 10:10 (13 music, 72 SFX); A1 Voice Isolation kept at Samuel's own 31 (DECISIONS #56). Running: polish round wf_b8da8d73-b0b (accent shine on 14 nodes, stray cursors, edge-cut words, light gaps, two timings). Next: reinstall the changed manifests with the queue stopped → chunked 4K render (runbook section 10) + seam_audio → loudness to -16 LUFS → Opus check → 1080p copy to Samuel, by about 13:00; his notes; final by 17:00. Open for Samuel: Voice Isolation 31, the HK-00 intro adj placement. Samuel's latest words: *"PC is back"* (after the restart he asked for at 08:30).
+
+**RESUME (2026-10-29 17:25):** job `Docs\RUN STATE.md` → ">>> NOW" (15:50 v3 ROUTE line). Samuel edited *Visuals v1 (Editor)* himself and left 5 markers; his words: *"be as fast as you can in implementing the corrections, and render it in 1080p, V1 quickly"*. Markers rebuilt (DECISIONS #64), installed on a copy of his timeline as *Visuals v3 (Editor)* (his timeline never touched, #62), 1080p render v3 done 17:16, Opus check per chunk (#65): T1-08 r9 and two sound fixes go into **v3b** (`Renders3b 1080p (Editor)3b_1080_master.mp4`, rendering). Open for Samuel: the 5-frame A-roll sliver at 90-94 his hook B-roll disable uncovered; his 7 disabled clips are kept off (list in #65). Next: send v3b phone parts, he delivers to the creative director.
