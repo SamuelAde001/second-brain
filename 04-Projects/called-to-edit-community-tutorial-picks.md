@@ -15,7 +15,7 @@ Samuel, 2026-10-29: *"help me find the best tutorials for people in my community
 
 How they were picked (Brand manager, 2026-10-29): YouTube searched by script (yt-dlp), about 70 searches. Each pick was checked for views, like-to-view ratio, upload date, the creator's standing and its chapter list, which is what each one-line description is based on. Nobody watched every minute. Old videos were kept only where the lesson doesn't date (pricing, storytelling). No good video exists yet on getting paid in Nigeria from abroad (Cleva, Grey, Payoneer): every one found had under 2,000 views. That's a gap: the thread asks members to share what worked instead.
 
-Each `## ` section below is one bot reply in the #resources post of the same name, posted and edited in place by `python 00-System/scripts/community_admin.py tutorials`. Under 2,000 characters each (Discord's limit).
+Each `## ` section below goes into the #resources post of the same name: one intro message, then one message per video so each shows its YouTube thumbnail under its description (Samuel, 2026-10-29: *"I want everything to have a thumnail"*). Posted and edited in place by `python 00-System/scripts/community_admin.py tutorials`.
 
 ## 📱 CapCut Mobile tutorials
 

@@ -580,9 +580,28 @@ def cmd_welcome(name):
 TUTORIALS = BRAIN / "04-Projects" / "called-to-edit-community-tutorial-picks.md"
 
 
+def tutorial_messages(body):
+    """One section -> messages: the intro (with the closing line), then one per video so each link gets its
+    own thumbnail under its description (Samuel, 2026-10-29). A level line like '🟢 **Beginner**' heads the next video."""
+    intro, videos, level = [], [], ""
+    for block in body.split("\n\n"):
+        block = block.strip()
+        if "https://" in block:
+            lines = block.split("\n")
+            if not lines[0].startswith("**"):  # a level line glued to the video
+                level, lines = lines[0], lines[1:]
+            videos.append(((level + "\n") if level else "") + "\n".join(lines))
+            level = ""
+        elif block.endswith("**Beginner**") or block.endswith("**Intermediate**"):
+            level = block
+        else:
+            intro.append(block)
+    return ["\n\n".join(intro)] + videos
+
+
 def cmd_tutorials():
-    """Each '## <post title>' section of the tutorial picks note is one bot reply in that #resources post,
-    edited in place on re-runs. Link previews are suppressed so the list stays readable on a phone."""
+    """Each '## <post title>' section of the tutorial picks note goes into that #resources post: an intro,
+    then one message per video with its YouTube preview. Edited in place on re-runs; reposted if the count changed."""
     c = load_cfg()
     posted = c.setdefault("posted", {})
     text = TUTORIALS.read_text(encoding="utf-8")
@@ -593,15 +612,20 @@ def cmd_tutorials():
         if not thread:
             print("No #resources post for", title)
             continue
-        if len(body) > 2000:
-            sys.exit(f"{title}: {len(body)} characters, Discord's limit is 2000.")
-        msg = {"content": render(body, c), "allowed_mentions": {"parse": []}, "flags": 4}
+        msgs = [{"content": render(m, c), "allowed_mentions": {"parse": []}} for m in tutorial_messages(body)]
         key = "tutorials: " + title
-        if posted.get(key) and api("PATCH", f"/channels/{thread}/messages/{posted[key]}", msg, ok_missing=True):
+        old = posted.get(key) or []
+        old = [old] if isinstance(old, str) else old
+        if len(old) == len(msgs):
+            for mid, m in zip(old, msgs):
+                api("PATCH", f"/channels/{thread}/messages/{mid}", {**m, "flags": 0}, ok_missing=True)
             print("Updated", title)
             continue
-        posted[key] = api("POST", f"/channels/{thread}/messages", msg)["id"]
-        print("Posted", title)
+        for mid in old:
+            api("DELETE", f"/channels/{thread}/messages/{mid}", ok_missing=True)
+        posted[key] = [api("POST", f"/channels/{thread}/messages", m)["id"] for m in msgs]
+        save_cfg(c)
+        print(f"Posted {title} ({len(msgs) - 1} videos)")
     save_cfg(c)
 
 

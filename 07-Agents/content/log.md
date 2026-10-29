@@ -246,3 +246,5 @@ Back to [[07-Agents/content/profile|Profile]]
 - 2026-10-29 · Brand manager · Made the Sunday and Wednesday Live Call Discord events recur weekly. → [[03-Areas/called-to-edit/called-to-edit-log|Called to Edit log]]
 - 2026-10-29 · Brand manager · Welcome DM now opens with 'confirm your Discord email', deployed. → [[03-Areas/called-to-edit/called-to-edit-log|Called to Edit log]]
 - 2026-10-29 · Brand manager · Posted confirm-your-email reminder in #announcements. → [[03-Areas/called-to-edit/called-to-edit-log|Called to Edit log]]
+
+- 2026-10-29 — Found and posted 73 starter tutorials into the 16 #resources posts (yt-dlp search, picks in [[04-Projects/called-to-edit-community-tutorial-picks|tutorial picks]]); added `community_admin.py tutorials`. First version hid link previews; Samuel wanted thumbnails, so it now posts one message per video.
