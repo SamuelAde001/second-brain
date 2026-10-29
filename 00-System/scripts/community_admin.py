@@ -6,6 +6,7 @@ This script reads them and never prints them. No agent opens that file (AGENTS.m
   python community_admin.py invite-url      link that adds the bot to the server
   python community_admin.py build           roles, channels, permissions, AutoMod, Community mode (safe to re-run)
   python community_admin.py post-texts      post or update the pinned texts from the Brain note, upload the workbook
+  python community_admin.py tutorials       post or update the starter tutorial picks in each #resources post
   python community_admin.py push-env        put the keys and the server config on the Netlify site
   python community_admin.py nuggets         rebuild the bot's morning-nugget list and join welcome from the Brain note
   python community_admin.py status          what the server looks like now
@@ -576,6 +577,34 @@ def cmd_welcome(name):
     print(f"Welcome posted for @{found[0]['user']['username']}.")
 
 
+TUTORIALS = BRAIN / "04-Projects" / "called-to-edit-community-tutorial-picks.md"
+
+
+def cmd_tutorials():
+    """Each '## <post title>' section of the tutorial picks note is one bot reply in that #resources post,
+    edited in place on re-runs. Link previews are suppressed so the list stays readable on a phone."""
+    c = load_cfg()
+    posted = c.setdefault("posted", {})
+    text = TUTORIALS.read_text(encoding="utf-8")
+    parts = re.split(r"^## (.+)$", text, flags=re.M)
+    for i in range(1, len(parts) - 1, 2):
+        title, body = parts[i].strip(), parts[i + 1].strip()
+        thread = posted.get("#resources post: " + title)
+        if not thread:
+            print("No #resources post for", title)
+            continue
+        if len(body) > 2000:
+            sys.exit(f"{title}: {len(body)} characters, Discord's limit is 2000.")
+        msg = {"content": render(body, c), "allowed_mentions": {"parse": []}, "flags": 4}
+        key = "tutorials: " + title
+        if posted.get(key) and api("PATCH", f"/channels/{thread}/messages/{posted[key]}", msg, ok_missing=True):
+            print("Updated", title)
+            continue
+        posted[key] = api("POST", f"/channels/{thread}/messages", msg)["id"]
+        print("Posted", title)
+    save_cfg(c)
+
+
 def cmd_say(channel, text):
     c = load_cfg()
     by_name = {base(ch["name"]): ch["id"] for ch in api("GET", f"/guilds/{c['guild']}/channels")}
@@ -661,7 +690,7 @@ if __name__ == "__main__":
     a = sys.argv[1:]
     cmds = {"setup-secrets": cmd_setup_secrets, "edit-secrets": cmd_edit_secrets, "invite-url": cmd_invite_url, "build": cmd_build, "post-texts": cmd_post_texts, "push-env": cmd_push_env,
             "nuggets": cmd_nuggets, "status": cmd_status, "members": cmd_members, "team-invite": cmd_team_invite, "founder": cmd_founder,
-            "knowledge": cmd_knowledge, "bot-setup": cmd_bot_setup}
+            "knowledge": cmd_knowledge, "bot-setup": cmd_bot_setup, "tutorials": cmd_tutorials}
     if a and a[0] in cmds:
         cmds[a[0]]()
     elif a[:1] == ["team"] and len(a) > 1:
