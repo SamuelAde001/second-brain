@@ -643,13 +643,16 @@ def cmd_bot_setup():
 DAYS = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
 
 
-def cmd_call(day_name, hhmm, *label):
-    """Weekly live call, e.g.: call wednesday 19:00. Then push-env + deploy."""
+def cmd_call(day_names, hhmm, *label):
+    """Weekly live calls, e.g.: call sunday,wednesday 20:00. Then push-env + deploy."""
     c = load_cfg()
     h, m = (int(x) for x in hhmm.split(":"))
-    d = DAYS.index(day_name.lower())
-    nice = f"{DAYS[d].capitalize()}s, {((h - 1) % 12) + 1}:{m:02d}{'am' if h < 12 else 'pm'} WAT"
-    c["call"] = {"day": d, "hour": h, "minute": m, "text": " ".join(label) or nice}
+    days = sorted(DAYS.index(x.strip().lower()) for x in day_names.split(","))
+    names = [DAYS[d].capitalize() + "s" for d in days]
+    when = names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1]
+    nice = f"{when}, {((h - 1) % 12) + 1}:{m:02d}{'am' if h < 12 else 'pm'} WAT"
+    # "day" kept for anything still reading one day; "days" is the list.
+    c["call"] = {"day": days[0], "days": days, "hour": h, "minute": m, "text": " ".join(label) or nice}
     save_cfg(c)
     print("Call saved:", c["call"]["text"], "- now push-env and deploy.")
 

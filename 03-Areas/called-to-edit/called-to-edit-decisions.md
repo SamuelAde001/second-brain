@@ -123,3 +123,6 @@ Samuel's brief for calledtoedit.com, word for word in [[04-Projects/called-to-ed
   - **One bot DM after 48 hours without a check-in**, once per quiet stretch. This softens Q17's *"no penalty, no nudge"*: still no penalty, one nudge. The Brand manager objected to Q17 once, on 2026-10-29: copying others only works when others are visibly posting.
 - **Suggested, not decided:** a Discord setup call before Day 1; one action only (the check-in) for the first two weeks; Samuel replying to every first post; the Wednesday call in Discord voice; pods of 4-5; the 14-day test (under about a third posting 3+ check-ins means looking at a WhatsApp Community with Discord as the payment gate).
 - **Who decided:** Samuel. → [[04-Projects/called-to-edit-community-launch|launch note]]
+
+## 2026-10-29 — Live calls on Sundays and Wednesdays, 8pm WAT
+Samuel, word for word: *"I'd be teaching on Sunday's 8pm at the community also as 8pm on wednesaday, update all that is involved and send an anouncement"*. The Community's live calls are now twice a week, Sundays and Wednesdays, 8:00pm WAT, on the 🎙️ weekly-live stage. Replaces Wednesdays only. → [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
