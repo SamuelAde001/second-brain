@@ -263,6 +263,15 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-28 | bulk | 253 | Minor spends 2026-10-26 to 2026-10-28 | Other | derived; rows give 30,313, he has 30,060; likely transfer charges |
 | 2026-10-28 | balance | 30,060 | Bank | — | his words: "presently 30,060 is in my account rn"; no screenshot |
 | 2026-10-28 | bulk | 20,000 | To Ifeoma, for her mouse and data | Extra cash | his words: "I just gave 20k to ifeoma, to use for the mouse and the data"; agreed 16,000 (mouse 6,000 + data 10,000), sent 20,000; line is a guess (no Ifeoma line in the plan) |
+| 2026-10-29 | in | 9,785 | Flutterwave settlement to personal | — | his words: "9,785 came from flutter wave yesterday" |
+| 2026-10-30 | in | 9,785 | Flutterwave settlement to personal | — | his words: "Another 9,785 came again from flutterwave today" |
+| 2026-10-30 | bulk | 1,398 | Sleep mask, Temu | Personal / misc | his words: "1,398 for a sleep mask on temu"; day assumed |
+| 2026-10-30 | bulk | 1,500 | Suya | Eating out | his words: "1,500 on suya"; day assumed |
+| 2026-10-30 | bulk | 1,122 | SMS charges | Other | his words: "1,122 on sms charges"; day assumed |
+| 2026-10-30 | bulk | 8,500 | Eating out | Eating out | his words: "8,500 on eating out"; day assumed |
+| 2026-10-30 | bulk | 10,300 | Shopping | Extra cash | his words: "10,300 shopping"; line is a guess (what was bought not said; Feeding was closed 2026-10-18, home food comes from Extra cash); day assumed |
+| 2026-10-30 | bulk | 1,518 | Minor spends 2026-10-28 to 2026-10-30 | Other | derived; rows give 6,810, he has 5,292 |
+| 2026-10-30 | balance | 5,292 | Bank | — | his words: "5,292 in bank"; no screenshot |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
