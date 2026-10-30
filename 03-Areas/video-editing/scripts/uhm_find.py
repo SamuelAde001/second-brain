@@ -18,6 +18,8 @@ import json, os, re, subprocess, sys, shutil, glob
 import numpy as np
 
 FPS = 24000 / 1001
+if "--fps" in sys.argv:  # timeline rate when it isn't 23.976 (Gamma Ep. 12 is 25p, 2026-10-30)
+    _i = sys.argv.index("--fps"); FPS = float(sys.argv[_i + 1]); del sys.argv[_i:_i + 2]
 FFMPEG = shutil.which("ffmpeg") or (glob.glob(os.path.expandvars(
     r"%LOCALAPPDATA%\Microsoft\WinGet\Packages\Gyan.FFmpeg*\ffmpeg-*\bin\ffmpeg.exe")) or ["ffmpeg"])[0]
 FILLERS = {"uh", "um", "umm", "uhm", "uhh", "ah", "er", "erm", "hmm", "mm", "mhm"}

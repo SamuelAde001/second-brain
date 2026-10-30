@@ -336,3 +336,4 @@ Started from the General Manager's session (zero-revision pipeline, model routin
 - 2026-10-30 · Samuel confirmed Gamma is the August USD 175 client. Updated gamma.md, open question 119 answered, correction line in delivered-projects, notes in income.md and the area overview.
 
 - 2026-10-30 — Gamma Ep. 12: read card, started downloads (A-cam first), whole-audio Whisper, job note updated. Waiting on A-cam (~6 h at 1.4 MB/s).
+- 2026-10-30 — Gamma Ep. 12 phase 1 on A-cam: sync (49.78 s), Cut v2 silence+noise (740 clips), retakes by reading the clip table (451 cut), Cut v4 uhms, Cut v5 sections (13:46, 12 sections), transcript docx. B-cam and A-cam clip 2 still downloading.
