@@ -42,3 +42,4 @@ Client job through [[03-Areas/video-editing/clients/routerise|Route Rise]] for [
 - Working files: `Docs\Editor working files (2026-10-30)\` (clip_table, whisper_words, v2_clips, v3_cut_list, trims, segs_v2..v5, sections, cut_words, sentences).
 - **Not in yet:** A-cam clip 2 (C4165, 21:22; the mic ends 14 s before clip 1 does, so it has no mic) and both B-cam files, still downloading. B-cam goes on V2 per clip from the A-cam source times once it lands.
 - **Phase 1 done 2026-10-30 ~17:35 WAT on A-cam. Next: Samuel revises *Cut v5 (Editor) - sections*.**
+- 2026-10-30 18:20 (Editor): **A-cam clip 2 (C4165) is a different episode**, not this one: camera-audio Whisper shows a video on McKinsey presentations ("I uploaded a thousand slides from McKinsey presentations into Claude…", Gamma rebuild, end card to "three presentations you can make"), shot the same day. Not used in this cut. B-cam C4033 (same length) is most likely its B-cam; it is still queued in the download.
