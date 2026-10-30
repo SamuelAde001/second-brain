@@ -24,7 +24,7 @@ Current system, from the Accountability Engine's money file, maintained to 2026-
 | End client | Rate | Notes |
 |---|---|---|
 | Original end client | **USD 333.33/video** | He has tried to raise it. They will not move. He is content with it. |
-| ~~Second end client~~ | ~~USD 175/video~~ | **ENDED.** Confirmed by Samuel 2026-09-20: it did not recur. August 2026 was the only batch. |
+| ~~Second end client~~ | ~~USD 175/video~~ | **ENDED.** Confirmed by Samuel 2026-09-20: it did not recur. August 2026 was the only batch. **2026-10-30: it is Gamma, and it is back** (one video at USD 175 on the October batch; Samuel: *"Yes, same client"*). [[03-Areas/video-editing/clients/gamma|Gamma]] |
 
 **Both rates are set by Route Rise, not by Samuel.** The USD 175 rate cost roughly **NGN 432,241** on the August batch alone against what the same two videos would have earned at the higher rate.
 

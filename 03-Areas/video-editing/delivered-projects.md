@@ -71,3 +71,4 @@ A mistake in an existing row gets a new, dated line right here, never a silent e
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]
 - 2026-10-18 — **October has 5 Route Rise videos.** Samuel: *"With this 2 we have 5 videos this Month, not 4"*. B2B, Apollo, LinkedIn Training (row 22, added today) plus the two new cards: 2. I Gave Claude 10,000 SaaS Companies and 4. The Cold Email Goldrush Is back ([[04-Projects/routerise-videos-2-and-4-plan|plan]]). The 2 and 4 are Route Rise's card numbers, not a count.
+- 2026-10-30 — **Rows 14–15: the "second end client" is Gamma.** Samuel: *"Yes, same client"*. One of the two is likely "I Created 40 Social Media Posts in 10 Minutes Using Claude + Gamma" (job folder, files 2026-07-31 to 2026-08-03); not matched to a row. Gamma is back from 2026-10-30 at USD 175 ([[03-Areas/video-editing/clients/gamma|Gamma]]).

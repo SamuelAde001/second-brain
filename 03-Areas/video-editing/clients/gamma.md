@@ -20,7 +20,8 @@ Back to [[03-Areas/video-editing/video-editing|Video editing]] · Agency: [[03-A
 | Card | Job note | Started | Status |
 |---|---|---|---|
 | 3. Claude + Gamma App MCP Will Make You Rich | [[04-Projects/routerise-gamma-claude-mcp-rich\|job note]] | 2026-10-30 | active |
+| I Created 40 Social Media Posts in 10 Minutes Using Claude + Gamma (and one more, name unknown) | — (August 2026, rows 14–15) | 2026-07-31 | delivered |
 
-## Possibly the August 2026 USD 175 client — not confirmed
+## The August 2026 USD 175 client — confirmed
 
-[[03-Areas/finances/income|Income]] records a "second end client" at USD 175, August 2026 only, marked ended. The Route Rise folder holds an earlier job, `I Created 40 Social Media Posts in 10 Minutes Using Claude + Gamma` (files dated 2026-07-31 to 2026-08-03, a `Gamma 1st Batch Assets` folder). Same rate, same month. That points to Gamma being that client, back again, but Samuel hasn't said so. Question logged in [[00-System/open-questions|open questions]].
+[[03-Areas/finances/income|Income]] records a "second end client" at USD 175, August 2026 only, marked ended. The Route Rise folder holds an earlier job, `I Created 40 Social Media Posts in 10 Minutes Using Claude + Gamma` (files dated 2026-07-31 to 2026-08-03, a `Gamma 1st Batch Assets` folder). Same rate, same month. **Confirmed by Samuel, 2026-10-30: *"Yes, same client"*.** Gamma is that client, back after August. Rows 14–15 in [[03-Areas/video-editing/delivered-projects|delivered projects]] are Gamma's.
