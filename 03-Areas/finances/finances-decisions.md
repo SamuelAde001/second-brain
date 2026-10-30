@@ -81,3 +81,10 @@ Back to [[03-Areas/finances/finances|Finances]]
 - **Decision:** Samuel took a NGN 325,000 app loan (NGN 321,000 received, 13.7%/month, 6 × NGN 82,875 on the 19th, to 2027-04-19) to buy a laptop for his new creative director, an unpaid volunteer. Budgeted as a NGN 100,000/month *Creative director salary* line, Nov 2026 – Apr 2027.
 - **His words:** *"I don't want to be saving for it as I would want her to start now"*; *"I am paying 82,875 every 19th of the month, so let's put that as 100k for Creative Directors salary since I am not paying her"*.
 - **Money man's objection (once):** the first ask was NGN 550,000 over 18 months (NGN 955,585 interest); he cut it to NGN 325,000 over 6 months on advice. Still ~367% a year, and NGN 100,000/month slows Goal 1. Suggested the laptop stays the brand's property and her weekly output is agreed in writing, reviewed after 3 months. Not yet confirmed by him.
+
+## 2026-10-30 — November budget
+
+- Girlfriend apartment: *"I want to send additional 600k to my GF, as she wants to rent her own appartment next week"*. One-off, Payday A.
+- *"Building 600k is november only"*. *"Claude would stay 20X"*. *"Instagram keep"*. Sister: *"Na, just giving her money"* (a gift, not the debt).
+- Creative director: *"creative director won't be paid since her laptop money is the bank loan I collected"*. The line becomes the NGN 82,875 app loan repayment.
+- Said once: the rent and building leave Goal 1 NGN 127,617 to 169,437 behind pace in November.

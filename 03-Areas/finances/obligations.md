@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-10-06
+updated: 2026-10-30
 source: legacy-accountability-engine
 tags: [budget, obligations]
 ---
@@ -16,20 +16,20 @@ Exact line items, given by Samuel on 2026-08-26 and maintained since. **Payday**
 | Building project | NGN 500,000 | Fixed | A |
 | Parents | NGN 100,000 | Committed | A |
 | Girlfriend allowance | NGN 100,000 | Committed | A |
-| Subscriptions | NGN 162,242 | mixed | split |
+| Subscriptions | NGN 328,549 | mixed | split |
 | Chores / household | NGN 40,000 | Discretionary | B |
 | Health — gym | NGN 30,000 | Committed | A |
 | Feeding | NGN 30,000 | Committed | B |
 | Creator visits (network) | NGN 25,000 | Discretionary | B |
 | Transport | NGN 20,000 | Committed | B |
 | Community admin salary | NGN 15,000 | Fixed | B |
-| Creative director salary (loan repayment) | NGN 100,000 | Fixed, Nov 2026 – Apr 2027 | 19th |
+| App loan repayment (creative director's laptop) | NGN 82,875 | Fixed, Nov 2026 – Apr 2027 | 19th |
 | Giving | NGN 10,000 | Committed | B |
 | Personal / misc | NGN 10,000 | Discretionary | B |
 | Data / airtime | NGN 5,000 | Committed | B |
-| **Obligations floor** | **NGN 1,060,742** | | |
+| **Obligations floor** | **NGN 1,296,424** | | |
 | Investment contribution (Investment fund) | NGN 60,000 | Fixed | A |
-| **Total committed outflow** | **NGN 1,107,242 / month** | | |
+| **Total committed outflow** | **NGN 1,356,424 / month** | | |
 
 The Buffer gets NGN 90,000/month on top: NGN 40,000 to Cowrywise savings on Payday A + NGN 50,000 on Payday B (Rule 8, changed 2026-09-28).
 
@@ -37,11 +37,12 @@ The Buffer gets NGN 90,000/month on top: NGN 40,000 to Cowrywise savings on Payd
 
 | Subscription | NGN | Bills on |
 |---|---|---|
-| Claude Max (claude.ai, Cleva card) | ~143,942 (USD 107.50) | 6th |
+| Claude Max 20x (claude.ai, Cleva card) | ~290,250 (USD 215, estimate) | ~24th |
 | Google (AI Plus 2 TB, from 2026-10-18) | 15,000 | 18th |
 | YouTube Premium | 1,700 | 17th |
 | Spotify | 1,600 | 5th |
-| Instagram (free trial, first charge 2026-11-07; not in the total yet) | 8,499 | 7th |
+| Instagram | 8,499 | 7th |
+| Google Workspace Business Starter (EUR 7.29, EUR 8.10 after 12 months; estimate) | ~11,500 | 9th |
 
 **NGN 162,242 a month** from 2026-10-18, when Google went from AI Pro (NGN 28,500) down to AI Plus 2 TB (NGN 15,000). Samuel, 2026-10-16: *"I just downgraded, it's 15k per month for the google sub"*. 2 TB kept for Meet's long group calls and recording (webinar, cohort classes). Before that, **NGN 175,742 a month** from 2026-10-06, when Claude went from Pro on Google Play (NGN 33,500, 16th) to Max on claude.ai: USD 107.50, NGN 143,942 on the first charge. Samuel, 2026-10-06: *"N143,942 was charged for $107.5"*. The naira figure moves with the card rate. It was NGN 65,300 from 2026-09-18. Until then it was NGN 51,800: Claude NGN 33,500 (16th) · Google NGN 15,000 (2nd) · YouTube Premium NGN 1,700 (17th) · Spotify NGN 1,600 (5th).
 
@@ -106,6 +107,17 @@ Committed outflow falls from NGN 1,120,742 to **NGN 1,107,242**. NGN 13,500 a mo
 | Creative director salary (loan repayment) | — | NGN 100,000 | *"I am paying 82,875 every 19th of the month, so let's put that as 100k for Creative Directors salary since I am not paying her"*. The NGN 82,875 repays the laptop loan; NGN 17,125 a month stays on the line. Six months, 2026-11 to 2027-04 |
 
 The obligations floor and committed outflow rise by NGN 100,000 a month until April 2027.
+
+## Changed 2026-10-30, at his instruction
+
+| Line | From | To | Why |
+|---|---|---|---|
+| Claude | Max 5x, ~NGN 143,942 on the 6th | Max 20x, ~NGN 290,250 (USD 215, estimate) on ~the 24th | *"Claude would stay 20X"* |
+| Instagram | free trial, not in the total | NGN 8,499 on the 7th | *"Instagram keep"* |
+| Google Workspace | — | ~NGN 11,500 (EUR 7.29, estimate) on the 9th | Signed up 2026-10-26, first charge 2026-11-09 |
+| Creative director salary (loan repayment) | NGN 100,000 | App loan repayment NGN 82,875 | *"creative director won't be paid since her laptop money is the bank loan I collected"*. The instalment is still owed to 2027-04-19 |
+
+Subscriptions rise from NGN 162,242 to **NGN 328,549**. The floor is corrected to **NGN 1,296,424** and committed outflow to **NGN 1,356,424**: the old floor (NGN 1,060,742) never took in the creative director line or the Google downgrade.
 
 ## Removed and no longer owed
 
