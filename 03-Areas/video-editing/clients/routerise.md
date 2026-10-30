@@ -16,6 +16,8 @@ tags: [client]
 > **RESOLVED 2026-09-20 by Samuel: Routerise is the agency he works with.** They assigned him one client — **Alex**, who runs Frontal. He edits Alex's videos. The agency's standard rate is **USD 333.33 per video**.
 >
 > The source documents were inconsistent about this — one called Routerise "my company", another labelled the project "client: Alex / Frontal", and the cut sheets refer to videos by the Routerise name. The answer is that Routerise is the agency above him, not his own brand and not the end client. Client detail now lives in [[alex|Alex]].
+>
+> **2026-10-30:** a second end client, [[03-Areas/video-editing/clients/gamma|Gamma]], at USD 175 per video (Samuel).
 
 ## What they hire me for
 
