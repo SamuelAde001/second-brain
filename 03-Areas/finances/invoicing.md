@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: needs-input
-updated: 2026-10-14
+updated: 2026-10-30
 source: claude-export
 tags: [invoicing, clients]
 ---
@@ -66,6 +66,23 @@ A photo of his handwritten signature, background removed (transparent PNG), plac
 - A standard payment term to put on every invoice.
 - What "DSG" stands for.
 - Whether the builder/PDF workflow above is still what he actually uses for invoices sent after 2026-08-20.
+
+## Waiting for the next invoices
+
+### November 2026 mid-month invoice (Payday B): bonuses USD 175.00
+
+Samuel, 2026-10-30: *"I got some bonus next month, $100 for most reliable editor, $50 for a no correction video, and $25 for a video with less than 5 corrections"*; *"They would be paid and added to my midmonth invoice, not payday A but payday B"*.
+
+| Bonus | Amount |
+|---|---|
+| Most reliable editor | USD 100.00 |
+| A video with no corrections | USD 50.00 |
+| A video with fewer than 5 corrections | USD 25.00 |
+| **Total** | **USD 175.00** |
+
+They go on the mid-November invoice beside the October batch's 30% balance, never on the end-of-October 70% invoice (Payday A). Same way invoice #14 carried September's USD 25.00 bonus. Which video earned each of the two video bonuses: not given.
+
+If the October batch is 5 Alex videos at USD 333.33 plus the Gamma video at USD 175 ([[07-Agents/handoffs|handoff]], 2026-10-30), it is USD 1,841.65: 70% = USD 1,289.16 on Payday A, 30% = USD 552.50 + USD 175.00 bonuses = **USD 727.50 billed on Payday B**, before Cleva and transfer charges.
 
 Back to [[03-Areas/finances/finances|Finances]]
 
