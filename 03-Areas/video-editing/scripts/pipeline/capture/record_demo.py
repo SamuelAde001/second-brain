@@ -26,7 +26,7 @@ import os, sys, json, time, math, base64, socket, struct, subprocess, shutil, gl
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CHROME = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
-PORT = 9361
+PORT = int(os.environ.get("DEMO_PORT", "9361"))  # parallel helpers each set their own DEMO_PORT (Gamma Ep. 12, 2026-10-30)
 PROFILE = os.path.join(os.environ.get("TEMP", HERE), "demo_rec_chrome")
 FFMPEG = shutil.which("ffmpeg") or (glob.glob(os.path.expandvars(
     r"%LOCALAPPDATA%\Microsoft\WinGet\Packages\Gyan.FFmpeg*\ffmpeg-*\bin\ffmpeg.exe")) or ["ffmpeg"])[0]
