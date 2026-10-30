@@ -1,0 +1,36 @@
+{
+  "number": 16,
+  "issued": "2026-10-30",
+  "due": "On receipt",
+  "client": "routerise",
+  "currency": "USD",
+  "period": "October 2026",
+  "items": [
+    {
+      "description": "The Most Valuable AI B2B Marketing Training You'll Ever Watch",
+      "amount": "333.33"
+    },
+    {
+      "description": "I cancelled Apollo.io and built this Claude skill instead",
+      "amount": "333.33"
+    },
+    {
+      "description": "The Most Valuable B2B LinkedIn Training You'll Ever Watch",
+      "amount": "333.33"
+    },
+    {
+      "description": "I Gave Claude 10,000 SaaS Companies... Here's What I Found",
+      "amount": "333.33"
+    },
+    {
+      "description": "The Cold Email Goldrush Is back (Don't miss it)",
+      "amount": "333.33"
+    }
+  ],
+  "stage": {
+    "label": "70% payment",
+    "percent": 70
+  },
+  "extras": [],
+  "file_name": "Samuelvisuals October end invoice (revised)"
+}

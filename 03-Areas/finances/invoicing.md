@@ -86,6 +86,8 @@ If the October batch is 5 Alex videos at USD 333.33 plus the Gamma video at USD 
 
 Correction, 2026-10-30: the 30% is the total minus the rounded 70%, USD 1,841.65 − 1,289.16 = USD 552.49, so Payday B bills **USD 727.49**, not 727.50. Invoice #15 (the 70%) went out with the Gamma video on it.
 
+Correction, 2026-10-30, later: Route Rise rejected #15 because the Gamma video isn't done. Samuel: *"without the gamma vid in it as it was rejected by my company since it's not done"*. #16 replaces it: 5 Alex videos, USD 1,666.65, 70% = USD 1,166.66. The 30% balance is USD 499.99, so Payday B bills **USD 674.99** with the USD 175.00 bonuses. Which invoice the Gamma video goes on now: not given.
+
 Back to [[03-Areas/finances/finances|Finances]]
 
 ## Payment terms — confirmed by Samuel, 2026-09-20
@@ -121,5 +123,6 @@ Newest at the bottom. The amount is what that invoice asks for.
 | 13 | 2026-09-29 | Route Rise | September 2026 | 70% | not recorded | made by hand before the skill |
 | 14 | 2026-10-14 | Route Rise | September 2026 | 30% balance (USD 399.99) + bonus USD 25.00 | USD 424.99 | `invoices/invoice-014-routerise-2026-10-14.json` |
 | 15 | 2026-10-30 | Route Rise | October 2026 | 70% of USD 1,841.65 (5 Alex videos + Gamma USD 175.00) | USD 1,289.16 | `invoices/invoice-015-routerise-2026-10-30.json` |
+| 16 | 2026-10-30 | Route Rise | October 2026 | 70% of USD 1,666.65 (5 Alex videos). Replaces #15, rejected by Route Rise: the Gamma video isn't done (Samuel, 2026-10-30) | USD 1,166.66 | `invoices/invoice-016-routerise-2026-10-30.json` |
 
 Back to [[03-Areas/finances/finances|Finances]]
