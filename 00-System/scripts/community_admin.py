@@ -67,6 +67,12 @@ LAYOUT = [
         ("accountability", FORUM, "rw", None),
         ("ask-editors-bot", TEXT, "rw", "Ask Editors Bot anything from Samuel's teachings. Type /ask, or /help for all commands."),
     ]),
+    # Samuel, 2026-10-30: "3 voice channels ... in case video editors just want to chat and gist about work or showcase their edits"
+    ("VOICE ROOMS", [
+        ("lounge", VOICE, "rw", None),
+        ("work-gist", VOICE, "rw", None),
+        ("edit-showcase", VOICE, "rw", None),
+    ]),
     ("GROW", [
         ("feedback", FORUM, "rw", None),
         ("resources", FORUM, "rw", None),
@@ -228,7 +234,7 @@ ICONS = {
     "start-here": "🧭", "announcements": "📢", "welcome": "👋", "general-chat": "💬", "wins": "🏆", "showcase": "🎬",
     "accountability": "✅", "ask-editors-bot": "🤖", "feedback": "🎞️", "resources": "📚",
     "opportunities": "💼", "help": "🆘", "weekly-live": "🎙️", "call-recordings": "📼", "payments-log": "💳", "mod-log": "🛡️",
-    "subscription-expired": "🔒", "team-chat": "🗨️", "team-call": "📞",
+    "subscription-expired": "🔒", "team-chat": "🗨️", "team-call": "📞", "lounge": "☕", "work-gist": "🗣️", "edit-showcase": "🖥️",
     "capcut": "✂️", "davinci-resolve": "🎛️", "premiere-pro": "🟪", "outreach": "📨", "pricing-and-clients": "💰",
     "personal-brand": "🌟", "profile-and-portfolio": "🪪", "share-your-posts": "🔗", "editing-craft": "🪄",
 }
