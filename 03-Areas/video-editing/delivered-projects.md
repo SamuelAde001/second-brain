@@ -2,7 +2,7 @@
 type: knowledge
 area: video-editing
 status: needs-input
-updated: 2026-10-26
+updated: 2026-10-30
 source: manual
 tags: [clients, delivered, income]
 ---
@@ -38,6 +38,7 @@ Every client video delivered so far, one row per video. The **video-editor agent
 | 21 | I cancelled Apollo.io and built this Claude skill instead | Alex | Route Rise | by 2026-10-14 | 333.33 | 2026-10 | Samuel, 2026-10-14: done and sent; send date not given. [[04-Projects/routerise-cancel-apollo\|job note]] |
 | 22 | The Most Valuable B2B LinkedIn Training You'll Ever Watch | Alex | Route Rise | — | 333.33 | 2026-10 | Final v2 rendered 2026-10-16 (Editor); Samuel sends it. Counted in October's 5 by Samuel, 2026-10-18. Send date not given. [[04-Projects/routerise-linkedin-training\|job note]] |
 | 23 | I Gave Claude 10,000 SaaS Companies... Here's What I Found | Alex | Route Rise | by 2026-10-26 | 333.33 | 2026-10 | v6 final cleared 2026-10-25 (Editor); Samuel moved to video 4 on 2026-10-26, so delivered (rule of 2026-10-14). Send date not given. [[04-Projects/routerise-claude-10000-saas\|job note]] |
+| 24 | 4. The Cold Email Goldrush Is back (Don't miss it) | Alex | Route Rise | by 2026-10-30 | 333.33 | 2026-10 | v2 4K rendered 2026-10-29 22:05 (Editor). Samuel, 2026-10-30: *"All of them are delivered so far"*. Send date not given. [[04-Projects/routerise-cold-email-goldrush\|job note]] |
 
 Rows 1–15 come from the batch-count table in [[03-Areas/finances/income|Income]] (May 5 / June 4 / July 2 / August 4 videos), confirmed by Samuel 2026-09-20 as the live record. No video names, individual delivery dates or per-video splits exist anywhere in the Brain for May–July, so those rows carry `name unknown` and `—`. The single-rate assumption for May–July (all USD 333.33, one end client) follows directly from the source: the second end client is stated as "new August 2026" — before that there was one client at one rate. August's 2+2 split and both rates are stated explicitly in [[03-Areas/finances/income|Income]].
 

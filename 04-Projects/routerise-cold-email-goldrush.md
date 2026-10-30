@@ -1,8 +1,8 @@
 ---
 type: project
 area: video-editing
-status: active
-updated: 2026-10-29
+status: done
+updated: 2026-10-30
 source: manual
 tags: [client, routerise, long-form]
 ---
@@ -91,3 +91,5 @@ Samuel, 2026-10-28 ~23:00, after the weekly reset: *"I need speed and I need qua
 **RESUME (2026-10-29 17:25):** job `Docs\RUN STATE.md` → ">>> NOW" (15:50 v3 ROUTE line). Samuel edited *Visuals v1 (Editor)* himself and left 5 markers; his words: *"be as fast as you can in implementing the corrections, and render it in 1080p, V1 quickly"*. Markers rebuilt (DECISIONS #64), installed on a copy of his timeline as *Visuals v3 (Editor)* (his timeline never touched, #62), 1080p render v3 done 17:16, Opus check per chunk (#65): T1-08 r9 and two sound fixes go into **v3b** (`Renders3b 1080p (Editor)3b_1080_master.mp4`, rendering). Open for Samuel: the 5-frame A-roll sliver at 90-94 his hook B-roll disable uncovered; his 7 disabled clips are kept off (list in #65). Next: send v3b phone parts, he delivers to the creative director.
 
 **RESUME (2026-10-29 21:15):** Samuel made new corrections himself on *Visuals v3 (Editor)* and asked for a 4K render named v2. Running: `stage5\finish_v2s.sh` → `Renders\v2s 4K (Editor)\v2.mp4` (chunked 4K, mastered to -16 LUFS). If it died: re-run the same script; chunks on disk are skipped.
+
+**DELIVERED (2026-10-30):** Samuel: *"All of them are delivered so far"*. Final: `Renders2s 4K (Editor)2.mp4`. Row 24 in [[03-Areas/video-editing/delivered-projects|delivered projects]]. Send date not given.
