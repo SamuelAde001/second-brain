@@ -2,7 +2,7 @@
 type: knowledge
 area: video-editing
 status: needs-input
-updated: 2026-10-20
+updated: 2026-10-30
 source: local-folder
 tags: [routerise, alex, frontal, brand, fusion, templates]
 ---
@@ -60,5 +60,15 @@ Samuel, 2026-10-28: *"Though video 2 is done, I am still not happy with the outp
   - **Lists** (11, 1 clean): P1 8/10, C3 8/10, P2 3/4 static hero numbers.
   - **Cards** (12, 3 clean) and **page/UI** (108, 69 clean): mostly C3, the last element lands under 36 f before the cut (36/89 on pages).
 - **Found on the way:** the v4 timeline install took 44 beats from `comps\v3\` and 97 from `comps\v4\`; some v4 folders hold later fixes that were never installed (BD-08's cd1, PosDir 0, was not on the timeline). Check the install list, not the folder, before calling a fix delivered.
+
+## Video 4 set (2026-10-30)
+
+Harvested by an editor-worker for the General Manager on Samuel's ask to make videos cheaper (*"Do all the things that can make it cheaper"*). Video 5's beats start here first, then the video 2 set.
+
+- **Where:** `Frontal templates (Editor)\comps\video4 (Editor)\<type>\<beat>\`, with `README.md`, `video4_set.json` (type, source, install version, Samuel-corrected, rulings, `min_D`), the lint on the copies and `sheet.jpg`.
+- **What:** 92 beats, 162 comps, from the last install records (the v3c record wins for the 7 beats it changed). By type: page/UI 50 (49 are focus/light adj comps over recordings, only HK-06 is designed), lower third 10, list 9, counter 8, chart 7, card 2, and two new types, logo 3 and versus 3. Pure B-roll media-adj beats are left out.
+- **Strongest starting points:** Samuel's six marker beats IN-07, WN-08, WN-09, T1-08, EN-20, EN-23 (flagged `y`), then the beats built to his 2026-10-26 boxes correction: EN-04, WN-02, WN-11, WR-03, T1-06, T1B-14.
+- **Lint at their video 4 positions:** 19 of 92 fail (C3 13, C6 4, P3 2, C9/P1/P2 1 each); 15 are covered by a ruling. No waiver found for WR-08 C3, EN-17 C3, T1B-03 C3, WN-10 P2. P1 and C3 are re-checked wherever a comp is placed.
+- **Open (Editor):** Samuel's own hand edits live only in Resolve: before v3c on T1B-10, WN-02, WN-10, WR-06, WR-08 and the HK-01 title (DECISIONS #65), and his 21:12 corrections on *Visuals v3 (Editor)* (a picture diff points at IN-08, T1-02, HK-01, EN-12, T1B-08). The copies hold the Editor's versions until those comps are exported from his timeline. The beats he disabled (IN-08, WR-05, EN-01's caption, WR-08's pie layer) are kept but are the weakest starting points.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]

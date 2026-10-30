@@ -2,7 +2,7 @@
 type: sop
 area: video-editing
 status: active
-updated: 2026-10-28
+updated: 2026-10-30
 source: manual
 tags: [pipeline, lint, preview-gate, render-queue, resolve, helpers]
 ---
@@ -73,6 +73,30 @@ python preview_page.py read "<path>\preview_<sec>_notes.json"
 - Writes `<job>\Docs\Preview <sec> (Editor)\preview_<sec>.html` and `clips\<beat>_<hash>.mp4`. The hash covers the manifest and its .setting files, so a rebuilt beat gets a new clip and an unchanged one is never rendered again.
 - Samuel opens the page, plays each clip (Space under the mouse), presses **Approve** or **Note** and types what to change, then **Save notes**: `preview_<sec>_notes.json`, into the folder he picks (Chrome/Edge) or Downloads. The page also keeps his marks in the browser while he works.
 - The Editor reads it with `read`, puts each note on the review card the same session, turns notes into fix specs, and only approved beats go on the timeline.
+
+## Script-first (2026-10-30)
+
+Samuel, 2026-10-30: *"I want us to use more scripts for tasks we are sure a script can handle instead of Claude"*. What a script below does, no helper does by hand or by eye; workers call it in one step. Allocation of the rest: [[00-System/model-routing|model routing]] → Sonnet-first helpers. All live in the Brain under `03-Areas\video-editing\scripts\pipeline\`, each folder with a README (script, what it does, example). Promoted from video 4 with the job's paths turned into arguments; every file-only script was tested identical to its original on video 4's files. Resolve-driving ones were compile-tested only and run for real on the next job.
+
+| Step | Script | Was |
+|---|---|---|
+| Plan checks, build list, plan docs | `checks\plan_check.py`, `boundary_check.py`, `make_build_list.py`, `make_plan_docs.py` | helper-written per job |
+| Card rules the lint doesn't cover (S1-S5 shine, motion blur, fonts, landing) | `checks\card_check.py`, `checks\accent_scan.py` | Opus reviewers by eye |
+| Install manifests cross-check | `checks\crosscheck.py`, `finish\timeline_check.py` | helper cross-checkers |
+| A-roll MagicZoom plan | `finish\mz_build.py`, `mz_media.py` | helper |
+| Install (full, or only changed beats onto a copy of Samuel's timeline) | `finish\install_loop.py`, `install_changed.py` | job one-offs |
+| What Samuel changed on a timeline | `finish\tl_snapshot.py` + `tl_diff.py` | helper reading |
+| Render: review (1080) or final (4K), chunked | `finish\render_chunks.sh`, `render_review.py` | per-job `build_v1.sh` |
+| Frames for a render check, regression between two renders | `finish\render_frames.py`, `checks\regress.py` | helper frame pulls |
+| Whole finish round | `finish\finish.sh` (stop queue, install, snapshot check, A1 voice, render, master, phone parts) | per-round shell scripts |
+| Sound plan, SFX events, mix check, notes | `audio\sound_plan.py --config`, `sfx_events.py`, `mix_check.py`, `sound_notes.py` (video 4's choices in `audio\examples\`) | helper-built per job |
+| Loudness and master (-16 LUFS / -1 dBTP) | `audio\loudness.py`, `master.py` | one-offs |
+| Live-demo screen recordings | `capture\record_demo.py` | — |
+| Before any install or full render | `resolve_guard.py preflight --for install` (or `render`); `clean-chromes --dry-run` first, then without, with `--min-age-min 30` while helpers record | crashes and lost rounds on video 4 |
+
+- `render_chunks.sh` uses the job kit's `final\render_4k.py` and `seam_audio.py`. They are in the master kit's `final\` since 2026-10-30, so a job kit copied from the master has them.
+- **Open (Editor):** the render queue sets its Resolve lock time once per batch and never refreshes it. A batch over 15 minutes looks stale to `lab.py`, which may break it, and `resolve_guard` treats it as a block. `render_review.py` already holds its lock with a heartbeat: do the same in `render_queue.py` before the next job.
+- New one-offs a helper writes are promoted at the end-of-job review ([[03-Areas/video-editing/sops/end-of-job-review|end-of-job review]] step 3).
 
 ## Tested on video 2, 2026-10-28
 

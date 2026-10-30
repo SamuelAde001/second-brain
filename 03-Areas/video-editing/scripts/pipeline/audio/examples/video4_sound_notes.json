@@ -1,0 +1,40 @@
+{
+ "_comment": "Video 4 texts for sound_notes.py. {tokens} are filled from the plan and the mix check; see the script.",
+ "title": "# Sound notes, video 4 \"The Cold Email Goldrush\" on *Visuals v1 (Editor)* (editor-builder, stage 5 job C, {generated})",
+ "plan_line": "Plan: `stage5\\sound_plan.json` (sound_place.py format, `timeline` = `{timeline}`). Re-run after any beat fix, from `stage5\\`:",
+ "chain": "    python sfx_events_v1.py list.txt && python sound_plan.py && python mix_check.py \"<scratch dir>\" && python write_notes.py",
+ "place": "Place (main session, Resolve, A2+ empty): `python \"<K>\\final\\place_sound_locked.py\" \"<stage5>\\sound_plan.json\"`.",
+ "music_bullet": "- **Music:** bible 07's `music_v4.json` unchanged: {pieces} pieces, LinkedIn's order, hook split at 697, his clip levels, 6 f in / 12 f out, 48 f out at 12100. A2.",
+ "sfx_bullet": "- **SFX: {n}** from {n_files} palette files (his #3), {per_min} a minute (bible 07 aimed at ~12; why lower: Open, point 1). Hook 0-{hook_end}: {hook}. Per minute: {mins}. A3-A6.",
+ "reveals_bullet": "- **Section reveals (5):** the open (0), IN-02, WN-02 (with the one riser), T1-02, T2-02: Swoosh_03 -22.2 peaking on the reveal + ES_Low Hit (-19.3 under Bahamas and Turncoat, -15.6 under Axon Terminal and Sunshine Rain, -14.9 from source frame 1 at the open).",
+ "silent_bullet": "- **Silent by rule:** shines (S1), pushes and MagicZoom (S4), the S5 media adj entrance on pages, word-by-word text, counters ticking, typing, scrolls, cursor glides, highlights, statements, A-roll cuts.",
+ "speech_bullet": "- **Speech on top (offline mix, `mix_check.json`):** speech minus music+SFX while Alex talks, momentary: median {median} LU, p5 {p5}, p1 {p1}, never below 0. No SFX is louder than the speech around it (closest: {close_file} at {close_rec}, {close_over} LU under him). Per cue, speech minus music median {cue_min}-{cue_max} LU.",
+ "loudness_bullet": "- **Loudness:** at plan levels the mix measures **{lufs} LUFS integrated, true peak {tp} dBTP** (speech alone {speech_lufs}). To reach -16: **+{gain} dB on the main bus, then a true-peak limiter at about -1.5 dBFS** -> {lim_lufs} LUFS, {lim_tp} dBTP in the model (limiter active {lim_share} % of the time, median {lim_p50} dB, max {lim_max} dB). Measure the review render and set the bus gain from it (Open, point 2).",
+ "a1_bullet": "- **A1:** not in the plan (sound_place doesn't touch it). Lav +6 dB per clip as delivered; Voice Isolation 44 on A1 (DECISIONS #17).",
+ "validation_line": "- Validation: every file exists and decodes; every in-point + length inside its file; no overlap on A3-A6; nothing past 12100; music contiguous 0-12100, no song twice; files only from the 9-file palette; 5 Low Hits, 1 riser, {data_beds} data beds. **Problems: {problems}.**",
+ "beep_names": [
+  "UI Double Beep 03",
+  "Arpeggiated UI Beep 03",
+  "Multiple UI Beeps 01"
+ ],
+ "data_prefix": "Cybernetic",
+ "was_date": "2026-10-29",
+ "changed": [
+  "HK-03d click 263 -> **244** (the capture's click is at 244, manifest note). T2-03 click 8227 -> **8258** (8227 is the cut; the real click on 'Download Now' lands 8258).",
+  "HK-05 Swoosh_03 on the scroll at 428: **dropped** (bible 07: scrolls silent).",
+  "WN-10 Swoosh_03 2801 and T1-08 Swoosh_03 5396 made optional: WN-10's gave way to the 7-in-30-s cap, T1-08's stays.",
+  "WN-11: the Maya card beep (2944) **dropped**, the ring cascade (2965) kept: two sounds 17 f apart inside one visual.",
+  "EN-01: the second shutter (9848) **dropped** (one shutter per 240 f after the hook).",
+  "EN-12: only line 1's unblur (11022) beeps; lines 2-3 (11047, 11073) are silent (bible 07 list rule: no other sound within 36 f, silent after the first silent item; 3 beeps in 51 f is a run).",
+  "Added on real events: HK-03b 'Sent to N leads' lands (145), HK-06 Yahoo panel (472), HK-07 graphic swoosh (610), HB-08 graphic swoosh (1150), MC-02 'Research' (7877, plan allowed it), EN-04 80 % (10122, plan allowed it), graphic swooshes at T1-06 and T1B-07, B-roll shutters at EN-09 and EN-12.",
+  "Levels: hero landings at -43.1 (bible 07 section 8), minor at -46.6; Low Hit -19.3 under Bahamas (IN-02) and Turncoat (T1-02), -15.6 at WN-02 and T2-02 (plan v2 had -17/-15); Camera_01 -33.2 (his #3)."
+ ],
+ "open": [
+  "1. **Density {density} a minute, not ~12.** Plan v2 marked most beats silent beat by beat (G9/G10: statements, counters, typing, UI demos), and the body cap (7 in 30 s) binds in the intro and 'Why now'. Reaching ~100 would mean sounds on text or minor elements, which the card's 2026-10-26 rule and the brief exclude. The Editor decides whether to lift the 5 auto swooshes that gave way.",
+  "2. **Bus gain is a model number.** +{gain} dB assumes the mono lav plays at 0 dB in both channels. If A1 is a mono track with a -3 dB centre pan law, the render sits ~3 dB lower and needs ~+{gain3} dB. Read the review render's integrated loudness (`ffmpeg -i <render> -af ebur128=peak=true -f null -`) and set the main bus to -16 LUFS with a true-peak limiter at -1 dBTP (or Deliver's loudness normalisation if the main session confirms it in Resolve 21).",
+  "3. **`--dry` is not side-effect free and needs Resolve.** place_sound_locked.py connects to Resolve and takes the lab lock before anything, and sound_place.py's `--dry` still imports every file into the 'Sound (Editor)' bin and adds audio tracks up to A6 (AddTrack and ImportMedia run before the DRY check). So it was not run here; the plan was validated offline instead (merge checks + mix check). If the Editor runs `--dry`, the next real run still passes the A2+ check (tracks are added, no items placed).",
+  "4. **Nothing has been listened to.** Spots to hear on the review render: 0 (open), 697 (Yuma -> Shadowed), 1443-1450 (IN-02 hit on Bahamas), 1964-2004 (riser into WN-02), 4741 (T1-02), 7816-8040 (Pinpoint under the Mid-CTA and the MC-02 'Research' beep), 8085 (T2-02), 9750 (EN-01 shutter), 11639 (outro).",
+  "5. A fix round was rebuilding 12 units while this ran. Re-run the one-line chain after it lands; any pin that moved is printed as drift, any pin it cannot find is printed as UNRESOLVED and keeps its 2026-10-29 frame.",
+  "6. Voice Isolation 44 on A1 and the A1 +6 dB per clip are the main session's (not in sound_place's plan)."
+ ]
+}
