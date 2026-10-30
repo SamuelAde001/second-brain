@@ -47,3 +47,4 @@ Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
 - 2026-10-30 — Brand manager: webinar offer ended (11:15 WAT, Samuel); old netlify.app community links now redirect to calledtoedit.com/community at NGN 5,000. Checked live.
 - 2026-10-30 — Brand manager: correction, offer reopened until midnight tonight (Samuel); old webinar link → calledtoedit.com/community/webinar, full price from 00:00 by itself.
 - 2026-10-30 · Brand manager · Added a VOICE ROOMS category to the Discord with three voice channels open to members: ☕ lounge, 🗣️ work-gist, 🖥️ edit-showcase (screen share for edits). Samuel: "3 voice channels ... in case video editors just want to chat and gist about work or showcase their edits". In LAYOUT in `00-System/scripts/community_admin.py`, built with `build`, checked with `status`.
+- 2026-10-30 — Brand manager: webinar offer extended to Sun 2026-11-01 23:59 WAT (Samuel). Live.
