@@ -84,6 +84,8 @@ They go on the mid-November invoice beside the October batch's 30% balance, neve
 
 If the October batch is 5 Alex videos at USD 333.33 plus the Gamma video at USD 175 ([[07-Agents/handoffs|handoff]], 2026-10-30), it is USD 1,841.65: 70% = USD 1,289.16 on Payday A, 30% = USD 552.50 + USD 175.00 bonuses = **USD 727.50 billed on Payday B**, before Cleva and transfer charges.
 
+Correction, 2026-10-30: the 30% is the total minus the rounded 70%, USD 1,841.65 − 1,289.16 = USD 552.49, so Payday B bills **USD 727.49**, not 727.50. Invoice #15 (the 70%) went out with the Gamma video on it.
+
 Back to [[03-Areas/finances/finances|Finances]]
 
 ## Payment terms — confirmed by Samuel, 2026-09-20
@@ -118,5 +120,6 @@ Newest at the bottom. The amount is what that invoice asks for.
 |---|---|---|---|---|---|---|
 | 13 | 2026-09-29 | Route Rise | September 2026 | 70% | not recorded | made by hand before the skill |
 | 14 | 2026-10-14 | Route Rise | September 2026 | 30% balance (USD 399.99) + bonus USD 25.00 | USD 424.99 | `invoices/invoice-014-routerise-2026-10-14.json` |
+| 15 | 2026-10-30 | Route Rise | October 2026 | 70% of USD 1,841.65 (5 Alex videos + Gamma USD 175.00) | USD 1,289.16 | `invoices/invoice-015-routerise-2026-10-30.json` |
 
 Back to [[03-Areas/finances/finances|Finances]]
