@@ -334,3 +334,5 @@ Started from the General Manager's session (zero-revision pipeline, model routin
 - 2026-10-30 · Samuel confirmed all 5 October Route Rise videos delivered. Appended row 24 (Cold Email Goldrush, by 2026-10-30) to delivered-projects; job note set to done; area log line.
 - 2026-10-30 · New job documented from Samuel's ClickUp screenshot: 3. Claude + Gamma App MCP Will Make You Rich (Gamma, USD 175, October batch). Wrote client note gamma.md and job note; linked from the area overview and the Route Rise note; handoff to finance for the October invoice; open question on whether Gamma is the August USD 175 client.
 - 2026-10-30 · Samuel confirmed Gamma is the August USD 175 client. Updated gamma.md, open question 119 answered, correction line in delivered-projects, notes in income.md and the area overview.
+
+- 2026-10-30 — Gamma Ep. 12: read card, started downloads (A-cam first), whole-audio Whisper, job note updated. Waiting on A-cam (~6 h at 1.4 MB/s).

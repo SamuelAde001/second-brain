@@ -25,3 +25,7 @@ Client job through [[03-Areas/video-editing/clients/routerise|Route Rise]] for [
 ## Status
 
 - 2026-10-30: documented, nothing started. Next: download the footage and read the script and checklist, then phase 1 (sync, silence, noise, retakes, uhms, sections, transcript) as on the Alex jobs.
+- 2026-10-30 (Editor): phase 1 started on Samuel's go (*"download the footage, cut it and as we normally do and wait till I revise the cuts"*). Card #869exr4bc (`https://app.clickup.com/t/9012764231/869exr4bc`). Drive folder `16Ef4mBcP1oUlRVMbH9Ok08shuoSFqJOJ`: `Footage/A` (C4164.MP4 20.4 GB, 44:47; C4165.MP4 9.7 GB, 21:22), `Footage/B` (C4032.MP4 21.1 GB; C4033.MP4 10.0 GB), Sony ILCE-7M4, 3840x2160 **25p**, each with its M01.XML; `Ep 12 - Audio.mp3` (48 kHz stereo, 43:42). Downloads run in a minimised cmd window (`Docs\download.cmd`, log `Docs\download.log`), A-cam first, at ~1.4 MB/s (~6 h for A-cam, ~12 h all).
+- Whole-audio Whisper (GPU) in the scratchpad: ~2 min of crew chat before the hook, retakes throughout, outro ends 43:20, so the audio matches A-cam clip 1 (44:47). What the 21-min second clips hold: not known until downloaded.
+- The ClickUp script doc refuses access in Samuel's Chrome ("You need access to this Doc"): asked Samuel. Resolve had his *Talking head* project open: asked before switching. Timeline rate 25 fps assumed (footage 25p): asked.
+- Plan: cut on A-cam + mic, add B-cam afterwards per clip from A-cam source times.
