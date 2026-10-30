@@ -41,4 +41,4 @@ Client job through [[03-Areas/video-editing/clients/routerise|Route Rise]] for [
 - **Transcript:** `Docs\Transcript - Cut v5 sections (2026-10-30).docx`, Whisper's mishearings fixed (Gemma/Cloud/Clod -> Gamma/Claude, Justin Welsh), prompts boxed, red notes. Two lines to listen to: "a cohort with a long ten seats" and "We're how many hours he's been building it".
 - Working files: `Docs\Editor working files (2026-10-30)\` (clip_table, whisper_words, v2_clips, v3_cut_list, trims, segs_v2..v5, sections, cut_words, sentences).
 - **Not in yet:** A-cam clip 2 (C4165, 21:22; the mic ends 14 s before clip 1 does, so it has no mic) and both B-cam files, still downloading. B-cam goes on V2 per clip from the A-cam source times once it lands.
-- **Phase 1 done 2026-10-30 ~18:30 WAT on A-cam. Next: Samuel revises *Cut v5 (Editor) - sections*.**
+- **Phase 1 done 2026-10-30 ~17:35 WAT on A-cam. Next: Samuel revises *Cut v5 (Editor) - sections*.**
