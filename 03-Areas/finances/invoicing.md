@@ -88,6 +88,8 @@ Correction, 2026-10-30: the 30% is the total minus the rounded 70%, USD 1,841.65
 
 Correction, 2026-10-30, later: Route Rise rejected #15 because the Gamma video isn't done. Samuel: *"without the gamma vid in it as it was rejected by my company since it's not done"*. #16 replaces it: 5 Alex videos, USD 1,666.65, 70% = USD 1,166.66. The 30% balance is USD 499.99, so Payday B bills **USD 674.99** with the USD 175.00 bonuses. Which invoice the Gamma video goes on now: not given.
 
+Correction, 2026-10-30, later again: Route Rise accepted #15 with the Gamma video after all. Samuel: *"Nvm, they accepted the  invoice with Gamma"*. **#15 stands, #16 is void.** Payday B is back to **USD 727.49** (30% USD 552.49 + bonuses USD 175.00).
+
 Back to [[03-Areas/finances/finances|Finances]]
 
 ## Payment terms — confirmed by Samuel, 2026-09-20
@@ -124,5 +126,7 @@ Newest at the bottom. The amount is what that invoice asks for.
 | 14 | 2026-10-14 | Route Rise | September 2026 | 30% balance (USD 399.99) + bonus USD 25.00 | USD 424.99 | `invoices/invoice-014-routerise-2026-10-14.json` |
 | 15 | 2026-10-30 | Route Rise | October 2026 | 70% of USD 1,841.65 (5 Alex videos + Gamma USD 175.00) | USD 1,289.16 | `invoices/invoice-015-routerise-2026-10-30.json` |
 | 16 | 2026-10-30 | Route Rise | October 2026 | 70% of USD 1,666.65 (5 Alex videos). Replaces #15, rejected by Route Rise: the Gamma video isn't done (Samuel, 2026-10-30) | USD 1,166.66 | `invoices/invoice-016-routerise-2026-10-30.json` |
+
+Correction, 2026-10-30: #16 is **void**. Route Rise accepted #15 with the Gamma video; #15 (USD 1,289.16) is the October 70% invoice.
 
 Back to [[03-Areas/finances/finances|Finances]]
