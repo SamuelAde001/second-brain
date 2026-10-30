@@ -66,3 +66,5 @@ The weekly bar was **75 %** on 2026-10-24 ~15:00 WAT (resets Wed 2026-10-28 23:0
 - claudelimit.com/claude-max-limits
 - choosely.ai/ai-radar/claude-max-limits-5x-20x-claude-code
 - wokey.ai/claude-usage-limits
+
+**First full video on 20x (General Manager, 2026-10-30):** video 4 (Cold Email Goldrush) took the weekly bar from **0 % to ~50 %** (Samuel's reading) in the run from 2026-10-28 23:28 to the v2 4K render on 2026-10-30, plus **~13 points the week before** (cut 55 → 56 %, plan v1 56 → 65 %, EN-04 redesign 65 → 68 %). Whole video ≈ **60-65 % of a 20x week.** `usage_audit.py --session fd121072`: 1,235 of the week's 1,330 units (93 %); workflow helpers 94 % (437 helpers, 18,833 turns, 33 % of turns on Sonnet, 2,245 images); cache lost to waits 3 % (was 27 %), start-up re-reads 7 %. **Plan on 1.5 videos a week**, 2 only if the second needs no rework and little else runs that week.
