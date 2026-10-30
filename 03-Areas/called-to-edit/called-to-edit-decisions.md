@@ -126,3 +126,6 @@ Samuel's brief for calledtoedit.com, word for word in [[04-Projects/called-to-ed
 
 ## 2026-10-29 — Live calls on Sundays and Wednesdays, 8pm WAT
 Samuel, word for word: *"I'd be teaching on Sunday's 8pm at the community also as 8pm on wednesaday, update all that is involved and send an anouncement"*. The Community's live calls are now twice a week, Sundays and Wednesdays, 8:00pm WAT, on the 🎙️ weekly-live stage. Replaces Wednesdays only. → [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
+
+## 2026-10-30 · Webinar offer over; old link sent to the new site
+Samuel: *"Today, the webinar bonus is finished, so now anyone that registered for the webinar would have to pay the full price, the link I gave them in the community is the old one, so redirect them all to the new site"*. The NGN 2,000 first month ended **2026-10-30 11:15 WAT** (taken as "now"; was 23:59 that day). Everyone pays NGN 5,000. Every page address on `calledtoeditcommunity.netlify.app` (incl. `/community/webinar`) now 301s to `calledtoedit.com`, and `calledtoedit.com/community/webinar` 301s to `/community`. `/api/*` on the old host still answers (bot, Flutterwave webhook). Site commit in `called-to-edit-site`, deployed and checked live. → [[04-Projects/called-to-edit-community-launch|community launch]]
