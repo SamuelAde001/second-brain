@@ -14,6 +14,7 @@ Usage:
     python 00-System/scripts/usage_audit.py                  # last 7 days
     python 00-System/scripts/usage_audit.py --since 2026-10-19
     python 00-System/scripts/usage_audit.py --session 1162acdc   # one session + its helpers
+    python 00-System/scripts/usage_audit.py --session fd121072 --split   # + cost per workflow, phase, helper type
 
 Rule this feeds: 00-System/model-routing.md -> On Max 20x.
 """
@@ -51,7 +52,8 @@ def first_line(content):
 
 
 def scan(path):
-    r = dict(cost=0.0, turns=0, first_ctx=0, cw=0, cr=0, out=0, lost=0, images=0, sonnet=0, topic="")
+    r = dict(cost=0.0, turns=0, first_ctx=0, cw=0, cr=0, out=0, lost=0, images=0, sonnet=0, topic="",
+             c_cr=0.0, c_cw=0.0, c_out=0.0, c_lost=0.0, c_sonnet=0.0)
     seen, last_t = set(), None
     with open(path, encoding="utf-8", errors="replace") as f:
         for line in f:
@@ -78,12 +80,16 @@ def scan(path):
             cr, o = u.get("cache_read_input_tokens") or 0, u.get("output_tokens") or 0
             r["cost"] += (i * p[0] + cw * p[1] + cr * p[2] + o * p[3]) / 1e6
             r["cw"] += cw; r["cr"] += cr; r["out"] += o
-            r["sonnet"] += fam(m.get("model")) == "sonnet"
+            r["c_cw"] += cw * p[1] / 1e6; r["c_cr"] += cr * p[2] / 1e6; r["c_out"] += o * p[3] / 1e6
+            if fam(m.get("model")) == "sonnet":
+                r["sonnet"] += 1
+                r["c_sonnet"] += (i * p[0] + cw * p[1] + cr * p[2] + o * p[3]) / 1e6
             t = when(d)
             if r["turns"] == 0:
                 r["first_ctx"] = i + cw + cr
             elif cw > 30_000 and last_t and t and t - last_t > GAP:
                 r["lost"] += cw
+                r["c_lost"] += cw * p[1] / 1e6
             r["turns"] += 1
             last_t = t or last_t
     return r
@@ -93,6 +99,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--since", help="YYYY-MM-DD (default: 7 days ago)")
     ap.add_argument("--session", help="first characters of a main session id")
+    ap.add_argument("--split", action="store_true", help="cost per workflow, per phase and per helper type")
     a = ap.parse_args()
     since = (datetime.datetime.fromisoformat(a.since) if a.since
              else datetime.datetime.now() - datetime.timedelta(days=7)).timestamp()
@@ -106,16 +113,24 @@ def main():
         kind = "workflow helpers" if "/workflows/" in rel else "agent helpers" if "/subagents/" in rel else "main sessions"
         r = scan(path)
         r["rel"] = rel
+        r["wf"] = rel.split("/workflows/")[1].split("/")[0] if "/workflows/" in rel else ""
+        try:
+            with open(path[:-6] + ".meta.json", encoding="utf-8") as f:
+                meta = json.load(f)
+        except (OSError, ValueError):
+            meta = {}
+        r["phase"] = meta.get("workflowPhase") or "-"
+        r["type"] = meta.get("agentType") or "-"
         if r["turns"]:
             groups[kind].append(r)
     total = sum(r["cost"] for rs in groups.values() for r in rs) or 1
     print(f"Total: {total:,.0f} cost units (USD at API prices)")
     for kind, rs in sorted(groups.items()):
         c = sum(r["cost"] for r in rs)
-        cr = sum(r["cr"] for r in rs) * 0.2 / 1e6
-        cw = sum(r["cw"] for r in rs) * 5 / 1e6
-        out = sum(r["out"] for r in rs) * 20 / 1e6
-        lost = sum(r["lost"] for r in rs) * 5 / 1e6
+        cr = sum(r["c_cr"] for r in rs)
+        cw = sum(r["c_cw"] for r in rs)
+        out = sum(r["c_out"] for r in rs)
+        lost = sum(r["c_lost"] for r in rs)
         turns = sum(r["turns"] for r in rs)
         print(f"\n{kind}: {len(rs)}, {turns} turns, {c:,.0f} ({c / total:.0%})"
               f"  | re-reading context {cr:,.0f} · writing cache {cw:,.0f} · output {out:,.0f}"
@@ -125,6 +140,16 @@ def main():
             start_cost = sum(r["turns"] * r["first_ctx"] for r in rs) * 0.2 / 1e6
             print(f"  start-up context median {starts[len(starts) // 2]:,} tokens, re-read every turn: ~{start_cost:,.0f} ({start_cost / c:.0%})")
             print(f"  cache rewritten after a wait over 5 min: ~{lost:,.0f} ({lost / c:.0%})")
+    if a.split:
+        hs = [r for k, rs in groups.items() if k != "main sessions" for r in rs]
+        for title, key in (("workflow", "wf"), ("phase", "phase"), ("helper type", "type")):
+            agg = collections.defaultdict(lambda: [0.0, 0, 0, 0, 0.0])
+            for r in hs:
+                g = agg[r[key] or "(agent helper)"]
+                g[0] += r["cost"]; g[1] += 1; g[2] += r["turns"]; g[3] += r["sonnet"]; g[4] += r["c_sonnet"]
+            print(f"\nBy {title} (cost, % of all, helpers, turns, Sonnet share of turns / of cost):")
+            for name, (c, n, t, sn, cs) in sorted(agg.items(), key=lambda x: -x[1][0])[:25]:
+                print(f"  {name[:28]:28} {c:7,.0f} {c / total:4.0%} {n:4} {t:6}  S {sn / max(t, 1):4.0%} / {cs / max(c, 1e-9):4.0%}")
     mains = sorted(groups.get("main sessions", []), key=lambda r: -r["cost"])[:10]
     if mains:
         print("\nCostliest main sessions (own cost + helpers):")

@@ -2,7 +2,7 @@
 type: agent
 area: video-editing
 status: active
-updated: 2026-10-24
+updated: 2026-10-30
 source: manual
 tags: [agent, video-editing, helper]
 name: editor-builder
@@ -19,6 +19,8 @@ tools: [read, write, shell]
 # editor-builder — the Editor's lean helper
 
 Built 2026-10-24 by the General Manager when Samuel moved to Max 20x and asked for the editing system to be faster without waste. Why it exists: every default helper starts at ~74,000 tokens and re-reads them every turn, 25 % of helper spend in the week measured ([[00-System/model-routing|model routing]] → On Max 20x). This type loads six tools instead of the full set.
+
+**Since 2026-10-30 it runs only the Opus jobs** in [[00-System/model-routing|model routing]] → Sonnet-first helpers: a new look (plan, hero frames, anchors), the section pass, verifying blocking faults, turning Samuel's or the creative director's notes into fix specs, and items a worker returned `needs Opus`. Beat builds and beat reviews go to [[07-Agents/editor-worker/profile|editor-worker]] (Sonnet). As the section pass on a calibration video, it also reviews every 4th beat blind and scores the Sonnet reviews.
 
 It works for the [[07-Agents/video-editor/profile|Editor]] and only inside one video job. It has no memory or log of its own: the Editor logs each fan-out in its log.
 

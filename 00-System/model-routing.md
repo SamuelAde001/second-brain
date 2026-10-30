@@ -82,7 +82,7 @@ Samuel upgraded to Max 20x on 2026-10-24 to edit faster: *"I'm looking for speed
 10. **Lean helper type** [[07-Agents/editor-builder/profile|editor-builder]] for builders and reviewers (six tools instead of the full set). Captures in Chrome and anything that needs MCP use the default helper. Unmeasured until its first run.
 11. **Short brief:** Samuel's review card, the client's brand note, the beat's record and the kit's API. Not the long notes. Tool output is counts and paths.
 12. **Images:** one contact sheet per beat (1280 px wide at most), read once near the end.
-13. **Opus thinks, Sonnet works (Samuel, 2026-10-28; replaces "builders stay on Opus").** Work that carries out an exact spec runs on [[07-Agents/editor-worker/profile|editor-worker]] (Sonnet 5.5, medium): building a beat from an approved hero frame or library comp, applying fix specs, captures from a list, transcripts, stills sheets, renders. Opus ([[07-Agents/editor-builder/profile|editor-builder]] or the main session) keeps the visual plan, new looks, turning a correction into a fix spec, every review and section pass, and Resolve debugging. A worker returns anything vague or failed twice as `needs Opus`. See Audit 2026-10-28 below.
+13. **Opus thinks, Sonnet works (Samuel, 2026-10-28; replaces "builders stay on Opus"). Since 2026-10-30 Sonnet also does the beat reviews: see Sonnet-first helpers below.** Work that carries out an exact spec runs on [[07-Agents/editor-worker/profile|editor-worker]] (Sonnet 5.5, medium): building a beat from an approved hero frame or library comp, applying fix specs, captures from a list, transcripts, stills sheets, renders. Opus ([[07-Agents/editor-builder/profile|editor-builder]] or the main session) keeps the visual plan, new looks, turning a correction into a fix spec, every review and section pass, and Resolve debugging. A worker returns anything vague or failed twice as `needs Opus`. See Audit 2026-10-28 below.
 14. **Budget per video:** weekly % at each stage (cut, plan, build, each review round, sound) in the job note. `usage_audit.py --session <id>` at the end-of-job review. The bar read 0 % right after the upgrade, so the first full video on 20x gives the real cost.
 
 ### 4. Memory
@@ -115,6 +115,33 @@ Samuel, 2026-10-28: *"even with my MAX plan I am still burning a lot of tokens"*
 6. **Opus section pass** on the whole section (rule 8).
 7. **Samuel's preview gate:** per section, a review page with every motion-graphic beat as a short rendered clip beside its script line, approve or note per beat. Screen recordings, captures and B-roll skip the gate. His notes go onto the review card and into fix specs the same session. Only approved beats go on the timeline.
 8. **Render queue:** one script, not an agent, owns Resolve: helpers drop render requests (comp, frames, output) into a folder; it renders several per pass, writes a done file per request, and restarts Resolve when it hangs. Helpers keep building instead of waiting on the Resolve lock (36 of 97 helper-hours on video 2).
+
+## Sonnet-first helpers and script-first checks (2026-10-30)
+
+Samuel, 2026-10-30: *"I want Sonnet to do more helping, if possible all helping done with sonnet, but I don't want the qulality to drop"* and *"I want us to use more scripts for tasks we are sure a script can handle instead of Claude"*. Replaces rule 13's split where the two differ.
+
+**What video 4 cost, by phase** (`usage_audit.py --session fd121072 --split`, 1,235 units, ~50 % of the week plus ~13 points of cut and plan the week before): **Review 46 %** (250 helpers, 85 % of it on Opus), Build 20 % (62 % Sonnet), Fix 8 %, Prep 6 %, Study (the rules "bible") 5 %, Anchors 4 %, Verify 2 %, main session 5 %. By workflow, the 44-unit build-and-review run was 54 %. The 4K render check was 6 %. Wasted outright: the final fix round voided by a Resolve crash (~14 units) and the plan built twice (plan v1 ~9 points).
+
+**Allocation from now on. Every helper is Sonnet ([[07-Agents/editor-worker/profile|editor-worker]]) unless it is one of these Opus jobs:**
+1. **New look:** visual plan, hero frames and anchors (the first build of a new design). After Samuel's yes on an anchor, everything built from it is Sonnet.
+2. **Section pass:** one Opus reviewer per section, reading the section's filmstrip sheet and the Sonnet review results as a whole (rule 8). It is the quality gate, and it is the only Opus review.
+3. **Verify of blocking faults:** a fault marked blocking or CD-risk by a Sonnet reviewer or the section pass is confirmed by Opus before a fix is written (24 % of flagged faults were false on video 2).
+4. **Turning Samuel's or the creative director's notes into fix specs**, and any item a worker returns `needs Opus`.
+5. **Resolve debugging** and new scripts (the main session).
+
+**Beat reviews move to Sonnet, behind scripts.** Order per beat: `beat_lint.py` + `checks\card_check.py` + `checks\accent_scan.py` (no tokens) → a **Sonnet checklist reviewer** on the filmstrip: each review-card item pass / fail with frame evidence. Items that need taste (C1 lighting, C4 density, "flat, like AI did it") get *unsure*, not a guess, and go to the section pass → Opus section pass. A reviewer never re-reviews a beat that passed. After a fix only the changed items are re-checked (script first, then Sonnet).
+
+**Quality gate: calibrate, don't trust.** On the next video, the Opus section pass also reviews every 4th beat blind, without the Sonnet result, and the Editor compares the two. If Opus finds a real fault Sonnet passed on more than 1 beat in 10 for a rule, that rule's beat review goes back to Opus. The score is written in the job note and here. Nothing reaches Samuel that hasn't passed the Opus section pass. The cost is ~25 % of today's review spend for one video; then only the section pass stays.
+
+**Script-first: what a script does, no helper does.** Anything with a fixed rule and a measurable answer is a script, run by the worker or the Editor in one call: lint, card rules, accent shine, plan checks, build lists, timeline snapshot and diff, install, mix check, loudness and mastering, regression between renders, frame pulls, sound placement, captures from a list (`record_demo.py`). The list and where each lives: [[03-Areas/video-editing/sops/video-pipeline-tools|video pipeline tools]] → Script-first. When a helper writes a one-off script that a later job could use, the Editor promotes it into `03-Areas/video-editing/scripts/pipeline/` at the end-of-job review: arguments instead of the job's paths, tested on the job's own files.
+
+**Cheaper by design:**
+- **Rules settled before the plan.** The Editor asks Samuel for any new look rules at job start and puts them on the review card. No "bible" stage of Opus readers. The card plus the job card is the brief.
+- **Samuel's preview gate before the build fans out.** He sees anchors and the first section's motion beats as clips (pipeline step 7) before the other sections are built. Video 4's markers came after the 4K render.
+- **Start from the library:** `Frontal templates (Editor)\comps\video4 (Editor)\` plus the video 2 foundation set. A beat rebuilt from an approved comp is a Sonnet job from the start.
+- **Resolve guard:** `pipeline\resolve_guard.py preflight` before every install, full render or long build run: the queue stopped and the lock free before an install, free RAM checked, leftover headless helper Chromes cleaned. One Resolve owner at a time.
+- **1080p review renders until the last pass.** 4K only for the final, after Samuel's notes.
+- **Budget per stage, measured:** `usage_audit.py --session <id> --split` at the end-of-job review gives cost per workflow, phase and helper type. Written in the job note.
 
 ## The map
 
