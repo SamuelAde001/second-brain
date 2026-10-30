@@ -45,3 +45,4 @@ Back to [[03-Areas/called-to-edit/called-to-edit|Called to Edit]]
 - 2026-10-29 — Brand manager: posted the confirm-your-email reminder in #announcements, Member role pinged (Samuel: *"Yes, post it"*).
 - 2026-10-29 — Community #resources: 73 starter tutorials posted across the 16 topic posts (Samuel asked), beginner and intermediate picks for each, one message per video with its thumbnail. Picked by script from YouTube on views, like ratio, date and chapters. Gap: no decent video on getting paid in Nigeria from abroad. → [[04-Projects/called-to-edit-community-tutorial-picks|tutorial picks]]
 - 2026-10-30 — Brand manager: webinar offer ended (11:15 WAT, Samuel); old netlify.app community links now redirect to calledtoedit.com/community at NGN 5,000. Checked live.
+- 2026-10-30 — Brand manager: correction, offer reopened until midnight tonight (Samuel); old webinar link → calledtoedit.com/community/webinar, full price from 00:00 by itself.
