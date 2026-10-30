@@ -88,3 +88,4 @@ Back to [[03-Areas/finances/finances|Finances]]
 - *"Building 600k is november only"*. *"Claude would stay 20X"*. *"Instagram keep"*. Sister: *"Na, just giving her money"* (a gift, not the debt).
 - Creative director: *"creative director won't be paid since her laptop money is the bank loan I collected"*. The line becomes the NGN 82,875 app loan repayment.
 - Said once: the rent and building leave Goal 1 NGN 127,617 to 169,437 behind pace in November.
+- Later the same day: *"let's make the building back to 500, I need some breathing space, I need 100k min cash on hand"*. Extra cash NGN 100,000 on Payday A. Rule 3 says more than NGN 50,000 free on Payday A moves the same day; this keeps NGN 100,000 loose. His call, objection said once.
