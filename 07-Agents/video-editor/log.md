@@ -339,3 +339,4 @@ Started from the General Manager's session (zero-revision pipeline, model routin
 - 2026-10-30 — Gamma Ep. 12 phase 1 on A-cam: sync (49.78 s), Cut v2 silence+noise (740 clips), retakes by reading the clip table (451 cut), Cut v4 uhms, Cut v5 sections (13:46, 12 sections), transcript docx. B-cam and A-cam clip 2 still downloading.
 2026-10-31 · Gamma Ep. 12: all 44 plates on V3 of Visuals v1 (Editor); polish + whole-timeline review workflow wf_4d3b5ee0-20e started.
 - 2026-10-31 · Gamma Ep. 12: fix round 2 (wf_7c999632-16c) passed; 19 V3 placements swapped to _v2/_v3 takes in Visuals v1 (Editor), 44 plates, no overlaps, saved; placements v3.json.
+- 2026-10-31 · Called to Edit community demo: cut Samuel's voice-over 8:52 → 3:59 (last clean takes, noise reduction, polish, −16 LUFS, one word splice "right"), re-timed, recorded full v2 4:22, sent the 26.7 MB phone copy. [[04-Projects/called-to-edit-community-demo-video|demo video]]

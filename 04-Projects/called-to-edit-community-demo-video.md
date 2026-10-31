@@ -126,6 +126,13 @@ All in the build folder's `build\`:
 
 **Full v1 (AI guide voice, 5:15, 1080×1920, 53 MB):** `renders\Community demo v1 (AI guide voice).mp4`, sent 2026-10-31. Checked on 26 frames: in sync; one soft spot in chapter 6 ("and post" ~1.5 s early), fixed in `script.txt` for the next take. `screens2.js` + `style2.css` hold chapters 4-10. Next: Samuel records `Script to record.txt`; no background music yet.
 
+**Samuel's voice-over cut (Editor, 2026-10-31):** his take `voice\samuel_raw.m4a` (8:52) → `voice\samuel_vo_cut.wav` (3:59, 48 kHz mono, −16 LUFS). In `voice\`:
+- `vo_clips.py`: speech clips from the waveform (20 ms RMS, threshold 35 % from room floor to speech) + a faster-whisper word pass → `clips.json`. `fill_gaps.py` re-hears the clips the long pass skipped (it dropped chapter 10 and several retake stretches). `slice_asr.py a-b ...` re-hears any slice word by word.
+- `vo_cut.py`: noise reduction on the whole take first (noisereduce, a noise print from the quietest 12 % of frames, 90 %), then only the `KEEP` ranges (the last clean complete take of each line, restarts inside a clip cut at the quietest 20 ms), pauses inside a range cut to 0.28 s, 0.32 s between ranges, 12 ms crossfades; then high-pass 80 Hz, −2.5 dB at 220 Hz, +3 dB at 3.2 kHz, +2 dB at 9.5 kHz, de-esser, 3:1 compression, loudnorm −16 LUFS. `verify_cut.py` re-hears the cut range by range against the labels.
+- **One word splice:** in chapter 2 he said "swipe **left**"; the gesture is swipe right. "right" was taken from his own "I'll reply right inside your post" (chapter 6). Both whisper models hear "swipe right"; needs his ear.
+- Captions follow his wording where it differed: "In a few minutes", "This is our community", "DaVinci and Premiere Pro", "Missed a session?", "If you're stuck, ask in help". AI-voice script kept as `build\script_ai_v2.txt`.
+- `voice_samuel.py` now writes 48 kHz (was 24 kHz). With his voice the demo is 4:22 (AI voice 5:15).
+
 ## What the screenshots changed in the plan
 
 - Discord's current phone app has no bottom tabs: server icons on the left, channel list on the right, his profile bar at the bottom. Forums open with a "Post Guidelines" sheet before the New Post form; tags are picked from a sheet with a Save button.
@@ -143,10 +150,11 @@ All in the build folder's `build\`:
 - 2026-10-31 (Brand manager): project opened, plan and script v1 written from the community launch note, the Discord texts and `community_admin.py`.
 - 2026-10-31 (Brand manager): downloaded scrcpy (his yes), took 34 reference screenshots driving his phone over adb. Nothing posted or sent; "/" typed in #ask-editors-bot then cleared. Joined the empty ☕ lounge muted for about 20 seconds, then left and put his mic back on. Joined #weekly-live **without starting the Stage** (no notification, no @everyone) to capture the audience view; raised and dismissed his own hand; he disconnected himself.
 - 2026-10-31 (Brand manager): found the "Requests to Speak" switch on #weekly-live showing "Requests Disabled". Checked the API: Member and Team already had Request to Speak from their roles, so members could raise a hand; the switch reads @everyone only. On Samuel's *"Yes, turn it on"*, @everyone's overwrite on the stage now allows Request to Speak (View still denied), live and in `community_admin.py` build so a rebuild keeps it.
+- 2026-10-31 (Editor): cut Samuel's voice-over (8:52 → 3:59: retakes, "sorry"s, false starts and long pauses out, noise reduced, voice polished, −16 LUFS), spliced "right" for his "swipe left", matched captions to his wording, re-timed and recorded full v2 (4:22), made and sent the 26.7 MB phone copy.
 
-## RESUME (2026-10-31, ~12:15 WAT, Editor)
+## Where it stands (2026-10-31, ~13:40 WAT, Editor)
 
-- **Done:** full v1 with the AI guide voice (`renders\Community demo v1 (AI guide voice).mp4`, 5:15, 50 MB; it didn't reach his phone: the upload limit is 30 MB, so phone copies must be under 30 MB). Script v2 in `build\script.txt` (chapter 6 gallery cue moved earlier after v1).
-- **Samuel's latest words (2026-10-31):** sent his voice-over `C:\Users\repzy\Downloads\Mobile Devices\Oct 31 at 12-05.m4a` (8:52, phone AAC 48 kbps; copy at `voice\samuel_raw.m4a`): *"there where a lot of mistakes and pauses, and noises, cut out the mistakes, remove the background noise, make my voice sound better and clarer and cut out the gaps as I don't want the video to have too much gaps, I didn't record the chapter numbers so keep gaps there, make it short and well understandable"*.
-- **Next step (Editor):** in `voice\`: (1) silence-detect clips on the waveform; (2) faster-whisper word pass (CPU, keep disfluencies); (3) retakes = last clean complete take, decide, don't flag; drop noise/breath/uh clips; cut gaps short (~0.25-0.4 s); (4) denoise + voice polish (high-pass, noise reduction, EQ, de-ess, compression, loudnorm −16 LUFS); (5) re-transcribe the cut and check it against the script; (6) `build\voice_samuel.py <cut wav>` (adds the chapter-card gaps), set `shot_full.json` duration, record, mux; (7) phone copy under 30 MB, send, log.
-- **Open:** background music (none yet); PC add-on (suggestion only); the video goes first to #start-here (he promised members).
+- **Full v2 (Samuel's voice, 4:22):** `renders\Community demo v2 (Samuel voice).mp4` (1080×1920, 54 MB) and the phone copy `renders\Community demo v2 (Samuel voice) PHONE.mp4` (720×1280, x264 two-pass 760 kb/s + AAC 96 kb/s, 26.7 MB, under the 30 MB phone limit), sent 2026-10-31. Recorded from `build\shot_full_v2.json`. 17 frames after the main taps checked: screen matches the words.
+- **Needs his ear:** the spliced "swipe right" at 0:38-0:39; the voice polish (his phone recording was AAC 48 kb/s, so there's a ceiling on how clean it gets).
+- **Open:** background music (none yet); PC add-on (suggestion only); posting to #start-here and sending to members, WhatsApp and email is his call. The step pill counts chapters 2-9 as "1/8"-"8/8" (intro and outro aren't counted).
+
