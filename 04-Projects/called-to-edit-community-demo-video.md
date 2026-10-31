@@ -113,6 +113,17 @@ You don't need all of them today. Start with the challenge."
 - `reference screenshots\`: 34 full-size screens from his Pixel 8a (Discord 351.11, Android 17): channel list, general-chat, start-here, long-press menu and notification settings, accountability + challenge post + New Post + tags, feedback + guidelines + tags, ask-editors-bot + `/` list + /ask field + an answer, weekly-live sheet + stage chat + audience view with raised hand + raised-hands list, lounge preview + voice settings + in-call view. Holds members' real names and messages: reference only, never in the video (demo members instead).
 - `phone_driver.py`: the adb helper used (snap, ui, tap). Phone mirroring: scrcpy v5.0.1 in `%LOCALAPPDATA%\Programs\scrcpy\` (Samuel's yes, 2026-10-31). His USB cable dropped mid-session; wireless debugging carried on with full-size screenshots.
 
+## How it's built (Brand manager, 2026-10-31)
+
+All in the build folder's `build\`:
+- `script.txt`: **script v2** (the spoken words; supersedes v1 below). 10 chapters, ~5:15 with the AI voice. `[[...]]` cues sit before the word they fire on. Both live calls: Sundays and Wednesdays, 8pm.
+- `voice.py`: one Microsoft neural TTS clip per line (`en-NG-AbeoNeural`, free, edge-tts), word timings, cues placed on their words → `voice.wav` + `timeline.js`. `--chapters 1-3` builds part of it.
+- `demo.html` + `style.css` + `screens.js` + `engine.js`: the Discord replica (Android dp sizes and colours taken from his screenshots) in a 1080×1920 Called to Edit frame (navy, Gloock, Plus Jakarta Sans), with a touch dot, zoom-ins, karaoke captions, step cards and a step pill. `demo.html?t=42` jumps to 42 s. `__check()` in a browser lists any selector the script uses that doesn't exist.
+- Recorded frame-exact with the Editor's `record_demo.py` (`shot_preview.json`, 30 fps), served by `serve.py` (no cache, port 8765), voice muxed with ffmpeg (loudnorm −16 LUFS).
+- Swapping in Samuel's voice later: transcribe his take for word timings, then rebuild `timeline.js` from them instead of the TTS.
+
+**Preview v1 (chapters 1-3, 1:28):** `renders\Community demo PREVIEW ch1-3 v1.mp4`, sent to Samuel 2026-10-31 for his OK on the look and the guide voice before chapters 4-10 are built.
+
 ## What the screenshots changed in the plan
 
 - Discord's current phone app has no bottom tabs: server icons on the left, channel list on the right, his profile bar at the bottom. Forums open with a "Post Guidelines" sheet before the New Post form; tags are picked from a sheet with a Save button.
