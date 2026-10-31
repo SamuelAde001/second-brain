@@ -47,6 +47,7 @@ MEMBER_PERMS = (VIEW | SEND | HISTORY | REACT | (1 << 38) | (1 << 35) | (1 << 14
 TEAM_PERMS = MEMBER_PERMS | (1 << 13) | (1 << 34) | (1 << 17)  # + manage messages, manage threads, mention everyone
 FOUNDER_RED = 0xE53935  # Samuel, 2026-10-24: a Founder role, red
 NO_POST = SEND | (1 << 38) | (1 << 35)  # send, send in threads, create threads
+REQUEST_TO_SPEAK = 1 << 32
 
 TEXT, VOICE, CATEGORY, STAGE, FORUM = 0, 2, 4, 13, 15
 # (category, [(name, type, mode, topic)]). mode: ro = read-only for members, rw, team, expired
@@ -303,6 +304,10 @@ def cmd_build():
         cat_obj = api("PATCH", f"/channels/{cat_obj['id']}", {"name": cat, "position": pos}) if cat_obj else api("POST", f"/guilds/{g}/channels", body)
         for i, (name, typ, mode, topic) in enumerate(items):
             body = {"name": shown(name), "parent_id": cat_obj["id"], "position": i, "permission_overwrites": overwrites(mode, g, roles)}
+            if typ == STAGE:
+                # Samuel, 2026-10-31: "Requests to Speak" on. Discord's switch reads @everyone only; Member and Team
+                # already had it from their roles. @everyone still can't see the channel.
+                body["permission_overwrites"][0]["allow"] = str(REQUEST_TO_SPEAK)
             if topic and typ == TEXT:
                 body["topic"] = re.sub(r"\{([a-z-]+)\}", lambda m: f"<#{ids[m.group(1)]}>" if m.group(1) in ids else "#" + m.group(1), topic)
             if typ == FORUM:
