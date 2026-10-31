@@ -120,9 +120,11 @@ All in the build folder's `build\`:
 - `voice.py`: one Microsoft neural TTS clip per line (`en-NG-AbeoNeural`, free, edge-tts), word timings, cues placed on their words → `voice.wav` + `timeline.js`. `--chapters 1-3` builds part of it.
 - `demo.html` + `style.css` + `screens.js` + `engine.js`: the Discord replica (Android dp sizes and colours taken from his screenshots) in a 1080×1920 Called to Edit frame (navy, Gloock, Plus Jakarta Sans), with a touch dot, zoom-ins, karaoke captions, step cards and a step pill. `demo.html?t=42` jumps to 42 s. `__check()` in a browser lists any selector the script uses that doesn't exist.
 - Recorded frame-exact with the Editor's `record_demo.py` (`shot_preview.json`, 30 fps), served by `serve.py` (no cache, port 8765), voice muxed with ffmpeg (loudnorm −16 LUFS).
-- Swapping in Samuel's voice later: transcribe his take for word timings, then rebuild `timeline.js` from them instead of the TTS.
+- **Samuel's voice:** he reads `Script to record.txt` (build folder root; generated from `script.txt`, so re-make it after any script change). The Editor cuts his mistakes first (waveform-first, [[03-Areas/video-editing/sops/routerise-cut-workflow|cut workflow]] steps 2-4). Then `python voice_samuel.py "<his cut take>"` transcribes it on the CPU with faster-whisper (`medium.en`; CUDA's cuBLAS isn't installed here, and audio is decoded by ffmpeg because faster-whisper's own loader breaks on the installed PyAV), matches each word to the script, cuts his take line by line (pauses capped at 0.6 s, chapter-card gaps added) and writes `voice.wav` + `timeline.js`. Set `duration` in `shot_full.json` to the total it prints, record, mux. Tested 2026-10-31 on the AI track: 95 % of words matched, cues within a median 0.1 s of the AI timing.
 
-**Preview v1 (chapters 1-3, 1:28):** `renders\Community demo PREVIEW ch1-3 v1.mp4`, sent to Samuel 2026-10-31 for his OK on the look and the guide voice before chapters 4-10 are built.
+**Preview v1 (chapters 1-3, 1:28):** `renders\Community demo PREVIEW ch1-3 v1.mp4`, sent 2026-10-31; Samuel: *"Yes, build the rest"*.
+
+**Full v1 (AI guide voice, 5:15, 1080×1920, 53 MB):** `renders\Community demo v1 (AI guide voice).mp4`, sent 2026-10-31. Checked on 26 frames: in sync; one soft spot in chapter 6 ("and post" ~1.5 s early), fixed in `script.txt` for the next take. `screens2.js` + `style2.css` hold chapters 4-10. Next: Samuel records `Script to record.txt`; no background music yet.
 
 ## What the screenshots changed in the plan
 
