@@ -2,7 +2,7 @@
 type: project
 area: video-editing
 status: active
-updated: 2026-10-30
+updated: 2026-10-31
 source: manual
 tags: [client, routerise, gamma, long-form]
 ---
@@ -51,3 +51,4 @@ Samuel, ~22:50: watch the cam download and resume it, put B-cam on the timeline 
 - **Screen plates:** workflow wf_65de57da-551 (refs + sources → plan → build pool of 5 → fresh review/fix). Plan, SOURCES.md and units in `Docs\Visual plan v1 (Editor)\`.
 - **2026-10-31 ~09:10 RESUME (after Samuel's power cut):** 7 of 9 units passed review; their 29 takes are on V3 "Screen plates (Editor)" of **Visuals v1 (Editor)** (duplicate of Cut v6). U01 (Claude rebuild) and U09 (Gamma course editor) are finishing in workflow wf_720f8286-5c3; add their takes to V3 when it returns, frame-check, then the morning report. Full RESUME: job `Docs\RUN STATE.md` → ">>> RESUME".
 - **2026-10-31 ~10:15:** U01 and U09 passed; **all 44 placements from the 9 units are on V3 of Visuals v1 (Editor)** (no overlaps, 10,523 f, saved; map `Docs\Visual plan v1 (Editor)\placements v1.json`). Polish + whole-timeline review running (wf_4d3b5ee0-20e): the made-up account "Connor" becomes the gender-neutral "Casey" (the presenter is a woman, name unknown: Samuel's answer is a one-line change), small glitches fixed as `_v2` takes beside the old ones, punch-in study for 26 px labels.
+- **2026-10-31 afternoon:** two fix rounds done. Round 1 (wf_4d3b5ee0-20e): "Casey" stand-in name, small glitches, 3 placement fixes (4-frame flash at 4430 closed). Round 2 (wf_7c999632-16c): 19 placements re-recorded or re-cropped from the whole-timeline review (Claude Stop button, typing on "type", Gamma names/click targets, source-page crops, Loom plate without a stranger's face). **V3 now: 44 plates, no overlaps, 10,552 f, saved**; map `Docs\Visual plan v1 (Editor)\placements v3.json`. Waiting on Samuel's calls (job `Docs\RUN STATE.md` → RESUME 3/4).
