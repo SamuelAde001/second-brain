@@ -70,7 +70,7 @@ Then read #start-here, and say hi to the person who joined before you, in #gener
 👋 **Welcome to Called to Edit, {MEMBER}!** 🎬
 You just joined video editors who are building real careers and landing clients, together.
 Tell us who you are in #general-chat: your name, where you edit from, what you edit, and who you want to edit for.
-Then read #start-here. Everyone, give them a warm welcome in #general-chat 👋
+Then read #start-here, and watch the 4-minute video pinned at the top: it shows you everything on your phone. Everyone, give them a warm welcome in #general-chat 👋
 
 ## #ask-editors-bot
 
