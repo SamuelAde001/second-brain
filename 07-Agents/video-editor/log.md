@@ -340,3 +340,4 @@ Started from the General Manager's session (zero-revision pipeline, model routin
 2026-10-31 · Gamma Ep. 12: all 44 plates on V3 of Visuals v1 (Editor); polish + whole-timeline review workflow wf_4d3b5ee0-20e started.
 - 2026-10-31 · Gamma Ep. 12: fix round 2 (wf_7c999632-16c) passed; 19 V3 placements swapped to _v2/_v3 takes in Visuals v1 (Editor), 44 plates, no overlaps, saved; placements v3.json.
 - 2026-10-31 · Called to Edit community demo: cut Samuel's voice-over 8:52 → 3:59 (last clean takes, noise reduction, polish, −16 LUFS, one word splice "right"), re-timed, recorded full v2 4:22, sent the 26.7 MB phone copy. [[04-Projects/called-to-edit-community-demo-video|demo video]]
+- 2026-10-31 · Community demo v3: two leftover chapter-3 repeats cut, quiet ducked music bed (Before Chill, Yomoti) added, 4:18, phone copy 26.8 MB sent. [[04-Projects/called-to-edit-community-demo-video|demo video]]
