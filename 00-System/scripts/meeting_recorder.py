@@ -212,26 +212,59 @@ def post(channel_key, body):
     return f"https://discord.com/channels/{cfg()['guild']}/{ch}/{msg['id']}"
 
 
+def _fields(name, lines, limit=1024):
+    """Embed fields of at most `limit` characters each, splitting a long list across several."""
+    out, cur = [], ""
+    for ln in lines:
+        if cur and len(cur) + len(ln) + 2 > limit:
+            out.append({"name": name if not out else "​", "value": cur})
+            cur = ""
+        cur += ("\n\n" if cur else "") + ln[:limit]
+    if cur:
+        out.append({"name": name if not out else "​", "value": cur})
+    return out
+
+
 def post_recording(title, when, secs, url, archive, summary):
     """Samuel, 2026-10-28: a channel for the recordings: the link, the session's topic and a summary; and the
-    summary in the general chat for everyone who missed it."""
+    summary in the general chat for everyone who missed it. 2026-11-01: "summarise it in a way that people can
+    actually understand, format it well so it can be consumed easily", and tell #general-chat where the
+    recording is. So: short sections with headings, one point per line, the link at the top."""
     s = summary or {}
     topic = (s.get("topic") or title).strip()
-    desc = f"**{title}** · {when:%A %d %B %Y} · {nice_len(secs)}\n\n"
+    rec = cfg()["channels"]["recordings"]
+    desc = (f"**{title}** · {when:%A %d %B %Y} · {nice_len(secs)}\n"
+            f"▶️ **[Watch the recording]({url})**\n")
     if s.get("summary"):
-        desc += s["summary"].strip() + "\n\n"
-    if s.get("takeaways"):
-        desc += "**Key takeaways**\n" + "\n".join(f"• {t}" for t in s["takeaways"]) + "\n\n"
-    if s.get("questions"):
-        desc += "**Questions answered**\n" + "\n".join(f"• {q}" for q in s["questions"]) + "\n\n"
-    desc += f"▶️ **[Watch the recording]({url})**"
+        desc += f"\n**📝 In short**\n{s['summary'].strip()}\n"
     if archive:
         desc += f"\n📂 [Every call we've recorded]({archive})"
-    embed = {"title": f"📼 {topic}"[:256], "url": url, "description": desc[:4000], "color": 0xE53935}
+    fields = []
+    if s.get("takeaways"):
+        fields += _fields("🔑 What to remember", [f"**{i}.** {t}" for i, t in enumerate(s["takeaways"], 1)])
+    if s.get("next_step"):
+        fields.append({"name": "✅ Your next step", "value": s["next_step"].strip()[:1024]})
+    for q in s.get("questions") or []:
+        ask, _, ans = q.partition("→")
+        fields.append({"name": ("❓ " + ask.strip())[:256], "value": ("➜ " + (ans.strip() or "—"))[:1024]})
+    if s.get("next_call"):
+        fields.append({"name": "📅 Next call", "value": s["next_call"].strip()[:1024]})
+    embed = {"title": f"📼 {topic}"[:256], "url": url, "description": desc[:4000], "color": 0xE53935,
+             "fields": fields[:25]}
     jump = post("recordings", {"content": f"📼 **{topic}** — the recording is up", "embeds": [embed]})
     if s.get("summary"):
-        post("general", {"content": (f"📼 **Missed {title}? Here's what we covered: {topic}**\n\n{s['summary'].strip()}\n\n"
-                                     f"Recording, key takeaways and the questions answered: {jump}")[:2000]})
+        msg = (f"## 📼 Missed {title}? The recording is up\n"
+               f"**Topic:** {topic}\n"
+               f"**Where to find it:** <#{rec}> → {jump}\n"
+               f"**Watch it now:** <{url}>\n\n"
+               f"**📝 In short**\n{s['summary'].strip()}\n")
+        top = (s.get("takeaways") or [])[:3]
+        if top:
+            msg += "\n**🔑 3 things to remember**\n" + "\n".join(f"• {t}" for t in top) + "\n"
+        if s.get("next_step"):
+            msg += f"\n**✅ Your next step:** {s['next_step'].strip()}\n"
+        msg += f"\nThe full notes and the questions answered are in <#{rec}>. Every call is saved there."
+        post("general", {"content": msg[:2000]})
     return jump
 
 

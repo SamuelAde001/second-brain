@@ -37,7 +37,9 @@ Do these four things, then stop.
 
    Also add one line for the call to a `## Community calls` list in the archive note (create that list above `## Adding to it` if it's missing), and one row to the Sources table.
 3. **Write the summary for members** as JSON to `{summary_json}`, and nothing else in that file:
-   `{"topic": "<what the call was about, 3-8 words>", "summary": "<3-5 sentences, plain words, for members who missed it>", "takeaways": ["<5-8 short points, his teaching>"], "questions": ["<question asked> → <his answer in one line>"], "filed": <number of items you filed>}`
+   `{"topic": "<what the call was about, 3-8 words>", "summary": "<3-4 short sentences, plain words, for members who missed it>", "takeaways": ["**<2-5 word label>:** <one or two short sentences>", "... 5-8 of them, his teaching"], "next_step": "<the one thing he asked members to do, in one sentence, or empty>", "next_call": "<when the next call is and what it covers, if he said, or empty>", "questions": ["<question asked> → <his answer in one or two short sentences>"], "filed": <number of items you filed>}`
+
+   Samuel, 2026-11-01: *"summarise it in a way that people can actually understand, format it well so it can be consumed easily"*. Write for a beginner editor reading on a phone: everyday English, short sentences, one idea per point, no jargon a beginner wouldn't know, no long lists inside a sentence.
 4. Print one line: what you filed.
 
 Rules that bind this run:
