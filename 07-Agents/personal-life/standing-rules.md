@@ -2,7 +2,7 @@
 type: agent
 area: me
 status: active
-updated: 2026-10-18
+updated: 2026-11-01
 source: interview
 tags: [agent, personal-life, rules, planning]
 ---
@@ -20,6 +20,18 @@ Why it exists. Samuel, 2026-09-25: *"they forget things that I have settled befo
 - Only what he said. Nothing here is a suggestion (AGENTS.md rule 7).
 
 ---
+
+## 60 Days of Greatness (2026-11-01 to 2026-12-30)
+
+Samuel, 2026-11-01: *"In the next 60 days I am committing to greatness"*. Full list and where each item sits in TickTick: [[04-Projects/sixty-days-of-greatness|60 Days of Greatness]]. While it runs, these lines win over older ones below:
+- **Gym is Monday, Tuesday and Thursday**, 5:00pm. Replaces "at least 3 a week, days picked by workload".
+- **Posting every day is a commitment now**, not only a Sunday report. Plus a gratitude picture every morning.
+- **Fasting Wednesdays and Fridays**, broken at 2:00pm or 6:00pm. Don't plan gym on those days.
+- **Called to Edit Community meetings Sunday and Wednesday at 8:00pm.** Nothing else goes there.
+- **Church every Sunday.**
+- **Batch content on Monday or Wednesday.**
+- **He plans tomorrow himself on TickTick the night before.** Sometimes he asks the PA to plan or add things: *"Sometimes I would tell you to do it or add something to my TikTik for me, sometimes I would do it myself"*.
+- **No masturbation and social media discipline are back on his list.** How they're checked is waiting on his answer (2026-11-01); until then, read the habit check-ins only, don't ask.
 
 ## His day
 
