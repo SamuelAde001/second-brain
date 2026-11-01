@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-11-01
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -162,5 +162,13 @@ What he said live that the prep didn't have, or said better. Times are from the 
 **When to start outreach** (Q&A, [3:24:31]): after three full videos in your niche, even practice ones. *"Don't wait till you have five videos in your archive."* *"I started outreaching even when I was not that good. What you think is not yet good is someone else's best. Someone is willing to pay you for that thing that you think is not good."*
 
 **Raw footage to practise and pitch with** (Q&A, [3:16:04]): go where that niche lives. UGC lives on TikTok, where most videos are lightly edited: download, re-edit, use it to practise or pitch that creator. Podcasts aren't on TikTok. Or ask a creator to send you their raw footage even if they have an editor.
+
+## Community calls
+
+What he taught on Called to Edit Community calls. Times are from the start of each call's recording; each call's note is listed in the [[05-Knowledge/teachings/teachings-archive|archive]].
+
+### Call 2026-11-01: a company: send to its email and to someone who works there
+- A member, a motion designer, asked whether to send outreach to a company's email or to someone employed there. **Call 2026-11-01 [1:12:05]** *"Send both."* It's multiple points of contact.
+- **Call 2026-11-01 [1:12:16]** *"If the company sees it and they trash it, but the employee now helps you and gets the job, that's a great deal."* **Call 2026-11-01 [1:12:29]** *"You don't know where the opportunity is going to come in."* Their email, their Instagram: more than one.
 
 [[05-Knowledge/teachings/teachings-07-portfolio-and-packaging|← Portfolio and packaging]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-09-outreach-and-closing|Outreach and closing →]]

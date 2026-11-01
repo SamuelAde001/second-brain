@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-28
+updated: 2026-11-01
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -287,5 +287,14 @@ What he taught on Called to Edit Community calls. Times are from the start of ea
 ### Call 2026-10-28: master your software in 30 days, and post while you learn
 - To a member whose 60-day goal was to master DaVinci Resolve: **Call 2026-10-28 [1:04:52]** *"Try and master it in 30 days instead of 60 days."*
 - **Call 2026-10-28 [1:05:07]** *"As you're trying to learn, document your journey, document the things that you've been able to achieve. If you did any edit, post it, talk about it. You need to share your story and your journey for people to be able to follow up."*
+
+### Call 2026-11-01: why he doesn't teach editing in the community
+- A member asked for sessions that break down edits and show what makes them work. His answer: the members are motion designers, graphic designers, long and short form editors, business, podcast editors, and *"the editing style in every video varies"* [1:07:51].
+- **Call 2026-11-01 [1:08:01]** *"I will be biased to teach you based on what I know."* He doesn't know motion design for a particular niche or gaming edits. **Call 2026-11-01 [1:09:05]** His style is *"based on my software, the type of clients I work with, the kind of videos I edit, the type of topics they do."* His Fusion knowledge won't help a Premiere Pro or CapCut editor.
+- **Call 2026-11-01 [1:08:21]** *"But the basics are the same. Cutting a video is cutting a video."* He shares basics tutorials in the channels every week.
+- **Call 2026-11-01 [1:09:21]** *"Learn the basics on YouTube, then figure out what are the skills"*: first the niche you'll edit for, then the skills that niche needs (a documentary edit has its own).
+- **Call 2026-11-01 [1:10:13]** *"I was self-taught. I didn't buy any course. The only thing I paid for was a community."* *"Initially I wanted to learn everything, and I realised it doesn't make sense, so I had to list down what I need to learn."*
+- **Call 2026-11-01 [1:10:54]** *"My guidance here is: after you've learned, how can you use what you've learned to actually get paid and get clients and get visible."* He'll still give feedback on members' edits.
+- His homework to the member: pick the niche, find every skill it needs, and write it down in your documentation [1:11:25].
 
 [[05-Knowledge/teachings/teachings-01-story-and-mindset|← Story and mindset]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-03-tools-and-money|Tools and money to start →]]

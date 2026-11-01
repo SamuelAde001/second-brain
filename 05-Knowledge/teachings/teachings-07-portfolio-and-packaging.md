@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-11-01
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -90,5 +90,14 @@ What he said live that the prep didn't have, or said better. Times are from the 
 **Re-edits in your portfolio** (Q&A)
 - **Live [3:14:16]** A copy of someone else's edit (their style, their idea): *"please don't put it in your portfolio. It is that person that came up with the idea."* A raw video you edited your own way: yes, it's yours.
 - **Live [3:17:48]** Re-editing a creator's raw or lightly edited video to show your work is fine: *"the edit is your intellectual property."* He re-edited an MKBHD video and posted it on Twitter. Don't post their footage as your own content (they can flag it), and take it down if they ask.
+
+## Community calls
+
+What he taught on Called to Edit Community calls. Times are from the start of each call's recording; each call's note is listed in the [[05-Knowledge/teachings/teachings-archive|archive]].
+
+### Call 2026-11-01: your social media can stand as your portfolio
+- **Call 2026-11-01 [0:58:10]** *"Sometimes, instead of sending my portfolio, I actually used to send my Twitter"*, his bio or handle.
+- Put your best edits where a visitor sees them first: Twitter's Highlights page (with the check mark), a TikTok playlist of your best edits, pinned posts on Instagram, the same on LinkedIn [0:58:27].
+- **Call 2026-11-01 [0:59:00]** *"Your social media can stand as your portfolio, and when your social media stands as your portfolio it does two things: it shows them your work and shows them the behind the scenes of the work."* **Call 2026-11-01 [0:59:13]** That makes them *"not only trust that you are good at your skill, but trust that you can actually do the hard work."* That is what brings inbound leads.
 
 [[05-Knowledge/teachings/teachings-06-visibility-and-personal-brand|← Visibility and personal brand]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-08-finding-clients|Finding clients →]]
