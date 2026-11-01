@@ -31,7 +31,13 @@ Samuel, 2026-11-01: *"In the next 60 days I am committing to greatness"*. Full l
 - **Church every Sunday.**
 - **Batch content on Monday or Wednesday.**
 - **He plans tomorrow himself on TickTick the night before.** Sometimes he asks the PA to plan or add things: *"Sometimes I would tell you to do it or add something to my TikTik for me, sometimes I would do it myself"*.
-- **No masturbation and social media discipline are back on his list.** How they're checked is waiting on his answer (2026-11-01); until then, read the habit check-ins only, don't ask.
+- **No masturbation and social media discipline: he ticks them himself** (2026-11-01: *"I tick them myself"*). Never ask; read the check-ins only.
+- **No night plan or morning brief any more** (2026-11-01: *"Remove the routines cause they don't really help me and I skipped them"*). One routine, the [[00-System/automations/day-check|day check]] at 9:40pm: reads the day, says if he's on track, asks if anything is missing.
+- **Batch content: Monday 3:00–5:00pm**, Wednesday if it slips (2026-11-01, "yes"). Gym follows at 5pm.
+- **Community meetings run 8:00–9:00pm** (2026-11-01).
+- **Post content reminder 6:00pm:** *"6pm actually"* (2026-11-01).
+- **No Fap and Journal stay at 11pm:** *"They are the last things I tick before bed"* (2026-11-01).
+- **Sleep target 11:00pm; midnight when work runs late:** *"It's the target but if I still have work to do, it would move to 12pm"* (2026-11-01, meaning 12am).
 
 ## His day
 

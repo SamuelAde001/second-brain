@@ -1,7 +1,7 @@
 ---
 type: sop
 area: me
-status: active
+status: paused
 updated: 2026-10-06
 source: interview
 tags: [automation, planning, daily]
@@ -35,3 +35,5 @@ Rewritten 2026-09-25 (Samuel: the reports read *"like it's talking to itself"*, 
 > 6. Anything that needs the PC goes as one line in `01-Inbox/`. Another agent's judgement: a subagent on model opus with that agent's profile and memory.
 
 Back to [[07-Agents/personal-life/profile|personal-life]] · [[00-System/systems-register|Systems register]]
+
+**Replaced 2026-11-01** by [[00-System/automations/day-check|day check]]. Samuel: *"Remove the routines cause they don't really help me and I skipped them"*. Agents can't edit routines made over the API, so Samuel switches this one off in the claude.ai routines page.

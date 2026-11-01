@@ -1,7 +1,7 @@
 ---
 type: sop
 area: me
-status: active
+status: paused
 updated: 2026-10-06
 source: interview
 tags: [automation, planning, daily]
@@ -36,3 +36,5 @@ Rewritten 2026-09-25 (Samuel: the reports read *"like it's talking to itself"*, 
 > 7. Anything that needs the PC (Money sheet, DaVinci Resolve, `01-Inbox/_imports/`) goes as one line in `01-Inbox/`. If he asks for something that needs another agent's judgement (money, a script, an edit), hand it to a subagent on model opus that reads `07-Agents/<agent>/profile.md` and `memory.md`, and relay its answer.
 
 Back to [[07-Agents/personal-life/profile|personal-life]] · [[00-System/systems-register|Systems register]]
+
+**Replaced 2026-11-01** by [[00-System/automations/day-check|day check]]. Samuel: *"Remove the routines cause they don't really help me and I skipped them"*. Agents can't edit routines made over the API, so Samuel switches this one off in the claude.ai routines page.
