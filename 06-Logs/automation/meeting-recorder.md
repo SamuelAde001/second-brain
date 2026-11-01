@@ -16,3 +16,4 @@ Append-only. One line per recorded call, written by `00-System/scripts/meeting_r
 - 2026-10-28 21:55 — Onboarding Session: recorded 1 h 13 min, on Drive. Same-night transcription crashed (out of memory); rerun by hand in 10-minute chunks, 8 teachings filed, bot knowledge deployed by hand. Post waits for the Drive upload
 - 2026-10-28 21:55 — Onboarding Session: 1 h 13 min, on Drive, waiting for folder sharing
 - 2026-10-28 23:36 — Onboarding Session: 1 h 13 min, posted in #call-recordings with a summary in #general-chat at 22:20, 8 teachings filed (transcription first crashed out of memory, rerun by hand in 10-minute chunks), local copy deleted (2026-10-28 Onboarding Session.mp4)
+- 2026-11-01 21:57 — Sunday Live Call: 1 h 14 min, posted in #call-recordings with a summary in #general-chat, 13 teachings filed (summary rewritten in plain words by hand), local copy deleted (2026-11-01 Sunday Live Call.mp4)
