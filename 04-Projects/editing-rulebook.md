@@ -19,7 +19,7 @@ One rulebook for every Route Rise edit (Alex/Frontal, Gamma, any new client), bu
 
 - **2026-11-03 (Editor), drafted:** 11 drafting helpers wrote [[03-Areas/video-editing/rulebook/rulebook|the rulebook]]: front page, changelog, 41 section notes (A1-A6, B1-B5, C1-C16, D1-D2, E1-E2, F1-F5, K0-K4, H video history). 1,378 numbered rules, 99 open questions (first reported as 1,407 / 101: an addition slip, corrected the same day by `rb_status.py`), 40 pictures in `_attachments/rulebook/` (3.3 MB). Checks: 0 broken links; all 800 quotes found word for word in the sources (6 paraphrases fixed). Cost of research + drafting: weekly 82 % → 84 %.
 - **Review is rule by rule** (Samuel, 2026-11-03: *"Don't forget to bring each rule to me to approve correct or dismiss, also don't forget to document the scripts you use"*). The Editor brings the rules in small numbered batches, one subheading at a time, starting at A1. Each rule gets his ✔ approve, ✏ correct (his wording) or ✖ dismiss (struck through, number kept), with the date at the end of the line; questions get "→ Samuel: <answer>". A section is `status: approved` only when every rule and question in it is decided. Each batch: apply, changelog line, commit. `rb_status.py --pending` shows what is left.
-- **2026-11-03: A1 approved** rule by rule (53 rules: 42 ✔, 9 ✏, 2 ✖; new A1.53). Next: A2.
+- **2026-11-03: A1 approved** rule by rule (53 rules: 42 ✔, 9 ✏, 2 ✖; new A1.53). **A2 approved** (35 rules: 27 ✔, 8 ✏). Next: A3.
 - **Scripts documented:** [[03-Areas/video-editing/scripts/rulebook/README|rulebook scripts]] (extract, markers, merge, quote check, images, status), listed in the systems register.
 
 ## Resume

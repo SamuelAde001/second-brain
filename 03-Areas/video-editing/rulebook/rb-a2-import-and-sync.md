@@ -1,8 +1,8 @@
 ---
 type: sop
 area: video-editing
-status: draft
-approved:
+status: approved
+approved: 2026-11-03
 updated: 2026-11-03
 source: interview
 tags: [rulebook]
@@ -11,7 +11,7 @@ section: A2
 
 # A2 · Import into Resolve and syncing
 
-> **Read when:** making the Resolve project, importing, syncing camera, mic and screen recording, adding a second camera, or naming and duplicating timelines (Editor, setup step and every new timeline). **Client values:** frame rate per client in [[03-Areas/video-editing/clients/alex|Alex]] and [[03-Areas/video-editing/clients/gamma|Gamma]]. **Status:** draft, not yet approved by Samuel.
+> **Read when:** making the Resolve project, importing, syncing camera, mic and screen recording, adding a second camera, or naming and duplicating timelines (Editor, setup step and every new timeline). **Client values:** frame rate per client in [[03-Areas/video-editing/clients/alex|Alex]] and [[03-Areas/video-editing/clients/gamma|Gamma]]. **Status:** approved by Samuel rule by rule, 2026-11-03.
 
 ## Rules
 ### The project
@@ -57,13 +57,13 @@ section: A2
 - **A2.30** Before any build, export his current cut and diff it against the last one. If he changed it, re-time the word maps and the plan to the live cut (an old map drifted 15 to 69 frames). ⚙️ · ✔ 2026-11-03
 
 ### Scripting the timeline
-- **A2.31** How `AppendToTimeline`, source offsets and a scripted cut rebuild behave (only when camera, mic copy and timeline share one rate; 150 clips per call): open [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] and [[03-Areas/video-editing/sops/routerise-cut-workflow|cut workflow]] before scripting a timeline. ⚙️
+- **A2.31** How `AppendToTimeline`, source offsets and a scripted cut rebuild behave (only when camera, mic copy and timeline share one rate; 150 clips per call): open [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] and [[03-Areas/video-editing/sops/routerise-cut-workflow|cut workflow]] before scripting a timeline. ⚙️ · ✔ 2026-11-03
 
 ## Never
-- **A2.32** Never sync from file clock times. The DJI and Sony clocks ran ~143 s apart; filenames predicted +108 s when the truth was −34.9 s. ⚙️
-- **A2.33** Never place clips from a drift line (the old "129 ppm" model). Cuts built that way felt out of sync to Samuel; use the one constant offset. ✅ (2026-09-25)
-- **A2.34** Never use camera audio or the screen recording's audio in the cut. ✅ (2026-09-25)
-- **A2.35** No agent deletes a Resolve project. Leave a clearly named leftover in `_Review to delete/` for him. ✅ (2026-10-14)
+- **A2.32** Never sync from file clock times. The DJI and Sony clocks ran ~143 s apart; filenames predicted +108 s when the truth was −34.9 s. ⚙️ · ✔ 2026-11-03
+- **A2.33** Never place clips from a drift line (the old "129 ppm" model). Cuts built that way felt out of sync to Samuel; use the one constant offset. ✅ (2026-09-25) · ✔ 2026-11-03
+- **A2.34** Never use camera audio or the screen recording's audio in the cut. ✅ (2026-09-25) · ✔ 2026-11-03
+- **A2.35** Never delete a Resolve project Samuel made. A project the Editor created (tests, scratch) it may delete (A1.46). Leftovers of his go, clearly named, into `_Review to delete/` for him. ✅ (2026-10-14) · *"you can delete what you created"* (2026-11-03) · ✏ 2026-11-03
 
 ## Pictures
 - (no picture yet: a screenshot of a correct `A-roll synced (raw)` timeline with its sync markers would help)
