@@ -48,12 +48,12 @@ section: A3
 - **A3.50** A genuinely unsure take: decide, then ask him in chat to confirm, naming the timeline timecode (e.g. 04:12 in `Cut v6 (Editor)`), never a beat or clip number. ✅ *"when asking me for something ussure mentioned the time in the sequence not the beat, cause I can easiliy find things by time stamp not numbers or beat, but make sure you decide but ask me in chat"* (2026-11-03) · ✔ 2026-11-03
 
 ### Never lose a line
-- **A3.25** Never cut something meant to be in the video. Crosscheck the client's original script. The script's hook must be in the cut; Alex often records the opener several times at the very top. ✅ 🔁×2 *"never cut something that was meant to be in the video, crosscheck the clients original script"* (2026-09-25)
-- **A3.26** Cut to what is spoken, not what is written: Alex goes off script. The script decides only a word Whisper is unsure of. ✅ (2026-09-20) 🎯 (2026-10-26)
-- **A3.27** Before hand-over, run the raw-vs-cut check (`raw_vs_cut.py`): every raw mic line under 50 % covered by the kept A1 must be a removed retake, an on-camera "remove this", or noise. Read each by eye; restore what isn't said elsewhere. Add the 3-gram check so nothing said only once is lost. ⚙️
-- **A3.28** After every delete, verify each kept clip's source position on V1, A1 and V2 is unchanged, no gaps, V1 and A1 equal. ⚙️
-- **A3.29** If the kept take says a different number from the script, keep the take and flag the number in the transcript. The on-screen number follows what Alex says (C4). ⚙️ 🎯 (2026-10-26)
-- **A3.30** After the final cut, read the whole transcript to confirm it makes sense. ✅ (2026-09-25)
+- **A3.25** Never cut something meant to be in the video. Crosscheck the client's original script. The script's hook must be in the cut; Alex often records the opener several times at the very top. ✅ 🔁×2 *"never cut something that was meant to be in the video, crosscheck the clients original script"* (2026-09-25) · ✔ 2026-11-03
+- **A3.26** Cut to what is spoken, not what is written: Alex goes off script. The script decides only a word Whisper is unsure of. ✅ (2026-09-20) 🎯 (2026-10-26) · ✔ 2026-11-03
+- **A3.27** Before hand-over, run the raw-vs-cut check (`raw_vs_cut.py`): every raw mic line under 50 % covered by the kept A1 must be a removed retake, an on-camera "remove this", or noise. Read each by eye; restore what isn't said elsewhere. Add the 3-gram check so nothing said only once is lost. ⚙️ · ✔ 2026-11-03
+- **A3.28** After every delete, verify each kept clip's source position on V1, A1 and V2 is unchanged, no gaps, V1 and A1 equal. ⚙️ · ✔ 2026-11-03
+- **A3.29** If the kept take says a different number from the script, keep the take and flag the number in the transcript. The on-screen number follows what Alex says (C4). ⚙️ 🎯 (2026-10-26) · ✔ 2026-11-03
+- **A3.30** After the final cut, read the whole transcript to confirm it makes sense. ✅ (2026-09-25) · ✔ 2026-11-03
 
 ### Uhms, pauses, heads and tails
 - **A3.31** No uhm left in. The cut isn't done until the uhms are out. ✅ 🏢 *"left in parts that was obviously retakes, left in some uhms"* (2026-09-25)

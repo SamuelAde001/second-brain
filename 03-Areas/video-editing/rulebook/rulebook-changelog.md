@@ -51,5 +51,6 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A3.12 · ✏ ping him for screen control for the silence cut; scripted silence cut only when he asks (Q-A3.a answered). Note added to Q-F1.a.
 - 2026-11-03 · A3.16 A3.17 A3.18 A3.19 A3.20 A3.21 A3.22 A3.23 A3.24 · ✔ approved.
 - 2026-11-03 · A3.50, E2.43 · new: decide an unsure take, then ask in chat; always name the timeline timecode, never the beat (Q-A3.b answered).
+- 2026-11-03 · A3.25 A3.26 A3.27 A3.28 A3.29 A3.30 · ✔ approved.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
