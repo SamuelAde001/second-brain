@@ -48,7 +48,7 @@ section: C9
 - **C9.25** The clip matches the line exactly. Never show the generator's watermark. 🎯
 - **C9.26** Pick in-points where hands or garbled screens don't break the shot; flag AI artefacts (e.g. a bad last second) to Samuel. ⚙️
 - **C9.27** Where a screen in AI B-roll must be readable, cut while it is still clean to a full-screen rebuild of the app (C8). Never corner-pin onto a screen that turns to garbled text. ⚙️
-- **C9.28** Flow clips are 24 fps: place them on the 23.976 timeline with the source frame checked. ⚙️
+- **C9.28** Flow clips are 24 fps: place them on the timeline (the raws' rate, A2.4) with the source frame checked. ⚙️
 - **C9.29** Reuse the AI B-roll from the last video where it fits the line. ✅ *"Use the same AI B-roll we used in the last video for this"* (2026-10-25) (see Q-C9.a)
 
 ### Placement and treatment

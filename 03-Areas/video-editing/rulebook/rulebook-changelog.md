@@ -36,5 +36,7 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A2.4 · ✏ never above 30 fps. *"never 60fps, nothing more than 30 fps"*
 - 2026-11-03 · A2.5 · ✏ proxies generated when needed on 4K, where possible.
 - 2026-11-03 · A2.7 · ✏ save his project first; no need to load it back. Knock-on wording in F1.5 (still for his review).
+- 2026-11-03 · A2.8 A2.9 A2.10 A2.11 A2.12 A2.13 A2.14 A2.15 A2.16 A2.17 A2.18 A2.19 · ✔ approved.
+- 2026-11-03 · A2.4 · ✏ timeline = the client raws' frame rate (Q-A2.a answered), never above 30 fps. *"use the frame rate of the client raws for the timeline so we don't get issues"* Knock-on wording in C9.28.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
