@@ -1,0 +1,78 @@
+[J] - A4 colour codes: only section-marker colours; no clip/track colour meanings stated.
+[J] - A5 transcript docx format: only that it exists; no rules.
+[J] - K4 new client template: only the Gamma pattern; no checklist from Samuel.
+[J] - C9 stock/YouTube/TikTok pull rules: little beyond "real over stock".
+[J] - E1 file naming and codec for delivery (HEVC 4K seen, no stated rule); Frame.io upload procedure.
+[J] - K1 Route Rise editing guide itself: not in these job folders.
+[J] - F2 formal bug-report format: none.
+[N1] - A1: how to download from Drive, Tella, ClickUp or Notion; job folder structure and naming conventions (only fragments: "(Editor)" suffix, Docs/Graphics subfolders).
+[N1] - A2: project creation, bin structure, timeline naming rules, handling duplicates.
+[N1] - A4: marker colour meanings (only "red markers" as his notes); no approved clip-colour scheme (proposed mapping still open).
+[N1] - A5: transcript doc sections and docx format: nothing.
+[N1] - B5: crop-ins with adjustment clips: nothing specific beyond transform-only reframe adj clips.
+[N1] - C12: section card design for Gamma or non-Alex clients: nothing.
+[N1] - E1: file naming of deliveries, chunked renders, render cache settings, how files are sent (only Frame.io mentioned).
+[N1] - F2: no bug-report format or where bugs are logged.
+[N1] - F4: little on how sub-agents split work or review each other (only the Opus/Sonnet split and helper reading list).
+[N1] - K3: Gamma fonts, colours, brand kit, style: nothing.
+[N1] - K4: no actual new-client checklist exists; inferred only.
+[N1] - PIP: whether SSC PiP Pro position/size is ever animated (open); PJT/Neo Texts presets used or not (open); NeoTextMotion vs Text+ choice (open); Geist weight per role (open, now moot for Alex).
+[N2] - A1 download and sorting, A2 import/sync, A5 transcription doc: nothing.
+[N2] - A3 cutting rules (silence, retakes, uhms): only jump-cut frequency.
+[N2] - D1 music: nothing. D2: only S0.12.
+[N2] - E1 codec, chunks, cache, file names, sending: only the 1080/4K split and Deliver frame-grab size. E2 review card, markers, zero-revision bar: not in my group.
+[N2] - F2 bugs/crash reports, F4 sub-agents, F5 speed/deadlines: nothing (only "adversarial verifiers" mention).
+[N2] - C10 chart construction rules (axes, line drawing): only counters/pie/revenue chart named, no settings.
+[N2] - K0 precedence, K3 Gamma, K4 new client template: nothing.
+[N2] - B5 MagicZoom settings for Apollo/AI4 zoom clips are not in the exports (noted as unreadable).
+[N2] - Open questions in fusion-node-system §9 (enforce spine on every comp; NeoTextMotion vs Text+ + NeoAnim; Geist weights per role; trial PJT/Neo Texts) are unresolved in these sources.
+[N3] - A4: no general meaning of clip colours or marker colours on visual timelines (only sync markers, section colours on #3, Apricot for Claude visuals).
+[N3] - A5: no docx format spec for the transcript doc beyond "chaptered ALL-CAPS docx" and `md_to_docx.py`.
+[N3] - E1: no Route Rise delivery spec confirmed (frame rate 23.976 open; resolution/codec for Route Rise uploads not stated), no deliverable file-naming rule, no sending method (Drive/ClickUp upload) in these sources.
+[N3] - B1: no track layout beyond V1 A-roll, V2 screen rec, A1 mic, Claude visuals track.
+[N3] - C1, C3, C5, C11 (3D only technical notes), C12, C13 (only "the intro is his"), C15 pacing: nothing of substance in this group.
+[N3] - D1 music: nothing beyond "sound per the last three finals".
+[N3] - K3 Gamma: nothing.
+[N3] - K4 new client template: only implicit.
+[N4] - A1: no detail of the Route Rise editing guide's own text, ClickUp checklist items (17 per card never read) or Tella download steps beyond "Tella 4K export".
+[N4] - A2: bin names of the 13-bin power bin not listed; timeline naming only by example.
+[N4] - B4: little on Fusion node layout beyond "his layout for repeated elements", the B04 v2 standard and Type_Role names.
+[N4] - B3: no settings for BGORANGE, NeoAnim or NeoTextMotion beyond the few numbers listed; no MagicZoom GUI settings beyond the decoded values.
+[N4] - C10: no general graph/chart rules from Samuel beyond "pie chart with less text" and "real charts".
+[N4] - C11: 3D only the LinkedIn laptop; no 3D phones or cameras.
+[N4] - C12: no Samuel words on section card design beyond keeping the chapter lower third and one-size pills.
+[N4] - D1: no music library rules beyond his levels, cue order and "never the same song twice"; no ducking values.
+[N4] - E1: no file-naming convention for what is sent to Route Rise, no sending/upload method (Samuel sends; Frame.io named once).
+[N4] - E2: zero-revision bar stated in words ("without correction") but no formal version-naming rule for deliveries to Route Rise.
+[N4] - F2: no bug-report format.
+[N4] - K1: Route Rise agency rules only partly (5-day cap, card dates, rate); Route Rise guide content absent.
+[N4] - K3: Gamma's brand kit itself is needs-input; only his reference-video look.
+[N4] - K4: no checklist for a new client from Samuel; only the Gamma lesson (study his own edit of that client first).
+[N4] - Not covered at all: subtitles/burned-in captions, colour grading (only "his grade not to be touched"), thumbnails, aspect ratios/shorts.
+[N5] - B3/B5: MagicZoom settings not given; NeoAnim defaults only partly.
+[N5] - B1: no canonical track-by-track layout.
+[N5] - C10: no graph types or chart style.
+[N5] - C12: section card design nearly absent.
+[N5] - C11: little beyond laptop and icon rings.
+[N5] - C4: Gamma fonts and sizes not stated.
+[N5] - D1: no music genre or level rules (dB).
+[N5] - E1: Gamma render format not stated.
+[N5] - K1: Route Rise editing guide named but its rules not quoted here.
+[N5] - K3: little on Gamma beyond look and colours.
+[N5] - K4: no explicit new-client checklist.
+[T1] - A1 naming conventions for files/folders; A2 bin structure and timeline naming.
+[T1] - A4 exact clip/marker colour meanings (only red markers = corrections; section colours unspecified).
+[T1] - A5 docx format and section layout of the transcript doc.
+[T1] - B1 track layout (which track holds what) beyond "UI clips on top".
+[T1] - B3 settings values for any macro (NeoAnim, MagicZoom, etc.); MagicZoom not mentioned.
+[T1] - B5 steady zoom / crop-in with adjustment clips not covered.
+[T1] - C4 fonts, case, sizes, counters.
+[T1] - C10 graphs largely absent; C11 3D laptops/phones absent.
+[T1] - C12 section cards only partially.
+[T1] - E1 codec, chunked render, file names, upload process.
+[T1] - E2 review card / zero-revision bar not mentioned.
+[T1] - F3 token rules, F4 sub-agent rules: essentially absent.
+[T1] - K2 Alex fonts/hex colours, K3 Gamma, K4 new client template: absent.
+[T2] Nothing in this chunk on: A2 sync specifics/bins/naming, A4 marker colour meanings, B3 specific macros other than MagicZoom (NeoAnim, NeoMotionText, BGORANGE etc.), C5 colours/backgrounds, C10 graphs and stats, C12 section cards, C4 fonts/sizes/counters, D1 music choice/levels, D2 SFX specifics, E1 codec/file naming beyond "v2", K2 Alex brand kit, K3 Gamma, K4 new client template.
+[T3] Nothing in this chunk on: A2 project creation/bins/sync details; A4 colour codes; B1 track layout; B4 Fusion node arrangement; C6 highlighting (only "real UI with highlights", inferred); C10 graphs and stats (only "glass stat beside Alex", inferred); C11 3D elements (only "making things look 3D when needed"); C12 section cards/chapter markers (only "different chapter styles" in the variety library); D1 music specifics for client videos; E1 rendering and delivery; F2 bugs/crashes; K1 Route Rise agency rules; K3 Gamma.
+[T4] Nothing in this chunk on: A4 colour codes (clip/marker colours), A5 transcription and the transcript doc, B1 track layout, C9 AI B-roll / YouTube-IG-TikTok pulls / stock, C10 graphs and stats, C11 3D elements, C12 section cards and chapter markers, D1 music choice or levels for Route Rise (only "add music"), D2 SFX levels in dB or a named SFX list, E1 codec, chunk sizes, file-naming beyond "v1/v2", B3 specific macro settings (only NeoBevel off, NeoAnim and MagicZoom named), C4 exact font sizes or case rules. The Gamma "Ep. 12 v4/v5" labels don't appear in this chunk.

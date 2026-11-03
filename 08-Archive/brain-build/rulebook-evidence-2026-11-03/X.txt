@@ -1,0 +1,75 @@
+[J] Built by editor-builder, 2026-11-03. Data only: quotes are Samuel's words copied from the sources (typos kept).
+[J] **Source keys** (all job paths under `C:\Users\repzy\Desktop\Video edits\Routerise\`):
+[J] - `M-B2B` = markers_all.md §1, B2B job `Docs\Editor working files (2026-10-08)\markers_v1.json` (29 markers, 2026-10-08, Visuals v1)
+[J] - `M-R3` = video 2 `Docs\Revision 3 (Editor)\markers.json` (102 markers, file 2026-10-24 17:22, on Visuals v3)
+[J] - `M-R4` = video 2 `Docs\Revision 4 corrections (Editor)\samuel_markers_2026-10-25.json` (126 markers = 12 section-name markers + 114 corrections, 2026-10-25)
+[J] - `M-LI` = LinkedIn `Docs\Revision 2 (Editor)\markers_v5.json` (102 markers, 2026-10-15, on Visuals v5)
+[J] - `CD6` = video 2 `Docs\Revision 5 CD corrections (Editor)\CD corrections on v6.md` (Route Rise CD, Frame.io, 21 notes, read 2026-10-26)
+[J] - `CDR4` = video 4 `Docs\CD rules from video 2 (2026-10-26).md`
+[J] - `RS2/RS-LI/RS-G/RS4` = RUN STATE.md of video 2 / LinkedIn / Gamma Ep12 / video 4
+[J] - `SN21` = video 2 `Docs\Visual plan v1 (Editor)\SAMUEL NOTES 2026-10-21.md`
+[J] - `OWN` = B2B `Docs\Samuel own changes study (2026-10-13)\Samuel own changes.md`
+[J] - `GBR` = Gamma `Docs\Visuals v2 (Editor)\BRIEF.md`; `GST` = same folder `STYLE v4.md`
+[J] - `BIB01..09` = video 4 `Docs\Night run 2026-10-28 (Editor)\bible\0N ...md`; `DEC4` = same folder `DECISIONS.md`
+[J] - `PBA` = video 2 `Docs\Visual plan v1 (Editor)\PLAN BRIEF - A corrections and craft.md` (a compilation of earlier Samuel words with dates; WoW = Brain ways-of-working)
+[J] - `GRAM` = B2B `Docs\Grammar - Samuel's last three timelines (2026-10-07).md` (measured on his own approved finals: Apollo, 4 AI Tools, TSB)
+[J] - `CUTDIFF` = video 2 `Docs\Editor working files (2026-10-20)\samuel_cut_diff.md`; `SND5` = video 2 `Docs\Sound (Editor)\SOUND_v5.md`; `MUS` = same folder `MUSIC.md`
+[J] - `CUTWF` = `Claude Files\Routerise Cut Workflow.md`; `NOTION` = LinkedIn `Docs\Notion idea doc + comments (read 2026-10-13).md`; `HEROES4` = video 4 `Docs\Visual plan v1 (Editor)\frames\HEROES.md` + `EN-04 redesign\SAME DESIGN ELSEWHERE.md`
+[J] - `FTPL` = `Visual Assets\Frontal templates (Editor)\README.md`
+[J] Grouped by theme (one marker can hit two themes; counts by keyword over the marker text, checked by eye):
+[J] | Theme | Count | Where |
+[J] |---|---|---|
+[J] | Shines (bad, double, on page, not leaving box, "remove all shines") | 37 (≈30 negative, 3 "add shines") | M-R3 mostly, M-R4, M-LI |
+[J] | Zoom too fast / too deep / jittery / wrong focus / too zoomed in | 39 | M-R3 (≈25), M-R4, M-LI |
+[J] | Motion not smooth, too fast, jittery, janky | 35 | all four |
+[J] | Boxes (generic, everywhere, too small, square-vs-pill, box over box) | 39 | M-R3, M-R4, M-LI |
+[J] | Numbers must count up / animate in | 19 | M-R4 |
+[J] | Red / grey for negatives, red strike banned | 24 | M-R4, M-R3, M-LI |
+[J] | Highlight (late, at once, whole list, none needed) | 21 | all |
+[J] | Word by word (NeoTextMotion) / one by one | 14 | M-R4 |
+[J] | Show real UI / show not tell / actual page | 12 | M-B2B, M-R4, M-LI |
+[J] | Mosaic / blur | 12 | M-R4, M-LI |
+[J] | Dark shade / orange backdrop / darken | 11 | M-R3, M-LI |
+[J] | Pills (small pills at bottom) | 10 | M-R4, M-LI |
+[J] | Remove visual, back to A-roll | 9 | M-LI, M-R4 |
+[J] | Media adjustment clip missing | 8 | M-R4, M-R3 |
+[J] | Light sweep on every box | 7 | M-R4 |
+[J] | LinkedIn posts too zoomed in | 8 | M-LI |
+[J] | Profile pic on posts | 5 | M-LI |
+[J] | Face (text over face, zoom to face, circle of him) | 6 | M-R3, M-R4, M-LI |
+[J] | Gaps / spacing between visuals | 3 | M-B2B |
+[J] - RULE (-> F1/E2): Samuel does Magic Mask tracking himself on his workspace timeline; never rebuild that timeline after. | KIND: ruled | DATE: 2026-10-15 | VIDEO: LinkedIn | QUOTE: "I would do the magic mask myself, go on with other things" | SRC: RS-LI 11:2x
+[J] - RULE (-> C9): Ask before using another client video on screen; Samuel kept Alex's "$7M Founder" video as the shown video. | KIND: liked | DATE: 2026-10-15 | VIDEO: LinkedIn | QUOTE: "keep it" | SRC: RS-LI 15:52
+[N1] Group N1: the house-rule notes in the Brain. All paths are relative to `03-Areas/video-editing/`.
+[N1] SRC short names: WOW = ways-of-working.md · RC = samuel-review-card.md · HS = routerise-house-style.md · VV = visual-vocabulary.md · DEC = video-editing-decisions.md · HUD = routerise-eom-huddle-2026-10.md · CDS = creative-director/creative-director-standard.md · CD01..CD06 = creative-director/cd-breakdown-01-jp-1 / 02-jp-2 / 03-andy-1 / 04-nate-1 / 05-alex-1 / 06-matt-1 (time = training-recording time) · RR = clients/routerise.md · AL = clients/alex.md · GA = clients/gamma.md · FB = clients/frontal-brand-v2.md · FT = clients/frontal-template-library.md.
+[N1] Video short names: 7M = "$7M Founder: How I Use Claude for Cold Outreach" (reference final) · TSB = "Taking a Step Back from Claude" · RR3 / 4AI = Route Rise #3 "I Tried 100+ AI Tools. These 4 Are Best for Businesses" · Apollo = "I cancelled Apollo.io and built this Claude skill instead" · B2B = "The Most Valuable AI B2B Marketing Training" · LI = LinkedIn Training · V2 = video 2 "I Gave Claude 10,000 SaaS Companies..." · V4 = video 4 · V5 = video 5.
+[N1] Dates on CD lines are the date the breakdown was studied and adopted (2026-10-22). Dates on 7M measured lines are the study date (2026-09-14). "≤2026-09-19" = from the Claude memory export, last updated 2026-09-19, exact date not given.
+[N1] - RULE (→ E2/F5): The client may name a tool on camera that differs from footage; list it under "still needed / to confirm" in the cut sheet | KIND: inferred | DATE: 2026-10-15 | VIDEO: all | SRC: HUD; RR §Quirks
+[N2] Sources read completely: edit-grammar/{edit-grammar, edit-grammar-shared-rules, edit-grammar-tsb, edit-grammar-ai4, edit-grammar-apollo}.md, fusion-node-system.md, fusion-recipes.md, motion-gallery/motion-gallery.md, tsb-graphics-pipeline.md, sops/fusion-build.md. All SRC paths are relative to `C:\Users\repzy\Desktop\My Second brain\03-Areas\video-editing\`. Abbreviations: EG = edit-grammar/, TSB = Taking a Step Back from Claude final, AI4 = I Tried 100+ AI Tools (Cut v6, Route Rise #3), APO = I cancelled Apollo.io final, 7M = $7M Founder Cold Outreach reference. Dates on approved-final items are the study date (2026-10-07) unless stated; the finals themselves were delivered earlier.
+[N2] Note on KIND: TSB 3:06-10:41 was built by Claude and corrected by Samuel; only his 0:00-3:06 and his replacements are approved-final. Items he switched off there are `scolded`. Many APO comps carry the Editor's node names but the final is his approved one.
+[N3] Sources read completely: `03-Areas/video-editing/sops/` routerise-job-setup, routerise-cut-workflow, video-pipeline-tools, visual-sheet-pipeline, end-of-job-review, unattended-run; `03-Areas/video-editing/` resolve-automation-lessons, troubleshooting, resolve-performance, toolchain, workflow, agent-plan, cut-sheets, resolve-project-library; `00-System/model-routing.md`.
+[N3] SRC paths below are relative to `03-Areas/video-editing/` unless they start with `00-System/`. Abbreviations: `RAL` = resolve-automation-lessons.md, `MR` = 00-System/model-routing.md, `VPT` = sops/video-pipeline-tools.md.
+[N4] Group N4: every video job's project note (Route Rise #3 4 AI Tools, Apollo, AI B2B + intro + plan + two reviews, LinkedIn Training, videos 2-and-4 plan, 10,000 SaaS, Cold Email Goldrush, Gamma Claude + MCP, Frontal rebrand kit) plus delivered-projects.md and video-editing-log.md. All sources read in full.
+[N5] Group N5: what the Editor agent learned. Every source read in full.
+[N5] SRC legend (all under `C:\Users\repzy\Desktop\My Second brain\07-Agents\`):
+[N5] - MEMA = `video-editor/memory-2026-09-21-to-10-09.md` (full early entries)
+[N5] - MEM = `video-editor/memory.md` (digest + entries 2026-10-10 to 11-01)
+[N5] - LOG = `video-editor/log.md`
+[N5] - PROF = `video-editor/profile.md`
+[N5] - EB = `editor-builder/profile.md` (no memory.md or log.md exists for editor-builder)
+[N5] - EW = `editor-worker/profile.md`; EWM = `editor-worker/memory.md`; EWL = `editor-worker/log.md`
+[N5] - RULE: Keep delivered-projects (one row per video, appended the day it's delivered) for finance | KIND: ruled | DATE: 2026-09-22 | VIDEO: all | SRC: PROF (belongs in E1)
+[T1] Source: chunk1.md (Samuel's own chat messages, 2026-09-20 to 2026-10-04). SRC = chunk1 timestamp + session id. Non-editing messages (money, webinar, landing page, Scripnals, PA) skipped.
+[T1] Job names used: **AI-tools** = Route Rise "I tried 100 plus AI tools" (Clay, Railway, Claude, Wispr Flow; Sep 2026). **Apollo** = Route Rise/Alex "I cancelled Apollo.io and built this Claude skill instead" (Oct 2026). **Ep3** = Samuel Signals personal-brand episode 3 (not Route Rise).
+[T1] - RULE (X -> personal brand scripting): In his own scripts, colour every B-roll line blue to separate it from spoken script | KIND: ruled | DATE: 2026-09-24 | VIDEO: Ep3 | QUOTE: "Every B-roll should differentiate itself from the script by being colored in Blue" | SRC: chunk1 2026-09-24T08:02 4dafdf63
+[T1] - RULE (X -> personal brand A1): Personal-brand footage lives in `C:\Users\repzy\Desktop\Video edits\My videos\Instagram Samuel Signals`; sort by subject (girlfriend folder; mic-to-camera clips = voice-overs, keep in their own folder) | KIND: ruled | DATE: 2026-09-24 | VIDEO: Ep3 | SRC: chunk1 2026-09-24T08:14, 08:32 cec84ced
+[T1] - RULE (X -> personal brand C9): For his own episodes use as many B-rolls as possible, including older archive shots, mixing angles | KIND: ruled | DATE: 2026-09-24 | VIDEO: Ep3 | SRC: chunk1 2026-09-24T15:26 a4480ddd
+[T2] Source: chunk2.md, Samuel's own chat messages 2026-10-04 to 2026-10-18. SRC = chunk2 + timestamp + session id. Note: 2026-10-08T18:38 df3b2b51 is a handoff prompt Claude drafted at Samuel's request (2026-10-08T18:23) and Samuel pasted and sent; its lines are marked "(sent prompt)".
+[T2] - RULE: (C3/K2 check) The six-post design asks for rounded corners; if the LinkedIn video's end client is Alex/Frontal this clashes with the square-box rule — confirm the end client | KIND: inferred | DATE: 2026-10-15 | VIDEO: LinkedIn | SRC: chunk2 2026-10-15T21:38 6a1b49f7
+[T3] Source: chunk3.md (Samuel's own chat messages to Claude, 2026-10-19 to 2026-10-22). SRC format: chunk timestamp + session id.
+[T3] Skipped as out of scope: webinar teaching voice notes (except the parts where he describes how he edits client videos), loan/laptop/money messages, Called to Edit brand guide, announcement script, Canva whiteboard, PDF book and workbook.
+[T3] Note: 2026-10-22T07:14 6fb2401b is a session brief written by an agent, not Samuel. Only the one quoted line there is his. Everything else taken from it is marked `inferred` or `method` / `failed-method`.
+[T3] - RULE (should go to F1/E1, file formats): Don't deliver documents as Claude Artifacts. He can't download them. Use PDF | KIND: scolded | DATE: 2026-10-21 | VIDEO: n/a (webinar book) | QUOTE: "Stop using Artifacts, I can't download it, use PDF instead" | SRC: 2026-10-21T17:37 e1372b82
+[T3] - RULE (should go to C9, own-brand only): AI cinematic clips of Samuel made in Google Flow (OMNI) must look exactly like him and not look AI, with nothing in the room changed | KIND: ruled | DATE: 2026-10-21 | VIDEO: Called to Edit announcement (own brand, not Route Rise) | QUOTE: "it most look exactly like me and not look like AI videos nothing in the room should change" | SRC: 2026-10-21T17:55 9d5fa831
+[T4] Source: chunk4.md, Samuel's own chat messages 2026-10-22 to 2026-11-03. SRC = chunk timestamp + session id. Lines from agent-written briefs inside the chunk (session "Background"/"Task" blocks, watchdog task) are marked as such; they are not Samuel's words.
+[T4] - RULE (X -> E1/D1, non-Route Rise): Discord how-to demo video for the community: one-to-one replica of the community, mobile-first, voice-over, simple; remove mistakes and repetitions; add a little background music; embed the video directly in WhatsApp/Discord, not as a link. | KIND: ruled | DATE: 2026-10-31 | VIDEO: Discord demo (Called to Edit) | QUOTE: "You left in some mistakes and some repititions, please sort that out quickly and add little background music" | SRC: 2026-10-31T08:54, 12:39, 13:49 ed413858

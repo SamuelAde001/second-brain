@@ -48,3 +48,8 @@ Back to [[03-Areas/video-editing/video-editing|Video editing]]
 - **Order now:** Samuel's corrections and markers overrule everything. Below them: 1. the creative director standard, 2. the older house notes, 3. the client's brand kit, more subtle but present throughout.
 - **What it means for Alex:** Frontal sets the fonts, colours and square boxes because Samuel ruled that himself on 2026-10-22, not because the kit ranks high. Where the Frontal kit and the standard disagree on anything else (glow, red keywords, motion, density), the standard wins.
 - **Who:** Samuel.
+
+## 2026-11-03 — The editing rulebook governs every Route Rise edit
+- **Decision:** one rulebook, `03-Areas/video-editing/rulebook/`, governs every Route Rise edit (Alex, Gamma, any new client) and is the agents' number-one rule. Only Samuel's live corrections and markers overrule it. Between clients only fonts, colours and (for Alex) square boxes change; those live in the client overlays K2, K3. Samuel approves it section by section; draft sections lean on the older notes where they are silent.
+- **Samuel:** *"I want to build the ultimate editing rule book, this rule book will govern every edit from Routerise"* · *"This rule book would be your number one rule, unless I tell you not to"*.
+- **Who:** Samuel.

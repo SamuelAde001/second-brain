@@ -1,0 +1,42 @@
+[J] (4 opened: the REJECTED plan v1 sheet, ref_gamma _sheet, EN-04 final crosscheck, SHEET_LI_A. Others by file/folder name.)
+[J] Base `R` = `C:\Users\repzy\Desktop\Video edits\Routerise\`
+[J] 1. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Visual plan v2 (Editor)\reference\REJECTED plan v1 frames 1.jpg` | C1/C4/K2 | 8 plan v1 frames: $1M text over grey page, text at top of captures, Alex cut out in front of ledger (HK-08), "Proof." behind his head (P1-03), 3,000 field | rejected (2026-10-21) [opened]
+[J] 2. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Visual plan v2 (Editor)\reference\REJECTED plan v1 frames 2.jpg` | C1/C4 | rest of the rejected plan v1 frames | rejected
+[J] 3. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Frontal brand study (Editor)\review_sheet_1.png` | C1/K2 | Frontal brand-study frames he liked | approved ("I liked the brand guide examples")
+[J] 4. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Frontal brand study (Editor)\review_sheet_2.png` | C1/K2 | same set, sheet 2 | approved
+[J] 5. `R\3. Claude + Gamma App MCP Will Make You Rich\Graphics\Gamma kit (Editor)\kits\ref_gamma\_sheet.jpg` | K3/C3 | his own Gamma comps rendered: glossy navy glass pills, circle bubbles, lower pills, roadmap, sky accents | approved-final (his edit) [opened]
+[J] 6. `R\3. Claude + Gamma App MCP Will Make You Rich\Docs\Gamma style study (Editor)\finished sheets\` (sheet_NN.jpg) | K3/C16 | frames every 3 s of his finished Gamma video | approved-final
+[J] 7. `R\3. Claude + Gamma App MCP Will Make You Rich\Graphics\Gamma kit (Editor)\kits\hero_v3\CARD_OUTLINE.png` | K3 | v3 Frontal-shaped box for Gamma | rejected (2026-10-31 21:10)
+[J] 8. `R\3. Claude + Gamma App MCP Will Make You Rich\Graphics\Gamma kit (Editor)\kits\hero_v4\CARD_OUTLINE.png` | K3 | v4 rounded restyle of the same construct | unknown (after rejection)
+[J] 9. `R\4. The Cold Email Goldrush Is back (Don't miss it)\Docs\Visual plan v1 (Editor)\frames\EN-04 redesign\final\EN-04_final_crosscheck (top final, bottom his B2B 10-80-10, his 8 of 10, rejected).jpg` | C3/C10/K2 | final 10-80-10 bar vs his B2B 10-80-10 bar and 8-of-10 deals (orange) vs rejected three-box row | mixed: his B2B approved-final, rejected EN-04 v1 [opened]
+[J] 10. `R\4. The Cold Email Goldrush Is back (Don't miss it)\Docs\Visual plan v1 (Editor)\frames\EN-04 redesign\rejected v1\EN-04.png` | C3 | row of labelled boxes with icons + arrows | rejected (2026-10-26)
+[J] 11. `R\4. The Cold Email Goldrush Is back (Don't miss it)\Docs\Night run 2026-10-28 (Editor)\bible\02 sheets\SHEET_LI_A.jpg` | C2/C3 | LinkedIn MG beats: twin cards FLOPS -> TAKES OFF, offer grid building one part at a time | approved-final (LinkedIn bar) [opened]
+[J] 12. `R\4. The Cold Email Goldrush Is back (Don't miss it)\Docs\Night run 2026-10-28 (Editor)\bible\02 sheets\SHEET_V2_A.jpg` | C1/C3 | video 2 v7 MG beats read as flat / "AI-edited" | rejected style (per BIB02)
+[J] 13. `R\4. The Cold Email Goldrush Is back (Don't miss it)\Docs\Night run 2026-10-28 (Editor)\bible\01 sheets\li_sheet1.jpg` | C8 | LinkedIn screen recordings: framing, lighting, highlight | approved ("those screen recordings were good")
+[J] 14. `R\4. The Cold Email Goldrush Is back (Don't miss it)\Docs\Night run 2026-10-28 (Editor)\bible\01 sheets\v2_sheet1.jpg` | C8 | video 2 page framing faults (too deep / 1:1) | rejected (per BIB01)
+[J] 15. `R\Visual Assets\Samuel templates (Editor)\finals stills\apollo\sheet_00.jpg` | C15/C16 | stills of his Apollo final | approved-final
+[J] 16. `R\Visual Assets\Samuel templates (Editor)\finals stills\ai4\sheet_00.jpg` | C16 | stills of his 4 AI Tools final | approved-final
+[J] 17. `R\Visual Assets\Samuel templates (Editor)\finals stills\tsb\sheet_00.jpg` | C16 | stills of his TSB final | approved-final
+[J] 18. `R\1. The Most Valuable AI B2B Marketing Training You’ll Ever Watch\Docs\Samuel own changes study (2026-10-13)\stills\AB_00076_before_A.jpg` | B5 | Editor's static hook card | rejected (Samuel changed it)
+[J] 19. `R\1. The Most Valuable AI B2B Marketing Training You’ll Ever Watch\Docs\Samuel own changes study (2026-10-13)\stills\AB_00076_after_B.jpg` | B5 | Samuel's push on whole composite (x1.11) | approved-final
+[J] 20. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Revision 3 (Editor)\reference\1-in-this-video-list\_sheet-7M-and-TSB.jpg` | C13 | his "In this video" list device in $7M Founder and TSB | approved-final
+[J] 21. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Revision 3 (Editor)\reference\1-in-this-video-list\_sheet-ai4.jpg` | C13 | same device in 4 AI Tools | approved-final
+[J] 22. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Revision 3 (Editor)\reference\2-coming-up\_sheet-coming-up.jpg` | C13 | "Coming up" preview reference | approved-final
+[J] 23. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Revision 3 (Editor)\reference\3-motion-targets\samuel-own-push-study-B2B\AB_00060_after_B.jpg` | B5 | his hook push start | approved-final
+[J] 24. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Revision 5 CD corrections (Editor)\review v7\v7b_sheet.jpg` | E2/C6 | v7b after CD fixes (14 fixed cuts) | sent for approval, verdict open
+[J] 25. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Visual plan v1 (Editor)\frames\HK-06.png` | C4/C8 | labels at top of two captures | rejected (2026-10-21)
+[J] 26. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Visual plan v1 (Editor)\frames\HK-01.png` | C4 | $1M over grey page, text placement | rejected
+[J] 27. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Graphics\Frontal kit (Editor)\renders\library\review\D_motion_graphics.jpg` | K2/C3 | Frontal template library MG last frames | unknown
+[J] 28. `R\Visual Assets\Visual Inspo\New styles\review_sheet_1.png` | C16/K2 | new-styles review sheet (same name as brand study) | likely approved (unverified)
+[J] 29. `R\3. The Most Valuable B2B LinkedIn Training You'll Ever Watch\Docs\Revision 2 (Editor)\marker stills\sheet5_01.jpg` | E2 | stills at his v5 markers | rejected (marked)
+[J] 30. `R\3. The Most Valuable B2B LinkedIn Training You'll Ever Watch\Graphics\Visuals v1\renders\v1\INST\intro_sheet_v1b.jpg` | C13 | v1 intro key frames | rejected (2026-10-14)
+[J] 31. `R\1. The Most Valuable AI B2B Marketing Training You’ll Ever Watch\Docs\Editor working files (2026-10-10)\marker stills\body_a.jpg` | E2 | stills at his B2B markers | rejected (marked)
+[J] 32. `R\4. The Cold Email Goldrush Is back (Don't miss it)\Docs\Visual plan v1 (Editor)\_heroes_sheet.jpg` | A6 | video 4 hero frames sent for his yes | mixed (EN-04 rejected)
+[J] 33. `R\4. The Cold Email Goldrush Is back (Don't miss it)\Docs\Visual plan v1 (Editor)\demo pilot\pilot_hunter_home_sheet.jpg` | C8 | demo recorder pilot framing | method (zoom 1536 CSS)
+[J] 34. `R\4. The Cold Email Goldrush Is back (Don't miss it)\Graphics\Frontal kit (Editor)\renders\proof\s5 lab test 2026-10-29 (Editor)\S5_sheet.jpg` | B2 | media adj clip NeoAnim + vignette + MagicZoom proof | method (passed)
+[J] 35. `R\4. The Cold Email Goldrush Is back (Don't miss it)\Renders\v3 1080p (Editor)\check frames (Editor)\chunk0\sheet_IN.jpg` | C13 | v3 intro incl. his IN-07 marker redesign | sent, verdict open
+[J] 36. `R\4. The Cold Email Goldrush Is back (Don't miss it)\B-roll\_flow (Editor)\sheets\FLOW-HK-01_t1_1080p_sheet.jpg` | C9 | Google Flow B-roll take | unknown (Samuel disabled some hook B-roll clips)
+[J] 37. `R\3. Claude + Gamma App MCP Will Make You Rich\Screen recordings\U01 claude\U01_t1_v2_sheet.jpg` | C8/K3 | Claude UI rebuild plate (Casey stand-in) | passed review; Samuel later called plates static
+[J] 38. `R\2. I Gave Claude 10,000 SaaS Companies... Here's What I Found\Docs\Creative director breakdowns (Editor)\work\06-matt-1\sheet0.jpg` | C16 | CD breakdown reference frames | reference
+[J] 39. `R\1. The Most Valuable AI B2B Marketing Training You’ll Ever Watch\Docs\Editor working files (2026-10-08)\his_finals stills\apollo\sheet_01.jpg` | C3 | Apollo final MG/UI stills (orange BGORANGE style) | approved-final
+[J] 40. `R\4. The Cold Email Goldrush Is back (Don't miss it)\Docs\Night run 2026-10-28 (Editor)\bible\02 sheets\SHEET_LI_B.jpg` | C3 | more LinkedIn MG beats (pills, metrics) | approved-final

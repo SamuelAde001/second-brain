@@ -1,0 +1,135 @@
+[J] 1. **Shines.** M-R3 2026-10-24: "remove all Shines" / "I hate the shines" (~30 markers) vs M-R4 2026-10-25: "Add shines to them and light sweeps", "All boxes must have light sweep". Settled 2026-10-28 (BIB02): static NeoLightSweep on every box, animated shine rare, after landing, leaving the box. Later wins.
+[J] 2. **Box corners per client.** M-LI 2026-10-15 "boxes should look more like pills with better rounded corners" vs Alex/Frontal 2026-10-21/28 square + corner brackets vs Gamma 2026-10-31 rounder corners, never brackets. Client overlay (K2 vs K3), not a reversal of the agency rule.
+[J] 3. **Numbers.** M-R4 2026-10-25 "any main number mentioned must count in" vs CD 2026-10-26 "$1M money counter just do normal text": numbers inside a sentence are plain. CD is later.
+[J] 4. **Gamma font.** GBR (Samuel 2026-10-31) "The font is ES build" vs GST (helper, measured from his comps) Open Sans Bold for labels, ES Build for hero numbers. Samuel's words win until he says otherwise.
+[J] 5. **Zoom on screens / A-roll.** 4 AI Tools final (GRAM): no zoom keyframes on A-roll, no animated zoom moves on screen recordings; WoW 2026-09-27 "For his screen recording, don't zoom in, just highlight" vs 2026-10-28 S5 MagicZoom slow zoom on every screen recording and S4 nothing static. Later wins (drift always; no targeted zoom on Alex's own recordings).
+[J] 6. **Push depth.** OWN 2026-10-13 slow push 6-12 % over 2-4 s vs his 100 media MagicZooms at ~3 % per clip (BIB03). Reading: ~3 % on media, 7-11 % punches on A-roll.
+[J] 7. **Darkness.** LinkedIn 2026-10-15 "the screen is too dark" (video 4 page light raised to Gain 0.50, DEC4 #21) vs video 2 settled K2 outside-gain 0.16 after CD "lacking lighting tricks" (CDR4 §5). Both in force on different videos; on dark pages 0.16 goes black.
+[J] 8. **Red vs desaturate.** M-R3 2026-10-24 "thsi red is not needed, just disaturated instead" vs M-R4 2026-10-25 red coloration + red vignette + desaturation on negative moments. Later wins, red at the right timing.
+[J] 9. **Motion blur.** S2 2026-10-28 no motion blur vs Samuel's own intro adj clip (MotionBlur 1, Quality 10, Shutter 330). Kept as he made it.
+[J] 10. **Text behind Alex.** 2026-10-20 brief "putting text behind his back sometimes when needed" and LinkedIn MagicMask behind-Alex posts (2026-10-14) vs 2026-10-21 "don't put anything directly behind his back it's bad". Later wins (needs his yes).
+[J] 11. **Out animations.** M-R3 "animate out", "fade out" vs M-LI "Don;t animate out here" and B2B 10-10 "no fade-out on full-frame visuals into A-roll". Per beat; elements inside a visual exit, full-frame visuals hard-cut.
+[J] 12. **Highlighter stepping.** LinkedIn final stepped word by word / typed word by word vs 2026-10-24 "highlighted at once", "typing is character by character". Later wins.
+[J] 13. **Sound timing.** LinkedIn: sound only after his approval (2026-10-15) vs video 4: sound before his review (DEC4 #17, 2026-10-28).
+[J] 14. **Voice Isolation.** 44 on video 2 (Samuel's fix) vs 31 on video 4 (his own value): per video, keep his.
+[J] 15. **Lit-page gain within video 4.** DEC4 #21 Gain 0.50 vs CDR4 §5 K2 0.16 for video 4 plan (written 2026-10-26, settled from video 2). DEC4 (2026-10-28) is later.
+[N1] - Duplicate the timeline before editing (2026-09-18) vs work in place on one timeline (2026-10-10, later). Later wins.
+[N1] - Label node segments with an Underlay (≤2026-09-19) vs No Underlay on generated builds (2026-09-26, later); "each box group far apart" (2026-09-26) vs compact trees (2026-10-14, later).
+[N1] - NeoAnim MotionBlur 1 on every instance (7M reference) vs no motion blur, StartBlur kept (2026-10-28, later).
+[N1] - Shines: static NeoLightSweep on boxes (2026-09-26) → shines on every card (2026-10-03) → reduce shine (2026-10-15) → shines stay on every box (2026-10-22) → none by default, at most one leaving the box fully (2026-10-24) → static light sweep on every box, animated shine rare (2026-10-28, latest).
+[N1] - Boxes "more like pills with better rounded corners" (2026-10-15) vs square boxes with corner brackets for Alex (2026-10-21/22, later).
+[N1] - Season Serif Regular for chapter titles and big numbers (FB §11, 2026-10-22) vs all text in Inter (2026-10-24, later).
+[N1] - Red: negatives get red tint/vignette (2026-10-22) → green/red only where needed (2026-10-23) → desaturate, don't paint red (2026-10-24) → what failed turns red, stuck turns grey, no strike lines (2026-10-25, latest). CD standard wants negative keywords in red throughout.
+[N1] - UI zoom: on his screen recordings no zoom (2026-09-27) vs media adjustment clip with MagicZoom slow zoom-in over every screen recording (S5, 2026-10-28, later). Also UI zoomed in from first frame (2026-10-14) vs zoom out for context (2026-10-22) vs open slightly wider than the line and ease in (2026-10-24, latest).
+[N1] - Company named = show its real website and logo (finals, 2026-10-07) vs company introduced by logo and name, no website page behind it (2026-10-24, later).
+[N1] - Stat card with source line (CD05) vs no source line (Samuel's own fix, 2026-10-13). Samuel wins.
+[N1] - Money gets a ching SFX (CD02/CD06) vs no cash registers or money counters as SFX (2026-10-26, later, Samuel).
+[N1] - SFX on every animated item, varied (2026-10-16) vs back to the first videos' small palette, ~1/3 of reveals (2026-10-26, later). CDS Tension #9 still states the withdrawn 2026-10-16 rule as winning: CDS is out of date.
+[N1] - Lower thirds left of x ~700 (FT, 2026-10-20) vs lower thirds centred, never to the side (2026-10-22, later) and low in the bottom band (C6, 2026-10-26).
+[N1] - "Box main" caption bar on key statements (finals, 2026-10-07) vs captions over B-roll with no pill (2026-10-10), text over darkened footage no pill (2026-10-14), no boxes on screen text (2026-10-24).
+[N1] - Frontal diagrams: no curves, no arrowheads (FB §4) vs his curved connectors (2026-09-26) and arrows with heads allowed (2026-10-22). Samuel wins.
+[N1] - NeoTextMotion shine off in the Frontal kit (FT 2026-10-20) vs text keeps his NeoTextMotion shines (2026-10-22, later).
+[N1] - Intro is Samuel's, nothing before it ends (2026-09-25) vs the Editor builds intros (B2B 2026-10-08; LI, V2, V4 intros reviewed as Editor work).
+[N1] - AI B-roll: Claude supplies prompt + marker (2026-09-18) vs Editor generates in Flow in his browser (2026-09-27, later).
+[N1] - Approval gates: revise plan and get his yes on hero frames before any build (2026-10-21) and preview page for motion-graphic beats (2026-10-28 card) vs unattended runs with no gates (2026-10-13) and overnight no approval stops (2026-10-28). Both stand at the same date; unresolved.
+[N1] - Music: CD keeps a song ~1-2 min (CD04 20:03) vs RR guide "never a song over 90 s". Also "last video's music in its order" (2026-10-16) vs 2026-10-26 "go back to the first videos" (stated for SFX; music not addressed).
+[N1] - Background motion: nothing moving behind a pill (2026-09-30) vs CD "subtle background motion, little squares" (CD03 06:00) and "even the motion graphic area should slowly zoom in" (2026-10-28).
+[N1] - Animation speed: his four-box row in ~20 f, boxes ~8 f (2026-09-26) and "lists, logos and companies come in one by one, fast" (P1, 2026-10-25) vs entrances 16-22 f (2026-10-15), logos ~25 f (2026-10-10), slow and smooth beats fast (2026-10-24).
+[N1] - Landing tolerance: "±3 f" (RC Motion) vs "0-3 f after the word, never before" (P1, 2026-10-25, later and stricter).
+[N1] - Numbers: show the file's exact numbers when the VO rounds (cut sheets) vs every on-screen number is the number Alex says, checked on audio (C9, 2026-10-26, later).
+[N1] - 3D: perspective tilt and 3D in his comps (VV, 2026-09-25) vs "I don't like the rotation" on cards (2026-09-30, later); CD slight angle unruled.
+[N1] - Fades 3-12 f allowed on graphics (7M) vs no fade-out on full-frame visuals into A-roll, no fade-in on inserts (2026-10-10, later).
+[N1] - CD "every sentence a visual" vs Samuel's NONE rows and removals (2026-09-27, 2026-10-22). Samuel wins.
+[N1] - CD opaque boxes vs Samuel's glass. Resolved by inference only (glass blurred enough).
+[N1] - CD progressive unblur and blur teases vs P7 "blur only what must stay hidden; never blur made-up names" (2026-10-25).
+[N1] - Order of authority: first 2026-10-22 version (brand kit second) vs same-day correction (brand kit last).
+[N1] - Brand colour #00ACEA (memory export) vs #FF5A1F (Frontal July) vs Blue-300 (Frontal v2.3.1); owner of #00ACEA not stated.
+[N1] - CD05 note "treat square as unconfirmed for Alex" (breakdown's own reading, 2026-10-22) vs Samuel's square ruling (2026-10-22). Samuel wins.
+[N2] - MagicZoom depth: EG/edit-grammar.md (170 instances) reads Zoom&Hold depth 0.071, punches 0.111; EG/edit-grammar-tsb.md C2 reads AnimSize Scale 0.40 on 47 clips as a 1.0 → 1.4x push (flagged "check in Resolve"). The later, broader decode (edit-grammar.md, 2026-10-07/08) should win; verify one clip in Resolve.
+[N2] - Zoom on plain A-roll: TSB has MagicZoom on 77% of plain A-roll; AI4 has "no zoom keyframes on A-roll, nothing moves during plain A-roll"; APO has empty adj clips presumed MagicZoom. Per-video difference; later review card (2026-10-13/14, S4 2026-10-28) says never static, slow push everywhere.
+[N2] - Neo Anim for graphics: TSB house values InLength 25, offset 0.44 (pills 0.236); APO/shared S0.3 In 12-14 f, offset 0.10-0.12 pills; AI4 elements 14-16 f, offset 0.12. Review card (2026-10-15) says entrances 16-22 f.
+[N2] - Media entrance StartOffset: 0.021 (three finals, S0.1) vs 0.0435 (7M Recipe 5, fusion-node-system.md). Finals are later.
+[N2] - Motion blur: finals have it on (section slam MotionBlur Quality 10 / Shutter 330, MagicZoom motion blur, TSB Neo Anim motion blur on, results scroll); review card S2 (2026-10-28) "No motion blur" supersedes, StartBlur stays.
+[N2] - Glow on text: S0.4 "No glow on title text (F33)" and APO "NeoGlow never on text" vs TSB NeoTextMotion Glow 0.0378 / 0.1228 on giant titles, C14 Glow 0.12, AI4 C14 text glow 0.0378.
+[N2] - Overshoot: APO allows tiny pops 1.035-1.12 and a hover; lego2 roof overshoot + settle; SOP "pop for a medallion"; review card (2026-10-15) "Never a pop, overshoot, bounce" supersedes.
+[N2] - Out animations: TSB/AI4 "no out-animations on things that end on a cut"; APO MG elements carry Out 8-12 f finishing on the cut; S0.3 "Out finishes on the slot's last frame". B-roll never has an out in all three.
+[N2] - Down fade end colour: #1B0903 (S0.6, APO) vs #212121 (TSB C6).
+[N2] - Bevel: S0.3 NeoBevel on orbs and cards; SOP "Neo Bevel (optional)"; shared-rules correction 2026-10-22 keeps bevel for Alex; review card 2026-10-24 "Bevel off". Latest (review card) wins per Samuel's order.
+[N2] - Node layout wording: fusion-node-system §3 three-stage (rows → right-hand collector → bottom spine, MediaOut1 bottom-right) vs §8 "one horizontal Merge_Spine chain… MediaIn enters bottom-right" vs SOP (2026-10-02) main line at the bottom with each group joining once. Node name form `Type_Role_D##` (2026-09-20) vs `Type_Role` (SOP 2026-10-02). SOP is later and is the B04 v2 standard.
+[N2] - Text-size unit: Size × 1080 = text px (TSB) vs cap height ≈ Size × 850 (APO) vs Size ≈ 0.92 × css_px / 1080 (compiler). Different measures (em vs cap height); state which when converting.
+[N2] - BGORANGE as the only MG ground (2026-09-30) vs Frontal v2.3.1 Dark ground BGFRONTAL for Alex (2026-10-20).
+[N2] - Premium chain for Alex: withdrawn 2026-10-20 (shared-rules box, SOP box), restored 2026-10-22 ("does not mean that we are not going to put the shines"). SOP §2 box (no bevel, sweep, shine or drop shadow) is stale against 2026-10-22.
+[N2] - Screen recordings: AI4 static punch-ins, no animated zoom; APO UI demos zoom 1.0 → 1.18-1.45; review card 2026-10-24 "On his own screen recordings: highlight only, no zoom", S4 2026-10-28 slow steady movement in screen recordings.
+[N2] - Shine: finals put a moving shine on every pill/card; review card 2026-10-24 "no shines by default", then S1 2026-10-28 static NeoLightSweep on every box, animated shine rare.
+[N2] - AI B-roll: AI4 none; TSB 21 items. Not a rule conflict, a per-video choice.
+[N2] - MosaicBlur on logos in the hook (APO hub) vs Samuel 2026-10-07 "logos are now allowed, so leave it out".
+[N3] - Silence settings: −38.0/0/1/3 "for this client" (2026-09-14) vs per-video settings from the red preview, #3 = −33.4/0/3/2 (2026-09-25, later wins).
+[N3] - Sync: drift-line placement (2026-09-24) vs single constant offset Samuel checked as perfect (2026-09-25, later wins).
+[N3] - Ambiguous clips: colour Pink + marker (2026-09-25 SOP 2b) vs Samuel calling flags "clutter", decide instead (2026-09-25, later wins).
+[N3] - Intro: Samuel edits the intro himself (2026-09-20) vs unattended run builds it from his suggestions or as the Editor's own idea (2026-10-13, later). Not necessarily a reversal; the rulebook must say which applies when.
+[N3] - Study past videos: refer back to the last project / study the last delivered video first (2026-09-20, 2026-09-29) vs "Do not re-study past videos" in unattended runs (2026-10-13, later).
+[N3] - Page switches: "why do you keep going to the fusion page?" vs "You can switch pages, I am not stopping you from doing that" (both 2026-09-27; the later one wins, still say it).
+[N3] - Tokens: "not bothered about token usage" (2026-10-13) vs "efficiency is a hard rule" (2026-10-15) vs 20x order speed > quality > efficiency (2026-10-24, latest).
+[N3] - Helper pool: 3-5 agents (2026-10-15) vs up to 14 per workflow (2026-10-24, later).
+[N3] - Builder scope: 1-3 visuals (2026-10-13) vs "one section or 6-10 visuals per builder" (MR session size, 2026-10-12/13) vs 2-4 beats per worker (2026-10-28, latest).
+[N3] - Beat reviews: every review on Opus (2026-10-28) vs Sonnet checklist reviewer + Opus section pass (2026-10-30, later).
+[N3] - Session size: fresh session past 100k (2026-10-02) vs compaction at 500k (2026-10-13, later).
+[N3] - Adjustment-clip comps: can't be written by API (2026-10-03, 2026-10-07 morning) vs .drt round trip (2026-10-07 18:20) vs `ImportFusionComp` in place on an existing one (2026-10-10, latest).
+[N3] - Chunk audio: seam renders to join chunk audio (2026-10-10) vs never join chunk audio, one audio-only pass (2026-10-25, later). Also an audio-only WAV job crashed Resolve on 2026-10-10, but the 2026-10-25 method relies on an audio-only Deliver pass.
+[N3] - Chunk size: ~3,000-frame chunks (2026-10-10) vs 2010-frame chunks with restart (video 2 v7, 2026-10-25/28, later).
+[N3] - Killing processes: no `Stop-Process` on unattended nights (2026-10-13) vs kill Python children by command line (2026-10-25, attended context).
+[N3] - Transcription API: `Folder.TranscribeAudio()` started nothing, use the menu (2026-09-29) vs it worked (2026-09-24 295 clips; 2026-10-06 530 WAVs, slow status).
+[N3] - TDR: Samuel putting TDR back to default (2026-09-23) vs he chose 10 s (2026-09-24) vs read unset again (2026-10-24).
+[N3] - Last element landed: 36 f before cut (VPT lint C3) vs "≥1.5 s" (MR pipeline step 3) — 36 f = 1.5 s at 23.976, consistent.
+[N4] - B2: overlays on transparent base clips with a MediaIn reading the layers below (Apollo, 2026-10-02; B2B v1-v3) vs adjustment clips for every comp (Samuel, 2026-10-07: "Use Adjusment clips instead of what you used"; repeated 2026-10-14 "always use Adjustment clips"). LATER WINS: adjustment clips.
+[N4] - C3/K1: Alex's production note "no client names or logos on screen" (B2B script, 2026-10-06) vs Samuel "Show the company logos. I have settled it with him." (2026-10-07). LATER WINS: logos shown; 2026-10-20 "All frontal clients are cleared to show by logo".
+[N4] - D1/K1: Alex's note "no music under the voice" (2026-10-06) vs house style music per section. Resolved by method, not by Samuel's word: music on its own track (A2) so it mutes in one click; every later video shipped with music.
+[N4] - C7/K2: Frontal rebrand reading (2026-10-20): no bevel, sweep, shine or border glow vs 2026-10-22 (41 markers, "like AI did it"): that reading was wrong, premium chain stays vs 2026-10-23 "Neo Bevel off everywhere" vs 2026-10-24 "shines put in wrongly all through" -> shines off by script vs 2026-10-28 static NeoLightSweep on every box, animated shine only when necessary. LATEST: static sheen on every box, bevel off, animated shine rare.
+[N4] - B5: "Zoom out all linkedin posts" (2026-10-15, M036) vs 2026-10-24 "I didn't mean zoom out to the whole page ... just don't be too close to the exact sentence, just a little bit, and gradually zoom in" vs 2026-10-26 Cold Email "not too zoomed in, but also not too zoomed out". LATEST: slightly back from the sentence, gradual zoom in.
+[N4] - D2: LinkedIn sound (2026-10-16): one SFX for every element that animates in (604 hits, 132 files) vs 2026-10-26 Samuel: sound = the first videos' palette and density (#3: 122 SFX / 9.9 min / 9 files). LATEST: #3 density. (Cold Email 2026-10-29 shipped 72 SFX.)
+[N4] - C6: Samuel's rev 3 marker at 8032 "dark shade not needful" (2026-10-24) vs the creative director's 2026-10-26 Frame.io notes asking for lighting and darker text over footage. The Editor followed the CD (newer) and flagged it; Samuel's order of authority (2026-10-22) puts his own markers above the CD: unresolved.
+[N4] - F5: every job step scheduled as TickTick blocks (Apollo, B2B, LinkedIn, 2026-09-29) vs "don't schedule ... it becomes noise" (2026-10-18). LATER WINS.
+[N4] - A6/C13: "the intro is Samuel's" (#3 2026-09-25; B2B plan 2026-10-07) vs the Editor builds the intro (B2B 2026-10-08 for that job; LinkedIn 2026-10-12 "You will do the intro"; Cold Email 2026-10-28 with his intro adj clip). LATEST practice: the Editor builds it, from his suggested visuals / intro adj clip.
+[N4] - C9: house rule "B-roll from YouTube/TikTok only" (2026-09-24) vs AI Flow B-roll used (Apollo 2026-10-03, B2B) and 2026-10-20 "even AI B-roll is fine"; stock only from stock websites. LATER WINS.
+[N4] - C4/K2: Frontal working default Season Serif for statements + Inter for captions (2026-10-20, not confirmed by Samuel) vs rev 3 fix pass (2026-10-24) "fonts: Inter", "0 Season Serif / Extra Bold left in the list". LATER: Inter, Bold.
+[N4] - C2: plan entrance 16-25 f (B2B), Editor's rebrand recommendation 10-14 f (rejected by Samuel 2026-10-20: keep current motion), then entrances raised to 16-18 f (Samuel 2026-10-15 rule) and list-return changes 18 f.
+[N4] - A6: storyboard/hero-frame gate before building (2026-10-08, 2026-10-21) vs "No storyboard gate tonight" (2026-10-08 overnight) and Cold Email night run "No approval stops overnight" (2026-10-28). Gate is the default; Samuel lifts it per run.
+[N4] - F3: lean plan with a 92% stop (2026-10-12) vs "not bothered about token usage as long as you give me the best results" (2026-10-13) vs "efficiency is a hard rule you must follow" (2026-10-15) vs "no weekly cap, be efficient" (2026-10-23) vs "keep credits for other work" (2026-11-01). Constant: quality first, waste (re-study, long sessions, too many parallel agents) forbidden.
+[N4] - E1: loudness: Cold Email mastered to -16 LUFS (2026-10-29) vs 10000 SaaS final at -22.2 LUFS with the target "to confirm with Samuel" (2026-10-25). No Samuel word found.
+[N4] - A3: Ripple Delete Silence dialog at -33.4 dB (Samuel's #3 settings) vs scripted silence cut at -40 dB on Gamma (25 fps everywhere, Editor's method 2026-10-30). Not a Samuel ruling.
+[N4] - E1: B2B final 1080p H.264 "never ProRes, never the render cache" (2026-10-10) vs his 4K H.265 master preset for later finals (2026-10-13 onward). Both: 1080p for review, 4K H.265 master when he asks.
+[N5] - Drift: MEMA 2026-09-24 says ~129 ppm drift is real; LOG 2026-09-25 (later) found the drift model wrong and the constant offset correct.
+[N5] - Rebuild by script: MEMA 2026-09-25 "never rebuild a cut clip by clip"; MEM 2026-10-30 (later) says it's exact when every rate matches.
+[N5] - Unsure takes: LOG 2026-09-25 "keep both and colour"; MEMA 2026-09-25 (later, Samuel's verdict) "decide, don't flag". PROF still says ask him on genuine judgement calls.
+[N5] - Duplicate first (PROF) vs in-place revision on a cached timeline (MEM 2026-10-10, later).
+[N5] - Screen recording zoom: LOG 2026-09-27 "don't zoom in, just highlight"; MEM 2026-11-01 (later, Gamma) media adj clip includes a slow MagicZoom.
+[N5] - Shadows: MEMA 2026-09-25 build depth with DropShadow; MEMA 2026-09-26 no box drop shadows; Frontal 2026-10-20 no shadows on cards.
+[N5] - Shines: 2026-10-03 "one moving shine"; 2026-10-24 (later) moving shines switched off.
+[N5] - Numbers: MEMA 2026-10-06 on-screen card follows the script; MEM 2026-10-20 (later) show Alex's number.
+[N5] - Codec: MEM 2026-10-10 H.264; LOG 2026-10-13/16/29 (later) 4K H.265 preset when he asks for 4K.
+[N5] - Fan-out: MEM 2026-10-15 pool 3-5; PROF 2026-10-24 (later) up to 14 helpers per workflow.
+[N5] - PROF "visuals always editable Fusion nodes, never flat HTML render" vs UI demos rendered from HTML (2026-09-25 onward, approved).
+[T1] - C8 windowed vs full-screen UI: 2026-09-27 11:27 full screen only; 18:15 he asked for four windowed UIs in screen quadrants; 18:45 reverted to full screen (later wins). But B05 (21:15) wants the "clean record" as an actual window UI inside a motion graphic: windowed UI allowed only as an element inside a motion graphic.
+[T1] - A6/B2 previews: 2026-09-25 visuals as rendered videos on timeline for approval -> 2026-09-27 non-UI visuals only as Fusion nodes, approval via images (later wins).
+[T1] - B5 zoom: 2026-09-27 11:27 "Accurate visuals, with zooms and focus" vs 13:24 "For his screen recording, don't zoom in, just highlight". Resolved as: no zoom on his client screen recordings; smooth, not-too-close cursor-following zoom inside Claude-built UI demos (2026-10-02), never fast (2026-10-03).
+[T1] - C5 grey: 2026-09-30 08:09 "sometimes grey" as a colour vs 09:54 P07 "not this grey background" (consistent background). Grey allowed as an element tone, not as a changed background.
+[T1] - C3 lines: 2026-09-26/27 use dashed/dotted line macro -> 2026-10-02 changed to arrow, 2026-10-03 "Don't use Dashed lines too much" (later narrows).
+[T1] - C2 animation: standing rule "Neo Anim in and out" vs 2026-10-01 "Don't animate them in, I don't want any animation" for one pill set (situational request).
+[T1] - C3 pills: 2026-09-27 many pill requests vs 2026-10-02 pills for nouns/lists only, never actions (later narrows).
+[T2] - Token stance: 2026-10-13T07:55 "not bothered about token usage as long as you give me the best results" vs 2026-10-15T07:19 "efficiency is a hard rule" (later, after the overnight agent burn). Later rule governs: highest quality AND efficiency.
+[T2] - Agent fan-out: 2026-10-08 sent prompt (fan-out with adversarial verification, 3-5 builders, praised) vs 2026-10-15 scolding for too many agents / dying agents. Later: only needed agents, each for a planned task.
+[T2] - Study: 2026-10-06/07 study the last three timelines in full vs 2026-10-08 and 2026-10-12 don't re-study, use grammar/templates. Later governs for every video after AI B2B.
+[T2] - Timeline: 2026-10-10 "work on one timeline instead of duplicating" vs 2026-10-15 a new timeline is fine if it's faster, as long as the whole timeline is cached at the end; 2026-10-08 prompt installed each round as a new named timeline. Later: either, cache preserved/redone.
+[T2] - Compact threshold: earlier 200k setting replaced by 500k on 2026-10-13.
+[T2] - Rounded corners on the six-post grid (2026-10-15) vs brief's Alex square-box rule: unresolved, end client of the LinkedIn video not stated in this chunk.
+[T3] - Text behind the speaker: 2026-10-20T20:50 "putting text behind his back sometimes when needed" vs 2026-10-21T05:59 "don't put anything directly behind his back it's bad". The later rule wins (marked superseded in C4).
+[T3] - Glow: Samuel 2026-10-22T14:42 "I add glow" (standard in his visuals) vs the agent's kit summary 2026-10-22T07:14 "no glow on logos" (Frontal kit). Probably not a real conflict (glow on boxes/visuals is OK, the logo itself gets no glow), but the rulebook should state the boundary.
+[T3] - Agent concurrency: brief 2026-10-22T07:14 "global pool of 3" vs Samuel 2026-10-22T14:42 "5 to 6 agents at a time... at most 7". Samuel's later word wins.
+[T3] - Token budget per run changed three times in three days (81 to 95% weekly; ~4-5 points / stop at 19%; max 70% weekly for the whole video). These are per-session budgets, not one standing number.
+[T3] - Box shine/brand: the brand book (per agent summary, "no shadows except glass") might be read as banning shine. Samuel 2026-10-22 says shines and light sweeps stay. His word overrules.
+[T4] - Gamma reference priority. 2026-10-31T14:18: "the exact styles that we used in Alex's video ... the LinkedIn video". 2026-11-01T21:59 (later) says both "the best refrence example is Alex linkedin video" AND "The alex video of linkedin is just a side refrence", with the Gamma edit "Claude just changed freelancing forever" as the one-to-one reference. Later reading: Gamma's own past edit leads, LinkedIn is the side reference. Samuel should confirm.
+[T4] - Gamma scope. 2026-10-30: screen visuals only, no MG. 2026-10-31 (later): full work with MG. Superseded.
+[T4] - Tokens. 2026-10-25T15:30: "Don't worry, I don't care about tokens right now" (deadline). Every other message, before and after: don't waste tokens. Deadline exception only.
+[T4] - Cross-checking. 2026-10-27T06:42: "don't crosscheck anything ... just watch the render". Every other time: always cross-check. Exception for render-only requests when tokens are out.
+[T4] - Shines. 2026-10-22 brief: shines stay for Alex. 2026-10-24: shines everywhere is wrong. 2026-10-31: shines only on major occasions, light sweep always. Later is a refinement, not a reversal.
+[T4] - Helper limits. 2026-10-24T16:02 Samuel pushed back on a 4-minute helper limit and self-checking builders. The current editor-builder profile keeps "check every 4 minutes" as a polling interval, not a run limit. Worth confirming that matches what he meant.

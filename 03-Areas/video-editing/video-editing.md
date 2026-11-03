@@ -11,6 +11,7 @@ tags: []
 
 ## What this is
 
+- **[[03-Areas/video-editing/rulebook/rulebook|The editing rulebook]]**: the number-one rule for every Route Rise edit (Samuel, 2026-11-03). Front page, then only the sections a step needs. Drafted 2026-11-03, approved by Samuel section by section.
 - **[[03-Areas/video-editing/edit-grammar/edit-grammar|Edit grammar]]**: how Samuel shows a talking head, studied from his three finished timelines (2026-10-07): visual types, triggers, rhythm, his construct library with exact settings, MagicZoom decoded. Start every visual plan here; don't re-study his videos.
 
 The freelance client work. It is Samuel's full-time job and his income. It is also, in his own words, his biggest time bottleneck — the thing the rest of the system exists to buy time back from.
