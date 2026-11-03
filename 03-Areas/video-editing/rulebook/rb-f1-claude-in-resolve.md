@@ -19,7 +19,7 @@ section: F1
 - **F1.2** When Samuel is working in Resolve, it is his until he says done: no scripts, no screen control, no renders. Do all other work outside Resolve and batch the Resolve steps for his go. 🔁 4 times. *"Don't do anything in Davinci for now as I am working there"* (2026-10-26) · *"do anything needed to do outside of resolve and when you really do need to use resolve, ping me"* (2026-10-09)
 - **F1.3** Take a read-only snapshot of a timeline before he starts on it. The timeline he works on becomes his and is never rebuilt; the next build goes to a new version with his track carried over. ⚙️
 - **F1.4** Lock handover: when he does a manual step (e.g. Magic Mask tracking), take the Resolve lock, stop every queue, keeper and watchdog, and tell him when it's safe. Release only when he says done. ✅ *"Take the Resolve lock for me now and tell me when it's safe."* (2026-10-15)
-- **F1.5** Never switch his project without asking while he may be in Resolve. A shared step runs as one block: save his project, load the job, run, load his project back on his timeline, Edit page (`kits\inst\resolve_block.py`). ✅ (2026-10-09)
+- **F1.5** Switch his project without asking, unless he has said he is using Resolve; then wait (A1.7, A1.8). A shared step runs as one block: save his project, load the job, run, load his project back on his timeline, Edit page (`kits\inst\resolve_block.py`). ✅ (2026-10-09; asking dropped by A1.8, 2026-11-03)
 - **F1.6** Another session may be rendering. Read the other jobs' RUN STATE and RESUME notes; never queue, stop or switch projects while a render runs. ⚙️
 - **F1.7** You may start Resolve any time, and check its state yourself instead of asking him. ✅ *"Yes, you have full permission to always start resolve"* (2026-10-13) · *"Open resolve and check yourself"* (2026-10-10)
 
@@ -61,7 +61,7 @@ section: F1
 - (no picture yet: none needed; this section is about process)
 
 ## Questions for Samuel
-- **Q-F1.a** Screen control: on 2026-10-22 you said *"the only reason you would notify me for a permission is if you are doing screen ... and if you want to delete something"*. On 2026-10-24 the standing rule became "use every tool without asking, except deleting your things or keys". Does screen control still need a ping first? → Options: (1) no ping when you are away; ping only when you may be at the PC (2) always ping first. My pick: 1.
+- **Q-F1.a** Screen control: on 2026-10-22 you said *"the only reason you would notify me for a permission is if you are doing screen ... and if you want to delete something"*. On 2026-10-24 the standing rule became "use every tool without asking, except deleting your things or keys". Does screen control still need a ping first? (Your A1.8 on 2026-11-03, *"use everytool without asking"*, points to no ping.) → Options: (1) no ping when you are away; ping only when you may be at the PC (2) always ping first. My pick: 1.
 - **Q-F1.b** "Never touch his colour grade" (F1.30) comes from the Editor profile, not from your words. Keep it as a hard rule? → Options: (1) yes (2) only when you say so per job. My pick: 1.
 
 ## Sources

@@ -21,7 +21,7 @@ section: A2
 - **A2.4** Frame rate follows the client's footage and approved finals: 23.976 on Alex's shoots, 25 on Gamma's 25p shoots. Unclear: ask. 🎬 ⚙️
 - **A2.5** Use proxies on every 4K H.264 job (Half or Quarter, DNxHR LB, Prefer Proxies). Deliver uses the originals. ✅ *"Making the video a proxy solved a lot of the cap"* (2026-09-25)
 - **A2.6** Don't create a project while Resolve sits on the Deliver page of another project: it hangs. Save his project, go to the Project Manager, create, expect a restart (`restart_resolve.py`). 🔁 (2026-10-19, 2026-10-28) ⚙️
-- **A2.7** If the open project isn't this job's, ask before switching. Save his project as he left it and load it back after. ✅ (2026-10-08)
+- **A2.7** If the open project isn't this job's, switch without asking unless he has said he is using Resolve (A1.7, A1.8). Save his project as he left it and load it back after. ✅ (2026-10-08; asking dropped by A1.8, 2026-11-03)
 - **A2.8** Project library: new Route Rise jobs in `Routerise/`, delivered ones in `Routerise/Delivered/`, other clients in `Clients/<client>/`, personal brand in `Samuel Signals/`, `HighSignals/`, tests in `Tests & experiments/`, deletion candidates in `_Review to delete/`. Move projects only in the Project Manager GUI, never the open one. ✅ *"go through Davinci resolve project manager and help me sort everything properly"* (2026-10-14)
 
 ### Import

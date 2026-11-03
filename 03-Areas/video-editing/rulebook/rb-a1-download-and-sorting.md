@@ -15,14 +15,14 @@ section: A1
 
 ## Rules
 ### Start of a job
-- **A1.1** A job starts when a Route Rise card reaches READY TO EDIT in ClickUp. The Editor does phase 1 alone: download, sort, project, sync, cut, sections, transcript. Then stop and wait for Samuel's cut review. 🔁 (5 times: 2026-09-24, 10-12, 10-19, 10-26, 10-30) ✅ *"download the footage, cut it and as we normally do and wait till I revise the cuts"* (2026-10-30)
-- **A1.2** Get the script first, before anything else. ✅ (2026-09-20)
-- **A1.3** Document the job, plan it and schedule it to hit the deadline. Record the card in the job note: title, status, start and due dates, idea doc link, footage folder, camera file IDs. ✅ *"document it, plan it, schedule it, let's hit the deadline"* (2026-09-24)
-- **A1.4** The ClickUp card dates are the real deadline. The Notion idea doc's status and deadline fields go stale (one was a month old). Do the maths against Route Rise's 5-day cap, Sunday excluded: he doesn't work Sundays. 🏢 ⚙️
-- **A1.5** A due time after midnight (e.g. Sat 2:15am) means deliver the evening before, nothing after 10pm. 💡
-- **A1.6** Several jobs at once: run them in card-date order (start, then due), not the order he pastes links. Confirm "next" on the board before downloading; ask for the board view if a card is missing. Download and prep only the next job; plan and schedule the others, download them only when he asks. ✅ *"Don't download the other 2 so we don't take up space yet"* (2026-09-29)
-- **A1.7** If he is rendering or using Resolve, prep the folder and downloads but don't open Resolve. ✅ *"prep the folder don't use Davinci Yet, I am rendering a revision"* (2026-09-29)
-- **A1.8** Ask Samuel when the script doc refuses access, before switching his open Resolve project, and when the frame rate is unclear. ⚙️ (2026-10-30)
+- **A1.1** A job starts when a Route Rise card reaches READY TO EDIT in ClickUp. The Editor does phase 1 alone: download, sort, project, sync, cut, sections, transcript. Then stop and wait for Samuel's cut review. 🔁 (5 times: 2026-09-24, 10-12, 10-19, 10-26, 10-30) ✅ *"download the footage, cut it and as we normally do and wait till I revise the cuts"* (2026-10-30) · ✔ 2026-11-03
+- **A1.2** Get the script first, before anything else. ✅ (2026-09-20) · ✔ 2026-11-03
+- **A1.3** Document the job, plan it and schedule it to hit the deadline. Record the card in the job note: title, status, start and due dates, idea doc link, footage folder, camera file IDs. ✅ *"document it, plan it, schedule it, let's hit the deadline"* (2026-09-24) · ✔ 2026-11-03
+- **A1.4** The ClickUp card dates are the deadline. Plan against Route Rise's 5-day cap, Sundays not counted (he doesn't work Sundays). The Notion idea doc's dates go stale. Samuel may move a deadline himself when the job runs slow; his new date is then the deadline. ✅ *"clickup are the deadline, but I may sometimes move the deadline myself based on how slow things are"* · ✏ 2026-11-03
+- ~~**A1.5** A due time after midnight (e.g. Sat 2:15am) means deliver the evening before, nothing after 10pm. 💡~~ · ✖ 2026-11-03
+- **A1.6** Work on one job at a time, in ClickUp order (start date, then due date), not the order he pastes links. Confirm "next" on the board; ask for the board view if a card is missing. Download and prep only the job being worked on. ✅ *"we work on them in the order of clickup, and we work on one at a time"* · *"Don't download the other 2 so we don't take up space yet"* (2026-09-29) · ✏ 2026-11-03
+- **A1.7** Resolve is free to use unless Samuel says he is using it. When he says so, wait for him (do everything outside Resolve meanwhile); when he hasn't said so, go ahead. ✅ *"when you are working and I am using resolve, I would tell you I am using it and then you wait for me, but if I didn't tell you I am using resolve, go ahead and use resolve"* · ✏ 2026-11-03
+- **A1.8** Use every tool without asking: switching the open Resolve project, deciding an unclear frame rate from the files, getting at a script. When something truly can't be reached, work around it and tell him what is missing. ✅ *"use everytool without asking"* · ✏ 2026-11-03
 
 ### The job folder
 - **A1.9** One folder per card: `C:\Users\repzy\Desktop\Video edits\Routerise\<card title exactly>\` with `Client raws\`, `Screen recordings\`, `Docs\`, `Screenshots\`, `B-roll\`, `Music\`, `SFX\`, `Graphics\`. Add `Conformed audio\` when the mic is conformed (A2). ✅ *"create a new folder on routerise and sort it there"* (2026-09-24)
@@ -88,7 +88,7 @@ section: A1
 ## Questions for Samuel
 - **Q-A1.a** Raws clean-up (2026-10-31): "keep the last 3 videos" was said for one clean-up. → Options: (1) standing rule for every clean-up (2) one-off. My pick: (1).
 - **Q-A1.b** Folder name: the SOP says "card title exactly", but the job folders carry a number ("2. I Gave Claude…", and two different jobs are both "3."). → Options: (1) copy the card title as it is, number included (2) add our own running number per client. My pick: (1), with straight apostrophes (A1.10).
-- **Q-A1.c** A1.5 (deliver the evening before, nothing after 10pm) was inferred, never said by you. → Options: (1) keep (2) drop. My pick: (1).
+- **Q-A1.c** A1.5 (deliver the evening before, nothing after 10pm) was inferred, never said by you. → Options: (1) keep (2) drop. My pick: (1). → Samuel: drop (2026-11-03).
 
 ## Sources
 Replaces or draws on [[03-Areas/video-editing/sops/routerise-job-setup|Route Rise job setup]], [[03-Areas/video-editing/workflow|Workflow]], [[03-Areas/video-editing/troubleshooting|Troubleshooting]], [[03-Areas/video-editing/cut-sheets|Cut sheets]], [[03-Areas/video-editing/clients/routerise|Route Rise]], [[03-Areas/video-editing/ways-of-working|Ways of working]], [[07-Agents/video-editor/memory|Editor memory]] and the job notes.
