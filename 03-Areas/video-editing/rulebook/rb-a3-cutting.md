@@ -36,15 +36,16 @@ section: A3
 - **A3.15** Before deleting a noise clip, check no real word sits in it (word-timed transcript). Whisper's stock line "Um, so, uh, we start with the list" on a 7-13 f clip is noise. ⚙️ · ✔ 2026-11-03
 
 ### Retakes and mistakes
-- **A3.16** Decide, don't flag. Keep the last clean complete take, across clips and inside one clip. No colour flags or markers on the cut; colour a clip only when its content exists nowhere else. ✅ *"I removed most of your clutter"* (2026-09-25)
-- **A3.17** Picking the keeper is judgement: usually the last complete take, but read the whole cluster (a last attempt split by a long pause can lose to an earlier clean one). Write each call (which take, why) as a red note in the transcript for his cut review. ⚙️
-- **A3.18** Judge retakes from per-clip transcripts of the timeline after the silence pass (one WAV per clip). Never from a whole-file transcript or a subtitle track mapped by midpoint: they drop repeats and put words on the wrong clip. ✅ 🔁×2 (2026-09-25, 2026-10-06)
-- **A3.19** An empty transcript is not silence: transcribe each empty clip joined to the next and read what it adds. ⚙️
-- **A3.20** Retake inside one clip: find it by word times, cut at the lowest waveform point between the two takes. ⚙️
-- **A3.21** Check every restart for a second restart, and check whether a line you restored is a retake of a later clip. A retake cluster is a sentence on its own, not the first sentence plus its restarts. ✅ (2026-09-25)
-- **A3.22** A fragment the next clip continues (not repeats) is part of the kept sentence: keep it ("Inboxes are" + "full of"). ✅ 🎬 (his revision, 2026-10-26)
-- **A3.23** A misspeak said once with no other take: leave it (cutting it costs the sentence). ⚙️
-- **A3.24** Cut what Alex tells the editor to remove on camera ("remove this") and off-script chatter; note it in the transcript. Cut a leading "Okay," on lines. ⚙️
+- **A3.16** Decide, don't flag. Keep the last clean complete take, across clips and inside one clip. No colour flags or markers on the cut; colour a clip only when its content exists nowhere else. ✅ *"I removed most of your clutter"* (2026-09-25) · ✔ 2026-11-03
+- **A3.17** Picking the keeper is judgement: usually the last complete take, but read the whole cluster (a last attempt split by a long pause can lose to an earlier clean one). Write each call (which take, why) as a red note in the transcript for his cut review. ⚙️ · ✔ 2026-11-03
+- **A3.18** Judge retakes from per-clip transcripts of the timeline after the silence pass (one WAV per clip). Never from a whole-file transcript or a subtitle track mapped by midpoint: they drop repeats and put words on the wrong clip. ✅ 🔁×2 (2026-09-25, 2026-10-06) · ✔ 2026-11-03
+- **A3.19** An empty transcript is not silence: transcribe each empty clip joined to the next and read what it adds. ⚙️ · ✔ 2026-11-03
+- **A3.20** Retake inside one clip: find it by word times, cut at the lowest waveform point between the two takes. ⚙️ · ✔ 2026-11-03
+- **A3.21** Check every restart for a second restart, and check whether a line you restored is a retake of a later clip. A retake cluster is a sentence on its own, not the first sentence plus its restarts. ✅ (2026-09-25) · ✔ 2026-11-03
+- **A3.22** A fragment the next clip continues (not repeats) is part of the kept sentence: keep it ("Inboxes are" + "full of"). ✅ 🎬 (his revision, 2026-10-26) · ✔ 2026-11-03
+- **A3.23** A misspeak said once with no other take: leave it (cutting it costs the sentence). ⚙️ · ✔ 2026-11-03
+- **A3.24** Cut what Alex tells the editor to remove on camera ("remove this") and off-script chatter; note it in the transcript. Cut a leading "Okay," on lines. ⚙️ · ✔ 2026-11-03
+- **A3.50** A genuinely unsure take: decide, then ask him in chat to confirm, naming the timeline timecode (e.g. 04:12 in `Cut v6 (Editor)`), never a beat or clip number. ✅ *"when asking me for something ussure mentioned the time in the sequence not the beat, cause I can easiliy find things by time stamp not numbers or beat, but make sure you decide but ask me in chat"* (2026-11-03) · ✔ 2026-11-03
 
 ### Never lose a line
 - **A3.25** Never cut something meant to be in the video. Crosscheck the client's original script. The script's hook must be in the cut; Alex often records the opener several times at the very top. ✅ 🔁×2 *"never cut something that was meant to be in the video, crosscheck the clients original script"* (2026-09-25)
@@ -84,7 +85,7 @@ section: A3
 
 ## Questions for Samuel
 - **Q-A3.a** Silence method. You set Ripple Delete Silence in the dialog as the method and scolded scripted cuts (2026-09-25). On Gamma Ep. 12 screen control was refused, so the Editor cut silence by script at −40 dB (2026-10-30), and on 2026-10-31 you said the cuts were bad (not clear if silence, retakes or trims). → Options: (1) dialog always; (2) script allowed only when screen control is refused and every frame rate matches, then diff your revision. My pick: (1) by default, (2) as the fallback, and diff the Gamma revision to find what was bad. → Samuel: the dialog; ask him for screen control when needed; the script only if he asks (2026-11-03). A3.12 updated.
-- **Q-A3.b** Genuinely unsure takes. Your verdict: decide, flags are clutter (2026-09-25). The Editor profile still says ask you on a real judgement call. → Options: (1) always decide and note the call in the transcript; (2) decide, but ask in chat when the two takes carry different content (e.g. a different number). My pick: (2).
+- **Q-A3.b** Genuinely unsure takes. Your verdict: decide, flags are clutter (2026-09-25). The Editor profile still says ask you on a real judgement call. → Options: (1) always decide and note the call in the transcript; (2) decide, but ask in chat when the two takes carry different content (e.g. a different number). My pick: (2). → Samuel: (2), decide and ask in chat, and name the timeline time, not the beat (2026-11-03). New rule A3.50.
 - **Q-A3.c** The creative director wants a small natural gap now and then (2026-10-22); your own revisions tighten every pause (178 spots on LinkedIn, 2026-10-12). → Options: (1) tight everywhere; (2) tight, with the extra breath only at thought and section ends (A3.36). My pick: (2).
 
 ## Sources

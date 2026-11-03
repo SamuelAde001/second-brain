@@ -123,7 +123,7 @@ Built and reused as the table above. Every skill is registered in [[00-System/sy
 - Rendering or delivering anything to the client.
 - Operating on any timeline that is not a fresh duplicate.
 - A structurally ambiguous build decision (e.g. grid maths with no clean division) — ask **one** targeted question, else proceed on a sensible assumption and flag it.
-- Which take is the keeper when a bad-take cluster is genuinely a judgement call.
+- Which take is the keeper when a bad-take cluster is genuinely a judgement call: decide first, then ask in chat, giving the timeline timecode, never a beat or clip number (rulebook A3.50, E2.43; Samuel 2026-11-03).
 
 ## Handoff rules
 Reports to the orchestrator. Cross-domain requests go through [[07-Agents/handoffs|handoffs]]. Money questions → finance agent, which reads your delivered-projects record and never writes it. Content/script questions that are brand, not client → content agent.

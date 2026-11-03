@@ -27,6 +27,8 @@ section: E2
 - **E2.8** Write every new correction down the same session: one dated line on [[03-Areas/video-editing/samuel-review-card|Samuel's review card]] and the rule in its rulebook section. A rule that lives only in chat is lost. 🔁 ×3 ✅ *"take note of everything I said so if I say resume in another session, you won't do this rubbish again"* (2026-10-21)
 - **E2.9** The same fix needed twice means the rule did not land where the Editor reads it. Move it there. ⚙️
 
+- **E2.43** Whenever the Editor asks Samuel about, or reports on, a spot in the video, it names the timeline timecode (and the timeline), never only a beat id, clip number or marker number: he finds things by time. ✅ *"when asking me for something ussure mentioned the time in the sequence not the beat, cause I can easiliy find things by time stamp not numbers or beat, but make sure you decide but ask me in chat"* (2026-11-03) · ✔ 2026-11-03
+
 ### Reading his markers
 - **E2.10** His markers on version N are the brief for N+1. Implement every one, track each to done, and learn from them how he wants the work done. 🔁 ×3 ✅ *"look through the corrections I made and understand how you, I really want you to work"* (2026-10-22)
 - **E2.11** Read all markers first, in context, before planning: a point marker vs a range marker, the words at that moment and a still at each marker. Know which visual he means. Then plan, then fix. 🔁 ×2 ✅ *"Some I put a marker over a range. You have to understand what is that, what's the visual"* (2026-10-15)
