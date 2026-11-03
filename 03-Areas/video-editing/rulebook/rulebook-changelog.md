@@ -32,5 +32,9 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A1.46 · ✏ never delete what he made unless he says so; the Editor may delete its own files.
 - 2026-11-03 · A1.47 · ✖ dismissed (never use another episode's footage); new A1.53: another episode's footage may be used. *"You can use footage from another episode"*
 - 2026-11-03 · A1 · **section approved** rule by rule: 53 rules (42 ✔ including the new A1.53, 9 ✏, 2 ✖), 3 questions answered.
+- 2026-11-03 · A2.1 A2.2 A2.3 A2.6 · ✔ approved.
+- 2026-11-03 · A2.4 · ✏ never above 30 fps. *"never 60fps, nothing more than 30 fps"*
+- 2026-11-03 · A2.5 · ✏ proxies generated when needed on 4K, where possible.
+- 2026-11-03 · A2.7 · ✏ save his project first; no need to load it back. Knock-on wording in F1.5 (still for his review).
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
