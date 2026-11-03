@@ -55,7 +55,6 @@ section: F1
 - **F1.28** `DuplicateTimeline` on a heavy timeline through the MCP (blocked Resolve, memory 4.8 to 17 GB). ⚙️
 - **F1.29** Changing Windows or system settings (TdrDelay and the like): give him the commands, he runs them. ✅ *"This all started when I changed that setting in the powershell, I want to return it to normal"* (2026-09-25)
 - **F1.30** Touching his colour grade. 💡
-- Superseded: never switch pages (OpenPage) without telling him (2026-09-27, morning), replaced the same day by F1.10.
 
 ## Pictures
 - (no picture yet: none needed; this section is about process)

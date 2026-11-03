@@ -74,14 +74,6 @@ section: A6
 - **A6.49** Unattended runs he names (overnight, "all at once"): no approval stops. Build on defaults; save the hero stills, previews and every choice for his morning review; versioned timelines. Otherwise the gates above apply. ✅ 🔁×3 *"No storyboard gate tonight: build on your defaults and save the storyboard stills"* (2026-10-08; 10-13, 10-28). See Q-A6.a.
 - **A6.50** Planner helpers hold ~15-20 beats each; the hook gets its own planner. After planning run `plan_check.py`, `boundary_check.py`, `make_build_list.py`, `make_plan_docs.py` ([[03-Areas/video-editing/sops/video-pipeline-tools|video pipeline tools]]). ⚙️
 
-### Superseded (kept for the record)
-- **A6.51** ~~The intro is Samuel's; the Editor gives ideas only and leaves it empty~~ (2026-09-20, 2026-09-25) → A6.33 (2026-10-12/13).
-- **A6.52** ~~Approve each visual as a rendered HTML video on the timeline~~ (2026-09-25) → ~~still images of every visual~~ (2026-09-27) → ~~animated review page of every sentence~~ (2026-09-30) → preview gate for motion beats, A6.42 (2026-10-28). Hero frames stay stills (A6.38).
-- **A6.53** ~~Any motion graphic on a UI visual needs approval one by one~~ (2026-09-27) → no motion graphics on screen recordings at all, A6.17 (2026-11-01).
-- **A6.54** ~~Claude takes only the low-creative parts (web UI); Samuel keeps the motion design~~ (2026-09-27) → the Editor plans and builds every visual (from 2026-10-06).
-- **A6.55** ~~Study the last three timelines in full before each plan~~ (2026-09-25, 2026-10-06) → A6.5 (2026-10-08).
-- **A6.56** ~~A "build bible" stage before an overnight build~~ (2026-10-28) → A6.39 (2026-10-30).
-
 ## Never
 - **A6.57** Nothing on his timeline before the plan is revised and the hero frames have his yes. ❌ *"so better revise your visual plan before you put it on my timeline"* (2026-10-21)
 - **A6.58** No styles he has never used: bouncing animations, random text popping on screen, made-up constructs. ❌ *"the visuals all look AI, with bouncing animations and too much text"* (2026-11-01)

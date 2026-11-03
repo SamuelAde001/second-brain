@@ -51,7 +51,6 @@ section: C16
 - **C16.26** Inventing a style outside his references. ❌ *"you abandoned everything and created your own style"* (2026-11-01) → C1.15
 - **C16.27** A replica of a reference, or one client's look on another. ❌ (2026-10-31)
 - **C16.28** Re-studying already-studied finals from scratch at the start of each job. ❌ (2026-10-12)
-- *Superseded:* earlier reference picks ($7M Founder for 4 AI Tools, the TSB final, the first Alex video for Apollo, 2026-09-25 / 10-03; the AI B2B V2 execution as the model, 2026-10-13) are replaced for Alex by the LinkedIn Training final (2026-10-28). They stay construct sources (C16.2).
 
 ## Pictures
 - ![[_attachments/rulebook/c16-ai4-final-stills.jpg|360]] ✅ Stills from his 4 AI Tools final (construct source)

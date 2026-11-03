@@ -75,7 +75,6 @@ section: C1
 - **C1.48** One client's designs copied onto another. ❌ *"I told you to make better designs not copy frontals designs"* (2026-10-31) → C16
 - **C1.49** Old templates reused with only the text swapped. 💡
 - **C1.50** Placeholder logos, misaligned text, text outside its box. ❌ (2026-10-07)
-- *Superseded:* the orange-era "premium" look (RR3 hook, 2026-09-27) is replaced for Alex by the Frontal look (2026-10-20, K2). *"Make use of ... shines, bevel, glow"* (2026-10-03) is narrowed by 10-23, 10-24 and 10-28 (C7).
 
 ## Pictures
 - ![[_attachments/rulebook/c1-rejected-plan-v1.jpg|360]] ❌ Video 2 plan v1 frames he called cheap: text over a greyed page, text at the top of captures, words behind his head (2026-10-21)

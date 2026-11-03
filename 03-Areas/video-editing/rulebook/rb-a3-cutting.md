@@ -1,8 +1,8 @@
 ---
 type: sop
 area: video-editing
-status: draft
-approved:
+status: approved
+approved: 2026-11-03
 updated: 2026-11-03
 source: interview
 tags: [rulebook]
@@ -11,7 +11,7 @@ section: A3
 
 # A3 · Cutting
 
-> **Read when:** phase 1, the cut (after sync, before the transcript doc), and when diffing Samuel's cut revision. Editor and any cut helper. **Client values:** none (silence settings are set per video). **Status:** draft, not yet approved by Samuel.
+> **Read when:** phase 1, the cut (after sync, before the transcript doc), and when diffing Samuel's cut revision. Editor and any cut helper. **Client values:** none (silence settings are set per video). **Status:** approved by Samuel rule by rule, 2026-11-03.
 
 ## Rules
 ### Order and gates
@@ -67,18 +67,12 @@ section: A3
 - **A3.39** Screen demos: trim the 5-31 f pauses inside dictated prompts, but keep a 1.7-2.4 s silent hold after each prompt where the screen changes, so the viewer sees the result. ✅ 🎬 (2026-09-29) · ✔ 2026-11-03
 - **A3.40** A-roll shape in his finals: a jump cut about every 2-4 s (median ~2.4-2.8 s), held up to ~11 s when the point earns it; every clip at 100 % speed. Pacing detail: C15. 🎬 · ✔ 2026-11-03
 
-### Superseded (kept for the record)
-- **A3.41** ~~Fixed client settings −38.0 dB / 0 / 1 / 3~~ (2026-09-14) → per-video settings from the red preview, A3.10 (2026-09-25).
-- **A3.42** ~~If unsure which take is best, keep both and colour the uncertain one~~ (2026-09-25, said twice) and ~~Pink / Orange clips with markers for Samuel~~ → decide, no clutter, A3.16 (his verdict, same day).
-- **A3.43** ~~Tails ~2 f / `--tight` as is~~ (2026-10-12) → A3.36 (2026-10-26).
-- **A3.44** ~~On-screen cards follow the script number~~ (2026-10-06) → A3.29 (2026-10-26).
-
-## Never
-- **A3.45** Never cut from the transcript; never transcribe before the silence pass. ❌ *"never cut with the transcription"* (2026-09-24)
-- **A3.46** Never rebuild a cut clip by clip with a drift model, and never cut in a way that knocks picture out of sync. ❌ *"making the video go out of sync, you are over complicating things"* (2026-09-25)
-- **A3.47** Never hand over a cut with obvious noise, retakes or uhms left in. ❌ *"you made some stupid mistakes still, left in parts that where obvously noise"* (2026-09-25); again on Gamma ❌ *"I adjusted some of the cuts because the cuts were bad"* (2026-10-31)
-- **A3.48** Never lift a "filler" that is a real word, and never cut one word too far into a kept sentence. ❌ (2026-10-19, 2026-10-26)
-- **A3.49** No transitions on A-roll (cuts only) and no retiming. 🎬 🏢
+## Never (strict)
+- **A3.45** Never cut from the transcript; never transcribe before the silence pass. ❌ *"never cut with the transcription"* (2026-09-24) · ✔ 2026-11-03
+- **A3.46** Never rebuild a cut clip by clip with a drift model, and never cut in a way that knocks picture out of sync. ❌ *"making the video go out of sync, you are over complicating things"* (2026-09-25) · ✔ 2026-11-03
+- **A3.47** Never hand over a cut with obvious noise, retakes or uhms left in. ❌ *"you made some stupid mistakes still, left in parts that where obvously noise"* (2026-09-25); again on Gamma ❌ *"I adjusted some of the cuts because the cuts were bad"* (2026-10-31) · ✔ 2026-11-03
+- **A3.48** Never lift a "filler" that is a real word, and never cut one word too far into a kept sentence. ❌ (2026-10-19, 2026-10-26) · ✔ 2026-11-03
+- **A3.49** No transitions on A-roll (cuts only) and no retiming. 🎬 🏢 · ✔ 2026-11-03
 
 ## Pictures
 - (no picture yet: a before/after waveform still of one of his tail/head trims from the video 4 cut diff, and the Ripple Delete Silence red preview sitting only in gaps)

@@ -74,13 +74,6 @@ section: C4
 - **C4.44** Text pushed to the top of a frame where it doesn't belong. ✅ *"p3 o5 text up is bad there"* (2026-10-21) ❌
 - **C4.45** A red strike through text (C2.44). ✅ ❌
 
-### Superseded
-- ~~Text behind his back sometimes, as a creative device~~ (2026-10-20) → C4.43 (2026-10-21).
-- ~~Lower thirds left of x ~700~~ (2026-10-20) → C4.30 centred (2026-10-22).
-- ~~Numbers always carry unit and source~~ (agent plan, 2026-10-07) → C4.40.
-- ~~A money "ching" on counters~~ (CD) → no cash registers or money counters as SFX (Samuel, 2026-10-26). Detail: D2.
-- Older house fonts and type scales (Geist era, Season Serif for Alex) → client overlays.
-
 ## Pictures
 - ![[_attachments/rulebook/c4-number-on-grey-page.jpg|360]] ❌ $1M over a flat grey page, text placed badly (video 2, plan v1, rejected 2026-10-21)
 - ![[_attachments/rulebook/c4-labels-top-of-capture.jpg|360]] ❌ labels at the top of two captures (video 2, plan v1, rejected 2026-10-21)

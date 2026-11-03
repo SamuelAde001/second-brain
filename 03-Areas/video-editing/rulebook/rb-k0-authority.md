@@ -42,7 +42,7 @@ section: K0
 ### Folding in a new correction
 - **K0.16** Every new correction from Samuel goes into the rulebook **in the same session** it is given. Never "later". ✅ (2026-11-03)
 - **K0.17** Find the rule it touches by number. Rewrite that rule in place, keep its number, add his words (20 words max) and the date. Repeated corrections get 🔁 with the count. ⚙️
-- **K0.18** A reversal: strike the old rule (`~~K3.4 …~~ replaced by K3.21, 2026-11-05`) and add the new one at the next free number in the same subheading. Numbers never shift and never get reused. ⚙️
+- **K0.18** A reversal: the old rule leaves the rulebook for [[08-Archive/brain-build/rulebook-removed-rules|removed rules]] (word for word, dated) and the new one takes the next free number; numbers are never reused. ✅ *"The replaced rules should be replaced and removed from the rule book"* (2026-11-03)
 - **K0.19** A new rule goes at the next free number under the right subheading. If it fits two sections, put it in the section the step that would break it reads, and link it from the other. ⚙️
 - **K0.20** Brand values (font, hex, corner shape, logos) go only in that client's overlay. Every other section stays client-neutral and points to the overlay. ⚙️
 - **K0.21** A fix for one beat only stays in the job note. It becomes a rule when he says "always", "never" or "every", when he gives it a second time, or when it would apply to the next video. If unsure, ask. 💡

@@ -3,7 +3,7 @@
 A decided rule carries its mark at the end of its line (written by the Editor when Samuel answers):
   ✔ YYYY-MM-DD   approved as written
   ✏ YYYY-MM-DD   corrected (the line holds his new wording)
-  ✖ YYYY-MM-DD   dismissed (the old text is struck through, the number stays)
+  ✖ YYYY-MM-DD   dismissed (moved to 08-Archive/brain-build/rulebook-removed-rules.md and counted from there)
 Open questions are counted until they carry "→ Samuel:".
 
 Usage: python rb_status.py [--section A1] [--pending]   (--pending lists the undecided rule numbers)
@@ -11,6 +11,7 @@ Usage: python rb_status.py [--section A1] [--pending]   (--pending lists the und
 import argparse, glob, os, re
 
 RB = r"C:/Users/repzy/Desktop/My Second brain/03-Areas/video-editing/rulebook/"
+ARCH = r"C:/Users/repzy/Desktop/My Second brain/08-Archive/brain-build/rulebook-removed-rules.md"
 RULE = re.compile(r"^\s*- (?:~~)?\*\*([A-K]\d{1,2}\.\d+)\*\*")
 QUES = re.compile(r"^\s*- \*\*(Q-[A-K]\d{1,2}\.[a-z])\*\*")
 
@@ -21,6 +22,10 @@ def main():
     ap.add_argument("--pending", action="store_true")
     a = ap.parse_args()
     tot = [0] * 6
+    try:
+        arch = open(ARCH, encoding="utf-8").read().splitlines()
+    except OSError:
+        arch = []
     for f in sorted(glob.glob(RB + "rb-*.md"), key=lambda p: [int(t) if t.isdigit() else t for t in re.split(r"(\d+)", p)]):
         code = re.match(r"rb-([a-z]\d*)", os.path.basename(f)).group(1).upper()
         if a.section and code != a.section.upper():
@@ -42,6 +47,9 @@ def main():
                     n[5] += 1
                 else:
                     qpend.append(q.group(1))
+        gone = sum(1 for l in arch if l.startswith(f"- [{code}]") and "\u2716 20" in l)
+        n[0] += gone
+        n[3] += gone
         if not n[0] and not n[4]:
             continue
         tot = [x + y for x, y in zip(tot, n)]

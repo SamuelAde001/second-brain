@@ -56,7 +56,6 @@ section: C14
 - **C14.29** Everything landing at once. ❌ *"Animate one thing in at a time"* (2026-10-25)
 - **C14.30** A frame that changes before the viewer can read it. ❌ 🎯 *"this is so fast how can viewer see all the elements on this frame"* (2026-10-26)
 - **C14.31** A visual ending early and leaving an A-roll sliver. ❌ (2026-10-07)
-- *Superseded:* "nothing lands later than D-30 frames" (B2B, 2026-10-07) → 36 f before the cut (C14.13, 2026-10-26).
 
 ## Pictures
 - (no picture yet: a filmstrip of one beat with the word frames marked, showing each element landing 0-3 f after its word and the 36 f hold)

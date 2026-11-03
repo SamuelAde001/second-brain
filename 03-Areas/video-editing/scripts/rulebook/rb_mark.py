@@ -1,7 +1,8 @@
 """Mark rulebook rules approved or dismissed after Samuel's answer, and log it in the changelog.
 
   --approve A1.16-A1.24 A2.3     adds " · ✔ <date>" to each rule line
-  --dismiss A1.5                 strikes the rule through (number kept) and adds " · ✖ <date>"
+  --dismiss A1.5                 marks the rule " · ✖ <date>" struck through, then rb_prune.py moves it out of the rulebook
+                                 into the removed-rules archive (Samuel, 2026-11-03: replaced and dismissed rules leave the book)
 Ranges stay inside one section. Rules already marked are skipped. Corrections (✏) are not done here:
 the Editor writes his new wording by hand, then adds " · ✏ <date>".
 One changelog line per run: date · numbers · ✔ approved / ✖ dismissed.
@@ -58,6 +59,9 @@ def main():
         s = io.open(LOG, encoding="utf-8").read()
         s = s.replace(BACK, "\n" + "\n".join(entries) + BACK) if BACK in s else s + "\n" + "\n".join(entries) + "\n"
         io.open(LOG, "w", encoding="utf-8", newline="").write(s)
+    if done["\u2716"]:
+        import os, subprocess, sys
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "rb_prune.py"), "--date", a.date])
     print("approved:", " ".join(done["\u2714"]) or "-", "| dismissed:", " ".join(done["\u2716"]) or "-")
 
 

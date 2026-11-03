@@ -55,7 +55,6 @@ section: F4
 - **F4.24** Two fixers on one beat. Merge tasks by beat; dedupe before install (two jobs once built the same text-overs). Never launch with an empty beats list. ⚙️
 - **F4.25** `resumeFromRunId` on a multi-iteration workflow after a restart: it re-runs finished agents. ⚙️
 - **F4.26** A fixed time limit on helpers (the 4-minute limit made them slower, re-reading). The 4-minute check in F4.14 is how often to look, not a limit. ❌ (2026-10-24)
-- Superseded: pool 3-5 (2026-10-15), pool of 3 (2026-10-22 morning), 5-7 at most (2026-10-22 afternoon) → F4.3. Builder-only with self-review when budget is tight (2026-10-23, 2026-10-26) → F4.6. Every review on Opus (2026-10-28) → F4.5.
 
 ## Pictures
 - (no picture yet: none needed; this section is about process)

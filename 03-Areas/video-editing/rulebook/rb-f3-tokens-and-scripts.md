@@ -56,7 +56,6 @@ His stance moved over October: *"not bothered about token usage"* (2026-10-13) �
 ## Never
 - **F3.25** Regenerate comps to apply a global change. ✅ *"can you do that without having to burn tokens regenerating all the comps?"* (2026-10-23)
 - **F3.26** Low effort. ✅ (2026-09-29)
-- Superseded: *"not bothered about token usage"* (2026-10-13) → F3.2. Every review on Opus (2026-10-28) → F3.19. Fresh session past 100k (2026-10-02), end before 250k (2026-10-12), compact at 200k → F3.22. Ask before a fan-out past ~20 % weekly (2026-10-08) → helpers without asking (2026-10-24). Stop new agents at 85 % of the window (2026-10-08) → F3.7.
 
 ## Pictures
 - (no picture yet: none needed; this section is about process)

@@ -55,5 +55,9 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A3.31 A3.32 A3.33 A3.34 A3.35 · ✔ approved.
 - 2026-11-03 · A3.36 A3.37 A3.38 A3.39 A3.40 · ✔ approved.
 - 2026-11-03 · Q-A3.c · answered: tight cut, extra breath only at thought and section ends.
+- 2026-11-03 · A3.45 A3.46 A3.47 A3.48 A3.49 · ✔ approved.
+- 2026-11-03 · all · replaced and dismissed rules removed from the rulebook (31 lines across A1, A3, A6, C1, C2, C4, C14, C16, D2, F1, F3, F4, K2) into [[08-Archive/brain-build/rulebook-removed-rules|removed rules]]; numbers never reused. *"The replaced rules should be replaced and removed from the rule book"*. K0.18 reworded to match (still for his review).
+- 2026-11-03 · A3.45-A3.49 · ✔ approved. Every Never rule is strict. *"The never should be there as strict"*
+- 2026-11-03 · A3 · **section approved** rule by rule: 46 rules in force (45 ✔, 1 ✏), 4 replaced rules removed, 3 questions answered.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

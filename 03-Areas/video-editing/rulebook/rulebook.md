@@ -47,7 +47,7 @@ Badges on every rule: ✅ Samuel said it · 🔁 he said it more than once · �
 | **A** | **Job flow** | |
 | A1 | [[03-Areas/video-editing/rulebook/rb-a1-download-and-sorting\|Download and sorting]] | **approved 2026-11-03** |
 | A2 | [[03-Areas/video-editing/rulebook/rb-a2-import-and-sync\|Import into Resolve and syncing]] | **approved 2026-11-03** |
-| A3 | [[03-Areas/video-editing/rulebook/rb-a3-cutting\|Cutting]] | draft |
+| A3 | [[03-Areas/video-editing/rulebook/rb-a3-cutting\|Cutting]] | **approved 2026-11-03** |
 | A4 | [[03-Areas/video-editing/rulebook/rb-a4-colour-codes\|Colour codes]] | draft |
 | A5 | [[03-Areas/video-editing/rulebook/rb-a5-transcription\|Transcription and the transcript doc]] | draft |
 | A6 | [[03-Areas/video-editing/rulebook/rb-a6-visual-planning\|Visual ideation and planning]] | draft |
@@ -96,10 +96,10 @@ Badges on every rule: ✅ Samuel said it · 🔁 he said it more than once · �
 
 ## How the review works
 
-Samuel decides **every rule** himself (2026-11-03: *"bring each rule to me to approve correct or dismiss"*). The Editor brings them in small numbered batches; each line then ends with its mark: ✔ approved, ✏ corrected (his wording), ✖ dismissed (struck through, number kept), with the date. Questions end with "→ Samuel: <answer>". A section turns `status: approved` only when every rule and question in it is decided. Where the review stands: `python 03-Areas/video-editing/scripts/rulebook/rb_status.py` (scripts: [[03-Areas/video-editing/scripts/rulebook/README|rulebook scripts]]).
+Samuel decides **every rule** himself (2026-11-03: *"bring each rule to me to approve correct or dismiss"*). The Editor brings them in small numbered batches; each line then ends with its mark: ✔ approved, ✏ corrected (his wording), ✖ dismissed, with the date. **Dismissed and replaced rules leave the rulebook** (Samuel, 2026-11-03: *"The replaced rules should be replaced and removed from the rule book"*): they are kept word for word in [[08-Archive/brain-build/rulebook-removed-rules|removed rules]], which no agent follows, and their numbers are never reused. **Every rule under "Never" is strict** (Samuel, 2026-11-03: *"The never should be there as strict"*): no exception without his word. Questions end with "→ Samuel: <answer>". A section turns `status: approved` only when every rule and question in it is decided. Where the review stands: `python 03-Areas/video-editing/scripts/rulebook/rb_status.py` (scripts: [[03-Areas/video-editing/scripts/rulebook/README|rulebook scripts]]).
 
 ## How Samuel changes a rule
 
-Edit the line in Obsidian, or tell any agent "change C6.3 to …". The agent edits the rule, keeps the number, adds a line to the [[03-Areas/video-editing/rulebook/rulebook-changelog|changelog]], and commits. A removed rule keeps its number with ~~strike~~ and the date, so numbers never shift. Pictures live in `_attachments/rulebook/`.
+Edit the line in Obsidian, or tell any agent "change C6.3 to …". The agent edits the rule, keeps the number, adds a line to the [[03-Areas/video-editing/rulebook/rulebook-changelog|changelog]], and commits. A removed rule goes to [[08-Archive/brain-build/rulebook-removed-rules|removed rules]] and its number is never reused, so numbers never shift. Pictures live in `_attachments/rulebook/`.
 
 Back to [[03-Areas/video-editing/video-editing|Video editing]]

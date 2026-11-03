@@ -69,10 +69,6 @@ section: D2
 - **D2.27** No two sounds on the same moment. ❌ 🎯
 - **D2.28** Never the video 2 v6 density: 500-650 SFX from 130-166 files (about 50-60 a minute) was rejected. ❌ ✅ (2026-10-26)
 
-## Superseded
-- **D2.29** ~~Every element that animates in gets its own small sound; each list item a different beep; never the same file twice in a row~~ (2026-10-16, LinkedIn: *"if they are listing three things, you only put a sound effect for the first thing"*). Withdrawn by the #3 ruling, 2026-10-26.
-- **D2.30** ~~CD standard: a hit with a music dip on the punchline, a boom on a grey-out, a ching on money~~ (2026-10-22). Replaced by Samuel's #3 palette and the Route Rise CD's ban on chings and sub drops (2026-10-26). A riser before a big reveal stays (D2.8).
-
 ## Pictures
 - (no picture yet: a still of his delivered #3 timeline's SFX tracks with the levels showing, as the density reference)
 

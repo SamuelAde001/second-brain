@@ -19,7 +19,6 @@ section: A1
 - **A1.2** Get the script first, before anything else. ✅ (2026-09-20) · ✔ 2026-11-03
 - **A1.3** Document the job, plan it and schedule it to hit the deadline. Record the card in the job note: title, status, start and due dates, idea doc link, footage folder, camera file IDs. ✅ *"document it, plan it, schedule it, let's hit the deadline"* (2026-09-24) · ✔ 2026-11-03
 - **A1.4** The ClickUp card dates are the deadline. Plan against Route Rise's 5-day cap, Sundays not counted (he doesn't work Sundays). The Notion idea doc's dates go stale. Samuel may move a deadline himself when the job runs slow; his new date is then the deadline. ✅ *"clickup are the deadline, but I may sometimes move the deadline myself based on how slow things are"* · ✏ 2026-11-03
-- ~~**A1.5** A due time after midnight (e.g. Sat 2:15am) means deliver the evening before, nothing after 10pm. 💡~~ · ✖ 2026-11-03
 - **A1.6** Work on one job at a time, in ClickUp order (start date, then due date), not the order he pastes links. Confirm "next" on the board; ask for the board view if a card is missing. Download and prep only the job being worked on. ✅ *"we work on them in the order of clickup, and we work on one at a time"* · *"Don't download the other 2 so we don't take up space yet"* (2026-09-29) · ✏ 2026-11-03
 - **A1.7** Resolve is free to use unless Samuel says he is using it. When he says so, wait for him (do everything outside Resolve meanwhile); when he hasn't said so, go ahead. ✅ *"when you are working and I am using resolve, I would tell you I am using it and then you wait for me, but if I didn't tell you I am using resolve, go ahead and use resolve"* · ✏ 2026-11-03
 - **A1.8** Use every tool without asking: switching the open Resolve project, deciding an unclear frame rate from the files, getting at a script. When something truly can't be reached, work around it and tell him what is missing. ✅ *"use everytool without asking"* · ✏ 2026-11-03
@@ -76,7 +75,6 @@ section: A1
 ## Never
 - **A1.45** Never modify, move or rename downloaded client raws. Make lossless copies when a conform is needed. ✅ 🏢 (2026-09-24) · ✔ 2026-11-03
 - **A1.46** Never delete anything Samuel made himself unless he says so. What the Editor made, it may delete. ✅ *"Never delete anything I made myself except I instruct you to, but if you made it, you can delete it"* (2026-11-03) · ✏ 2026-11-03
-- ~~**A1.47** Never use footage from another episode, even when it sits in the same Drive drop. ⚙️~~ · ✖ 2026-11-03
 - **A1.48** Never take Tella's 1920×956 stream (too soft) or press the in-app browser's Tella Download button (it crashed the page). ⚙️ · ✔ 2026-11-03
 - **A1.49** Never trigger blob downloads in Samuel's Chrome: the "Save as" dialog stays in front and blocks every click in Resolve. ⚙️ · ✔ 2026-11-03
 - **A1.50** Never hand over raw 4K VP9 web downloads. ✅ (2026-10-09) · ✔ 2026-11-03

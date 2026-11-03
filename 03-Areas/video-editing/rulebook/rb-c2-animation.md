@@ -82,13 +82,6 @@ section: C2
 - **C2.46** Light-leak transitions. 🏢 ❌
 - **C2.47** A dark frame at the start of a card (use a negative NeoAnim start offset so the card is on screen at the cut), white flashes, or a black band at the top of a page entrance (fix with slide 0, not Edges = Duplicate). ⚙️ (2026-10-25) ❌
 
-### Superseded
-- ~~Text in 3D word by word, sliding left~~ (2026-09-26) → C2.15, words rise from below (2026-10-25).
-- ~~His four-box timing: ~8 f moves, ~4 f stagger~~ (2026-09-26) → slower entrances C2.3 (2026-10-15, 2026-10-24); the short stagger survives in C2.9.
-- ~~Tiny badge pops 1.035-1.12, Lego roof overshoot, "pop for a medallion"~~ (his finals to 2026-10-07) → C2.40 (2026-10-15).
-- ~~Gamma scale-pop with slight overshoot~~ (read from his comps, 2026-10-31) → C2.40 (2026-11-01).
-- ~~MotionBlur on in finals and the Lego build~~ → C2.41 (2026-10-28).
-
 ## Pictures
 - ![[_attachments/rulebook/c2-state-change-one-by-one.jpg|360]] ✅ LinkedIn beats: twin cards change state in place (FLOPS → TAKES OFF), offer grid builds one part at a time (approved LinkedIn bar)
 - (no picture yet: a frame strip of one entrance, showing the long ease-out against a bounce)

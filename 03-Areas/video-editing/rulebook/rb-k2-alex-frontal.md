@@ -68,7 +68,6 @@ section: K2
 - **K2.30** Never orange, never rounded boxes or pills, never Geist or Season Serif on screen. ❌ ✅ (2026-10-20, 2026-10-24)
 - **K2.31** Never recolour, stretch, rotate, outline or type out the Frontal logo in a font. ❌ 🏢
 - **K2.32** Never carry this look onto another client (Frontal mechanics such as scripts and node structures may be reused; its looks may not). ❌ ✅ (2026-10-31)
-- ~~Season Serif sentence case for headlines, JetBrains Mono for labels~~ superseded by K2.6 (2026-10-24). ~~No shine, sweep or glow under the rebrand~~ superseded by K2.2 (2026-10-22).
 
 ## Pictures
 - ![[_attachments/rulebook/k2-brand-study-liked.jpg|360]] ✅ The Frontal brand-study frames he liked (video 2, 2026-10-20/21: *"I liked the brand guide examples"*). Fonts there are since replaced by Inter (K2.6).
