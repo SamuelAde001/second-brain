@@ -25,13 +25,13 @@ section: A1
 - **A1.8** Use every tool without asking: switching the open Resolve project, deciding an unclear frame rate from the files, getting at a script. When something truly can't be reached, work around it and tell him what is missing. ✅ *"use everytool without asking"* · ✏ 2026-11-03
 
 ### The job folder
-- **A1.9** One folder per card: `C:\Users\repzy\Desktop\Video edits\Routerise\<card title exactly>\` with `Client raws\`, `Screen recordings\`, `Docs\`, `Screenshots\`, `B-roll\`, `Music\`, `SFX\`, `Graphics\`. Add `Conformed audio\` when the mic is conformed (A2). ✅ *"create a new folder on routerise and sort it there"* (2026-09-24)
-- **A1.10** Use a straight apostrophe (') in folder names. The curly one (’) breaks the Resolve MCP transport. 🔁 (2026-10-07, 2026-10-12) ⚙️
-- **A1.11** Finished camera downloads go to `Client raws\`; a second camera to `Client raws\B-cam\`. ✅ *"once it's done move it to the actual right folder"* (2026-10-30)
-- **A1.12** Everything the Editor makes carries "(Editor)" in its name: folders, docs, timelines (`Docs\Visual plan v1 (Editor)`, `Visuals v1 (Editor)`). New files only; never overwrite his. ⚙️
-- **A1.13** Keep the job's live state in `Docs\RUN STATE.md` (a ">>> NOW" line plus a dated log). ⚙️
-- **A1.14** Client template kits: copy the master kit into the job's `Graphics\<kit> (Editor)\` and work there; kit fixes go back to the master (client overlay names the kit). ✅ (2026-10-20)
-- **A1.15** Music and SFX come from the library: `Routerise\Visual Assets\Music\`, `Routerise\Visual Assets\SFX\`, `C:\Users\repzy\Downloads\sounds\Sound effects\` (D1, D2). ⚙️
+- **A1.9** One folder per card, named with the video's title from the card, **without the leading number** (the number is Route Rise's own bookkeeping): `C:\Users\repzy\Desktop\Video edits\Routerise\<video title>\` with `Client raws\`, `Screen recordings\`, `Docs\`, `Screenshots\`, `B-roll\`, `Music\`, `SFX\`, `Graphics\`. Add `Conformed audio\` when the mic is conformed (A2). ✅ *"create a new folder on routerise and sort it there"* (2026-09-24) · *"copy card names exactly, but without the numberings that it started with"* (2026-11-03) · ✏ 2026-11-03
+- **A1.10** Use a straight apostrophe (') in folder names. The curly one (’) breaks the Resolve MCP transport. 🔁 (2026-10-07, 2026-10-12) ⚙️ · ✔ 2026-11-03
+- **A1.11** Finished camera downloads go to `Client raws\`; a second camera to `Client raws\B-cam\`. ✅ *"once it's done move it to the actual right folder"* (2026-10-30) · ✔ 2026-11-03
+- **A1.12** Everything the Editor makes carries "(Editor)" in its name: folders, docs, timelines (`Docs\Visual plan v1 (Editor)`, `Visuals v1 (Editor)`). New files only; never overwrite his. ⚙️ · ✔ 2026-11-03
+- **A1.13** Keep the job's live state in `Docs\RUN STATE.md` (a ">>> NOW" line plus a dated log). ⚙️ · ✔ 2026-11-03
+- **A1.14** Client template kits: copy the master kit into the job's `Graphics\<kit> (Editor)\` and work there; kit fixes go back to the master (client overlay names the kit). ✅ (2026-10-20) · ✔ 2026-11-03
+- **A1.15** Music and SFX come from the library: `Routerise\Visual Assets\Music\`, `Routerise\Visual Assets\SFX\`, `C:\Users\repzy\Downloads\sounds\Sound effects\` (D1, D2). ⚙️ · ✔ 2026-11-03
 
 ### The brief and the script
 - **A1.16** Save the brief offline in the job: `Docs\Idea doc and script.md` plus a Word copy (`md_to_docx.py`). Expand every toggle; open sub-pages and images too. ✅ *"we need to get that as a doc in the folder so I can access it offline"* (2026-09-24)
@@ -87,7 +87,7 @@ section: A1
 
 ## Questions for Samuel
 - **Q-A1.a** Raws clean-up (2026-10-31): "keep the last 3 videos" was said for one clean-up. → Options: (1) standing rule for every clean-up (2) one-off. My pick: (1).
-- **Q-A1.b** Folder name: the SOP says "card title exactly", but the job folders carry a number ("2. I Gave Claude…", and two different jobs are both "3."). → Options: (1) copy the card title as it is, number included (2) add our own running number per client. My pick: (1), with straight apostrophes (A1.10).
+- **Q-A1.b** Folder name: the SOP says "card title exactly", but the job folders carry a number ("2. I Gave Claude…", and two different jobs are both "3."). → Options: (1) copy the card title as it is, number included (2) add our own running number per client. My pick: (1), with straight apostrophes (A1.10). → Samuel: the card's name exactly, without the leading number; *"that one is for routerise documentation, I just need the name of the video itself"* (2026-11-03). Rule A1.9 updated; existing job folders keep their names.
 - **Q-A1.c** A1.5 (deliver the evening before, nothing after 10pm) was inferred, never said by you. → Options: (1) keep (2) drop. My pick: (1). → Samuel: drop (2026-11-03).
 
 ## Sources

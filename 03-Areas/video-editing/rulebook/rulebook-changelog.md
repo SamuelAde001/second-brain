@@ -20,5 +20,7 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A1.6 · ✏ one job at a time, in ClickUp order. *"we work on them in the order of clickup, and we work on one at a time"*
 - 2026-11-03 · A1.7 · ✏ wait for Resolve only when he says he is using it, otherwise go ahead.
 - 2026-11-03 · A1.8 · ✏ use every tool without asking. *"use everytool without asking"* Knock-on rewording (still for his review): A2.7, F1.5, note on Q-F1.a.
+- 2026-11-03 · A1.10-A1.15 · ✔ approved.
+- 2026-11-03 · A1.9 · ✏ job folder = the video's title from the card, without Route Rise's leading number (Q-A1.b answered). *"I just need the name of the video itself"*
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
