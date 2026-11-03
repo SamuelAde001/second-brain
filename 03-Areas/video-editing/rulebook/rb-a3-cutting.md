@@ -56,11 +56,11 @@ section: A3
 - **A3.30** After the final cut, read the whole transcript to confirm it makes sense. ✅ (2026-09-25) · ✔ 2026-11-03
 
 ### Uhms, pauses, heads and tails
-- **A3.31** No uhm left in. The cut isn't done until the uhms are out. ✅ 🏢 *"left in parts that was obviously retakes, left in some uhms"* (2026-09-25)
-- **A3.32** Uhm pass: `uhm_transcribe.py --cuda`, then `uhm_find.py --fps`, lifts by keyboard on a duplicate, Delete Gaps, check by script. Steps: the cut SOP step 5. ⚙️
-- **A3.33** Re-transcribe every mid-filler clip without the filler prompt before lifting it: the prompt turns real words into "uh" ("But they are not" → "But uh, not"). ⚙️
-- **A3.34** A teleprompter read has few uhms. The work is loose tails, long pauses, in-clip restarts and stutters ("the, the, the"). Read per-clip text for single-word stutters. A finder "loud" SKIP over ~1 s is likely a false start or room-tone dead air: trim it by hand. ✅ 🎬 (his LinkedIn trims, 2026-10-12)
-- **A3.35** Heads: trim to the first word onset (he took a median 6-7 f more off). Trim false-start head words ("The", "So", "what", "that"). ✅ 🎬 (2026-10-12, 2026-10-20, 2026-10-26)
+- **A3.31** No uhm left in. The cut isn't done until the uhms are out. ✅ 🏢 *"left in parts that was obviously retakes, left in some uhms"* (2026-09-25) · ✔ 2026-11-03
+- **A3.32** Uhm pass: `uhm_transcribe.py --cuda`, then `uhm_find.py --fps`, lifts by keyboard on a duplicate, Delete Gaps, check by script. Steps: the cut SOP step 5. ⚙️ · ✔ 2026-11-03
+- **A3.33** Re-transcribe every mid-filler clip without the filler prompt before lifting it: the prompt turns real words into "uh" ("But they are not" → "But uh, not"). ⚙️ · ✔ 2026-11-03
+- **A3.34** A teleprompter read has few uhms. The work is loose tails, long pauses, in-clip restarts and stutters ("the, the, the"). Read per-clip text for single-word stutters. A finder "loud" SKIP over ~1 s is likely a false start or room-tone dead air: trim it by hand. ✅ 🎬 (his LinkedIn trims, 2026-10-12) · ✔ 2026-11-03
+- **A3.35** Heads: trim to the first word onset (he took a median 6-7 f more off). Trim false-start head words ("The", "So", "what", "that"). ✅ 🎬 (2026-10-12, 2026-10-20, 2026-10-26) · ✔ 2026-11-03
 - **A3.36** Tails: ~4-5 f after the last word, not ~2 f. Where a thought or section ends, leave more breath (up to ~13 f into a chapter). ✅ 🎬 (2026-10-26, replaces the 2026-10-12 ~2 f; video 2 diff 2026-10-20)
 - **A3.37** Pauses inside clips: cut anything over ~0.5 s down to ~0.22-0.25 s; remove wordless 3-8 f pause clips. 🎬 (2026-10-12, 2026-10-20)
 - **A3.38** Leave a small natural gap uncut now and then, so the cut doesn't feel machine-made. 🎯 (2026-10-22) See Q-A3.c.

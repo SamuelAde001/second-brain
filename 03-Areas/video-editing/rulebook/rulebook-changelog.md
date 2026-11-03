@@ -52,5 +52,6 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A3.16 A3.17 A3.18 A3.19 A3.20 A3.21 A3.22 A3.23 A3.24 · ✔ approved.
 - 2026-11-03 · A3.50, E2.43 · new: decide an unsure take, then ask in chat; always name the timeline timecode, never the beat (Q-A3.b answered).
 - 2026-11-03 · A3.25 A3.26 A3.27 A3.28 A3.29 A3.30 · ✔ approved.
+- 2026-11-03 · A3.31 A3.32 A3.33 A3.34 A3.35 · ✔ approved.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
