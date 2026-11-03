@@ -25,5 +25,8 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A1.16 A1.17 A1.18 A1.19 A1.20 A1.21 A1.22 A1.23 A1.24 · ✔ approved.
 - 2026-11-03 · A1.25 A1.26 A1.27 A1.28 A1.29 A1.30 A1.31 A1.32 A1.34 · ✔ approved.
 - 2026-11-03 · A1.35 · ✏ client B-roll may be downloaded whenever the edit needs it, not only on request. *"you can download client B-roll when you need them also without my request"*
+- 2026-11-03 · A1.33 A1.36 A1.38 A1.39 A1.40 A1.41 A1.43 A1.44 · ✔ approved.
+- 2026-11-03 · A1.37 · ✏ never blur a wrong tool name; crop or reframe. *"never blur the wrong name"*
+- 2026-11-03 · A1.42 · ✏ raws are cleared only when he asks, or after asking him when storage runs out; keep the last 3 (Q-A1.a answered).
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

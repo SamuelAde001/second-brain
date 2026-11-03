@@ -53,24 +53,24 @@ section: A1
 - **A1.30** Download only what this episode needs. Check every camera clip belongs to this episode: one Drive drop held another episode's A-cam and B-cam. Ignore duplicate and pre-roll mic files. ⚙️ (2026-10-30) · ✔ 2026-11-03
 - **A1.31** Check every download by decoding it (ffprobe, decode at several points) before use. A suspect file: MediaInfo, play the spot in VLC, try a proxy; if two decoders break at the same point, re-download. ✅ *"redownloading the file has worked."* (2026-08-11) · ✔ 2026-11-03
 - **A1.32** Samuel's Chrome asks "Save as" on every download, and the file still lands in `Downloads\<guid>.tmp` at full size: copy it out. ⚙️ · ✔ 2026-11-03
-- **A1.33** Give Windows programs `C:/Users/...` paths, never Git Bash `/c/...` (files landed in `C:\c\...`). ⚙️
+- **A1.33** Give Windows programs `C:/Users/...` paths, never Git Bash `/c/...` (files landed in `C:\c\...`). ⚙️ · ✔ 2026-11-03
 - **A1.34** Web pulls (YouTube etc.) are re-encoded to an edit-ready `.mov` before he gets them (spec in C9). ✅ *"A lot of the videos are glitching and saying media offline in Davinci"* (2026-10-09) · ✔ 2026-11-03
 - **A1.35** Client B-roll: download it whenever the edit needs it, without waiting for his request, and when he asks. Pick from the Drive thumbnails, check 4 to 6 frames per clip, skip non-work footage, download fast; when he asked, ping him when done. Leave the files unsorted and unrenamed. ✅ *"find me B-rolls that show him working ... download them for me fast, ping me when you are done"* (2026-10-02) · *"you can download client B-roll when you need them also without my request"* (2026-11-03) · ✏ 2026-11-03
 
 ### Check before cutting
-- **A1.36** Before cutting, write down the verified asset facts (screen-recording specs, key timestamps) and a ranked "still needed from client" list. Footage often arrives incomplete; an approved cut sheet does not mean the footage exists. 💡
-- **A1.37** Check the tool on screen is the tool he names. Alex said Higgsfield on camera while all footage was Arcads, twice. Crop or blur the wrong name so the screen never contradicts the voice. 🏢 💡
-- **A1.38** Confirm any unverified asset (a URL flagged in the script) before showing it. 💡
+- **A1.36** Before cutting, write down the verified asset facts (screen-recording specs, key timestamps) and a ranked "still needed from client" list. Footage often arrives incomplete; an approved cut sheet does not mean the footage exists. 💡 · ✔ 2026-11-03
+- **A1.37** Check the tool on screen is the tool he names (Alex said Higgsfield on camera while all footage was Arcads, twice). Keep the screen from contradicting the voice by cropping or reframing; **never blur the wrong name**. 🏢 ✅ *"never blur the wrong name"* (2026-11-03) · ✏ 2026-11-03
+- **A1.38** Confirm any unverified asset (a URL flagged in the script) before showing it. 💡 · ✔ 2026-11-03
 
 ### Disk space and deleting
-- **A1.39** Check free space on C: before downloads, extractions and renders. One job is about 15 GB of raws plus 35 to 40 GB of render cache. Ask him to free 30 GB+ before a heavy ProRes wave (a full C: killed one). ✅ "save space" (2026-09-29)
-- **A1.40** C: is the only local disk. G: is Google Drive. ⚙️
-- **A1.41** Delete draft renders only on his yes; keep finals. Clearing a job's cache is his call. ✅ (2026-10-28)
-- **A1.42** Clearing the Routerise raws: keep the last 3 videos, clear the rest. ✅ *"we won't touch the last 3 videos, just clear the folder completly"* (2026-10-31)
-- **A1.43** During unattended runs, never delete with the shell (it prompts him and stalls). Remove your own temp files from Python, only inside the job folder or the scratchpad. ⚙️
+- **A1.39** Check free space on C: before downloads, extractions and renders. One job is about 15 GB of raws plus 35 to 40 GB of render cache. Ask him to free 30 GB+ before a heavy ProRes wave (a full C: killed one). ✅ "save space" (2026-09-29) · ✔ 2026-11-03
+- **A1.40** C: is the only local disk. G: is Google Drive. ⚙️ · ✔ 2026-11-03
+- **A1.41** Delete draft renders only on his yes; keep finals. Clearing a job's cache is his call. ✅ (2026-10-28) · ✔ 2026-11-03
+- **A1.42** Clear the Routerise raws only when Samuel asks, or when storage is running out, and then ask him first. A clean-up keeps the last 3 videos and clears the rest. ✅ *"we won't touch the last 3 videos, just clear the folder completly"* (2026-10-31) · *"only if I ask for it, or if we are running out of storage then you ask me if we can do that"* (2026-11-03) · ✏ 2026-11-03
+- **A1.43** During unattended runs, never delete with the shell (it prompts him and stalls). Remove your own temp files from Python, only inside the job folder or the scratchpad. ⚙️ · ✔ 2026-11-03
 
 ### Training
-- **A1.44** Every method that works goes into the SOP and the scripts: the job is the Editor's training. 🔁 (2026-09-21, 2026-09-24) ✅ *"What every methods succeeds, we would add to SOP"* (2026-09-21)
+- **A1.44** Every method that works goes into the SOP and the scripts: the job is the Editor's training. 🔁 (2026-09-21, 2026-09-24) ✅ *"What every methods succeeds, we would add to SOP"* (2026-09-21) · ✔ 2026-11-03
 
 ## Never
 - **A1.45** Never modify, move or rename downloaded client raws. Make lossless copies when a conform is needed. ✅ 🏢 (2026-09-24)
@@ -86,7 +86,7 @@ section: A1
 - (no picture yet: a screenshot of a correctly sorted job folder would help)
 
 ## Questions for Samuel
-- **Q-A1.a** Raws clean-up (2026-10-31): "keep the last 3 videos" was said for one clean-up. → Options: (1) standing rule for every clean-up (2) one-off. My pick: (1).
+- **Q-A1.a** Raws clean-up (2026-10-31): "keep the last 3 videos" was said for one clean-up. → Options: (1) standing rule for every clean-up (2) one-off. My pick: (1). → Samuel: keep the last 3 on every clean-up, and a clean-up happens only when he asks or, when storage runs out, after asking him (2026-11-03). Rule A1.42 updated.
 - **Q-A1.b** Folder name: the SOP says "card title exactly", but the job folders carry a number ("2. I Gave Claude…", and two different jobs are both "3."). → Options: (1) copy the card title as it is, number included (2) add our own running number per client. My pick: (1), with straight apostrophes (A1.10). → Samuel: the card's name exactly, without the leading number; *"that one is for routerise documentation, I just need the name of the video itself"* (2026-11-03). Rule A1.9 updated; existing job folders keep their names.
 - **Q-A1.c** A1.5 (deliver the evening before, nothing after 10pm) was inferred, never said by you. → Options: (1) keep (2) drop. My pick: (1). → Samuel: drop (2026-11-03).
 
