@@ -50,6 +50,9 @@ His stance moved over October: *"not bothered about token usage"* (2026-10-13) �
 - **F3.23** When a session is heavy, or he says round up: stop runs, save RUN STATE and the RESUME block, and give him the prompt for the next session. Nothing is lost. 🔁 2 times. *"stop, save everything to prep for a new session, and then give me the prompt to give the next session"* (2026-10-15)
 - **F3.24** At the end-of-job review run `python 00-System/scripts/usage_audit.py --session <id> --split`. Anything over a tenth of the cost that bought nothing becomes a rule ([[03-Areas/video-editing/sops/end-of-job-review|end-of-job review]]). ⚙️
 
+### Documenting scripts
+- **F3.27** Every script used on a job is documented the same session: a header saying what it does and how to run it, a line in its folder's README, and a row in [[00-System/systems-register|the systems register]]. A one-off written inline is saved as a file first if it did real work. ✅ *"don't forget to document the scripts you use"* (2026-11-03)
+
 ## Never
 - **F3.25** Regenerate comps to apply a global change. ✅ *"can you do that without having to burn tokens regenerating all the comps?"* (2026-10-23)
 - **F3.26** Low effort. ✅ (2026-09-29)

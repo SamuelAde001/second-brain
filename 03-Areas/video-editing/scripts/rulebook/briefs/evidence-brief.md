@@ -1,3 +1,12 @@
+---
+type: sop
+area: video-editing
+status: active
+updated: 2026-11-03
+source: manual
+tags: [rulebook, scripts]
+---
+
 # Research brief: Samuel's editing rulebook (evidence pass)
 
 Samuel Adebayo is a freelance video editor (DaVinci Resolve + Fusion). He edits for the agency Route Rise, whose end clients are Alex (Frontal) and Gamma. We are building ONE rulebook that governs every Route Rise edit, for him and for the Claude agents that edit with him. Between clients only fonts, colours and (for Alex) square boxes instead of rounded corners change.
@@ -41,3 +50,6 @@ Rules:
 ## Return
 
 A short report (max 150 words): file path, number of rules per part (A-F, K), the 5 most important corrections you found, and any conflicts.
+
+
+Back to [[03-Areas/video-editing/scripts/rulebook/README|Rulebook scripts]]

@@ -94,6 +94,10 @@ Badges on every rule: ✅ Samuel said it · 🔁 he said it more than once · �
 | K4 | [[03-Areas/video-editing/rulebook/rb-k4-new-client\|New client template]] | draft |
 | H | [[03-Areas/video-editing/rulebook/rb-videos-history\|Every video so far]] | reference |
 
+## How the review works
+
+Samuel decides **every rule** himself (2026-11-03: *"bring each rule to me to approve correct or dismiss"*). The Editor brings them in small numbered batches; each line then ends with its mark: ✔ approved, ✏ corrected (his wording), ✖ dismissed (struck through, number kept), with the date. Questions end with "→ Samuel: <answer>". A section turns `status: approved` only when every rule and question in it is decided. Where the review stands: `python 03-Areas/video-editing/scripts/rulebook/rb_status.py` (scripts: [[03-Areas/video-editing/scripts/rulebook/README|rulebook scripts]]).
+
 ## How Samuel changes a rule
 
 Edit the line in Obsidian, or tell any agent "change C6.3 to …". The agent edits the rule, keeps the number, adds a line to the [[03-Areas/video-editing/rulebook/rulebook-changelog|changelog]], and commits. A removed rule keeps its number with ~~strike~~ and the date, so numbers never shift. Pictures live in `_attachments/rulebook/`.

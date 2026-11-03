@@ -1,3 +1,12 @@
+---
+type: sop
+area: video-editing
+status: active
+updated: 2026-11-03
+source: manual
+tags: [rulebook, scripts]
+---
+
 # Drafting brief: rulebook sections
 
 Samuel Adebayo edits talking-head YouTube videos in DaVinci Resolve + Fusion for the agency Route Rise (end clients: Alex of Frontal, Gamma, more later). We are writing his editing rulebook: the number-one rule for every Route Rise edit, for him and for every Claude agent. He will review and approve it section by section. It must be easy for him to read and edit in Obsidian, and cheap for an agent to read (an agent opens only the sections its step needs).
@@ -71,3 +80,6 @@ Pictures: pick at most 4 per section from `sec/IMAGE_CANDIDATES.md` (only ones t
 ## Return
 
 Max 120 words: the files written, rules per section, the number of open questions, the one question per section that matters most.
+
+
+Back to [[03-Areas/video-editing/scripts/rulebook/README|Rulebook scripts]]

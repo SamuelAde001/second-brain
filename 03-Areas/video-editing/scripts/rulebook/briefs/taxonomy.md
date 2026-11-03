@@ -1,3 +1,12 @@
+---
+type: sop
+area: video-editing
+status: active
+updated: 2026-11-03
+source: manual
+tags: [rulebook, scripts]
+---
+
 # Rulebook section codes (use these exactly)
 
 A — Job flow
@@ -56,3 +65,6 @@ K3 Gamma
 K4 New client template (what to collect for a new client)
 
 X — Anything that fits no code above (say what section it should be)
+
+
+Back to [[03-Areas/video-editing/scripts/rulebook/README|Rulebook scripts]]
