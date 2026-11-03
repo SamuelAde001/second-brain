@@ -45,6 +45,6 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A2.29 · ✏ reviews on a render imported onto its own timeline; his markers there are applied to the original timeline (Q-A2.b answered). Knock-on notes on E1.5, Q-E1.a, Q-B1.a (still for his review).
 - 2026-11-03 · A2.31 A2.32 A2.33 A2.34 · ✔ approved.
 - 2026-11-03 · A2.35 · ✏ the Editor may delete Resolve projects it created; never his. *"you can delete what you created"*
-- 2026-11-03 · A2 · **section approved** rule by rule: 35 rules (27 ✔, 8 ✏), 3 questions answered.
+- 2026-11-03 · A2 · **section approved** rule by rule: 35 rules (28 ✔, 7 ✏), 3 questions answered.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
