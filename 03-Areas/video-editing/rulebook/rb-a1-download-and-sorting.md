@@ -34,15 +34,15 @@ section: A1
 - **A1.15** Music and SFX come from the library: `Routerise\Visual Assets\Music\`, `Routerise\Visual Assets\SFX\`, `C:\Users\repzy\Downloads\sounds\Sound effects\` (D1, D2). ⚙️ · ✔ 2026-11-03
 
 ### The brief and the script
-- **A1.16** Save the brief offline in the job: `Docs\Idea doc and script.md` plus a Word copy (`md_to_docx.py`). Expand every toggle; open sub-pages and images too. ✅ *"we need to get that as a doc in the folder so I can access it offline"* (2026-09-24)
-- **A1.17** Route Rise's Notion is not visible to the Notion connector (404). Open the page in Samuel's Chrome, where he is signed in, or its public `notion.site` copy. ✅ (2026-09-24)
-- **A1.18** Read the scriptwriter's comments on the idea doc: they hold the references (e.g. which real posts to show). ✅ *"In the comments here on this notion page draft, you would see some of the refrences"* (2026-10-13)
-- **A1.19** Read the client's recording script in full. It can carry an on-screen plan per section, the source of every number and production notes (client overlay). 🏢
-- **A1.20** Add a "what was actually shot" note to the doc: files, screen-recording chapters, and where the footage leaves the script. ⚙️
-- **A1.21** Two scripts on one card (e.g. ClickUp doc and a Drive "Script" doc): run a whole-mic Whisper while the camera file downloads, match it against every script (3-gram coverage: 168/200 vs 9/74 sentences) and cut against the one he read. ✅ *"how similar is it to the final script the client wrote for the video?"* (2026-10-06) 🔁 (3 jobs) ⚙️
-- **A1.22** Cut from the footage, not the script. The presenter freestyles; whole scripted parts can be missing or replaced. Key cut sheets to the cut timeline, not the written script. ⚙️
-- **A1.23** Script doc refuses access even in his Chrome: read the links from the card description, ask him for the script, and cut from the footage meanwhile. ⚙️ (2026-10-30)
-- **A1.24** Google Docs in a Drive folder export directly: `docs.google.com/document/d/<id>/export?format=docx` (or `txt`). ⚙️
+- **A1.16** Save the brief offline in the job: `Docs\Idea doc and script.md` plus a Word copy (`md_to_docx.py`). Expand every toggle; open sub-pages and images too. ✅ *"we need to get that as a doc in the folder so I can access it offline"* (2026-09-24) · ✔ 2026-11-03
+- **A1.17** Route Rise's Notion is not visible to the Notion connector (404). Open the page in Samuel's Chrome, where he is signed in, or its public `notion.site` copy. ✅ (2026-09-24) · ✔ 2026-11-03
+- **A1.18** Read the scriptwriter's comments on the idea doc: they hold the references (e.g. which real posts to show). ✅ *"In the comments here on this notion page draft, you would see some of the refrences"* (2026-10-13) · ✔ 2026-11-03
+- **A1.19** Read the client's recording script in full. It can carry an on-screen plan per section, the source of every number and production notes (client overlay). 🏢 · ✔ 2026-11-03
+- **A1.20** Add a "what was actually shot" note to the doc: files, screen-recording chapters, and where the footage leaves the script. ⚙️ · ✔ 2026-11-03
+- **A1.21** Two scripts on one card (e.g. ClickUp doc and a Drive "Script" doc): run a whole-mic Whisper while the camera file downloads, match it against every script (3-gram coverage: 168/200 vs 9/74 sentences) and cut against the one he read. ✅ *"how similar is it to the final script the client wrote for the video?"* (2026-10-06) 🔁 (3 jobs) ⚙️ · ✔ 2026-11-03
+- **A1.22** Cut from the footage, not the script. The presenter freestyles; whole scripted parts can be missing or replaced. Key cut sheets to the cut timeline, not the written script. ⚙️ · ✔ 2026-11-03
+- **A1.23** Script doc refuses access even in his Chrome: read the links from the card description, ask him for the script, and cut from the footage meanwhile. ⚙️ (2026-10-30) · ✔ 2026-11-03
+- **A1.24** Google Docs in a Drive folder export directly: `docs.google.com/document/d/<id>/export?format=docx` (or `txt`). ⚙️ · ✔ 2026-11-03
 
 ### Downloading footage
 - **A1.25** Drive: the connector can't list a link-shared folder. List it in the in-app browser (file IDs on `[data-id]`), then download with `03-Areas/video-editing/scripts/drive_download.py <id> "<out>" --threads 10`; small files (the WAV) with plain `curl`. ⚙️
