@@ -61,7 +61,7 @@ section: F1
 - (no picture yet: none needed; this section is about process)
 
 ## Questions for Samuel
-- **Q-F1.a** Screen control: on 2026-10-22 you said *"the only reason you would notify me for a permission is if you are doing screen ... and if you want to delete something"*. On 2026-10-24 the standing rule became "use every tool without asking, except deleting your things or keys". Does screen control still need a ping first? (Your A1.8 on 2026-11-03, *"use everytool without asking"*, points to no ping.) → Options: (1) no ping when you are away; ping only when you may be at the PC (2) always ping first. My pick: 1.
+- **Q-F1.a** Screen control: on 2026-10-22 you said *"the only reason you would notify me for a permission is if you are doing screen ... and if you want to delete something"*. On 2026-10-24 the standing rule became "use every tool without asking, except deleting your things or keys". Does screen control still need a ping first? (A3.12, 2026-11-03: for the silence cut, *"ping me when you need it"*.) (Your A1.8 on 2026-11-03, *"use everytool without asking"*, points to no ping.) → Options: (1) no ping when you are away; ping only when you may be at the PC (2) always ping first. My pick: 1.
 - **Q-F1.b** "Never touch his colour grade" (F1.30) comes from the Editor profile, not from your words. Keep it as a hard rule? → Options: (1) yes (2) only when you say so per job. My pick: 1.
 
 ## Sources

@@ -25,15 +25,15 @@ section: A3
 - **A3.8** Fast, but no mistakes. Write down the cut method used on each job. ✅ *"Document the methods we used and continue work, don't waste time but don't make mistakes"* (2026-09-25) · ✔ 2026-11-03
 
 ### Silence
-- **A3.9** Use Resolve's own `Clip > Audio Operations > Ripple Delete Silence…`, not scripted cuts. Delete the Tella audio track first so one mic drives it. Select every clip, off-screen tracks included. ✅ *"Use the ripple delete silence tool in Davinici resolve"* (2026-09-25)
-- **A3.10** Settings change per video. Move the threshold until the red preview sits only in gaps, never on a waveform. His #3 settings: threshold −33.4 dB, pre head 0, post tail 3, minimum 2, cross fade off. The dialog defaults are not safe; ffmpeg RMS numbers don't map to the dialog. ✅ *"find the best settings that fit the video, without cutting out words"* (2026-09-25)
-- **A3.11** One mic file per run. After the pass, count clips per source and re-run on any file it skipped (a DJI 30-minute split). ⚙️
-- **A3.12** A scripted silence cut (per-frame mic peak at −40 dB, head 1 f, tail 3 f, min gap 2 f) only when screen control is refused and camera, mic and timeline share one frame rate. See Q-A3.a. ⚙️ (2026-10-30)
+- **A3.9** Use Resolve's own `Clip > Audio Operations > Ripple Delete Silence…`, not scripted cuts. Delete the Tella audio track first so one mic drives it. Select every clip, off-screen tracks included. ✅ *"Use the ripple delete silence tool in Davinici resolve"* (2026-09-25) · ✔ 2026-11-03
+- **A3.10** Settings change per video. Move the threshold until the red preview sits only in gaps, never on a waveform. His #3 settings: threshold −33.4 dB, pre head 0, post tail 3, minimum 2, cross fade off. The dialog defaults are not safe; ffmpeg RMS numbers don't map to the dialog. ✅ *"find the best settings that fit the video, without cutting out words"* (2026-09-25) · ✔ 2026-11-03
+- **A3.11** One mic file per run. After the pass, count clips per source and re-run on any file it skipped (a DJI 30-minute split). ⚙️ · ✔ 2026-11-03
+- **A3.12** The silence cut needs screen control (the dialog): ping Samuel when it's needed and get it. A scripted silence cut (per-frame mic peak at −40 dB, head 1 f, tail 3 f, min gap 2 f, only when camera, mic and timeline share one frame rate) is used only when he asks for it. ✅ *"ask for screen control for the best cuts, ping me when you need it, only fall back if I ask you to"* (2026-11-03) · ✏ 2026-11-03
 
 ### Noise
-- **A3.13** After the silence pass, remove every leftover noise clip: room noise, breaths, clicks, camera tail past the mic end, camera pieces with no mic under them. ✅ *"there is going to be some noise, left in the timeline as small clips, ensure those are gone"* (2026-09-25)
-- **A3.14** Noise test: under −40 dB is noise; −40 to −36 dB with no Whisper word is noise; any clip under ~1 s with no word, between sentences that read complete, is noise. A −40 dB rule alone was too strict. ✅ (2026-09-25) ⚙️ (2026-10-12)
-- **A3.15** Before deleting a noise clip, check no real word sits in it (word-timed transcript). Whisper's stock line "Um, so, uh, we start with the list" on a 7-13 f clip is noise. ⚙️
+- **A3.13** After the silence pass, remove every leftover noise clip: room noise, breaths, clicks, camera tail past the mic end, camera pieces with no mic under them. ✅ *"there is going to be some noise, left in the timeline as small clips, ensure those are gone"* (2026-09-25) · ✔ 2026-11-03
+- **A3.14** Noise test: under −40 dB is noise; −40 to −36 dB with no Whisper word is noise; any clip under ~1 s with no word, between sentences that read complete, is noise. A −40 dB rule alone was too strict. ✅ (2026-09-25) ⚙️ (2026-10-12) · ✔ 2026-11-03
+- **A3.15** Before deleting a noise clip, check no real word sits in it (word-timed transcript). Whisper's stock line "Um, so, uh, we start with the list" on a 7-13 f clip is noise. ⚙️ · ✔ 2026-11-03
 
 ### Retakes and mistakes
 - **A3.16** Decide, don't flag. Keep the last clean complete take, across clips and inside one clip. No colour flags or markers on the cut; colour a clip only when its content exists nowhere else. ✅ *"I removed most of your clutter"* (2026-09-25)
@@ -83,7 +83,7 @@ section: A3
 - (no picture yet: a before/after waveform still of one of his tail/head trims from the video 4 cut diff, and the Ripple Delete Silence red preview sitting only in gaps)
 
 ## Questions for Samuel
-- **Q-A3.a** Silence method. You set Ripple Delete Silence in the dialog as the method and scolded scripted cuts (2026-09-25). On Gamma Ep. 12 screen control was refused, so the Editor cut silence by script at −40 dB (2026-10-30), and on 2026-10-31 you said the cuts were bad (not clear if silence, retakes or trims). → Options: (1) dialog always; (2) script allowed only when screen control is refused and every frame rate matches, then diff your revision. My pick: (1) by default, (2) as the fallback, and diff the Gamma revision to find what was bad.
+- **Q-A3.a** Silence method. You set Ripple Delete Silence in the dialog as the method and scolded scripted cuts (2026-09-25). On Gamma Ep. 12 screen control was refused, so the Editor cut silence by script at −40 dB (2026-10-30), and on 2026-10-31 you said the cuts were bad (not clear if silence, retakes or trims). → Options: (1) dialog always; (2) script allowed only when screen control is refused and every frame rate matches, then diff your revision. My pick: (1) by default, (2) as the fallback, and diff the Gamma revision to find what was bad. → Samuel: the dialog; ask him for screen control when needed; the script only if he asks (2026-11-03). A3.12 updated.
 - **Q-A3.b** Genuinely unsure takes. Your verdict: decide, flags are clutter (2026-09-25). The Editor profile still says ask you on a real judgement call. → Options: (1) always decide and note the call in the transcript; (2) decide, but ask in chat when the two takes carry different content (e.g. a different number). My pick: (2).
 - **Q-A3.c** The creative director wants a small natural gap now and then (2026-10-22); your own revisions tighten every pause (178 spots on LinkedIn, 2026-10-12). → Options: (1) tight everywhere; (2) tight, with the extra breath only at thought and section ends (A3.36). My pick: (2).
 

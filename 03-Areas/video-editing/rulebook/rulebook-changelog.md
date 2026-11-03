@@ -47,5 +47,7 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A2.35 · ✏ the Editor may delete Resolve projects it created; never his. *"you can delete what you created"*
 - 2026-11-03 · A2 · **section approved** rule by rule: 35 rules (28 ✔, 7 ✏), 3 questions answered.
 - 2026-11-03 · A3.1 A3.2 A3.3 A3.4 A3.5 A3.6 A3.7 A3.8 · ✔ approved.
+- 2026-11-03 · A3.9 A3.10 A3.11 A3.13 A3.14 A3.15 · ✔ approved.
+- 2026-11-03 · A3.12 · ✏ ping him for screen control for the silence cut; scripted silence cut only when he asks (Q-A3.a answered). Note added to Q-F1.a.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
