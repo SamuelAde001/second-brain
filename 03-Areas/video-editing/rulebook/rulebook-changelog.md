@@ -38,5 +38,8 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A2.7 · ✏ save his project first; no need to load it back. Knock-on wording in F1.5 (still for his review).
 - 2026-11-03 · A2.8 A2.9 A2.10 A2.11 A2.12 A2.13 A2.14 A2.15 A2.16 A2.17 A2.18 A2.19 · ✔ approved.
 - 2026-11-03 · A2.4 · ✏ timeline = the client raws' frame rate (Q-A2.a answered), never above 30 fps. *"use the frame rate of the client raws for the timeline so we don't get issues"* Knock-on wording in C9.28.
+- 2026-11-03 · A2.20 A2.21 A2.22 A2.23 · ✔ approved.
+- 2026-11-03 · A2.24 · ✏ sync A-cam + B-cam together first, link, cut as one footage with one audio.
+- 2026-11-03 · A2.25 · ✏ switch angles on statements/emphasis; the wider cam opens each section; disable unneeded B-cam parts, never delete (Q-A2.c answered).
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

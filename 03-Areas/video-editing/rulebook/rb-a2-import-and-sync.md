@@ -40,14 +40,14 @@ section: A2
 - **A2.19** Several camera clips: sync each clip to its own mic and check each on a second stretch; conform every mic. ⚙️ · ✔ 2026-11-03
 
 ### The raw sync timeline
-- **A2.20** Build `A-roll synced (raw)`: camera picture on V1 from the start, mic on A1 linked to it, screen recording on V2 with its audio on A2, linked and disabled. Markers: a blue "Lip-sync check" at the start and end of the A-roll (one pair per camera clip), a green "Screen sync check" about a minute in. ⚙️
-- **A2.21** Take setup to "on the timeline and synced", tell Samuel, then go on with the cut (A1.1). ✅ *"Get all the things sorted till putting on the timeline and syncing audio, let me know"* (2026-09-24)
-- **A2.22** The synced raw is the master. When a cut goes wrong, go back to it and re-cut from it. ✅ *"We are working with the origingal synced video raw now"* (2026-09-25)
-- **A2.23** Lip-sync markers stay on the raw; remove them from the cut timelines. ⚙️
+- **A2.20** Build `A-roll synced (raw)`: camera picture on V1 from the start, mic on A1 linked to it, screen recording on V2 with its audio on A2, linked and disabled. Markers: a blue "Lip-sync check" at the start and end of the A-roll (one pair per camera clip), a green "Screen sync check" about a minute in. ⚙️ · ✔ 2026-11-03
+- **A2.21** Take setup to "on the timeline and synced", tell Samuel, then go on with the cut (A1.1). ✅ *"Get all the things sorted till putting on the timeline and syncing audio, let me know"* (2026-09-24) · ✔ 2026-11-03
+- **A2.22** The synced raw is the master. When a cut goes wrong, go back to it and re-cut from it. ✅ *"We are working with the origingal synced video raw now"* (2026-09-25) · ✔ 2026-11-03
+- **A2.23** Lip-sync markers stay on the raw; remove them from the cut timelines. ⚙️ · ✔ 2026-11-03
 
 ### Second camera
-- **A2.24** Cut on A-cam and mic first. Then duplicate the cut as a new timeline and put B-cam on V2 with exactly V1's cut points (B source = A source + the offset from sample-level camera-audio cross-correlation). Verify every start and end, then disable V2 where A-cam should show. ✅ *"the cut lines must be exactly the same, just on another track"* (2026-10-30)
-- **A2.25** Choosing angles is the Editor's judgement. Starting point used on Gamma Ep12: switch at a tight jump cut (removed gap 2 s or less) once a stretch passes 5 s on A or 4 s on B; force a switch at 12 s (A) or 8 s (B); B about 45 % of the runtime. ✅ *"disable some parts based on what you feel would be right"* (2026-10-30) 💡 for the numbers
+- **A2.24** Second camera: sync A-cam and B-cam to each other and to the mic first, link them, and cut them together as one footage with one main audio, so the cut lines are always the same on both. A-cam on V1, B-cam on V2. ✅ *"sync the A-cam and B-cam together first, then link them and cut them together instead of seperatly so they stay like one main footage, but with one main audio, the cut lines must be the same"* (2026-11-03) · replaces cutting A first and laying B on a duplicate (2026-10-30) · ✏ 2026-11-03
+- **A2.25** Switch angles on new statements, or where a new point needs emphasis, not on a timer. The main camera is the wider one: it opens every section; inside the section the other camera helps on statements. Disable the B-cam parts that aren't needed; never delete clips, and never disable or remove a whole camera from the timeline. ✅ *"switch camera angles more based on when new statements are said, or a new topic of emphasis is needed, we should have a main camera which is the wider one to start every section"* · *"disable the parts not needed on the B-cam, don't delete"* (2026-11-03) · ✏ 2026-11-03
 
 ### Timelines: names and duplicates
 - **A2.26** Name every Editor timeline with its version, "(Editor)" and the step: `Cut v4 (Editor) - ripple silence`, `Cut v5 (Editor) - noise clips removed`, `Cut v6 (Editor) - retakes removed`, `Visuals v1 (Editor)`. ⚙️
@@ -71,7 +71,7 @@ section: A2
 ## Questions for Samuel
 - **Q-A2.a** Frame rate: Alex's raws are 29.97 but the timeline is 23.976 (frames dropped, possible judder). Open since 2026-09-25. → Options: (1) keep 23.976, as in every approved final (2) match the footage. My pick: (1), unless Route Rise's delivery spec says otherwise. → Samuel: use the client raws' frame rate (2026-11-03). A2.4 updated; 23.976 is no longer the Alex default.
 - **Q-A2.b** Revisions: you said "work on one timeline" (2026-10-10), then "a new timeline is fine if faster" (2026-10-15), then "duplicate the timeline I'm using" (2026-10-31). My reading is A2.28 + A2.29: your timeline gets duplicated; the Editor's own timeline is fixed in place or on a copy, cache redone. → Options: (1) confirm this reading (2) always duplicate. My pick: (1).
-- **Q-A2.c** Second-camera switching numbers (A2.25) come from one video. → Options: (1) keep as the default (2) leave fully to judgement each time. My pick: (1).
+- **Q-A2.c** Second-camera switching numbers (A2.25) come from one video. → Options: (1) keep as the default (2) leave fully to judgement each time. My pick: (1). → Samuel: no timer numbers; switch on statements and emphasis, wide camera opens each section (2026-11-03). A2.25 updated.
 
 ## Sources
 Replaces or draws on [[03-Areas/video-editing/sops/routerise-job-setup|Route Rise job setup]], [[03-Areas/video-editing/sops/routerise-cut-workflow|Route Rise cut workflow]], [[03-Areas/video-editing/resolve-project-library|Resolve project library]], [[03-Areas/video-editing/resolve-performance|Resolve performance]], [[03-Areas/video-editing/routerise-house-style|Route Rise house style]], [[03-Areas/video-editing/ways-of-working|Ways of working]], [[03-Areas/video-editing/sops/unattended-run|Unattended run]], [[07-Agents/video-editor/memory|Editor memory]] and the job notes.
