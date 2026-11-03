@@ -23,5 +23,7 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A1.10-A1.15 · ✔ approved.
 - 2026-11-03 · A1.9 · ✏ job folder = the video's title from the card, without Route Rise's leading number (Q-A1.b answered). *"I just need the name of the video itself"*
 - 2026-11-03 · A1.16 A1.17 A1.18 A1.19 A1.20 A1.21 A1.22 A1.23 A1.24 · ✔ approved.
+- 2026-11-03 · A1.25 A1.26 A1.27 A1.28 A1.29 A1.30 A1.31 A1.32 A1.34 · ✔ approved.
+- 2026-11-03 · A1.35 · ✏ client B-roll may be downloaded whenever the edit needs it, not only on request. *"you can download client B-roll when you need them also without my request"*
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
