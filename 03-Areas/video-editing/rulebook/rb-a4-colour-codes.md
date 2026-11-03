@@ -47,7 +47,7 @@ section: A4
 
 ## Questions for Samuel
 - **Q-A4.a** Should section colours mean something? Your 7M final opened on a Purple hook (2026-09-14); a meaning set (Purple hook and outro, Orange problem, Yellow teaching, Teal demo, Pink emphasis, Blue client B-roll) was proposed 2026-09-20 and never approved; every job since 2026-09-25 runs a fixed order (Hook Yellow … Outro Violet). → Options: (1) keep the fixed order (2) colours by meaning. My pick: (1).
-- **Q-A4.b** Doubtful takes: "leave it with a different color, I would handle it" and "clutter, decide" were both said 2026-09-25; the Editor profile still says ask on genuine judgement calls. → Options: (1) never flag on the timeline; decide, and list the hard calls in the report (2) Orange clip colour only for true judgement calls. My pick: (1).
+- **Q-A4.b** Doubtful takes: "leave it with a different color, I would handle it" and "clutter, decide" were both said 2026-09-25; the Editor profile still says ask on genuine judgement calls. → Options: (1) never flag on the timeline; decide, and list the hard calls in the report (2) Orange clip colour only for true judgement calls. My pick: (1). → Samuel: answered by A3.50 (2026-11-03): decide, then ask in chat with the timeline timecode; nothing flagged on the timeline.
 - **Q-A4.c** Track colours: nothing in the sources gives tracks a colour code. → Options: (1) no track colours (2) you name a scheme. My pick: (1).
 
 ## Sources
