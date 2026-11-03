@@ -15,14 +15,14 @@ section: A3
 
 ## Rules
 ### Order and gates
-- **A3.1** Fixed order: sync → Ripple Delete Silence on the waveform → remove leftover noise clips → per-clip transcript → remove retakes and mistakes → uhm and pause pass → raw-vs-cut check → read the whole transcript. Transcribing before the silence pass is the mistake. ✅ 🔁×2 *"use the waveform to cut out the gaps, never cut with the transcription, and then after that, remove the mistakes"* (2026-09-24)
-- **A3.2** Cut every synced track together (camera, mic, screen recording). Picture must never drift from the audio. ✅ *"Remove the gaps with the waveform (Including the screen record all synced together)"* (2026-09-24)
-- **A3.3** Work on a duplicate of the original synced raw. Keep each stage as its own named timeline: Cut v1 silence → Cut v2 noise removed → Cut v3 retakes removed → Cut v4 uhms trimmed → sections. ✅ *"We are working with the origingal synced video raw now"* (2026-09-25) ⚙️
-- **A3.4** Sectionalise the cut into its major sections; split talk from demo. It must be right before anything else proceeds. ✅ (2026-09-20, 2026-09-25)
-- **A3.5** Phase 1 ends at cut + transcript + sections. Then stop and wait for Samuel's cut revision. No visual plan until he says the cut is done. ✅ 🔁×6 *"cut it and as we normally do and wait till I revise the cuts"* (2026-10-30; also 10-06, 10-12, 10-19, 10-20, 10-26)
-- **A3.6** Build on his revised timeline: duplicate it, keep his trims, never touch his grade or noise reduction. ✅ 🔁×2 *"I just did final touches on the cut and cleaned up the timeline, added color corrections"* (2026-10-12; again 2026-10-31)
-- **A3.7** Diff his revised cut against yours on every job he touches (`cut_diff.py`, A1 source ranges per clip) and write the lesson into the Editor memory. ⚙️
-- **A3.8** Fast, but no mistakes. Write down the cut method used on each job. ✅ *"Document the methods we used and continue work, don't waste time but don't make mistakes"* (2026-09-25)
+- **A3.1** Fixed order: sync → Ripple Delete Silence on the waveform → remove leftover noise clips → per-clip transcript → remove retakes and mistakes → uhm and pause pass → raw-vs-cut check → read the whole transcript. Transcribing before the silence pass is the mistake. ✅ 🔁×2 *"use the waveform to cut out the gaps, never cut with the transcription, and then after that, remove the mistakes"* (2026-09-24) · ✔ 2026-11-03
+- **A3.2** Cut every synced track together (camera, mic, screen recording). Picture must never drift from the audio. ✅ *"Remove the gaps with the waveform (Including the screen record all synced together)"* (2026-09-24) · ✔ 2026-11-03
+- **A3.3** Work on a duplicate of the original synced raw. Keep each stage as its own named timeline: Cut v1 silence → Cut v2 noise removed → Cut v3 retakes removed → Cut v4 uhms trimmed → sections. ✅ *"We are working with the origingal synced video raw now"* (2026-09-25) ⚙️ · ✔ 2026-11-03
+- **A3.4** Sectionalise the cut into its major sections; split talk from demo. It must be right before anything else proceeds. ✅ (2026-09-20, 2026-09-25) · ✔ 2026-11-03
+- **A3.5** Phase 1 ends at cut + transcript + sections. Then stop and wait for Samuel's cut revision. No visual plan until he says the cut is done. ✅ 🔁×6 *"cut it and as we normally do and wait till I revise the cuts"* (2026-10-30; also 10-06, 10-12, 10-19, 10-20, 10-26) · ✔ 2026-11-03
+- **A3.6** Build on his revised timeline: duplicate it, keep his trims, never touch his grade or noise reduction. ✅ 🔁×2 *"I just did final touches on the cut and cleaned up the timeline, added color corrections"* (2026-10-12; again 2026-10-31) · ✔ 2026-11-03
+- **A3.7** Diff his revised cut against yours on every job he touches (`cut_diff.py`, A1 source ranges per clip) and write the lesson into the Editor memory. ⚙️ · ✔ 2026-11-03
+- **A3.8** Fast, but no mistakes. Write down the cut method used on each job. ✅ *"Document the methods we used and continue work, don't waste time but don't make mistakes"* (2026-09-25) · ✔ 2026-11-03
 
 ### Silence
 - **A3.9** Use Resolve's own `Clip > Audio Operations > Ripple Delete Silence…`, not scripted cuts. Delete the Tella audio track first so one mic drives it. Select every clip, off-screen tracks included. ✅ *"Use the ripple delete silence tool in Davinici resolve"* (2026-09-25)
