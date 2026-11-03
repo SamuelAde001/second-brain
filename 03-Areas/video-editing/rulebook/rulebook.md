@@ -45,7 +45,7 @@ Badges on every rule: ✅ Samuel said it · 🔁 he said it more than once · �
 | Code | Section | Status |
 |---|---|---|
 | **A** | **Job flow** | |
-| A1 | [[03-Areas/video-editing/rulebook/rb-a1-download-and-sorting\|Download and sorting]] | draft |
+| A1 | [[03-Areas/video-editing/rulebook/rb-a1-download-and-sorting\|Download and sorting]] | **approved 2026-11-03** |
 | A2 | [[03-Areas/video-editing/rulebook/rb-a2-import-and-sync\|Import into Resolve and syncing]] | draft |
 | A3 | [[03-Areas/video-editing/rulebook/rb-a3-cutting\|Cutting]] | draft |
 | A4 | [[03-Areas/video-editing/rulebook/rb-a4-colour-codes\|Colour codes]] | draft |

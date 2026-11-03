@@ -28,5 +28,9 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A1.33 A1.36 A1.38 A1.39 A1.40 A1.41 A1.43 A1.44 · ✔ approved.
 - 2026-11-03 · A1.37 · ✏ never blur a wrong tool name; crop or reframe. *"never blur the wrong name"*
 - 2026-11-03 · A1.42 · ✏ raws are cleared only when he asks, or after asking him when storage runs out; keep the last 3 (Q-A1.a answered).
+- 2026-11-03 · A1.45 A1.48 A1.49 A1.50 A1.51 A1.52 · ✔ approved.
+- 2026-11-03 · A1.46 · ✏ never delete what he made unless he says so; the Editor may delete its own files.
+- 2026-11-03 · A1.47 · ✖ dismissed (never use another episode's footage); new A1.53: another episode's footage may be used. *"You can use footage from another episode"*
+- 2026-11-03 · A1 · **section approved** rule by rule: 53 rules (42 ✔ including the new A1.53, 9 ✏, 2 ✖), 3 questions answered.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

@@ -1,8 +1,8 @@
 ---
 type: sop
 area: video-editing
-status: draft
-approved:
+status: approved
+approved: 2026-11-03
 updated: 2026-11-03
 source: interview
 tags: [rulebook]
@@ -11,7 +11,7 @@ section: A1
 
 # A1 · Download and sorting
 
-> **Read when:** a new job card lands, before the first download (Editor, setup step; also when clearing disk space). **Client values:** where each client's footage and script arrive: [[03-Areas/video-editing/clients/routerise|Route Rise]], [[03-Areas/video-editing/clients/alex|Alex]], [[03-Areas/video-editing/clients/gamma|Gamma]]. **Status:** draft, not yet approved by Samuel.
+> **Read when:** a new job card lands, before the first download (Editor, setup step; also when clearing disk space). **Client values:** where each client's footage and script arrive: [[03-Areas/video-editing/clients/routerise|Route Rise]], [[03-Areas/video-editing/clients/alex|Alex]], [[03-Areas/video-editing/clients/gamma|Gamma]]. **Status:** approved by Samuel rule by rule, 2026-11-03.
 
 ## Rules
 ### Start of a job
@@ -56,6 +56,7 @@ section: A1
 - **A1.33** Give Windows programs `C:/Users/...` paths, never Git Bash `/c/...` (files landed in `C:\c\...`). ⚙️ · ✔ 2026-11-03
 - **A1.34** Web pulls (YouTube etc.) are re-encoded to an edit-ready `.mov` before he gets them (spec in C9). ✅ *"A lot of the videos are glitching and saying media offline in Davinci"* (2026-10-09) · ✔ 2026-11-03
 - **A1.35** Client B-roll: download it whenever the edit needs it, without waiting for his request, and when he asks. Pick from the Drive thumbnails, check 4 to 6 frames per clip, skip non-work footage, download fast; when he asked, ping him when done. Leave the files unsorted and unrenamed. ✅ *"find me B-rolls that show him working ... download them for me fast, ping me when you are done"* (2026-10-02) · *"you can download client B-roll when you need them also without my request"* (2026-11-03) · ✏ 2026-11-03
+- **A1.53** Footage from another episode may be used in this one. A1.30 still applies to the download: know which files belong to this episode. ✅ *"You can use footage from another episode"* (2026-11-03) · ✔ 2026-11-03
 
 ### Check before cutting
 - **A1.36** Before cutting, write down the verified asset facts (screen-recording specs, key timestamps) and a ranked "still needed from client" list. Footage often arrives incomplete; an approved cut sheet does not mean the footage exists. 💡 · ✔ 2026-11-03
@@ -73,14 +74,14 @@ section: A1
 - **A1.44** Every method that works goes into the SOP and the scripts: the job is the Editor's training. 🔁 (2026-09-21, 2026-09-24) ✅ *"What every methods succeeds, we would add to SOP"* (2026-09-21) · ✔ 2026-11-03
 
 ## Never
-- **A1.45** Never modify, move or rename downloaded client raws. Make lossless copies when a conform is needed. ✅ 🏢 (2026-09-24)
-- **A1.46** Never delete anything Samuel made. ✅
-- **A1.47** Never use footage from another episode, even when it sits in the same Drive drop. ⚙️
-- **A1.48** Never take Tella's 1920×956 stream (too soft) or press the in-app browser's Tella Download button (it crashed the page). ⚙️
-- **A1.49** Never trigger blob downloads in Samuel's Chrome: the "Save as" dialog stays in front and blocks every click in Resolve. ⚙️
-- **A1.50** Never hand over raw 4K VP9 web downloads. ✅ (2026-10-09)
-- **A1.51** Never put cache, proxies or footage on G:. ⚙️
-- **A1.52** Never copy a client's brand kit into the Brain; read it where it lives. 💡
+- **A1.45** Never modify, move or rename downloaded client raws. Make lossless copies when a conform is needed. ✅ 🏢 (2026-09-24) · ✔ 2026-11-03
+- **A1.46** Never delete anything Samuel made himself unless he says so. What the Editor made, it may delete. ✅ *"Never delete anything I made myself except I instruct you to, but if you made it, you can delete it"* (2026-11-03) · ✏ 2026-11-03
+- ~~**A1.47** Never use footage from another episode, even when it sits in the same Drive drop. ⚙️~~ · ✖ 2026-11-03
+- **A1.48** Never take Tella's 1920×956 stream (too soft) or press the in-app browser's Tella Download button (it crashed the page). ⚙️ · ✔ 2026-11-03
+- **A1.49** Never trigger blob downloads in Samuel's Chrome: the "Save as" dialog stays in front and blocks every click in Resolve. ⚙️ · ✔ 2026-11-03
+- **A1.50** Never hand over raw 4K VP9 web downloads. ✅ (2026-10-09) · ✔ 2026-11-03
+- **A1.51** Never put cache, proxies or footage on G:. ⚙️ · ✔ 2026-11-03
+- **A1.52** Never copy a client's brand kit into the Brain; read it where it lives. 💡 · ✔ 2026-11-03
 
 ## Pictures
 - (no picture yet: a screenshot of a correctly sorted job folder would help)
