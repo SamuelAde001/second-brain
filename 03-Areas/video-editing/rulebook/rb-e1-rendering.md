@@ -21,7 +21,7 @@ section: E1
 - **E1.4** Tell him the moment a render lands: push notification and the file right away, then run the checks. ✅ *"Why didn't you tell me"* (2026-10-29)
 
 ### Caching for his review
-- **E1.5** Cache the whole timeline before you ping him, so he watches without stutter. Tell him when it is fully cached. 🔁 ×7 ✅ *"cache the whole video on the timeline first so that I can watch through everything without stutter"* (2026-09-23) See Q-E1.a.
+- **E1.5** (Superseded by A2.29, 2026-11-03: review on a render timeline, not a cache. Still for his decision.) Cache the whole timeline before you ping him, so he watches without stutter. Tell him when it is fully cached. 🔁 ×7 ✅ *"cache the whole video on the timeline first so that I can watch through everything without stutter"* (2026-09-23) See Q-E1.a.
 - **E1.6** Re-cache only what changed. Never bulk-toggle Fusion output cache on a timeline that is already cached. ✅ *"the cache has been set back which is annoying"* (2026-10-09)
 - **E1.7** Leave a clip uncached when he says he is reviewing it. ✅ *"Leave that clip uncached; I'm reviewing v5 now."* (2026-10-15)
 - **E1.8** Watch caching and renders for crashes and stalls. If a comp stalls, profile it and fix it. 🔁 ×4 ✅ *"Profile a stalled comp and fix it."* (2026-10-24)
@@ -73,7 +73,7 @@ section: E1
 - (no picture yet: a screenshot of his 4K H265 MASTER HIGH preset on the Deliver page)
 
 ## Questions for Samuel
-- **Q-E1.a** How do you review now? Until 2026-10-16 you reviewed from a fully cached timeline (seven times). Since video 2 (2026-10-24) the Editor sends a 1080p review render plus phone parts, and on video 4 that was the plan. → Options: (1) cached timeline; (2) 1080p render + phone parts; (3) both. My pick: (3): the render for your phone, the cache for marking in Resolve.
+- **Q-E1.a** How do you review now? Until 2026-10-16 you reviewed from a fully cached timeline (seven times). Since video 2 (2026-10-24) the Editor sends a 1080p review render plus phone parts, and on video 4 that was the plan. → Options: (1) cached timeline; (2) 1080p render + phone parts; (3) both. My pick: (3): the render for your phone, the cache for marking in Resolve. → Samuel (2026-11-03, A2.29): a render, imported onto its own timeline for his markers; no cache for review.
 - **Q-E1.b** Delivery file name. No rule exists; only "v1/v2" and the job title. → Options: (1) `<video title> v<N>.mp4` in the job folder; (2) your own pattern. My pick: (1).
 - **Q-E1.c** Upload. You wanted a system that spots a finished render, uploads it to the right Frame.io folder and posts the link on Slack for the CD (2026-09-28, *"we would work on a system for this later"*). → Options: (1) build it now; (2) keep sending by hand. My pick: (2) until you say; you watch every version first anyway.
 

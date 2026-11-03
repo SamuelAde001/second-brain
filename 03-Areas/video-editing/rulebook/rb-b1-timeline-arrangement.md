@@ -52,7 +52,7 @@ section: B1
 - (no picture yet: a screenshot of the track stack of one of his approved finals, e.g. TSB, with each track labelled)
 
 ## Questions for Samuel
-- **Q-B1.a** After you have edited **and** cached a timeline, where do our fixes go? Your words (2026-10-10, 2026-10-15): one timeline, in place, so the cache survives. Our method since 2026-10-29 (Cold Email, video 4): a duplicate of your edited timeline, never your timeline itself. → Options: (1) in place on your timeline, after one backup (2) on a duplicate, and you re-cache. My pick: (1), it keeps your cache.
+- **Q-B1.a** (A2.28 + A2.29, 2026-11-03, point to: duplicate his timeline; fix the Editor's own in place; review on a render.) After you have edited **and** cached a timeline, where do our fixes go? Your words (2026-10-10, 2026-10-15): one timeline, in place, so the cache survives. Our method since 2026-10-29 (Cold Email, video 4): a duplicate of your edited timeline, never your timeline itself. → Options: (1) in place on your timeline, after one backup (2) on a duplicate, and you re-cache. My pick: (1), it keeps your cache.
 - **Q-B1.b** Order of the two adjustment tracks. Video 4 puts the focus clip on V3 and the media clip (NeoAnim + Vignette + MagicZoom) on V4. In TSB your NeoAnim clip sat directly above the media on V3, captions on V4. → Options: (1) video 4 order, so the vignette and slow zoom also cover the highlight (2) TSB order. My pick: (1).
 
 ## Sources

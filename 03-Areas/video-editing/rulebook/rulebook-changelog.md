@@ -41,5 +41,7 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · A2.20 A2.21 A2.22 A2.23 · ✔ approved.
 - 2026-11-03 · A2.24 · ✏ sync A-cam + B-cam together first, link, cut as one footage with one audio.
 - 2026-11-03 · A2.25 · ✏ switch angles on statements/emphasis; the wider cam opens each section; disable unneeded B-cam parts, never delete (Q-A2.c answered).
+- 2026-11-03 · A2.26 A2.27 A2.28 A2.30 · ✔ approved.
+- 2026-11-03 · A2.29 · ✏ reviews on a render imported onto its own timeline; his markers there are applied to the original timeline (Q-A2.b answered). Knock-on notes on E1.5, Q-E1.a, Q-B1.a (still for his review).
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
