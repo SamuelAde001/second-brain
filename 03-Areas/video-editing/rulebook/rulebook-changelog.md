@@ -75,5 +75,6 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-04 · A6.1 A6.3 A6.4 A6.6-A6.10 · ✔ approved.
 - 2026-11-04 · A6.2, A6.5 · ✏ the rulebook is the standard guide; study a past video only where it is silent or unsure, and write the lesson back. Front page says so. *"I want us to have a standard guide that doesn't need us to study old videos, cause we can't be studying them over again that's what this guide book is meant to help"*
 - 2026-11-04 · A6.11 A6.12 A6.13 A6.14 A6.15 A6.16 A6.17 A6.18 A6.19 A6.20 · ✔ approved.
+- 2026-11-04 · A6.21 A6.22 A6.23 A6.24 A6.25 A6.26 A6.27 A6.28 A6.29 A6.30 A6.31 · ✔ approved.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
