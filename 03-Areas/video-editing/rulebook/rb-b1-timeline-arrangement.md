@@ -1,8 +1,8 @@
 ---
 type: sop
 area: video-editing
-status: draft
-approved:
+status: approved
+approved: 2026-11-05
 updated: 2026-11-03
 source: interview
 tags: [rulebook]
@@ -11,7 +11,7 @@ section: B1
 
 # B1 · Timeline arrangement
 
-> **Read when:** placing or installing visuals, building a revision timeline, any step that writes to a timeline (Editor, install helpers, reviewers checking gaps). **Client values:** none. **Status:** draft, not yet approved by Samuel.
+> **Read when:** placing or installing visuals, building a revision timeline, any step that writes to a timeline (Editor, install helpers, reviewers checking gaps). **Client values:** none. **Status:** approved by Samuel rule by rule, 2026-11-05.
 
 ## Rules
 
@@ -27,26 +27,26 @@ section: B1
 - **B1.9** Audio: A1 mic · A2 music · A3 and up SFX (named SFX 1, 2 …), each staggered hit on its own track so hits can overlap. Typing and data sounds go on the SFX tracks with the other SFX, not on a track of their own. ✅ *"the typing and data sounds should be with the SFX tracks, not on their own"* (2026-11-05) · ✏ 2026-11-05
 
 ### Chain visuals, no gaps
-- **B1.10** Each visual runs until the next one starts, or ends exactly on an A-roll cut. Never stop a few frames short. 🔁 ×5 ✅ *"You are leaving gaps in between each visual. Um, gaps before the cut of the visuals."* (2026-10-07); markers *"Why this gap"*, *"Space between visuals"*, *"Spcae before cut not needed"* (2026-10-08)
-- **B1.11** Hard limits: no 1-8 f gaps between V2+ items (a full-frame visual flashes the A-roll); no visual ending 1-12 f before a cut; no A-roll sliver under ~2 s between two visuals. 🎬 ⚙️
-- **B1.12** A run of visuals starts on a cut or on the previous visual's end, and ends on an A-roll cut, never mid-clip. 🎬
-- **B1.13** Breathing room is a whole A-roll clip of 3-6 s, about one every 40-60 s. Visuals cover 81-85 % of talk time. 🎬 (measured on Apollo, 4 AI Tools, TSB, 2026-10-07; pacing per region in C15)
+- **B1.10** Each visual runs until the next one starts, or ends exactly on an A-roll cut. Never stop a few frames short. 🔁 ×5 ✅ *"You are leaving gaps in between each visual. Um, gaps before the cut of the visuals."* (2026-10-07); markers *"Why this gap"*, *"Space between visuals"*, *"Spcae before cut not needed"* (2026-10-08) · ✔ 2026-11-05
+- **B1.11** Hard limits: no 1-8 f gaps between V2+ items (a full-frame visual flashes the A-roll); no visual ending 1-12 f before a cut; no A-roll sliver under ~2 s between two visuals. 🎬 ⚙️ · ✔ 2026-11-05
+- **B1.12** A run of visuals starts on a cut or on the previous visual's end, and ends on an A-roll cut, never mid-clip. 🎬 · ✔ 2026-11-05
+- **B1.13** Breathing room is a whole A-roll clip of 3-6 s, about one every 40-60 s. Visuals cover 81-85 % of talk time. 🎬 (measured on Apollo, 4 AI Tools, TSB, 2026-10-07; pacing per region in C15) · ✔ 2026-11-05
 
 ### Timelines, versions and his edits
-- **B1.14** Never write to a timeline without a backup of it first. ⚙️
-- **B1.15** Before he has cached or edited a build: each pass lands as a new versioned timeline (`Visuals v1 (Editor)`, v2 …). The previous version stays untouched as a fallback; old ones are renamed `zz … old`. ✅ *"I want to do it all at once and have reviews in versions"* (2026-10-13)
-- **B1.16** Fixes to the Editor's own timeline go in place, after one backup: swap comps on the existing clips. A timeline he has worked on himself is duplicated first (A2.28). Reviews run on a render timeline, so no re-cache is needed (A2.29). ✅ *"I would love you to work on one timeline instead of duplicating timelines"* (2026-10-10, 2026-10-15) · aligned with A2.28 + A2.29 (2026-11-03)
-- **B1.17** His edits stand. His own clips, moves and disabled clips stay as he left them and are carried into any rebuild. Record which clips are disabled and compare comp contents before calling a change his or ours. ✅ *"I move the adjustment clip here"* (2026-10-24); his intro clip (2026-10-25)
-- **B1.18** He may switch timelines in the open project. Confirm which timeline is current before every edit. ✅ *"I changed timelines so just in case, so you can switch back to the right one"* (2026-10-09)
-- **B1.19** Keep the timeline length unchanged. Touch only the tracks and frame range the marker or brief names. ⚙️
-- **B1.20** Replaced clips are disabled, never deleted. List them so he can delete them once he is happy. Make a backup timeline before each marker round and before the sound pass. ⚙️
-- **B1.21** Never review a working or install timeline; review the finished version only. ⚙️
-- **B1.22** Two-camera jobs (Gamma): plates go on a duplicate timeline, on the track above both cameras. ⚙️ (2026-10-30)
+- **B1.14** Never write to a timeline without a backup of it first. ⚙️ · ✔ 2026-11-05
+- **B1.15** Before he has cached or edited a build: each pass lands as a new versioned timeline (`Visuals v1 (Editor)`, v2 …). The previous version stays untouched as a fallback; old ones are renamed `zz … old`. ✅ *"I want to do it all at once and have reviews in versions"* (2026-10-13) · ✔ 2026-11-05
+- **B1.16** Fixes to the Editor's own timeline go in place, after one backup: swap comps on the existing clips. A timeline he has worked on himself is duplicated first (A2.28). Reviews run on a render timeline, so no re-cache is needed (A2.29). ✅ *"I would love you to work on one timeline instead of duplicating timelines"* (2026-10-10, 2026-10-15) · aligned with A2.28 + A2.29 (2026-11-03) · ✔ 2026-11-05
+- **B1.17** His edits stand. His own clips, moves and disabled clips stay as he left them and are carried into any rebuild. Record which clips are disabled and compare comp contents before calling a change his or ours. ✅ *"I move the adjustment clip here"* (2026-10-24); his intro clip (2026-10-25) · ✔ 2026-11-05
+- **B1.18** He may switch timelines in the open project. Confirm which timeline is current before every edit. ✅ *"I changed timelines so just in case, so you can switch back to the right one"* (2026-10-09) · ✔ 2026-11-05
+- **B1.19** Keep the timeline length unchanged. Touch only the tracks and frame range the marker or brief names. ⚙️ · ✔ 2026-11-05
+- **B1.20** Replaced clips are disabled, never deleted. List them so he can delete them once he is happy. Make a backup timeline before each marker round and before the sound pass. ⚙️ · ✔ 2026-11-05
+- **B1.21** Never review a working or install timeline; review the finished version only. ⚙️ · ✔ 2026-11-05
+- **B1.22** Two-camera jobs (Gamma): plates go on a duplicate timeline, on the track above both cameras. ⚙️ (2026-10-30) · ✔ 2026-11-05
 
-## Never
-- **B1.23** Never use any Insert call or `InsertGeneratorIntoTimeline` on his timeline: it rippled his cut (2026-09-28) and once moved every track by 127 f (2026-10-03). ⚙️ How to place clips safely: [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]].
-- **B1.24** Never leave the Tella teleprompter on screen. ✅ (2026-09-29)
-- **B1.25** Never touch the previous review timeline. ⚙️ (2026-10-22)
+## Never (strict)
+- **B1.23** Never use any Insert call or `InsertGeneratorIntoTimeline` on his timeline: it rippled his cut (2026-09-28) and once moved every track by 127 f (2026-10-03). ⚙️ How to place clips safely: [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]]. · ✔ 2026-11-05
+- **B1.24** Never leave the Tella teleprompter on screen. ✅ (2026-09-29) · ✔ 2026-11-05
+- **B1.25** Never touch the previous review timeline. ⚙️ (2026-10-22) · ✔ 2026-11-05
 
 ## Pictures
 - (no picture yet: a screenshot of the track stack of one of his approved finals, e.g. TSB, with each track labelled)

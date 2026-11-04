@@ -86,5 +86,7 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · B1.1 B1.2 B1.3 B1.4 B1.5 B1.6 B1.7 B1.8 · ✔ approved.
 - 2026-11-05 · B1.9 · ✏ typing and data sounds go on the SFX tracks, not their own track. *"the typing and data sounds should be with the SFX tracks, not on their own"*
 - 2026-11-05 · Q-B1.b · video 4 order: focus adjustment clip on V3, media adjustment clip on V4.
+- 2026-11-05 · B1.10 B1.11 B1.12 B1.13 B1.14 B1.15 B1.16 B1.17 B1.18 B1.19 B1.20 B1.21 B1.22 B1.23 B1.24 B1.25 · ✔ approved.
+- 2026-11-05 · B1 · **section approved** rule by rule: 25 rules (24 ✔, 1 ✏), 2 questions answered.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
