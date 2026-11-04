@@ -119,6 +119,15 @@ The obligations floor and committed outflow rise by NGN 100,000 a month until Ap
 
 Subscriptions rise from NGN 162,242 to **NGN 328,549**. The floor is corrected to **NGN 1,296,424** and committed outflow to **NGN 1,356,424**: the old floor (NGN 1,060,742) never took in the creative director line or the Google downgrade.
 
+## Changed 2026-11-04, at his instruction
+
+| Line | From | To | Why |
+|---|---|---|---|
+| Rubuik Cube | — | NGN 6,000 a month (billing day not given) | *"I am joining Robuiks cube for 6k monthly"* |
+| Wealth club membership | — | NGN 40,000 a quarter, from the Cowrywise savings NGN 40,000 that month (November 2026, then February 2027) | *"Cowrywise savings would be going to payment for my membership in the wealth club instead"*, *"40k wealth club is quarterly"* |
+| Google Workspace | ~NGN 11,500 on the 9th | held in November; stays in the standing plan | *"I don't think I need the custom email from the workspace this month, as I am not doing outreach yet"*. The trial bills itself on 2026-11-09 unless cancelled |
+| Building project | NGN 500,000 | NGN 0 in November, to the rent fund; from December not answered | *"I need to channel all the money for my building project to my rent"*. Furnishing, *"roughly 500k monthly"* once rent is paid, may replace it: asked |
+
 ## Removed and no longer owed
 
 - **Editor (NGN 50,000) and workers (NGN 100,000) — cut.** His words: *"it was financially unwise at that moment and it takes time to manage them too… no one can edit my style of videos yet, I need to make my content my style before hiring any."* Only the NGN 15,000 community admin stands.

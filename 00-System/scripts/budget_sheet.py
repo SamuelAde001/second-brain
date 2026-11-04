@@ -57,7 +57,7 @@ LIVE_FROM = "2026-09"
 # From finances-goals.md (Samuel, confirmed 2026-09-20). Change there first.
 GOALS = [
     # name, target NGN, starts, deadline, pots that count as saved
-    ("Goal 1 — house", 1_000_000, None, dt.date(2026, 12, 31), ("Goal 1", "Emergency fund")),
+    ("Goal 1 — rent", 1_200_000, None, dt.date(2026, 12, 31), ("Goal 1",)),  # was the house, NGN 1,000,000 (Samuel, 2026-11-04)
     ("Goal 2 — marriage", 3_000_000, dt.date(2027, 1, 1), dt.date(2027, 7, 31), ("Goal 2",)),
     ("Emergency fund", 300_000, dt.date(2027, 1, 1), None, ("Emergency fund",)),
     ("Buffer", 200_000, None, None, ("Buffer",)),

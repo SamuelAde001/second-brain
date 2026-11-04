@@ -89,3 +89,12 @@ Back to [[03-Areas/finances/finances|Finances]]
 - Creative director: *"creative director won't be paid since her laptop money is the bank loan I collected"*. The line becomes the NGN 82,875 app loan repayment.
 - Said once: the rent and building leave Goal 1 NGN 127,617 to 169,437 behind pace in November.
 - Later the same day: *"let's make the building back to 500, I need some breathing space, I need 100k min cash on hand"*. Extra cash NGN 100,000 on Payday A. Rule 3 says more than NGN 50,000 free on Payday A moves the same day; this keeps NGN 100,000 loose. His call, objection said once.
+
+## 2026-11-04 — Rent replaces the house; November replanned on Payday A
+
+- *"I no longer am moving out to a new house, I am fully renting this my present house, it would cost me 1.2M per Year, I think, they haven't given me a price yet"*. Goal 1 becomes the rent fund, NGN 1,200,000 (estimate).
+- *"I need to channel all the money for my building project to my rent"*: building project NGN 0 in November, its NGN 500,000 to the rent fund. Rule 4 shortfall, the second after August's NGN 300,000. Said once.
+- *"I won't pay rent this month"*, *"I would save what we can save for this months on my rent and pay it all in full next month"*. November saves NGN 547,503 → rent fund NGN 893,544; December finds NGN 306,456.
+- *"I want to buy my GF a phone of 300k"*: in November, Payday A. Money man advised December, so rent would be fully covered by Payday B. His call.
+- *"my GF's appartment would now be 500k"*; grandma's NGN 50,000 to dad for his birthday; Cowrywise savings NGN 40,000 to the wealth club, *"40k wealth club is quarterly"*; Workspace held; sister nothing this month; creator visits = the Rubuik hangout, NGN 25,000; Rubuik Cube NGN 6,000 a month; wedding outfit NGN 40,000.
+- Coming: *"By december I am paying 100k to my sister for our christmas hangout"*; *"Once rent is paid, I would need roughly 500k monthly to help furnish the house"*; *"my GF may need extra money"* (no amount; the Buffer, not the rent fund).
