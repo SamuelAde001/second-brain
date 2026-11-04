@@ -272,6 +272,19 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-10-30 | bulk | 10,300 | Shopping | Extra cash | his words: "10,300 shopping"; line is a guess (what was bought not said; Feeding was closed 2026-10-18, home food comes from Extra cash); day assumed |
 | 2026-10-30 | bulk | 1,518 | Minor spends 2026-10-28 to 2026-10-30 | Other | derived; rows give 6,810, he has 5,292 |
 | 2026-10-30 | balance | 5,292 | Bank | — | his words: "5,292 in bank"; no screenshot |
+| 2026-11-04 | correction | — | Bank balances given 2026-10-24 to 2026-10-30 were about NGN 34,359 below the bank | — | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04): 79,915 vs 114,272 (24 Oct), 88,774 vs 123,133, 49,657 vs 84,016 (26 Oct), 30,060 vs 64,619 (28 Oct), 5,292 vs 39,736 (30 Oct). The 2026-10-24 Eating out 12,500 is not on the statement; a 13,000 transfer to Opay, Gladys C. Dimkpa, 2026-10-24, is not in the ledger at that amount (asked him). The 2026-10-26 reversal of the 12,417 was wrong. His words: "some monye appeared from no where" |
+| 2026-10-30 | in | 34,444 | Statement correction: bank above the balances given since 2026-10-24 | — | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04): 39,735.75 on 2026-10-30 after the 10,300 shopping, ledger had 5,292; lines not split until he answers on the 12,500 / 13,000 |
+| 2026-10-30 | balance | 39,736 | Bank | — | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04): 39,735.75 |
+| 2026-10-31 | bulk | 1,368 | Account maintenance charge + VAT, October | Other | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04): 1,272.34 + 95.43 |
+| 2026-11-01 | bulk | 10,200 | Cash withdrawal, POS, OPay agent, Bwari | Extra cash | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04); purpose asked, not answered yet; line is a guess (cash on hand, as 2026-10-26) |
+| 2026-11-01 | bulk | 8,500 | Krisberry Chinese | Extra cash | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04); eating out, no Eating out line in November; line is a guess |
+| 2026-11-01 | bulk | 3,100 | Data 3,000 + airtime 100, Glo | Data / airtime | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04) |
+| 2026-11-01 | bulk | 250 | Stamp duty | Other | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04) |
+| 2026-11-02 | bulk | 199 | Microsoft Store | Personal / misc | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04); what it was asked, not answered yet; line is a guess |
+| 2026-11-03 | bulk | 1,000 | Airtime, Glo | Data / airtime | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04) |
+| 2026-11-03 | bulk | 4,500 | Cash withdrawal, POS, FCMB agent | Extra cash | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04); purpose asked, not answered yet; line is a guess |
+| 2026-11-03 | balance | 10,619 | Bank | — | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04): closing balance 10,618.98 (usable balance 20,477.31, difference not explained) |
+| 2026-11-04 | in | 20,000 | Flutterwave to personal | — | his words: "I sent 20k from the flutterwave to my account this morning" |
 
 Back to [[03-Areas/finances/finances|Finances]]
 

@@ -106,3 +106,7 @@ Back to [[07-Agents/finance/profile|Profile]]
 ## 2026-10-26 — Ifeoma works on his account
 
 - Samuel shared his Claude login with Ifeoma, the creative director (*"I have already shared the login, as I do trust her"*). She says she is **Ifeoma** or **Ivisuals**. The Brand manager answers her brand questions and scripts with her; every other agent holds her requests and tells her to ask Samuel. This replaces the 2026-10-20 hold for the Brand manager only. [[03-Areas/personal-brand/creative-director|creative director]].
+
+## 2026-11-04 — A balance read off the app can be wrong for days
+
+- From 24 Oct to 30 Oct every balance he gave was ~NGN 34,359 under his GTB statement, and I built a "cleared late" story on 26 Oct to explain one gap. When a gap comes back unexplained, ask for the statement PDF before inventing a reason. The statement wins over a typed balance.
