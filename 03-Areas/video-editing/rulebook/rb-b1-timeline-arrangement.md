@@ -35,7 +35,7 @@ section: B1
 ### Timelines, versions and his edits
 - **B1.14** Never write to a timeline without a backup of it first. ⚙️
 - **B1.15** Before he has cached or edited a build: each pass lands as a new versioned timeline (`Visuals v1 (Editor)`, v2 …). The previous version stays untouched as a fallback; old ones are renamed `zz … old`. ✅ *"I want to do it all at once and have reviews in versions"* (2026-10-13)
-- **B1.16** Once he has cached a timeline, fix it in place: back up once, then swap comps on the existing clips so only touched clips re-cache. A duplicate is OK only if the cache survives or the whole timeline is re-cached at the end. 🔁 ×2 ✅ *"I would love you to work on one timeline instead of duplicating timelines"* (2026-10-10, 2026-10-15). See Q-B1.a.
+- **B1.16** Fixes to the Editor's own timeline go in place, after one backup: swap comps on the existing clips. A timeline he has worked on himself is duplicated first (A2.28). Reviews run on a render timeline, so no re-cache is needed (A2.29). ✅ *"I would love you to work on one timeline instead of duplicating timelines"* (2026-10-10, 2026-10-15) · aligned with A2.28 + A2.29 (2026-11-03)
 - **B1.17** His edits stand. His own clips, moves and disabled clips stay as he left them and are carried into any rebuild. Record which clips are disabled and compare comp contents before calling a change his or ours. ✅ *"I move the adjustment clip here"* (2026-10-24); his intro clip (2026-10-25)
 - **B1.18** He may switch timelines in the open project. Confirm which timeline is current before every edit. ✅ *"I changed timelines so just in case, so you can switch back to the right one"* (2026-10-09)
 - **B1.19** Keep the timeline length unchanged. Touch only the tracks and frame range the marker or brief names. ⚙️
@@ -52,7 +52,7 @@ section: B1
 - (no picture yet: a screenshot of the track stack of one of his approved finals, e.g. TSB, with each track labelled)
 
 ## Questions for Samuel
-- **Q-B1.a** (A2.28 + A2.29, 2026-11-03, point to: duplicate his timeline; fix the Editor's own in place; review on a render.) After you have edited **and** cached a timeline, where do our fixes go? Your words (2026-10-10, 2026-10-15): one timeline, in place, so the cache survives. Our method since 2026-10-29 (Cold Email, video 4): a duplicate of your edited timeline, never your timeline itself. → Options: (1) in place on your timeline, after one backup (2) on a duplicate, and you re-cache. My pick: (1), it keeps your cache.
+- **Q-B1.a** (A2.28 + A2.29, 2026-11-03, point to: duplicate his timeline; fix the Editor's own in place; review on a render.) After you have edited **and** cached a timeline, where do our fixes go? Your words (2026-10-10, 2026-10-15): one timeline, in place, so the cache survives. Our method since 2026-10-29 (Cold Email, video 4): a duplicate of your edited timeline, never your timeline itself. → Options: (1) in place on your timeline, after one backup (2) on a duplicate, and you re-cache. My pick: (1), it keeps your cache. → Samuel: answered by A2.28 + A2.29 (2026-11-03): his timeline duplicated, the Editor's own fixed in place, review on a render.
 - **Q-B1.b** Order of the two adjustment tracks. Video 4 puts the focus clip on V3 and the media clip (NeoAnim + Vignette + MagicZoom) on V4. In TSB your NeoAnim clip sat directly above the media on V3, captions on V4. → Options: (1) video 4 order, so the vignette and slow zoom also cover the highlight (2) TSB order. My pick: (1).
 
 ## Sources
