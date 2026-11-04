@@ -100,3 +100,4 @@ Back to [[03-Areas/finances/finances|Finances]]
 - Coming: *"By december I am paying 100k to my sister for our christmas hangout"*; *"Once rent is paid, I would need roughly 500k monthly to help furnish the house"*; *"my GF may need extra money"* (no amount; the Buffer, not the rent fund).
 
 - (later) *"Furnishing replaces the building project, until I say so"*. Furnishing NGN 500,000 a month takes the building line from the month after rent is paid. Rule 4 reads for Furnishing. Rubuik Cube is NGN 6,860, *"that's the new price"*.
+- (later) *"I am not touching the rent money of payday B"*: Payday B's NGN 261,401 goes to the rent fund whatever else comes up. A creative director payment (~NGN 60,000, undecided) can only come from cash on hand.
