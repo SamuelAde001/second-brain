@@ -13,10 +13,10 @@ Real goals with numbers and dates, from the system Samuel confirmed on 2026-09-2
 
 | Goal | Measure | Target date | Status |
 |------|---------|-------------|--------|
-| **Goal 1 — rent** (was the house, NGN 1,000,000) | **NGN 1,200,000 a year for his present house** (estimate, no price yet) | **Paid in full in December 2026** | Changed 2026-11-04, Samuel: *"I no longer am moving out to a new house, I am fully renting this my present house, it would cost me 1.2M per Year, I think"*. NGN 346,041 saved; November plan adds NGN 547,503 → NGN 893,544; December needs NGN 306,456 |
+| **Goal 1 — rent** (was the house, NGN 1,000,000) | **NGN 1,200,000 a year for his present house** (estimate, no price yet) | **Paid in full in December 2026** | Changed 2026-11-04, Samuel: *"I no longer am moving out to a new house, I am fully renting this my present house, it would cost me 1.2M per Year, I think"*. NGN 346,041 saved; NGN 646,041 on 2026-11-04 after Payday A; Payday B adds NGN 246,401 → NGN 892,442; December needs NGN 307,558 |
 | **Goal 2 — marriage** | **NGN 3,000,000 more, on top of Goal 1** — NGN 4,000,000 total | **31 Jul 2027** | Not started. Needs **NGN 428,571/month** across Jan–Jul 2027 |
 | **Emergency fund** | **NGN 300,000** | Funded from **January 2027**, after Goal 1 closes | NGN 0. His call: it does not compete with the December target |
-| **Building project** | **NGN 500,000 every month, no shortfall** | Ongoing | August 2026 was NGN 200,000 — a NGN 300,000 shortfall on the record. **November 2026: NGN 0**, the NGN 500,000 went to the rent fund (Samuel, 2026-11-04). Whether it comes back, or furnishing (*"roughly 500k monthly to help furnish the house"*, once rent is paid) replaces it, is not answered yet |
+| **Building project** | **NGN 500,000 every month, no shortfall** | Ongoing | August 2026 was NGN 200,000 — a NGN 300,000 shortfall on the record. **November 2026: NGN 0**, the NGN 500,000 went to the rent fund (Samuel, 2026-11-04). Replaced by **Furnishing, NGN 500,000 a month**, from the month after rent is paid: *"Furnishing replaces the building project, until I say so"* |
 | **Buffer** | **NGN 200,000** at NGN 90,000/month (from 2026-10: NGN 40,000 Cowrywise savings + NGN 50,000) | — | NGN 6,959 as of 2026-09-28 (ledger, the Cowrywise savings). October plans NGN 134,891 in |
 
 **The investment pot does not count toward any of these.** Rule 7, [[money-rules]].

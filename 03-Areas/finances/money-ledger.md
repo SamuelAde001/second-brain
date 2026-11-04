@@ -292,6 +292,13 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-11-04 | major | 110,000 | To girlfriend, for her use | Girlfriend allowance | his words: "I just sent 650k to my GF, 500k for her rent, 110k for her use, and 40k for sons drum"; plan line 100,000, raised to 110,000 (his transfer) |
 | 2026-11-04 | major | 40,000 | Son's drum, sent with the girlfriend transfer | Son's drum | his words: "I just sent 650k to my GF, 500k for her rent, 110k for her use, and 40k for sons drum"; plan had it on B, paid on A |
 | 2026-11-04 | major | 120,000 | To dad | Parents | his words: "Also, I sent 120k to my dad"; plan line 200,000 (incl. 50,000 for his birthday); transfer charges not given |
+| 2026-11-04 | major | 300,000 | Girlfriend's phone | Girlfriend's phone | his words: "Sent the 300k for her phone" |
+| 2026-11-04 | to-pot | 300,000 | Goal 1 (the rent fund), Payday A | Goal 1 | his words: "Sent 300k for the rent so it is a round number"; plan A 295,704, the extra 4,296 from cash on hand; Rule 3 kept: same day as Payday A |
+| 2026-11-04 | to-pot | 60,000 | Investment fund, Payday A | Investment fund | his words: "Sent 60k for investment"; Rule 7 kept |
+| 2026-11-04 | major | 8,000 | Wedding outfit, the cap | Wedding outfit | his words: "Sent 8k for the wedding outfit cap, haven't sent the remainder"; 32,000 of the 40,000 line not sent |
+| 2026-11-04 | major | 6,860 | Rubuik Cube community, monthly | Subscriptions | his words: "sent 6,860 for the robuilks cube community, that's the new price"; plan 6,000 |
+| 2026-11-04 | charges | 242 | Bank charges | — | derived; rows give 326,943, he has 326,701 |
+| 2026-11-04 | balance | 326,701 | Bank | — | his words: "what is in my account right now is 326701" |
 
 Back to [[03-Areas/finances/finances|Finances]]
 

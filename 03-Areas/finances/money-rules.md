@@ -2,7 +2,7 @@
 type: knowledge
 area: finances
 status: active
-updated: 2026-09-28
+updated: 2026-11-04
 source: legacy-accountability-engine
 tags: [rules, money]
 ---
@@ -42,6 +42,8 @@ Cowrywise moves on **Payday A**. Goal 1 and the Buffer move on **Payday B** — 
 
 ### 4. The building project is paid in full before any discretionary line
 **NGN 500,000, every month.** August 2026 was NGN 200,000 — a NGN 300,000 shortfall, on the record.
+
+> **Changed 2026-11-04.** Samuel is staying in his present house and renting it. November's NGN 500,000 went to the rent fund (*"I need to channel all the money for my building project to my rent"*). From the month after rent is paid, **Furnishing, NGN 500,000 a month, takes the building project's place**: *"Furnishing replaces the building project, until I say so"*. The rule now reads for Furnishing.
 
 ### 5. No new work below USD 333 per video
 Whether it is a new Route Rise end client or a new payer — not without logging the reason in the ledger. The August batch lost roughly **NGN 432,000** to the USD 175 rate.

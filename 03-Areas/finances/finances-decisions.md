@@ -98,3 +98,5 @@ Back to [[03-Areas/finances/finances|Finances]]
 - *"I want to buy my GF a phone of 300k"*: in November, Payday A. Money man advised December, so rent would be fully covered by Payday B. His call.
 - *"my GF's appartment would now be 500k"*; grandma's NGN 50,000 to dad for his birthday; Cowrywise savings NGN 40,000 to the wealth club, *"40k wealth club is quarterly"*; Workspace held; sister nothing this month; creator visits = the Rubuik hangout, NGN 25,000; Rubuik Cube NGN 6,000 a month; wedding outfit NGN 40,000.
 - Coming: *"By december I am paying 100k to my sister for our christmas hangout"*; *"Once rent is paid, I would need roughly 500k monthly to help furnish the house"*; *"my GF may need extra money"* (no amount; the Buffer, not the rent fund).
+
+- (later) *"Furnishing replaces the building project, until I say so"*. Furnishing NGN 500,000 a month takes the building line from the month after rent is paid. Rule 4 reads for Furnishing. Rubuik Cube is NGN 6,860, *"that's the new price"*.
