@@ -83,5 +83,8 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · Q-A6.b · the client's own past edit by him is the recipe; other clients' finals are side references.
 - 2026-11-05 · Q-A6.c · a new client with no past edit: ask him for a reference video and the style at job start.
 - 2026-11-05 · A6 · **section approved** rule by rule: 56 rules (54 ✔, 2 ✏), 3 questions answered. **Part A complete.**
+- 2026-11-05 · B1.1 B1.2 B1.3 B1.4 B1.5 B1.6 B1.7 B1.8 · ✔ approved.
+- 2026-11-05 · B1.9 · ✏ typing and data sounds go on the SFX tracks, not their own track. *"the typing and data sounds should be with the SFX tracks, not on their own"*
+- 2026-11-05 · Q-B1.b · video 4 order: focus adjustment clip on V3, media adjustment clip on V4.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
