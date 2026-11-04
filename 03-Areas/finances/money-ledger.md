@@ -286,6 +286,8 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-11-03 | balance | 10,619 | Bank | — | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04): closing balance 10,618.98 (usable balance 20,477.31, difference not explained) |
 | 2026-11-04 | in | 20,000 | Flutterwave to personal | — | his words: "I sent 20k from the flutterwave to my account this morning" |
 | 2026-11-04 | correction | — | Two fixes to the 2026-11-04 statement correction row | — | GTB statement re-read: (1) the 13,000 on 2026-10-24 went to Opay, Zuwairatu Kadiri, not Gladys; Gladys got 10,000 on 2026-10-24 (matches the "friend who needs help" row) and sent 10,000 back ("thank you for coming through for me", the 2026-10-27 repaid row). (2) The gap is older than 2026-10-24: statement opens 2026-10-22 at 136,325.43, he gave 102,047 on 2026-10-21. Where it began is not on this statement |
+| 2026-11-04 | in | 1,751,326 | Route Rise, October batch 70% | — | his words: "I just got paid 1,284 dollars, and recieved 1751326 in my bank"; invoice #15: 70% of USD 1,841.65 = USD 1,289.16 billed, USD 1,284 received (USD 5.16 lost to charges); NGN 1,751,326 / USD 1,284 = about NGN 1,363.96/USD (derived); landed 2026-11-04; plan expected NGN 1,733,462 (+17,864) |
+| 2026-11-04 | balance | 1,771,803 | Bank | — | his words: "now my account is 1771803", after Payday A landed. Before it: 1,771,803 - 1,751,326 = 20,477 (derived), vs 30,619 from the ledger: NGN 10,142 not explained (matches the statement's usable balance 20,477.31); asked, no bulk row written |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
