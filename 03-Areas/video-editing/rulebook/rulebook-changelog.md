@@ -77,5 +77,7 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-04 · A6.11 A6.12 A6.13 A6.14 A6.15 A6.16 A6.17 A6.18 A6.19 A6.20 · ✔ approved.
 - 2026-11-04 · A6.21 A6.22 A6.23 A6.24 A6.25 A6.26 A6.27 A6.28 A6.29 A6.30 A6.31 · ✔ approved.
 - 2026-11-04 · A6.32 A6.33 A6.34 A6.35 A6.36 A6.37 · ✔ approved.
+- 2026-11-05 · A6.38 A6.39 A6.40 A6.41 A6.42 A6.43 A6.44 · ✔ approved.
+- 2026-11-05 · Q-A6.a · answered: approval gates by default; he lifts them for a run (overnight / no gates).
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
