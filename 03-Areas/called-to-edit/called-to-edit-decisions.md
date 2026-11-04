@@ -133,3 +133,8 @@ Samuel: *"Today, the webinar bonus is finished, so now anyone that registered fo
 **Correction, 2026-10-30 (same morning):** Samuel: *"In fact I want it to close by midnight instead as some people want to pay for it, let's give them the chance"*. The offer runs to **23:59 WAT 2026-10-30** again. The old webinar link now 301s to `calledtoedit.com/community/webinar`, which shows NGN 2,000 until midnight, then full price by itself. No redeploy needed at midnight. Checked live.
 
 **Correction, 2026-10-30 (evening):** Samuel: *"Move it till sunday, someone begged me for that"*. The NGN 2,000 offer now ends **Sun 2026-11-01, 23:59 WAT** (server check, page countdown, banner "Ends Sunday 1 Nov, 11:59pm"). Full price from Monday 00:00 by itself. Deployed, checked live.
+
+## 2026-11-04 · Community: USD 5 / EUR 5 outside Nigeria
+- **Problem (Samuel):** *"Someone is trying to join my community but can't join cause they can't pay with Paypal or resolut, he is from croatia, and his card isn't working"*. Earlier foreign failures were the buyer's bank refusing a naira charge ("Restricted Card"), not Flutterwave.
+- **Decision (Samuel, picked from the options given):** international buyers pay **USD 5 / EUR 5** a month (Europe EUR, everyone else USD), shown **by country, with a switch**. Nigeria stays NGN 5,000.
+- **Built (Brand manager):** live on calledtoedit.com the same night; site commit `5465395`. Flutterwave adds 0.10 to foreign-currency checkouts (EUR 5 shows as EUR 5.10 to the buyer). → [[04-Projects/called-to-edit-community-launch|community launch]]
