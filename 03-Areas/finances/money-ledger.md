@@ -285,6 +285,7 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-11-03 | bulk | 4,500 | Cash withdrawal, POS, FCMB agent | Extra cash | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04); purpose asked, not answered yet; line is a guess |
 | 2026-11-03 | balance | 10,619 | Bank | — | GTB statement 22-Oct to 04-Nov-2026 (his PDF, 2026-11-04): closing balance 10,618.98 (usable balance 20,477.31, difference not explained) |
 | 2026-11-04 | in | 20,000 | Flutterwave to personal | — | his words: "I sent 20k from the flutterwave to my account this morning" |
+| 2026-11-04 | correction | — | Two fixes to the 2026-11-04 statement correction row | — | GTB statement re-read: (1) the 13,000 on 2026-10-24 went to Opay, Zuwairatu Kadiri, not Gladys; Gladys got 10,000 on 2026-10-24 (matches the "friend who needs help" row) and sent 10,000 back ("thank you for coming through for me", the 2026-10-27 repaid row). (2) The gap is older than 2026-10-24: statement opens 2026-10-22 at 136,325.43, he gave 102,047 on 2026-10-21. Where it began is not on this statement |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
