@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-11-01
+updated: 2026-11-04
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -296,5 +296,22 @@ What he taught on Called to Edit Community calls. Times are from the start of ea
 - **Call 2026-11-01 [1:10:13]** *"I was self-taught. I didn't buy any course. The only thing I paid for was a community."* *"Initially I wanted to learn everything, and I realised it doesn't make sense, so I had to list down what I need to learn."*
 - **Call 2026-11-01 [1:10:54]** *"My guidance here is: after you've learned, how can you use what you've learned to actually get paid and get clients and get visible."* He'll still give feedback on members' edits.
 - His homework to the member: pick the niche, find every skill it needs, and write it down in your documentation [1:11:25].
+
+### Call 2026-11-04: knowing the software isn't knowing how to edit: the gun
+- **Call 2026-11-04 [0:10:30]** *"Learning the software is not the same thing as learning the skill of editing."*
+- **Call 2026-11-04 [0:10:47]** *"If I give you a gun and tell you how the gun works, does that mean you are a good shooter?"* *"You might know how a gun works, but you go to battle and still not be able to use the gun properly, even though you are firing the gun."*
+- Learning the software is the easy part [0:10:08]: there are full tutorials online, like a five-hour DaVinci Resolve class.
+- The skill is [0:12:13] *"the ability to know how to use the software to implement on the things that you want to do and achieve a certain result."*
+- The other way round fails too [0:13:10]: you see a great edit and can't make it because you've not mastered your software. *"It is important for you to first master whatever tools and software you want to use, then after that master the skill of editing."*
+- **For AI video creators** [0:15:36]: *"Your software is your AI tools."* Master those.
+
+### Call 2026-11-04: software, skill and visibility at the same time
+- **Call 2026-11-04 [0:13:42]** *"You can do both of them at the same time. While learning the software you are learning the skill, and at the same time, while learning the software and learning the skill, you must be visible. Why? Because you need to document your journey."*
+- **Call 2026-11-04 [0:30:42]** *"I want you guys to do those three things at the same time."* *"You can't be perfect in the software."*
+- That's why the community starts with visibility [0:31:06]: so members practise it while they learn the software and the skill. The principles of editing get classes of their own.
+
+### Call 2026-11-04: practise on the unedited part of a big video
+- A member, a motion designer who edits business coach videos, couldn't find the right videos to practise on [0:55:45].
+- His answer [0:55:54–0:56:35]: go to YouTube. Many videos there are already heavily edited, but they have sections that aren't. His MKBHD edit came from one: *"it was just a section of that video that he was talking about something and there was no crazy edit there. I downloaded that video. After downloading it, I cut only that section and I re-edited that."*
 
 [[05-Knowledge/teachings/teachings-01-story-and-mindset|← Story and mindset]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-03-tools-and-money|Tools and money to start →]]

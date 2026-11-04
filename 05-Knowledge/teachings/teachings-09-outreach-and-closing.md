@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-28
+updated: 2026-11-04
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -129,5 +129,23 @@ What he taught on Called to Edit Community calls. Times are from the start of ea
 - **Call 2026-10-28 [1:07:34]** *"You must be visible, you must be good, and you must know how to outreach."* Good: *"learn your software and master it."* Outreach: *"reach out to the right clients."*
 - Each part alone isn't enough. **Call 2026-10-28 [1:07:10]** *"Without visibility you're not going to get clients."* And [0:13:35]: *"No matter how much you reach out to clients, if your skills are bad, you won't be able to get any clients."*
 - A shorter version of the webinar's first-client formula above [2:49:20].
+
+### Call 2026-11-04: public outreach, the most powerful outreach
+- **Call 2026-11-04 [0:21:01]** *"I have figured out the most powerful outreach strategy, and I'm not joking"*: public outreach. **Call 2026-11-04 [0:21:35]** *"It mixes two things: your personal brand and your outreach at the same time."* It uses multiple points of contact; a full teaching on it is coming.
+- **What it is, Call 2026-11-04 [0:45:41]** *"You are recreating a video for someone publicly, someone very important, and because that video edit was so good, you might get other clients that will reach out to you."*
+- **His proof, shown on screen** [0:44:46–0:46:40]: in 2024 he re-edited a section of an MKBHD video, *"one of the best edits I did of those days."* He reached out to MKBHD and posted it on Twitter, tagging them. MKBHD didn't become a client. **Call 2026-11-04 [0:46:27]** *"I posted it on Twitter and it landed me another client, not even MKBHD."*
+- It's the value-first post-and-tag step above, given a name and put first.
+
+### Call 2026-11-04: volume outreach or quality outreach
+- A member asked how much outreach to do a day when a value-first re-edit takes time, maybe one or two a day [0:48:51].
+- His question back [0:49:39]: send 1,000 simple emails, or 50 re-edits: which gets you a client?
+- **Two methods** [0:50:09]: volume outreach and quality outreach. In his experience about 2% reply to simple emails [0:50:41]: 2% of 1,000 is 20. Quality outreach might get about 10% [0:51:55]. **Call 2026-11-04 [0:52:12]** *"Either you go the route of high volume with less chances, or low volume with higher chances."* Both work.
+- **Call 2026-11-04 [0:52:50]** *"From my experience, you will get more quality clients when you do quality outreach."* With volume, *"you will get less quality clients, because the quality clients will not listen to you."*
+- **Call 2026-11-04 [0:53:06]** *"Imagine a 500,000-subscriber YouTuber. Would he pay attention to a simple email?"* A value-first outreach is what gets that person's attention.
+
+### Call 2026-11-04: pitch through the client's pain point
+- **Call 2026-11-04 [0:59:36]** *"Some clients, their pain point is just editing. Some clients, their pain point is that they need more views. Some clients, their pain point is that they need more customers and more clients. Some clients, their pain point is that they don't have enough time."*
+- **Call 2026-11-04 [0:59:52]** Once you can identify it, use that pain point as your way into the outreach. His example [1:00:02]: *"I noticed that you don't have enough time to edit your videos. Let me take that burden from you and do it for you."* Not *"I can edit your videos for you."*
+- That's why you study the client first [1:00:23]. More in the outreach teachings.
 
 [[05-Knowledge/teachings/teachings-08-finding-clients|← Finding clients]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-10-pricing-and-getting-paid|Pricing and getting paid →]]

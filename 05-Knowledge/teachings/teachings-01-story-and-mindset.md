@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-28
+updated: 2026-11-04
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -167,5 +167,16 @@ What he taught on Called to Edit Community calls. Times are from the start of ea
 ### Call 2026-10-28: you do the work
 - **Call 2026-10-28 [0:15:36]** *"I can only teach you and guide you. At the end of the day, you will be the one to work."*
 - **Call 2026-10-28 [1:08:49]** *"The community is starting by your work. I'm going to be teaching every Wednesday, but you are the one that is doing the work."*
+
+### Call 2026-11-04: the eight steps in the journey of a video editor
+- **Call 2026-11-04 [0:07:36]** *"There are eight major steps in the journey of a video editor, and learning the software and learning the skill is only step one and step two."*
+- The steps, as he summed them up [0:27:28]: 1. learning the software · 2. learning the skill of editing · 3. becoming visible · 4. positioning yourself to the right client · 5. outreach · 6. closing your first clients · 7. building your network · 8. offering more than video editing.
+- Step 8 is a bigger offer. **Call 2026-11-04 [0:27:13]** *"It is at this stage that you hear video editors charging up to 5 million naira or 10 million naira a month."* (Machine transcript: check the figures against the recording before using them.)
+- **Call 2026-11-04 [0:27:56]** *"This is the eight parts of video editing career that I am going to make sure that everybody in this community grows through."*
+- Why he starts with the whole path and not the software [0:08:46]: you can learn things on YouTube that you never use, and *"you won't know how to implement it to actually get clients."*
+
+### Call 2026-11-04: learning editing is not the hard part
+- **Call 2026-11-04 [0:04:52]** *"Some of us think learning video editing is the hard part. Learning video editing is not even the hard part."* The hard part: *"How can I actually get paid? How can I implement this to make it successful?"*
+- **Call 2026-11-04 [0:04:34]** *"Whatsoever you learn can only be beneficial once you start being able to implement it the right way, and that's where the struggle is."* One week in, he counted about 10 to 12 of about 45 members putting in the work.
 
 [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-02-learning-the-skill|Learning the skill →]]

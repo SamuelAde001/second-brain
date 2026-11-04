@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-11-01
+updated: 2026-11-04
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -170,5 +170,17 @@ What he taught on Called to Edit Community calls. Times are from the start of ea
 ### Call 2026-11-01: a company: send to its email and to someone who works there
 - A member, a motion designer, asked whether to send outreach to a company's email or to someone employed there. **Call 2026-11-01 [1:12:05]** *"Send both."* It's multiple points of contact.
 - **Call 2026-11-01 [1:12:16]** *"If the company sees it and they trash it, but the employee now helps you and gets the job, that's a great deal."* **Call 2026-11-01 [1:12:29]** *"You don't know where the opportunity is going to come in."* Their email, their Instagram: more than one.
+
+### Call 2026-11-04: the five things that get you clients, and how they loop
+- **Call 2026-11-04 [0:33:01]** *"There are five things that get you clients... If you do these five things, and I'm not bluffing, these five things are what will actually make you successful."* He called them *"the five musketeers"* [0:37:58]: competence, visibility, outreach, recommendation, networking.
+- **Competence is the centre** [0:36:54]: you know your software and you're good at your skill. *"I don't downplay you learning your skill."* But **Call 2026-11-04 [0:34:03]** *"Competence alone is not going to get you anywhere."*
+- **The loop** [0:35:25–0:36:20]: be visible so people see your competence · reach out so people see your value · your first client recommends you, so you get more clients · visibility gets you into networks of other editors · your network recommends you, and you get another client.
+- **Call 2026-11-04 [0:37:37]** *"Recommendation is the pinnacle of video editing, because if your previous client likes your work and they recommend you, that means you are competent. If your network likes you and they recommend you, that means you are competent."*
+- On 2026-11-01 his five core pillars were skill set, visibility, competence, outreach, recommendation ([[05-Knowledge/teachings/teachings-06-visibility-and-personal-brand|Visibility and personal brand]]). Here networking is one of the five, and competence means software plus skill.
+
+### Call 2026-11-04: visibility brings clients, outreach lets you choose them
+- **Call 2026-11-04 [0:19:58]** *"Don't always wait for clients. You will learn to reach out to clients, thereby making it that you multiply your chances of landing clients."*
+- **Call 2026-11-04 [0:20:16]** *"The bad side about being visible is that you don't really decide the clients that reach out to you. So a bad client can still reach out to you."*
+- **Call 2026-11-04 [0:20:28]** With outreach, *"you as the video editor decide the clients that you want to work with."*
 
 [[05-Knowledge/teachings/teachings-07-portfolio-and-packaging|← Portfolio and packaging]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-09-outreach-and-closing|Outreach and closing →]]

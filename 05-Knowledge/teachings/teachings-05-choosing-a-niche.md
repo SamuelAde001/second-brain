@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-28
+updated: 2026-11-04
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -116,5 +116,9 @@ What he taught on Called to Edit Community calls. Times are from the start of ea
 - A member asked about short form or long form: *"I could do both."* His answer, **Call 2026-10-28 [0:55:12]**: *"No, don't do both. Start with one."*
 - **Call 2026-10-28 [0:55:29]** *"It is better you are best in one thing than you are mediocre in multiple things. Start somewhere to build your foundation, and then you establish across other places that you can spread."*
 - To a member who named several things they wanted to build: *"I need you to be very clear about what you are trying to build"* [1:00:00]. **Call 2026-10-28 [1:00:26]** *"International clients need people that are good in a particular thing."*
+
+### Call 2026-11-04: one of five million generalists
+- Positioning is step 4 of the journey. **Call 2026-11-04 [0:19:19]** *"You can't be a generalist video editor and expect to succeed in the midst of five million other generalist video editors."*
+- **Call 2026-11-04 [0:19:43]** *"Learn one thing and become the best in it. That is how you position yourself to the right clients."* His examples: motion graphics, short form, gym videos, business.
 
 [[05-Knowledge/teachings/teachings-04-editing-decisions|← Editing decisions]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-06-visibility-and-personal-brand|Visibility and personal brand →]]

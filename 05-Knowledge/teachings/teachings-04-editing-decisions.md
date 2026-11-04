@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-24
+updated: 2026-11-04
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -63,5 +63,16 @@ What he said live that the prep didn't have, or said better. Times are from the 
 - **Live [0:29:11]** The fast-paced flashy videos on Instagram *"are cool, but those videos don't make money."* Money comes from videos that drive results for business people.
 - **Live [1:07:48]** How a video gets a business customers: edited so the target audience enjoys it, or understands the information so well *"they will remove their money and pay."* **"A good video can be the difference between whether a customer is willing to pay for that service or not."**
 - **Live [1:35:19]** *"Every video has a goal."* The client has a reason for posting it; edit for that reason, not to look fancy.
+
+## Community calls
+
+What he taught on Called to Edit Community calls. Times are from the start of each call's recording; each call's note is listed in the [[05-Knowledge/teachings/teachings-archive|archive]].
+
+### Call 2026-11-04: don't promise views you haven't delivered before
+- A member asked: if your offer promises views and the video you edit doesn't bring them, does that make you less competent? His answer: no [0:57:00].
+- **Call 2026-11-04 [0:57:22]** Stop pitching your skill and pitch the result, *"but for you to get result you have to learn more than video editing. You have to understand the psychology of content."*
+- **Call 2026-11-04 [0:57:45]** *"Because a video is well edited does not mean it will bring more views."* You also need pacing (heard as "paste" in the transcript), the hook, content strategy, scriptwriting and storytelling [0:58:00–0:58:22].
+- **Call 2026-11-04 [0:58:27]** *"The skill of video editing is bigger than just knowing how to cut and add flashy transitions."* *"You are more of a content partner than a video editor."*
+- **Call 2026-11-04 [0:58:41]** If you can't yet make a video convert that much, *"don't promise a client views yet,"* not until your edits have brought that result before. [0:59:08] *"You have to be sure that you can do it, and you have to have done it before for someone else. Don't promise something that you are not 100% sure."*
 
 [[05-Knowledge/teachings/teachings-03-tools-and-money|← Tools and money to start]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-05-choosing-a-niche|Choosing a niche →]]

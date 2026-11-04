@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-11-01
+updated: 2026-11-04
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -207,5 +207,10 @@ What he taught on Called to Edit Community calls. Times are from the start of ea
 - **Call 2026-11-01 [1:04:16]** *"It is very, very difficult to grow any social media account."* On Twitter you don't just post, you engage: the *"comments guy"* who comments on people's posts. **Call 2026-11-01 [1:04:40]** *"It takes a lot of work to build a reputation on one platform, now talk less of multiple."*
 - **His setup** [1:04:53–1:06:16]: Twitter was his major platform, where he did the grind. He reposted the same posts to LinkedIn, his secondary, without engaging there. He only opened LinkedIn because a company he wanted to work for asked for his profile. Instagram was a third account, *"but it started to burn me out trying to post everywhere"*, so he abandoned it and focused on Twitter.
 - **Call 2026-11-01 [1:06:11]** *"Have a major platform, because it takes a lot of work to grow any other platform."*
+
+### Call 2026-11-04: every editor who made it had visibility helping them
+- **Call 2026-11-04 [0:16:06]** *"Every great video editor that has succeeded has an aspect of his visibility helping him."* So be visible while you learn the software and the skill, *"so that people can appreciate that which you are learning, and therefore opportunities can come for you."*
+- **Call 2026-11-04 [0:16:55]** Visibility brings inbound: *"Till today I still get a lot of DMs of people reaching out to me that they want me to edit their videos."*
+- **Call 2026-11-04 [0:34:11]** *"A diamond that is hidden under a rock would not be valued. No matter how good you are, if you're invisible, no one is going to value your editing."* A new form of *"A diamond is as valuable as it is visible"* ([[05-Knowledge/teachings/teachings-01-story-and-mindset|Story and mindset]]).
 
 [[05-Knowledge/teachings/teachings-05-choosing-a-niche|← Choosing a niche]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-07-portfolio-and-packaging|Portfolio and packaging →]]

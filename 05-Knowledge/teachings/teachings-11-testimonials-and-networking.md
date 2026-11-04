@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-10-28
+updated: 2026-11-04
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -92,5 +92,15 @@ What he taught on Called to Edit Community calls. Times are from the start of ea
 ### Call 2026-10-28: community is the fastest way to grow
 - **Call 2026-10-28 [0:10:46]** After five years editing and working with many other editors: *"Community growth is the fastest way of establishing something substantial."*
 - **Call 2026-10-28 [0:11:02]** *"One of the times that video editing changed my life, the trajectory, was when I joined some kind of community."*
+
+### Call 2026-11-04: use your first clients well and you won't lack clients
+- **Call 2026-11-04 [0:22:06]** *"Once you start closing your first set of clients... you won't lack clients anymore."*
+- Do a good job for your first clients and [0:22:26] they may recommend you, they may give you a testimonial, and the work goes into your portfolio. Together that builds credibility for the next client.
+- **Call 2026-11-04 [0:23:45]** *"If you know how to use your last clients in the right way, you will get more clients from your last clients."* Used well, they also mean more pay from your present client [0:25:12]. A teaching on the principle of recommendation is coming.
+- Some clients are so bad *"that you don't want them to even be the one recommending you"* [0:24:43]. He has had them too.
+
+### Call 2026-11-04: his 1-million-subscriber client came through another editor
+- **Call 2026-11-04 [0:25:24]** *"Video editors, or other people in your niche, are one of the major people that will boost your career."*
+- **His proof** [0:25:37–0:27:07]: one of the biggest clients he has worked with by subscriber count, a YouTuber with about 1 million subscribers. **Call 2026-11-04 [0:25:47]** *"I didn't get that guy based on I was good. It was another video editor that recommended me,"* an editor who loves his work. *"There's a reason why you need to be able to build your network."*
 
 [[05-Knowledge/teachings/teachings-10-pricing-and-getting-paid|← Pricing and getting paid]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-12-webinar-qa|Webinar Q&A →]]
