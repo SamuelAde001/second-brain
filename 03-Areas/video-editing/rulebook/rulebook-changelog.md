@@ -79,5 +79,9 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-04 · A6.32 A6.33 A6.34 A6.35 A6.36 A6.37 · ✔ approved.
 - 2026-11-05 · A6.38 A6.39 A6.40 A6.41 A6.42 A6.43 A6.44 · ✔ approved.
 - 2026-11-05 · Q-A6.a · answered: approval gates by default; he lifts them for a run (overnight / no gates).
+- 2026-11-05 · A6.45 A6.46 A6.47 A6.48 A6.49 A6.50 A6.57 A6.58 A6.59 A6.60 A6.61 A6.62 · ✔ approved.
+- 2026-11-05 · Q-A6.b · the client's own past edit by him is the recipe; other clients' finals are side references.
+- 2026-11-05 · Q-A6.c · a new client with no past edit: ask him for a reference video and the style at job start.
+- 2026-11-05 · A6 · **section approved** rule by rule: 56 rules (54 ✔, 2 ✏), 3 questions answered. **Part A complete.**
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

@@ -1,8 +1,8 @@
 ---
 type: sop
 area: video-editing
-status: draft
-approved:
+status: approved
+approved: 2026-11-05
 updated: 2026-11-03
 source: interview
 tags: [rulebook]
@@ -11,7 +11,7 @@ section: A6
 
 # A6 · Visual ideation and planning
 
-> **Read when:** after Samuel approves the cut and before any build: studying the reference, writing the per-sentence plan, hero frames for a new look, the preview gate, turning his approvals into the build list. Editor and the Opus planner (editor-builder). **Client values:** which reference video is the recipe and which final is the bar (client overlays K2/K3: [[03-Areas/video-editing/clients/alex|Alex]], [[03-Areas/video-editing/clients/gamma|Gamma]]). **Status:** draft, not yet approved by Samuel.
+> **Read when:** after Samuel approves the cut and before any build: studying the reference, writing the per-sentence plan, hero frames for a new look, the preview gate, turning his approvals into the build list. Editor and the Opus planner (editor-builder). **Client values:** which reference video is the recipe and which final is the bar (client overlays K2/K3: [[03-Areas/video-editing/clients/alex|Alex]], [[03-Areas/video-editing/clients/gamma|Gamma]]). **Status:** approved by Samuel rule by rule, 2026-11-05.
 
 ## Rules
 ### Study before planning
@@ -67,20 +67,20 @@ section: A6
 - **A6.42** Preview gate: one page per section; each motion-graphic beat (kinds `motion-graphic`, `overlay`, `aroll-fx` with a comp) as a short clip beside its line, Approve or Note. Only approved beats go on the timeline. Screen recordings, captures, UI demos and B-roll skip it. Command: [[03-Areas/video-editing/sops/video-pipeline-tools|video pipeline tools]] → `preview_page.py`. ✅ *"maybe if I can review the visuals before they get on the timeline, especially the motion graphic beats"* (2026-10-28) · ✔ 2026-11-05
 - **A6.43** Show the gate early: the anchors and the first section's motion beats before the other sections are built. Send sample renders early. ⚙️ (video 4 markers came after the 4K render) ✅ *"The sample renders you showed me looks good, just that you did too much of the animation"* (2026-10-31) · ✔ 2026-11-05
 - **A6.44** Put each note from the gate on the review card the same session and turn it into a fix spec. A rule he gives on one visual applies to every similar construct. ✅ *"some of the rules I have used applies for the rest with similar construct"* (2026-09-27) · ✔ 2026-11-05
-- **A6.45** He may approve gradually as he goes through the edit, or ask for specific visuals. When his review covers only part of the video, build new visuals only where his marker covers (corrections still apply everywhere, E2). ✅ *"I only worked with the part my marker shows, so build the visuals there"* (2026-10-02)
-- **A6.46** Before acting on his notes, list the extra fixes you planned so he can veto them. ✅ *"Can you list me the other fixes you planned to do?"* (2026-10-29)
-- **A6.47** Ask short either/or questions with the default already chosen ("answer only where you disagree"). For a structurally unclear decision, ask one targeted question before rebuilding; otherwise go on sensible defaults and flag them. ✅ (before 2026-09-19) ⚙️ (2026-10-08)
-- **A6.48** When a look is rejected, keep the plan's structure (beats, timing, captures) and re-plan only the compositions. ⚙️ (2026-10-21)
-- **A6.49** Unattended runs he names (overnight, "all at once"): no approval stops. Build on defaults; save the hero stills, previews and every choice for his morning review; versioned timelines. Otherwise the gates above apply. ✅ 🔁×3 *"No storyboard gate tonight: build on your defaults and save the storyboard stills"* (2026-10-08; 10-13, 10-28). See Q-A6.a.
-- **A6.50** Planner helpers hold ~15-20 beats each; the hook gets its own planner. After planning run `plan_check.py`, `boundary_check.py`, `make_build_list.py`, `make_plan_docs.py` ([[03-Areas/video-editing/sops/video-pipeline-tools|video pipeline tools]]). ⚙️
+- **A6.45** He may approve gradually as he goes through the edit, or ask for specific visuals. When his review covers only part of the video, build new visuals only where his marker covers (corrections still apply everywhere, E2). ✅ *"I only worked with the part my marker shows, so build the visuals there"* (2026-10-02) · ✔ 2026-11-05
+- **A6.46** Before acting on his notes, list the extra fixes you planned so he can veto them. ✅ *"Can you list me the other fixes you planned to do?"* (2026-10-29) · ✔ 2026-11-05
+- **A6.47** Ask short either/or questions with the default already chosen ("answer only where you disagree"). For a structurally unclear decision, ask one targeted question before rebuilding; otherwise go on sensible defaults and flag them. ✅ (before 2026-09-19) ⚙️ (2026-10-08) · ✔ 2026-11-05
+- **A6.48** When a look is rejected, keep the plan's structure (beats, timing, captures) and re-plan only the compositions. ⚙️ (2026-10-21) · ✔ 2026-11-05
+- **A6.49** Unattended runs he names (overnight, "all at once"): no approval stops. Build on defaults; save the hero stills, previews and every choice for his morning review; versioned timelines. Otherwise the gates above apply. ✅ 🔁×3 *"No storyboard gate tonight: build on your defaults and save the storyboard stills"* (2026-10-08; 10-13, 10-28). See Q-A6.a. · ✔ 2026-11-05
+- **A6.50** Planner helpers hold ~15-20 beats each; the hook gets its own planner. After planning run `plan_check.py`, `boundary_check.py`, `make_build_list.py`, `make_plan_docs.py` ([[03-Areas/video-editing/sops/video-pipeline-tools|video pipeline tools]]). ⚙️ · ✔ 2026-11-05
 
-## Never
-- **A6.57** Nothing on his timeline before the plan is revised and the hero frames have his yes. ❌ *"so better revise your visual plan before you put it on my timeline"* (2026-10-21)
-- **A6.58** No styles he has never used: bouncing animations, random text popping on screen, made-up constructs. ❌ *"the visuals all look AI, with bouncing animations and too much text"* (2026-11-01)
-- **A6.59** No row of equal labelled boxes with icons joined by arrows. ❌ *"don't let things look like it is AI"* (2026-10-26)
-- **A6.60** No mediocre, random or swapped-text visuals. ❌ *"the visuals that you plan is always kind of very mediocre"* (2026-10-06)
-- **A6.61** Never change a visual he liked and didn't mark. ❌ *"I liked the visual you used in the last version ... I didn't tell you to change it"* (2026-10-15)
-- **A6.62** Never start from frames he rejected. ❌ *"I liked the brand guide examples you gave, but you made it worse"* (2026-10-21)
+## Never (strict)
+- **A6.57** Nothing on his timeline before the plan is revised and the hero frames have his yes. ❌ *"so better revise your visual plan before you put it on my timeline"* (2026-10-21) · ✔ 2026-11-05
+- **A6.58** No styles he has never used: bouncing animations, random text popping on screen, made-up constructs. ❌ *"the visuals all look AI, with bouncing animations and too much text"* (2026-11-01) · ✔ 2026-11-05
+- **A6.59** No row of equal labelled boxes with icons joined by arrows. ❌ *"don't let things look like it is AI"* (2026-10-26) · ✔ 2026-11-05
+- **A6.60** No mediocre, random or swapped-text visuals. ❌ *"the visuals that you plan is always kind of very mediocre"* (2026-10-06) · ✔ 2026-11-05
+- **A6.61** Never change a visual he liked and didn't mark. ❌ *"I liked the visual you used in the last version ... I didn't tell you to change it"* (2026-10-15) · ✔ 2026-11-05
+- **A6.62** Never start from frames he rejected. ❌ *"I liked the brand guide examples you gave, but you made it worse"* (2026-10-21) · ✔ 2026-11-05
 
 ## Pictures
 - ![[_attachments/rulebook/a6-rejected-plan-v1.jpg|360]] ❌ plan v1 frames rejected as cheap before anything went on the timeline: text over a grey page, labels on captures, Alex cut out in front of a ledger. Video 2, 2026-10-21.
@@ -90,8 +90,8 @@ section: A6
 
 ## Questions for Samuel
 - **Q-A6.a** Gates vs unattended runs. Gates: plan revised and hero frames approved before any build (2026-10-21), preview page for motion beats (2026-10-28). No gates: "do it all at once and have reviews in versions" (2026-10-13), overnight runs with no approval stops (2026-10-28, same day as the preview gate). → Options: (1) gates by default; you lift them per run by saying "overnight" or "no gates"; (2) unattended by default, gates only when you ask. My pick: (1), and in an unattended run still send the hero frames before the build starts. → Samuel: (1), gates by default (2026-11-05); he lifts them per run.
-- **Q-A6.b** Which reference wins for a client. On 2026-10-31 you said Gamma's style is the LinkedIn video's with Gamma colours and font. On 2026-11-01 you said both "the best refrence example is Alex linkedin video" and that the Gamma edit is "one to one" while LinkedIn is "just a side refrence". → Options: (1) the client's own past edit by you is the recipe; another client's final is a side reference for craft (screen-recording treatment, pills, cards); (2) the latest Alex final is the main bar for every client. My pick: (1).
-- **Q-A6.c** Gap: a new client with no past edit by you. What is the reference? → Options: (1) ask you for a reference video and the style at job start (K4); (2) use the latest Alex final with the client's colours and font. My pick: (1).
+- **Q-A6.b** Which reference wins for a client. On 2026-10-31 you said Gamma's style is the LinkedIn video's with Gamma colours and font. On 2026-11-01 you said both "the best refrence example is Alex linkedin video" and that the Gamma edit is "one to one" while LinkedIn is "just a side refrence". → Options: (1) the client's own past edit by you is the recipe; another client's final is a side reference for craft (screen-recording treatment, pills, cards); (2) the latest Alex final is the main bar for every client. My pick: (1). → Samuel: (1), his own past edit for that client is the recipe; another client's final is a side reference for craft (2026-11-05).
+- **Q-A6.c** Gap: a new client with no past edit by you. What is the reference? → Options: (1) ask you for a reference video and the style at job start (K4); (2) use the latest Alex final with the client's colours and font. My pick: (1). → Samuel: (1), ask him for a reference video and the style at job start (2026-11-05).
 
 ## Sources
 Draws on and replaces the planning rules in [[03-Areas/video-editing/sops/visual-sheet-pipeline|Visual sheet pipeline]], [[03-Areas/video-editing/sops/video-pipeline-tools|Video pipeline tools]] (open for preview page and plan-check commands), [[03-Areas/video-editing/sops/unattended-run|Unattended run]], [[03-Areas/video-editing/ways-of-working|Ways of working]], [[03-Areas/video-editing/samuel-review-card|Samuel's review card]], [[03-Areas/video-editing/creative-director/creative-director-standard|Creative director standard]], [[03-Areas/video-editing/edit-grammar/edit-grammar|Edit grammar]], [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]], [[03-Areas/video-editing/cut-sheets|Cut sheets]], [[03-Areas/video-editing/agent-plan|Agent plan]], [[00-System/model-routing|Model routing]], [[07-Agents/video-editor/memory|Editor memory]].
