@@ -59,5 +59,13 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-03 · all · replaced and dismissed rules removed from the rulebook (31 lines across A1, A3, A6, C1, C2, C4, C14, C16, D2, F1, F3, F4, K2) into [[08-Archive/brain-build/rulebook-removed-rules|removed rules]]; numbers never reused. *"The replaced rules should be replaced and removed from the rule book"*. K0.18 reworded to match (still for his review).
 - 2026-11-03 · A3.45-A3.49 · ✔ approved. Every Never rule is strict. *"The never should be there as strict"*
 - 2026-11-03 · A3 · **section approved** rule by rule: 46 rules in force (45 ✔, 1 ✏), 4 replaced rules removed, 3 questions answered.
+- 2026-11-04 · A4.1 A4.2 A4.3 A4.4 A4.6 A4.7 A4.10 A4.11 A4.12 A4.13 A4.14 A4.18 · ✔ approved.
+- 2026-11-04 · A4.5 · ✖ dismissed.
+- 2026-11-04 · A4.8 · ✏ clip colours say what is on the clip, not who made it. *"I want more variety so it can tell me what is on the clip rather than if Claude did it"*
+- 2026-11-04 · A4.19 · new: content colours, chosen by the Editor at his word (Q-A4.a). *"colours can have meaning, you can choose"*
+- 2026-11-04 · A4.15, A4.17 · ✏ red `Editor:` markers to point him at something, only after acting on it.
+- 2026-11-04 · A4.16 · ✏ colours carry only the A4.4 and A4.19 meanings. A4.9 ✔ with the section-marker clause dropped (follows A4.5).
+- 2026-11-04 · Q-A4.c · no track colours.
+- 2026-11-04 · A4 · **section approved** rule by rule: 18 rules in force (14 ✔, 4 ✏, new A4.19), A4.5 dismissed, 3 questions answered.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

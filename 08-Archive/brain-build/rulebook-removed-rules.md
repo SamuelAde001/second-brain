@@ -43,3 +43,6 @@ Rules taken out of the [[03-Areas/video-editing/rulebook/rulebook|rulebook]] bec
 - [F3] Superseded: *"not bothered about token usage"* (2026-10-13) → F3.2. Every review on Opus (2026-10-28) → F3.19. Fresh session past 100k (2026-10-02), end before 250k (2026-10-12), compact at 200k → F3.22. Ask before a fan-out past ~20 % weekly (2026-10-08) → helpers without asking (2026-10-24). Stop new agents at 85 % of the window (2026-10-08) → F3.7. · removed 2026-11-03
 - [F4] Superseded: pool 3-5 (2026-10-15), pool of 3 (2026-10-22 morning), 5-7 at most (2026-10-22 afternoon) → F4.3. Builder-only with self-review when budget is tight (2026-10-23, 2026-10-26) → F4.6. Every review on Opus (2026-10-28) → F4.5. · removed 2026-11-03
 - [K2] ~~Season Serif sentence case for headlines, JetBrains Mono for labels~~ superseded by K2.6 (2026-10-24). ~~No shine, sweep or glow under the rebrand~~ superseded by K2.2 (2026-10-22). · removed 2026-11-03
+
+## 2026-11-04
+- [A4] ~~**A4.5** Put one duration marker per section on the sections timeline, named after the section, in the nearest marker colour. Samuel removes the section markers at approval and keeps the clip colours; his finals carry no markers. 🎬 ⚙️~~ · ✖ 2026-11-04 · removed 2026-11-04
