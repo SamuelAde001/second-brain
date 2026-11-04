@@ -72,5 +72,7 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-04 · A5.17 · ✏ show the number he said. *"No, show the number he said"*
 - 2026-11-04 · Q-A5.b · both the Word doc and the text files are rebuilt after his re-cut.
 - 2026-11-04 · A5 · **section approved** rule by rule.
+- 2026-11-04 · A6.1 A6.3 A6.4 A6.6-A6.10 · ✔ approved.
+- 2026-11-04 · A6.2, A6.5 · ✏ the rulebook is the standard guide; study a past video only where it is silent or unsure, and write the lesson back. Front page says so. *"I want us to have a standard guide that doesn't need us to study old videos, cause we can't be studying them over again that's what this guide book is meant to help"*
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

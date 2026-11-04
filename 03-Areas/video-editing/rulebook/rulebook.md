@@ -13,6 +13,8 @@ tags: [rulebook, index]
 
 Every Route Rise edit follows this rulebook: Alex (Frontal), Gamma and any client Route Rise sends. It was built on 2026-11-03 from every video so far: Samuel's 529 editing messages, his 359 timeline markers, his finished timelines, the creative director's breakdowns and corrections, every job note and everything the Editor learned. Samuel approves it **section by section**; until a section says `status: approved`, it is a draft and the older notes it names under *Sources* still apply where it is silent.
 
+**It is the standard guide, so old videos are not studied again** (Samuel, 2026-11-04: *"I want us to have a standard guide that doesn't need us to study old videos, cause we can't be studying them over again that's what this guide book is meant to help"*). Plan from it; open a past video only where it is silent or you are unsure (A6.2, A6.5), and write what you learn back into it.
+
 ## Order of authority
 
 1. **Samuel's live corrections and markers** on the job in hand.
