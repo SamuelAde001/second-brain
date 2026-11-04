@@ -124,7 +124,7 @@ Subscriptions rise from NGN 162,242 to **NGN 328,549**. The floor is corrected t
 | Line | From | To | Why |
 |---|---|---|---|
 | Rubuik Cube | — | NGN 6,860 a month (first paid 2026-11-04; billing day not given) | *"I am joining Robuiks cube for 6k monthly"*; *"6,860 ... that's the new price"* |
-| Wealth club membership | — | NGN 40,000 a quarter, from the Cowrywise savings NGN 40,000 that month (November 2026, then February 2027) | *"Cowrywise savings would be going to payment for my membership in the wealth club instead"*, *"40k wealth club is quarterly"* |
+| Wealth club membership | — | NGN 25,000 a quarter (paid 2026-11-04; next February 2027), from the Cowrywise savings NGN 40,000 that month; the other NGN 15,000 stays Buffer | *"Cowrywise savings would be going to payment for my membership in the wealth club instead"*, *"40k wealth club is quarterly"*; "Just sent 25k for the wealth club renewal, it's 25k not 40k" |
 | Google Workspace | ~NGN 11,500 on the 9th | held in November; stays in the standing plan | *"I don't think I need the custom email from the workspace this month, as I am not doing outreach yet"*. The trial bills itself on 2026-11-09 unless cancelled |
 | Building project | NGN 500,000 | NGN 0 in November, to the rent fund; then replaced by Furnishing NGN 500,000 a month, once rent is paid, until he says otherwise | *"I need to channel all the money for my building project to my rent"*. *"Once rent is paid, I would need roughly 500k monthly to help furnish the house"*; *"Furnishing replaces the building project, until I say so"* |
 

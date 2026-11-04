@@ -299,6 +299,7 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-11-04 | major | 6,860 | Rubuik Cube community, monthly | Subscriptions | his words: "sent 6,860 for the robuilks cube community, that's the new price"; plan 6,000 |
 | 2026-11-04 | charges | 242 | Bank charges | — | derived; rows give 326,943, he has 326,701 |
 | 2026-11-04 | balance | 326,701 | Bank | — | his words: "what is in my account right now is 326701" |
+| 2026-11-04 | major | 25,000 | Wealth club membership, quarterly renewal | Wealth club membership (quarterly) | his words: "Just sent 25k for the wealth club renewal, it's 25k not 40k" |
 
 Back to [[03-Areas/finances/finances|Finances]]
 
