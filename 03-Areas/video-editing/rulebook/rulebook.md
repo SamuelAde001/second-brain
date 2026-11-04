@@ -49,7 +49,7 @@ Badges on every rule: ✅ Samuel said it · 🔁 he said it more than once · �
 | A2 | [[03-Areas/video-editing/rulebook/rb-a2-import-and-sync\|Import into Resolve and syncing]] | **approved 2026-11-03** |
 | A3 | [[03-Areas/video-editing/rulebook/rb-a3-cutting\|Cutting]] | **approved 2026-11-03** |
 | A4 | [[03-Areas/video-editing/rulebook/rb-a4-colour-codes\|Colour codes]] | **approved 2026-11-04** |
-| A5 | [[03-Areas/video-editing/rulebook/rb-a5-transcription\|Transcription and the transcript doc]] | draft |
+| A5 | [[03-Areas/video-editing/rulebook/rb-a5-transcription\|Transcription and the transcript doc]] | **approved 2026-11-04** |
 | A6 | [[03-Areas/video-editing/rulebook/rb-a6-visual-planning\|Visual ideation and planning]] | draft |
 | **B** | **Timeline and Fusion craft** | |
 | B1 | [[03-Areas/video-editing/rulebook/rb-b1-timeline-arrangement\|Timeline arrangement]] | draft |

@@ -15,7 +15,7 @@ section: A1
 
 ## Rules
 ### Start of a job
-- **A1.1** A job starts when a Route Rise card reaches READY TO EDIT in ClickUp. The Editor does phase 1 alone: download, sort, project, sync, cut, sections, transcript. Then stop and wait for Samuel's cut review. 🔁 (5 times: 2026-09-24, 10-12, 10-19, 10-26, 10-30) ✅ *"download the footage, cut it and as we normally do and wait till I revise the cuts"* (2026-10-30) · ✔ 2026-11-03
+- **A1.1** A job starts when a Route Rise card reaches READY TO EDIT in ClickUp. The Editor does phase 1 alone: download, sort, project, sync, cut, sections. Then stop and wait for Samuel's cut review; the transcript doc comes after his re-cut (A5.1). ✅ *"download the footage, cut it and as we normally do and wait till I revise the cuts"* (2026-10-30) · *"Transcript should be done after my review and recut so it gets things accurately in case a word was added or removed"* (2026-11-04) · ✏ 2026-11-04
 - **A1.2** Get the script first, before anything else. ✅ (2026-09-20) · ✔ 2026-11-03
 - **A1.3** Document the job, plan it and schedule it to hit the deadline. Record the card in the job note: title, status, start and due dates, idea doc link, footage folder, camera file IDs. ✅ *"document it, plan it, schedule it, let's hit the deadline"* (2026-09-24) · ✔ 2026-11-03
 - **A1.4** The ClickUp card dates are the deadline. Plan against Route Rise's 5-day cap, Sundays not counted (he doesn't work Sundays). The Notion idea doc's dates go stale. Samuel may move a deadline himself when the job runs slow; his new date is then the deadline. ✅ *"clickup are the deadline, but I may sometimes move the deadline myself based on how slow things are"* · ✏ 2026-11-03

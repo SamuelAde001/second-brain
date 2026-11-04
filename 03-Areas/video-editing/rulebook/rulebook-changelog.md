@@ -67,5 +67,10 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-04 · A4.16 · ✏ colours carry only the A4.4 and A4.19 meanings. A4.9 ✔ with the section-marker clause dropped (follows A4.5).
 - 2026-11-04 · Q-A4.c · no track colours.
 - 2026-11-04 · A4 · **section approved** rule by rule: 18 rules in force (14 ✔, 4 ✏, new A4.19), A4.5 dismissed, 3 questions answered.
+- 2026-11-04 · A5.3 A5.4 A5.5 A5.6 A5.7 A5.8 A5.9 A5.10 A5.11 A5.12 A5.13 A5.14 A5.15 A5.16 A5.18 A5.19 A5.20 A5.21 A5.22 · ✔ approved.
+- 2026-11-04 · A5.1, A3.5, A1.1 · ✏ the transcript doc is made after his review and re-cut, not in phase 1 (Q-A5.a). *"Transcript should be done after my review and recut so it gets things accurately in case a word was added or removed"*
+- 2026-11-04 · A5.17 · ✏ show the number he said. *"No, show the number he said"*
+- 2026-11-04 · Q-A5.b · both the Word doc and the text files are rebuilt after his re-cut.
+- 2026-11-04 · A5 · **section approved** rule by rule.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
