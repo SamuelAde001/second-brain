@@ -94,5 +94,10 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · B2.13 · ✏ A-roll MagicZoom is Standard with a Linear curve; Zoom & Hold only on emphasis statements. B5.8 and B3.20 reworded to match (pending their review). *"the magic zoom settings should be set to zoom type, standard and curve linear for A-roll, only time we use the usual zoom and hold is for empasis statement areas"*
 - 2026-11-05 · B2.17 · ✏ pain punch only on B-roll or screen UI on top, never the A-roll. C5.25 noted. *"don't do that on an A-roll, only on top B-roll or screen UI"*
 - 2026-11-05 · Q-B2.b · always an adjustment clip, never a base clip.
+- 2026-11-05 · B2.18 B2.19 B2.20 B2.21 B2.22 B2.23 B2.24 B2.25 B2.26 B2.27 B2.28 B2.29 B2.30 B2.31 · ✔ approved.
+- 2026-11-05 · B2.18-B2.31 · ✔ approved.
+- 2026-11-05 · Q-B2.b, F1.14 · ✏ full motion graphics still get their own Fusion comps; adjustment clips are for anything over other media. *"we would still have fusion comps for full motion graphics"*
+- 2026-11-05 · Q-B2.c · always live nodes, kept light.
+- 2026-11-05 · B2 · **section approved** rule by rule.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

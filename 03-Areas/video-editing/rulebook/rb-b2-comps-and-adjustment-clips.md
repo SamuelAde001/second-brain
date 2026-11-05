@@ -1,9 +1,9 @@
 ---
 type: sop
 area: video-editing
-status: draft
-approved:
-updated: 2026-11-03
+status: approved
+approved: 2026-11-05
+updated: 2026-11-05
 source: interview
 tags: [rulebook]
 section: B2
@@ -11,7 +11,7 @@ section: B2
 
 # B2 · Comps and adjustment clips
 
-> **Read when:** building, installing or reviewing any visual (every beat builder and reviewer). **Client values:** none here; colours and corner shapes inside comps come from the client overlay. **Status:** draft, not yet approved by Samuel.
+> **Read when:** building, installing or reviewing any visual (every beat builder and reviewer). **Client values:** none here; colours and corner shapes inside comps come from the client overlay. **Status:** approved by Samuel rule by rule, 2026-11-05.
 
 ## Rules
 
@@ -41,32 +41,32 @@ section: B2
 - **B2.17** **Pain punch** — from the pain phrase to the visual's end: a red Vignette (multiply, colour 1/0/0), optionally a ColorCorrector desaturate before it, stacked with a punch-in. **Only on B-roll or screen UI on top, never on the A-roll.** ✅ *"don't do that on an A-roll, only on top B-roll or screen UI"* (2026-11-05) 🎬 (AI4) · ✏ 2026-11-05
 
 ### How an adjustment clip works with the media under it
-- **B2.18** An adjustment clip's comp receives the finished frame of every track below it (1920×1080) as its MediaIn. Frame 0 of the comp is the clip's first frame. Only adjustment clips see the layers below; Fusion Composition generators and Fusion clips render on their own. ⚙️
-- **B2.19** Start the adjustment clip on the media's first frame and end it on the media's last. When he moves one, his placement stands. ✅ *"I move the adjustment clip here"* (2026-10-24)
-- **B2.20** A comp that starts from a clear Background must Merge over MediaIn_Below, or the media turns black. ⚙️ (2026-10-24)
-- **B2.21** When working in his comps, add to the comp he has open, or add a new comp version on the clip; never overwrite his comp. ✅ *"Add it to the fusion comp I was in at that moment"* (2026-09-26) ⚙️
-- **B2.22** The Fusion page never opens an adjustment clip, so its comps are written by script (.drt round trip, or in-place import on an existing clip: `kits\inst\inplace.py`, `adjconv.py`). After a swap on a cached clip, nudge one input (Blend 0.999 → 1.0) so Resolve drops the old cache, and check a second still. ⚙️ How: [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]], open before any install.
+- **B2.18** An adjustment clip's comp receives the finished frame of every track below it (1920×1080) as its MediaIn. Frame 0 of the comp is the clip's first frame. Only adjustment clips see the layers below; Fusion Composition generators and Fusion clips render on their own. ⚙️ · ✔ 2026-11-05
+- **B2.19** Start the adjustment clip on the media's first frame and end it on the media's last. When he moves one, his placement stands. ✅ *"I move the adjustment clip here"* (2026-10-24) · ✔ 2026-11-05
+- **B2.20** A comp that starts from a clear Background must Merge over MediaIn_Below, or the media turns black. ⚙️ (2026-10-24) · ✔ 2026-11-05
+- **B2.21** When working in his comps, add to the comp he has open, or add a new comp version on the clip; never overwrite his comp. ✅ *"Add it to the fusion comp I was in at that moment"* (2026-09-26) ⚙️ · ✔ 2026-11-05
+- **B2.22** The Fusion page never opens an adjustment clip, so its comps are written by script (.drt round trip, or in-place import on an existing clip: `kits\inst\inplace.py`, `adjconv.py`). After a swap on a cached clip, nudge one input (Blend 0.999 → 1.0) so Resolve drops the old cache, and check a second still. ⚙️ How: [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]], open before any install. · ✔ 2026-11-05
 
 ### Keep comps light
-- **B2.23** Comps must play back smoothly on his PC. A heavy visual is a fault. ✅ *"this visual is too intensive on the computer"* (2026-10-24)
-- **B2.24** Neo Bevel stays in comps but switched off (PassThrough). Kits build it off (`frfx.bevel`); finished comps are switched off by script (`kits\brandfix.py`), not regenerated. ✅ *"Neo bevel node in the comps are really lagging it down"* (2026-10-23)
-- **B2.25** A device that repeats stays light: no reflections or glow on every card. A heavy one crashed his cache. ✅ (2026-10-10)
+- **B2.23** Comps must play back smoothly on his PC. A heavy visual is a fault. ✅ *"this visual is too intensive on the computer"* (2026-10-24) · ✔ 2026-11-05
+- **B2.24** Neo Bevel stays in comps but switched off (PassThrough). Kits build it off (`frfx.bevel`); finished comps are switched off by script (`kits\brandfix.py`), not regenerated. ✅ *"Neo bevel node in the comps are really lagging it down"* (2026-10-23) · ✔ 2026-11-05
+- **B2.25** A device that repeats stays light: no reflections or glow on every card. A heavy one crashed his cache. ✅ (2026-10-10) · ✔ 2026-11-05
 
-## Never
-- **B2.26** Never put an effect, MagicZoom or treatment on a source clip (only exception: the PIP). 🎬
-- **B2.27** Never use a Fusion comp for a zoom-in. ✅ *"Never use fusion comp for this zoom in effect, always use Adjustment clips"* (2026-10-14)
-- **B2.28** Never put motion graphics on a screen recording or UI demo: highlight, cursor movement and the media adjustment clip only. 🔁 ×2 ✅ *"Since when did we start putting motion graphics on screen recording visuals"* (2026-11-01; also 2026-10-07)
-- **B2.29** Never leave out the media adjustment clip or one of its three parts. Never lower the vignette Blend (video 2 used 0.4) or set the NeoAnim slide to 0 (pages landed static). ✅ ⚙️ (2026-10-25, 2026-10-27)
-- **B2.30** Never edit his intro adjustment clip. ✅ (2026-10-25)
-- **B2.31** Never insert an adjustment clip with `InsertGeneratorIntoTimeline`: it ripples V1. ⚙️ (2026-10-10)
+## Never (strict)
+- **B2.26** Never put an effect, MagicZoom or treatment on a source clip (only exception: the PIP). 🎬 · ✔ 2026-11-05
+- **B2.27** Never use a Fusion comp for a zoom-in. ✅ *"Never use fusion comp for this zoom in effect, always use Adjustment clips"* (2026-10-14) · ✔ 2026-11-05
+- **B2.28** Never put motion graphics on a screen recording or UI demo: highlight, cursor movement and the media adjustment clip only. 🔁 ×2 ✅ *"Since when did we start putting motion graphics on screen recording visuals"* (2026-11-01; also 2026-10-07) · ✔ 2026-11-05
+- **B2.29** Never leave out the media adjustment clip or one of its three parts. Never lower the vignette Blend (video 2 used 0.4) or set the NeoAnim slide to 0 (pages landed static). ✅ ⚙️ (2026-10-25, 2026-10-27) · ✔ 2026-11-05
+- **B2.30** Never edit his intro adjustment clip. ✅ (2026-10-25) · ✔ 2026-11-05
+- **B2.31** Never insert an adjustment clip with `InsertGeneratorIntoTimeline`: it ripples V1. ⚙️ (2026-10-10) · ✔ 2026-11-05
 
 ## Pictures
 - ![[_attachments/rulebook/b2-media-adj-proof.jpg|360]] ⚙️ media adjustment clip (NeoAnim + vignette + MagicZoom) proof sheet, Cold Email, our lab test passed 2026-10-29 (not yet seen by Samuel)
 
 ## Questions for Samuel
 - **Q-B2.a** Vignette strength on the media clip. Your three finals and the template: Blend 0.835 (measured 2026-10-07). The Gamma job note: "small vignette (Blend 0.638)" (2026-11-01). → Options: (1) 0.835 on every client (2) 0.638 for Gamma only, in its overlay (3) 0.638 everywhere. My pick: (1), it is what your finals use. → Samuel: (1), 0.835 on every client (2026-11-05).
-- **Q-B2.b** When a range has no adjustment clip to host a comp, may we use a base clip and tell you (our method since 2026-10-10), or must we always create an adjustment clip (your 2026-10-07 ruling)? → Options: (1) always an adjustment clip (2) base clip as a last resort, flagged. My pick: (1). → Samuel: (1), always an adjustment clip (2026-11-05).
-- **Q-B2.c** Heavy comps. You said every non-demo visual stays live nodes (2026-09-27), but in AI4 the workflow graphics and the face bubble were rendered in place, and on 2026-10-24 a heavy comp was a fault. → Options: (1) always live nodes, kept light (2) render heavy ones in place and keep the comp saved beside the render. My pick: (2).
+- **Q-B2.b** When a range has no adjustment clip to host a comp, may we use a base clip and tell you (our method since 2026-10-10), or must we always create an adjustment clip (your 2026-10-07 ruling)? → Options: (1) always an adjustment clip (2) base clip as a last resort, flagged. My pick: (1). → Samuel: (1), always an adjustment clip (2026-11-05). Full motion graphics still get their own Fusion comps; the adjustment-clip rule is for anything over other media. *"we would still have fusion comps for full motion graphics"* (2026-11-05)
+- **Q-B2.c** Heavy comps. You said every non-demo visual stays live nodes (2026-09-27), but in AI4 the workflow graphics and the face bubble were rendered in place, and on 2026-10-24 a heavy comp was a fault. → Options: (1) always live nodes, kept light (2) render heavy ones in place and keep the comp saved beside the render. My pick: (2). → Samuel: (1), always live nodes, kept light (2026-11-05).
 
 ## Sources
 Replaces the adjustment-clip rules in [[03-Areas/video-editing/ways-of-working|Ways of working]] and [[03-Areas/video-editing/routerise-house-style|Route Rise house style]] (§2, §11b), and draws on [[03-Areas/video-editing/fusion-node-system|Fusion node system]] §2 and §8, [[03-Areas/video-editing/edit-grammar/edit-grammar-shared-rules|Edit grammar: shared rules]] (S0.1, S0.11), [[03-Areas/video-editing/edit-grammar/edit-grammar-ai4|Edit grammar: AI4]], [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]], [[04-Projects/routerise-gamma-claude-mcp-rich|Gamma job]], [[04-Projects/routerise-linkedin-training|LinkedIn job]].
