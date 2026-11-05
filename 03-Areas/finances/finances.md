@@ -52,6 +52,7 @@ See [[03-Areas/finances/finances-goals|Goals]] — NGN 1,000,000 by 31 Dec 2026,
 - [[wish-list]] — unbudgeted wants, and the four steps before one gets bought
 - [[claude-max-20x-weekly-limits]] — what the 20x weekly limit really buys: plan on ~2 videos a week, not 4
 - [[pricing-and-rates]] — mentorship pricing and retainer tactics, all unconfirmed proposals
+- [[big-deal-options-2027]] — one NGN 10M–20M deal for 2027: five options ranked, what each needs (research 2026-11-05, suggestions only)
 - [[03-Areas/finances/finances-ideas|Ideas]] · [[03-Areas/finances/finances-decisions|Decisions]] · [[03-Areas/finances/finances-log|Log]] · [[03-Areas/finances/finances-goals|Goals]]
 
 ## The three things that decide everything here
