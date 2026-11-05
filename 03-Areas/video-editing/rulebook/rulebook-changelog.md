@@ -99,5 +99,6 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · Q-B2.b, F1.14 · ✏ full motion graphics still get their own Fusion comps; adjustment clips are for anything over other media. *"we would still have fusion comps for full motion graphics"*
 - 2026-11-05 · Q-B2.c · always live nodes, kept light.
 - 2026-11-05 · B2 · **section approved** rule by rule.
+- 2026-11-05 · B3.1 B3.2 B3.3 B3.4 B3.5 B3.6 B3.7 B3.8 B3.9 B3.10 B3.11 B3.12 B3.13 · ✔ approved.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

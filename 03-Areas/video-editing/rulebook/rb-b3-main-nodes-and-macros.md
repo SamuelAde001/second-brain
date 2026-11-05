@@ -16,21 +16,21 @@ section: B3
 ## Rules
 
 ### His own tools, real nodes
-- **B3.1** Build with his own macros and plugins: NeoAnim, NeoTextMotion, NeoGlow, NeoLightSweep Pro, Neo Highlighter Pro, Opacity, Arrowline, dashed line, Glass effect, Down fade, Number Counter, BGORANGE. Where his macro exists, use it. ✅ 🔁×3 *"use the tools I normally use, my macros"* (2026-09-25, 2026-09-27, 2026-10-03)
-- **B3.2** Every effect is its real node: glow = NeoGlow, shadow = DropShadow, static shine = NeoLightSweep Pro, soft blur = ResolveFX Gaussian Blur, hiding blur = ResolveFX MosaicBlur. ✅ *"I always use actual nodes that can help me create those visuals"* (2026-09-25)
-- **B3.3** His macros live in `%APPDATA%\Blackmagic Design\DaVinci Resolve\Support\Fusion\Macros\My macros\` (Box main, Down fade, shine, Glass effect, Arrowline, Moving dashed line, BGORANGE, Numbers, Number Counter, Blinking in, Screen Focus Emphasis, Opacity) and `…\Neo folder\` (Neo Anim, Neo Glow, Neo Bevel, Neo Light Sweep Pro, Neo Reflection, Neo Highlighter Pro). 🎬
-- **B3.4** Add new files only to those folders, and check his original's hash after. ✅ (2026-10-20)
-- **B3.5** Reuse kits and scripts already built; build no extra kit the job doesn't need. ✅ *"We don't need those extra kits"* (2026-10-20); *"Don't, so that we don't burn tokens"* (2026-10-15)
+- **B3.1** Build with his own macros and plugins: NeoAnim, NeoTextMotion, NeoGlow, NeoLightSweep Pro, Neo Highlighter Pro, Opacity, Arrowline, dashed line, Glass effect, Down fade, Number Counter, BGORANGE. Where his macro exists, use it. ✅ 🔁×3 *"use the tools I normally use, my macros"* (2026-09-25, 2026-09-27, 2026-10-03) · ✔ 2026-11-05
+- **B3.2** Every effect is its real node: glow = NeoGlow, shadow = DropShadow, static shine = NeoLightSweep Pro, soft blur = ResolveFX Gaussian Blur, hiding blur = ResolveFX MosaicBlur. ✅ *"I always use actual nodes that can help me create those visuals"* (2026-09-25) · ✔ 2026-11-05
+- **B3.3** His macros live in `%APPDATA%\Blackmagic Design\DaVinci Resolve\Support\Fusion\Macros\My macros\` (Box main, Down fade, shine, Glass effect, Arrowline, Moving dashed line, BGORANGE, Numbers, Number Counter, Blinking in, Screen Focus Emphasis, Opacity) and `…\Neo folder\` (Neo Anim, Neo Glow, Neo Bevel, Neo Light Sweep Pro, Neo Reflection, Neo Highlighter Pro). 🎬 · ✔ 2026-11-05
+- **B3.4** Add new files only to those folders, and check his original's hash after. ✅ (2026-10-20) · ✔ 2026-11-05
+- **B3.5** Reuse kits and scripts already built; build no extra kit the job doesn't need. ✅ *"We don't need those extra kits"* (2026-10-20); *"Don't, so that we don't burn tokens"* (2026-10-15) · ✔ 2026-11-05
 
 ### NeoAnim: every entrance and exit
-- **B3.6** Every element comes in and goes out with NeoAnim (slide + blur + fade, Expo ease). The exit is part of the build. ✅ 🔁×4 *"always use Neo anim where something animates in and out"* (2026-10-03)
-- **B3.7** One NeoAnim at the end of each node group, not keys on the group's Transforms and opacity. ✅ *"just add a neo anim at the end of the 4 nodes groups"* (2026-09-27)
-- **B3.8** Place elements at their source (Transform), centred and spaced; NeoAnim stays at Global Center 0.5/0.5 and only animates. It may set size. ✅ *"don't use the neo anim to bring them down to the center"* (2026-09-27)
-- **B3.9** Motion blur off on every NeoAnim (NAMotionBlur PassThrough). The soft entrance blur (StartBlur 25, or 5.5 for a crisper entry) stays. ✅ *"I don't want you to use motion blur because that makes it very hard to do"* (2026-10-28)
-- **B3.10** Direction follows the element's side: Angle −90 = from below (default), −180 = from the left, 0 = from the right, 90 = drops (arrows, ticks). 🎬
-- **B3.11** StartOffset: rows 0.02-0.04, cards 0.05-0.08, pills 0.10-0.12, full-width titles 0.44. Stagger 3-5 f between elements. 🎬
-- **B3.12** Timing: entrances 16-22 f with a long ease-out, exits 10-14 f; the exit ends on the slot's last frame. Full timing rules: C2 and C14. ✅ (2026-10-03, 2026-10-15) 🎬
-- **B3.13** For a device he has built before, copy his own entrance values from his comp (e.g. his $7M bands: 25 f, Angle −270, 0.094, 5 f stagger) over any spec. ⚙️ (2026-10-08)
+- **B3.6** Every element comes in and goes out with NeoAnim (slide + blur + fade, Expo ease). The exit is part of the build. ✅ 🔁×4 *"always use Neo anim where something animates in and out"* (2026-10-03) · ✔ 2026-11-05
+- **B3.7** One NeoAnim at the end of each node group, not keys on the group's Transforms and opacity. ✅ *"just add a neo anim at the end of the 4 nodes groups"* (2026-09-27) · ✔ 2026-11-05
+- **B3.8** Place elements at their source (Transform), centred and spaced; NeoAnim stays at Global Center 0.5/0.5 and only animates. It may set size. ✅ *"don't use the neo anim to bring them down to the center"* (2026-09-27) · ✔ 2026-11-05
+- **B3.9** Motion blur off on every NeoAnim (NAMotionBlur PassThrough). The soft entrance blur (StartBlur 25, or 5.5 for a crisper entry) stays. ✅ *"I don't want you to use motion blur because that makes it very hard to do"* (2026-10-28) · ✔ 2026-11-05
+- **B3.10** Direction follows the element's side: Angle −90 = from below (default), −180 = from the left, 0 = from the right, 90 = drops (arrows, ticks). 🎬 · ✔ 2026-11-05
+- **B3.11** StartOffset: rows 0.02-0.04, cards 0.05-0.08, pills 0.10-0.12, full-width titles 0.44. Stagger 3-5 f between elements. 🎬 · ✔ 2026-11-05
+- **B3.12** Timing: entrances 16-22 f with a long ease-out, exits 10-14 f; the exit ends on the slot's last frame. Full timing rules: C2 and C14. ✅ (2026-10-03, 2026-10-15) 🎬 · ✔ 2026-11-05
+- **B3.13** For a device he has built before, copy his own entrance values from his comp (e.g. his $7M bands: 25 f, Angle −270, 0.094, 5 f stagger) over any spec. ⚙️ (2026-10-08) · ✔ 2026-11-05
 
 ### NeoTextMotion: main text
 - **B3.14** Main text is NeoTextMotion (the NeoMotionText fuse in the node list), word by word, each word rising from below: PosDir 0 = Up. PosDir 3 (Left) is the script default and is wrong. Split word pieces need a real space. ✅ 🔁 (2026-10-25, 84 comps failed) *"I use a lot of NeoTextMotion for Typography."*
