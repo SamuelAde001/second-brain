@@ -43,6 +43,16 @@ General Manager's read (suggestion, not decided):
 - **Package (suggested):** paid style study (USD 1,500, credited) → build and install → 3 pilot videos against their bar → 60 days support → optional maintenance USD 500-1,000 a month. Total build ~USD 10,000, 50/30/20 by milestone, refund of the build stage if the pilot misses the agreed bar.
 - **Before selling:** strip every client asset (Frontal kit, Route Rise comps); check Route Rise terms; run it on a non-client channel first and publish the numbers (human minutes per video, revisions, % of a weekly limit).
 
+### R6. A no-Resolve version: an app, or a Claude Code engine on HyperFrames (2026-11-05)
+Samuel: *"most of them don't want to go through Davinci resolve"* · *"What if I vibe code an app that does this ... uses HTML css and Javascript to do the visuals ... has access to their claude Max sub"* · *"would it fail cause it doesn't have access to tools that claude code has access too?"*
+
+Facts found (web, 2026-11-05):
+- **HyperFrames** is HeyGen's open-source (Apache-2.0) HTML/CSS/JS → MP4 renderer built for agents, with a Claude Code skill, captions, TTS and audio mix ([intro](https://hyperframes.heygen.com/introduction), [GitHub](https://github.com/hyperframes)). **video-use** (browser-use) is a free Claude Code skill that cuts filler and dead air and grades talking-heads ([GitHub](https://github.com/browser-use/video-use)).
+- **A third-party app can't run on a customer's Claude Max login.** Anthropic's Feb 2026 terms say consumer OAuth is for Claude Code and Claude.ai only, and enforcement started in January ([The Register](https://www.theregister.com/software/2026/02/20/anthropic-clarifies-ban-on-third-party-tool-access-to-claude/5014546)). An October 2026 guide says the wording changed, but that isn't confirmed. A standalone app would pay API prices: roughly **USD 1,000 a video** at the current pipeline's usage (video 4 used ~60-65 % of a 20x week, and one measurement put a 20x week at ~USD 1,643 at API prices, [[claude-max-20x-weekly-limits]]). Rough estimate.
+- **Crowded market:** Descript Underlord, Captions AI Edit, invideo, Valmera, MirrorCut, Jupitrr, EditorOP ([valmera list](https://valmera.io/alternatives/best-agentic-video-editors)).
+
+General Manager's read (suggestion): **don't build a standalone app.** The tools aren't the problem: the Agent SDK has the same tools. Cost and competition are. **Build the no-Resolve engine as a Claude Code package** (HyperFrames for graphics, ffmpeg for cuts and audio, a local preview page to approve) that runs inside the customer's own Claude Code on their own Max plan. To them it works like an app: drop footage in a folder, type one command, approve the preview, get an MP4. The edge is style cloning from their samples and rulebook, B2B demo quality, footage that never leaves their PC, and a done-for-you build with a guarantee. Prove it on one video first and compare its cost to the Resolve pipeline.
+
 **Best bet: R1.** It's the same work he's already rated "most reliable editor" for, sold to the end buyer instead of through an agency.
 
 **Rules for the remote track:**
