@@ -21,6 +21,7 @@ Single source of continuity. **Read this first, then AGENTS.md.** Update at the 
 
 ## Live work and dates
 
+- **AI Edit Engine / Housecut** (new 2026-11-05, General Manager): Samuel's idea to sell a custom AI editor (no Resolve, HyperFrames + ffmpeg, in the customer's own Claude Code) as a USD 9,500 done-for-you build. Build list, plan, offer and brand drafted; **next: Phase 0 test, one video with no Resolve** (Samuel picks the video). [[04-Projects/ai-edit-engine|project]] · [[04-Projects/ai-edit-engine-offer-and-brand|offer and brand]].
 - **Editing rulebook (Editor, new 2026-11-03):** Samuel's number-one rule for every Route Rise edit. Drafted: [[03-Areas/video-editing/rulebook/rulebook|rulebook]], 41 sections, 1,378 rules, 99 questions. **Next: Samuel reviews it rule by rule from A1** (his order, 2026-11-03: *"bring each rule to me to approve correct or dismiss"*); `scripts/rulebook/rb_status.py` shows where the review stands. [[04-Projects/editing-rulebook|job note]].
 
 - **Route Rise video 3, Gamma Ep. 12 "Claude + Gamma App MCP Will Make You Rich" (Editor):** v4 (delivered 2026-11-01 13:25) **rejected by Samuel ~16:00**: not his style. **v5 rebuilt the same evening on his own reference** (*Claude Just Changed Freelancing Forever!*): screen recordings stripped to highlight + entrance/vignette/zoom, 115 graphics over her cut to 40, each cloned from his comps (`kits
