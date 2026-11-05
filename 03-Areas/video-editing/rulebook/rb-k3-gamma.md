@@ -43,7 +43,7 @@ section: K3
 - **K3.16** Most graphics go on the main screen over her, not on navy. Graphics sit in her free side third (~560 px); she stays centred. Full-frame navy only for major moments, 90 s at most in the whole video. ✅ *"you did too much of the animation on the blue background and not enough on the main screen"* (2026-10-31)
 - **K3.17** Text over her: short ALL-CAPS lines, about 14 characters a line, in NeoTextMotion; the accent (sky) is the last word; a negative second line is red as a whole. Her picture dims to Gain 0.34 under text. White text only on boxes. 🎬 (his reference, read 2026-11-01)
 - **K3.18** Boxes vary: never all the same design. ✅ *"the boxes all look the same, no much variance"* (2026-10-31)
-- **K3.19** Screen recordings get only adjustment clips: his NeoHighlighter plus darken-the-rest, cursor movement, NeoAnim entrance with a small vignette (Blend 0.638) and a slow MagicZoom. Rules: [[03-Areas/video-editing/rulebook/rb-c8-screens-and-ui|C8]], [[03-Areas/video-editing/rulebook/rb-b2-comps-and-adjustment-clips|B2]]. ✅ 🎬 (2026-11-01)
+- **K3.19** Screen recordings get only adjustment clips: his NeoHighlighter plus darken-the-rest, cursor movement, NeoAnim entrance with the vignette at Blend 0.835 like every client (Q-B2.a, 2026-11-05; the job note said 0.638) and a slow MagicZoom. Rules: [[03-Areas/video-editing/rulebook/rb-c8-screens-and-ui|C8]], [[03-Areas/video-editing/rulebook/rb-b2-comps-and-adjustment-clips|B2]]. ✅ 🎬 (2026-11-01)
 - **K3.20** She talks through many tools: demo each one properly, with clicks, dropdowns and the list items shown as they are said. ✅ *"I feel they didn't demo enough"* (2026-10-31)
 
 ## Never

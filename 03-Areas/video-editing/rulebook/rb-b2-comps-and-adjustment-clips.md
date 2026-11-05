@@ -16,21 +16,21 @@ section: B2
 ## Rules
 
 ### Adjustment clips are the default
-- **B2.1** Anything that is not a source clip goes on an adjustment clip: focus, lighting, highlight, extra zoom, text over footage, pills and graphics over the A-roll. Use them a lot. 🔁 ×4 ✅ *"You make use of adjustment clips a lot, as that's how I used to edit"* (2026-10-14; also 2026-09-27, 2026-10-07, 2026-10-22)
-- **B2.2** Keep the treatment off the media clip and out of its own comp, so he can adjust it. The media clip's own comp stays pass-through. ✅ *"must be on an adjustment clip not on the clip itself so I can always adjust things"* (2026-09-27)
-- **B2.3** Build on real adjustment clips, never on transparent base clips with a MediaIn reading the layers below. ✅ *"Use Adjusment clips instead of what you used, it is not giving the same results"* (2026-10-07; replaces the Apollo base-clip method of 2026-10-02)
-- **B2.4** To repeat a visual, copy his adjustment clip and its nodes and adjust them. When he points at one of his own elements, lift it from his comp with its settings; never redraw it. ✅ *"just copy the adjustment clip and and nodes, and adjust things well"* (2026-09-27)
-- **B2.5** Every visual except a UI demo is live Fusion nodes, never a rendered video, so he can change text and animation on a revision. ✅ *"I want it to be actual nodes, not videos"* (2026-09-27) Page zooms and highlights stay on adjustment clips, never baked into a render. ⚙️ See Q-B2.c.
-- **B2.6** One adjustment clip may carry a Fusion comp **and** an Edit-page plugin (e.g. MagicZoom), so one clip owns both the look and the move. 🎬 (27 % of his 117 adjustment clips in 7M)
+- **B2.1** Anything that is not a source clip goes on an adjustment clip: focus, lighting, highlight, extra zoom, text over footage, pills and graphics over the A-roll. Use them a lot. 🔁 ×4 ✅ *"You make use of adjustment clips a lot, as that's how I used to edit"* (2026-10-14; also 2026-09-27, 2026-10-07, 2026-10-22) · ✔ 2026-11-05
+- **B2.2** Keep the treatment off the media clip and out of its own comp, so he can adjust it. The media clip's own comp stays pass-through. ✅ *"must be on an adjustment clip not on the clip itself so I can always adjust things"* (2026-09-27) · ✔ 2026-11-05
+- **B2.3** Build on real adjustment clips, never on transparent base clips with a MediaIn reading the layers below. ✅ *"Use Adjusment clips instead of what you used, it is not giving the same results"* (2026-10-07; replaces the Apollo base-clip method of 2026-10-02) · ✔ 2026-11-05
+- **B2.4** To repeat a visual, copy his adjustment clip and its nodes and adjust them. When he points at one of his own elements, lift it from his comp with its settings; never redraw it. ✅ *"just copy the adjustment clip and and nodes, and adjust things well"* (2026-09-27) · ✔ 2026-11-05
+- **B2.5** Every visual except a UI demo is live Fusion nodes, never a rendered video, so he can change text and animation on a revision. ✅ *"I want it to be actual nodes, not videos"* (2026-09-27) Page zooms and highlights stay on adjustment clips, never baked into a render. ⚙️ See Q-B2.c. · ✔ 2026-11-05
+- **B2.6** One adjustment clip may carry a Fusion comp **and** an Edit-page plugin (e.g. MagicZoom), so one clip owns both the look and the move. 🎬 (27 % of his 117 adjustment clips in 7M) · ✔ 2026-11-05
 
 ### The kinds of adjustment clip
-- **B2.7** **Media adjustment clip** — on every screen recording, page, UI, screenshot, website, render and B-roll, from the media's first frame to its last. Three parts, in this order: 🔁 ×7 ✅ 🎬 *"there was an adjustment clip that I always put in on top of screen recordings"* (2026-10-28); *"Where is my adjutment clip that we always put on screen recording visuals"* (2026-10-25)
+- **B2.7** **Media adjustment clip** — on every screen recording, page, UI, screenshot, website, render and B-roll, from the media's first frame to its last. Three parts, in this order: 🔁 ×7 ✅ 🎬 *"there was an adjustment clip that I always put in on top of screen recordings"* (2026-10-28); *"Where is my adjutment clip that we always put on screen recording visuals"* (2026-10-25) · ✔ 2026-11-05
   - NeoAnim In 20 f, Expo ease-out, Position StartOffset 0.021 at −90°, StartBlur 5.5, Blend on, no Out.
   - ResolveFX Vignette: black, oval, multiply, size 1, softness 0.5, Blend 0.835 (see Q-B2.a).
   - MagicZoom V3 slow zoom-in on the same clip (depth in B5.3).
   - Template: `Visual Assets\Samuel templates (Editor)\HIS_NEOANIM_ADJ.setting` (his `ai4_V3_000100_1.comp`). Found in all three finals (26× AI4, 26× Apollo, ~45× TSB).
-- **B2.8** All three parts, every time. NeoAnim alone is wrong. ✅ *"the adjustment clips you used in this last video was wrong because you only use [NeoAnim]"* (2026-10-28)
-- **B2.9** Montage beats use the same entrance at In 8 f. 💡
+- **B2.8** All three parts, every time. NeoAnim alone is wrong. ✅ *"the adjustment clips you used in this last video was wrong because you only use [NeoAnim]"* (2026-10-28) · ✔ 2026-11-05
+- **B2.9** Montage beats use the same entrance at In 8 f. 💡 · ✔ 2026-11-05
 - **B2.10** **Intro adjustment clip** — frames 0-28 of every video: `HK01_samuel_intro_adj.setting`. GaussianBlur 0.4 → 0 over f0-6, Transform Size 1.594 → 1.0 over f0-20, pivot (0.529, 0.67), MotionBlur Quality 10 / Shutter 330. Copy it byte for byte; no MagicZoom in 0-28. 🔁 ×2 ✅ *"there is one adjustment clip I always put at the intro of my videos"* (2026-10-28; also 2026-10-25)
 - **B2.11** **Focus adjustment clip** (V3) — over UI and pages: darken the rest with Brightness Contrast outside a soft RectangleMask, highlight the spoken element, eased zoom keyed to the words. Chain: Rectangle_Focus → Background_Dim → Merge_Dim → Transform_Zoom. ✅ (2026-09-27, 2026-10-03) Look in C6, moves in B5.
 - **B2.12** **Section slam / zoom-out reveal** — the same recipe as B2.10, 28 f, at each section start and on the return to camera after a full-frame run. 🎬 (TSB, AI4)
@@ -64,7 +64,7 @@ section: B2
 - ![[_attachments/rulebook/b2-media-adj-proof.jpg|360]] ⚙️ media adjustment clip (NeoAnim + vignette + MagicZoom) proof sheet, Cold Email, our lab test passed 2026-10-29 (not yet seen by Samuel)
 
 ## Questions for Samuel
-- **Q-B2.a** Vignette strength on the media clip. Your three finals and the template: Blend 0.835 (measured 2026-10-07). The Gamma job note: "small vignette (Blend 0.638)" (2026-11-01). → Options: (1) 0.835 on every client (2) 0.638 for Gamma only, in its overlay (3) 0.638 everywhere. My pick: (1), it is what your finals use.
+- **Q-B2.a** Vignette strength on the media clip. Your three finals and the template: Blend 0.835 (measured 2026-10-07). The Gamma job note: "small vignette (Blend 0.638)" (2026-11-01). → Options: (1) 0.835 on every client (2) 0.638 for Gamma only, in its overlay (3) 0.638 everywhere. My pick: (1), it is what your finals use. → Samuel: (1), 0.835 on every client (2026-11-05).
 - **Q-B2.b** When a range has no adjustment clip to host a comp, may we use a base clip and tell you (our method since 2026-10-10), or must we always create an adjustment clip (your 2026-10-07 ruling)? → Options: (1) always an adjustment clip (2) base clip as a last resort, flagged. My pick: (1).
 - **Q-B2.c** Heavy comps. You said every non-demo visual stays live nodes (2026-09-27), but in AI4 the workflow graphics and the face bubble were rendered in place, and on 2026-10-24 a heavy comp was a fault. → Options: (1) always live nodes, kept light (2) render heavy ones in place and keep the comp saved beside the render. My pick: (2).
 

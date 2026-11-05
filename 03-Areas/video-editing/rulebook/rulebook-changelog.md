@@ -88,5 +88,7 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · Q-B1.b · video 4 order: focus adjustment clip on V3, media adjustment clip on V4.
 - 2026-11-05 · B1.10 B1.11 B1.12 B1.13 B1.14 B1.15 B1.16 B1.17 B1.18 B1.19 B1.20 B1.21 B1.22 B1.23 B1.24 B1.25 · ✔ approved.
 - 2026-11-05 · B1 · **section approved** rule by rule: 25 rules (24 ✔, 1 ✏), 2 questions answered.
+- 2026-11-05 · B2.1 B2.2 B2.3 B2.4 B2.5 B2.6 B2.7 B2.8 B2.9 · ✔ approved.
+- 2026-11-05 · Q-B2.a · media-clip vignette Blend 0.835 on every client. K3.19 reworded to match (pending its own review).
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
