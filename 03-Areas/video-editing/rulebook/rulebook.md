@@ -1,8 +1,8 @@
 ---
 type: sop
 area: video-editing
-status: draft
-updated: 2026-11-03
+status: approved
+updated: 2026-11-05
 source: interview
 tags: [rulebook, index]
 ---
@@ -57,43 +57,43 @@ Badges on every rule: ✅ Samuel said it · 🔁 he said it more than once · �
 | B1 | [[03-Areas/video-editing/rulebook/rb-b1-timeline-arrangement\|Timeline arrangement]] | **approved 2026-11-05** |
 | B2 | [[03-Areas/video-editing/rulebook/rb-b2-comps-and-adjustment-clips\|Comps and adjustment clips]] | **approved 2026-11-05** |
 | B3 | [[03-Areas/video-editing/rulebook/rb-b3-main-nodes-and-macros\|Main nodes and macros]] | **approved 2026-11-05** |
-| B4 | [[03-Areas/video-editing/rulebook/rb-b4-fusion-node-layout\|Fusion node layout]] | draft |
-| B5 | [[03-Areas/video-editing/rulebook/rb-b5-zooms-and-crops\|Zooms, steady zoom, crop-ins]] | draft |
+| B4 | [[03-Areas/video-editing/rulebook/rb-b4-fusion-node-layout\|Fusion node layout]] | **approved 2026-11-05** |
+| B5 | [[03-Areas/video-editing/rulebook/rb-b5-zooms-and-crops\|Zooms, steady zoom, crop-ins]] | **approved 2026-11-05** |
 | **C** | **Visual language** | |
-| C1 | [[03-Areas/video-editing/rulebook/rb-c1-quality-bar\|Aesthetics and the quality bar]] | draft |
-| C2 | [[03-Areas/video-editing/rulebook/rb-c2-animation\|Motion styles and animation]] | draft |
-| C3 | [[03-Areas/video-editing/rulebook/rb-c3-elements\|Elements: icons, circles, boxes, pills, cards, logos]] | draft |
-| C4 | [[03-Areas/video-editing/rulebook/rb-c4-typography\|Typography and numbers]] | draft |
-| C5 | [[03-Areas/video-editing/rulebook/rb-c5-colour-and-backgrounds\|Colours, variety, backgrounds]] | draft |
-| C6 | [[03-Areas/video-editing/rulebook/rb-c6-highlighting\|Highlighting and brightness areas]] | draft |
-| C7 | [[03-Areas/video-editing/rulebook/rb-c7-blurs-glows-shines\|Blurs, glows, shines]] | draft |
-| C8 | [[03-Areas/video-editing/rulebook/rb-c8-screens-and-ui\|Screen recordings, demos, UI, articles]] | draft |
-| C9 | [[03-Areas/video-editing/rulebook/rb-c9-b-roll\|B-roll]] | draft |
-| C10 | [[03-Areas/video-editing/rulebook/rb-c10-graphs-and-stats\|Graphs and stats]] | draft |
-| C11 | [[03-Areas/video-editing/rulebook/rb-c11-3d-elements\|3D elements]] | draft |
-| C12 | [[03-Areas/video-editing/rulebook/rb-c12-section-cards\|Section cards and chapter markers]] | draft |
-| C13 | [[03-Areas/video-editing/rulebook/rb-c13-intro\|The intro]] | draft |
-| C14 | [[03-Areas/video-editing/rulebook/rb-c14-timings\|Timings]] | draft |
-| C15 | [[03-Areas/video-editing/rulebook/rb-c15-pacing\|Pacing]] | draft |
-| C16 | [[03-Areas/video-editing/rulebook/rb-c16-references\|References and creativity]] | draft |
+| C1 | [[03-Areas/video-editing/rulebook/rb-c1-quality-bar\|Aesthetics and the quality bar]] | **approved 2026-11-05** |
+| C2 | [[03-Areas/video-editing/rulebook/rb-c2-animation\|Motion styles and animation]] | **approved 2026-11-05** |
+| C3 | [[03-Areas/video-editing/rulebook/rb-c3-elements\|Elements: icons, circles, boxes, pills, cards, logos]] | **approved 2026-11-05** |
+| C4 | [[03-Areas/video-editing/rulebook/rb-c4-typography\|Typography and numbers]] | **approved 2026-11-05** |
+| C5 | [[03-Areas/video-editing/rulebook/rb-c5-colour-and-backgrounds\|Colours, variety, backgrounds]] | **approved 2026-11-05** |
+| C6 | [[03-Areas/video-editing/rulebook/rb-c6-highlighting\|Highlighting and brightness areas]] | **approved 2026-11-05** |
+| C7 | [[03-Areas/video-editing/rulebook/rb-c7-blurs-glows-shines\|Blurs, glows, shines]] | **approved 2026-11-05** |
+| C8 | [[03-Areas/video-editing/rulebook/rb-c8-screens-and-ui\|Screen recordings, demos, UI, articles]] | **approved 2026-11-05** |
+| C9 | [[03-Areas/video-editing/rulebook/rb-c9-b-roll\|B-roll]] | **approved 2026-11-05** |
+| C10 | [[03-Areas/video-editing/rulebook/rb-c10-graphs-and-stats\|Graphs and stats]] | **approved 2026-11-05** |
+| C11 | [[03-Areas/video-editing/rulebook/rb-c11-3d-elements\|3D elements]] | **approved 2026-11-05** |
+| C12 | [[03-Areas/video-editing/rulebook/rb-c12-section-cards\|Section cards and chapter markers]] | **approved 2026-11-05** |
+| C13 | [[03-Areas/video-editing/rulebook/rb-c13-intro\|The intro]] | **approved 2026-11-05** |
+| C14 | [[03-Areas/video-editing/rulebook/rb-c14-timings\|Timings]] | **approved 2026-11-05** |
+| C15 | [[03-Areas/video-editing/rulebook/rb-c15-pacing\|Pacing]] | **approved 2026-11-05** |
+| C16 | [[03-Areas/video-editing/rulebook/rb-c16-references\|References and creativity]] | **approved 2026-11-05** |
 | **D** | **Sound** | |
-| D1 | [[03-Areas/video-editing/rulebook/rb-d1-music\|Music]] | draft |
-| D2 | [[03-Areas/video-editing/rulebook/rb-d2-sound-effects\|Sound effects]] | draft |
+| D1 | [[03-Areas/video-editing/rulebook/rb-d1-music\|Music]] | **approved 2026-11-05** |
+| D2 | [[03-Areas/video-editing/rulebook/rb-d2-sound-effects\|Sound effects]] | **approved 2026-11-05** |
 | **E** | **Finish** | |
-| E1 | [[03-Areas/video-editing/rulebook/rb-e1-rendering\|Rendering and delivery]] | draft |
-| E2 | [[03-Areas/video-editing/rulebook/rb-e2-revisions-and-quality\|Revisions and quality]] | draft |
+| E1 | [[03-Areas/video-editing/rulebook/rb-e1-rendering\|Rendering and delivery]] | **approved 2026-11-05** |
+| E2 | [[03-Areas/video-editing/rulebook/rb-e2-revisions-and-quality\|Revisions and quality]] | **approved 2026-11-05** |
 | **F** | **How Claude works** | |
-| F1 | [[03-Areas/video-editing/rulebook/rb-f1-claude-in-resolve\|Claude in Resolve]] | draft |
-| F2 | [[03-Areas/video-editing/rulebook/rb-f2-bugs-and-crashes\|Bugs, crashes, bug reports]] | draft |
-| F3 | [[03-Areas/video-editing/rulebook/rb-f3-tokens-and-scripts\|Tokens, cost, scripts]] | draft |
-| F4 | [[03-Areas/video-editing/rulebook/rb-f4-sub-agents\|Sub-agents]] | draft |
-| F5 | [[03-Areas/video-editing/rulebook/rb-f5-speed-and-timing\|Speed and timing of work]] | draft |
+| F1 | [[03-Areas/video-editing/rulebook/rb-f1-claude-in-resolve\|Claude in Resolve]] | **approved 2026-11-05** |
+| F2 | [[03-Areas/video-editing/rulebook/rb-f2-bugs-and-crashes\|Bugs, crashes, bug reports]] | **approved 2026-11-05** |
+| F3 | [[03-Areas/video-editing/rulebook/rb-f3-tokens-and-scripts\|Tokens, cost, scripts]] | **approved 2026-11-05** |
+| F4 | [[03-Areas/video-editing/rulebook/rb-f4-sub-agents\|Sub-agents]] | **approved 2026-11-05** |
+| F5 | [[03-Areas/video-editing/rulebook/rb-f5-speed-and-timing\|Speed and timing of work]] | **approved 2026-11-05** |
 | **K** | **Authority and clients** | |
-| K0 | [[03-Areas/video-editing/rulebook/rb-k0-authority\|Order of authority]] | draft |
-| K1 | [[03-Areas/video-editing/rulebook/rb-k1-route-rise\|Route Rise agency rules]] | draft |
-| K2 | [[03-Areas/video-editing/rulebook/rb-k2-alex-frontal\|Alex / Frontal]] | draft |
-| K3 | [[03-Areas/video-editing/rulebook/rb-k3-gamma\|Gamma]] | draft |
-| K4 | [[03-Areas/video-editing/rulebook/rb-k4-new-client\|New client template]] | draft |
+| K0 | [[03-Areas/video-editing/rulebook/rb-k0-authority\|Order of authority]] | **approved 2026-11-05** |
+| K1 | [[03-Areas/video-editing/rulebook/rb-k1-route-rise\|Route Rise agency rules]] | **approved 2026-11-05** |
+| K2 | [[03-Areas/video-editing/rulebook/rb-k2-alex-frontal\|Alex / Frontal]] | **approved 2026-11-05** |
+| K3 | [[03-Areas/video-editing/rulebook/rb-k3-gamma\|Gamma]] | **approved 2026-11-05** |
+| K4 | [[03-Areas/video-editing/rulebook/rb-k4-new-client\|New client template]] | **approved 2026-11-05** |
 | H | [[03-Areas/video-editing/rulebook/rb-videos-history\|Every video so far]] | reference |
 
 ## How the review works
