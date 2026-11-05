@@ -272,3 +272,4 @@ Back to [[07-Agents/content/profile|Profile]]
 pm (packaged install), so community_admin netlify commands fail from this shell.
 - 2026-11-05 · Brand manager · call-once one-off calls built (call-reminder, whatsapp-post, /call); Fri 2026-11-06 8pm beginners class set, event made, TickTick task; Sun/Wed events and bot live channel moved to live-call; env pushed, prod deploy x2.
 - 2026-11-05 · Brand manager · #weekly-live hidden (archived, not deleted); meeting_recorder.py records while Samuel is in live-call; watcher restarted (pid 8180).
+- 2026-11-05 · Brand manager · Daily WhatsApp-post DM switched off (Samuel: "stop sending my Direct DMs about whatsapp posts"); whatsapp-post.mjs returns unless WHATSAPP_POST=on; prod deploy.
