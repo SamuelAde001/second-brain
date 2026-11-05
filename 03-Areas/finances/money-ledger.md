@@ -306,6 +306,9 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-11-05 | major | 20,000 | To friend | Friend | his words: "20k went to my friend, that's all I am giving her"; day assumed; Payday B line paid early from cash on hand |
 | 2026-11-05 | bulk | 1,303 | Minor spends 2026-11-04 to 2026-11-05 | Other | derived: ledger 220,647 vs his balance 219,344 |
 | 2026-11-05 | balance | 219,344 | Bank | — | his words: "My account now is 219344" |
+| 2026-11-05 | major | 120,000 | To girlfriend | Girlfriend extra (one-off) | his words: "sent 120k to babe"; Payday A, one-off |
+| 2026-11-05 | major | 10,000 | To dad, house security | Parents — house security | his words: "Sent 10k to dad"; "10k to my dad for house security, which I would be sending monthly" |
+| 2026-11-05 | correction | — | Instagram cancelled | Subscriptions | his words: "Canceled the instagram sub"; the 8,499 due on the 7th will not bill |
 
 Back to [[03-Areas/finances/finances|Finances]]
 

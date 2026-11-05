@@ -15,8 +15,9 @@ Exact line items, given by Samuel on 2026-08-26 and maintained since. **Payday**
 |---|---|---|---|
 | Furnishing (replaces the building project, from the month after rent is paid) | NGN 500,000 | Fixed | A |
 | Parents | NGN 100,000 | Committed | A |
+| Parents — house security | NGN 10,000 | Committed | A |
 | Girlfriend allowance | NGN 100,000 | Committed | A |
-| Subscriptions | NGN 328,549 | mixed | split |
+| Subscriptions | NGN 320,050 | mixed | split |
 | Chores / household | NGN 40,000 | Discretionary | B |
 | Health — gym | NGN 30,000 | Committed | A |
 | Feeding | NGN 30,000 | Committed | B |
@@ -27,9 +28,9 @@ Exact line items, given by Samuel on 2026-08-26 and maintained since. **Payday**
 | Giving | NGN 10,000 | Committed | B |
 | Personal / misc | NGN 10,000 | Discretionary | B |
 | Data / airtime | NGN 5,000 | Committed | B |
-| **Obligations floor** | **NGN 1,296,424** | | |
+| **Obligations floor** | **NGN 1,297,925** | | |
 | Investment contribution (Investment fund) | NGN 60,000 | Fixed | A |
-| **Total committed outflow** | **NGN 1,356,424 / month** | | |
+| **Total committed outflow** | **NGN 1,357,925 / month** | | |
 
 The Buffer gets NGN 90,000/month on top: NGN 40,000 to Cowrywise savings on Payday A + NGN 50,000 on Payday B (Rule 8, changed 2026-09-28).
 
@@ -41,7 +42,6 @@ The Buffer gets NGN 90,000/month on top: NGN 40,000 to Cowrywise savings on Payd
 | Google (AI Plus 2 TB, from 2026-10-18) | 15,000 | 18th |
 | YouTube Premium | 1,700 | 17th |
 | Spotify | 1,600 | 5th |
-| Instagram | 8,499 | 7th |
 | Google Workspace Business Starter (EUR 7.29, EUR 8.10 after 12 months; estimate) | ~11,500 | 9th |
 
 **NGN 162,242 a month** from 2026-10-18, when Google went from AI Pro (NGN 28,500) down to AI Plus 2 TB (NGN 15,000). Samuel, 2026-10-16: *"I just downgraded, it's 15k per month for the google sub"*. 2 TB kept for Meet's long group calls and recording (webinar, cohort classes). Before that, **NGN 175,742 a month** from 2026-10-06, when Claude went from Pro on Google Play (NGN 33,500, 16th) to Max on claude.ai: USD 107.50, NGN 143,942 on the first charge. Samuel, 2026-10-06: *"N143,942 was charged for $107.5"*. The naira figure moves with the card rate. It was NGN 65,300 from 2026-09-18. Until then it was NGN 51,800: Claude NGN 33,500 (16th) · Google NGN 15,000 (2nd) · YouTube Premium NGN 1,700 (17th) · Spotify NGN 1,600 (5th).
@@ -54,6 +54,7 @@ YouTube and Spotify are kept — his words: they help his work, and they are his
 
 - **CapCut NGN 14,900** — cancelled 2026-09-02. His call, unprompted, because he edits on DaVinci Resolve now. Worth **NGN 178,800 a year.**
 - **Rubik's cube subscription NGN 6,860** — cancelled 2026-08-26.
+- **Instagram NGN 8,499** — cancelled 2026-11-05, before its first bill on the 7th. His words: "Canceled the instagram sub".
 
 > The shape of this is worth noticing: the obligations floor has fallen twice, **both times because he changed a decision, and never once because income moved.**
 
@@ -127,6 +128,15 @@ Subscriptions rise from NGN 162,242 to **NGN 328,549**. The floor is corrected t
 | Wealth club membership | — | NGN 25,000 a quarter (paid 2026-11-04; next February 2027), from the Cowrywise savings NGN 40,000 that month; the other NGN 15,000 stays Buffer | *"Cowrywise savings would be going to payment for my membership in the wealth club instead"*, *"40k wealth club is quarterly"*; "Just sent 25k for the wealth club renewal, it's 25k not 40k" |
 | Google Workspace | ~NGN 11,500 on the 9th | held in November; stays in the standing plan | *"I don't think I need the custom email from the workspace this month, as I am not doing outreach yet"*. The trial bills itself on 2026-11-09 unless cancelled |
 | Building project | NGN 500,000 | NGN 0 in November, to the rent fund; then replaced by Furnishing NGN 500,000 a month, once rent is paid, until he says otherwise | *"I need to channel all the money for my building project to my rent"*. *"Once rent is paid, I would need roughly 500k monthly to help furnish the house"*; *"Furnishing replaces the building project, until I say so"* |
+
+## Changed 2026-11-05, at his instruction
+
+| Line | From | To | Why |
+|---|---|---|---|
+| Parents — house security | — | NGN 10,000 a month, Payday A | *"10k to my dad for house security, which I would be sending monthly"* |
+| Instagram | NGN 8,499 on the 7th | cancelled | *"Canceled the instagram sub"* |
+
+Subscriptions NGN 328,549 → **NGN 320,050**; floor NGN 1,296,424 → **NGN 1,297,925**; committed outflow → **NGN 1,357,925**. (The NGN 328,549 never took in the Rubuik Cube NGN 6,860 or Discord NGN 4,054; both still to be placed.)
 
 ## Removed and no longer owed
 

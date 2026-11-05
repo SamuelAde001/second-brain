@@ -101,3 +101,8 @@ Back to [[03-Areas/finances/finances|Finances]]
 
 - (later) *"Furnishing replaces the building project, until I say so"*. Furnishing NGN 500,000 a month takes the building line from the month after rent is paid. Rule 4 reads for Furnishing. Rubuik Cube is NGN 6,860, *"that's the new price"*.
 - (later) *"I am not touching the rent money of payday B"*: Payday B's NGN 261,401 goes to the rent fund whatever else comes up. A creative director payment (~NGN 60,000, undecided) can only come from cash on hand.
+
+## 2026-11-05 — GF 120k and dad's house security on Payday A
+
+- *"I have to give her that cash in payday A"*: NGN 120,000 to his girlfriend, one-off. *"10k to my dad for house security, which I would be sending monthly"*: a new standing line.
+- *"Let's remove the wedding outfit, gym, instagram"* to make room; Instagram cancelled. Cash on hand drops under the NGN 100,000 floor (NGN 47,744 to Payday B); the Payday B rent money stays untouched.
