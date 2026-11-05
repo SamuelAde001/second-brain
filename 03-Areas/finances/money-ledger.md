@@ -300,6 +300,12 @@ Totals by script, never by reading the whole file: `python 00-System/scripts/mon
 | 2026-11-04 | charges | 242 | Bank charges | — | derived; rows give 326,943, he has 326,701 |
 | 2026-11-04 | balance | 326,701 | Bank | — | his words: "what is in my account right now is 326701" |
 | 2026-11-04 | major | 25,000 | Wealth club membership, quarterly renewal | Wealth club membership (quarterly) | his words: "Just sent 25k for the wealth club renewal, it's 25k not 40k" |
+| 2026-11-05 | bulk | 4,054 | Discord subscription | Subscriptions | his words: "I subscribed to discord 4054"; day assumed; new subscription, not in the plan |
+| 2026-11-05 | major | 50,000 | To dad | Parents | his words: "50k went to my dad"; day assumed |
+| 2026-11-05 | bulk | 7,000 | Eating out | Extra cash | his words: "7k went to eating out"; day assumed; no Eating out line in November, line is a guess |
+| 2026-11-05 | major | 20,000 | To friend | Friend | his words: "20k went to my friend, that's all I am giving her"; day assumed; Payday B line paid early from cash on hand |
+| 2026-11-05 | bulk | 1,303 | Minor spends 2026-11-04 to 2026-11-05 | Other | derived: ledger 220,647 vs his balance 219,344 |
+| 2026-11-05 | balance | 219,344 | Bank | — | his words: "My account now is 219344" |
 
 Back to [[03-Areas/finances/finances|Finances]]
 

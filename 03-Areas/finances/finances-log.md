@@ -49,3 +49,5 @@ Back to [[03-Areas/finances/finances|Finances]]
 - 2026-10-30 — **Building back to NGN 500,000** for November: *"I need some breathing space, I need 100k min cash on hand"*. Extra cash NGN 100,000 on Payday A kept in the bank; Goal 1 November NGN 199,363 (A 41,863 + B 157,500). December needs NGN 454,596.
 
 - 2026-11-04 — Bank statement showed the ledger NGN 34,444 below the bank since 2026-10-24 (balances read short). Corrected from the statement; the bank is now taken from the statement, not a quick read. [[07-Agents/finance/log|finance log]]
+
+- 2026-11-05 — **Friend line NGN 30,000 → 20,000**: *"20k went to my friend, that's all I am giving her"*. Paid early from cash on hand. NGN 10,000 of Payday B freed, not yet placed. New Discord subscription NGN 4,054 a month. [[07-Agents/finance/log|finance log]]
