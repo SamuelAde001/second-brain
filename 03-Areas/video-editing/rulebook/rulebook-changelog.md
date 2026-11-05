@@ -141,5 +141,11 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · Q-C15.a · new visual every 5-10 s, change about every 3 s. C15.4 C15.5 ✔.
 - 2026-11-05 · Q-C16.a · settled by Q-K3.b. Q-C16.b · keep the best-editor folder, he may add references. C16.4 ✔.
 - 2026-11-05 · C13.2 C13.18 C14.7 C15.4 C15.5 C16.4 · ✔ approved.
+- 2026-11-05 · Q-D1.a · sound always after his visual sign-off. *"so that we don't change sounds after visual changes"*
+- 2026-11-05 · Q-E2.a · overnight: closest rule + flag; at the PC: ask. Q-E2.b · rulebook canonical, card is its digest.
+- 2026-11-05 · Q-F1.a · no ping for screen control unless he said he's using the screen. Q-F1.b · colour grade untouchable, F1.30 ✔. F1.21 ✔.
+- 2026-11-05 · Q-F2.a · not an issue, he doesn't cache. Q-F2.b · ping only when the job stops or work is lost.
+- 2026-11-05 · Q-F3.a · no fixed ceiling: as much as needed, very efficient. *"Use as much as is needed, but be very efficient"*
+- 2026-11-05 · F1.21 F1.30 · ✔ approved.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

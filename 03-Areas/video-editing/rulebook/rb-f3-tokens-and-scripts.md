@@ -61,7 +61,7 @@ His stance moved over October: *"not bothered about token usage"* (2026-10-13) �
 - (no picture yet: none needed; this section is about process)
 
 ## Questions for Samuel
-- **Q-F3.a** Default ceiling when you haven't named one. Cold Email Goldrush took ~50 % of a week (2026-10-30: *"does that mean two videos can go in a week?"*); video 2 had *"maximum 70%"* (2026-10-22); Gamma *"By 90% weekly usage, we are already done with this video"* (2026-10-31). → Options: (1) 50 % of a week per video, so two fit (2) 70 % (3) ask at every job start. My pick: 1, and say the number at job start.
+- **Q-F3.a** Default ceiling when you haven't named one. Cold Email Goldrush took ~50 % of a week (2026-10-30: *"does that mean two videos can go in a week?"*); video 2 had *"maximum 70%"* (2026-10-22); Gamma *"By 90% weekly usage, we are already done with this video"* (2026-10-31). → Options: (1) 50 % of a week per video, so two fit (2) 70 % (3) ask at every job start. My pick: 1, and say the number at job start. → Samuel: no fixed ceiling: use as much as the video needs, very efficiently. *"Use as much as is needed, but be very efficient"* (2026-11-05)
 - **Q-F3.b** Use the week up or keep a reserve? 2026-10-13/14: *"by the reset, I should be around 99% usage"* and *"every five hours, we've used 100%"*. 2026-11-01: *"not to run out of credits as I need credits for other works"*. → Options: (1) keep a reserve; spend leftovers only on work you name (2) use it up by the reset. My pick: 1.
 
 ## Sources

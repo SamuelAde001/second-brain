@@ -41,7 +41,7 @@ section: F1
 - **F1.18** Before any install, full render or long build: save, `resolve_guard.py preflight --for install` (or `render`), `restart_resolve.py --force`, `open_job.py`. Installs run with the render queue stopped. Never run a cache and lab renders together. ⚙️
 - **F1.19** At the end, leave Resolve on the working timeline, Edit page, project saved and restarted so it caches. ⚙️
 - **F1.20** Logged-in web tools (Frame.io, Gamma) go through his Chrome via Claude in Chrome, main session only. When another session is using his Chrome, use headless Chrome with its own profile (`pipeline\capture\record_demo.py`). ✅ *"Gamma in chrome is logged in"* (2026-10-31) · (2026-10-22)
-- **F1.21** He is fluent in Resolve, Fusion and OBS: don't explain the basics. 💡
+- **F1.21** He is fluent in Resolve, Fusion and OBS: don't explain the basics. 💡 · ✔ 2026-11-05
 
 ### Where the how-to lives
 - **F1.22** Open [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] before any API call you have not made on this job, and whenever a call fails. It holds paste, wiring, placement, frame grabs, caching and loading. ⚙️
@@ -54,14 +54,14 @@ section: F1
 - **F1.27** Pasting through the Windows clipboard: his copying overwrites it. Paste from a file. ⚙️
 - **F1.28** `DuplicateTimeline` on a heavy timeline through the MCP (blocked Resolve, memory 4.8 to 17 GB). ⚙️
 - **F1.29** Changing Windows or system settings (TdrDelay and the like): give him the commands, he runs them. ✅ *"This all started when I changed that setting in the powershell, I want to return it to normal"* (2026-09-25)
-- **F1.30** Touching his colour grade. 💡
+- **F1.30** Touching his colour grade. 💡 · ✔ 2026-11-05
 
 ## Pictures
 - (no picture yet: none needed; this section is about process)
 
 ## Questions for Samuel
-- **Q-F1.a** Screen control: on 2026-10-22 you said *"the only reason you would notify me for a permission is if you are doing screen ... and if you want to delete something"*. On 2026-10-24 the standing rule became "use every tool without asking, except deleting your things or keys". Does screen control still need a ping first? (A3.12, 2026-11-03: for the silence cut, *"ping me when you need it"*.) (Your A1.8 on 2026-11-03, *"use everytool without asking"*, points to no ping.) → Options: (1) no ping when you are away; ping only when you may be at the PC (2) always ping first. My pick: 1.
-- **Q-F1.b** "Never touch his colour grade" (F1.30) comes from the Editor profile, not from your words. Keep it as a hard rule? → Options: (1) yes (2) only when you say so per job. My pick: 1.
+- **Q-F1.a** Screen control: on 2026-10-22 you said *"the only reason you would notify me for a permission is if you are doing screen ... and if you want to delete something"*. On 2026-10-24 the standing rule became "use every tool without asking, except deleting your things or keys". Does screen control still need a ping first? (A3.12, 2026-11-03: for the silence cut, *"ping me when you need it"*.) (Your A1.8 on 2026-11-03, *"use everytool without asking"*, points to no ping.) → Options: (1) no ping when you are away; ping only when you may be at the PC (2) always ping first. My pick: 1. → Samuel: no ping for screen control, unless he has said beforehand that he is using the screen. *"No ping except I tell you I am using the screen before then"* (2026-11-05)
+- **Q-F1.b** "Never touch his colour grade" (F1.30) comes from the Editor profile, not from your words. Keep it as a hard rule? → Options: (1) yes (2) only when you say so per job. My pick: 1. → Samuel: (1), never touch his colour grade, a hard rule (2026-11-05).
 
 ## Sources
 Replaces the Resolve-sharing parts of [[03-Areas/video-editing/ways-of-working|ways of working]] and [[07-Agents/video-editor/profile|Editor profile]]; draws on [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]], [[03-Areas/video-editing/sops/fusion-build|Fusion build SOP]], [[03-Areas/video-editing/sops/video-pipeline-tools|video pipeline tools]], [[03-Areas/video-editing/sops/unattended-run|unattended run]].

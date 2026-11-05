@@ -9,7 +9,7 @@ tags: [rulebook, review]
 
 # Rulebook open issues
 
-Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **23 questions** and **4 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
+Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **15 questions** and **2 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
 
 **The other 995 waiting rules** come from your own words or your finals. Once these issues are answered, say *approve the rest* and they all get ✔ in one go; anything you correct later comes in as a revision and is written back.
 
@@ -18,8 +18,6 @@ Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], i
 ## [[03-Areas/video-editing/rulebook/rb-d1-music|D1 · Music]]
 
 **Questions**
-- **Q-D1.a** When does sound go in? You ruled four times (2026-10-07 to 2026-10-15) that sound comes only after you approve the visuals. On 2026-10-24 you said *"go ahead and add music and sound effects ... and render it"*, and on video 4 (2026-10-28) the Editor put sound in before your morning review so you watch the finished video once. → Options: (1) always after your visual sign-off; (2) in before your review so you review once, muted if you want to judge visuals alone. My pick: (2) for overnight runs, since you review once and only render after; (1) when you are reviewing visuals live.
-  - **Answer:** 
 - **Q-D1.b** Alex asked for "no music under the voice" (2026-10-06). Every later video shipped with music under the voice. → Options: (1) that note is dead, music as above; (2) it still holds for Alex, mute A2 under speech. My pick: (1), keeping music on A2 so it mutes in one click.
   - **Answer:** 
 - **Q-D1.c** Song length: Route Rise's notes say never a song over 90 s (2026-09-25); the CD standard says about 1-2 minutes a song (2026-10-22). → Options: (1) 90 s cap; (2) 1-2 min, change at section boundaries only. My pick: (2), because changes must land on section boundaries.
@@ -54,34 +52,10 @@ Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], i
 ## [[03-Areas/video-editing/rulebook/rb-e2-revisions-and-quality|E2 · Revisions and quality management]]
 
 **Questions**
-- **Q-E2.a** When the rulebook is silent, what should an agent do? You said "never guess" (2026-11-03), but overnight runs can't wait for you. → Options: (1) stop and ask; (2) pick the closest rule, flag it in the report, keep going; (3) (2) overnight, (1) when you are at the PC. My pick: (3).
-  - **Answer:** 
-- **Q-E2.b** Review card vs rulebook. The card says *"If this card and a long note disagree, the long note wins"* (2026-10-24). Now the rulebook is the number one rule. → Options: (1) the rulebook is canonical; the card becomes its one-page digest, both updated the same session; (2) retire the card. My pick: (1); reviewers need the short version.
-  - **Answer:** 
 - **Q-E2.c** Version names for deliveries to Route Rise: only "v1/v2" as you name them. See Q-E1.b.
   - **Answer:** 
 
-## [[03-Areas/video-editing/rulebook/rb-f1-claude-in-resolve|F1 · Using DaVinci Resolve by Claude]]
-
-**Questions**
-- **Q-F1.a** Screen control: on 2026-10-22 you said *"the only reason you would notify me for a permission is if you are doing screen ... and if you want to delete something"*. On 2026-10-24 the standing rule became "use every tool without asking, except deleting your things or keys". Does screen control still need a ping first? (A3.12, 2026-11-03: for the silence cut, *"ping me when you need it"*.) (Your A1.8 on 2026-11-03, *"use everytool without asking"*, points to no ping.) → Options: (1) no ping when you are away; ping only when you may be at the PC (2) always ping first. My pick: 1.
-  - **Answer:** 
-- **Q-F1.b** "Never touch his colour grade" (F1.30) comes from the Editor profile, not from your words. Keep it as a hard rule? → Options: (1) yes (2) only when you say so per job. My pick: 1.
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **F1.21** He is fluent in Resolve, Fusion and OBS: don't explain the basics. 💡
-  - **Answer:** 
-- **F1.30** Touching his colour grade. 💡
-  - **Answer:** 
-
 ## [[03-Areas/video-editing/rulebook/rb-f2-bugs-and-crashes|F2 · Bugs, crashes, bug reports]]
-
-**Questions**
-- **Q-F2.a** TdrDelay: 60 s was proposed 2026-09-23; you reverted to the 2 s default 2026-09-25; on 2026-10-24 you chose 10 s, but it read unset that day after a Windows Update. Is 10 s set now? → Options: (1) yes, agents only check it (2) not set, you'll run the commands (3) leave at 2 s and cache heavy comps one at a time. My pick: 2.
-  - **Answer:** 
-- **Q-F2.b** There is no bug-report format in any source; F2.15 is my proposal. Should every crash ping your phone, or only crashes that stop the job? → Options: (1) ping only when the job is stopped or work was lost (2) ping every crash. My pick: 1.
-  - **Answer:** 
 
 **My inferences (keep, change or drop)**
 - **F2.15** Tell him in one block: what broke, last call, last save time, what was lost, what you did, what's next. If he is away and you need him, ping his phone (F5.11). 💡
@@ -90,8 +64,6 @@ Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], i
 ## [[03-Areas/video-editing/rulebook/rb-f3-tokens-and-scripts|F3 · Token management, cost, scripting]]
 
 **Questions**
-- **Q-F3.a** Default ceiling when you haven't named one. Cold Email Goldrush took ~50 % of a week (2026-10-30: *"does that mean two videos can go in a week?"*); video 2 had *"maximum 70%"* (2026-10-22); Gamma *"By 90% weekly usage, we are already done with this video"* (2026-10-31). → Options: (1) 50 % of a week per video, so two fit (2) 70 % (3) ask at every job start. My pick: 1, and say the number at job start.
-  - **Answer:** 
 - **Q-F3.b** Use the week up or keep a reserve? 2026-10-13/14: *"by the reset, I should be around 99% usage"* and *"every five hours, we've used 100%"*. 2026-11-01: *"not to run out of credits as I need credits for other works"*. → Options: (1) keep a reserve; spend leftovers only on work you name (2) use it up by the reset. My pick: 1.
   - **Answer:** 
 

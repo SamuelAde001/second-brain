@@ -79,8 +79,8 @@ section: E2
 - ![[_attachments/rulebook/e2-marker-stills-b2b.jpg|360]] ⚙️ The same with the spoken words under each still (AI B2B, 2026-10-10). The beats shown are ones he marked.
 
 ## Questions for Samuel
-- **Q-E2.a** When the rulebook is silent, what should an agent do? You said "never guess" (2026-11-03), but overnight runs can't wait for you. → Options: (1) stop and ask; (2) pick the closest rule, flag it in the report, keep going; (3) (2) overnight, (1) when you are at the PC. My pick: (3).
-- **Q-E2.b** Review card vs rulebook. The card says *"If this card and a long note disagree, the long note wins"* (2026-10-24). Now the rulebook is the number one rule. → Options: (1) the rulebook is canonical; the card becomes its one-page digest, both updated the same session; (2) retire the card. My pick: (1); reviewers need the short version.
+- **Q-E2.a** When the rulebook is silent, what should an agent do? You said "never guess" (2026-11-03), but overnight runs can't wait for you. → Options: (1) stop and ask; (2) pick the closest rule, flag it in the report, keep going; (3) (2) overnight, (1) when you are at the PC. My pick: (3). → Samuel: (3), overnight pick the closest rule, flag it and keep going; stop and ask when he is at the PC (2026-11-05).
+- **Q-E2.b** Review card vs rulebook. The card says *"If this card and a long note disagree, the long note wins"* (2026-10-24). Now the rulebook is the number one rule. → Options: (1) the rulebook is canonical; the card becomes its one-page digest, both updated the same session; (2) retire the card. My pick: (1); reviewers need the short version. → Samuel: (1), the rulebook is canonical; the review card is its one-page digest, both updated the same session (2026-11-05).
 - **Q-E2.c** Version names for deliveries to Route Rise: only "v1/v2" as you name them. See Q-E1.b.
 
 ## Sources

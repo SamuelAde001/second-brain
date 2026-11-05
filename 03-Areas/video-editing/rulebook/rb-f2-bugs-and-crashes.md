@@ -53,8 +53,8 @@ section: F2
 - (no picture yet: none needed; this section is about process)
 
 ## Questions for Samuel
-- **Q-F2.a** TdrDelay: 60 s was proposed 2026-09-23; you reverted to the 2 s default 2026-09-25; on 2026-10-24 you chose 10 s, but it read unset that day after a Windows Update. Is 10 s set now? → Options: (1) yes, agents only check it (2) not set, you'll run the commands (3) leave at 2 s and cache heavy comps one at a time. My pick: 2.
-- **Q-F2.b** There is no bug-report format in any source; F2.15 is my proposal. Should every crash ping your phone, or only crashes that stop the job? → Options: (1) ping only when the job is stopped or work was lost (2) ping every crash. My pick: 1.
+- **Q-F2.a** TdrDelay: 60 s was proposed 2026-09-23; you reverted to the 2 s default 2026-09-25; on 2026-10-24 you chose 10 s, but it read unset that day after a Windows Update. Is 10 s set now? → Options: (1) yes, agents only check it (2) not set, you'll run the commands (3) leave at 2 s and cache heavy comps one at a time. My pick: 2. → Samuel: not an issue for now: he doesn't cache. *"For now we haven't had the issue cause I don't cache"* (2026-11-05) Leave the setting; F2.6 applies only if TDR crashes come back.
+- **Q-F2.b** There is no bug-report format in any source; F2.15 is my proposal. Should every crash ping your phone, or only crashes that stop the job? → Options: (1) ping only when the job is stopped or work was lost (2) ping every crash. My pick: 1. → Samuel: (1), ping only when the job is stopped or work was lost (2026-11-05).
 
 ## Sources
 Draws on [[03-Areas/video-editing/troubleshooting|troubleshooting]], [[03-Areas/video-editing/resolve-performance|Resolve performance]], [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]], [[03-Areas/video-editing/sops/unattended-run|unattended run]], [[03-Areas/video-editing/ways-of-working|ways of working]] → When Resolve stops responding.
