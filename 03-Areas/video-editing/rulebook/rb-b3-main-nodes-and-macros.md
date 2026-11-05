@@ -33,20 +33,20 @@ section: B3
 - **B3.13** For a device he has built before, copy his own entrance values from his comp (e.g. his $7M bands: 25 f, Angle −270, 0.094, 5 f stagger) over any spec. ⚙️ (2026-10-08) · ✔ 2026-11-05
 
 ### NeoTextMotion: main text
-- **B3.14** Main text is NeoTextMotion (the NeoMotionText fuse in the node list), word by word, each word rising from below: PosDir 0 = Up. PosDir 3 (Left) is the script default and is wrong. Split word pieces need a real space. ✅ 🔁 (2026-10-25, 84 comps failed) *"I use a lot of NeoTextMotion for Typography."*
-- **B3.15** House values: preset 26, word scope, InLength 18-25 f, Delay 0.28 s (Delay is the word stagger), PosDistance 0.0464, Out off; built-in shadow 0.496 / 0.004 / 3.31. Font: client overlay. 🎬
-- **B3.16** Text keeps its built-in shine: two shines at 0.19 and 0.38, intensity ~0.335, width 0.0141. Turn it off (StShineEnable 0) on accent-coloured words: it turns them white. ✅ 🔁×2 *"my text always have shines in neotext motion so add that"* (2026-10-25; accent fix 2026-10-29)
-- **B3.17** Two-tone through the Char1 range and Char1Color (accent: client overlay). Set Char1Enable 1 for an accent and 0 explicitly for none (a clone colours its last letter); set Char1ColorR explicitly. Check every range against its string by script before install. ⚙️
+- **B3.14** Main text is NeoTextMotion (the NeoMotionText fuse in the node list), word by word, each word rising from below: PosDir 0 = Up. PosDir 3 (Left) is the script default and is wrong. Split word pieces need a real space. ✅ 🔁 (2026-10-25, 84 comps failed) *"I use a lot of NeoTextMotion for Typography."* · ✔ 2026-11-05
+- **B3.15** House values: preset 26, word scope, InLength 18-25 f, Delay 0.28 s (Delay is the word stagger), PosDistance 0.0464, Out off; built-in shadow 0.496 / 0.004 / 3.31. Font: client overlay. 🎬 · ✔ 2026-11-05
+- **B3.16** Text keeps its built-in shine: two shines at 0.19 and 0.38, intensity ~0.335, width 0.0141. Turn it off (StShineEnable 0) on accent-coloured words: it turns them white. ✅ 🔁×2 *"my text always have shines in neotext motion so add that"* (2026-10-25; accent fix 2026-10-29) · ✔ 2026-11-05
+- **B3.17** Two-tone through the Char1 range and Char1Color (accent: client overlay). Set Char1Enable 1 for an accent and 0 explicitly for none (a clone colours its last letter); set Char1ColorR explicitly. Check every range against its string by script before install. ⚙️ · ✔ 2026-11-05
 
 ### Number Counter
-- **B3.18** Main numbers count up with his Number Counter (Text+ named "Count"), landing on the word; digits sit in fixed slots so the number doesn't wobble (`lib\J7.py`). When to count: C4, C10. ✅ (2026-10-25)
+- **B3.18** Main numbers count up with his Number Counter (Text+ named "Count"), landing on the word; digits sit in fixed slots so the number doesn't wobble (`lib\J7.py`). When to count: C4, C10. ✅ (2026-10-25) · ✔ 2026-11-05
 
 ### MagicZoom V3: every zoom
-- **B3.19** Every zoom and punch-in is MagicZoom V3 (MrAlexTech, Edit-page effect) on an adjustment clip, never a Fusion comp. ✅ 🔁×2 *"I prefer MagicZoom V3 instead of Dynamic Zoom"* (before 2026-10); *"Zoom and hold with magic zoom like we did in other videos"* (2026-10-14)
-- **B3.20** His values (170 instances): zoom = 1 + depth × ramp; pivot on his face (~0.51, 0.68). On the A-roll, Standard with a Linear curve; Zoom & Hold (0.071, 0.111 punches) only on emphasis statements (B2.13, 2026-11-05); an occasional zoom-out 0.053 on a return to camera, 0.026-0.03 slow push on media and card clips. Depth and pacing: B5. 🎬 (reworded 2026-11-05 to follow B2.13; still for his review in B3)
-- **B3.21** MagicZoom motion blur off (Transform1 MotionBlur 0), even though his older finals had it on. ✅ (2026-10-28)
-- **B3.22** Where a zoom would snap back on plain A-roll, ease it back smoothly (mirror mode). ✅ *"this doesn't smoothly"* (2026-10-24)
-- **B3.23** The punch-in pass runs over the whole video, intro included, once the visuals are final (`mz_plan.py`, `mz_inject.py`, `mzblob.py`). No MagicZoom under a full-frame visual; one per cut. ⚙️ (2026-10-09, 2026-10-16)
+- **B3.19** Every zoom and punch-in is MagicZoom V3 (MrAlexTech, Edit-page effect) on an adjustment clip, never a Fusion comp. ✅ 🔁×2 *"I prefer MagicZoom V3 instead of Dynamic Zoom"* (before 2026-10); *"Zoom and hold with magic zoom like we did in other videos"* (2026-10-14) · ✔ 2026-11-05
+- **B3.20** His values (170 instances): zoom = 1 + depth × ramp; pivot on his face (~0.51, 0.68). On the A-roll, Standard with a Linear curve; Zoom & Hold (0.071, 0.111 punches) only on emphasis statements (B2.13, 2026-11-05); an occasional zoom-out 0.053 on a return to camera, 0.026-0.03 slow push on media and card clips. Depth and pacing: B5. 🎬 (reworded 2026-11-05 to follow B2.13; still for his review in B3) · ✔ 2026-11-05
+- **B3.21** MagicZoom motion blur off (Transform1 MotionBlur 0), even though his older finals had it on. ✅ (2026-10-28) · ✔ 2026-11-05
+- **B3.22** Where a zoom would snap back on plain A-roll, ease it back smoothly (mirror mode). ✅ *"this doesn't smoothly"* (2026-10-24) · ✔ 2026-11-05
+- **B3.23** The punch-in pass runs over the whole video, intro included, once the visuals are final (`mz_plan.py`, `mz_inject.py`, `mzblob.py`). No MagicZoom under a full-frame visual; one per cut. ⚙️ (2026-10-09, 2026-10-16) · ✔ 2026-11-05
 
 ### Grounds
 - **B3.24** Every full-frame motion graphic sits on his ground macro at the start of the main line: BGORANGE, or the client copy (client overlay). Open the macro and copy it; never rebuild it by eye. ✅ 🔁×13 *"When doing motion graphics, always use the BGORANGE macro I have saved"* (2026-09-27, 2026-09-30)
