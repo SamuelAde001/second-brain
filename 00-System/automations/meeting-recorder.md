@@ -14,7 +14,7 @@ Samuel, 2026-10-28: *"I need to be recording meetings in the discord in video fo
 ## What it does
 
 1. `00-System/scripts/meeting_recorder.py run` starts at his Windows logon (shortcut in the Startup folder, no window) and checks Discord every 15 s.
-2. **A main call is live** when the 🎙️ weekly-live stage is open, or a Discord scheduled event (stage or voice) has been started. Live for 30 s, it opens OBS (or uses the open one) on the **Called to Edit Meeting** profile and scene collection, and records. It keeps the PC awake.
+2. **A main call is live** when the 🎙️ weekly-live stage is open, or a Discord scheduled event (stage or voice) has been started. **Since 2026-11-05** calls are in the 🔊 live-call voice channel (members can't speak on a stage without Discord's age check): the call is live while Samuel is in live-call, titled after today's event there (else "Live Call"). The stage check still works if the live channel is ever a stage again. Live for 30 s, it opens OBS (or uses the open one) on the **Called to Edit Meeting** profile and scene collection, and records. It keeps the PC awake.
 3. If Samuel isn't in the call from Discord on the PC 2 minutes in, the bot DMs him. If recording can't start, the bot DMs him what to do by hand.
 4. **The call ends** when the stage and the event are closed for 1 minute (safety stop at 4 hours). It stops recording and switches OBS back to the profile and collection it was on before.
 5. Recordings under 10 minutes are kept on the PC, not posted, and he gets a DM. Longer ones are copied to Drive as `YYYY-MM-DD <event name>.mp4`. The script reads the file's ID from Drive for desktop and checks that the link opens without a login. Each call gets a line in `06-Logs/automation/meeting-recorder.md`.

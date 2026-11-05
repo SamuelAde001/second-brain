@@ -102,7 +102,9 @@ LAYOUT = [
         ("premiere-pro", TEXT, "rw", "Premiere Pro and After Effects: ask, share tips, solve problems together. Tutorials: the Premiere Pro and After Effects posts in {resources}."),
     ]),
     ("LIVE", [
-        ("weekly-live", STAGE, "rw", None),
+        # Samuel, 2026-11-05: "let's archive the old live call channel so we don't mix things up". Hidden from
+        # everyone but the Founder (admin), not deleted.
+        ("weekly-live", STAGE, "hidden", None),
         # 2026-11-05: Discord makes members pass its age check (k-ID: card, video selfie, ID, AgeKey) to speak
         # on a Stage. Not a server setting. Q&A runs in this plain voice channel instead.
         ("live-call", VOICE, "rw", None),
@@ -266,6 +268,8 @@ def overwrites(mode, everyone, roles):
         return [ow(everyone, deny=VIEW), ow(m, VIEW | HISTORY | REACT, NO_POST), ow(t, VIEW | SEND | HISTORY), ow(e, deny=VIEW)]
     if mode == "team":
         return [ow(everyone, deny=VIEW), ow(m, deny=VIEW), ow(e, deny=VIEW), ow(t, VIEW | SEND | HISTORY)]
+    if mode == "hidden":
+        return [ow(everyone, deny=VIEW), ow(m, deny=VIEW), ow(t, deny=VIEW), ow(e, deny=VIEW)]
     if mode == "expired":
         return [ow(everyone, deny=VIEW), ow(m, deny=VIEW), ow(t, deny=VIEW), ow(e, VIEW | HISTORY, NO_POST | REACT)]
     # rw. A channel's @everyone deny beats a role's server-wide View, so Member and Team need
@@ -308,7 +312,7 @@ def cmd_build():
         cat_obj = api("PATCH", f"/channels/{cat_obj['id']}", {"name": cat, "position": pos}) if cat_obj else api("POST", f"/guilds/{g}/channels", body)
         for i, (name, typ, mode, topic) in enumerate(items):
             body = {"name": shown(name), "parent_id": cat_obj["id"], "position": i, "permission_overwrites": overwrites(mode, g, roles)}
-            if typ == STAGE:
+            if typ == STAGE and mode != "hidden":
                 # Samuel, 2026-10-31: "Requests to Speak" on. Discord's switch reads @everyone only; Member and Team
                 # already had it from their roles. @everyone still can't see the channel.
                 body["permission_overwrites"][0]["allow"] = str(REQUEST_TO_SPEAK)

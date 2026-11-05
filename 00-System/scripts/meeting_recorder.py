@@ -1,7 +1,8 @@
 """Records the Called to Edit Community's main calls on its own, saves them to Drive and posts them.
 
 Runs quietly from Windows logon (scheduled task "Called to Edit meeting recorder"). Every 15 s it asks
-Discord whether a main call is live: the weekly-live stage is open, or a scheduled event is active. When
+Discord whether a main call is live: a scheduled event is active, Samuel is in the live-call voice
+channel, or (if the live channel is a stage) the stage is open. When
 one starts it opens OBS on the meeting preset (profile + scene collection "Called to Edit Meeting"),
 records, and switches OBS back to whatever it was on before. When the call ends it copies the file into
 Drive and, at the same time, call_archive.py transcribes it and files the great knowledge into the teachings
@@ -161,6 +162,17 @@ def call_live():
                 return True, e["name"].strip(), e.get("channel_id")
     elif st >= 500 or st == 429:
         raise ConnectionError(f"Discord {st}")
+    # 2026-11-05: calls moved from the stage to the live-call voice channel (Discord's age check blocks
+    # members from speaking on a stage). A voice channel has no "open" state, so the call is live while
+    # Samuel is in it. Title: today's event in that channel, else "Live Call".
+    st, ch = dc("GET", f"/channels/{stage}")
+    if st == 200 and ch and ch.get("type") == 2:
+        if samuel_in(stage):
+            today = time.strftime("%Y-%m-%d", time.gmtime(time.time() + 3600))
+            names = [e["name"].strip() for e in (events or []) if e.get("channel_id") == stage
+                     and e.get("scheduled_start_time", "")[:10] == today]
+            return True, (names[0] if names else "Live Call"), stage
+        return False, None, None
     st, inst = dc("GET", f"/stage-instances/{stage}")
     if st == 200 and inst:
         return True, (inst.get("topic") or "Weekly Live").strip(), stage
@@ -575,7 +587,7 @@ def run():
                 elapsed = time.time() - s["started_ts"]
                 if not warned_absent and elapsed > 120 and samuel_in(s.get("channel")) is False:
                     dm_samuel("🎙️ I'm recording the call, but you're not in it on the PC, so the recording "
-                              "may be empty. Join the stage from Discord on the PC.")
+                              "may be empty. Join the call from Discord on the PC.")
                     warned_absent = True
                 if elapsed > MAX_HOURS * 3600:
                     dm_samuel(f"⏹️ The call has run {MAX_HOURS} hours, so I stopped the recording.")
