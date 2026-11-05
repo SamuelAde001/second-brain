@@ -59,3 +59,6 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 
 ## 2026-10-24 — Standing rule: use every tool and folder without asking
 - Samuel: agents use every tool and folder the goal needs, no asking. Ask only before deleting or overwriting something he made himself, anything touching keys or secrets, or rewriting git history. Sending or posting as him, moving money, granting account access and delivering to a client stay his calls. AGENTS.md §5 rule 1; [[00-System/decisions|decision]] 2026-10-24.
+
+## 2026-11-05 — "Prepare for an event" means logistics, not his talk
+- Asked to "schedule for them and prepare for them", the PA wrote a talk outline and a rehearsal block. He said: *"I didn't tell you to prep my talks and teachings, I would do that myself"*. For events where he speaks, prep means time, place, links, open questions for the host and clashes. The content is his.

@@ -28,7 +28,6 @@ In TickTick (📽 Content Creation): Sat 12:30–15:30 (the 3:30pm end is a plac
 ## On the day (the PA's suggestions; change anything)
 - **Leave in good time** so he's seated by 12:20pm.
 - **Today's post comes from here.** He has to post every day (60 Days of Greatness). Film a short clip from the hangout or a quick talking-head outside. Ask before filming other people.
-- **Have his intro ready:** "I'm Samuel, a video editor. I edit for creators and businesses, and I run Called to Edit, where I teach editors to turn the skill into a career." Shorten it to sound like himself.
 - **Tell Robuik his story, if there's a moment.** Watching Robuik show up every day for 30 days is part of why Samuel started posting ([[03-Areas/personal-brand/series/cinematic-visibility-script|the script]]). That's a real reason to talk, and it may make a post.
 - **The room is full of creators, and creators need editors.** His own teaching: a network recommends you, sends you opportunities, critiques your work and boosts your posts ([[05-Knowledge/teachings/teachings-11-testimonials-and-networking|networking]]). Aim to leave with 3–5 creators' handles, and follow them on Instagram before going home.
 - Spending stays inside the NGN 25,000 (transport and food). Anything over goes through the Money man.

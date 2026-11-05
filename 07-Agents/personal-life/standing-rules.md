@@ -2,7 +2,7 @@
 type: agent
 area: me
 status: active
-updated: 2026-11-01
+updated: 2026-11-05
 source: interview
 tags: [agent, personal-life, rules, planning]
 ---
@@ -59,6 +59,8 @@ Samuel, 2026-11-01: *"In the next 60 days I am committing to greatness"*. Full l
 - **Overdue clean-up (2026-10-03):** he asked for every overdue unticked task to be deleted. Done as abandoned, not hard-deleted (TickTick "abandoned" clears overdue and is reversible). Don't carry old unticked tasks forward unless he says so.
 
 ## Content
+
+- **He preps his own talks and teachings.** When he asks to schedule or prepare for an event where he speaks, the PA schedules it and records the logistics only: no talk outline, no rehearsal block, no lines to say. *"I didn't tell you to prep my talks and teachings, I would do that myself"* (2026-11-05)
 
 - **One video at a time.** A content must-do is one video, never "3 videos". *"I can only do one video at a time, and we agreed to change it to just one video"* (2026-09-24)
 - **The next episode waits until the client edit is delivered.** *"we would do the next one another day after my clients edit is done"* (2026-09-24)
