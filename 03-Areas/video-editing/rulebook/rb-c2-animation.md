@@ -18,7 +18,7 @@ section: C2
 ### Speed and smoothness (his most repeated correction)
 - **C2.1** Slow and smooth beats fast. Nothing the viewer has to chase; they must follow and digest every move. 🔁 (~35 markers on four videos + 5 messages, 2026-09-27 to 2026-10-24) ✅ *"Your animations throughout this video are not smooth enough, always jittery and too fast, not proper ease in and out"* (2026-10-15)
 - **C2.2** Smooth Bezier keys with a proper ease in and out on every move. Never linear starts, never jitter. 🔁 ✅ (2026-10-15)
-- **C2.3** Entrances 16-22 f with a long ease-out. Exits 10-14 f. Transitions 14 f or more, starting at least 12 f after a hard cut. ✅ ⚙️ (numbers set from his 2026-10-15 ruling; see Q-C2.a)
+- **C2.3** Entrances 16-22 f with a long ease-out for main elements; 8-12 f for small parts inside a group, staggered 3-6 f (Q-C2.a, 2026-11-05). Exits 10-14 f (Q-C2.b). Transitions 14 f or more, starting at least 12 f after a hard cut. ✅ ⚙️ · ✏ 2026-11-05
 - **C2.4** Animate with NeoAnim (slide + blur + fade, Expo ease), not a hand-keyed Transform, wherever NeoAnim can do it. ✅ (2026-10-15)
 - **C2.5** One thing moves at a time. ✅ (2026-10-24)
 - **C2.6** Adjustment-clip moves over UI, pages and screen recordings are smooth and easy to follow, never janky. ✅ *"your adjustment clips over UI visuals are animated janky and hard to follow, I need it smooth"* (2026-10-03)
@@ -87,9 +87,9 @@ section: C2
 - (no picture yet: a frame strip of one entrance, showing the long ease-out against a bounce)
 
 ## Questions for Samuel
-- **Q-C2.a** Entrance length. 2026-09-26 your four-box used ~8 f moves (ours at 18 f were too slow); 2026-10-15 and 2026-10-24 you said too fast, slow and smooth is better, and the house rule became 16-22 f. Your finals sit at 12-25 f. → Options: (1) 16-22 f for every entrance (2) 16-22 f for main elements, 8-12 f for small parts inside a group. My pick: (2), with the 3-6 f stagger.
-- **Q-C2.b** Exits. Your Apollo final uses NeoAnim Out 8-12 f; the house rule says 10-14 f. → My pick: 10-14 f (the slower ruling is later).
-- **Q-C2.c** Background motion. 2026-10-25 "everything feels static" (you had animated the companies in the background before); 2026-10-31 "too much animation on the blue background". → My pick: slow drift in the background, all the real motion on the main content (C2.26).
+- **Q-C2.a** Entrance length. 2026-09-26 your four-box used ~8 f moves (ours at 18 f were too slow); 2026-10-15 and 2026-10-24 you said too fast, slow and smooth is better, and the house rule became 16-22 f. Your finals sit at 12-25 f. → Options: (1) 16-22 f for every entrance (2) 16-22 f for main elements, 8-12 f for small parts inside a group. My pick: (2), with the 3-6 f stagger. → Samuel: (2), 16-22 f main elements, 8-12 f small parts inside a group (2026-11-05). C2.3 updated.
+- **Q-C2.b** Exits. Your Apollo final uses NeoAnim Out 8-12 f; the house rule says 10-14 f. → My pick: 10-14 f (the slower ruling is later). → Samuel: yes, 10-14 f (2026-11-05).
+- **Q-C2.c** Background motion. 2026-10-25 "everything feels static" (you had animated the companies in the background before); 2026-10-31 "too much animation on the blue background". → My pick: slow drift in the background, all the real motion on the main content (C2.26). → Samuel: yes, slow drift in the background, the real motion on the main content (2026-11-05).
 
 ## Sources
 Draws on and replaces the motion parts of [[03-Areas/video-editing/samuel-review-card|Samuel's review card]] (P1, P3, P6, S2, C8), [[03-Areas/video-editing/ways-of-working|Ways of working]], [[03-Areas/video-editing/edit-grammar/edit-grammar|Edit grammar]], [[03-Areas/video-editing/sops/fusion-build|Fusion build SOP]], [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]], [[03-Areas/video-editing/creative-director/creative-director-standard|Creative director standard]], [[03-Areas/video-editing/visual-vocabulary|Visual vocabulary]]. NeoAnim and macro settings: [[03-Areas/video-editing/rulebook/rb-b3-main-nodes-and-macros|B3]]. Script quirks (keys, eases, offsets): open [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] when a key or ease won't set.

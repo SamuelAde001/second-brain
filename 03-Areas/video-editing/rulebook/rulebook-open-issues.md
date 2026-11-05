@@ -9,9 +9,9 @@ tags: [rulebook, review]
 
 # Rulebook open issues
 
-Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **67 questions** and **19 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
+Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **57 questions** and **15 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
 
-**The other 1006 waiting rules** come from your own words or your finals. Once these issues are answered, say *approve the rest* and they all get ✔ in one go; anything you correct later comes in as a revision and is written back.
+**The other 1003 waiting rules** come from your own words or your finals. Once these issues are answered, say *approve the rest* and they all get ✔ in one go; anything you correct later comes in as a revision and is written back.
 
 **How to answer:** in chat, e.g. `Q-K3.a 1`, `C2.14 drop`, `rest yes`, or type after **Answer:** here in Obsidian.
 
@@ -27,60 +27,6 @@ Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], i
 
 **My inferences (keep, change or drop)**
 - **K2.12** Bands (full-frame colour): sky (Blue-300 with Dark text) once per section for the key number; navy for a case study; cobalt for the CTA; tint for a quote. Never two coloured bands in a row; never Blue-300 text on sky or cobalt. 🏢 💡 (kit rule, never confirmed by him)
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-k4-new-client|K4 · New client template]]
-
-**Questions**
-- **Q-K4.a** You never gave a new-client checklist; K4.6 is built from the Gamma job. → Options: (1) approve it as is; (2) add or strike items. My pick: (1), plus anything you always ask a client.
-  - **Answer:** 
-- **Q-K4.b** What if a new client has no past edit of yours to study? → Options: (1) plates only until you edit one beat set yourself as the reference; (2) start from the LinkedIn Training video's style in their colours and font. My pick: (1).
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **K4.6** Collect and write into the new overlay: ⚙️ 💡
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-b4-fusion-node-layout|B4 · Fusion node layout]]
-
-**Questions**
-- **Q-B4.a** Splines vs linear. Your rule: always splines, never linear (before 2026-09-19). Our video 4 bible: the slow push over a whole motion graphic is linear, Size 1.000 → 1.036 (2026-10-28). → Options: (1) splines everywhere, the push eases in and out (2) linear allowed only for that constant push. My pick: (2), a constant drift should not slow to a stop mid-beat.
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-b5-zooms-and-crops|B5 · Zoom in, steady zoom, crop-ins]]
-
-**Questions**
-- **Q-B5.a** Targeted zooms on the client's **own** screen recordings. 2026-09-27: *"For his screen recording, don't zoom in, just highlight"* (and AI4 used only static punch-ins there). Later: *"Zoom to the place you are higjlighting"* (2026-10-25), "average, like a walkthrough" (2026-10-26), "gradual zoom" on screen recordings (2026-11-01). The slow drift is settled; the eased zoom to the highlight is not. → Options: (1) drift + highlight only (2) drift + one gentle eased zoom to the highlight, ≤ 1.25. My pick: (2), it matches your latest markers.
-  - **Answer:** 
-- **Q-B5.b** Drift depth on media. Our video 4 table (B5.3) gives 2-5 %. Your own B2B fixes pushed 6-12 % over 2-4 s (1.00 → 1.06, 1.03 → 1.12, 2026-10-13). → Options: (1) keep the gentle table (2) raise it toward your B2B values. My pick: (1) until you say it reads as static; it stays clear of the "too drastic" markers.
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **B5.17** When the words come faster than an 18 f move, hold the zoom and move only the highlight (≥ 10 f per hop, ≥ 30 f between hops). Where parts sit close together, zoom 1.0 and move only the highlight. 🎬 💡
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c1-quality-bar|C1 · Aesthetics and the quality bar]]
-
-**Questions**
-- **Q-C1.a** Overlay size. 2026-10-03: *"I like visuals on top of the A-roll more, don't make them too big"*. Same day and 2026-10-22: big, centred, fill a side, *"more bolder"* for phone. → Options: (1) by default the overlay sits over the A-roll with big type, and he stays in view; full screen only for UI and hero beats (2) big full-frame cards are fine anywhere. My pick: (1).
-  - **Answer:** 
-- **Q-C1.b** Is the Alex bar still the LinkedIn Training final (2026-10-28), or has Cold Email Goldrush taken over (*"Good Job on this video"*, 2026-10-29)? → Options: (1) LinkedIn until you name a new one (2) Cold Email Goldrush once delivered. My pick: (2), once you confirm it's approved.
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **C1.31** Keep comps simple (median 3 tools in $7M). Save big set-piece builds for 3-4 hero moments a video. 💡
-  - **Answer:** 
-- **C1.49** Old templates reused with only the text swapped. 💡
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c2-animation|C2 · Motion graphic styles and animations]]
-
-**Questions**
-- **Q-C2.a** Entrance length. 2026-09-26 your four-box used ~8 f moves (ours at 18 f were too slow); 2026-10-15 and 2026-10-24 you said too fast, slow and smooth is better, and the house rule became 16-22 f. Your finals sit at 12-25 f. → Options: (1) 16-22 f for every entrance (2) 16-22 f for main elements, 8-12 f for small parts inside a group. My pick: (2), with the 3-6 f stagger.
-  - **Answer:** 
-- **Q-C2.b** Exits. Your Apollo final uses NeoAnim Out 8-12 f; the house rule says 10-14 f. → My pick: 10-14 f (the slower ruling is later).
-  - **Answer:** 
-- **Q-C2.c** Background motion. 2026-10-25 "everything feels static" (you had animated the companies in the background before); 2026-10-31 "too much animation on the blue background". → My pick: slow drift in the background, all the real motion on the main content (C2.26).
   - **Answer:** 
 
 ## [[03-Areas/video-editing/rulebook/rb-c3-elements|C3 · Motion graphic elements]]

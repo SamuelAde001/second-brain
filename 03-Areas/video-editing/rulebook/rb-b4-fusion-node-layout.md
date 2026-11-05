@@ -46,7 +46,7 @@ section: B4
 ### Node craft
 - **B4.19** Position, scale and rotation go on a Transform (Loader → Transform → Merge) or the element's own Center. Every Merge keeps Center 0.5/0.5, Size 1, Angle 0. When the foreground is smaller than the frame, offset = 0.5 + dx_px / fg_width_px. ✅ *"NEVER EVER Reposition anything with a Merge node."* (2026-09-27)
 - **B4.20** Centre and space elements at their source inputs, never with NeoAnim. ✅ *"don't use the neo anim to bring them down to the center, centralise them and space them well"* (2026-09-27)
-- **B4.21** Keyframes use splines, never linear. ✅ See Q-B4.a.
+- **B4.21** Keyframes use splines, never linear. One exception: the constant slow push over a whole motion graphic (Size 1.000 → 1.036) is linear, so it never slows to a stop mid-shot (Q-B4.a, 2026-11-05). ✅ · ✏ 2026-11-05
 - **B4.22** Rectangles are RectangleMask; circles are EllipseMask + an Instance (Solid off, border on); lines are a Polygon on a Background. Box with outline: RectangleMask → dark Background, plus an Instance of the mask (Solid 0, BorderWidth ~0.00184) → light-border Background merged over, then NeoLightSweep Pro. Corner shape: client overlay. ✅ *"this is what gives cards the modern feel."*
 - **B4.23** Fusion colours are normalised 0-1 floats. ✅
 
@@ -67,7 +67,7 @@ section: B4
 - (no picture yet: the Apollo B04 v2 node view he approved on 2026-10-02, and one of his `node-graphs-SAMUEL` screenshots)
 
 ## Questions for Samuel
-- **Q-B4.a** Splines vs linear. Your rule: always splines, never linear (before 2026-09-19). Our video 4 bible: the slow push over a whole motion graphic is linear, Size 1.000 → 1.036 (2026-10-28). → Options: (1) splines everywhere, the push eases in and out (2) linear allowed only for that constant push. My pick: (2), a constant drift should not slow to a stop mid-beat.
+- **Q-B4.a** Splines vs linear. Your rule: always splines, never linear (before 2026-09-19). Our video 4 bible: the slow push over a whole motion graphic is linear, Size 1.000 → 1.036 (2026-10-28). → Options: (1) splines everywhere, the push eases in and out (2) linear allowed only for that constant push. My pick: (2), a constant drift should not slow to a stop mid-beat. → Samuel: (2), linear only for that constant push (2026-11-05). B4.21 updated.
 
 ## Sources
 Replaces the node rules in [[03-Areas/video-editing/ways-of-working|Ways of working]] (Node naming, Node tree layout, Never position with a Merge, Animation and tidiness), and draws on [[03-Areas/video-editing/fusion-node-system|Fusion node system]] §3, [[03-Areas/video-editing/fusion-recipes|Fusion recipes]], [[03-Areas/video-editing/sops/fusion-build|Fusion build SOP]], [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] (open for paste and SetPos details).

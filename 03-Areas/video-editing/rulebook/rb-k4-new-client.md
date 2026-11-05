@@ -22,7 +22,7 @@ section: K4
 - **K4.5** Being creative means staying inside his styles, his library and the CD's teachings, not inventing new ones. ✅ *"being creative doesn't mean you should do things I don't normally do in any of my videos"* (2026-11-01)
 
 ### The checklist (collect before any graphics)
-- **K4.6** Collect and write into the new overlay: ⚙️ 💡
+- **K4.6** Collect and write into the new overlay: ⚙️ 💡 · ✔ 2026-11-05
   1. **Colours**: every brand hex, which one is the accent, what carries positive/negative.
   2. **Fonts**: names, weights, case, and any licence limit (who may use it, where).
   3. **Corner shape**: square, rounded (radius) or pill; any frame or bracket style.
@@ -51,8 +51,8 @@ section: K4
 - (no picture yet: a side-by-side of his Gamma reference comp and the rejected Frontal-shaped Gamma box would show K4.1; both are in [[03-Areas/video-editing/rulebook/rb-k3-gamma|K3]])
 
 ## Questions for Samuel
-- **Q-K4.a** You never gave a new-client checklist; K4.6 is built from the Gamma job. → Options: (1) approve it as is; (2) add or strike items. My pick: (1), plus anything you always ask a client.
-- **Q-K4.b** What if a new client has no past edit of yours to study? → Options: (1) plates only until you edit one beat set yourself as the reference; (2) start from the LinkedIn Training video's style in their colours and font. My pick: (1).
+- **Q-K4.a** You never gave a new-client checklist; K4.6 is built from the Gamma job. → Options: (1) approve it as is; (2) add or strike items. My pick: (1), plus anything you always ask a client. → Samuel: (1), K4.6 approved as is (2026-11-05).
+- **Q-K4.b** What if a new client has no past edit of yours to study? → Options: (1) plates only until you edit one beat set yourself as the reference; (2) start from the LinkedIn Training video's style in their colours and font. My pick: (1). → Samuel: (2), start from the LinkedIn Training video's style in the client's colours and font (2026-11-05). Ask him for a reference video first (Q-A6.c); this is the fallback when there is none.
 
 ## Sources
 Draws on [[04-Projects/routerise-gamma-claude-mcp-rich|Gamma Ep. 12 job note]], [[04-Projects/frontal-rebrand-video-kit|Frontal rebrand of the video kit]], [[03-Areas/video-editing/clients/routerise|Route Rise client note]], [[03-Areas/video-editing/creative-director/creative-director-standard|creative director standard]], [[07-Agents/video-editor/memory|Editor memory]] (2026-10-31, 2026-11-01).

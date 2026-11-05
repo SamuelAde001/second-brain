@@ -113,5 +113,12 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · K1.6 · ✏ the ClickUp deadline is the measure, not the 5-day cap. *"we follow the deadline giving on clickup"*
 - 2026-11-05 · K1.23 · new: revisions as needed, usually one CD round and one client round. *"we do as many revisions as needed if needed but most times ones from the creative director and one from the main client"*
 - 2026-11-05 · K0.14 K0.15 K0.21 · ✔ approved.
+- 2026-11-05 · Q-K4.a · K4.6 approved. Q-K4.b · no past edit: LinkedIn style in the client's colours and font (after asking for a reference, Q-A6.c).
+- 2026-11-05 · Q-B4.a, B4.21 · ✏ linear allowed only for the constant slow push.
+- 2026-11-05 · Q-B5.a · drift + one gentle eased zoom to the highlight (≤ 1.25) on client screen recordings. Q-B5.b · keep 2-5 % drift. B5.17 ✔.
+- 2026-11-05 · Q-C1.a · overlay over the A-roll by default. C1.2 ✏ LinkedIn still the bar, Cold Email for the new branding. *"Linkedin still the best so far but cold email did good to for his new branding"*
+- 2026-11-05 · C1.49 · ✏ reuse old templates, never overuse them. *"you can use an old template, just make it not overused"* C1.31 ✔.
+- 2026-11-05 · Q-C2.a, C2.3 · ✏ 16-22 f main, 8-12 f small parts. Q-C2.b · exits 10-14 f. Q-C2.c · background drifts, motion on content.
+- 2026-11-05 · K4.6 B5.17 C1.31 · ✔ approved.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
