@@ -47,7 +47,7 @@ section: C5
 
 ### Red, green and grey carry meaning
 - **C5.24** Green and red only where truly needed. Green = money up, revenue, something done right, advice to follow. Red = something not to do, a revenue stall, what failed. Everything else in the client's own shades. ✅ *"you used so so so much green and red in the video when they aren't needed"* (2026-10-23) 🔁2 (2026-10-31)
-- **C5.25** A stated negative: red coloration on the word, with a red vignette and desaturation. ✅ *"When they say something negative use a red coloration at the right timing with a red vignette, and destaturation"* (2026-10-25) → Q-C5.a
+- **C5.25** A stated negative: red coloration on the word, with a red vignette and desaturation. ✅ *"When they say something negative use a red coloration at the right timing with a red vignette, and destaturation"* (2026-10-25) → Q-C5.a Only on B-roll or screen UI on top, never on the A-roll (B2.17, 2026-11-05).
 - **C5.26** Something that just isn't working or is stuck: desaturate or grey it, don't paint it red. ✅ *"thsi red is not needed, just disaturated instead"* (2026-10-24)
 - **C5.27** A failure vs success pair: the failing company in red, the succeeding one in green. ✅ (2026-10-25)
 - **C5.28** Pick out a winner by dimming the others, not with a green glow. ✅ (2026-10-24)

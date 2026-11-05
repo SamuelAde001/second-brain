@@ -90,5 +90,9 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · B1 · **section approved** rule by rule: 25 rules (24 ✔, 1 ✏), 2 questions answered.
 - 2026-11-05 · B2.1 B2.2 B2.3 B2.4 B2.5 B2.6 B2.7 B2.8 B2.9 · ✔ approved.
 - 2026-11-05 · Q-B2.a · media-clip vignette Blend 0.835 on every client. K3.19 reworded to match (pending its own review).
+- 2026-11-05 · B2.10 B2.11 B2.12 B2.14 B2.15 B2.16 · ✔ approved.
+- 2026-11-05 · B2.13 · ✏ A-roll MagicZoom is Standard with a Linear curve; Zoom & Hold only on emphasis statements. B5.8 and B3.20 reworded to match (pending their review). *"the magic zoom settings should be set to zoom type, standard and curve linear for A-roll, only time we use the usual zoom and hold is for empasis statement areas"*
+- 2026-11-05 · B2.17 · ✏ pain punch only on B-roll or screen UI on top, never the A-roll. C5.25 noted. *"don't do that on an A-roll, only on top B-roll or screen UI"*
+- 2026-11-05 · Q-B2.b · always an adjustment clip, never a base clip.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

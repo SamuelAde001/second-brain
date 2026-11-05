@@ -32,7 +32,7 @@ section: F1
 ### Getting visuals into his timeline
 - **F1.12** Visuals are always editable Fusion nodes, so he can change text and animation himself without a re-render. Rendered video only for real-UI demos. OGraf/HTML is a preview aid, never the visual. 🔁 ✅ *"I can change the nodes, change the text, change the animation by myself."* (2026-09-27)
 - **F1.13** Build a comp as a generated `.setting` and paste it once. Building node by node over many calls failed. ⚙️
-- **F1.14** Place on an empty track: transparent base clip + `AppendToTimeline`, then import or paste. Check the timeline length is unchanged after every placement. ⚙️
+- **F1.14** Place on an empty track: transparent base clip + `AppendToTimeline`, then import or paste. Check the timeline length is unchanged after every placement. ⚙️ Anything that hosts a comp or effect is always a real adjustment clip, never a base clip (Q-B2.b, 2026-11-05; reworded to match, still for his review in F1).
 - **F1.15** In his comp, touch only your own nodes, picked from your generated names list, never by exclusion (13 of his nodes were swept up). Never "fix" a layout change that could be his. Leave old leftovers parked and unconnected. ⚙️
 - **F1.16** Test templates only on the scratch timeline `zz Lab (Editor)` or a scratch project; save his project first and put it back after. ✅ *"Yes, scratch project"* (2026-10-28)
 - **F1.17** You see his work in it: he wants things visibly landing on the timeline, finished well enough to approve. ✅ *"I want to see things being done on the timeline ... make sure everything is perfect and Samuel can approve it"* (2026-10-15)

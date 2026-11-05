@@ -43,7 +43,7 @@ section: B3
 
 ### MagicZoom V3: every zoom
 - **B3.19** Every zoom and punch-in is MagicZoom V3 (MrAlexTech, Edit-page effect) on an adjustment clip, never a Fusion comp. ✅ 🔁×2 *"I prefer MagicZoom V3 instead of Dynamic Zoom"* (before 2026-10); *"Zoom and hold with magic zoom like we did in other videos"* (2026-10-14)
-- **B3.20** His values (170 instances): zoom = 1 + depth × eased ramp; ramp 2 s (48 f), cubic ease; pivot on his face (~0.51, 0.68). Zoom & Hold 0.071 on plain A-roll, 0.111 punches on short emphatic lines, slow Standard 0.071-0.111 on long stretches, an occasional zoom-out 0.053 on a return to camera, 0.026-0.03 slow push on media and card clips. Depth and pacing: B5. 🎬
+- **B3.20** His values (170 instances): zoom = 1 + depth × ramp; pivot on his face (~0.51, 0.68). On the A-roll, Standard with a Linear curve; Zoom & Hold (0.071, 0.111 punches) only on emphasis statements (B2.13, 2026-11-05); an occasional zoom-out 0.053 on a return to camera, 0.026-0.03 slow push on media and card clips. Depth and pacing: B5. 🎬 (reworded 2026-11-05 to follow B2.13; still for his review in B3)
 - **B3.21** MagicZoom motion blur off (Transform1 MotionBlur 0), even though his older finals had it on. ✅ (2026-10-28)
 - **B3.22** Where a zoom would snap back on plain A-roll, ease it back smoothly (mirror mode). ✅ *"this doesn't smoothly"* (2026-10-24)
 - **B3.23** The punch-in pass runs over the whole video, intro included, once the visuals are final (`mz_plan.py`, `mz_inject.py`, `mzblob.py`). No MagicZoom under a full-frame visual; one per cut. ⚙️ (2026-10-09, 2026-10-16)
