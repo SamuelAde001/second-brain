@@ -125,3 +125,7 @@ Back to [[07-Agents/personal-life/profile|Profile]]
 - 2026-11-03 20:47 — Night plan routine (trig_01VEkuULMBcqFWrFyWCB3y3q) fired a third time. Not run (standing rules 2026-11-01: retired, the 9:40pm day check replaces it). Nothing read or written in TickTick. Third and last ping to switch it off (open-questions #121); later firings log a line and stay silent.
 - 2026-11-04 20:47 — Night plan routine (trig_01VEkuULMBcqFWrFyWCB3y3q) fired a fourth time. Not run (standing rules 2026-11-01: retired, the 9:40pm day check replaces it). Nothing read or written in TickTick. No ping: the 2026-11-03 run gave the last one (open-questions #121).
 - 2026-11-05 20:47 — Night plan routine (trig_01VEkuULMBcqFWrFyWCB3y3q) fired a fifth time. Not run (standing rules 2026-11-01: retired, the 9:40pm day check replaces it). Nothing read or written in TickTick. No ping (last one was 2026-11-03; open-questions #121).
+
+## 2026-11-05 — Two events scheduled and prepped
+- TickTick (📽 Content Creation): Cube Talk Sat 2026-11-14 12:30–15:30 (`6aecec528f08fc8c03195b13`, end time a placeholder); webinar talk Fri 2026-11-20 20:30–21:30, priority 5 (`6aecec558f08b205a8d1031a`); rehearsal Thu 2026-11-19 15:00–16:00 (`6aecec578f08b205a8d1034a`). No clashes on either date.
+- Prep notes: [[04-Projects/phenomenal-bibliophiles-webinar-2026-11-20|webinar]] (talk outline with reading woven in, questions for the host) and [[04-Projects/cube-talk-abuja-2026-11-14|Cube Talk]].
