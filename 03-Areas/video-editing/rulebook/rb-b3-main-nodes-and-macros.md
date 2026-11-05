@@ -61,16 +61,16 @@ section: B3
 - **B3.31** DropShadow (ResolveFX; image input is `Source`): pills strength 0.5-0.55, distance 0.008, blur 0.3; cards 0.6 / 0.012 / 0.45; big cards up to 0.62 / 0.014 / 0.5; angle 37.5. 🎬 · ✔ 2026-11-05
 
 ### His other macros
-- **B3.32** Opacity: every fade and every dim goes through his Opacity macro (BrightnessContrast "Op", Gain). Inactive elements: Gain 0.42-0.62, Saturation 0-0.64, over 6-8 f. ✅ *"I have an opacity macro node I use instead"* (2026-09-26)
-- **B3.33** Change a box's colour or logo with Switch nodes on the existing box. ✅ *"there are nodes called switch for that reason, correct all through the video"* (2026-10-25)
-- **B3.34** Arrows: his Arrowline macro (write-on 0→1 over ~11 f, head scales in over 3 f); a straight Arrowline when he asks for straight. A card leads to its items with an Arrowline, not a dashed line. ✅ (2026-09-27, 2026-10-02)
-- **B3.35** Connector lines: his Moving dashed line (dotted line) macro, curved, two points, animated with WriteOnEnd. ✅ *"I used curved dashed lines with just two points instead of 4"* (2026-09-26)
-- **B3.36** Glass: his Glass effect macro (blur 0.4 below, Displace refraction −2.62, LightAngle 132.6, panel width opens on a key). "Glass background as I did" = Glass effect on the footage with a MagicMask cut-out of Alex in front (Apollo, OUR OWN PROCESS 685-754). ✅ (2026-10-03) 🎬
-- **B3.37** Down fade, for text over Alex: black at α 0.62-0.65 through a soft rect (W 1.073, H 0.619, centre y −0.119), in 8 f, out 7 f. End colour matches the ground. 🎬 💡
-- **B3.38** Neo Highlighter Pro: one stroke per line, multiply, Displace 0.01 edge, DropShadow 0.1 / 0.02 / 0.4; colour: client overlay. On a clear canvas set ApplyMode Normal, or it draws a black bar. When: C6. 🎬
-- **B3.39** MosaicBlur at PixelFrequency 200 (slider max) on the hidden content's own layer. Soft blur is Gaussian Blur. When: C7. ✅ 🔁×4 *"always increase the pixel freequency to the highest, thats how I like it"* (2026-10-15)
-- **B3.40** Tile grids: his Duplicate fuse (Copies, TimeOffset), not hundreds of nodes. Outlines: PizzaBlu Outline right after the text or image, before its Transform. 🎬
-- **B3.41** Picture-in-picture: SSC PiP Pro on the Edit page, circular inset bottom-right, soft light ring, drop shadow, clip mirrored so he faces into the frame. 🎬 (2026-09-14)
+- **B3.32** Opacity: every fade and every dim goes through his Opacity macro (BrightnessContrast "Op", Gain). Inactive elements: Gain 0.42-0.62, Saturation 0-0.64, over 6-8 f. ✅ *"I have an opacity macro node I use instead"* (2026-09-26) · ✔ 2026-11-05
+- **B3.33** Change a box's colour or logo with Switch nodes on the existing box. ✅ *"there are nodes called switch for that reason, correct all through the video"* (2026-10-25) · ✔ 2026-11-05
+- **B3.34** Arrows: his Arrowline macro (write-on 0→1 over ~11 f, head scales in over 3 f); a straight Arrowline when he asks for straight. A card leads to its items with an Arrowline, not a dashed line. ✅ (2026-09-27, 2026-10-02) · ✔ 2026-11-05
+- **B3.35** Connector lines: his Moving dashed line (dotted line) macro, curved, two points, animated with WriteOnEnd. ✅ *"I used curved dashed lines with just two points instead of 4"* (2026-09-26) · ✔ 2026-11-05
+- **B3.36** Glass: his Glass effect macro (blur 0.4 below, Displace refraction −2.62, LightAngle 132.6, panel width opens on a key). "Glass background as I did" = Glass effect on the footage with a MagicMask cut-out of Alex in front (Apollo, OUR OWN PROCESS 685-754). ✅ (2026-10-03) 🎬 · ✔ 2026-11-05
+- **B3.37** Down fade, for text over Alex: black at α 0.62-0.65 through a soft rect (W 1.073, H 0.619, centre y −0.119), in 8 f, out 7 f. End colour matches the ground. 🎬 💡 · ✔ 2026-11-05
+- **B3.38** Neo Highlighter Pro: one stroke per line, multiply, Displace 0.01 edge, DropShadow 0.1 / 0.02 / 0.4; colour: client overlay. On a clear canvas set ApplyMode Normal, or it draws a black bar. When: C6. 🎬 · ✔ 2026-11-05
+- **B3.39** MosaicBlur at PixelFrequency 200 (slider max) on the hidden content's own layer. Soft blur is Gaussian Blur. When: C7. ✅ 🔁×4 *"always increase the pixel freequency to the highest, thats how I like it"* (2026-10-15) · ✔ 2026-11-05
+- **B3.40** Tile grids: his Duplicate fuse (Copies, TimeOffset), not hundreds of nodes. Outlines: PizzaBlu Outline right after the text or image, before its Transform. 🎬 · ✔ 2026-11-05
+- **B3.41** Picture-in-picture: SSC PiP Pro on the Edit page, circular inset bottom-right, soft light ring, drop shadow, clip mirrored so he faces into the frame. 🎬 (2026-09-14) · ✔ 2026-11-05
 
 ### Keep comps light
 - **B3.42** Comps play back smoothly on his PC at full quality: NeoBevel off, no motion blur, Switch instead of stacked copies, Duplicate for grids. Send back any comp over 1.5 MB. ✅ 🔁×2 *"it should still be very high quality visual"* (2026-10-24)

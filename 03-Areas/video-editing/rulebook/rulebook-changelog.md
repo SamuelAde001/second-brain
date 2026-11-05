@@ -102,5 +102,6 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · B3.1 B3.2 B3.3 B3.4 B3.5 B3.6 B3.7 B3.8 B3.9 B3.10 B3.11 B3.12 B3.13 · ✔ approved.
 - 2026-11-05 · B3.14 B3.15 B3.16 B3.17 B3.18 B3.19 B3.20 B3.21 B3.22 B3.23 · ✔ approved.
 - 2026-11-05 · B3.24 B3.25 B3.26 B3.27 B3.28 B3.29 B3.30 B3.31 · ✔ approved.
+- 2026-11-05 · B3.32 B3.33 B3.34 B3.35 B3.36 B3.37 B3.38 B3.39 B3.40 B3.41 · ✔ approved.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
