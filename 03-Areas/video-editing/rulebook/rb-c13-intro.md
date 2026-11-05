@@ -45,6 +45,7 @@ section: C13
 - **C13.21** No small card beside the speaker where the hook needs a full-screen scene (C13.7). ✅ · ✔ 2026-11-05
 - **C13.22** The rejected video 2 plan beats are the warning set: P1-03 and HK-08 (text behind him, text on a capture), SY-03, HK-06 (labels on captures), HK-01 (text not centred). ✅ *"I hate p1 03, hk 08 sy-03, at hk 06"* (2026-10-21) · ✔ 2026-11-05
 - **C13.23** No static stretch in the hook. ✅ · ✔ 2026-11-05
+- **C13.24** When Samuel has built part of an intro himself (a custom 3D animation, B-roll with its adjustment clips), carry his build into the new version exactly: copy it onto the matching track and adjustment clip, never rebuild it. ✅ *"let's use that exact same 3D animation I used there, just copy and paste it to the right adjustment clip"* (2026-11-05)
 
 ## Pictures
 - ![[_attachments/rulebook/c13-in-this-video-7m-tsb.jpg|360]] ✅ His "In this video" list device in $7M Founder and TSB.

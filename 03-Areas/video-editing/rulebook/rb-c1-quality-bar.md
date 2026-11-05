@@ -75,6 +75,8 @@ section: C1
 - **C1.48** One client's designs copied onto another. ❌ *"I told you to make better designs not copy frontals designs"* (2026-10-31) → C16 · ✔ 2026-11-05
 - **C1.49** Never overuse an old template. Reusing one is fine; don't lean on the same one again and again. ✅ *"you can use an old template, just make it not overused"* (2026-11-05) · ✏ 2026-11-05
 - **C1.50** Placeholder logos, misaligned text, text outside its box. ❌ (2026-10-07) · ✔ 2026-11-05
+- **C1.51** Major motion graphics go full screen on their own main background (K3: the Gamma navy), centred: diagrams, roadmaps, money runs, crowds and groups, any multi-element build. Only minor visuals sit on the A-roll: lists, pills, chapter pills. ✅ *"Ensure major motion graphics is on fullscreen with it's own main BG and centered / Only minor visuals on screen like lists, pills or chapters"* (2026-11-05; the small group, the roadmap and the 4-a-year run were on her screen). Refines Q-C1.a.
+- **C1.52** Spread minor visuals around her: left, right and bottom, not always the right side. ✅ *"looks like you are putting a lot of visuals by just the right side, and not left or down on her screen"* (2026-11-05)
 
 ## Pictures
 - ![[_attachments/rulebook/c1-rejected-plan-v1.jpg|360]] ❌ Video 2 plan v1 frames he called cheap: text over a greyed page, text at the top of captures, words behind his head (2026-10-21)

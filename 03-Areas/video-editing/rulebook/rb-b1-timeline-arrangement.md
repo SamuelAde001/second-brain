@@ -47,6 +47,7 @@ section: B1
 - **B1.23** Never use any Insert call or `InsertGeneratorIntoTimeline` on his timeline: it rippled his cut (2026-09-28) and once moved every track by 127 f (2026-10-03). ⚙️ How to place clips safely: [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]]. · ✔ 2026-11-05
 - **B1.24** Never leave the Tella teleprompter on screen. ✅ (2026-09-29) · ✔ 2026-11-05
 - **B1.25** Never touch the previous review timeline. ⚙️ (2026-10-22) · ✔ 2026-11-05
+- **B1.26** A new version carries his colour correction: one grade for every A-cam clip, a different one for every B-cam clip, copied from his last graded version. ✅ *"make sure all her clips have that color correction, one for the A cam, and the B-cam has a different collor correction so bring that in here too"* (2026-11-05)
 
 ## Pictures
 - (no picture yet: a screenshot of the track stack of one of his approved finals, e.g. TSB, with each track labelled)

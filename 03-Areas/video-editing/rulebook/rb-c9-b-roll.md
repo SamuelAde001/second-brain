@@ -64,6 +64,7 @@ section: C9
 - **C9.41** Never the client's own Tella or visuals as B-roll unless Samuel names them (C8.11). ✅ · ✔ 2026-11-05
 - **C9.42** Never leave in visuals made for another video that don't belong to this one. ✅ *"Remove this completely, this whole part of another video visuals"* (2026-10-15) · ✔ 2026-11-05
 - **C9.43** No visible AI watermark; no fast zoom on B-roll. 🎯 ✅ · ✔ 2026-11-05
+- **C9.44** When she names real software or apps, show real software and app B-roll (from YouTube), not a graphic. ✅ *"When she said, they aren't building softwares or Apps, use real software and apps B-rolls from youtube as visuals there"* (2026-11-05)
 
 ## Pictures
 - (no picture yet: an approved Flow metaphor clip, e.g. the fuel-on-fire B-roll from video 2, next to the rejected abstract glow; the one Flow take on file, video 4 FLOW-HK-01, has no verdict)

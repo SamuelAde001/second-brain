@@ -59,6 +59,8 @@ section: B5
 - **B5.33** Never zoom frame by frame after the cursor: it looks janky. ✅ (2026-10-03; replaces the cursor-following zoom of 2026-10-02) · ✔ 2026-11-05
 - **B5.34** Never zoom onto a text line for its own sake. ✅ *"Why is zoom in on the text here, that's not how we do things"* (2026-10-24) · ✔ 2026-11-05
 - **B5.35** Never MagicZoom on a source clip, and never a Fusion comp for a zoom-in (B2.26, B2.27). 🎬 ✅ · ✔ 2026-11-05
+- **B5.36** Every screen recording and page B-roll carries subtle camera motion inside its adjustment clip (drift, B5.3 table), and the review clip must show it. ✅ *"In the Gumroad B-roll, there is no camera motion, add a subtle camera motion there inside the adjustment clips there and in any other Screen recording that would need that"* (2026-11-05; the sample render skipped the MagicZoom)
+- **B5.37** The A-roll slow zooms and emphasis punch-ins (B3.23, C15.13) go in with the build, not after; a sample over her shows them. ✅ *"I am not seeing slow zooms and emphasis zooms on the main cam"* (2026-11-05)
 
 ## Pictures
 - ![[_attachments/rulebook/b5-hook-static-before.jpg|360]] ❌ our static hook card before his fix, B2B video

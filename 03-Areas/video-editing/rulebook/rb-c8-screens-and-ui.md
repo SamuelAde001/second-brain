@@ -83,6 +83,7 @@ section: C8
 - **C8.52** Never the client's own demo footage or visuals unless Samuel names them (C8.11). ✅ · ✔ 2026-11-05
 - **C8.53** Not the video 2 page faults: crops so deep the lines ran off the frame, a whole page at 1:1 with small text, soft-blur bands instead of lighting, focus baked into the comp, 1.4x jumps inside a beat. ❌ (2026-10-28) · ✔ 2026-11-05
 - **C8.54** No capture that shows Samuel's own avatar, inbox or private data. ⚙️ · ✔ 2026-11-05
+- **C8.55** The demo standard is the Gamma Ep. 12 connector demo (sample S4): her real-UI rebuild, one cut per spoken step, the light on each target as she names it, the dialog framed to fill the frame, nothing of ours on the UI. ✅ *"The demo u showed, I love it, let's keep that standard for the demos"* (2026-11-05)
 
 ## Pictures
 - ![[_attachments/rulebook/c8-linkedin-standard.jpg|360]] ✅ LinkedIn video screen recordings: framing, lighting, highlight. The standard (*"those screen recordings were good"*).
