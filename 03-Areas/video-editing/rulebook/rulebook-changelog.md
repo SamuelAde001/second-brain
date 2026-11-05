@@ -103,5 +103,8 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · B3.14 B3.15 B3.16 B3.17 B3.18 B3.19 B3.20 B3.21 B3.22 B3.23 · ✔ approved.
 - 2026-11-05 · B3.24 B3.25 B3.26 B3.27 B3.28 B3.29 B3.30 B3.31 · ✔ approved.
 - 2026-11-05 · B3.32 B3.33 B3.34 B3.35 B3.36 B3.37 B3.38 B3.39 B3.40 B3.41 · ✔ approved.
+- 2026-11-05 · B3.42 B3.43 B3.44 B3.45 B3.46 B3.47 B3.48 B3.49 B3.50 B3.51 B3.52 B3.53 · ✔ approved.
+- 2026-11-05 · Q-B3.a · all his unused macros are allowed, used where they fit.
+- 2026-11-05 · B3 · **section approved** rule by rule.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

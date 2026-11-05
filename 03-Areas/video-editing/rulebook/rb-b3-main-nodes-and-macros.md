@@ -1,9 +1,9 @@
 ---
 type: sop
 area: video-editing
-status: draft
-approved:
-updated: 2026-11-03
+status: approved
+approved: 2026-11-05
+updated: 2026-11-05
 source: interview
 tags: [rulebook]
 section: B3
@@ -11,7 +11,7 @@ section: B3
 
 # B3 · Top main nodes and macros
 
-> **Read when:** building or fixing any Fusion comp or adjustment clip (Editor, editor-builder, editor-worker), and before a review checks node choice. **Client values:** fonts, colours, corner shape and the client ground (BGFRONTAL, BGGAMMA) are in the client overlays: [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2]] (K2), [[03-Areas/video-editing/clients/gamma|Gamma]] (K3). **Status:** draft, not yet approved by Samuel.
+> **Read when:** building or fixing any Fusion comp or adjustment clip (Editor, editor-builder, editor-worker), and before a review checks node choice. **Client values:** fonts, colours, corner shape and the client ground (BGFRONTAL, BGGAMMA) are in the client overlays: [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2]] (K2), [[03-Areas/video-editing/clients/gamma|Gamma]] (K3). **Status:** approved by Samuel rule by rule, 2026-11-05.
 
 ## Rules
 
@@ -73,28 +73,28 @@ section: B3
 - **B3.41** Picture-in-picture: SSC PiP Pro on the Edit page, circular inset bottom-right, soft light ring, drop shadow, clip mirrored so he faces into the frame. 🎬 (2026-09-14) · ✔ 2026-11-05
 
 ### Keep comps light
-- **B3.42** Comps play back smoothly on his PC at full quality: NeoBevel off, no motion blur, Switch instead of stacked copies, Duplicate for grids. Send back any comp over 1.5 MB. ✅ 🔁×2 *"it should still be very high quality visual"* (2026-10-24)
-- **B3.43** NeoBevel stays off in every comp (PassThrough), turned off by script without regenerating comps. ✅ *"just disable all the neo bevel nodes in all the visuals and comps"* (2026-10-23)
+- **B3.42** Comps play back smoothly on his PC at full quality: NeoBevel off, no motion blur, Switch instead of stacked copies, Duplicate for grids. Send back any comp over 1.5 MB. ✅ 🔁×2 *"it should still be very high quality visual"* (2026-10-24) · ✔ 2026-11-05
+- **B3.43** NeoBevel stays off in every comp (PassThrough), turned off by script without regenerating comps. ✅ *"just disable all the neo bevel nodes in all the visuals and comps"* (2026-10-23) · ✔ 2026-11-05
 
 ### Scripting them
-- **B3.44** Macro paste, inner-tool names, NeoAnim stage switches, Out quirks and Edit-page effects being invisible to the API: open [[03-Areas/video-editing/sops/fusion-build|Fusion build SOP]] and [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] before scripting any of these. ⚙️
+- **B3.44** Macro paste, inner-tool names, NeoAnim stage switches, Out quirks and Edit-page effects being invisible to the API: open [[03-Areas/video-editing/sops/fusion-build|Fusion build SOP]] and [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] before scripting any of these. ⚙️ · ✔ 2026-11-05
 
-## Never
-- **B3.45** Never Dynamic Zoom (off on every clip). ✅ (before 2026-10)
-- **B3.46** Never stock Glow, a blurred copy or a soft coloured box as a glow; never a dark offset "shadow box". ✅ *"it was creating a shadow box. It was creating things that made it look bad"* (2026-09-25)
-- **B3.47** Never key opacity on a Merge Blend. ✅ *"I don't want you to ever do any opacity animation on the merge"* (2026-09-26)
-- **B3.48** Never a Transform pop, overshoot or bounce. ✅ *"never use boucing animations"* (2026-10-03)
-- **B3.49** Never animate a box over a box. ✅ *"Never every animate a box over a box"* (2026-10-25)
-- **B3.50** Never the normal Blur node. ✅ *"always use gausian blur and not normal blur"* (2026-10-15)
-- **B3.51** Never edit, rename or overwrite his macros. ✅ (2026-10-20)
-- **B3.52** Never leave a MagicMask untracked: it returns the whole A-roll and hides everything under it. Samuel tracks MagicMask himself. ✅ *"I would do the magic mask myself"* (2026-10-14)
-- **B3.53** No visual so heavy it lags his PC. ✅ *"this visual is too intensive on the computer"* (2026-10-24)
+## Never (strict)
+- **B3.45** Never Dynamic Zoom (off on every clip). ✅ (before 2026-10) · ✔ 2026-11-05
+- **B3.46** Never stock Glow, a blurred copy or a soft coloured box as a glow; never a dark offset "shadow box". ✅ *"it was creating a shadow box. It was creating things that made it look bad"* (2026-09-25) · ✔ 2026-11-05
+- **B3.47** Never key opacity on a Merge Blend. ✅ *"I don't want you to ever do any opacity animation on the merge"* (2026-09-26) · ✔ 2026-11-05
+- **B3.48** Never a Transform pop, overshoot or bounce. ✅ *"never use boucing animations"* (2026-10-03) · ✔ 2026-11-05
+- **B3.49** Never animate a box over a box. ✅ *"Never every animate a box over a box"* (2026-10-25) · ✔ 2026-11-05
+- **B3.50** Never the normal Blur node. ✅ *"always use gausian blur and not normal blur"* (2026-10-15) · ✔ 2026-11-05
+- **B3.51** Never edit, rename or overwrite his macros. ✅ (2026-10-20) · ✔ 2026-11-05
+- **B3.52** Never leave a MagicMask untracked: it returns the whole A-roll and hides everything under it. Samuel tracks MagicMask himself. ✅ *"I would do the magic mask myself"* (2026-10-14) · ✔ 2026-11-05
+- **B3.53** No visual so heavy it lags his PC. ✅ *"this visual is too intensive on the computer"* (2026-10-24) · ✔ 2026-11-05
 
 ## Pictures
 - ![[_attachments/rulebook/b3-apollo-final-macros.jpg|360]] ✅ his Apollo final: BGORANGE ground, NeoAnim cards, NeoLightSweep sheen, NeoGlow borders (Apollo, approved final)
 
 ## Questions for Samuel
-- **Q-B3.a** Several of your macros never showed up in your finals: Screen Focus Emphasis (18 uses in $7M, no rule yet), `shine`, Shine box with text, Text_Infinite_Scroller, Rectangle_V3, Boxed text, the PJT text pack. → Options: (1) all allowed, use where they fit (2) tell us what Screen Focus Emphasis and `shine` are for and which to leave alone. My pick: (2). Is `shine` the moving shine in C7?
+- **Q-B3.a** Several of your macros never showed up in your finals: Screen Focus Emphasis (18 uses in $7M, no rule yet), `shine`, Shine box with text, Text_Infinite_Scroller, Rectangle_V3, Boxed text, the PJT text pack. → Options: (1) all allowed, use where they fit (2) tell us what Screen Focus Emphasis and `shine` are for and which to leave alone. My pick: (2). Is `shine` the moving shine in C7? → Samuel: (1), all allowed, use them where they fit (2026-11-05).
 
 ## Sources
 Draws on and replaces the node parts of [[03-Areas/video-editing/fusion-node-system|Fusion node system]], [[03-Areas/video-editing/edit-grammar/edit-grammar|Edit grammar]], [[03-Areas/video-editing/ways-of-working|Ways of working]], [[03-Areas/video-editing/samuel-review-card|Samuel's review card]], [[03-Areas/video-editing/routerise-house-style|Route Rise house style]]; how-tos stay in [[03-Areas/video-editing/sops/fusion-build|Fusion build SOP]] and [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]].

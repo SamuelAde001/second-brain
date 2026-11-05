@@ -56,7 +56,7 @@ Badges on every rule: ✅ Samuel said it · 🔁 he said it more than once · �
 | **B** | **Timeline and Fusion craft** | |
 | B1 | [[03-Areas/video-editing/rulebook/rb-b1-timeline-arrangement\|Timeline arrangement]] | **approved 2026-11-05** |
 | B2 | [[03-Areas/video-editing/rulebook/rb-b2-comps-and-adjustment-clips\|Comps and adjustment clips]] | **approved 2026-11-05** |
-| B3 | [[03-Areas/video-editing/rulebook/rb-b3-main-nodes-and-macros\|Main nodes and macros]] | draft |
+| B3 | [[03-Areas/video-editing/rulebook/rb-b3-main-nodes-and-macros\|Main nodes and macros]] | **approved 2026-11-05** |
 | B4 | [[03-Areas/video-editing/rulebook/rb-b4-fusion-node-layout\|Fusion node layout]] | draft |
 | B5 | [[03-Areas/video-editing/rulebook/rb-b5-zooms-and-crops\|Zooms, steady zoom, crop-ins]] | draft |
 | **C** | **Visual language** | |
