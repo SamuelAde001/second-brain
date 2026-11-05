@@ -9,49 +9,11 @@ tags: [rulebook, review]
 
 # Rulebook open issues
 
-Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **75 questions** and **23 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
+Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **67 questions** and **19 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
 
-**The other 1007 waiting rules** come from your own words or your finals. Once these issues are answered, say *approve the rest* and they all get ✔ in one go; anything you correct later comes in as a revision and is written back.
+**The other 1006 waiting rules** come from your own words or your finals. Once these issues are answered, say *approve the rest* and they all get ✔ in one go; anything you correct later comes in as a revision and is written back.
 
 **How to answer:** in chat, e.g. `Q-K3.a 1`, `C2.14 drop`, `rest yes`, or type after **Answer:** here in Obsidian.
-
-## [[03-Areas/video-editing/rulebook/rb-k3-gamma|K3 · Gamma (client overlay)]]
-
-**Questions**
-- **Q-K3.a** Which font for labels and small text? You said *"The font is ES build"* (2026-10-31). Measured from your Gamma comps: Open Sans Bold on labels, ES Build on hero numbers; the Editor's read of your timeline (2026-11-01) also found PP Mori. → Options: (1) ES Build for everything; (2) ES Build for headings and numbers, Open Sans Bold for labels; (3) as your reference uses it, ES Build plus PP Mori. My pick: (2) if your comps really use it, else (1). Your words win until you answer.
-  - **Answer:** 
-- **Q-K3.b** Reference order. On 2026-10-31 you pointed to the LinkedIn video's styles; on 2026-11-01 you called LinkedIn *"just a side refrence"* and your Gamma edit the one to copy. → Options: (1) your Gamma edit leads, LinkedIn only for pills, glass and the background (as K3.5-K3.10 read now); (2) both equal. My pick: (1).
-  - **Answer:** 
-- **Q-K3.c** Does Gamma have a brand kit or logo rules (logo files, where the Gamma logo may appear)? → Options: (1) you send it; (2) none, use the app's own UI only. My pick: (2) until you say.
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-k0-authority|K0 · Order of authority]]
-
-**Questions**
-- **Q-K0.a** A creative director note read straight off Frame.io clashes with your earlier marker. On video 2 your rev 3 marker said *"dark shade not needful"* (2026-10-24); the CD's notes (2026-10-26) asked for lighting and darker text over footage. The Editor followed the CD and flagged it. Your order puts your markers above the CD. → Options: (1) your marker wins until you say otherwise; (2) the newer CD note wins on that video and you decide if it becomes a rule. My pick: (1) for notes you didn't pass on, flagged to you the same hour; CD notes you pass on count as yours (K0.11).
-  - **Answer:** 
-- **Q-K0.b** Do draft sections bind before you approve them? Your words (2026-11-03) set no condition. → Options: (1) drafts bind now, approval only locks wording (K0.13); (2) drafts are advisory until approved. My pick: (1).
-  - **Answer:** 
-- **Q-K0.c** The agent profiles (Editor, editor-builder rule 7) still state the 2026-10-22 order with no mention of the rulebook. → Options: (1) point them to K0 once you approve this section; (2) leave them. My pick: (1).
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **K0.14** Not covered anywhere: check the client's own reference edit (his last finished video for that client) first, then the client kit's own tie-breakers (for Alex, Frontal's five principles in [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]] §1). If it still isn't clear, ask Samuel. Never invent a style. 💡
-  - **Answer:** 
-- **K0.15** When two sections seem to disagree, the more specific one wins: the client overlay for brand values, the beat-type section (C6, C8, C10 …) over a general one. Flag the clash so the general rule gets fixed. 💡
-  - **Answer:** 
-- **K0.21** A fix for one beat only stays in the job note. It becomes a rule when he says "always", "never" or "every", when he gives it a second time, or when it would apply to the next video. If unsure, ask. 💡
-  - **Answer:** 
-- **K0.23** A change Samuel dictated needs no new approval. A change an agent infers carries 💡 and waits for his yes. ⚙️
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-k1-route-rise|K1 · Route Rise agency rules]]
-
-**Questions**
-- **Q-K1.a** Revision terms and brief style are still unrecorded: how many rounds Route Rise allows, and whether a CD round counts as one. → Options: (1) you tell me the terms; (2) leave as needs-input. My pick: (1), one line is enough.
-  - **Answer:** 
-- **Q-K1.b** Is the 5-day cap (confirmed 2026-09-02) still the contract now that Route Rise wants 5 videos a month? → Options: (1) yes; (2) new number. My pick: confirm (1).
-  - **Answer:** 
 
 ## [[03-Areas/video-editing/rulebook/rb-k2-alex-frontal|K2 · Alex / Frontal (client overlay)]]
 

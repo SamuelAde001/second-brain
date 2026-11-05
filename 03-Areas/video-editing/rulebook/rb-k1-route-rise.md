@@ -22,7 +22,8 @@ section: K1
 
 ### How a job arrives
 - **K1.5** A job comes as a ClickUp card: the card's dates set the order and the deadline. The script comes as a Notion idea doc (Alex) or a ClickUp script doc (Gamma); footage as a Google Drive folder; screen recordings often via Tella. Setup steps: [[03-Areas/video-editing/rulebook/rb-a1-download-and-sorting|A1]]. 🏢 (2026-09-24, 2026-10-30)
-- **K1.6** Turnaround is 5 days at most from the day he opens the project. Route Rise counts Sunday; Samuel doesn't work it, so a Sunday inside the window leaves 4 working days. 🏢 ✅ (2026-09-02)
+- **K1.6** The deadline is the one on the ClickUp card. *"we follow the deadline giving on clickup"* (2026-11-05) (Q-K1.b; the 5-day cap of 2026-09-02 is no longer the measure.) Samuel doesn't work Sundays. 🏢 · ✏ 2026-11-05
+- **K1.23** Revisions: as many rounds as needed, but most times one round from the creative director and one from the main client. Plan the job for those two. ✅ *"we do as many revisions as needed if needed but most times ones from the creative director and one from the main client"* (2026-11-05) · ✔ 2026-11-05
 - **K1.7** Volume: at least 5 videos a month, and faster each time. ✅ *"my company said they want me to edit at least 5 videos"* (2026-10-04) 🔁 (2026-09-29)
 - **K1.8** The client's production notes on the script are rules for that video (Alex: anonymous quotes, the CTA link, numbers as written) unless Samuel settles otherwise with the client (K0.10). 🏢 (2026-10-06)
 - **K1.9** Footage often arrives incomplete. List what is still needed from the client on day one, ranked, and send it to Samuel. 🏢 ⚙️
@@ -50,8 +51,8 @@ section: K1
 - (no picture yet: none needed for this section)
 
 ## Questions for Samuel
-- **Q-K1.a** Revision terms and brief style are still unrecorded: how many rounds Route Rise allows, and whether a CD round counts as one. → Options: (1) you tell me the terms; (2) leave as needs-input. My pick: (1), one line is enough.
-- **Q-K1.b** Is the 5-day cap (confirmed 2026-09-02) still the contract now that Route Rise wants 5 videos a month? → Options: (1) yes; (2) new number. My pick: confirm (1).
+- **Q-K1.a** Revision terms and brief style are still unrecorded: how many rounds Route Rise allows, and whether a CD round counts as one. → Options: (1) you tell me the terms; (2) leave as needs-input. My pick: (1), one line is enough. → Samuel: as many as needed; most times one from the CD and one from the main client (2026-11-05). New K1.23.
+- **Q-K1.b** Is the 5-day cap (confirmed 2026-09-02) still the contract now that Route Rise wants 5 videos a month? → Options: (1) yes; (2) new number. My pick: confirm (1). → Samuel: follow the ClickUp deadline (2026-11-05). K1.6 updated.
 
 ## Sources
 Replaces the agency parts of [[03-Areas/video-editing/clients/routerise|Route Rise client note]] and [[03-Areas/video-editing/sops/routerise-job-setup|Route Rise job setup]]; draws on [[03-Areas/video-editing/creative-director/creative-director-standard|creative director standard]], [[03-Areas/video-editing/visual-vocabulary|visual vocabulary]] §5, [[03-Areas/video-editing/delivered-projects|delivered projects]], [[03-Areas/video-editing/cut-sheets|cut sheets]].

@@ -43,7 +43,7 @@ def main():
                 qs.append(line)
             elif RULE.match(line) and not MARK.search(line):
                 nw += 1
-                if "💡" in line:
+                if "💡" in line.replace("carries 💡", ""):
                     rs.append(line)
         if not (qs or rs):
             continue

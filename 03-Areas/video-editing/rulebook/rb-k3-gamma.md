@@ -31,7 +31,7 @@ section: K3
 - **K3.10** Ground: the LinkedIn video background in Gamma's colours (a new BGGAMMA file; his macros stay untouched). Keep it calm: not over-animated. ✅ *"The background is the same background as that LinkedIn video, just with a different color"* (2026-10-31)
 
 ### Font
-- **K3.11** ES Build, Bold ALL CAPS for headings and keywords. ✅ *"The font is ES build"* (2026-10-31). See Q-K3.a on the label font.
+- **K3.11** ES Build, Bold ALL CAPS, for headings, keywords and hero numbers; **Open Sans Bold for labels and small text** (Q-K3.a, 2026-11-05). ✅ *"The font is ES build"* (2026-10-31) · ✏ 2026-11-05
 
 ### Shape: rounded
 - **K3.12** Rounded corners on every box. ✅ *"the boxes are wrong, she always had rounder corners"* (2026-10-31)
@@ -56,9 +56,9 @@ section: K3
 - ![[_attachments/rulebook/k3-frontal-box-on-gamma-rejected.jpg|360]] ❌ v3 box for Gamma built in Frontal's shape, rejected 2026-10-31 (*"the boxes are wrong, she always had rounder corners"*).
 
 ## Questions for Samuel
-- **Q-K3.a** Which font for labels and small text? You said *"The font is ES build"* (2026-10-31). Measured from your Gamma comps: Open Sans Bold on labels, ES Build on hero numbers; the Editor's read of your timeline (2026-11-01) also found PP Mori. → Options: (1) ES Build for everything; (2) ES Build for headings and numbers, Open Sans Bold for labels; (3) as your reference uses it, ES Build plus PP Mori. My pick: (2) if your comps really use it, else (1). Your words win until you answer.
-- **Q-K3.b** Reference order. On 2026-10-31 you pointed to the LinkedIn video's styles; on 2026-11-01 you called LinkedIn *"just a side refrence"* and your Gamma edit the one to copy. → Options: (1) your Gamma edit leads, LinkedIn only for pills, glass and the background (as K3.5-K3.10 read now); (2) both equal. My pick: (1).
-- **Q-K3.c** Does Gamma have a brand kit or logo rules (logo files, where the Gamma logo may appear)? → Options: (1) you send it; (2) none, use the app's own UI only. My pick: (2) until you say.
+- **Q-K3.a** Which font for labels and small text? You said *"The font is ES build"* (2026-10-31). Measured from your Gamma comps: Open Sans Bold on labels, ES Build on hero numbers; the Editor's read of your timeline (2026-11-01) also found PP Mori. → Options: (1) ES Build for everything; (2) ES Build for headings and numbers, Open Sans Bold for labels; (3) as your reference uses it, ES Build plus PP Mori. My pick: (2) if your comps really use it, else (1). Your words win until you answer. → Samuel: (2), ES Build for headings and numbers, Open Sans Bold for labels (2026-11-05). K3.11 updated.
+- **Q-K3.b** Reference order. On 2026-10-31 you pointed to the LinkedIn video's styles; on 2026-11-01 you called LinkedIn *"just a side refrence"* and your Gamma edit the one to copy. → Options: (1) your Gamma edit leads, LinkedIn only for pills, glass and the background (as K3.5-K3.10 read now); (2) both equal. My pick: (1). → Samuel: (1), your Gamma edit leads; LinkedIn only for pills, glass and the background (2026-11-05).
+- **Q-K3.c** Does Gamma have a brand kit or logo rules (logo files, where the Gamma logo may appear)? → Options: (1) you send it; (2) none, use the app's own UI only. My pick: (2) until you say. → Samuel: (2), no brand kit; use the app's own UI only (2026-11-05).
 
 ## Sources
 Replaces the look rules in [[03-Areas/video-editing/clients/gamma|Gamma client note]] and [[04-Projects/routerise-gamma-claude-mcp-rich|Gamma Ep. 12 job note]] (BRIEF and STYLE v4 in that job's `Docs\Visuals v2 (Editor)\`); draws on [[07-Agents/video-editor/memory|Editor memory]] (2026-10-31, 2026-11-01).

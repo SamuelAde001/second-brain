@@ -106,5 +106,12 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · B3.42 B3.43 B3.44 B3.45 B3.46 B3.47 B3.48 B3.49 B3.50 B3.51 B3.52 B3.53 · ✔ approved.
 - 2026-11-05 · Q-B3.a · all his unused macros are allowed, used where they fit.
 - 2026-11-05 · B3 · **section approved** rule by rule.
+- 2026-11-05 · Q-K3.a, K3.11 · ✏ ES Build for headings and numbers, Open Sans Bold for labels.
+- 2026-11-05 · Q-K3.b · Gamma edit leads, LinkedIn for pills, glass, background. Q-K3.c · no Gamma brand kit, app UI only.
+- 2026-11-05 · Q-K0.a · his marker beats an un-passed CD note. Q-K0.b · drafts bind now. Q-K0.c · profiles point to K0.
+- 2026-11-05 · K0.14 K0.15 K0.21 · ✔ approved (were inferences).
+- 2026-11-05 · K1.6 · ✏ the ClickUp deadline is the measure, not the 5-day cap. *"we follow the deadline giving on clickup"*
+- 2026-11-05 · K1.23 · new: revisions as needed, usually one CD round and one client round. *"we do as many revisions as needed if needed but most times ones from the creative director and one from the main client"*
+- 2026-11-05 · K0.14 K0.15 K0.21 · ✔ approved.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

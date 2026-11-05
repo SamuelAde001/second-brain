@@ -36,8 +36,8 @@ section: K0
 
 ### When the rulebook is silent
 - **K0.13** Draft sections apply now. Where a draft section says nothing, the older notes under its *Sources* still apply. Approval locks the wording. ⚙️ (index, 2026-11-03)
-- **K0.14** Not covered anywhere: check the client's own reference edit (his last finished video for that client) first, then the client kit's own tie-breakers (for Alex, Frontal's five principles in [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]] §1). If it still isn't clear, ask Samuel. Never invent a style. 💡
-- **K0.15** When two sections seem to disagree, the more specific one wins: the client overlay for brand values, the beat-type section (C6, C8, C10 …) over a general one. Flag the clash so the general rule gets fixed. 💡
+- **K0.14** Not covered anywhere: check the client's own reference edit (his last finished video for that client) first, then the client kit's own tie-breakers (for Alex, Frontal's five principles in [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2.3.1]] §1). If it still isn't clear, ask Samuel. Never invent a style. 💡 · ✔ 2026-11-05
+- **K0.15** When two sections seem to disagree, the more specific one wins: the client overlay for brand values, the beat-type section (C6, C8, C10 …) over a general one. Flag the clash so the general rule gets fixed. 💡 · ✔ 2026-11-05
 
 ### Folding in a new correction
 - **K0.16** Every new correction from Samuel goes into the rulebook **in the same session** it is given. Never "later". ✅ (2026-11-03)
@@ -45,7 +45,7 @@ section: K0
 - **K0.18** A reversal: the old rule leaves the rulebook for [[08-Archive/brain-build/rulebook-removed-rules|removed rules]] (word for word, dated) and the new one takes the next free number; numbers are never reused. ✅ *"The replaced rules should be replaced and removed from the rule book"* (2026-11-03)
 - **K0.19** A new rule goes at the next free number under the right subheading. If it fits two sections, put it in the section the step that would break it reads, and link it from the other. ⚙️
 - **K0.20** Brand values (font, hex, corner shape, logos) go only in that client's overlay. Every other section stays client-neutral and points to the overlay. ⚙️
-- **K0.21** A fix for one beat only stays in the job note. It becomes a rule when he says "always", "never" or "every", when he gives it a second time, or when it would apply to the next video. If unsure, ask. 💡
+- **K0.21** A fix for one beat only stays in the job note. It becomes a rule when he says "always", "never" or "every", when he gives it a second time, or when it would apply to the next video. If unsure, ask. 💡 · ✔ 2026-11-05
 - **K0.22** Add one line to [[03-Areas/video-editing/rulebook/rulebook-changelog|the changelog]] for every change: date · rule number · what changed · his words. Then commit. ⚙️ (2026-11-03)
 - **K0.23** A change Samuel dictated needs no new approval. A change an agent infers carries 💡 and waits for his yes. ⚙️
 
@@ -58,9 +58,9 @@ section: K0
 - (no picture yet: none needed for this section)
 
 ## Questions for Samuel
-- **Q-K0.a** A creative director note read straight off Frame.io clashes with your earlier marker. On video 2 your rev 3 marker said *"dark shade not needful"* (2026-10-24); the CD's notes (2026-10-26) asked for lighting and darker text over footage. The Editor followed the CD and flagged it. Your order puts your markers above the CD. → Options: (1) your marker wins until you say otherwise; (2) the newer CD note wins on that video and you decide if it becomes a rule. My pick: (1) for notes you didn't pass on, flagged to you the same hour; CD notes you pass on count as yours (K0.11).
-- **Q-K0.b** Do draft sections bind before you approve them? Your words (2026-11-03) set no condition. → Options: (1) drafts bind now, approval only locks wording (K0.13); (2) drafts are advisory until approved. My pick: (1).
-- **Q-K0.c** The agent profiles (Editor, editor-builder rule 7) still state the 2026-10-22 order with no mention of the rulebook. → Options: (1) point them to K0 once you approve this section; (2) leave them. My pick: (1).
+- **Q-K0.a** A creative director note read straight off Frame.io clashes with your earlier marker. On video 2 your rev 3 marker said *"dark shade not needful"* (2026-10-24); the CD's notes (2026-10-26) asked for lighting and darker text over footage. The Editor followed the CD and flagged it. Your order puts your markers above the CD. → Options: (1) your marker wins until you say otherwise; (2) the newer CD note wins on that video and you decide if it becomes a rule. My pick: (1) for notes you didn't pass on, flagged to you the same hour; CD notes you pass on count as yours (K0.11). → Samuel: (1), his marker wins until he says otherwise; a Frame.io CD note he didn't pass on is flagged to him the same hour (2026-11-05).
+- **Q-K0.b** Do draft sections bind before you approve them? Your words (2026-11-03) set no condition. → Options: (1) drafts bind now, approval only locks wording (K0.13); (2) drafts are advisory until approved. My pick: (1). → Samuel: (1), drafts bind now; approval only locks the wording (2026-11-05).
+- **Q-K0.c** The agent profiles (Editor, editor-builder rule 7) still state the 2026-10-22 order with no mention of the rulebook. → Options: (1) point them to K0 once you approve this section; (2) leave them. My pick: (1). → Samuel: (1), the Editor and helper profiles point to K0 (2026-11-05).
 
 ## Sources
 Replaces the authority lines in [[03-Areas/video-editing/ways-of-working|ways of working]] (2026-10-22), [[03-Areas/video-editing/samuel-review-card|Samuel's review card]] and the [[03-Areas/video-editing/video-editing-log|video editing log]] (2026-10-22); draws on [[03-Areas/video-editing/creative-director/creative-director-standard|creative director standard]] and [[07-Agents/video-editor/profile|Editor profile]].
