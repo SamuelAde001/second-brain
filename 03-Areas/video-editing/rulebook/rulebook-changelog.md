@@ -120,5 +120,12 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · C1.49 · ✏ reuse old templates, never overuse them. *"you can use an old template, just make it not overused"* C1.31 ✔.
 - 2026-11-05 · Q-C2.a, C2.3 · ✏ 16-22 f main, 8-12 f small parts. Q-C2.b · exits 10-14 f. Q-C2.c · background drifts, motion on content.
 - 2026-11-05 · K4.6 B5.17 C1.31 · ✔ approved.
+- 2026-11-05 · Q-K2.a · no glow on the Frontal logo. Q-K2.b · bands kept as soft defaults (K2.12 ✔), diagram rule dropped. Q-K2.c · contact sheet of the 27 Frontal templates to come.
+- 2026-11-05 · Q-C3.a · short glass panel by his side is fine; the fault was overusing one style. C3.20 ✔.
+- 2026-11-05 · Q-C3.b, C3.39 · ✏ ghost numbers on chapter pills, section devices and sometimes boxes without a number. *"we can use them 1 and sometimes in boxes but where we don't have numbers already"*
+- 2026-11-05 · Q-C4.a, C4.18 · ✏ ALL CAPS for titles, chips, pills; sentence case for longer lines. Q-C4.b, Q-C4.c · yes.
+- 2026-11-05 · Q-C5.a · red treatment only on a stated negative. C5.31 ✔.
+- 2026-11-05 · C6.34 · new: the dark shade behind text depends on context (lower third vs big centre text), never extremely dark. Q-C6.b · outside the spot 0.45 ±0.05.
+- 2026-11-05 · K2.12 C3.20 C5.31 · ✔ approved.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

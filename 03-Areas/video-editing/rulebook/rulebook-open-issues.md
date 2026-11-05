@@ -9,65 +9,11 @@ tags: [rulebook, review]
 
 # Rulebook open issues
 
-Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **57 questions** and **15 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
+Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **46 questions** and **12 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
 
-**The other 1003 waiting rules** come from your own words or your finals. Once these issues are answered, say *approve the rest* and they all get ✔ in one go; anything you correct later comes in as a revision and is written back.
+**The other 1001 waiting rules** come from your own words or your finals. Once these issues are answered, say *approve the rest* and they all get ✔ in one go; anything you correct later comes in as a revision and is written back.
 
 **How to answer:** in chat, e.g. `Q-K3.a 1`, `C2.14 drop`, `rest yes`, or type after **Answer:** here in Obsidian.
-
-## [[03-Areas/video-editing/rulebook/rb-k2-alex-frontal|K2 · Alex / Frontal (client overlay)]]
-
-**Questions**
-- **Q-K2.a** Glow on the Frontal logo. The kit says no glow or effect on the logo (2026-10-20); your old approved finals put SoftGlow 0.472 on the Frontal lockup, and you said *"I add glow"* about visuals (2026-10-22). → Options: (1) no glow on the logo itself, glow on boxes and visuals as usual; (2) soft glow on the logo too. My pick: (1).
-  - **Answer:** 
-- **Q-K2.b** Kit-only rules you never confirmed: the band rules (K2.12), diagrams as 1 px grey lines ending in a 6 px diamond with no curves (you allowed arrows with heads, 2026-10-22, and used curved connectors, 2026-09-26). → Options: (1) keep the bands as soft defaults, drop the diagram rule; (2) keep both; (3) drop both. My pick: (1).
-  - **Answer:** 
-- **Q-K2.c** The Frontal template library (27 templates, 2026-10-20) was never reviewed by you. → Options: (1) one contact sheet to approve or strike; (2) keep using it as is. My pick: (1).
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **K2.12** Bands (full-frame colour): sky (Blue-300 with Dark text) once per section for the key number; navy for a case study; cobalt for the CTA; tint for a quote. Never two coloured bands in a row; never Blue-300 text on sky or cobalt. 🏢 💡 (kit rule, never confirmed by him)
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c3-elements|C3 · Motion graphic elements]]
-
-**Questions**
-- **Q-C3.a** Stat devices beside the speaker. 2026-10-15: score and stat devices sit in a glass panel by his side (also in your AI4 and Apollo finals). 2026-10-24/25: no tall glass side boxes over A-roll, no box behind text over him, small stats as small pills at the bottom. → Options: (1) a short glass panel beside him is still fine for a real stat device; never tall, never behind text. (2) Over A-roll, stats only as small bottom pills. My pick: (1).
-  - **Answer:** 
-- **Q-C3.b** Ghost numbers. 2026-09-27 you removed "the extra fade number" on pills; 2026-09-30 you approved P03 (ghost-numeral chapter pill), and your TSB chapter lower third and AI4 card reveal use ghost numerals. → Options: (1) ghost numerals only on chapter pills and section devices, never on list pills or boxes. (2) Never. My pick: (1).
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **C3.20** Boxes are opaque. No see-through "hollow" panels: they read as too many layers. 🎯 (2026-10-22) Glass is blurred and tinted enough that nothing behind reads as a second layer. 💡
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c4-typography|C4 · Typography and numbers]]
-
-**Questions**
-- **Q-C4.a** Case. Your orange-era finals used ALL CAPS titles and chips; the Frontal kit says sentence case; the creative director uses all caps; your Gamma reference is short ALL-CAPS lines. → Options: (1) ALL CAPS for titles, chips, pills; sentence case for longer lines (2) per client overlay only. My pick: (2), with (1) as the default for a new client.
-  - **Answer:** 
-- **Q-C4.b** Glow on big titles. Apollo: no glow ever on text; TSB: giant names and titles carry a soft glow (0.04-0.12). → My pick: no glow on titles, except a giant name behind the speaker.
-  - **Answer:** 
-- **Q-C4.c** Lower-third height: the lint says y ≥ 900, video 2 notes say y ≥ ~950. → My pick: 900 as the floor, lower is fine.
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c5-colour-and-backgrounds|C5 · Colours, variety, backgrounds]]
-
-**Questions**
-- **Q-C5.a** How strong is the red on negatives? 2026-10-22 red tint + vignette + desaturation; 2026-10-23 "so so so much green and red"; 2026-10-24 "this red is not needed, just desaturated"; 2026-10-25 "When they say something negative use a red coloration ... red vignette, and desaturation". The house notes marked the red treatment as superseded, but your 2026-10-25 marker uses it again. → Options: (1) red + vignette + desaturation only on a stated negative (a loss, a failure, "don't do this"); desaturation alone for "not working" or "stuck". (2) Desaturation only; red only on charts and failure/success pairs. My pick: (1).
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **C5.31** Default fill = accent × ~0.10, border = the accent or its lighter tint, when the kit names no fill. 🎬 💡
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c6-highlighting|C6 · Highlighting and brightness areas]]
-
-**Questions**
-- **Q-C6.a** Dark shade. Your video 2 rev 3 markers (2026-10-24): *"The dark shade is not needful"*; the Editor then cut the vignette 0.835 → 0.4 and softened spotlights to Gain 0.65. The creative director (2026-10-26): lighting tricks on every page, darker behind all text. Your order puts your markers above the CD. → Options: (1) both stand: darkening is fine when it lights one spot or sits behind text; a uniform shade over a visual is banned (2) your marker wins: mild spotlights only, no extra darkening behind text (3) the CD wins. My pick: (1).
-  - **Answer:** 
-- **Q-C6.b** The number outside the spot: 0.16 (settled with the CD for video 4, 2026-10-27), 0.40-0.42 (your Apollo final), 0.50 (video 4, after your LinkedIn "too dark"), 0.65 (video 2, after "dark shade not needful"). → Options: (1) 0.45 ±0.05 as standard (2) 0.65 mild everywhere (3) your number. My pick: (1).
-  - **Answer:** 
 
 ## [[03-Areas/video-editing/rulebook/rb-c7-blurs-glows-shines|C7 · Blurs, glows, shines]]
 

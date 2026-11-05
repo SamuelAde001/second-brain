@@ -37,7 +37,7 @@ section: C4
 - **C4.15** Text is white and bold. 🔁 2 ✅ *"use white please on text and make it bold"* (2026-10-25) Weights: client overlay.
 - **C4.16** Vary the text treatment across a video (gradient, a second style for a number or year, italics now and then, text in a box where a box is allowed); never basic subtitle text. 🎯 (2026-10-22)
 - **C4.17** Text keeps his NeoTextMotion shines. ✅ (2026-10-22) Detail: C7.
-- **C4.18** Case (ALL CAPS or sentence case) follows the client overlay. See Q-C4.a.
+- **C4.18** ALL CAPS for titles, chips and pills; sentence case for longer lines, on every client (Q-C4.a, 2026-11-05). ✅ · ✏ 2026-11-05
 
 ### Size
 - **C4.19** Big enough to read on a phone, key words bigger; but never so big it crowds the frame. 🔁 ✅ *"Make the texts always bigger expecially winners and stucl"* (2026-10-25); ✅ *"the text is too big"* (2026-10-24)
@@ -80,9 +80,9 @@ section: C4
 - (no picture yet: a lower third done right, centred and low)
 
 ## Questions for Samuel
-- **Q-C4.a** Case. Your orange-era finals used ALL CAPS titles and chips; the Frontal kit says sentence case; the creative director uses all caps; your Gamma reference is short ALL-CAPS lines. → Options: (1) ALL CAPS for titles, chips, pills; sentence case for longer lines (2) per client overlay only. My pick: (2), with (1) as the default for a new client.
-- **Q-C4.b** Glow on big titles. Apollo: no glow ever on text; TSB: giant names and titles carry a soft glow (0.04-0.12). → My pick: no glow on titles, except a giant name behind the speaker.
-- **Q-C4.c** Lower-third height: the lint says y ≥ 900, video 2 notes say y ≥ ~950. → My pick: 900 as the floor, lower is fine.
+- **Q-C4.a** Case. Your orange-era finals used ALL CAPS titles and chips; the Frontal kit says sentence case; the creative director uses all caps; your Gamma reference is short ALL-CAPS lines. → Options: (1) ALL CAPS for titles, chips, pills; sentence case for longer lines (2) per client overlay only. My pick: (2), with (1) as the default for a new client. → Samuel: (1), ALL CAPS for titles, chips, pills; sentence case for longer lines (2026-11-05). C4.18 updated.
+- **Q-C4.b** Glow on big titles. Apollo: no glow ever on text; TSB: giant names and titles carry a soft glow (0.04-0.12). → My pick: no glow on titles, except a giant name behind the speaker. → Samuel: yes, no glow on titles except a giant name behind the speaker (2026-11-05).
+- **Q-C4.c** Lower-third height: the lint says y ≥ 900, video 2 notes say y ≥ ~950. → My pick: 900 as the floor, lower is fine. → Samuel: yes, 900 as the floor, lower is fine (2026-11-05).
 
 ## Sources
 Draws on and replaces the text parts of [[03-Areas/video-editing/samuel-review-card|Samuel's review card]] (P2, P3, C5-C7), [[03-Areas/video-editing/ways-of-working|Ways of working]], [[03-Areas/video-editing/edit-grammar/edit-grammar|Edit grammar]], [[03-Areas/video-editing/routerise-house-style|Route Rise house style]], [[03-Areas/video-editing/fusion-node-system|Fusion node system]], [[03-Areas/video-editing/creative-director/creative-director-standard|Creative director standard]]. Font files, weights and the Frontal size table: [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2]] via K2.

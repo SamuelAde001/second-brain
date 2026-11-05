@@ -55,7 +55,7 @@ section: C5
 - **C5.30** A chart line turns red where it stalls ([[03-Areas/video-editing/rulebook/rb-c10-graphs-and-stats|C10]]). ✅
 
 ### Build method
-- **C5.31** Default fill = accent × ~0.10, border = the accent or its lighter tint, when the kit names no fill. 🎬 💡
+- **C5.31** Default fill = accent × ~0.10, border = the accent or its lighter tint, when the kit names no fill. 🎬 💡 · ✔ 2026-11-05
 - **C5.32** Background node colours are not premultiplied: multiply RGB by alpha, or low-alpha fills show bright. Straight-alpha PNG Loaders: PostMultiplyByAlpha = 1. ⚙️
 - **C5.33** Kill gradient banding with a light FastNoise overlay (3-5 %) or grain, or float16 on the ground macro. ⚙️
 
@@ -70,7 +70,7 @@ section: C5
 - (no picture yet: one stated-negative frame with red tint, red vignette and desaturation from video 2; one approved ground per client)
 
 ## Questions for Samuel
-- **Q-C5.a** How strong is the red on negatives? 2026-10-22 red tint + vignette + desaturation; 2026-10-23 "so so so much green and red"; 2026-10-24 "this red is not needed, just desaturated"; 2026-10-25 "When they say something negative use a red coloration ... red vignette, and desaturation". The house notes marked the red treatment as superseded, but your 2026-10-25 marker uses it again. → Options: (1) red + vignette + desaturation only on a stated negative (a loss, a failure, "don't do this"); desaturation alone for "not working" or "stuck". (2) Desaturation only; red only on charts and failure/success pairs. My pick: (1).
+- **Q-C5.a** How strong is the red on negatives? 2026-10-22 red tint + vignette + desaturation; 2026-10-23 "so so so much green and red"; 2026-10-24 "this red is not needed, just desaturated"; 2026-10-25 "When they say something negative use a red coloration ... red vignette, and desaturation". The house notes marked the red treatment as superseded, but your 2026-10-25 marker uses it again. → Options: (1) red + vignette + desaturation only on a stated negative (a loss, a failure, "don't do this"); desaturation alone for "not working" or "stuck". (2) Desaturation only; red only on charts and failure/success pairs. My pick: (1). → Samuel: (1), red + vignette + desaturation only on a stated negative; desaturation alone for "not working" or "stuck"; on B-roll or UI only (B2.17) (2026-11-05).
 
 ## Sources
 Draws on and replaces the colour rules in [[03-Areas/video-editing/ways-of-working|Ways of working]], [[03-Areas/video-editing/visual-vocabulary|Visual vocabulary]], [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]], [[03-Areas/video-editing/fusion-node-system|Fusion node system]], [[03-Areas/video-editing/edit-grammar/edit-grammar-shared-rules|Edit grammar shared rules]], [[03-Areas/video-editing/creative-director/creative-director-standard|Creative director standard]] and [[03-Areas/video-editing/clients/frontal-brand-v2|Frontal brand v2]] (values go to K2).
