@@ -49,16 +49,16 @@ section: B3
 - **B3.23** The punch-in pass runs over the whole video, intro included, once the visuals are final (`mz_plan.py`, `mz_inject.py`, `mzblob.py`). No MagicZoom under a full-frame visual; one per cut. ⚙️ (2026-10-09, 2026-10-16) · ✔ 2026-11-05
 
 ### Grounds
-- **B3.24** Every full-frame motion graphic sits on his ground macro at the start of the main line: BGORANGE, or the client copy (client overlay). Open the macro and copy it; never rebuild it by eye. ✅ 🔁×13 *"When doing motion graphics, always use the BGORANGE macro I have saved"* (2026-09-27, 2026-09-30)
-- **B3.25** BGORANGE: Background #110602; ResolveFX Grid 20×12 at Blend 0.0143; #FF5A1F glow through two Ellipse masks (W 1.034, SoftEdge 0.1) at y −0.299 and 1.254, so light comes from the top and bottom edges; Gaussian H 1.0 / V 0.4; merged at 0.181; no vignette. 🎬
-- **B3.26** A client ground is the same file with the same node names, new colours only, saved as a new file beside his (`frkit.bgfrontal_setting()`). ✅ *"install BGFRONTAL into My macros"* (2026-10-20)
-- **B3.27** Set the ground's Background and blur tools to float16 to stop banding. ⚙️
+- **B3.24** Every full-frame motion graphic sits on his ground macro at the start of the main line: BGORANGE, or the client copy (client overlay). Open the macro and copy it; never rebuild it by eye. ✅ 🔁×13 *"When doing motion graphics, always use the BGORANGE macro I have saved"* (2026-09-27, 2026-09-30) · ✔ 2026-11-05
+- **B3.25** BGORANGE: Background #110602; ResolveFX Grid 20×12 at Blend 0.0143; #FF5A1F glow through two Ellipse masks (W 1.034, SoftEdge 0.1) at y −0.299 and 1.254, so light comes from the top and bottom edges; Gaussian H 1.0 / V 0.4; merged at 0.181; no vignette. 🎬 · ✔ 2026-11-05
+- **B3.26** A client ground is the same file with the same node names, new colours only, saved as a new file beside his (`frkit.bgfrontal_setting()`). ✅ *"install BGFRONTAL into My macros"* (2026-10-20) · ✔ 2026-11-05
+- **B3.27** Set the ground's Background and blur tools to float16 to stop banding. ⚙️ · ✔ 2026-11-05
 
 ### Box chain and finishing nodes
-- **B3.28** Box chain, in order: RectangleMask → fill Background → GaussianBlur 0.4 → border (Instance mask, BorderWidth ~0.0018, accent fill) → NeoLightSweep Pro → DropShadow → NeoAnim. Corner shape and colours: client overlay. 🎬
-- **B3.29** NeoLightSweep Pro is a static sheen at the box centre, on every box, never animated: width 0.07-0.11 on pills, up to 0.2 on cards; Angle −40, SoftEdge 0.055, Distance 0.0015; Intensity 0.18-0.40 (0.25 on accent fills, 0.3 on light fills; the 0.724 default washes out). Aim its inner Rectangle1 Center at the box. When: C7. ✅ *"I just add it in the box to make the box have a shiny look at the center"* (2026-09-26)
-- **B3.30** NeoGlow: Gain 0.15, MasterBlur 1.5, Depth 4 (quality 3), Screen; on borders and rings only. ✅ 🔁×3 *"always use Neo glow next time I ask for Glow"* (2026-09-26)
-- **B3.31** DropShadow (ResolveFX; image input is `Source`): pills strength 0.5-0.55, distance 0.008, blur 0.3; cards 0.6 / 0.012 / 0.45; big cards up to 0.62 / 0.014 / 0.5; angle 37.5. 🎬
+- **B3.28** Box chain, in order: RectangleMask → fill Background → GaussianBlur 0.4 → border (Instance mask, BorderWidth ~0.0018, accent fill) → NeoLightSweep Pro → DropShadow → NeoAnim. Corner shape and colours: client overlay. 🎬 · ✔ 2026-11-05
+- **B3.29** NeoLightSweep Pro is a static sheen at the box centre, on every box, never animated: width 0.07-0.11 on pills, up to 0.2 on cards; Angle −40, SoftEdge 0.055, Distance 0.0015; Intensity 0.18-0.40 (0.25 on accent fills, 0.3 on light fills; the 0.724 default washes out). Aim its inner Rectangle1 Center at the box. When: C7. ✅ *"I just add it in the box to make the box have a shiny look at the center"* (2026-09-26) · ✔ 2026-11-05
+- **B3.30** NeoGlow: Gain 0.15, MasterBlur 1.5, Depth 4 (quality 3), Screen; on borders and rings only. ✅ 🔁×3 *"always use Neo glow next time I ask for Glow"* (2026-09-26) · ✔ 2026-11-05
+- **B3.31** DropShadow (ResolveFX; image input is `Source`): pills strength 0.5-0.55, distance 0.008, blur 0.3; cards 0.6 / 0.012 / 0.45; big cards up to 0.62 / 0.014 / 0.5; angle 37.5. 🎬 · ✔ 2026-11-05
 
 ### His other macros
 - **B3.32** Opacity: every fade and every dim goes through his Opacity macro (BrightnessContrast "Op", Gain). Inactive elements: Gain 0.42-0.62, Saturation 0-0.64, over 6-8 f. ✅ *"I have an opacity macro node I use instead"* (2026-09-26)
