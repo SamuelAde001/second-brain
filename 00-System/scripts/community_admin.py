@@ -102,6 +102,9 @@ LAYOUT = [
     ]),
     ("LIVE", [
         ("weekly-live", STAGE, "rw", None),
+        # 2026-11-05: Discord makes members pass its age check (k-ID: card, video selfie, ID, AgeKey) to speak
+        # on a Stage. Not a server setting. Q&A runs in this plain voice channel instead.
+        ("live-call", VOICE, "rw", None),
         # Samuel, 2026-10-28: "a channel that is for the recordings links, the topic of that session and a summary"
         ("call-recordings", TEXT, "ro", "Every recorded live call: the link, what it covered and a summary. Missed a call? Start here."),
     ]),
@@ -234,7 +237,7 @@ def cmd_invite_url():
 ICONS = {
     "start-here": "🧭", "announcements": "📢", "welcome": "👋", "general-chat": "💬", "wins": "🏆", "showcase": "🎬",
     "accountability": "✅", "ask-editors-bot": "🤖", "feedback": "🎞️", "resources": "📚",
-    "opportunities": "💼", "help": "🆘", "weekly-live": "🎙️", "call-recordings": "📼", "payments-log": "💳", "mod-log": "🛡️",
+    "opportunities": "💼", "help": "🆘", "weekly-live": "🎙️", "live-call": "🔊", "call-recordings": "📼", "payments-log": "💳", "mod-log": "🛡️",
     "subscription-expired": "🔒", "team-chat": "🗨️", "team-call": "📞", "lounge": "☕", "work-gist": "🗣️", "edit-showcase": "🖥️",
     "capcut": "✂️", "davinci-resolve": "🎛️", "premiere-pro": "🟪", "outreach": "📨", "pricing-and-clients": "💰",
     "personal-brand": "🌟", "profile-and-portfolio": "🪪", "share-your-posts": "🔗", "editing-craft": "🪄",
