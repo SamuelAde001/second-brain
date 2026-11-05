@@ -32,6 +32,17 @@ Samuel, same day: *"you focused on mostly nigerian works, I need works online th
 | R3 | **Podcast backlog project**: 150–250 clips from a big podcast's archive, delivered over 6–8 weeks | **USD 5,000–10,000**. Agency retainers for 60+ clips a month run USD 3,000–8,000 ([ClipSpeed](https://www.clipspeed.ai/blog/how-to-price-clipping-services.html)) | Volume work. Needs his trained editors from the Community as helpers |
 | R4 | **Brand motion-graphics kit** (titles, lower thirds, lists, callouts as a Resolve / Fusion template library) | Gig prices start at USD 250 ([JayAreTV](https://jayaretv.com/custom-davinci-resolve-templates/)); **only an add-on to R1 or R2**, about USD 1,500–3,000 | He built the 27-template Frontal library. That kit is the client's brand and can't be resold. The skill can |
 
+### R5. Sell the AI editing system itself (Samuel's idea, 2026-11-05)
+Samuel: *"What if I can sell an AI angentic system for long form videos ... customised to their brand and their style ... running on their system on their own claude code, I won't do the editing"* · *"they pay me a huge sum ... and they only need $200 a month to use it"* · asked if USD 10,000 is right.
+
+General Manager's read (suggestion, not decided):
+- **Buildable: yes, and most of it exists**: phase-1 cut, transcript, visual plan, Fusion builds from a library, captures, checks, render queue, 30+ pipeline scripts. **Not built:** making it work for another brand (style study → their rulebook and kit), an installer for their machine, unattended reliability.
+- **Three claims his own record doesn't support yet:** *perfect every time* (Gamma v4 rejected 2026-11-01, video 2's look rejected 2026-10-21, a 155-line review card of corrections); *they only record* (every video passes Samuel's preview gate and review); *USD 200 a month* (video 4 cost ~60-65 % of a Max 20x week, so about 6 videos a month at most, with nothing else run on the account).
+- **Better buyer:** editing agencies, and B2B companies that have an in-house editor or content lead who runs it and approves the preview. Not solo creators who want zero involvement.
+- **Better promise:** "a custom AI edit engine in your style: 80-90 % of the edit done, you approve at a preview gate, X videos a month on one Max plan", measured, not "perfect".
+- **Package (suggested):** paid style study (USD 1,500, credited) → build and install → 3 pilot videos against their bar → 60 days support → optional maintenance USD 500-1,000 a month. Total build ~USD 10,000, 50/30/20 by milestone, refund of the build stage if the pilot misses the agreed bar.
+- **Before selling:** strip every client asset (Frontal kit, Route Rise comps); check Route Rise terms; run it on a non-client channel first and publish the numbers (human minutes per video, revisions, % of a weekly limit).
+
 **Best bet: R1.** It's the same work he's already rated "most reliable editor" for, sold to the end buyer instead of through an agency.
 
 **Rules for the remote track:**
