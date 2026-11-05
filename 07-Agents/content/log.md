@@ -270,3 +270,4 @@ Back to [[07-Agents/content/profile|Profile]]
 
 - 2026-11-05: Stage speak problem traced to Discord age assurance (k-ID), not server permissions. Made voice channel live-call in LIVE for Q&A; added to community_admin.py LAYOUT. Note: Python here cannot see AppData\Roaming
 pm (packaged install), so community_admin netlify commands fail from this shell.
+- 2026-11-05 · Brand manager · call-once one-off calls built (call-reminder, whatsapp-post, /call); Fri 2026-11-06 8pm beginners class set, event made, TickTick task; Sun/Wed events and bot live channel moved to live-call; env pushed, prod deploy x2.

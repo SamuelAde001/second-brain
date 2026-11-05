@@ -5,6 +5,7 @@ This script reads them and never prints them. No agent opens that file (AGENTS.m
 
   python community_admin.py invite-url      link that adds the bot to the server
   python community_admin.py build           roles, channels, permissions, AutoMod, Community mode (safe to re-run)
+  python community_admin.py call-once YYYY-MM-DD HH:MM label   one extra call (reminder, WhatsApp line, /call)
   python community_admin.py post-texts      post or update the pinned texts from the Brain note, upload the workbook
   python community_admin.py tutorials       post or update the starter tutorial picks in each #resources post
   python community_admin.py push-env        put the keys and the server config on the Netlify site
@@ -136,7 +137,7 @@ CONFIG_KEYS = {  # channel name -> keys the site's functions use
     "welcome": ["welcome"], "start-here": ["startHere", "rules"], "announcements": ["announcements"],
     "general-chat": ["general", "nugget"], "wins": ["wins", "leaderboard"], "accountability": ["checkin"],
     "ask-editors-bot": ["askBot"], "feedback": ["feedback"], "resources": ["resources"],
-    "opportunities": ["opportunities"], "help": ["help"], "weekly-live": ["live"], "call-recordings": ["recordings"],
+    "opportunities": ["opportunities"], "help": ["help"], "live-call": ["live"], "call-recordings": ["recordings"],
     "payments-log": ["payments"], "mod-log": ["modLog"], "subscription-expired": ["expired"],
 }
 SCAM_WORDS = ["*free nitro*", "*discord.gift*", "*nitro for free*", "*steamcommunity*", "*crypto signal*",
@@ -723,6 +724,22 @@ def cmd_call(day_names, hhmm, *label):
     save_cfg(c)
     print("Call saved:", c["call"]["text"], "- now push-env and deploy.")
 
+
+def cmd_call_once(date, hhmm, *label):
+    """A one-off call on top of the weekly ones, e.g.: call-once 2026-11-06 20:00 Beginners class.
+    Reminder an hour before, a line in that day's WhatsApp post, listed by /call. Past ones are dropped. Then push-env + deploy."""
+    import datetime as dt
+    c = load_cfg()
+    day = dt.date.fromisoformat(date)
+    h, m = (int(x) for x in hhmm.split(":"))
+    text = f"{DAYS[(day.weekday() + 1) % 7].capitalize()} {day.day} {day.strftime('%b')}, {((h - 1) % 12) + 1}:{m:02d}{'am' if h < 12 else 'pm'} WAT"
+    today = dt.date.today().isoformat()
+    once = [o for o in c["call"].get("once", []) if o["date"] >= today and o["date"] != date]
+    once.append({"date": date, "hour": h, "minute": m, "label": " ".join(label) or "Extra live call", "text": text})
+    c["call"]["once"] = sorted(once, key=lambda o: (o["date"], o["hour"], o["minute"]))
+    save_cfg(c)
+    print("One-off call saved:", once[-1]["label"], "-", text, "- now push-env and deploy.")
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     a = sys.argv[1:]
@@ -737,6 +754,8 @@ if __name__ == "__main__":
         cmd_welcome(" ".join(a[1:]))
     elif a[:1] == ["call"] and len(a) > 2:
         cmd_call(*a[1:])
+    elif a[:1] == ["call-once"] and len(a) > 2:
+        cmd_call_once(*a[1:])
     elif a[:1] == ["say"] and len(a) > 2:
         cmd_say(a[1], " ".join(a[2:]))
     else:
