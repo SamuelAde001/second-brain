@@ -19,7 +19,29 @@ Samuel, 2026-11-05: *"is there any thing I can offer to someone, a business or a
 - That works out to about **21–42 Route Rise videos** at USD 333.33. It's about 7–14 times the biggest single invoice in the Brain (Mshel, NGN 1,397,500, unexplained, [[03-Areas/video-editing/video-editing|video editing]]).
 - Deals of this size go to a **registered business** that can show it has already **delivered something of the same size**. The deal isn't the first step. Getting him ready to be that seller is.
 
-## The options, best fit first
+## Remote, from home, international clients (added 2026-11-05)
+
+Samuel, same day: *"you focused on mostly nigerian works, I need works online that I can do from home easily for someone"*. **These lead now.** The Nigerian options below are kept as a second track.
+
+**The key fact:** Route Rise pays USD 333.33 a video. Agencies selling the same kind of work straight to SaaS companies list **USD 5,000 a month for 2 long-form + 8–10 shorts**, USD 9,500 for 4 + 16–20, and USD 16,000 for 8 + 30–40 ([Video Editing Company](https://videoeditingcompany.com/youtube-video-editing-cost/)). B2B work with motion graphics is quoted at USD 1,000–5,000 a video ([increditors](https://increditors.com/youtube-video-editing-cost-per-video-full-breakdown-2026/)). Done-for-you YouTube packages run USD 5,000–10,000 a month for 4–8 videos ([overseeros](https://www.overseeros.com/blog/youtube-agency-pricing-guide)). These are vendor pages, so read them as rough ranges. Even so, the agency is keeping most of the gap between their prices and his rate.
+
+| # | Offer | Price for the whole thing (estimate) | His proof |
+|---|---|---|---|
+| R1 | **A YouTube "season" for a B2B / SaaS / AI founder**: 12 long-form videos + 24–36 shorts over about 3 months, edited, with motion graphics and a brand graphics kit. Sold as one contract, 50 % upfront | **USD 9,000–14,000** (≈ NGN 12.5M–20M) | Exactly what he does for Frontal and Gamma |
+| R2 | **A whole online course, produced remotely**: the client records, he edits 30–60 lessons + screen recordings + trailer + launch clips | **USD 6,000–12,000** for a coach, SaaS academy or info-business | Gamma tutorials, screen-demo style |
+| R3 | **Podcast backlog project**: 150–250 clips from a big podcast's archive, delivered over 6–8 weeks | **USD 5,000–10,000**. Agency retainers for 60+ clips a month run USD 3,000–8,000 ([ClipSpeed](https://www.clipspeed.ai/blog/how-to-price-clipping-services.html)) | Volume work. Needs his trained editors from the Community as helpers |
+| R4 | **Brand motion-graphics kit** (titles, lower thirds, lists, callouts as a Resolve / Fusion template library) | Gig prices start at USD 250 ([JayAreTV](https://jayaretv.com/custom-davinci-resolve-templates/)); **only an add-on to R1 or R2**, about USD 1,500–3,000 | He built the 27-template Frontal library. That kit is the client's brand and can't be resold. The skill can |
+
+**Best bet: R1.** It's the same work he's already rated "most reliable editor" for, sold to the end buyer instead of through an agency.
+
+**Rules for the remote track:**
+- **Don't approach Route Rise's clients** (Alex / Frontal, Gamma), and check what his Route Rise terms say about non-solicitation. Losing the only payer to chase one deal is the worst outcome.
+- **"One payment" will usually be two:** 50 % at signing and 50 % on delivery, by milestone. That's normal, and it protects him too.
+- **Capacity:** R1 is about 4 long-form videos a month on top of Route Rise. On Max 20x, plan on about 2 videos a week ([[claude-max-20x-weekly-limits]]). So during the season he needs lighter Route Rise volume, a helper editor, or a timeline of 4 months instead of 3.
+- **Where buyers are:** SaaS and AI founders already posting on YouTube and LinkedIn, Contra, Upwork (Expert-Vetted tier), X. Pitch with a spec edit of their own video or a 3-minute Loom teardown, not a portfolio link.
+- **Getting paid:** his Cleva USD account (already in use). Platforms pay out through their own methods.
+
+## The options, best fit first (Nigerian track)
 
 ### 1. Sell the Academy as a training contract (B2B or B2G)
 - **What:** a Called to Edit cohort on content creation and video editing (CapCut, then DaVinci Resolve), with a portfolio at the end. It's sold to a funder or programme that pays for the trainees.
@@ -59,7 +81,8 @@ He ruled out more clients because one client's workload is already high ([[incom
 5. **A proof project** at NGN 1–3M first, so the 10M pitch has a precedent.
 
 ## needs-input
-- Which option Samuel wants to chase (open question).
+- Which option Samuel wants to chase (open question). Remote track leads (Samuel, 2026-11-05).
+- What his Route Rise terms say about working directly with other clients.
 - Whether Called to Edit is registered with CAC.
 - Whether he knows anyone at an iDICE implementer, an NGO, or a campaign.
 - Whether Route Rise allows its videos in his showreel.
