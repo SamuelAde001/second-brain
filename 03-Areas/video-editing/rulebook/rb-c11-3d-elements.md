@@ -16,7 +16,7 @@ section: C11
 ## Rules
 ### When to use 3D
 - **C11.1** Use 3D where it earns it: laptops, hero objects, logo rings, the tier pyramid. Everything else stays flat. ✅ *"making things look 3D when needed"* (2026-10-20)
-- **C11.2** No tilted or rotated flat cards. ✅ *"I don't like the rotation"* (2026-09-30) · 🎬 no 3D tilt in the Apollo graphics → Q-C11.a
+- **C11.2** No tilted or rotated flat cards, except a slight side angle on a hero card row (Q-C11.a, 2026-11-05). ✅ *"I don't like the rotation"* (2026-09-30) · ✏ 2026-11-05
 - **C11.3** Real 3D, not faked: real meshes (the FBX laptop, an FBX tier pyramid), Extrude3D shapes and real lights; never painted shading or faked perspective. ✅ *"let's create the box with shape 3D and the light and the extrude, not making sides"* (2026-08-14)
 - **C11.4** Hero objects get depth: a NeoReflection floor reflection under them, perspective. Glossy 3D tiles with a reflection are approved vocabulary. 🎬 (TSB) · ✅ (gallery C04, 2026-09-30)
 
@@ -36,11 +36,12 @@ section: C11
 
 ### The rig
 - **C11.15** Standard rig: ImagePlane3D + Camera3D + AmbientLight + 2 DirectionalLight + 2 SpotLight → Merge3D, two Renderer3D outputs (the object, and one through Opacity → GaussianBlur for a real floor reflection). 🎬 (7M)
-- **C11.16** A static hero reflection mirrors the geometry (Merge3D under a Transform3D at Scale Y −1, one render pass). The camera-mirror method only for moving cameras (it costs a second Renderer3D every frame). 💡
+- **C11.16** A static hero reflection mirrors the geometry (Merge3D under a Transform3D at Scale Y −1, one render pass). The camera-mirror method only for moving cameras (it costs a second Renderer3D every frame). 💡 · ✔ 2026-11-05
+- **C11.21** Phone mockups and 3D camera moves are allowed. Give them the time to look real: real models, real lighting and reflections, eased camera paths, checked frame by frame before he sees them. ✅ *"Yes we can have phones and 3D camera moves, but make sure you take your time and do it well, looking realistic"* (2026-11-05) · ✔ 2026-11-05
 - **C11.17** Shape3D torus line thickness = `SurfaceTorusInputs.Section`. ⚙️ Rig recipes in full: [[03-Areas/video-editing/fusion-recipes|Fusion recipes]] and [[03-Areas/video-editing/fusion-node-system|Fusion node system]] (Recipe 8).
 
 ## Never
-- **C11.18** Flat cards tilted or rotated to fake depth. ❌ (2026-09-30)
+- **C11.18** Flat cards tilted or rotated to fake depth. (a slight angle on a hero card row is allowed, C11.2) ❌ (2026-09-30)
 - **C11.19** A laptop that reads as 2D, or a screen that overhangs the lid or leaves a gap. ❌ (2026-10-15, 2026-10-16)
 - **C11.20** UI covering the whole laptop before the push-in. ❌ *"you are covering the whole laptop, I want to see the linkedin animation on the laptop"* (2026-10-15)
 
@@ -48,9 +49,9 @@ section: C11
 - (no picture yet: the approved LinkedIn intro laptop after the 2026-10-16 fix, beside his TSB laptop frame)
 
 ## Questions for Samuel
-- **Q-C11.a** The creative director likes a slight side angle on cards (2026-10-22); you said "I don't like the rotation" (2026-09-30). → Options: (1) flat cards always. (2) A slight angle allowed on hero card rows only. My pick: (1) until you say otherwise.
+- **Q-C11.a** The creative director likes a slight side angle on cards (2026-10-22); you said "I don't like the rotation" (2026-09-30). → Options: (1) flat cards always. (2) A slight angle allowed on hero card rows only. My pick: (1) until you say otherwise. → Samuel: (2), a slight angle on hero card rows only (2026-11-05). C11.2 updated.
 - **Q-C11.b** Ring spin. On 2026-09-26 you said you animate it yourself. Agents now deliver finished visuals. → Options: (1) agents animate it like your AI4 hook (steady spin, gradual tilt) and flag it for you. (2) Agents set up only. My pick: (1).
-- **Q-C11.c** Phones and 3D cameras: no source has a rule yet. What do you want for a phone mockup or a 3D camera move?
+- **Q-C11.c** Phones and 3D cameras: no source has a rule yet. What do you want for a phone mockup or a 3D camera move? → Samuel: phones and 3D camera moves are allowed; take the time to do them well and realistic. *"Yes we can have phones and 3D camera moves, but make sure you take your time and do it well, looking realistic"* (2026-11-05) New C11.21.
 
 ## Sources
 Draws on and replaces the 3D rules in [[03-Areas/video-editing/ways-of-working|Ways of working]], [[03-Areas/video-editing/visual-vocabulary|Visual vocabulary]], [[03-Areas/video-editing/fusion-recipes|Fusion recipes]], [[03-Areas/video-editing/fusion-node-system|Fusion node system]], [[03-Areas/video-editing/edit-grammar/edit-grammar-tsb|Edit grammar TSB]] and [[03-Areas/video-editing/edit-grammar/edit-grammar-ai4|Edit grammar AI4]], plus his LinkedIn intro markers.

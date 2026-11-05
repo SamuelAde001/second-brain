@@ -127,5 +127,12 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · Q-C5.a · red treatment only on a stated negative. C5.31 ✔.
 - 2026-11-05 · C6.34 · new: the dark shade behind text depends on context (lower third vs big centre text), never extremely dark. Q-C6.b · outside the spot 0.45 ±0.05.
 - 2026-11-05 · K2.12 C3.20 C5.31 · ✔ approved.
+- 2026-11-05 · Q-C7.a · moving shine only on the section's hero box or payoff number, one per section. Q-C7.b, C7.21 · ✏ depth blur allowed, subtle.
+- 2026-11-05 · Q-C8.a, C8.50 · ✏ nothing on a screen recording except a step number or major numbering. Q-C8.b · no speaker in UI demos. Q-C8.d · logo and name only.
+- 2026-11-05 · C8.55 · new: tool logo in the corner of tool B-roll. *"tool logos would be nice in the corner"*
+- 2026-11-05 · Q-C9.a, C9.29 · ✏ reuse B-roll when it's the same thing spoken about. Q-C9.b, C9.32 · ✏ vertical clips tripled. Q-C9.c · meaning grades on negative lines.
+- 2026-11-05 · Q-C10.a · red X allowed, premium, not AI-looking (C5.34 reworded). Q-C10.b · settled by Q-C3.a.
+- 2026-11-05 · Q-C11.a, C11.2 · ✏ slight angle on hero card rows only. C11.21 · new: phones and 3D camera moves, done realistic. *"Yes we can have phones and 3D camera moves, but make sure you take your time and do it well, looking realistic"*
+- 2026-11-05 · C9.33 C11.16 · ✔ approved.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

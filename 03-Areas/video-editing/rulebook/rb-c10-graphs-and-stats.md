@@ -61,8 +61,8 @@ section: C10
 - ![[_attachments/rulebook/c10-10-80-10-crosscheck.jpg|360]] ✅/❌ top: final 10-80-10 bar (video 4); bottom: his B2B 10-80-10 bar and 8-of-10 deals (approved final), and the rejected three-box row
 
 ## Questions for Samuel
-- **Q-C10.a** Wrong claim vs true claim. The creative director marks the wrong one with a red X (2026-10-22); you banned red strike lines (2026-10-25). → Options: (1) a red X mark is allowed, it is not a strike. (2) No mark: the wrong claim just turns red, the right one is in the accent. My pick: (2).
-- **Q-C10.b** Stats beside the speaker in a glass panel or only as small bottom pills: same question as [[03-Areas/video-editing/rulebook/rb-c3-elements|Q-C3.a]].
+- **Q-C10.a** Wrong claim vs true claim. The creative director marks the wrong one with a red X (2026-10-22); you banned red strike lines (2026-10-25). → Options: (1) a red X mark is allowed, it is not a strike. (2) No mark: the wrong claim just turns red, the right one is in the accent. My pick: (2). → Samuel: (1), a red X on the wrong claim is allowed, animated premium, never AI-looking. *"it must look premium and not Ai looking animation"* (2026-11-05) C5.34 updated to match.
+- **Q-C10.b** Stats beside the speaker in a glass panel or only as small bottom pills: same question as [[03-Areas/video-editing/rulebook/rb-c3-elements|Q-C3.a]]. → Samuel: settled by Q-C3.a: a short glass panel beside him is fine for a real stat device; don't overuse one style (2026-11-05).
 
 ## Sources
 Draws on and replaces the chart and stat rules in [[03-Areas/video-editing/ways-of-working|Ways of working]], [[03-Areas/video-editing/sops/visual-sheet-pipeline|Visual sheet pipeline]], [[03-Areas/video-editing/edit-grammar/edit-grammar-tsb|Edit grammar TSB]], [[03-Areas/video-editing/edit-grammar/edit-grammar-apollo|Edit grammar Apollo]], [[03-Areas/video-editing/edit-grammar/edit-grammar-ai4|Edit grammar AI4]] and [[03-Areas/video-editing/creative-director/creative-director-standard|Creative director standard]], plus his video 2 markers.

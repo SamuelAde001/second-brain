@@ -60,7 +60,7 @@ section: C5
 - **C5.33** Kill gradient banding with a light FastNoise overlay (3-5 %) or grain, or float16 on the ground macro. ⚙️
 
 ## Never
-- **C5.34** A red strike or cancel line through something. What failed turns red; what is stuck turns grey. ❌ (2026-10-25; replaces the BAD FIT strike-through shipped in Apollo, 2026-10-03)
+- **C5.34** A red strike or cancel line through something. What failed turns red; what is stuck turns grey. ❌ (2026-10-25; replaces the BAD FIT strike-through shipped in Apollo, 2026-10-03) A red X mark on a wrong claim is not a strike and is allowed (Q-C10.a, 2026-11-05; still for his review in C5).
 - **C5.35** Green and red all over a video. ❌ (2026-10-23)
 - **C5.36** A brown or orange backdrop under text. ❌ *"I hate the orange backdrop you added to this kind of text"* (2026-10-15)
 - **C5.37** Changing the ground for a beat (grey, cream, full accent, flat colour). ❌ (2026-09-30)

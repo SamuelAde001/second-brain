@@ -9,66 +9,16 @@ tags: [rulebook, review]
 
 # Rulebook open issues
 
-Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **46 questions** and **12 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
+Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **33 questions** and **10 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
 
-**The other 1001 waiting rules** come from your own words or your finals. Once these issues are answered, say *approve the rest* and they all get ✔ in one go; anything you correct later comes in as a revision and is written back.
+**The other 996 waiting rules** come from your own words or your finals. Once these issues are answered, say *approve the rest* and they all get ✔ in one go; anything you correct later comes in as a revision and is written back.
 
 **How to answer:** in chat, e.g. `Q-K3.a 1`, `C2.14 drop`, `rest yes`, or type after **Answer:** here in Obsidian.
-
-## [[03-Areas/video-editing/rulebook/rb-c7-blurs-glows-shines|C7 · Blurs, glows, shines]]
-
-**Questions**
-- **Q-C7.a** Which moments are "major occasions" for a moving shine? → Options: (1) the section's hero box or payoff number only, at most one per section (2) you mark them in the plan (3) never unless you ask. My pick: (1), flagged in the visual plan for your yes.
-  - **Answer:** 
-- **Q-C7.b** "Blur only what hides something" (Editor's reading of your 2026-10-25 markers) vs your Apollo final and the CD (2026-10-22), which blur the rest of a busy page or UI so the lit part stands out. → Options: (1) depth blur of the surround stays allowed; your 2026-10-25 markers were only about hiding made-up names (2) no blur except to hide. My pick: (1).
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c8-screens-and-ui|C8 · Screen recordings, demos, screenshots, UI, articles, websites]]
-
-**Questions**
-- **Q-C8.a** Can anything sit over a screen recording? For: *"you can add numbers on the screen above the visual"* (2026-10-15); small stats as pills at the bottom of a page (2026-10-25); boxes over a scrolling website (2026-09-27). Against: *"never put text on a screen record"* (2026-10-21), *"Since when did we start putting motion graphics on screen recording visuals"* (2026-11-01). → Options: (1) nothing ever sits on a live screen recording; numbers and boxes get their own motion-graphic beat, where a darkened website may be the background; (2) one number or bottom pill over a darkened page, only on the word he says. My pick: (1).
-  - **Answer:** 
-- **Q-C8.b** Speaker during demos: *"Remove his video from the screen"* (2026-10-02) vs the creative director's small corner cam (2026-10-22) and the $7M final (screen + PIP). → Options: (1) never in Route Rise UI demos; (2) small corner cam on demos longer than about 10 s. My pick: (1).
-  - **Answer:** 
-- **Q-C8.c** The creative director puts the tool's logo in the corner of every tool shot (2026-10-22). You never ruled on it, and you ban text at the top of captures. → Options: (1) no corner logo; (2) corner logo on tool B-roll only. My pick: (1) until you say.
-  - **Answer:** 
-- **Q-C8.d** Company intro = logo and name only (2026-10-24). Does that also retire the AI4 brand beat (real homepage blurred under logo and tagline, 2026-10-07 final)? → My pick: yes, logo and name only, unless the website itself is the point.
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c9-b-roll|C9 · B-roll]]
-
-**Questions**
-- **Q-C9.a** Reusing old B-roll: *"Use the same AI B-roll we used in the last video for this"* (2026-10-25) vs *"Remove this completely, this whole part of another video visuals"* (2026-10-15). My reading: reuse is fine when it fits the line exactly; you removed visuals whose content belonged to another video. → Options: (1) reuse only where you point to it or it fits the line exactly; (2) reuse freely. My pick: (1).
-  - **Answer:** 
-- **Q-C9.b** Vertical clips: your Apollo final centres them with dark blurred sides; the creative director triples them (outer copies darker and blurred). → Options: (1) centred with blurred sides; (2) tripled. My pick: (1), it is in your final.
-  - **Answer:** 
-- **Q-C9.c** The creative director grades B-roll to carry meaning (grey for dead or quiet, red corners for bad, 2026-10-22). You never ruled on it. → Options: (1) use it on negative lines; (2) not for Route Rise. My pick: (1), on the negative lines only, with colours from C5.
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **C9.33** Repeated B-roll is shown differently the second time (e.g. as a polaroid). 🏢 Shots used as a pair must match (not day next to night). 💡
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c10-graphs-and-stats|C10 · Graphs and stats]]
-
-**Questions**
-- **Q-C10.a** Wrong claim vs true claim. The creative director marks the wrong one with a red X (2026-10-22); you banned red strike lines (2026-10-25). → Options: (1) a red X mark is allowed, it is not a strike. (2) No mark: the wrong claim just turns red, the right one is in the accent. My pick: (2).
-  - **Answer:** 
-- **Q-C10.b** Stats beside the speaker in a glass panel or only as small bottom pills: same question as [[03-Areas/video-editing/rulebook/rb-c3-elements|Q-C3.a]].
-  - **Answer:** 
 
 ## [[03-Areas/video-editing/rulebook/rb-c11-3d-elements|C11 · 3D elements]]
 
 **Questions**
-- **Q-C11.a** The creative director likes a slight side angle on cards (2026-10-22); you said "I don't like the rotation" (2026-09-30). → Options: (1) flat cards always. (2) A slight angle allowed on hero card rows only. My pick: (1) until you say otherwise.
-  - **Answer:** 
 - **Q-C11.b** Ring spin. On 2026-09-26 you said you animate it yourself. Agents now deliver finished visuals. → Options: (1) agents animate it like your AI4 hook (steady spin, gradual tilt) and flag it for you. (2) Agents set up only. My pick: (1).
-  - **Answer:** 
-- **Q-C11.c** Phones and 3D cameras: no source has a rule yet. What do you want for a phone mockup or a 3D camera move?
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **C11.16** A static hero reflection mirrors the geometry (Merge3D under a Transform3D at Scale Y −1, one render pass). The camera-mirror method only for moving cameras (it costs a second Renderer3D every frame). 💡
   - **Answer:** 
 
 ## [[03-Areas/video-editing/rulebook/rb-c12-section-cards|C12 · Section cards and chapter markers]]

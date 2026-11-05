@@ -49,13 +49,13 @@ section: C9
 - **C9.26** Pick in-points where hands or garbled screens don't break the shot; flag AI artefacts (e.g. a bad last second) to Samuel. ⚙️
 - **C9.27** Where a screen in AI B-roll must be readable, cut while it is still clean to a full-screen rebuild of the app (C8). Never corner-pin onto a screen that turns to garbled text. ⚙️
 - **C9.28** Flow clips are 24 fps: place them on the timeline (the raws' rate, A2.4) with the source frame checked. ⚙️
-- **C9.29** Reuse the AI B-roll from the last video where it fits the line. ✅ *"Use the same AI B-roll we used in the last video for this"* (2026-10-25) (see Q-C9.a)
+- **C9.29** Reuse B-roll from a past video when the line speaks about the same thing; never carry over visuals that belong to another video's subject. ✅ *"Reuse when it's the same thing spoken about"* (2026-11-05); *"Use the same AI B-roll we used in the last video for this"* (2026-10-25) · ✏ 2026-11-05
 
 ### Placement and treatment
 - **C9.30** B-roll animates in only and cuts out hard. 🎬
 - **C9.31** No fast zooms on B-roll (zoom rules: B5). ✅ *"It had a lot of fast-paced zooms, especially in the B-rolls"* (2026-10-24)
-- **C9.32** Vertical phone footage sits centred with dark blurred sides, never black bars. 🎬 (see Q-C9.b)
-- **C9.33** Repeated B-roll is shown differently the second time (e.g. as a polaroid). 🏢 Shots used as a pair must match (not day next to night). 💡
+- **C9.32** Vertical phone footage is tripled: the clip in the centre, darker blurred copies on either side. Never black bars (Q-C9.b, 2026-11-05). ✅ · ✏ 2026-11-05
+- **C9.33** Repeated B-roll is shown differently the second time (e.g. as a polaroid). 🏢 Shots used as a pair must match (not day next to night). 💡 · ✔ 2026-11-05
 - **C9.34** A real YouTube clip: mute its own audio unless it is meant to be heard (C9.12); a CC BY clip gets a credit line. ⚙️
 - **C9.35** AR screen on speaker B-roll (tracked translucent UI plane, hands kept in front): in his AI4 final. Node recipe in [[03-Areas/video-editing/fusion-recipes|Fusion recipes]]. 🎬
 
@@ -69,9 +69,9 @@ section: C9
 - (no picture yet: an approved Flow metaphor clip, e.g. the fuel-on-fire B-roll from video 2, next to the rejected abstract glow; the one Flow take on file, video 4 FLOW-HK-01, has no verdict)
 
 ## Questions for Samuel
-- **Q-C9.a** Reusing old B-roll: *"Use the same AI B-roll we used in the last video for this"* (2026-10-25) vs *"Remove this completely, this whole part of another video visuals"* (2026-10-15). My reading: reuse is fine when it fits the line exactly; you removed visuals whose content belonged to another video. → Options: (1) reuse only where you point to it or it fits the line exactly; (2) reuse freely. My pick: (1).
-- **Q-C9.b** Vertical clips: your Apollo final centres them with dark blurred sides; the creative director triples them (outer copies darker and blurred). → Options: (1) centred with blurred sides; (2) tripled. My pick: (1), it is in your final.
-- **Q-C9.c** The creative director grades B-roll to carry meaning (grey for dead or quiet, red corners for bad, 2026-10-22). You never ruled on it. → Options: (1) use it on negative lines; (2) not for Route Rise. My pick: (1), on the negative lines only, with colours from C5.
+- **Q-C9.a** Reusing old B-roll: *"Use the same AI B-roll we used in the last video for this"* (2026-10-25) vs *"Remove this completely, this whole part of another video visuals"* (2026-10-15). My reading: reuse is fine when it fits the line exactly; you removed visuals whose content belonged to another video. → Options: (1) reuse only where you point to it or it fits the line exactly; (2) reuse freely. My pick: (1). → Samuel: reuse when it's the same thing spoken about. *"Reuse when it's the same thing spoken about"* (2026-11-05) C9.29 updated.
+- **Q-C9.b** Vertical clips: your Apollo final centres them with dark blurred sides; the creative director triples them (outer copies darker and blurred). → Options: (1) centred with blurred sides; (2) tripled. My pick: (1), it is in your final. → Samuel: (2), tripled (2026-11-05). C9.32 updated.
+- **Q-C9.c** The creative director grades B-roll to carry meaning (grey for dead or quiet, red corners for bad, 2026-10-22). You never ruled on it. → Options: (1) use it on negative lines; (2) not for Route Rise. My pick: (1), on the negative lines only, with colours from C5. → Samuel: (1), on negative lines only, colours from C5 (2026-11-05).
 
 ## Sources
 Draws on and replaces the B-roll parts of [[03-Areas/video-editing/ways-of-working|Ways of working]] (§Two kinds, §Revision rules), [[03-Areas/video-editing/routerise-house-style|Route Rise house style]], [[03-Areas/video-editing/visual-vocabulary|Visual vocabulary]], [[03-Areas/video-editing/edit-grammar/edit-grammar|Edit grammar]], [[03-Areas/video-editing/creative-director/creative-director-standard|Creative director standard]], [[04-Projects/routerise-cancel-apollo|Apollo]], [[04-Projects/routerise-ai-b2b-marketing|AI B2B marketing]], [[04-Projects/routerise-claude-10000-saas|10,000 SaaS (video 2)]].

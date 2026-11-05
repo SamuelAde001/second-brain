@@ -44,7 +44,7 @@ section: C7
 - **C7.18** Soft blur is the ResolveFX Gaussian Blur. ✅ *"always use gausian blur and not normal blur"* (2026-10-15)
 - **C7.19** No UI reads sharp under an overlay card: dim and blur it (GaussianBlur 0.4 + Gain ~0.53). Glass panels refract and blur what's behind. 🎬
 - **C7.20** Pages, recordings and B-roll enter with blur and a short slide through his media adjustment clip (B2). 🎬
-- **C7.21** Keep blurs moderate. ✅ *"The blur is too mych"* (2026-10-25)
+- **C7.21** Keep blurs moderate. A depth blur around the lit part of a busy page or UI is allowed, always subtle (Q-C7.b). ✅ *"The blur is too mych"* (2026-10-25); *"1 but the blur should be subtle"* (2026-11-05) · ✏ 2026-11-05
 
 ## Never
 - **C7.22** Never blur what is being said or highlighted; demo and fake UI stays readable. 🎬 (2026-10-13)
@@ -62,8 +62,8 @@ section: C7
 - (no picture yet: one good single moving shine leaving its box, next to video 2's double shine)
 
 ## Questions for Samuel
-- **Q-C7.a** Which moments are "major occasions" for a moving shine? → Options: (1) the section's hero box or payoff number only, at most one per section (2) you mark them in the plan (3) never unless you ask. My pick: (1), flagged in the visual plan for your yes.
-- **Q-C7.b** "Blur only what hides something" (Editor's reading of your 2026-10-25 markers) vs your Apollo final and the CD (2026-10-22), which blur the rest of a busy page or UI so the lit part stands out. → Options: (1) depth blur of the surround stays allowed; your 2026-10-25 markers were only about hiding made-up names (2) no blur except to hide. My pick: (1).
+- **Q-C7.a** Which moments are "major occasions" for a moving shine? → Options: (1) the section's hero box or payoff number only, at most one per section (2) you mark them in the plan (3) never unless you ask. My pick: (1), flagged in the visual plan for your yes. → Samuel: (1), the section's hero box or payoff number only, at most one per section, flagged in the visual plan (2026-11-05).
+- **Q-C7.b** "Blur only what hides something" (Editor's reading of your 2026-10-25 markers) vs your Apollo final and the CD (2026-10-22), which blur the rest of a busy page or UI so the lit part stands out. → Options: (1) depth blur of the surround stays allowed; your 2026-10-25 markers were only about hiding made-up names (2) no blur except to hide. My pick: (1). → Samuel: (1), depth blur of the surround stays allowed, but subtle. *"1 but the blur should be subtle"* (2026-11-05) C7.21 updated.
 
 ## Sources
 Draws on [[03-Areas/video-editing/ways-of-working|Ways of working]], [[03-Areas/video-editing/samuel-review-card|Samuel's review card]], [[03-Areas/video-editing/creative-director/creative-director-standard|Creative director standard]], [[03-Areas/video-editing/edit-grammar/edit-grammar-shared-rules|Edit grammar shared rules]], [[04-Projects/routerise-claude-10000-saas|Video 2 job]], [[04-Projects/routerise-cold-email-goldrush|Video 4 job]], [[04-Projects/frontal-rebrand-video-kit|Frontal rebrand kit]].
