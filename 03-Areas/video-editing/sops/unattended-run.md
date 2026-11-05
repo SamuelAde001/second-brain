@@ -2,7 +2,7 @@
 type: sop
 area: video-editing
 status: active
-updated: 2026-10-24
+updated: 2026-11-05
 source: interview
 tags: [sop, unattended, overnight, versions]
 ---
@@ -15,7 +15,8 @@ Samuel, 2026-10-13: *"I want to be able to let Claude work from the beginning ti
 
 - **Conductor:** one Claude Code session acting as the Editor, titled `Editor run: <job>`. It never waits on Samuel between steps. It stays small: the heavy work runs in Workflow agents, each with its own fresh context, returning short summaries (counts, paths). It reads only what the current step needs.
 - **Run state:** `Docs\RUN STATE.md` in the job folder. Fields: `status` (running · paused-5h · paused-weekly · blocked · done), `step`, `version`, `updated` (ISO, WAT), `next`. The conductor rewrites it at every step change and before any pause. It is the first thing read on any wake.
-- **RESUME block** in the job's Brain note: the step in progress, the next step, files and timelines touched. Rewritten at every step end and when the context guard fires at 460k. After a compaction the conductor reads it and carries on by itself.
+- **RESUME block** in the job's Brain note: the step in progress, the next step, files and timelines touched. Rewritten at every step end and when the context guard fires at 460k. After a compaction the conductor reads it and carries on by itself. Since 2026-11-05 the context guard reads the session title: in a session titled `Editor run: <job>` it says checkpoint and keep going, never end the session, so the night isn't stopped at a step boundary.
+- **Settings for the night (2026-11-05):** workflow agents capped at 14 at once (`CLAUDE_CODE_WORKFLOW_MAX_CONCURRENT_AGENTS`, project settings), helper prompt cache kept 1 hour instead of 5 minutes (`subagentPromptCacheTtl`), and a phone push when a session waits on Samuel (`inputNeededNotifEnabled`, user settings). Session: Opus 5.5, effort medium, bypass picked before the first message, ultracode off with `ultracode:` at the start of the kick-off message. Bypass still stops on explicit ask rules and the delete guard's ask, so the run avoids those commands.
 - **Watchdog:** the scheduled task `editor-run-watchdog`, hourly. If a session titled `Editor run: <job>` is working, it does nothing. If that session is idle with the run unfinished, it messages it to continue. If there is no such session, the watchdog becomes the conductor (it retitles itself). It only resumes when the usage card has room. When `RUN STATE` says done, it disables itself. To point it at a new job, update its prompt.
 - **Keep-awake** for the whole run (`request_keep_awake`, `session_idle`).
 

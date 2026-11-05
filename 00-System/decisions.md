@@ -431,3 +431,8 @@ Samuel: *"Alright, when you want to use Gmail, Calendar, and Drive, just use my 
 **Decision**: The local copy of the Effort Optimizer mod is patched to v0.1.1: its picker prompt sends simple prompts to `medium` and never offers `low`, and any `low` answer is raised to `medium` in code (`FLOOR` in `hooks/register.tsx`). Reinstalled from `%USERPROFILE%\.claude\local-marketplaces\benai-effort-optimizer\`. If Ben AI ships a new version, the patch has to be reapplied.
 **Why**: Samuel, 2026-10-28: *"Yes, floor at Medium"*, answering the objection in the entry above, which is now resolved.
 **Who decided**: Samuel. The patch is the General Manager's.
+
+## 2026-11-05: Overnight-run fixes (context guard, render-queue lock, workflow cap, helper cache, input push)
+**Decision**: (1) `context_guard.py` tells a session titled `Editor run: <job>` to checkpoint and keep going at 460k instead of ending. (2) `render_queue.py` refreshes its Resolve lock every 60 s. (3) Project settings: `CLAUDE_CODE_WORKFLOW_MAX_CONCURRENT_AGENTS=14` and `subagentPromptCacheTtl: "1h"`. (4) User settings: `inputNeededNotifEnabled: true`.
+**Why**: Samuel asked which one setting lets an edit run all night; the research workflow (wf_73dec6b5-609, two skeptic passes) found ultracode alone doesn't, and named these four gaps. Samuel, 2026-11-05: *"Yes, make them"*. The 14 cap enforces the existing 14-helper rule (model-routing.md, On Max 20x rule 1); 1h cache targets cache thrown away during long Resolve waits. Setting names checked against the installed Claude Code 2.1.288.
+**Who decided**: Samuel. Built by the General Manager.

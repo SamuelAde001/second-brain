@@ -46,6 +46,23 @@ def context_size(path):
     return None
 
 
+def overnight_run(path):
+    """True when the session's latest title starts with "Editor run:" (unattended-run.md)."""
+    title = ""
+    try:
+        with open(path, "rb") as f:
+            for raw in f:
+                if b'"custom-title"' not in raw:
+                    continue
+                try:
+                    title = json.loads(raw.decode("utf-8", "replace")).get("customTitle") or title
+                except ValueError:
+                    pass
+    except OSError:
+        return False
+    return title.strip().lower().startswith("editor run:")
+
+
 def agent_transcript(main_path, agent_id):
     base = os.path.splitext(main_path)[0]
     aid = agent_id[6:] if agent_id.startswith("agent-") else agent_id
@@ -101,11 +118,19 @@ def main():
         if not fired(data.get("session_id", "x"), "checkpoint", ctx):
             return
         k = ctx // 1000
-        msg = (f"Context guard: this session is at {k}k tokens; auto-compact runs at 500k. "
-               "Before the next big step: write the job's RESUME block (done, next step, open "
-               "decisions, Samuel's latest words) into the job note, commit, and tell Samuel the "
-               "session is about to compact. If the current step is finished, end the session "
-               "instead (build-state, commit, push) and name the next step for a fresh session.")
+        if overnight_run(tpath):
+            # Unattended run (session titled "Editor run: <job>", unattended-run.md): nobody is there
+            # to start a fresh session, so checkpoint and keep going; auto-compact carries it on.
+            msg = (f"Context guard: this session is at {k}k tokens; auto-compact runs at 500k. "
+                   "This is an unattended run: write the job's RESUME block and RUN STATE (done, next "
+                   "step, open decisions, Samuel's latest words), commit, then carry on with the next "
+                   "step. Do not end the session; let auto-compact run.")
+        else:
+            msg = (f"Context guard: this session is at {k}k tokens; auto-compact runs at 500k. "
+                   "Before the next big step: write the job's RESUME block (done, next step, open "
+                   "decisions, Samuel's latest words) into the job note, commit, and tell Samuel the "
+                   "session is about to compact. If the current step is finished, end the session "
+                   "instead (build-state, commit, push) and name the next step for a fresh session.")
         out = {"hookSpecificOutput": {"hookEventName": "PostToolUse", "additionalContext": msg},
                "systemMessage": f"Context at {k}k: checkpointing before auto-compact at 500k."}
     print(json.dumps(out))

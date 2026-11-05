@@ -381,8 +381,21 @@ def run(argv):
     stop = threading.Event()
 
     def heartbeat():
+        last_lock = 0
         while not stop.is_set():
             _wjson(Q["alive"], {"pid": os.getpid(), "t": time.time(), "kits": kits})
+            if not fake and time.time() - last_lock >= 60:    # keep a long batch's lock fresh (lab STALE_S = 15 min),
+                last_lock = time.time()                       # same as render_review.py (2026-11-05)
+                try:
+                    info = lab.lock_info()
+                    if info and info.get("owner") == OWNER:
+                        info["time"] = time.time()
+                        tmp = lab.LOCK + ".hb"
+                        with open(tmp, "w", encoding="utf-8") as fh:
+                            json.dump(info, fh)
+                        os.replace(tmp, lab.LOCK)
+                except Exception:
+                    pass
             stop.wait(5)
 
     threading.Thread(target=heartbeat, daemon=True).start()

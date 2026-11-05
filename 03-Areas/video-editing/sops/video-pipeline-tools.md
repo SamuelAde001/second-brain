@@ -95,7 +95,7 @@ Samuel, 2026-10-30: *"I want us to use more scripts for tasks we are sure a scri
 | Before any install or full render | `resolve_guard.py preflight --for install` (or `render`); `clean-chromes --dry-run` first, then without, with `--min-age-min 30` while helpers record | crashes and lost rounds on video 4 |
 
 - `render_chunks.sh` uses the job kit's `final\render_4k.py` and `seam_audio.py`. They are in the master kit's `final\` since 2026-10-30, so a job kit copied from the master has them.
-- **Open (Editor):** the render queue sets its Resolve lock time once per batch and never refreshes it. A batch over 15 minutes looks stale to `lab.py`, which may break it, and `resolve_guard` treats it as a block. `render_review.py` already holds its lock with a heartbeat: do the same in `render_queue.py` before the next job.
+- **Fixed 2026-11-05 (General Manager, Samuel's yes):** the render queue now refreshes its Resolve lock time every 60 s while it holds it, the same heartbeat as `render_review.py`, so a batch over 15 minutes no longer looks stale to `lab.py` or `resolve_guard`. Brain copy and master kit copy updated; tested on a scratch kit.
 - New one-offs a helper writes are promoted at the end-of-job review ([[03-Areas/video-editing/sops/end-of-job-review|end-of-job review]] step 3).
 
 ## Tested on video 2, 2026-10-28
