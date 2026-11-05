@@ -29,7 +29,7 @@ section: C11
 
 ### Rings, holograms, 3D icons
 - **C11.10** Icon rings around the speaker: icons shrunk with a 3D Transform, 10 per ring 36° apart (radius ≈ 0.28), pivots at the ring centre, the second ring on its own axis, Camera3D framing the background with his cutout in the middle, a line per ring in the client's colour with Neo Glow, MagicMask so tiles and title pass behind him. ✅ (2026-09-26) · 🎬 AI4 hook: 20 real app-icon tiles on ImagePlane3D (Scale 0.075), rings drop Y 0.618 → 0.087 over f4-28, group Z-rotation 8 → −8 over 99 f
-- **C11.11** Rings move at a steady speed and tilt gradually around the speaker. Set the rig up; Samuel animates the spin. ✅ *"Don't add the rotate animation, I would do it, just set everything"* (2026-09-26) → Q-C11.b
+- **C11.11** Rings move at a steady speed and tilt gradually around the speaker. The agents animate the spin like his AI4 hook and flag it for him (Q-C11.b, 2026-11-05; replaces *"Don't add the rotate animation, I would do it"*, 2026-09-26). ✅ · ✏ 2026-11-05
 - **C11.12** Hologram: a screenshot in DVE 3D (X 20°, Y 28.2°, Z −8.3°) planar-tracked above his laptop, MagicMask on his hand, Neo Glow, a LumaKeyer screen-light merge. 🎬 (TSB)
 - **C11.13** A 3D icon or box: sRectangle (the vector Shape tool) → Extrude3D (Depth > 0, Bevel Depth > 0, Front Bevel on, Back off, smoothing up) with Phong materials on face and bevel; the logo as its own ImagePlane3D just proud of the face, with cast and receive shadow. ✅ (2026-08-14)
 - **C11.14** Ruled out: Shape3D Cube (no corner rounding); a raster mask into Extrude3D (won't feed). A custom OBJ mesh only if the Extrude3D bevel looks faceted. ⚙️
@@ -50,7 +50,7 @@ section: C11
 
 ## Questions for Samuel
 - **Q-C11.a** The creative director likes a slight side angle on cards (2026-10-22); you said "I don't like the rotation" (2026-09-30). → Options: (1) flat cards always. (2) A slight angle allowed on hero card rows only. My pick: (1) until you say otherwise. → Samuel: (2), a slight angle on hero card rows only (2026-11-05). C11.2 updated.
-- **Q-C11.b** Ring spin. On 2026-09-26 you said you animate it yourself. Agents now deliver finished visuals. → Options: (1) agents animate it like your AI4 hook (steady spin, gradual tilt) and flag it for you. (2) Agents set up only. My pick: (1).
+- **Q-C11.b** Ring spin. On 2026-09-26 you said you animate it yourself. Agents now deliver finished visuals. → Options: (1) agents animate it like your AI4 hook (steady spin, gradual tilt) and flag it for you. (2) Agents set up only. My pick: (1). → Samuel: (1), agents animate it like the AI4 hook and flag it (2026-11-05). C11.11 updated.
 - **Q-C11.c** Phones and 3D cameras: no source has a rule yet. What do you want for a phone mockup or a 3D camera move? → Samuel: phones and 3D camera moves are allowed; take the time to do them well and realistic. *"Yes we can have phones and 3D camera moves, but make sure you take your time and do it well, looking realistic"* (2026-11-05) New C11.21.
 
 ## Sources

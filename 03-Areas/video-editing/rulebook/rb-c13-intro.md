@@ -16,7 +16,7 @@ section: C13
 ## Rules
 ### Who and how
 - **C13.1** The intro is the most important part of the video. Never treat it lightly: well paced, smooth, premium, and every visual makes sense to the viewer. ✅🔁4 *"the intro is the number one most important thing in these videos, so don't joke with the intros"* (2026-10-10); *"I don't expect to repeat myself"* (2026-10-14)
-- **C13.2** Who builds the intro is open (Q-C13.a). Until he answers, follow what he says on the job. Latest practice: the Editor builds it, with his intro adjustment clip, and he reviews it. 💡
+- **C13.2** Who builds the intro is open (Q-C13.a). Until he answers, follow what he says on the job. Latest practice: the Editor builds it, with his intro adjustment clip, and he reviews it. 💡 · ✔ 2026-11-05
 - **C13.3** The hook is built first, with its own planner, in its own session, at the same intensity as the body. ✅🔁2 *"in another session with the same intensity that you gave this one"* (2026-10-08); *"hook first, small builders, in a fresh session"* (2026-10-22)
 - **C13.4** Before planning, study his past intros and the current one (e.g. the hook list by his side with the shine). ✅ *"check what I did in the intro hook part when I listed somethings by his side"* (2026-09-27)
 - **C13.5** The intro carries his standard intro adjustment clip (B2). ✅🔁2 (2026-10-25, 2026-10-28)
@@ -38,7 +38,7 @@ section: C13
 ### "Coming up" (the end of the intro)
 - **C13.16** The intro ends on the "Coming up" preview from Alex's first video: a "COMING UP…" teaser over a blurred, sped-up demo of the tutorial. No circle of the speaker on it. ✅🔁2 *"I want you to do that coming soon kind of visual I did in alexes first video I edited"* (2026-10-24) 🎬 (TSB)
 - **C13.17** A tension riser carries into chapter one. 🎯
-- **C13.18** Every intro device gets time to read: each element lands before its cut. Video 4 Cut v5 failed this ("Coming up" held 3 f, its montage 27 f, list rows landing after the cut). 💡 (see Q-C13.c)
+- **C13.18** Every intro device gets time to read: each element lands before its cut. Video 4 Cut v5 failed this ("Coming up" held 3 f, its montage 27 f, list rows landing after the cut). Everything well timed and paced well. ✅ *"Keep, but make sure everything is well timed and paced well"* (2026-11-05) · ✔ 2026-11-05
 
 ## Never
 - **C13.20** Nothing directly behind the speaker's back: no text or graphics behind his head or body through cut-outs, no giant keyword behind him. ✅ *"don't put anything directly behind his back it's bad"* (2026-10-21) (replaces his 2026-10-20 brief "text behind his back sometimes")
@@ -54,8 +54,8 @@ section: C13
 
 ## Questions for Samuel
 - **Q-C13.a** Who builds the intro? 2026-09-25: *"every intro is Samuel"* (the Editor suggests ideas on the cut sheet, nothing on the timeline before the intro ends). Since then: B2B 2026-10-08 *"I want you to start the intro"*, LinkedIn 2026-10-12 *"You will do the intro"*, your intro corrections on video 2 (2026-10-22/24), Cold Email 2026-10-28 built with your intro adjustment clip. → Options: (1) the Editor builds every intro by default, with your intro adjustment clip, and you review it first; (2) you build every intro, the Editor only suggests unless you say so on that job; (3) the Editor builds a draft on its own track and you decide per job. My pick: (1), it is what every job since 2026-10-08 did. → Samuel: the Editor builds the intro, from his suggested visuals or its own ideas (A6.33, approved 2026-11-04).
-- **Q-C13.b** Hook pace: your finals run about 3.5 s a visual (AI4); your later word is *"a new visual about every second"* (2026-10-28). → Options: (1) about 1 s everywhere in the hook; (2) about 1 s in montages and lists, 2-4 s for scenes that must be read. My pick: (2).
-- **Q-C13.c** When the end of the intro has no room for its devices (video 4 Cut v5): → Options: (1) the Editor proposes opening your cut by 1.5-2 s at named points; (2) drop elements until it fits; (3) both, you pick per job. My pick: (3).
+- **Q-C13.b** Hook pace: your finals run about 3.5 s a visual (AI4); your later word is *"a new visual about every second"* (2026-10-28). → Options: (1) about 1 s everywhere in the hook; (2) about 1 s in montages and lists, 2-4 s for scenes that must be read. My pick: (2). → Samuel: (2), about 1 s in montages and lists, 2-4 s for scenes that must be read (2026-11-05).
+- **Q-C13.c** When the end of the intro has no room for its devices (video 4 Cut v5): → Options: (1) the Editor proposes opening your cut by 1.5-2 s at named points; (2) drop elements until it fits; (3) both, you pick per job. My pick: (3). → Samuel: (3), both: the Editor proposes opening the cut at named points or dropping elements, he picks per job (2026-11-05).
 
 ## Sources
 Draws on and replaces the intro parts of [[03-Areas/video-editing/ways-of-working|Ways of working]] (§The intro is Samuel's), [[03-Areas/video-editing/edit-grammar/edit-grammar|Edit grammar]], [[03-Areas/video-editing/creative-director/creative-director-standard|Creative director standard]], [[04-Projects/routerise-ai-b2b-marketing-intro|B2B intro]], [[04-Projects/routerise-linkedin-training|LinkedIn training]], [[04-Projects/routerise-claude-10000-saas|10,000 SaaS (video 2)]], [[04-Projects/routerise-cold-email-goldrush|Cold Email (video 4)]].

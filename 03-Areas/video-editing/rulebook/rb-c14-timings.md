@@ -23,7 +23,7 @@ section: C14
 ### Each element on its word
 - **C14.5** Each element enters on its own word and is readable 0-3 f after the word starts, never before. The lint allows −1 to +5 f for Whisper error. 🔁 (3+) ✅ *"Animate one thing in at a time, the stick one should come when he said it"* (2026-10-25) 🎬 🎯 (review card P1)
 - **C14.6** One element per word, one after another. No two separate elements enter on the same frame. Lists, logos and companies come in one by one. 🎬 (his finals set NeoAnim / NeoTextMotion InOffset to word frames)
-- **C14.7** Graphics follow speech, never ahead. No label, name or number shows before it is said. 🎯 (CD06 07:10) 💡 (HK-04, 2026-10-22)
+- **C14.7** Graphics follow speech, never ahead. No label, name or number shows before it is said. 🎯 (CD06 07:10) 💡 (HK-04, 2026-10-22) · ✔ 2026-11-05
 - **C14.8** A counter is judged on where the count ends against where the spoken number ends. ⚙️ → C4, C10
 - **C14.9** No effect shows before its element lands (no shine before its turn). 🔁 (2) ✅ *"Why am I seeing the shine on screen before it is animated"* (2026-10-14, 10-24) → C7
 - **C14.10** Switch between A-roll and B-roll exactly on the words he marks. 🔁 (4) ✅ *"Switch back to A-roll here"* / *"Then back to this B-roll"* (2026-10-15)
@@ -61,8 +61,8 @@ section: C14
 - (no picture yet: a filmstrip of one beat with the word frames marked, showing each element landing 0-3 f after its word and the 36 f hold)
 
 ## Questions for Samuel
-- **Q-C14.a** When "on its word" and "1.5 s hold" clash (the word comes too late for a full hold), our method lets the word win and uses C14.19. → Options: (1) the word wins, extend / delay / drop (2) the hold wins, the element may land up to a few frames early. My pick: (1).
-- **Q-C14.b** Shortest A-roll gap. Your finals show none under ~2 s except cut buffers; the Gamma brief (2026-10-31) allowed anything from 6 f. → Options: (1) ~2 s floor (2) 6 f floor. My pick: (1).
+- **Q-C14.a** When "on its word" and "1.5 s hold" clash (the word comes too late for a full hold), our method lets the word win and uses C14.19. → Options: (1) the word wins, extend / delay / drop (2) the hold wins, the element may land up to a few frames early. My pick: (1). → Samuel: (1), the word wins: extend, delay or drop (2026-11-05).
+- **Q-C14.b** Shortest A-roll gap. Your finals show none under ~2 s except cut buffers; the Gamma brief (2026-10-31) allowed anything from 6 f. → Options: (1) ~2 s floor (2) 6 f floor. My pick: (1). → Samuel: (1), about 2 s floor (2026-11-05).
 
 ## Sources
 Draws on [[03-Areas/video-editing/samuel-review-card|Samuel's review card]] (P1, C3, C4), [[03-Areas/video-editing/edit-grammar/edit-grammar|edit grammar]], [[03-Areas/video-editing/creative-director/creative-director-standard|creative director standard]] and [[03-Areas/video-editing/ways-of-working|ways of working]].

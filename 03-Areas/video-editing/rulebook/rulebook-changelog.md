@@ -134,5 +134,12 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-05 · Q-C10.a · red X allowed, premium, not AI-looking (C5.34 reworded). Q-C10.b · settled by Q-C3.a.
 - 2026-11-05 · Q-C11.a, C11.2 · ✏ slight angle on hero card rows only. C11.21 · new: phones and 3D camera moves, done realistic. *"Yes we can have phones and 3D camera moves, but make sure you take your time and do it well, looking realistic"*
 - 2026-11-05 · C9.33 C11.16 · ✔ approved.
+- 2026-11-05 · Q-C11.b, C11.11 · ✏ agents animate the ring spin and flag it.
+- 2026-11-05 · Q-C12.a · slam and pill at chapter changes. Q-C12.b · Frontal full-screen chapter cards out of Route Rise.
+- 2026-11-05 · Q-C13.b · 1 s in montages, 2-4 s for read scenes. Q-C13.c · both options, he picks per job. C13.2 ✔, C13.18 ✔ (well timed and paced). 
+- 2026-11-05 · Q-C14.a · the word wins. Q-C14.b · ~2 s A-roll floor. C14.7 ✔.
+- 2026-11-05 · Q-C15.a · new visual every 5-10 s, change about every 3 s. C15.4 C15.5 ✔.
+- 2026-11-05 · Q-C16.a · settled by Q-K3.b. Q-C16.b · keep the best-editor folder, he may add references. C16.4 ✔.
+- 2026-11-05 · C13.2 C13.18 C14.7 C15.4 C15.5 C16.4 · ✔ approved.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

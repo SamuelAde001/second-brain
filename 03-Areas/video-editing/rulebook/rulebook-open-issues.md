@@ -9,75 +9,11 @@ tags: [rulebook, review]
 
 # Rulebook open issues
 
-Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **33 questions** and **10 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
+Every open issue in the [[03-Areas/video-editing/rulebook/rulebook|rulebook]], in one place (Samuel, 2026-11-05: *"Get me where all the issues are so I answer them and finalise this rule book"*). Made by `rb_issues.py`. **23 questions** and **4 rules that are only my inference** (💡). Gamma (K3) and the other client overlays come first.
 
-**The other 996 waiting rules** come from your own words or your finals. Once these issues are answered, say *approve the rest* and they all get ✔ in one go; anything you correct later comes in as a revision and is written back.
+**The other 995 waiting rules** come from your own words or your finals. Once these issues are answered, say *approve the rest* and they all get ✔ in one go; anything you correct later comes in as a revision and is written back.
 
 **How to answer:** in chat, e.g. `Q-K3.a 1`, `C2.14 drop`, `rest yes`, or type after **Answer:** here in Obsidian.
-
-## [[03-Areas/video-editing/rulebook/rb-c11-3d-elements|C11 · 3D elements]]
-
-**Questions**
-- **Q-C11.b** Ring spin. On 2026-09-26 you said you animate it yourself. Agents now deliver finished visuals. → Options: (1) agents animate it like your AI4 hook (steady spin, gradual tilt) and flag it for you. (2) Agents set up only. My pick: (1).
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c12-section-cards|C12 · Section cards and chapter markers]]
-
-**Questions**
-- **Q-C12.a** Transition at a chapter change. The creative director gives each new chapter a transition (2026-10-22); your TSB final has no transitions and uses the slam instead (2026-10-07); Route Rise bans light-leak transitions. → Options: (1) slam + pill only (2) a gentle directional push into the new chapter, then the pill. My pick: (1), your finals.
-  - **Answer:** 
-- **Q-C12.b** Full-screen chapter cards in the Frontal kit (CH01 centred title, CH02 big number, CH03 sky band, CH05 glass over A-roll) conflict with C12.15. → My pick: keep them out of Route Rise videos; only the pill-style templates stay.
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c13-intro|C13 · Intro specifics]]
-
-**Questions**
-- **Q-C13.b** Hook pace: your finals run about 3.5 s a visual (AI4); your later word is *"a new visual about every second"* (2026-10-28). → Options: (1) about 1 s everywhere in the hook; (2) about 1 s in montages and lists, 2-4 s for scenes that must be read. My pick: (2).
-  - **Answer:** 
-- **Q-C13.c** When the end of the intro has no room for its devices (video 4 Cut v5): → Options: (1) the Editor proposes opening your cut by 1.5-2 s at named points; (2) drop elements until it fits; (3) both, you pick per job. My pick: (3).
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **C13.2** Who builds the intro is open (Q-C13.a). Until he answers, follow what he says on the job. Latest practice: the Editor builds it, with his intro adjustment clip, and he reviews it. 💡
-  - **Answer:** 
-- **C13.18** Every intro device gets time to read: each element lands before its cut. Video 4 Cut v5 failed this ("Coming up" held 3 f, its montage 27 f, list rows landing after the cut). 💡 (see Q-C13.c)
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c14-timings|C14 · Timings]]
-
-**Questions**
-- **Q-C14.a** When "on its word" and "1.5 s hold" clash (the word comes too late for a full hold), our method lets the word win and uses C14.19. → Options: (1) the word wins, extend / delay / drop (2) the hold wins, the element may land up to a few frames early. My pick: (1).
-  - **Answer:** 
-- **Q-C14.b** Shortest A-roll gap. Your finals show none under ~2 s except cut buffers; the Gamma brief (2026-10-31) allowed anything from 6 f. → Options: (1) ~2 s floor (2) 6 f floor. My pick: (1).
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **C14.7** Graphics follow speech, never ahead. No label, name or number shows before it is said. 🎯 (CD06 07:10) 💡 (HK-04, 2026-10-22)
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c15-pacing|C15 · Pacing]]
-
-**Questions**
-- **Q-C15.a** Body frequency. The CD says a new visual every 5-10 s (2026-10-22). The Route Rise guide says some change every ~3 s (2026-09-25). Your Apollo median is 3.5 s. → Options: (1) a new visual every 5-10 s, with elements entering inside it so something changes about every 3 s (2) a new visual every ~3-4 s. My pick: (1).
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **C15.4** The count includes elements entering inside a visual, not only cuts. 💡
-  - **Answer:** 
-- **C15.5** In the hook, keep the montage pace but give each shot only one thing to read, landed early. Drop second reads. 💡 → C14.13
-  - **Answer:** 
-
-## [[03-Areas/video-editing/rulebook/rb-c16-references|C16 · References and creativity]]
-
-**Questions**
-- **Q-C16.a** Gamma reference order. 2026-10-31: *"the exact styles that we used in Alex's video ... the LinkedIn video"*. 2026-11-01 (later) says both *"the best refrence example is Alex linkedin video"* and *"The alex video of linkedin is just a side refrence"*, with your Gamma edit as the one-to-one reference. → Options: (1) Gamma edit leads, Alex LinkedIn is a side reference for pills and glass (2) Alex LinkedIn leads in Gamma colours. My pick: (1).
-  - **Answer:** 
-- **Q-C16.b** Is the 44-still `best-editor` folder (2026-09-30) still the right "best editor" reference, and should it be named? It isn't refreshed since. → Options: (1) keep it (2) point us to newer videos of that editor. My pick: (2) if there are newer ones.
-  - **Answer:** 
-
-**My inferences (keep, change or drop)**
-- **C16.4** A new client: ask Samuel which of his videos is that client's reference. Other clients' finals are side references only. 💡
-  - **Answer:** 
 
 ## [[03-Areas/video-editing/rulebook/rb-d1-music|D1 · Music]]
 

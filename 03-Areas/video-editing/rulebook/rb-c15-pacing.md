@@ -20,8 +20,8 @@ section: C15
 
 ### How often something new comes in
 - **C15.3** A new visual about every 1 s in the hook, every 2 s in the intro, every 5-10 s in the body, and never more than 15 s without one. 🎯 (CD04 12:46, CD05 23:52, 2026-10-22)
-- **C15.4** The count includes elements entering inside a visual, not only cuts. 💡
-- **C15.5** In the hook, keep the montage pace but give each shot only one thing to read, landed early. Drop second reads. 💡 → C14.13
+- **C15.4** The count includes elements entering inside a visual, not only cuts. 💡 · ✔ 2026-11-05
+- **C15.5** In the hook, keep the montage pace but give each shot only one thing to read, landed early. Drop second reads. 💡 → C14.13 · ✔ 2026-11-05
 - **C15.6** For scale, his finals: Apollo median 3.5 s between beat starts (13 in minute one, 1 in the last minute); 4 AI Tools body 10.2 visuals a minute (one every ~5.9 s); TSB 11.6 a minute (13.5 in his own part); the hook wall to wall. 🎬
 - **C15.7** Fast at hooks, topic starts and new lists; calmer through explanations. 🏢 🎬
 
@@ -53,7 +53,7 @@ section: C15
 - (no picture yet: a density strip of one of his finals, visual starts per minute from hook to outro)
 
 ## Questions for Samuel
-- **Q-C15.a** Body frequency. The CD says a new visual every 5-10 s (2026-10-22). The Route Rise guide says some change every ~3 s (2026-09-25). Your Apollo median is 3.5 s. → Options: (1) a new visual every 5-10 s, with elements entering inside it so something changes about every 3 s (2) a new visual every ~3-4 s. My pick: (1).
+- **Q-C15.a** Body frequency. The CD says a new visual every 5-10 s (2026-10-22). The Route Rise guide says some change every ~3 s (2026-09-25). Your Apollo median is 3.5 s. → Options: (1) a new visual every 5-10 s, with elements entering inside it so something changes about every 3 s (2) a new visual every ~3-4 s. My pick: (1). → Samuel: (1), a new visual every 5-10 s with elements entering inside it so something changes about every 3 s (2026-11-05).
 
 ## Sources
 Draws on [[03-Areas/video-editing/creative-director/creative-director-standard|creative director standard]], [[03-Areas/video-editing/edit-grammar/edit-grammar|edit grammar]], [[03-Areas/video-editing/visual-vocabulary|visual vocabulary]], [[03-Areas/video-editing/samuel-review-card|Samuel's review card]] and [[03-Areas/video-editing/ways-of-working|ways of working]].

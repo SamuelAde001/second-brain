@@ -44,8 +44,8 @@ section: C12
 - (no picture yet: a still of an approved chapter pill over A-roll, e.g. from his TSB or B2B final, and one of a rejected full-screen chapter card)
 
 ## Questions for Samuel
-- **Q-C12.a** Transition at a chapter change. The creative director gives each new chapter a transition (2026-10-22); your TSB final has no transitions and uses the slam instead (2026-10-07); Route Rise bans light-leak transitions. → Options: (1) slam + pill only (2) a gentle directional push into the new chapter, then the pill. My pick: (1), your finals.
-- **Q-C12.b** Full-screen chapter cards in the Frontal kit (CH01 centred title, CH02 big number, CH03 sky band, CH05 glass over A-roll) conflict with C12.15. → My pick: keep them out of Route Rise videos; only the pill-style templates stay.
+- **Q-C12.a** Transition at a chapter change. The creative director gives each new chapter a transition (2026-10-22); your TSB final has no transitions and uses the slam instead (2026-10-07); Route Rise bans light-leak transitions. → Options: (1) slam + pill only (2) a gentle directional push into the new chapter, then the pill. My pick: (1), your finals. → Samuel: (1), slam and pill only (2026-11-05).
+- **Q-C12.b** Full-screen chapter cards in the Frontal kit (CH01 centred title, CH02 big number, CH03 sky band, CH05 glass over A-roll) conflict with C12.15. → My pick: keep them out of Route Rise videos; only the pill-style templates stay. → Samuel: yes, the Frontal full-screen chapter cards stay out of Route Rise videos; only pill-style templates (2026-11-05).
 
 ## Sources
 Draws on [[03-Areas/video-editing/samuel-review-card|Samuel's review card]] (P10), [[03-Areas/video-editing/ways-of-working|Ways of working]], [[03-Areas/video-editing/edit-grammar/edit-grammar-tsb|Edit grammar TSB]], [[03-Areas/video-editing/edit-grammar/edit-grammar-ai4|Edit grammar AI4]], [[03-Areas/video-editing/motion-gallery/motion-gallery|Motion gallery]], [[03-Areas/video-editing/clients/frontal-template-library|Frontal template library]], [[03-Areas/video-editing/creative-director/creative-director-standard|Creative director standard]].
