@@ -70,3 +70,28 @@ Samuel, ~22:50: watch the cam download and resume it, put B-cam on the timeline 
 - **v5 check rounds (stills from the timeline, 2026-11-01 ~21:00-23:40):** his colour ranges moved to the new words (accent = last word; red = the whole negative second line), long one-liners scaled to his 14-character size, the three-item card reversed to read left to right, his freelancing thumbnails hidden and the circles centred on Gamma navy, his carousel icon taken out of the price pill, the strike-price card and the money-sum card swapped for his price pill (they rendered off-frame / empty here), full-screen beats now show her under his comp (a stray comment in `refclone.py` had cut those comps in half). Screen recordings: P2-04 and P2-13 windows made full screen (pass-through), P7-08 tilt and P7-14 PIP switched to her. Kept as v4: P1-01 logos, P2-06 Gumroad chart, P9-18 end card.
 - **Render:** `Graphics\Visuals v5 build (Editor)\finish_v5.py` (10 chunks of 2,020 f, `render_chunk.py` copied from v4) → `Renders\v5 (Editor)\` → `Renders\Final (Editor)\Claude + Gamma App MCP Will Make You Rich - visuals v5.mp4`, audio = v4's (A1 unchanged).
 - **v5 final 2026-11-02 00:27 WAT:** `Renders\Final (Editor)\Claude + Gamma App MCP Will Make You Rich - visuals v5.mp4` (19,561 f, 1080p, 782.44 s, AAC), contact sheet beside it. Checked on stills and 12 frames of the final; motion not watched by the Editor. Open for Samuel: P1-01 logos, P2-06 chart and P9-18 end card are still v4 builds; the three-item circles carry his freelancing icons (deck, carousel, PDF), not tier-specific ones.
+
+## Visuals v6: restart after Samuel's cuts (Editor, 2026-11-05 → 2026-11-06 night run)
+- **Samples approved** (2026-11-05): *"so far looks good"*. S4 (the connector demo) is the demo standard. His notes went into the rulebook as standing rules (C1.51/52, B5.36/37, C8.55, C13.24, C9.44, B1.26, commit 34ce2c2):
+  - major motion graphics go full screen on the navy BG, centred;
+  - minor visuals sit on her, spread left, right and bottom;
+  - drift on every screen recording;
+  - slow zooms and punch-ins on her;
+  - his 3D intro (0-38), intro B-roll (81-186) and grades are carried 1:1.
+- **Build:** workflow wf_5c62696f-15c, 66 units (9 motif chains + 41 units), each built, reviewed by a fresh eye and fixed once; 14 passed first time, 52 fixed. Brief: `Graphics\Visuals v6 build (Editor)\BUILD RULES v6.md`; results `units\build_results.json`.
+- **Install:** `Docs\finish v6\` (prep_install.py + mz_v6.py + install_loop.py), onto **Visuals v6 (Editor)**, source Visuals v1 (Editor).
+  - gradecmp against v5: all 336 A-cam and 336 B-cam grades identical, A1 voice isolation identical.
+  - His intro and B-roll checked against v5 timeline stills (10/30/90/130/170): they match.
+- **Review of the full render** (wf_2a571a7d-faf): 10 section reviewers on the real 1080p render, 77 faults, 44 unit fixers. The Editor fixed the rest:
+  - the A-roll zooms were landing in about 1 s, then freezing: they are now slow pushes with depth by length, and jump cuts get punches;
+  - camera-switch flashes at 2182 and 12949;
+  - unit-edge moves for P04-02, P07-04 and P03-08.
+- **Open for Samuel:**
+  - B-cam vs A-cam colour at some switches (his own grade, unchanged);
+  - the lottery clip licence (YouTube stock);
+  - the LinkedIn post mock ("Jordan Ellis");
+  - SET UP THE SYSTEM is 17 characters;
+  - PLUS vs her "standard";
+  - no SFX pass yet;
+  - RICH and WAY hold under 36 f because of his locked cuts at 81 and 285.
+- Live state: job `Docs\RUN STATE.md`.
