@@ -15,3 +15,4 @@ Append-only. Newest at the bottom. Format: `- YYYY-MM-DD — what happened`.
 - 2026-09-22 — Phase 3 interview. WhatsApp; activity is posting, schedule accountability, check-ins and occasional reviews; the admin is paid NGN 15,000/month to run the accountability; removal of inactive members stopped this month; nothing earns; a new community, more on video editing, starts next year.
 
 Back to [[03-Areas/community/community|HighSignals Community]]
+- 2026-11-06 · Brand manager · 'It's time' ping added: Editors Bot tags Members in #announcements when each live call starts (Samuel's ask, since calls moved off the Stage). → [[04-Projects/called-to-edit-community-launch|community launch]]
