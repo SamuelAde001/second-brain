@@ -274,3 +274,4 @@ pm (packaged install), so community_admin netlify commands fail from this shell.
 - 2026-11-05 · Brand manager · #weekly-live hidden (archived, not deleted); meeting_recorder.py records while Samuel is in live-call; watcher restarted (pid 8180).
 - 2026-11-05 · Brand manager · Daily WhatsApp-post DM switched off (Samuel: "stop sending my Direct DMs about whatsapp posts"); whatsapp-post.mjs returns unless WHATSAPP_POST=on; prod deploy.
 - 2026-11-05 · Brand manager · Posted the live-call move + Friday beginners class announcement in #announcements (Samuel: "And you can send the announcement"), tagging Members, with the event link.
+- 2026-11-06 · Brand manager · Wrote the beginners class plan (research + teachings 02, 04, old beginner course modules 01, 05). → [[04-Projects/called-to-edit-community-beginners-class|beginners class]]
