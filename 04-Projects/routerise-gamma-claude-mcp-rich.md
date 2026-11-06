@@ -122,3 +122,7 @@ Samuel, ~22:50: watch the cam download and resume it, put B-cam on the timeline 
   - holds under 36 f where "exit on time" wins (C14.13 vs C14.32);
   - U-GRID-1 still uses the old grid look while U-GRID-2 moved to boxes;
   - SFX still not placed.
+- **v7 final 2026-11-06 18:04 WAT:** `Renders\Final (Editor)\Claude + Gamma App MCP Will Make You Rich - visuals v7.mp4` (19,561 f, 1080p, 782.44 s, seam audio), plus a phone copy and a sheet sent to Samuel at 18:10.
+  - The render was first blocked by resolve_guard (Resolve at 19.8 GB after the install), then restarted. The 2020-4040 chunk took 21 min (the glass road cards); the rest took 3-6 min each.
+  - Check sheet on 12 frames: statements at the bottom, COMING SOON glass pill, horizontal 1/2/3 roadmap, REASON pills at the bottom, all 4 dissolves fade into her.
+  - Not yet delivered: delivery to the client and the creative director is his call.
