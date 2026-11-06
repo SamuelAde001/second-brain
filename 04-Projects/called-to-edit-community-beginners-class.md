@@ -17,6 +17,8 @@ The first beginners-only skill class of the Called to Edit Community, on Discord
 
 Drafted by the Brand manager from his own teachings ([[05-Knowledge/teachings/teachings-02-learning-the-skill|Learning the skill]], [[05-Knowledge/teachings/teachings-04-editing-decisions|Editing decisions]]), his old beginner course ([[03-Areas/academy/called-to-edit-beginners/teaching-rules|teaching rules]], modules 01 and 05) and web research (sources at the bottom). A plan for him to cut; the words on the night are his.
 
+**Canva whiteboard** (Samuel, 2026-11-06: *"Outline this in canva whiteboard"*): "Called to Edit - Beginners Class: The Basics of Every Edit", https://www.canva.com/design/DAHaKIp6CGg/AIzmrOwXPVHMzQ01AiCx_g/edit. The 8 steps as clips on an editing timeline (film strip on picture steps, waveform on sound steps), with each block's start time on the ruler, the one rule, and the homework line. Outline words only. Source `_attachments/called-to-edit-whiteboard/source/basics.py`, preview `_attachments/called-to-edit-whiteboard/beginners-class-basics.png`.
+
 ---
 
 ## The teaching order, and why
