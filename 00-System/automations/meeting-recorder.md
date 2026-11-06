@@ -2,7 +2,7 @@
 type: sop
 area: called-to-edit
 status: active
-updated: 2026-10-28
+updated: 2026-11-06
 source: manual
 tags: [automation, community, discord, obs, recordings, drive]
 ---
@@ -72,6 +72,16 @@ His older presets, as found 2026-10-28: profiles **1080p 25 fps** and **4k 30fps
 - **The bot deploy failed:** `netlify` was installed from inside the Claude desktop app, so it lives in that app's private AppData copy (`%LOCALAPPDATA%\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\npm`). Its sign-in is there too. Programs started outside the app, like the recorder at logon, can't see either. `deploy.sh` now runs the CLI by its real path. Samuel, 2026-10-28: *"Fix it yourself"*, so the app's Netlify sign-in file was copied, unopened, to the real `%APPDATA%\netlify\Config\`. Tested from outside the app: the site answers. Deployed by hand tonight.
 - **The bot DMed instead of posting:** the Drive folder was still *Restricted*. Agents can't change Google sharing, so Samuel sets it to *Anyone with the link → Viewer* himself. A job (`%LOCALAPPDATA%\cte-meeting-recorder\finish_post-2026-10-28.py`) checks every 2 minutes for 24 hours and posts tonight's call once the link opens. He shared it, and it posted at 22:20 in 📼 call-recordings and #general-chat.
 - **The local delete crashed** because the recording was open in VLC. `free_space` now retries every 5 minutes for 24 hours instead of crashing.
+
+## Late start, 2026-11-06 (One-off Class for Beginners, 20:00)
+
+Samuel asked why the recording had trouble starting. Found from `recorder.log`, the OBS logs and the Windows event log:
+
+- **What happened.** The call went live at 20:00:27 and the recorder launched OBS at 20:00:28. OBS stopped at its *"Crash or unclean shutdown detected"* Safe Mode box and sat there for 10 min 30 s, until *Normal launch* was clicked at 20:10:58. OBS WebSocket only starts after that box, so the recorder's two tries (20:02, 20:07) were refused (`WinError 10061`) and it DMed Samuel both times. At 20:11:08 a second OBS was opened by hand and recorded from 20:11:25 (`Meeting 2026-11-06 20-11.mp4`, 731 MB, still on the PC, not uploaded). The recorder's own try at 20:12:52 got in and recorded to 21:25 (`Meeting 2026-11-06 20-12.mp4`, uploaded and transcribed). **Nothing before 20:11:25 was recorded.**
+- **Why OBS thought it had crashed.** After Wednesday's call (2026-11-04) the recorder stopped recording but left OBS running in the tray. It was still running when the PC went down without a clean shutdown at 04:14 on 2026-11-06 (Kernel-Power 41; a second one at 10:51). OBS's leftover run marker (`%APPDATA%\obs-studio\.sentinel\run_a460c8ac…`, dated 2026-11-04 20:00:49) made the next launch show the Safe Mode box.
+- **Why the guard didn't help.** The launch passes `--disable-shutdown-check`, but OBS 32.0.2 still showed the box (the command line in the log has the flag).
+- **Why the retries were slow.** After a failed start the watcher waits 5 minutes before trying again, and the DM gives the generic "open OBS by hand" advice, so the real cause (a box waiting to be clicked) wasn't named.
+- Both OBS windows were still open after the call, so the same thing can happen again on the next power cut.
 
 ## By hand
 
