@@ -100,3 +100,25 @@ Samuel, ~22:50: watch the cam download and resume it, put B-cam on the timeline 
   - Kit fixes made on the way: `open_job.py` retries the Routerise folder while Resolve's list loads; seam_audio set to 25 fps in `Gamma kit (Editor)\final\`; the install list puts moved units first.
   - The save step before a Resolve restart can hang. It needs a timeout in `render_chunks.sh`: open, not done.
   - Not yet delivered: delivery is his call after his review.
+
+## Visuals v7: Samuel's v6 timeline corrections (Editor, 2026-11-06 afternoon)
+- **His ask, 2026-11-06 ~13:00:** study the corrections he made on *Visuals v6 (Editor)* (91 markers, plus his own fixes at 38-81, 6334 and 6591) and apply the principles across the whole video. Fix the node structure, no split NeoTextMotion lines, and a designer look (glass, shine, realism). His creative director's deadline was 14:00.
+- **Rules:** 20 new rules from his words (commit 661eff2); C1.52 was replaced by C4.46, *"Yes, always bottom"* (45dd321). Builders' brief: `Graphics\Visuals v6 build (Editor)\REVISION RULES v6b.md`.
+  - **Correction 15:40:** C1.53 had said "NeoBevel depth", which clashed with his approved B2.24 / B3.42 (bevel off for playback). That was the Editor's wording. His rule stands, and the 70 bevels on v7 were switched off with `brandfix.py timeline`.
+- **Rework:** workflow wf_e641dbee-54f, 67 units, 150 agents, 0 errors (13:20-15:19).
+  - 41 marked units got a fresh review: 11 passed, 30 were fixed.
+  - 18 unmarked units were audited against the principles; the roadmap chain and CIRC3 chain were rebuilt as boxes.
+  - Results: `Docs\Revision v6 (Editor)\wf_v6b_results.json`.
+- **Install:** onto **Visuals v7 (Editor)**, built from Visuals v1 (Editor). His *Visuals v6 (Editor)* is untouched.
+  - Totals: 384 ops, 36 MagicZoom zones, verify ok (no overlaps or slivers).
+  - Zones run whole statements across jump cuts; 10780-10992 and 12952-13091 are one zone each. His 38-81 zoom is a slow push under GET RICH; the slam at 579-604 has no zone.
+  - Resolve jammed once at U-P03-11 (about 10 GB in use, pastes failing 15:33-16:22). Killing the stuck step let install_loop restart Resolve, and try 2 finished at 16:39.
+  - A/B-cam share 39-52 % in every 2000 f stretch (restore_cams changed 0).
+  - 12 f Cross Dissolves at the 4 screen-to-her cuts (8938, 10780, 13857, 19031) via Resolve 21.1 `TimelineItem.AddTransition` (`Docs\finish v6\joins_v7.py`). The joins at 1042, 11371 and 16459 cut into a visual's own entrance, so they keep the cut.
+- **Open for Samuel:**
+  - P08-04 has no printed-book or author clip in his library (a Kindle shot is used);
+  - no real Gamma doc chart exists for P03-08;
+  - the "OPPORTTUNITY" typo in his own GET RICH text;
+  - holds under 36 f where "exit on time" wins (C14.13 vs C14.32);
+  - U-GRID-1 still uses the old grid look while U-GRID-2 moved to boxes;
+  - SFX still not placed.
