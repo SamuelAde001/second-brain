@@ -83,6 +83,14 @@ Samuel asked why the recording had trouble starting. Found from `recorder.log`, 
 - **Why the retries were slow.** After a failed start the watcher waits 5 minutes before trying again, and the DM gives the generic "open OBS by hand" advice, so the real cause (a box waiting to be clicked) wasn't named.
 - Both OBS windows were still open after the call, so the same thing can happen again on the next power cut.
 
+**Then the upload failed (Samuel, same night: *"Now the file can't upload, please check again"*).**
+
+- The recording was copied into the Drive folder at 21:25 and Drive for desktop started uploading it, slowly: about 0.5 MB/s up on the Wi-Fi dongle, so 868 MB takes 30 minutes or more.
+- At 22:09 **C: ran out of space**. Free space went from 39 GB at 21:52 to 0.6 GB at 22:09, then back to 35 GB by 22:19. Windows had grown `pagefile.sys` (70.5 GB, last written 22:05) because memory was almost all committed: the **AppX Deployment Service** (Windows' Store-app installer, svchost) held 19.5 GB, and **Resolve**, open since 20:30, held 18 GB. At 22:26 only 2.2 GB of the 79.8 GB commit limit was free.
+- The recorder's publish thread checks Drive every minute by copying Drive's metadata database to a temp folder. On the full disk that copy failed with `Errno 28`, and one failed check ended the whole publish: no post, no local delete, a DM to Samuel. Drive kept the file and carried on uploading.
+- **Fixed for tonight:** `%LOCALAPPDATA%\cte-meeting-recorder\finish_post-2026-11-06.py`, started 22:26. It waits up to 12 hours for Drive's cloud ID and retries through errors instead of stopping. Then it posts with tonight's summary (14 teachings already filed and pushed), deletes the local copy once Drive has all of it, and logs.
+- **Not fixed yet:** `wait_for_link` and `drive_uploaded` still stop on the first error. The AppX service leak will grow again until the service restarts or the PC reboots.
+
 ## By hand
 
 - `python 00-System/scripts/meeting_recorder.py status`: is a call live, is OBS recording, the Drive folder link.
