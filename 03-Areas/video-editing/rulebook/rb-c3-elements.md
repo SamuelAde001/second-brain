@@ -109,6 +109,7 @@ section: C3
 - **C3.70** Build each element at its final place in frame; Neo Anim stays at Global Center 0.5/0.5 and only animates. ⚙️ · ✔ 2026-11-05
 - **C3.71** Build 2D elements with the Python generators (`pk.py` + `pillkit.py`: `bgorange()`, `macro()`, `copy_his()`, `arrow()`, `pill()`), never node by node. How: [[03-Areas/video-editing/sops/fusion-build|Fusion build SOP]]. ⚙️ · ✔ 2026-11-05
 - **C3.72** Icon traps: Flaticon icons with white detail (check, checked, no) render as solid discs when used as masks; glyphs (✓ ✕ →) go in their own Text+ or as an icon, never Segoe UI Symbol on a Text+ that holds a word. ⚙️ · ✔ 2026-11-05
+- **C3.79** A roadmap runs horizontally, left to right, not vertically. ✅ *"Make the roadmap horizontal isntead of vertical"* (2026-11-06)
 
 ## Never (strict)
 - **C3.73** Boxes everywhere, or a box behind text over the speaker, a page or a screen. ❌ *"no need for boxes every where bro"* (2026-10-24) · ✔ 2026-11-05

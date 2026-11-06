@@ -71,6 +71,7 @@ section: C2
 - **C2.37** A rebrand changes the look, never our motion: keep the pacing, timing, staggers and one-by-one reveals. A brand kit's web timings (140-200 ms) don't apply. ✅ *"keep our current motion and change only the look"* (2026-10-20) · ✔ 2026-11-05
 - **C2.38** Use the client's easing curve where its brand book sets one. ✅ *"you need to ease everywhere, use what the brand book says"* (2026-10-20) Values: K2. · ✔ 2026-11-05
 - **C2.39** Make the motion beautiful and varied: never the same animation twice in a video, never a direct replica of another video's animations. 🔁 2 ✅ *"I want the motion design to be beautiful."* (2026-10-20); ✅ *"It must not be replica"* (2026-10-31) 🏢 · ✔ 2026-11-05
+- **C2.48** Every visual enters with his NeoAnim entrance (slide + blur + fade) in its media adjustment clip, screen-to-screen cuts included. Joins between visuals flow, never abrupt, and no stretch is static. ✅ *"Why is it that all the visuals don't animate in with the neo anim animations I use to have in my adjustment clip in my videos, I thought that has been agreed as standard"* (2026-11-06); *"This cut htere was abrupt, not a smooth flow"*; *"more motion especially as we stich between each visual"*
 
 ## Never (strict)
 - **C2.40** Bouncing, overshoot, scale pops or settle-wobbles, on any element, for any client. 🔁 3 ✅ *"Stop using wierd animations, never use boucing animations"* (2026-10-03, again 2026-10-15 and 2026-11-01) ❌ · ✔ 2026-11-05

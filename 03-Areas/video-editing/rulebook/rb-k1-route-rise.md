@@ -46,6 +46,7 @@ section: K1
 - **K1.20** Never Dynamic Zoom; MagicZoom V3 instead ([[03-Areas/video-editing/rulebook/rb-b5-zooms-and-crops|B5]]). ❌ 🏢 ✅ *"I prefer MagicZoom V3 instead of Dynamic Zoom"* (2026-09-22) · ✔ 2026-11-05
 - **K1.21** Never a transition on the A-roll. Cuts only. ❌ 🏢 🎬 (0 dissolves in 503 clips, $7M Founder) · ✔ 2026-11-05
 - **K1.22** Never use Ifeoma's notes or personal-brand rules on a Route Rise edit (K0.12). ❌ ✅ (2026-10-28) · ✔ 2026-11-05
+- **K1.24** Nothing of ours under YouTube's end-screen overlay: the last seconds after the closing line (Gamma Ep. 12: 19434 to the end) stay clean. ✅ *"Don'r show this, cause there would be an overlay showing the video on youtube"* (2026-11-06)
 
 ## Pictures
 - (no picture yet: none needed for this section)

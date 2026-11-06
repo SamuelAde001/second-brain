@@ -58,6 +58,8 @@ section: C9
 - **C9.33** Repeated B-roll is shown differently the second time (e.g. as a polaroid). 🏢 Shots used as a pair must match (not day next to night). 💡 · ✔ 2026-11-05
 - **C9.34** A real YouTube clip: mute its own audio unless it is meant to be heard (C9.12); a CC BY clip gets a credit line. ⚙️ · ✔ 2026-11-05
 - **C9.35** AR screen on speaker B-roll (tracked translucent UI plane, hands kept in front): in his AI4 final. Node recipe in [[03-Areas/video-editing/fusion-recipes|Fusion recipes]]. 🎬 · ✔ 2026-11-05
+- **C9.45** Real B-roll from YouTube (his downloads library first), not clean stock. A B-roll is shown full frame, never a cropped half. ✅ *"Can we get real B-rolls from youtube and not over clean stock videos, I told you this before"* (2026-11-06); *"FInd real footage, not stcok B-rolls"*; *"if you are showing B-roll, show the full B-roll"*
+- **C9.46** Show the real thing she names: the real tools (Gamma and the other AI tools, not random logos), the field before the example (other streaming services before Netflix), a real mobile app for 'apps', a real UI where one is described. ✅ *"Show and not tell, why not show Gamma and the other AI tools, why use random logos"* (2026-11-06); *"Show other streaming services, before you show netflix"*; *"This does not look like an app, find a mobile app video to show"*
 
 ## Never (strict)
 - **C9.40** No stock-website footage; no generic clip that doesn't show the line. ✅ (2026-10-20) 🎬 · ✔ 2026-11-05

@@ -53,6 +53,7 @@ section: B5
 - **B5.29** Line-marker strokes sit under the zoom (upstream of Transform_Zoom), or the zoom holds still while a stroke is on screen. ⚙️ · ✔ 2026-11-05
 - **B5.30** The tool reveal: zoom into the named tool while the others desaturate and drop opacity. ✅ *"I zoomed in to CLay and made the others less saturated and opacity reduced"* (2026-09-27) · ✔ 2026-11-05
 - **B5.31** Opening move into a motion graphic: the live A-roll frame shrinks into a card (W 1 → 0.34, H 1 → 0.58 over 38 f; or Size 1 → 0.756 over 27 f). Corner shape and outline: client overlay. 🎬 (Apollo, TSB) · ✔ 2026-11-05
+- **B5.38** An A-roll zoom adjustment clip runs through a whole statement, across jump cuts; it never cuts mid-statement. A long stretch splits only at a sentence end. ✅ *"Adjusment clips fo zoom should last though a major statement"* (2026-11-06); *"The adjusment clip for the zooms are cuuting when they shouldn't be cutting"* (he merged two zones at 6334-6419 himself)
 
 ## Never (strict)
 - **B5.32** Never a jump, 2× or punchy zoom on pages and UI. 🏢 "Never jump zooms" (2026-09-25) ✅ (2026-10-24) · ✔ 2026-11-05
@@ -61,6 +62,7 @@ section: B5
 - **B5.35** Never MagicZoom on a source clip, and never a Fusion comp for a zoom-in (B2.26, B2.27). 🎬 ✅ · ✔ 2026-11-05
 - **B5.36** Every screen recording and page B-roll carries subtle camera motion inside its adjustment clip (drift, B5.3 table), and the review clip must show it. ✅ *"In the Gumroad B-roll, there is no camera motion, add a subtle camera motion there inside the adjustment clips there and in any other Screen recording that would need that"* (2026-11-05; the sample render skipped the MagicZoom)
 - **B5.37** The A-roll slow zooms and emphasis punch-ins (B3.23, C15.13) go in with the build, not after; a sample over her shows them. ✅ *"I am not seeing slow zooms and emphasis zooms on the main cam"* (2026-11-05)
+- **B5.39** A transform or scale never shows the frame edge or a cut line: overscan the plate or animate inside the frame. ✅ *"Can you see the edge cut down, it should animate without showing the edge, you are transofrming it the wrong way"* (2026-11-06)
 
 ## Pictures
 - ![[_attachments/rulebook/b5-hook-static-before.jpg|360]] ❌ our static hook card before his fix, B2B video

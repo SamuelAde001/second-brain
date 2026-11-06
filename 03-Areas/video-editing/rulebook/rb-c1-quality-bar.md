@@ -64,6 +64,7 @@ section: C1
 - **C1.39** Cross-check against his approved finals and the top videos in his company. 🔁 (3) ✅ *"crosscheck your design with the top videos in my company"* (2026-10-26) · ✔ 2026-11-05
 - **C1.40** A polished cut goes to the creative director, so it has no mistakes. ✅ *"Make sure there is no mistakes as it is polished cause i would send it to my creative director"* (2026-10-25) · ✔ 2026-11-05
 - **C1.41** Keep going until it matches his finals. Time is not the limit (token rules: F3). ✅ *"Don't worry about time, don't stop till you have a perfect video"* (2026-10-07) · ✔ 2026-11-05
+- **C1.53** Every visual is designed, not basic: realism and a designer's eye. Glass cards (frosted fill, blur, thin light border), NeoBevel depth, one lightsweep or shine where a thing is revealed or named, a soft glow where light belongs (never blown out), drop shadows that ground the card, depth between layers, and big enough to fill the frame with no dead space. ✅ *"a lot of the visuals are too basic ... you need to add much more realism to it, use glass effect, use shine when there needs to be shine. I need to see more designer look ... a professional video editor is also a professional designer, which means design principles apply"* (2026-11-06) 🔁 ×12 markers on Gamma Ep. 12 v6
 
 ## Never (strict)
 - **C1.42** The same design or colour ratio repeated beat after beat. ❌ *"We are repeating this bad visuals everytime"* (2026-10-24) · ✔ 2026-11-05
@@ -76,7 +77,8 @@ section: C1
 - **C1.49** Never overuse an old template. Reusing one is fine; don't lean on the same one again and again. ✅ *"you can use an old template, just make it not overused"* (2026-11-05) · ✏ 2026-11-05
 - **C1.50** Placeholder logos, misaligned text, text outside its box. ❌ (2026-10-07) · ✔ 2026-11-05
 - **C1.51** Major motion graphics go full screen on their own main background (K3: the Gamma navy), centred: diagrams, roadmaps, money runs, crowds and groups, any multi-element build. Only minor visuals sit on the A-roll: lists, pills, chapter pills. ✅ *"Ensure major motion graphics is on fullscreen with it's own main BG and centered / Only minor visuals on screen like lists, pills or chapters"* (2026-11-05; the small group, the roadmap and the 4-a-year run were on her screen). Refines Q-C1.a.
-- **C1.52** Spread minor visuals around her: left, right and bottom, not always the right side. ✅ *"looks like you are putting a lot of visuals by just the right side, and not left or down on her screen"* (2026-11-05)
+- **C1.52** ⛔ Replaced 2026-11-06 by C4.46 (text over her goes down, not by the side). Was: spread minor visuals around her: left, right and bottom, not always the right side. ✅ *"looks like you are putting a lot of visuals by just the right side, and not left or down on her screen"* (2026-11-05)
+- **C1.54** Never simple circles as containers for content. Use big glass boxes with a creative design, big enough to read what is inside on a phone. ✅ *"I don't like this simple circles, you aren't being cretive, let's use boxes instead with more creative designs"* (2026-11-06); *"3 big long boxes"*
 
 ## Pictures
 - ![[_attachments/rulebook/c1-rejected-plan-v1.jpg|360]] ❌ Video 2 plan v1 frames he called cheap: text over a greyed page, text at the top of captures, words behind his head (2026-10-21)

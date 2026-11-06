@@ -50,6 +50,7 @@ section: C14
 ### Checking
 - **C14.26** Review timing on filmstrips at the word times, not on single stills. Most missed faults are motion and timing, and a still hides them. ⚙️ · ✔ 2026-11-05
 - **C14.27** Badly timed visuals get removed, so check them before he has to. ✅ *"I removed the visuals that you put because a lot of them were not well timed"* (2026-10-31) · ✔ 2026-11-05
+- **C14.32** A visual animates out (10-14 f) the moment its phrase is over, and is cut where it is meant to end. Nothing lingers into the next phrase or section, and every text element has an animated exit. ✅ *"You must always cut the visuals where it is meant to end"* (2026-11-06); *"Why is this word still on screen when we have passed the phrase area"*; *"why are visuals lingerring to the next section"* 🔁 ×9 markers
 
 ## Never (strict)
 - **C14.28** An element on screen before its word. ❌ (2026-10-25) · ✔ 2026-11-05

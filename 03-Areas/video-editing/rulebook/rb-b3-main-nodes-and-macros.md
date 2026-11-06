@@ -78,6 +78,7 @@ section: B3
 
 ### Scripting them
 - **B3.44** Macro paste, inner-tool names, NeoAnim stage switches, Out quirks and Edit-page effects being invisible to the API: open [[03-Areas/video-editing/sops/fusion-build|Fusion build SOP]] and [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]] before scripting any of these. ⚙️ · ✔ 2026-11-05
+- **B3.54** Macros stay macros. NeoAnim, Opacity, NeoLightSweep (Pro) and NeoGlow go into a comp as the one macro node, never exploded into their inner tools (NAPosition, NABlur, ...). Lay the comp out his way (B4: one row per element, a collector column, the source along the bottom). His fix of P05-01 shows it (NeoAnim_1, Opacity_Out, NeoLightSweepPro_Sheen as macros). ✅ *"Your node structure arrangement is not how I taught you from the beginning when we did our first study of my nodes"* (2026-11-06)
 
 ## Never (strict)
 - **B3.45** Never Dynamic Zoom (off on every clip). ✅ (before 2026-10) · ✔ 2026-11-05

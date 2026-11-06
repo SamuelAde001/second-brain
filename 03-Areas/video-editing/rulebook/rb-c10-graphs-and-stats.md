@@ -49,6 +49,7 @@ section: C10
 - **C10.26** Two contrasting numbers can flank the speaker: a red dot-grid circle "5,000" on one side, a green circle of 25 person icons on the other. 🎬 (AI4) · ✔ 2026-11-05
 - **C10.27** A bad number pops, shakes and turns grey with a sound. Money lost is a falling red number in real-looking UI. Benchmarks are glowing labelled bars. A wrong claim and the true one sit side by side. 🎯 → Q-C10.a · ✔ 2026-11-05
 - **C10.28** Build charts from real data with the chart kit (`frdata.py`, kit v3). ⚙️ · ✔ 2026-11-05
+- **C10.34** Numbers count up with NeoTextMotion's number counter and land on the spoken number; a number never just appears. ✅ *"Use the new Number counter in Neotext motion to count up this number, numbers should not just appear"* (2026-11-06)
 
 ## Never (strict)
 - **C10.29** Lines without numbers on an axis. ❌ *"I don't want to see just lines"* (2026-10-25) · ✔ 2026-11-05

@@ -42,6 +42,7 @@ section: B1
 - **B1.20** Replaced clips are disabled, never deleted. List them so he can delete them once he is happy. Make a backup timeline before each marker round and before the sound pass. ⚙️ · ✔ 2026-11-05
 - **B1.21** Never review a working or install timeline; review the finished version only. ⚙️ · ✔ 2026-11-05
 - **B1.22** Two-camera jobs (Gamma): plates go on a duplicate timeline, on the track above both cameras. ⚙️ (2026-10-30) · ✔ 2026-11-05
+- **B1.27** Keep his A/B-cam variance. After an install, check the B-cam share per section against his cut (V2 per-clip enabled flags); the Gamma Ep. 12 v6 install lost them from about 5000 on and showed only the B-cam. ✅ *"I just realised you aren't switching between A-cam and B-cam any more, why is that, there needs to be varience where needed"* (2026-11-06)
 
 ## Never (strict)
 - **B1.23** Never use any Insert call or `InsertGeneratorIntoTimeline` on his timeline: it rippled his cut (2026-09-28) and once moved every track by 127 f (2026-10-03). ⚙️ How to place clips safely: [[03-Areas/video-editing/resolve-automation-lessons|Resolve automation lessons]]. · ✔ 2026-11-05

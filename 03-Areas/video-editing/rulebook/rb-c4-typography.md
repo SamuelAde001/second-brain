@@ -67,12 +67,16 @@ section: C4
 - **C4.39** Numbers written 1, 2, never 01, 02. Chapter numbers white so they don't blend into the box. 🎯 (2026-10-22) · ✔ 2026-11-05
 - **C4.40** No source or citation line on a stat card. 🎬 ✅ (2026-10-02, 2026-10-13) · ✔ 2026-11-05
 - **C4.41** Counters: force the thousands comma, right-justify so the number grows leftwards. ⚙️ 🎬 How-to: [[03-Areas/video-editing/tsb-graphics-pipeline|TSB graphics pipeline]]. · ✔ 2026-11-05
+- **C4.46** Text over her goes **down**: centred low, in a glass pill or box, or over a soft darkened band; never by the side. His model (Gamma Ep. 12 v6, 38-81): one NeoTextMotion for the whole line, ES Build Bold at Size 0.051, Center y 0.079; a black band at alpha 0.54 through a soft RectangleMask (soft edge 0.05, about the bottom 27 %); a slow 1.00-1.03 push; the A-roll MagicZoom under it. Lists are pills. Keep a line on one line when it fits. Replaces C1.52. ✅ *"put this visual down not by the side"* (2026-11-06); *"Put big main text in a pill or a box, something more premium and put it down not to the side"*; *"either you put it under with a pill, or darken the background under, not by the left"*
+- **C4.47** One NeoTextMotion per sentence. Two lines are a line break inside the one node; per-word timing comes from its word delay, never from Line1/Line2 nodes. ✅ *"Stop Splitting having multiple neo text motion for one sentence, you can always adjust the word by word delay, and also have the word be in two lines, splitting it is hard to correct"* (2026-11-06)
+- **C4.48** The house pill over her is the transparent glass pill (Gamma Ep. 12 v6: ONE FAST WIN / UNDER 10 MIN). Use it for lists and short claims. ✅ *"I like this pill, use more of this type of transparent pills in the video"* (2026-11-06)
 
 ## Never (strict)
 - **C4.42** Text over his face. If at all, put it under. 🔁 2 ✅ *"NEVER EVER PUT TEXT OVER HIS FACE, if at all put it under"* (2026-10-15) ❌ · ✔ 2026-11-05
 - **C4.43** Anything, text included, directly behind his back. ✅ *"don't put anything directly behind his back it's bad"* (2026-10-21) ❌ · ✔ 2026-11-05
 - **C4.44** Text pushed to the top of a frame where it doesn't belong. ✅ *"p3 o5 text up is bad there"* (2026-10-21) ❌ · ✔ 2026-11-05
 - **C4.45** A red strike through text (C2.44). ✅ ❌ · ✔ 2026-11-05
+- **C4.49** Never text alone on a bare background colour (the blue screen). Text sits over B-roll, over a visual, or low over her. Never random text animations; listed items are pills. ✅ *"We shouldn't have text on a blue screen like this, either over a B-roll or on screen down"* (2026-11-06); *"Hate this random text animations, use pills with better visual looks especially when listing items"*
 
 ## Pictures
 - ![[_attachments/rulebook/c4-number-on-grey-page.jpg|360]] ❌ $1M over a flat grey page, text placed badly (video 2, plan v1, rejected 2026-10-21)
