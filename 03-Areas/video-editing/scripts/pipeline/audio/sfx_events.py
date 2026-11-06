@@ -404,7 +404,7 @@ json.dump({"generated": datetime.datetime.now().isoformat(timespec="seconds"), "
                    {"name": os.path.basename(o.get("setting") or o.get("path") or ""), "why": (o.get("why") or "")[:160]} for o in ops],
            "events": merged, "skipped": dict(skipped)},
           open(OUT, "w", encoding="utf-8"), indent=0, ensure_ascii=False)
-pre = collections.Counter(re.match(r"[A-Z]+\d?", e["beat"]).group(0) for e in merged)
+pre = collections.Counter((re.match(r"[A-Z]+\d?", e["beat"] or "") or re.match(r"", "")).group(0) or "?" for e in merged)
 print("manifests", len(lst), "ops", len(ops), "missing", len(missing), "events", len(merged), "->", OUT)
 print("kinds", dict(collections.Counter(e["kind"] for e in merged)))
 print("by prefix", dict(pre))

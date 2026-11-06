@@ -159,5 +159,6 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-06 · C1.53 C1.54 C4.46 C4.47 C4.48 C4.49 B3.54 C6.35 C6.36 C14.32 C2.48 C10.34 C9.45 C9.46 C8.57 B5.38 B5.39 B1.27 C3.79 K1.24 · ➕ Samuel's v6 timeline corrections (91 markers plus his own fixes at 38-81, 6334 and 6591): designer look; boxes, not circles; text over her goes down (one NeoTextMotion, his band model); glass pills; macros stay macros; light focus darkening (0.70-0.75); exit on time; NeoAnim entrance everywhere; counters; real YouTube B-roll; show the real thing; never reveal unshown; zooms span statements; no frame edge; keep A/B-cam variance; horizontal roadmaps; clean end screen. C1.52 ⛔ replaced by C4.46. Duplicate ID fixed: the S4 demo-standard rule C8.55 → C8.56.
 - 2026-11-06 · C4.46 · ✏️ always bottom, small pills too. *"Yes, always bottom"*
 - 2026-11-06 · C1.53 · ✏️ Correction: 'NeoBevel depth' taken out. It clashed with his approved B2.24 / B3.42 (NeoBevel off for playback). That was the Editor's wording, not his. Depth now comes from glass, light and shadow.
+- 2026-11-06 · C2.49 · ➕ Full-screen motion graphics cut in and out, with no fades or dissolves (Samuel, on v7). C2.48 now points to it. The Editor's 4 dissolves on v7 were removed.
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]
