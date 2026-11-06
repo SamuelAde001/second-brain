@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-11-04
+updated: 2026-11-06
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -147,5 +147,22 @@ What he taught on Called to Edit Community calls. Times are from the start of ea
 - **Call 2026-11-04 [0:59:36]** *"Some clients, their pain point is just editing. Some clients, their pain point is that they need more views. Some clients, their pain point is that they need more customers and more clients. Some clients, their pain point is that they don't have enough time."*
 - **Call 2026-11-04 [0:59:52]** Once you can identify it, use that pain point as your way into the outreach. His example [1:00:02]: *"I noticed that you don't have enough time to edit your videos. Let me take that burden from you and do it for you."* Not *"I can edit your videos for you."*
 - That's why you study the client first [1:00:23]. More in the outreach teachings.
+
+### Call 2026-11-06: before you sign a client, ask questions
+- A member asked what to ask a client before editing [0:57:51]. **Call 2026-11-06 [0:58:32]** *"A lot of us are in a hurry to sign a client without understanding the audience of the client."*
+- When a client asks *"how much do you charge?"*, get them into a conversation first [0:58:52]. Ask: what kind of videos (talking head, vlog)? Which platform? Who is the target audience? What's the message? What do you expect from me? What's your major pain point?
+- **Better still, a call** [0:59:33]: *"I would love to know more about the scope of the project. Here's a Google Meet link if you are free."* If not, book a time.
+- **The pain point changes the edit** [1:00:16]: some clients want to post videos fast, some need more views, some need more customers. A client who needs views gets a different edit from one who needs customers.
+- Write the answers down [1:00:42] and work out what the edit is really for. Give him what he needs and *"the client would be happy and therefore recommend you, and possibly even pay you more."* **Call 2026-11-06 [1:01:08]** *"More important than your editing is the client satisfaction."* A full teaching on client pain points is coming.
+
+### Call 2026-11-06: pain points and dreams; nobody cares that you're good
+- A member asked: when you're the one reaching out, do you still ask what they need? [1:01:42] His answer [1:02:08]: research what the client needs before you reach out. **Call 2026-11-06 [1:02:19]** *"When you outreach to a client, you don't outreach based on your skill of editing. You outreach based on a pain point you are trying to solve for the client."*
+- **Call 2026-11-06 [1:02:31]** *"Good day [name], I am a video editor, I am very good at video editing. You being very good at video editing does not help me"* if my pain point is customers, views or no time to edit.
+- **The pitch that works** [1:02:57]: *"I noticed that you're a very busy person and you don't put out content that much, and I suspect it's because you don't have much time to edit. I can take that burden from you. Here is a sample edit I did, so that you can see how my edit will look with your videos."* That's an *informed outreach* [1:03:40], and why pitching 1,000 people falls short: you can't research 1,000 people.
+- **Pain points and dreams** [1:05:00]: a dream is a client who wants 5,000 followers or 5 million views. *"If you can convince the client that you can help them get to that dream, that is a better pitch than telling me I'm a video editor and I'm good."* **Call 2026-11-06 [1:05:18]** *"I don't care if you're good. Can you solve my problem? Can you help me achieve my goals?"*
+- **From his own DMs** [1:04:27–1:04:54]: when he needed an editor, editors reached out *"but they were not reaching out to me to solve my pain point. They were just telling me they are video editors. I don't need to hear that."* Copy-and-paste pitches he doesn't answer.
+
+### Call 2026-11-06: his quality outreach proof
+- **Call 2026-11-06 [1:03:52]** *"I'm strongly a believer of quality."* In his outreach campaign (last year; the transcript is unclear on the year) he wrote a list of 100 people, researched every one and sent Loom videos. Before he had reached the 20th person on the list, he had closed one [1:04:13]. Quality outreach made it quicker to land a client than copy-and-paste.
 
 [[05-Knowledge/teachings/teachings-08-finding-clients|← Finding clients]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-10-pricing-and-getting-paid|Pricing and getting paid →]]

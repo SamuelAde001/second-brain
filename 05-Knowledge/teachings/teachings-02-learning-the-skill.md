@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-11-04
+updated: 2026-11-06
 source: interview
 tags: [teachings, called-to-edit, content-source]
 ---
@@ -313,5 +313,20 @@ What he taught on Called to Edit Community calls. Times are from the start of ea
 ### Call 2026-11-04: practise on the unedited part of a big video
 - A member, a motion designer who edits business coach videos, couldn't find the right videos to practise on [0:55:45].
 - His answer [0:55:54–0:56:35]: go to YouTube. Many videos there are already heavily edited, but they have sections that aren't. His MKBHD edit came from one: *"it was just a section of that video that he was talking about something and there was no crazy edit there. I downloaded that video. After downloading it, I cut only that section and I re-edited that."*
+
+### Call 2026-11-06: cut with the waveform, not your ears
+- **Call 2026-11-06 [0:23:03]** *"Some people, whenever they are editing, they edit with the audio. I don't edit with the audio. I edit with the waveform."* The waveform shows when the speaker is talking and when not, and gives the most accurate cuts [0:23:24]. By ear you can miss frames, especially when the software lags [0:23:37]. In CapCut on mobile, separate the audio from the video to see the waveform [0:23:49].
+- **His order** [0:30:00–0:35:10, shown on screen]: (1) remove the gaps first, leaving none (he also uses Resolve's silence-cutting tool, adjusting the decibel level); (2) then remove the mistakes; (3) only then watch the full video.
+- **Why it's fast:** with the gaps gone, each clip is one full sentence [0:29:29]. To find repeats you only listen to the start of each sentence. **Call 2026-11-06 [0:30:06]** *"I just need to listen to the first part of the statement, because if it's a repetition, I know that it is the same thing."* Talking heads, especially clients reading from scripts, repeat themselves a lot [0:29:49].
+- Result [0:34:46]: the first time he listened to the full intro, it played clean, *"even though there are mistakes in the whole video."*
+
+### Call 2026-11-06: speed editing: clients value speed more than quality
+- **Call 2026-11-06 [0:24:34]** Speed editing is how fast you can edit a video, *"and the faster you are editing a video, the better you will be as a video editor. Why? Because clients value speed more than quality."* [0:24:52] *"If you can be helping me edit a video every day, I will appreciate it more than you spending two weeks editing one video just because it wants to be a banger."*
+- **Master your keyboard shortcuts** [0:25:05]. He has everything mapped to his keyboard and cuts without touching the mouse [0:25:55]. Listening to everything would take twice the time [0:25:30].
+- **Call 2026-11-06 [0:33:21]** *"The faster you edit, the more videos you have to edit, and the more videos you have to edit, the better you will be."* More portfolio, more to show, more of a professional. *"Stop fantasizing about perfection"* [0:33:33]; speed plus the basics makes you a better editor.
+- **Deadlines, his proof** [0:33:48–0:34:13]: *"Clients love guys that can hit deadlines."* *"My client used to give me extra anytime I hit a deadline."* *"It's difficult for video editors to be hitting deadlines."*
+
+### Call 2026-11-06: the more videos you edit, the better you are
+- **Call 2026-11-06 [0:57:07]** *"The more videos you edit, the better you are. That's the truth. There's no trick to this. You can watch every tutorial. You can attend every class."* [0:57:27] *"Some of us go a whole full week without editing. And you want to be a good video editor."*
 
 [[05-Knowledge/teachings/teachings-01-story-and-mindset|← Story and mindset]] · [[05-Knowledge/teachings/teachings-archive|Archive]] · [[05-Knowledge/teachings/teachings-03-tools-and-money|Tools and money to start →]]

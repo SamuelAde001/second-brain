@@ -2,7 +2,7 @@
 type: knowledge
 area: called-to-edit
 status: active
-updated: 2026-11-04
+updated: 2026-11-06
 source: interview
 tags: [teachings, called-to-edit, content-source, archive]
 ---
@@ -49,6 +49,7 @@ Read in order, or jump to the one you need. Each note has the teaching, the poin
 | Community call, Wed 2026-10-28, 8:00pm WAT | Onboarding Session, 1 h 13 min, Discord; transcript (Whisper, machine-made) | `C:\Users\repzy\Videos\Called to Edit Meetings\transcripts\Meeting 2026-10-28 20-00.txt` · [[05-Knowledge/teachings/calls/teachings-call-2026-10-28\|call note]] |
 | Community call, Sun 2026-11-01, 8:00pm WAT | Sunday Live Call, 1 h 14 min, Discord; transcript (Whisper, machine-made) | `C:\Users\repzy\Videos\Called to Edit Meetings\transcripts\Meeting 2026-11-01 20-00.txt` · [[05-Knowledge/teachings/calls/teachings-call-2026-11-01\|call note]] |
 | Community call, Wed 2026-11-04, 8:01pm WAT | Wednesday Live Call, 1 h 03 min, Discord; transcript (Whisper, machine-made) | `C:\Users\repzy\Videos\Called to Edit Meetings\transcripts\Meeting 2026-11-04 20-01.txt` · [[05-Knowledge/teachings/calls/teachings-call-2026-11-04\|call note]] |
+| Community call, Fri 2026-11-06, 8:12pm WAT | One-off Class for Beginners, 1 h 12 min, Discord; transcript (Whisper, machine-made) | `C:\Users\repzy\Videos\Called to Edit Meetings\transcripts\Meeting 2026-11-06 20-12.txt` · [[05-Knowledge/teachings/calls/teachings-call-2026-11-06\|call note]] |
 
 Times marked **Live [h:mm:ss]** are from the start of the OBS recording (it began at 19:05:49 WAT).
 
@@ -57,6 +58,7 @@ Times marked **Live [h:mm:ss]** are from the start of the OBS recording (it bega
 - 2026-10-28, Onboarding Session (1 h 13 min): the 60-day challenge, the Discord tour, and the formula *visibility + outreach + skill*; 8 items filed. [[05-Knowledge/teachings/calls/teachings-call-2026-10-28|Call note]]
 - 2026-11-01, Sunday Live Call (1 h 14 min): personal branding as documentation: the five core pillars of any skill, the five things to post, your story as your biggest asset, one main platform; 13 items filed. [[05-Knowledge/teachings/calls/teachings-call-2026-11-01|Call note]]
 - 2026-11-04, Wednesday Live Call (1 h 03 min): the eight steps in the journey of a video editor, the five things that get you clients and how they loop, public outreach, volume vs quality outreach, don't promise views yet; 15 items filed. [[05-Knowledge/teachings/calls/teachings-call-2026-11-04|Call note]]
+- 2026-11-06, One-off Class for Beginners (1 h 12 min): the basics of every edit (edit for the audience, removing the fluff, pacing, composition, sound design, sectioning), cutting by the waveform and speed editing, what to ask a client before you sign, pitching pain points and dreams; 14 items filed. [[05-Knowledge/teachings/calls/teachings-call-2026-11-06|Call note]]
 
 ## Adding to it
 
