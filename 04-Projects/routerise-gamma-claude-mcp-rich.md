@@ -95,3 +95,8 @@ Samuel, ~22:50: watch the cam download and resume it, put B-cam on the timeline 
   - no SFX pass yet;
   - RICH and WAY hold under 36 f because of his locked cuts at 81 and 285.
 - Live state: job `Docs\RUN STATE.md`.
+- **v6 final 2026-11-06 08:54 WAT:** `Renders\Final (Editor)\Claude + Gamma App MCP Will Make You Rich - visuals v6.mp4` (19,561 f, 1080p, 782.44 s, AAC with seam audio), plus a phone copy and a stills sheet sent to Samuel.
+  - Samuel's power cut at ~03:50 lost nothing.
+  - Kit fixes made on the way: `open_job.py` retries the Routerise folder while Resolve's list loads; seam_audio set to 25 fps in `Gamma kit (Editor)\final\`; the install list puts moved units first.
+  - The save step before a Resolve restart can hang. It needs a timeout in `render_chunks.sh`: open, not done.
+  - Not yet delivered: delivery is his call after his review.
