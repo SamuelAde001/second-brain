@@ -46,6 +46,7 @@ API = "https://discord.com/api/v10"
 OBS_EXE = Path(r"C:\Program Files\obs-studio\bin\64bit\obs64.exe")
 OBS_DIR = Path(os.environ["APPDATA"]) / "obs-studio"
 WS_CONFIG = OBS_DIR / "plugin_config" / "obs-websocket" / "config.json"
+SENTINEL_DIR = OBS_DIR / ".sentinel"         # OBS's "still running" markers
 PRESET = "Called to Edit Meeting"            # profile name and scene collection name
 PRESET_DIR = "Called_to_Edit_Meeting"        # profile folder and collection file stem
 BASE_PROFILE = "1080p_25_fps"                # copied, then changed
@@ -67,6 +68,7 @@ START_AFTER = 2      # live on this many checks in a row before recording
 STOP_AFTER = 4       # not live on this many checks in a row before stopping (1 min)
 MAX_HOURS = 4        # safety stop
 MIN_POST_MIN = 10    # shorter recordings are kept but not posted
+START_RETRY = 30     # seconds between tries when recording won't start (was 5 min; 2026-11-06)
 LOCK_PORT = 47655    # one watcher at a time
 
 
@@ -316,19 +318,59 @@ def last_obs_preset():
     return prof, coll
 
 
+def clear_stale_sentinels():
+    """OBS 31+ keeps a marker in .sentinel\\run_<id> while it runs and clears the folder on a clean exit. A marker
+    left by a crash or power cut makes the next launch stop on the "Crash or unclean shutdown detected" (Safe Mode)
+    box until someone clicks it; --disable-shutdown-check doesn't stop it in OBS 32. 2026-11-06: OBS left open since
+    Wednesday died in an unclean PC shutdown, and the next call lost its first 11 minutes to that box.
+    Only runs when no OBS is running, so every marker there is stale."""
+    if obs_running() or not SENTINEL_DIR.is_dir():
+        return 0
+    n = 0
+    for f in SENTINEL_DIR.glob("run_*"):
+        try:
+            f.unlink()
+            n += 1
+        except OSError as e:
+            log(f"Could not clear OBS marker {f.name}: {e}")
+    if n:
+        log(f"Cleared {n} stale OBS run marker(s) left by an unclean shutdown")
+    return n
+
+
+def obs_launch():
+    clear_stale_sentinels()
+    return subprocess.Popen([str(OBS_EXE), "--profile", PRESET, "--collection", PRESET, "--minimize-to-tray",
+                             "--disable-shutdown-check", "--disable-missing-files-check"], cwd=str(OBS_EXE.parent))
+
+
 def obs_open_on_preset():
     """Make OBS run on the meeting preset. Returns (client, previous_profile, previous_collection)."""
     if obs_running():
-        cl = obs_client(wait=10)
+        try:
+            cl = obs_client(wait=10)
+        except Exception:
+            raise RuntimeError("OBS is open but not answering, so it's probably showing a box. If it says "
+                               "\"Crash or unclean shutdown detected\", click Normal launch. If it says "
+                               "\"OBS is already running\", close the extra OBS")
         if cl.get_record_status().output_active:
             raise RuntimeError("OBS is already recording something else")
         prev_p = cl.get_profile_list().current_profile_name
         prev_c = cl.get_scene_collection_list().current_scene_collection_name
     else:
         prev_p, prev_c = last_obs_preset()
-        subprocess.Popen([str(OBS_EXE), "--profile", PRESET, "--collection", PRESET, "--minimize-to-tray",
-                          "--disable-shutdown-check", "--disable-missing-files-check"], cwd=str(OBS_EXE.parent))
-        cl = obs_client(wait=90)
+        proc = obs_launch()
+        try:
+            cl = obs_client(wait=60)
+        except Exception:
+            # The OBS we just opened isn't answering: stuck on a startup box. Nothing of his is in it,
+            # so close it, clear what it left, and open it once more.
+            log("The OBS I opened isn't answering after 60 s (a startup box?); closing it and opening it again")
+            proc.kill()
+            proc.wait(timeout=20)
+            time.sleep(2)
+            proc = obs_launch()
+            cl = obs_client(wait=60)
         time.sleep(3)
     if cl.get_scene_collection_list().current_scene_collection_name != PRESET:
         cl.set_current_scene_collection(PRESET)
@@ -359,29 +401,48 @@ def obs_stop(cl):
 
 # ---------- Drive ----------
 
-def drive_item(title, parent_title):
-    """Cloud id of a Drive item by name under a folder name, from Drive for desktop's own metadata (read-only copy)."""
+def _drive_db_rows(sql, params):
+    """Run a query on a read-only copy of each Drive for desktop account's metadata, yielding the rows per account.
+    The temp copy (~100 MB) is removed even when the copy fails, e.g. on a full disk."""
     for acct in DRIVEFS.iterdir():
         db = acct / "metadata_sqlite_db"
         if not db.exists():
             continue
         tmp = Path(tempfile.mkdtemp())
-        for suffix in ("", "-wal", "-shm"):
-            if (acct / ("metadata_sqlite_db" + suffix)).exists():
-                shutil.copy(acct / ("metadata_sqlite_db" + suffix), tmp)
-        con = sqlite3.connect(tmp / "metadata_sqlite_db")
         try:
-            rows = con.execute(
-                "select i.id from items i join stable_parents sp on sp.item_stable_id=i.stable_id "
-                "join items p on p.stable_id=sp.parent_stable_id "
-                "where i.local_title=? and p.local_title=? and i.trashed=0", (title, parent_title)).fetchall()
+            for suffix in ("", "-wal", "-shm"):
+                if (acct / ("metadata_sqlite_db" + suffix)).exists():
+                    shutil.copy(acct / ("metadata_sqlite_db" + suffix), tmp)
+            con = sqlite3.connect(tmp / "metadata_sqlite_db")
+            try:
+                rows = con.execute(sql, params).fetchall()
+            finally:
+                con.close()
         finally:
-            con.close()
             shutil.rmtree(tmp, ignore_errors=True)
+        yield rows
+
+
+def drive_item(title, parent_title):
+    """Cloud id of a Drive item by name under a folder name, from Drive for desktop's own metadata (read-only copy)."""
+    for rows in _drive_db_rows(
+            "select i.id from items i join stable_parents sp on sp.item_stable_id=i.stable_id "
+            "join items p on p.stable_id=sp.parent_stable_id "
+            "where i.local_title=? and p.local_title=? and i.trashed=0", (title, parent_title)):
         ids = [r[0] for r in rows if r[0] and not str(r[0]).startswith("local")]
         if ids:
             return ids[0]
     return None
+
+
+def drive_item_safe(title, parent_title):
+    """drive_item, but a passing error (full disk, Drive's db busy) is logged and counts as "not yet",
+    so a one-minute check can't end the whole publish. 2026-11-06: one failed copy on a full disk did."""
+    try:
+        return drive_item(title, parent_title)
+    except Exception as e:
+        log(f"Drive check failed, will try again: {e}")
+        return None
 
 
 def link_is_public(url):
@@ -409,7 +470,7 @@ def to_drive(local, title):
 def wait_for_link(dest, hours=8):
     end = time.time() + hours * 3600
     while time.time() < end:
-        fid = drive_item(dest.name, DRIVE_DIR.name)
+        fid = drive_item_safe(dest.name, DRIVE_DIR.name)
         if fid:
             url = f"https://drive.google.com/file/d/{fid}/view"
             if link_is_public(url):
@@ -421,7 +482,7 @@ def wait_for_link(dest, hours=8):
 
 
 def folder_link():
-    fid = drive_item(DRIVE_DIR.name, DRIVE_PARENT.name)
+    fid = drive_item_safe(DRIVE_DIR.name, DRIVE_PARENT.name)
     return f"https://drive.google.com/drive/folders/{fid}" if fid else None
 
 
@@ -429,25 +490,15 @@ def folder_link():
 
 def drive_uploaded(dest, local):
     """True when Drive for desktop has a cloud id for the copy and its size matches the local file."""
-    fid = drive_item(dest.name, DRIVE_DIR.name)
+    fid = drive_item_safe(dest.name, DRIVE_DIR.name)
     if not fid:
         return False
-    for acct in DRIVEFS.iterdir():
-        db = acct / "metadata_sqlite_db"
-        if not db.exists():
-            continue
-        tmp = Path(tempfile.mkdtemp())
-        for suffix in ("", "-wal", "-shm"):
-            if (acct / ("metadata_sqlite_db" + suffix)).exists():
-                shutil.copy(acct / ("metadata_sqlite_db" + suffix), tmp)
-        con = sqlite3.connect(tmp / "metadata_sqlite_db")
-        try:
-            row = con.execute("select file_size from items where id=?", (fid,)).fetchone()
-        finally:
-            con.close()
-            shutil.rmtree(tmp, ignore_errors=True)
-        if row and row[0] == local.stat().st_size:
-            return True
+    try:
+        for rows in _drive_db_rows("select file_size from items where id=?", (fid,)):
+            if rows and rows[0][0] == local.stat().st_size:
+                return True
+    except Exception as e:
+        log(f"Drive size check failed, will try again: {e}")
     return False
 
 
@@ -520,7 +571,15 @@ def publish(local, title, started=None):
             return
     job.join(timeout=3 * 3600)
     summary = result.get("summary")
-    post_recording(title, when, secs, url, folder_link(), summary)
+    for attempt in range(5):  # a Discord or network blip shouldn't lose the post
+        try:
+            post_recording(title, when, secs, url, folder_link(), summary)
+            break
+        except Exception as e:
+            if attempt == 4:
+                raise
+            log(f"Post failed ({e}); trying again in 2 minutes")
+            time.sleep(120)
     notes = result.get("notes") or []
     if not summary:
         dm_samuel(f"📼 **{title}** is posted in #call-recordings, but I couldn't write its summary or file it into "
@@ -605,6 +664,8 @@ def run():
 
 def start_recording(title, chan):
     log(f"Call live: {title}. Starting recording.")
+    before = load_state()
+    failed_before = before.get("failed_title") == title and time.time() - before.get("failed_ts", 0) < 6 * 3600
     try:
         cl, prev_p, prev_c = obs_open_on_preset()
         cl.start_record()
@@ -613,15 +674,20 @@ def start_recording(title, chan):
             raise RuntimeError("OBS did not start recording")
     except Exception as e:
         log(f"Could not start recording: {e}")
-        dm_samuel(f"⚠️ **{title}** is live but I couldn't start the recording ({e}). "
-                  "Open OBS, pick the \"Called to Edit Meeting\" profile and scene collection, and press Start Recording.")
-        save_state({"recording": False, "failed_title": title})
-        time.sleep(300)  # don't retry every 15 s
+        if not failed_before:  # one DM per call, not one per try
+            dm_samuel(f"⚠️ **{title}** is live but I couldn't start the recording ({e}). "
+                      f"I'll keep trying every {START_RETRY} seconds. If you'd rather not wait: open OBS, pick the "
+                      "\"Called to Edit Meeting\" profile and scene collection, and press Start Recording.")
+        save_state({"recording": False, "failed_title": title,
+                    "failed_ts": before.get("failed_ts") if failed_before else time.time()})
+        time.sleep(START_RETRY)
         return
     keep_awake(True)
     save_state({"recording": True, "title": title, "channel": chan, "started_ts": time.time(),
                 "started": datetime.now().isoformat(timespec="seconds"), "prev_profile": prev_p, "prev_collection": prev_c})
     log("Recording.")
+    if failed_before:
+        dm_samuel(f"✅ The recording of **{title}** has started now.")
 
 
 def stop_recording():
