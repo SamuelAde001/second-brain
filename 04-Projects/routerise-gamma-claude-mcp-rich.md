@@ -129,10 +129,10 @@ Samuel, ~22:50: watch the cam download and resume it, put B-cam on the timeline 
 
 ## v7b: no fades + sound (Editor, 2026-11-06 evening)
 - **Samuel on v7, ~18:30:** *"So this video is perfect, very, very perfect. I love it. Except for the fact that you are adding fade in and fade out"*. He also asked for the typo fix and the music and SFX, exported before 19:00 for the client.
-- **Fixes:** `Docsinish v6
+- **Fixes:** `Docs\finish v6
 ofade_v7.py` on Visuals v7 (Editor). The scene-level fades are PassThrough on 23 motion-graphic comps and 6 V5 adjustment clips over them. The 4 dissolves are deleted. OPPORTUNITY is fixed in his 38-81 comp. New rule C2.49.
 - **Re-render:** only the 42 changed windows (1,602 f, `render_windows.py`). Resolve crashed once at window 23; one half-written window was re-rendered. The windows were spliced into the v7 render frame-exact with ffmpeg (`splice_v7b.py`).
-- **Sound:** `Docsinish v6\sound\quick_mix.py`, offline.
+- **Sound:** `Docs\finish v6\sound\quick_mix.py`, offline.
   - Music: video 4's songs in order, one per section, at his levels (10 songs, Last Odyssey -41.9 on the close).
   - SFX: 98 from the #3 palette (7.5 a minute; 6 low hits).
   - Voice: the v7 seam audio as rendered. Not placed on the Resolve timeline: A2+ on Visuals v7 are still empty.
