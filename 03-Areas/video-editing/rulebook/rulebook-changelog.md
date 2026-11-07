@@ -160,5 +160,6 @@ Append-only. One line per change: date · rule number · what changed · Samuel'
 - 2026-11-06 · C4.46 · ✏️ always bottom, small pills too. *"Yes, always bottom"*
 - 2026-11-06 · C1.53 · ✏️ Correction: 'NeoBevel depth' taken out. It clashed with his approved B2.24 / B3.42 (NeoBevel off for playback). That was the Editor's wording, not his. Depth now comes from glass, light and shadow.
 - 2026-11-06 · C2.49 · ➕ Full-screen motion graphics cut in and out, with no fades or dissolves (Samuel, on v7). C2.48 now points to it. The Editor's 4 dissolves on v7 were removed.
+- 2026-11-07 · K5 · ➕ new client overlay for Lewis Mountstephens (Route Rise CEO), from Samuel's 44 verdicts on the v1_4 reference study and his premium list. *"anything I have approved here stays for this client lewis"*. Open: Q-K5.a (Neo Bevel vs B3.43), Q-K5.b (mockery), Q-K5.c (rate).
 
 Back to [[03-Areas/video-editing/rulebook/rulebook|Rulebook]]

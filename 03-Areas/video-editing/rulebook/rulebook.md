@@ -94,6 +94,7 @@ Badges on every rule: ✅ Samuel said it · 🔁 he said it more than once · �
 | K2 | [[03-Areas/video-editing/rulebook/rb-k2-alex-frontal\|Alex / Frontal]] | **approved 2026-11-05** |
 | K3 | [[03-Areas/video-editing/rulebook/rb-k3-gamma\|Gamma]] | **approved 2026-11-05** |
 | K4 | [[03-Areas/video-editing/rulebook/rb-k4-new-client\|New client template]] | **approved 2026-11-05** |
+| K5 | [[03-Areas/video-editing/rulebook/rb-k5-lewis\|Lewis Mountstephens]] | built 2026-11-07, waits for ✔ |
 | H | [[03-Areas/video-editing/rulebook/rb-videos-history\|Every video so far]] | reference |
 
 ## How the review works

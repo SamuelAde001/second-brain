@@ -2,7 +2,7 @@
 type: project
 area: video-editing
 status: active
-updated: 2026-11-06
+updated: 2026-11-07
 source: manual
 tags: [client, routerise, lewis, long-form]
 ---
@@ -39,9 +39,12 @@ Hook → Lesson 1 copying outliers (3 Cs) → Lesson 2 niche channels → Lesson
 - Next: Samuel's verdicts → finish the silence pass on 0029/0030 when Resolve is free → retake removal → cut for his approval → per-sentence visual plan and 3-4 hero frames.
 - 2026-11-07 (Editor): Samuel's verdicts are in (44 findings; rejected B15 FX on A-roll, C8 light page, D2; the rest kept, some with notes). His premium list and plugin rules came with them. Resolve was still on the Gamma project ("3. Claude + Gamma App MCP Will Make You Rich") at 2026-11-07, so it was not driven.
 
+- 2026-11-07 (Editor): **Lewis overlay written**: [[03-Areas/video-editing/rulebook/rb-k5-lewis|K5 Lewis]] (37 rules from the verdicts, his notes word for word, the premium list, the NeoTextMotion features read from his installed fuse: Counter, Write On, Scramble, Box Reveal, 4 character-style ranges, built-in shadow/glow/shine). Client note [[03-Areas/video-editing/clients/lewis|Lewis]]. Open: Q-K5.a Neo Bevel vs B3.43, Q-K5.b mockery, Q-K5.c rate.
+- 2026-11-07 (Editor): **paper edit** in `Docs\Paper edit - take picks (Editor).md`: all 159 script lines located in the raws (155 by `scripts/paper_edit.py`, 4 by hand), the last full take of each picked; 25 LOW and 5 LONG picks to check by ear; about 25 min of speech before trims. Lewis's directions in the raws listed there: crop out the clothes rack on the right (0029 0:00), J-cuts, sharp grade, cover the 0031 camera switch with an animation, JP's channel as the animation (0030 10:28). Resolve still on the Gamma project, not driven.
+
 ## RESUME (2026-11-07, before compaction)
 
 - **Done:** raws downloaded and transcribed; 0031 silence pass; reference study + verdicts; Neo plugins located (`Fuses\Neo TextMotion.fuse`, `Macros\Neo folder\`, `Macros\My macros\`, `Macros\Neo Texts\`).
-- **Next step:** write the Lewis client overlay (rulebook K5) from the verdicts and premium list → retake/misspeak list from the transcripts → when Gamma frees Resolve, silence pass on 0029 then 0030 (one file per run) → retakes → Cut v1 for review.
+- **Next step (updated after the overlay and paper edit):** when Gamma frees Resolve, silence pass on 0029 then 0030 (one file per run) → retakes → Cut v1 for review.
 - **Open decisions:** Neo Bevel: rulebook B3.43 says off, Samuel now says "when needed, use sparringly" (flag, Lewis only?). Rate still needs-input.
 - **Samuel's latest words:** *"don't forget to use my tools plugins and macros espectially neo text motion, neo anim, neo glow … make sure that the nodes are arranged vertically the way I do it … anything I have approved here stays for this client lewis … prep what needs to be prepped and wait for gamma to use Davinci resolve so we can finish the cuts and I can then review"*.
