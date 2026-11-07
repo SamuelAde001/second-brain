@@ -13,11 +13,13 @@ Tella: pass the export's signed downloadUrl (see the Routerise job setup SOP). S
 import json, os, sys, threading, time, urllib.request
 
 CHUNK = 64 * 1024 * 1024
+# Frame.io's asset CDN answers 403 to the default Python-urllib agent (2026-11-06).
+UA = "curl/8.0"
 URL = "https://drive.usercontent.google.com/download?id={}&export=download&confirm=t"
 
 
 def size_of(url):
-    req = urllib.request.Request(url, headers={"Range": "bytes=0-0"})
+    req = urllib.request.Request(url, headers={"Range": "bytes=0-0", "User-Agent": UA})
     with urllib.request.urlopen(req, timeout=60) as r:
         cr = r.headers.get("Content-Range")  # bytes 0-0/TOTAL
         if not cr:
@@ -56,7 +58,7 @@ def main():
             start, end = i * CHUNK, min(total, (i + 1) * CHUNK) - 1
             for attempt in range(8):
                 try:
-                    req = urllib.request.Request(url, headers={"Range": f"bytes={start}-{end}"})
+                    req = urllib.request.Request(url, headers={"Range": f"bytes={start}-{end}", "User-Agent": UA})
                     with urllib.request.urlopen(req, timeout=120) as r, open(part, "r+b") as f:
                         f.seek(start)
                         pos = start
