@@ -138,3 +138,8 @@ ofade_v7.py` on Visuals v7 (Editor). The scene-level fades are PassThrough on 23
   - Voice: the v7 seam audio as rendered. Not placed on the Resolve timeline: A2+ on Visuals v7 are still empty.
 - **Final 19:11 WAT:** `Renders\Final (Editor)\Claude + Gamma App MCP Will Make You Rich - visuals v7b sound.mp4` (19,561 f, 782.44 s, AAC 320k). The phone copy was sent to Samuel. Delivery to the client is his.
 - **Open:** the sound is in the file only. If he wants it editable in Resolve, `quick_plan.json` can be placed on A2+. Loudness has not been mastered to -16 LUFS.
+
+
+## v8: Route Rise CD corrections (2026-11-07, in progress)
+
+Samuel, 2026-11-07: *"I need all the background to be more darker and the motion graphics to stand out ... and the sound on the timeline and when done, export it in 4k"*. CD's 7 Frame.io notes on v7b (mic crispness, song change at 0:23, glitch at 1:05, blurry at 4:10, blur the name Casey, touch-ups, visuals blending because all the same colour). Work on timeline *Visuals v8 (Editor)* (copy of v7). Done so far: darker ground and lit boxes on the 25 full-screen comps (`Docs/finish v6/look_v8_apply.py`, originals backed up), the 1:05 glitch (a text comp's A-roll transform showed a black strip), hi-res recapture of the Gamma doc for the 4:10 plate. Live state: the job's `Docs/RUN STATE.md` (RESUME v8).
