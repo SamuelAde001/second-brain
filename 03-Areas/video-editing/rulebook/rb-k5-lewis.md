@@ -55,7 +55,7 @@ section: K5
 
 ### Premium (Samuel's list, 2026-11-07)
 - **K5.27** NeoLightSweep Pro on every box for the glossy feel (static sheen, values in [[03-Areas/video-editing/rulebook/rb-b3-main-nodes-and-macros|B3.29]]). ✅ *"Neolightsweep on any box, just to give that glossy feel"*
-- **K5.28** Neo Bevel when needed, sparingly, so the PC is not overworked. ✅ *"Neo bevel when needed, use sparringly so it doesn't overwork the PC"* ⚠ B3.42-B3.43 and B2.24 say NeoBevel stays off in every comp: Q-K5.a.
+- **K5.28** Neo Bevel on 1-2 hero elements per comp at most, off (PassThrough) everywhere else, so the PC is not overworked. For Lewis this replaces B3.42-B3.43 and B2.24 (bevel off in every comp). ✅ *"Neo bevel when needed, use sparringly so it doesn't overwork the PC"*; Q-K5.a → *"Yes, 1-2 heroes"* (2026-11-07)
 - **K5.29** Shines only when needed, not on every element. ✅ *"Shines, only when needed, not on every element"*
 - **K5.30** Glass once in a while where needed (his `Glass effect` macro). ✅ *"Glass could be also use once a while where needed"*
 - **K5.31** Icons are solid (filled), never outline. ✅ *"Icons should be solid"*
@@ -71,7 +71,7 @@ section: K5
 - **K5.37** Never Text+, never Soft Glow, never a zoom keyed on the A-roll clip itself. ❌ (K5.11, K5.17, K5.19)
 
 ## Questions for Samuel
-- **Q-K5.a** Neo Bevel. The rulebook says off in every comp (B3.43, *"just disable all the neo bevel nodes in all the visuals and comps"*, 2026-10-23). Now: *"Neo bevel when needed, use sparringly"*. → Options: (1) for Lewis, on for 1-2 hero elements per comp at most, off everywhere else; (2) keep it off as B3.43 says. My pick: (1).
+- **Q-K5.a** Neo Bevel. The rulebook says off in every comp (B3.43, *"just disable all the neo bevel nodes in all the visuals and comps"*, 2026-10-23). Now: *"Neo bevel when needed, use sparringly"*. → Options: (1) for Lewis, on for 1-2 hero elements per comp at most, off everywhere else; (2) keep it off as B3.43 says. My pick: (1). → Samuel: (1), *"Yes, 1-2 heroes"* (2026-11-07).
 - **Q-K5.b** Mockery. You kept C9 (mockery as a device) and F8, which proposed dropping the clown wig. → Options: (1) keep mockery, but in the black/gold look, no clown wig; (2) keep the clown wig too. My pick: (1).
 - **Q-K5.c** Rate for Lewis's videos. Needs-input (K1.2).
 
